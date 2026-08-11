@@ -1,0 +1,1031 @@
+[
+ {
+  "id": "mdx-007",
+  "question": "The powerhouse of the cell is the:",
+  "optionA": "mitochondrion",
+  "optionB": "nucleus",
+  "optionC": "ribosome",
+  "optionD": "golgi body",
+  "correctAnswer": "A",
+  "detailedExplanation": "Mitochondria generate ATP through cellular respiration.",
+  "difficulty": "easy",
+  "subject": "mdcat",
+  "chapter": "mdcat-mdcat-biology",
+  "topic": "t-688",
+  "subtopic": "fundamentals",
+  "exam": [
+   "mdcat"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "mdcat",
+   "biology"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "mdx-008",
+  "question": "DNA replication is described as:",
+  "optionA": "semi-conservative",
+  "optionB": "conservative",
+  "optionC": "dispersive only",
+  "optionD": "random",
+  "correctAnswer": "A",
+  "detailedExplanation": "Each new DNA molecule keeps one parental strand, so replication is semi-conservative.",
+  "difficulty": "medium",
+  "subject": "mdcat",
+  "chapter": "mdcat-mdcat-biology",
+  "topic": "t-688",
+  "subtopic": "fundamentals",
+  "exam": [
+   "mdcat"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "mdcat",
+   "biology"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "mdx-009",
+  "question": "Which hormone regulates blood glucose?",
+  "optionA": "insulin",
+  "optionB": "thyroxine",
+  "optionC": "melatonin",
+  "optionD": "testosterone",
+  "correctAnswer": "A",
+  "detailedExplanation": "Insulin lowers blood glucose; glucagon raises it.",
+  "difficulty": "medium",
+  "subject": "mdcat",
+  "chapter": "mdcat-mdcat-biology",
+  "topic": "t-689",
+  "subtopic": "fundamentals",
+  "exam": [
+   "mdcat"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "mdcat",
+   "physiology"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "mdx-010",
+  "question": "The general formula of alkanes is:",
+  "optionA": "CnH2n+2",
+  "optionB": "CnH2n",
+  "optionC": "CnH2n-2",
+  "optionD": "CnHn",
+  "correctAnswer": "A",
+  "detailedExplanation": "Alkanes are saturated hydrocarbons with formula CnH2n+2.",
+  "difficulty": "medium",
+  "subject": "mdcat",
+  "chapter": "mdcat-mdcat-chemistry-physics",
+  "topic": "t-690",
+  "subtopic": "fundamentals",
+  "exam": [
+   "mdcat"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "mdcat",
+   "chemistry"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "mdx-011",
+  "question": "Newton's second law states:",
+  "optionA": "F = ma",
+  "optionB": "F = mv",
+  "optionC": "F = m/a",
+  "optionD": "F = v/a",
+  "correctAnswer": "A",
+  "detailedExplanation": "Force equals mass times acceleration.",
+  "difficulty": "medium",
+  "subject": "mdcat",
+  "chapter": "mdcat-mdcat-chemistry-physics",
+  "topic": "t-691",
+  "subtopic": "fundamentals",
+  "exam": [
+   "mdcat"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "mdcat",
+   "physics"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "mdx-012",
+  "question": "The SI unit of electric current is the:",
+  "optionA": "ampere",
+  "optionB": "volt",
+  "optionC": "ohm",
+  "optionD": "watt",
+  "correctAnswer": "A",
+  "detailedExplanation": "Current is measured in amperes; volts measure potential difference.",
+  "difficulty": "easy",
+  "subject": "mdcat",
+  "chapter": "mdcat-mdcat-chemistry-physics",
+  "topic": "t-691",
+  "subtopic": "fundamentals",
+  "exam": [
+   "mdcat"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "mdcat",
+   "physics"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "ect-006",
+  "question": "If f(x) = 2x + 3, then f(4) = ?",
+  "optionA": "11",
+  "optionB": "8",
+  "optionC": "10",
+  "optionD": "14",
+  "correctAnswer": "A",
+  "detailedExplanation": "f(4) = 2(4) + 3 = 11.",
+  "difficulty": "easy",
+  "subject": "ecat",
+  "chapter": "ecat-ecat-mathematics",
+  "topic": "t-692",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ecat"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "ecat",
+   "math"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "ect-007",
+  "question": "The roots of x^2 - 5x + 6 = 0 are:",
+  "optionA": "2 and 3",
+  "optionB": "1 and 6",
+  "optionC": "-2 and -3",
+  "optionD": "5 and 6",
+  "correctAnswer": "A",
+  "detailedExplanation": "(x-2)(x-3) = 0 gives roots 2 and 3.",
+  "difficulty": "medium",
+  "subject": "ecat",
+  "chapter": "ecat-ecat-mathematics",
+  "topic": "t-692",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ecat"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "ecat",
+   "math"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "ect-008",
+  "question": "The derivative of x^3 is:",
+  "optionA": "3x^2",
+  "optionB": "x^2",
+  "optionC": "3x",
+  "optionD": "x^4",
+  "correctAnswer": "A",
+  "detailedExplanation": "d/dx (x^n) = n x^(n-1), so x^3 differentiates to 3x^2.",
+  "difficulty": "medium",
+  "subject": "ecat",
+  "chapter": "ecat-ecat-mathematics",
+  "topic": "t-693",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ecat"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "ecat",
+   "calculus"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "ect-009",
+  "question": "The SI unit of force is the:",
+  "optionA": "newton",
+  "optionB": "joule",
+  "optionC": "pascal",
+  "optionD": "watt",
+  "correctAnswer": "A",
+  "detailedExplanation": "Force is measured in newtons; joule is energy, pascal pressure.",
+  "difficulty": "medium",
+  "subject": "ecat",
+  "chapter": "ecat-ecat-physics-chemistry",
+  "topic": "t-694",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ecat"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "ecat",
+   "physics"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "ect-010",
+  "question": "Avogadro's number is approximately:",
+  "optionA": "6.022 x 10^23",
+  "optionB": "3.14 x 10^10",
+  "optionC": "9.8 x 10^2",
+  "optionD": "1.6 x 10^-19",
+  "correctAnswer": "A",
+  "detailedExplanation": "One mole contains about 6.022 x 10^23 particles.",
+  "difficulty": "medium",
+  "subject": "ecat",
+  "chapter": "ecat-ecat-physics-chemistry",
+  "topic": "t-695",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ecat"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "ecat",
+   "chemistry"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "lat-006",
+  "question": "Which sentence is grammatically correct?",
+  "optionA": "He did not went to school.",
+  "optionB": "He did not go to school.",
+  "optionC": "He did not gone to school.",
+  "optionD": "He do not go to school.",
+  "correctAnswer": "B",
+  "detailedExplanation": "After the auxiliary 'did', the base verb 'go' is used.",
+  "difficulty": "easy",
+  "subject": "lat",
+  "chapter": "lat-lat-english",
+  "topic": "t-696",
+  "subtopic": "fundamentals",
+  "exam": [
+   "lat"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "lat",
+   "english"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "lat-007",
+  "question": "The synonym of 'brief' is:",
+  "optionA": "short",
+  "optionB": "long",
+  "optionC": "bright",
+  "optionD": "heavy",
+  "correctAnswer": "A",
+  "detailedExplanation": "Brief means short in duration or length.",
+  "difficulty": "medium",
+  "subject": "lat",
+  "chapter": "lat-lat-english",
+  "topic": "t-696",
+  "subtopic": "fundamentals",
+  "exam": [
+   "lat"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "lat",
+   "english"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "lat-008",
+  "question": "A good essay introduction should:",
+  "optionA": "state the thesis clearly",
+  "optionB": "be as long as the body",
+  "optionC": "skip the topic",
+  "optionD": "include citations only",
+  "correctAnswer": "A",
+  "detailedExplanation": "An introduction presents the topic and thesis to guide the essay.",
+  "difficulty": "medium",
+  "subject": "lat",
+  "chapter": "lat-lat-english",
+  "topic": "t-697",
+  "subtopic": "fundamentals",
+  "exam": [
+   "lat"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "lat",
+   "essay"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "lat-009",
+  "question": "The Holy Quran was revealed to Prophet Muhammad (PBUH) over approximately:",
+  "optionA": "23 years",
+  "optionB": "10 years",
+  "optionC": "40 years",
+  "optionD": "5 years",
+  "correctAnswer": "A",
+  "detailedExplanation": "Revelation spanned about 23 years, beginning in 610 CE.",
+  "difficulty": "easy",
+  "subject": "lat",
+  "chapter": "lat-lat-islamic-studies-gk",
+  "topic": "t-698",
+  "subtopic": "fundamentals",
+  "exam": [
+   "lat"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "lat",
+   "islamic"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "lat-010",
+  "question": "Pakistan's national language is:",
+  "optionA": "Urdu",
+  "optionB": "English",
+  "optionC": "Punjabi",
+  "optionD": "Pashto",
+  "correctAnswer": "A",
+  "detailedExplanation": "Urdu is the national language; English is the official language.",
+  "difficulty": "easy",
+  "subject": "lat",
+  "chapter": "lat-lat-islamic-studies-gk",
+  "topic": "t-699",
+  "subtopic": "fundamentals",
+  "exam": [
+   "lat"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "lat",
+   "gk"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "gat-006",
+  "question": "If 25% of a number is 40, the number is:",
+  "optionA": "160",
+  "optionB": "100",
+  "optionC": "80",
+  "optionD": "120",
+  "correctAnswer": "A",
+  "detailedExplanation": "0.25x = 40 -> x = 160.",
+  "difficulty": "easy",
+  "subject": "gat",
+  "chapter": "gat-gat-quantitative",
+  "topic": "t-700",
+  "subtopic": "fundamentals",
+  "exam": [
+   "gat"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "gat",
+   "quant"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "gat-007",
+  "question": "Solve: 3x + 5 = 20. x = ?",
+  "optionA": "5",
+  "optionB": "6",
+  "optionC": "4",
+  "optionD": "15",
+  "correctAnswer": "A",
+  "detailedExplanation": "Subtract 5 from both sides to get 3x = 15, then divide by 3: x = 5.",
+  "difficulty": "medium",
+  "subject": "gat",
+  "chapter": "gat-gat-quantitative",
+  "topic": "t-700",
+  "subtopic": "fundamentals",
+  "exam": [
+   "gat"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "gat",
+   "quant"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "gat-008",
+  "question": "To find the area of a rectangle you need:",
+  "optionA": "length and width",
+  "optionB": "perimeter only",
+  "optionC": "diagonal only",
+  "optionD": "angle only",
+  "correctAnswer": "A",
+  "detailedExplanation": "Area = length x width, so both dimensions are required.",
+  "difficulty": "medium",
+  "subject": "gat",
+  "chapter": "gat-gat-quantitative",
+  "topic": "t-701",
+  "subtopic": "fundamentals",
+  "exam": [
+   "gat"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "gat",
+   "quant"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "gat-009",
+  "question": "The main idea of a passage is usually found:",
+  "optionA": "in the topic sentence or thesis",
+  "optionB": "only in the last word",
+  "optionC": "in the title only",
+  "optionD": "hidden in punctuation",
+  "correctAnswer": "A",
+  "detailedExplanation": "Passages state the main idea early, often in the first sentence.",
+  "difficulty": "medium",
+  "subject": "gat",
+  "chapter": "gat-gat-verbal",
+  "topic": "t-702",
+  "subtopic": "fundamentals",
+  "exam": [
+   "gat"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "gat",
+   "verbal"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "gat-010",
+  "question": "A 'weak argument' in critical reasoning typically:",
+  "optionA": "has little logical support for its claim",
+  "optionB": "is always false",
+  "optionC": "contains no words",
+  "optionD": "uses only numbers",
+  "correctAnswer": "A",
+  "detailedExplanation": "Weak arguments fail to support their conclusions with sound evidence.",
+  "difficulty": "hard",
+  "subject": "gat",
+  "chapter": "gat-gat-verbal",
+  "topic": "t-703",
+  "subtopic": "fundamentals",
+  "exam": [
+   "gat"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "gat",
+   "verbal"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "gre-006",
+  "question": "Choose the word that best completes: 'Despite his ___ speech, the audience remained unconvinced.'",
+  "optionA": "eloquent",
+  "optionB": "incoherent only",
+  "optionC": "quiet",
+  "optionD": "brief",
+  "correctAnswer": "A",
+  "detailedExplanation": "Eloquent (fluent and persuasive) fits the contrast with the audience's reaction.",
+  "difficulty": "medium",
+  "subject": "gre",
+  "chapter": "gre-gre-verbal",
+  "topic": "t-704",
+  "subtopic": "fundamentals",
+  "exam": [
+   "gre"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "gre",
+   "verbal"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "gre-007",
+  "question": "Choose two words that complete the sentence with similar meaning: 'The results were entirely ___; no one predicted them.'",
+  "optionA": "unexpected",
+  "optionB": "predictable",
+  "optionC": "typical",
+  "optionD": "astonishing",
+  "correctAnswer": "A",
+  "detailedExplanation": "Unexpected and astonishing both convey surprise, matching 'no one predicted them'.",
+  "difficulty": "medium",
+  "subject": "gre",
+  "chapter": "gre-gre-verbal",
+  "topic": "t-705",
+  "subtopic": "fundamentals",
+  "exam": [
+   "gre"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "gre",
+   "verbal"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "gre-008",
+  "question": "What is 30% of 90?",
+  "optionA": "27",
+  "optionB": "30",
+  "optionC": "25",
+  "optionD": "35",
+  "correctAnswer": "A",
+  "detailedExplanation": "Percentages are fractions of 100, so 30% of 90 equals 90 x 0.30 = 27.",
+  "difficulty": "easy",
+  "subject": "gre",
+  "chapter": "gre-gre-quant",
+  "topic": "t-706",
+  "subtopic": "fundamentals",
+  "exam": [
+   "gre"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "gre",
+   "quant"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "gre-009",
+  "question": "The area of a circle with radius 7 is closest to:",
+  "optionA": "154",
+  "optionB": "49",
+  "optionC": "44",
+  "optionD": "88",
+  "correctAnswer": "A",
+  "detailedExplanation": "Area = pi x r^2 = pi x 49, which is approximately 154.",
+  "difficulty": "medium",
+  "subject": "gre",
+  "chapter": "gre-gre-quant",
+  "topic": "t-707",
+  "subtopic": "fundamentals",
+  "exam": [
+   "gre"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "gre",
+   "quant"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "gre-010",
+  "question": "If the ratio of two numbers is 3:5 and their sum is 40, the smaller number is:",
+  "optionA": "15",
+  "optionB": "25",
+  "optionC": "12",
+  "optionD": "18",
+  "correctAnswer": "A",
+  "detailedExplanation": "3x + 5x = 40 -> x = 5, smaller = 15.",
+  "difficulty": "hard",
+  "subject": "gre",
+  "chapter": "gre-gre-quant",
+  "topic": "t-707",
+  "subtopic": "fundamentals",
+  "exam": [
+   "gre"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "gre",
+   "quant"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "iel-006",
+  "question": "In the IELTS listening test, answers are marked correct if they are:",
+  "optionA": "spelled correctly",
+  "optionB": "phonetically similar",
+  "optionC": "in any language",
+  "optionD": "guesswork",
+  "correctAnswer": "A",
+  "detailedExplanation": "Spelling counts; British and American spellings are both accepted.",
+  "difficulty": "easy",
+  "subject": "ielts",
+  "chapter": "ielts-ielts-listening-speaking",
+  "topic": "t-708",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ielts"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "ielts"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "iel-007",
+  "question": "During listening, it is best to:",
+  "optionA": "read ahead and predict answers",
+  "optionB": "write every word",
+  "optionC": "ignore the questions",
+  "optionD": "pause the audio",
+  "correctAnswer": "A",
+  "detailedExplanation": "Previewing questions helps you anticipate what to listen for.",
+  "difficulty": "medium",
+  "subject": "ielts",
+  "chapter": "ielts-ielts-listening-speaking",
+  "topic": "t-708",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ielts"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "ielts"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "iel-008",
+  "question": "'Skimming' a passage means:",
+  "optionA": "reading quickly for the general idea",
+  "optionB": "reading word by word",
+  "optionC": "reading only the last line",
+  "optionD": "skipping the passage",
+  "correctAnswer": "A",
+  "detailedExplanation": "Skimming gives an overview; scanning looks for specific facts.",
+  "difficulty": "medium",
+  "subject": "ielts",
+  "chapter": "ielts-ielts-reading-writing",
+  "topic": "t-710",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ielts"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "ielts"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "iel-009",
+  "question": "IELTS Writing Task 1 (Academic) asks you to:",
+  "optionA": "summarize visual information",
+  "optionB": "write a story",
+  "optionC": "memorize an essay",
+  "optionD": "translate a poem",
+  "correctAnswer": "A",
+  "detailedExplanation": "Task 1 reports data from charts, graphs, tables or diagrams.",
+  "difficulty": "hard",
+  "subject": "ielts",
+  "chapter": "ielts-ielts-reading-writing",
+  "topic": "t-711",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ielts"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "ielts"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "iel-010",
+  "question": "In the IELTS speaking test, Part 2 requires:",
+  "optionA": "a 1-2 minute talk on a cue card",
+  "optionB": "a debate",
+  "optionC": "a written essay",
+  "optionD": "a grammar test",
+  "correctAnswer": "A",
+  "detailedExplanation": "Part 2 is a long turn: prepare and speak about a given topic.",
+  "difficulty": "medium",
+  "subject": "ielts",
+  "chapter": "ielts-ielts-listening-speaking",
+  "topic": "t-709",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ielts"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "ielts"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "tfl-005",
+  "question": "The TOEFL reading section uses passages from:",
+  "optionA": "academic texts",
+  "optionB": "comic books",
+  "optionC": "text messages",
+  "optionD": "song lyrics",
+  "correctAnswer": "A",
+  "detailedExplanation": "TOEFL reading draws on university-level academic material.",
+  "difficulty": "easy",
+  "subject": "toefl",
+  "chapter": "toefl-toefl-reading-listening",
+  "topic": "t-712",
+  "subtopic": "fundamentals",
+  "exam": [
+   "toefl"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "toefl"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "tfl-006",
+  "question": "Inference questions ask you to:",
+  "optionA": "draw a conclusion not directly stated",
+  "optionB": "copy a sentence",
+  "optionC": "count words",
+  "optionD": "choose a synonym only",
+  "correctAnswer": "A",
+  "detailedExplanation": "Inference items require reading between the lines.",
+  "difficulty": "medium",
+  "subject": "toefl",
+  "chapter": "toefl-toefl-reading-listening",
+  "topic": "t-712",
+  "subtopic": "fundamentals",
+  "exam": [
+   "toefl"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "toefl"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "tfl-007",
+  "question": "In TOEFL listening, lectures often include:",
+  "optionA": "examples and digressions",
+  "optionB": "only definitions",
+  "optionC": "no structure",
+  "optionD": "multiple-choice audio",
+  "correctAnswer": "A",
+  "detailedExplanation": "Lectures mix main points with examples the questions test.",
+  "difficulty": "medium",
+  "subject": "toefl",
+  "chapter": "toefl-toefl-reading-listening",
+  "topic": "t-713",
+  "subtopic": "fundamentals",
+  "exam": [
+   "toefl"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "toefl"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "tfl-008",
+  "question": "The integrated writing task combines:",
+  "optionA": "reading, listening and writing",
+  "optionB": "speaking and math",
+  "optionC": "grammar and spelling only",
+  "optionD": "typing speed",
+  "correctAnswer": "A",
+  "detailedExplanation": "You read a passage, hear a lecture, then summarize the relationship.",
+  "difficulty": "hard",
+  "subject": "toefl",
+  "chapter": "toefl-toefl-speaking-writing",
+  "topic": "t-715",
+  "subtopic": "fundamentals",
+  "exam": [
+   "toefl"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "toefl"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "sat-006",
+  "question": "SAT reading questions often ask about:",
+  "optionA": "the author's purpose and evidence",
+  "optionB": "only vocabulary spellings",
+  "optionC": "word counts",
+  "optionD": "page numbers",
+  "correctAnswer": "A",
+  "detailedExplanation": "The SAT tests purpose, evidence and reasoning in passages.",
+  "difficulty": "easy",
+  "subject": "sat",
+  "chapter": "sat-sat-reading-writing",
+  "topic": "t-716",
+  "subtopic": "fundamentals",
+  "exam": [
+   "sat"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "sat"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "sat-007",
+  "question": "In SAT Writing, you must choose the answer that:",
+  "optionA": "is grammatically correct and concise",
+  "optionB": "sounds the most scientific",
+  "optionC": "has the most commas",
+  "optionD": "repeats the sentence",
+  "correctAnswer": "A",
+  "detailedExplanation": "Correctness, clarity and concision are rewarded.",
+  "difficulty": "medium",
+  "subject": "sat",
+  "chapter": "sat-sat-reading-writing",
+  "topic": "t-717",
+  "subtopic": "fundamentals",
+  "exam": [
+   "sat"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "sat"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "sat-008",
+  "question": "If 2x + 6 = 14, then x = ?",
+  "optionA": "4",
+  "optionB": "3",
+  "optionC": "5",
+  "optionD": "6",
+  "correctAnswer": "A",
+  "detailedExplanation": "Subtract 6 from both sides: 2x = 8; dividing by 2 gives x = 4.",
+  "difficulty": "easy",
+  "subject": "sat",
+  "chapter": "sat-sat-math",
+  "topic": "t-718",
+  "subtopic": "fundamentals",
+  "exam": [
+   "sat"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "sat",
+   "math"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "sat-009",
+  "question": "The median of 3, 7, 8, 9, 12 is:",
+  "optionA": "8",
+  "optionB": "7",
+  "optionC": "9",
+  "optionD": "8.5",
+  "correctAnswer": "A",
+  "detailedExplanation": "The middle value of the ordered list is 8.",
+  "difficulty": "medium",
+  "subject": "sat",
+  "chapter": "sat-sat-math",
+  "topic": "t-719",
+  "subtopic": "fundamentals",
+  "exam": [
+   "sat"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "sat",
+   "math"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "sat-010",
+  "question": "A bag has 3 red and 2 blue balls. The probability of drawing a red ball is:",
+  "optionA": "3/5",
+  "optionB": "2/5",
+  "optionC": "1/2",
+  "optionD": "3/2",
+  "correctAnswer": "A",
+  "detailedExplanation": "P(red) = 3/(3+2) = 3/5.",
+  "difficulty": "medium",
+  "subject": "sat",
+  "chapter": "sat-sat-math",
+  "topic": "t-719",
+  "subtopic": "fundamentals",
+  "exam": [
+   "sat"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "sat",
+   "math"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ }
+]

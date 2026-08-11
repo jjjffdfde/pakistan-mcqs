@@ -1,0 +1,186 @@
+{
+  "step": "analytics",
+  "generated_at": "2026-08-07T08:27:32",
+  "summary": {
+    "total_mcqs": 872621,
+    "total_attempts": 54,
+    "total_bookmarks": 5,
+    "total_users": 1,
+    "total_quizzes": 21,
+    "total_mock_tests": 95,
+    "log_entries_parsed": 0,
+    "unique_pages_accessed": 0,
+    "log_based_most_visited_available": false,
+    "dead_subject_pages": 1
+  },
+  "most_solved_mcqs": [
+    {
+      "mcq_id": "iq-000466",
+      "attempts": 3,
+      "correct": 1
+    },
+    {
+      "mcq_id": "acc-001",
+      "attempts": 2,
+      "correct": 2
+    },
+    {
+      "mcq_id": "cssexa-000004",
+      "attempts": 2,
+      "correct": 0
+    },
+    {
+      "mcq_id": "env-001",
+      "attempts": 2,
+      "correct": 1
+    },
+    {
+      "mcq_id": "env-010",
+      "attempts": 2,
+      "correct": 1
+    },
+    {
+      "mcq_id": "env-016",
+      "attempts": 2,
+      "correct": 1
+    },
+    {
+      "mcq_id": "iq-000377",
+      "attempts": 2,
+      "correct": 0
+    },
+    {
+      "mcq_id": "iq-000465",
+      "attempts": 2,
+      "correct": 0
+    },
+    {
+      "mcq_id": "ajkpsc-000001",
+      "attempts": 1,
+      "correct": 0
+    },
+    {
+      "mcq_id": "cssexa-000001",
+      "attempts": 1,
+      "correct": 0
+    },
+    {
+      "mcq_id": "cssexa-000002",
+      "attempts": 1,
+      "correct": 0
+    },
+    {
+      "mcq_id": "cssexa-000003",
+      "attempts": 1,
+      "correct": 0
+    },
+    {
+      "mcq_id": "eng-045",
+      "attempts": 1,
+      "correct": 0
+    },
+    {
+      "mcq_id": "env-002",
+      "attempts": 1,
+      "correct": 0
+    },
+    {
+      "mcq_id": "env-007",
+      "attempts": 1,
+      "correct": 1
+    },
+    {
+      "mcq_id": "env-009",
+      "attempts": 1,
+      "correct": 0
+    },
+    {
+      "mcq_id": "env-013",
+      "attempts": 1,
+      "correct": 0
+    },
+    {
+      "mcq_id": "env-017",
+      "attempts": 1,
+      "correct": 1
+    },
+    {
+      "mcq_id": "env-019",
+      "attempts": 1,
+      "correct": 0
+    },
+    {
+      "mcq_id": "env-020",
+      "attempts": 1,
+      "correct": 0
+    }
+  ],
+  "popular_subjects": [
+    {
+      "subject_id": "environmental-science",
+      "attempts": 20
+    },
+    {
+      "subject_id": "reasoning",
+      "attempts": 11
+    },
+    {
+      "subject_id": "iq",
+      "attempts": 7
+    },
+    {
+      "subject_id": "css-exam",
+      "attempts": 5
+    },
+    {
+      "subject_id": "pakistan-history",
+      "attempts": 3
+    },
+    {
+      "subject_id": "accounting",
+      "attempts": 2
+    },
+    {
+      "subject_id": "mod",
+      "attempts": 2
+    },
+    {
+      "subject_id": "ajkpsc",
+      "attempts": 1
+    },
+    {
+      "subject_id": "english",
+      "attempts": 1
+    },
+    {
+      "subject_id": "general-knowledge",
+      "attempts": 1
+    },
+    {
+      "subject_id": "graphql",
+      "attempts": 1
+    }
+  ],
+  "daily_attempts": [
+    {
+      "day": "2026-08-04",
+      "attempts": 5
+    },
+    {
+      "day": "2026-08-01",
+      "attempts": 49
+    }
+  ],
+  "user_activity": [
+    {
+      "device_id": "default",
+      "total_attempts": 54,
+      "correct": 18,
+      "accuracy": 0.333
+    }
+  ],
+  "most_visited_pages": [],
+  "dead_pages": [
+    "subjects/index.html"
+  ]
+}

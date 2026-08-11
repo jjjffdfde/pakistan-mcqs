@@ -1,0 +1,3413 @@
+{
+  "generated_at": "2026-08-05T06:47:08.452Z",
+  "subjects": [
+    {
+      "subject_id": "assistant-director",
+      "subject_name": "Assistant Director (Departmental)",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 950,
+        "blueprint_coverage": 0,
+        "reference_coverage": 0,
+        "exam_coverage": 116.7,
+        "relation_density": 66.7
+      },
+      "overall_coverage": 2,
+      "status": "weak"
+    },
+    {
+      "subject_id": "auditing-standards",
+      "subject_name": "Auditing Standards",
+      "scores": {
+        "concept_coverage": 17.3,
+        "lo_coverage": 1066.7,
+        "blueprint_coverage": 0,
+        "reference_coverage": 11.1,
+        "exam_coverage": 0,
+        "relation_density": 36.1
+      },
+      "overall_coverage": 2,
+      "status": "weak"
+    },
+    {
+      "subject_id": "business-administration",
+      "subject_name": "Business Administration",
+      "scores": {
+        "concept_coverage": 14,
+        "lo_coverage": 1142.9,
+        "blueprint_coverage": 0,
+        "reference_coverage": 28.6,
+        "exam_coverage": 0,
+        "relation_density": 52.4
+      },
+      "overall_coverage": 2,
+      "status": "weak"
+    },
+    {
+      "subject_id": "custom-inspector",
+      "subject_name": "Custom Inspector (Pakistan Customs)",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 950,
+        "blueprint_coverage": 0,
+        "reference_coverage": 0,
+        "exam_coverage": 116.7,
+        "relation_density": 66.7
+      },
+      "overall_coverage": 2,
+      "status": "weak"
+    },
+    {
+      "subject_id": "express",
+      "subject_name": "Express.js",
+      "scores": {
+        "concept_coverage": 16,
+        "lo_coverage": 1100,
+        "blueprint_coverage": 0,
+        "reference_coverage": 12.5,
+        "exam_coverage": 0,
+        "relation_density": 35.7
+      },
+      "overall_coverage": 2,
+      "status": "weak"
+    },
+    {
+      "subject_id": "income-tax-inspector",
+      "subject_name": "Income Tax Inspector (FBR)",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 950,
+        "blueprint_coverage": 0,
+        "reference_coverage": 0,
+        "exam_coverage": 116.7,
+        "relation_density": 66.7
+      },
+      "overall_coverage": 2,
+      "status": "weak"
+    },
+    {
+      "subject_id": "management-accounting",
+      "subject_name": "Management Accounting",
+      "scores": {
+        "concept_coverage": 15.8,
+        "lo_coverage": 1066.7,
+        "blueprint_coverage": 0,
+        "reference_coverage": 22.2,
+        "exam_coverage": 0,
+        "relation_density": 36.1
+      },
+      "overall_coverage": 2,
+      "status": "weak"
+    },
+    {
+      "subject_id": "organization-behavior",
+      "subject_name": "Organizational Behaviour",
+      "scores": {
+        "concept_coverage": 18,
+        "lo_coverage": 1066.7,
+        "blueprint_coverage": 0,
+        "reference_coverage": 11.1,
+        "exam_coverage": 0,
+        "relation_density": 27.8
+      },
+      "overall_coverage": 2,
+      "status": "weak"
+    },
+    {
+      "subject_id": "architecture",
+      "subject_name": "Architecture",
+      "scores": {
+        "concept_coverage": 11.1,
+        "lo_coverage": 1200,
+        "blueprint_coverage": 100,
+        "reference_coverage": 33.3,
+        "exam_coverage": 0,
+        "relation_density": 53.3
+      },
+      "overall_coverage": 3,
+      "status": "weak"
+    },
+    {
+      "subject_id": "artificial-intelligence",
+      "subject_name": "Artificial Intelligence (Orig)",
+      "scores": {
+        "concept_coverage": 14,
+        "lo_coverage": 1142.9,
+        "blueprint_coverage": 71.4,
+        "reference_coverage": 0,
+        "exam_coverage": 0,
+        "relation_density": 52.4
+      },
+      "overall_coverage": 3,
+      "status": "weak"
+    },
+    {
+      "subject_id": "behavioral-sciences",
+      "subject_name": "Behavioral Sciences",
+      "scores": {
+        "concept_coverage": 16,
+        "lo_coverage": 1200,
+        "blueprint_coverage": 0,
+        "reference_coverage": 12.5,
+        "exam_coverage": 0,
+        "relation_density": 46.4
+      },
+      "overall_coverage": 3,
+      "status": "weak"
+    },
+    {
+      "subject_id": "business-law",
+      "subject_name": "Business Law",
+      "scores": {
+        "concept_coverage": 14,
+        "lo_coverage": 1371.4,
+        "blueprint_coverage": 0,
+        "reference_coverage": 28.6,
+        "exam_coverage": 0,
+        "relation_density": 47.6
+      },
+      "overall_coverage": 3,
+      "status": "weak"
+    },
+    {
+      "subject_id": "compiler-design",
+      "subject_name": "Compiler Design",
+      "scores": {
+        "concept_coverage": 14,
+        "lo_coverage": 1457.1,
+        "blueprint_coverage": 0,
+        "reference_coverage": 14.3,
+        "exam_coverage": 0,
+        "relation_density": 47.6
+      },
+      "overall_coverage": 3,
+      "status": "weak"
+    },
+    {
+      "subject_id": "computer-graphics",
+      "subject_name": "Computer Graphics",
+      "scores": {
+        "concept_coverage": 14,
+        "lo_coverage": 1371.4,
+        "blueprint_coverage": 0,
+        "reference_coverage": 14.3,
+        "exam_coverage": 0,
+        "relation_density": 52.4
+      },
+      "overall_coverage": 3,
+      "status": "weak"
+    },
+    {
+      "subject_id": "digital-logic",
+      "subject_name": "Digital Logic Design",
+      "scores": {
+        "concept_coverage": 13,
+        "lo_coverage": 1371.4,
+        "blueprint_coverage": 0,
+        "reference_coverage": 14.3,
+        "exam_coverage": 0,
+        "relation_density": 52.4
+      },
+      "overall_coverage": 3,
+      "status": "weak"
+    },
+    {
+      "subject_id": "entrepreneurship",
+      "subject_name": "Entrepreneurship",
+      "scores": {
+        "concept_coverage": 11.8,
+        "lo_coverage": 1466.7,
+        "blueprint_coverage": 0,
+        "reference_coverage": 16.7,
+        "exam_coverage": 0,
+        "relation_density": 46.7
+      },
+      "overall_coverage": 3,
+      "status": "weak"
+    },
+    {
+      "subject_id": "est",
+      "subject_name": "EST (Elementary School Teacher)",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 1000,
+        "blueprint_coverage": 0,
+        "reference_coverage": 0,
+        "exam_coverage": 120,
+        "relation_density": 80
+      },
+      "overall_coverage": 3,
+      "status": "weak"
+    },
+    {
+      "subject_id": "github",
+      "subject_name": "GitHub",
+      "scores": {
+        "concept_coverage": 6,
+        "lo_coverage": 1500,
+        "blueprint_coverage": 0,
+        "reference_coverage": 0,
+        "exam_coverage": 0,
+        "relation_density": 166.7
+      },
+      "overall_coverage": 3,
+      "status": "weak"
+    },
+    {
+      "subject_id": "headmaster",
+      "subject_name": "Headmaster (School Leadership)",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 1000,
+        "blueprint_coverage": 0,
+        "reference_coverage": 0,
+        "exam_coverage": 120,
+        "relation_density": 80
+      },
+      "overall_coverage": 3,
+      "status": "weak"
+    },
+    {
+      "subject_id": "hesco",
+      "subject_name": "HESCO (Hyderabad Electric Supply Company)",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 1000,
+        "blueprint_coverage": 0,
+        "reference_coverage": 0,
+        "exam_coverage": 120,
+        "relation_density": 80
+      },
+      "overall_coverage": 3,
+      "status": "weak"
+    },
+    {
+      "subject_id": "inspector",
+      "subject_name": "Inspector (General Duty)",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 1000,
+        "blueprint_coverage": 0,
+        "reference_coverage": 0,
+        "exam_coverage": 120,
+        "relation_density": 80
+      },
+      "overall_coverage": 3,
+      "status": "weak"
+    },
+    {
+      "subject_id": "lesco",
+      "subject_name": "LESCO (Lahore Electric Supply Company)",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 950,
+        "blueprint_coverage": 0,
+        "reference_coverage": 0,
+        "exam_coverage": 125,
+        "relation_density": 133.3
+      },
+      "overall_coverage": 3,
+      "status": "weak"
+    },
+    {
+      "subject_id": "management",
+      "subject_name": "Management",
+      "scores": {
+        "concept_coverage": 11.5,
+        "lo_coverage": 1466.7,
+        "blueprint_coverage": 0,
+        "reference_coverage": 33.3,
+        "exam_coverage": 0,
+        "relation_density": 53.3
+      },
+      "overall_coverage": 3,
+      "status": "weak"
+    },
+    {
+      "subject_id": "mepco",
+      "subject_name": "MEPCO (Multan Electric Power Company)",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 1000,
+        "blueprint_coverage": 0,
+        "reference_coverage": 0,
+        "exam_coverage": 120,
+        "relation_density": 80
+      },
+      "overall_coverage": 3,
+      "status": "weak"
+    },
+    {
+      "subject_id": "mobile-development",
+      "subject_name": "Mobile Development",
+      "scores": {
+        "concept_coverage": 14,
+        "lo_coverage": 1485.7,
+        "blueprint_coverage": 0,
+        "reference_coverage": 28.6,
+        "exam_coverage": 0,
+        "relation_density": 47.6
+      },
+      "overall_coverage": 3,
+      "status": "weak"
+    },
+    {
+      "subject_id": "mongodb",
+      "subject_name": "MongoDB",
+      "scores": {
+        "concept_coverage": 14,
+        "lo_coverage": 1485.7,
+        "blueprint_coverage": 0,
+        "reference_coverage": 14.3,
+        "exam_coverage": 0,
+        "relation_density": 47.6
+      },
+      "overall_coverage": 3,
+      "status": "weak"
+    },
+    {
+      "subject_id": "nosql",
+      "subject_name": "NoSQL Databases",
+      "scores": {
+        "concept_coverage": 8,
+        "lo_coverage": 1600,
+        "blueprint_coverage": 0,
+        "reference_coverage": 25,
+        "exam_coverage": 0,
+        "relation_density": 133.3
+      },
+      "overall_coverage": 3,
+      "status": "weak"
+    },
+    {
+      "subject_id": "nutrition",
+      "subject_name": "Nutrition & Dietetics",
+      "scores": {
+        "concept_coverage": 10,
+        "lo_coverage": 1600,
+        "blueprint_coverage": 0,
+        "reference_coverage": 20,
+        "exam_coverage": 0,
+        "relation_density": 110
+      },
+      "overall_coverage": 3,
+      "status": "weak"
+    },
+    {
+      "subject_id": "pakistan-post",
+      "subject_name": "Pakistan Post (GPO)",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 1000,
+        "blueprint_coverage": 0,
+        "reference_coverage": 0,
+        "exam_coverage": 120,
+        "relation_density": 80
+      },
+      "overall_coverage": 3,
+      "status": "weak"
+    },
+    {
+      "subject_id": "petroleum-engineering",
+      "subject_name": "Petroleum Engineering",
+      "scores": {
+        "concept_coverage": 15.7,
+        "lo_coverage": 1500,
+        "blueprint_coverage": 0,
+        "reference_coverage": 12.5,
+        "exam_coverage": 0,
+        "relation_density": 46.4
+      },
+      "overall_coverage": 3,
+      "status": "weak"
+    },
+    {
+      "subject_id": "postgresql",
+      "subject_name": "PostgreSQL",
+      "scores": {
+        "concept_coverage": 14,
+        "lo_coverage": 1485.7,
+        "blueprint_coverage": 0,
+        "reference_coverage": 14.3,
+        "exam_coverage": 0,
+        "relation_density": 47.6
+      },
+      "overall_coverage": 3,
+      "status": "weak"
+    },
+    {
+      "subject_id": "project-management",
+      "subject_name": "Project Management",
+      "scores": {
+        "concept_coverage": 14,
+        "lo_coverage": 1485.7,
+        "blueprint_coverage": 0,
+        "reference_coverage": 14.3,
+        "exam_coverage": 0,
+        "relation_density": 47.6
+      },
+      "overall_coverage": 3,
+      "status": "weak"
+    },
+    {
+      "subject_id": "public-health",
+      "subject_name": "Public Health",
+      "scores": {
+        "concept_coverage": 13.2,
+        "lo_coverage": 1485.7,
+        "blueprint_coverage": 0,
+        "reference_coverage": 28.6,
+        "exam_coverage": 0,
+        "relation_density": 47.6
+      },
+      "overall_coverage": 3,
+      "status": "weak"
+    },
+    {
+      "subject_id": "rescue-1122",
+      "subject_name": "Rescue 1122 (Emergency Services)",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 1000,
+        "blueprint_coverage": 0,
+        "reference_coverage": 0,
+        "exam_coverage": 120,
+        "relation_density": 80
+      },
+      "overall_coverage": 3,
+      "status": "weak"
+    },
+    {
+      "subject_id": "sepco",
+      "subject_name": "SEPCO (Sukkur Electric Power Company)",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 1000,
+        "blueprint_coverage": 0,
+        "reference_coverage": 0,
+        "exam_coverage": 120,
+        "relation_density": 80
+      },
+      "overall_coverage": 3,
+      "status": "weak"
+    },
+    {
+      "subject_id": "sngpl",
+      "subject_name": "SNGPL (Sui Northern Gas Pipelines)",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 1000,
+        "blueprint_coverage": 0,
+        "reference_coverage": 0,
+        "exam_coverage": 120,
+        "relation_density": 80
+      },
+      "overall_coverage": 3,
+      "status": "weak"
+    },
+    {
+      "subject_id": "sqlite",
+      "subject_name": "SQLite",
+      "scores": {
+        "concept_coverage": 8,
+        "lo_coverage": 1600,
+        "blueprint_coverage": 0,
+        "reference_coverage": 25,
+        "exam_coverage": 0,
+        "relation_density": 133.3
+      },
+      "overall_coverage": 3,
+      "status": "weak"
+    },
+    {
+      "subject_id": "ssgc",
+      "subject_name": "SSGC (Sui Southern Gas Company)",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 1000,
+        "blueprint_coverage": 0,
+        "reference_coverage": 0,
+        "exam_coverage": 120,
+        "relation_density": 80
+      },
+      "overall_coverage": 3,
+      "status": "weak"
+    },
+    {
+      "subject_id": "sst",
+      "subject_name": "SST (Secondary School Teacher)",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 1000,
+        "blueprint_coverage": 0,
+        "reference_coverage": 0,
+        "exam_coverage": 120,
+        "relation_density": 80
+      },
+      "overall_coverage": 3,
+      "status": "weak"
+    },
+    {
+      "subject_id": "sub-inspector",
+      "subject_name": "Sub Inspector (SI)",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 1000,
+        "blueprint_coverage": 0,
+        "reference_coverage": 0,
+        "exam_coverage": 120,
+        "relation_density": 80
+      },
+      "overall_coverage": 3,
+      "status": "weak"
+    },
+    {
+      "subject_id": "system-design",
+      "subject_name": "System Design",
+      "scores": {
+        "concept_coverage": 8,
+        "lo_coverage": 1600,
+        "blueprint_coverage": 0,
+        "reference_coverage": 50,
+        "exam_coverage": 0,
+        "relation_density": 133.3
+      },
+      "overall_coverage": 3,
+      "status": "weak"
+    },
+    {
+      "subject_id": "taxation",
+      "subject_name": "Taxation",
+      "scores": {
+        "concept_coverage": 11.8,
+        "lo_coverage": 1466.7,
+        "blueprint_coverage": 0,
+        "reference_coverage": 33.3,
+        "exam_coverage": 0,
+        "relation_density": 46.7
+      },
+      "overall_coverage": 3,
+      "status": "weak"
+    },
+    {
+      "subject_id": "teaching",
+      "subject_name": "Teaching Jobs (Recruitment)",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 1000,
+        "blueprint_coverage": 0,
+        "reference_coverage": 20,
+        "exam_coverage": 120,
+        "relation_density": 80
+      },
+      "overall_coverage": 3,
+      "status": "weak"
+    },
+    {
+      "subject_id": "telecommunication",
+      "subject_name": "Telecommunication",
+      "scores": {
+        "concept_coverage": 6,
+        "lo_coverage": 1600,
+        "blueprint_coverage": 0,
+        "reference_coverage": 0,
+        "exam_coverage": 0,
+        "relation_density": 166.7
+      },
+      "overall_coverage": 3,
+      "status": "weak"
+    },
+    {
+      "subject_id": "textile-engineering",
+      "subject_name": "Textile Engineering",
+      "scores": {
+        "concept_coverage": 13.7,
+        "lo_coverage": 1571.4,
+        "blueprint_coverage": 0,
+        "reference_coverage": 14.3,
+        "exam_coverage": 0,
+        "relation_density": 52.4
+      },
+      "overall_coverage": 3,
+      "status": "weak"
+    },
+    {
+      "subject_id": "web-development",
+      "subject_name": "Web Development",
+      "scores": {
+        "concept_coverage": 13.5,
+        "lo_coverage": 1485.7,
+        "blueprint_coverage": 0,
+        "reference_coverage": 14.3,
+        "exam_coverage": 0,
+        "relation_density": 47.6
+      },
+      "overall_coverage": 3,
+      "status": "weak"
+    },
+    {
+      "subject_id": "anf",
+      "subject_name": "ANF (Anti-Narcotics Force)",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 1700,
+        "blueprint_coverage": 100,
+        "reference_coverage": 16.7,
+        "exam_coverage": 116.7,
+        "relation_density": 66.7
+      },
+      "overall_coverage": 4,
+      "status": "weak"
+    },
+    {
+      "subject_id": "army",
+      "subject_name": "Pakistan Army (Recruitment)",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 1675,
+        "blueprint_coverage": 100,
+        "reference_coverage": 25,
+        "exam_coverage": 125,
+        "relation_density": 133.3
+      },
+      "overall_coverage": 4,
+      "status": "weak"
+    },
+    {
+      "subject_id": "asf",
+      "subject_name": "ASF (Airport Security Force)",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 1650,
+        "blueprint_coverage": 0,
+        "reference_coverage": 16.7,
+        "exam_coverage": 116.7,
+        "relation_density": 66.7
+      },
+      "overall_coverage": 4,
+      "status": "weak"
+    },
+    {
+      "subject_id": "banking",
+      "subject_name": "Banking Tests (Commercial Banks)",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 1871.4,
+        "blueprint_coverage": 0,
+        "reference_coverage": 28.6,
+        "exam_coverage": 114.3,
+        "relation_density": 47.6
+      },
+      "overall_coverage": 4,
+      "status": "weak"
+    },
+    {
+      "subject_id": "bpsc",
+      "subject_name": "BPSC (Balochistan Public Service Commission)",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 1987.5,
+        "blueprint_coverage": 0,
+        "reference_coverage": 0,
+        "exam_coverage": 112.5,
+        "relation_density": 35.7
+      },
+      "overall_coverage": 4,
+      "status": "weak"
+    },
+    {
+      "subject_id": "css-exam",
+      "subject_name": "CSS Exam (Central Superior Services)",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 1750,
+        "blueprint_coverage": 0,
+        "reference_coverage": 25,
+        "exam_coverage": 125,
+        "relation_density": 133.3
+      },
+      "overall_coverage": 4,
+      "status": "weak"
+    },
+    {
+      "subject_id": "cts",
+      "subject_name": "CTS (Common Testing Service)",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 1750,
+        "blueprint_coverage": 0,
+        "reference_coverage": 25,
+        "exam_coverage": 125,
+        "relation_density": 133.3
+      },
+      "overall_coverage": 4,
+      "status": "weak"
+    },
+    {
+      "subject_id": "dental-medicine",
+      "subject_name": "Dental Medicine",
+      "scores": {
+        "concept_coverage": 13,
+        "lo_coverage": 1942.9,
+        "blueprint_coverage": 0,
+        "reference_coverage": 14.3,
+        "exam_coverage": 0,
+        "relation_density": 52.4
+      },
+      "overall_coverage": 4,
+      "status": "weak"
+    },
+    {
+      "subject_id": "dental-surgery",
+      "subject_name": "Dental Surgery",
+      "scores": {
+        "concept_coverage": 14.5,
+        "lo_coverage": 2000,
+        "blueprint_coverage": 0,
+        "reference_coverage": 12.5,
+        "exam_coverage": 0,
+        "relation_density": 46.4
+      },
+      "overall_coverage": 4,
+      "status": "weak"
+    },
+    {
+      "subject_id": "distributed-systems",
+      "subject_name": "Distributed Systems",
+      "scores": {
+        "concept_coverage": 13.7,
+        "lo_coverage": 1828.6,
+        "blueprint_coverage": 0,
+        "reference_coverage": 14.3,
+        "exam_coverage": 0,
+        "relation_density": 52.4
+      },
+      "overall_coverage": 4,
+      "status": "weak"
+    },
+    {
+      "subject_id": "educators",
+      "subject_name": "Educators (Teachers Recruitment)",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 1675,
+        "blueprint_coverage": 0,
+        "reference_coverage": 25,
+        "exam_coverage": 125,
+        "relation_density": 133.3
+      },
+      "overall_coverage": 4,
+      "status": "weak"
+    },
+    {
+      "subject_id": "election-officer",
+      "subject_name": "Election Officer",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 1583.3,
+        "blueprint_coverage": 0,
+        "reference_coverage": 0,
+        "exam_coverage": 116.7,
+        "relation_density": 66.7
+      },
+      "overall_coverage": 4,
+      "status": "weak"
+    },
+    {
+      "subject_id": "ent",
+      "subject_name": "ENT",
+      "scores": {
+        "concept_coverage": 10,
+        "lo_coverage": 1920,
+        "blueprint_coverage": 0,
+        "reference_coverage": 20,
+        "exam_coverage": 0,
+        "relation_density": 80
+      },
+      "overall_coverage": 4,
+      "status": "weak"
+    },
+    {
+      "subject_id": "fbr",
+      "subject_name": "FBR (Federal Board of Revenue)",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 1871.4,
+        "blueprint_coverage": 0,
+        "reference_coverage": 0,
+        "exam_coverage": 114.3,
+        "relation_density": 47.6
+      },
+      "overall_coverage": 4,
+      "status": "weak"
+    },
+    {
+      "subject_id": "fia",
+      "subject_name": "FIA (Federal Investigation Agency)",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 1675,
+        "blueprint_coverage": 0,
+        "reference_coverage": 25,
+        "exam_coverage": 125,
+        "relation_density": 133.3
+      },
+      "overall_coverage": 4,
+      "status": "weak"
+    },
+    {
+      "subject_id": "fia-inspector",
+      "subject_name": "FIA Inspector",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 1575,
+        "blueprint_coverage": 0,
+        "reference_coverage": 0,
+        "exam_coverage": 125,
+        "relation_density": 133.3
+      },
+      "overall_coverage": 4,
+      "status": "weak"
+    },
+    {
+      "subject_id": "fpsc",
+      "subject_name": "FPSC (Federal Public Service Commission)",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 1750,
+        "blueprint_coverage": 0,
+        "reference_coverage": 25,
+        "exam_coverage": 125,
+        "relation_density": 133.3
+      },
+      "overall_coverage": 4,
+      "status": "weak"
+    },
+    {
+      "subject_id": "gynecology",
+      "subject_name": "Gynecology & Obstetrics",
+      "scores": {
+        "concept_coverage": 17.6,
+        "lo_coverage": 1911.1,
+        "blueprint_coverage": 0,
+        "reference_coverage": 22.2,
+        "exam_coverage": 0,
+        "relation_density": 36.1
+      },
+      "overall_coverage": 4,
+      "status": "weak"
+    },
+    {
+      "subject_id": "ib",
+      "subject_name": "IB (Intelligence Bureau)",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 1750,
+        "blueprint_coverage": 0,
+        "reference_coverage": 0,
+        "exam_coverage": 125,
+        "relation_density": 133.3
+      },
+      "overall_coverage": 4,
+      "status": "weak"
+    },
+    {
+      "subject_id": "issb",
+      "subject_name": "ISSB (Inter Services Selection Board)",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 1675,
+        "blueprint_coverage": 0,
+        "reference_coverage": 25,
+        "exam_coverage": 125,
+        "relation_density": 133.3
+      },
+      "overall_coverage": 4,
+      "status": "weak"
+    },
+    {
+      "subject_id": "lecturer",
+      "subject_name": "Lecturer (Subject Specialist)",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 1675,
+        "blueprint_coverage": 0,
+        "reference_coverage": 25,
+        "exam_coverage": 125,
+        "relation_density": 133.3
+      },
+      "overall_coverage": 4,
+      "status": "weak"
+    },
+    {
+      "subject_id": "mod",
+      "subject_name": "MOD (Ministry of Defence)",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 1650,
+        "blueprint_coverage": 0,
+        "reference_coverage": 0,
+        "exam_coverage": 116.7,
+        "relation_density": 66.7
+      },
+      "overall_coverage": 4,
+      "status": "weak"
+    },
+    {
+      "subject_id": "motorway-police",
+      "subject_name": "Motorway Police (NH&MP)",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 1583.3,
+        "blueprint_coverage": 0,
+        "reference_coverage": 0,
+        "exam_coverage": 116.7,
+        "relation_density": 66.7
+      },
+      "overall_coverage": 4,
+      "status": "weak"
+    },
+    {
+      "subject_id": "nab",
+      "subject_name": "NAB (National Accountability Bureau)",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 1675,
+        "blueprint_coverage": 0,
+        "reference_coverage": 25,
+        "exam_coverage": 125,
+        "relation_density": 133.3
+      },
+      "overall_coverage": 4,
+      "status": "weak"
+    },
+    {
+      "subject_id": "nadra",
+      "subject_name": "NADRA (National Database & Registration Authority)",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 1700,
+        "blueprint_coverage": 0,
+        "reference_coverage": 0,
+        "exam_coverage": 116.7,
+        "relation_density": 66.7
+      },
+      "overall_coverage": 4,
+      "status": "weak"
+    },
+    {
+      "subject_id": "navy",
+      "subject_name": "Pakistan Navy (Recruitment)",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 1871.4,
+        "blueprint_coverage": 0,
+        "reference_coverage": 14.3,
+        "exam_coverage": 114.3,
+        "relation_density": 47.6
+      },
+      "overall_coverage": 4,
+      "status": "weak"
+    },
+    {
+      "subject_id": "nts",
+      "subject_name": "NTS (National Testing Service)",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 1750,
+        "blueprint_coverage": 0,
+        "reference_coverage": 25,
+        "exam_coverage": 125,
+        "relation_density": 133.3
+      },
+      "overall_coverage": 4,
+      "status": "weak"
+    },
+    {
+      "subject_id": "ophthalmology",
+      "subject_name": "Ophthalmology",
+      "scores": {
+        "concept_coverage": 14,
+        "lo_coverage": 1828.6,
+        "blueprint_coverage": 0,
+        "reference_coverage": 14.3,
+        "exam_coverage": 0,
+        "relation_density": 47.6
+      },
+      "overall_coverage": 4,
+      "status": "weak"
+    },
+    {
+      "subject_id": "ots",
+      "subject_name": "OTS (Open Testing Service)",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 1650,
+        "blueprint_coverage": 0,
+        "reference_coverage": 25,
+        "exam_coverage": 125,
+        "relation_density": 133.3
+      },
+      "overall_coverage": 4,
+      "status": "weak"
+    },
+    {
+      "subject_id": "paf",
+      "subject_name": "Pakistan Air Force (Recruitment)",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 1814.3,
+        "blueprint_coverage": 0,
+        "reference_coverage": 14.3,
+        "exam_coverage": 114.3,
+        "relation_density": 47.6
+      },
+      "overall_coverage": 4,
+      "status": "weak"
+    },
+    {
+      "subject_id": "pma",
+      "subject_name": "PMA (Pakistan Military Academy)",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 1814.3,
+        "blueprint_coverage": 0,
+        "reference_coverage": 14.3,
+        "exam_coverage": 114.3,
+        "relation_density": 47.6
+      },
+      "overall_coverage": 4,
+      "status": "weak"
+    },
+    {
+      "subject_id": "pms",
+      "subject_name": "PMS (Provincial Management Services)",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 1675,
+        "blueprint_coverage": 0,
+        "reference_coverage": 0,
+        "exam_coverage": 125,
+        "relation_density": 133.3
+      },
+      "overall_coverage": 4,
+      "status": "weak"
+    },
+    {
+      "subject_id": "police",
+      "subject_name": "Police (Recruitment)",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 1675,
+        "blueprint_coverage": 0,
+        "reference_coverage": 25,
+        "exam_coverage": 125,
+        "relation_density": 133.3
+      },
+      "overall_coverage": 4,
+      "status": "weak"
+    },
+    {
+      "subject_id": "ppsc",
+      "subject_name": "PPSC (Punjab Public Service Commission)",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 1650,
+        "blueprint_coverage": 0,
+        "reference_coverage": 25,
+        "exam_coverage": 125,
+        "relation_density": 133.3
+      },
+      "overall_coverage": 4,
+      "status": "weak"
+    },
+    {
+      "subject_id": "programming-fundamentals",
+      "subject_name": "Programming Fundamentals",
+      "scores": {
+        "concept_coverage": 16,
+        "lo_coverage": 2000,
+        "blueprint_coverage": 0,
+        "reference_coverage": 25,
+        "exam_coverage": 0,
+        "relation_density": 39.3
+      },
+      "overall_coverage": 4,
+      "status": "weak"
+    },
+    {
+      "subject_id": "pts",
+      "subject_name": "PTS (Pakistan Testing Service)",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 1650,
+        "blueprint_coverage": 0,
+        "reference_coverage": 25,
+        "exam_coverage": 125,
+        "relation_density": 133.3
+      },
+      "overall_coverage": 4,
+      "status": "weak"
+    },
+    {
+      "subject_id": "punjab-police",
+      "subject_name": "Punjab Police (Recruitment)",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 1857.1,
+        "blueprint_coverage": 0,
+        "reference_coverage": 0,
+        "exam_coverage": 114.3,
+        "relation_density": 47.6
+      },
+      "overall_coverage": 4,
+      "status": "weak"
+    },
+    {
+      "subject_id": "railway",
+      "subject_name": "Railways (Recruitment)",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 1575,
+        "blueprint_coverage": 0,
+        "reference_coverage": 25,
+        "exam_coverage": 125,
+        "relation_density": 133.3
+      },
+      "overall_coverage": 4,
+      "status": "weak"
+    },
+    {
+      "subject_id": "sbp",
+      "subject_name": "SBP (State Bank of Pakistan)",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 1650,
+        "blueprint_coverage": 0,
+        "reference_coverage": 16.7,
+        "exam_coverage": 116.7,
+        "relation_density": 66.7
+      },
+      "overall_coverage": 4,
+      "status": "weak"
+    },
+    {
+      "subject_id": "sentence-correction",
+      "subject_name": "Sentence Correction",
+      "scores": {
+        "concept_coverage": 16,
+        "lo_coverage": 1662.5,
+        "blueprint_coverage": 0,
+        "reference_coverage": 12.5,
+        "exam_coverage": 562.5,
+        "relation_density": 50
+      },
+      "overall_coverage": 4,
+      "status": "weak"
+    },
+    {
+      "subject_id": "typescript",
+      "subject_name": "TypeScript",
+      "scores": {
+        "concept_coverage": 23.5,
+        "lo_coverage": 1933.3,
+        "blueprint_coverage": 0,
+        "reference_coverage": 8.3,
+        "exam_coverage": 216.7,
+        "relation_density": 13.6
+      },
+      "overall_coverage": 4,
+      "status": "weak"
+    },
+    {
+      "subject_id": "wapda",
+      "subject_name": "WAPDA (Water & Power Development Authority)",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 1914.3,
+        "blueprint_coverage": 0,
+        "reference_coverage": 14.3,
+        "exam_coverage": 114.3,
+        "relation_density": 47.6
+      },
+      "overall_coverage": 4,
+      "status": "weak"
+    },
+    {
+      "subject_id": "ajkpsc",
+      "subject_name": "AJKPSC (Azad Kashmir Public Service Commission)",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 1987.5,
+        "blueprint_coverage": 100,
+        "reference_coverage": 0,
+        "exam_coverage": 112.5,
+        "relation_density": 35.7
+      },
+      "overall_coverage": 5,
+      "status": "weak"
+    },
+    {
+      "subject_id": "algorithms",
+      "subject_name": "Algorithms",
+      "scores": {
+        "concept_coverage": 6,
+        "lo_coverage": 2200,
+        "blueprint_coverage": 100,
+        "reference_coverage": 66.7,
+        "exam_coverage": 0,
+        "relation_density": 166.7
+      },
+      "overall_coverage": 5,
+      "status": "weak"
+    },
+    {
+      "subject_id": "bash",
+      "subject_name": "Bash Scripting",
+      "scores": {
+        "concept_coverage": 10,
+        "lo_coverage": 2400,
+        "blueprint_coverage": 0,
+        "reference_coverage": 20,
+        "exam_coverage": 0,
+        "relation_density": 110
+      },
+      "overall_coverage": 5,
+      "status": "weak"
+    },
+    {
+      "subject_id": "data-structures",
+      "subject_name": "Data Structures",
+      "scores": {
+        "concept_coverage": 8,
+        "lo_coverage": 2400,
+        "blueprint_coverage": 0,
+        "reference_coverage": 50,
+        "exam_coverage": 0,
+        "relation_density": 133.3
+      },
+      "overall_coverage": 5,
+      "status": "weak"
+    },
+    {
+      "subject_id": "forensic-medicine",
+      "subject_name": "Forensic Medicine",
+      "scores": {
+        "concept_coverage": 18,
+        "lo_coverage": 2488.9,
+        "blueprint_coverage": 0,
+        "reference_coverage": 11.1,
+        "exam_coverage": 0,
+        "relation_density": 44.4
+      },
+      "overall_coverage": 5,
+      "status": "weak"
+    },
+    {
+      "subject_id": "git",
+      "subject_name": "Git",
+      "scores": {
+        "concept_coverage": 8,
+        "lo_coverage": 2400,
+        "blueprint_coverage": 0,
+        "reference_coverage": 25,
+        "exam_coverage": 0,
+        "relation_density": 133.3
+      },
+      "overall_coverage": 5,
+      "status": "weak"
+    },
+    {
+      "subject_id": "kppsc",
+      "subject_name": "KPPSC (Khyber Pakhtunkhwa PSC)",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 2025,
+        "blueprint_coverage": 0,
+        "reference_coverage": 0,
+        "exam_coverage": 112.5,
+        "relation_density": 35.7
+      },
+      "overall_coverage": 5,
+      "status": "weak"
+    },
+    {
+      "subject_id": "kubernetes",
+      "subject_name": "Kubernetes",
+      "scores": {
+        "concept_coverage": 18,
+        "lo_coverage": 2333.3,
+        "blueprint_coverage": 0,
+        "reference_coverage": 11.1,
+        "exam_coverage": 222.2,
+        "relation_density": 27.8
+      },
+      "overall_coverage": 5,
+      "status": "weak"
+    },
+    {
+      "subject_id": "laravel",
+      "subject_name": "Laravel",
+      "scores": {
+        "concept_coverage": 16,
+        "lo_coverage": 2500,
+        "blueprint_coverage": 0,
+        "reference_coverage": 12.5,
+        "exam_coverage": 225,
+        "relation_density": 35.7
+      },
+      "overall_coverage": 5,
+      "status": "weak"
+    },
+    {
+      "subject_id": "mining-engineering",
+      "subject_name": "Mining Engineering",
+      "scores": {
+        "concept_coverage": 8,
+        "lo_coverage": 2400,
+        "blueprint_coverage": 0,
+        "reference_coverage": 25,
+        "exam_coverage": 0,
+        "relation_density": 133.3
+      },
+      "overall_coverage": 5,
+      "status": "weak"
+    },
+    {
+      "subject_id": "spsc",
+      "subject_name": "SPSC (Sindh Public Service Commission)",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 2025,
+        "blueprint_coverage": 0,
+        "reference_coverage": 0,
+        "exam_coverage": 112.5,
+        "relation_density": 35.7
+      },
+      "overall_coverage": 5,
+      "status": "weak"
+    },
+    {
+      "subject_id": "vue-js",
+      "subject_name": "Vue.js",
+      "scores": {
+        "concept_coverage": 20,
+        "lo_coverage": 2530,
+        "blueprint_coverage": 0,
+        "reference_coverage": 10,
+        "exam_coverage": 220,
+        "relation_density": 28.9
+      },
+      "overall_coverage": 5,
+      "status": "weak"
+    },
+    {
+      "subject_id": "angular",
+      "subject_name": "Angular",
+      "scores": {
+        "concept_coverage": 16,
+        "lo_coverage": 2687.5,
+        "blueprint_coverage": 100,
+        "reference_coverage": 12.5,
+        "exam_coverage": 225,
+        "relation_density": 35.7
+      },
+      "overall_coverage": 6,
+      "status": "weak"
+    },
+    {
+      "subject_id": "comprehension",
+      "subject_name": "Comprehension",
+      "scores": {
+        "concept_coverage": 20,
+        "lo_coverage": 2320,
+        "blueprint_coverage": 0,
+        "reference_coverage": 10,
+        "exam_coverage": 880,
+        "relation_density": 28.9
+      },
+      "overall_coverage": 6,
+      "status": "weak"
+    },
+    {
+      "subject_id": "electronics",
+      "subject_name": "Electronics",
+      "scores": {
+        "concept_coverage": 18,
+        "lo_coverage": 2422.2,
+        "blueprint_coverage": 0,
+        "reference_coverage": 22.2,
+        "exam_coverage": 888.9,
+        "relation_density": 27.8
+      },
+      "overall_coverage": 6,
+      "status": "weak"
+    },
+    {
+      "subject_id": "lat",
+      "subject_name": "LAT",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 2557.1,
+        "blueprint_coverage": 0,
+        "reference_coverage": 14.3,
+        "exam_coverage": 114.3,
+        "relation_density": 23.8
+      },
+      "overall_coverage": 6,
+      "status": "weak"
+    },
+    {
+      "subject_id": "mdcat",
+      "subject_name": "MDCAT",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 2712.5,
+        "blueprint_coverage": 0,
+        "reference_coverage": 12.5,
+        "exam_coverage": 112.5,
+        "relation_density": 17.9
+      },
+      "overall_coverage": 6,
+      "status": "weak"
+    },
+    {
+      "subject_id": "medicine",
+      "subject_name": "Medicine",
+      "scores": {
+        "concept_coverage": 19.6,
+        "lo_coverage": 2780,
+        "blueprint_coverage": 0,
+        "reference_coverage": 20,
+        "exam_coverage": 550,
+        "relation_density": 28.9
+      },
+      "overall_coverage": 6,
+      "status": "weak"
+    },
+    {
+      "subject_id": "node-js",
+      "subject_name": "Node.js",
+      "scores": {
+        "concept_coverage": 15.4,
+        "lo_coverage": 3025,
+        "blueprint_coverage": 0,
+        "reference_coverage": 12.5,
+        "exam_coverage": 225,
+        "relation_density": 39.3
+      },
+      "overall_coverage": 6,
+      "status": "weak"
+    },
+    {
+      "subject_id": "oral-anatomy",
+      "subject_name": "Oral Anatomy",
+      "scores": {
+        "concept_coverage": 22,
+        "lo_coverage": 2863.6,
+        "blueprint_coverage": 0,
+        "reference_coverage": 9.1,
+        "exam_coverage": 218.2,
+        "relation_density": 27.3
+      },
+      "overall_coverage": 6,
+      "status": "weak"
+    },
+    {
+      "subject_id": "physiology",
+      "subject_name": "Physiology",
+      "scores": {
+        "concept_coverage": 17.6,
+        "lo_coverage": 2744.4,
+        "blueprint_coverage": 0,
+        "reference_coverage": 22.2,
+        "exam_coverage": 555.6,
+        "relation_density": 27.8
+      },
+      "overall_coverage": 6,
+      "status": "weak"
+    },
+    {
+      "subject_id": "sql",
+      "subject_name": "SQL",
+      "scores": {
+        "concept_coverage": 26,
+        "lo_coverage": 2569.2,
+        "blueprint_coverage": 0,
+        "reference_coverage": 15.4,
+        "exam_coverage": 323.1,
+        "relation_density": 17.9
+      },
+      "overall_coverage": 6,
+      "status": "weak"
+    },
+    {
+      "subject_id": "toefl",
+      "subject_name": "TOEFL",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 2600,
+        "blueprint_coverage": 0,
+        "reference_coverage": 25,
+        "exam_coverage": 125,
+        "relation_density": 66.7
+      },
+      "overall_coverage": 6,
+      "status": "weak"
+    },
+    {
+      "subject_id": "antonyms",
+      "subject_name": "Antonyms",
+      "scores": {
+        "concept_coverage": 20,
+        "lo_coverage": 3100,
+        "blueprint_coverage": 100,
+        "reference_coverage": 10,
+        "exam_coverage": 660,
+        "relation_density": 28.9
+      },
+      "overall_coverage": 7,
+      "status": "weak"
+    },
+    {
+      "subject_id": "auditing",
+      "subject_name": "Auditing",
+      "scores": {
+        "concept_coverage": 14,
+        "lo_coverage": 2828.6,
+        "blueprint_coverage": 0,
+        "reference_coverage": 28.6,
+        "exam_coverage": 800,
+        "relation_density": 33.3
+      },
+      "overall_coverage": 7,
+      "status": "weak"
+    },
+    {
+      "subject_id": "big-data",
+      "subject_name": "Big Data",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 3316.7,
+        "blueprint_coverage": 0,
+        "reference_coverage": 0,
+        "exam_coverage": 233.3,
+        "relation_density": 46.7
+      },
+      "overall_coverage": 7,
+      "status": "weak"
+    },
+    {
+      "subject_id": "biochemistry",
+      "subject_name": "Biochemistry",
+      "scores": {
+        "concept_coverage": 22.6,
+        "lo_coverage": 2925,
+        "blueprint_coverage": 0,
+        "reference_coverage": 16.7,
+        "exam_coverage": 541.7,
+        "relation_density": 22.7
+      },
+      "overall_coverage": 7,
+      "status": "weak"
+    },
+    {
+      "subject_id": "chemical-eng",
+      "subject_name": "Chemical Engineering",
+      "scores": {
+        "concept_coverage": 16,
+        "lo_coverage": 2887.5,
+        "blueprint_coverage": 0,
+        "reference_coverage": 25,
+        "exam_coverage": 900,
+        "relation_density": 39.3
+      },
+      "overall_coverage": 7,
+      "status": "weak"
+    },
+    {
+      "subject_id": "database",
+      "subject_name": "Database",
+      "scores": {
+        "concept_coverage": 18,
+        "lo_coverage": 3133.3,
+        "blueprint_coverage": 0,
+        "reference_coverage": 22.2,
+        "exam_coverage": 444.4,
+        "relation_density": 27.8
+      },
+      "overall_coverage": 7,
+      "status": "weak"
+    },
+    {
+      "subject_id": "dental-materials",
+      "subject_name": "Dental Materials",
+      "scores": {
+        "concept_coverage": 17.6,
+        "lo_coverage": 2966.7,
+        "blueprint_coverage": 0,
+        "reference_coverage": 11.1,
+        "exam_coverage": 555.6,
+        "relation_density": 36.1
+      },
+      "overall_coverage": 7,
+      "status": "weak"
+    },
+    {
+      "subject_id": "docker",
+      "subject_name": "Docker",
+      "scores": {
+        "concept_coverage": 13.5,
+        "lo_coverage": 3300,
+        "blueprint_coverage": 0,
+        "reference_coverage": 14.3,
+        "exam_coverage": 228.6,
+        "relation_density": 38.1
+      },
+      "overall_coverage": 7,
+      "status": "weak"
+    },
+    {
+      "subject_id": "environmental-eng",
+      "subject_name": "Environmental Engineering",
+      "scores": {
+        "concept_coverage": 15.7,
+        "lo_coverage": 3262.5,
+        "blueprint_coverage": 0,
+        "reference_coverage": 12.5,
+        "exam_coverage": 562.5,
+        "relation_density": 39.3
+      },
+      "overall_coverage": 7,
+      "status": "weak"
+    },
+    {
+      "subject_id": "ethical-hacking",
+      "subject_name": "Ethical Hacking",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 3233.3,
+        "blueprint_coverage": 0,
+        "reference_coverage": 0,
+        "exam_coverage": 233.3,
+        "relation_density": 60
+      },
+      "overall_coverage": 7,
+      "status": "weak"
+    },
+    {
+      "subject_id": "express-js",
+      "subject_name": "Express.js",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 3150,
+        "blueprint_coverage": 0,
+        "reference_coverage": 0,
+        "exam_coverage": 233.3,
+        "relation_density": 46.7
+      },
+      "overall_coverage": 7,
+      "status": "weak"
+    },
+    {
+      "subject_id": "gat",
+      "subject_name": "GAT",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 3333.3,
+        "blueprint_coverage": 0,
+        "reference_coverage": 33.3,
+        "exam_coverage": 133.3,
+        "relation_density": 66.7
+      },
+      "overall_coverage": 7,
+      "status": "weak"
+    },
+    {
+      "subject_id": "gre",
+      "subject_name": "GRE",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 3333.3,
+        "blueprint_coverage": 0,
+        "reference_coverage": 33.3,
+        "exam_coverage": 133.3,
+        "relation_density": 66.7
+      },
+      "overall_coverage": 7,
+      "status": "weak"
+    },
+    {
+      "subject_id": "histology",
+      "subject_name": "Histology",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 2975,
+        "blueprint_coverage": 0,
+        "reference_coverage": 0,
+        "exam_coverage": 625,
+        "relation_density": 83.3
+      },
+      "overall_coverage": 7,
+      "status": "weak"
+    },
+    {
+      "subject_id": "marketing",
+      "subject_name": "Marketing",
+      "scores": {
+        "concept_coverage": 13.2,
+        "lo_coverage": 3357.1,
+        "blueprint_coverage": 0,
+        "reference_coverage": 14.3,
+        "exam_coverage": 457.1,
+        "relation_density": 33.3
+      },
+      "overall_coverage": 7,
+      "status": "weak"
+    },
+    {
+      "subject_id": "mechatronics",
+      "subject_name": "Mechatronics",
+      "scores": {
+        "concept_coverage": 13.7,
+        "lo_coverage": 2714.3,
+        "blueprint_coverage": 0,
+        "reference_coverage": 14.3,
+        "exam_coverage": 800,
+        "relation_density": 38.1
+      },
+      "overall_coverage": 7,
+      "status": "weak"
+    },
+    {
+      "subject_id": "microbiology",
+      "subject_name": "Microbiology",
+      "scores": {
+        "concept_coverage": 20,
+        "lo_coverage": 2920,
+        "blueprint_coverage": 0,
+        "reference_coverage": 20,
+        "exam_coverage": 550,
+        "relation_density": 28.9
+      },
+      "overall_coverage": 7,
+      "status": "weak"
+    },
+    {
+      "subject_id": "next-js",
+      "subject_name": "Next.js",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 3050,
+        "blueprint_coverage": 0,
+        "reference_coverage": 0,
+        "exam_coverage": 233.3,
+        "relation_density": 60
+      },
+      "overall_coverage": 7,
+      "status": "weak"
+    },
+    {
+      "subject_id": "pathology",
+      "subject_name": "Pathology",
+      "scores": {
+        "concept_coverage": 19.6,
+        "lo_coverage": 2890,
+        "blueprint_coverage": 0,
+        "reference_coverage": 10,
+        "exam_coverage": 550,
+        "relation_density": 28.9
+      },
+      "overall_coverage": 7,
+      "status": "weak"
+    },
+    {
+      "subject_id": "pediatrics",
+      "subject_name": "Pediatrics",
+      "scores": {
+        "concept_coverage": 12,
+        "lo_coverage": 3250,
+        "blueprint_coverage": 0,
+        "reference_coverage": 16.7,
+        "exam_coverage": 0,
+        "relation_density": 73.3
+      },
+      "overall_coverage": 7,
+      "status": "weak"
+    },
+    {
+      "subject_id": "react",
+      "subject_name": "React",
+      "scores": {
+        "concept_coverage": 16,
+        "lo_coverage": 3125,
+        "blueprint_coverage": 0,
+        "reference_coverage": 25,
+        "exam_coverage": 337.5,
+        "relation_density": 35.7
+      },
+      "overall_coverage": 7,
+      "status": "weak"
+    },
+    {
+      "subject_id": "sat",
+      "subject_name": "SAT",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 3400,
+        "blueprint_coverage": 0,
+        "reference_coverage": 0,
+        "exam_coverage": 133.3,
+        "relation_density": 66.7
+      },
+      "overall_coverage": 7,
+      "status": "weak"
+    },
+    {
+      "subject_id": "supply-chain",
+      "subject_name": "Supply Chain",
+      "scores": {
+        "concept_coverage": 15.4,
+        "lo_coverage": 2950,
+        "blueprint_coverage": 0,
+        "reference_coverage": 12.5,
+        "exam_coverage": 675,
+        "relation_density": 35.7
+      },
+      "overall_coverage": 7,
+      "status": "weak"
+    },
+    {
+      "subject_id": "surgery",
+      "subject_name": "Surgery",
+      "scores": {
+        "concept_coverage": 18,
+        "lo_coverage": 3200,
+        "blueprint_coverage": 0,
+        "reference_coverage": 11.1,
+        "exam_coverage": 555.6,
+        "relation_density": 36.1
+      },
+      "overall_coverage": 7,
+      "status": "weak"
+    },
+    {
+      "subject_id": "synonyms",
+      "subject_name": "Synonyms",
+      "scores": {
+        "concept_coverage": 20,
+        "lo_coverage": 3100,
+        "blueprint_coverage": 0,
+        "reference_coverage": 20,
+        "exam_coverage": 660,
+        "relation_density": 28.9
+      },
+      "overall_coverage": 7,
+      "status": "weak"
+    },
+    {
+      "subject_id": "tailwind-css",
+      "subject_name": "Tailwind CSS",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 3400,
+        "blueprint_coverage": 0,
+        "reference_coverage": 0,
+        "exam_coverage": 233.3,
+        "relation_density": 46.7
+      },
+      "overall_coverage": 7,
+      "status": "weak"
+    },
+    {
+      "subject_id": "anatomy",
+      "subject_name": "Anatomy",
+      "scores": {
+        "concept_coverage": 24,
+        "lo_coverage": 3566.7,
+        "blueprint_coverage": 100,
+        "reference_coverage": 16.7,
+        "exam_coverage": 541.7,
+        "relation_density": 24.2
+      },
+      "overall_coverage": 8,
+      "status": "weak"
+    },
+    {
+      "subject_id": "cloud-computing",
+      "subject_name": "Cloud Computing",
+      "scores": {
+        "concept_coverage": 16,
+        "lo_coverage": 3462.5,
+        "blueprint_coverage": 0,
+        "reference_coverage": 25,
+        "exam_coverage": 787.5,
+        "relation_density": 39.3
+      },
+      "overall_coverage": 8,
+      "status": "weak"
+    },
+    {
+      "subject_id": "css",
+      "subject_name": "CSS",
+      "scores": {
+        "concept_coverage": 19.6,
+        "lo_coverage": 3610,
+        "blueprint_coverage": 0,
+        "reference_coverage": 10,
+        "exam_coverage": 330,
+        "relation_density": 22.2
+      },
+      "overall_coverage": 8,
+      "status": "weak"
+    },
+    {
+      "subject_id": "deep-learning",
+      "subject_name": "Deep Learning",
+      "scores": {
+        "concept_coverage": 20,
+        "lo_coverage": 3600,
+        "blueprint_coverage": 0,
+        "reference_coverage": 10,
+        "exam_coverage": 220,
+        "relation_density": 24.4
+      },
+      "overall_coverage": 8,
+      "status": "weak"
+    },
+    {
+      "subject_id": "english-literature",
+      "subject_name": "English Literature",
+      "scores": {
+        "concept_coverage": 20,
+        "lo_coverage": 3550,
+        "blueprint_coverage": 0,
+        "reference_coverage": 20,
+        "exam_coverage": 440,
+        "relation_density": 35.6
+      },
+      "overall_coverage": 8,
+      "status": "weak"
+    },
+    {
+      "subject_id": "flask",
+      "subject_name": "Flask",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 3600,
+        "blueprint_coverage": 0,
+        "reference_coverage": 0,
+        "exam_coverage": 250,
+        "relation_density": 66.7
+      },
+      "overall_coverage": 8,
+      "status": "weak"
+    },
+    {
+      "subject_id": "graphql",
+      "subject_name": "GraphQL",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 3600,
+        "blueprint_coverage": 0,
+        "reference_coverage": 0,
+        "exam_coverage": 250,
+        "relation_density": 66.7
+      },
+      "overall_coverage": 8,
+      "status": "weak"
+    },
+    {
+      "subject_id": "hrm",
+      "subject_name": "HRM",
+      "scores": {
+        "concept_coverage": 13.7,
+        "lo_coverage": 3400,
+        "blueprint_coverage": 0,
+        "reference_coverage": 14.3,
+        "exam_coverage": 457.1,
+        "relation_density": 33.3
+      },
+      "overall_coverage": 8,
+      "status": "weak"
+    },
+    {
+      "subject_id": "html",
+      "subject_name": "HTML",
+      "scores": {
+        "concept_coverage": 18,
+        "lo_coverage": 3855.6,
+        "blueprint_coverage": 0,
+        "reference_coverage": 11.1,
+        "exam_coverage": 333.3,
+        "relation_density": 27.8
+      },
+      "overall_coverage": 8,
+      "status": "weak"
+    },
+    {
+      "subject_id": "industrial-eng",
+      "subject_name": "Industrial Engineering",
+      "scores": {
+        "concept_coverage": 15.7,
+        "lo_coverage": 3412.5,
+        "blueprint_coverage": 0,
+        "reference_coverage": 25,
+        "exam_coverage": 450,
+        "relation_density": 35.7
+      },
+      "overall_coverage": 8,
+      "status": "weak"
+    },
+    {
+      "subject_id": "international-relations",
+      "subject_name": "International Relations",
+      "scores": {
+        "concept_coverage": 21.6,
+        "lo_coverage": 3363.6,
+        "blueprint_coverage": 0,
+        "reference_coverage": 18.2,
+        "exam_coverage": 545.5,
+        "relation_density": 34.5
+      },
+      "overall_coverage": 8,
+      "status": "weak"
+    },
+    {
+      "subject_id": "networking",
+      "subject_name": "Networking",
+      "scores": {
+        "concept_coverage": 14,
+        "lo_coverage": 3542.9,
+        "blueprint_coverage": 0,
+        "reference_coverage": 28.6,
+        "exam_coverage": 800,
+        "relation_density": 38.1
+      },
+      "overall_coverage": 8,
+      "status": "weak"
+    },
+    {
+      "subject_id": "nursing",
+      "subject_name": "Nursing",
+      "scores": {
+        "concept_coverage": 15.4,
+        "lo_coverage": 3350,
+        "blueprint_coverage": 0,
+        "reference_coverage": 12.5,
+        "exam_coverage": 450,
+        "relation_density": 50
+      },
+      "overall_coverage": 8,
+      "status": "weak"
+    },
+    {
+      "subject_id": "pharmacology",
+      "subject_name": "Pharmacology",
+      "scores": {
+        "concept_coverage": 17.6,
+        "lo_coverage": 3455.6,
+        "blueprint_coverage": 0,
+        "reference_coverage": 22.2,
+        "exam_coverage": 333.3,
+        "relation_density": 36.1
+      },
+      "overall_coverage": 8,
+      "status": "weak"
+    },
+    {
+      "subject_id": "agriculture",
+      "subject_name": "Agriculture",
+      "scores": {
+        "concept_coverage": 15.7,
+        "lo_coverage": 4187.5,
+        "blueprint_coverage": 100,
+        "reference_coverage": 25,
+        "exam_coverage": 450,
+        "relation_density": 50
+      },
+      "overall_coverage": 9,
+      "status": "weak"
+    },
+    {
+      "subject_id": "anthropology",
+      "subject_name": "Anthropology",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 3900,
+        "blueprint_coverage": 100,
+        "reference_coverage": 0,
+        "exam_coverage": 666.7,
+        "relation_density": 66.7
+      },
+      "overall_coverage": 9,
+      "status": "weak"
+    },
+    {
+      "subject_id": "civil-eng",
+      "subject_name": "Civil Engineering",
+      "scores": {
+        "concept_coverage": 18,
+        "lo_coverage": 4155.6,
+        "blueprint_coverage": 0,
+        "reference_coverage": 22.2,
+        "exam_coverage": 666.7,
+        "relation_density": 27.8
+      },
+      "overall_coverage": 9,
+      "status": "weak"
+    },
+    {
+      "subject_id": "commerce",
+      "subject_name": "Commerce",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 3266.7,
+        "blueprint_coverage": 0,
+        "reference_coverage": 0,
+        "exam_coverage": 1466.7,
+        "relation_density": 66.7
+      },
+      "overall_coverage": 9,
+      "status": "weak"
+    },
+    {
+      "subject_id": "community-medicine",
+      "subject_name": "Community Medicine",
+      "scores": {
+        "concept_coverage": 9.8,
+        "lo_coverage": 3840,
+        "blueprint_coverage": 0,
+        "reference_coverage": 40,
+        "exam_coverage": 600,
+        "relation_density": 80
+      },
+      "overall_coverage": 9,
+      "status": "weak"
+    },
+    {
+      "subject_id": "cyber-security",
+      "subject_name": "Cyber Security",
+      "scores": {
+        "concept_coverage": 15.7,
+        "lo_coverage": 3412.5,
+        "blueprint_coverage": 0,
+        "reference_coverage": 25,
+        "exam_coverage": 1125,
+        "relation_density": 39.3
+      },
+      "overall_coverage": 9,
+      "status": "weak"
+    },
+    {
+      "subject_id": "devops",
+      "subject_name": "DevOps",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 3850,
+        "blueprint_coverage": 0,
+        "reference_coverage": 0,
+        "exam_coverage": 375,
+        "relation_density": 66.7
+      },
+      "overall_coverage": 9,
+      "status": "weak"
+    },
+    {
+      "subject_id": "environmental-science",
+      "subject_name": "Environmental Science",
+      "scores": {
+        "concept_coverage": 20,
+        "lo_coverage": 3550,
+        "blueprint_coverage": 0,
+        "reference_coverage": 20,
+        "exam_coverage": 1100,
+        "relation_density": 37.8
+      },
+      "overall_coverage": 9,
+      "status": "weak"
+    },
+    {
+      "subject_id": "grammar",
+      "subject_name": "Grammar",
+      "scores": {
+        "concept_coverage": 18,
+        "lo_coverage": 3922.2,
+        "blueprint_coverage": 0,
+        "reference_coverage": 22.2,
+        "exam_coverage": 777.8,
+        "relation_density": 30.6
+      },
+      "overall_coverage": 9,
+      "status": "weak"
+    },
+    {
+      "subject_id": "history",
+      "subject_name": "World History",
+      "scores": {
+        "concept_coverage": 20,
+        "lo_coverage": 3880,
+        "blueprint_coverage": 0,
+        "reference_coverage": 20,
+        "exam_coverage": 660,
+        "relation_density": 37.8
+      },
+      "overall_coverage": 9,
+      "status": "weak"
+    },
+    {
+      "subject_id": "linux",
+      "subject_name": "Linux",
+      "scores": {
+        "concept_coverage": 18,
+        "lo_coverage": 4133.3,
+        "blueprint_coverage": 0,
+        "reference_coverage": 11.1,
+        "exam_coverage": 333.3,
+        "relation_density": 27.8
+      },
+      "overall_coverage": 9,
+      "status": "weak"
+    },
+    {
+      "subject_id": "pharmacy",
+      "subject_name": "Pharmacy",
+      "scores": {
+        "concept_coverage": 15.7,
+        "lo_coverage": 4100,
+        "blueprint_coverage": 0,
+        "reference_coverage": 0,
+        "exam_coverage": 450,
+        "relation_density": 50
+      },
+      "overall_coverage": 9,
+      "status": "weak"
+    },
+    {
+      "subject_id": "psychology",
+      "subject_name": "Psychology",
+      "scores": {
+        "concept_coverage": 18,
+        "lo_coverage": 3355.6,
+        "blueprint_coverage": 0,
+        "reference_coverage": 22.2,
+        "exam_coverage": 1222.2,
+        "relation_density": 38.9
+      },
+      "overall_coverage": 9,
+      "status": "weak"
+    },
+    {
+      "subject_id": "spring-boot",
+      "subject_name": "Spring Boot",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 4250,
+        "blueprint_coverage": 0,
+        "reference_coverage": 0,
+        "exam_coverage": 250,
+        "relation_density": 83.3
+      },
+      "overall_coverage": 9,
+      "status": "weak"
+    },
+    {
+      "subject_id": "ai",
+      "subject_name": "Artificial Intelligence",
+      "scores": {
+        "concept_coverage": 22,
+        "lo_coverage": 4509.1,
+        "blueprint_coverage": 100,
+        "reference_coverage": 9.1,
+        "exam_coverage": 763.6,
+        "relation_density": 30.9
+      },
+      "overall_coverage": 10,
+      "status": "weak"
+    },
+    {
+      "subject_id": "bootstrap",
+      "subject_name": "Bootstrap",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 4700,
+        "blueprint_coverage": 0,
+        "reference_coverage": 0,
+        "exam_coverage": 360,
+        "relation_density": 40
+      },
+      "overall_coverage": 10,
+      "status": "weak"
+    },
+    {
+      "subject_id": "data-science",
+      "subject_name": "Data Science",
+      "scores": {
+        "concept_coverage": 21.6,
+        "lo_coverage": 4227.3,
+        "blueprint_coverage": 0,
+        "reference_coverage": 9.1,
+        "exam_coverage": 763.6,
+        "relation_density": 30.9
+      },
+      "overall_coverage": 10,
+      "status": "weak"
+    },
+    {
+      "subject_id": "ecat",
+      "subject_name": "ECAT",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 4750,
+        "blueprint_coverage": 0,
+        "reference_coverage": 50,
+        "exam_coverage": 150,
+        "relation_density": 200
+      },
+      "overall_coverage": 10,
+      "status": "weak"
+    },
+    {
+      "subject_id": "economics",
+      "subject_name": "Economics",
+      "scores": {
+        "concept_coverage": 26.4,
+        "lo_coverage": 4035.7,
+        "blueprint_coverage": 0,
+        "reference_coverage": 21.4,
+        "exam_coverage": 1392.9,
+        "relation_density": 18.7
+      },
+      "overall_coverage": 10,
+      "status": "weak"
+    },
+    {
+      "subject_id": "general-anatomy",
+      "subject_name": "General Anatomy",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 4375,
+        "blueprint_coverage": 0,
+        "reference_coverage": 0,
+        "exam_coverage": 375,
+        "relation_density": 83.3
+      },
+      "overall_coverage": 10,
+      "status": "weak"
+    },
+    {
+      "subject_id": "idioms",
+      "subject_name": "Idioms & Phrases",
+      "scores": {
+        "concept_coverage": 20,
+        "lo_coverage": 4560,
+        "blueprint_coverage": 0,
+        "reference_coverage": 10,
+        "exam_coverage": 660,
+        "relation_density": 31.1
+      },
+      "overall_coverage": 10,
+      "status": "weak"
+    },
+    {
+      "subject_id": "ielts",
+      "subject_name": "IELTS",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 4750,
+        "blueprint_coverage": 0,
+        "reference_coverage": 50,
+        "exam_coverage": 150,
+        "relation_density": 200
+      },
+      "overall_coverage": 10,
+      "status": "weak"
+    },
+    {
+      "subject_id": "law",
+      "subject_name": "Law",
+      "scores": {
+        "concept_coverage": 23.5,
+        "lo_coverage": 3425,
+        "blueprint_coverage": 0,
+        "reference_coverage": 25,
+        "exam_coverage": 1950,
+        "relation_density": 25.8
+      },
+      "overall_coverage": 10,
+      "status": "weak"
+    },
+    {
+      "subject_id": "medical",
+      "subject_name": "Medical Sciences",
+      "scores": {
+        "concept_coverage": 17.3,
+        "lo_coverage": 4666.7,
+        "blueprint_coverage": 0,
+        "reference_coverage": 0,
+        "exam_coverage": 444.4,
+        "relation_density": 38.9
+      },
+      "overall_coverage": 10,
+      "status": "weak"
+    },
+    {
+      "subject_id": "operating-systems",
+      "subject_name": "Operating Systems",
+      "scores": {
+        "concept_coverage": 16,
+        "lo_coverage": 4112.5,
+        "blueprint_coverage": 0,
+        "reference_coverage": 25,
+        "exam_coverage": 787.5,
+        "relation_density": 39.3
+      },
+      "overall_coverage": 10,
+      "status": "weak"
+    },
+    {
+      "subject_id": "oral-histology",
+      "subject_name": "Oral Histology",
+      "scores": {
+        "concept_coverage": 11.8,
+        "lo_coverage": 4833.3,
+        "blueprint_coverage": 0,
+        "reference_coverage": 16.7,
+        "exam_coverage": 233.3,
+        "relation_density": 66.7
+      },
+      "overall_coverage": 10,
+      "status": "weak"
+    },
+    {
+      "subject_id": "political-science",
+      "subject_name": "Political Science",
+      "scores": {
+        "concept_coverage": 20,
+        "lo_coverage": 4410,
+        "blueprint_coverage": 0,
+        "reference_coverage": 20,
+        "exam_coverage": 550,
+        "relation_density": 42.2
+      },
+      "overall_coverage": 10,
+      "status": "weak"
+    },
+    {
+      "subject_id": "rest-api",
+      "subject_name": "REST API",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 4400,
+        "blueprint_coverage": 0,
+        "reference_coverage": 0,
+        "exam_coverage": 240,
+        "relation_density": 70
+      },
+      "overall_coverage": 10,
+      "status": "weak"
+    },
+    {
+      "subject_id": "software-eng",
+      "subject_name": "Software Engineering",
+      "scores": {
+        "concept_coverage": 20,
+        "lo_coverage": 4540,
+        "blueprint_coverage": 0,
+        "reference_coverage": 20,
+        "exam_coverage": 770,
+        "relation_density": 24.4
+      },
+      "overall_coverage": 10,
+      "status": "weak"
+    },
+    {
+      "subject_id": "windows",
+      "subject_name": "Windows",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 4480,
+        "blueprint_coverage": 0,
+        "reference_coverage": 20,
+        "exam_coverage": 360,
+        "relation_density": 40
+      },
+      "overall_coverage": 10,
+      "status": "weak"
+    },
+    {
+      "subject_id": "zoology",
+      "subject_name": "Zoology",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 4480,
+        "blueprint_coverage": 0,
+        "reference_coverage": 20,
+        "exam_coverage": 640,
+        "relation_density": 40
+      },
+      "overall_coverage": 10,
+      "status": "weak"
+    },
+    {
+      "subject_id": "chemistry",
+      "subject_name": "Chemistry",
+      "scores": {
+        "concept_coverage": 28,
+        "lo_coverage": 4421.4,
+        "blueprint_coverage": 0,
+        "reference_coverage": 21.4,
+        "exam_coverage": 1414.3,
+        "relation_density": 20.9
+      },
+      "overall_coverage": 11,
+      "status": "weak"
+    },
+    {
+      "subject_id": "computer-engineering",
+      "subject_name": "Computer Engineering",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 4875,
+        "blueprint_coverage": 0,
+        "reference_coverage": 0,
+        "exam_coverage": 500,
+        "relation_density": 83.3
+      },
+      "overall_coverage": 11,
+      "status": "weak"
+    },
+    {
+      "subject_id": "dpt",
+      "subject_name": "DPT",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 5000,
+        "blueprint_coverage": 0,
+        "reference_coverage": 0,
+        "exam_coverage": 150,
+        "relation_density": 200
+      },
+      "overall_coverage": 11,
+      "status": "weak"
+    },
+    {
+      "subject_id": "electrical-eng",
+      "subject_name": "Electrical Engineering",
+      "scores": {
+        "concept_coverage": 19.6,
+        "lo_coverage": 4900,
+        "blueprint_coverage": 0,
+        "reference_coverage": 20,
+        "exam_coverage": 990,
+        "relation_density": 24.4
+      },
+      "overall_coverage": 11,
+      "status": "weak"
+    },
+    {
+      "subject_id": "finance",
+      "subject_name": "Finance",
+      "scores": {
+        "concept_coverage": 15.1,
+        "lo_coverage": 4225,
+        "blueprint_coverage": 0,
+        "reference_coverage": 25,
+        "exam_coverage": 1575,
+        "relation_density": 50
+      },
+      "overall_coverage": 11,
+      "status": "weak"
+    },
+    {
+      "subject_id": "git-github",
+      "subject_name": "Git & GitHub",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 5414.3,
+        "blueprint_coverage": 0,
+        "reference_coverage": 0,
+        "exam_coverage": 228.6,
+        "relation_density": 33.3
+      },
+      "overall_coverage": 11,
+      "status": "weak"
+    },
+    {
+      "subject_id": "machine-learning",
+      "subject_name": "Machine Learning",
+      "scores": {
+        "concept_coverage": 24.5,
+        "lo_coverage": 5053.8,
+        "blueprint_coverage": 0,
+        "reference_coverage": 15.4,
+        "exam_coverage": 323.1,
+        "relation_density": 24.4
+      },
+      "overall_coverage": 11,
+      "status": "weak"
+    },
+    {
+      "subject_id": "mechanical-eng",
+      "subject_name": "Mechanical Engineering",
+      "scores": {
+        "concept_coverage": 17.3,
+        "lo_coverage": 4566.7,
+        "blueprint_coverage": 0,
+        "reference_coverage": 22.2,
+        "exam_coverage": 1000,
+        "relation_density": 27.8
+      },
+      "overall_coverage": 11,
+      "status": "weak"
+    },
+    {
+      "subject_id": "oral-pathology",
+      "subject_name": "Oral Pathology",
+      "scores": {
+        "concept_coverage": 10,
+        "lo_coverage": 5320,
+        "blueprint_coverage": 0,
+        "reference_coverage": 20,
+        "exam_coverage": 240,
+        "relation_density": 80
+      },
+      "overall_coverage": 11,
+      "status": "weak"
+    },
+    {
+      "subject_id": "pakistan-history",
+      "subject_name": "Pakistan History",
+      "scores": {
+        "concept_coverage": 24,
+        "lo_coverage": 4966.7,
+        "blueprint_coverage": 0,
+        "reference_coverage": 25,
+        "exam_coverage": 541.7,
+        "relation_density": 28.8
+      },
+      "overall_coverage": 11,
+      "status": "weak"
+    },
+    {
+      "subject_id": "programming",
+      "subject_name": "Programming",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 4400,
+        "blueprint_coverage": 0,
+        "reference_coverage": 0,
+        "exam_coverage": 960,
+        "relation_density": 20
+      },
+      "overall_coverage": 11,
+      "status": "weak"
+    },
+    {
+      "subject_id": "vocabulary",
+      "subject_name": "Vocabulary",
+      "scores": {
+        "concept_coverage": 26,
+        "lo_coverage": 4915.4,
+        "blueprint_coverage": 0,
+        "reference_coverage": 15.4,
+        "exam_coverage": 861.5,
+        "relation_density": 16.7
+      },
+      "overall_coverage": 11,
+      "status": "weak"
+    },
+    {
+      "subject_id": "world-current-affairs",
+      "subject_name": "World Current Affairs",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 4700,
+        "blueprint_coverage": 0,
+        "reference_coverage": 40,
+        "exam_coverage": 600,
+        "relation_density": 70
+      },
+      "overall_coverage": 11,
+      "status": "weak"
+    },
+    {
+      "subject_id": "accounting",
+      "subject_name": "Accounting",
+      "scores": {
+        "concept_coverage": 18,
+        "lo_coverage": 4666.7,
+        "blueprint_coverage": 100,
+        "reference_coverage": 33.3,
+        "exam_coverage": 1777.8,
+        "relation_density": 38.9
+      },
+      "overall_coverage": 12,
+      "status": "weak"
+    },
+    {
+      "subject_id": "biotechnology",
+      "subject_name": "Biotechnology",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 5000,
+        "blueprint_coverage": 0,
+        "reference_coverage": 0,
+        "exam_coverage": 900,
+        "relation_density": 200
+      },
+      "overall_coverage": 12,
+      "status": "weak"
+    },
+    {
+      "subject_id": "django",
+      "subject_name": "Django",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 5500,
+        "blueprint_coverage": 0,
+        "reference_coverage": 0,
+        "exam_coverage": 300,
+        "relation_density": 200
+      },
+      "overall_coverage": 12,
+      "status": "weak"
+    },
+    {
+      "subject_id": "dotnet",
+      "subject_name": ".NET",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 5433.3,
+        "blueprint_coverage": 0,
+        "reference_coverage": 0,
+        "exam_coverage": 266.7,
+        "relation_density": 166.7
+      },
+      "overall_coverage": 12,
+      "status": "weak"
+    },
+    {
+      "subject_id": "mbbs",
+      "subject_name": "MBBS",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 5500,
+        "blueprint_coverage": 0,
+        "reference_coverage": 0,
+        "exam_coverage": 300,
+        "relation_density": 200
+      },
+      "overall_coverage": 12,
+      "status": "weak"
+    },
+    {
+      "subject_id": "reasoning",
+      "subject_name": "Reasoning & IQ",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 3133.3,
+        "blueprint_coverage": 0,
+        "reference_coverage": 16.7,
+        "exam_coverage": 3766.7,
+        "relation_density": 46.7
+      },
+      "overall_coverage": 12,
+      "status": "weak"
+    },
+    {
+      "subject_id": "bds",
+      "subject_name": "BDS",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 6000,
+        "blueprint_coverage": 0,
+        "reference_coverage": 0,
+        "exam_coverage": 300,
+        "relation_density": 200
+      },
+      "overall_coverage": 13,
+      "status": "weak"
+    },
+    {
+      "subject_id": "biology",
+      "subject_name": "Biology",
+      "scores": {
+        "concept_coverage": 24,
+        "lo_coverage": 5683.3,
+        "blueprint_coverage": 0,
+        "reference_coverage": 16.7,
+        "exam_coverage": 1266.7,
+        "relation_density": 25.8
+      },
+      "overall_coverage": 13,
+      "status": "weak"
+    },
+    {
+      "subject_id": "forestry",
+      "subject_name": "Forestry",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 5750,
+        "blueprint_coverage": 0,
+        "reference_coverage": 50,
+        "exam_coverage": 750,
+        "relation_density": 200
+      },
+      "overall_coverage": 13,
+      "status": "weak"
+    },
+    {
+      "subject_id": "physical-education",
+      "subject_name": "Physical Education",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 5700,
+        "blueprint_coverage": 0,
+        "reference_coverage": 33.3,
+        "exam_coverage": 666.7,
+        "relation_density": 166.7
+      },
+      "overall_coverage": 13,
+      "status": "weak"
+    },
+    {
+      "subject_id": "veterinary",
+      "subject_name": "Veterinary Science",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 6000,
+        "blueprint_coverage": 0,
+        "reference_coverage": 33.3,
+        "exam_coverage": 533.3,
+        "relation_density": 166.7
+      },
+      "overall_coverage": 13,
+      "status": "weak"
+    },
+    {
+      "subject_id": "botany",
+      "subject_name": "Botany",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 6000,
+        "blueprint_coverage": 0,
+        "reference_coverage": 66.7,
+        "exam_coverage": 733.3,
+        "relation_density": 66.7
+      },
+      "overall_coverage": 14,
+      "status": "weak"
+    },
+    {
+      "subject_id": "constitution",
+      "subject_name": "Constitution",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 5100,
+        "blueprint_coverage": 0,
+        "reference_coverage": 66.7,
+        "exam_coverage": 2266.7,
+        "relation_density": 66.7
+      },
+      "overall_coverage": 14,
+      "status": "weak"
+    },
+    {
+      "subject_id": "essay",
+      "subject_name": "Essay Writing",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 6800,
+        "blueprint_coverage": 0,
+        "reference_coverage": 25,
+        "exam_coverage": 250,
+        "relation_density": 83.3
+      },
+      "overall_coverage": 14,
+      "status": "weak"
+    },
+    {
+      "subject_id": "business-admin",
+      "subject_name": "Business Administration",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 6000,
+        "blueprint_coverage": 0,
+        "reference_coverage": 0,
+        "exam_coverage": 1466.7,
+        "relation_density": 166.7
+      },
+      "overall_coverage": 15,
+      "status": "weak"
+    },
+    {
+      "subject_id": "current-affairs",
+      "subject_name": "Current Affairs",
+      "scores": {
+        "concept_coverage": 28,
+        "lo_coverage": 3757.1,
+        "blueprint_coverage": 0,
+        "reference_coverage": 14.3,
+        "exam_coverage": 4735.7,
+        "relation_density": 23.1
+      },
+      "overall_coverage": 15,
+      "status": "weak"
+    },
+    {
+      "subject_id": "education",
+      "subject_name": "Education",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 6000,
+        "blueprint_coverage": 0,
+        "reference_coverage": 50,
+        "exam_coverage": 1500,
+        "relation_density": 200
+      },
+      "overall_coverage": 15,
+      "status": "weak"
+    },
+    {
+      "subject_id": "everyday-science",
+      "subject_name": "Everyday Science",
+      "scores": {
+        "concept_coverage": 44,
+        "lo_coverage": 4077.3,
+        "blueprint_coverage": 0,
+        "reference_coverage": 9.1,
+        "exam_coverage": 4600,
+        "relation_density": 10
+      },
+      "overall_coverage": 15,
+      "status": "weak"
+    },
+    {
+      "subject_id": "ms-office",
+      "subject_name": "Microsoft Office",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 4975,
+        "blueprint_coverage": 0,
+        "reference_coverage": 12.5,
+        "exam_coverage": 3175,
+        "relation_density": 17.9
+      },
+      "overall_coverage": 15,
+      "status": "weak"
+    },
+    {
+      "subject_id": "pakistan-affairs",
+      "subject_name": "Pakistan Affairs",
+      "scores": {
+        "concept_coverage": 69.2,
+        "lo_coverage": 3727.8,
+        "blueprint_coverage": 0,
+        "reference_coverage": 11.1,
+        "exam_coverage": 5138.9,
+        "relation_density": 4.4
+      },
+      "overall_coverage": 15,
+      "status": "weak"
+    },
+    {
+      "subject_id": "sociology",
+      "subject_name": "Sociology",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 6750,
+        "blueprint_coverage": 0,
+        "reference_coverage": 100,
+        "exam_coverage": 750,
+        "relation_density": 200
+      },
+      "overall_coverage": 15,
+      "status": "weak"
+    },
+    {
+      "subject_id": "world-history",
+      "subject_name": "World History",
+      "scores": {
+        "concept_coverage": 24,
+        "lo_coverage": 7183.3,
+        "blueprint_coverage": 0,
+        "reference_coverage": 8.3,
+        "exam_coverage": 433.3,
+        "relation_density": 25.8
+      },
+      "overall_coverage": 15,
+      "status": "weak"
+    },
+    {
+      "subject_id": "computer-science",
+      "subject_name": "Computer Science",
+      "scores": {
+        "concept_coverage": 28.3,
+        "lo_coverage": 4640,
+        "blueprint_coverage": 0,
+        "reference_coverage": 13.3,
+        "exam_coverage": 4713.3,
+        "relation_density": 19
+      },
+      "overall_coverage": 16,
+      "status": "weak"
+    },
+    {
+      "subject_id": "english",
+      "subject_name": "English",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 3994.7,
+        "blueprint_coverage": 0,
+        "reference_coverage": 10.5,
+        "exam_coverage": 5263.2,
+        "relation_density": 10.5
+      },
+      "overall_coverage": 16,
+      "status": "weak"
+    },
+    {
+      "subject_id": "general-knowledge",
+      "subject_name": "General Knowledge",
+      "scores": {
+        "concept_coverage": 34,
+        "lo_coverage": 3735.3,
+        "blueprint_coverage": 0,
+        "reference_coverage": 11.8,
+        "exam_coverage": 5294.1,
+        "relation_density": 14.7
+      },
+      "overall_coverage": 16,
+      "status": "weak"
+    },
+    {
+      "subject_id": "islamic-studies",
+      "subject_name": "Islamic Studies",
+      "scores": {
+        "concept_coverage": 59.6,
+        "lo_coverage": 4816.1,
+        "blueprint_coverage": 0,
+        "reference_coverage": 9.7,
+        "exam_coverage": 4541.9,
+        "relation_density": 4.9
+      },
+      "overall_coverage": 17,
+      "status": "weak"
+    },
+    {
+      "subject_id": "javascript",
+      "subject_name": "JavaScript",
+      "scores": {
+        "concept_coverage": 15.7,
+        "lo_coverage": 8700,
+        "blueprint_coverage": 0,
+        "reference_coverage": 25,
+        "exam_coverage": 337.5,
+        "relation_density": 14.3
+      },
+      "overall_coverage": 18,
+      "status": "weak"
+    },
+    {
+      "subject_id": "pedagogy",
+      "subject_name": "Pedagogy",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 7650,
+        "blueprint_coverage": 0,
+        "reference_coverage": 50,
+        "exam_coverage": 1650,
+        "relation_density": 200
+      },
+      "overall_coverage": 18,
+      "status": "weak"
+    },
+    {
+      "subject_id": "csharp",
+      "subject_name": "C#",
+      "scores": {
+        "concept_coverage": 12.1,
+        "lo_coverage": 9050,
+        "blueprint_coverage": 0,
+        "reference_coverage": 12.5,
+        "exam_coverage": 225,
+        "relation_density": 21.4
+      },
+      "overall_coverage": 19,
+      "status": "weak"
+    },
+    {
+      "subject_id": "java",
+      "subject_name": "Java",
+      "scores": {
+        "concept_coverage": 13.7,
+        "lo_coverage": 9414.3,
+        "blueprint_coverage": 0,
+        "reference_coverage": 28.6,
+        "exam_coverage": 342.9,
+        "relation_density": 19
+      },
+      "overall_coverage": 19,
+      "status": "weak"
+    },
+    {
+      "subject_id": "php",
+      "subject_name": "PHP",
+      "scores": {
+        "concept_coverage": 14,
+        "lo_coverage": 9371.4,
+        "blueprint_coverage": 0,
+        "reference_coverage": 14.3,
+        "exam_coverage": 342.9,
+        "relation_density": 19
+      },
+      "overall_coverage": 19,
+      "status": "weak"
+    },
+    {
+      "subject_id": "rust",
+      "subject_name": "Rust",
+      "scores": {
+        "concept_coverage": 7.4,
+        "lo_coverage": 9428.6,
+        "blueprint_coverage": 0,
+        "reference_coverage": 14.3,
+        "exam_coverage": 228.6,
+        "relation_density": 19
+      },
+      "overall_coverage": 19,
+      "status": "weak"
+    },
+    {
+      "subject_id": "python",
+      "subject_name": "Python",
+      "scores": {
+        "concept_coverage": 13.7,
+        "lo_coverage": 9628.6,
+        "blueprint_coverage": 0,
+        "reference_coverage": 28.6,
+        "exam_coverage": 342.9,
+        "relation_density": 19
+      },
+      "overall_coverage": 20,
+      "status": "partial"
+    },
+    {
+      "subject_id": "cpp",
+      "subject_name": "C++",
+      "scores": {
+        "concept_coverage": 11.9,
+        "lo_coverage": 10342.9,
+        "blueprint_coverage": 0,
+        "reference_coverage": 28.6,
+        "exam_coverage": 342.9,
+        "relation_density": 28.6
+      },
+      "overall_coverage": 21,
+      "status": "partial"
+    },
+    {
+      "subject_id": "go",
+      "subject_name": "Go",
+      "scores": {
+        "concept_coverage": 7.5,
+        "lo_coverage": 11000,
+        "blueprint_coverage": 0,
+        "reference_coverage": 16.7,
+        "exam_coverage": 233.3,
+        "relation_density": 26.7
+      },
+      "overall_coverage": 22,
+      "status": "partial"
+    },
+    {
+      "subject_id": "geography",
+      "subject_name": "Geography",
+      "scores": {
+        "concept_coverage": 26,
+        "lo_coverage": 11815.4,
+        "blueprint_coverage": 0,
+        "reference_coverage": 15.4,
+        "exam_coverage": 646.2,
+        "relation_density": 20.5
+      },
+      "overall_coverage": 25,
+      "status": "partial"
+    },
+    {
+      "subject_id": "urdu",
+      "subject_name": "Urdu",
+      "scores": {
+        "concept_coverage": 24,
+        "lo_coverage": 9058.3,
+        "blueprint_coverage": 0,
+        "reference_coverage": 16.7,
+        "exam_coverage": 4358.3,
+        "relation_density": 19.7
+      },
+      "overall_coverage": 25,
+      "status": "partial"
+    },
+    {
+      "subject_id": "c",
+      "subject_name": "C Programming",
+      "scores": {
+        "concept_coverage": 13,
+        "lo_coverage": 13357.1,
+        "blueprint_coverage": 0,
+        "reference_coverage": 28.6,
+        "exam_coverage": 342.9,
+        "relation_density": 33.3
+      },
+      "overall_coverage": 27,
+      "status": "partial"
+    },
+    {
+      "subject_id": "logical-reasoning",
+      "subject_name": "Logical Reasoning",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 13162.5,
+        "blueprint_coverage": 0,
+        "reference_coverage": 12.5,
+        "exam_coverage": 1237.5,
+        "relation_density": 25
+      },
+      "overall_coverage": 28,
+      "status": "partial"
+    },
+    {
+      "subject_id": "verbal-reasoning",
+      "subject_name": "Verbal Reasoning",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 14437.5,
+        "blueprint_coverage": 0,
+        "reference_coverage": 12.5,
+        "exam_coverage": 562.5,
+        "relation_density": 25
+      },
+      "overall_coverage": 30,
+      "status": "partial"
+    },
+    {
+      "subject_id": "data-interpretation",
+      "subject_name": "Data Interpretation",
+      "scores": {
+        "concept_coverage": 13.2,
+        "lo_coverage": 15457.1,
+        "blueprint_coverage": 0,
+        "reference_coverage": 14.3,
+        "exam_coverage": 571.4,
+        "relation_density": 33.3
+      },
+      "overall_coverage": 32,
+      "status": "partial"
+    },
+    {
+      "subject_id": "statistics",
+      "subject_name": "Statistics",
+      "scores": {
+        "concept_coverage": 1.7,
+        "lo_coverage": 15500,
+        "blueprint_coverage": 0,
+        "reference_coverage": 28.6,
+        "exam_coverage": 1257.1,
+        "relation_density": 19
+      },
+      "overall_coverage": 33,
+      "status": "partial"
+    },
+    {
+      "subject_id": "non-verbal-reasoning",
+      "subject_name": "Non-Verbal Reasoning",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 16285.7,
+        "blueprint_coverage": 0,
+        "reference_coverage": 14.3,
+        "exam_coverage": 457.1,
+        "relation_density": 33.3
+      },
+      "overall_coverage": 34,
+      "status": "partial"
+    },
+    {
+      "subject_id": "aptitude-tests",
+      "subject_name": "Aptitude Tests",
+      "scores": {
+        "concept_coverage": 100,
+        "lo_coverage": 17766.7,
+        "blueprint_coverage": 100,
+        "reference_coverage": 16.7,
+        "exam_coverage": 1283.3,
+        "relation_density": 46.7
+      },
+      "overall_coverage": 38,
+      "status": "partial"
+    },
+    {
+      "subject_id": "analytical-reasoning",
+      "subject_name": "Analytical Reasoning",
+      "scores": {
+        "concept_coverage": 14.5,
+        "lo_coverage": 19425,
+        "blueprint_coverage": 100,
+        "reference_coverage": 25,
+        "exam_coverage": 450,
+        "relation_density": 25
+      },
+      "overall_coverage": 40,
+      "status": "partial"
+    },
+    {
+      "subject_id": "iq",
+      "subject_name": "IQ & Aptitude",
+      "scores": {
+        "concept_coverage": 11.5,
+        "lo_coverage": 21950,
+        "blueprint_coverage": 0,
+        "reference_coverage": 33.3,
+        "exam_coverage": 2450,
+        "relation_density": 33.3
+      },
+      "overall_coverage": 48,
+      "status": "partial"
+    },
+    {
+      "subject_id": "mathematics",
+      "subject_name": "Mathematics",
+      "scores": {
+        "concept_coverage": 1.8,
+        "lo_coverage": 21119,
+        "blueprint_coverage": 0,
+        "reference_coverage": 14.3,
+        "exam_coverage": 4423.8,
+        "relation_density": 2.9
+      },
+      "overall_coverage": 49,
+      "status": "partial"
+    },
+    {
+      "subject_id": "physics",
+      "subject_name": "Physics",
+      "scores": {
+        "concept_coverage": 3.2,
+        "lo_coverage": 26166.7,
+        "blueprint_coverage": 0,
+        "reference_coverage": 100,
+        "exam_coverage": 1766.7,
+        "relation_density": 66.7
+      },
+      "overall_coverage": 55,
+      "status": "strong"
+    }
+  ],
+  "summary": {
+    "strong": 1,
+    "partial": 15,
+    "weak": 227,
+    "avg_coverage": 8.9
+  }
+}

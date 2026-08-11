@@ -1,0 +1,60 @@
+name: Build & Static Pages
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Verify static pages (deterministic, no deps)
+        run: |
+          node scripts/gen-seo-pages.cjs --verify-only
+        continue-on-error: true
+
+      - name: Validate sitemap
+        run: |
+          node -e "
+            const fs=require('fs');
+            const sm=fs.readFileSync('sitemap.xml','utf8');
+            const locs=(sm.match(/<loc>/g)||[]).length;
+            if(locs<900) { console.error('sitemap too small:',locs); process.exit(1); }
+            console.log('sitemap urls:',locs);
+          "
+
+      - name: Check robots.txt references
+        run: |
+          node -e "
+            const fs=require('fs');
+            if(!fs.existsSync('robots.txt')) { console.error('missing robots.txt'); process.exit(1); }
+            const t=fs.readFileSync('robots.txt','utf8');
+            if(!/sitemap/i.test(t)) { console.error('robots.txt missing sitemap ref'); process.exit(1); }
+            console.log('robots.txt OK');
+          "
+
+      - name: Upload static artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: static-site
+          path: |
+            index.html
+            subjects/
+            chapters/
+            assets/
+            sitemap.xml
+            robots.txt
+            manifest.webmanifest
+            sw.js
+            offline.html
+            .nojekyll

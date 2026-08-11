@@ -1,0 +1,64 @@
+{
+  "phase": 18,
+  "name": "Enterprise Offline MCQ Generation & Approval Platform",
+  "generated_at": "2026-08-05T12:30:07",
+  "execution_time_ms": 10021,
+  "execution_time_seconds": 10.02,
+  "methodology": {
+    "approach": "Offline deterministic recomposition from existing knowledge graph evidence",
+    "no_ai": true,
+    "no_apis": true,
+    "no_llm": true,
+    "no_internet": true,
+    "no_fabricated_content": true,
+    "no_random_values": true,
+    "deterministic": true,
+    "reproducible": true,
+    "all_traceable": true
+  },
+  "inputs": {
+    "existing_mcqs": 872603,
+    "knowledge_graph_concepts": 1744,
+    "semantic_graph_relations": 2278,
+    "prerequisite_edges": 4826,
+    "learning_paths": 243,
+    "blueprints": 107,
+    "distractor_pools": 1744,
+    "distractor_items": 33662,
+    "exam_mappings": 15952,
+    "learning_objectives": 71501
+  },
+  "results": {
+    "candidates_identified": 107,
+    "blueprints_selected": 107,
+    "distractors_selected": 74,
+    "candidates_composed": 61,
+    "duplicates_detected": 2,
+    "candidates_passed_validation": 37,
+    "candidates_failed_validation": 22,
+    "inserted_approval_queue": 37,
+    "rejected_from_queue": 0,
+    "coverage_increase": 37
+  },
+  "quality_metrics": {
+    "duplicate_rate": 0.033,
+    "validation_pass_rate": 0.627,
+    "avg_confidence": 0.504,
+    "integrity_score": 0.607
+  },
+  "files_generated": [
+    "phase18_generation_candidates.json",
+    "phase18_blueprint_selection.json",
+    "phase18_distractor_selection.json",
+    "phase18_composition.json",
+    "phase18_duplicate_detection.json",
+    "phase18_validation.json",
+    "phase18_evidence.json",
+    "phase18_approval_queue.json",
+    "phase18_analytics.json",
+    "phase18_generation_report.json",
+    "phase18_validation.json",
+    "phase18_statistics.json",
+    "PHASE18_EXECUTION_REPORT.md"
+  ]
+}

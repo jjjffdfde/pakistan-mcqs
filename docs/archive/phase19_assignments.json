@@ -1,0 +1,442 @@
+{
+  "step": "reviewer_assignment_engine",
+  "generated_at": "2026-08-05T13:07:15",
+  "summary": {
+    "total_assigned": 37,
+    "active_reviewers": 12,
+    "assignments_by_reviewer": [
+      {
+        "reviewer_id": "REV-ACCT-01",
+        "reviewer_name": "Prof. Tariq Accounting",
+        "assigned_count": 15
+      },
+      {
+        "reviewer_id": "REV-AGRI-01",
+        "reviewer_name": "Dr. Bilal Agronomy",
+        "assigned_count": 1
+      },
+      {
+        "reviewer_id": "REV-AI-01",
+        "reviewer_name": "Engr. Sarah AI",
+        "assigned_count": 1
+      },
+      {
+        "reviewer_id": "REV-AJK-01",
+        "reviewer_name": "Kashif Shah AJKPSC",
+        "assigned_count": 3
+      },
+      {
+        "reviewer_id": "REV-REAS-01",
+        "reviewer_name": "Dr. Usman Reasoning",
+        "assigned_count": 0
+      },
+      {
+        "reviewer_id": "REV-ANAT-01",
+        "reviewer_name": "Dr. Ayesha Anatomy",
+        "assigned_count": 4
+      },
+      {
+        "reviewer_id": "REV-ANF-01",
+        "reviewer_name": "Maj. Asad ANF",
+        "assigned_count": 1
+      },
+      {
+        "reviewer_id": "REV-ANG-01",
+        "reviewer_name": "Dev. Hamza Web",
+        "assigned_count": 2
+      },
+      {
+        "reviewer_id": "REV-ANTH-01",
+        "reviewer_name": "Dr. Zainab Social",
+        "assigned_count": 2
+      },
+      {
+        "reviewer_id": "REV-ANTO-01",
+        "reviewer_name": "Prof. Maryam English",
+        "assigned_count": 7
+      },
+      {
+        "reviewer_id": "REV-APT-01",
+        "reviewer_name": "Sir Rashid Aptitude",
+        "assigned_count": 0
+      },
+      {
+        "reviewer_id": "REV-ARMY-01",
+        "reviewer_name": "Col. Farooq Defense",
+        "assigned_count": 1
+      }
+    ]
+  },
+  "assignments": [
+    {
+      "queue_id": 1,
+      "mcq_id": "gen-accounting-15195-8914-0006",
+      "subject_id": "accounting",
+      "concept_id": 15195,
+      "reviewer_id": "REV-ACCT-01",
+      "reviewer_name": "Prof. Tariq Accounting",
+      "status": "under_review",
+      "assigned_at": "2026-08-05T13:07:13"
+    },
+    {
+      "queue_id": 2,
+      "mcq_id": "gen-accounting-15196-8921-0007",
+      "subject_id": "accounting",
+      "concept_id": 15196,
+      "reviewer_id": "REV-ACCT-01",
+      "reviewer_name": "Prof. Tariq Accounting",
+      "status": "under_review",
+      "assigned_at": "2026-08-05T13:07:13"
+    },
+    {
+      "queue_id": 3,
+      "mcq_id": "gen-accounting-15197-8913-0008",
+      "subject_id": "accounting",
+      "concept_id": 15197,
+      "reviewer_id": "REV-ACCT-01",
+      "reviewer_name": "Prof. Tariq Accounting",
+      "status": "under_review",
+      "assigned_at": "2026-08-05T13:07:13"
+    },
+    {
+      "queue_id": 4,
+      "mcq_id": "gen-agriculture-15204-8929-0015",
+      "subject_id": "agriculture",
+      "concept_id": 15204,
+      "reviewer_id": "REV-AGRI-01",
+      "reviewer_name": "Dr. Bilal Agronomy",
+      "status": "under_review",
+      "assigned_at": "2026-08-05T13:07:13"
+    },
+    {
+      "queue_id": 5,
+      "mcq_id": "gen-ai-15213-8940-0024",
+      "subject_id": "ai",
+      "concept_id": 15213,
+      "reviewer_id": "REV-AI-01",
+      "reviewer_name": "Engr. Sarah AI",
+      "status": "under_review",
+      "assigned_at": "2026-08-05T13:07:13"
+    },
+    {
+      "queue_id": 6,
+      "mcq_id": "gen-ajkpsc-15218-8941-0029",
+      "subject_id": "ajkpsc",
+      "concept_id": 15218,
+      "reviewer_id": "REV-AJK-01",
+      "reviewer_name": "Kashif Shah AJKPSC",
+      "status": "under_review",
+      "assigned_at": "2026-08-05T13:07:13"
+    },
+    {
+      "queue_id": 7,
+      "mcq_id": "gen-ajkpsc-15222-8947-0033",
+      "subject_id": "ajkpsc",
+      "concept_id": 15222,
+      "reviewer_id": "REV-AJK-01",
+      "reviewer_name": "Kashif Shah AJKPSC",
+      "status": "under_review",
+      "assigned_at": "2026-08-05T13:07:13"
+    },
+    {
+      "queue_id": 8,
+      "mcq_id": "gen-ajkpsc-15223-8948-0034",
+      "subject_id": "ajkpsc",
+      "concept_id": 15223,
+      "reviewer_id": "REV-AJK-01",
+      "reviewer_name": "Kashif Shah AJKPSC",
+      "status": "under_review",
+      "assigned_at": "2026-08-05T13:07:13"
+    },
+    {
+      "queue_id": 9,
+      "mcq_id": "gen-analytical-reasoning-15229-8952-0040",
+      "subject_id": "analytical-reasoning",
+      "concept_id": 15229,
+      "reviewer_id": "REV-ACCT-01",
+      "reviewer_name": "Prof. Tariq Accounting",
+      "status": "under_review",
+      "assigned_at": "2026-08-05T13:07:14"
+    },
+    {
+      "queue_id": 10,
+      "mcq_id": "gen-analytical-reasoning-15230-8954-0041",
+      "subject_id": "analytical-reasoning",
+      "concept_id": 15230,
+      "reviewer_id": "REV-ACCT-01",
+      "reviewer_name": "Prof. Tariq Accounting",
+      "status": "under_review",
+      "assigned_at": "2026-08-05T13:07:14"
+    },
+    {
+      "queue_id": 11,
+      "mcq_id": "gen-analytical-reasoning-15231-8957-0042",
+      "subject_id": "analytical-reasoning",
+      "concept_id": 15231,
+      "reviewer_id": "REV-ACCT-01",
+      "reviewer_name": "Prof. Tariq Accounting",
+      "status": "under_review",
+      "assigned_at": "2026-08-05T13:07:14"
+    },
+    {
+      "queue_id": 12,
+      "mcq_id": "gen-analytical-reasoning-15232-8953-0043",
+      "subject_id": "analytical-reasoning",
+      "concept_id": 15232,
+      "reviewer_id": "REV-ACCT-01",
+      "reviewer_name": "Prof. Tariq Accounting",
+      "status": "under_review",
+      "assigned_at": "2026-08-05T13:07:14"
+    },
+    {
+      "queue_id": 13,
+      "mcq_id": "gen-analytical-reasoning-15233-8956-0044",
+      "subject_id": "analytical-reasoning",
+      "concept_id": 15233,
+      "reviewer_id": "REV-ACCT-01",
+      "reviewer_name": "Prof. Tariq Accounting",
+      "status": "under_review",
+      "assigned_at": "2026-08-05T13:07:14"
+    },
+    {
+      "queue_id": 14,
+      "mcq_id": "gen-analytical-reasoning-15234-8955-0045",
+      "subject_id": "analytical-reasoning",
+      "concept_id": 15234,
+      "reviewer_id": "REV-ACCT-01",
+      "reviewer_name": "Prof. Tariq Accounting",
+      "status": "under_review",
+      "assigned_at": "2026-08-05T13:07:14"
+    },
+    {
+      "queue_id": 15,
+      "mcq_id": "gen-analytical-reasoning-15235-8958-0046",
+      "subject_id": "analytical-reasoning",
+      "concept_id": 15235,
+      "reviewer_id": "REV-ACCT-01",
+      "reviewer_name": "Prof. Tariq Accounting",
+      "status": "under_review",
+      "assigned_at": "2026-08-05T13:07:14"
+    },
+    {
+      "queue_id": 16,
+      "mcq_id": "gen-anatomy-15237-8961-0048",
+      "subject_id": "anatomy",
+      "concept_id": 15237,
+      "reviewer_id": "REV-ANAT-01",
+      "reviewer_name": "Dr. Ayesha Anatomy",
+      "status": "under_review",
+      "assigned_at": "2026-08-05T13:07:14"
+    },
+    {
+      "queue_id": 17,
+      "mcq_id": "gen-anatomy-15241-8971-0052",
+      "subject_id": "anatomy",
+      "concept_id": 15241,
+      "reviewer_id": "REV-ANAT-01",
+      "reviewer_name": "Dr. Ayesha Anatomy",
+      "status": "under_review",
+      "assigned_at": "2026-08-05T13:07:14"
+    },
+    {
+      "queue_id": 18,
+      "mcq_id": "gen-anatomy-15246-8963-0057",
+      "subject_id": "anatomy",
+      "concept_id": 15246,
+      "reviewer_id": "REV-ANAT-01",
+      "reviewer_name": "Dr. Ayesha Anatomy",
+      "status": "under_review",
+      "assigned_at": "2026-08-05T13:07:14"
+    },
+    {
+      "queue_id": 19,
+      "mcq_id": "gen-anatomy-15247-8968-0058",
+      "subject_id": "anatomy",
+      "concept_id": 15247,
+      "reviewer_id": "REV-ANAT-01",
+      "reviewer_name": "Dr. Ayesha Anatomy",
+      "status": "under_review",
+      "assigned_at": "2026-08-05T13:07:14"
+    },
+    {
+      "queue_id": 20,
+      "mcq_id": "gen-anf-15249-8972-0060",
+      "subject_id": "anf",
+      "concept_id": 15249,
+      "reviewer_id": "REV-ANF-01",
+      "reviewer_name": "Maj. Asad ANF",
+      "status": "under_review",
+      "assigned_at": "2026-08-05T13:07:14"
+    },
+    {
+      "queue_id": 21,
+      "mcq_id": "gen-angular-15255-8978-0066",
+      "subject_id": "angular",
+      "concept_id": 15255,
+      "reviewer_id": "REV-ANG-01",
+      "reviewer_name": "Dev. Hamza Web",
+      "status": "under_review",
+      "assigned_at": "2026-08-05T13:07:14"
+    },
+    {
+      "queue_id": 22,
+      "mcq_id": "gen-angular-15258-8982-0069",
+      "subject_id": "angular",
+      "concept_id": 15258,
+      "reviewer_id": "REV-ANG-01",
+      "reviewer_name": "Dev. Hamza Web",
+      "status": "under_review",
+      "assigned_at": "2026-08-05T13:07:14"
+    },
+    {
+      "queue_id": 23,
+      "mcq_id": "gen-anthropology-15263-8987-0074",
+      "subject_id": "anthropology",
+      "concept_id": 15263,
+      "reviewer_id": "REV-ANTH-01",
+      "reviewer_name": "Dr. Zainab Social",
+      "status": "under_review",
+      "assigned_at": "2026-08-05T13:07:14"
+    },
+    {
+      "queue_id": 24,
+      "mcq_id": "gen-anthropology-15265-8986-0076",
+      "subject_id": "anthropology",
+      "concept_id": 15265,
+      "reviewer_id": "REV-ANTH-01",
+      "reviewer_name": "Dr. Zainab Social",
+      "status": "under_review",
+      "assigned_at": "2026-08-05T13:07:15"
+    },
+    {
+      "queue_id": 25,
+      "mcq_id": "gen-antonyms-15266-8990-0077",
+      "subject_id": "antonyms",
+      "concept_id": 15266,
+      "reviewer_id": "REV-ANTO-01",
+      "reviewer_name": "Prof. Maryam English",
+      "status": "under_review",
+      "assigned_at": "2026-08-05T13:07:15"
+    },
+    {
+      "queue_id": 26,
+      "mcq_id": "gen-antonyms-15267-8994-0078",
+      "subject_id": "antonyms",
+      "concept_id": 15267,
+      "reviewer_id": "REV-ANTO-01",
+      "reviewer_name": "Prof. Maryam English",
+      "status": "under_review",
+      "assigned_at": "2026-08-05T13:07:15"
+    },
+    {
+      "queue_id": 27,
+      "mcq_id": "gen-antonyms-15268-8995-0079",
+      "subject_id": "antonyms",
+      "concept_id": 15268,
+      "reviewer_id": "REV-ANTO-01",
+      "reviewer_name": "Prof. Maryam English",
+      "status": "under_review",
+      "assigned_at": "2026-08-05T13:07:15"
+    },
+    {
+      "queue_id": 28,
+      "mcq_id": "gen-antonyms-15269-8996-0080",
+      "subject_id": "antonyms",
+      "concept_id": 15269,
+      "reviewer_id": "REV-ANTO-01",
+      "reviewer_name": "Prof. Maryam English",
+      "status": "under_review",
+      "assigned_at": "2026-08-05T13:07:15"
+    },
+    {
+      "queue_id": 29,
+      "mcq_id": "gen-antonyms-15270-8998-0081",
+      "subject_id": "antonyms",
+      "concept_id": 15270,
+      "reviewer_id": "REV-ANTO-01",
+      "reviewer_name": "Prof. Maryam English",
+      "status": "under_review",
+      "assigned_at": "2026-08-05T13:07:15"
+    },
+    {
+      "queue_id": 30,
+      "mcq_id": "gen-antonyms-15271-8991-0082",
+      "subject_id": "antonyms",
+      "concept_id": 15271,
+      "reviewer_id": "REV-ANTO-01",
+      "reviewer_name": "Prof. Maryam English",
+      "status": "under_review",
+      "assigned_at": "2026-08-05T13:07:15"
+    },
+    {
+      "queue_id": 31,
+      "mcq_id": "gen-antonyms-15275-8989-0086",
+      "subject_id": "antonyms",
+      "concept_id": 15275,
+      "reviewer_id": "REV-ANTO-01",
+      "reviewer_name": "Prof. Maryam English",
+      "status": "under_review",
+      "assigned_at": "2026-08-05T13:07:15"
+    },
+    {
+      "queue_id": 32,
+      "mcq_id": "gen-aptitude-tests-15276-8999-0087",
+      "subject_id": "aptitude-tests",
+      "concept_id": 15276,
+      "reviewer_id": "REV-ACCT-01",
+      "reviewer_name": "Prof. Tariq Accounting",
+      "status": "under_review",
+      "assigned_at": "2026-08-05T13:07:15"
+    },
+    {
+      "queue_id": 33,
+      "mcq_id": "gen-aptitude-tests-15277-9001-0088",
+      "subject_id": "aptitude-tests",
+      "concept_id": 15277,
+      "reviewer_id": "REV-ACCT-01",
+      "reviewer_name": "Prof. Tariq Accounting",
+      "status": "under_review",
+      "assigned_at": "2026-08-05T13:07:15"
+    },
+    {
+      "queue_id": 34,
+      "mcq_id": "gen-aptitude-tests-15278-9002-0089",
+      "subject_id": "aptitude-tests",
+      "concept_id": 15278,
+      "reviewer_id": "REV-ACCT-01",
+      "reviewer_name": "Prof. Tariq Accounting",
+      "status": "under_review",
+      "assigned_at": "2026-08-05T13:07:15"
+    },
+    {
+      "queue_id": 35,
+      "mcq_id": "gen-aptitude-tests-15279-9000-0090",
+      "subject_id": "aptitude-tests",
+      "concept_id": 15279,
+      "reviewer_id": "REV-ACCT-01",
+      "reviewer_name": "Prof. Tariq Accounting",
+      "status": "under_review",
+      "assigned_at": "2026-08-05T13:07:15"
+    },
+    {
+      "queue_id": 36,
+      "mcq_id": "gen-aptitude-tests-15280-9003-0091",
+      "subject_id": "aptitude-tests",
+      "concept_id": 15280,
+      "reviewer_id": "REV-ACCT-01",
+      "reviewer_name": "Prof. Tariq Accounting",
+      "status": "under_review",
+      "assigned_at": "2026-08-05T13:07:15"
+    },
+    {
+      "queue_id": 37,
+      "mcq_id": "gen-army-15288-9011-0099",
+      "subject_id": "army",
+      "concept_id": 15288,
+      "reviewer_id": "REV-ARMY-01",
+      "reviewer_name": "Col. Farooq Defense",
+      "status": "under_review",
+      "assigned_at": "2026-08-05T13:07:15"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "step": "forms_validation",
+  "generated_at": "2026-08-07T08:22:54",
+  "summary": {
+    "total_forms": 0,
+    "forms_with_action": 0,
+    "forms_without_action": 0,
+    "forms_with_required_fields": 0,
+    "forms_with_validation_attributes": 0,
+    "search_forms": 0,
+    "login_forms": 0,
+    "signup_forms": 0,
+    "feedback_forms": 0,
+    "bookmark_forms": 0,
+    "report_forms": 0,
+    "search_inputs_found": 2
+  },
+  "search_forms": [],
+  "login_forms": [],
+  "feedback_forms": [],
+  "search_input_details": [
+    {
+      "input_html": "<input type=\"search\" id=\"admSearch\" placeholder=\"Question text, id, subject...\">",
+      "has_name": false,
+      "has_placeholder": true
+    },
+    {
+      "input_html": "<input type=\"search\" id=\"globalSearch\" placeholder=\"Instant search 1300+ MCQs (240,000+ with local DB) - try 'Ohm', 'con",
+      "has_name": false,
+      "has_placeholder": true
+    }
+  ]
+}

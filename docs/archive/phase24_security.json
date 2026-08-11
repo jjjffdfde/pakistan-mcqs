@@ -1,0 +1,39 @@
+{
+  "step": "security",
+  "generated_at": "2026-08-10T16:56:04",
+  "summary": {
+    "prepared_statement_usage": 33,
+    "placeholder_params": 65,
+    "x_frame_options": false,
+    "content_security_policy": false,
+    "strict_transport_security": false,
+    "referrer_policy": false,
+    "x_content_type_options": false,
+    "rate_limiting": false,
+    "csrf_protection": false,
+    "exposed_database_files": 2,
+    "body_size_guard": false,
+    "input_validation_helpers": true,
+    "sql_injection_literal_concat": 21,
+    "log_files_in_root": 6,
+    "csp_meta_tag": false,
+    "security_txt_exists": false
+  },
+  "exposed_database_files": [
+    "db/pakistan-mcqs.rebuilt.sqlite",
+    "db/pakistan-mcqs.sqlite"
+  ],
+  "root_log_files": [
+    "pipeline/progress.log",
+    "server-err.log",
+    "server-out.log",
+    "srv-err.log",
+    "srv-out.log",
+    "validation.log"
+  ],
+  "recommendations": [
+    "Keep production sqlite outside static web root (serve via /api only)",
+    "Add security headers (X-Frame-Options, Content-Security-Policy, HSTS) to server responses",
+    "Add rate-limiting and input-size guards to configurable endpoints"
+  ]
+}

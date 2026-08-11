@@ -1,0 +1,25 @@
+{
+  "module": "M20",
+  "status": "PASS",
+  "index_steps": 24,
+  "index_failures": [],
+  "admin_steps": 8,
+  "admin_failures": [],
+  "other_pages": [
+    {
+      "page": "subjects/biology.html",
+      "load_errors": 0,
+      "fatal": null
+    },
+    {
+      "page": "offline.html",
+      "load_errors": 0,
+      "fatal": null
+    },
+    {
+      "page": "missing-page.html",
+      "load_errors": 0,
+      "fatal": null
+    }
+  ]
+}

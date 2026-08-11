@@ -1,0 +1,41 @@
+{
+  "step": "cache_system",
+  "generated_at": "2026-08-10T11:58:31.589Z",
+  "versioning": {
+    "cache_version": true,
+    "prefix_namespace": true,
+    "semantic": "001",
+    "all_six_caches": true,
+    "cache_keys": [
+      "shell",
+      "data",
+      "api",
+      "mcq",
+      "search",
+      "img"
+    ]
+  },
+  "precached": {
+    "shell_assets_list": true,
+    "data_assets_list": true,
+    "core_data_files_cached": true,
+    "cache_count_data": 11
+  },
+  "strategies": {
+    "stale_while_revalidate": true,
+    "network_first": true,
+    "cache_first": true,
+    "api_runtime_cache": true,
+    "search_runtime_cache": true,
+    "mcq_runtime_cache": true,
+    "image_runtime_cache": true,
+    "navigation_fallback": true
+  },
+  "cleanup": {
+    "automatic": true,
+    "prune_stale_versions": true,
+    "not_caching_logs_or_sqlite": true
+  },
+  "data_budget_kb": 1325,
+  "shell_budget_kb": 148
+}

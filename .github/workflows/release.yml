@@ -1,0 +1,50 @@
+name: Release & Publish
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "Version to release (e.g. 1.4.0). Default: follow CHANGELOG"
+        required: false
+  push:
+    tags:
+      - "v*"
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pages: write
+      deployments: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Resolve version
+        id: ver
+        run: |
+          if [ -n "${{ github.event.inputs.version }}" ]; then
+            V="${{ github.event.inputs.version }}"
+          else
+            V=$(grep -oE '^## \[Phase [0-9]+[^]]*\]' CHANGELOG.md | head -1 || echo '0.0.0')
+            V="0.0.0-$(date +%Y%m%d)"
+          fi
+          echo "version=${V}" >> "$GITHUB_OUTPUT"
+
+      - name: Compute release checksums
+        run: |
+          mkdir -p release
+          find assets subjects chapters -type f \( -name '*.html' -o -name '*.js' -o -name '*.css' \) -print0 | \
+            xargs -0 sha256sum > release/SHA256SUMS.txt
+          wc -l release/SHA256SUMS.txt
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: v${{ steps.ver.outputs.version }}
+          name: Pakistan MCQs Hub v${{ steps.ver.outputs.version }}
+          body: |
+            ## Pakistan MCQs Hub — Release v${{ steps.ver.outputs.version }}
+
+            See [CHANGELOG.md](./CHANGELOG.md) for the full log.
+          files: release/SHA256SUMS.txt

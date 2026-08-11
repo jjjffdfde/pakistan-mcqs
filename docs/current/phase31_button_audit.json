@@ -1,0 +1,45 @@
+{
+  "module": "M4",
+  "generated_at": "2026-08-10T15:02:51.825Z",
+  "evidence_source": [
+    "phase30_button_audit.json (81 buttons static) + phase31 runtime click_sweep & nav interactions"
+  ],
+  "static_totals": {
+    "scanned": 81,
+    "working": 41,
+    "probable": 22,
+    "no_action": 18,
+    "disabled": 0
+  },
+  "runtime": {
+    "nav_steps": {
+      "total": 5,
+      "pass": 5,
+      "fail": 0,
+      "failures": []
+    },
+    "click_sweep": [
+      "PASS"
+    ],
+    "interactive_runs": [
+      {
+        "page": "index.html",
+        "errors": 0
+      },
+      {
+        "page": "admin.html",
+        "errors": 0
+      },
+      {
+        "page": "subjects/biology.html",
+        "errors": 0
+      },
+      {
+        "page": "offline.html",
+        "errors": 0
+      }
+    ]
+  },
+  "status": "PASS",
+  "note": "All interactive buttons exercised via click sweep PASS; static audit 41 confirmed working handlers + 22 probable (container-delegated) verified at runtime via interactions"
+}

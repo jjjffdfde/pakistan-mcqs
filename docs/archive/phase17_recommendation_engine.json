@@ -1,0 +1,6363 @@
+{
+  "step": "adaptive_recommendations",
+  "generated_at": "2026-08-05T12:17:38",
+  "summary": {
+    "total_concepts": 1744,
+    "total_recommendations": 1744,
+    "weak_concepts_count": 0,
+    "next_concepts_count": 127,
+    "revision_concepts_count": 0,
+    "avg_priority_score": 22.44,
+    "top_recommendations": [
+      {
+        "concept_id": 15437,
+        "concept_name": "Acids, Bases and Salts",
+        "priority_score": 55,
+        "recommendation_types": [
+          "prerequisite_review",
+          "high_frequency_review",
+          "exam_relevant",
+          "challenging_topic"
+        ]
+      },
+      {
+        "concept_id": 15505,
+        "concept_name": "Cyber Security",
+        "priority_score": 55,
+        "recommendation_types": [
+          "prerequisite_review",
+          "high_frequency_review",
+          "exam_relevant",
+          "challenging_topic"
+        ]
+      },
+      {
+        "concept_id": 15547,
+        "concept_name": "current affairs",
+        "priority_score": 55,
+        "recommendation_types": [
+          "prerequisite_review",
+          "high_frequency_review",
+          "exam_relevant",
+          "challenging_topic"
+        ]
+      },
+      {
+        "concept_id": 15548,
+        "concept_name": "current-affairs",
+        "priority_score": 55,
+        "recommendation_types": [
+          "prerequisite_review",
+          "high_frequency_review",
+          "exam_relevant",
+          "challenging_topic"
+        ]
+      },
+      {
+        "concept_id": 15549,
+        "concept_name": "deep-kb",
+        "priority_score": 55,
+        "recommendation_types": [
+          "prerequisite_review",
+          "high_frequency_review",
+          "exam_relevant",
+          "challenging_topic"
+        ]
+      },
+      {
+        "concept_id": 15550,
+        "concept_name": "pakistan",
+        "priority_score": 55,
+        "recommendation_types": [
+          "prerequisite_review",
+          "high_frequency_review",
+          "exam_relevant",
+          "challenging_topic"
+        ]
+      },
+      {
+        "concept_id": 15551,
+        "concept_name": "world",
+        "priority_score": 55,
+        "recommendation_types": [
+          "prerequisite_review",
+          "high_frequency_review",
+          "exam_relevant",
+          "challenging_topic"
+        ]
+      },
+      {
+        "concept_id": 15552,
+        "concept_name": "numbers",
+        "priority_score": 55,
+        "recommendation_types": [
+          "prerequisite_review",
+          "high_frequency_review",
+          "exam_relevant",
+          "challenging_topic"
+        ]
+      },
+      {
+        "concept_id": 15553,
+        "concept_name": "World and Organisations",
+        "priority_score": 55,
+        "recommendation_types": [
+          "prerequisite_review",
+          "high_frequency_review",
+          "exam_relevant",
+          "challenging_topic"
+        ]
+      },
+      {
+        "concept_id": 15792,
+        "concept_name": "Everyday Science",
+        "priority_score": 55,
+        "recommendation_types": [
+          "prerequisite_review",
+          "high_frequency_review",
+          "exam_relevant",
+          "challenging_topic"
+        ]
+      },
+      {
+        "concept_id": 15793,
+        "concept_name": "everyday-science",
+        "priority_score": 55,
+        "recommendation_types": [
+          "prerequisite_review",
+          "high_frequency_review",
+          "exam_relevant",
+          "challenging_topic"
+        ]
+      },
+      {
+        "concept_id": 15794,
+        "concept_name": "chemistry",
+        "priority_score": 55,
+        "recommendation_types": [
+          "prerequisite_review",
+          "high_frequency_review",
+          "exam_relevant",
+          "challenging_topic"
+        ]
+      },
+      {
+        "concept_id": 15795,
+        "concept_name": "biology",
+        "priority_score": 55,
+        "recommendation_types": [
+          "prerequisite_review",
+          "high_frequency_review",
+          "exam_relevant",
+          "challenging_topic"
+        ]
+      },
+      {
+        "concept_id": 15796,
+        "concept_name": "physics",
+        "priority_score": 55,
+        "recommendation_types": [
+          "prerequisite_review",
+          "high_frequency_review",
+          "exam_relevant",
+          "challenging_topic"
+        ]
+      },
+      {
+        "concept_id": 15797,
+        "concept_name": "units",
+        "priority_score": 55,
+        "recommendation_types": [
+          "prerequisite_review",
+          "high_frequency_review",
+          "exam_relevant",
+          "challenging_topic"
+        ]
+      },
+      {
+        "concept_id": 15798,
+        "concept_name": "deep-kb",
+        "priority_score": 55,
+        "recommendation_types": [
+          "prerequisite_review",
+          "high_frequency_review",
+          "exam_relevant",
+          "challenging_topic"
+        ]
+      },
+      {
+        "concept_id": 15799,
+        "concept_name": "Numerical Physics",
+        "priority_score": 55,
+        "recommendation_types": [
+          "prerequisite_review",
+          "high_frequency_review",
+          "exam_relevant",
+          "challenging_topic"
+        ]
+      },
+      {
+        "concept_id": 16463,
+        "concept_name": "Constitution of Pakistan",
+        "priority_score": 55,
+        "recommendation_types": [
+          "prerequisite_review",
+          "high_frequency_review",
+          "exam_relevant",
+          "challenging_topic"
+        ]
+      },
+      {
+        "concept_id": 15190,
+        "concept_name": "accounting",
+        "priority_score": 50,
+        "recommendation_types": [
+          "prerequisite_review",
+          "high_frequency_review",
+          "exam_relevant",
+          "related_study"
+        ]
+      },
+      {
+        "concept_id": 15191,
+        "concept_name": "depreciation",
+        "priority_score": 50,
+        "recommendation_types": [
+          "prerequisite_review",
+          "high_frequency_review",
+          "exam_relevant",
+          "related_study"
+        ]
+      },
+      {
+        "concept_id": 15192,
+        "concept_name": "deep-kb",
+        "priority_score": 50,
+        "recommendation_types": [
+          "prerequisite_review",
+          "high_frequency_review",
+          "exam_relevant",
+          "related_study"
+        ]
+      },
+      {
+        "concept_id": 15193,
+        "concept_name": "ratios",
+        "priority_score": 50,
+        "recommendation_types": [
+          "prerequisite_review",
+          "high_frequency_review",
+          "exam_relevant",
+          "related_study"
+        ]
+      },
+      {
+        "concept_id": 15194,
+        "concept_name": "financial-statements",
+        "priority_score": 50,
+        "recommendation_types": [
+          "prerequisite_review",
+          "high_frequency_review",
+          "exam_relevant",
+          "related_study"
+        ]
+      },
+      {
+        "concept_id": 15195,
+        "concept_name": "financial statements",
+        "priority_score": 50,
+        "recommendation_types": [
+          "prerequisite_review",
+          "high_frequency_review",
+          "exam_relevant",
+          "related_study"
+        ]
+      },
+      {
+        "concept_id": 15196,
+        "concept_name": "Accounting Principles",
+        "priority_score": 50,
+        "recommendation_types": [
+          "prerequisite_review",
+          "high_frequency_review",
+          "exam_relevant",
+          "related_study"
+        ]
+      },
+      {
+        "concept_id": 15198,
+        "concept_name": "Accounting Basics",
+        "priority_score": 50,
+        "recommendation_types": [
+          "prerequisite_review",
+          "high_frequency_review",
+          "exam_relevant",
+          "related_study"
+        ]
+      },
+      {
+        "concept_id": 15208,
+        "concept_name": "Artificial Intelligence",
+        "priority_score": 50,
+        "recommendation_types": [
+          "prerequisite_review",
+          "high_frequency_review",
+          "exam_relevant",
+          "related_study"
+        ]
+      },
+      {
+        "concept_id": 15209,
+        "concept_name": "deep-kb",
+        "priority_score": 50,
+        "recommendation_types": [
+          "prerequisite_review",
+          "high_frequency_review",
+          "exam_relevant",
+          "related_study"
+        ]
+      },
+      {
+        "concept_id": 15210,
+        "concept_name": "machine-learning",
+        "priority_score": 50,
+        "recommendation_types": [
+          "prerequisite_review",
+          "high_frequency_review",
+          "exam_relevant",
+          "related_study"
+        ]
+      },
+      {
+        "concept_id": 15211,
+        "concept_name": "neural-networks",
+        "priority_score": 50,
+        "recommendation_types": [
+          "prerequisite_review",
+          "high_frequency_review",
+          "exam_relevant",
+          "related_study"
+        ]
+      },
+      {
+        "concept_id": 15212,
+        "concept_name": "metrics",
+        "priority_score": 50,
+        "recommendation_types": [
+          "prerequisite_review",
+          "high_frequency_review",
+          "exam_relevant",
+          "related_study"
+        ]
+      },
+      {
+        "concept_id": 15213,
+        "concept_name": "Machine Learning Models",
+        "priority_score": 50,
+        "recommendation_types": [
+          "prerequisite_review",
+          "high_frequency_review",
+          "exam_relevant",
+          "related_study"
+        ]
+      },
+      {
+        "concept_id": 15216,
+        "concept_name": "AI Concepts",
+        "priority_score": 50,
+        "recommendation_types": [
+          "prerequisite_review",
+          "high_frequency_review",
+          "exam_relevant",
+          "related_study"
+        ]
+      },
+      {
+        "concept_id": 15266,
+        "concept_name": "Antonyms",
+        "priority_score": 50,
+        "recommendation_types": [
+          "prerequisite_review",
+          "high_frequency_review",
+          "exam_relevant",
+          "related_study"
+        ]
+      },
+      {
+        "concept_id": 15268,
+        "concept_name": "english",
+        "priority_score": 50,
+        "recommendation_types": [
+          "prerequisite_review",
+          "high_frequency_review",
+          "exam_relevant",
+          "related_study"
+        ]
+      },
+      {
+        "concept_id": 15269,
+        "concept_name": "words",
+        "priority_score": 50,
+        "recommendation_types": [
+          "prerequisite_review",
+          "high_frequency_review",
+          "exam_relevant",
+          "related_study"
+        ]
+      },
+      {
+        "concept_id": 15270,
+        "concept_name": "Word Lengths and Spelling",
+        "priority_score": 50,
+        "recommendation_types": [
+          "prerequisite_review",
+          "high_frequency_review",
+          "exam_relevant",
+          "related_study"
+        ]
+      },
+      {
+        "concept_id": 15271,
+        "concept_name": "Antonym Pairs",
+        "priority_score": 50,
+        "recommendation_types": [
+          "prerequisite_review",
+          "high_frequency_review",
+          "exam_relevant",
+          "related_study"
+        ]
+      },
+      {
+        "concept_id": 15272,
+        "concept_name": "Harder Antonyms",
+        "priority_score": 50,
+        "recommendation_types": [
+          "prerequisite_review",
+          "high_frequency_review",
+          "exam_relevant",
+          "related_study"
+        ]
+      },
+      {
+        "concept_id": 15277,
+        "concept_name": "aptitude",
+        "priority_score": 50,
+        "recommendation_types": [
+          "prerequisite_review",
+          "high_frequency_review",
+          "exam_relevant",
+          "related_study"
+        ]
+      },
+      {
+        "concept_id": 15278,
+        "concept_name": "Graph Reading",
+        "priority_score": 50,
+        "recommendation_types": [
+          "prerequisite_review",
+          "high_frequency_review",
+          "exam_relevant",
+          "related_study"
+        ]
+      },
+      {
+        "concept_id": 15279,
+        "concept_name": "Data Interpretation Tables",
+        "priority_score": 50,
+        "recommendation_types": [
+          "prerequisite_review",
+          "high_frequency_review",
+          "exam_relevant",
+          "related_study"
+        ]
+      },
+      {
+        "concept_id": 15281,
+        "concept_name": "topic-bank",
+        "priority_score": 50,
+        "recommendation_types": [
+          "prerequisite_review",
+          "high_frequency_review",
+          "exam_relevant",
+          "related_study"
+        ]
+      },
+      {
+        "concept_id": 15311,
+        "concept_name": "Auditing",
+        "priority_score": 50,
+        "recommendation_types": [
+          "prerequisite_review",
+          "high_frequency_review",
+          "exam_relevant",
+          "related_study"
+        ]
+      },
+      {
+        "concept_id": 15312,
+        "concept_name": "deep-kb",
+        "priority_score": 50,
+        "recommendation_types": [
+          "prerequisite_review",
+          "high_frequency_review",
+          "exam_relevant",
+          "related_study"
+        ]
+      },
+      {
+        "concept_id": 15313,
+        "concept_name": "Audit Process",
+        "priority_score": 50,
+        "recommendation_types": [
+          "prerequisite_review",
+          "high_frequency_review",
+          "exam_relevant",
+          "related_study"
+        ]
+      },
+      {
+        "concept_id": 15315,
+        "concept_name": "Spelling and Letter Building",
+        "priority_score": 50,
+        "recommendation_types": [
+          "prerequisite_review",
+          "high_frequency_review",
+          "exam_relevant",
+          "related_study"
+        ]
+      },
+      {
+        "concept_id": 15316,
+        "concept_name": "Letter Positions",
+        "priority_score": 50,
+        "recommendation_types": [
+          "prerequisite_review",
+          "high_frequency_review",
+          "exam_relevant",
+          "related_study"
+        ]
+      },
+      {
+        "concept_id": 15367,
+        "concept_name": "Biology",
+        "priority_score": 50,
+        "recommendation_types": [
+          "prerequisite_review",
+          "high_frequency_review",
+          "exam_relevant",
+          "related_study"
+        ]
+      },
+      {
+        "concept_id": 15370,
+        "concept_name": "deep-kb",
+        "priority_score": 50,
+        "recommendation_types": [
+          "prerequisite_review",
+          "high_frequency_review",
+          "exam_relevant",
+          "related_study"
+        ]
+      }
+    ]
+  },
+  "weak_concepts": [],
+  "next_concepts": [
+    {
+      "concept_id": 15273,
+      "concept_name": "Opposites in Sentences",
+      "subject_id": "antonyms",
+      "difficulty": "medium",
+      "bloom": "Understand",
+      "exam_frequency": 6,
+      "exam_mapping_frequency": 60,
+      "has_prerequisites": true,
+      "prerequisite_count": 1,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [
+        {
+          "concept_id": 15274,
+          "concept_name": "topic-bank",
+          "similarity_score": 1
+        }
+      ],
+      "recommendation_type": [
+        "high_frequency_review",
+        "exam_relevant",
+        "related_study"
+      ],
+      "priority_score": 30
+    },
+    {
+      "concept_id": 15276,
+      "concept_name": "Aptitude Tests",
+      "subject_id": "aptitude-tests",
+      "difficulty": "medium",
+      "bloom": "Understand",
+      "exam_frequency": 11,
+      "exam_mapping_frequency": 4675,
+      "has_prerequisites": true,
+      "prerequisite_count": 1,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [
+        {
+          "concept_id": 15277,
+          "concept_name": "aptitude",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15278,
+          "concept_name": "Graph Reading",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15279,
+          "concept_name": "Data Interpretation Tables",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15280,
+          "concept_name": "Percentage Comparisons",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15281,
+          "concept_name": "topic-bank",
+          "similarity_score": 1
+        }
+      ],
+      "recommendation_type": [
+        "high_frequency_review",
+        "exam_relevant",
+        "related_study"
+      ],
+      "priority_score": 30
+    },
+    {
+      "concept_id": 15397,
+      "concept_name": "Business Administration",
+      "subject_id": "business-admin",
+      "difficulty": "medium",
+      "bloom": "Understand",
+      "exam_frequency": 11,
+      "exam_mapping_frequency": 132,
+      "has_prerequisites": true,
+      "prerequisite_count": 1,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 25
+    },
+    {
+      "concept_id": 15421,
+      "concept_name": "Chemical Engineering",
+      "subject_id": "chemical-eng",
+      "difficulty": "medium",
+      "bloom": "Apply",
+      "exam_frequency": 8,
+      "exam_mapping_frequency": 40576,
+      "has_prerequisites": true,
+      "prerequisite_count": 1,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 25
+    },
+    {
+      "concept_id": 15441,
+      "concept_name": "Solutions & Equilibrium",
+      "subject_id": "chemistry",
+      "difficulty": "medium",
+      "bloom": "Understand",
+      "exam_frequency": 12,
+      "exam_mapping_frequency": 120,
+      "has_prerequisites": true,
+      "prerequisite_count": 1,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 25
+    },
+    {
+      "concept_id": 15443,
+      "concept_name": "Civil Engineering",
+      "subject_id": "civil-eng",
+      "difficulty": "medium",
+      "bloom": "Apply",
+      "exam_frequency": 6,
+      "exam_mapping_frequency": 30420,
+      "has_prerequisites": true,
+      "prerequisite_count": 1,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 25
+    },
+    {
+      "concept_id": 15452,
+      "concept_name": "Cloud Computing",
+      "subject_id": "cloud-computing",
+      "difficulty": "medium",
+      "bloom": "Apply",
+      "exam_frequency": 7,
+      "exam_mapping_frequency": 35000,
+      "has_prerequisites": true,
+      "prerequisite_count": 1,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 25
+    },
+    {
+      "concept_id": 15458,
+      "concept_name": "cloud models",
+      "subject_id": "cloud-computing",
+      "difficulty": "medium",
+      "bloom": "Understand",
+      "exam_frequency": 7,
+      "exam_mapping_frequency": 70,
+      "has_prerequisites": true,
+      "prerequisite_count": 1,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 25
+    },
+    {
+      "concept_id": 15482,
+      "concept_name": "Reading Skills",
+      "subject_id": "comprehension",
+      "difficulty": "medium",
+      "bloom": "Understand",
+      "exam_frequency": 8,
+      "exam_mapping_frequency": 80,
+      "has_prerequisites": true,
+      "prerequisite_count": 1,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 25
+    },
+    {
+      "concept_id": 15483,
+      "concept_name": "Vocabulary in Context",
+      "subject_id": "comprehension",
+      "difficulty": "medium",
+      "bloom": "Understand",
+      "exam_frequency": 8,
+      "exam_mapping_frequency": 80,
+      "has_prerequisites": true,
+      "prerequisite_count": 1,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 25
+    },
+    {
+      "concept_id": 15496,
+      "concept_name": "Computer Science",
+      "subject_id": "computer-science",
+      "difficulty": "medium",
+      "bloom": "Apply",
+      "exam_frequency": 44,
+      "exam_mapping_frequency": 231968,
+      "has_prerequisites": true,
+      "prerequisite_count": 1,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 25
+    },
+    {
+      "concept_id": 15555,
+      "concept_name": "Institutions and Leaders",
+      "subject_id": "current-affairs",
+      "difficulty": "medium",
+      "bloom": "Understand",
+      "exam_frequency": 44,
+      "exam_mapping_frequency": 352,
+      "has_prerequisites": true,
+      "prerequisite_count": 1,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 25
+    },
+    {
+      "concept_id": 15558,
+      "concept_name": "organizations",
+      "subject_id": "current-affairs",
+      "difficulty": "medium",
+      "bloom": "Understand",
+      "exam_frequency": 44,
+      "exam_mapping_frequency": 176,
+      "has_prerequisites": true,
+      "prerequisite_count": 1,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 25
+    },
+    {
+      "concept_id": 15559,
+      "concept_name": "sports",
+      "subject_id": "current-affairs",
+      "difficulty": "easy",
+      "bloom": "Understand",
+      "exam_frequency": 44,
+      "exam_mapping_frequency": 132,
+      "has_prerequisites": true,
+      "prerequisite_count": 1,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 25
+    },
+    {
+      "concept_id": 15567,
+      "concept_name": "Cyber Security",
+      "subject_id": "cyber-security",
+      "difficulty": "medium",
+      "bloom": "Apply",
+      "exam_frequency": 10,
+      "exam_mapping_frequency": 51220,
+      "has_prerequisites": true,
+      "prerequisite_count": 1,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 25
+    },
+    {
+      "concept_id": 15591,
+      "concept_name": "Data Handling",
+      "subject_id": "data-science",
+      "difficulty": "medium",
+      "bloom": "Understand",
+      "exam_frequency": 7,
+      "exam_mapping_frequency": 56,
+      "has_prerequisites": true,
+      "prerequisite_count": 1,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 25
+    },
+    {
+      "concept_id": 15683,
+      "concept_name": "pakistan economy",
+      "subject_id": "economics",
+      "difficulty": "medium",
+      "bloom": "Understand",
+      "exam_frequency": 13,
+      "exam_mapping_frequency": 195,
+      "has_prerequisites": true,
+      "prerequisite_count": 1,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 25
+    },
+    {
+      "concept_id": 15700,
+      "concept_name": "Electrical Engineering",
+      "subject_id": "electrical-eng",
+      "difficulty": "medium",
+      "bloom": "Apply",
+      "exam_frequency": 9,
+      "exam_mapping_frequency": 46278,
+      "has_prerequisites": true,
+      "prerequisite_count": 1,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 25
+    },
+    {
+      "concept_id": 15727,
+      "concept_name": "Translation Practice",
+      "subject_id": "english",
+      "difficulty": "medium",
+      "bloom": "Understand",
+      "exam_frequency": 50,
+      "exam_mapping_frequency": 500,
+      "has_prerequisites": true,
+      "prerequisite_count": 1,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 25
+    },
+    {
+      "concept_id": 15733,
+      "concept_name": "active passive voice",
+      "subject_id": "english",
+      "difficulty": "easy",
+      "bloom": "Understand",
+      "exam_frequency": 50,
+      "exam_mapping_frequency": 200,
+      "has_prerequisites": true,
+      "prerequisite_count": 1,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 25
+    },
+    {
+      "concept_id": 15734,
+      "concept_name": "narration",
+      "subject_id": "english",
+      "difficulty": "medium",
+      "bloom": "Understand",
+      "exam_frequency": 50,
+      "exam_mapping_frequency": 200,
+      "has_prerequisites": true,
+      "prerequisite_count": 1,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 25
+    },
+    {
+      "concept_id": 15736,
+      "concept_name": "sentence correction",
+      "subject_id": "english",
+      "difficulty": "easy",
+      "bloom": "Understand",
+      "exam_frequency": 50,
+      "exam_mapping_frequency": 150,
+      "has_prerequisites": true,
+      "prerequisite_count": 1,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 25
+    },
+    {
+      "concept_id": 15767,
+      "concept_name": "Environmental Science",
+      "subject_id": "environmental-science",
+      "difficulty": "easy",
+      "bloom": "Apply",
+      "exam_frequency": 10,
+      "exam_mapping_frequency": 50470,
+      "has_prerequisites": true,
+      "prerequisite_count": 1,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 25
+    },
+    {
+      "concept_id": 15808,
+      "concept_name": "Heat & Temperature",
+      "subject_id": "everyday-science",
+      "difficulty": "medium",
+      "bloom": "Understand",
+      "exam_frequency": 44,
+      "exam_mapping_frequency": 528,
+      "has_prerequisites": true,
+      "prerequisite_count": 1,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 25
+    },
+    {
+      "concept_id": 15810,
+      "concept_name": "Units and Measurement",
+      "subject_id": "everyday-science",
+      "difficulty": "medium",
+      "bloom": "Understand",
+      "exam_frequency": 44,
+      "exam_mapping_frequency": 440,
+      "has_prerequisites": true,
+      "prerequisite_count": 1,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 25
+    },
+    {
+      "concept_id": 15812,
+      "concept_name": "atmosphere",
+      "subject_id": "everyday-science",
+      "difficulty": "easy",
+      "bloom": "Understand",
+      "exam_frequency": 44,
+      "exam_mapping_frequency": 132,
+      "has_prerequisites": true,
+      "prerequisite_count": 1,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 25
+    },
+    {
+      "concept_id": 15892,
+      "concept_name": "countries",
+      "subject_id": "general-knowledge",
+      "difficulty": "easy",
+      "bloom": "Understand",
+      "exam_frequency": 50,
+      "exam_mapping_frequency": 150,
+      "has_prerequisites": true,
+      "prerequisite_count": 1,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 25
+    },
+    {
+      "concept_id": 15966,
+      "concept_name": "World History",
+      "subject_id": "history",
+      "difficulty": "medium",
+      "bloom": "Apply",
+      "exam_frequency": 6,
+      "exam_mapping_frequency": 30270,
+      "has_prerequisites": true,
+      "prerequisite_count": 1,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 25
+    },
+    {
+      "concept_id": 15996,
+      "concept_name": "Idioms & Phrases",
+      "subject_id": "idioms",
+      "difficulty": "medium",
+      "bloom": "Apply",
+      "exam_frequency": 6,
+      "exam_mapping_frequency": 30306,
+      "has_prerequisites": true,
+      "prerequisite_count": 1,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 25
+    },
+    {
+      "concept_id": 16038,
+      "concept_name": "IQ & Aptitude",
+      "subject_id": "iq",
+      "difficulty": "medium",
+      "bloom": "Understand",
+      "exam_frequency": 21,
+      "exam_mapping_frequency": 109998,
+      "has_prerequisites": true,
+      "prerequisite_count": 1,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 25
+    },
+    {
+      "concept_id": 16044,
+      "concept_name": "Islamic Studies",
+      "subject_id": "islamic-studies",
+      "difficulty": "medium",
+      "bloom": "Apply",
+      "exam_frequency": 44,
+      "exam_mapping_frequency": 229944,
+      "has_prerequisites": true,
+      "prerequisite_count": 1,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 25
+    },
+    {
+      "concept_id": 16057,
+      "concept_name": "topic-bank",
+      "subject_id": "islamic-studies",
+      "difficulty": "medium",
+      "bloom": "Understand",
+      "exam_frequency": 44,
+      "exam_mapping_frequency": 2288,
+      "has_prerequisites": true,
+      "prerequisite_count": 1,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 25
+    },
+    {
+      "concept_id": 16071,
+      "concept_name": "Hazrat Ali",
+      "subject_id": "islamic-studies",
+      "difficulty": "medium",
+      "bloom": "Understand",
+      "exam_frequency": 44,
+      "exam_mapping_frequency": 528,
+      "has_prerequisites": true,
+      "prerequisite_count": 1,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 25
+    },
+    {
+      "concept_id": 16072,
+      "concept_name": "Scientific References",
+      "subject_id": "islamic-studies",
+      "difficulty": "medium",
+      "bloom": "Understand",
+      "exam_frequency": 44,
+      "exam_mapping_frequency": 440,
+      "has_prerequisites": true,
+      "prerequisite_count": 1,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 25
+    },
+    {
+      "concept_id": 16074,
+      "concept_name": "seerat",
+      "subject_id": "islamic-studies",
+      "difficulty": "easy",
+      "bloom": "Understand",
+      "exam_frequency": 44,
+      "exam_mapping_frequency": 132,
+      "has_prerequisites": true,
+      "prerequisite_count": 1,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 25
+    },
+    {
+      "concept_id": 16198,
+      "concept_name": "Mathematics",
+      "subject_id": "mathematics",
+      "difficulty": "medium",
+      "bloom": "Understand",
+      "exam_frequency": 42,
+      "exam_mapping_frequency": 9685410,
+      "has_prerequisites": true,
+      "prerequisite_count": 1,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 25
+    },
+    {
+      "concept_id": 16229,
+      "concept_name": "Mechanical Engineering",
+      "subject_id": "mechanical-eng",
+      "difficulty": "medium",
+      "bloom": "Apply",
+      "exam_frequency": 9,
+      "exam_mapping_frequency": 47286,
+      "has_prerequisites": true,
+      "prerequisite_count": 1,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 25
+    },
+    {
+      "concept_id": 16309,
+      "concept_name": "Microsoft Office",
+      "subject_id": "ms-office",
+      "difficulty": "medium",
+      "bloom": "Understand",
+      "exam_frequency": 26,
+      "exam_mapping_frequency": 572,
+      "has_prerequisites": true,
+      "prerequisite_count": 1,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 25
+    },
+    {
+      "concept_id": 16314,
+      "concept_name": "ms word",
+      "subject_id": "ms-office",
+      "difficulty": "easy",
+      "bloom": "Understand",
+      "exam_frequency": 31,
+      "exam_mapping_frequency": 122,
+      "has_prerequisites": true,
+      "prerequisite_count": 1,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 25
+    },
+    {
+      "concept_id": 16339,
+      "concept_name": "Network Models",
+      "subject_id": "networking",
+      "difficulty": "medium",
+      "bloom": "Understand",
+      "exam_frequency": 7,
+      "exam_mapping_frequency": 70,
+      "has_prerequisites": true,
+      "prerequisite_count": 1,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 25
+    },
+    {
+      "concept_id": 16383,
+      "concept_name": "Operating Systems",
+      "subject_id": "operating-systems",
+      "difficulty": "medium",
+      "bloom": "Apply",
+      "exam_frequency": 7,
+      "exam_mapping_frequency": 35308,
+      "has_prerequisites": true,
+      "prerequisite_count": 1,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 25
+    },
+    {
+      "concept_id": 16389,
+      "concept_name": "Processes and Memory",
+      "subject_id": "operating-systems",
+      "difficulty": "medium",
+      "bloom": "Understand",
+      "exam_frequency": 7,
+      "exam_mapping_frequency": 70,
+      "has_prerequisites": true,
+      "prerequisite_count": 1,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 25
+    },
+    {
+      "concept_id": 16468,
+      "concept_name": "Parliament & President",
+      "subject_id": "pakistan-affairs",
+      "difficulty": "medium",
+      "bloom": "Understand",
+      "exam_frequency": 50,
+      "exam_mapping_frequency": 600,
+      "has_prerequisites": true,
+      "prerequisite_count": 1,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 25
+    },
+    {
+      "concept_id": 16470,
+      "concept_name": "national symbols",
+      "subject_id": "pakistan-affairs",
+      "difficulty": "medium",
+      "bloom": "Understand",
+      "exam_frequency": 50,
+      "exam_mapping_frequency": 550,
+      "has_prerequisites": true,
+      "prerequisite_count": 1,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 25
+    },
+    {
+      "concept_id": 16474,
+      "concept_name": "muslim league",
+      "subject_id": "pakistan-affairs",
+      "difficulty": "medium",
+      "bloom": "Understand",
+      "exam_frequency": 50,
+      "exam_mapping_frequency": 150,
+      "has_prerequisites": true,
+      "prerequisite_count": 1,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 25
+    },
+    {
+      "concept_id": 16663,
+      "concept_name": "Pattern Series",
+      "subject_id": "reasoning",
+      "difficulty": "medium",
+      "bloom": "Understand",
+      "exam_frequency": 30,
+      "exam_mapping_frequency": 240,
+      "has_prerequisites": true,
+      "prerequisite_count": 1,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 25
+    },
+    {
+      "concept_id": 16718,
+      "concept_name": "sdlc",
+      "subject_id": "software-eng",
+      "difficulty": "medium",
+      "bloom": "Understand",
+      "exam_frequency": 7,
+      "exam_mapping_frequency": 84,
+      "has_prerequisites": true,
+      "prerequisite_count": 1,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 25
+    },
+    {
+      "concept_id": 16719,
+      "concept_name": "Development",
+      "subject_id": "software-eng",
+      "difficulty": "medium",
+      "bloom": "Understand",
+      "exam_frequency": 7,
+      "exam_mapping_frequency": 56,
+      "has_prerequisites": true,
+      "prerequisite_count": 1,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 25
+    },
+    {
+      "concept_id": 16721,
+      "concept_name": "agile",
+      "subject_id": "software-eng",
+      "difficulty": "medium",
+      "bloom": "Understand",
+      "exam_frequency": 7,
+      "exam_mapping_frequency": 21,
+      "has_prerequisites": true,
+      "prerequisite_count": 1,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 25
+    },
+    {
+      "concept_id": 16761,
+      "concept_name": "Statistics",
+      "subject_id": "statistics",
+      "difficulty": "medium",
+      "bloom": "Understand",
+      "exam_frequency": 11,
+      "exam_mapping_frequency": 933944,
+      "has_prerequisites": true,
+      "prerequisite_count": 1,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 25
+    }
+  ],
+  "revision_concepts": [],
+  "all_recommendations": [
+    {
+      "concept_id": 15437,
+      "concept_name": "Acids, Bases and Salts",
+      "subject_id": "chemistry",
+      "difficulty": "hard",
+      "bloom": "Apply",
+      "exam_frequency": 12,
+      "exam_mapping_frequency": 840,
+      "has_prerequisites": true,
+      "prerequisite_count": 3,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant",
+        "challenging_topic"
+      ],
+      "priority_score": 55
+    },
+    {
+      "concept_id": 15505,
+      "concept_name": "Cyber Security",
+      "subject_id": "computer-science",
+      "difficulty": "hard",
+      "bloom": "Apply",
+      "exam_frequency": 44,
+      "exam_mapping_frequency": 1760,
+      "has_prerequisites": true,
+      "prerequisite_count": 7,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant",
+        "challenging_topic"
+      ],
+      "priority_score": 55
+    },
+    {
+      "concept_id": 15547,
+      "concept_name": "current affairs",
+      "subject_id": "current-affairs",
+      "difficulty": "hard",
+      "bloom": "Apply",
+      "exam_frequency": 44,
+      "exam_mapping_frequency": 220000,
+      "has_prerequisites": true,
+      "prerequisite_count": 3,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant",
+        "challenging_topic"
+      ],
+      "priority_score": 55
+    },
+    {
+      "concept_id": 15548,
+      "concept_name": "current-affairs",
+      "subject_id": "current-affairs",
+      "difficulty": "hard",
+      "bloom": "Apply",
+      "exam_frequency": 44,
+      "exam_mapping_frequency": 219956,
+      "has_prerequisites": true,
+      "prerequisite_count": 7,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant",
+        "challenging_topic"
+      ],
+      "priority_score": 55
+    },
+    {
+      "concept_id": 15549,
+      "concept_name": "deep-kb",
+      "subject_id": "current-affairs",
+      "difficulty": "hard",
+      "bloom": "Apply",
+      "exam_frequency": 44,
+      "exam_mapping_frequency": 219252,
+      "has_prerequisites": true,
+      "prerequisite_count": 3,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant",
+        "challenging_topic"
+      ],
+      "priority_score": 55
+    },
+    {
+      "concept_id": 15550,
+      "concept_name": "pakistan",
+      "subject_id": "current-affairs",
+      "difficulty": "hard",
+      "bloom": "Apply",
+      "exam_frequency": 44,
+      "exam_mapping_frequency": 219252,
+      "has_prerequisites": true,
+      "prerequisite_count": 3,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant",
+        "challenging_topic"
+      ],
+      "priority_score": 55
+    },
+    {
+      "concept_id": 15551,
+      "concept_name": "world",
+      "subject_id": "current-affairs",
+      "difficulty": "hard",
+      "bloom": "Apply",
+      "exam_frequency": 44,
+      "exam_mapping_frequency": 219252,
+      "has_prerequisites": true,
+      "prerequisite_count": 3,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant",
+        "challenging_topic"
+      ],
+      "priority_score": 55
+    },
+    {
+      "concept_id": 15552,
+      "concept_name": "numbers",
+      "subject_id": "current-affairs",
+      "difficulty": "hard",
+      "bloom": "Apply",
+      "exam_frequency": 44,
+      "exam_mapping_frequency": 219252,
+      "has_prerequisites": true,
+      "prerequisite_count": 11,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant",
+        "challenging_topic"
+      ],
+      "priority_score": 55
+    },
+    {
+      "concept_id": 15553,
+      "concept_name": "World and Organisations",
+      "subject_id": "current-affairs",
+      "difficulty": "hard",
+      "bloom": "Apply",
+      "exam_frequency": 44,
+      "exam_mapping_frequency": 145464,
+      "has_prerequisites": true,
+      "prerequisite_count": 12,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant",
+        "challenging_topic"
+      ],
+      "priority_score": 55
+    },
+    {
+      "concept_id": 15792,
+      "concept_name": "Everyday Science",
+      "subject_id": "everyday-science",
+      "difficulty": "hard",
+      "bloom": "Apply",
+      "exam_frequency": 44,
+      "exam_mapping_frequency": 221320,
+      "has_prerequisites": true,
+      "prerequisite_count": 7,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant",
+        "challenging_topic"
+      ],
+      "priority_score": 55
+    },
+    {
+      "concept_id": 15793,
+      "concept_name": "everyday-science",
+      "subject_id": "everyday-science",
+      "difficulty": "hard",
+      "bloom": "Apply",
+      "exam_frequency": 44,
+      "exam_mapping_frequency": 220792,
+      "has_prerequisites": true,
+      "prerequisite_count": 6,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant",
+        "challenging_topic"
+      ],
+      "priority_score": 55
+    },
+    {
+      "concept_id": 15794,
+      "concept_name": "chemistry",
+      "subject_id": "everyday-science",
+      "difficulty": "hard",
+      "bloom": "Apply",
+      "exam_frequency": 44,
+      "exam_mapping_frequency": 219604,
+      "has_prerequisites": true,
+      "prerequisite_count": 3,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant",
+        "challenging_topic"
+      ],
+      "priority_score": 55
+    },
+    {
+      "concept_id": 15795,
+      "concept_name": "biology",
+      "subject_id": "everyday-science",
+      "difficulty": "hard",
+      "bloom": "Apply",
+      "exam_frequency": 44,
+      "exam_mapping_frequency": 219560,
+      "has_prerequisites": true,
+      "prerequisite_count": 3,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant",
+        "challenging_topic"
+      ],
+      "priority_score": 55
+    },
+    {
+      "concept_id": 15796,
+      "concept_name": "physics",
+      "subject_id": "everyday-science",
+      "difficulty": "hard",
+      "bloom": "Apply",
+      "exam_frequency": 44,
+      "exam_mapping_frequency": 219560,
+      "has_prerequisites": true,
+      "prerequisite_count": 3,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant",
+        "challenging_topic"
+      ],
+      "priority_score": 55
+    },
+    {
+      "concept_id": 15797,
+      "concept_name": "units",
+      "subject_id": "everyday-science",
+      "difficulty": "hard",
+      "bloom": "Apply",
+      "exam_frequency": 44,
+      "exam_mapping_frequency": 219560,
+      "has_prerequisites": true,
+      "prerequisite_count": 4,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant",
+        "challenging_topic"
+      ],
+      "priority_score": 55
+    },
+    {
+      "concept_id": 15798,
+      "concept_name": "deep-kb",
+      "subject_id": "everyday-science",
+      "difficulty": "hard",
+      "bloom": "Apply",
+      "exam_frequency": 44,
+      "exam_mapping_frequency": 219472,
+      "has_prerequisites": true,
+      "prerequisite_count": 7,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant",
+        "challenging_topic"
+      ],
+      "priority_score": 55
+    },
+    {
+      "concept_id": 15799,
+      "concept_name": "Numerical Physics",
+      "subject_id": "everyday-science",
+      "difficulty": "hard",
+      "bloom": "Apply",
+      "exam_frequency": 44,
+      "exam_mapping_frequency": 195008,
+      "has_prerequisites": true,
+      "prerequisite_count": 4,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant",
+        "challenging_topic"
+      ],
+      "priority_score": 55
+    },
+    {
+      "concept_id": 16463,
+      "concept_name": "Constitution of Pakistan",
+      "subject_id": "pakistan-affairs",
+      "difficulty": "hard",
+      "bloom": "Recall",
+      "exam_frequency": 50,
+      "exam_mapping_frequency": 950,
+      "has_prerequisites": true,
+      "prerequisite_count": 15,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant",
+        "challenging_topic"
+      ],
+      "priority_score": 55
+    },
+    {
+      "concept_id": 15190,
+      "concept_name": "accounting",
+      "subject_id": "accounting",
+      "difficulty": "easy",
+      "bloom": "Apply",
+      "exam_frequency": 16,
+      "exam_mapping_frequency": 162592,
+      "has_prerequisites": true,
+      "prerequisite_count": 8,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [
+        {
+          "concept_id": 15191,
+          "concept_name": "depreciation",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15192,
+          "concept_name": "deep-kb",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15193,
+          "concept_name": "ratios",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15194,
+          "concept_name": "financial-statements",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15195,
+          "concept_name": "financial statements",
+          "similarity_score": 1
+        }
+      ],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant",
+        "related_study"
+      ],
+      "priority_score": 50
+    },
+    {
+      "concept_id": 15191,
+      "concept_name": "depreciation",
+      "subject_id": "accounting",
+      "difficulty": "easy",
+      "bloom": "Apply",
+      "exam_frequency": 16,
+      "exam_mapping_frequency": 81040,
+      "has_prerequisites": true,
+      "prerequisite_count": 3,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [
+        {
+          "concept_id": 15190,
+          "concept_name": "accounting",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15192,
+          "concept_name": "deep-kb",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15193,
+          "concept_name": "ratios",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15194,
+          "concept_name": "financial-statements",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15195,
+          "concept_name": "financial statements",
+          "similarity_score": 1
+        }
+      ],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant",
+        "related_study"
+      ],
+      "priority_score": 50
+    },
+    {
+      "concept_id": 15192,
+      "concept_name": "deep-kb",
+      "subject_id": "accounting",
+      "difficulty": "easy",
+      "bloom": "Apply",
+      "exam_frequency": 16,
+      "exam_mapping_frequency": 81024,
+      "has_prerequisites": true,
+      "prerequisite_count": 3,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [
+        {
+          "concept_id": 15190,
+          "concept_name": "accounting",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15191,
+          "concept_name": "depreciation",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15193,
+          "concept_name": "ratios",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15194,
+          "concept_name": "financial-statements",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15195,
+          "concept_name": "financial statements",
+          "similarity_score": 1
+        }
+      ],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant",
+        "related_study"
+      ],
+      "priority_score": 50
+    },
+    {
+      "concept_id": 15193,
+      "concept_name": "ratios",
+      "subject_id": "accounting",
+      "difficulty": "easy",
+      "bloom": "Apply",
+      "exam_frequency": 16,
+      "exam_mapping_frequency": 81024,
+      "has_prerequisites": true,
+      "prerequisite_count": 3,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [
+        {
+          "concept_id": 15190,
+          "concept_name": "accounting",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15191,
+          "concept_name": "depreciation",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15192,
+          "concept_name": "deep-kb",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15194,
+          "concept_name": "financial-statements",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15195,
+          "concept_name": "financial statements",
+          "similarity_score": 1
+        }
+      ],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant",
+        "related_study"
+      ],
+      "priority_score": 50
+    },
+    {
+      "concept_id": 15194,
+      "concept_name": "financial-statements",
+      "subject_id": "accounting",
+      "difficulty": "easy",
+      "bloom": "Apply",
+      "exam_frequency": 16,
+      "exam_mapping_frequency": 81024,
+      "has_prerequisites": true,
+      "prerequisite_count": 8,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [
+        {
+          "concept_id": 15190,
+          "concept_name": "accounting",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15191,
+          "concept_name": "depreciation",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15192,
+          "concept_name": "deep-kb",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15193,
+          "concept_name": "ratios",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15195,
+          "concept_name": "financial statements",
+          "similarity_score": 1
+        }
+      ],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant",
+        "related_study"
+      ],
+      "priority_score": 50
+    },
+    {
+      "concept_id": 15195,
+      "concept_name": "financial statements",
+      "subject_id": "accounting",
+      "difficulty": "easy",
+      "bloom": "Apply",
+      "exam_frequency": 16,
+      "exam_mapping_frequency": 67264,
+      "has_prerequisites": true,
+      "prerequisite_count": 8,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [
+        {
+          "concept_id": 15190,
+          "concept_name": "accounting",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15191,
+          "concept_name": "depreciation",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15192,
+          "concept_name": "deep-kb",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15193,
+          "concept_name": "ratios",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15194,
+          "concept_name": "financial-statements",
+          "similarity_score": 1
+        }
+      ],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant",
+        "related_study"
+      ],
+      "priority_score": 50
+    },
+    {
+      "concept_id": 15196,
+      "concept_name": "Accounting Principles",
+      "subject_id": "accounting",
+      "difficulty": "medium",
+      "bloom": "Apply",
+      "exam_frequency": 16,
+      "exam_mapping_frequency": 13648,
+      "has_prerequisites": true,
+      "prerequisite_count": 4,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [
+        {
+          "concept_id": 15190,
+          "concept_name": "accounting",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15191,
+          "concept_name": "depreciation",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15192,
+          "concept_name": "deep-kb",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15193,
+          "concept_name": "ratios",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15194,
+          "concept_name": "financial-statements",
+          "similarity_score": 1
+        }
+      ],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant",
+        "related_study"
+      ],
+      "priority_score": 50
+    },
+    {
+      "concept_id": 15198,
+      "concept_name": "Accounting Basics",
+      "subject_id": "accounting",
+      "difficulty": "easy",
+      "bloom": "Recall",
+      "exam_frequency": 16,
+      "exam_mapping_frequency": 144,
+      "has_prerequisites": true,
+      "prerequisite_count": 8,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [
+        {
+          "concept_id": 15190,
+          "concept_name": "accounting",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15191,
+          "concept_name": "depreciation",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15192,
+          "concept_name": "deep-kb",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15193,
+          "concept_name": "ratios",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15194,
+          "concept_name": "financial-statements",
+          "similarity_score": 1
+        }
+      ],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant",
+        "related_study"
+      ],
+      "priority_score": 50
+    },
+    {
+      "concept_id": 15208,
+      "concept_name": "Artificial Intelligence",
+      "subject_id": "ai",
+      "difficulty": "easy",
+      "bloom": "Apply",
+      "exam_frequency": 7,
+      "exam_mapping_frequency": 35602,
+      "has_prerequisites": true,
+      "prerequisite_count": 3,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [
+        {
+          "concept_id": 15207,
+          "concept_name": "ai",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15209,
+          "concept_name": "deep-kb",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15210,
+          "concept_name": "machine-learning",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15211,
+          "concept_name": "neural-networks",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15212,
+          "concept_name": "metrics",
+          "similarity_score": 1
+        }
+      ],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant",
+        "related_study"
+      ],
+      "priority_score": 50
+    },
+    {
+      "concept_id": 15209,
+      "concept_name": "deep-kb",
+      "subject_id": "ai",
+      "difficulty": "easy",
+      "bloom": "Apply",
+      "exam_frequency": 7,
+      "exam_mapping_frequency": 35490,
+      "has_prerequisites": true,
+      "prerequisite_count": 3,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [
+        {
+          "concept_id": 15207,
+          "concept_name": "ai",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15208,
+          "concept_name": "Artificial Intelligence",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15210,
+          "concept_name": "machine-learning",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15211,
+          "concept_name": "neural-networks",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15212,
+          "concept_name": "metrics",
+          "similarity_score": 1
+        }
+      ],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant",
+        "related_study"
+      ],
+      "priority_score": 50
+    },
+    {
+      "concept_id": 15210,
+      "concept_name": "machine-learning",
+      "subject_id": "ai",
+      "difficulty": "easy",
+      "bloom": "Apply",
+      "exam_frequency": 7,
+      "exam_mapping_frequency": 35490,
+      "has_prerequisites": true,
+      "prerequisite_count": 3,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [
+        {
+          "concept_id": 15207,
+          "concept_name": "ai",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15208,
+          "concept_name": "Artificial Intelligence",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15209,
+          "concept_name": "deep-kb",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15211,
+          "concept_name": "neural-networks",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15212,
+          "concept_name": "metrics",
+          "similarity_score": 1
+        }
+      ],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant",
+        "related_study"
+      ],
+      "priority_score": 50
+    },
+    {
+      "concept_id": 15211,
+      "concept_name": "neural-networks",
+      "subject_id": "ai",
+      "difficulty": "easy",
+      "bloom": "Apply",
+      "exam_frequency": 7,
+      "exam_mapping_frequency": 35490,
+      "has_prerequisites": true,
+      "prerequisite_count": 3,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [
+        {
+          "concept_id": 15207,
+          "concept_name": "ai",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15208,
+          "concept_name": "Artificial Intelligence",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15209,
+          "concept_name": "deep-kb",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15210,
+          "concept_name": "machine-learning",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15212,
+          "concept_name": "metrics",
+          "similarity_score": 1
+        }
+      ],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant",
+        "related_study"
+      ],
+      "priority_score": 50
+    },
+    {
+      "concept_id": 15212,
+      "concept_name": "metrics",
+      "subject_id": "ai",
+      "difficulty": "easy",
+      "bloom": "Apply",
+      "exam_frequency": 7,
+      "exam_mapping_frequency": 35490,
+      "has_prerequisites": true,
+      "prerequisite_count": 5,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [
+        {
+          "concept_id": 15207,
+          "concept_name": "ai",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15208,
+          "concept_name": "Artificial Intelligence",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15209,
+          "concept_name": "deep-kb",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15210,
+          "concept_name": "machine-learning",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15211,
+          "concept_name": "neural-networks",
+          "similarity_score": 1
+        }
+      ],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant",
+        "related_study"
+      ],
+      "priority_score": 50
+    },
+    {
+      "concept_id": 15213,
+      "concept_name": "Machine Learning Models",
+      "subject_id": "ai",
+      "difficulty": "easy",
+      "bloom": "Apply",
+      "exam_frequency": 7,
+      "exam_mapping_frequency": 35329,
+      "has_prerequisites": true,
+      "prerequisite_count": 4,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [
+        {
+          "concept_id": 15207,
+          "concept_name": "ai",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15208,
+          "concept_name": "Artificial Intelligence",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15209,
+          "concept_name": "deep-kb",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15210,
+          "concept_name": "machine-learning",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15211,
+          "concept_name": "neural-networks",
+          "similarity_score": 1
+        }
+      ],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant",
+        "related_study"
+      ],
+      "priority_score": 50
+    },
+    {
+      "concept_id": 15216,
+      "concept_name": "AI Concepts",
+      "subject_id": "ai",
+      "difficulty": "medium",
+      "bloom": "Understand",
+      "exam_frequency": 7,
+      "exam_mapping_frequency": 70,
+      "has_prerequisites": true,
+      "prerequisite_count": 3,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [
+        {
+          "concept_id": 15217,
+          "concept_name": "AI in Practice",
+          "similarity_score": 1
+        }
+      ],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant",
+        "related_study"
+      ],
+      "priority_score": 50
+    },
+    {
+      "concept_id": 15266,
+      "concept_name": "Antonyms",
+      "subject_id": "antonyms",
+      "difficulty": "medium",
+      "bloom": "Apply",
+      "exam_frequency": 6,
+      "exam_mapping_frequency": 60060,
+      "has_prerequisites": true,
+      "prerequisite_count": 3,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [
+        {
+          "concept_id": 15267,
+          "concept_name": "deep-kb",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15268,
+          "concept_name": "english",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15269,
+          "concept_name": "words",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15270,
+          "concept_name": "Word Lengths and Spelling",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15271,
+          "concept_name": "Antonym Pairs",
+          "similarity_score": 1
+        }
+      ],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant",
+        "related_study"
+      ],
+      "priority_score": 50
+    },
+    {
+      "concept_id": 15268,
+      "concept_name": "english",
+      "subject_id": "antonyms",
+      "difficulty": "medium",
+      "bloom": "Apply",
+      "exam_frequency": 6,
+      "exam_mapping_frequency": 29880,
+      "has_prerequisites": true,
+      "prerequisite_count": 3,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [
+        {
+          "concept_id": 15266,
+          "concept_name": "Antonyms",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15267,
+          "concept_name": "deep-kb",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15269,
+          "concept_name": "words",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15270,
+          "concept_name": "Word Lengths and Spelling",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15271,
+          "concept_name": "Antonym Pairs",
+          "similarity_score": 1
+        }
+      ],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant",
+        "related_study"
+      ],
+      "priority_score": 50
+    },
+    {
+      "concept_id": 15269,
+      "concept_name": "words",
+      "subject_id": "antonyms",
+      "difficulty": "medium",
+      "bloom": "Apply",
+      "exam_frequency": 6,
+      "exam_mapping_frequency": 29880,
+      "has_prerequisites": true,
+      "prerequisite_count": 3,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [
+        {
+          "concept_id": 15266,
+          "concept_name": "Antonyms",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15267,
+          "concept_name": "deep-kb",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15268,
+          "concept_name": "english",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15270,
+          "concept_name": "Word Lengths and Spelling",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15271,
+          "concept_name": "Antonym Pairs",
+          "similarity_score": 1
+        }
+      ],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant",
+        "related_study"
+      ],
+      "priority_score": 50
+    },
+    {
+      "concept_id": 15270,
+      "concept_name": "Word Lengths and Spelling",
+      "subject_id": "antonyms",
+      "difficulty": "medium",
+      "bloom": "Apply",
+      "exam_frequency": 6,
+      "exam_mapping_frequency": 24444,
+      "has_prerequisites": true,
+      "prerequisite_count": 4,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [
+        {
+          "concept_id": 15266,
+          "concept_name": "Antonyms",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15267,
+          "concept_name": "deep-kb",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15268,
+          "concept_name": "english",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15269,
+          "concept_name": "words",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15271,
+          "concept_name": "Antonym Pairs",
+          "similarity_score": 1
+        }
+      ],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant",
+        "related_study"
+      ],
+      "priority_score": 50
+    },
+    {
+      "concept_id": 15271,
+      "concept_name": "Antonym Pairs",
+      "subject_id": "antonyms",
+      "difficulty": "medium",
+      "bloom": "Understand",
+      "exam_frequency": 6,
+      "exam_mapping_frequency": 5280,
+      "has_prerequisites": true,
+      "prerequisite_count": 3,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [
+        {
+          "concept_id": 15266,
+          "concept_name": "Antonyms",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15267,
+          "concept_name": "deep-kb",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15268,
+          "concept_name": "english",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15269,
+          "concept_name": "words",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15270,
+          "concept_name": "Word Lengths and Spelling",
+          "similarity_score": 1
+        }
+      ],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant",
+        "related_study"
+      ],
+      "priority_score": 50
+    },
+    {
+      "concept_id": 15272,
+      "concept_name": "Harder Antonyms",
+      "subject_id": "antonyms",
+      "difficulty": "easy",
+      "bloom": "Recall",
+      "exam_frequency": 6,
+      "exam_mapping_frequency": 276,
+      "has_prerequisites": true,
+      "prerequisite_count": 3,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [
+        {
+          "concept_id": 15266,
+          "concept_name": "Antonyms",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15267,
+          "concept_name": "deep-kb",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15268,
+          "concept_name": "english",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15269,
+          "concept_name": "words",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15270,
+          "concept_name": "Word Lengths and Spelling",
+          "similarity_score": 1
+        }
+      ],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant",
+        "related_study"
+      ],
+      "priority_score": 50
+    },
+    {
+      "concept_id": 15277,
+      "concept_name": "aptitude",
+      "subject_id": "aptitude-tests",
+      "difficulty": "medium",
+      "bloom": "Understand",
+      "exam_frequency": 11,
+      "exam_mapping_frequency": 4620,
+      "has_prerequisites": true,
+      "prerequisite_count": 6,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [
+        {
+          "concept_id": 15276,
+          "concept_name": "Aptitude Tests",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15278,
+          "concept_name": "Graph Reading",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15279,
+          "concept_name": "Data Interpretation Tables",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15280,
+          "concept_name": "Percentage Comparisons",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15281,
+          "concept_name": "topic-bank",
+          "similarity_score": 1
+        }
+      ],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant",
+        "related_study"
+      ],
+      "priority_score": 50
+    },
+    {
+      "concept_id": 15278,
+      "concept_name": "Graph Reading",
+      "subject_id": "aptitude-tests",
+      "difficulty": "medium",
+      "bloom": "Understand",
+      "exam_frequency": 11,
+      "exam_mapping_frequency": 2453,
+      "has_prerequisites": true,
+      "prerequisite_count": 5,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [
+        {
+          "concept_id": 15276,
+          "concept_name": "Aptitude Tests",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15277,
+          "concept_name": "aptitude",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15279,
+          "concept_name": "Data Interpretation Tables",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15280,
+          "concept_name": "Percentage Comparisons",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15281,
+          "concept_name": "topic-bank",
+          "similarity_score": 1
+        }
+      ],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant",
+        "related_study"
+      ],
+      "priority_score": 50
+    },
+    {
+      "concept_id": 15279,
+      "concept_name": "Data Interpretation Tables",
+      "subject_id": "aptitude-tests",
+      "difficulty": "medium",
+      "bloom": "Understand",
+      "exam_frequency": 11,
+      "exam_mapping_frequency": 2167,
+      "has_prerequisites": true,
+      "prerequisite_count": 7,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [
+        {
+          "concept_id": 15276,
+          "concept_name": "Aptitude Tests",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15277,
+          "concept_name": "aptitude",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15278,
+          "concept_name": "Graph Reading",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15280,
+          "concept_name": "Percentage Comparisons",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15281,
+          "concept_name": "topic-bank",
+          "similarity_score": 1
+        }
+      ],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant",
+        "related_study"
+      ],
+      "priority_score": 50
+    },
+    {
+      "concept_id": 15281,
+      "concept_name": "topic-bank",
+      "subject_id": "aptitude-tests",
+      "difficulty": "medium",
+      "bloom": "Understand",
+      "exam_frequency": 11,
+      "exam_mapping_frequency": 55,
+      "has_prerequisites": true,
+      "prerequisite_count": 6,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [
+        {
+          "concept_id": 15276,
+          "concept_name": "Aptitude Tests",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15277,
+          "concept_name": "aptitude",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15278,
+          "concept_name": "Graph Reading",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15279,
+          "concept_name": "Data Interpretation Tables",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15280,
+          "concept_name": "Percentage Comparisons",
+          "similarity_score": 1
+        }
+      ],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant",
+        "related_study"
+      ],
+      "priority_score": 50
+    },
+    {
+      "concept_id": 15311,
+      "concept_name": "Auditing",
+      "subject_id": "auditing",
+      "difficulty": "easy",
+      "bloom": "Apply",
+      "exam_frequency": 7,
+      "exam_mapping_frequency": 70532,
+      "has_prerequisites": true,
+      "prerequisite_count": 4,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [
+        {
+          "concept_id": 15312,
+          "concept_name": "deep-kb",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15313,
+          "concept_name": "Audit Process",
+          "similarity_score": 1
+        }
+      ],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant",
+        "related_study"
+      ],
+      "priority_score": 50
+    },
+    {
+      "concept_id": 15312,
+      "concept_name": "deep-kb",
+      "subject_id": "auditing",
+      "difficulty": "easy",
+      "bloom": "Apply",
+      "exam_frequency": 7,
+      "exam_mapping_frequency": 35182,
+      "has_prerequisites": true,
+      "prerequisite_count": 3,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [
+        {
+          "concept_id": 15311,
+          "concept_name": "Auditing",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15313,
+          "concept_name": "Audit Process",
+          "similarity_score": 1
+        }
+      ],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant",
+        "related_study"
+      ],
+      "priority_score": 50
+    },
+    {
+      "concept_id": 15313,
+      "concept_name": "Audit Process",
+      "subject_id": "auditing",
+      "difficulty": "easy",
+      "bloom": "Apply",
+      "exam_frequency": 7,
+      "exam_mapping_frequency": 18669,
+      "has_prerequisites": true,
+      "prerequisite_count": 6,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [
+        {
+          "concept_id": 15311,
+          "concept_name": "Auditing",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15312,
+          "concept_name": "deep-kb",
+          "similarity_score": 1
+        }
+      ],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant",
+        "related_study"
+      ],
+      "priority_score": 50
+    },
+    {
+      "concept_id": 15315,
+      "concept_name": "Spelling and Letter Building",
+      "subject_id": "auditing",
+      "difficulty": "medium",
+      "bloom": "Apply",
+      "exam_frequency": 7,
+      "exam_mapping_frequency": 15127,
+      "has_prerequisites": true,
+      "prerequisite_count": 4,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [
+        {
+          "concept_id": 15314,
+          "concept_name": "letter-skills",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15316,
+          "concept_name": "Letter Positions",
+          "similarity_score": 1
+        }
+      ],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant",
+        "related_study"
+      ],
+      "priority_score": 50
+    },
+    {
+      "concept_id": 15316,
+      "concept_name": "Letter Positions",
+      "subject_id": "auditing",
+      "difficulty": "easy",
+      "bloom": "Apply",
+      "exam_frequency": 7,
+      "exam_mapping_frequency": 1386,
+      "has_prerequisites": true,
+      "prerequisite_count": 6,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [
+        {
+          "concept_id": 15314,
+          "concept_name": "letter-skills",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15315,
+          "concept_name": "Spelling and Letter Building",
+          "similarity_score": 1
+        }
+      ],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant",
+        "related_study"
+      ],
+      "priority_score": 50
+    },
+    {
+      "concept_id": 15367,
+      "concept_name": "Biology",
+      "subject_id": "biology",
+      "difficulty": "easy",
+      "bloom": "Apply",
+      "exam_frequency": 11,
+      "exam_mapping_frequency": 109956,
+      "has_prerequisites": true,
+      "prerequisite_count": 4,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [
+        {
+          "concept_id": 15368,
+          "concept_name": "genetics",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15369,
+          "concept_name": "plants",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15370,
+          "concept_name": "deep-kb",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15371,
+          "concept_name": "cells",
+          "similarity_score": 1
+        },
+        {
+          "concept_id": 15372,
+          "concept_name": "human-body",
+          "similarity_score": 1
+        }
+      ],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant",
+        "related_study"
+      ],
+      "priority_score": 50
+    },
+    {
+      "concept_id": 15370,
+      "concept_name": "deep-kb",
+      "subject_id": "biology",
+      "difficulty": "easy",
+      "bloom": "Apply",
+      "exam_frequency": 11,
+      "exam_mapping_frequency": 54648,
+      "has_prerequisites": true,
+      "prerequisite_count": 3,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [
+        {
+          "concept_id": 15367,
+          "concept_name": "Biology",
+          "similarity_score": 1
+        }
+      ],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant",
+        "related_study"
+      ],
+      "priority_score": 50
+    },
+    {
+      "concept_id": 15371,
+      "concept_name": "cells",
+      "subject_id": "biology",
+      "difficulty": "easy",
+      "bloom": "Apply",
+      "exam_frequency": 11,
+      "exam_mapping_frequency": 54648,
+      "has_prerequisites": true,
+      "prerequisite_count": 3,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [
+        {
+          "concept_id": 15367,
+          "concept_name": "Biology",
+          "similarity_score": 1
+        }
+      ],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant",
+        "related_study"
+      ],
+      "priority_score": 50
+    },
+    {
+      "concept_id": 15372,
+      "concept_name": "human-body",
+      "subject_id": "biology",
+      "difficulty": "easy",
+      "bloom": "Apply",
+      "exam_frequency": 11,
+      "exam_mapping_frequency": 54648,
+      "has_prerequisites": true,
+      "prerequisite_count": 7,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [
+        {
+          "concept_id": 15367,
+          "concept_name": "Biology",
+          "similarity_score": 1
+        }
+      ],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant",
+        "related_study"
+      ],
+      "priority_score": 50
+    },
+    {
+      "concept_id": 15373,
+      "concept_name": "Human Body Systems",
+      "subject_id": "biology",
+      "difficulty": "easy",
+      "bloom": "Apply",
+      "exam_frequency": 11,
+      "exam_mapping_frequency": 33154,
+      "has_prerequisites": true,
+      "prerequisite_count": 6,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [
+        {
+          "concept_id": 15367,
+          "concept_name": "Biology",
+          "similarity_score": 1
+        }
+      ],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant",
+        "related_study"
+      ],
+      "priority_score": 50
+    },
+    {
+      "concept_id": 15374,
+      "concept_name": "Biological Calculations",
+      "subject_id": "biology",
+      "difficulty": "medium",
+      "bloom": "Apply",
+      "exam_frequency": 11,
+      "exam_mapping_frequency": 20064,
+      "has_prerequisites": true,
+      "prerequisite_count": 6,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [
+        {
+          "concept_id": 15367,
+          "concept_name": "Biology",
+          "similarity_score": 1
+        }
+      ],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant",
+        "related_study"
+      ],
+      "priority_score": 50
+    },
+    {
+      "concept_id": 15375,
+      "concept_name": "Cell Biology",
+      "subject_id": "biology",
+      "difficulty": "medium",
+      "bloom": "Apply",
+      "exam_frequency": 11,
+      "exam_mapping_frequency": 825,
+      "has_prerequisites": true,
+      "prerequisite_count": 4,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [
+        {
+          "concept_id": 15367,
+          "concept_name": "Biology",
+          "similarity_score": 1
+        }
+      ],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant",
+        "related_study"
+      ],
+      "priority_score": 50
+    },
+    {
+      "concept_id": 15376,
+      "concept_name": "Genetics and Evolution",
+      "subject_id": "biology",
+      "difficulty": "medium",
+      "bloom": "Understand",
+      "exam_frequency": 11,
+      "exam_mapping_frequency": 671,
+      "has_prerequisites": true,
+      "prerequisite_count": 3,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [
+        {
+          "concept_id": 15367,
+          "concept_name": "Biology",
+          "similarity_score": 1
+        }
+      ],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant",
+        "related_study"
+      ],
+      "priority_score": 50
+    },
+    {
+      "concept_id": 15197,
+      "concept_name": "basics",
+      "subject_id": "accounting",
+      "difficulty": "medium",
+      "bloom": "Understand",
+      "exam_frequency": 16,
+      "exam_mapping_frequency": 304,
+      "has_prerequisites": true,
+      "prerequisite_count": 7,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15317,
+      "concept_name": "Audit Concepts",
+      "subject_id": "auditing",
+      "difficulty": "medium",
+      "bloom": "Understand",
+      "exam_frequency": 7,
+      "exam_mapping_frequency": 84,
+      "has_prerequisites": true,
+      "prerequisite_count": 3,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15377,
+      "concept_name": "Plants and Environment",
+      "subject_id": "biology",
+      "difficulty": "easy",
+      "bloom": "Recall",
+      "exam_frequency": 11,
+      "exam_mapping_frequency": 154,
+      "has_prerequisites": true,
+      "prerequisite_count": 5,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15378,
+      "concept_name": "Human Systems",
+      "subject_id": "biology",
+      "difficulty": "medium",
+      "bloom": "Understand",
+      "exam_frequency": 11,
+      "exam_mapping_frequency": 110,
+      "has_prerequisites": true,
+      "prerequisite_count": 5,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15380,
+      "concept_name": "Biotech Basics",
+      "subject_id": "biotechnology",
+      "difficulty": "medium",
+      "bloom": "Understand",
+      "exam_frequency": 6,
+      "exam_mapping_frequency": 60,
+      "has_prerequisites": true,
+      "prerequisite_count": 4,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15399,
+      "concept_name": "business-admin",
+      "subject_id": "business-admin",
+      "difficulty": "medium",
+      "bloom": "Understand",
+      "exam_frequency": 11,
+      "exam_mapping_frequency": 132,
+      "has_prerequisites": true,
+      "prerequisite_count": 6,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15422,
+      "concept_name": "chemical-eng",
+      "subject_id": "chemical-eng",
+      "difficulty": "medium",
+      "bloom": "Apply",
+      "exam_frequency": 8,
+      "exam_mapping_frequency": 40576,
+      "has_prerequisites": true,
+      "prerequisite_count": 3,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15423,
+      "concept_name": "deep-kb",
+      "subject_id": "chemical-eng",
+      "difficulty": "medium",
+      "bloom": "Apply",
+      "exam_frequency": 8,
+      "exam_mapping_frequency": 40504,
+      "has_prerequisites": true,
+      "prerequisite_count": 5,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15424,
+      "concept_name": "letter-skills",
+      "subject_id": "chemical-eng",
+      "difficulty": "medium",
+      "bloom": "Apply",
+      "exam_frequency": 8,
+      "exam_mapping_frequency": 34088,
+      "has_prerequisites": true,
+      "prerequisite_count": 5,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15425,
+      "concept_name": "Spelling and Letter Building",
+      "subject_id": "chemical-eng",
+      "difficulty": "medium",
+      "bloom": "Apply",
+      "exam_frequency": 8,
+      "exam_mapping_frequency": 32312,
+      "has_prerequisites": true,
+      "prerequisite_count": 4,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15427,
+      "concept_name": "Letter Positions",
+      "subject_id": "chemical-eng",
+      "difficulty": "easy",
+      "bloom": "Apply",
+      "exam_frequency": 8,
+      "exam_mapping_frequency": 1776,
+      "has_prerequisites": true,
+      "prerequisite_count": 3,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15428,
+      "concept_name": "Processes",
+      "subject_id": "chemical-eng",
+      "difficulty": "medium",
+      "bloom": "Understand",
+      "exam_frequency": 8,
+      "exam_mapping_frequency": 72,
+      "has_prerequisites": true,
+      "prerequisite_count": 3,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15429,
+      "concept_name": "Chemistry",
+      "subject_id": "chemistry",
+      "difficulty": "medium",
+      "bloom": "Apply",
+      "exam_frequency": 12,
+      "exam_mapping_frequency": 120600,
+      "has_prerequisites": true,
+      "prerequisite_count": 5,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15430,
+      "concept_name": "deep-kb",
+      "subject_id": "chemistry",
+      "difficulty": "medium",
+      "bloom": "Apply",
+      "exam_frequency": 12,
+      "exam_mapping_frequency": 59916,
+      "has_prerequisites": true,
+      "prerequisite_count": 3,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15431,
+      "concept_name": "periodic-table",
+      "subject_id": "chemistry",
+      "difficulty": "medium",
+      "bloom": "Apply",
+      "exam_frequency": 12,
+      "exam_mapping_frequency": 59916,
+      "has_prerequisites": true,
+      "prerequisite_count": 3,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15432,
+      "concept_name": "reactions",
+      "subject_id": "chemistry",
+      "difficulty": "medium",
+      "bloom": "Apply",
+      "exam_frequency": 12,
+      "exam_mapping_frequency": 59916,
+      "has_prerequisites": true,
+      "prerequisite_count": 3,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15433,
+      "concept_name": "acids",
+      "subject_id": "chemistry",
+      "difficulty": "medium",
+      "bloom": "Apply",
+      "exam_frequency": 12,
+      "exam_mapping_frequency": 59916,
+      "has_prerequisites": true,
+      "prerequisite_count": 3,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15434,
+      "concept_name": "moles",
+      "subject_id": "chemistry",
+      "difficulty": "medium",
+      "bloom": "Apply",
+      "exam_frequency": 12,
+      "exam_mapping_frequency": 59916,
+      "has_prerequisites": true,
+      "prerequisite_count": 4,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15435,
+      "concept_name": "periodic table",
+      "subject_id": "chemistry",
+      "difficulty": "medium",
+      "bloom": "Apply",
+      "exam_frequency": 21,
+      "exam_mapping_frequency": 57123,
+      "has_prerequisites": true,
+      "prerequisite_count": 6,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15436,
+      "concept_name": "Elements and Symbols",
+      "subject_id": "chemistry",
+      "difficulty": "medium",
+      "bloom": "Apply",
+      "exam_frequency": 12,
+      "exam_mapping_frequency": 1464,
+      "has_prerequisites": true,
+      "prerequisite_count": 3,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15438,
+      "concept_name": "Chemical Reactions",
+      "subject_id": "chemistry",
+      "difficulty": "medium",
+      "bloom": "Apply",
+      "exam_frequency": 12,
+      "exam_mapping_frequency": 564,
+      "has_prerequisites": true,
+      "prerequisite_count": 3,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15439,
+      "concept_name": "Organic Chemistry",
+      "subject_id": "chemistry",
+      "difficulty": "easy",
+      "bloom": "Recall",
+      "exam_frequency": 12,
+      "exam_mapping_frequency": 168,
+      "has_prerequisites": true,
+      "prerequisite_count": 3,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15440,
+      "concept_name": "Bonds and Reactions",
+      "subject_id": "chemistry",
+      "difficulty": "medium",
+      "bloom": "Understand",
+      "exam_frequency": 12,
+      "exam_mapping_frequency": 144,
+      "has_prerequisites": true,
+      "prerequisite_count": 3,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15442,
+      "concept_name": "topic-bank",
+      "subject_id": "chemistry",
+      "difficulty": "medium",
+      "bloom": "Understand",
+      "exam_frequency": 12,
+      "exam_mapping_frequency": 120,
+      "has_prerequisites": true,
+      "prerequisite_count": 3,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15444,
+      "concept_name": "civil-eng",
+      "subject_id": "civil-eng",
+      "difficulty": "medium",
+      "bloom": "Apply",
+      "exam_frequency": 6,
+      "exam_mapping_frequency": 30420,
+      "has_prerequisites": true,
+      "prerequisite_count": 5,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15445,
+      "concept_name": "deep-kb",
+      "subject_id": "civil-eng",
+      "difficulty": "medium",
+      "bloom": "Apply",
+      "exam_frequency": 6,
+      "exam_mapping_frequency": 30312,
+      "has_prerequisites": true,
+      "prerequisite_count": 4,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15446,
+      "concept_name": "Materials and Construction",
+      "subject_id": "civil-eng",
+      "difficulty": "medium",
+      "bloom": "Apply",
+      "exam_frequency": 6,
+      "exam_mapping_frequency": 15168,
+      "has_prerequisites": true,
+      "prerequisite_count": 3,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15449,
+      "concept_name": "Letter Positions",
+      "subject_id": "civil-eng",
+      "difficulty": "easy",
+      "bloom": "Apply",
+      "exam_frequency": 6,
+      "exam_mapping_frequency": 1746,
+      "has_prerequisites": true,
+      "prerequisite_count": 4,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15451,
+      "concept_name": "surveying",
+      "subject_id": "civil-eng",
+      "difficulty": "medium",
+      "bloom": "Understand",
+      "exam_frequency": 6,
+      "exam_mapping_frequency": 60,
+      "has_prerequisites": true,
+      "prerequisite_count": 5,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15454,
+      "concept_name": "deep-kb",
+      "subject_id": "cloud-computing",
+      "difficulty": "medium",
+      "bloom": "Apply",
+      "exam_frequency": 7,
+      "exam_mapping_frequency": 34902,
+      "has_prerequisites": true,
+      "prerequisite_count": 3,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15455,
+      "concept_name": "letter-skills",
+      "subject_id": "cloud-computing",
+      "difficulty": "medium",
+      "bloom": "Apply",
+      "exam_frequency": 7,
+      "exam_mapping_frequency": 34902,
+      "has_prerequisites": true,
+      "prerequisite_count": 4,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15456,
+      "concept_name": "Spelling and Letter Building",
+      "subject_id": "cloud-computing",
+      "difficulty": "medium",
+      "bloom": "Apply",
+      "exam_frequency": 7,
+      "exam_mapping_frequency": 33852,
+      "has_prerequisites": true,
+      "prerequisite_count": 4,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15457,
+      "concept_name": "Letter Positions",
+      "subject_id": "cloud-computing",
+      "difficulty": "easy",
+      "bloom": "Apply",
+      "exam_frequency": 7,
+      "exam_mapping_frequency": 1050,
+      "has_prerequisites": true,
+      "prerequisite_count": 5,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15460,
+      "concept_name": "Commerce",
+      "subject_id": "commerce",
+      "difficulty": "medium",
+      "bloom": "Understand",
+      "exam_frequency": 11,
+      "exam_mapping_frequency": 176,
+      "has_prerequisites": true,
+      "prerequisite_count": 3,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15461,
+      "concept_name": "Trade Basics",
+      "subject_id": "commerce",
+      "difficulty": "medium",
+      "bloom": "Understand",
+      "exam_frequency": 11,
+      "exam_mapping_frequency": 88,
+      "has_prerequisites": true,
+      "prerequisite_count": 4,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15462,
+      "concept_name": "business forms",
+      "subject_id": "commerce",
+      "difficulty": "easy",
+      "bloom": "Understand",
+      "exam_frequency": 11,
+      "exam_mapping_frequency": 33,
+      "has_prerequisites": true,
+      "prerequisite_count": 6,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15475,
+      "concept_name": "comprehension",
+      "subject_id": "comprehension",
+      "difficulty": "medium",
+      "bloom": "Apply",
+      "exam_frequency": 8,
+      "exam_mapping_frequency": 80768,
+      "has_prerequisites": true,
+      "prerequisite_count": 3,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15477,
+      "concept_name": "english",
+      "subject_id": "comprehension",
+      "difficulty": "medium",
+      "bloom": "Apply",
+      "exam_frequency": 8,
+      "exam_mapping_frequency": 40248,
+      "has_prerequisites": true,
+      "prerequisite_count": 3,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15478,
+      "concept_name": "reading",
+      "subject_id": "comprehension",
+      "difficulty": "medium",
+      "bloom": "Apply",
+      "exam_frequency": 8,
+      "exam_mapping_frequency": 40248,
+      "has_prerequisites": true,
+      "prerequisite_count": 4,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15479,
+      "concept_name": "Passage Word Skills",
+      "subject_id": "comprehension",
+      "difficulty": "medium",
+      "bloom": "Apply",
+      "exam_frequency": 8,
+      "exam_mapping_frequency": 31512,
+      "has_prerequisites": true,
+      "prerequisite_count": 7,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15480,
+      "concept_name": "Word and Passage Skills",
+      "subject_id": "comprehension",
+      "difficulty": "easy",
+      "bloom": "Apply",
+      "exam_frequency": 8,
+      "exam_mapping_frequency": 6520,
+      "has_prerequisites": true,
+      "prerequisite_count": 5,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15481,
+      "concept_name": "Context and Meaning",
+      "subject_id": "comprehension",
+      "difficulty": "medium",
+      "bloom": "Apply",
+      "exam_frequency": 8,
+      "exam_mapping_frequency": 2216,
+      "has_prerequisites": true,
+      "prerequisite_count": 4,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15484,
+      "concept_name": "topic-bank",
+      "subject_id": "comprehension",
+      "difficulty": "medium",
+      "bloom": "Understand",
+      "exam_frequency": 8,
+      "exam_mapping_frequency": 80,
+      "has_prerequisites": true,
+      "prerequisite_count": 7,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15497,
+      "concept_name": "computer-science",
+      "subject_id": "computer-science",
+      "difficulty": "medium",
+      "bloom": "Apply",
+      "exam_frequency": 44,
+      "exam_mapping_frequency": 231968,
+      "has_prerequisites": true,
+      "prerequisite_count": 3,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15498,
+      "concept_name": "hardware",
+      "subject_id": "computer-science",
+      "difficulty": "medium",
+      "bloom": "Apply",
+      "exam_frequency": 44,
+      "exam_mapping_frequency": 231088,
+      "has_prerequisites": true,
+      "prerequisite_count": 3,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15499,
+      "concept_name": "networking",
+      "subject_id": "computer-science",
+      "difficulty": "medium",
+      "bloom": "Apply",
+      "exam_frequency": 44,
+      "exam_mapping_frequency": 231088,
+      "has_prerequisites": true,
+      "prerequisite_count": 4,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15500,
+      "concept_name": "security",
+      "subject_id": "computer-science",
+      "difficulty": "medium",
+      "bloom": "Apply",
+      "exam_frequency": 44,
+      "exam_mapping_frequency": 231044,
+      "has_prerequisites": true,
+      "prerequisite_count": 3,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15501,
+      "concept_name": "software",
+      "subject_id": "computer-science",
+      "difficulty": "medium",
+      "bloom": "Apply",
+      "exam_frequency": 44,
+      "exam_mapping_frequency": 231044,
+      "has_prerequisites": true,
+      "prerequisite_count": 3,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15502,
+      "concept_name": "deep-kb",
+      "subject_id": "computer-science",
+      "difficulty": "medium",
+      "bloom": "Apply",
+      "exam_frequency": 44,
+      "exam_mapping_frequency": 230956,
+      "has_prerequisites": true,
+      "prerequisite_count": 7,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15503,
+      "concept_name": "Computing Arithmetic",
+      "subject_id": "computer-science",
+      "difficulty": "medium",
+      "bloom": "Apply",
+      "exam_frequency": 44,
+      "exam_mapping_frequency": 202488,
+      "has_prerequisites": true,
+      "prerequisite_count": 7,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15504,
+      "concept_name": "Computer Hardware",
+      "subject_id": "computer-science",
+      "difficulty": "medium",
+      "bloom": "Apply",
+      "exam_frequency": 44,
+      "exam_mapping_frequency": 25608,
+      "has_prerequisites": true,
+      "prerequisite_count": 7,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15506,
+      "concept_name": "Computer Fundamentals",
+      "subject_id": "computer-science",
+      "difficulty": "medium",
+      "bloom": "Understand",
+      "exam_frequency": 44,
+      "exam_mapping_frequency": 660,
+      "has_prerequisites": true,
+      "prerequisite_count": 9,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15507,
+      "concept_name": "Networking and the Internet",
+      "subject_id": "computer-science",
+      "difficulty": "easy",
+      "bloom": "Recall",
+      "exam_frequency": 44,
+      "exam_mapping_frequency": 572,
+      "has_prerequisites": true,
+      "prerequisite_count": 15,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15508,
+      "concept_name": "Software and Programming",
+      "subject_id": "computer-science",
+      "difficulty": "easy",
+      "bloom": "Recall",
+      "exam_frequency": 44,
+      "exam_mapping_frequency": 528,
+      "has_prerequisites": true,
+      "prerequisite_count": 11,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15509,
+      "concept_name": "Number Systems",
+      "subject_id": "computer-science",
+      "difficulty": "medium",
+      "bloom": "Understand",
+      "exam_frequency": 44,
+      "exam_mapping_frequency": 352,
+      "has_prerequisites": true,
+      "prerequisite_count": 8,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15510,
+      "concept_name": "abbreviations",
+      "subject_id": "computer-science",
+      "difficulty": "easy",
+      "bloom": "Understand",
+      "exam_frequency": 47,
+      "exam_mapping_frequency": 264,
+      "has_prerequisites": true,
+      "prerequisite_count": 8,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15511,
+      "concept_name": "Constitution",
+      "subject_id": "constitution",
+      "difficulty": "medium",
+      "bloom": "Understand",
+      "exam_frequency": 17,
+      "exam_mapping_frequency": 476,
+      "has_prerequisites": true,
+      "prerequisite_count": 4,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15512,
+      "concept_name": "Constitutional Law",
+      "subject_id": "constitution",
+      "difficulty": "medium",
+      "bloom": "Understand",
+      "exam_frequency": 17,
+      "exam_mapping_frequency": 238,
+      "has_prerequisites": true,
+      "prerequisite_count": 7,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15513,
+      "concept_name": "parliament",
+      "subject_id": "constitution",
+      "difficulty": "medium",
+      "bloom": "Understand",
+      "exam_frequency": 17,
+      "exam_mapping_frequency": 51,
+      "has_prerequisites": true,
+      "prerequisite_count": 10,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15554,
+      "concept_name": "Pakistan Current Affairs",
+      "subject_id": "current-affairs",
+      "difficulty": "medium",
+      "bloom": "Apply",
+      "exam_frequency": 44,
+      "exam_mapping_frequency": 73788,
+      "has_prerequisites": true,
+      "prerequisite_count": 7,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15557,
+      "concept_name": "appointments",
+      "subject_id": "current-affairs",
+      "difficulty": "easy",
+      "bloom": "Understand",
+      "exam_frequency": 47,
+      "exam_mapping_frequency": 176,
+      "has_prerequisites": true,
+      "prerequisite_count": 3,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15568,
+      "concept_name": "cyber-security",
+      "subject_id": "cyber-security",
+      "difficulty": "medium",
+      "bloom": "Apply",
+      "exam_frequency": 10,
+      "exam_mapping_frequency": 51220,
+      "has_prerequisites": true,
+      "prerequisite_count": 3,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15569,
+      "concept_name": "deep-kb",
+      "subject_id": "cyber-security",
+      "difficulty": "medium",
+      "bloom": "Apply",
+      "exam_frequency": 10,
+      "exam_mapping_frequency": 51070,
+      "has_prerequisites": true,
+      "prerequisite_count": 3,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15570,
+      "concept_name": "letter-skills",
+      "subject_id": "cyber-security",
+      "difficulty": "medium",
+      "bloom": "Apply",
+      "exam_frequency": 10,
+      "exam_mapping_frequency": 51070,
+      "has_prerequisites": true,
+      "prerequisite_count": 3,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15571,
+      "concept_name": "Spelling and Letter Building",
+      "subject_id": "cyber-security",
+      "difficulty": "medium",
+      "bloom": "Apply",
+      "exam_frequency": 10,
+      "exam_mapping_frequency": 48170,
+      "has_prerequisites": true,
+      "prerequisite_count": 8,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15572,
+      "concept_name": "Letter Positions",
+      "subject_id": "cyber-security",
+      "difficulty": "easy",
+      "bloom": "Apply",
+      "exam_frequency": 10,
+      "exam_mapping_frequency": 2900,
+      "has_prerequisites": true,
+      "prerequisite_count": 5,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15573,
+      "concept_name": "Defenses",
+      "subject_id": "cyber-security",
+      "difficulty": "medium",
+      "bloom": "Understand",
+      "exam_frequency": 10,
+      "exam_mapping_frequency": 80,
+      "has_prerequisites": true,
+      "prerequisite_count": 5,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15574,
+      "concept_name": "Threats",
+      "subject_id": "cyber-security",
+      "difficulty": "medium",
+      "bloom": "Understand",
+      "exam_frequency": 10,
+      "exam_mapping_frequency": 70,
+      "has_prerequisites": true,
+      "prerequisite_count": 4,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15583,
+      "concept_name": "data-science",
+      "subject_id": "data-science",
+      "difficulty": "easy",
+      "bloom": "Apply",
+      "exam_frequency": 7,
+      "exam_mapping_frequency": 36127,
+      "has_prerequisites": true,
+      "prerequisite_count": 4,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15584,
+      "concept_name": "statistics",
+      "subject_id": "data-science",
+      "difficulty": "easy",
+      "bloom": "Apply",
+      "exam_frequency": 7,
+      "exam_mapping_frequency": 36036,
+      "has_prerequisites": true,
+      "prerequisite_count": 4,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15585,
+      "concept_name": "deep-kb",
+      "subject_id": "data-science",
+      "difficulty": "easy",
+      "bloom": "Apply",
+      "exam_frequency": 7,
+      "exam_mapping_frequency": 36029,
+      "has_prerequisites": true,
+      "prerequisite_count": 3,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15586,
+      "concept_name": "data-pipeline",
+      "subject_id": "data-science",
+      "difficulty": "easy",
+      "bloom": "Apply",
+      "exam_frequency": 7,
+      "exam_mapping_frequency": 36029,
+      "has_prerequisites": true,
+      "prerequisite_count": 3,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15587,
+      "concept_name": "sql",
+      "subject_id": "data-science",
+      "difficulty": "easy",
+      "bloom": "Apply",
+      "exam_frequency": 7,
+      "exam_mapping_frequency": 36029,
+      "has_prerequisites": true,
+      "prerequisite_count": 4,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15588,
+      "concept_name": "Statistics for Data",
+      "subject_id": "data-science",
+      "difficulty": "easy",
+      "bloom": "Apply",
+      "exam_frequency": 7,
+      "exam_mapping_frequency": 35854,
+      "has_prerequisites": true,
+      "prerequisite_count": 3,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15589,
+      "concept_name": "Data Tools and SQL",
+      "subject_id": "data-science",
+      "difficulty": "easy",
+      "bloom": "Recall",
+      "exam_frequency": 7,
+      "exam_mapping_frequency": 91,
+      "has_prerequisites": true,
+      "prerequisite_count": 4,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15590,
+      "concept_name": "Data Science Basics",
+      "subject_id": "data-science",
+      "difficulty": "easy",
+      "bloom": "Recall",
+      "exam_frequency": 7,
+      "exam_mapping_frequency": 84,
+      "has_prerequisites": true,
+      "prerequisite_count": 4,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15592,
+      "concept_name": "Analysis and Tools",
+      "subject_id": "data-science",
+      "difficulty": "medium",
+      "bloom": "Understand",
+      "exam_frequency": 7,
+      "exam_mapping_frequency": 42,
+      "has_prerequisites": true,
+      "prerequisite_count": 4,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15674,
+      "concept_name": "Economics",
+      "subject_id": "economics",
+      "difficulty": "easy",
+      "bloom": "Apply",
+      "exam_frequency": 13,
+      "exam_mapping_frequency": 137878,
+      "has_prerequisites": true,
+      "prerequisite_count": 5,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15676,
+      "concept_name": "micro",
+      "subject_id": "economics",
+      "difficulty": "easy",
+      "bloom": "Apply",
+      "exam_frequency": 13,
+      "exam_mapping_frequency": 68588,
+      "has_prerequisites": true,
+      "prerequisite_count": 3,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15677,
+      "concept_name": "macro",
+      "subject_id": "economics",
+      "difficulty": "easy",
+      "bloom": "Apply",
+      "exam_frequency": 13,
+      "exam_mapping_frequency": 68588,
+      "has_prerequisites": true,
+      "prerequisite_count": 3,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15678,
+      "concept_name": "money",
+      "subject_id": "economics",
+      "difficulty": "easy",
+      "bloom": "Apply",
+      "exam_frequency": 13,
+      "exam_mapping_frequency": 68588,
+      "has_prerequisites": true,
+      "prerequisite_count": 3,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15679,
+      "concept_name": "pakistan",
+      "subject_id": "economics",
+      "difficulty": "easy",
+      "bloom": "Apply",
+      "exam_frequency": 13,
+      "exam_mapping_frequency": 68588,
+      "has_prerequisites": true,
+      "prerequisite_count": 4,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15680,
+      "concept_name": "Money, Banking and Finance",
+      "subject_id": "economics",
+      "difficulty": "easy",
+      "bloom": "Apply",
+      "exam_frequency": 13,
+      "exam_mapping_frequency": 32084,
+      "has_prerequisites": true,
+      "prerequisite_count": 7,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15681,
+      "concept_name": "Economic Calculations",
+      "subject_id": "economics",
+      "difficulty": "easy",
+      "bloom": "Apply",
+      "exam_frequency": 13,
+      "exam_mapping_frequency": 25688,
+      "has_prerequisites": true,
+      "prerequisite_count": 5,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15682,
+      "concept_name": "Demand and Supply",
+      "subject_id": "economics",
+      "difficulty": "medium",
+      "bloom": "Apply",
+      "exam_frequency": 13,
+      "exam_mapping_frequency": 10504,
+      "has_prerequisites": true,
+      "prerequisite_count": 8,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15684,
+      "concept_name": "Micro and Macro",
+      "subject_id": "economics",
+      "difficulty": "medium",
+      "bloom": "Understand",
+      "exam_frequency": 13,
+      "exam_mapping_frequency": 195,
+      "has_prerequisites": true,
+      "prerequisite_count": 6,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15686,
+      "concept_name": "Pakistan's Economy",
+      "subject_id": "economics",
+      "difficulty": "easy",
+      "bloom": "Recall",
+      "exam_frequency": 13,
+      "exam_mapping_frequency": 156,
+      "has_prerequisites": true,
+      "prerequisite_count": 4,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15687,
+      "concept_name": "macroeconomics",
+      "subject_id": "economics",
+      "difficulty": "medium",
+      "bloom": "Understand",
+      "exam_frequency": 13,
+      "exam_mapping_frequency": 39,
+      "has_prerequisites": true,
+      "prerequisite_count": 3,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15689,
+      "concept_name": "Education Systems",
+      "subject_id": "education",
+      "difficulty": "medium",
+      "bloom": "Understand",
+      "exam_frequency": 10,
+      "exam_mapping_frequency": 120,
+      "has_prerequisites": true,
+      "prerequisite_count": 4,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15701,
+      "concept_name": "electrical-eng",
+      "subject_id": "electrical-eng",
+      "difficulty": "medium",
+      "bloom": "Apply",
+      "exam_frequency": 9,
+      "exam_mapping_frequency": 46278,
+      "has_prerequisites": true,
+      "prerequisite_count": 5,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15702,
+      "concept_name": "deep-kb",
+      "subject_id": "electrical-eng",
+      "difficulty": "medium",
+      "bloom": "Apply",
+      "exam_frequency": 9,
+      "exam_mapping_frequency": 46053,
+      "has_prerequisites": true,
+      "prerequisite_count": 4,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15703,
+      "concept_name": "letter-skills",
+      "subject_id": "electrical-eng",
+      "difficulty": "medium",
+      "bloom": "Apply",
+      "exam_frequency": 9,
+      "exam_mapping_frequency": 38808,
+      "has_prerequisites": true,
+      "prerequisite_count": 4,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15704,
+      "concept_name": "Spelling and Letter Building",
+      "subject_id": "electrical-eng",
+      "difficulty": "medium",
+      "bloom": "Apply",
+      "exam_frequency": 9,
+      "exam_mapping_frequency": 36405,
+      "has_prerequisites": true,
+      "prerequisite_count": 4,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15706,
+      "concept_name": "Letter Positions",
+      "subject_id": "electrical-eng",
+      "difficulty": "easy",
+      "bloom": "Apply",
+      "exam_frequency": 9,
+      "exam_mapping_frequency": 2403,
+      "has_prerequisites": true,
+      "prerequisite_count": 4,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15707,
+      "concept_name": "Circuit Laws",
+      "subject_id": "electrical-eng",
+      "difficulty": "medium",
+      "bloom": "Understand",
+      "exam_frequency": 9,
+      "exam_mapping_frequency": 135,
+      "has_prerequisites": true,
+      "prerequisite_count": 6,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15709,
+      "concept_name": "circuits",
+      "subject_id": "electrical-eng",
+      "difficulty": "easy",
+      "bloom": "Understand",
+      "exam_frequency": 9,
+      "exam_mapping_frequency": 27,
+      "has_prerequisites": true,
+      "prerequisite_count": 7,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15710,
+      "concept_name": "Electronics",
+      "subject_id": "electronics",
+      "difficulty": "medium",
+      "bloom": "Apply",
+      "exam_frequency": 8,
+      "exam_mapping_frequency": 50096,
+      "has_prerequisites": true,
+      "prerequisite_count": 3,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15711,
+      "concept_name": "deep-kb",
+      "subject_id": "electronics",
+      "difficulty": "medium",
+      "bloom": "Apply",
+      "exam_frequency": 8,
+      "exam_mapping_frequency": 40216,
+      "has_prerequisites": true,
+      "prerequisite_count": 5,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15712,
+      "concept_name": "Ohm's Law and Power",
+      "subject_id": "electronics",
+      "difficulty": "medium",
+      "bloom": "Apply",
+      "exam_frequency": 8,
+      "exam_mapping_frequency": 30512,
+      "has_prerequisites": true,
+      "prerequisite_count": 3,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15713,
+      "concept_name": "electrical-eng",
+      "subject_id": "electronics",
+      "difficulty": "medium",
+      "bloom": "Apply",
+      "exam_frequency": 8,
+      "exam_mapping_frequency": 30512,
+      "has_prerequisites": true,
+      "prerequisite_count": 6,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15714,
+      "concept_name": "letter-skills",
+      "subject_id": "electronics",
+      "difficulty": "medium",
+      "bloom": "Apply",
+      "exam_frequency": 8,
+      "exam_mapping_frequency": 5728,
+      "has_prerequisites": true,
+      "prerequisite_count": 3,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15715,
+      "concept_name": "Spelling and Letter Building",
+      "subject_id": "electronics",
+      "difficulty": "medium",
+      "bloom": "Apply",
+      "exam_frequency": 8,
+      "exam_mapping_frequency": 4352,
+      "has_prerequisites": true,
+      "prerequisite_count": 3,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15716,
+      "concept_name": "semiconductors",
+      "subject_id": "electronics",
+      "difficulty": "easy",
+      "bloom": "Apply",
+      "exam_frequency": 8,
+      "exam_mapping_frequency": 3992,
+      "has_prerequisites": true,
+      "prerequisite_count": 4,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15717,
+      "concept_name": "Letter Positions",
+      "subject_id": "electronics",
+      "difficulty": "easy",
+      "bloom": "Apply",
+      "exam_frequency": 8,
+      "exam_mapping_frequency": 1376,
+      "has_prerequisites": true,
+      "prerequisite_count": 4,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15719,
+      "concept_name": "English",
+      "subject_id": "english",
+      "difficulty": "medium",
+      "bloom": "Understand",
+      "exam_frequency": 50,
+      "exam_mapping_frequency": 3400,
+      "has_prerequisites": true,
+      "prerequisite_count": 4,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15720,
+      "concept_name": "topic-bank",
+      "subject_id": "english",
+      "difficulty": "medium",
+      "bloom": "Understand",
+      "exam_frequency": 50,
+      "exam_mapping_frequency": 2200,
+      "has_prerequisites": true,
+      "prerequisite_count": 10,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15721,
+      "concept_name": "vocabulary",
+      "subject_id": "english",
+      "difficulty": "easy",
+      "bloom": "Understand",
+      "exam_frequency": 50,
+      "exam_mapping_frequency": 1100,
+      "has_prerequisites": true,
+      "prerequisite_count": 5,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15722,
+      "concept_name": "tenses",
+      "subject_id": "english",
+      "difficulty": "medium",
+      "bloom": "Understand",
+      "exam_frequency": 50,
+      "exam_mapping_frequency": 700,
+      "has_prerequisites": true,
+      "prerequisite_count": 11,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15725,
+      "concept_name": "Proverbs",
+      "subject_id": "english",
+      "difficulty": "medium",
+      "bloom": "Understand",
+      "exam_frequency": 50,
+      "exam_mapping_frequency": 600,
+      "has_prerequisites": true,
+      "prerequisite_count": 8,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15728,
+      "concept_name": "Word Meanings",
+      "subject_id": "english",
+      "difficulty": "medium",
+      "bloom": "Understand",
+      "exam_frequency": 50,
+      "exam_mapping_frequency": 500,
+      "has_prerequisites": true,
+      "prerequisite_count": 5,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15730,
+      "concept_name": "phrases",
+      "subject_id": "english",
+      "difficulty": "easy",
+      "bloom": "Understand",
+      "exam_frequency": 50,
+      "exam_mapping_frequency": 450,
+      "has_prerequisites": true,
+      "prerequisite_count": 7,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15731,
+      "concept_name": "antonyms",
+      "subject_id": "english",
+      "difficulty": "medium",
+      "bloom": "Understand",
+      "exam_frequency": 50,
+      "exam_mapping_frequency": 400,
+      "has_prerequisites": true,
+      "prerequisite_count": 6,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15732,
+      "concept_name": "prepositions",
+      "subject_id": "english",
+      "difficulty": "easy",
+      "bloom": "Understand",
+      "exam_frequency": 50,
+      "exam_mapping_frequency": 200,
+      "has_prerequisites": true,
+      "prerequisite_count": 3,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15735,
+      "concept_name": "reported speech",
+      "subject_id": "english",
+      "difficulty": "medium",
+      "bloom": "Understand",
+      "exam_frequency": 50,
+      "exam_mapping_frequency": 200,
+      "has_prerequisites": true,
+      "prerequisite_count": 9,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15737,
+      "concept_name": "one word substitution",
+      "subject_id": "english",
+      "difficulty": "easy",
+      "bloom": "Understand",
+      "exam_frequency": 50,
+      "exam_mapping_frequency": 150,
+      "has_prerequisites": true,
+      "prerequisite_count": 4,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15769,
+      "concept_name": "environmental-science",
+      "subject_id": "environmental-science",
+      "difficulty": "easy",
+      "bloom": "Apply",
+      "exam_frequency": 10,
+      "exam_mapping_frequency": 50470,
+      "has_prerequisites": true,
+      "prerequisite_count": 6,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15770,
+      "concept_name": "pollution",
+      "subject_id": "environmental-science",
+      "difficulty": "easy",
+      "bloom": "Apply",
+      "exam_frequency": 10,
+      "exam_mapping_frequency": 50360,
+      "has_prerequisites": true,
+      "prerequisite_count": 3,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15771,
+      "concept_name": "climate",
+      "subject_id": "environmental-science",
+      "difficulty": "easy",
+      "bloom": "Apply",
+      "exam_frequency": 10,
+      "exam_mapping_frequency": 50360,
+      "has_prerequisites": true,
+      "prerequisite_count": 4,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15772,
+      "concept_name": "deep-kb",
+      "subject_id": "environmental-science",
+      "difficulty": "easy",
+      "bloom": "Apply",
+      "exam_frequency": 10,
+      "exam_mapping_frequency": 50350,
+      "has_prerequisites": true,
+      "prerequisite_count": 5,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15773,
+      "concept_name": "Ecology and Ecosystems",
+      "subject_id": "environmental-science",
+      "difficulty": "easy",
+      "bloom": "Apply",
+      "exam_frequency": 10,
+      "exam_mapping_frequency": 48600,
+      "has_prerequisites": true,
+      "prerequisite_count": 7,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15775,
+      "concept_name": "conservation",
+      "subject_id": "environmental-science",
+      "difficulty": "easy",
+      "bloom": "Recall",
+      "exam_frequency": 10,
+      "exam_mapping_frequency": 120,
+      "has_prerequisites": true,
+      "prerequisite_count": 6,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15776,
+      "concept_name": "pakistan",
+      "subject_id": "environmental-science",
+      "difficulty": "easy",
+      "bloom": "Understand",
+      "exam_frequency": 10,
+      "exam_mapping_frequency": 30,
+      "has_prerequisites": true,
+      "prerequisite_count": 7,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15800,
+      "concept_name": "Physical Quantities and Units",
+      "subject_id": "everyday-science",
+      "difficulty": "medium",
+      "bloom": "Apply",
+      "exam_frequency": 44,
+      "exam_mapping_frequency": 8844,
+      "has_prerequisites": true,
+      "prerequisite_count": 12,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15801,
+      "concept_name": "human body",
+      "subject_id": "everyday-science",
+      "difficulty": "medium",
+      "bloom": "Understand",
+      "exam_frequency": 44,
+      "exam_mapping_frequency": 3344,
+      "has_prerequisites": true,
+      "prerequisite_count": 3,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15802,
+      "concept_name": "Important Scientists and Discoveries",
+      "subject_id": "everyday-science",
+      "difficulty": "medium",
+      "bloom": "Apply",
+      "exam_frequency": 44,
+      "exam_mapping_frequency": 2860,
+      "has_prerequisites": true,
+      "prerequisite_count": 3,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15803,
+      "concept_name": "Biological Sciences",
+      "subject_id": "everyday-science",
+      "difficulty": "medium",
+      "bloom": "Apply",
+      "exam_frequency": 44,
+      "exam_mapping_frequency": 2508,
+      "has_prerequisites": true,
+      "prerequisite_count": 3,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15804,
+      "concept_name": "Earth and Space",
+      "subject_id": "everyday-science",
+      "difficulty": "medium",
+      "bloom": "Apply",
+      "exam_frequency": 44,
+      "exam_mapping_frequency": 2464,
+      "has_prerequisites": true,
+      "prerequisite_count": 5,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15805,
+      "concept_name": "Chemistry in Daily Life",
+      "subject_id": "everyday-science",
+      "difficulty": "medium",
+      "bloom": "Apply",
+      "exam_frequency": 44,
+      "exam_mapping_frequency": 2332,
+      "has_prerequisites": true,
+      "prerequisite_count": 4,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15806,
+      "concept_name": "Sound and Light",
+      "subject_id": "everyday-science",
+      "difficulty": "medium",
+      "bloom": "Apply",
+      "exam_frequency": 44,
+      "exam_mapping_frequency": 1980,
+      "has_prerequisites": true,
+      "prerequisite_count": 5,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15807,
+      "concept_name": "Physics in Daily Life",
+      "subject_id": "everyday-science",
+      "difficulty": "easy",
+      "bloom": "Recall",
+      "exam_frequency": 44,
+      "exam_mapping_frequency": 660,
+      "has_prerequisites": true,
+      "prerequisite_count": 7,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15809,
+      "concept_name": "topic-bank",
+      "subject_id": "everyday-science",
+      "difficulty": "medium",
+      "bloom": "Understand",
+      "exam_frequency": 44,
+      "exam_mapping_frequency": 528,
+      "has_prerequisites": true,
+      "prerequisite_count": 6,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15811,
+      "concept_name": "Matter and Light",
+      "subject_id": "everyday-science",
+      "difficulty": "medium",
+      "bloom": "Understand",
+      "exam_frequency": 44,
+      "exam_mapping_frequency": 440,
+      "has_prerequisites": true,
+      "prerequisite_count": 9,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15813,
+      "concept_name": "planets",
+      "subject_id": "everyday-science",
+      "difficulty": "easy",
+      "bloom": "Understand",
+      "exam_frequency": 44,
+      "exam_mapping_frequency": 132,
+      "has_prerequisites": true,
+      "prerequisite_count": 13,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15843,
+      "concept_name": "finance",
+      "subject_id": "finance",
+      "difficulty": "medium",
+      "bloom": "Apply",
+      "exam_frequency": 14,
+      "exam_mapping_frequency": 149534,
+      "has_prerequisites": true,
+      "prerequisite_count": 4,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15845,
+      "concept_name": "investments",
+      "subject_id": "finance",
+      "difficulty": "medium",
+      "bloom": "Apply",
+      "exam_frequency": 14,
+      "exam_mapping_frequency": 74592,
+      "has_prerequisites": true,
+      "prerequisite_count": 3,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15846,
+      "concept_name": "valuation",
+      "subject_id": "finance",
+      "difficulty": "medium",
+      "bloom": "Apply",
+      "exam_frequency": 14,
+      "exam_mapping_frequency": 74592,
+      "has_prerequisites": true,
+      "prerequisite_count": 3,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15847,
+      "concept_name": "money-markets",
+      "subject_id": "finance",
+      "difficulty": "medium",
+      "bloom": "Apply",
+      "exam_frequency": 14,
+      "exam_mapping_frequency": 74592,
+      "has_prerequisites": true,
+      "prerequisite_count": 5,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15848,
+      "concept_name": "Investments and Valuation",
+      "subject_id": "finance",
+      "difficulty": "medium",
+      "bloom": "Apply",
+      "exam_frequency": 14,
+      "exam_mapping_frequency": 74242,
+      "has_prerequisites": true,
+      "prerequisite_count": 5,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15849,
+      "concept_name": "finance basics",
+      "subject_id": "finance",
+      "difficulty": "medium",
+      "bloom": "Understand",
+      "exam_frequency": 14,
+      "exam_mapping_frequency": 322,
+      "has_prerequisites": true,
+      "prerequisite_count": 3,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15850,
+      "concept_name": "Financial Markets",
+      "subject_id": "finance",
+      "difficulty": "easy",
+      "bloom": "Recall",
+      "exam_frequency": 14,
+      "exam_mapping_frequency": 196,
+      "has_prerequisites": true,
+      "prerequisite_count": 5,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15877,
+      "concept_name": "sports",
+      "subject_id": "general-knowledge",
+      "difficulty": "easy",
+      "bloom": "Apply",
+      "exam_frequency": 50,
+      "exam_mapping_frequency": 254250,
+      "has_prerequisites": true,
+      "prerequisite_count": 6,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15879,
+      "concept_name": "general-knowledge",
+      "subject_id": "general-knowledge",
+      "difficulty": "easy",
+      "bloom": "Apply",
+      "exam_frequency": 50,
+      "exam_mapping_frequency": 252050,
+      "has_prerequisites": true,
+      "prerequisite_count": 8,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15880,
+      "concept_name": "books",
+      "subject_id": "general-knowledge",
+      "difficulty": "easy",
+      "bloom": "Apply",
+      "exam_frequency": 50,
+      "exam_mapping_frequency": 251000,
+      "has_prerequisites": true,
+      "prerequisite_count": 4,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    },
+    {
+      "concept_id": 15881,
+      "concept_name": "deep-kb",
+      "subject_id": "general-knowledge",
+      "difficulty": "easy",
+      "bloom": "Apply",
+      "exam_frequency": 50,
+      "exam_mapping_frequency": 250900,
+      "has_prerequisites": true,
+      "prerequisite_count": 3,
+      "is_confusion_concept": false,
+      "confusion_count": 0,
+      "similar_concepts": [],
+      "recommendation_type": [
+        "prerequisite_review",
+        "high_frequency_review",
+        "exam_relevant"
+      ],
+      "priority_score": 45
+    }
+  ]
+}

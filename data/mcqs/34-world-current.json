@@ -1,0 +1,349 @@
+[
+ {
+  "id": "wca-001",
+  "question": "The United Nations was founded in the year:",
+  "optionA": "1945",
+  "optionB": "1919",
+  "optionC": "1950",
+  "optionD": "1939",
+  "correctAnswer": "A",
+  "detailedExplanation": "The UN Charter was signed in San Francisco on 26 June 1945 and entered force that October.",
+  "difficulty": "easy",
+  "subject": "world-current-affairs",
+  "chapter": "world-current-affairs-global-organizations",
+  "topic": "t-362",
+  "subtopic": "fundamentals",
+  "exam": [
+   "css",
+   "pms",
+   "fpsc",
+   "nts"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "current-affairs",
+   "un"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "wca-002",
+  "question": "The headquarters of the United Nations is located in:",
+  "optionA": "New York",
+  "optionB": "Geneva",
+  "optionC": "Paris",
+  "optionD": "London",
+  "correctAnswer": "A",
+  "detailedExplanation": "UN headquarters is in New York; Geneva hosts European offices.",
+  "difficulty": "easy",
+  "subject": "world-current-affairs",
+  "chapter": "world-current-affairs-global-organizations",
+  "topic": "t-362",
+  "subtopic": "fundamentals",
+  "exam": [
+   "css",
+   "pms",
+   "fpsc",
+   "nts"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "current-affairs",
+   "un"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "wca-003",
+  "question": "Which UN agency focuses on children's welfare?",
+  "optionA": "UNICEF",
+  "optionB": "WHO",
+  "optionC": "ILO",
+  "optionD": "FAO",
+  "correctAnswer": "A",
+  "detailedExplanation": "UNICEF (United Nations Children's Fund) protects children worldwide.",
+  "difficulty": "medium",
+  "subject": "world-current-affairs",
+  "chapter": "world-current-affairs-global-organizations",
+  "topic": "t-362",
+  "subtopic": "fundamentals",
+  "exam": [
+   "css",
+   "pms",
+   "fpsc",
+   "nts"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "current-affairs",
+   "un"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "wca-004",
+  "question": "The International Court of Justice sits in:",
+  "optionA": "The Hague",
+  "optionB": "New York",
+  "optionC": "Vienna",
+  "optionD": "Rome",
+  "correctAnswer": "A",
+  "detailedExplanation": "The ICJ, the UN's principal judicial organ, is based in The Hague.",
+  "difficulty": "medium",
+  "subject": "world-current-affairs",
+  "chapter": "world-current-affairs-global-organizations",
+  "topic": "t-362",
+  "subtopic": "fundamentals",
+  "exam": [
+   "css",
+   "pms",
+   "fpsc",
+   "nts"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "current-affairs",
+   "un"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "wca-005",
+  "question": "The World Trade Organization (WTO) primarily deals with:",
+  "optionA": "rules of trade between nations",
+  "optionB": "military alliances",
+  "optionC": "space exploration",
+  "optionD": "climate only",
+  "correctAnswer": "A",
+  "detailedExplanation": "The WTO administers global trade agreements and settles trade disputes.",
+  "difficulty": "easy",
+  "subject": "world-current-affairs",
+  "chapter": "world-current-affairs-global-organizations",
+  "topic": "t-363",
+  "subtopic": "fundamentals",
+  "exam": [
+   "css",
+   "pms",
+   "fpsc",
+   "nts"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "current-affairs",
+   "wto"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "wca-006",
+  "question": "BRICS is a group of major emerging economies; Pakistan is:",
+  "optionA": "not a member",
+  "optionB": "a founding member",
+  "optionC": "the chair",
+  "optionD": "an observer only",
+  "correctAnswer": "A",
+  "detailedExplanation": "BRICS comprises Brazil, Russia, India, China, South Africa and newer members; Pakistan is not a member.",
+  "difficulty": "medium",
+  "subject": "world-current-affairs",
+  "chapter": "world-current-affairs-global-organizations",
+  "topic": "t-363",
+  "subtopic": "fundamentals",
+  "exam": [
+   "css",
+   "pms",
+   "fpsc",
+   "nts"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "current-affairs",
+   "brics"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "wca-007",
+  "question": "CPEC is a corridor linking Pakistan with:",
+  "optionA": "China",
+  "optionB": "India",
+  "optionC": "Iran",
+  "optionD": "Turkey",
+  "correctAnswer": "A",
+  "detailedExplanation": "The China-Pakistan Economic Corridor connects Gwadar to China's western region.",
+  "difficulty": "medium",
+  "subject": "world-current-affairs",
+  "chapter": "world-current-affairs-world-economy-trade",
+  "topic": "t-364",
+  "subtopic": "fundamentals",
+  "exam": [
+   "css",
+   "pms",
+   "fpsc",
+   "nts"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "current-affairs",
+   "cpec"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "wca-008",
+  "question": "SDRs are an international reserve asset issued by the:",
+  "optionA": "IMF",
+  "optionB": "World Bank",
+  "optionC": "ADB",
+  "optionD": "WTO",
+  "correctAnswer": "A",
+  "detailedExplanation": "Special Drawing Rights are IMF reserve assets supplementing member reserves.",
+  "difficulty": "medium",
+  "subject": "world-current-affairs",
+  "chapter": "world-current-affairs-world-economy-trade",
+  "topic": "t-365",
+  "subtopic": "fundamentals",
+  "exam": [
+   "css",
+   "pms",
+   "fpsc",
+   "nts"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "current-affairs",
+   "imf"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "wca-009",
+  "question": "The 'Red Sea crisis' affecting global shipping since late 2023 is linked to attacks by:",
+  "optionA": "Houthi forces in Yemen",
+  "optionB": "pirates in the Caribbean",
+  "optionC": "submarines in the Arctic",
+  "optionD": "smugglers in the Aegean",
+  "correctAnswer": "A",
+  "detailedExplanation": "Houthi attacks on shipping in the Red Sea disrupted the Suez route, raising freight costs.",
+  "difficulty": "medium",
+  "subject": "world-current-affairs",
+  "chapter": "world-current-affairs-conflicts-peacekeeping",
+  "topic": "t-366",
+  "subtopic": "fundamentals",
+  "exam": [
+   "css",
+   "pms",
+   "fpsc",
+   "nts"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "current-affairs"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "wca-010",
+  "question": "The Treaty on the Prohibition of Nuclear Weapons (TPNW), which entered into force in 2021, bans:",
+  "optionA": "nuclear weapons outright",
+  "optionB": "conventional bombs",
+  "optionC": "drones",
+  "optionD": "chemical sprays",
+  "correctAnswer": "A",
+  "detailedExplanation": "TPNW prohibits developing, testing and possessing nuclear weapons; nuclear states have not joined.",
+  "difficulty": "hard",
+  "subject": "world-current-affairs",
+  "chapter": "world-current-affairs-conflicts-peacekeeping",
+  "topic": "t-367",
+  "subtopic": "fundamentals",
+  "exam": [
+   "css",
+   "pms",
+   "fpsc",
+   "nts"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "current-affairs",
+   "nuclear"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "wca-011",
+  "question": "Pakistan's permanent representative to the UN presents the country's position at the:",
+  "optionA": "General Assembly",
+  "optionB": "Security Council only",
+  "optionC": "World Bank",
+  "optionD": "ICJ only",
+  "correctAnswer": "A",
+  "detailedExplanation": "Pakistan addresses the UN General Assembly annually; it has also served on the Security Council.",
+  "difficulty": "medium",
+  "subject": "world-current-affairs",
+  "chapter": "world-current-affairs-global-organizations",
+  "topic": "t-362",
+  "subtopic": "fundamentals",
+  "exam": [
+   "css",
+   "pms",
+   "fpsc",
+   "nts"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "current-affairs",
+   "un"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "wca-012",
+  "question": "The Shanghai Cooperation Organization (SCO) is primarily a:",
+  "optionA": "political and security grouping",
+  "optionB": "trade union",
+  "optionC": "sports federation",
+  "optionD": "health agency",
+  "correctAnswer": "A",
+  "detailedExplanation": "The SCO, which includes China, Russia and Pakistan, focuses on regional security and cooperation.",
+  "difficulty": "medium",
+  "subject": "world-current-affairs",
+  "chapter": "world-current-affairs-world-economy-trade",
+  "topic": "t-365",
+  "subtopic": "fundamentals",
+  "exam": [
+   "css",
+   "pms",
+   "fpsc",
+   "nts"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "current-affairs",
+   "sco"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ }
+]

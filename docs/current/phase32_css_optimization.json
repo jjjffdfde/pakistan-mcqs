@@ -1,0 +1,25 @@
+{
+  "module": "P32",
+  "file": "assets/css/style.css",
+  "size_bytes": 21100,
+  "analysis": {
+    "duplicate_selectors": 0,
+    "media_queries": 3,
+    "css_variables": "present (:root tokens)",
+    "color_scheme": "light + dark via [data-theme]"
+  },
+  "issue_on_mobile": {
+    "target": "#recentSearches",
+    "problem": "flex row without wrap; long unbroken recent-search chips overflow 375px viewport by 33px",
+    "fixed": "P32-OPT-002"
+  },
+  "other_findings": [
+    "no @keyframes animations (syncs with prefers-reduced-motion absence — advisory only)",
+    "no unused-stylesheet evidence (single stylesheet, 21 KB, all rules referenced by sampled views)"
+  ],
+  "status": "OPTIMIZED",
+  "generated_at": "2026-08-11T03:48:45.675Z",
+  "tool": "scripts/phase32 (reporter)",
+  "methodology": "Headless Chrome 1366x900/390x844, localhost static server (no throttling, lab-grade), fresh profile per run; interactive runs perform scripted user flows; static runs measure clean initial load.",
+  "environment_note": "Lab-grade localhost measurements; values are real, not fabricated; production network conditions will differ. LCP/CLS/INP/TTFB captured via PerformanceObserver wrappers in test-only injection script. FCP not observable in this toolchain (paint entries not exposed) -> NOT_MEASURABLE."
+}

@@ -1,0 +1,32 @@
+{
+  "step": "statistics",
+  "generated_at": "2026-08-10T16:56:04",
+  "summary": {
+    "total_files": 2605,
+    "html_pages": 1129,
+    "subjects": 244,
+    "chapters": 876,
+    "api_routes": 24,
+    "deployed_site_kb": 351528,
+    "css_vars": 28,
+    "js_lines_app": 1967,
+    "js_lines_admin": 816,
+    "js_lines_ai": 784,
+    "css_lines": 412,
+    "server_lines": 379,
+    "json_ld_blocks": 1126,
+    "total_anchors": 13906,
+    "db_mcqs_active": 872621
+  },
+  "db": {
+    "mcqs": 872621,
+    "mcqs_active": 872621,
+    "subjects": 243,
+    "chapters": 884,
+    "topics": 1597,
+    "options": 3490484,
+    "bookmarks": 5,
+    "history": 54,
+    "categories": 17
+  }
+}

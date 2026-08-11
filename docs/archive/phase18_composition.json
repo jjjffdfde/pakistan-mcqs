@@ -1,0 +1,3125 @@
+{
+  "step": "offline_mcq_composition",
+  "generated_at": "2026-08-05T12:30:06",
+  "summary": {
+    "total_candidates": 107,
+    "blueprints_selected": 107,
+    "distractor_selections": 74,
+    "composed_candidates": 61,
+    "composition_method": "template_based_recomposition",
+    "all_in_approval_queue": true
+  },
+  "composed_candidates": [
+    {
+      "mcq_id": "gen-accounting-15190-8916-0001",
+      "subject_id": "accounting",
+      "chapter_id": "ch-accounting-accounting-deep-knowledge-bank",
+      "topic_id": "t-ch-accounting-accounting-deep-knowledge-bank-financial-statements",
+      "subtopic_id": null,
+      "concept_id": 15190,
+      "concept_name": "accounting",
+      "blueprint_id": 8916,
+      "blueprint_type": "general",
+      "learning_objective_id": 281985,
+      "learning_objective": "The double-entry system keeps debits equal to credits.",
+      "distractor_pool_id": 9634,
+      "pattern_id": "general-15190",
+      "exam_mapping_id": null,
+      "exam_id": "ppsc",
+      "question": "accounting - general",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "a larger credit",
+          "source": "distractor_pool_9634"
+        },
+        {
+          "label": "B",
+          "text": "a larger credit",
+          "source": "distractor_pool_9634"
+        },
+        {
+          "label": "C",
+          "text": "a larger credit",
+          "source": "distractor_pool_9634"
+        },
+        {
+          "label": "D",
+          "text": "a larger credit",
+          "source": "distractor_pool_9634"
+        }
+      ],
+      "difficulty": "medium",
+      "bloom_taxonomy": "Understand",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "a larger credit; no corresponding entry; a receipt; Rs 140,000",
+      "confidence_score": 0.27,
+      "generation_source": "phase18_offline_composition",
+      "status": "pending_review",
+      "qhash": "gen-accounting-15190-8916-0001-15190-8916",
+      "created_at": "2026-08-05T12:30:06",
+      "updated_at": "2026-08-05T12:30:06"
+    },
+    {
+      "mcq_id": "gen-accounting-15191-8915-0002",
+      "subject_id": "accounting",
+      "chapter_id": "ch-accounting-accounting-deep-knowledge-bank",
+      "topic_id": "t-ch-accounting-accounting-deep-knowledge-bank-financial-statements",
+      "subtopic_id": null,
+      "concept_id": 15191,
+      "concept_name": "depreciation",
+      "blueprint_id": 8915,
+      "blueprint_type": "general",
+      "learning_objective_id": 282107,
+      "learning_objective": "Depreciation allocates the cost of a fixed asset (e.g., machinery) over its useful life, matching expenses with the revenue the asset helps generate.",
+      "distractor_pool_id": 9521,
+      "pattern_id": "general-15191",
+      "exam_mapping_id": null,
+      "exam_id": "ppsc",
+      "question": "depreciation - general",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "Increase in asset value over time",
+          "source": "distractor_pool_9521"
+        },
+        {
+          "label": "B",
+          "text": "Increase in asset value over time",
+          "source": "distractor_pool_9521"
+        },
+        {
+          "label": "C",
+          "text": "Increase in asset value over time",
+          "source": "distractor_pool_9521"
+        },
+        {
+          "label": "D",
+          "text": "Increase in asset value over time",
+          "source": "distractor_pool_9521"
+        }
+      ],
+      "difficulty": "easy",
+      "bloom_taxonomy": "Recall",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "Increase in asset value over time; Loss of cash from operations; Market value of an asset; Rs 649,174",
+      "confidence_score": 0.44999999999999996,
+      "generation_source": "phase18_offline_composition",
+      "status": "pending_review",
+      "qhash": "gen-accounting-15191-8915-0002-15191-8915",
+      "created_at": "2026-08-05T12:30:06",
+      "updated_at": "2026-08-05T12:30:06"
+    },
+    {
+      "mcq_id": "gen-accounting-15192-8918-0003",
+      "subject_id": "accounting",
+      "chapter_id": "ch-accounting-accounting-deep-knowledge-bank",
+      "topic_id": "t-ch-accounting-accounting-deep-knowledge-bank-financial-statements",
+      "subtopic_id": null,
+      "concept_id": 15192,
+      "concept_name": "deep-kb",
+      "blueprint_id": 8918,
+      "blueprint_type": "general",
+      "learning_objective_id": 282144,
+      "learning_objective": "GAAP is the common set of accounting rules and standards used for financial reporting.",
+      "distractor_pool_id": 10409,
+      "pattern_id": "general-15192",
+      "exam_mapping_id": null,
+      "exam_id": "ppsc",
+      "question": "deep-kb - general",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "Rs 565,540",
+          "source": "distractor_pool_10409"
+        },
+        {
+          "label": "B",
+          "text": "Rs 565,540",
+          "source": "distractor_pool_10409"
+        },
+        {
+          "label": "C",
+          "text": "Rs 565,540",
+          "source": "distractor_pool_10409"
+        },
+        {
+          "label": "D",
+          "text": "Rs 565,540",
+          "source": "distractor_pool_10409"
+        }
+      ],
+      "difficulty": "easy",
+      "bloom_taxonomy": "Recall",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "Rs 565,540; Rs 613,976; Rs 1,157,307; Rs 353,053",
+      "confidence_score": 0.44999999999999996,
+      "generation_source": "phase18_offline_composition",
+      "status": "pending_review",
+      "qhash": "gen-accounting-15192-8918-0003-15192-8918",
+      "created_at": "2026-08-05T12:30:06",
+      "updated_at": "2026-08-05T12:30:06"
+    },
+    {
+      "mcq_id": "gen-accounting-15193-8919-0004",
+      "subject_id": "accounting",
+      "chapter_id": "ch-accounting-accounting-deep-knowledge-bank",
+      "topic_id": "t-ch-accounting-accounting-deep-knowledge-bank-financial-statements",
+      "subtopic_id": null,
+      "concept_id": 15193,
+      "concept_name": "ratios",
+      "blueprint_id": 8919,
+      "blueprint_type": "general",
+      "learning_objective_id": 282176,
+      "learning_objective": "GAAP is the common set of accounting rules and standards used for financial reporting.",
+      "distractor_pool_id": 10410,
+      "pattern_id": "general-15193",
+      "exam_mapping_id": null,
+      "exam_id": "ppsc",
+      "question": "ratios - general",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "Rs 3,557,680",
+          "source": "distractor_pool_10410"
+        },
+        {
+          "label": "B",
+          "text": "Rs 3,557,680",
+          "source": "distractor_pool_10410"
+        },
+        {
+          "label": "C",
+          "text": "Rs 3,557,680",
+          "source": "distractor_pool_10410"
+        },
+        {
+          "label": "D",
+          "text": "Rs 3,557,680",
+          "source": "distractor_pool_10410"
+        }
+      ],
+      "difficulty": "easy",
+      "bloom_taxonomy": "Recall",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "Rs 3,557,680; Rs 2,208,706; Rs 1,999,663; Rs 1,575,036",
+      "confidence_score": 0.44999999999999996,
+      "generation_source": "phase18_offline_composition",
+      "status": "pending_review",
+      "qhash": "gen-accounting-15193-8919-0004-15193-8919",
+      "created_at": "2026-08-05T12:30:06",
+      "updated_at": "2026-08-05T12:30:06"
+    },
+    {
+      "mcq_id": "gen-accounting-15194-8920-0005",
+      "subject_id": "accounting",
+      "chapter_id": "ch-accounting-accounting-deep-knowledge-bank",
+      "topic_id": "t-ch-accounting-accounting-deep-knowledge-bank-financial-statements",
+      "subtopic_id": null,
+      "concept_id": 15194,
+      "concept_name": "financial-statements",
+      "blueprint_id": 8920,
+      "blueprint_type": "general",
+      "learning_objective_id": 282208,
+      "learning_objective": "GAAP is the common set of accounting rules and standards used for financial reporting.",
+      "distractor_pool_id": 10411,
+      "pattern_id": "general-15194",
+      "exam_mapping_id": null,
+      "exam_id": "ppsc",
+      "question": "financial-statements - general",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "Rs 1,163,471",
+          "source": "distractor_pool_10411"
+        },
+        {
+          "label": "B",
+          "text": "Rs 1,163,471",
+          "source": "distractor_pool_10411"
+        },
+        {
+          "label": "C",
+          "text": "Rs 1,163,471",
+          "source": "distractor_pool_10411"
+        },
+        {
+          "label": "D",
+          "text": "Rs 1,163,471",
+          "source": "distractor_pool_10411"
+        }
+      ],
+      "difficulty": "easy",
+      "bloom_taxonomy": "Recall",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "Rs 1,163,471; Rs 3,612,983; Rs 2,156,576; Rs 373,827",
+      "confidence_score": 0.44999999999999996,
+      "generation_source": "phase18_offline_composition",
+      "status": "pending_review",
+      "qhash": "gen-accounting-15194-8920-0005-15194-8920",
+      "created_at": "2026-08-05T12:30:06",
+      "updated_at": "2026-08-05T12:30:06"
+    },
+    {
+      "mcq_id": "gen-accounting-15195-8914-0006",
+      "subject_id": "accounting",
+      "chapter_id": "ch-accounting-accounting-deep-knowledge-bank",
+      "topic_id": "t-ch-accounting-accounting-deep-knowledge-bank-financial-statements",
+      "subtopic_id": null,
+      "concept_id": 15195,
+      "concept_name": "financial statements",
+      "blueprint_id": 8914,
+      "blueprint_type": "calculation",
+      "learning_objective_id": 282240,
+      "learning_objective": "Accounts receivable is an asset shown on the balance sheet.",
+      "distractor_pool_id": 9520,
+      "pattern_id": "calculation-15195",
+      "exam_mapping_id": null,
+      "exam_id": "ppsc",
+      "question": "financial statements - calculation",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "Sales revenue",
+          "source": "distractor_pool_9520"
+        },
+        {
+          "label": "B",
+          "text": "Sales revenue",
+          "source": "distractor_pool_9520"
+        },
+        {
+          "label": "C",
+          "text": "Sales revenue",
+          "source": "distractor_pool_9520"
+        },
+        {
+          "label": "D",
+          "text": "Sales revenue",
+          "source": "distractor_pool_9520"
+        }
+      ],
+      "difficulty": "easy",
+      "bloom_taxonomy": "Apply",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "Sales revenue; Rent expense; Service income; Net profit",
+      "confidence_score": 0.6,
+      "generation_source": "phase18_offline_composition",
+      "status": "pending_review",
+      "qhash": "gen-accounting-15195-8914-0006-15195-8914",
+      "created_at": "2026-08-05T12:30:06",
+      "updated_at": "2026-08-05T12:30:06"
+    },
+    {
+      "mcq_id": "gen-accounting-15196-8921-0007",
+      "subject_id": "accounting",
+      "chapter_id": "ch-accounting-accounting-deep-knowledge-bank",
+      "topic_id": "t-ch-accounting-accounting-deep-knowledge-bank-accounting-principles",
+      "subtopic_id": null,
+      "concept_id": 15196,
+      "concept_name": "Accounting Principles",
+      "blueprint_id": 8921,
+      "blueprint_type": "general",
+      "learning_objective_id": 282268,
+      "learning_objective": "Expenses are recorded in the same period as the revenue they helped generate.",
+      "distractor_pool_id": 10412,
+      "pattern_id": "general-15196",
+      "exam_mapping_id": null,
+      "exam_id": "ppsc",
+      "question": "Accounting Principles - general",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "Record assets at their original purchase cost",
+          "source": "distractor_pool_10412"
+        },
+        {
+          "label": "B",
+          "text": "Record assets at their original purchase cost",
+          "source": "distractor_pool_10412"
+        },
+        {
+          "label": "C",
+          "text": "Record assets at their original purchase cost",
+          "source": "distractor_pool_10412"
+        },
+        {
+          "label": "D",
+          "text": "Record assets at their original purchase cost",
+          "source": "distractor_pool_10412"
+        }
+      ],
+      "difficulty": "medium",
+      "bloom_taxonomy": "Apply",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "Record assets at their original purchase cost; The business is separate from its owners; Do not overstate assets or income; Assume the business will continue indefinitely",
+      "confidence_score": 0.522,
+      "generation_source": "phase18_offline_composition",
+      "status": "pending_review",
+      "qhash": "gen-accounting-15196-8921-0007-15196-8921",
+      "created_at": "2026-08-05T12:30:06",
+      "updated_at": "2026-08-05T12:30:06"
+    },
+    {
+      "mcq_id": "gen-accounting-15197-8913-0008",
+      "subject_id": "accounting",
+      "chapter_id": "ch-accoun-accounting-principles",
+      "topic_id": "t-ch-accoun-accounting-principles-basics",
+      "subtopic_id": null,
+      "concept_id": 15197,
+      "concept_name": "basics",
+      "blueprint_id": 8913,
+      "blueprint_type": "definition",
+      "learning_objective_id": 282292,
+      "learning_objective": "The fundamental accounting equation is Assets = Liabilities + Owner's Equity.",
+      "distractor_pool_id": 9519,
+      "pattern_id": "definition-15197",
+      "exam_mapping_id": null,
+      "exam_id": "ppsc",
+      "question": "basics - definition",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "Assets = Liabilities - Owner's Equity",
+          "source": "distractor_pool_9519"
+        },
+        {
+          "label": "B",
+          "text": "Assets = Liabilities - Owner's Equity",
+          "source": "distractor_pool_9519"
+        },
+        {
+          "label": "C",
+          "text": "Assets = Liabilities - Owner's Equity",
+          "source": "distractor_pool_9519"
+        },
+        {
+          "label": "D",
+          "text": "Assets = Liabilities - Owner's Equity",
+          "source": "distractor_pool_9519"
+        }
+      ],
+      "difficulty": "medium",
+      "bloom_taxonomy": "Understand",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "Assets = Liabilities - Owner's Equity; Assets + Liabilities = Owner's Equity; Liabilities = Assets + Owner's Equity; One account",
+      "confidence_score": 0.6,
+      "generation_source": "phase18_offline_composition",
+      "status": "pending_review",
+      "qhash": "gen-accounting-15197-8913-0008-15197-8913",
+      "created_at": "2026-08-05T12:30:06",
+      "updated_at": "2026-08-05T12:30:06"
+    },
+    {
+      "mcq_id": "gen-agriculture-15199-8923-0010",
+      "subject_id": "agriculture",
+      "chapter_id": "ch-agriculture-agriculture-deep-knowledge-bank",
+      "topic_id": "t-ch-agriculture-agriculture-deep-knowledge-bank-soils-and-agronomy",
+      "subtopic_id": null,
+      "concept_id": 15199,
+      "concept_name": "Agriculture",
+      "blueprint_id": 8923,
+      "blueprint_type": "general",
+      "learning_objective_id": 282405,
+      "learning_objective": "Wheat is the main food grain.",
+      "distractor_pool_id": 9778,
+      "pattern_id": "general-15199",
+      "exam_mapping_id": null,
+      "exam_id": "ppsc",
+      "question": "Agriculture - general",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "a chemical controlling pests",
+          "source": "distractor_pool_9778"
+        },
+        {
+          "label": "B",
+          "text": "a chemical controlling pests",
+          "source": "distractor_pool_9778"
+        },
+        {
+          "label": "C",
+          "text": "a chemical controlling pests",
+          "source": "distractor_pool_9778"
+        },
+        {
+          "label": "D",
+          "text": "a chemical controlling pests",
+          "source": "distractor_pool_9778"
+        }
+      ],
+      "difficulty": "medium",
+      "bloom_taxonomy": "Understand",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "a chemical controlling pests; supplying water to crops; alternating crops on land; a farm machine for field work",
+      "confidence_score": 0.26775,
+      "generation_source": "phase18_offline_composition",
+      "status": "pending_review",
+      "qhash": "gen-agriculture-15199-8923-0010-15199-8923",
+      "created_at": "2026-08-05T12:30:06",
+      "updated_at": "2026-08-05T12:30:06"
+    },
+    {
+      "mcq_id": "gen-agriculture-15200-8928-0011",
+      "subject_id": "agriculture",
+      "chapter_id": "ch-agriculture-agriculture-deep-knowledge-bank",
+      "topic_id": "t-ch-agriculture-agriculture-deep-knowledge-bank-soils-and-agronomy",
+      "subtopic_id": null,
+      "concept_id": 15200,
+      "concept_name": "livestock",
+      "blueprint_id": 8928,
+      "blueprint_type": "general",
+      "learning_objective_id": 282506,
+      "learning_objective": "Wheat is the staple food crop of Pakistan, grown mainly in Punjab.",
+      "distractor_pool_id": 10455,
+      "pattern_id": "general-15200",
+      "exam_mapping_id": null,
+      "exam_id": "ppsc",
+      "question": "livestock - general",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "1,793 kg/ha",
+          "source": "distractor_pool_10455"
+        },
+        {
+          "label": "B",
+          "text": "1,793 kg/ha",
+          "source": "distractor_pool_10455"
+        },
+        {
+          "label": "C",
+          "text": "1,793 kg/ha",
+          "source": "distractor_pool_10455"
+        },
+        {
+          "label": "D",
+          "text": "1,793 kg/ha",
+          "source": "distractor_pool_10455"
+        }
+      ],
+      "difficulty": "easy",
+      "bloom_taxonomy": "Recall",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "1,793 kg/ha; 0.28 kg/ha; 7,172 kg/ha; 1,751 kg/ha",
+      "confidence_score": 0.44999999999999996,
+      "generation_source": "phase18_offline_composition",
+      "status": "pending_review",
+      "qhash": "gen-agriculture-15200-8928-0011-15200-8928",
+      "created_at": "2026-08-05T12:30:06",
+      "updated_at": "2026-08-05T12:30:06"
+    },
+    {
+      "mcq_id": "gen-agriculture-15201-8922-0012",
+      "subject_id": "agriculture",
+      "chapter_id": "ch-agriculture-agriculture-deep-knowledge-bank",
+      "topic_id": "t-ch-agriculture-agriculture-deep-knowledge-bank-soils-and-agronomy",
+      "subtopic_id": null,
+      "concept_id": 15201,
+      "concept_name": "soils",
+      "blueprint_id": 8922,
+      "blueprint_type": "general",
+      "learning_objective_id": 282538,
+      "learning_objective": "Indus alluvial soils, rich and replenished by river silt, are highly fertile and ideal for wheat, cotton, sugarcane and rice cultivation.",
+      "distractor_pool_id": 9530,
+      "pattern_id": "general-15201",
+      "exam_mapping_id": null,
+      "exam_id": "ppsc",
+      "question": "soils - general",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "Coffee",
+          "source": "distractor_pool_9530"
+        },
+        {
+          "label": "B",
+          "text": "Coffee",
+          "source": "distractor_pool_9530"
+        },
+        {
+          "label": "C",
+          "text": "Coffee",
+          "source": "distractor_pool_9530"
+        },
+        {
+          "label": "D",
+          "text": "Coffee",
+          "source": "distractor_pool_9530"
+        }
+      ],
+      "difficulty": "easy",
+      "bloom_taxonomy": "Recall",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "Coffee; Rubber; 1,980 kg/ha; 7,918 kg/ha",
+      "confidence_score": 0.44625,
+      "generation_source": "phase18_offline_composition",
+      "status": "pending_review",
+      "qhash": "gen-agriculture-15201-8922-0012-15201-8922",
+      "created_at": "2026-08-05T12:30:06",
+      "updated_at": "2026-08-05T12:30:06"
+    },
+    {
+      "mcq_id": "gen-agriculture-15202-8926-0013",
+      "subject_id": "agriculture",
+      "chapter_id": "ch-agriculture-agriculture-deep-knowledge-bank",
+      "topic_id": "t-ch-agriculture-agriculture-deep-knowledge-bank-soils-and-agronomy",
+      "subtopic_id": null,
+      "concept_id": 15202,
+      "concept_name": "deep-kb",
+      "blueprint_id": 8926,
+      "blueprint_type": "general",
+      "learning_objective_id": 282575,
+      "learning_objective": "Wheat is the staple food crop of Pakistan, grown mainly in Punjab.",
+      "distractor_pool_id": 10453,
+      "pattern_id": "general-15202",
+      "exam_mapping_id": null,
+      "exam_id": "ppsc",
+      "question": "deep-kb - general",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "1,997 kg/ha",
+          "source": "distractor_pool_10453"
+        },
+        {
+          "label": "B",
+          "text": "1,997 kg/ha",
+          "source": "distractor_pool_10453"
+        },
+        {
+          "label": "C",
+          "text": "1,997 kg/ha",
+          "source": "distractor_pool_10453"
+        },
+        {
+          "label": "D",
+          "text": "1,997 kg/ha",
+          "source": "distractor_pool_10453"
+        }
+      ],
+      "difficulty": "easy",
+      "bloom_taxonomy": "Recall",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "1,997 kg/ha; 7,986 kg/ha; 0.25 kg/ha; 1,392 kg/ha",
+      "confidence_score": 0.44999999999999996,
+      "generation_source": "phase18_offline_composition",
+      "status": "pending_review",
+      "qhash": "gen-agriculture-15202-8926-0013-15202-8926",
+      "created_at": "2026-08-05T12:30:06",
+      "updated_at": "2026-08-05T12:30:06"
+    },
+    {
+      "mcq_id": "gen-agriculture-15203-8927-0014",
+      "subject_id": "agriculture",
+      "chapter_id": "ch-agriculture-agriculture-deep-knowledge-bank",
+      "topic_id": "t-ch-agriculture-agriculture-deep-knowledge-bank-soils-and-agronomy",
+      "subtopic_id": null,
+      "concept_id": 15203,
+      "concept_name": "crops",
+      "blueprint_id": 8927,
+      "blueprint_type": "general",
+      "learning_objective_id": 282607,
+      "learning_objective": "Wheat is the staple food crop of Pakistan, grown mainly in Punjab.",
+      "distractor_pool_id": 10454,
+      "pattern_id": "general-15203",
+      "exam_mapping_id": null,
+      "exam_id": "ppsc",
+      "question": "crops - general",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "7,036 kg/ha",
+          "source": "distractor_pool_10454"
+        },
+        {
+          "label": "B",
+          "text": "7,036 kg/ha",
+          "source": "distractor_pool_10454"
+        },
+        {
+          "label": "C",
+          "text": "7,036 kg/ha",
+          "source": "distractor_pool_10454"
+        },
+        {
+          "label": "D",
+          "text": "7,036 kg/ha",
+          "source": "distractor_pool_10454"
+        }
+      ],
+      "difficulty": "easy",
+      "bloom_taxonomy": "Recall",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "7,036 kg/ha; 1,759 kg/ha; 0.28 kg/ha; 1,401 kg/ha",
+      "confidence_score": 0.44999999999999996,
+      "generation_source": "phase18_offline_composition",
+      "status": "pending_review",
+      "qhash": "gen-agriculture-15203-8927-0014-15203-8927",
+      "created_at": "2026-08-05T12:30:06",
+      "updated_at": "2026-08-05T12:30:06"
+    },
+    {
+      "mcq_id": "gen-agriculture-15204-8929-0015",
+      "subject_id": "agriculture",
+      "chapter_id": "ch-agriculture-agriculture-deep-knowledge-bank",
+      "topic_id": "t-ch-agriculture-agriculture-deep-knowledge-bank-soils-and-agronomy",
+      "subtopic_id": null,
+      "concept_id": 15204,
+      "concept_name": "Soils and Agronomy",
+      "blueprint_id": 8929,
+      "blueprint_type": "general",
+      "learning_objective_id": 282639,
+      "learning_objective": "Indus plains are alluvial; barani lands have loess and sandy soils.",
+      "distractor_pool_id": 10456,
+      "pattern_id": "general-15204",
+      "exam_mapping_id": null,
+      "exam_id": "ppsc",
+      "question": "Soils and Agronomy - general",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "0.27 kg/ha",
+          "source": "distractor_pool_10456"
+        },
+        {
+          "label": "B",
+          "text": "0.27 kg/ha",
+          "source": "distractor_pool_10456"
+        },
+        {
+          "label": "C",
+          "text": "0.27 kg/ha",
+          "source": "distractor_pool_10456"
+        },
+        {
+          "label": "D",
+          "text": "0.27 kg/ha",
+          "source": "distractor_pool_10456"
+        }
+      ],
+      "difficulty": "easy",
+      "bloom_taxonomy": "Apply",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "0.27 kg/ha; 1,869 kg/ha; 7,476 kg/ha; 947 kg/ha",
+      "confidence_score": 0.6,
+      "generation_source": "phase18_offline_composition",
+      "status": "pending_review",
+      "qhash": "gen-agriculture-15204-8929-0015-15204-8929",
+      "created_at": "2026-08-05T12:30:06",
+      "updated_at": "2026-08-05T12:30:06"
+    },
+    {
+      "mcq_id": "gen-ai-15207-8931-0018",
+      "subject_id": "ai",
+      "chapter_id": "ch-ai-artificial-intelligence-deep-knowledge-b",
+      "topic_id": "t-ch-ai-artificial-intelligence-deep-knowledge-b-machine-learning-mode",
+      "subtopic_id": null,
+      "concept_id": 15207,
+      "concept_name": "ai",
+      "blueprint_id": 8931,
+      "blueprint_type": "general",
+      "learning_objective_id": 282740,
+      "learning_objective": "Machine learning builds models that learn patterns and make predictions from data without explicit programming for each case - the core of modern AI systems.",
+      "distractor_pool_id": 9548,
+      "pattern_id": "general-15207",
+      "exam_mapping_id": null,
+      "exam_id": "ppsc",
+      "question": "ai - general",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "Hard-coded if-else rules",
+          "source": "distractor_pool_9548"
+        },
+        {
+          "label": "B",
+          "text": "Hard-coded if-else rules",
+          "source": "distractor_pool_9548"
+        },
+        {
+          "label": "C",
+          "text": "Hard-coded if-else rules",
+          "source": "distractor_pool_9548"
+        },
+        {
+          "label": "D",
+          "text": "Hard-coded if-else rules",
+          "source": "distractor_pool_9548"
+        }
+      ],
+      "difficulty": "medium",
+      "bloom_taxonomy": "Understand",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "Hard-coded if-else rules; Writing macros in spreadsheets; Manual data entry; 177.3%",
+      "confidence_score": 0.21735,
+      "generation_source": "phase18_offline_composition",
+      "status": "pending_review",
+      "qhash": "gen-ai-15207-8931-0018-15207-8931",
+      "created_at": "2026-08-05T12:30:06",
+      "updated_at": "2026-08-05T12:30:06"
+    },
+    {
+      "mcq_id": "gen-ai-15208-8933-0019",
+      "subject_id": "ai",
+      "chapter_id": "ch-ai-artificial-intelligence-deep-knowledge-b",
+      "topic_id": "t-ch-ai-artificial-intelligence-deep-knowledge-b-machine-learning-mode",
+      "subtopic_id": null,
+      "concept_id": 15208,
+      "concept_name": "Artificial Intelligence",
+      "blueprint_id": 8933,
+      "blueprint_type": "general",
+      "learning_objective_id": 282857,
+      "learning_objective": "AI systems learn, reason and perceive to solve problems.",
+      "distractor_pool_id": 10099,
+      "pattern_id": "general-15208",
+      "exam_mapping_id": null,
+      "exam_id": "ppsc",
+      "question": "Artificial Intelligence - general",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "a test of machine conversational intelligence",
+          "source": "distractor_pool_10099"
+        },
+        {
+          "label": "B",
+          "text": "a test of machine conversational intelligence",
+          "source": "distractor_pool_10099"
+        },
+        {
+          "label": "C",
+          "text": "a test of machine conversational intelligence",
+          "source": "distractor_pool_10099"
+        },
+        {
+          "label": "D",
+          "text": "a test of machine conversational intelligence",
+          "source": "distractor_pool_10099"
+        }
+      ],
+      "difficulty": "medium",
+      "bloom_taxonomy": "Understand",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "a test of machine conversational intelligence; software that acts to achieve goals; computers understanding human language; machines performing tasks that need human intelligence",
+      "confidence_score": 0.27,
+      "generation_source": "phase18_offline_composition",
+      "status": "pending_review",
+      "qhash": "gen-ai-15208-8933-0019-15208-8933",
+      "created_at": "2026-08-05T12:30:06",
+      "updated_at": "2026-08-05T12:30:06"
+    },
+    {
+      "mcq_id": "gen-ai-15209-8936-0020",
+      "subject_id": "ai",
+      "chapter_id": "ch-ai-artificial-intelligence-deep-knowledge-b",
+      "topic_id": "t-ch-ai-artificial-intelligence-deep-knowledge-b-machine-learning-mode",
+      "subtopic_id": null,
+      "concept_id": 15209,
+      "concept_name": "deep-kb",
+      "blueprint_id": 8936,
+      "blueprint_type": "general",
+      "learning_objective_id": 282969,
+      "learning_objective": "McCarthy coined 'artificial intelligence' at the 1956 Dartmouth workshop.",
+      "distractor_pool_id": 10435,
+      "pattern_id": "general-15209",
+      "exam_mapping_id": null,
+      "exam_id": "ppsc",
+      "question": "deep-kb - general",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "100.0%",
+          "source": "distractor_pool_10435"
+        },
+        {
+          "label": "B",
+          "text": "100.0%",
+          "source": "distractor_pool_10435"
+        },
+        {
+          "label": "C",
+          "text": "100.0%",
+          "source": "distractor_pool_10435"
+        },
+        {
+          "label": "D",
+          "text": "100.0%",
+          "source": "distractor_pool_10435"
+        }
+      ],
+      "difficulty": "easy",
+      "bloom_taxonomy": "Recall",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "100.0%; 189.1%; 195.9%; 180.2%",
+      "confidence_score": 0.35624999999999996,
+      "generation_source": "phase18_offline_composition",
+      "status": "pending_review",
+      "qhash": "gen-ai-15209-8936-0020-15209-8936",
+      "created_at": "2026-08-05T12:30:06",
+      "updated_at": "2026-08-05T12:30:06"
+    },
+    {
+      "mcq_id": "gen-ai-15210-8937-0021",
+      "subject_id": "ai",
+      "chapter_id": "ch-ai-artificial-intelligence-deep-knowledge-b",
+      "topic_id": "t-ch-ai-artificial-intelligence-deep-knowledge-b-machine-learning-mode",
+      "subtopic_id": null,
+      "concept_id": 15210,
+      "concept_name": "machine-learning",
+      "blueprint_id": 8937,
+      "blueprint_type": "general",
+      "learning_objective_id": 283001,
+      "learning_objective": "McCarthy coined 'artificial intelligence' at the 1956 Dartmouth workshop.",
+      "distractor_pool_id": 10436,
+      "pattern_id": "general-15210",
+      "exam_mapping_id": null,
+      "exam_id": "ppsc",
+      "question": "machine-learning - general",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "190.8%",
+          "source": "distractor_pool_10436"
+        },
+        {
+          "label": "B",
+          "text": "190.8%",
+          "source": "distractor_pool_10436"
+        },
+        {
+          "label": "C",
+          "text": "190.8%",
+          "source": "distractor_pool_10436"
+        },
+        {
+          "label": "D",
+          "text": "190.8%",
+          "source": "distractor_pool_10436"
+        }
+      ],
+      "difficulty": "easy",
+      "bloom_taxonomy": "Recall",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "190.8%; 177.8%; 184.3%; 180.0%",
+      "confidence_score": 0.35324999999999995,
+      "generation_source": "phase18_offline_composition",
+      "status": "pending_review",
+      "qhash": "gen-ai-15210-8937-0021-15210-8937",
+      "created_at": "2026-08-05T12:30:06",
+      "updated_at": "2026-08-05T12:30:06"
+    },
+    {
+      "mcq_id": "gen-ai-15211-8938-0022",
+      "subject_id": "ai",
+      "chapter_id": "ch-ai-artificial-intelligence-deep-knowledge-b",
+      "topic_id": "t-ch-ai-artificial-intelligence-deep-knowledge-b-machine-learning-mode",
+      "subtopic_id": null,
+      "concept_id": 15211,
+      "concept_name": "neural-networks",
+      "blueprint_id": 8938,
+      "blueprint_type": "general",
+      "learning_objective_id": 283033,
+      "learning_objective": "McCarthy coined 'artificial intelligence' at the 1956 Dartmouth workshop.",
+      "distractor_pool_id": 10437,
+      "pattern_id": "general-15211",
+      "exam_mapping_id": null,
+      "exam_id": "ppsc",
+      "question": "neural-networks - general",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "195.8%",
+          "source": "distractor_pool_10437"
+        },
+        {
+          "label": "B",
+          "text": "195.8%",
+          "source": "distractor_pool_10437"
+        },
+        {
+          "label": "C",
+          "text": "195.8%",
+          "source": "distractor_pool_10437"
+        },
+        {
+          "label": "D",
+          "text": "195.8%",
+          "source": "distractor_pool_10437"
+        }
+      ],
+      "difficulty": "easy",
+      "bloom_taxonomy": "Recall",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "195.8%; 100.0%; 164.8%; 180.1%",
+      "confidence_score": 0.36224999999999996,
+      "generation_source": "phase18_offline_composition",
+      "status": "pending_review",
+      "qhash": "gen-ai-15211-8938-0022-15211-8938",
+      "created_at": "2026-08-05T12:30:06",
+      "updated_at": "2026-08-05T12:30:06"
+    },
+    {
+      "mcq_id": "gen-ai-15212-8939-0023",
+      "subject_id": "ai",
+      "chapter_id": "ch-ai-artificial-intelligence-deep-knowledge-b",
+      "topic_id": "t-ch-ai-artificial-intelligence-deep-knowledge-b-machine-learning-mode",
+      "subtopic_id": null,
+      "concept_id": 15212,
+      "concept_name": "metrics",
+      "blueprint_id": 8939,
+      "blueprint_type": "general",
+      "learning_objective_id": 283065,
+      "learning_objective": "McCarthy coined 'artificial intelligence' at the 1956 Dartmouth workshop.",
+      "distractor_pool_id": 10438,
+      "pattern_id": "general-15212",
+      "exam_mapping_id": null,
+      "exam_id": "ppsc",
+      "question": "metrics - general",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "192.2%",
+          "source": "distractor_pool_10438"
+        },
+        {
+          "label": "B",
+          "text": "192.2%",
+          "source": "distractor_pool_10438"
+        },
+        {
+          "label": "C",
+          "text": "192.2%",
+          "source": "distractor_pool_10438"
+        },
+        {
+          "label": "D",
+          "text": "192.2%",
+          "source": "distractor_pool_10438"
+        }
+      ],
+      "difficulty": "easy",
+      "bloom_taxonomy": "Recall",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "192.2%; 179.6%; 166.8%; 177.6%",
+      "confidence_score": 0.35100000000000003,
+      "generation_source": "phase18_offline_composition",
+      "status": "pending_review",
+      "qhash": "gen-ai-15212-8939-0023-15212-8939",
+      "created_at": "2026-08-05T12:30:06",
+      "updated_at": "2026-08-05T12:30:06"
+    },
+    {
+      "mcq_id": "gen-ai-15213-8940-0024",
+      "subject_id": "ai",
+      "chapter_id": "ch-ai-artificial-intelligence-deep-knowledge-b",
+      "topic_id": "t-ch-ai-artificial-intelligence-deep-knowledge-b-machine-learning-mode",
+      "subtopic_id": null,
+      "concept_id": 15213,
+      "concept_name": "Machine Learning Models",
+      "blueprint_id": 8940,
+      "blueprint_type": "general",
+      "learning_objective_id": 283097,
+      "learning_objective": "Linear regression fits a line to predict continuous targets like prices.",
+      "distractor_pool_id": 10439,
+      "pattern_id": "general-15213",
+      "exam_mapping_id": null,
+      "exam_id": "ppsc",
+      "question": "Machine Learning Models - general",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "The data used to fit the model",
+          "source": "distractor_pool_10439"
+        },
+        {
+          "label": "B",
+          "text": "The data used to fit the model",
+          "source": "distractor_pool_10439"
+        },
+        {
+          "label": "C",
+          "text": "The data used to fit the model",
+          "source": "distractor_pool_10439"
+        },
+        {
+          "label": "D",
+          "text": "The data used to fit the model",
+          "source": "distractor_pool_10439"
+        }
+      ],
+      "difficulty": "easy",
+      "bloom_taxonomy": "Apply",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "The data used to fit the model; Random forest; Logistic regression; The model is too simple to capture the pattern",
+      "confidence_score": 0.5,
+      "generation_source": "phase18_offline_composition",
+      "status": "pending_review",
+      "qhash": "gen-ai-15213-8940-0024-15213-8940",
+      "created_at": "2026-08-05T12:30:06",
+      "updated_at": "2026-08-05T12:30:06"
+    },
+    {
+      "mcq_id": "gen-ai-15214-8930-0025",
+      "subject_id": "ai",
+      "chapter_id": "ch-ai-artificial-intelligence-deep-knowledge-b",
+      "topic_id": "t-ch-ai-artificial-intelligence-deep-knowledge-b-ai-basics",
+      "subtopic_id": null,
+      "concept_id": 15214,
+      "concept_name": "ai basics",
+      "blueprint_id": 8930,
+      "blueprint_type": "definition",
+      "learning_objective_id": 283113,
+      "learning_objective": "In the Turing Test (1950), an interrogator chats with a machine and a human; if the machine's responses are indistinguishable from the human's, it passes.",
+      "distractor_pool_id": 9547,
+      "pattern_id": "definition-15214",
+      "exam_mapping_id": null,
+      "exam_id": "ppsc",
+      "question": "ai basics - definition",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "Loebner Test",
+          "source": "distractor_pool_9547"
+        },
+        {
+          "label": "B",
+          "text": "Loebner Test",
+          "source": "distractor_pool_9547"
+        },
+        {
+          "label": "C",
+          "text": "Loebner Test",
+          "source": "distractor_pool_9547"
+        },
+        {
+          "label": "D",
+          "text": "Loebner Test",
+          "source": "distractor_pool_9547"
+        }
+      ],
+      "difficulty": "easy",
+      "bloom_taxonomy": "Recall",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "Loebner Test; Captcha Test; IQ Test",
+      "confidence_score": 0.6,
+      "generation_source": "phase18_offline_composition",
+      "status": "pending_review",
+      "qhash": "gen-ai-15214-8930-0025-15214-8930",
+      "created_at": "2026-08-05T12:30:06",
+      "updated_at": "2026-08-05T12:30:06"
+    },
+    {
+      "mcq_id": "gen-ai-15215-8932-0026",
+      "subject_id": "ai",
+      "chapter_id": "ch-ai-artificial-intelligence-deep-knowledge-b",
+      "topic_id": "t-ch-ai-artificial-intelligence-deep-knowledge-b-ai-applications",
+      "subtopic_id": null,
+      "concept_id": 15215,
+      "concept_name": "ai applications",
+      "blueprint_id": 8932,
+      "blueprint_type": "definition",
+      "learning_objective_id": 283134,
+      "learning_objective": "NLP handles text and speech - translation, chatbots, sentiment analysis and large language models.",
+      "distractor_pool_id": 9549,
+      "pattern_id": "definition-15215",
+      "exam_mapping_id": null,
+      "exam_id": "ppsc",
+      "question": "ai applications - definition",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "Computer vision",
+          "source": "distractor_pool_9549"
+        },
+        {
+          "label": "B",
+          "text": "Computer vision",
+          "source": "distractor_pool_9549"
+        },
+        {
+          "label": "C",
+          "text": "Computer vision",
+          "source": "distractor_pool_9549"
+        },
+        {
+          "label": "D",
+          "text": "Computer vision",
+          "source": "distractor_pool_9549"
+        }
+      ],
+      "difficulty": "easy",
+      "bloom_taxonomy": "Recall",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "Computer vision; Robotics; Data mining; Converting spoken words into text",
+      "confidence_score": 0.6,
+      "generation_source": "phase18_offline_composition",
+      "status": "pending_review",
+      "qhash": "gen-ai-15215-8932-0026-15215-8932",
+      "created_at": "2026-08-05T12:30:06",
+      "updated_at": "2026-08-05T12:30:06"
+    },
+    {
+      "mcq_id": "gen-ajkpsc-15218-8941-0029",
+      "subject_id": "ajkpsc",
+      "chapter_id": "ch-ajkpsc-azad-kashmir-provincial-knowledge-ajkpsc",
+      "topic_id": "t-ch-ajkpsc-azad-kashmir-provincial-knowledge-ajkpsc-ajk-geography",
+      "subtopic_id": null,
+      "concept_id": 15218,
+      "concept_name": "AJKPSC (Azad Kashmir Public Service Commission)",
+      "blueprint_id": 8941,
+      "blueprint_type": "general",
+      "learning_objective_id": 283236,
+      "learning_objective": "AJKPSC stands for Azad Kashmir Public Service Commission exams.",
+      "distractor_pool_id": 10030,
+      "pattern_id": "general-15218",
+      "exam_mapping_id": null,
+      "exam_id": "ajkpsc",
+      "question": "AJKPSC (Azad Kashmir Public Service Commission) - general",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "academic and intelligence tests",
+          "source": "distractor_pool_10030"
+        },
+        {
+          "label": "B",
+          "text": "academic and intelligence tests",
+          "source": "distractor_pool_10030"
+        },
+        {
+          "label": "C",
+          "text": "academic and intelligence tests",
+          "source": "distractor_pool_10030"
+        },
+        {
+          "label": "D",
+          "text": "academic and intelligence tests",
+          "source": "distractor_pool_10030"
+        }
+      ],
+      "difficulty": "medium",
+      "bloom_taxonomy": "Understand",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "academic and intelligence tests; AJKPSC recruits AJK government officers; Pakistan Testing Service recruitment tests; Azad Kashmir Public Service Commission exams",
+      "confidence_score": 0.555,
+      "generation_source": "phase18_offline_composition",
+      "status": "pending_review",
+      "qhash": "gen-ajkpsc-15218-8941-0029-15218-8941",
+      "created_at": "2026-08-05T12:30:06",
+      "updated_at": "2026-08-05T12:30:06"
+    },
+    {
+      "mcq_id": "gen-ajkpsc-15222-8947-0033",
+      "subject_id": "ajkpsc",
+      "chapter_id": "ch-ajkpsc-azad-kashmir-provincial-knowledge-ajkpsc",
+      "topic_id": "t-ch-ajkpsc-azad-kashmir-provincial-knowledge-ajkpsc-ajk-history-and-p",
+      "subtopic_id": null,
+      "concept_id": 15222,
+      "concept_name": "AJK History and Politics",
+      "blueprint_id": 8947,
+      "blueprint_type": "general",
+      "learning_objective_id": 283350,
+      "learning_objective": "The Poonch rebellion of 1947 against the Dogra Maharaja triggered the tribal intervention and the Kashmir dispute.",
+      "distractor_pool_id": 10571,
+      "pattern_id": "general-15222",
+      "exam_mapping_id": null,
+      "exam_id": "ajkpsc",
+      "question": "AJK History and Politics - general",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "Sardar Muhammad Ibrahim Khan",
+          "source": "distractor_pool_10571"
+        },
+        {
+          "label": "B",
+          "text": "Sardar Muhammad Ibrahim Khan",
+          "source": "distractor_pool_10571"
+        },
+        {
+          "label": "C",
+          "text": "Sardar Muhammad Ibrahim Khan",
+          "source": "distractor_pool_10571"
+        },
+        {
+          "label": "D",
+          "text": "Sardar Muhammad Ibrahim Khan",
+          "source": "distractor_pool_10571"
+        }
+      ],
+      "difficulty": "medium",
+      "bloom_taxonomy": "Understand",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "Sardar Muhammad Ibrahim Khan; Pir Panjal; Kashmiri; Coniferous forest",
+      "confidence_score": 0.55,
+      "generation_source": "phase18_offline_composition",
+      "status": "pending_review",
+      "qhash": "gen-ajkpsc-15222-8947-0033-15222-8947",
+      "created_at": "2026-08-05T12:30:06",
+      "updated_at": "2026-08-05T12:30:06"
+    },
+    {
+      "mcq_id": "gen-ajkpsc-15223-8948-0034",
+      "subject_id": "ajkpsc",
+      "chapter_id": "ch-ajkpsc-azad-kashmir-provincial-knowledge-ajkpsc",
+      "topic_id": "t-ch-ajkpsc-azad-kashmir-provincial-knowledge-ajkpsc-ajk-culture-and-e",
+      "subtopic_id": null,
+      "concept_id": 15223,
+      "concept_name": "AJK Culture and Economy",
+      "blueprint_id": 8948,
+      "blueprint_type": "general",
+      "learning_objective_id": 283358,
+      "learning_objective": "Pahari, also called Pothwari, is the main language of Mirpur, Kotli, Bhimber and Poonch districts of AJK.",
+      "distractor_pool_id": 10572,
+      "pattern_id": "general-15223",
+      "exam_mapping_id": null,
+      "exam_id": "ajkpsc",
+      "question": "AJK Culture and Economy - general",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "Toli Pir",
+          "source": "distractor_pool_10572"
+        },
+        {
+          "label": "B",
+          "text": "Toli Pir",
+          "source": "distractor_pool_10572"
+        },
+        {
+          "label": "C",
+          "text": "Toli Pir",
+          "source": "distractor_pool_10572"
+        },
+        {
+          "label": "D",
+          "text": "Toli Pir",
+          "source": "distractor_pool_10572"
+        }
+      ],
+      "difficulty": "medium",
+      "bloom_taxonomy": "Understand",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "Toli Pir; The First Kashmir War; Patti (woven shawls); Pir Panjal",
+      "confidence_score": 0.564,
+      "generation_source": "phase18_offline_composition",
+      "status": "pending_review",
+      "qhash": "gen-ajkpsc-15223-8948-0034-15223-8948",
+      "created_at": "2026-08-05T12:30:06",
+      "updated_at": "2026-08-05T12:30:06"
+    },
+    {
+      "mcq_id": "gen-analytical-reasoning-15229-8952-0040",
+      "subject_id": "analytical-reasoning",
+      "chapter_id": "ch-analyt-reasoning-verbal-and-analytical",
+      "topic_id": "t-ch-analyt-reasoning-verbal-and-analytical-ranking-and-positioning",
+      "subtopic_id": null,
+      "concept_id": 15229,
+      "concept_name": "Analytical Reasoning",
+      "blueprint_id": 8952,
+      "blueprint_type": "general",
+      "learning_objective_id": 283461,
+      "learning_objective": "A writer works in a pen.",
+      "distractor_pool_id": 9833,
+      "pattern_id": "general-15229",
+      "exam_mapping_id": null,
+      "exam_id": "nts",
+      "question": "Analytical Reasoning - general",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "herbarium",
+          "source": "distractor_pool_9833"
+        },
+        {
+          "label": "B",
+          "text": "herbarium",
+          "source": "distractor_pool_9833"
+        },
+        {
+          "label": "C",
+          "text": "herbarium",
+          "source": "distractor_pool_9833"
+        },
+        {
+          "label": "D",
+          "text": "herbarium",
+          "source": "distractor_pool_9833"
+        }
+      ],
+      "difficulty": "medium",
+      "bloom_taxonomy": "Understand",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "herbarium; provisions; jewellery; airplane",
+      "confidence_score": 0.5,
+      "generation_source": "phase18_offline_composition",
+      "status": "pending_review",
+      "qhash": "gen-analytical-reasoning-15229-8952-0040-15229-8952",
+      "created_at": "2026-08-05T12:30:06",
+      "updated_at": "2026-08-05T12:30:06"
+    },
+    {
+      "mcq_id": "gen-analytical-reasoning-15230-8954-0041",
+      "subject_id": "analytical-reasoning",
+      "chapter_id": "ch-analyt-reasoning-verbal-and-analytical",
+      "topic_id": "t-ch-analyt-reasoning-verbal-and-analytical-ranking-and-positioning",
+      "subtopic_id": null,
+      "concept_id": 15230,
+      "concept_name": "reasoning",
+      "blueprint_id": 8954,
+      "blueprint_type": "general",
+      "learning_objective_id": 283761,
+      "learning_objective": "A writer works in a pen.",
+      "distractor_pool_id": 9835,
+      "pattern_id": "general-15230",
+      "exam_mapping_id": null,
+      "exam_id": "nts",
+      "question": "reasoning - general",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "observatory",
+          "source": "distractor_pool_9835"
+        },
+        {
+          "label": "B",
+          "text": "observatory",
+          "source": "distractor_pool_9835"
+        },
+        {
+          "label": "C",
+          "text": "observatory",
+          "source": "distractor_pool_9835"
+        },
+        {
+          "label": "D",
+          "text": "observatory",
+          "source": "distractor_pool_9835"
+        }
+      ],
+      "difficulty": "medium",
+      "bloom_taxonomy": "Understand",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "observatory; vehicle; language; courtroom",
+      "confidence_score": 0.49,
+      "generation_source": "phase18_offline_composition",
+      "status": "pending_review",
+      "qhash": "gen-analytical-reasoning-15230-8954-0041-15230-8954",
+      "created_at": "2026-08-05T12:30:06",
+      "updated_at": "2026-08-05T12:30:06"
+    },
+    {
+      "mcq_id": "gen-analytical-reasoning-15231-8957-0042",
+      "subject_id": "analytical-reasoning",
+      "chapter_id": "ch-analyt-reasoning-verbal-and-analytical",
+      "topic_id": "t-ch-analyt-reasoning-verbal-and-analytical-ranking-and-positioning",
+      "subtopic_id": null,
+      "concept_id": 15231,
+      "concept_name": "Ranking and Positioning",
+      "blueprint_id": 8957,
+      "blueprint_type": "general",
+      "learning_objective_id": 284061,
+      "learning_objective": "Rank from bottom = total − rank from top + 1 = 27 − 10 + 1 = 18.",
+      "distractor_pool_id": 9838,
+      "pattern_id": "general-15231",
+      "exam_mapping_id": null,
+      "exam_id": "nts",
+      "question": "Ranking and Positioning - general",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "16",
+          "source": "distractor_pool_9838"
+        },
+        {
+          "label": "B",
+          "text": "16",
+          "source": "distractor_pool_9838"
+        },
+        {
+          "label": "C",
+          "text": "16",
+          "source": "distractor_pool_9838"
+        },
+        {
+          "label": "D",
+          "text": "16",
+          "source": "distractor_pool_9838"
+        }
+      ],
+      "difficulty": "medium",
+      "bloom_taxonomy": "Understand",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "16; 17; 11; 40",
+      "confidence_score": 0.4,
+      "generation_source": "phase18_offline_composition",
+      "status": "pending_review",
+      "qhash": "gen-analytical-reasoning-15231-8957-0042-15231-8957",
+      "created_at": "2026-08-05T12:30:06",
+      "updated_at": "2026-08-05T12:30:06"
+    },
+    {
+      "mcq_id": "gen-analytical-reasoning-15232-8953-0043",
+      "subject_id": "analytical-reasoning",
+      "chapter_id": "ch-analyt-reasoning-verbal-and-analytical",
+      "topic_id": "t-ch-analyt-reasoning-verbal-and-analytical-analogies",
+      "subtopic_id": null,
+      "concept_id": 15232,
+      "concept_name": "Analogies",
+      "blueprint_id": 8953,
+      "blueprint_type": "general",
+      "learning_objective_id": 284269,
+      "learning_objective": "A writer works in a pen.",
+      "distractor_pool_id": 9834,
+      "pattern_id": "general-15232",
+      "exam_mapping_id": null,
+      "exam_id": "nts",
+      "question": "Analogies - general",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "language",
+          "source": "distractor_pool_9834"
+        },
+        {
+          "label": "B",
+          "text": "language",
+          "source": "distractor_pool_9834"
+        },
+        {
+          "label": "C",
+          "text": "language",
+          "source": "distractor_pool_9834"
+        },
+        {
+          "label": "D",
+          "text": "language",
+          "source": "distractor_pool_9834"
+        }
+      ],
+      "difficulty": "medium",
+      "bloom_taxonomy": "Understand",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "language; canvas; excavation; jewellery",
+      "confidence_score": 0.49,
+      "generation_source": "phase18_offline_composition",
+      "status": "pending_review",
+      "qhash": "gen-analytical-reasoning-15232-8953-0043-15232-8953",
+      "created_at": "2026-08-05T12:30:06",
+      "updated_at": "2026-08-05T12:30:06"
+    },
+    {
+      "mcq_id": "gen-analytical-reasoning-15233-8956-0044",
+      "subject_id": "analytical-reasoning",
+      "chapter_id": "ch-analyt-reasoning-verbal-and-analytical",
+      "topic_id": "t-ch-analyt-reasoning-verbal-and-analytical-direction-sense",
+      "subtopic_id": null,
+      "concept_id": 15233,
+      "concept_name": "Direction Sense",
+      "blueprint_id": 8956,
+      "blueprint_type": "general",
+      "learning_objective_id": 284569,
+      "learning_objective": "Facing East, a right turn points South.",
+      "distractor_pool_id": 9837,
+      "pattern_id": "general-15233",
+      "exam_mapping_id": null,
+      "exam_id": "nts",
+      "question": "Direction Sense - general",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "North",
+          "source": "distractor_pool_9837"
+        },
+        {
+          "label": "B",
+          "text": "North",
+          "source": "distractor_pool_9837"
+        },
+        {
+          "label": "C",
+          "text": "North",
+          "source": "distractor_pool_9837"
+        },
+        {
+          "label": "D",
+          "text": "North",
+          "source": "distractor_pool_9837"
+        }
+      ],
+      "difficulty": "medium",
+      "bloom_taxonomy": "Understand",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "North; West; East; South",
+      "confidence_score": 0.4,
+      "generation_source": "phase18_offline_composition",
+      "status": "pending_review",
+      "qhash": "gen-analytical-reasoning-15233-8956-0044-15233-8956",
+      "created_at": "2026-08-05T12:30:06",
+      "updated_at": "2026-08-05T12:30:06"
+    },
+    {
+      "mcq_id": "gen-analytical-reasoning-15234-8955-0045",
+      "subject_id": "analytical-reasoning",
+      "chapter_id": "ch-analyt-reasoning-verbal-and-analytical",
+      "topic_id": "t-ch-analyt-reasoning-verbal-and-analytical-blood-relations",
+      "subtopic_id": null,
+      "concept_id": 15234,
+      "concept_name": "Blood Relations",
+      "blueprint_id": 8955,
+      "blueprint_type": "general",
+      "learning_objective_id": 284919,
+      "learning_objective": "Father's sister is one's paternal aunt.",
+      "distractor_pool_id": 9836,
+      "pattern_id": "general-15234",
+      "exam_mapping_id": null,
+      "exam_id": "nts",
+      "question": "Blood Relations - general",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "cousin",
+          "source": "distractor_pool_9836"
+        },
+        {
+          "label": "B",
+          "text": "cousin",
+          "source": "distractor_pool_9836"
+        },
+        {
+          "label": "C",
+          "text": "cousin",
+          "source": "distractor_pool_9836"
+        },
+        {
+          "label": "D",
+          "text": "cousin",
+          "source": "distractor_pool_9836"
+        }
+      ],
+      "difficulty": "medium",
+      "bloom_taxonomy": "Understand",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "cousin; grandfather; father-in-law; mother-in-law",
+      "confidence_score": 0.55,
+      "generation_source": "phase18_offline_composition",
+      "status": "pending_review",
+      "qhash": "gen-analytical-reasoning-15234-8955-0045-15234-8955",
+      "created_at": "2026-08-05T12:30:06",
+      "updated_at": "2026-08-05T12:30:06"
+    },
+    {
+      "mcq_id": "gen-analytical-reasoning-15235-8958-0046",
+      "subject_id": "analytical-reasoning",
+      "chapter_id": "analytical-reasoning-coding-decoding",
+      "topic_id": "t-385",
+      "subtopic_id": null,
+      "concept_id": 15235,
+      "concept_name": "Number Coding",
+      "blueprint_id": 8958,
+      "blueprint_type": "general",
+      "learning_objective_id": 284999,
+      "learning_objective": "Codes count letters: CAT has 3 letters, BIRD has 4.",
+      "distractor_pool_id": 10206,
+      "pattern_id": "general-15235",
+      "exam_mapping_id": null,
+      "exam_id": "nts",
+      "question": "Number Coding - general",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "Thursday",
+          "source": "distractor_pool_10206"
+        },
+        {
+          "label": "B",
+          "text": "Thursday",
+          "source": "distractor_pool_10206"
+        },
+        {
+          "label": "C",
+          "text": "Thursday",
+          "source": "distractor_pool_10206"
+        },
+        {
+          "label": "D",
+          "text": "Thursday",
+          "source": "distractor_pool_10206"
+        }
+      ],
+      "difficulty": "medium",
+      "bloom_taxonomy": "Understand",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "Thursday; 7-15; tvo; 26",
+      "confidence_score": 0.433,
+      "generation_source": "phase18_offline_composition",
+      "status": "pending_review",
+      "qhash": "gen-analytical-reasoning-15235-8958-0046-15235-8958",
+      "created_at": "2026-08-05T12:30:06",
+      "updated_at": "2026-08-05T12:30:06"
+    },
+    {
+      "mcq_id": "gen-anatomy-15237-8961-0048",
+      "subject_id": "anatomy",
+      "chapter_id": "ch-anatomy-anatomy-letter-skills-phase-11",
+      "topic_id": "t-ch-anatomy-anatomy-letter-skills-phase-11-spelling-and-letter-buildi",
+      "subtopic_id": null,
+      "concept_id": 15237,
+      "concept_name": "Anatomy",
+      "blueprint_id": 8961,
+      "blueprint_type": "calculation",
+      "learning_objective_id": 285015,
+      "learning_objective": "Two atria and two ventricles.",
+      "distractor_pool_id": 10143,
+      "pattern_id": "calculation-15237",
+      "exam_mapping_id": null,
+      "exam_id": "ppsc",
+      "question": "Anatomy - calculation",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "Cardiac muscle",
+          "source": "distractor_pool_10143"
+        },
+        {
+          "label": "B",
+          "text": "Cardiac muscle",
+          "source": "distractor_pool_10143"
+        },
+        {
+          "label": "C",
+          "text": "Cardiac muscle",
+          "source": "distractor_pool_10143"
+        },
+        {
+          "label": "D",
+          "text": "Cardiac muscle",
+          "source": "distractor_pool_10143"
+        }
+      ],
+      "difficulty": "medium",
+      "bloom_taxonomy": "Understand",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "Cardiac muscle; Semicircular canals; Pituitary; Ligaments",
+      "confidence_score": 0.43199999999999994,
+      "generation_source": "phase18_offline_composition",
+      "status": "pending_review",
+      "qhash": "gen-anatomy-15237-8961-0048-15237-8961",
+      "created_at": "2026-08-05T12:30:06",
+      "updated_at": "2026-08-05T12:30:06"
+    },
+    {
+      "mcq_id": "gen-anatomy-15238-8964-0049",
+      "subject_id": "anatomy",
+      "chapter_id": "ch-anatomy-anatomy-letter-skills-phase-11",
+      "topic_id": "t-ch-anatomy-anatomy-letter-skills-phase-11-spelling-and-letter-buildi",
+      "subtopic_id": null,
+      "concept_id": 15238,
+      "concept_name": "deep-kb",
+      "blueprint_id": 8964,
+      "blueprint_type": "calculation",
+      "learning_objective_id": 285110,
+      "learning_objective": "The femur runs from the hip to the knee and is both longest and strongest.",
+      "distractor_pool_id": 10881,
+      "pattern_id": "calculation-15238",
+      "exam_mapping_id": null,
+      "exam_id": "ppsc",
+      "question": "deep-kb - calculation",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "44 bones",
+          "source": "distractor_pool_10881"
+        },
+        {
+          "label": "B",
+          "text": "44 bones",
+          "source": "distractor_pool_10881"
+        },
+        {
+          "label": "C",
+          "text": "44 bones",
+          "source": "distractor_pool_10881"
+        },
+        {
+          "label": "D",
+          "text": "44 bones",
+          "source": "distractor_pool_10881"
+        }
+      ],
+      "difficulty": "easy",
+      "bloom_taxonomy": "Recall",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "44 bones; 200 bones; 40 bones; 300 bones",
+      "confidence_score": 0.27,
+      "generation_source": "phase18_offline_composition",
+      "status": "pending_review",
+      "qhash": "gen-anatomy-15238-8964-0049-15238-8964",
+      "created_at": "2026-08-05T12:30:06",
+      "updated_at": "2026-08-05T12:30:06"
+    },
+    {
+      "mcq_id": "gen-anatomy-15240-8969-0051",
+      "subject_id": "anatomy",
+      "chapter_id": "ch-anatomy-anatomy-letter-skills-phase-11",
+      "topic_id": "t-ch-anatomy-anatomy-letter-skills-phase-11-spelling-and-letter-buildi",
+      "subtopic_id": null,
+      "concept_id": 15240,
+      "concept_name": "Spelling and Letter Building",
+      "blueprint_id": 8969,
+      "blueprint_type": "calculation",
+      "learning_objective_id": 285166,
+      "learning_objective": "\"belong\" contains 6 letters and \"sternum\" contains 7 letters, so together they contain 6 + 7 = 13 letters; count every letter, including repeated ones.",
+      "distractor_pool_id": 11090,
+      "pattern_id": "calculation-15240",
+      "exam_mapping_id": null,
+      "exam_id": "ppsc",
+      "question": "Spelling and Letter Building - calculation",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "16",
+          "source": "distractor_pool_11090"
+        },
+        {
+          "label": "B",
+          "text": "16",
+          "source": "distractor_pool_11090"
+        },
+        {
+          "label": "C",
+          "text": "16",
+          "source": "distractor_pool_11090"
+        },
+        {
+          "label": "D",
+          "text": "16",
+          "source": "distractor_pool_11090"
+        }
+      ],
+      "difficulty": "medium",
+      "bloom_taxonomy": "Apply",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "16; 14; 15; 17",
+      "confidence_score": 0.4,
+      "generation_source": "phase18_offline_composition",
+      "status": "pending_review",
+      "qhash": "gen-anatomy-15240-8969-0051-15240-8969",
+      "created_at": "2026-08-05T12:30:06",
+      "updated_at": "2026-08-05T12:30:06"
+    },
+    {
+      "mcq_id": "gen-anatomy-15241-8971-0052",
+      "subject_id": "anatomy",
+      "chapter_id": "ch-anatomy-anatomy-letter-skills-phase-11",
+      "topic_id": "t-ch-anatomy-anatomy-letter-skills-phase-11-letter-positions",
+      "subtopic_id": null,
+      "concept_id": 15241,
+      "concept_name": "Letter Positions",
+      "blueprint_id": 8971,
+      "blueprint_type": "calculation",
+      "learning_objective_id": 285174,
+      "learning_objective": "The first letter of \"neck\" is \"n\", which is position fourteenth in the English alphabet (A=1 to Z=26).",
+      "distractor_pool_id": 11092,
+      "pattern_id": "calculation-15241",
+      "exam_mapping_id": null,
+      "exam_id": "ppsc",
+      "question": "Letter Positions - calculation",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "17",
+          "source": "distractor_pool_11092"
+        },
+        {
+          "label": "B",
+          "text": "17",
+          "source": "distractor_pool_11092"
+        },
+        {
+          "label": "C",
+          "text": "17",
+          "source": "distractor_pool_11092"
+        },
+        {
+          "label": "D",
+          "text": "17",
+          "source": "distractor_pool_11092"
+        }
+      ],
+      "difficulty": "easy",
+      "bloom_taxonomy": "Apply",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "17; 15; 16; 14",
+      "confidence_score": 0.4,
+      "generation_source": "phase18_offline_composition",
+      "status": "pending_review",
+      "qhash": "gen-anatomy-15241-8971-0052-15241-8971",
+      "created_at": "2026-08-05T12:30:06",
+      "updated_at": "2026-08-05T12:30:06"
+    },
+    {
+      "mcq_id": "gen-anatomy-15242-8960-0053",
+      "subject_id": "anatomy",
+      "chapter_id": "ch-anatomy-anatomy-human-structure-phase-11",
+      "topic_id": "t-ch-anatomy-anatomy-human-structure-phase-11-muscles-and-joints",
+      "subtopic_id": null,
+      "concept_id": 15242,
+      "concept_name": "skeleton",
+      "blueprint_id": 8960,
+      "blueprint_type": "general",
+      "learning_objective_id": 285182,
+      "learning_objective": "The adult human skeleton has 206 bones (children have about 270; some fuse during growth).",
+      "distractor_pool_id": 9559,
+      "pattern_id": "general-15242",
+      "exam_mapping_id": null,
+      "exam_id": "ppsc",
+      "question": "skeleton - general",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "200",
+          "source": "distractor_pool_9559"
+        },
+        {
+          "label": "B",
+          "text": "200",
+          "source": "distractor_pool_9559"
+        },
+        {
+          "label": "C",
+          "text": "200",
+          "source": "distractor_pool_9559"
+        },
+        {
+          "label": "D",
+          "text": "200",
+          "source": "distractor_pool_9559"
+        }
+      ],
+      "difficulty": "easy",
+      "bloom_taxonomy": "Recall",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "200; 212; 300",
+      "confidence_score": 0.18000000000000002,
+      "generation_source": "phase18_offline_composition",
+      "status": "pending_review",
+      "qhash": "gen-anatomy-15242-8960-0053-15242-8960",
+      "created_at": "2026-08-05T12:30:06",
+      "updated_at": "2026-08-05T12:30:06"
+    },
+    {
+      "mcq_id": "gen-anatomy-15245-8967-0056",
+      "subject_id": "anatomy",
+      "chapter_id": "ch-anatomy-anatomy-human-structure-phase-11",
+      "topic_id": "t-ch-anatomy-anatomy-human-structure-phase-11-muscles-and-joints",
+      "subtopic_id": null,
+      "concept_id": 15245,
+      "concept_name": "Muscles and Joints",
+      "blueprint_id": 8967,
+      "blueprint_type": "general",
+      "learning_objective_id": 285332,
+      "learning_objective": "The diaphragm flattens on inspiration to draw air into the lungs.",
+      "distractor_pool_id": 10884,
+      "pattern_id": "general-15245",
+      "exam_mapping_id": null,
+      "exam_id": "ppsc",
+      "question": "Muscles and Joints - general",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "Trapezius",
+          "source": "distractor_pool_10884"
+        },
+        {
+          "label": "B",
+          "text": "Trapezius",
+          "source": "distractor_pool_10884"
+        },
+        {
+          "label": "C",
+          "text": "Trapezius",
+          "source": "distractor_pool_10884"
+        },
+        {
+          "label": "D",
+          "text": "Trapezius",
+          "source": "distractor_pool_10884"
+        }
+      ],
+      "difficulty": "medium",
+      "bloom_taxonomy": "Recall",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "Trapezius; Gluteus maximus; Iliopsoas; Erector spinae",
+      "confidence_score": 0.44999999999999996,
+      "generation_source": "phase18_offline_composition",
+      "status": "pending_review",
+      "qhash": "gen-anatomy-15245-8967-0056-15245-8967",
+      "created_at": "2026-08-05T12:30:06",
+      "updated_at": "2026-08-05T12:30:06"
+    },
+    {
+      "mcq_id": "gen-anatomy-15246-8963-0057",
+      "subject_id": "anatomy",
+      "chapter_id": "ch-anatomy-anatomy-human-structure-phase-11",
+      "topic_id": "t-ch-anatomy-anatomy-human-structure-phase-11-bones-and-skeleton",
+      "subtopic_id": null,
+      "concept_id": 15246,
+      "concept_name": "Bones and Skeleton",
+      "blueprint_id": 8963,
+      "blueprint_type": "calculation",
+      "learning_objective_id": 285348,
+      "learning_objective": "The femur runs from the hip to the knee and is both longest and strongest.",
+      "distractor_pool_id": 10880,
+      "pattern_id": "calculation-15246",
+      "exam_mapping_id": null,
+      "exam_id": "ppsc",
+      "question": "Bones and Skeleton - calculation",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "320 bones",
+          "source": "distractor_pool_10880"
+        },
+        {
+          "label": "B",
+          "text": "320 bones",
+          "source": "distractor_pool_10880"
+        },
+        {
+          "label": "C",
+          "text": "320 bones",
+          "source": "distractor_pool_10880"
+        },
+        {
+          "label": "D",
+          "text": "320 bones",
+          "source": "distractor_pool_10880"
+        }
+      ],
+      "difficulty": "easy",
+      "bloom_taxonomy": "Apply",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "320 bones; 64 bones; 68 bones; 52 bones",
+      "confidence_score": 0.6,
+      "generation_source": "phase18_offline_composition",
+      "status": "pending_review",
+      "qhash": "gen-anatomy-15246-8963-0057-15246-8963",
+      "created_at": "2026-08-05T12:30:06",
+      "updated_at": "2026-08-05T12:30:06"
+    },
+    {
+      "mcq_id": "gen-anatomy-15247-8968-0058",
+      "subject_id": "anatomy",
+      "chapter_id": "ch-anatomy-anatomy-human-structure-phase-11",
+      "topic_id": "t-ch-anatomy-anatomy-human-structure-phase-11-nerves-and-vessels",
+      "subtopic_id": null,
+      "concept_id": 15247,
+      "concept_name": "Nerves and Vessels",
+      "blueprint_id": 8968,
+      "blueprint_type": "general",
+      "learning_objective_id": 285372,
+      "learning_objective": "Olfactory nerve CN I carries smell to the brain.",
+      "distractor_pool_id": 10885,
+      "pattern_id": "general-15247",
+      "exam_mapping_id": null,
+      "exam_id": "ppsc",
+      "question": "Nerves and Vessels - general",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "CN VI (abducens)",
+          "source": "distractor_pool_10885"
+        },
+        {
+          "label": "B",
+          "text": "CN VI (abducens)",
+          "source": "distractor_pool_10885"
+        },
+        {
+          "label": "C",
+          "text": "CN VI (abducens)",
+          "source": "distractor_pool_10885"
+        },
+        {
+          "label": "D",
+          "text": "CN VI (abducens)",
+          "source": "distractor_pool_10885"
+        }
+      ],
+      "difficulty": "medium",
+      "bloom_taxonomy": "Apply",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "CN VI (abducens); CN IX (glossopharyngeal); 31 pairs; CN XI (accessory)",
+      "confidence_score": 0.579,
+      "generation_source": "phase18_offline_composition",
+      "status": "pending_review",
+      "qhash": "gen-anatomy-15247-8968-0058-15247-8968",
+      "created_at": "2026-08-05T12:30:06",
+      "updated_at": "2026-08-05T12:30:06"
+    },
+    {
+      "mcq_id": "gen-anf-15249-8972-0060",
+      "subject_id": "anf",
+      "chapter_id": "ch-anf-anf-anti-narcotics-force-content",
+      "topic_id": "t-ch-anf-anf-anti-narcotics-force-content-anf-organisation",
+      "subtopic_id": null,
+      "concept_id": 15249,
+      "concept_name": "ANF (Anti-Narcotics Force)",
+      "blueprint_id": 8972,
+      "blueprint_type": "general",
+      "learning_objective_id": 285443,
+      "learning_objective": "ANF stands for ANF recruitment tests.",
+      "distractor_pool_id": 9797,
+      "pattern_id": "general-15249",
+      "exam_mapping_id": null,
+      "exam_id": "anf",
+      "question": "ANF (Anti-Narcotics Force) - general",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "IB recruitment tests",
+          "source": "distractor_pool_9797"
+        },
+        {
+          "label": "B",
+          "text": "IB recruitment tests",
+          "source": "distractor_pool_9797"
+        },
+        {
+          "label": "C",
+          "text": "IB recruitment tests",
+          "source": "distractor_pool_9797"
+        },
+        {
+          "label": "D",
+          "text": "IB recruitment tests",
+          "source": "distractor_pool_9797"
+        }
+      ],
+      "difficulty": "medium",
+      "bloom_taxonomy": "Understand",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "IB recruitment tests; PPSC recruits Punjab government officers; WAPDA recruits engineers and staff; academic and aptitude tests",
+      "confidence_score": 0.576,
+      "generation_source": "phase18_offline_composition",
+      "status": "pending_review",
+      "qhash": "gen-anf-15249-8972-0060-15249-8972",
+      "created_at": "2026-08-05T12:30:06",
+      "updated_at": "2026-08-05T12:30:06"
+    },
+    {
+      "mcq_id": "gen-angular-15255-8978-0066",
+      "subject_id": "angular",
+      "chapter_id": "ch-angular-angular-letter-skills-phase-11",
+      "topic_id": "t-ch-angular-angular-letter-skills-phase-11-spelling-and-letter-buildi",
+      "subtopic_id": null,
+      "concept_id": 15255,
+      "concept_name": "angular",
+      "blueprint_id": 8978,
+      "blueprint_type": "calculation",
+      "learning_objective_id": 285545,
+      "learning_objective": "@Component marks a class as a component with template metadata.",
+      "distractor_pool_id": 9602,
+      "pattern_id": "calculation-15255",
+      "exam_mapping_id": null,
+      "exam_id": "ib",
+      "question": "angular - calculation",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "@Directive only",
+          "source": "distractor_pool_9602"
+        },
+        {
+          "label": "B",
+          "text": "@Directive only",
+          "source": "distractor_pool_9602"
+        },
+        {
+          "label": "C",
+          "text": "@Directive only",
+          "source": "distractor_pool_9602"
+        },
+        {
+          "label": "D",
+          "text": "@Directive only",
+          "source": "distractor_pool_9602"
+        }
+      ],
+      "difficulty": "medium",
+      "bloom_taxonomy": "Understand",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "@Directive only; @Module only; @Service; loops over arrays",
+      "confidence_score": 0.3975,
+      "generation_source": "phase18_offline_composition",
+      "status": "pending_review",
+      "qhash": "gen-angular-15255-8978-0066-15255-8978",
+      "created_at": "2026-08-05T12:30:06",
+      "updated_at": "2026-08-05T12:30:06"
+    },
+    {
+      "mcq_id": "gen-angular-15258-8982-0069",
+      "subject_id": "angular",
+      "chapter_id": "ch-angular-angular-letter-skills-phase-11",
+      "topic_id": "t-ch-angular-angular-letter-skills-phase-11-spelling-and-letter-buildi",
+      "subtopic_id": null,
+      "concept_id": 15258,
+      "concept_name": "Spelling and Letter Building",
+      "blueprint_id": 8982,
+      "blueprint_type": "calculation",
+      "learning_objective_id": 285652,
+      "learning_objective": "\"caching\" contains 7 letters and \"units\" contains 5 letters, so together they contain 7 + 5 = 12 letters; count every letter, including repeated ones.",
+      "distractor_pool_id": 11166,
+      "pattern_id": "calculation-15258",
+      "exam_mapping_id": null,
+      "exam_id": "ib",
+      "question": "Spelling and Letter Building - calculation",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "14",
+          "source": "distractor_pool_11166"
+        },
+        {
+          "label": "B",
+          "text": "14",
+          "source": "distractor_pool_11166"
+        },
+        {
+          "label": "C",
+          "text": "14",
+          "source": "distractor_pool_11166"
+        },
+        {
+          "label": "D",
+          "text": "14",
+          "source": "distractor_pool_11166"
+        }
+      ],
+      "difficulty": "medium",
+      "bloom_taxonomy": "Apply",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "14; 13; 12; 19",
+      "confidence_score": 0.4,
+      "generation_source": "phase18_offline_composition",
+      "status": "pending_review",
+      "qhash": "gen-angular-15258-8982-0069-15258-8982",
+      "created_at": "2026-08-05T12:30:06",
+      "updated_at": "2026-08-05T12:30:06"
+    },
+    {
+      "mcq_id": "gen-angular-15259-8985-0070",
+      "subject_id": "angular",
+      "chapter_id": "ch-angular-angular-letter-skills-phase-11",
+      "topic_id": "t-ch-angular-angular-letter-skills-phase-11-letter-positions",
+      "subtopic_id": null,
+      "concept_id": 15259,
+      "concept_name": "Letter Positions",
+      "blueprint_id": 8985,
+      "blueprint_type": "order-sequence",
+      "learning_objective_id": 285660,
+      "learning_objective": "The first letter of \"multicasting\" is \"m\", which is position thirteenth in the English alphabet (A=1 to Z=26).",
+      "distractor_pool_id": 11169,
+      "pattern_id": "order-sequence-15259",
+      "exam_mapping_id": null,
+      "exam_id": "ib",
+      "question": "Letter Positions - order-sequence",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "14",
+          "source": "distractor_pool_11169"
+        },
+        {
+          "label": "B",
+          "text": "14",
+          "source": "distractor_pool_11169"
+        },
+        {
+          "label": "C",
+          "text": "14",
+          "source": "distractor_pool_11169"
+        },
+        {
+          "label": "D",
+          "text": "14",
+          "source": "distractor_pool_11169"
+        }
+      ],
+      "difficulty": "easy",
+      "bloom_taxonomy": "Apply",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "14; 15; 16; 22",
+      "confidence_score": 0.4,
+      "generation_source": "phase18_offline_composition",
+      "status": "pending_review",
+      "qhash": "gen-angular-15259-8985-0070-15259-8985",
+      "created_at": "2026-08-05T12:30:06",
+      "updated_at": "2026-08-05T12:30:06"
+    },
+    {
+      "mcq_id": "gen-anthropology-15263-8987-0074",
+      "subject_id": "anthropology",
+      "chapter_id": "ch-anthro-anthropology-human-study",
+      "topic_id": "t-ch-anthro-anthropology-human-study-anthropology-concepts",
+      "subtopic_id": null,
+      "concept_id": 15263,
+      "concept_name": "Anthropology",
+      "blueprint_id": 8987,
+      "blueprint_type": "definition",
+      "learning_objective_id": 285760,
+      "learning_objective": "Anthropology spans biology, society and language.",
+      "distractor_pool_id": 9772,
+      "pattern_id": "definition-15263",
+      "exam_mapping_id": null,
+      "exam_id": "ppsc",
+      "question": "Anthropology - definition",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "studying past societies through remains",
+          "source": "distractor_pool_9772"
+        },
+        {
+          "label": "B",
+          "text": "studying past societies through remains",
+          "source": "distractor_pool_9772"
+        },
+        {
+          "label": "C",
+          "text": "studying past societies through remains",
+          "source": "distractor_pool_9772"
+        },
+        {
+          "label": "D",
+          "text": "studying past societies through remains",
+          "source": "distractor_pool_9772"
+        }
+      ],
+      "difficulty": "medium",
+      "bloom_taxonomy": "Understand",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "studying past societies through remains; a patterned symbolic act; learned shared behaviour; judging others by one's own culture",
+      "confidence_score": 0.6,
+      "generation_source": "phase18_offline_composition",
+      "status": "pending_review",
+      "qhash": "gen-anthropology-15263-8987-0074-15263-8987",
+      "created_at": "2026-08-05T12:30:06",
+      "updated_at": "2026-08-05T12:30:06"
+    },
+    {
+      "mcq_id": "gen-anthropology-15265-8986-0076",
+      "subject_id": "anthropology",
+      "chapter_id": "an-basics",
+      "topic_id": "t-227",
+      "subtopic_id": null,
+      "concept_id": 15265,
+      "concept_name": "branches",
+      "blueprint_id": 8986,
+      "blueprint_type": "definition",
+      "learning_objective_id": 285860,
+      "learning_objective": "Physical anthropology studies human biological evolution, primatology and genetic variation.",
+      "distractor_pool_id": 9529,
+      "pattern_id": "definition-15265",
+      "exam_mapping_id": null,
+      "exam_id": "ppsc",
+      "question": "branches - definition",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "Cultural anthropology",
+          "source": "distractor_pool_9529"
+        },
+        {
+          "label": "B",
+          "text": "Cultural anthropology",
+          "source": "distractor_pool_9529"
+        },
+        {
+          "label": "C",
+          "text": "Cultural anthropology",
+          "source": "distractor_pool_9529"
+        },
+        {
+          "label": "D",
+          "text": "Cultural anthropology",
+          "source": "distractor_pool_9529"
+        }
+      ],
+      "difficulty": "easy",
+      "bloom_taxonomy": "Understand",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "Cultural anthropology; Linguistic anthropology; Archaeology; Ethnography",
+      "confidence_score": 0.6,
+      "generation_source": "phase18_offline_composition",
+      "status": "pending_review",
+      "qhash": "gen-anthropology-15265-8986-0076-15265-8986",
+      "created_at": "2026-08-05T12:30:06",
+      "updated_at": "2026-08-05T12:30:06"
+    },
+    {
+      "mcq_id": "gen-antonyms-15266-8990-0077",
+      "subject_id": "antonyms",
+      "chapter_id": "ch-antonyms-english-antonyms-deep-knowledge-bank",
+      "topic_id": "t-ch-antonyms-english-antonyms-deep-knowledge-bank-word-lengths-and-sp",
+      "subtopic_id": null,
+      "concept_id": 15266,
+      "concept_name": "Antonyms",
+      "blueprint_id": 8990,
+      "blueprint_type": "calculation",
+      "learning_objective_id": 285877,
+      "learning_objective": "Cold is the opposite of hot.",
+      "distractor_pool_id": 9860,
+      "pattern_id": "calculation-15266",
+      "exam_mapping_id": null,
+      "exam_id": "css",
+      "question": "Antonyms - calculation",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "Contract",
+          "source": "distractor_pool_9860"
+        },
+        {
+          "label": "B",
+          "text": "Contract",
+          "source": "distractor_pool_9860"
+        },
+        {
+          "label": "C",
+          "text": "Contract",
+          "source": "distractor_pool_9860"
+        },
+        {
+          "label": "D",
+          "text": "Contract",
+          "source": "distractor_pool_9860"
+        }
+      ],
+      "difficulty": "medium",
+      "bloom_taxonomy": "Understand",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "Contract; Export; Narrow; Descent",
+      "confidence_score": 0.40725,
+      "generation_source": "phase18_offline_composition",
+      "status": "pending_review",
+      "qhash": "gen-antonyms-15266-8990-0077-15266-8990",
+      "created_at": "2026-08-05T12:30:06",
+      "updated_at": "2026-08-05T12:30:06"
+    },
+    {
+      "mcq_id": "gen-antonyms-15267-8994-0078",
+      "subject_id": "antonyms",
+      "chapter_id": "ch-antonyms-english-antonyms-deep-knowledge-bank",
+      "topic_id": "t-ch-antonyms-english-antonyms-deep-knowledge-bank-word-lengths-and-sp",
+      "subtopic_id": null,
+      "concept_id": 15267,
+      "concept_name": "deep-kb",
+      "blueprint_id": 8994,
+      "blueprint_type": "calculation",
+      "learning_objective_id": 285993,
+      "learning_objective": "Match each word to its closest antonym.",
+      "distractor_pool_id": 10529,
+      "pattern_id": "calculation-15267",
+      "exam_mapping_id": null,
+      "exam_id": "css",
+      "question": "deep-kb - calculation",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "feeble",
+          "source": "distractor_pool_10529"
+        },
+        {
+          "label": "B",
+          "text": "feeble",
+          "source": "distractor_pool_10529"
+        },
+        {
+          "label": "C",
+          "text": "feeble",
+          "source": "distractor_pool_10529"
+        },
+        {
+          "label": "D",
+          "text": "feeble",
+          "source": "distractor_pool_10529"
+        }
+      ],
+      "difficulty": "medium",
+      "bloom_taxonomy": "Apply",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "feeble; fragile; demolish; orderly",
+      "confidence_score": 0.556,
+      "generation_source": "phase18_offline_composition",
+      "status": "pending_review",
+      "qhash": "gen-antonyms-15267-8994-0078-15267-8994",
+      "created_at": "2026-08-05T12:30:06",
+      "updated_at": "2026-08-05T12:30:06"
+    },
+    {
+      "mcq_id": "gen-antonyms-15268-8995-0079",
+      "subject_id": "antonyms",
+      "chapter_id": "ch-antonyms-english-antonyms-deep-knowledge-bank",
+      "topic_id": "t-ch-antonyms-english-antonyms-deep-knowledge-bank-word-lengths-and-sp",
+      "subtopic_id": null,
+      "concept_id": 15268,
+      "concept_name": "english",
+      "blueprint_id": 8995,
+      "blueprint_type": "calculation",
+      "learning_objective_id": 286001,
+      "learning_objective": "Match each word to its closest antonym.",
+      "distractor_pool_id": 10530,
+      "pattern_id": "calculation-15268",
+      "exam_mapping_id": null,
+      "exam_id": "css",
+      "question": "english - calculation",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "abundant",
+          "source": "distractor_pool_10530"
+        },
+        {
+          "label": "B",
+          "text": "abundant",
+          "source": "distractor_pool_10530"
+        },
+        {
+          "label": "C",
+          "text": "abundant",
+          "source": "distractor_pool_10530"
+        },
+        {
+          "label": "D",
+          "text": "abundant",
+          "source": "distractor_pool_10530"
+        }
+      ],
+      "difficulty": "medium",
+      "bloom_taxonomy": "Apply",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "abundant; gracious; curious; malevolent",
+      "confidence_score": 0.556,
+      "generation_source": "phase18_offline_composition",
+      "status": "pending_review",
+      "qhash": "gen-antonyms-15268-8995-0079-15268-8995",
+      "created_at": "2026-08-05T12:30:06",
+      "updated_at": "2026-08-05T12:30:06"
+    },
+    {
+      "mcq_id": "gen-antonyms-15269-8996-0080",
+      "subject_id": "antonyms",
+      "chapter_id": "ch-antonyms-english-antonyms-deep-knowledge-bank",
+      "topic_id": "t-ch-antonyms-english-antonyms-deep-knowledge-bank-word-lengths-and-sp",
+      "subtopic_id": null,
+      "concept_id": 15269,
+      "concept_name": "words",
+      "blueprint_id": 8996,
+      "blueprint_type": "calculation",
+      "learning_objective_id": 286009,
+      "learning_objective": "Match each word to its closest antonym.",
+      "distractor_pool_id": 10531,
+      "pattern_id": "calculation-15269",
+      "exam_mapping_id": null,
+      "exam_id": "css",
+      "question": "words - calculation",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "enormous",
+          "source": "distractor_pool_10531"
+        },
+        {
+          "label": "B",
+          "text": "enormous",
+          "source": "distractor_pool_10531"
+        },
+        {
+          "label": "C",
+          "text": "enormous",
+          "source": "distractor_pool_10531"
+        },
+        {
+          "label": "D",
+          "text": "enormous",
+          "source": "distractor_pool_10531"
+        }
+      ],
+      "difficulty": "medium",
+      "bloom_taxonomy": "Apply",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "enormous; candid; temporary; barren",
+      "confidence_score": 0.557,
+      "generation_source": "phase18_offline_composition",
+      "status": "pending_review",
+      "qhash": "gen-antonyms-15269-8996-0080-15269-8996",
+      "created_at": "2026-08-05T12:30:06",
+      "updated_at": "2026-08-05T12:30:06"
+    },
+    {
+      "mcq_id": "gen-antonyms-15270-8998-0081",
+      "subject_id": "antonyms",
+      "chapter_id": "ch-antonyms-english-antonyms-deep-knowledge-bank",
+      "topic_id": "t-ch-antonyms-english-antonyms-deep-knowledge-bank-word-lengths-and-sp",
+      "subtopic_id": null,
+      "concept_id": 15270,
+      "concept_name": "Word Lengths and Spelling",
+      "blueprint_id": 8998,
+      "blueprint_type": "calculation",
+      "learning_objective_id": 286017,
+      "learning_objective": "The word \"unfit\" has 5 letters and \"yeoman\" has 6 letters, so counting both together gives 5 + 6 = 11 letters in total.",
+      "distractor_pool_id": 10553,
+      "pattern_id": "calculation-15270",
+      "exam_mapping_id": null,
+      "exam_id": "css",
+      "question": "Word Lengths and Spelling - calculation",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "13",
+          "source": "distractor_pool_10553"
+        },
+        {
+          "label": "B",
+          "text": "13",
+          "source": "distractor_pool_10553"
+        },
+        {
+          "label": "C",
+          "text": "13",
+          "source": "distractor_pool_10553"
+        },
+        {
+          "label": "D",
+          "text": "13",
+          "source": "distractor_pool_10553"
+        }
+      ],
+      "difficulty": "medium",
+      "bloom_taxonomy": "Apply",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "13; 14; 12; 18",
+      "confidence_score": 0.4,
+      "generation_source": "phase18_offline_composition",
+      "status": "pending_review",
+      "qhash": "gen-antonyms-15270-8998-0081-15270-8998",
+      "created_at": "2026-08-05T12:30:06",
+      "updated_at": "2026-08-05T12:30:06"
+    },
+    {
+      "mcq_id": "gen-antonyms-15271-8991-0082",
+      "subject_id": "antonyms",
+      "chapter_id": "ch-antonyms-english-antonyms-deep-knowledge-bank",
+      "topic_id": "t-ch-antonyms-english-antonyms-deep-knowledge-bank-antonym-pairs",
+      "subtopic_id": null,
+      "concept_id": 15271,
+      "concept_name": "Antonym Pairs",
+      "blueprint_id": 8991,
+      "blueprint_type": "general",
+      "learning_objective_id": 286025,
+      "learning_objective": "Cold is the opposite of hot.",
+      "distractor_pool_id": 9861,
+      "pattern_id": "general-15271",
+      "exam_mapping_id": null,
+      "exam_id": "css",
+      "question": "Antonym Pairs - general",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "malevolent",
+          "source": "distractor_pool_9861"
+        },
+        {
+          "label": "B",
+          "text": "malevolent",
+          "source": "distractor_pool_9861"
+        },
+        {
+          "label": "C",
+          "text": "malevolent",
+          "source": "distractor_pool_9861"
+        },
+        {
+          "label": "D",
+          "text": "malevolent",
+          "source": "distractor_pool_9861"
+        }
+      ],
+      "difficulty": "medium",
+      "bloom_taxonomy": "Understand",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "malevolent; truthful; victory; deceitful",
+      "confidence_score": 0.555,
+      "generation_source": "phase18_offline_composition",
+      "status": "pending_review",
+      "qhash": "gen-antonyms-15271-8991-0082-15271-8991",
+      "created_at": "2026-08-05T12:30:06",
+      "updated_at": "2026-08-05T12:30:06"
+    },
+    {
+      "mcq_id": "gen-antonyms-15272-8997-0083",
+      "subject_id": "antonyms",
+      "chapter_id": "ch-antonyms-english-antonyms-deep-knowledge-bank",
+      "topic_id": "t-ch-antonyms-english-antonyms-deep-knowledge-bank-harder-antonyms",
+      "subtopic_id": null,
+      "concept_id": 15272,
+      "concept_name": "Harder Antonyms",
+      "blueprint_id": 8997,
+      "blueprint_type": "terminology-translation",
+      "learning_objective_id": 286133,
+      "learning_objective": "Acerbic means sharp and bitter in tone, so sweet is its direct opposite.",
+      "distractor_pool_id": 10532,
+      "pattern_id": "terminology-translation-15272",
+      "exam_mapping_id": null,
+      "exam_id": "css",
+      "question": "Harder Antonyms - terminology-translation",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "Barren",
+          "source": "distractor_pool_10532"
+        },
+        {
+          "label": "B",
+          "text": "Barren",
+          "source": "distractor_pool_10532"
+        },
+        {
+          "label": "C",
+          "text": "Barren",
+          "source": "distractor_pool_10532"
+        },
+        {
+          "label": "D",
+          "text": "Barren",
+          "source": "distractor_pool_10532"
+        }
+      ],
+      "difficulty": "easy",
+      "bloom_taxonomy": "Recall",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "Barren; Assertive; Idealistic; Humble",
+      "confidence_score": 0.575,
+      "generation_source": "phase18_offline_composition",
+      "status": "pending_review",
+      "qhash": "gen-antonyms-15272-8997-0083-15272-8997",
+      "created_at": "2026-08-05T12:30:06",
+      "updated_at": "2026-08-05T12:30:06"
+    },
+    {
+      "mcq_id": "gen-antonyms-15275-8989-0086",
+      "subject_id": "antonyms",
+      "chapter_id": "antonyms-antonym-sets",
+      "topic_id": "t-424",
+      "subtopic_id": null,
+      "concept_id": 15275,
+      "concept_name": "antonym",
+      "blueprint_id": 8989,
+      "blueprint_type": "terminology-translation",
+      "learning_objective_id": 286157,
+      "learning_objective": "Diligent means industrious and hardworking; lazy is its opposite.",
+      "distractor_pool_id": 9576,
+      "pattern_id": "terminology-translation-15275",
+      "exam_mapping_id": null,
+      "exam_id": "css",
+      "question": "antonym - terminology-translation",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "hardworking",
+          "source": "distractor_pool_9576"
+        },
+        {
+          "label": "B",
+          "text": "hardworking",
+          "source": "distractor_pool_9576"
+        },
+        {
+          "label": "C",
+          "text": "hardworking",
+          "source": "distractor_pool_9576"
+        },
+        {
+          "label": "D",
+          "text": "hardworking",
+          "source": "distractor_pool_9576"
+        }
+      ],
+      "difficulty": "medium",
+      "bloom_taxonomy": "Understand",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "hardworking; careful; honest; bright",
+      "confidence_score": 0.511,
+      "generation_source": "phase18_offline_composition",
+      "status": "pending_review",
+      "qhash": "gen-antonyms-15275-8989-0086-15275-8989",
+      "created_at": "2026-08-05T12:30:06",
+      "updated_at": "2026-08-05T12:30:06"
+    },
+    {
+      "mcq_id": "gen-aptitude-tests-15276-8999-0087",
+      "subject_id": "aptitude-tests",
+      "chapter_id": "ch-aptitu-aptitude-quantitative-data",
+      "topic_id": "t-ch-aptitu-aptitude-quantitative-data-graph-reading",
+      "subtopic_id": null,
+      "concept_id": 15276,
+      "concept_name": "Aptitude Tests",
+      "blueprint_id": 8999,
+      "blueprint_type": "data-interpretation",
+      "learning_objective_id": 286187,
+      "learning_objective": "Total = 221 + 6409 = 6630.",
+      "distractor_pool_id": 9851,
+      "pattern_id": "data-interpretation-15276",
+      "exam_mapping_id": null,
+      "exam_id": "nts",
+      "question": "Aptitude Tests - data-interpretation",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "442",
+          "source": "distractor_pool_9851"
+        },
+        {
+          "label": "B",
+          "text": "442",
+          "source": "distractor_pool_9851"
+        },
+        {
+          "label": "C",
+          "text": "442",
+          "source": "distractor_pool_9851"
+        },
+        {
+          "label": "D",
+          "text": "442",
+          "source": "distractor_pool_9851"
+        }
+      ],
+      "difficulty": "medium",
+      "bloom_taxonomy": "Understand",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "442; 6409; 6188; 6327",
+      "confidence_score": 0.4,
+      "generation_source": "phase18_offline_composition",
+      "status": "pending_review",
+      "qhash": "gen-aptitude-tests-15276-8999-0087-15276-8999",
+      "created_at": "2026-08-05T12:30:06",
+      "updated_at": "2026-08-05T12:30:06"
+    },
+    {
+      "mcq_id": "gen-aptitude-tests-15277-9001-0088",
+      "subject_id": "aptitude-tests",
+      "chapter_id": "ch-aptitu-aptitude-quantitative-data",
+      "topic_id": "t-ch-aptitu-aptitude-quantitative-data-graph-reading",
+      "subtopic_id": null,
+      "concept_id": 15277,
+      "concept_name": "aptitude",
+      "blueprint_id": 9001,
+      "blueprint_type": "data-interpretation",
+      "learning_objective_id": 286437,
+      "learning_objective": "Total = 221 + 6409 = 6630.",
+      "distractor_pool_id": 9853,
+      "pattern_id": "data-interpretation-15277",
+      "exam_mapping_id": null,
+      "exam_id": "nts",
+      "question": "aptitude - data-interpretation",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "2405",
+          "source": "distractor_pool_9853"
+        },
+        {
+          "label": "B",
+          "text": "2405",
+          "source": "distractor_pool_9853"
+        },
+        {
+          "label": "C",
+          "text": "2405",
+          "source": "distractor_pool_9853"
+        },
+        {
+          "label": "D",
+          "text": "2405",
+          "source": "distractor_pool_9853"
+        }
+      ],
+      "difficulty": "medium",
+      "bloom_taxonomy": "Understand",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "2405; 370; 2220; 3936",
+      "confidence_score": 0.4,
+      "generation_source": "phase18_offline_composition",
+      "status": "pending_review",
+      "qhash": "gen-aptitude-tests-15277-9001-0088-15277-9001",
+      "created_at": "2026-08-05T12:30:06",
+      "updated_at": "2026-08-05T12:30:06"
+    },
+    {
+      "mcq_id": "gen-aptitude-tests-15278-9002-0089",
+      "subject_id": "aptitude-tests",
+      "chapter_id": "ch-aptitu-aptitude-quantitative-data",
+      "topic_id": "t-ch-aptitu-aptitude-quantitative-data-graph-reading",
+      "subtopic_id": null,
+      "concept_id": 15278,
+      "concept_name": "Graph Reading",
+      "blueprint_id": 9002,
+      "blueprint_type": "data-interpretation",
+      "learning_objective_id": 286687,
+      "learning_objective": "Increase = 484 − 324 = 160.",
+      "distractor_pool_id": 9854,
+      "pattern_id": "data-interpretation-15278",
+      "exam_mapping_id": null,
+      "exam_id": "nts",
+      "question": "Graph Reading - data-interpretation",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "324",
+          "source": "distractor_pool_9854"
+        },
+        {
+          "label": "B",
+          "text": "324",
+          "source": "distractor_pool_9854"
+        },
+        {
+          "label": "C",
+          "text": "324",
+          "source": "distractor_pool_9854"
+        },
+        {
+          "label": "D",
+          "text": "324",
+          "source": "distractor_pool_9854"
+        }
+      ],
+      "difficulty": "medium",
+      "bloom_taxonomy": "Understand",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "324; 320; 170; 570",
+      "confidence_score": 0.4,
+      "generation_source": "phase18_offline_composition",
+      "status": "pending_review",
+      "qhash": "gen-aptitude-tests-15278-9002-0089-15278-9002",
+      "created_at": "2026-08-05T12:30:06",
+      "updated_at": "2026-08-05T12:30:06"
+    },
+    {
+      "mcq_id": "gen-aptitude-tests-15279-9000-0090",
+      "subject_id": "aptitude-tests",
+      "chapter_id": "ch-aptitu-aptitude-quantitative-data",
+      "topic_id": "t-ch-aptitu-aptitude-quantitative-data-data-interpretation-tables",
+      "subtopic_id": null,
+      "concept_id": 15279,
+      "concept_name": "Data Interpretation Tables",
+      "blueprint_id": 9000,
+      "blueprint_type": "calculation",
+      "learning_objective_id": 286987,
+      "learning_objective": "Total = 221 + 6409 = 6630.",
+      "distractor_pool_id": 9852,
+      "pattern_id": "calculation-15279",
+      "exam_mapping_id": null,
+      "exam_id": "nts",
+      "question": "Data Interpretation Tables - calculation",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "228",
+          "source": "distractor_pool_9852"
+        },
+        {
+          "label": "B",
+          "text": "228",
+          "source": "distractor_pool_9852"
+        },
+        {
+          "label": "C",
+          "text": "228",
+          "source": "distractor_pool_9852"
+        },
+        {
+          "label": "D",
+          "text": "228",
+          "source": "distractor_pool_9852"
+        }
+      ],
+      "difficulty": "medium",
+      "bloom_taxonomy": "Understand",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "228; 2850; 2736; 21760",
+      "confidence_score": 0.4,
+      "generation_source": "phase18_offline_composition",
+      "status": "pending_review",
+      "qhash": "gen-aptitude-tests-15279-9000-0090-15279-9000",
+      "created_at": "2026-08-05T12:30:06",
+      "updated_at": "2026-08-05T12:30:06"
+    },
+    {
+      "mcq_id": "gen-aptitude-tests-15280-9003-0091",
+      "subject_id": "aptitude-tests",
+      "chapter_id": "ch-aptitu-aptitude-quantitative-data",
+      "topic_id": "t-ch-aptitu-aptitude-quantitative-data-percentage-comparisons",
+      "subtopic_id": null,
+      "concept_id": 15280,
+      "concept_name": "Percentage Comparisons",
+      "blueprint_id": 9003,
+      "blueprint_type": "definition",
+      "learning_objective_id": 287237,
+      "learning_objective": "40% of 500 = 200 and 25% of 800 = 200.",
+      "distractor_pool_id": 10288,
+      "pattern_id": "definition-15280",
+      "exam_mapping_id": null,
+      "exam_id": "nts",
+      "question": "Percentage Comparisons - definition",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "40% of 250",
+          "source": "distractor_pool_10288"
+        },
+        {
+          "label": "B",
+          "text": "40% of 250",
+          "source": "distractor_pool_10288"
+        },
+        {
+          "label": "C",
+          "text": "40% of 250",
+          "source": "distractor_pool_10288"
+        },
+        {
+          "label": "D",
+          "text": "40% of 250",
+          "source": "distractor_pool_10288"
+        }
+      ],
+      "difficulty": "medium",
+      "bloom_taxonomy": "Understand",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "40% of 250; 5% of 1,000; 15% of 200; They are equal",
+      "confidence_score": 0.6,
+      "generation_source": "phase18_offline_composition",
+      "status": "pending_review",
+      "qhash": "gen-aptitude-tests-15280-9003-0091-15280-9003",
+      "created_at": "2026-08-05T12:30:06",
+      "updated_at": "2026-08-05T12:30:06"
+    },
+    {
+      "mcq_id": "gen-army-15288-9011-0099",
+      "subject_id": "army",
+      "chapter_id": "ch-army-pakistan-army-initial-tests-pattern-awar",
+      "topic_id": "t-ch-army-pakistan-army-initial-tests-pattern-awar-exam-pattern",
+      "subtopic_id": null,
+      "concept_id": 15288,
+      "concept_name": "Pakistan Army (Recruitment)",
+      "blueprint_id": 9011,
+      "blueprint_type": "definition",
+      "learning_objective_id": 287325,
+      "learning_objective": "ARMY stands for Pakistan Army initial tests.",
+      "distractor_pool_id": 9723,
+      "pattern_id": "definition-15288",
+      "exam_mapping_id": null,
+      "exam_id": "army",
+      "question": "Pakistan Army (Recruitment) - definition",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "Election Officer recruitment tests",
+          "source": "distractor_pool_9723"
+        },
+        {
+          "label": "B",
+          "text": "Election Officer recruitment tests",
+          "source": "distractor_pool_9723"
+        },
+        {
+          "label": "C",
+          "text": "Election Officer recruitment tests",
+          "source": "distractor_pool_9723"
+        },
+        {
+          "label": "D",
+          "text": "Election Officer recruitment tests",
+          "source": "distractor_pool_9723"
+        }
+      ],
+      "difficulty": "medium",
+      "bloom_taxonomy": "Understand",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "Election Officer recruitment tests; NADRA recruitment tests; written, psychometric and interview stages; quantitative, verbal and general papers",
+      "confidence_score": 0.567,
+      "generation_source": "phase18_offline_composition",
+      "status": "pending_review",
+      "qhash": "gen-army-15288-9011-0099-15288-9011",
+      "created_at": "2026-08-05T12:30:06",
+      "updated_at": "2026-08-05T12:30:06"
+    }
+  ]
+}

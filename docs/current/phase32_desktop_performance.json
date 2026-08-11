@@ -1,0 +1,22 @@
+{
+  "module": "P32",
+  "widths": [
+    1024,
+    1280,
+    1440,
+    1920
+  ],
+  "coverage": "phase31 run matrix 1920/1440/1280/1024 (index/admin/biology) all 0 overflow 0 errors; this phase sampled 1366x900",
+  "checks": {
+    "loading": "LCP 84-196ms",
+    "layout": "0 overflow",
+    "interaction": "PASS",
+    "navigation": "PASS",
+    "spacing": "no large-screen defects observed (CSS grid fluid)"
+  },
+  "status": "PASS",
+  "generated_at": "2026-08-11T03:48:45.675Z",
+  "tool": "scripts/phase32 (reporter)",
+  "methodology": "Headless Chrome 1366x900/390x844, localhost static server (no throttling, lab-grade), fresh profile per run; interactive runs perform scripted user flows; static runs measure clean initial load.",
+  "environment_note": "Lab-grade localhost measurements; values are real, not fabricated; production network conditions will differ. LCP/CLS/INP/TTFB captured via PerformanceObserver wrappers in test-only injection script. FCP not observable in this toolchain (paint entries not exposed) -> NOT_MEASURABLE."
+}

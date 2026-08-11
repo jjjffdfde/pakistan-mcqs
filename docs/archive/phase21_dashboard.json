@@ -1,0 +1,54 @@
+{
+  "phase": 21,
+  "title": "Phase 21 QA Dashboard",
+  "generated_at": "2026-08-06T08:51:34",
+  "dashboard": {
+    "structure": {
+      "files": 1686,
+      "pages": 1127,
+      "routes": 24
+    },
+    "navigation": {
+      "pages_with_header": 23,
+      "pages_with_nav": 23,
+      "internal_links": 4
+    },
+    "functions": {
+      "buttons": 79,
+      "links": 135,
+      "forms": 0
+    },
+    "health": {
+      "broken_images": 0,
+      "missing_alt": 0,
+      "avg_size_kb": 14.87
+    },
+    "performance": {
+      "site_size_kb": 8848,
+      "js_kb": 2406,
+      "css_kb": 21
+    },
+    "seo": {
+      "missing_titles": 0,
+      "missing_desc": 4,
+      "sitemap_urls": 1129
+    },
+    "accessibility": {
+      "missing_alt": 0,
+      "empty_buttons": 0
+    },
+    "security": {
+      "parameterized": 17,
+      "xss_risks": 0
+    },
+    "analytics": {
+      "attempts": 54,
+      "bookmarks": 5,
+      "users": 1
+    },
+    "scores": {
+      "overall": 74,
+      "grade": "C"
+    }
+  }
+}

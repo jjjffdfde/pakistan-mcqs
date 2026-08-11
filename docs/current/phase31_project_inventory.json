@@ -1,0 +1,93 @@
+{
+  "module": "M1",
+  "generated_at": "2026-08-10T13:29:04.329Z",
+  "project_root": "E:\\pAK MCQS",
+  "framework": "vanilla static-first SPA (HTML + CSS + vanilla JS) with optional localhost Node.js API server (no web framework)",
+  "languages": [
+    "HTML5",
+    "CSS3",
+    "JavaScript (browser)",
+    "Node.js (server)",
+    "SQL (SQLite via node:sqlite)"
+  ],
+  "package_manager": "none (no package.json / no node_modules - zero external deps)",
+  "entry_points": {
+    "client": "index.html",
+    "admin": "admin.html",
+    "offline_pwa": "offline.html",
+    "service_worker": "sw.js",
+    "api_server": "server.js (port 8765, env MCQS_PORT)",
+    "ai_router": "ai/router.js (mounted by server.js)"
+  },
+  "pages": 1129,
+  "js_files": 210,
+  "css_files": 1,
+  "json_data_files": 244,
+  "images": 19,
+  "api_endpoints": 51,
+  "spa_views": [
+    "home",
+    "browse",
+    "practice",
+    "quiz",
+    "papers",
+    "dashboard",
+    "leaderboard",
+    "bookmarks",
+    "ai-coach"
+  ],
+  "database": {
+    "engine": "sqlite",
+    "file": "db/pakistan-mcqs.sqlite",
+    "driver": "node:sqlite (built-in)",
+    "size_gb": "2.21",
+    "optional_drivers": [
+      "mysql2",
+      "pg"
+    ]
+  },
+  "environment_variables": [
+    {
+      "name": "API",
+      "value": "[REDACTED]"
+    },
+    {
+      "name": "CHROME_PATH",
+      "value": "[REDACTED]"
+    },
+    {
+      "name": "MCQS_API",
+      "value": "[REDACTED]"
+    },
+    {
+      "name": "MCQS_PORT",
+      "value": "[REDACTED]"
+    },
+    {
+      "name": "MCQS_TEST_DB",
+      "value": "[REDACTED]"
+    },
+    {
+      "name": "P28_PORT",
+      "value": "[REDACTED]"
+    }
+  ],
+  "config_files": [
+    "db/config.json",
+    ".eslintrc.json",
+    ".prettierrc",
+    "manifest.webmanifest",
+    "robots.txt",
+    "sitemap.xml",
+    "nginx.conf",
+    "Dockerfile",
+    "docker-compose.yml",
+    "ecosystem.config.js"
+  ],
+  "root_html_pages": [
+    "index.html",
+    "admin.html",
+    "offline.html",
+    "404.html"
+  ]
+}

@@ -1,0 +1,1494 @@
+[
+ {
+  "id": "mdc-001",
+  "question": "Hypertension in adults is defined as blood pressure at or above:",
+  "optionA": "110/70 mmHg",
+  "optionB": "140/90 mmHg",
+  "optionC": "160/100 mmHg",
+  "optionD": "180/110 mmHg",
+  "correctAnswer": "B",
+  "detailedExplanation": "Adult hypertension is sustained BP of 140/90 mmHg or higher; normal is below 120/80. Uncontrolled hypertension raises the risk of stroke and heart disease.",
+  "difficulty": "easy",
+  "subject": "medicine",
+  "chapter": "med-internal",
+  "topic": "t-330",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators",
+   "etea"
+  ],
+  "year": null,
+  "tags": [
+   "hypertension"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "mdc-002",
+  "question": "The most common cause of myocardial infarction is:",
+  "optionA": "Anaemia",
+  "optionB": "Atherosclerotic coronary artery thrombosis",
+  "optionC": "Pneumonia",
+  "optionD": "Hypothyroidism",
+  "correctAnswer": "B",
+  "detailedExplanation": "MI (heart attack) usually follows rupture of an atherosclerotic plaque in a coronary artery, causing thrombotic occlusion and death of heart muscle.",
+  "difficulty": "easy",
+  "subject": "medicine",
+  "chapter": "med-internal",
+  "topic": "t-330",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators",
+   "etea"
+  ],
+  "year": null,
+  "tags": [
+   "myocardial infarction"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "mdc-003",
+  "question": "Type 1 diabetes mellitus is caused by:",
+  "optionA": "Insulin resistance only",
+  "optionB": "Autoimmune destruction of pancreatic beta cells",
+  "optionC": "Excess glucagon",
+  "optionD": "Dietary sugar alone",
+  "correctAnswer": "B",
+  "detailedExplanation": "Type 1 diabetes results from autoimmune destruction of beta cells leading to absolute insulin deficiency, requiring lifelong insulin therapy; type 2 involves insulin resistance.",
+  "difficulty": "medium",
+  "subject": "medicine",
+  "chapter": "med-internal",
+  "topic": "t-330",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators",
+   "etea"
+  ],
+  "year": null,
+  "tags": [
+   "diabetes",
+   "type 1"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "mdc-004",
+  "question": "Chronic obstructive pulmonary disease (COPD) is most strongly associated with:",
+  "optionA": "Tobacco smoking",
+  "optionB": "High altitude",
+  "optionC": "Dairy intake",
+  "optionD": "Cold climate alone",
+  "correctAnswer": "A",
+  "detailedExplanation": "Smoking is the leading cause of COPD, a progressive disease of airway obstruction (chronic bronchitis and emphysema); air pollution and biomass smoke also contribute.",
+  "difficulty": "easy",
+  "subject": "medicine",
+  "chapter": "med-internal",
+  "topic": "t-331",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators",
+   "etea"
+  ],
+  "year": null,
+  "tags": [
+   "COPD",
+   "respiratory"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "mdc-005",
+  "question": "Peptic ulcer disease is most commonly caused by:",
+  "optionA": "Excess salt",
+  "optionB": "Helicobacter pylori infection",
+  "optionC": "Vitamin deficiency",
+  "optionD": "Exercise",
+  "correctAnswer": "B",
+  "detailedExplanation": "H. pylori infection and NSAIDs are the main causes of peptic ulcers; H. pylori is treatable with eradication therapy (antibiotics plus PPI).",
+  "difficulty": "easy",
+  "subject": "medicine",
+  "chapter": "med-internal",
+  "topic": "t-331",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators",
+   "etea"
+  ],
+  "year": null,
+  "tags": [
+   "peptic ulcer",
+   "H. pylori"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "mdc-006",
+  "question": "Anaemia is defined as:",
+  "optionA": "Low white blood cell count",
+  "optionB": "Reduced haemoglobin or red cell mass",
+  "optionC": "Low platelet count",
+  "optionD": "High blood sugar",
+  "correctAnswer": "B",
+  "detailedExplanation": "Anaemia is a reduction in haemoglobin concentration or red blood cell mass, causing fatigue and pallor; iron deficiency is the most common cause worldwide.",
+  "difficulty": "medium",
+  "subject": "medicine",
+  "chapter": "med-internal",
+  "topic": "t-331",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators",
+   "etea"
+  ],
+  "year": null,
+  "tags": [
+   "anaemia"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "mdc-007",
+  "question": "Typhoid fever is caused by:",
+  "optionA": "Salmonella typhi",
+  "optionB": "Vibrio cholerae",
+  "optionC": "Shigella",
+  "optionD": "E. coli",
+  "correctAnswer": "A",
+  "detailedExplanation": "Salmonella typhi, a faecal-oral transmitted bacterium, causes typhoid fever with sustained fever and abdominal symptoms; typhoid vaccine and safe water help prevent it.",
+  "difficulty": "easy",
+  "subject": "medicine",
+  "chapter": "med-infectious",
+  "topic": "t-332",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators",
+   "etea"
+  ],
+  "year": null,
+  "tags": [
+   "typhoid",
+   "infectious disease"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "mdc-008",
+  "question": "Cholera is characterised by:",
+  "optionA": "Paralysis",
+  "optionB": "Severe watery diarrhoea and dehydration",
+  "optionC": "Skin rash",
+  "optionD": "Joint pain",
+  "correctAnswer": "B",
+  "detailedExplanation": "Vibrio cholerae produces an enterotoxin causing massive watery diarrhoea ('rice water stools') and rapid dehydration; oral rehydration is the mainstay of treatment.",
+  "difficulty": "easy",
+  "subject": "medicine",
+  "chapter": "med-infectious",
+  "topic": "t-332",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators",
+   "etea"
+  ],
+  "year": null,
+  "tags": [
+   "cholera"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "mdc-009",
+  "question": "Dengue fever is transmitted by the bite of:",
+  "optionA": "Anopheles mosquito",
+  "optionB": "Aedes aegypti mosquito",
+  "optionC": "Housefly",
+  "optionD": "Sandfly",
+  "correctAnswer": "B",
+  "detailedExplanation": "The Aedes aegypti mosquito, which bites in daylight, transmits dengue virus; Pakistan experiences seasonal outbreaks, especially after monsoon rains.",
+  "difficulty": "medium",
+  "subject": "medicine",
+  "chapter": "med-infectious",
+  "topic": "t-333",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators",
+   "etea"
+  ],
+  "year": null,
+  "tags": [
+   "dengue"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "mdc-010",
+  "question": "The first-line treatment for uncomplicated malaria due to P. falciparum is:",
+  "optionA": "Aspirin",
+  "optionB": "Artemisinin-based combination therapy (ACT)",
+  "optionC": "Metformin",
+  "optionD": "Paracetamol only",
+  "correctAnswer": "B",
+  "detailedExplanation": "WHO recommends artemisinin-based combination therapies (ACTs) for uncomplicated falciparum malaria; chloroquine is reserved for sensitive vivax infections.",
+  "difficulty": "medium",
+  "subject": "medicine",
+  "chapter": "med-infectious",
+  "topic": "t-333",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators",
+   "etea"
+  ],
+  "year": null,
+  "tags": [
+   "malaria treatment"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "srg-001",
+  "question": "An acute abdomen refers to:",
+  "optionA": "Chronic constipation",
+  "optionB": "Sudden severe abdominal pain requiring urgent surgical evaluation",
+  "optionC": "Mild indigestion",
+  "optionD": "Bloating after meals",
+  "correctAnswer": "B",
+  "detailedExplanation": "Acute abdomen is a clinical syndrome of sudden, severe abdominal pain that may signal peritonitis, obstruction or perforation, demanding urgent assessment for surgery.",
+  "difficulty": "easy",
+  "subject": "surgery",
+  "chapter": "sur-general",
+  "topic": "t-334",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators",
+   "etea"
+  ],
+  "year": null,
+  "tags": [
+   "acute abdomen",
+   "general surgery"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "srg-002",
+  "question": "In acute appendicitis, pain classically migrates to:",
+  "optionA": "Left lower quadrant",
+  "optionB": "Right lower quadrant (McBurney's point)",
+  "optionC": "Epigastrium",
+  "optionD": "Flank",
+  "correctAnswer": "B",
+  "detailedExplanation": "Appendicitis pain typically starts periumbilically then shifts to the right iliac fossa at McBurney's point, with tenderness, rebound and guarding on examination.",
+  "difficulty": "medium",
+  "subject": "surgery",
+  "chapter": "sur-general",
+  "topic": "t-334",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators",
+   "etea"
+  ],
+  "year": null,
+  "tags": [
+   "appendicitis"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "srg-003",
+  "question": "A hernia is defined as:",
+  "optionA": "Inflammation of the colon",
+  "optionB": "Protrusion of an organ through a defect in its containing wall",
+  "optionC": "Obstruction of the bile duct",
+  "optionD": "Tearing of a muscle",
+  "correctAnswer": "B",
+  "detailedExplanation": "A hernia is the protrusion of tissue or organ (commonly bowel) through a weakened abdominal wall, e.g. inguinal or umbilical hernia, which may become strangulated.",
+  "difficulty": "easy",
+  "subject": "surgery",
+  "chapter": "sur-general",
+  "topic": "t-334",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators",
+   "etea"
+  ],
+  "year": null,
+  "tags": [
+   "hernia"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "srg-004",
+  "question": "The gold standard method for sterilising surgical instruments is:",
+  "optionA": "Boiling in water",
+  "optionB": "Autoclaving with steam under pressure",
+  "optionC": "Washing with soap",
+  "optionD": "Exposure to sunlight",
+  "correctAnswer": "B",
+  "detailedExplanation": "Autoclaving at 121C with pressurised steam for about 15-20 minutes kills all microorganisms including spores, making it the standard for instrument sterilisation.",
+  "difficulty": "medium",
+  "subject": "surgery",
+  "chapter": "sur-general",
+  "topic": "t-335",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators",
+   "etea"
+  ],
+  "year": null,
+  "tags": [
+   "sterilisation",
+   "autoclave"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "srg-005",
+  "question": "The 'rule of nines' is used to estimate:",
+  "optionA": "Depth of a burn",
+  "optionB": "Total body surface area burned",
+  "optionC": "Blood loss",
+  "optionD": "Pain severity",
+  "correctAnswer": "B",
+  "detailedExplanation": "The rule of nines assigns multiples of 9% to body regions (head 9%, each arm 9%, each leg 18%, trunk 36%) to estimate the TBSA burned, guiding fluid resuscitation.",
+  "difficulty": "easy",
+  "subject": "surgery",
+  "chapter": "sur-trauma",
+  "topic": "t-336",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators",
+   "etea"
+  ],
+  "year": null,
+  "tags": [
+   "burns",
+   "rule of nines"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "srg-006",
+  "question": "Shock is best defined as:",
+  "optionA": "Fainting",
+  "optionB": "Inadequate tissue perfusion and oxygenation",
+  "optionC": "Low blood sugar",
+  "optionD": "Muscle weakness",
+  "correctAnswer": "B",
+  "detailedExplanation": "Shock is a state of circulatory failure with inadequate perfusion of vital organs; types include hypovolaemic, cardiogenic, septic and anaphylactic shock.",
+  "difficulty": "easy",
+  "subject": "surgery",
+  "chapter": "sur-trauma",
+  "topic": "t-336",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators",
+   "etea"
+  ],
+  "year": null,
+  "tags": [
+   "shock",
+   "trauma"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "srg-007",
+  "question": "In trauma management, ABC stands for:",
+  "optionA": "Airway, Breathing, Circulation",
+  "optionB": "Antibiotics, Bandages, Casts",
+  "optionC": "Assessment, Blood, Care",
+  "optionD": "Ankle, Bone, Chest",
+  "correctAnswer": "A",
+  "detailedExplanation": "Advanced trauma life support begins with Airway maintenance, Breathing assessment and Circulation control - the priority sequence to save life in trauma.",
+  "difficulty": "medium",
+  "subject": "surgery",
+  "chapter": "sur-trauma",
+  "topic": "t-337",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators",
+   "etea"
+  ],
+  "year": null,
+  "tags": [
+   "trauma",
+   "ABC"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "srg-008",
+  "question": "A closed fracture is one in which:",
+  "optionA": "The bone is broken in many pieces",
+  "optionB": "The skin over the fracture remains intact",
+  "optionC": "The joint is dislocated",
+  "optionD": "The bone protrudes through skin",
+  "correctAnswer": "B",
+  "detailedExplanation": "In a closed (simple) fracture the overlying skin is intact; in an open (compound) fracture the bone pierces the skin, carrying high infection risk.",
+  "difficulty": "medium",
+  "subject": "surgery",
+  "chapter": "sur-trauma",
+  "topic": "t-337",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators",
+   "etea"
+  ],
+  "year": null,
+  "tags": [
+   "fracture"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "cme-001",
+  "question": "Epidemiology is the study of:",
+  "optionA": "Drug effects",
+  "optionB": "Distribution and determinants of disease in populations",
+  "optionC": "Surgical techniques",
+  "optionD": "Cell structure",
+  "correctAnswer": "B",
+  "detailedExplanation": "Epidemiology investigates who gets disease, where and when, and why (risk factors), providing the evidence base for public health prevention and control.",
+  "difficulty": "easy",
+  "subject": "community-medicine",
+  "chapter": "com-epidemiology",
+  "topic": "t-338",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators",
+   "etea"
+  ],
+  "year": null,
+  "tags": [
+   "epidemiology"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "cme-002",
+  "question": "Incidence measures:",
+  "optionA": "All existing cases at a point in time",
+  "optionB": "New cases occurring in a population over a period",
+  "optionC": "Deaths from a disease",
+  "optionD": "Disease severity",
+  "correctAnswer": "B",
+  "detailedExplanation": "Incidence counts new cases over time and reflects disease risk; prevalence counts all existing cases at a point in time and reflects disease burden.",
+  "difficulty": "medium",
+  "subject": "community-medicine",
+  "chapter": "com-epidemiology",
+  "topic": "t-338",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators",
+   "etea"
+  ],
+  "year": null,
+  "tags": [
+   "incidence",
+   "epidemiology"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "cme-003",
+  "question": "A screening test's sensitivity measures:",
+  "optionA": "Correct identification of healthy people",
+  "optionB": "Correct identification of people with the disease",
+  "optionC": "Cost of the test",
+  "optionD": "Speed of the test",
+  "correctAnswer": "B",
+  "detailedExplanation": "Sensitivity is the probability that a diseased person tests positive; specificity is the probability that a healthy person tests negative. High sensitivity avoids missed cases.",
+  "difficulty": "easy",
+  "subject": "community-medicine",
+  "chapter": "com-epidemiology",
+  "topic": "t-339",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators",
+   "etea"
+  ],
+  "year": null,
+  "tags": [
+   "screening",
+   "sensitivity"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "cme-004",
+  "question": "Primary Health Care (PHC) is best described as:",
+  "optionA": "Tertiary hospital care",
+  "optionB": "Essential health care made universally accessible",
+  "optionC": "Specialist surgery",
+  "optionD": "Emergency ambulance care",
+  "correctAnswer": "B",
+  "detailedExplanation": "PHC, endorsed at Alma-Ata 1978, is essential health care accessible to all at acceptable cost, emphasising prevention, community participation and appropriate technology.",
+  "difficulty": "easy",
+  "subject": "community-medicine",
+  "chapter": "com-health",
+  "topic": "t-340",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators",
+   "etea"
+  ],
+  "year": null,
+  "tags": [
+   "primary health care"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "cme-005",
+  "question": "Herd immunity is achieved when:",
+  "optionA": "Every person is hospitalised",
+  "optionB": "A high proportion of the population is immune, protecting the unvaccinated",
+  "optionC": "Only children are vaccinated",
+  "optionD": "Disease disappears worldwide",
+  "correctAnswer": "B",
+  "detailedExplanation": "When a large fraction of a population is immunised, transmission chains break, indirectly protecting those who cannot be vaccinated (infants, immunocompromised) - herd immunity.",
+  "difficulty": "medium",
+  "subject": "community-medicine",
+  "chapter": "com-health",
+  "topic": "t-340",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators",
+   "etea"
+  ],
+  "year": null,
+  "tags": [
+   "herd immunity",
+   "vaccination"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "cme-006",
+  "question": "Which of the following diseases has been targeted by Pakistan's national immunisation programme for eradication?",
+  "optionA": "Diabetes",
+  "optionB": "Polio",
+  "optionC": "Cancer",
+  "optionD": "Asthma",
+  "correctAnswer": "B",
+  "detailedExplanation": "Pakistan, with Afghanistan, is one of the last countries fighting wild poliovirus; the EPI and mass polio campaigns aim to eradicate it through repeated vaccination.",
+  "difficulty": "easy",
+  "subject": "community-medicine",
+  "chapter": "com-health",
+  "topic": "t-341",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators",
+   "etea"
+  ],
+  "year": null,
+  "tags": [
+   "polio",
+   "immunisation"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "cme-007",
+  "question": "A water-borne disease is one transmitted by:",
+  "optionA": "Mosquito bites",
+  "optionB": "Contaminated drinking water",
+  "optionC": "Air droplets",
+  "optionD": "Blood transfusion",
+  "correctAnswer": "B",
+  "detailedExplanation": "Water-borne diseases such as cholera, typhoid and hepatitis A spread through water contaminated with human faeces; safe water and sanitation prevent them.",
+  "difficulty": "medium",
+  "subject": "community-medicine",
+  "chapter": "com-epidemiology",
+  "topic": "t-339",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators",
+   "etea"
+  ],
+  "year": null,
+  "tags": [
+   "water-borne disease"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "aud-001",
+  "question": "An audit is best defined as:",
+  "optionA": "Preparation of financial statements",
+  "optionB": "Independent examination of financial statements and records",
+  "optionC": "Tax computation",
+  "optionD": "Budget planning",
+  "correctAnswer": "B",
+  "detailedExplanation": "Auditing is the systematic, independent examination of financial statements and underlying records to express an opinion on whether they present a true and fair view.",
+  "difficulty": "easy",
+  "subject": "auditing",
+  "chapter": "aud-fundamentals",
+  "topic": "t-342",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "ots",
+   "cts",
+   "pts",
+   "nab"
+  ],
+  "year": null,
+  "tags": [
+   "audit",
+   "fundamentals"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "aud-002",
+  "question": "The external auditor of a company is appointed by:",
+  "optionA": "Management",
+  "optionB": "The shareholders",
+  "optionC": "The bank",
+  "optionD": "The tax department",
+  "correctAnswer": "B",
+  "detailedExplanation": "Statutory external auditors are appointed by shareholders at the annual general meeting to ensure independence from management; in Pakistan this follows the Companies Act.",
+  "difficulty": "easy",
+  "subject": "auditing",
+  "chapter": "aud-fundamentals",
+  "topic": "t-342",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "ots",
+   "cts",
+   "pts",
+   "nab"
+  ],
+  "year": null,
+  "tags": [
+   "external audit",
+   "appointment"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "aud-003",
+  "question": "Audit evidence should be:",
+  "optionA": "Sufficient and appropriate",
+  "optionB": "Voluminous",
+  "optionC": "Cheap",
+  "optionD": "Oral only",
+  "correctAnswer": "A",
+  "detailedExplanation": "ISA 500 requires audit evidence to be sufficient (quantity) and appropriate (relevance and reliability) to support the auditor's opinion.",
+  "difficulty": "easy",
+  "subject": "auditing",
+  "chapter": "aud-fundamentals",
+  "topic": "t-343",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "ots",
+   "cts",
+   "pts",
+   "nab"
+  ],
+  "year": null,
+  "tags": [
+   "audit evidence"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "aud-004",
+  "question": "Materiality in auditing refers to:",
+  "optionA": "The audit fee",
+  "optionB": "Misstatements that could influence users' economic decisions",
+  "optionC": "The auditor's working hours",
+  "optionD": "Company assets",
+  "correctAnswer": "B",
+  "detailedExplanation": "Information is material if omitting or misstating it could reasonably influence decisions of financial statement users; materiality guides audit planning and evaluation.",
+  "difficulty": "medium",
+  "subject": "auditing",
+  "chapter": "aud-fundamentals",
+  "topic": "t-343",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "ots",
+   "cts",
+   "pts",
+   "nab"
+  ],
+  "year": null,
+  "tags": [
+   "materiality"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "aud-005",
+  "question": "Auditor independence is essential because it:",
+  "optionA": "Reduces audit costs",
+  "optionB": "Ensures objectivity and unbiased conclusions",
+  "optionC": "Speeds up the audit",
+  "optionD": "Replaces internal controls",
+  "correctAnswer": "B",
+  "detailedExplanation": "Independence in mind and appearance lets auditors evaluate evidence objectively without management influence, underpinning the credibility of the audit opinion.",
+  "difficulty": "medium",
+  "subject": "auditing",
+  "chapter": "aud-standards",
+  "topic": "t-344",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "ots",
+   "cts",
+   "pts",
+   "nab"
+  ],
+  "year": null,
+  "tags": [
+   "independence",
+   "ethics"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "aud-006",
+  "question": "An unqualified (clean) audit opinion states that the financial statements:",
+  "optionA": "Contain serious misstatements",
+  "optionB": "Present a true and fair view in all material respects",
+  "optionC": "Could not be audited",
+  "optionD": "Only partially comply",
+  "correctAnswer": "B",
+  "detailedExplanation": "An unqualified opinion concludes the financial statements are presented fairly, in all material respects, in accordance with the applicable financial reporting framework.",
+  "difficulty": "medium",
+  "subject": "auditing",
+  "chapter": "aud-standards",
+  "topic": "t-345",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "ots",
+   "cts",
+   "pts",
+   "nab"
+  ],
+  "year": null,
+  "tags": [
+   "audit opinion"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "aud-007",
+  "question": "Audit sampling is used when:",
+  "optionA": "Testing 100% of transactions is impractical",
+  "optionB": "The client requests it",
+  "optionC": "Assets are small",
+  "optionD": "The auditor is new",
+  "correctAnswer": "A",
+  "detailedExplanation": "Audit sampling applies audit procedures to a representative subset so conclusions about the whole population can be drawn efficiently; testing everything is usually impractical.",
+  "difficulty": "medium",
+  "subject": "auditing",
+  "chapter": "aud-standards",
+  "topic": "t-345",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "ots",
+   "cts",
+   "pts",
+   "nab"
+  ],
+  "year": null,
+  "tags": [
+   "audit sampling"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "scm-001",
+  "question": "Supply chain management primarily coordinates:",
+  "optionA": "Only factory operations",
+  "optionB": "The flow of goods, information and finance from suppliers to customers",
+  "optionC": "Advertising campaigns",
+  "optionD": "Office furniture",
+  "correctAnswer": "B",
+  "detailedExplanation": "SCM integrates suppliers, manufacturers, distributors and retailers, managing material, information and financial flows to deliver products efficiently to end customers.",
+  "difficulty": "easy",
+  "subject": "supply-chain",
+  "chapter": "scm-logistics",
+  "topic": "t-346",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "ots",
+   "cts",
+   "pts"
+  ],
+  "year": null,
+  "tags": [
+   "supply chain",
+   "basics"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "scm-002",
+  "question": "EOQ in inventory management stands for:",
+  "optionA": "Economic Order Quantity",
+  "optionB": "Electronic Order Queue",
+  "optionC": "Estimated Output Quality",
+  "optionD": "External Operations Quota",
+  "correctAnswer": "A",
+  "detailedExplanation": "EOQ is the optimal order size that minimises the total of ordering and holding costs, balancing frequent small orders against large inventory storage.",
+  "difficulty": "medium",
+  "subject": "supply-chain",
+  "chapter": "scm-logistics",
+  "topic": "t-346",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "ots",
+   "cts",
+   "pts"
+  ],
+  "year": null,
+  "tags": [
+   "EOQ",
+   "inventory"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "scm-003",
+  "question": "Just-in-Time (JIT) inventory aims to:",
+  "optionA": "Keep maximum safety stock",
+  "optionB": "Receive materials exactly when needed, minimising inventory",
+  "optionC": "Produce in bulk annually",
+  "optionD": "Outsource all warehousing",
+  "correctAnswer": "B",
+  "detailedExplanation": "JIT, pioneered by Toyota, delivers materials and parts just as they are needed in production, slashing inventory holding costs and waste while demanding reliable suppliers.",
+  "difficulty": "medium",
+  "subject": "supply-chain",
+  "chapter": "scm-logistics",
+  "topic": "t-347",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "ots",
+   "cts",
+   "pts"
+  ],
+  "year": null,
+  "tags": [
+   "JIT",
+   "inventory"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "scm-004",
+  "question": "The bullwhip effect describes:",
+  "optionA": "Demand fluctuations amplifying as they move upstream",
+  "optionB": "Price reduction in retail",
+  "optionC": "Faster delivery times",
+  "optionD": "Warehouse automation",
+  "correctAnswer": "A",
+  "detailedExplanation": "Small demand swings at the retail end become increasingly distorted and amplified toward suppliers - the bullwhip effect - caused by forecasting, batching and price fluctuations.",
+  "difficulty": "medium",
+  "subject": "supply-chain",
+  "chapter": "scm-strategy",
+  "topic": "t-348",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "ots",
+   "cts",
+   "pts"
+  ],
+  "year": null,
+  "tags": [
+   "bullwhip effect"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "scm-005",
+  "question": "3PL refers to:",
+  "optionA": "Three product lines",
+  "optionB": "Third-party logistics providers",
+  "optionC": "Triple profit levels",
+  "optionD": "Three-part ledger",
+  "correctAnswer": "B",
+  "detailedExplanation": "3PL companies (e.g. courier and freight firms) provide outsourced logistics services - transportation, warehousing and distribution - for other businesses.",
+  "difficulty": "easy",
+  "subject": "supply-chain",
+  "chapter": "scm-strategy",
+  "topic": "t-349",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "ots",
+   "cts",
+   "pts"
+  ],
+  "year": null,
+  "tags": [
+   "3PL",
+   "logistics"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "pse-001",
+  "question": "The number of players in a cricket team is:",
+  "optionA": "9",
+  "optionB": "10",
+  "optionC": "11",
+  "optionD": "12",
+  "correctAnswer": "C",
+  "detailedExplanation": "A cricket team fields 11 players; football and hockey also use 11 players per side, while basketball uses 5 and volleyball 6.",
+  "difficulty": "easy",
+  "subject": "physical-education",
+  "chapter": "ped-sports",
+  "topic": "t-350",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators",
+   "etea"
+  ],
+  "year": null,
+  "tags": [
+   "cricket",
+   "sports"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "pse-002",
+   "question": "Pakistan's official national game, which brought three Olympic gold medals, is:",
+  "optionA": "Cricket",
+  "optionB": "Field hockey",
+  "optionC": "Squash",
+  "optionD": "Football",
+  "correctAnswer": "B",
+  "detailedExplanation": "Field hockey is Pakistan's national sport, with Olympic golds in 1968, 1984 and multiple World Cup titles; cricket and squash are also celebrated.",
+  "difficulty": "easy",
+  "subject": "physical-education",
+  "chapter": "ped-sports",
+  "topic": "t-350",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators",
+   "etea"
+  ],
+  "year": null,
+  "tags": [
+   "hockey",
+   "pakistan sports"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "pse-003",
+  "question": "VO2 max is a measure of:",
+  "optionA": "Muscle strength",
+  "optionB": "Maximum oxygen uptake or aerobic fitness",
+  "optionC": "Body flexibility",
+  "optionD": "Bone density",
+  "correctAnswer": "B",
+  "detailedExplanation": "VO2 max, the maximum rate of oxygen consumption during exercise, is the gold-standard indicator of cardiorespiratory endurance and aerobic fitness.",
+  "difficulty": "medium",
+  "subject": "physical-education",
+  "chapter": "ped-sports",
+  "topic": "t-351",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators",
+   "etea"
+  ],
+  "year": null,
+  "tags": [
+   "VO2 max",
+   "fitness"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "pse-004",
+  "question": "The modern Olympic Games were revived in 1896 by:",
+  "optionA": "Baron Pierre de Coubertin",
+  "optionB": "Avery Brundage",
+  "optionC": "Thomas Bach",
+  "optionD": "Juan Antonio Samaranch",
+  "correctAnswer": "A",
+  "detailedExplanation": "French educator Baron Pierre de Coubertin revived the Olympics in Athens in 1896, inspired by the ancient Games at Olympia, and founded the modern Olympic movement.",
+  "difficulty": "easy",
+  "subject": "physical-education",
+  "chapter": "ped-olympics",
+  "topic": "t-352",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators",
+   "etea"
+  ],
+  "year": null,
+  "tags": [
+   "olympics",
+   "history"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "pse-005",
+  "question": "The Olympic Games are held every:",
+  "optionA": "2 years",
+  "optionB": "4 years",
+  "optionC": "5 years",
+  "optionD": "3 years",
+  "correctAnswer": "B",
+  "detailedExplanation": "Summer and Winter Olympics each occur every four years on staggered cycles, continuing the ancient Greek tradition of the four-year Olympiad.",
+  "difficulty": "easy",
+  "subject": "physical-education",
+  "chapter": "ped-olympics",
+  "topic": "t-352",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators",
+   "etea"
+  ],
+  "year": null,
+  "tags": [
+   "olympics"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "pse-006",
+  "question": "Jahangir Khan, a Pakistani legend, dominated which sport?",
+  "optionA": "Boxing",
+  "optionB": "Squash",
+  "optionC": "Tennis",
+  "optionD": "Badminton",
+  "correctAnswer": "B",
+  "detailedExplanation": "Jahangir Khan, a world squash champion, held the world number one ranking for years and remained unbeaten in competitive matches for over five years.",
+  "difficulty": "easy",
+  "subject": "physical-education",
+  "chapter": "ped-olympics",
+  "topic": "t-353",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators",
+   "etea"
+  ],
+  "year": null,
+  "tags": [
+   "squash",
+   "pakistani sportsmen"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "for-001",
+  "question": "Forests are often called the 'lungs of the Earth' because they:",
+  "optionA": "Store carbon dioxide only",
+  "optionB": "Absorb carbon dioxide and release oxygen through photosynthesis",
+  "optionC": "Produce timber",
+  "optionD": "Prevent floods",
+  "correctAnswer": "B",
+  "detailedExplanation": "Through photosynthesis forests absorb CO2 and emit oxygen, regulating atmospheric gases - the reason they are called the lungs of the Earth.",
+  "difficulty": "easy",
+  "subject": "forestry",
+  "chapter": "for-forests",
+  "topic": "t-354",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators",
+   "etea"
+  ],
+  "year": null,
+  "tags": [
+   "forests",
+   "ecology"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "for-002",
+  "question": "Coniferous forests are dominated by trees that:",
+  "optionA": "Lose leaves in autumn",
+  "optionB": "Bear needle-like evergreen leaves and cones",
+  "optionC": "Grow only in deserts",
+  "optionD": "Produce flowers in spring",
+  "correctAnswer": "B",
+  "detailedExplanation": "Conifers such as pine, fir and deodar bear needle-like evergreen leaves and cones; Pakistan's deodar forests grow in the northern mountains.",
+  "difficulty": "medium",
+  "subject": "forestry",
+  "chapter": "for-forests",
+  "topic": "t-354",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators",
+   "etea"
+  ],
+  "year": null,
+  "tags": [
+   "conifers",
+   "forest types"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "for-003",
+  "question": "The largest mangrove forest in Pakistan is located in:",
+  "optionA": "Chitral",
+  "optionB": "Indus Delta, Sindh",
+  "optionC": "Thar desert",
+  "optionD": "Potohar plateau",
+  "correctAnswer": "B",
+  "detailedExplanation": "The Indus Delta in Sindh hosts Pakistan's largest mangrove forest, which protects the coast, supports fisheries and buffers cyclones and tidal surges.",
+  "difficulty": "easy",
+  "subject": "forestry",
+  "chapter": "for-forests",
+  "topic": "t-355",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators",
+   "etea"
+  ],
+  "year": null,
+  "tags": [
+   "mangroves",
+   "pakistan forests"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "for-004",
+  "question": "Deforestation directly leads to:",
+  "optionA": "Increased rainfall",
+  "optionB": "Soil erosion and loss of biodiversity",
+  "optionC": "Higher groundwater levels",
+  "optionD": "Cooler climate",
+  "correctAnswer": "B",
+  "detailedExplanation": "Removing tree cover exposes soil to erosion, destroys wildlife habitats, reduces carbon sinks and disrupts local rainfall, contributing to climate change.",
+  "difficulty": "easy",
+  "subject": "forestry",
+  "chapter": "for-management",
+  "topic": "t-356",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators",
+   "etea"
+  ],
+  "year": null,
+  "tags": [
+   "deforestation"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "for-005",
+  "question": "The Pakistan Forest Institute is located in:",
+  "optionA": "Islamabad",
+  "optionB": "Peshawar",
+  "optionC": "Lahore",
+  "optionD": "Quetta",
+  "correctAnswer": "B",
+  "detailedExplanation": "The Pakistan Forest Institute in Peshawar trains forest officers and researchers and conducts forestry research for the country's forest departments.",
+  "difficulty": "medium",
+  "subject": "forestry",
+  "chapter": "for-management",
+  "topic": "t-356",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators",
+   "etea"
+  ],
+  "year": null,
+  "tags": [
+   "forest institute",
+   "pakistan"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "for-006",
+  "question": "Silviculture is the practice of:",
+  "optionA": "Growing and managing forest trees",
+  "optionB": "Breeding cattle",
+  "optionC": "Cultivating wheat",
+  "optionD": "Keeping bees",
+  "correctAnswer": "A",
+  "detailedExplanation": "Silviculture is the science of establishing, growing and tending forest stands for timber, fuelwood and ecosystem services - the core practice of forestry.",
+  "difficulty": "medium",
+  "subject": "forestry",
+  "chapter": "for-management",
+  "topic": "t-357",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators",
+   "etea"
+  ],
+  "year": null,
+  "tags": [
+   "silviculture"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "ess-001",
+  "question": "The standard three-part structure of an essay is:",
+  "optionA": "Title, index, glossary",
+  "optionB": "Introduction, body, conclusion",
+  "optionC": "Facts, figures, examples",
+  "optionD": "Thesis, evidence, citation",
+  "correctAnswer": "B",
+  "detailedExplanation": "A well-formed essay opens with an introduction (hook and thesis), develops arguments in body paragraphs, and closes with a conclusion that reinforces the thesis.",
+  "difficulty": "medium",
+  "subject": "essay",
+  "chapter": "ess-writing",
+  "topic": "t-358",
+  "exam": [
+   "css",
+   "pms"
+  ],
+  "year": null,
+  "tags": [
+   "essay structure"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "ess-002",
+  "question": "A thesis statement in an essay:",
+  "optionA": "Summarises every paragraph",
+  "optionB": "States the central argument in one clear sentence",
+  "optionC": "Lists the bibliography",
+  "optionD": "Asks a rhetorical question",
+  "correctAnswer": "B",
+  "detailedExplanation": "The thesis is the essay's central claim, usually placed at the end of the introduction, giving the essay focus and direction for all supporting paragraphs.",
+  "difficulty": "medium",
+  "subject": "essay",
+  "chapter": "ess-writing",
+  "topic": "t-358",
+  "exam": [
+   "css",
+   "pms"
+  ],
+  "year": null,
+  "tags": [
+   "thesis statement"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "ess-003",
+  "question": "Brainstorming during essay preparation refers to:",
+  "optionA": "Copying an existing essay",
+  "optionB": "Freely generating ideas and points before writing",
+  "optionC": "Counting words",
+  "optionD": "Selecting a font",
+  "correctAnswer": "B",
+  "detailedExplanation": "Brainstorming is a pre-writing technique of rapidly listing ideas, examples and arguments without judgement, which are then organised into an outline.",
+  "difficulty": "medium",
+  "subject": "essay",
+  "chapter": "ess-writing",
+  "topic": "t-359",
+  "exam": [
+   "css",
+   "pms"
+  ],
+  "year": null,
+  "tags": [
+   "brainstorming",
+   "planning"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "ess-004",
+  "question": "In the CSS essay paper, candidates are generally expected to write approximately:",
+  "optionA": "500 words",
+  "optionB": "2,500-3,000 words",
+  "optionC": "10,000 words",
+  "optionD": "100 words",
+  "correctAnswer": "B",
+  "detailedExplanation": "The FPSC CSS essay paper asks for essays of around 2,500-3,000 words within three hours, with presentation, argumentation and substance assessed.",
+  "difficulty": "medium",
+  "subject": "essay",
+  "chapter": "ess-css",
+  "topic": "t-360",
+  "exam": [
+   "css",
+   "pms"
+  ],
+  "year": null,
+  "tags": [
+   "CSS essay"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "ess-005",
+  "question": "Which of the following is a common CSS essay theme?",
+  "optionA": "The weather forecast",
+  "optionB": "Good governance and accountability",
+  "optionC": "Cooking recipes",
+  "optionD": "Vehicle maintenance",
+  "correctAnswer": "B",
+  "detailedExplanation": "CSS essays repeatedly feature governance, economy, education and society themes - for example good governance, youth development and economic self-reliance.",
+  "difficulty": "medium",
+  "subject": "essay",
+  "chapter": "ess-css",
+  "topic": "t-361",
+  "exam": [
+   "css",
+   "pms"
+  ],
+  "year": null,
+  "tags": [
+   "CSS themes"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ }
+]

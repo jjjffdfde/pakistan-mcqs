@@ -1,0 +1,102 @@
+{
+  "step": "publishing_engine",
+  "generated_at": "2026-08-05T13:07:20",
+  "summary": {
+    "approved_drafts": 18,
+    "published_to_production": 0,
+    "release_batch": "REL-20260805-001",
+    "mode": "append_only"
+  },
+  "published_records": [
+    {
+      "production_id": "pub-accounting-000001",
+      "draft_mcq_id": "gen-accounting-15195-8914-0006",
+      "status": "already_published_skipped"
+    },
+    {
+      "production_id": "pub-accounting-000003",
+      "draft_mcq_id": "gen-accounting-15197-8913-0008",
+      "status": "already_published_skipped"
+    },
+    {
+      "production_id": "pub-agriculture-000004",
+      "draft_mcq_id": "gen-agriculture-15204-8929-0015",
+      "status": "already_published_skipped"
+    },
+    {
+      "production_id": "pub-ajkpsc-000006",
+      "draft_mcq_id": "gen-ajkpsc-15218-8941-0029",
+      "status": "already_published_skipped"
+    },
+    {
+      "production_id": "pub-ajkpsc-000007",
+      "draft_mcq_id": "gen-ajkpsc-15222-8947-0033",
+      "status": "already_published_skipped"
+    },
+    {
+      "production_id": "pub-ajkpsc-000008",
+      "draft_mcq_id": "gen-ajkpsc-15223-8948-0034",
+      "status": "already_published_skipped"
+    },
+    {
+      "production_id": "pub-analytical-reasoning-000014",
+      "draft_mcq_id": "gen-analytical-reasoning-15234-8955-0045",
+      "status": "already_published_skipped"
+    },
+    {
+      "production_id": "pub-anatomy-000018",
+      "draft_mcq_id": "gen-anatomy-15246-8963-0057",
+      "status": "already_published_skipped"
+    },
+    {
+      "production_id": "pub-anatomy-000019",
+      "draft_mcq_id": "gen-anatomy-15247-8968-0058",
+      "status": "already_published_skipped"
+    },
+    {
+      "production_id": "pub-anf-000020",
+      "draft_mcq_id": "gen-anf-15249-8972-0060",
+      "status": "already_published_skipped"
+    },
+    {
+      "production_id": "pub-anthropology-000023",
+      "draft_mcq_id": "gen-anthropology-15263-8987-0074",
+      "status": "already_published_skipped"
+    },
+    {
+      "production_id": "pub-anthropology-000024",
+      "draft_mcq_id": "gen-anthropology-15265-8986-0076",
+      "status": "already_published_skipped"
+    },
+    {
+      "production_id": "pub-antonyms-000026",
+      "draft_mcq_id": "gen-antonyms-15267-8994-0078",
+      "status": "already_published_skipped"
+    },
+    {
+      "production_id": "pub-antonyms-000027",
+      "draft_mcq_id": "gen-antonyms-15268-8995-0079",
+      "status": "already_published_skipped"
+    },
+    {
+      "production_id": "pub-antonyms-000028",
+      "draft_mcq_id": "gen-antonyms-15269-8996-0080",
+      "status": "already_published_skipped"
+    },
+    {
+      "production_id": "pub-antonyms-000030",
+      "draft_mcq_id": "gen-antonyms-15271-8991-0082",
+      "status": "already_published_skipped"
+    },
+    {
+      "production_id": "pub-aptitude-tests-000036",
+      "draft_mcq_id": "gen-aptitude-tests-15280-9003-0091",
+      "status": "already_published_skipped"
+    },
+    {
+      "production_id": "pub-army-000037",
+      "draft_mcq_id": "gen-army-15288-9011-0099",
+      "status": "already_published_skipped"
+    }
+  ]
+}

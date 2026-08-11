@@ -1,0 +1,30 @@
+{
+  "step": "deployment",
+  "generated_at": "2026-08-10T11:58:31.595Z",
+  "pipeline": {
+    "orchestrator": true,
+    "site_build": true,
+    "icon_build": true,
+    "audit": true
+  },
+  "build_scripts": [
+    {
+      "name": "build-windows.cmd",
+      "present": true
+    },
+    {
+      "name": "build-linux.sh",
+      "present": true
+    },
+    {
+      "name": "build-android.cmd",
+      "present": true
+    }
+  ],
+  "release_targets": {
+    "desktop_release_dir": true,
+    "android_apk_dir": true,
+    "report_output": true
+  },
+  "gh_pages": true
+}

@@ -1,0 +1,187 @@
+{
+  "generatedAt": "2026-08-04",
+  "totalActive": 869487,
+  "subjectCount": 243,
+  "priority": {
+    "A": {
+      "subjects": 105,
+      "mcqs": 3457,
+      "deficit": 731543
+    },
+    "B": {
+      "subjects": 0,
+      "mcqs": 0,
+      "deficit": 0
+    },
+    "C": {
+      "subjects": 0,
+      "mcqs": 0,
+      "deficit": 0
+    },
+    "D": {
+      "subjects": 1,
+      "mcqs": 5000,
+      "deficit": 2000
+    },
+    "E": {
+      "subjects": 137,
+      "mcqs": 861030,
+      "deficit": 245252
+    }
+  },
+  "belowTarget": 239,
+  "totalSubjectDeficit": 978795,
+  "chapters": {
+    "total": 884,
+    "belowTarget": 699,
+    "target": 300
+  },
+  "topics": {
+    "total": 1597,
+    "belowTarget": 1311,
+    "target": 150
+  },
+  "subtopics": {
+    "total": 4436,
+    "target": 75,
+    "note": "mcqs.subtopic_id linkage is sparse; measured separately"
+  },
+  "difficulty": [
+    {
+      "difficulty": "easy",
+      "n": 208688
+    },
+    {
+      "difficulty": "hard",
+      "n": 21551
+    },
+    {
+      "difficulty": "medium",
+      "n": 639248
+    }
+  ],
+  "explanation": {
+    "under40": 20650,
+    "under60": 142462,
+    "atLeast120": 266834
+  },
+  "metadata": {
+    "learningObjective": {
+      "populated": 869487,
+      "distinct": 216927,
+      "doubledWordFiller": 1125
+    },
+    "examTip": {
+      "populated": 868636,
+      "distinct": 654
+    },
+    "memoryTrick": {
+      "populated": 868636,
+      "distinct": 43623
+    },
+    "whyWrong": {
+      "populated": 869487,
+      "perOptionArray": 869487,
+      "circularFiller": 1840
+    },
+    "references": {
+      "nonEmpty": 0
+    },
+    "bloom": [
+      {
+        "bloom_taxonomy": "Apply",
+        "n": 621781
+      },
+      {
+        "bloom_taxonomy": "Understand",
+        "n": 245487
+      },
+      {
+        "bloom_taxonomy": "Recall",
+        "n": 1840
+      },
+      {
+        "bloom_taxonomy": "Analyze",
+        "n": 379
+      }
+    ]
+  },
+  "distractorRecycling": [
+    {
+      "subject": "mathematics",
+      "distractors": 345996,
+      "recycled": 305621,
+      "recycledPct": 88.3
+    },
+    {
+      "subject": "statistics",
+      "distractors": 127410,
+      "recycled": 34784,
+      "recycledPct": 27.3
+    },
+    {
+      "subject": "rust",
+      "distractors": 28431,
+      "recycled": 22535,
+      "recycledPct": 79.3
+    },
+    {
+      "subject": "go",
+      "distractors": 24009,
+      "recycled": 16829,
+      "recycledPct": 70.1
+    },
+    {
+      "subject": "csharp",
+      "distractors": 20070,
+      "recycled": 14040,
+      "recycledPct": 70
+    },
+    {
+      "subject": "physics",
+      "distractors": 18630,
+      "recycled": 10464,
+      "recycledPct": 56.2
+    },
+    {
+      "subject": "cpp",
+      "distractors": 17979,
+      "recycled": 12707,
+      "recycledPct": 70.7
+    },
+    {
+      "subject": "management-accounting",
+      "distractors": 17277,
+      "recycled": 14036,
+      "recycledPct": 81.2
+    },
+    {
+      "subject": "analytical-reasoning",
+      "distractors": 16611,
+      "recycled": 16529,
+      "recycledPct": 99.5
+    },
+    {
+      "subject": "dental-surgery",
+      "distractors": 16533,
+      "recycled": 15873,
+      "recycledPct": 96
+    },
+    {
+      "subject": "dental-medicine",
+      "distractors": 16452,
+      "recycled": 15169,
+      "recycledPct": 92.2
+    },
+    {
+      "subject": "architecture",
+      "distractors": 16422,
+      "recycled": 16215,
+      "recycledPct": 98.7
+    }
+  ],
+  "duplicates": {
+    "qhashUnique": 869487,
+    "total": 869487
+  }
+}

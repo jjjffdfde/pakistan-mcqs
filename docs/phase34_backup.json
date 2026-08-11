@@ -1,0 +1,1486 @@
+{
+ "snapshot_dir": "E:\\pAK MCQS\\phase34-backup-2026-08-11T11-20-39",
+ "created_utc": "2026-08-11T11:24:13.765Z",
+ "note": "snapshot located OUTSIDE the git repository content (gitignored path inside project per Phase 34 spec example); .audit-tmp items were scratch and are deleted (evidence preserved in docs/)",
+ "file_count_moved": 211,
+ "total_size_bytes": 2492407191,
+ "manifest": [
+  {
+   "path": "db/pakistan-mcqs.rebuilt.sqlite",
+   "size": 2145193984,
+   "sha256": "563a43acddab58e9d052276303cb20a51458612886f496912ab784c14efb107e",
+   "moved_to": "db/pakistan-mcqs.rebuilt.sqlite",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs.json",
+   "size": 173150191,
+   "sha256": "0fee6ee0e752e070194eafc3dd0ba3b661704551c12c0fb322fdaf8195d34637",
+   "moved_to": "data/export/mcqs.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-mathematics.json",
+   "size": 81692485,
+   "sha256": "056834cf151d3d88e239219eaa441b5e3e782cb577e7cebafc0eb0f39dac4e4d",
+   "moved_to": "data/export/mcqs-mathematics.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-statistics.json",
+   "size": 30727744,
+   "sha256": "dbef7c8b2ce3de43e818d7573fd431082933f9973207d36a711a43f6bacd7e24",
+   "moved_to": "data/export/mcqs-statistics.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-rust.json",
+   "size": 6866556,
+   "sha256": "f833c620dabca38d052567c5943f01473f4e86838b7ef735c7902c3599055c5e",
+   "moved_to": "data/export/mcqs-rust.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-go.json",
+   "size": 5640061,
+   "sha256": "b0aa51bba2b0b9db1a16171b6481ad46b172fb229459daae3490ab7fce18208f",
+   "moved_to": "data/export/mcqs-go.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-csharp.json",
+   "size": 4802416,
+   "sha256": "27546de0b0255156a082c461f931ee1423381522c060c0dd86e0f855f6a6d3be",
+   "moved_to": "data/export/mcqs-csharp.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-physics.json",
+   "size": 4476939,
+   "sha256": "58b5fa62b91adf86ddc650797bdd0b93d4d0dfc01b320cb64772f09a634fec04",
+   "moved_to": "data/export/mcqs-physics.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-analytical-reasoning.json",
+   "size": 4408096,
+   "sha256": "83cea0a98e44a4765261f091eb9e13d62a72d71a9d93fbe5e6752760dbb0511c",
+   "moved_to": "data/export/mcqs-analytical-reasoning.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-cpp.json",
+   "size": 4277415,
+   "sha256": "66815321465d5d82eab8959ff12a3b7de465e264c7afefe3e2f9ae24fb66442e",
+   "moved_to": "data/export/mcqs-cpp.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-javascript.json",
+   "size": 3975466,
+   "sha256": "8db8202d39bbc753f756b9b12fc5b87a759c910f079720d9310ee4eb7cedceae",
+   "moved_to": "data/export/mcqs-javascript.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-data-interpretation.json",
+   "size": 3966751,
+   "sha256": "54a40bf937154fd7af3df4fe7c60ef5447720bd2bb1d57d13539651f418f237b",
+   "moved_to": "data/export/mcqs-data-interpretation.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-c.json",
+   "size": 3856683,
+   "sha256": "efeef3d9faa9cd4fa75c56e63db78d1425c452d86a1ddbe8c861ed40fc6cd34a",
+   "moved_to": "data/export/mcqs-c.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-python.json",
+   "size": 3822729,
+   "sha256": "cf15b9ccb1f2c9748c80fe01c20400201ca2924d1068390e00ecaa459244f68e",
+   "moved_to": "data/export/mcqs-python.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-iq.json",
+   "size": 3727813,
+   "sha256": "286f40fde265e39f275fe94d6bd39e6ba8f27423277b0578e52a3ce837f706a2",
+   "moved_to": "data/export/mcqs-iq.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-java.json",
+   "size": 3711671,
+   "sha256": "635362f97dd69b896607f4b5b848d120bef966ab4552564d608d452d8cd780c3",
+   "moved_to": "data/export/mcqs-java.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-php.json",
+   "size": 3652615,
+   "sha256": "4e72608a00019f5a25e86d3bfeee92d85b1f01915d30ceaf3ab7314f5973de5a",
+   "moved_to": "data/export/mcqs-php.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "phase37-production-verification.html",
+   "size": 337411,
+   "sha256": "9fe7bc41b9142be81b4731c8d3e6aae3f93f7768f6d272e69d5e7a884b2fbe07",
+   "moved_to": "phase37-production-verification.html",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-aptitude-tests.json",
+   "size": 313212,
+   "sha256": "8c47ed463252a2b2f498304fe6ab9d2ed3be1e87a47e652c2e37765db9f626bb",
+   "moved_to": "data/export/mcqs-aptitude-tests.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-non-verbal-reasoning.json",
+   "size": 254420,
+   "sha256": "10dd937654c34f02fb57ddc136f5c267aa1a5513b81c2f9ae419a66922e9dfca",
+   "moved_to": "data/export/mcqs-non-verbal-reasoning.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-verbal-reasoning.json",
+   "size": 254001,
+   "sha256": "a005bfa89b1dddc3ada69cc1cebf969850850658f3b6bc9f444017f254aedf56",
+   "moved_to": "data/export/mcqs-verbal-reasoning.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-logical-reasoning.json",
+   "size": 182876,
+   "sha256": "efce8117a6300771c5ab4824559b10f26185a42e646876a16fbf19ef320950bd",
+   "moved_to": "data/export/mcqs-logical-reasoning.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/topics.json",
+   "size": 174784,
+   "sha256": "8745ae5d299499fe2df605a5b946871a0c151ad3fb5888029765407c03d689dc",
+   "moved_to": "data/export/topics.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-geography.json",
+   "size": 173341,
+   "sha256": "574db05cb7cbb309412de3c21ac734ef9eb22896d3138d38f00026ca094f5490",
+   "moved_to": "data/export/mcqs-geography.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/chapters.json",
+   "size": 126715,
+   "sha256": "6c795a3d4964ce2821a7b5070e1f83c712b5e94e75d8eda548457ff02353e674",
+   "moved_to": "data/export/chapters.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-islamic-studies.json",
+   "size": 77053,
+   "sha256": "4e41c78bed6e5370dffeb690909094345ac397c25c374ed2cb277c390d0d2f0f",
+   "moved_to": "data/export/mcqs-islamic-studies.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/subjects.json",
+   "size": 73394,
+   "sha256": "0ffeac8555248714ba333fa36d51ece1073ab5af36e068a108526eede88cd740",
+   "moved_to": "data/export/subjects.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-pakistan-affairs.json",
+   "size": 68398,
+   "sha256": "effd9918e3f33cfa84ed3d3efa9e46bd4609ab6565e13f30897b6f347b6eaa46",
+   "moved_to": "data/export/mcqs-pakistan-affairs.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "subject-mcq-distribution-report.html",
+   "size": 62934,
+   "sha256": "f2eff93b5c6fb1da444c3937bc46e20a3961fba2b58b0e1fe26a8edcf366ec48",
+   "moved_to": "subject-mcq-distribution-report.html",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-urdu.json",
+   "size": 54008,
+   "sha256": "725517030126098f116e7b754423169b72518e969e6aa0b500d165c72b41638a",
+   "moved_to": "data/export/mcqs-urdu.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-general-knowledge.json",
+   "size": 53887,
+   "sha256": "51bcd8c1fcc80b92065029ceb524d70a4e1d69facf2b7f409d9fda62b1c7ecd3",
+   "moved_to": "data/export/mcqs-general-knowledge.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-everyday-science.json",
+   "size": 52113,
+   "sha256": "6c3383cd37eaa1744591b37b3817d29d00c930ae5153388d61c56236b95895e5",
+   "moved_to": "data/export/mcqs-everyday-science.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-computer-science.json",
+   "size": 48372,
+   "sha256": "36340aa235bb736614c7b7c90bd23d479082f8f3dc09c299ed9d5ce15ba3a186",
+   "moved_to": "data/export/mcqs-computer-science.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-english.json",
+   "size": 47403,
+   "sha256": "b340b396bf63f997f908d0bc1ee330f59f06bfc02c4907a1a27b172969d1c95c",
+   "moved_to": "data/export/mcqs-english.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-current-affairs.json",
+   "size": 40540,
+   "sha256": "fd0247af79b4e052d3dbe5969882a3650f7857b7d350d94e515e15babd885c4f",
+   "moved_to": "data/export/mcqs-current-affairs.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-vocabulary.json",
+   "size": 40509,
+   "sha256": "18198726e2a340e1de2e4f4ce1671bc9007b8338b4c9241dcaac8ed4cc2484a5",
+   "moved_to": "data/export/mcqs-vocabulary.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-economics.json",
+   "size": 34090,
+   "sha256": "d91c49b2d274ae42cca1aa6dab344f0372bfa1177e2811f52419e06fe28b81db",
+   "moved_to": "data/export/mcqs-economics.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-biology.json",
+   "size": 33443,
+   "sha256": "0014ad1a2d7b2236ce00f4ff0108eddc20cd0e80a418fe997b435da6fcad8659",
+   "moved_to": "data/export/mcqs-biology.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "db/pakistan-mcqs.rebuilt.sqlite-shm",
+   "size": 32768,
+   "sha256": "fd4c9fda9cd3f9ae7c962b0ddf37232294d55580e1aa165aa06129b8549389eb",
+   "moved_to": "db/pakistan-mcqs.rebuilt.sqlite-shm",
+   "status": "MOVED"
+  },
+  {
+   "path": "quiz-audit-report.html",
+   "size": 30727,
+   "sha256": "06273f491fb7f0aa462082b84c4bd19b4d0cfd89e223eac37e8fd589a254b5a5",
+   "moved_to": "quiz-audit-report.html",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-chemistry.json",
+   "size": 30389,
+   "sha256": "e6521e3ee0f4138eeb10800e60fdefbb7d43445107ed7268c1e9c4f8cc421a8b",
+   "moved_to": "data/export/mcqs-chemistry.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-programming.json",
+   "size": 29016,
+   "sha256": "cf7033ebb99de5a7ed6303dbde7df43986bdcde90927cadbdfe6cfd69f27d221",
+   "moved_to": "data/export/mcqs-programming.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-software-eng.json",
+   "size": 27477,
+   "sha256": "f32629d24fdbeb03fc56ccda081c43d6dd7c779efc4ab9d2254951693ec72c4f",
+   "moved_to": "data/export/mcqs-software-eng.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-english-literature.json",
+   "size": 27401,
+   "sha256": "b576063588fe4577e3f9f6159090a9bc3d8748011c2283bd005add373d1b4c9d",
+   "moved_to": "data/export/mcqs-english-literature.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-electrical-eng.json",
+   "size": 27320,
+   "sha256": "0f42e710fb6c8abbcfe8d5705953160b261f41eb7382a12583b7928893b269a2",
+   "moved_to": "data/export/mcqs-electrical-eng.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-environmental-science.json",
+   "size": 26342,
+   "sha256": "e4b5b2467122e24b92d592c9ad97d648087cdfb169b895b85a5593319f70a9c1",
+   "moved_to": "data/export/mcqs-environmental-science.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-ms-office.json",
+   "size": 25763,
+   "sha256": "1d1a2f832407c88670a02834c514812cac24597d3c5a42bd25805276e296d970",
+   "moved_to": "data/export/mcqs-ms-office.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-pedagogy.json",
+   "size": 24099,
+   "sha256": "7e8ec6355a4ce5eb47c7d43378e0e685c8b51234535346170445b8b0bdbaf486",
+   "moved_to": "data/export/mcqs-pedagogy.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-mechanical-eng.json",
+   "size": 23557,
+   "sha256": "374be3fa5a23e6853a27c6e395ee4d977c95e0f754c0b89647c84bbfdc75db60",
+   "moved_to": "data/export/mcqs-mechanical-eng.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-law.json",
+   "size": 22750,
+   "sha256": "08b1e31c0699255d3fd47e269f1fa9d8d5e36f9228ce54f43bd28eb02354f159",
+   "moved_to": "data/export/mcqs-law.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-constitution.json",
+   "size": 22718,
+   "sha256": "a82c81576d6adbc52b47b71af5bc953df8d6b45b535adceb1f23b6791c6da45b",
+   "moved_to": "data/export/mcqs-constitution.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-accounting.json",
+   "size": 22456,
+   "sha256": "44a6e49c60ae35ecc0355e0e34cf3fc7d39ef0b9081444aa5b1e4ecae8a6cd38",
+   "moved_to": "data/export/mcqs-accounting.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-world-history.json",
+   "size": 22146,
+   "sha256": "6433b75cdcbd87d6d4ef02aaf93c1c3afcfc92b64292ceb785f42fb92af288d2",
+   "moved_to": "data/export/mcqs-world-history.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-linux.json",
+   "size": 21179,
+   "sha256": "3fbb216ab5f6ef76777bbb5af63d72f0cc9cbffd88a9beb6cab0b2bc7950b33e",
+   "moved_to": "data/export/mcqs-linux.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-pakistan-history.json",
+   "size": 21170,
+   "sha256": "609af76e56fab14e811eaf1228013b07f82cacdc971fa6ba745ec46b602115ef",
+   "moved_to": "data/export/mcqs-pakistan-history.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-networking.json",
+   "size": 20976,
+   "sha256": "1a5720d85f0b42f68f37ddfe24952a70a96b01b6c6a58e56af4dc6824c2c9461",
+   "moved_to": "data/export/mcqs-networking.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-idioms.json",
+   "size": 20603,
+   "sha256": "127e8ca9f8539654fce64f2ec6a75adebcc1581df7eba2a686e10ca286e6530a",
+   "moved_to": "data/export/mcqs-idioms.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-operating-systems.json",
+   "size": 20530,
+   "sha256": "5bfe8576da1875b6ee011dc2de436dd6066f7a43ab67087f210746f690fc40c7",
+   "moved_to": "data/export/mcqs-operating-systems.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-civil-eng.json",
+   "size": 20386,
+   "sha256": "46c8a1feb27036a55984cafdf3d39c021e6c473263899f2381f8a88e4b4c62e2",
+   "moved_to": "data/export/mcqs-civil-eng.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-zoology.json",
+   "size": 20034,
+   "sha256": "c1e27e08bf38d985850ece848fc1c68bd7812bea56a628bdb8d22c59f722a45b",
+   "moved_to": "data/export/mcqs-zoology.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-ai.json",
+   "size": 19111,
+   "sha256": "4fc812a63a7c337e708be8239d842d60b68dfd3e11217ebd7a9ee3d14e37b02d",
+   "moved_to": "data/export/mcqs-ai.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-css.json",
+   "size": 18918,
+   "sha256": "5e4be86a27b804937935cb79d03ffe6d7056a6e8a89554383151dd0425356788",
+   "moved_to": "data/export/mcqs-css.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-git-github.json",
+   "size": 18798,
+   "sha256": "0453b09bb7cbae4180353c472b73705cae487a1cbd0594faca320c71877ac928",
+   "moved_to": "data/export/mcqs-git-github.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-cyber-security.json",
+   "size": 18620,
+   "sha256": "e2b7fb10e6cfd18fb502e12555511d3e696c6d748de570318fde903681a5b090",
+   "moved_to": "data/export/mcqs-cyber-security.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-html.json",
+   "size": 18327,
+   "sha256": "1221a4c1e9ad0ac0a5992cefc68677d195f96bfe9c261d784633697ebd8e5bdf",
+   "moved_to": "data/export/mcqs-html.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-botany.json",
+   "size": 18109,
+   "sha256": "99145a38a7b87e58a752c2796c5e56fc99d4bee41ff1b6c7be3bb7079fe13591",
+   "moved_to": "data/export/mcqs-botany.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-database.json",
+   "size": 17652,
+   "sha256": "74070ba8fcebf9889b4ae82f5c0c75c9533c483009d23eb2522c311d45a48c60",
+   "moved_to": "data/export/mcqs-database.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-business-admin.json",
+   "size": 17401,
+   "sha256": "25513a5a2c33b3f4a68f3777eac09940d7eeefcf7e0a404a472310e9f2eb8846",
+   "moved_to": "data/export/mcqs-business-admin.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-essay.json",
+   "size": 17351,
+   "sha256": "867ea5d942f3a87dd96df2eacc9b93a338514486a18eb9eb7e3be616542f98b3",
+   "moved_to": "data/export/mcqs-essay.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-machine-learning.json",
+   "size": 16914,
+   "sha256": "e5068a5b2f5358dea5e5cfba8cc501efd2127a416e028ffb8f4e7f8707a11698",
+   "moved_to": "data/export/mcqs-machine-learning.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-antonyms.json",
+   "size": 16897,
+   "sha256": "1dc6f0b1e628f92ba1c2eb556aee48547f7b8964572d1a2144511625104d292f",
+   "moved_to": "data/export/mcqs-antonyms.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-synonyms.json",
+   "size": 16881,
+   "sha256": "848ef78e62dae9e2477db3dd4f12d6fdf11a101fbda8f3aa6dd891d30c9bfceb",
+   "moved_to": "data/export/mcqs-synonyms.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-reasoning.json",
+   "size": 16801,
+   "sha256": "975f0b1d6fa62ac43e4d606bf2e7543a803ec65229b669f4aa38563e70d9df9d",
+   "moved_to": "data/export/mcqs-reasoning.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-biotechnology.json",
+   "size": 16659,
+   "sha256": "706f7514ec7b2a249057e97ba14d7cdeb6e6db5aa911306bcc42f3982cd4ff18",
+   "moved_to": "data/export/mcqs-biotechnology.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-electronics.json",
+   "size": 16643,
+   "sha256": "e9d022272ae81ec10219a0f73d07cb4ee14b85f7362c764cf30c1fbd7a115b94",
+   "moved_to": "data/export/mcqs-electronics.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-world-current-affairs.json",
+   "size": 16481,
+   "sha256": "018ca8ba5658d6acce348fb8786810fd4a7bc8a3c5df5c2d8e3336860d6fb53e",
+   "moved_to": "data/export/mcqs-world-current-affairs.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-deep-learning.json",
+   "size": 16356,
+   "sha256": "94dd8b3d0adab101f9aa4b0a3b33d8710a56a8ea403dcd6a3997ae72de2e37e2",
+   "moved_to": "data/export/mcqs-deep-learning.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-finance.json",
+   "size": 16223,
+   "sha256": "b3bfa08a0b0b85e7f303ab40fbc42e1c0822b33479fc9e51c05d15d5f58b8643",
+   "moved_to": "data/export/mcqs-finance.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-agriculture.json",
+   "size": 16172,
+   "sha256": "9fbde19cafb4d96f6b3daf9fef9adcbc9cf96e198ffede37c6cb07902bbecb71",
+   "moved_to": "data/export/mcqs-agriculture.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-psychology.json",
+   "size": 15618,
+   "sha256": "ff4e2b295ee81581c93d537d39217d64708b037b4bb2ec878a1ceae52b77bb2c",
+   "moved_to": "data/export/mcqs-psychology.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-medicine.json",
+   "size": 15616,
+   "sha256": "7b8a4931bc2053a09f1484f78c8cb4bd54181503d7ff01a4816b840ebe007bb5",
+   "moved_to": "data/export/mcqs-medicine.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-data-science.json",
+   "size": 15479,
+   "sha256": "b99b1d133e5ae653dd1a0654f7c1548a4d6671209228ac7b66454faa3f8c5b79",
+   "moved_to": "data/export/mcqs-data-science.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-windows.json",
+   "size": 15105,
+   "sha256": "5d4986b5635080b440ab1c638522563e58491729424dcb400e5bc3eae765c4ff",
+   "moved_to": "data/export/mcqs-windows.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-grammar.json",
+   "size": 15077,
+   "sha256": "08d6d568557469101ace8c60a52905d03e9581bea23cdf279d3a0a3935edda0d",
+   "moved_to": "data/export/mcqs-grammar.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-bootstrap.json",
+   "size": 15058,
+   "sha256": "99213fb7f615ce9b0de1c76e717595db1b9d72fd54942f8760f8de6d5c09c303",
+   "moved_to": "data/export/mcqs-bootstrap.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-surgery.json",
+   "size": 14806,
+   "sha256": "889bb2d68c6e804d5f13a26c26a9c84d93118508777ddfd85f58214e1c2c8531",
+   "moved_to": "data/export/mcqs-surgery.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-medical.json",
+   "size": 14763,
+   "sha256": "a7a45b6613b7bbc88902dbf5e1dccf97844aace4789d15cbbaf47c58e1604159",
+   "moved_to": "data/export/mcqs-medical.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-anatomy.json",
+   "size": 14732,
+   "sha256": "6e03eb712adb0e4d524787f235379c230bd9abc3fa249bab1b38bee2f0892004",
+   "moved_to": "data/export/mcqs-anatomy.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-sociology.json",
+   "size": 14679,
+   "sha256": "90df3bba1e19bba0885617dfc754e3cfc046d2f17d8de3aa863908b58d6887a8",
+   "moved_to": "data/export/mcqs-sociology.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-computer-engineering.json",
+   "size": 14670,
+   "sha256": "a396e9362cd63d3626f8e66facedf905855604f51bae8f64a9186dfaaf736af3",
+   "moved_to": "data/export/mcqs-computer-engineering.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-history.json",
+   "size": 14659,
+   "sha256": "696759ec29eecdb6aa733b56cdf468ff5d31db7c7c1e834fd6b23fb8d4890deb",
+   "moved_to": "data/export/mcqs-history.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-cloud-computing.json",
+   "size": 14570,
+   "sha256": "e5184c65f85ea29debe58b8e5d67072a9ed31fc82fc4e41dfb4590aba6557150",
+   "moved_to": "data/export/mcqs-cloud-computing.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-auditing.json",
+   "size": 14292,
+   "sha256": "5663779623cbec7918d036d3b26ee941841f46e8400b3693c68e47db05e39fe7",
+   "moved_to": "data/export/mcqs-auditing.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-mechatronics.json",
+   "size": 14018,
+   "sha256": "c2ffe3870a9cf3df47994d9b5e6642005b0d7ea1a5c1e2e37f3b0a69552afcae",
+   "moved_to": "data/export/mcqs-mechatronics.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-environmental-eng.json",
+   "size": 13884,
+   "sha256": "43008828e7b678b30cadab497bf5384d12248c882b15cdb782aa423181a7c020",
+   "moved_to": "data/export/mcqs-environmental-eng.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-hrm.json",
+   "size": 13873,
+   "sha256": "dfd31833156757ee2708505e20bc58d148296a1900029462168f5a6fd8893cca",
+   "moved_to": "data/export/mcqs-hrm.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/pastpapers.json",
+   "size": 13773,
+   "sha256": "2ba8eaea0f0fd0555868ce76740e92a593ae8071f1e7c379730e2f321f404844",
+   "moved_to": "data/export/pastpapers.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-physical-education.json",
+   "size": 13754,
+   "sha256": "9e229319b6b2a7cab938cbd16b8a4ed93a4149ac2100558586d88d731dc3c7c2",
+   "moved_to": "data/export/mcqs-physical-education.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-marketing.json",
+   "size": 13748,
+   "sha256": "ca72a863588d9c551b6ba8743f730a51f6e7594feadb363546f40cbede1cf82a",
+   "moved_to": "data/export/mcqs-marketing.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-community-medicine.json",
+   "size": 13726,
+   "sha256": "6d184eb3dd07280134eedb615624bd2eaa24438ae710a27a16ac8795241151a9",
+   "moved_to": "data/export/mcqs-community-medicine.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-physiology.json",
+   "size": 13726,
+   "sha256": "b47ee7dbd24b9e28c611e161d0eda49dfff3f8d0b6d4330e2843bb3472644da3",
+   "moved_to": "data/export/mcqs-physiology.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-docker.json",
+   "size": 13722,
+   "sha256": "797ac51c9fb74993a0d7a81f9138437a12afc6660fd98acf2437b4c48fcb8ce6",
+   "moved_to": "data/export/mcqs-docker.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-international-relations.json",
+   "size": 13504,
+   "sha256": "5b2af597147f4f685f271239526b1998a5353aa1fae37c3295d95ed36da0aeab",
+   "moved_to": "data/export/mcqs-international-relations.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-political-science.json",
+   "size": 13403,
+   "sha256": "be261378fa105c819ab7b8a90b5363db69fadefae3828c3944d6ac9c66f748b7",
+   "moved_to": "data/export/mcqs-political-science.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-chemical-eng.json",
+   "size": 13341,
+   "sha256": "135887f22bb89ccfecd7e4a72e71b688dedc62f8e4da822b425c5fba4fe5486c",
+   "moved_to": "data/export/mcqs-chemical-eng.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-industrial-eng.json",
+   "size": 13226,
+   "sha256": "315b3bac5ce90b1258bc9520967cbdf57eb568142215ee15443f194150608a47",
+   "moved_to": "data/export/mcqs-industrial-eng.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-sql.json",
+   "size": 13159,
+   "sha256": "05fa7d084a739a1b3f7ceef909468ac98d14b442365222880663884088fa431e",
+   "moved_to": "data/export/mcqs-sql.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-pathology.json",
+   "size": 13033,
+   "sha256": "5f66bdf52fa8053cbab31fe9d144864e24219ecd4ed6af661c65e575b5e99438",
+   "moved_to": "data/export/mcqs-pathology.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-education.json",
+   "size": 12803,
+   "sha256": "d9614a5a9688f05ad9fa2304c4520749f67e9916a6e9834901b139dbb2cfc47e",
+   "moved_to": "data/export/mcqs-education.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-veterinary.json",
+   "size": 12514,
+   "sha256": "52f3944f412b4d6828d935ebb8fa31527f53e3c65951a3fe5968bfbca373e9fe",
+   "moved_to": "data/export/mcqs-veterinary.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-forestry.json",
+   "size": 12437,
+   "sha256": "13a5f1afd8ea5917ea0cdc981f9f80eaea0286afc8a4dc8876139c3fb18446ce",
+   "moved_to": "data/export/mcqs-forestry.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-pharmacology.json",
+   "size": 12377,
+   "sha256": "c5e3f5276520038317ffe63a528bc6fca7b71866e32e145d288a7a4ba639a611",
+   "moved_to": "data/export/mcqs-pharmacology.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-ethical-hacking.json",
+   "size": 11942,
+   "sha256": "aa08130cfd52daa112aceb4a4066a3fdfad1be4d8238c44d76b3766f89ba7c88",
+   "moved_to": "data/export/mcqs-ethical-hacking.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-microbiology.json",
+   "size": 11910,
+   "sha256": "652d6285e91a8a1e618025210d5f7431849f57f15dedaca52cc5fbddf1132fa1",
+   "moved_to": "data/export/mcqs-microbiology.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-commerce.json",
+   "size": 11798,
+   "sha256": "0f365721d9c2508910ad732b4691fa0ceee4d6f2e59f580dd14a6b949eacd6ae",
+   "moved_to": "data/export/mcqs-commerce.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-nursing.json",
+   "size": 11787,
+   "sha256": "88b8e7cb750cb93ee56bc44460975a5a3f57887122ba9e0cc4296e04bb14f01f",
+   "moved_to": "data/export/mcqs-nursing.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-biochemistry.json",
+   "size": 11612,
+   "sha256": "876cdb83fbfbbbc49ebb71577bde2693388645d99f6fdbb3a2c97beff7a612ff",
+   "moved_to": "data/export/mcqs-biochemistry.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-react.json",
+   "size": 11587,
+   "sha256": "60ab26f2019dac6fc5c5cfdcf0678b6d125ae5c9d94e027a8118a1514fb3c1b3",
+   "moved_to": "data/export/mcqs-react.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-dental-materials.json",
+   "size": 11378,
+   "sha256": "141a8c51f3f84faa04516b32c37f377bfe61e53a97f2274223ba929ef62e7963",
+   "moved_to": "data/export/mcqs-dental-materials.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-devops.json",
+   "size": 11318,
+   "sha256": "6fa9a1bb5b0ab04eb62b9b6e2c7bb4ef05ab61eb2f49ebbd79a063177c599a7a",
+   "moved_to": "data/export/mcqs-devops.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-anthropology.json",
+   "size": 11128,
+   "sha256": "fecb79f9ca9109e728f4c94a7d328c6f07b6386f79f383ff945d49b29d084544",
+   "moved_to": "data/export/mcqs-anthropology.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-rest-api.json",
+   "size": 11090,
+   "sha256": "4d0867c4cd50567d0e59c91b5412b1d0545ef90cd2e13231cb33de15f94eb30e",
+   "moved_to": "data/export/mcqs-rest-api.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-comprehension.json",
+   "size": 10989,
+   "sha256": "15ecdcce69d87ba3fb74687b02e890f7046103f79873dd976a762e9a93608811",
+   "moved_to": "data/export/mcqs-comprehension.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-supply-chain.json",
+   "size": 10816,
+   "sha256": "eb7c7098427d3a93566f78da7475284f599e924eed429bbef4b54df1f300e407",
+   "moved_to": "data/export/mcqs-supply-chain.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-bds.json",
+   "size": 10788,
+   "sha256": "dbda82076e2faa0a52b712887d34ff8419b343ce9b80b90825a4c546bac76daf",
+   "moved_to": "data/export/mcqs-bds.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-kubernetes.json",
+   "size": 10782,
+   "sha256": "cfb595a50eff2c8d5d6a827da07e1422d3990c98c7da62e5ba36355776830381",
+   "moved_to": "data/export/mcqs-kubernetes.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-big-data.json",
+   "size": 10779,
+   "sha256": "c3e2a719195286cb5b3aaaf5d28c9ffbfb23f7abf2578ccabfb392d7226e0960",
+   "moved_to": "data/export/mcqs-big-data.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-general-anatomy.json",
+   "size": 10568,
+   "sha256": "cbab4286fc856279d211358319dbd15224d4e9693518c2dd3bb923bd3ba546ae",
+   "moved_to": "data/export/mcqs-general-anatomy.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-angular.json",
+   "size": 10369,
+   "sha256": "cf350db717a2a17d7d3900a8d6af475941d15b925e7b289a90734abfd6928d68",
+   "moved_to": "data/export/mcqs-angular.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-pharmacy.json",
+   "size": 10284,
+   "sha256": "c572b450a1e9dd4dc6eeea0c04dff04526219f3f88ff68f1493c53b8524603b5",
+   "moved_to": "data/export/mcqs-pharmacy.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-mbbs.json",
+   "size": 10162,
+   "sha256": "d369a3dfd8d214ef6dcc8a7ba594af6dd6fe56230069d6110ee67dc32ec844e0",
+   "moved_to": "data/export/mcqs-mbbs.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "quiz-audit-results.json",
+   "size": 10131,
+   "sha256": "032750ce8dedd1c88a370540c8bd1672cd39dd56f1e453384a6cebb094dbc889",
+   "moved_to": "quiz-audit-results.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-spring-boot.json",
+   "size": 10079,
+   "sha256": "6fa6c60edd6b53722186cc65adedbc449f6e31c900d0993b64dcf767ce08b26e",
+   "moved_to": "data/export/mcqs-spring-boot.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-oral-pathology.json",
+   "size": 9760,
+   "sha256": "5615d0ebf6da709b516c6371735743a6f0ea75096bacfd99df9d3b1d495110d7",
+   "moved_to": "data/export/mcqs-oral-pathology.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/exams.json",
+   "size": 9744,
+   "sha256": "bacea82e1143d638819b20c063b4fba450918d77d084bbf9f228692ded97f7fe",
+   "moved_to": "data/export/exams.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-tailwind-css.json",
+   "size": 9658,
+   "sha256": "2b114af972f72d38a9016e87de135b158b5d2a41a87ed1e32ce833c3ac2087ef",
+   "moved_to": "data/export/mcqs-tailwind-css.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-dpt.json",
+   "size": 9620,
+   "sha256": "71601799713e2ab5f2748946ba78522c36d26a25112d6f88e85e9e1bd6b550dc",
+   "moved_to": "data/export/mcqs-dpt.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-oral-histology.json",
+   "size": 9604,
+   "sha256": "a6c7edbbb2afd0f02c04f18091282e4e879b0a8716846a98ec94b2200830d8b7",
+   "moved_to": "data/export/mcqs-oral-histology.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-histology.json",
+   "size": 9453,
+   "sha256": "5ce9a4a5449780b6365525f07b2989cd4fc9fcd96c0f87df246e034e09839281",
+   "moved_to": "data/export/mcqs-histology.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/quizzes.json",
+   "size": 9429,
+   "sha256": "0cc0c04f4ff5db54f039b25b609e0516c3c3cc4149c5bcf5e0d1fc025c9c0751",
+   "moved_to": "data/export/quizzes.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-graphql.json",
+   "size": 9420,
+   "sha256": "1a323db7a1670d990f1cdce38e31b7b8627cba335d216dd2670bfa93e2938cbc",
+   "moved_to": "data/export/mcqs-graphql.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "phase-functional-repair.html",
+   "size": 9418,
+   "sha256": "fdfe6c42ac64e5b0800a13f99d903d596d162b2f07e4d09ab147f56c08af9e46",
+   "moved_to": "phase-functional-repair.html",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-laravel.json",
+   "size": 9415,
+   "sha256": "89e1fbc57dbdb43946ea698296fc68f5a2671b8b1ae8f9b2ad43ae0506a87532",
+   "moved_to": "data/export/mcqs-laravel.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-node-js.json",
+   "size": 9357,
+   "sha256": "0ff8ccd7c412afecdd61138802a5133b4a5705c8f970fde56c924fbc9b8ae0f7",
+   "moved_to": "data/export/mcqs-node-js.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-next-js.json",
+   "size": 9331,
+   "sha256": "84a7ef4942b94f3cf6022e86c2ade2dde3f2b5e4f979b653a7a493d80330afb2",
+   "moved_to": "data/export/mcqs-next-js.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-mdcat.json",
+   "size": 9288,
+   "sha256": "9c723727c9fa14268a450ce90eabac1767b507401b6e6aea4140155fbffb0d2b",
+   "moved_to": "data/export/mcqs-mdcat.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-flask.json",
+   "size": 9182,
+   "sha256": "7f7a15b06594955c8d1e398f9f0dbf047a5df8775ff3959a002e156dd1e1623c",
+   "moved_to": "data/export/mcqs-flask.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-express-js.json",
+   "size": 9078,
+   "sha256": "b5c2222e2b22e872b6170c755d0df3b4e61bbce913ecae4fd245ef64f12f2050",
+   "moved_to": "data/export/mcqs-express-js.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-oral-anatomy.json",
+   "size": 9007,
+   "sha256": "89cebe4c1cd16996290e18d5f3ebcd459624205c858a9169c8a5638e199a7c0c",
+   "moved_to": "data/export/mcqs-oral-anatomy.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-django.json",
+   "size": 8928,
+   "sha256": "ed0d5cdd38426dd1c55c1d2742bdebc0aaf1a2221e9c862d822e9f11820f410a",
+   "moved_to": "data/export/mcqs-django.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-vue-js.json",
+   "size": 8499,
+   "sha256": "fc98c7b25bcc697b0b014b5c4caf621d5b6c7f80d7e46547f5d5f2708d93ed04",
+   "moved_to": "data/export/mcqs-vue-js.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-dotnet.json",
+   "size": 8378,
+   "sha256": "1f630bb23cc96d2e641e3e3acc141f73ca55a7099e8532b7947170e42e7c5cc1",
+   "moved_to": "data/export/mcqs-dotnet.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-typescript.json",
+   "size": 8364,
+   "sha256": "710ec051a4666a636c28640961195fb686364554d6aacaa1bff32f06d7aad65c",
+   "moved_to": "data/export/mcqs-typescript.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-ielts.json",
+   "size": 7903,
+   "sha256": "deb3b0b5e4885c8e3b5287ea8f3497b708bd15cfc38e5d3dba43b1ffc2f468a5",
+   "moved_to": "data/export/mcqs-ielts.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-ecat.json",
+   "size": 7603,
+   "sha256": "25e583c4d01c64ac084834075b263ee1f6f9fb44311a7672cc9e416fce2a3989",
+   "moved_to": "data/export/mcqs-ecat.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-lat.json",
+   "size": 7089,
+   "sha256": "c5a720ff3addf6aa047fc0ea52ac2b884cd7fdb07c524d774b10c5aaacfc52a4",
+   "moved_to": "data/export/mcqs-lat.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-gat.json",
+   "size": 6958,
+   "sha256": "f1357a7eccfa1ddb8c062b39b04279656ecdba33e2a19576339f385e8387d556",
+   "moved_to": "data/export/mcqs-gat.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-gre.json",
+   "size": 6954,
+   "sha256": "c0233512641a360ea66fe377096e017584bde42b75f9c5459e5d48810d3b3ac7",
+   "moved_to": "data/export/mcqs-gre.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-sat.json",
+   "size": 6818,
+   "sha256": "e8484272148d41e57fba11bbaaf274f60fc215c0587812d029a0818e6f46b330",
+   "moved_to": "data/export/mcqs-sat.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-toefl.json",
+   "size": 6428,
+   "sha256": "10c2b2ded5d761ae4bbde14acbbda9b9466ffd2e1c5cfc34911bbc7d1e5ef2e1",
+   "moved_to": "data/export/mcqs-toefl.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/categories.json",
+   "size": 5343,
+   "sha256": "6e621ac68e6d5108b5b8faabe5984b0ba747b5f30059e1f4db0a5a115c6ff910",
+   "moved_to": "data/export/categories.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-sentence-correction.json",
+   "size": 5256,
+   "sha256": "5a0c37d95ed93e728efc65961b294fe08304fc670f45492e070ac717d3292e96",
+   "moved_to": "data/export/mcqs-sentence-correction.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "phase15_subject_depth_analysis.js",
+   "size": 5002,
+   "sha256": "081521516c4b451b727bbcf7c65c2fbf7e671748750109f1c6a15e0509c2cea9",
+   "moved_to": "phase15_subject_depth_analysis.js",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-punjab-police.json",
+   "size": 3778,
+   "sha256": "fe9ad5395a1760ed000b384211a9b76dc39f213e6e8cff474675021fb72d04aa",
+   "moved_to": "data/export/mcqs-punjab-police.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-motorway-police.json",
+   "size": 3764,
+   "sha256": "86042ff92a40145716d3864cecbe9d860d3b060c2cb3fb55664cc1e99ff9cdff",
+   "moved_to": "data/export/mcqs-motorway-police.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-ajkpsc.json",
+   "size": 3738,
+   "sha256": "b9fbff75e89f2a40ae3d87910d62a7f39f033b20aa2d9a497010d283a3cb896f",
+   "moved_to": "data/export/mcqs-ajkpsc.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-bpsc.json",
+   "size": 3700,
+   "sha256": "3b3911a11f4a4ac0a2c42801465428bdbbc0e7deef84fd5d4a68d55bcd14b505",
+   "moved_to": "data/export/mcqs-bpsc.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-banking.json",
+   "size": 3694,
+   "sha256": "0b7c34d5f321a35cbcf93b1f6473ec2e3d50b964c37ebb8b18914fd0893acb4d",
+   "moved_to": "data/export/mcqs-banking.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-election-officer.json",
+   "size": 3682,
+   "sha256": "97fc93e2c72fd665a5a1747ea64cb5e27f79d38b862f05a1de5429dbffed3e4f",
+   "moved_to": "data/export/mcqs-election-officer.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-railway.json",
+   "size": 3681,
+   "sha256": "7d9740c907faa624c5c8be6182311067813827706f62863129f9f20986abd876",
+   "moved_to": "data/export/mcqs-railway.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-pms.json",
+   "size": 3665,
+   "sha256": "1feffa51d718d3bacd09ee9ae3d67bd073d04af4e12b696c002b4bbab4ac84b7",
+   "moved_to": "data/export/mcqs-pms.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-educators.json",
+   "size": 3648,
+   "sha256": "955afcce9925c83763c555eb87f7316eb54b994b19678700c2523ed72d48fb74",
+   "moved_to": "data/export/mcqs-educators.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-ots.json",
+   "size": 3644,
+   "sha256": "f72ce8eb9e485319d453777fb5c5bfe865a30ea0fd5af2095e196468240540a8",
+   "moved_to": "data/export/mcqs-ots.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-fia-inspector.json",
+   "size": 3643,
+   "sha256": "a1b3f24eecfc90900148786614104cf4999ab468b6ba6bc7c22f5e43ce9d8943",
+   "moved_to": "data/export/mcqs-fia-inspector.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-lecturer.json",
+   "size": 3637,
+   "sha256": "e2ed01d5663d7b1e762915b963fb8fe25323dd115e12981d69501f19b48551fc",
+   "moved_to": "data/export/mcqs-lecturer.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-police.json",
+   "size": 3592,
+   "sha256": "0a7e74d74d7d2fbe1e17c6620d5a0143072a33cbada960079d227cb433e1a00c",
+   "moved_to": "data/export/mcqs-police.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-pma.json",
+   "size": 3590,
+   "sha256": "df52ab87b06a6c36aeb346aa25bbedbdc283c284a5eafa009465d5ccde4e95f0",
+   "moved_to": "data/export/mcqs-pma.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-cts.json",
+   "size": 3582,
+   "sha256": "0ef90af8a3eb6bd4931063acb847e7328982bb943615eada9d967d4d039e571f",
+   "moved_to": "data/export/mcqs-cts.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-fpsc.json",
+   "size": 3579,
+   "sha256": "5b3cbc292135e8faae4d1815316d1538e6a62ff84714f2768a2c70e44af715ed",
+   "moved_to": "data/export/mcqs-fpsc.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-kppsc.json",
+   "size": 3578,
+   "sha256": "05f46697f1d3f93dc69091af80595829cb6aac9f436716a1dbfb702c41a3cbf6",
+   "moved_to": "data/export/mcqs-kppsc.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-css-exam.json",
+   "size": 3571,
+   "sha256": "5f2cc2892388da51172d06fbb36598b71210f5a1feebec9a53fe5b04cdb9e194",
+   "moved_to": "data/export/mcqs-css-exam.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-ppsc.json",
+   "size": 3568,
+   "sha256": "b9dd0d8e3b0dcc52d9dd3f24ac8f7d7800e453ddf26959d9d09e739f3a755ffd",
+   "moved_to": "data/export/mcqs-ppsc.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-nadra.json",
+   "size": 3556,
+   "sha256": "8640181027da2639929eacb4d706266e8e9866eda528796687f91c4b02061d66",
+   "moved_to": "data/export/mcqs-nadra.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-issb.json",
+   "size": 3555,
+   "sha256": "244c7aa6774af327251d57d11e963f2d40d97cde8c6fec03d24a3e2c7d8fdd8f",
+   "moved_to": "data/export/mcqs-issb.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-spsc.json",
+   "size": 3554,
+   "sha256": "c670bf4fe109078213aca03ff35a523c4e733ca880eb4e44e04c0252ac73c6ee",
+   "moved_to": "data/export/mcqs-spsc.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-mod.json",
+   "size": 3549,
+   "sha256": "a8b5e25607c4e4f618977e308203f653c144c20e6ce881bf4fb816b71563b07a",
+   "moved_to": "data/export/mcqs-mod.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-pts.json",
+   "size": 3546,
+   "sha256": "33cc84085bc460eeeb8c3f2a95e3038896aa5c0214301e7b3d3a7785d1af3b34",
+   "moved_to": "data/export/mcqs-pts.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-paf.json",
+   "size": 3542,
+   "sha256": "1207c6fd74537f246bf63049dd908ab6e3bb7c4b7fa162e570f50ffeae23d089",
+   "moved_to": "data/export/mcqs-paf.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-navy.json",
+   "size": 3539,
+   "sha256": "c5481403788467bddcba3c7b55442e3ac7bc56a935171bfdb8ab075abf8feb10",
+   "moved_to": "data/export/mcqs-navy.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-wapda.json",
+   "size": 3521,
+   "sha256": "44cb42ac4c0c386d933a679c7a5b1a193eda7f06f3a50f2b294ec60911ace86e",
+   "moved_to": "data/export/mcqs-wapda.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-sbp.json",
+   "size": 3508,
+   "sha256": "b4a7be1a95e839e5397abe81776dd4235ecf67d6317ea83ac5a74abdb0dbb531",
+   "moved_to": "data/export/mcqs-sbp.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-army.json",
+   "size": 3505,
+   "sha256": "9b799548970de8dab101edb143daca4eccdc64dedc9315c311f821cfe1693085",
+   "moved_to": "data/export/mcqs-army.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-fbr.json",
+   "size": 3502,
+   "sha256": "5e46802378620b374f14c95fc733504b58b3077adca9682e645cd8b71e4740a4",
+   "moved_to": "data/export/mcqs-fbr.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-nts.json",
+   "size": 3502,
+   "sha256": "e069668c5018719832710ceeb9871e923c05f3d6d2c56123607f5104b8b92f5d",
+   "moved_to": "data/export/mcqs-nts.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-fia.json",
+   "size": 3493,
+   "sha256": "b8edc064dfaff1cd4d7235e1d156662cf012d3f41d50e3549b409b0588e39fef",
+   "moved_to": "data/export/mcqs-fia.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-asf.json",
+   "size": 3483,
+   "sha256": "0022dbd05774ca0fe837e3358544ade15c6b36462ff766c5833ee7758dd9b7b2",
+   "moved_to": "data/export/mcqs-asf.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-nab.json",
+   "size": 3477,
+   "sha256": "7b7238cc0b30ea1f3c0f139461a807eed9c2bc70ae66bc0b542e08626511a3d9",
+   "moved_to": "data/export/mcqs-nab.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-anf.json",
+   "size": 3413,
+   "sha256": "9eb44294e680aa968852042133780322b7d05268ebee94901bfaed55c3cf0626",
+   "moved_to": "data/export/mcqs-anf.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mcqs-ib.json",
+   "size": 3355,
+   "sha256": "546f6892a12fc4b8836d378c9c72e7bc70ffd850716796b09ea4fd509c46967e",
+   "moved_to": "data/export/mcqs-ib.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "db/_gen-kg-mirrors.cjs",
+   "size": 3048,
+   "sha256": "8faa6298e2fb37dedbccd735031c289a00d83cfb580d84a074b15065be4918a8",
+   "moved_to": "db/_gen-kg-mirrors.cjs",
+   "status": "MOVED"
+  },
+  {
+   "path": "data/export/mocktests.json",
+   "size": 2378,
+   "sha256": "b8e3ca33c6452d4def16b12f1688b0353a7924667793eefbb8a1fa504932f384",
+   "moved_to": "data/export/mocktests.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "verify_report_accuracy.js",
+   "size": 1810,
+   "sha256": "ff405ed1c2023e326d18081aaaa8339d4f3ffee50aff2d2704e9c2a30332d8a6",
+   "moved_to": "verify_report_accuracy.js",
+   "status": "MOVED"
+  },
+  {
+   "path": "pipeline/progress.log",
+   "size": 941,
+   "sha256": "7f29e1cea9c63c551d6e2a6f13300825a2a16468776fbf4c59a0fefb955a2449",
+   "moved_to": "pipeline/progress.log",
+   "status": "MOVED"
+  },
+  {
+   "path": "db/_dump.cjs",
+   "size": 897,
+   "sha256": "c8a6b2cfd5365da2fd34576ef444c069f7cdc6edaf89cd461a696ed251bd050b",
+   "moved_to": "db/_dump.cjs",
+   "status": "MOVED"
+  },
+  {
+   "path": "srv-err.log",
+   "size": 777,
+   "sha256": "7f32b00d617413e0c9bf3736c6054b8b031016aa86a9cc66963df41285a079b5",
+   "moved_to": "srv-err.log",
+   "status": "MOVED"
+  },
+  {
+   "path": "validation.log",
+   "size": 469,
+   "sha256": "85b60d94ac300d3585b29d2ffa1a009c350d3b21a835ed370553c1ccecb4b991",
+   "moved_to": "validation.log",
+   "status": "MOVED"
+  },
+  {
+   "path": "server-err.log",
+   "size": 395,
+   "sha256": "6db8d045db8753801a51bbaf8509eb81fbf694c526b015cadb4f05be4089c1d0",
+   "moved_to": "server-err.log",
+   "status": "MOVED"
+  },
+  {
+   "path": ".claude/settings.local.json",
+   "size": 81,
+   "sha256": "66ea34a7e05ab1d7e124cd45aabb49ad8d865bc0bbc4ea32ab1c5e8b61157fcc",
+   "moved_to": ".claude/settings.local.json",
+   "status": "MOVED"
+  },
+  {
+   "path": "server-out.log",
+   "size": 46,
+   "sha256": "39eb06dccd25b60a8e5fdb300fe501bbaeb4415520cba346f60e75fb6f9da840",
+   "moved_to": "server-out.log",
+   "status": "MOVED"
+  },
+  {
+   "path": "srv-out.log",
+   "size": 46,
+   "sha256": "39eb06dccd25b60a8e5fdb300fe501bbaeb4415520cba346f60e75fb6f9da840",
+   "moved_to": "srv-out.log",
+   "status": "MOVED"
+  },
+  {
+   "path": "db/pakistan-mcqs.rebuilt.sqlite-wal",
+   "size": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "moved_to": "db/pakistan-mcqs.rebuilt.sqlite-wal",
+   "status": "MOVED"
+  }
+ ]
+}

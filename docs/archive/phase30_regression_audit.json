@@ -1,0 +1,11 @@
+{
+  "module": "M22",
+  "status": "PASS",
+  "before": "index 24/24 PASS, admin 7/7 PASS, 0 console errors (pre-fix baseline)",
+  "after_fix_verification": [
+    "api-audit.cjs: 47/47 PASS on temp sandbox (includes planner/regenerate + complete valid + missing-index clean error)",
+    "probe index.html inter: 24/24 PASS, 0 console/window/rejection errors",
+    "probe admin.html inter: all steps PASS, 0 console errors",
+    "production DB untouched (sha of db file unchanged - sandbox copy used exclusively)"
+  ]
+}

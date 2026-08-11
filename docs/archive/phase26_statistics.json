@@ -1,0 +1,74 @@
+{
+  "step": "statistics",
+  "generated_at": "2026-08-10T12:09:47.838Z",
+  "reports_emitted": 14,
+  "reports": [
+    {
+      "name": "phase26_backup.json",
+      "kb": 1
+    },
+    {
+      "name": "phase26_benchmark.json",
+      "kb": 1
+    },
+    {
+      "name": "phase26_code_quality.json",
+      "kb": 14
+    },
+    {
+      "name": "phase26_deployment.json",
+      "kb": 1
+    },
+    {
+      "name": "phase26_documentation.json",
+      "kb": 1
+    },
+    {
+      "name": "phase26_github_actions.json",
+      "kb": 1
+    },
+    {
+      "name": "phase26_monitoring.json",
+      "kb": 1
+    },
+    {
+      "name": "phase26_release.json",
+      "kb": 0
+    },
+    {
+      "name": "phase26_repo_audit.json",
+      "kb": 51
+    },
+    {
+      "name": "phase26_security.json",
+      "kb": 0
+    },
+    {
+      "name": "phase26_statistics.json",
+      "kb": 1
+    },
+    {
+      "name": "phase26_summary.json",
+      "kb": 1
+    },
+    {
+      "name": "phase26_testing.json",
+      "kb": 1
+    },
+    {
+      "name": "phase26_validation.json",
+      "kb": 0
+    }
+  ],
+  "tooling": {
+    "phase26_scripts_kb": 40,
+    "test_suites": 6,
+    "tests": 34,
+    "backup_scripts": 3
+  },
+  "configs": {
+    "workflows": 6,
+    "deploy_files": 4,
+    "guides": 7
+  }
+}

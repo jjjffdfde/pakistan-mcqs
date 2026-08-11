@@ -1,0 +1,224 @@
+{
+  "step": "analytics_usage",
+  "generated_at": "2026-08-06T08:51:28",
+  "summary": {
+    "total_mcqs": 872621,
+    "total_attempts": 54,
+    "total_bookmarks": 5,
+    "total_users": 1,
+    "total_sessions": 3,
+    "total_leaderboard_entries": 1,
+    "search_requests_logged": 0,
+    "browse_requests_logged": 0,
+    "unique_mcq_attempted": 20,
+    "active_days": 2
+  },
+  "most_solved_mcqs": [
+    {
+      "mcq_id": "iq-000466",
+      "attempts": 3,
+      "correct": 1
+    },
+    {
+      "mcq_id": "acc-001",
+      "attempts": 2,
+      "correct": 2
+    },
+    {
+      "mcq_id": "cssexa-000004",
+      "attempts": 2,
+      "correct": 0
+    },
+    {
+      "mcq_id": "env-001",
+      "attempts": 2,
+      "correct": 1
+    },
+    {
+      "mcq_id": "env-010",
+      "attempts": 2,
+      "correct": 1
+    },
+    {
+      "mcq_id": "env-016",
+      "attempts": 2,
+      "correct": 1
+    },
+    {
+      "mcq_id": "iq-000377",
+      "attempts": 2,
+      "correct": 0
+    },
+    {
+      "mcq_id": "iq-000465",
+      "attempts": 2,
+      "correct": 0
+    },
+    {
+      "mcq_id": "ajkpsc-000001",
+      "attempts": 1,
+      "correct": 0
+    },
+    {
+      "mcq_id": "cssexa-000001",
+      "attempts": 1,
+      "correct": 0
+    },
+    {
+      "mcq_id": "cssexa-000002",
+      "attempts": 1,
+      "correct": 0
+    },
+    {
+      "mcq_id": "cssexa-000003",
+      "attempts": 1,
+      "correct": 0
+    },
+    {
+      "mcq_id": "eng-045",
+      "attempts": 1,
+      "correct": 0
+    },
+    {
+      "mcq_id": "env-002",
+      "attempts": 1,
+      "correct": 0
+    },
+    {
+      "mcq_id": "env-007",
+      "attempts": 1,
+      "correct": 1
+    },
+    {
+      "mcq_id": "env-009",
+      "attempts": 1,
+      "correct": 0
+    },
+    {
+      "mcq_id": "env-013",
+      "attempts": 1,
+      "correct": 0
+    },
+    {
+      "mcq_id": "env-017",
+      "attempts": 1,
+      "correct": 1
+    },
+    {
+      "mcq_id": "env-019",
+      "attempts": 1,
+      "correct": 0
+    },
+    {
+      "mcq_id": "env-020",
+      "attempts": 1,
+      "correct": 0
+    }
+  ],
+  "popular_subjects": [
+    {
+      "subject_id": "environmental-science",
+      "attempts": 20
+    },
+    {
+      "subject_id": "reasoning",
+      "attempts": 11
+    },
+    {
+      "subject_id": "iq",
+      "attempts": 7
+    },
+    {
+      "subject_id": "css-exam",
+      "attempts": 5
+    },
+    {
+      "subject_id": "pakistan-history",
+      "attempts": 3
+    },
+    {
+      "subject_id": "accounting",
+      "attempts": 2
+    },
+    {
+      "subject_id": "mod",
+      "attempts": 2
+    },
+    {
+      "subject_id": "ajkpsc",
+      "attempts": 1
+    },
+    {
+      "subject_id": "english",
+      "attempts": 1
+    },
+    {
+      "subject_id": "general-knowledge",
+      "attempts": 1
+    },
+    {
+      "subject_id": "graphql",
+      "attempts": 1
+    }
+  ],
+  "popular_exams": [
+    {
+      "exam_ids": "ppsc,fpsc,nts,css,pms,educators,etea,police,fia,nab",
+      "attempts": 20
+    },
+    {
+      "exam_ids": "nts,ots,cts,pts,fpsc,ppsc,police,pma,issb,punjab-police,rescue-1122,lesco,mepco,hesco,sepco,ssgc,sngpl,pakistan-post,inspector,sub-inspector,assistant-director",
+      "attempts": 7
+    },
+    {
+      "exam_ids": "css",
+      "attempts": 5
+    },
+    {
+      "exam_ids": "ppsc,fpsc,nts,ots,cts,pts,police,army,navy,paf,fia,asf,motorway,railways,nab,ib,mod,election-officer,nadra,rescue-1122,lesco,mepco,hesco,sepco,ssgc,sngpl,pakistan-post,inspector,sub-inspector,assistant-director",
+      "attempts": 4
+    },
+    {
+      "exam_ids": "css,pms,ppsc,fpsc,nts",
+      "attempts": 3
+    },
+    {
+      "exam_ids": "ppsc,fpsc,nts,ots,cts,pts,spsc,kppsc,educators,police,fia,army,navy,paf,asf,motorway,railways,nab,ib,mod,election-officer,nadra,rescue-1122,lesco,mepco,hesco,sepco,ssgc,sngpl,pakistan-post,inspector,sub-inspector,assistant-director",
+      "attempts": 2
+    },
+    {
+      "exam_ids": "ppsc,fpsc,nts,ots,cts,pts,spsc,kppsc,educators,police,army,navy,paf,fia,asf,motorway,railways,nab,ib,mod,election-officer,nadra,rescue-1122,lesco,mepco,hesco,sepco,ssgc,sngpl,pakistan-post,inspector,sub-inspector,assistant-director",
+      "attempts": 2
+    },
+    {
+      "exam_ids": "ppsc,fpsc,nts,ots,cts,pts,spsc,kppsc,ajkpsc,bpsc,educators,police,fia,asf,army,navy,paf,motorway,railways,nab,ib,mod,election-officer,nadra,rescue-1122,lesco,mepco,hesco,sepco,ssgc,sngpl,pakistan-post,inspector,sub-inspector,assistant-director",
+      "attempts": 2
+    },
+    {
+      "exam_ids": "ppsc,fpsc,nts,ots,cts,pts,nab,ib,mod,fbr,sbp,banking,lecturer,fia-inspector,custom-inspector,income-tax-inspector",
+      "attempts": 2
+    },
+    {
+      "exam_ids": "mod",
+      "attempts": 2
+    }
+  ],
+  "user_accuracy_distribution": [
+    {
+      "device_id": "default",
+      "total": 54,
+      "correct": 18,
+      "accuracy": 0.333
+    }
+  ],
+  "daily_attempts": [
+    {
+      "day": "2026-08-04",
+      "attempts": 5
+    },
+    {
+      "day": "2026-08-01",
+      "attempts": 49
+    }
+  ]
+}

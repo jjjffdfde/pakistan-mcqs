@@ -1,0 +1,73 @@
+{
+  "step": "user_journey",
+  "generated_at": "2026-08-06T08:51:14",
+  "summary": {
+    "total_steps": 11,
+    "steps_passed": 11,
+    "steps_failed": 0,
+    "journey_complete": true
+  },
+  "journey": {
+    "home": {
+      "exists": true,
+      "file": "index.html",
+      "description": "Landing page with subject listing"
+    },
+    "subject": {
+      "exists": true,
+      "count": 244,
+      "sample": "subjects/accounting.html",
+      "description": "Subject listing page"
+    },
+    "topic": {
+      "exists": true,
+      "count": 876,
+      "sample": "chapters/ac-basics.html",
+      "description": "Chapter/topic page with MCQs"
+    },
+    "mcq": {
+      "exists": true,
+      "api": "/api/mcq/:id",
+      "description": "Single MCQ view via API"
+    },
+    "quiz": {
+      "exists": true,
+      "api": "/api/quizzes",
+      "db_count": 21,
+      "description": "Quiz mode"
+    },
+    "result": {
+      "exists": true,
+      "description": "Results shown client-side after quiz submission"
+    },
+    "review": {
+      "exists": true,
+      "description": "Review answers after quiz"
+    },
+    "bookmark": {
+      "exists": true,
+      "api": "/api/bookmarks",
+      "db_count": 5,
+      "description": "Bookmark MCQs"
+    },
+    "history": {
+      "exists": true,
+      "api": "/api/history",
+      "db_count": 54,
+      "description": "View attempt history"
+    },
+    "profile": {
+      "exists": true,
+      "api": "/api/analytics",
+      "db_count": 1,
+      "description": "User profile"
+    },
+    "dashboard": {
+      "exists": true,
+      "file": "admin.html",
+      "api": "/api/stats",
+      "description": "Admin dashboard with stats"
+    }
+  },
+  "flow": "Home -> Subject -> Topic -> MCQ -> Quiz -> Result -> Review -> Bookmark -> History -> Profile -> Dashboard"
+}

@@ -1,0 +1,1620 @@
+{
+  "step": "exam_analytics",
+  "generated_at": "2026-08-06T08:09:42",
+  "summary": {
+    "total_exams": 62,
+    "exams_with_mcqs": 62,
+    "avg_coverage": 638.8,
+    "avg_score": 0
+  },
+  "exams": [
+    {
+      "exam_id": "ajkpsc",
+      "subject_count": 15,
+      "concept_count": 202,
+      "mcq_count": 151567,
+      "coverage_pct": 750.33,
+      "attempts": 0,
+      "avg_score": 0,
+      "most_solved": 0,
+      "most_difficult_difficulty": "easy",
+      "difficulty_stats": {
+        "easy": {
+          "count": 7092,
+          "failed": 0
+        },
+        "medium": {
+          "count": 134048,
+          "failed": 0
+        },
+        "hard": {
+          "count": 10427,
+          "failed": 0
+        }
+      },
+      "trend": "growing"
+    },
+    {
+      "exam_id": "anf",
+      "subject_count": 11,
+      "concept_count": 208,
+      "mcq_count": 156532,
+      "coverage_pct": 752.56,
+      "attempts": 0,
+      "avg_score": 0,
+      "most_solved": 0,
+      "most_difficult_difficulty": "easy",
+      "difficulty_stats": {
+        "easy": {
+          "count": 7099,
+          "failed": 0
+        },
+        "medium": {
+          "count": 138614,
+          "failed": 0
+        },
+        "hard": {
+          "count": 10819,
+          "failed": 0
+        }
+      },
+      "trend": "growing"
+    },
+    {
+      "exam_id": "army",
+      "subject_count": 18,
+      "concept_count": 208,
+      "mcq_count": 65940,
+      "coverage_pct": 317.02,
+      "attempts": 0,
+      "avg_score": 0,
+      "most_solved": 0,
+      "most_difficult_difficulty": "easy",
+      "difficulty_stats": {
+        "easy": {
+          "count": 12534,
+          "failed": 0
+        },
+        "medium": {
+          "count": 47225,
+          "failed": 0
+        },
+        "hard": {
+          "count": 6181,
+          "failed": 0
+        }
+      },
+      "trend": "growing"
+    },
+    {
+      "exam_id": "asf",
+      "subject_count": 15,
+      "concept_count": 209,
+      "mcq_count": 151587,
+      "coverage_pct": 725.3,
+      "attempts": 0,
+      "avg_score": 0,
+      "most_solved": 0,
+      "most_difficult_difficulty": "easy",
+      "difficulty_stats": {
+        "easy": {
+          "count": 7093,
+          "failed": 0
+        },
+        "medium": {
+          "count": 134066,
+          "failed": 0
+        },
+        "hard": {
+          "count": 10428,
+          "failed": 0
+        }
+      },
+      "trend": "growing"
+    },
+    {
+      "exam_id": "assistant-director",
+      "subject_count": 16,
+      "concept_count": 237,
+      "mcq_count": 162219,
+      "coverage_pct": 684.47,
+      "attempts": 0,
+      "avg_score": 0,
+      "most_solved": 0,
+      "most_difficult_difficulty": "easy",
+      "difficulty_stats": {
+        "easy": {
+          "count": 8152,
+          "failed": 0
+        },
+        "medium": {
+          "count": 143627,
+          "failed": 0
+        },
+        "hard": {
+          "count": 10440,
+          "failed": 0
+        }
+      },
+      "trend": "growing"
+    },
+    {
+      "exam_id": "banking",
+      "subject_count": 17,
+      "concept_count": 200,
+      "mcq_count": 167999,
+      "coverage_pct": 840,
+      "attempts": 0,
+      "avg_score": 0,
+      "most_solved": 0,
+      "most_difficult_difficulty": "easy",
+      "difficulty_stats": {
+        "easy": {
+          "count": 22686,
+          "failed": 0
+        },
+        "medium": {
+          "count": 137903,
+          "failed": 0
+        },
+        "hard": {
+          "count": 7410,
+          "failed": 0
+        }
+      },
+      "trend": "growing"
+    },
+    {
+      "exam_id": "bpsc",
+      "subject_count": 15,
+      "concept_count": 202,
+      "mcq_count": 151568,
+      "coverage_pct": 750.34,
+      "attempts": 0,
+      "avg_score": 0,
+      "most_solved": 0,
+      "most_difficult_difficulty": "easy",
+      "difficulty_stats": {
+        "easy": {
+          "count": 7092,
+          "failed": 0
+        },
+        "medium": {
+          "count": 134049,
+          "failed": 0
+        },
+        "hard": {
+          "count": 10427,
+          "failed": 0
+        }
+      },
+      "trend": "growing"
+    },
+    {
+      "exam_id": "css",
+      "subject_count": 34,
+      "concept_count": 368,
+      "mcq_count": 123346,
+      "coverage_pct": 335.18,
+      "attempts": 0,
+      "avg_score": 0,
+      "most_solved": 0,
+      "most_difficult_difficulty": "easy",
+      "difficulty_stats": {
+        "easy": {
+          "count": 27065,
+          "failed": 0
+        },
+        "medium": {
+          "count": 85994,
+          "failed": 0
+        },
+        "hard": {
+          "count": 10287,
+          "failed": 0
+        }
+      },
+      "trend": "growing"
+    },
+    {
+      "exam_id": "cts",
+      "subject_count": 22,
+      "concept_count": 251,
+      "mcq_count": 177627,
+      "coverage_pct": 707.68,
+      "attempts": 0,
+      "avg_score": 0,
+      "most_solved": 0,
+      "most_difficult_difficulty": "easy",
+      "difficulty_stats": {
+        "easy": {
+          "count": 19139,
+          "failed": 0
+        },
+        "medium": {
+          "count": 147210,
+          "failed": 0
+        },
+        "hard": {
+          "count": 11278,
+          "failed": 0
+        }
+      },
+      "trend": "growing"
+    },
+    {
+      "exam_id": "custom-inspector",
+      "subject_count": 15,
+      "concept_count": 233,
+      "mcq_count": 209544,
+      "coverage_pct": 899.33,
+      "attempts": 0,
+      "avg_score": 0,
+      "most_solved": 0,
+      "most_difficult_difficulty": "easy",
+      "difficulty_stats": {
+        "easy": {
+          "count": 13209,
+          "failed": 0
+        },
+        "medium": {
+          "count": 185047,
+          "failed": 0
+        },
+        "hard": {
+          "count": 11288,
+          "failed": 0
+        }
+      },
+      "trend": "growing"
+    },
+    {
+      "exam_id": "ecat",
+      "subject_count": 4,
+      "concept_count": 21,
+      "mcq_count": 11454,
+      "coverage_pct": 545.43,
+      "attempts": 0,
+      "avg_score": 0,
+      "most_solved": 0,
+      "most_difficult_difficulty": "easy",
+      "difficulty_stats": {
+        "easy": {
+          "count": 7,
+          "failed": 0
+        },
+        "medium": {
+          "count": 11447,
+          "failed": 0
+        }
+      },
+      "trend": "insufficient_data"
+    },
+    {
+      "exam_id": "educators",
+      "subject_count": 52,
+      "concept_count": 512,
+      "mcq_count": 346725,
+      "coverage_pct": 677.2,
+      "attempts": 0,
+      "avg_score": 0,
+      "most_solved": 0,
+      "most_difficult_difficulty": "easy",
+      "difficulty_stats": {
+        "easy": {
+          "count": 51857,
+          "failed": 0
+        },
+        "medium": {
+          "count": 277572,
+          "failed": 0
+        },
+        "hard": {
+          "count": 17296,
+          "failed": 0
+        }
+      },
+      "trend": "growing"
+    },
+    {
+      "exam_id": "election-officer",
+      "subject_count": 10,
+      "concept_count": 166,
+      "mcq_count": 141167,
+      "coverage_pct": 850.4,
+      "attempts": 0,
+      "avg_score": 0,
+      "most_solved": 0,
+      "most_difficult_difficulty": "easy",
+      "difficulty_stats": {
+        "easy": {
+          "count": 6552,
+          "failed": 0
+        },
+        "medium": {
+          "count": 129915,
+          "failed": 0
+        },
+        "hard": {
+          "count": 4700,
+          "failed": 0
+        }
+      },
+      "trend": "growing"
+    },
+    {
+      "exam_id": "est",
+      "subject_count": 13,
+      "concept_count": 206,
+      "mcq_count": 156607,
+      "coverage_pct": 760.23,
+      "attempts": 0,
+      "avg_score": 0,
+      "most_solved": 0,
+      "most_difficult_difficulty": "easy",
+      "difficulty_stats": {
+        "easy": {
+          "count": 11986,
+          "failed": 0
+        },
+        "medium": {
+          "count": 134186,
+          "failed": 0
+        },
+        "hard": {
+          "count": 10435,
+          "failed": 0
+        }
+      },
+      "trend": "growing"
+    },
+    {
+      "exam_id": "etea",
+      "subject_count": 38,
+      "concept_count": 371,
+      "mcq_count": 143059,
+      "coverage_pct": 385.6,
+      "attempts": 0,
+      "avg_score": 0,
+      "most_solved": 0,
+      "most_difficult_difficulty": "easy",
+      "difficulty_stats": {
+        "easy": {
+          "count": 30854,
+          "failed": 0
+        },
+        "medium": {
+          "count": 101138,
+          "failed": 0
+        },
+        "hard": {
+          "count": 11067,
+          "failed": 0
+        }
+      },
+      "trend": "growing"
+    },
+    {
+      "exam_id": "fbr",
+      "subject_count": 7,
+      "concept_count": 73,
+      "mcq_count": 68686,
+      "coverage_pct": 940.9,
+      "attempts": 0,
+      "avg_score": 0,
+      "most_solved": 0,
+      "most_difficult_difficulty": "easy",
+      "difficulty_stats": {
+        "easy": {
+          "count": 9658,
+          "failed": 0
+        },
+        "medium": {
+          "count": 56192,
+          "failed": 0
+        },
+        "hard": {
+          "count": 2836,
+          "failed": 0
+        }
+      },
+      "trend": "insufficient_data"
+    },
+    {
+      "exam_id": "fia",
+      "subject_count": 21,
+      "concept_count": 240,
+      "mcq_count": 166916,
+      "coverage_pct": 695.48,
+      "attempts": 0,
+      "avg_score": 0,
+      "most_solved": 0,
+      "most_difficult_difficulty": "easy",
+      "difficulty_stats": {
+        "easy": {
+          "count": 12921,
+          "failed": 0
+        },
+        "medium": {
+          "count": 143548,
+          "failed": 0
+        },
+        "hard": {
+          "count": 10447,
+          "failed": 0
+        }
+      },
+      "trend": "growing"
+    },
+    {
+      "exam_id": "fia-inspector",
+      "subject_count": 10,
+      "concept_count": 138,
+      "mcq_count": 36166,
+      "coverage_pct": 262.07,
+      "attempts": 0,
+      "avg_score": 0,
+      "most_solved": 0,
+      "most_difficult_difficulty": "easy",
+      "difficulty_stats": {
+        "easy": {
+          "count": 10105,
+          "failed": 0
+        },
+        "medium": {
+          "count": 19001,
+          "failed": 0
+        },
+        "hard": {
+          "count": 7060,
+          "failed": 0
+        }
+      },
+      "trend": "growing"
+    },
+    {
+      "exam_id": "fpsc",
+      "subject_count": 132,
+      "concept_count": 1099,
+      "mcq_count": 633423,
+      "coverage_pct": 576.36,
+      "attempts": 0,
+      "avg_score": 0,
+      "most_solved": 0,
+      "most_difficult_difficulty": "easy",
+      "difficulty_stats": {
+        "easy": {
+          "count": 106488,
+          "failed": 0
+        },
+        "medium": {
+          "count": 505427,
+          "failed": 0
+        },
+        "hard": {
+          "count": 21508,
+          "failed": 0
+        }
+      },
+      "trend": "growing"
+    },
+    {
+      "exam_id": "gat",
+      "subject_count": 5,
+      "concept_count": 35,
+      "mcq_count": 11515,
+      "coverage_pct": 329,
+      "attempts": 0,
+      "avg_score": 0,
+      "most_solved": 0,
+      "most_difficult_difficulty": "easy",
+      "difficulty_stats": {
+        "easy": {
+          "count": 9,
+          "failed": 0
+        },
+        "medium": {
+          "count": 11502,
+          "failed": 0
+        },
+        "hard": {
+          "count": 4,
+          "failed": 0
+        }
+      },
+      "trend": "insufficient_data"
+    },
+    {
+      "exam_id": "gre",
+      "subject_count": 9,
+      "concept_count": 78,
+      "mcq_count": 31597,
+      "coverage_pct": 405.09,
+      "attempts": 0,
+      "avg_score": 0,
+      "most_solved": 0,
+      "most_difficult_difficulty": "easy",
+      "difficulty_stats": {
+        "easy": {
+          "count": 1110,
+          "failed": 0
+        },
+        "medium": {
+          "count": 30454,
+          "failed": 0
+        },
+        "hard": {
+          "count": 33,
+          "failed": 0
+        }
+      },
+      "trend": "insufficient_data"
+    },
+    {
+      "exam_id": "headmaster",
+      "subject_count": 13,
+      "concept_count": 206,
+      "mcq_count": 156608,
+      "coverage_pct": 760.23,
+      "attempts": 0,
+      "avg_score": 0,
+      "most_solved": 0,
+      "most_difficult_difficulty": "easy",
+      "difficulty_stats": {
+        "easy": {
+          "count": 11986,
+          "failed": 0
+        },
+        "medium": {
+          "count": 134187,
+          "failed": 0
+        },
+        "hard": {
+          "count": 10435,
+          "failed": 0
+        }
+      },
+      "trend": "growing"
+    },
+    {
+      "exam_id": "hesco",
+      "subject_count": 14,
+      "concept_count": 219,
+      "mcq_count": 157228,
+      "coverage_pct": 717.94,
+      "attempts": 0,
+      "avg_score": 0,
+      "most_solved": 0,
+      "most_difficult_difficulty": "easy",
+      "difficulty_stats": {
+        "easy": {
+          "count": 7064,
+          "failed": 0
+        },
+        "medium": {
+          "count": 139735,
+          "failed": 0
+        },
+        "hard": {
+          "count": 10429,
+          "failed": 0
+        }
+      },
+      "trend": "growing"
+    },
+    {
+      "exam_id": "ib",
+      "subject_count": 68,
+      "concept_count": 582,
+      "mcq_count": 389245,
+      "coverage_pct": 668.81,
+      "attempts": 0,
+      "avg_score": 0,
+      "most_solved": 0,
+      "most_difficult_difficulty": "easy",
+      "difficulty_stats": {
+        "easy": {
+          "count": 37792,
+          "failed": 0
+        },
+        "medium": {
+          "count": 340640,
+          "failed": 0
+        },
+        "hard": {
+          "count": 10813,
+          "failed": 0
+        }
+      },
+      "trend": "growing"
+    },
+    {
+      "exam_id": "ielts",
+      "subject_count": 6,
+      "concept_count": 53,
+      "mcq_count": 20558,
+      "coverage_pct": 387.89,
+      "attempts": 0,
+      "avg_score": 0,
+      "most_solved": 0,
+      "most_difficult_difficulty": "easy",
+      "difficulty_stats": {
+        "easy": {
+          "count": 1764,
+          "failed": 0
+        },
+        "medium": {
+          "count": 18763,
+          "failed": 0
+        },
+        "hard": {
+          "count": 31,
+          "failed": 0
+        }
+      },
+      "trend": "insufficient_data"
+    },
+    {
+      "exam_id": "income-tax-inspector",
+      "subject_count": 16,
+      "concept_count": 247,
+      "mcq_count": 214865,
+      "coverage_pct": 869.9,
+      "attempts": 0,
+      "avg_score": 0,
+      "most_solved": 0,
+      "most_difficult_difficulty": "easy",
+      "difficulty_stats": {
+        "easy": {
+          "count": 16387,
+          "failed": 0
+        },
+        "medium": {
+          "count": 186841,
+          "failed": 0
+        },
+        "hard": {
+          "count": 11637,
+          "failed": 0
+        }
+      },
+      "trend": "growing"
+    },
+    {
+      "exam_id": "inspector",
+      "subject_count": 16,
+      "concept_count": 236,
+      "mcq_count": 162219,
+      "coverage_pct": 687.37,
+      "attempts": 0,
+      "avg_score": 0,
+      "most_solved": 0,
+      "most_difficult_difficulty": "easy",
+      "difficulty_stats": {
+        "easy": {
+          "count": 8152,
+          "failed": 0
+        },
+        "medium": {
+          "count": 143627,
+          "failed": 0
+        },
+        "hard": {
+          "count": 10440,
+          "failed": 0
+        }
+      },
+      "trend": "growing"
+    },
+    {
+      "exam_id": "issb",
+      "subject_count": 5,
+      "concept_count": 35,
+      "mcq_count": 10944,
+      "coverage_pct": 312.69,
+      "attempts": 0,
+      "avg_score": 0,
+      "most_solved": 0,
+      "most_difficult_difficulty": "medium",
+      "difficulty_stats": {
+        "medium": {
+          "count": 5991,
+          "failed": 0
+        },
+        "easy": {
+          "count": 4943,
+          "failed": 0
+        },
+        "hard": {
+          "count": 10,
+          "failed": 0
+        }
+      },
+      "trend": "insufficient_data"
+    },
+    {
+      "exam_id": "kppsc",
+      "subject_count": 15,
+      "concept_count": 202,
+      "mcq_count": 151593,
+      "coverage_pct": 750.46,
+      "attempts": 0,
+      "avg_score": 0,
+      "most_solved": 0,
+      "most_difficult_difficulty": "easy",
+      "difficulty_stats": {
+        "easy": {
+          "count": 7093,
+          "failed": 0
+        },
+        "medium": {
+          "count": 134072,
+          "failed": 0
+        },
+        "hard": {
+          "count": 10428,
+          "failed": 0
+        }
+      },
+      "trend": "growing"
+    },
+    {
+      "exam_id": "lat",
+      "subject_count": 7,
+      "concept_count": 135,
+      "mcq_count": 25901,
+      "coverage_pct": 191.86,
+      "attempts": 0,
+      "avg_score": 0,
+      "most_solved": 0,
+      "most_difficult_difficulty": "easy",
+      "difficulty_stats": {
+        "easy": {
+          "count": 7411,
+          "failed": 0
+        },
+        "medium": {
+          "count": 17004,
+          "failed": 0
+        },
+        "hard": {
+          "count": 1486,
+          "failed": 0
+        }
+      },
+      "trend": "growing"
+    },
+    {
+      "exam_id": "lecturer",
+      "subject_count": 16,
+      "concept_count": 215,
+      "mcq_count": 170971,
+      "coverage_pct": 795.21,
+      "attempts": 0,
+      "avg_score": 0,
+      "most_solved": 0,
+      "most_difficult_difficulty": "easy",
+      "difficulty_stats": {
+        "easy": {
+          "count": 13752,
+          "failed": 0
+        },
+        "medium": {
+          "count": 148634,
+          "failed": 0
+        },
+        "hard": {
+          "count": 8585,
+          "failed": 0
+        }
+      },
+      "trend": "insufficient_data"
+    },
+    {
+      "exam_id": "lesco",
+      "subject_count": 14,
+      "concept_count": 218,
+      "mcq_count": 157227,
+      "coverage_pct": 721.22,
+      "attempts": 0,
+      "avg_score": 0,
+      "most_solved": 0,
+      "most_difficult_difficulty": "easy",
+      "difficulty_stats": {
+        "easy": {
+          "count": 7064,
+          "failed": 0
+        },
+        "medium": {
+          "count": 139734,
+          "failed": 0
+        },
+        "hard": {
+          "count": 10429,
+          "failed": 0
+        }
+      },
+      "trend": "growing"
+    },
+    {
+      "exam_id": "mdcat",
+      "subject_count": 14,
+      "concept_count": 106,
+      "mcq_count": 40338,
+      "coverage_pct": 380.55,
+      "attempts": 0,
+      "avg_score": 0,
+      "most_solved": 0,
+      "most_difficult_difficulty": "easy",
+      "difficulty_stats": {
+        "easy": {
+          "count": 16297,
+          "failed": 0
+        },
+        "medium": {
+          "count": 23413,
+          "failed": 0
+        },
+        "hard": {
+          "count": 628,
+          "failed": 0
+        }
+      },
+      "trend": "insufficient_data"
+    },
+    {
+      "exam_id": "mepco",
+      "subject_count": 14,
+      "concept_count": 219,
+      "mcq_count": 157227,
+      "coverage_pct": 717.93,
+      "attempts": 0,
+      "avg_score": 0,
+      "most_solved": 0,
+      "most_difficult_difficulty": "easy",
+      "difficulty_stats": {
+        "easy": {
+          "count": 7064,
+          "failed": 0
+        },
+        "medium": {
+          "count": 139734,
+          "failed": 0
+        },
+        "hard": {
+          "count": 10429,
+          "failed": 0
+        }
+      },
+      "trend": "growing"
+    },
+    {
+      "exam_id": "mod",
+      "subject_count": 26,
+      "concept_count": 282,
+      "mcq_count": 240177,
+      "coverage_pct": 851.69,
+      "attempts": 0,
+      "avg_score": 0,
+      "most_solved": 0,
+      "most_difficult_difficulty": "easy",
+      "difficulty_stats": {
+        "easy": {
+          "count": 21947,
+          "failed": 0
+        },
+        "medium": {
+          "count": 209649,
+          "failed": 0
+        },
+        "hard": {
+          "count": 8581,
+          "failed": 0
+        }
+      },
+      "trend": "growing"
+    },
+    {
+      "exam_id": "motorway",
+      "subject_count": 12,
+      "concept_count": 208,
+      "mcq_count": 151555,
+      "coverage_pct": 728.63,
+      "attempts": 0,
+      "avg_score": 0,
+      "most_solved": 0,
+      "most_difficult_difficulty": "easy",
+      "difficulty_stats": {
+        "easy": {
+          "count": 7058,
+          "failed": 0
+        },
+        "medium": {
+          "count": 134069,
+          "failed": 0
+        },
+        "hard": {
+          "count": 10428,
+          "failed": 0
+        }
+      },
+      "trend": "growing"
+    },
+    {
+      "exam_id": "nab",
+      "subject_count": 28,
+      "concept_count": 297,
+      "mcq_count": 250275,
+      "coverage_pct": 842.68,
+      "attempts": 0,
+      "avg_score": 0,
+      "most_solved": 0,
+      "most_difficult_difficulty": "easy",
+      "difficulty_stats": {
+        "easy": {
+          "count": 29254,
+          "failed": 0
+        },
+        "medium": {
+          "count": 212432,
+          "failed": 0
+        },
+        "hard": {
+          "count": 8589,
+          "failed": 0
+        }
+      },
+      "trend": "growing"
+    },
+    {
+      "exam_id": "nadra",
+      "subject_count": 11,
+      "concept_count": 175,
+      "mcq_count": 31219,
+      "coverage_pct": 178.39,
+      "attempts": 0,
+      "avg_score": 0,
+      "most_solved": 0,
+      "most_difficult_difficulty": "easy",
+      "difficulty_stats": {
+        "easy": {
+          "count": 6536,
+          "failed": 0
+        },
+        "medium": {
+          "count": 14264,
+          "failed": 0
+        },
+        "hard": {
+          "count": 10419,
+          "failed": 0
+        }
+      },
+      "trend": "growing"
+    },
+    {
+      "exam_id": "navy",
+      "subject_count": 18,
+      "concept_count": 211,
+      "mcq_count": 65965,
+      "coverage_pct": 312.63,
+      "attempts": 0,
+      "avg_score": 0,
+      "most_solved": 0,
+      "most_difficult_difficulty": "easy",
+      "difficulty_stats": {
+        "easy": {
+          "count": 12534,
+          "failed": 0
+        },
+        "medium": {
+          "count": 47250,
+          "failed": 0
+        },
+        "hard": {
+          "count": 6181,
+          "failed": 0
+        }
+      },
+      "trend": "growing"
+    },
+    {
+      "exam_id": "nts",
+      "subject_count": 101,
+      "concept_count": 911,
+      "mcq_count": 532326,
+      "coverage_pct": 584.33,
+      "attempts": 0,
+      "avg_score": 0,
+      "most_solved": 0,
+      "most_difficult_difficulty": "easy",
+      "difficulty_stats": {
+        "easy": {
+          "count": 79806,
+          "failed": 0
+        },
+        "medium": {
+          "count": 433242,
+          "failed": 0
+        },
+        "hard": {
+          "count": 19278,
+          "failed": 0
+        }
+      },
+      "trend": "growing"
+    },
+    {
+      "exam_id": "ots",
+      "subject_count": 23,
+      "concept_count": 256,
+      "mcq_count": 177649,
+      "coverage_pct": 693.94,
+      "attempts": 0,
+      "avg_score": 0,
+      "most_solved": 0,
+      "most_difficult_difficulty": "easy",
+      "difficulty_stats": {
+        "easy": {
+          "count": 19142,
+          "failed": 0
+        },
+        "medium": {
+          "count": 147228,
+          "failed": 0
+        },
+        "hard": {
+          "count": 11279,
+          "failed": 0
+        }
+      },
+      "trend": "growing"
+    },
+    {
+      "exam_id": "paf",
+      "subject_count": 18,
+      "concept_count": 211,
+      "mcq_count": 65965,
+      "coverage_pct": 312.63,
+      "attempts": 0,
+      "avg_score": 0,
+      "most_solved": 0,
+      "most_difficult_difficulty": "easy",
+      "difficulty_stats": {
+        "easy": {
+          "count": 12534,
+          "failed": 0
+        },
+        "medium": {
+          "count": 47250,
+          "failed": 0
+        },
+        "hard": {
+          "count": 6181,
+          "failed": 0
+        }
+      },
+      "trend": "growing"
+    },
+    {
+      "exam_id": "pakistan-post",
+      "subject_count": 13,
+      "concept_count": 213,
+      "mcq_count": 156800,
+      "coverage_pct": 736.15,
+      "attempts": 0,
+      "avg_score": 0,
+      "most_solved": 0,
+      "most_difficult_difficulty": "easy",
+      "difficulty_stats": {
+        "easy": {
+          "count": 7062,
+          "failed": 0
+        },
+        "medium": {
+          "count": 139310,
+          "failed": 0
+        },
+        "hard": {
+          "count": 10428,
+          "failed": 0
+        }
+      },
+      "trend": "growing"
+    },
+    {
+      "exam_id": "pma",
+      "subject_count": 6,
+      "concept_count": 68,
+      "mcq_count": 16117,
+      "coverage_pct": 237.01,
+      "attempts": 0,
+      "avg_score": 0,
+      "most_solved": 0,
+      "most_difficult_difficulty": "easy",
+      "difficulty_stats": {
+        "easy": {
+          "count": 4514,
+          "failed": 0
+        },
+        "medium": {
+          "count": 7420,
+          "failed": 0
+        },
+        "hard": {
+          "count": 4183,
+          "failed": 0
+        }
+      },
+      "trend": "growing"
+    },
+    {
+      "exam_id": "pms",
+      "subject_count": 25,
+      "concept_count": 315,
+      "mcq_count": 197467,
+      "coverage_pct": 626.88,
+      "attempts": 0,
+      "avg_score": 0,
+      "most_solved": 0,
+      "most_difficult_difficulty": "easy",
+      "difficulty_stats": {
+        "easy": {
+          "count": 30409,
+          "failed": 0
+        },
+        "medium": {
+          "count": 156798,
+          "failed": 0
+        },
+        "hard": {
+          "count": 10260,
+          "failed": 0
+        }
+      },
+      "trend": "growing"
+    },
+    {
+      "exam_id": "police",
+      "subject_count": 24,
+      "concept_count": 283,
+      "mcq_count": 191885,
+      "coverage_pct": 678.04,
+      "attempts": 0,
+      "avg_score": 0,
+      "most_solved": 0,
+      "most_difficult_difficulty": "easy",
+      "difficulty_stats": {
+        "easy": {
+          "count": 16620,
+          "failed": 0
+        },
+        "medium": {
+          "count": 164205,
+          "failed": 0
+        },
+        "hard": {
+          "count": 11060,
+          "failed": 0
+        }
+      },
+      "trend": "growing"
+    },
+    {
+      "exam_id": "ppsc",
+      "subject_count": 88,
+      "concept_count": 805,
+      "mcq_count": 490631,
+      "coverage_pct": 609.48,
+      "attempts": 0,
+      "avg_score": 0,
+      "most_solved": 0,
+      "most_difficult_difficulty": "easy",
+      "difficulty_stats": {
+        "easy": {
+          "count": 87303,
+          "failed": 0
+        },
+        "medium": {
+          "count": 382868,
+          "failed": 0
+        },
+        "hard": {
+          "count": 20460,
+          "failed": 0
+        }
+      },
+      "trend": "growing"
+    },
+    {
+      "exam_id": "pts",
+      "subject_count": 22,
+      "concept_count": 251,
+      "mcq_count": 177627,
+      "coverage_pct": 707.68,
+      "attempts": 0,
+      "avg_score": 0,
+      "most_solved": 0,
+      "most_difficult_difficulty": "easy",
+      "difficulty_stats": {
+        "easy": {
+          "count": 19139,
+          "failed": 0
+        },
+        "medium": {
+          "count": 147210,
+          "failed": 0
+        },
+        "hard": {
+          "count": 11278,
+          "failed": 0
+        }
+      },
+      "trend": "growing"
+    },
+    {
+      "exam_id": "punjab-police",
+      "subject_count": 6,
+      "concept_count": 97,
+      "mcq_count": 20971,
+      "coverage_pct": 216.2,
+      "attempts": 0,
+      "avg_score": 0,
+      "most_solved": 0,
+      "most_difficult_difficulty": "easy",
+      "difficulty_stats": {
+        "easy": {
+          "count": 5831,
+          "failed": 0
+        },
+        "medium": {
+          "count": 9680,
+          "failed": 0
+        },
+        "hard": {
+          "count": 5460,
+          "failed": 0
+        }
+      },
+      "trend": "growing"
+    },
+    {
+      "exam_id": "railways",
+      "subject_count": 17,
+      "concept_count": 251,
+      "mcq_count": 177167,
+      "coverage_pct": 705.84,
+      "attempts": 0,
+      "avg_score": 0,
+      "most_solved": 0,
+      "most_difficult_difficulty": "easy",
+      "difficulty_stats": {
+        "easy": {
+          "count": 9992,
+          "failed": 0
+        },
+        "medium": {
+          "count": 156746,
+          "failed": 0
+        },
+        "hard": {
+          "count": 10429,
+          "failed": 0
+        }
+      },
+      "trend": "growing"
+    },
+    {
+      "exam_id": "rescue-1122",
+      "subject_count": 13,
+      "concept_count": 213,
+      "mcq_count": 156800,
+      "coverage_pct": 736.15,
+      "attempts": 0,
+      "avg_score": 0,
+      "most_solved": 0,
+      "most_difficult_difficulty": "easy",
+      "difficulty_stats": {
+        "easy": {
+          "count": 7062,
+          "failed": 0
+        },
+        "medium": {
+          "count": 139310,
+          "failed": 0
+        },
+        "hard": {
+          "count": 10428,
+          "failed": 0
+        }
+      },
+      "trend": "growing"
+    },
+    {
+      "exam_id": "sat",
+      "subject_count": 8,
+      "concept_count": 74,
+      "mcq_count": 35287,
+      "coverage_pct": 476.85,
+      "attempts": 0,
+      "avg_score": 0,
+      "most_solved": 0,
+      "most_difficult_difficulty": "easy",
+      "difficulty_stats": {
+        "easy": {
+          "count": 1860,
+          "failed": 0
+        },
+        "medium": {
+          "count": 33385,
+          "failed": 0
+        },
+        "hard": {
+          "count": 42,
+          "failed": 0
+        }
+      },
+      "trend": "insufficient_data"
+    },
+    {
+      "exam_id": "sbp",
+      "subject_count": 8,
+      "concept_count": 61,
+      "mcq_count": 64052,
+      "coverage_pct": 1050.03,
+      "attempts": 0,
+      "avg_score": 0,
+      "most_solved": 0,
+      "most_difficult_difficulty": "easy",
+      "difficulty_stats": {
+        "easy": {
+          "count": 8274,
+          "failed": 0
+        },
+        "medium": {
+          "count": 54578,
+          "failed": 0
+        },
+        "hard": {
+          "count": 1200,
+          "failed": 0
+        }
+      },
+      "trend": "insufficient_data"
+    },
+    {
+      "exam_id": "sepco",
+      "subject_count": 14,
+      "concept_count": 219,
+      "mcq_count": 157227,
+      "coverage_pct": 717.93,
+      "attempts": 0,
+      "avg_score": 0,
+      "most_solved": 0,
+      "most_difficult_difficulty": "easy",
+      "difficulty_stats": {
+        "easy": {
+          "count": 7064,
+          "failed": 0
+        },
+        "medium": {
+          "count": 139734,
+          "failed": 0
+        },
+        "hard": {
+          "count": 10429,
+          "failed": 0
+        }
+      },
+      "trend": "growing"
+    },
+    {
+      "exam_id": "sngpl",
+      "subject_count": 14,
+      "concept_count": 219,
+      "mcq_count": 157227,
+      "coverage_pct": 717.93,
+      "attempts": 0,
+      "avg_score": 0,
+      "most_solved": 0,
+      "most_difficult_difficulty": "easy",
+      "difficulty_stats": {
+        "easy": {
+          "count": 7064,
+          "failed": 0
+        },
+        "medium": {
+          "count": 139734,
+          "failed": 0
+        },
+        "hard": {
+          "count": 10429,
+          "failed": 0
+        }
+      },
+      "trend": "growing"
+    },
+    {
+      "exam_id": "spsc",
+      "subject_count": 15,
+      "concept_count": 202,
+      "mcq_count": 151590,
+      "coverage_pct": 750.45,
+      "attempts": 0,
+      "avg_score": 0,
+      "most_solved": 0,
+      "most_difficult_difficulty": "easy",
+      "difficulty_stats": {
+        "easy": {
+          "count": 7093,
+          "failed": 0
+        },
+        "medium": {
+          "count": 134069,
+          "failed": 0
+        },
+        "hard": {
+          "count": 10428,
+          "failed": 0
+        }
+      },
+      "trend": "growing"
+    },
+    {
+      "exam_id": "ssgc",
+      "subject_count": 14,
+      "concept_count": 219,
+      "mcq_count": 157229,
+      "coverage_pct": 717.94,
+      "attempts": 0,
+      "avg_score": 0,
+      "most_solved": 0,
+      "most_difficult_difficulty": "easy",
+      "difficulty_stats": {
+        "easy": {
+          "count": 7064,
+          "failed": 0
+        },
+        "medium": {
+          "count": 139736,
+          "failed": 0
+        },
+        "hard": {
+          "count": 10429,
+          "failed": 0
+        }
+      },
+      "trend": "growing"
+    },
+    {
+      "exam_id": "sst",
+      "subject_count": 13,
+      "concept_count": 206,
+      "mcq_count": 156607,
+      "coverage_pct": 760.23,
+      "attempts": 0,
+      "avg_score": 0,
+      "most_solved": 0,
+      "most_difficult_difficulty": "easy",
+      "difficulty_stats": {
+        "easy": {
+          "count": 11986,
+          "failed": 0
+        },
+        "medium": {
+          "count": 134186,
+          "failed": 0
+        },
+        "hard": {
+          "count": 10435,
+          "failed": 0
+        }
+      },
+      "trend": "growing"
+    },
+    {
+      "exam_id": "sub-inspector",
+      "subject_count": 16,
+      "concept_count": 236,
+      "mcq_count": 162218,
+      "coverage_pct": 687.36,
+      "attempts": 0,
+      "avg_score": 0,
+      "most_solved": 0,
+      "most_difficult_difficulty": "easy",
+      "difficulty_stats": {
+        "easy": {
+          "count": 8152,
+          "failed": 0
+        },
+        "medium": {
+          "count": 143626,
+          "failed": 0
+        },
+        "hard": {
+          "count": 10440,
+          "failed": 0
+        }
+      },
+      "trend": "growing"
+    },
+    {
+      "exam_id": "teaching",
+      "subject_count": 13,
+      "concept_count": 206,
+      "mcq_count": 156609,
+      "coverage_pct": 760.24,
+      "attempts": 0,
+      "avg_score": 0,
+      "most_solved": 0,
+      "most_difficult_difficulty": "easy",
+      "difficulty_stats": {
+        "easy": {
+          "count": 11986,
+          "failed": 0
+        },
+        "medium": {
+          "count": 134188,
+          "failed": 0
+        },
+        "hard": {
+          "count": 10435,
+          "failed": 0
+        }
+      },
+      "trend": "growing"
+    },
+    {
+      "exam_id": "toefl",
+      "subject_count": 4,
+      "concept_count": 37,
+      "mcq_count": 15160,
+      "coverage_pct": 409.73,
+      "attempts": 0,
+      "avg_score": 0,
+      "most_solved": 0,
+      "most_difficult_difficulty": "easy",
+      "difficulty_stats": {
+        "easy": {
+          "count": 1729,
+          "failed": 0
+        },
+        "medium": {
+          "count": 13409,
+          "failed": 0
+        },
+        "hard": {
+          "count": 22,
+          "failed": 0
+        }
+      },
+      "trend": "insufficient_data"
+    },
+    {
+      "exam_id": "wapda",
+      "subject_count": 8,
+      "concept_count": 83,
+      "mcq_count": 136645,
+      "coverage_pct": 1646.33,
+      "attempts": 0,
+      "avg_score": 0,
+      "most_solved": 0,
+      "most_difficult_difficulty": "easy",
+      "difficulty_stats": {
+        "easy": {
+          "count": 1826,
+          "failed": 0
+        },
+        "medium": {
+          "count": 133191,
+          "failed": 0
+        },
+        "hard": {
+          "count": 1628,
+          "failed": 0
+        }
+      },
+      "trend": "insufficient_data"
+    }
+  ]
+}

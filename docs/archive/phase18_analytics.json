@@ -1,0 +1,295 @@
+{
+  "step": "generation_analytics",
+  "generated_at": "2026-08-05T12:30:07",
+  "summary": {
+    "total_candidates": 107,
+    "blueprints_selected": 107,
+    "distractor_selections": 74,
+    "composed_candidates": 61,
+    "duplicates_found": 2,
+    "passed_validation": 37,
+    "failed_validation": 22,
+    "inserted_queue": 37,
+    "rejected_queue": 0,
+    "coverage_increase": 37
+  },
+  "per_subject": {
+    "accounting": {
+      "generated": 3,
+      "passed": 3,
+      "failed": 0
+    },
+    "agriculture": {
+      "generated": 1,
+      "passed": 1,
+      "failed": 0
+    },
+    "ai": {
+      "generated": 1,
+      "passed": 1,
+      "failed": 0
+    },
+    "ajkpsc": {
+      "generated": 3,
+      "passed": 3,
+      "failed": 0
+    },
+    "analytical-reasoning": {
+      "generated": 7,
+      "passed": 7,
+      "failed": 0
+    },
+    "anatomy": {
+      "generated": 4,
+      "passed": 4,
+      "failed": 0
+    },
+    "anf": {
+      "generated": 1,
+      "passed": 1,
+      "failed": 0
+    },
+    "angular": {
+      "generated": 2,
+      "passed": 2,
+      "failed": 0
+    },
+    "anthropology": {
+      "generated": 2,
+      "passed": 2,
+      "failed": 0
+    },
+    "antonyms": {
+      "generated": 7,
+      "passed": 7,
+      "failed": 0
+    },
+    "aptitude-tests": {
+      "generated": 5,
+      "passed": 5,
+      "failed": 0
+    },
+    "army": {
+      "generated": 1,
+      "passed": 1,
+      "failed": 0
+    }
+  },
+  "per_exam": {
+    "ppsc": {
+      "generated": 11,
+      "passed": 11
+    },
+    "ajkpsc": {
+      "generated": 3,
+      "passed": 3
+    },
+    "nts": {
+      "generated": 12,
+      "passed": 12
+    },
+    "anf": {
+      "generated": 1,
+      "passed": 1
+    },
+    "ib": {
+      "generated": 2,
+      "passed": 2
+    },
+    "css": {
+      "generated": 7,
+      "passed": 7
+    },
+    "army": {
+      "generated": 1,
+      "passed": 1
+    }
+  },
+  "per_concept": {
+    "15195": {
+      "concept_name": "financial statements",
+      "generated": 1,
+      "passed": 1
+    },
+    "15196": {
+      "concept_name": "Accounting Principles",
+      "generated": 1,
+      "passed": 1
+    },
+    "15197": {
+      "concept_name": "basics",
+      "generated": 1,
+      "passed": 1
+    },
+    "15204": {
+      "concept_name": "Soils and Agronomy",
+      "generated": 1,
+      "passed": 1
+    },
+    "15213": {
+      "concept_name": "Machine Learning Models",
+      "generated": 1,
+      "passed": 1
+    },
+    "15218": {
+      "concept_name": "AJKPSC (Azad Kashmir Public Service Commission)",
+      "generated": 1,
+      "passed": 1
+    },
+    "15222": {
+      "concept_name": "AJK History and Politics",
+      "generated": 1,
+      "passed": 1
+    },
+    "15223": {
+      "concept_name": "AJK Culture and Economy",
+      "generated": 1,
+      "passed": 1
+    },
+    "15229": {
+      "concept_name": "Analytical Reasoning",
+      "generated": 1,
+      "passed": 1
+    },
+    "15230": {
+      "concept_name": "reasoning",
+      "generated": 1,
+      "passed": 1
+    },
+    "15231": {
+      "concept_name": "Ranking and Positioning",
+      "generated": 1,
+      "passed": 1
+    },
+    "15232": {
+      "concept_name": "Analogies",
+      "generated": 1,
+      "passed": 1
+    },
+    "15233": {
+      "concept_name": "Direction Sense",
+      "generated": 1,
+      "passed": 1
+    },
+    "15234": {
+      "concept_name": "Blood Relations",
+      "generated": 1,
+      "passed": 1
+    },
+    "15235": {
+      "concept_name": "Number Coding",
+      "generated": 1,
+      "passed": 1
+    },
+    "15237": {
+      "concept_name": "Anatomy",
+      "generated": 1,
+      "passed": 1
+    },
+    "15241": {
+      "concept_name": "Letter Positions",
+      "generated": 1,
+      "passed": 1
+    },
+    "15246": {
+      "concept_name": "Bones and Skeleton",
+      "generated": 1,
+      "passed": 1
+    },
+    "15247": {
+      "concept_name": "Nerves and Vessels",
+      "generated": 1,
+      "passed": 1
+    },
+    "15249": {
+      "concept_name": "ANF (Anti-Narcotics Force)",
+      "generated": 1,
+      "passed": 1
+    },
+    "15255": {
+      "concept_name": "angular",
+      "generated": 1,
+      "passed": 1
+    },
+    "15258": {
+      "concept_name": "Spelling and Letter Building",
+      "generated": 1,
+      "passed": 1
+    },
+    "15263": {
+      "concept_name": "Anthropology",
+      "generated": 1,
+      "passed": 1
+    },
+    "15265": {
+      "concept_name": "branches",
+      "generated": 1,
+      "passed": 1
+    },
+    "15266": {
+      "concept_name": "Antonyms",
+      "generated": 1,
+      "passed": 1
+    },
+    "15267": {
+      "concept_name": "deep-kb",
+      "generated": 1,
+      "passed": 1
+    },
+    "15268": {
+      "concept_name": "english",
+      "generated": 1,
+      "passed": 1
+    },
+    "15269": {
+      "concept_name": "words",
+      "generated": 1,
+      "passed": 1
+    },
+    "15270": {
+      "concept_name": "Word Lengths and Spelling",
+      "generated": 1,
+      "passed": 1
+    },
+    "15271": {
+      "concept_name": "Antonym Pairs",
+      "generated": 1,
+      "passed": 1
+    },
+    "15275": {
+      "concept_name": "antonym",
+      "generated": 1,
+      "passed": 1
+    },
+    "15276": {
+      "concept_name": "Aptitude Tests",
+      "generated": 1,
+      "passed": 1
+    },
+    "15277": {
+      "concept_name": "aptitude",
+      "generated": 1,
+      "passed": 1
+    },
+    "15278": {
+      "concept_name": "Graph Reading",
+      "generated": 1,
+      "passed": 1
+    },
+    "15279": {
+      "concept_name": "Data Interpretation Tables",
+      "generated": 1,
+      "passed": 1
+    },
+    "15280": {
+      "concept_name": "Percentage Comparisons",
+      "generated": 1,
+      "passed": 1
+    },
+    "15288": {
+      "concept_name": "Pakistan Army (Recruitment)",
+      "generated": 1,
+      "passed": 1
+    }
+  }
+}

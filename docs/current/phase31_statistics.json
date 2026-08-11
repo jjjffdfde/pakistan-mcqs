@@ -1,0 +1,23 @@
+{
+  "module": "STATS",
+  "generated_at": "2026-08-10T15:02:51.825Z",
+  "pages_inventoried": 1129,
+  "routes": 1190,
+  "static_links": 13906,
+  "assets_checked": 54,
+  "runtime_runs": 28,
+  "network_runs": 5,
+  "widths_tested": 10,
+  "js_errors_total": 0,
+  "overflow_runs": 0,
+  "features_verified_working": 26,
+  "fixes_applied": 0,
+  "fixes_carried": 1,
+  "p0": 0,
+  "p1": 0,
+  "p2": 0,
+  "p3": 0,
+  "release_status": "READY",
+  "deliverables": 26,
+  "note": "P2/P3 counted as advisory-only items (2 P2 advisory, 2 P3 advisory)"
+}

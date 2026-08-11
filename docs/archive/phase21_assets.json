@@ -1,0 +1,41 @@
+{
+  "step": "asset_validation",
+  "generated_at": "2026-08-06T08:51:34",
+  "summary": {
+    "total_assets_referenced": 256,
+    "assets_found": 254,
+    "assets_missing": 2,
+    "manifest_exists": true,
+    "manifest_valid_json": true,
+    "service_worker": true,
+    "favicon_referenced": true,
+    "og_image_referenced": 1125,
+    "og_image_exists": true,
+    "data_json_files": 237,
+    "valid_data_json": 237,
+    "invalid_data_json": 0,
+    "total_images": 1,
+    "total_videos": 0,
+    "total_fonts": 0
+  },
+  "missing_assets": [
+    {
+      "reference": "../../assets/css/style.css",
+      "exists": false,
+      "size_kb": 0
+    },
+    {
+      "reference": "../assets/css/style.css",
+      "exists": false,
+      "size_kb": 0
+    }
+  ],
+  "image_files": [
+    {
+      "file": "assets/img/og-cover.png",
+      "size_kb": 3
+    }
+  ],
+  "video_files": [],
+  "font_files": []
+}

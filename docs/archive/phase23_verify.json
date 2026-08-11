@@ -1,0 +1,60 @@
+{
+  "phase": "verify",
+  "verified_at": "2026-08-06T16:55:20.085Z",
+  "db": "E:\\pAK MCQS\\db\\pakistan-mcqs.sqlite",
+  "checks": [
+    {
+      "check": "sqlite_integrity_check",
+      "status": "PASSED",
+      "detail": "[{\"integrity_check\":\"ok\"}]"
+    },
+    {
+      "check": "fts_integrity_check",
+      "status": "PASSED",
+      "detail": "ok"
+    },
+    {
+      "check": "foreign_key_check",
+      "status": "PASSED",
+      "detail": "0 violations"
+    },
+    {
+      "check": "schema_tables_match",
+      "status": "PASSED",
+      "detail": "59 tables"
+    },
+    {
+      "check": "schema_indexes_match",
+      "status": "PASSED",
+      "detail": "64 indexes"
+    },
+    {
+      "check": "schema_views_match",
+      "status": "PASSED",
+      "detail": "0 views"
+    },
+    {
+      "check": "schema_triggers_match",
+      "status": "PASSED",
+      "detail": "0 triggers"
+    },
+    {
+      "check": "row_counts_match",
+      "status": "PASSED",
+      "detail": "62/62 tables match; mcqs=872621 (manifest expects 872621)"
+    },
+    {
+      "check": "primary_unique_keys",
+      "status": "PASSED",
+      "detail": "enforced by schema; integrity_check ok"
+    },
+    {
+      "check": "checksums",
+      "status": "PASSED",
+      "detail": "311/311 verified"
+    }
+  ],
+  "passed": 10,
+  "failed": 0,
+  "overall_score": 1
+}

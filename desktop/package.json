@@ -1,0 +1,60 @@
+{
+  "name": "pakistan-mcqs-hub-desktop",
+  "version": "1.0.0",
+  "description": "Pakistan MCQs Hub - offline desktop app (Windows / Linux) built on Electron. The site shell is served from packaged static files; SQLite remains the production database on the local server mode.",
+  "main": "main.js",
+  "author": "Pakistan MCQs Hub",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder --win nsis --win portable",
+    "dist:win": "electron-builder --win nsis",
+    "dist:win-portable": "electron-builder --win portable",
+    "dist:linux": "electron-builder --linux AppImage deb"
+  },
+  "build": {
+    "appId": "com.pakistanmcqshub.app",
+    "productName": "Pakistan MCQs Hub",
+    "files": [
+      "main.js",
+      "preload.js",
+      "../index.html",
+      "../offline.html",
+      "../404.html",
+      "../manifest.webmanifest",
+      "../sw.js",
+      "../assets/**/*",
+      "../data/**/*",
+      "../subjects/**/*",
+      "../chapters/**/*"
+    ],
+    "directories": {
+      "output": "release"
+    },
+    "win": {
+      "target": [
+        { "target": "nsis", "arch": ["x64"] },
+        { "target": "portable", "arch": ["x64"] }
+      ],
+      "icon": "../assets/icons/icon-512.png"
+    },
+    "nsis": {
+      "oneClick": false,
+      "perMachine": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "shortcutName": "Pakistan MCQs Hub"
+    },
+    "portable": {
+      "artifactName": "Pakistan-MCQs-Hub-Portable-${version}.exe"
+    },
+    "linux": {
+      "target": ["AppImage", "deb"],
+      "category": "Education",
+      "icon": "../assets/icons/icon-512.png",
+      "maintainer": "Pakistan MCQs Hub"
+    },
+    "artifactName": "Pakistan-MCQs-Hub-${version}-${os}-${arch}.${ext}"
+  }
+}

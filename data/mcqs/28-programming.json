@@ -1,0 +1,3395 @@
+[
+ {
+  "id": "htm-006",
+  "question": "Which tag declares an HTML document's document type?",
+  "optionA": "<!DOCTYPE html>",
+  "optionB": "<html lang>",
+  "optionC": "<meta>",
+  "optionD": "<head>",
+  "correctAnswer": "A",
+  "detailedExplanation": "The doctype declaration precedes the <html> element and must be first.",
+  "difficulty": "easy",
+  "subject": "html",
+  "chapter": "html-html-fundamentals",
+  "topic": "t-556",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc",
+   "nts"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "html"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "htm-007",
+  "question": "Which tag creates a hyperlink?",
+  "optionA": "<a>",
+  "optionB": "<link>",
+  "optionC": "<href>",
+  "optionD": "<url>",
+  "correctAnswer": "A",
+  "detailedExplanation": "The anchor element <a href=\"...\"> creates links.",
+  "difficulty": "easy",
+  "subject": "html",
+  "chapter": "html-html-fundamentals",
+  "topic": "t-557",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc",
+   "nts"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "html"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "htm-008",
+  "question": "Which input type renders a dropdown list?",
+  "optionA": "<select>",
+  "optionB": "<input>",
+  "optionC": "<button>",
+  "optionD": "<textarea>",
+  "correctAnswer": "A",
+  "detailedExplanation": "A <select> element with <option> children creates a dropdown.",
+  "difficulty": "medium",
+  "subject": "html",
+  "chapter": "html-forms-media",
+  "topic": "t-558",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc",
+   "nts"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "html",
+   "forms"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "htm-009",
+  "question": "Which element is semantic for page navigation?",
+  "optionA": "<nav>",
+  "optionB": "<div>",
+  "optionC": "<span>",
+  "optionD": "<b>",
+  "correctAnswer": "A",
+  "detailedExplanation": "<nav> semantically marks navigation links; div and span are generic.",
+  "difficulty": "medium",
+  "subject": "html",
+  "chapter": "html-semantic-html",
+  "topic": "t-560",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc",
+   "nts"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "html",
+   "semantic"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "htm-010",
+  "question": "To embed a video, the correct element is:",
+  "optionA": "<video>",
+  "optionB": "<audio>",
+  "optionC": "<movie>",
+  "optionD": "<media>",
+  "correctAnswer": "A",
+  "detailedExplanation": "The <video> element embeds video with <source> children or a src attribute.",
+  "difficulty": "medium",
+  "subject": "html",
+  "chapter": "html-forms-media",
+  "topic": "t-559",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc",
+   "nts"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "html",
+   "media"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "css-006",
+  "question": "Which property sets the space inside an element's border?",
+  "optionA": "padding",
+  "optionB": "margin",
+  "optionC": "border",
+  "optionD": "outline",
+  "correctAnswer": "A",
+  "detailedExplanation": "Padding is inside the border; margin is outside it.",
+  "difficulty": "easy",
+  "subject": "css",
+  "chapter": "css-css-fundamentals",
+  "topic": "t-562",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc",
+   "nts"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "css"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "css-007",
+  "question": "The selector 'p.intro' matches:",
+  "optionA": "paragraphs with class intro",
+  "optionB": "paragraphs with id intro",
+  "optionC": "any element with class intro",
+  "optionD": "intro elements",
+  "correctAnswer": "A",
+  "detailedExplanation": "'p.intro' targets <p> elements whose class is 'intro'.",
+  "difficulty": "easy",
+  "subject": "css",
+  "chapter": "css-css-fundamentals",
+  "topic": "t-562",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc",
+   "nts"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "css",
+   "selectors"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "css-008",
+  "question": "Which property aligns flex items along the main axis?",
+  "optionA": "justify-content",
+  "optionB": "align-items",
+  "optionC": "flex-wrap",
+  "optionD": "gap only",
+  "correctAnswer": "A",
+  "detailedExplanation": "justify-content distributes items on the main axis; align-items on the cross axis.",
+  "difficulty": "medium",
+  "subject": "css",
+  "chapter": "css-layout",
+  "topic": "t-564",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc",
+   "nts"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "css",
+   "flexbox"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "css-009",
+  "question": "CSS Grid is best suited for:",
+  "optionA": "two-dimensional layouts",
+  "optionB": "styling text only",
+  "optionC": "server-side code",
+  "optionD": "database queries",
+  "correctAnswer": "A",
+  "detailedExplanation": "Grid handles rows and columns together (two-dimensional), unlike flexbox.",
+  "difficulty": "medium",
+  "subject": "css",
+  "chapter": "css-layout",
+  "topic": "t-565",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc",
+   "nts"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "css",
+   "grid"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "css-010",
+  "question": "A media query makes CSS apply:",
+  "optionA": "conditionally based on device characteristics",
+  "optionB": "always",
+  "optionC": "never",
+  "optionD": "only on desktop",
+  "correctAnswer": "A",
+  "detailedExplanation": "@media rules apply styles when conditions like width match.",
+  "difficulty": "medium",
+  "subject": "css",
+  "chapter": "css-responsive-design",
+  "topic": "t-566",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc",
+   "nts"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "css",
+   "responsive"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "jss-007",
+  "question": "Which keyword declares a block-scoped variable that cannot be reassigned?",
+  "optionA": "const",
+  "optionB": "var",
+  "optionC": "let",
+  "optionD": "static",
+  "correctAnswer": "A",
+  "detailedExplanation": "const is block-scoped and read-only after assignment; let allows reassignment.",
+  "difficulty": "easy",
+  "subject": "javascript",
+  "chapter": "javascript-js-fundamentals",
+  "topic": "t-568",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc",
+   "nts"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "js"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "jss-008",
+  "question": "What does 'typeof null' return in JavaScript?",
+  "optionA": "\"object\"",
+  "optionB": "\"null\"",
+  "optionC": "\"undefined\"",
+  "optionD": "\"boolean\"",
+  "correctAnswer": "A",
+  "detailedExplanation": "A legacy quirk makes typeof null return \"object\".",
+  "difficulty": "easy",
+  "subject": "javascript",
+  "chapter": "javascript-js-fundamentals",
+  "topic": "t-568",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc",
+   "nts"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "js"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "jss-009",
+  "question": "What is a closure?",
+  "optionA": "a function with access to its outer scope",
+  "optionB": "a class with private fields",
+  "optionC": "a loop that never ends",
+  "optionD": "a global variable",
+  "correctAnswer": "A",
+  "detailedExplanation": "A closure is a function that retains access to variables of its enclosing scope.",
+  "difficulty": "medium",
+  "subject": "javascript",
+  "chapter": "javascript-js-fundamentals",
+  "topic": "t-569",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc",
+   "nts"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "js",
+   "closure"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "jss-010",
+  "question": "Which method selects the first element matching a CSS selector?",
+  "optionA": "querySelector",
+  "optionB": "getElementById only",
+  "optionC": "querySelectorAll",
+  "optionD": "selectAll",
+  "correctAnswer": "A",
+  "detailedExplanation": "document.querySelector() returns the first matching element.",
+  "difficulty": "medium",
+  "subject": "javascript",
+  "chapter": "javascript-dom-events",
+  "topic": "t-570",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc",
+   "nts"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "js",
+   "dom"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "jss-011",
+  "question": "Which keyword awaits a promise in an async function?",
+  "optionA": "await",
+  "optionB": "wait",
+  "optionC": "pause",
+  "optionD": "then only",
+  "correctAnswer": "A",
+  "detailedExplanation": "await suspends an async function until the promise settles.",
+  "difficulty": "medium",
+  "subject": "javascript",
+  "chapter": "javascript-modern-js",
+  "topic": "t-573",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc",
+   "nts"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "js",
+   "async"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "jss-012",
+  "question": "Which operator safely accesses nested properties without errors?",
+  "optionA": "?. (optional chaining)",
+  "optionB": "!!",
+  "optionC": "?? only",
+  "optionD": "typeof",
+  "correctAnswer": "A",
+  "detailedExplanation": "Optional chaining (?.) short-circuits to undefined instead of throwing.",
+  "difficulty": "hard",
+  "subject": "javascript",
+  "chapter": "javascript-modern-js",
+  "topic": "t-572",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc",
+   "nts"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "js",
+   "es6"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "tsc-005",
+  "question": "TypeScript adds what to JavaScript?",
+  "optionA": "static typing",
+  "optionB": "a new runtime",
+  "optionC": "a database",
+  "optionD": "CSS support",
+  "correctAnswer": "A",
+  "detailedExplanation": "TypeScript is a typed superset that compiles to plain JavaScript.",
+  "difficulty": "easy",
+  "subject": "typescript",
+  "chapter": "typescript-ts-fundamentals",
+  "topic": "t-574",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "ts"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "tsc-006",
+  "question": "Which keyword declares an object shape contract?",
+  "optionA": "interface",
+  "optionB": "class only",
+  "optionC": "typedef",
+  "optionD": "shape",
+  "correctAnswer": "A",
+  "detailedExplanation": "interface (or type) defines the shape of objects.",
+  "difficulty": "medium",
+  "subject": "typescript",
+  "chapter": "typescript-ts-fundamentals",
+  "topic": "t-574",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "ts"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "tsc-007",
+  "question": "Generics allow functions to:",
+  "optionA": "work with multiple types safely",
+  "optionB": "run faster",
+  "optionC": "access the DOM",
+  "optionD": "call the server",
+  "correctAnswer": "A",
+  "detailedExplanation": "Generics parameterize types, keeping type safety across types.",
+  "difficulty": "medium",
+  "subject": "typescript",
+  "chapter": "typescript-ts-fundamentals",
+  "topic": "t-575",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "ts",
+   "generics"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "tsc-008",
+  "question": "The TypeScript compiler is invoked with:",
+  "optionA": "tsc",
+  "optionB": "tscompile",
+  "optionC": "typescript",
+  "optionD": "node ts",
+  "correctAnswer": "A",
+  "detailedExplanation": "The tsc CLI compiles .ts files to JavaScript.",
+  "difficulty": "medium",
+  "subject": "typescript",
+  "chapter": "typescript-ts-in-practice",
+  "topic": "t-576",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "ts"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "bts-004",
+  "question": "Bootstrap's grid is based on a maximum of how many columns?",
+  "optionA": "12",
+  "optionB": "8",
+  "optionC": "16",
+  "optionD": "10",
+  "correctAnswer": "A",
+  "detailedExplanation": "Bootstrap uses a 12-column responsive grid.",
+  "difficulty": "easy",
+  "subject": "bootstrap",
+  "chapter": "bootstrap-bootstrap-basics",
+  "topic": "t-578",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc",
+   "nts"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "bootstrap"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "bts-005",
+  "question": "Which class creates a button?",
+  "optionA": "btn",
+  "optionB": "button",
+  "optionC": "bttn",
+  "optionD": "btn-sm only",
+  "correctAnswer": "A",
+  "detailedExplanation": "The .btn class styles button elements; .btn-sm is a size modifier.",
+  "difficulty": "medium",
+  "subject": "bootstrap",
+  "chapter": "bootstrap-bootstrap-basics",
+  "topic": "t-579",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc",
+   "nts"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "bootstrap"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "bts-006",
+  "question": "The class 'd-none' in Bootstrap:",
+  "optionA": "hides the element",
+  "optionB": "displays it inline",
+  "optionC": "adds padding",
+  "optionD": "makes it bold",
+  "correctAnswer": "A",
+  "detailedExplanation": "d-none applies display: none to hide an element.",
+  "difficulty": "medium",
+  "subject": "bootstrap",
+  "chapter": "bootstrap-utilities-theming",
+  "topic": "t-580",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc",
+   "nts"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "bootstrap"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "twc-004",
+  "question": "Tailwind CSS is primarily:",
+  "optionA": "a utility-first CSS framework",
+  "optionB": "a JavaScript library",
+  "optionC": "a database tool",
+  "optionD": "a server",
+  "correctAnswer": "A",
+  "detailedExplanation": "Tailwind provides small utility classes composed in markup.",
+  "difficulty": "easy",
+  "subject": "tailwind-css",
+  "chapter": "tailwind-css-tailwind-basics",
+  "topic": "t-582",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "tailwind"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "twc-005",
+  "question": "The Tailwind classes 'flex' and 'items-center' control:",
+  "optionA": "layout and alignment",
+  "optionB": "colors only",
+  "optionC": "fonts only",
+  "optionD": "spacing only",
+  "correctAnswer": "A",
+  "detailedExplanation": "flex sets display:flex; items-center centers children on the cross axis.",
+  "difficulty": "medium",
+  "subject": "tailwind-css",
+  "chapter": "tailwind-css-tailwind-basics",
+  "topic": "t-583",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "tailwind"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "twc-006",
+  "question": "In Tailwind, the 'md:' prefix applies styles:",
+  "optionA": "at medium screens and up",
+  "optionB": "only on mobile",
+  "optionC": "only in print",
+  "optionD": "never",
+  "correctAnswer": "A",
+  "detailedExplanation": "Prefixes like sm:, md:, lg: are breakpoint variants for responsive design.",
+  "difficulty": "medium",
+  "subject": "tailwind-css",
+  "chapter": "tailwind-css-design-responsive",
+  "topic": "t-584",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "tailwind",
+   "responsive"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "rct-006",
+  "question": "In React, 'props' are:",
+  "optionA": "read-only inputs passed to components",
+  "optionB": "mutable internal state",
+  "optionC": "global variables",
+  "optionD": "CSS classes",
+  "correctAnswer": "A",
+  "detailedExplanation": "Props flow from parent to child and are immutable inside the child.",
+  "difficulty": "easy",
+  "subject": "react",
+  "chapter": "react-react-fundamentals",
+  "topic": "t-586",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc",
+   "nts"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "react"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "rct-007",
+  "question": "Which hook manages local state in a functional component?",
+  "optionA": "useState",
+  "optionB": "useEffect",
+  "optionC": "useRef",
+  "optionD": "useMemo",
+  "correctAnswer": "A",
+  "detailedExplanation": "useState returns a state value and its updater function.",
+  "difficulty": "easy",
+  "subject": "react",
+  "chapter": "react-react-fundamentals",
+  "topic": "t-587",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc",
+   "nts"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "react",
+   "hooks"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "rct-008",
+  "question": "The useEffect hook is used for:",
+  "optionA": "side effects like fetching data",
+  "optionB": "rendering lists",
+  "optionC": "styling",
+  "optionD": "routing only",
+  "correctAnswer": "A",
+  "detailedExplanation": "useEffect runs side effects after render, e.g. API calls and subscriptions.",
+  "difficulty": "medium",
+  "subject": "react",
+  "chapter": "react-react-fundamentals",
+  "topic": "t-587",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc",
+   "nts"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "react",
+   "hooks"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "rct-009",
+  "question": "Keys in React lists should be:",
+  "optionA": "unique and stable",
+  "optionB": "random every render",
+  "optionC": "the index always",
+  "optionD": "omitted",
+  "correctAnswer": "A",
+  "detailedExplanation": "Stable unique keys help React reconcile list items efficiently.",
+  "difficulty": "medium",
+  "subject": "react",
+  "chapter": "react-react-in-practice",
+  "topic": "t-589",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc",
+   "nts"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "react"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "rct-010",
+  "question": "Which component defines a route path in React Router?",
+  "optionA": "<Route>",
+  "optionB": "<Link> only",
+  "optionC": "<Path>",
+  "optionD": "<Nav>",
+  "correctAnswer": "A",
+  "detailedExplanation": "Routes map paths to components; Link navigates.",
+  "difficulty": "medium",
+  "subject": "react",
+  "chapter": "react-ecosystem",
+  "topic": "t-590",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc",
+   "nts"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "react",
+   "router"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "nxt-004",
+  "question": "In Next.js App Router, a route segment's UI file is named:",
+  "optionA": "page.js",
+  "optionB": "index.js only",
+  "optionC": "route.js only",
+  "optionD": "view.js",
+  "correctAnswer": "A",
+  "detailedExplanation": "page.js exports the UI for a route segment in the App Router.",
+  "difficulty": "easy",
+  "subject": "next-js",
+  "chapter": "next-js-next-js-fundamentals",
+  "topic": "t-592",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "nextjs"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "nxt-005",
+  "question": "Static Site Generation (SSG) renders pages:",
+  "optionA": "at build time",
+  "optionB": "per request",
+  "optionC": "on the client only",
+  "optionD": "never",
+  "correctAnswer": "A",
+  "detailedExplanation": "SSG pre-renders at build time, serving fast static HTML.",
+  "difficulty": "medium",
+  "subject": "next-js",
+  "chapter": "next-js-production-features",
+  "topic": "t-594",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "nextjs"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "nxt-006",
+  "question": "In the Pages Router, API endpoints are files inside the folder:",
+  "optionA": "pages/api",
+  "optionB": "pages/server",
+  "optionC": "api/endpoints",
+  "optionD": "src/routes",
+  "correctAnswer": "A",
+  "detailedExplanation": "Files in pages/api become serverless API endpoints.",
+  "difficulty": "medium",
+  "subject": "next-js",
+  "chapter": "next-js-production-features",
+  "topic": "t-595",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "nextjs",
+   "api"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "vue-004",
+  "question": "In Vue, mustache syntax {{ }} is used for:",
+  "optionA": "interpolating data",
+  "optionB": "defining routes",
+  "optionC": "importing files",
+  "optionD": "styling",
+  "correctAnswer": "A",
+  "detailedExplanation": "Mustaches bind data into the template as text.",
+  "difficulty": "easy",
+  "subject": "vue-js",
+  "chapter": "vue-js-vue-fundamentals",
+  "topic": "t-596",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "vue"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "vue-005",
+  "question": "Vue components are often defined in files with the extension:",
+  "optionA": ".vue",
+  "optionB": ".jsx",
+  "optionC": ".tsx",
+  "optionD": ".html",
+  "correctAnswer": "A",
+  "detailedExplanation": "Single-File Components use .vue with template, script and style blocks.",
+  "difficulty": "medium",
+  "subject": "vue-js",
+  "chapter": "vue-js-vue-fundamentals",
+  "topic": "t-597",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "vue"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "vue-006",
+  "question": "Which function creates reactive state in the Composition API?",
+  "optionA": "ref",
+  "optionB": "data only",
+  "optionC": "props",
+  "optionD": "mounted",
+  "correctAnswer": "A",
+  "detailedExplanation": "ref (and reactive) create reactive state in the Composition API.",
+  "difficulty": "medium",
+  "subject": "vue-js",
+  "chapter": "vue-js-vue-ecosystem",
+  "topic": "t-598",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "vue"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "ang-004",
+  "question": "Angular components are decorated with:",
+  "optionA": "@Component",
+  "optionB": "@Directive only",
+  "optionC": "@Module only",
+  "optionD": "@Service",
+  "correctAnswer": "A",
+  "detailedExplanation": "@Component marks a class as a component with template metadata.",
+  "difficulty": "easy",
+  "subject": "angular",
+  "chapter": "angular-angular-fundamentals",
+  "topic": "t-600",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "angular"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "ang-005",
+  "question": "The '*ngIf' (or @if) directive:",
+  "optionA": "conditionally renders content",
+  "optionB": "loops over arrays",
+  "optionC": "binds styles",
+  "optionD": "creates routes",
+  "correctAnswer": "A",
+  "detailedExplanation": "ngIf conditionally includes template content.",
+  "difficulty": "medium",
+  "subject": "angular",
+  "chapter": "angular-angular-fundamentals",
+  "topic": "t-601",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "angular"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "ang-006",
+  "question": "Angular's dependency injection provides:",
+  "optionA": "services to components",
+  "optionB": "CSS variables",
+  "optionC": "HTTP caching",
+  "optionD": "fonts",
+  "correctAnswer": "A",
+  "detailedExplanation": "DI supplies services and dependencies declared as providers.",
+  "difficulty": "medium",
+  "subject": "angular",
+  "chapter": "angular-services-di",
+  "topic": "t-603",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "angular",
+   "di"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "nod-005",
+  "question": "Node.js is built on which JavaScript engine?",
+  "optionA": "V8",
+  "optionB": "SpiderMonkey",
+  "optionC": "Chakra",
+  "optionD": "JavaScriptCore",
+  "correctAnswer": "A",
+  "detailedExplanation": "Node.js embeds Google's V8 engine.",
+  "difficulty": "easy",
+  "subject": "node-js",
+  "chapter": "node-js-node-fundamentals",
+  "topic": "t-604",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "nodejs"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "nod-006",
+  "question": "Which command installs project dependencies?",
+  "optionA": "npm install",
+  "optionB": "npm run",
+  "optionC": "npm publish",
+  "optionD": "npm start",
+  "correctAnswer": "A",
+  "detailedExplanation": "npm install reads package.json and installs dependencies.",
+  "difficulty": "easy",
+  "subject": "node-js",
+  "chapter": "node-js-node-fundamentals",
+  "topic": "t-605",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "nodejs",
+   "npm"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "nod-007",
+  "question": "The built-in module for creating HTTP servers is:",
+  "optionA": "http",
+  "optionB": "server",
+  "optionC": "net only",
+  "optionD": "express",
+  "correctAnswer": "A",
+  "detailedExplanation": "require('http') provides createServer for HTTP servers.",
+  "difficulty": "medium",
+  "subject": "node-js",
+  "chapter": "node-js-backend-development",
+  "topic": "t-606",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "nodejs",
+   "http"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "nod-008",
+  "question": "Which module reads files in Node.js?",
+  "optionA": "fs",
+  "optionB": "path",
+  "optionC": "os",
+  "optionD": "url",
+  "correctAnswer": "A",
+  "detailedExplanation": "The fs module handles file system operations.",
+  "difficulty": "medium",
+  "subject": "node-js",
+  "chapter": "node-js-backend-development",
+  "topic": "t-607",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "nodejs",
+   "fs"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "exp-004",
+  "question": "Which method registers a GET route in Express?",
+  "optionA": "app.get()",
+  "optionB": "app.post() only",
+  "optionC": "server.get()",
+  "optionD": "route.get only",
+  "correctAnswer": "A",
+  "detailedExplanation": "app.get(path, handler) handles GET requests on the app.",
+  "difficulty": "easy",
+  "subject": "express-js",
+  "chapter": "express-js-express-fundamentals",
+  "topic": "t-608",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "express"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "exp-005",
+  "question": "Middleware functions in Express:",
+  "optionA": "run between request and response",
+  "optionB": "replace the database",
+  "optionC": "compile code",
+  "optionD": "manage CSS",
+  "correctAnswer": "A",
+  "detailedExplanation": "Middleware processes requests in order before the final handler.",
+  "difficulty": "medium",
+  "subject": "express-js",
+  "chapter": "express-js-express-fundamentals",
+  "topic": "t-609",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "express",
+   "middleware"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "exp-006",
+  "question": "Express error-handling middleware has how many parameters?",
+  "optionA": "4",
+  "optionB": "2",
+  "optionC": "3",
+  "optionD": "1",
+  "correctAnswer": "A",
+  "detailedExplanation": "Error handlers take (err, req, res, next) - four parameters.",
+  "difficulty": "medium",
+  "subject": "express-js",
+  "chapter": "express-js-express-in-practice",
+  "topic": "t-611",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "express"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "php-005",
+  "question": "In PHP, variables begin with:",
+  "optionA": "$",
+  "optionB": "#",
+  "optionC": "@",
+  "optionD": "&",
+  "correctAnswer": "A",
+  "detailedExplanation": "PHP variables start with a dollar sign, e.g. $name.",
+  "difficulty": "easy",
+  "subject": "php",
+  "chapter": "php-php-fundamentals",
+  "topic": "t-612",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc",
+   "nts"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "php"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "php-006",
+  "question": "Which function outputs text in PHP?",
+  "optionA": "echo",
+  "optionB": "print only",
+  "optionC": "write",
+  "optionD": "display",
+  "correctAnswer": "A",
+  "detailedExplanation": "echo (and print) output strings to the response.",
+  "difficulty": "easy",
+  "subject": "php",
+  "chapter": "php-php-fundamentals",
+  "topic": "t-612",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc",
+   "nts"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "php"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "php-007",
+  "question": "Which function counts the elements of an array?",
+  "optionA": "count()",
+  "optionB": "len() only",
+  "optionC": "sizeof() only",
+  "optionD": "array_size()",
+  "correctAnswer": "A",
+  "detailedExplanation": "count() (alias sizeof()) returns the number of elements.",
+  "difficulty": "medium",
+  "subject": "php",
+  "chapter": "php-php-fundamentals",
+  "topic": "t-613",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc",
+   "nts"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "php"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "php-008",
+  "question": "Form data sent with method GET is available in the superglobal:",
+  "optionA": "$_GET",
+  "optionB": "$_POST only",
+  "optionC": "$_COOKIE",
+  "optionD": "$_FILE",
+  "correctAnswer": "A",
+  "detailedExplanation": "$_GET holds query-string parameters; $_POST holds POST data.",
+  "difficulty": "medium",
+  "subject": "php",
+  "chapter": "php-php-web",
+  "topic": "t-614",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc",
+   "nts"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "php",
+   "forms"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "lrv-005",
+  "question": "Laravel is built on which framework component?",
+  "optionA": "Symfony",
+  "optionB": "Express",
+  "optionC": "Django",
+  "optionD": "Spring",
+  "correctAnswer": "A",
+  "detailedExplanation": "Laravel uses Symfony components under the hood.",
+  "difficulty": "easy",
+  "subject": "laravel",
+  "chapter": "laravel-laravel-fundamentals",
+  "topic": "t-616",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "laravel"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "lrv-006",
+  "question": "Laravel's template engine is called:",
+  "optionA": "Blade",
+  "optionB": "Twig",
+  "optionC": "EJS",
+  "optionD": "Handlebars",
+  "correctAnswer": "A",
+  "detailedExplanation": "Blade templates (.blade.php) ship with Laravel.",
+  "difficulty": "easy",
+  "subject": "laravel",
+  "chapter": "laravel-laravel-fundamentals",
+  "topic": "t-616",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "laravel",
+   "blade"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "lrv-007",
+  "question": "Eloquent is Laravel's:",
+  "optionA": "ORM (Object-Relational Mapper)",
+  "optionB": "CSS framework",
+  "optionC": "test runner",
+  "optionD": "package manager",
+  "correctAnswer": "A",
+  "detailedExplanation": "Eloquent maps models to database tables with an expressive query builder.",
+  "difficulty": "medium",
+  "subject": "laravel",
+  "chapter": "laravel-eloquent-auth",
+  "topic": "t-618",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "laravel",
+   "orm"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "lrv-008",
+  "question": "The command to scaffold authentication in older Laravel versions is:",
+  "optionA": "php artisan make:auth",
+  "optionB": "npm run auth",
+  "optionC": "composer auth",
+  "optionD": "php serve auth",
+  "correctAnswer": "A",
+  "detailedExplanation": "make:auth generated login/registration scaffolding in Laravel 5/6/7.",
+  "difficulty": "medium",
+  "subject": "laravel",
+  "chapter": "laravel-eloquent-auth",
+  "topic": "t-619",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "laravel",
+   "auth"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "pyt-007",
+  "question": "Which data type is immutable in Python?",
+  "optionA": "tuple",
+  "optionB": "list",
+  "optionC": "dict",
+  "optionD": "set",
+  "correctAnswer": "A",
+  "detailedExplanation": "Tuples cannot be changed after creation; lists, dicts and sets are mutable.",
+  "difficulty": "easy",
+  "subject": "python",
+  "chapter": "python-python-fundamentals",
+  "topic": "t-620",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc",
+   "nts"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "python"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "pyt-008",
+  "question": "What does 'len(\"python\")' return?",
+  "optionA": "6",
+  "optionB": "5",
+  "optionC": "7",
+  "optionD": "0",
+  "correctAnswer": "A",
+  "detailedExplanation": "The string 'python' has six characters.",
+  "difficulty": "easy",
+  "subject": "python",
+  "chapter": "python-python-fundamentals",
+  "topic": "t-620",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc",
+   "nts"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "python"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "pyt-009",
+  "question": "Which statement ends the current loop iteration early?",
+  "optionA": "continue",
+  "optionB": "break only",
+  "optionC": "pass",
+  "optionD": "exit",
+  "correctAnswer": "A",
+  "detailedExplanation": "continue skips to the next iteration; break exits the loop.",
+  "difficulty": "medium",
+  "subject": "python",
+  "chapter": "python-python-fundamentals",
+  "topic": "t-621",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc",
+   "nts"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "python"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "pyt-010",
+  "question": "The method to add one element to a list is:",
+  "optionA": "append()",
+  "optionB": "push() only",
+  "optionC": "add() only",
+  "optionD": "insert() only",
+  "correctAnswer": "A",
+  "detailedExplanation": "list.append(x) adds x at the end; push is JS, add is for sets.",
+  "difficulty": "medium",
+  "subject": "python",
+  "chapter": "python-data-structures",
+  "topic": "t-622",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc",
+   "nts"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "python",
+   "lists"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "pyt-011",
+  "question": "Which keyword defines a function?",
+  "optionA": "def",
+  "optionB": "function",
+  "optionC": "fun",
+  "optionD": "lambda only",
+  "correctAnswer": "A",
+  "detailedExplanation": "def introduces a function definition; lambda creates anonymous functions.",
+  "difficulty": "medium",
+  "subject": "python",
+  "chapter": "python-data-structures",
+  "topic": "t-623",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc",
+   "nts"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "python"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "pyt-012",
+  "question": "Which mode opens a file for reading?",
+  "optionA": "'r'",
+  "optionB": "'w'",
+  "optionC": "'a'",
+  "optionD": "'x'",
+  "correctAnswer": "A",
+  "detailedExplanation": "'r' reads (default), 'w' writes (truncating), 'a' appends, 'x' creates exclusively.",
+  "difficulty": "medium",
+  "subject": "python",
+  "chapter": "python-python-ecosystem",
+  "topic": "t-624",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc",
+   "nts"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "python",
+   "files"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "djg-005",
+  "question": "Django models are defined in the file:",
+  "optionA": "models.py",
+  "optionB": "views.py",
+  "optionC": "urls.py",
+  "optionD": "settings.py",
+  "correctAnswer": "A",
+  "detailedExplanation": "Each app's models.py declares its database models.",
+  "difficulty": "easy",
+  "subject": "django",
+  "chapter": "django-django-fundamentals",
+  "topic": "t-626",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "django"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "djg-006",
+  "question": "URL patterns are wired to views in:",
+  "optionA": "urls.py",
+  "optionB": "models.py",
+  "optionC": "admin.py",
+  "optionD": "apps.py",
+  "correctAnswer": "A",
+  "detailedExplanation": "urls.py maps URL patterns to view functions or classes.",
+  "difficulty": "medium",
+  "subject": "django",
+  "chapter": "django-django-fundamentals",
+  "topic": "t-627",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "django",
+   "urls"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "djg-007",
+  "question": "Django template variables are written with:",
+  "optionA": "{{ variable }}",
+  "optionB": "{% variable %}",
+  "optionC": "$variable",
+  "optionD": "#variable#",
+  "correctAnswer": "A",
+  "detailedExplanation": "{{ }} interpolates variables; {% %} runs tags.",
+  "difficulty": "medium",
+  "subject": "django",
+  "chapter": "django-django-features",
+  "topic": "t-628",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "django",
+   "templates"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "djg-008",
+  "question": "The built-in Django admin is enabled via the app:",
+  "optionA": "django.contrib.admin",
+  "optionB": "django.templates",
+  "optionC": "django.rest",
+  "optionD": "django.orm",
+  "correctAnswer": "A",
+  "detailedExplanation": "django.contrib.admin provides the automatic admin interface.",
+  "difficulty": "medium",
+  "subject": "django",
+  "chapter": "django-django-features",
+  "topic": "t-629",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "django",
+   "admin"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "flk-005",
+  "question": "Flask is best described as:",
+  "optionA": "a micro web framework",
+  "optionB": "a full-stack ORM",
+  "optionC": "a database",
+  "optionD": "a browser",
+  "correctAnswer": "A",
+  "detailedExplanation": "Flask is a lightweight (micro) Python web framework.",
+  "difficulty": "easy",
+  "subject": "flask",
+  "chapter": "flask-flask-fundamentals",
+  "topic": "t-630",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "flask"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "flk-006",
+  "question": "The decorator to register a route is:",
+  "optionA": "@app.route()",
+  "optionB": "@route() only",
+  "optionC": "@path()",
+  "optionD": "@url()",
+  "correctAnswer": "A",
+  "detailedExplanation": "@app.route('/') binds a URL to a view function.",
+  "difficulty": "easy",
+  "subject": "flask",
+  "chapter": "flask-flask-fundamentals",
+  "topic": "t-630",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "flask",
+   "routes"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "flk-007",
+  "question": "Flask uses which template engine by default?",
+  "optionA": "Jinja2",
+  "optionB": "Blade",
+  "optionC": "EJS",
+  "optionD": "Pug",
+  "correctAnswer": "A",
+  "detailedExplanation": "Jinja2 is Flask's default templating engine.",
+  "difficulty": "medium",
+  "subject": "flask",
+  "chapter": "flask-flask-fundamentals",
+  "topic": "t-631",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "flask",
+   "templates"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "flk-008",
+  "question": "To build REST APIs in Flask, a common companion library is:",
+  "optionA": "Flask-RESTful",
+  "optionB": "Flask-SQL only",
+  "optionC": "Flask-UI",
+  "optionD": "Flask-ORM",
+  "correctAnswer": "A",
+  "detailedExplanation": "Flask-RESTful (or flask-restx) simplifies API resource classes.",
+  "difficulty": "medium",
+  "subject": "flask",
+  "chapter": "flask-flask-features",
+  "topic": "t-633",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "flask",
+   "rest"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "jav-006",
+  "question": "Java programs are compiled to:",
+  "optionA": "bytecode",
+  "optionB": "assembly",
+  "optionC": "machine code directly",
+  "optionD": "JavaScript",
+  "correctAnswer": "A",
+  "detailedExplanation": "javac compiles to bytecode run by the JVM.",
+  "difficulty": "easy",
+  "subject": "java",
+  "chapter": "java-java-fundamentals",
+  "topic": "t-634",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc",
+   "nts"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "java"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "jav-007",
+  "question": "Which keyword makes a class inherit from another?",
+  "optionA": "extends",
+  "optionB": "implements only",
+  "optionC": "inherits",
+  "optionD": "super",
+  "correctAnswer": "A",
+  "detailedExplanation": "A class extends a superclass; implements is for interfaces.",
+  "difficulty": "easy",
+  "subject": "java",
+  "chapter": "java-java-fundamentals",
+  "topic": "t-635",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc",
+   "nts"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "java",
+   "oop"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "jav-008",
+  "question": "Which interface allows duplicate elements and maintains order?",
+  "optionA": "List",
+  "optionB": "Set",
+  "optionC": "Map",
+  "optionD": "Queue only",
+  "correctAnswer": "A",
+  "detailedExplanation": "Lists allow duplicates with insertion order; Sets forbid duplicates.",
+  "difficulty": "medium",
+  "subject": "java",
+  "chapter": "java-java-apis",
+  "topic": "t-636",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc",
+   "nts"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "java",
+   "collections"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "jav-009",
+  "question": "Which keyword throws an exception?",
+  "optionA": "throw",
+  "optionB": "catch",
+  "optionC": "finally",
+  "optionD": "try only",
+  "correctAnswer": "A",
+  "detailedExplanation": "throw raises an exception; try/catch/finally handle it.",
+  "difficulty": "medium",
+  "subject": "java",
+  "chapter": "java-java-apis",
+  "topic": "t-637",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc",
+   "nts"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "java",
+   "exceptions"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "jav-010",
+  "question": "A lambda expression is:",
+  "optionA": "an anonymous function",
+  "optionB": "a class",
+  "optionC": "a thread",
+  "optionD": "a package",
+  "correctAnswer": "A",
+  "detailedExplanation": "Lambdas are anonymous functions enabling functional style in Java 8+.",
+  "difficulty": "medium",
+  "subject": "java",
+  "chapter": "java-advanced-java",
+  "topic": "t-638",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc",
+   "nts"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "java",
+   "lambda"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "spb-005",
+  "question": "Spring's DI means objects receive their dependencies:",
+  "optionA": "from the container",
+  "optionB": "by creating them manually",
+  "optionC": "from the browser",
+  "optionD": "from CSS",
+  "correctAnswer": "A",
+  "detailedExplanation": "The Spring IoC container injects beans into components.",
+  "difficulty": "easy",
+  "subject": "spring-boot",
+  "chapter": "spring-boot-spring-basics",
+  "topic": "t-640",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "spring"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "spb-006",
+  "question": "A Spring Boot application's entry point is annotated with:",
+  "optionA": "@SpringBootApplication",
+  "optionB": "@RestController only",
+  "optionC": "@Configuration only",
+  "optionD": "@Bean",
+  "correctAnswer": "A",
+  "detailedExplanation": "@SpringBootApplication combines configuration, enablement and component scanning.",
+  "difficulty": "medium",
+  "subject": "spring-boot",
+  "chapter": "spring-boot-spring-basics",
+  "topic": "t-641",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "spring",
+   "boot"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "spb-007",
+  "question": "Which annotation maps a class to REST endpoints?",
+  "optionA": "@RestController",
+  "optionB": "@Service",
+  "optionC": "@Repository",
+  "optionD": "@Entity",
+  "correctAnswer": "A",
+  "detailedExplanation": "@RestController combines @Controller and @ResponseBody for APIs.",
+  "difficulty": "medium",
+  "subject": "spring-boot",
+  "chapter": "spring-boot-web-data",
+  "topic": "t-642",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "spring",
+   "rest"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "spb-008",
+  "question": "Spring Data JPA repositories usually extend:",
+  "optionA": "JpaRepository",
+  "optionB": "Controller",
+  "optionC": "Service",
+  "optionD": "Bean",
+  "correctAnswer": "A",
+  "detailedExplanation": "Extending JpaRepository provides CRUD methods automatically.",
+  "difficulty": "medium",
+  "subject": "spring-boot",
+  "chapter": "spring-boot-web-data",
+  "topic": "t-643",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "spring",
+   "jpa"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "cpr-006",
+  "question": "Which function prints output in C?",
+  "optionA": "printf()",
+  "optionB": "print() only",
+  "optionC": "echo()",
+  "optionD": "cout only",
+  "correctAnswer": "A",
+  "detailedExplanation": "printf() formats output to stdout; cout is C++.",
+  "difficulty": "easy",
+  "subject": "c",
+  "chapter": "c-c-fundamentals",
+  "topic": "t-644",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc",
+   "ecat"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "c"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "cpr-007",
+  "question": "The size of a char in C is:",
+  "optionA": "1 byte",
+  "optionB": "2 bytes",
+  "optionC": "4 bytes",
+  "optionD": "8 bytes",
+  "correctAnswer": "A",
+  "detailedExplanation": "char is defined as 1 byte by the C standard.",
+  "difficulty": "easy",
+  "subject": "c",
+  "chapter": "c-c-fundamentals",
+  "topic": "t-644",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc",
+   "ecat"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "c"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "cpr-008",
+  "question": "The operator to access the address of a variable is:",
+  "optionA": "&",
+  "optionB": "*",
+  "optionC": "#",
+  "optionD": "%",
+  "correctAnswer": "A",
+  "detailedExplanation": "&x yields the address of x; * dereferences a pointer.",
+  "difficulty": "medium",
+  "subject": "c",
+  "chapter": "c-c-fundamentals",
+  "topic": "t-645",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc",
+   "ecat"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "c",
+   "pointers"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "cpr-009",
+  "question": "In C, the main function returns:",
+  "optionA": "an int by default",
+  "optionB": "nothing",
+  "optionC": "a string",
+  "optionD": "a float",
+  "correctAnswer": "A",
+  "detailedExplanation": "main() returns int; return 0 signals successful termination.",
+  "difficulty": "medium",
+  "subject": "c",
+  "chapter": "c-c-in-practice",
+  "topic": "t-646",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc",
+   "ecat"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "c",
+   "functions"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "cpr-010",
+  "question": "Which function allocates heap memory in C?",
+  "optionA": "malloc()",
+  "optionB": "alloc() only",
+  "optionC": "new",
+  "optionD": "allocate()",
+  "correctAnswer": "A",
+  "detailedExplanation": "malloc() allocates bytes on the heap; free() releases them.",
+  "difficulty": "medium",
+  "subject": "c",
+  "chapter": "c-c-in-practice",
+  "topic": "t-647",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc",
+   "ecat"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "c",
+   "memory"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "cpp-005",
+  "question": "The default access specifier of a struct in C++ is:",
+  "optionA": "public",
+  "optionB": "private",
+  "optionC": "protected",
+  "optionD": "internal",
+  "correctAnswer": "A",
+  "detailedExplanation": "In C++, struct members are public by default; class members are private.",
+  "difficulty": "easy",
+  "subject": "cpp",
+  "chapter": "cpp-c-fundamentals",
+  "topic": "t-648",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc",
+   "ecat"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "cpp"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "cpp-006",
+  "question": "A constructor is called when:",
+  "optionA": "an object is created",
+  "optionB": "an object is destroyed",
+  "optionC": "a class is compiled",
+  "optionD": "a method runs",
+  "correctAnswer": "A",
+  "detailedExplanation": "Constructors initialize objects at creation; destructors run at destruction.",
+  "difficulty": "medium",
+  "subject": "cpp",
+  "chapter": "cpp-c-fundamentals",
+  "topic": "t-648",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc",
+   "ecat"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "cpp",
+   "oop"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "cpp-007",
+  "question": "Which keyword expresses inheritance in C++?",
+  "optionA": ":",
+  "optionB": "extends",
+  "optionC": "inherits",
+  "optionD": "->",
+  "correctAnswer": "A",
+  "detailedExplanation": "class Derived : public Base declares inheritance.",
+  "difficulty": "medium",
+  "subject": "cpp",
+  "chapter": "cpp-c-fundamentals",
+  "topic": "t-649",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc",
+   "ecat"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "cpp",
+   "oop"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "cpp-008",
+  "question": "The STL container that stores key-value pairs is:",
+  "optionA": "std::map",
+  "optionB": "std::vector",
+  "optionC": "std::string",
+  "optionD": "std::queue",
+  "correctAnswer": "A",
+  "detailedExplanation": "std::map stores sorted key-value pairs; vector is a dynamic array.",
+  "difficulty": "medium",
+  "subject": "cpp",
+  "chapter": "cpp-c-features",
+  "topic": "t-650",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc",
+   "ecat"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "cpp",
+   "stl"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "csh-005",
+  "question": "C# runs on which runtime?",
+  "optionA": ".NET (CLR)",
+  "optionB": "V8",
+  "optionC": "Node",
+  "optionD": "JVM only",
+  "correctAnswer": "A",
+  "detailedExplanation": "C# compiles to IL executed by the .NET Common Language Runtime.",
+  "difficulty": "easy",
+  "subject": "csharp",
+  "chapter": "csharp-c-fundamentals",
+  "topic": "t-652",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "csharp"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "csh-006",
+  "question": "The keyword for declaring a nullable value type is:",
+  "optionA": "?",
+  "optionB": "!",
+  "optionC": "~",
+  "optionD": "@",
+  "correctAnswer": "A",
+  "detailedExplanation": "int? declares a nullable int.",
+  "difficulty": "medium",
+  "subject": "csharp",
+  "chapter": "csharp-c-fundamentals",
+  "topic": "t-652",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "csharp"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "csh-007",
+  "question": "LINQ provides:",
+  "optionA": "query capabilities over collections",
+  "optionB": "graphics rendering",
+  "optionC": "memory management",
+  "optionD": "network routing",
+  "correctAnswer": "A",
+  "detailedExplanation": "Language Integrated Query operates on in-memory and data source collections.",
+  "difficulty": "medium",
+  "subject": "csharp",
+  "chapter": "csharp-c-ecosystem",
+  "topic": "t-654",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "csharp",
+   "linq"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "csh-008",
+  "question": "Which keyword marks an asynchronous method?",
+  "optionA": "async",
+  "optionB": "await only",
+  "optionC": "task only",
+  "optionD": "thread",
+  "correctAnswer": "A",
+  "detailedExplanation": "Methods are marked async and use await for asynchronous operations.",
+  "difficulty": "medium",
+  "subject": "csharp",
+  "chapter": "csharp-c-ecosystem",
+  "topic": "t-655",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "csharp",
+   "async"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "dot-005",
+  "question": "ASP.NET Core is used to build:",
+  "optionA": "web applications and APIs",
+  "optionB": "operating systems",
+  "optionC": "databases",
+  "optionD": "browsers",
+  "correctAnswer": "A",
+  "detailedExplanation": "ASP.NET Core is the web framework of .NET.",
+  "difficulty": "easy",
+  "subject": "dotnet",
+  "chapter": "dotnet-net-fundamentals",
+  "topic": "t-656",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "dotnet"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "dot-006",
+  "question": "The .NET package manager is:",
+  "optionA": "NuGet",
+  "optionB": "npm",
+  "optionC": "pip",
+  "optionD": "composer",
+  "correctAnswer": "A",
+  "detailedExplanation": "NuGet is the package manager for .NET libraries.",
+  "difficulty": "easy",
+  "subject": "dotnet",
+  "chapter": "dotnet-net-fundamentals",
+  "topic": "t-656",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "dotnet"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "dot-007",
+  "question": "Entity Framework Core is a:",
+  "optionA": "ORM",
+  "optionB": "web server",
+  "optionC": "test framework",
+  "optionD": "logger",
+  "correctAnswer": "A",
+  "detailedExplanation": "EF Core maps .NET objects to relational database tables.",
+  "difficulty": "medium",
+  "subject": "dotnet",
+  "chapter": "dotnet-net-features",
+  "topic": "t-658",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "dotnet",
+   "ef"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "dot-008",
+  "question": "In ASP.NET Core, the request pipeline is built with:",
+  "optionA": "middleware components",
+  "optionB": "plugins only",
+  "optionC": "controllers only",
+  "optionD": "routes only",
+  "correctAnswer": "A",
+  "detailedExplanation": "Middleware components form the request pipeline in order.",
+  "difficulty": "medium",
+  "subject": "dotnet",
+  "chapter": "dotnet-net-features",
+  "topic": "t-659",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "dotnet"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "gol-005",
+  "question": "Go was created primarily by engineers at:",
+  "optionA": "Google",
+  "optionB": "Microsoft",
+  "optionC": "Apple",
+  "optionD": "IBM",
+  "correctAnswer": "A",
+  "detailedExplanation": "Go was designed at Google by Robert Griesemer, Rob Pike and Ken Thompson.",
+  "difficulty": "easy",
+  "subject": "go",
+  "chapter": "go-go-fundamentals",
+  "topic": "t-660",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "go"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "gol-006",
+  "question": "In Go, exported names begin with:",
+  "optionA": "a capital letter",
+  "optionB": "an underscore",
+  "optionC": "a dollar sign",
+  "optionD": "a digit",
+  "correctAnswer": "A",
+  "detailedExplanation": "Exported identifiers start with uppercase, making them visible across packages.",
+  "difficulty": "medium",
+  "subject": "go",
+  "chapter": "go-go-fundamentals",
+  "topic": "t-660",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "go"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "gol-007",
+  "question": "A goroutine is:",
+  "optionA": "a lightweight concurrent function",
+  "optionB": "a database",
+  "optionC": "a web server",
+  "optionD": "a package",
+  "correctAnswer": "A",
+  "detailedExplanation": "go func() launches a goroutine; channels communicate between them.",
+  "difficulty": "medium",
+  "subject": "go",
+  "chapter": "go-go-concurrency",
+  "topic": "t-662",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "go",
+   "concurrency"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "gol-008",
+  "question": "Go interfaces are satisfied:",
+  "optionA": "implicitly by methods",
+  "optionB": "explicitly with implements",
+  "optionC": "at compile time only with keywords",
+  "optionD": "never",
+  "correctAnswer": "A",
+  "detailedExplanation": "Types satisfy interfaces implicitly by implementing the required methods.",
+  "difficulty": "medium",
+  "subject": "go",
+  "chapter": "go-go-concurrency",
+  "topic": "t-663",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "go",
+   "interfaces"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "rus-005",
+  "question": "Rust's ownership rules prevent:",
+  "optionA": "data races and dangling references",
+  "optionB": "all compile errors",
+  "optionC": "slow code",
+  "optionD": "network calls",
+  "correctAnswer": "A",
+  "detailedExplanation": "Ownership and borrowing give memory safety without a garbage collector.",
+  "difficulty": "easy",
+  "subject": "rust",
+  "chapter": "rust-rust-fundamentals",
+  "topic": "t-664",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "rust"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "rus-006",
+  "question": "The '&' symbol in Rust creates:",
+  "optionA": "a reference (borrow)",
+  "optionB": "a pointer to delete",
+  "optionC": "an address print",
+  "optionD": "a new owner",
+  "correctAnswer": "A",
+  "detailedExplanation": "&x borrows a reference without transferring ownership.",
+  "difficulty": "medium",
+  "subject": "rust",
+  "chapter": "rust-rust-fundamentals",
+  "topic": "t-664",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "rust",
+   "borrowing"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "rus-007",
+  "question": "Traits in Rust define:",
+  "optionA": "shared behaviour across types",
+  "optionB": "memory layout",
+  "optionC": "network config",
+  "optionD": "build settings",
+  "correctAnswer": "A",
+  "detailedExplanation": "Traits declare methods that implementing types must provide.",
+  "difficulty": "medium",
+  "subject": "rust",
+  "chapter": "rust-rust-in-practice",
+  "topic": "t-666",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "rust",
+   "traits"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "rus-008",
+  "question": "Rust's Result type handles:",
+  "optionA": "recoverable errors",
+  "optionB": "compile errors only",
+  "optionC": "runtime panics only",
+  "optionD": "syntax errors",
+  "correctAnswer": "A",
+  "detailedExplanation": "Result<T, E> returns success or a recoverable error; panic is unrecoverable.",
+  "difficulty": "medium",
+  "subject": "rust",
+  "chapter": "rust-rust-in-practice",
+  "topic": "t-667",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "rust"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "gth-006",
+  "question": "Which command initializes a Git repository?",
+  "optionA": "git init",
+  "optionB": "git start",
+  "optionC": "git new",
+  "optionD": "git create",
+  "correctAnswer": "A",
+  "detailedExplanation": "git init creates a new repository in the current directory.",
+  "difficulty": "easy",
+  "subject": "git-github",
+  "chapter": "git-github-git-basics",
+  "topic": "t-668",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "git"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "gth-007",
+  "question": "Which command records changes with a message?",
+  "optionA": "git commit -m",
+  "optionB": "git save",
+  "optionC": "git push -m",
+  "optionD": "git store",
+  "correctAnswer": "A",
+  "detailedExplanation": "git commit -m \"msg\" snapshots staged changes.",
+  "difficulty": "easy",
+  "subject": "git-github",
+  "chapter": "git-github-git-basics",
+  "topic": "t-668",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "git"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "gth-008",
+  "question": "To see the current branch name, use:",
+  "optionA": "git branch",
+  "optionB": "git log",
+  "optionC": "git status only",
+  "optionD": "git show",
+  "correctAnswer": "A",
+  "detailedExplanation": "git branch lists branches with * marking the current one.",
+  "difficulty": "medium",
+  "subject": "git-github",
+  "chapter": "git-github-git-basics",
+  "topic": "t-669",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "git",
+   "branch"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "gth-009",
+  "question": "Which command merges another branch into the current one?",
+  "optionA": "git merge",
+  "optionB": "git pull only",
+  "optionC": "git join",
+  "optionD": "git combine",
+  "correctAnswer": "A",
+  "detailedExplanation": "git merge <branch> integrates that branch into the current branch.",
+  "difficulty": "medium",
+  "subject": "git-github",
+  "chapter": "git-github-git-basics",
+  "topic": "t-669",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "git",
+   "merge"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "gth-010",
+  "question": "GitHub collaboration mostly uses:",
+  "optionA": "pull requests and branches",
+  "optionB": "email patches",
+  "optionC": "FTP uploads",
+  "optionD": "local backups",
+  "correctAnswer": "A",
+  "detailedExplanation": "Pull requests propose branch merges for review.",
+  "difficulty": "medium",
+  "subject": "git-github",
+  "chapter": "git-github-github-workflow",
+  "topic": "t-670",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "git",
+   "github"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "dkr-006",
+  "question": "A Docker image is:",
+  "optionA": "a read-only template for containers",
+  "optionB": "a running process",
+  "optionC": "a database",
+  "optionD": "a volume",
+  "correctAnswer": "A",
+  "detailedExplanation": "Images are immutable templates; containers are their runnable instances.",
+  "difficulty": "easy",
+  "subject": "docker",
+  "chapter": "docker-docker-basics",
+  "topic": "t-672",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "docker"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "dkr-007",
+  "question": "Which command lists running containers?",
+  "optionA": "docker ps",
+  "optionB": "docker ls",
+  "optionC": "docker show",
+  "optionD": "docker list",
+  "correctAnswer": "A",
+  "detailedExplanation": "docker ps shows running containers; docker ps -a shows all.",
+  "difficulty": "easy",
+  "subject": "docker",
+  "chapter": "docker-docker-basics",
+  "topic": "t-672",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "docker"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "dkr-008",
+  "question": "The Dockerfile instruction to set the base image is:",
+  "optionA": "FROM",
+  "optionB": "RUN",
+  "optionC": "CMD",
+  "optionD": "COPY",
+  "correctAnswer": "A",
+  "detailedExplanation": "FROM names the base image every Dockerfile starts with.",
+  "difficulty": "medium",
+  "subject": "docker",
+  "chapter": "docker-docker-basics",
+  "topic": "t-673",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "docker",
+   "dockerfile"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "dkr-009",
+  "question": "Docker Compose services are defined in:",
+  "optionA": "docker-compose.yml",
+  "optionB": "Dockerfile only",
+  "optionC": "package.json",
+  "optionD": "compose.conf",
+  "correctAnswer": "A",
+  "detailedExplanation": "docker-compose.yml declares multi-container applications.",
+  "difficulty": "medium",
+  "subject": "docker",
+  "chapter": "docker-docker-in-practice",
+  "topic": "t-675",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "docker",
+   "compose"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "dkr-010",
+  "question": "Volumes in Docker provide:",
+  "optionA": "persistent data storage",
+  "optionB": "temporary RAM",
+  "optionC": "CPU limits",
+  "optionD": "login sessions",
+  "correctAnswer": "A",
+  "detailedExplanation": "Volumes persist data beyond a container's lifecycle.",
+  "difficulty": "medium",
+  "subject": "docker",
+  "chapter": "docker-docker-in-practice",
+  "topic": "t-674",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "docker",
+   "volumes"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "kbs-005",
+  "question": "The smallest deployable unit in Kubernetes is a:",
+  "optionA": "Pod",
+  "optionB": "Node",
+  "optionC": "Cluster",
+  "optionD": "Service",
+  "correctAnswer": "A",
+  "detailedExplanation": "A Pod wraps one or more containers as the atomic unit.",
+  "difficulty": "easy",
+  "subject": "kubernetes",
+  "chapter": "kubernetes-k8s-fundamentals",
+  "topic": "t-676",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "k8s"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "kbs-006",
+  "question": "A Deployment's role is to:",
+  "optionA": "manage desired state of Pod replicas",
+  "optionB": "store secrets only",
+  "optionC": "expose DNS",
+  "optionD": "monitor logs",
+  "correctAnswer": "A",
+  "detailedExplanation": "Deployments reconcile the desired number of Pod replicas.",
+  "difficulty": "medium",
+  "subject": "kubernetes",
+  "chapter": "kubernetes-k8s-fundamentals",
+  "topic": "t-676",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "k8s",
+   "deployment"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "kbs-007",
+  "question": "A Service in Kubernetes:",
+  "optionA": "provides stable network access to Pods",
+  "optionB": "builds images",
+  "optionC": "stores data",
+  "optionD": "runs cron jobs",
+  "correctAnswer": "A",
+  "detailedExplanation": "Services expose Pod sets with stable IPs and load balancing.",
+  "difficulty": "medium",
+  "subject": "kubernetes",
+  "chapter": "kubernetes-k8s-fundamentals",
+  "topic": "t-677",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "k8s",
+   "service"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "kbs-008",
+  "question": "Sensitive values in Kubernetes are stored in:",
+  "optionA": "Secrets",
+  "optionB": "ConfigMaps",
+  "optionC": "Deployments",
+  "optionD": "Pods",
+  "correctAnswer": "A",
+  "detailedExplanation": "Secrets hold sensitive data; ConfigMaps hold non-sensitive config.",
+  "difficulty": "medium",
+  "subject": "kubernetes",
+  "chapter": "kubernetes-k8s-operations",
+  "topic": "t-678",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "k8s",
+   "secrets"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "rap-006",
+  "question": "Which HTTP method retrieves a resource?",
+  "optionA": "GET",
+  "optionB": "POST",
+  "optionC": "DELETE",
+  "optionD": "PUT",
+  "correctAnswer": "A",
+  "detailedExplanation": "GET reads resources without side effects.",
+  "difficulty": "easy",
+  "subject": "rest-api",
+  "chapter": "rest-api-rest-fundamentals",
+  "topic": "t-680",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "rest",
+   "http"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "rap-007",
+  "question": "The HTTP status code 404 means:",
+  "optionA": "Not Found",
+  "optionB": "OK",
+  "optionC": "Created",
+  "optionD": "Server Error",
+  "correctAnswer": "A",
+  "detailedExplanation": "404 signals the requested resource does not exist.",
+  "difficulty": "easy",
+  "subject": "rest-api",
+  "chapter": "rest-api-rest-fundamentals",
+  "topic": "t-680",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "rest",
+   "http"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "rap-008",
+  "question": "A successful POST that creates a resource typically returns:",
+  "optionA": "201 Created",
+  "optionB": "200 only",
+  "optionC": "404",
+  "optionD": "500",
+  "correctAnswer": "A",
+  "detailedExplanation": "201 Created is the standard response for successful creation.",
+  "difficulty": "medium",
+  "subject": "rest-api",
+  "chapter": "rest-api-rest-fundamentals",
+  "topic": "t-681",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "rest",
+   "http"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "rap-009",
+  "question": "Which header commonly carries bearer tokens?",
+  "optionA": "Authorization",
+  "optionB": "Content-Type only",
+  "optionC": "Accept",
+  "optionD": "Origin",
+  "correctAnswer": "A",
+  "detailedExplanation": "The Authorization header carries credentials like bearer tokens.",
+  "difficulty": "medium",
+  "subject": "rest-api",
+  "chapter": "rest-api-api-design",
+  "topic": "t-683",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "rest",
+   "security"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "rap-010",
+  "question": "A common API versioning approach uses:",
+  "optionA": "a path segment like /v1/",
+  "optionB": "changing the port",
+  "optionC": "renaming the domain",
+  "optionD": "deleting old routes",
+  "correctAnswer": "A",
+  "detailedExplanation": "Version prefixes in the URL path are the most common strategy.",
+  "difficulty": "medium",
+  "subject": "rest-api",
+  "chapter": "rest-api-api-design",
+  "topic": "t-682",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "rest"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "gql-005",
+  "question": "GraphQL is a:",
+  "optionA": "query language for APIs",
+  "optionB": "database",
+  "optionC": "web server",
+  "optionD": "CSS preprocessor",
+  "correctAnswer": "A",
+  "detailedExplanation": "GraphQL is a query language and runtime for APIs.",
+  "difficulty": "easy",
+  "subject": "graphql",
+  "chapter": "graphql-graphql-fundamentals",
+  "topic": "t-684",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "graphql"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "gql-006",
+  "question": "The root type for read operations in GraphQL is:",
+  "optionA": "Query",
+  "optionB": "Mutation",
+  "optionC": "Subscription",
+  "optionD": "Schema",
+  "correctAnswer": "A",
+  "detailedExplanation": "Query is the entry type for fetching data; Mutation writes.",
+  "difficulty": "medium",
+  "subject": "graphql",
+  "chapter": "graphql-graphql-fundamentals",
+  "topic": "t-684",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "graphql",
+   "schema"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "gql-007",
+  "question": "Clients can request:",
+  "optionA": "exactly the fields they need",
+  "optionB": "only all fields",
+  "optionC": "only the id field",
+  "optionD": "no fields",
+  "correctAnswer": "A",
+  "detailedExplanation": "Field selection is a core GraphQL advantage over REST over-fetching.",
+  "difficulty": "medium",
+  "subject": "graphql",
+  "chapter": "graphql-graphql-fundamentals",
+  "topic": "t-685",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "graphql"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "gql-008",
+  "question": "Resolvers are functions that:",
+  "optionA": "return data for schema fields",
+  "optionB": "style components",
+  "optionC": "store images",
+  "optionD": "start servers",
+  "correctAnswer": "A",
+  "detailedExplanation": "Each schema field maps to a resolver that supplies its data.",
+  "difficulty": "medium",
+  "subject": "graphql",
+  "chapter": "graphql-graphql-in-practice",
+  "topic": "t-686",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "graphql",
+   "resolvers"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ }
+]

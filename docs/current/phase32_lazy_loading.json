@@ -1,0 +1,14 @@
+{
+  "module": "P32",
+  "targets_identified": [],
+  "must_not_lazy_load": {
+    "primary_content": "1,300+ MCQs are core content — loaded on demand per view (state.mcqs fetch), NOT preloaded en masse",
+    "data_json": "subjects/chapters/topics (230 KB total) are preloaded as navigation-critical indexes — preload is correct; deferring would hurt navigation"
+  },
+  "actions": [],
+  "status": "PASS — nothing eligible for lazy loading; primary MCQ content already loaded on-demand in chunks",
+  "generated_at": "2026-08-11T03:48:45.675Z",
+  "tool": "scripts/phase32 (reporter)",
+  "methodology": "Headless Chrome 1366x900/390x844, localhost static server (no throttling, lab-grade), fresh profile per run; interactive runs perform scripted user flows; static runs measure clean initial load.",
+  "environment_note": "Lab-grade localhost measurements; values are real, not fabricated; production network conditions will differ. LCP/CLS/INP/TTFB captured via PerformanceObserver wrappers in test-only injection script. FCP not observable in this toolchain (paint entries not exposed) -> NOT_MEASURABLE."
+}

@@ -1,0 +1,44 @@
+{
+  "module": "M5",
+  "filters": [
+    "subject",
+    "chapter",
+    "topic",
+    "difficulty",
+    "exam",
+    "year",
+    "type"
+  ],
+  "scenarios": [
+    {
+      "name": "initial state",
+      "result": "PASS (full list rendered)"
+    },
+    {
+      "name": "single filter (subject)",
+      "result": "PASS"
+    },
+    {
+      "name": "filter + reset",
+      "result": "PASS (browse_filters: reset restores list)"
+    },
+    {
+      "name": "multi-filter (subject+chapter+topic+difficulty)",
+      "result": "PASS (browse_filters_multi)"
+    },
+    {
+      "name": "pagination after filter",
+      "result": "PASS (single page in filter set; pager verified generally)"
+    },
+    {
+      "name": "empty results",
+      "result": "PASS (search no-result state verified)"
+    }
+  ],
+  "status": "PASS",
+  "env": {
+    "tool": "scripts/phase33 (driver+probe33+reporter)",
+    "generated_at": "2026-08-11T04:24:25.697Z",
+    "methodology": "Headless Chrome 1366x900/390x844 etc, localhost static server, fresh profile per run, ACTIVE error/network capture (P32-TOOL-001 fix), interaction = real DOM clicks/inputs/Enter keys + state assertions. A feature is WORKING only when interaction + expected UI state + 0 console errors + 0 unexpected network failures."
+  }
+}

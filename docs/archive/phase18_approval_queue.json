@@ -1,0 +1,11 @@
+{
+  "step": "approval_queue",
+  "generated_at": "2026-08-05T12:30:07",
+  "summary": {
+    "inserted": 37,
+    "rejected": 0,
+    "total_in_queue": 37,
+    "pending_review": 37,
+    "queue_table": "mcq_generation_queue"
+  }
+}

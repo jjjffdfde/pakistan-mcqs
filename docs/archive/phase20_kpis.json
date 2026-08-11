@@ -1,0 +1,27 @@
+{
+  "step": "enterprise_kpi_engine",
+  "generated_at": "2026-08-06T08:10:34",
+  "summary": {
+    "total_mcqs": 872621,
+    "total_published_by_phase19": 18,
+    "total_concepts": 1744,
+    "coverage_pct": 1,
+    "approval_rate": 0.486,
+    "duplicate_rate": 0,
+    "integrity_score": 1,
+    "validation_score": 1,
+    "avg_review_time_hrs": 0,
+    "publishing_velocity": 18,
+    "total_audit_entries": 317
+  },
+  "kpis": {
+    "coverage_pct": 1,
+    "mcq_quality_score": 1,
+    "approval_rate": 0.486,
+    "duplicate_rate": 0,
+    "integrity_score": 1,
+    "validation_score": 1,
+    "avg_review_time_hrs": 0,
+    "publishing_velocity": 18
+  }
+}

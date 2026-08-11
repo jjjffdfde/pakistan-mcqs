@@ -1,0 +1,59 @@
+name: Database Integrity Verify
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "0 5 * * 1"
+  workflow_dispatch:
+
+jobs:
+  database-verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: SQLite sanity + headless schema audit
+        run: |
+          node -e "
+            const fs=require('fs');
+            if(!fs.existsSync('db/pakistan-mcqs.sqlite')) {
+              console.log('production DB absent in CI (git-lfs/external) — running structural check only');
+            }
+            const { DatabaseSync } = require('node:sqlite');
+            const db = new DatabaseSync(':memory:');
+            db.exec(fs.readFileSync('db/schema.sqlite.sql','utf8'));
+            const tables = db.prepare(\"SELECT name FROM sqlite_master WHERE type='table' ORDER BY name\").all().map(r=>r.name);
+            const required = ['categories','subjects','chapters','topics','mcqs','options','history'];
+            const missing = required.filter(t=>!t.includes(tables.find(x=>x===t)));
+            if(missing.length){ console.error('schema missing tables:', missing); process.exit(1); }
+            console.log('schema audit OK - tables:', tables.length);
+          "
+
+      - name: Constraint audit on schema
+        run: |
+          node -e "
+            const fs=require('fs');
+            const schema=fs.readFileSync('db/schema.sqlite.sql','utf8');
+            const pk=(schema.match(/PRIMARY KEY/i)||[]).length;
+            const fk=(schema.match(/REFERENCES/i)||[]).length;
+            const idx=(schema.match(/CREATE (UNIQUE )?INDEX/i)||[]).length;
+            if(pk<4){ console.error('too few PKs', pk); process.exit(1); }
+            if(idx<4){ console.error('too few indexes', idx); process.exit(1); }
+            console.log('schema constraints: PK refs', pk, 'FK refs', fk, 'indexes', idx);
+          "
+
+      - name: Backup restore dry-run (schema-level)
+        run: |
+          node -e "
+            const fs=require('fs');
+            if(!fs.existsSync('backup')) { console.log('no backup dir'); process.exit(0); }
+            const dbs=fs.readdirSync('backup').filter(d=>/^(db-backup|2026)/.test(d));
+            console.log('backup snapshots:', dbs.length);
+            if(dbs.length<2){ console.error('expected >=1 backup snapshots, found', dbs.length); process.exit(1); }
+          "

@@ -1,0 +1,644 @@
+{
+  "step": "assistant",
+  "generated_at": "2026-08-10T12:10:31.129Z",
+  "summary": {
+    "subjects_guided": 10,
+    "kg_concepts": 1744,
+    "learning_paths": 3,
+    "revisions_due": 2,
+    "flashcards_due": 10,
+    "exams_covered": 12,
+    "overall_accuracy": 33,
+    "status": "PASS"
+  },
+  "subject_guidance": [
+    {
+      "subject_id": "mathematics",
+      "name": "Mathematics",
+      "category_id": "mathematics",
+      "mcqs": 115332,
+      "chapters": 6,
+      "topics": 25,
+      "kg_concepts": 21,
+      "difficulty": {
+        "easy": 18,
+        "medium": 115314,
+        "hard": 0
+      },
+      "top_chapters": [
+        {
+          "name": "Mathematics — Arithmetic",
+          "mcqs": 115307
+        },
+        {
+          "name": "Arithmetic",
+          "mcqs": 10
+        },
+        {
+          "name": "Number System",
+          "mcqs": 5
+        }
+      ],
+      "guidance": "Start with the Mathematics — Arithmetic chapters, then target 115314+ medium questions to build fluency."
+    },
+    {
+      "subject_id": "statistics",
+      "name": "Statistics",
+      "category_id": "social-sciences",
+      "mcqs": 42470,
+      "chapters": 4,
+      "topics": 7,
+      "kg_concepts": 7,
+      "difficulty": {
+        "easy": 8,
+        "medium": 42462,
+        "hard": 0
+      },
+      "top_chapters": [
+        {
+          "name": "Statistics — Measures and Methods",
+          "mcqs": 42458
+        },
+        {
+          "name": "Descriptive Statistics",
+          "mcqs": 5
+        },
+        {
+          "name": "Probability",
+          "mcqs": 4
+        }
+      ],
+      "guidance": "Start with the Statistics — Measures and Methods chapters, then target 42462+ medium questions to build fluency."
+    },
+    {
+      "subject_id": "rust",
+      "name": "Rust",
+      "category_id": "computer-it",
+      "mcqs": 9477,
+      "chapters": 4,
+      "topics": 8,
+      "kg_concepts": 7,
+      "difficulty": {
+        "easy": 1,
+        "medium": 9476,
+        "hard": 0
+      },
+      "top_chapters": [
+        {
+          "name": "Rust — Code Output",
+          "mcqs": 9449
+        },
+        {
+          "name": "rust — Core Concepts",
+          "mcqs": 16
+        },
+        {
+          "name": "Rust Fundamentals",
+          "mcqs": 10
+        }
+      ],
+      "guidance": "Start with the Rust — Code Output chapters, then target 9476+ medium questions to build fluency."
+    },
+    {
+      "subject_id": "physics",
+      "name": "Physics",
+      "category_id": "science",
+      "mcqs": 9326,
+      "chapters": 8,
+      "topics": 9,
+      "kg_concepts": 3,
+      "difficulty": {
+        "easy": 10,
+        "medium": 9316,
+        "hard": 0
+      },
+      "top_chapters": [
+        {
+          "name": "Physics — Numericals",
+          "mcqs": 5976
+        },
+        {
+          "name": "Physics — Numericals II",
+          "mcqs": 3335
+        },
+        {
+          "name": "Mechanics",
+          "mcqs": 4
+        }
+      ],
+      "guidance": "Start with the Physics — Numericals chapters, then target 9316+ medium questions to build fluency."
+    },
+    {
+      "subject_id": "go",
+      "name": "Go",
+      "category_id": "computer-it",
+      "mcqs": 8003,
+      "chapters": 4,
+      "topics": 8,
+      "kg_concepts": 6,
+      "difficulty": {
+        "easy": 1,
+        "medium": 8002,
+        "hard": 0
+      },
+      "top_chapters": [
+        {
+          "name": "Go — Code Output",
+          "mcqs": 7979
+        },
+        {
+          "name": "go — Core Concepts",
+          "mcqs": 16
+        },
+        {
+          "name": "Go Fundamentals",
+          "mcqs": 6
+        }
+      ],
+      "guidance": "Start with the Go — Code Output chapters, then target 8002+ medium questions to build fluency."
+    },
+    {
+      "subject_id": "csharp",
+      "name": "C#",
+      "category_id": "computer-it",
+      "mcqs": 6690,
+      "chapters": 4,
+      "topics": 8,
+      "kg_concepts": 8,
+      "difficulty": {
+        "easy": 1,
+        "medium": 6689,
+        "hard": 0
+      },
+      "top_chapters": [
+        {
+          "name": "C# — Code Output",
+          "mcqs": 6664
+        },
+        {
+          "name": "csharp — Core Concepts",
+          "mcqs": 16
+        },
+        {
+          "name": "C# Fundamentals",
+          "mcqs": 8
+        }
+      ],
+      "guidance": "Start with the C# — Code Output chapters, then target 6689+ medium questions to build fluency."
+    },
+    {
+      "subject_id": "cpp",
+      "name": "C++",
+      "category_id": "computer-it",
+      "mcqs": 5993,
+      "chapters": 4,
+      "topics": 8,
+      "kg_concepts": 7,
+      "difficulty": {
+        "easy": 1,
+        "medium": 5992,
+        "hard": 0
+      },
+      "top_chapters": [
+        {
+          "name": "C++ — Code Output",
+          "mcqs": 5961
+        },
+        {
+          "name": "cpp — Core Concepts",
+          "mcqs": 24
+        },
+        {
+          "name": "C++ Features",
+          "mcqs": 5
+        }
+      ],
+      "guidance": "Start with the C++ — Code Output chapters, then target 5992+ medium questions to build fluency."
+    },
+    {
+      "subject_id": "management-accounting",
+      "name": "Management Accounting",
+      "category_id": "management",
+      "mcqs": 5759,
+      "chapters": 2,
+      "topics": 4,
+      "kg_concepts": 9,
+      "difficulty": {
+        "easy": 536,
+        "medium": 5223,
+        "hard": 0
+      },
+      "top_chapters": [
+        {
+          "name": "Management Accounting — Letter Skills (Phase 11)",
+          "mcqs": 2916
+        },
+        {
+          "name": "Management Accounting — Phase 11 Knowledge Base",
+          "mcqs": 2843
+        }
+      ],
+      "guidance": "Start with the Management Accounting — Letter Skills (Phase 11) chapters, then target 5223+ medium questions to build fluency."
+    },
+    {
+      "subject_id": "analytical-reasoning",
+      "name": "Analytical Reasoning",
+      "category_id": "mathematics",
+      "mcqs": 5538,
+      "chapters": 4,
+      "topics": 10,
+      "kg_concepts": 8,
+      "difficulty": {
+        "easy": 1,
+        "medium": 5536,
+        "hard": 1
+      },
+      "top_chapters": [
+        {
+          "name": "Reasoning — Verbal and Analytical",
+          "mcqs": 5524
+        },
+        {
+          "name": "Coding-Decoding",
+          "mcqs": 9
+        },
+        {
+          "name": "Data Sufficiency",
+          "mcqs": 3
+        }
+      ],
+      "guidance": "Start with the Reasoning — Verbal and Analytical chapters, then target 5536+ medium questions to build fluency."
+    },
+    {
+      "subject_id": "dental-surgery",
+      "name": "Dental Surgery",
+      "category_id": "medical",
+      "mcqs": 5511,
+      "chapters": 2,
+      "topics": 3,
+      "kg_concepts": 8,
+      "difficulty": {
+        "easy": 1210,
+        "medium": 4298,
+        "hard": 3
+      },
+      "top_chapters": [
+        {
+          "name": "Dental Surgery — Letter Skills (Phase 11)",
+          "mcqs": 4906
+        },
+        {
+          "name": "Dental Surgery (Phase 11)",
+          "mcqs": 605
+        }
+      ],
+      "guidance": "Start with the Dental Surgery — Letter Skills (Phase 11) chapters, then target 4298+ medium questions to build fluency."
+    }
+  ],
+  "concept_navigation": {
+    "kg_landscape": {
+      "subjects_with_kg": 243,
+      "concepts": 1744,
+      "micros": 12406,
+      "objectives": 71501
+    },
+    "bloom_distribution": [
+      {
+        "bloom": "Understand",
+        "difficulty": "medium",
+        "n": 52168
+      },
+      {
+        "bloom": "Recall",
+        "difficulty": "easy",
+        "n": 5591
+      },
+      {
+        "bloom": "Apply",
+        "difficulty": "medium",
+        "n": 4877
+      },
+      {
+        "bloom": "Apply",
+        "difficulty": "easy",
+        "n": 3890
+      },
+      {
+        "bloom": "Understand",
+        "difficulty": "easy",
+        "n": 2745
+      },
+      {
+        "bloom": "Analyze",
+        "difficulty": "hard",
+        "n": 1869
+      },
+      {
+        "bloom": "Understand",
+        "difficulty": "hard",
+        "n": 265
+      },
+      {
+        "bloom": "Analyze",
+        "difficulty": "medium",
+        "n": 48
+      }
+    ],
+    "start_here": [
+      {
+        "name": "English",
+        "subject_id": "english",
+        "exam_frequency": 50,
+        "revision_priority": 3
+      },
+      {
+        "name": "topic-bank",
+        "subject_id": "english",
+        "exam_frequency": 50,
+        "revision_priority": 3
+      },
+      {
+        "name": "vocabulary",
+        "subject_id": "english",
+        "exam_frequency": 50,
+        "revision_priority": 3
+      },
+      {
+        "name": "tenses",
+        "subject_id": "english",
+        "exam_frequency": 50,
+        "revision_priority": 3
+      },
+      {
+        "name": "grammar",
+        "subject_id": "english",
+        "exam_frequency": 50,
+        "revision_priority": 3
+      },
+      {
+        "name": "Basics",
+        "subject_id": "english",
+        "exam_frequency": 50,
+        "revision_priority": 3
+      },
+      {
+        "name": "Proverbs",
+        "subject_id": "english",
+        "exam_frequency": 50,
+        "revision_priority": 3
+      },
+      {
+        "name": "synonyms",
+        "subject_id": "english",
+        "exam_frequency": 50,
+        "revision_priority": 3
+      }
+    ],
+    "how_to_navigate": "Pick a subject -> open its concept map -> study micro-concepts for the target concept -> drill objectives at the matching Bloom level."
+  },
+  "learning_paths": [
+    {
+      "path_id": 31,
+      "subject_id": "pakistan-affairs",
+      "exam_id": "css-exam",
+      "name": "CSS Pakistan Affairs Sprint",
+      "steps": [
+        {
+          "order": 0,
+          "concept_id": 16450,
+          "concept": "Independence Movement"
+        },
+        {
+          "order": 1,
+          "concept_id": 16446,
+          "concept": "constitution"
+        },
+        {
+          "order": 3,
+          "concept_id": 16443,
+          "concept": "geography"
+        },
+        {
+          "order": 4,
+          "concept_id": 16444,
+          "concept": "economy"
+        }
+      ]
+    },
+    {
+      "path_id": 32,
+      "subject_id": "mathematics",
+      "exam_id": "css-exam",
+      "name": "CSS GA Mathematics Path",
+      "steps": [
+        {
+          "order": 0,
+          "concept_id": 16215,
+          "concept": "arithmetic"
+        },
+        {
+          "order": 1,
+          "concept_id": 16216,
+          "concept": "algebra"
+        },
+        {
+          "order": 2,
+          "concept_id": 16212,
+          "concept": "Geometry Basics"
+        }
+      ]
+    },
+    {
+      "path_id": 33,
+      "subject_id": "physics",
+      "exam_id": "mdcat",
+      "name": "Physics Mastery Path",
+      "steps": [
+        {
+          "order": 0,
+          "concept_id": 16546,
+          "concept": "Physics"
+        }
+      ]
+    }
+  ],
+  "revision_recommendations": {
+    "due_revisions": [
+      {
+        "mcq_id": "cssexa-000004",
+        "topic_id": "t-ch-cssexa-central-superior-services-pattern-awaren-exam-pattern",
+        "box": 1,
+        "interval_days": 1,
+        "due_date": "2026-08-04"
+      },
+      {
+        "mcq_id": "iq-000377",
+        "topic_id": "t-ch-iq-reasoning-series-and-patterns-letter-series",
+        "box": 2,
+        "interval_days": 3,
+        "due_date": "2026-08-07"
+      }
+    ],
+    "due_flashcards": [
+      {
+        "mcq_id": "pak-001",
+        "box": 1,
+        "due_date": "2026-08-04"
+      },
+      {
+        "mcq_id": "pak-002",
+        "box": 1,
+        "due_date": "2026-08-04"
+      },
+      {
+        "mcq_id": "pak-003",
+        "box": 1,
+        "due_date": "2026-08-04"
+      },
+      {
+        "mcq_id": "pak-004",
+        "box": 1,
+        "due_date": "2026-08-04"
+      },
+      {
+        "mcq_id": "pak-005",
+        "box": 1,
+        "due_date": "2026-08-04"
+      },
+      {
+        "mcq_id": "pak-006",
+        "box": 1,
+        "due_date": "2026-08-04"
+      },
+      {
+        "mcq_id": "pak-007",
+        "box": 1,
+        "due_date": "2026-08-04"
+      },
+      {
+        "mcq_id": "pak-008",
+        "box": 1,
+        "due_date": "2026-08-04"
+      },
+      {
+        "mcq_id": "pak-009",
+        "box": 1,
+        "due_date": "2026-08-04"
+      },
+      {
+        "mcq_id": "pak-010",
+        "box": 1,
+        "due_date": "2026-08-04"
+      }
+    ],
+    "bookmarks": [
+      {
+        "mcq_id": "urd-015",
+        "saved": "2026-08-01 09:10:41"
+      },
+      {
+        "mcq_id": "cssexa-000001",
+        "saved": "2026-08-01 09:10:37"
+      },
+      {
+        "mcq_id": "cssexa-000002",
+        "saved": "2026-08-01 09:10:36"
+      },
+      {
+        "mcq_id": "cssexa-000004",
+        "saved": "2026-08-01 09:10:35"
+      },
+      {
+        "mcq_id": "gk-010",
+        "saved": "2026-08-01 09:10:32"
+      }
+    ],
+    "strategy": "Review due revisions first, clear flashcards, then re-attempt bookmarked questions."
+  },
+  "exam_preparation": [
+    {
+      "exam_id": "fpsc",
+      "mappings": 1230,
+      "mock_tests": 0,
+      "past_papers": 0,
+      "syllabus_units": 0
+    },
+    {
+      "exam_id": "nts",
+      "mappings": 1011,
+      "mock_tests": 0,
+      "past_papers": 0,
+      "syllabus_units": 0
+    },
+    {
+      "exam_id": "ppsc",
+      "mappings": 892,
+      "mock_tests": 0,
+      "past_papers": 0,
+      "syllabus_units": 0
+    },
+    {
+      "exam_id": "ib",
+      "mappings": 649,
+      "mock_tests": 0,
+      "past_papers": 0,
+      "syllabus_units": 0
+    },
+    {
+      "exam_id": "educators",
+      "mappings": 563,
+      "mock_tests": 0,
+      "past_papers": 0,
+      "syllabus_units": 0
+    },
+    {
+      "exam_id": "etea",
+      "mappings": 408,
+      "mock_tests": 0,
+      "past_papers": 0,
+      "syllabus_units": 0
+    },
+    {
+      "exam_id": "css",
+      "mappings": 401,
+      "mock_tests": 0,
+      "past_papers": 0,
+      "syllabus_units": 0
+    },
+    {
+      "exam_id": "pms",
+      "mappings": 339,
+      "mock_tests": 0,
+      "past_papers": 0,
+      "syllabus_units": 0
+    },
+    {
+      "exam_id": "nab",
+      "mappings": 324,
+      "mock_tests": 0,
+      "past_papers": 0,
+      "syllabus_units": 0
+    },
+    {
+      "exam_id": "mod",
+      "mappings": 307,
+      "mock_tests": 0,
+      "past_papers": 0,
+      "syllabus_units": 0
+    },
+    {
+      "exam_id": "police",
+      "mappings": 306,
+      "mock_tests": 0,
+      "past_papers": 0,
+      "syllabus_units": 0
+    },
+    {
+      "exam_id": "ots",
+      "mappings": 278,
+      "mock_tests": 0,
+      "past_papers": 0,
+      "syllabus_units": 0
+    }
+  ]
+}

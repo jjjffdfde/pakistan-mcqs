@@ -1,0 +1,61 @@
+{
+  "step": "summary",
+  "generated_at": "2026-08-10T12:10:40.763Z",
+  "status": "Ready",
+  "ready": true,
+  "checks": {
+    "total": 33,
+    "passed": 33,
+    "failed": 0
+  },
+  "failed": [],
+  "modules": {
+    "knowledge-assistant": {
+      "exit": 0,
+      "ok": true
+    },
+    "learning-engine": {
+      "exit": 0,
+      "ok": true
+    },
+    "revision-planner": {
+      "exit": 0,
+      "ok": true
+    },
+    "recommendation-engine": {
+      "exit": 0,
+      "ok": true
+    },
+    "concept-navigator": {
+      "exit": 0,
+      "ok": true
+    },
+    "analytics-engine": {
+      "exit": 0,
+      "ok": true
+    },
+    "automation-engine": {
+      "exit": 0,
+      "ok": true
+    },
+    "offline-api": {
+      "exit": 0,
+      "ok": true
+    }
+  },
+  "deliverables": {
+    "knowledge_assistant": true,
+    "learning_engine": true,
+    "revision_planner": true,
+    "recommendation_engine": true,
+    "concept_navigator": true,
+    "dashboard": true,
+    "revision_intelligence": true,
+    "offline_api": true,
+    "analytics": true,
+    "automation": true,
+    "deterministic": true,
+    "read_only": true,
+    "schema_unchanged": true
+  }
+}

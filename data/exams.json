@@ -1,0 +1,497 @@
+[
+  {
+    "id": "css",
+    "name": "CSS",
+    "fullName": "Central Superior Services (CSS)",
+    "category": "central",
+    "description": "Central superior services exam conducted by FPSC for federal bureaucracy.",
+    "site": "https://fpsc.gov.pk",
+    "order": 1
+  },
+  {
+    "id": "pms",
+    "name": "PMS",
+    "fullName": "Provincial Management Services (PMS)",
+    "category": "provincial",
+    "description": "Provincial management services exam for provincial civil servants.",
+    "site": "",
+    "order": 2
+  },
+  {
+    "id": "fpsc",
+    "name": "FPSC",
+    "fullName": "Federal Public Service Commission",
+    "category": "central",
+    "description": "Federal recruitment body for civil services and federal posts.",
+    "site": "https://fpsc.gov.pk",
+    "order": 3
+  },
+  {
+    "id": "ppsc",
+    "name": "PPSC",
+    "fullName": "Punjab Public Service Commission",
+    "category": "provincial",
+    "description": "Punjab's recruitment body for provincial government posts.",
+    "site": "https://ppsc.gop.pk",
+    "order": 4
+  },
+  {
+    "id": "spsc",
+    "name": "SPSC",
+    "fullName": "Sindh Public Service Commission",
+    "category": "provincial",
+    "description": "Sindh's recruitment body for provincial government posts.",
+    "site": "https://spsc.gov.pk",
+    "order": 5
+  },
+  {
+    "id": "kppsc",
+    "name": "KPPSC",
+    "fullName": "Khyber Pakhtunkhwa Public Service Commission",
+    "category": "provincial",
+    "description": "Khyber Pakhtunkhwa's recruitment body for provincial posts.",
+    "site": "https://kppsc.gov.pk",
+    "order": 6
+  },
+  {
+    "id": "bpsc",
+    "name": "BPSC",
+    "fullName": "Balochistan Public Service Commission",
+    "category": "provincial",
+    "description": "Balochistan's recruitment body for provincial government posts.",
+    "site": "https://bpsc.gob.pk",
+    "order": 7
+  },
+  {
+    "id": "ajkpsc",
+    "name": "AJKPSC",
+    "fullName": "Azad Jammu & Kashmir Public Service Commission",
+    "category": "provincial",
+    "description": "AJK's public service commission for provincial posts.",
+    "site": "https://ajkpsc.gkp.pk",
+    "order": 8
+  },
+  {
+    "id": "nts",
+    "name": "NTS",
+    "fullName": "National Testing Service",
+    "category": "testing-agencies",
+    "description": "Nationwide testing agency for recruitment and admission tests.",
+    "site": "https://nts.org.pk",
+    "order": 9
+  },
+  {
+    "id": "ots",
+    "name": "OTS",
+    "fullName": "Open Testing Service",
+    "category": "testing-agencies",
+    "description": "Open testing service for recruitment tests across Pakistan.",
+    "site": "https://ots.org.pk",
+    "order": 10
+  },
+  {
+    "id": "cts",
+    "name": "CTS",
+    "fullName": "Combined Testing Service",
+    "category": "testing-agencies",
+    "description": "Combined testing service for provincial recruitment tests.",
+    "site": "",
+    "order": 11
+  },
+  {
+    "id": "pts",
+    "name": "PTS",
+    "fullName": "Pakistan Testing Service",
+    "category": "testing-agencies",
+    "description": "Pakistan testing service for government recruitment tests.",
+    "site": "https://pts.org.pk",
+    "order": 12
+  },
+  {
+    "id": "etea",
+    "name": "ETEA",
+    "fullName": "Educational Testing and Evaluation Agency",
+    "category": "education",
+    "description": "Khyber Pakhtunkhwa's testing agency for educators and engineering admissions.",
+    "site": "https://etea.edu.pk",
+    "order": 13
+  },
+  {
+    "id": "educators",
+    "name": "Educators",
+    "fullName": "Educators (Teachers Recruitment)",
+    "category": "education",
+    "description": "Recruitment tests for teachers, lecturers and education department posts.",
+    "site": "",
+    "order": 14
+  },
+  {
+    "id": "lecturer",
+    "name": "Lecturer",
+    "fullName": "Lecturer & Subject Specialist",
+    "category": "education",
+    "description": "College and university lecturer recruitment with subject specialization.",
+    "site": "",
+    "order": 15
+  },
+  {
+    "id": "police",
+    "name": "Police",
+    "fullName": "Police Recruitment (ASI / SI / Constable)",
+    "category": "law-enforcement",
+    "description": "Provincial police recruitment including constables, ASI and SI.",
+    "site": "",
+    "order": 16
+  },
+  {
+    "id": "fia",
+    "name": "FIA",
+    "fullName": "Federal Investigation Agency",
+    "category": "law-enforcement",
+    "description": "Federal investigation agency recruitment for inspectors and sub-inspectors.",
+    "site": "https://fia.gov.pk",
+    "order": 17
+  },
+  {
+    "id": "asf",
+    "name": "ASF",
+    "fullName": "Airports Security Force",
+    "category": "law-enforcement",
+    "description": "Airport security force recruitment for ASI and corporals.",
+    "site": "https://asf.gov.pk",
+    "order": 18
+  },
+  {
+    "id": "nab",
+    "name": "NAB",
+    "fullName": "National Accountability Bureau",
+    "category": "law-enforcement",
+    "description": "Anti-corruption bureau recruitment for inspectors and officers.",
+    "site": "https://nab.gov.pk",
+    "order": 19
+  },
+  {
+    "id": "ib",
+    "name": "IB",
+    "fullName": "Intelligence Bureau",
+    "category": "law-enforcement",
+    "description": "Intelligence bureau recruitment for assistant directors and staff.",
+    "site": "",
+    "order": 20
+  },
+  {
+    "id": "army",
+    "name": "Army",
+    "fullName": "Pakistan Army (PA)",
+    "category": "forces",
+    "description": "Pakistan Army recruitment and ISSB selection tests.",
+    "site": "https://joinpakarmy.gov.pk",
+    "order": 21
+  },
+  {
+    "id": "navy",
+    "name": "Navy",
+    "fullName": "Pakistan Navy (PN)",
+    "category": "forces",
+    "description": "Pakistan Navy recruitment for sailors, cadets and branches.",
+    "site": "https://joinpaknavy.gov.pk",
+    "order": 22
+  },
+  {
+    "id": "paf",
+    "name": "PAF",
+    "fullName": "Pakistan Air Force",
+    "category": "forces",
+    "description": "Pakistan Air Force recruitment for airmen, officers and technical branches.",
+    "site": "https://joinpaf.gov.pk",
+    "order": 23
+  },
+  {
+    "id": "motorway",
+    "name": "Motorway",
+    "fullName": "Motorway Police (NH&MP)",
+    "category": "law-enforcement",
+    "description": "National Highways and Motorway Police recruitment for MPOs.",
+    "site": "",
+    "order": 24
+  },
+  {
+    "id": "railways",
+    "name": "Railways",
+    "fullName": "Pakistan Railways",
+    "category": "central",
+    "description": "Pakistan Railways recruitment for clerks, assistants and technical staff.",
+    "site": "https://railways.gov.pk",
+    "order": 25
+  },
+  {
+    "id": "nadra",
+    "name": "NADRA",
+    "fullName": "NADRA",
+    "category": "central",
+    "description": "National Database & Registration Authority recruitment for junior executives and officers.",
+    "site": "https://nadra.gov.pk",
+    "order": 26
+  },
+  {
+    "id": "mod",
+    "name": "MOD",
+    "fullName": "Ministry of Defence",
+    "category": "central",
+    "description": "Ministry of Defence and its civilian wings recruitment.",
+    "site": "https://mod.gov.pk",
+    "order": 27
+  },
+  {
+    "id": "election-officer",
+    "name": "Election Officer",
+    "fullName": "Election Officer / RO / ARO",
+    "category": "central",
+    "description": "Election Commission of Pakistan posts including ROs and AROs.",
+    "site": "https://ecp.gov.pk",
+    "order": 28
+  },
+  {
+    "id": "custom-exams",
+    "name": "Custom Exams",
+    "fullName": "Custom Exams",
+    "category": "custom",
+    "description": "User-created custom exam patterns stored locally in the browser.",
+    "site": "",
+    "order": 29
+  },
+  {
+    "id": "pma",
+    "name": "PMA",
+    "fullName": "Pakistan Military Academy (PMA)",
+    "category": "defence",
+    "description": "Initial test and interview for entry into the Pakistan Military Academy Long Course.",
+    "site": "",
+    "order": 30
+  },
+  {
+    "id": "issb",
+    "name": "ISSB",
+    "fullName": "Inter Services Selection Board (ISSB)",
+    "category": "defence",
+    "description": "Psychological and aptitude testing for selection into Pakistan's armed forces.",
+    "site": "",
+    "order": 31
+  },
+  {
+    "id": "punjab-police",
+    "name": "Punjab Police",
+    "fullName": "Punjab Police Recruitment",
+    "category": "provincial",
+    "description": "Recruitment tests for Punjab Police constable, ASI and SI posts.",
+    "site": "",
+    "order": 32
+  },
+  {
+    "id": "fia-inspector",
+    "name": "FIA Inspector",
+    "fullName": "FIA Inspector Recruitment",
+    "category": "federal",
+    "description": "FIA departmental test for inspector-level posts.",
+    "site": "",
+    "order": 33
+  },
+  {
+    "id": "anf",
+    "name": "ANF",
+    "fullName": "Anti-Narcotics Force (ANF)",
+    "category": "federal",
+    "description": "Recruitment tests for the Anti-Narcotics Force.",
+    "site": "",
+    "order": 34
+  },
+  {
+    "id": "wapda",
+    "name": "WAPDA",
+    "fullName": "Water & Power Development Authority",
+    "category": "corporate",
+    "description": "WAPDA recruitment tests for technical and administrative posts.",
+    "site": "",
+    "order": 35
+  },
+  {
+    "id": "fbr",
+    "name": "FBR",
+    "fullName": "Federal Board of Revenue",
+    "category": "federal",
+    "description": "Tests for revenue, taxation and customs posts in FBR.",
+    "site": "",
+    "order": 36
+  },
+  {
+    "id": "sbp",
+    "name": "SBP",
+    "fullName": "State Bank of Pakistan",
+    "category": "corporate",
+    "description": "SBP recruitment tests for banking and research positions.",
+    "site": "",
+    "order": 37
+  },
+  {
+    "id": "banking",
+    "name": "Banking Jobs",
+    "fullName": "Banking Sector Recruitment",
+    "category": "corporate",
+    "description": "Entry tests for commercial banks and financial institutions (IBP etc.).",
+    "site": "",
+    "order": 38
+  },
+  {
+    "id": "rescue-1122",
+    "name": "Rescue 1122",
+    "fullName": "Rescue 1122 (Emergency Services)",
+    "category": "provincial",
+    "description": "Recruitment tests for Emergency Rescue Service 1122 staff and rescuers.",
+    "site": "",
+    "order": 39
+  },
+  {
+    "id": "lesco",
+    "name": "LESCO",
+    "fullName": "Lahore Electric Supply Company",
+    "category": "corporate",
+    "description": "Recruitment tests for LESCO technical and clerical posts.",
+    "site": "",
+    "order": 40
+  },
+  {
+    "id": "mepco",
+    "name": "MEPCO",
+    "fullName": "Multan Electric Power Company",
+    "category": "corporate",
+    "description": "Recruitment tests for MEPCO technical and clerical posts.",
+    "site": "",
+    "order": 41
+  },
+  {
+    "id": "hesco",
+    "name": "HESCO",
+    "fullName": "Hyderabad Electric Supply Company",
+    "category": "corporate",
+    "description": "Recruitment tests for HESCO technical and clerical posts.",
+    "site": "",
+    "order": 42
+  },
+  {
+    "id": "sepco",
+    "name": "SEPCO",
+    "fullName": "Sukkur Electric Power Company",
+    "category": "corporate",
+    "description": "Recruitment tests for SEPCO technical and clerical posts.",
+    "site": "",
+    "order": 43
+  },
+  {
+    "id": "ssgc",
+    "name": "SSGC",
+    "fullName": "Sui Southern Gas Company",
+    "category": "corporate",
+    "description": "Recruitment tests for SSGC technical and clerical posts.",
+    "site": "",
+    "order": 44
+  },
+  {
+    "id": "sngpl",
+    "name": "SNGPL",
+    "fullName": "Sui Northern Gas Pipelines Limited",
+    "category": "corporate",
+    "description": "Recruitment tests for SNGPL technical and clerical posts.",
+    "site": "",
+    "order": 45
+  },
+  {
+    "id": "pakistan-post",
+    "name": "Pakistan Post",
+    "fullName": "Pakistan Post (GPO)",
+    "category": "central",
+    "description": "Recruitment tests for Pakistan Post clerks, GPO and department posts.",
+    "site": "",
+    "order": 46
+  },
+  {
+    "id": "teaching",
+    "name": "Teaching Jobs",
+    "fullName": "Teaching Jobs Recruitment",
+    "category": "education",
+    "description": "Recruitment tests for school and college teaching posts.",
+    "site": "",
+    "order": 47
+  },
+  {
+    "id": "sst",
+    "name": "SST",
+    "fullName": "Secondary School Teacher (SST)",
+    "category": "education",
+    "description": "SST recruitment tests for secondary school teaching posts.",
+    "site": "",
+    "order": 48
+  },
+  {
+    "id": "est",
+    "name": "EST",
+    "fullName": "Elementary School Teacher (EST)",
+    "category": "education",
+    "description": "EST recruitment tests for elementary school teaching posts.",
+    "site": "",
+    "order": 49
+  },
+  {
+    "id": "headmaster",
+    "name": "Headmaster",
+    "fullName": "Headmaster / Headmistress",
+    "category": "education",
+    "description": "Headmaster recruitment tests for school leadership posts.",
+    "site": "",
+    "order": 50
+  },
+  {
+    "id": "inspector",
+    "name": "Inspector",
+    "fullName": "Inspector (General Duty)",
+    "category": "law-enforcement",
+    "description": "Recruitment tests for inspector-grade posts in law enforcement agencies.",
+    "site": "",
+    "order": 51
+  },
+  {
+    "id": "sub-inspector",
+    "name": "Sub Inspector",
+    "fullName": "Sub Inspector (SI)",
+    "category": "law-enforcement",
+    "description": "Recruitment tests for sub-inspector posts in police and agencies.",
+    "site": "",
+    "order": 52
+  },
+  {
+    "id": "custom-inspector",
+    "name": "Custom Inspector",
+    "fullName": "Customs Inspector (FBR)",
+    "category": "federal",
+    "description": "Recruitment tests for customs inspector posts in Pakistan Customs.",
+    "site": "",
+    "order": 53
+  },
+  {
+    "id": "income-tax-inspector",
+    "name": "Income Tax Inspector",
+    "fullName": "Income Tax Inspector (FBR)",
+    "category": "federal",
+    "description": "Recruitment tests for income tax inspector posts in FBR.",
+    "site": "",
+    "order": 54
+  },
+  {
+    "id": "assistant-director",
+    "name": "Assistant Director",
+    "fullName": "Assistant Director (Departmental)",
+    "category": "federal",
+    "description": "Recruitment tests for assistant director-grade posts.",
+    "site": "",
+    "order": 55
+  }
+]

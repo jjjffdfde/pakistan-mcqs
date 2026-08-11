@@ -1,0 +1,48 @@
+# ============================================================
+# .gitattributes - Pakistan MCQs Hub (Phase 34 final release)
+# ============================================================
+
+# Normalize line endings for text files (LF in the repository)
+* text=auto
+
+# --- Specific text types ---
+*.html  text
+*.css   text
+*.js    text
+*.cjs   text
+*.mjs   text
+*.json  text
+*.md    text
+*.yml   text
+*.yaml  text
+*.xml   text
+*.txt   text
+*.sql   text
+*.sh    text eol=lf
+*.cjs   text
+*.webmanifest text
+*.svg   text
+*.conf  text
+*.nojekyll text
+
+# --- Binary files: never diff ---
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.gif   binary
+*.webp  binary
+*.ico   binary
+*.avif  binary
+*.woff  binary
+*.woff2 binary
+*.ttf   binary
+*.eot   binary
+*.sqlite binary
+*.gz    binary
+*.zst   binary
+*.zip   binary
+
+# --- Phase 23 NDJSON source payload (if ever tracked: use Git LFS) ---
+# *.ndjson      -text
+# *.ndjson.gz   filter=lfs diff=lfs merge=lfs -text
+# *.ndjson.zst  filter=lfs diff=lfs merge=lfs -text

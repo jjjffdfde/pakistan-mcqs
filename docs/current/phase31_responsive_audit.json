@@ -1,0 +1,31 @@
+{
+  "module": "M13",
+  "generated_at": "2026-08-10T15:02:51.825Z",
+  "widths_tested": [
+    1366,
+    1920,
+    1440,
+    1280,
+    1024,
+    768,
+    414,
+    390,
+    375,
+    320
+  ],
+  "pages_tested": [
+    "index.html",
+    "admin.html",
+    "subjects/biology.html",
+    "offline.html",
+    "chapters/ac-basics.html",
+    "missing-page.html"
+  ],
+  "runs": 28,
+  "overflow_runs": 0,
+  "overflow_details": [],
+  "smallest_control_w": 36,
+  "smallest_control_h": 36,
+  "status": "PASS",
+  "note": "Zero horizontal overflow at 320..1920px across index/admin/subject/chapter/offline/404; smallest control 36px (>=24px WCAG AA touch target, 44px ideal advisory P3)"
+}

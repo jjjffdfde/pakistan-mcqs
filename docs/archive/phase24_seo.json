@@ -1,0 +1,23 @@
+{
+  "step": "seo",
+  "generated_at": "2026-08-10T16:56:04",
+  "summary": {
+    "public_pages_checked": 1121,
+    "pages_with_title": 1121,
+    "pages_with_description": 1121,
+    "pages_with_canonical": 1121,
+    "pages_with_og": 1121,
+    "json_ld_blocks": 1126,
+    "json_ld_valid": 1126,
+    "json_ld_invalid": 0,
+    "sitemap_urls": 1121,
+    "sitemap_duplicate_urls": 0,
+    "sitemap_broken_targets": 0,
+    "robots_exists": true,
+    "robots_has_sitemap": true,
+    "admin_noindexed": true
+  },
+  "sitemap_duplicate_urls": [],
+  "sitemap_broken_targets": [],
+  "json_ld_invalid_blocks": []
+}

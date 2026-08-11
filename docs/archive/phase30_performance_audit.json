@@ -1,0 +1,37 @@
+{
+  "module": "M11",
+  "status": "PASS",
+  "first_load": {
+    "index.html": {
+      "dcl_ms": 24,
+      "load_ms": 67,
+      "resources": 17,
+      "bytes": 401428
+    },
+    "admin.html": {
+      "dcl_ms": 18,
+      "load_ms": 43,
+      "resources": 8,
+      "bytes": 1375550
+    },
+    "subjects/biology.html": {
+      "dcl_ms": 17,
+      "load_ms": 18,
+      "resources": 2,
+      "bytes": 21700
+    },
+    "offline.html": {
+      "dcl_ms": 48,
+      "load_ms": 52,
+      "resources": 3,
+      "bytes": 34180
+    },
+    "missing-page.html": {
+      "dcl_ms": 11,
+      "load_ms": 13,
+      "resources": 1,
+      "bytes": 21400
+    }
+  },
+  "note": "localhost cold first-load: index dcl=24ms load=67ms (401428 bytes). admin page payload 1.37MB (admin_mcqs JSON) - advisory. /api/export materializes full mcqs table (no pagination) - advisory."
+}

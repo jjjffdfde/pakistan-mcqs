@@ -1,0 +1,182 @@
+[
+ {
+  "path": ".audit-tmp/p30api/db/pakistan-mcqs.sqlite",
+  "size": 2206887936,
+  "sha256": "7acfb24f262790490c42a8ce54617058b2197c07bb1be9528607922d73f5af0b",
+  "decision": "REMOVE (scratch)"
+ },
+ {
+  "path": "db/pakistan-mcqs.sqlite",
+  "size": 2206887936,
+  "sha256": "3df39d335f5f931125168ca26877595b620bd1c9f75701b20ac19a9dffafa34e",
+  "decision": "EXCLUDE (Git 100 MiB limit; kept locally, gitignored)"
+ },
+ {
+  "path": "backup/db-backup-2026-08-04-12-47-20/pakistan-mcqs.sqlite",
+  "size": 2159501312,
+  "sha256": "fb35e561c3e8c3b0f72f0bc9214b3b44fb6a21a25b44bc3baff1ce40a911c163",
+  "decision": "EXCLUDE (historical backups; gitignored)"
+ },
+ {
+  "path": "db/pakistan-mcqs.rebuilt.sqlite",
+  "size": 2145193984,
+  "sha256": "563a43acddab58e9d052276303cb20a51458612886f496912ab784c14efb107e",
+  "decision": "EXCLUDE (Git 100 MiB limit; kept locally, gitignored)"
+ },
+ {
+  "path": "backup/db-backup-2026-08-04-11-42-07/pakistan-mcqs.sqlite",
+  "size": 2133368832,
+  "sha256": "90148202c17863053b4bdb3351a85635ac499416292c25e7d7bc3d1b8461a536",
+  "decision": "EXCLUDE (historical backups; gitignored)"
+ },
+ {
+  "path": "backup/db-backup-2026-08-02-17-47-12/pakistan-mcqs.sqlite",
+  "size": 1083437056,
+  "sha256": "308bf4d4232e35a59130c03dd072e4b2639ff2c872796f5894669d47833b1449",
+  "decision": "EXCLUDE (historical backups; gitignored)"
+ },
+ {
+  "path": "backup/db-backup-2026-08-02-17-23-10/pakistan-mcqs.sqlite",
+  "size": 996319232,
+  "sha256": "12fb284b830a5bde95762bb5f1fe692126fcc1151b8adb8e6ca4e5bc2c40d095",
+  "decision": "EXCLUDE (historical backups; gitignored)"
+ },
+ {
+  "path": "backup/2026-08-02-kb-phase-2026-08-02-0950/pakistan-mcqs.sqlite",
+  "size": 657465344,
+  "sha256": "ac44fa36c33a0234cc135cacc9a38538302c2da8e8a00bbd5f6120a5eb8681e5",
+  "decision": "EXCLUDE (historical backups; gitignored)"
+ },
+ {
+  "path": "backup/2026-08-01-final-241551/pakistan-mcqs.sqlite",
+  "size": 354398208,
+  "sha256": "d5f53479c26c50dd9f116af353cc963026ea63ab7e8ab328e795b3d936f84034",
+  "decision": "EXCLUDE (historical backups; gitignored)"
+ },
+ {
+  "path": "backup/normalize-pre-phase2-2026-08-01-06-14-06/pakistan-mcqs.sqlite",
+  "size": 283262976,
+  "sha256": "f09c8d413c536064930c669572a866fea8f19d20eccee2960b889431c811b9fc",
+  "decision": "EXCLUDE (historical backups; gitignored)"
+ },
+ {
+  "path": "backup/db-backup-2026-08-01-04-06-13/pakistan-mcqs.sqlite",
+  "size": 283254784,
+  "sha256": "d7710cb505ff0293e8deb38068fa81b4f420d622a0426e1eb083669b8c9ed9b5",
+  "decision": "EXCLUDE (historical backups; gitignored)"
+ },
+ {
+  "path": "backup/db-backup-2026-08-01-05-10-43/pakistan-mcqs.sqlite",
+  "size": 283254784,
+  "sha256": "59072d2dbf2e8d882f52f0f2e1b590cf83145f94c8883c8643c416b4f9d4a001",
+  "decision": "EXCLUDE (historical backups; gitignored)"
+ },
+ {
+  "path": "backup/db-backup-2026-08-01-04-06-13/dump.json",
+  "size": 233134839,
+  "sha256": "4f790f887f3a27ff4b8a1ade3c44d4412b14e494e690a6521368918442b70b04",
+  "decision": "EXCLUDE (historical backups; gitignored)"
+ },
+ {
+  "path": "backup/db-backup-2026-08-01-05-10-43/dump.json",
+  "size": 233134839,
+  "sha256": "4f790f887f3a27ff4b8a1ade3c44d4412b14e494e690a6521368918442b70b04",
+  "decision": "EXCLUDE (historical backups; gitignored)"
+ },
+ {
+  "path": "data/export/mcqs.json",
+  "size": 173150191,
+  "sha256": "0fee6ee0e752e070194eafc3dd0ba3b661704551c12c0fb322fdaf8195d34637",
+  "decision": "KEEP (under 100 MiB, tracked)"
+ },
+ {
+  "path": "data/export/mcqs-mathematics.json",
+  "size": 81692485,
+  "sha256": "056834cf151d3d88e239219eaa441b5e3e782cb577e7cebafc0eb0f39dac4e4d",
+  "decision": "KEEP (under 100 MiB, tracked)"
+ },
+ {
+  "path": "database/data/other/mcqs_fts_data-part03.ndjson.gz",
+  "size": 63452939,
+  "sha256": "701736791f6cac782e3bc0f34781c1fd385c99e2809f2b58c2311a6c85730bff",
+  "decision": "EXCLUDE (source payload; gitignored per database/.gitignore; LFS attributes already prepared)"
+ },
+ {
+  "path": "database/releases/source-v2/data/other/mcqs_fts_data-part03.ndjson.gz",
+  "size": 63452939,
+  "sha256": "701736791f6cac782e3bc0f34781c1fd385c99e2809f2b58c2311a6c85730bff",
+  "decision": "EXCLUDE (source payload; gitignored per database/.gitignore; LFS attributes already prepared)"
+ },
+ {
+  "path": "database/data/other/mcqs_fts_data-part02.ndjson.gz",
+  "size": 63303664,
+  "sha256": "e05b2feb91242c6a7b188f7a67eb491119e390bd492f6041802e44c41667f67a",
+  "decision": "EXCLUDE (source payload; gitignored per database/.gitignore; LFS attributes already prepared)"
+ },
+ {
+  "path": "database/releases/source-v2/data/other/mcqs_fts_data-part02.ndjson.gz",
+  "size": 63303664,
+  "sha256": "e05b2feb91242c6a7b188f7a67eb491119e390bd492f6041802e44c41667f67a",
+  "decision": "EXCLUDE (source payload; gitignored per database/.gitignore; LFS attributes already prepared)"
+ },
+ {
+  "path": "database/data/other/mcqs_fts_data-part04.ndjson.gz",
+  "size": 61413343,
+  "sha256": "d88dde46a0d6506d808beec15a93000ac57d429f4b21aab8c026b8409e068070",
+  "decision": "EXCLUDE (source payload; gitignored per database/.gitignore; LFS attributes already prepared)"
+ },
+ {
+  "path": "database/releases/source-v2/data/other/mcqs_fts_data-part04.ndjson.gz",
+  "size": 61413343,
+  "sha256": "d88dde46a0d6506d808beec15a93000ac57d429f4b21aab8c026b8409e068070",
+  "decision": "EXCLUDE (source payload; gitignored per database/.gitignore; LFS attributes already prepared)"
+ },
+ {
+  "path": "database/data/other/mcqs_fts_data-part01.ndjson.gz",
+  "size": 60666104,
+  "sha256": "c8891de87503558ad0a8796ff9b38da401840fbfc2aadbdaa41d8f61784df83e",
+  "decision": "EXCLUDE (source payload; gitignored per database/.gitignore; LFS attributes already prepared)"
+ },
+ {
+  "path": "database/releases/source-v2/data/other/mcqs_fts_data-part01.ndjson.gz",
+  "size": 60666104,
+  "sha256": "c8891de87503558ad0a8796ff9b38da401840fbfc2aadbdaa41d8f61784df83e",
+  "decision": "EXCLUDE (source payload; gitignored per database/.gitignore; LFS attributes already prepared)"
+ },
+ {
+  "path": "database/data/other/mcqs_fts_data-part05.ndjson.gz",
+  "size": 55112201,
+  "sha256": "6fdfd89b66ff6a5676f384756993793a3b9702da01a058c1c41eb33f587aeb79",
+  "decision": "EXCLUDE (source payload; gitignored per database/.gitignore; LFS attributes already prepared)"
+ },
+ {
+  "path": "database/releases/source-v2/data/other/mcqs_fts_data-part05.ndjson.gz",
+  "size": 55112201,
+  "sha256": "6fdfd89b66ff6a5676f384756993793a3b9702da01a058c1c41eb33f587aeb79",
+  "decision": "EXCLUDE (source payload; gitignored per database/.gitignore; LFS attributes already prepared)"
+ },
+ {
+  "path": "docs/phase17_search_index.json",
+  "size": 32876440,
+  "sha256": "1f5c7de7d4b2f586d7a3ba0a9e9418dfa638791ce0eca7714f8a93bfcdca5170",
+  "decision": "KEEP (under 100 MiB, tracked)"
+ },
+ {
+  "path": "data/export/mcqs-statistics.json",
+  "size": 30727744,
+  "sha256": "dbef7c8b2ce3de43e818d7573fd431082933f9973207d36a711a43f6bacd7e24",
+  "decision": "KEEP (under 100 MiB, tracked)"
+ },
+ {
+  "path": "database/data/mcqs/options.ndjson.gz",
+  "size": 27005865,
+  "sha256": "c233c31a5e3b6368e18cd737e59020b65482027a58e1e6a530fa7aed20bad678",
+  "decision": "EXCLUDE (source payload; gitignored per database/.gitignore; LFS attributes already prepared)"
+ },
+ {
+  "path": "database/releases/source-v2/data/mcqs/options.ndjson.gz",
+  "size": 27005865,
+  "sha256": "c233c31a5e3b6368e18cd737e59020b65482027a58e1e6a530fa7aed20bad678",
+  "decision": "EXCLUDE (source payload; gitignored per database/.gitignore; LFS attributes already prepared)"
+ }
+]

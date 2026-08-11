@@ -1,0 +1,30 @@
+{
+  "root": true,
+  "env": { "node": true, "es2022": true, "browser": true },
+  "parserOptions": { "ecmaVersion": 2022, "sourceType": "script" },
+  "rules": {
+    "no-var": "error",
+    "prefer-const": "error",
+    "eqeqeq": ["error", "always"],
+    "no-cond-assign": "error",
+    "no-dupe-keys": "error",
+    "no-duplicate-case": "error",
+    "no-empty": ["error", { "allowEmptyCatch": true }],
+    "no-extra-semi": "error",
+    "no-irregular-whitespace": "error",
+    "no-unreachable": "error",
+    "no-unused-vars": ["warn", { "args": "none", "caughtErrors": "none" }],
+    "no-constant-condition": ["error", { "checkLoops": false }],
+    "no-fallthrough": "error",
+    "valid-typeof": "error",
+    "no-redeclare": "error",
+    "no-sparse-arrays": "error",
+    "use-isnan": "error",
+    "no-shadow": "warn",
+    "block-scoped-var": "warn"
+  },
+  "overrides": [
+    { "files": ["tests/**/*.js"], "env": { "node": true }, "rules": { "no-unused-vars": "error" } }
+  ],
+  "ignorePatterns": ["backup/**", "db/**/*.sqlite*", "data/**", "node_modules/**", "release/**", "dist/**"]
+}

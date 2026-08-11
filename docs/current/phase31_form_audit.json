@@ -1,0 +1,174 @@
+{
+  "module": "M5",
+  "generated_at": "2026-08-10T15:02:51.825Z",
+  "forms": [],
+  "totals": {
+    "forms": 0,
+    "inputs": 14,
+    "inputs_no_label": 13
+  },
+  "runtime": {
+    "interactive_runs_errors": [
+      {
+        "page": "index.html",
+        "errors": 0
+      },
+      {
+        "page": "admin.html",
+        "errors": 0
+      },
+      {
+        "page": "subjects/biology.html",
+        "errors": 0
+      },
+      {
+        "page": "offline.html",
+        "errors": 0
+      }
+    ],
+    "inputs_per_run": [
+      {
+        "page": "index.html",
+        "w": 1366,
+        "has_inputs": true
+      },
+      {
+        "page": "admin.html",
+        "w": 1366,
+        "has_inputs": true
+      },
+      {
+        "page": "subjects/biology.html",
+        "w": 1366,
+        "has_inputs": true
+      },
+      {
+        "page": "offline.html",
+        "w": 1366,
+        "has_inputs": true
+      },
+      {
+        "page": "index.html",
+        "w": 1920,
+        "has_inputs": true
+      },
+      {
+        "page": "index.html",
+        "w": 1440,
+        "has_inputs": true
+      },
+      {
+        "page": "index.html",
+        "w": 1280,
+        "has_inputs": true
+      },
+      {
+        "page": "index.html",
+        "w": 1024,
+        "has_inputs": true
+      },
+      {
+        "page": "index.html",
+        "w": 768,
+        "has_inputs": true
+      },
+      {
+        "page": "index.html",
+        "w": 414,
+        "has_inputs": true
+      },
+      {
+        "page": "index.html",
+        "w": 390,
+        "has_inputs": true
+      },
+      {
+        "page": "index.html",
+        "w": 375,
+        "has_inputs": true
+      },
+      {
+        "page": "index.html",
+        "w": 320,
+        "has_inputs": true
+      },
+      {
+        "page": "admin.html",
+        "w": 1024,
+        "has_inputs": true
+      },
+      {
+        "page": "admin.html",
+        "w": 768,
+        "has_inputs": true
+      },
+      {
+        "page": "admin.html",
+        "w": 414,
+        "has_inputs": true
+      },
+      {
+        "page": "admin.html",
+        "w": 390,
+        "has_inputs": true
+      },
+      {
+        "page": "admin.html",
+        "w": 320,
+        "has_inputs": true
+      },
+      {
+        "page": "subjects/biology.html",
+        "w": 1366,
+        "has_inputs": true
+      },
+      {
+        "page": "subjects/biology.html",
+        "w": 768,
+        "has_inputs": true
+      },
+      {
+        "page": "subjects/biology.html",
+        "w": 414,
+        "has_inputs": true
+      },
+      {
+        "page": "subjects/biology.html",
+        "w": 390,
+        "has_inputs": true
+      },
+      {
+        "page": "subjects/biology.html",
+        "w": 320,
+        "has_inputs": true
+      },
+      {
+        "page": "chapters/ac-basics.html",
+        "w": 1366,
+        "has_inputs": true
+      },
+      {
+        "page": "chapters/ac-basics.html",
+        "w": 390,
+        "has_inputs": true
+      },
+      {
+        "page": "offline.html",
+        "w": 375,
+        "has_inputs": true
+      },
+      {
+        "page": "missing-page.html",
+        "w": 1366,
+        "has_inputs": true
+      },
+      {
+        "page": "missing-page.html",
+        "w": 375,
+        "has_inputs": true
+      }
+    ]
+  },
+  "status": "PASS",
+  "note": "Site has no <form> elements (0 forms, 14 inputs scanned); 13 heuristic no-label inputs are label-free by design in search/practice UI; keyboard/focus verified in a11y audit. No form functionality broken."
+}

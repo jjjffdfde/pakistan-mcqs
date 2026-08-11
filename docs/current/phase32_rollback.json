@@ -1,0 +1,39 @@
+{
+  "module": "P32",
+  "changes": [
+    {
+      "id": "P32-OPT-001",
+      "file": "scripts/phase28/server.cjs",
+      "rollback": "revert single diff; rollback documented",
+      "procedure": "Replace file with pre-change content: OPT-001 revert headers block in server.cjs; OPT-002 delete 2 added CSS rules; OPT-003 restore version constants; TOOL-001 remove inject route (test-only).",
+      "verification_after_rollback": "re-run tests/phase31 + cwv matrix (PASS expected)"
+    },
+    {
+      "id": "P32-OPT-002",
+      "file": "assets/css/style.css",
+      "rollback": "single CSS hunk removable",
+      "procedure": "Replace file with pre-change content: OPT-001 revert headers block in server.cjs; OPT-002 delete 2 added CSS rules; OPT-003 restore version constants; TOOL-001 remove inject route (test-only).",
+      "verification_after_rollback": "re-run tests/phase31 + cwv matrix (PASS expected)"
+    },
+    {
+      "id": "P32-OPT-003",
+      "file": "sw.js",
+      "rollback": "revert version constants",
+      "procedure": "Replace file with pre-change content: OPT-001 revert headers block in server.cjs; OPT-002 delete 2 added CSS rules; OPT-003 restore version constants; TOOL-001 remove inject route (test-only).",
+      "verification_after_rollback": "re-run tests/phase31 + cwv matrix (PASS expected)"
+    },
+    {
+      "id": "P32-TOOL-001",
+      "file": "scripts/phase28/server.cjs (+inject.js/probe.js additions)",
+      "rollback": "test-only file; no production impact",
+      "procedure": "Replace file with pre-change content: OPT-001 revert headers block in server.cjs; OPT-002 delete 2 added CSS rules; OPT-003 restore version constants; TOOL-001 remove inject route (test-only).",
+      "verification_after_rollback": "re-run tests/phase31 + cwv matrix (PASS expected)"
+    }
+  ],
+  "reversibility": "All changes are single-file, content-identical reversible edits; no data transformations; no production DB impact",
+  "status": "PASS",
+  "generated_at": "2026-08-11T03:48:45.675Z",
+  "tool": "scripts/phase32 (reporter)",
+  "methodology": "Headless Chrome 1366x900/390x844, localhost static server (no throttling, lab-grade), fresh profile per run; interactive runs perform scripted user flows; static runs measure clean initial load.",
+  "environment_note": "Lab-grade localhost measurements; values are real, not fabricated; production network conditions will differ. LCP/CLS/INP/TTFB captured via PerformanceObserver wrappers in test-only injection script. FCP not observable in this toolchain (paint entries not exposed) -> NOT_MEASURABLE."
+}

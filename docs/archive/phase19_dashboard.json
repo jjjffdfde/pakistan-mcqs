@@ -1,0 +1,165 @@
+{
+  "step": "enterprise_dashboard_engine",
+  "generated_at": "2026-08-05T13:07:23",
+  "queue_status": {
+    "total_drafts": 37,
+    "approved": 18,
+    "rejected": 1,
+    "needs_revision": 18,
+    "published": 18
+  },
+  "metrics": {
+    "approval_rate": 0.486,
+    "rejection_rate": 0.027,
+    "publishing_success_rate": 1,
+    "integrity_score": 1
+  },
+  "reviewer_load": [
+    {
+      "reviewer_id": "REV-ACCT-01",
+      "reviewer_name": "Prof. Tariq Accounting",
+      "subject": "accounting",
+      "assigned_count": 15,
+      "approved_count": 4
+    },
+    {
+      "reviewer_id": "REV-AGRI-01",
+      "reviewer_name": "Dr. Bilal Agronomy",
+      "subject": "agriculture",
+      "assigned_count": 1,
+      "approved_count": 1
+    },
+    {
+      "reviewer_id": "REV-AI-01",
+      "reviewer_name": "Engr. Sarah AI",
+      "subject": "ai",
+      "assigned_count": 1,
+      "approved_count": 0
+    },
+    {
+      "reviewer_id": "REV-AJK-01",
+      "reviewer_name": "Kashif Shah AJKPSC",
+      "subject": "ajkpsc",
+      "assigned_count": 3,
+      "approved_count": 3
+    },
+    {
+      "reviewer_id": "REV-REAS-01",
+      "reviewer_name": "Dr. Usman Reasoning",
+      "subject": "analytical_reasoning",
+      "assigned_count": 0,
+      "approved_count": 0
+    },
+    {
+      "reviewer_id": "REV-ANAT-01",
+      "reviewer_name": "Dr. Ayesha Anatomy",
+      "subject": "anatomy",
+      "assigned_count": 4,
+      "approved_count": 2
+    },
+    {
+      "reviewer_id": "REV-ANF-01",
+      "reviewer_name": "Maj. Asad ANF",
+      "subject": "anf",
+      "assigned_count": 1,
+      "approved_count": 1
+    },
+    {
+      "reviewer_id": "REV-ANG-01",
+      "reviewer_name": "Dev. Hamza Web",
+      "subject": "angular",
+      "assigned_count": 2,
+      "approved_count": 0
+    },
+    {
+      "reviewer_id": "REV-ANTH-01",
+      "reviewer_name": "Dr. Zainab Social",
+      "subject": "anthropology",
+      "assigned_count": 2,
+      "approved_count": 2
+    },
+    {
+      "reviewer_id": "REV-ANTO-01",
+      "reviewer_name": "Prof. Maryam English",
+      "subject": "antonyms",
+      "assigned_count": 7,
+      "approved_count": 4
+    },
+    {
+      "reviewer_id": "REV-APT-01",
+      "reviewer_name": "Sir Rashid Aptitude",
+      "subject": "aptitude_tests",
+      "assigned_count": 0,
+      "approved_count": 0
+    },
+    {
+      "reviewer_id": "REV-ARMY-01",
+      "reviewer_name": "Col. Farooq Defense",
+      "subject": "army",
+      "assigned_count": 1,
+      "approved_count": 1
+    }
+  ],
+  "subject_trends": {
+    "accounting": {
+      "total": 3,
+      "approved": 2,
+      "published": 2
+    },
+    "agriculture": {
+      "total": 1,
+      "approved": 1,
+      "published": 1
+    },
+    "ai": {
+      "total": 1,
+      "approved": 0,
+      "published": 0
+    },
+    "ajkpsc": {
+      "total": 3,
+      "approved": 3,
+      "published": 3
+    },
+    "analytical-reasoning": {
+      "total": 7,
+      "approved": 1,
+      "published": 1
+    },
+    "anatomy": {
+      "total": 4,
+      "approved": 2,
+      "published": 2
+    },
+    "anf": {
+      "total": 1,
+      "approved": 1,
+      "published": 1
+    },
+    "angular": {
+      "total": 2,
+      "approved": 0,
+      "published": 0
+    },
+    "anthropology": {
+      "total": 2,
+      "approved": 2,
+      "published": 2
+    },
+    "antonyms": {
+      "total": 7,
+      "approved": 4,
+      "published": 4
+    },
+    "aptitude-tests": {
+      "total": 5,
+      "approved": 1,
+      "published": 1
+    },
+    "army": {
+      "total": 1,
+      "approved": 1,
+      "published": 1
+    }
+  }
+}

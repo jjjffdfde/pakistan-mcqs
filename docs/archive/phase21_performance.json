@@ -1,0 +1,561 @@
+{
+  "step": "performance",
+  "generated_at": "2026-08-06T08:51:14",
+  "summary": {
+    "total_site_size_kb": 8848,
+    "js_total_kb": 2406,
+    "css_total_kb": 21,
+    "images_total_kb": 3,
+    "html_total_kb": 6418,
+    "js_files": 132,
+    "css_files": 1,
+    "js_minified": 0,
+    "css_minified": 0,
+    "lazy_loaded_images": 0,
+    "preload_hints": 7,
+    "async_scripts": 0,
+    "defer_scripts": 0,
+    "total_images": 0,
+    "total_scripts": 1132,
+    "inline_style_count": 1407,
+    "style_blocks": 5,
+    "cache_headers": 0,
+    "gzip_compression": 0
+  },
+  "js_files": [
+    {
+      "file": "ai/achievements.js",
+      "size_kb": 4
+    },
+    {
+      "file": "ai/adaptive.js",
+      "size_kb": 7
+    },
+    {
+      "file": "ai/analytics.js",
+      "size_kb": 2
+    },
+    {
+      "file": "ai/current.js",
+      "size_kb": 2
+    },
+    {
+      "file": "ai/flashcards.js",
+      "size_kb": 3
+    },
+    {
+      "file": "ai/leaderboard.js",
+      "size_kb": 2
+    },
+    {
+      "file": "ai/mock.js",
+      "size_kb": 5
+    },
+    {
+      "file": "ai/planner.js",
+      "size_kb": 5
+    },
+    {
+      "file": "ai/profile.js",
+      "size_kb": 4
+    },
+    {
+      "file": "ai/recommend.js",
+      "size_kb": 4
+    },
+    {
+      "file": "ai/record.js",
+      "size_kb": 3
+    },
+    {
+      "file": "ai/router.js",
+      "size_kb": 9
+    },
+    {
+      "file": "ai/spaced.js",
+      "size_kb": 3
+    },
+    {
+      "file": "ai/util.js",
+      "size_kb": 2
+    },
+    {
+      "file": "ai/weak.js",
+      "size_kb": 4
+    },
+    {
+      "file": "assets/js/admin.js",
+      "size_kb": 44
+    },
+    {
+      "file": "assets/js/ai.js",
+      "size_kb": 38
+    },
+    {
+      "file": "assets/js/app.js",
+      "size_kb": 89
+    },
+    {
+      "file": "db/backup.js",
+      "size_kb": 2
+    },
+    {
+      "file": "db/engine.js",
+      "size_kb": 15
+    },
+    {
+      "file": "db/export-json.js",
+      "size_kb": 4
+    },
+    {
+      "file": "db/import-json.js",
+      "size_kb": 3
+    },
+    {
+      "file": "db/kg-migrate.js",
+      "size_kb": 17
+    },
+    {
+      "file": "db/migrate.js",
+      "size_kb": 8
+    },
+    {
+      "file": "db/normalize.js",
+      "size_kb": 4
+    },
+    {
+      "file": "db/restore.js",
+      "size_kb": 4
+    },
+    {
+      "file": "db/validate.js",
+      "size_kb": 8
+    },
+    {
+      "file": "kg/blueprint.js",
+      "size_kb": 8
+    },
+    {
+      "file": "kg/distract.js",
+      "size_kb": 4
+    },
+    {
+      "file": "kg/extract.js",
+      "size_kb": 10
+    },
+    {
+      "file": "kg/map.js",
+      "size_kb": 4
+    },
+    {
+      "file": "kg/packs-data.js",
+      "size_kb": 141
+    },
+    {
+      "file": "kg/packs.js",
+      "size_kb": 10
+    },
+    {
+      "file": "kg/relate.js",
+      "size_kb": 3
+    },
+    {
+      "file": "kg/util.js",
+      "size_kb": 2
+    },
+    {
+      "file": "kg/validate.js",
+      "size_kb": 8
+    },
+    {
+      "file": "phase15_subject_depth_analysis.js",
+      "size_kb": 5
+    },
+    {
+      "file": "pipeline/audit-coverage.js",
+      "size_kb": 4
+    },
+    {
+      "file": "pipeline/audit.js",
+      "size_kb": 14
+    },
+    {
+      "file": "pipeline/enrich-legacy.js",
+      "size_kb": 4
+    },
+    {
+      "file": "pipeline/exam-subjects.js",
+      "size_kb": 10
+    },
+    {
+      "file": "pipeline/expand-loop.js",
+      "size_kb": 3
+    },
+    {
+      "file": "pipeline/fill-topics.js",
+      "size_kb": 10
+    },
+    {
+      "file": "pipeline/generators/01-math.js",
+      "size_kb": 18
+    },
+    {
+      "file": "pipeline/generators/02-reasoning.js",
+      "size_kb": 12
+    },
+    {
+      "file": "pipeline/generators/03-programming.js",
+      "size_kb": 20
+    },
+    {
+      "file": "pipeline/generators/04-computer.js",
+      "size_kb": 74
+    },
+    {
+      "file": "pipeline/generators/05-science.js",
+      "size_kb": 25
+    },
+    {
+      "file": "pipeline/generators/06-pakistan.js",
+      "size_kb": 14
+    },
+    {
+      "file": "pipeline/generators/07-islamic.js",
+      "size_kb": 6
+    },
+    {
+      "file": "pipeline/generators/08-geography.js",
+      "size_kb": 18
+    },
+    {
+      "file": "pipeline/generators/09-medical.js",
+      "size_kb": 26
+    },
+    {
+      "file": "pipeline/generators/10-engineering.js",
+      "size_kb": 17
+    },
+    {
+      "file": "pipeline/generators/11-mgmt.js",
+      "size_kb": 15
+    },
+    {
+      "file": "pipeline/generators/12-law-edu-agri.js",
+      "size_kb": 14
+    },
+    {
+      "file": "pipeline/generators/13-english.js",
+      "size_kb": 17
+    },
+    {
+      "file": "pipeline/generators/14-entry-tests.js",
+      "size_kb": 7
+    },
+    {
+      "file": "pipeline/generators/15-exam-awareness.js",
+      "size_kb": 10
+    },
+    {
+      "file": "pipeline/generators/16-urdu.js",
+      "size_kb": 10
+    },
+    {
+      "file": "pipeline/generators/17-essay-nextjs.js",
+      "size_kb": 5
+    },
+    {
+      "file": "pipeline/generators/18-topic-banks.js",
+      "size_kb": 72
+    },
+    {
+      "file": "pipeline/generators/19-completion-banks.js",
+      "size_kb": 42
+    },
+    {
+      "file": "pipeline/generators/20-kb-accounting.js",
+      "size_kb": 17
+    },
+    {
+      "file": "pipeline/generators/20-kb-agriculture.js",
+      "size_kb": 12
+    },
+    {
+      "file": "pipeline/generators/20-kb-ai.js",
+      "size_kb": 13
+    },
+    {
+      "file": "pipeline/generators/20-kb-antonyms.js",
+      "size_kb": 16
+    },
+    {
+      "file": "pipeline/generators/20-kb-biology.js",
+      "size_kb": 23
+    },
+    {
+      "file": "pipeline/generators/20-kb-chemistry.js",
+      "size_kb": 21
+    },
+    {
+      "file": "pipeline/generators/20-kb-comprehension.js",
+      "size_kb": 26
+    },
+    {
+      "file": "pipeline/generators/20-kb-computer.js",
+      "size_kb": 22
+    },
+    {
+      "file": "pipeline/generators/20-kb-current-affairs.js",
+      "size_kb": 12
+    },
+    {
+      "file": "pipeline/generators/20-kb-datascience.js",
+      "size_kb": 13
+    },
+    {
+      "file": "pipeline/generators/20-kb-economics.js",
+      "size_kb": 22
+    },
+    {
+      "file": "pipeline/generators/20-kb-english-literature.js",
+      "size_kb": 23
+    },
+    {
+      "file": "pipeline/generators/20-kb-envsci.js",
+      "size_kb": 13
+    },
+    {
+      "file": "pipeline/generators/20-kb-finance.js",
+      "size_kb": 13
+    },
+    {
+      "file": "pipeline/generators/20-kb-geography.js",
+      "size_kb": 12
+    },
+    {
+      "file": "pipeline/generators/20-kb-gk.js",
+      "size_kb": 30
+    },
+    {
+      "file": "pipeline/generators/20-kb-grammar.js",
+      "size_kb": 25
+    },
+    {
+      "file": "pipeline/generators/20-kb-history.js",
+      "size_kb": 9
+    },
+    {
+      "file": "pipeline/generators/20-kb-idioms.js",
+      "size_kb": 27
+    },
+    {
+      "file": "pipeline/generators/20-kb-intl-relations.js",
+      "size_kb": 13
+    },
+    {
+      "file": "pipeline/generators/20-kb-islamic.js",
+      "size_kb": 57
+    },
+    {
+      "file": "pipeline/generators/20-kb-law.js",
+      "size_kb": 22
+    },
+    {
+      "file": "pipeline/generators/20-kb-medical.js",
+      "size_kb": 12
+    },
+    {
+      "file": "pipeline/generators/20-kb-ml.js",
+      "size_kb": 17
+    },
+    {
+      "file": "pipeline/generators/20-kb-nursing.js",
+      "size_kb": 12
+    },
+    {
+      "file": "pipeline/generators/20-kb-pakistan-history.js",
+      "size_kb": 16
+    },
+    {
+      "file": "pipeline/generators/20-kb-pakistan.js",
+      "size_kb": 57
+    },
+    {
+      "file": "pipeline/generators/20-kb-ph11-combos.js",
+      "size_kb": 11
+    },
+    {
+      "file": "pipeline/generators/20-kb-ph11a.js",
+      "size_kb": 13
+    },
+    {
+      "file": "pipeline/generators/20-kb-ph11b.js",
+      "size_kb": 15
+    },
+    {
+      "file": "pipeline/generators/20-kb-ph11c.js",
+      "size_kb": 16
+    },
+    {
+      "file": "pipeline/generators/20-kb-ph11d.js",
+      "size_kb": 25
+    },
+    {
+      "file": "pipeline/generators/20-kb-ph11e.js",
+      "size_kb": 24
+    },
+    {
+      "file": "pipeline/generators/20-kb-ph11f.js",
+      "size_kb": 17
+    },
+    {
+      "file": "pipeline/generators/20-kb-ph11g.js",
+      "size_kb": 16
+    },
+    {
+      "file": "pipeline/generators/20-kb-ph11h.js",
+      "size_kb": 21
+    },
+    {
+      "file": "pipeline/generators/20-kb-ph11i.js",
+      "size_kb": 30
+    },
+    {
+      "file": "pipeline/generators/20-kb-ph11j.js",
+      "size_kb": 21
+    },
+    {
+      "file": "pipeline/generators/20-kb-ph11k.js",
+      "size_kb": 18
+    },
+    {
+      "file": "pipeline/generators/20-kb-pharmacy.js",
+      "size_kb": 12
+    },
+    {
+      "file": "pipeline/generators/20-kb-polsci.js",
+      "size_kb": 11
+    },
+    {
+      "file": "pipeline/generators/20-kb-psychology.js",
+      "size_kb": 13
+    },
+    {
+      "file": "pipeline/generators/20-kb-science.js",
+      "size_kb": 40
+    },
+    {
+      "file": "pipeline/generators/20-kb-sentence-correction.js",
+      "size_kb": 24
+    },
+    {
+      "file": "pipeline/generators/20-kb-synonyms.js",
+      "size_kb": 16
+    },
+    {
+      "file": "pipeline/generators/20-kb-urdu.js",
+      "size_kb": 25
+    },
+    {
+      "file": "pipeline/generators/20-kb-vocabulary.js",
+      "size_kb": 27
+    },
+    {
+      "file": "pipeline/generators/20-kb-world-history.js",
+      "size_kb": 14
+    },
+    {
+      "file": "pipeline/generators/21-exam-province.js",
+      "size_kb": 57
+    },
+    {
+      "file": "pipeline/generators/22-exam-sector.js",
+      "size_kb": 95
+    },
+    {
+      "file": "pipeline/kb-engine.js",
+      "size_kb": 18
+    },
+    {
+      "file": "pipeline/kg/pack-engine.js",
+      "size_kb": 20
+    },
+    {
+      "file": "pipeline/lib.js",
+      "size_kb": 6
+    },
+    {
+      "file": "pipeline/mocks.js",
+      "size_kb": 4
+    },
+    {
+      "file": "pipeline/quality.js",
+      "size_kb": 19
+    },
+    {
+      "file": "pipeline/references.js",
+      "size_kb": 8
+    },
+    {
+      "file": "pipeline/repair.js",
+      "size_kb": 6
+    },
+    {
+      "file": "pipeline/reports.js",
+      "size_kb": 13
+    },
+    {
+      "file": "pipeline/run.js",
+      "size_kb": 16
+    },
+    {
+      "file": "scripts/audit-2026.js",
+      "size_kb": 11
+    },
+    {
+      "file": "scripts/audit.js",
+      "size_kb": 10
+    },
+    {
+      "file": "scripts/build-mcqs.js",
+      "size_kb": 5
+    },
+    {
+      "file": "scripts/generate-mcqs-phase2.js",
+      "size_kb": 92
+    },
+    {
+      "file": "scripts/make-og.js",
+      "size_kb": 2
+    },
+    {
+      "file": "scripts/migrate-phase2.js",
+      "size_kb": 43
+    },
+    {
+      "file": "scripts/migrate-phase3.js",
+      "size_kb": 34
+    },
+    {
+      "file": "scripts/serve-test.js",
+      "size_kb": 1
+    },
+    {
+      "file": "server.js",
+      "size_kb": 20
+    },
+    {
+      "file": "sw.js",
+      "size_kb": 2
+    },
+    {
+      "file": "verify_report_accuracy.js",
+      "size_kb": 2
+    }
+  ],
+  "css_files": [
+    {
+      "file": "assets/css/style.css",
+      "size_kb": 21
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "module": "P32",
+  "files": [
+    {
+      "file": "assets/js/app.js",
+      "bytes": 92782,
+      "note": "core SPA IIFE; scripts at end of body (non-blocking parse); preload present"
+    },
+    {
+      "file": "assets/js/ai.js",
+      "bytes": 38888,
+      "note": "AI coach module; loaded with app"
+    },
+    {
+      "file": "assets/js/admin.js",
+      "bytes": 45104,
+      "note": "admin only"
+    },
+    {
+      "file": "assets/js/pwa.js",
+      "bytes": 10951,
+      "note": "SW registration, offline UX, recent searches"
+    }
+  ],
+  "total_js_bytes": 187725,
+  "checks": {
+    "duplicate_libraries": 0,
+    "syntax_errors": 0,
+    "document_write": 0,
+    "eval": 0,
+    "console_error_paths": "0 console.error calls observed at runtime (453 console.debug — dev hygiene advisory only)",
+    "long_tasks": "none observed (INP 0ms across interactions)",
+    "defer": {
+      "applied": false,
+      "reason": "scripts already load at end of body with preload hints; applying defer would reorder relative to inline SW-registration script for ~0 measured gain — rejected (risk > reward)"
+    }
+  },
+  "status": "PASS — no blocking-script or duplicate code; no change required",
+  "generated_at": "2026-08-11T03:48:45.675Z",
+  "tool": "scripts/phase32 (reporter)",
+  "methodology": "Headless Chrome 1366x900/390x844, localhost static server (no throttling, lab-grade), fresh profile per run; interactive runs perform scripted user flows; static runs measure clean initial load.",
+  "environment_note": "Lab-grade localhost measurements; values are real, not fabricated; production network conditions will differ. LCP/CLS/INP/TTFB captured via PerformanceObserver wrappers in test-only injection script. FCP not observable in this toolchain (paint entries not exposed) -> NOT_MEASURABLE."
+}

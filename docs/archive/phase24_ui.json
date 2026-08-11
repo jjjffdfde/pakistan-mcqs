@@ -1,0 +1,24 @@
+{
+  "step": "ui",
+  "generated_at": "2026-08-10T16:56:04",
+  "summary": {
+    "css_variables_defined": 28,
+    "dark_theme_support": true,
+    "smooth_scrolling": true,
+    "focus_visible_style": true,
+    "radius_tokens": 9,
+    "font_stack_token": true,
+    "shadow_tokens": true,
+    "gradient_usage": true,
+    "transition_rules": 5,
+    "media_queries": 3,
+    "print_media_query": true,
+    "reduced_motion": false,
+    "modal_component": true,
+    "card_component": true,
+    "grid_layout": true,
+    "toast_component": true,
+    "skip_link": true,
+    "dark_toggle_icon": true
+  }
+}

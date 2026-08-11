@@ -1,0 +1,2444 @@
+{
+  "step": "distractor_selection",
+  "generated_at": "2026-08-05T12:30:06",
+  "summary": {
+    "total_blueprint_selections": 107,
+    "distractor_selections": 74,
+    "avg_distractors_per_pool": 32.42,
+    "avg_selection_score": 0.51
+  },
+  "selections": [
+    {
+      "concept_id": 15190,
+      "concept_name": "accounting",
+      "subject_id": "accounting",
+      "blueprint_id": 8916,
+      "distractor_pool_id": 9634,
+      "pool_category": "accounting-accounting-0",
+      "pool_description": "Real wrong options from corpus MCQs tagged accounting-accounting-0",
+      "available_distractors": 41,
+      "selected_distractors": [
+        {
+          "distractor_id": 3154626,
+          "value": "a larger credit",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3154627,
+          "value": "no corresponding entry",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3154628,
+          "value": "a receipt",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3154629,
+          "value": "Rs 140,000",
+          "rank_score": 0.6
+        }
+      ],
+      "selection_score": 0.6
+    },
+    {
+      "concept_id": 15191,
+      "concept_name": "depreciation",
+      "subject_id": "accounting",
+      "blueprint_id": 8915,
+      "distractor_pool_id": 9521,
+      "pool_category": "accounting-depreciation-0",
+      "pool_description": "Real wrong options from corpus MCQs tagged accounting-depreciation-0",
+      "available_distractors": 42,
+      "selected_distractors": [
+        {
+          "distractor_id": 3153562,
+          "value": "Increase in asset value over time",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3153563,
+          "value": "Loss of cash from operations",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3153564,
+          "value": "Market value of an asset",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3180404,
+          "value": "Rs 649,174",
+          "rank_score": 0.6
+        }
+      ],
+      "selection_score": 0.6
+    },
+    {
+      "concept_id": 15192,
+      "concept_name": "deep-kb",
+      "subject_id": "accounting",
+      "blueprint_id": 8918,
+      "distractor_pool_id": 10409,
+      "pool_category": "accounting-deep-kb-0",
+      "pool_description": "Real wrong options from corpus MCQs tagged accounting-deep-kb-0",
+      "available_distractors": 42,
+      "selected_distractors": [
+        {
+          "distractor_id": 3180278,
+          "value": "Rs 565,540",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3180279,
+          "value": "Rs 613,976",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3180280,
+          "value": "Rs 1,157,307",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3180281,
+          "value": "Rs 353,053",
+          "rank_score": 0.6
+        }
+      ],
+      "selection_score": 0.6
+    },
+    {
+      "concept_id": 15193,
+      "concept_name": "ratios",
+      "subject_id": "accounting",
+      "blueprint_id": 8919,
+      "distractor_pool_id": 10410,
+      "pool_category": "accounting-ratios-0",
+      "pool_description": "Real wrong options from corpus MCQs tagged accounting-ratios-0",
+      "available_distractors": 42,
+      "selected_distractors": [
+        {
+          "distractor_id": 3180320,
+          "value": "Rs 3,557,680",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3180321,
+          "value": "Rs 2,208,706",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3180322,
+          "value": "Rs 1,999,663",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3180323,
+          "value": "Rs 1,575,036",
+          "rank_score": 0.6
+        }
+      ],
+      "selection_score": 0.6
+    },
+    {
+      "concept_id": 15194,
+      "concept_name": "financial-statements",
+      "subject_id": "accounting",
+      "blueprint_id": 8920,
+      "distractor_pool_id": 10411,
+      "pool_category": "accounting-financial-statements-0",
+      "pool_description": "Real wrong options from corpus MCQs tagged accounting-financial-statements-0",
+      "available_distractors": 42,
+      "selected_distractors": [
+        {
+          "distractor_id": 3180362,
+          "value": "Rs 1,163,471",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3180363,
+          "value": "Rs 3,612,983",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3180364,
+          "value": "Rs 2,156,576",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3180365,
+          "value": "Rs 373,827",
+          "rank_score": 0.6
+        }
+      ],
+      "selection_score": 0.6
+    },
+    {
+      "concept_id": 15195,
+      "concept_name": "financial statements",
+      "subject_id": "accounting",
+      "blueprint_id": 8914,
+      "distractor_pool_id": 9520,
+      "pool_category": "accounting-financial-statements-1",
+      "pool_description": "Real wrong options from corpus MCQs tagged accounting-financial-statements-1",
+      "available_distractors": 42,
+      "selected_distractors": [
+        {
+          "distractor_id": 3153556,
+          "value": "Sales revenue",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3153557,
+          "value": "Rent expense",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3153558,
+          "value": "Service income",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3153559,
+          "value": "Net profit",
+          "rank_score": 0.6
+        }
+      ],
+      "selection_score": 0.6
+    },
+    {
+      "concept_id": 15196,
+      "concept_name": "Accounting Principles",
+      "subject_id": "accounting",
+      "blueprint_id": 8921,
+      "distractor_pool_id": 10412,
+      "pool_category": "accounting-accounting-principles-0",
+      "pool_description": "Real wrong options from corpus MCQs tagged accounting-accounting-principles-0",
+      "available_distractors": 41,
+      "selected_distractors": [
+        {
+          "distractor_id": 3180443,
+          "value": "Record assets at their original purchase cost",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3180444,
+          "value": "The business is separate from its owners",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3180445,
+          "value": "Do not overstate assets or income",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3180446,
+          "value": "Assume the business will continue indefinitely",
+          "rank_score": 0.6
+        }
+      ],
+      "selection_score": 0.522
+    },
+    {
+      "concept_id": 15197,
+      "concept_name": "basics",
+      "subject_id": "accounting",
+      "blueprint_id": 8913,
+      "distractor_pool_id": 9519,
+      "pool_category": "accounting-basics-0",
+      "pool_description": "Real wrong options from corpus MCQs tagged accounting-basics-0",
+      "available_distractors": 9,
+      "selected_distractors": [
+        {
+          "distractor_id": 3153550,
+          "value": "Assets = Liabilities - Owner's Equity",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3153551,
+          "value": "Assets + Liabilities = Owner's Equity",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3153552,
+          "value": "Liabilities = Assets + Owner's Equity",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3153553,
+          "value": "One account",
+          "rank_score": 0.6
+        }
+      ],
+      "selection_score": 0.6
+    },
+    {
+      "concept_id": 15199,
+      "concept_name": "Agriculture",
+      "subject_id": "agriculture",
+      "blueprint_id": 8923,
+      "distractor_pool_id": 9778,
+      "pool_category": "agriculture-agriculture-0",
+      "pool_description": "Real wrong options from corpus MCQs tagged agriculture-agriculture-0",
+      "available_distractors": 42,
+      "selected_distractors": [
+        {
+          "distractor_id": 3157418,
+          "value": "a chemical controlling pests",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3157419,
+          "value": "supplying water to crops",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3157420,
+          "value": "alternating crops on land",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3157421,
+          "value": "a farm machine for field work",
+          "rank_score": 0.6
+        }
+      ],
+      "selection_score": 0.595
+    },
+    {
+      "concept_id": 15200,
+      "concept_name": "livestock",
+      "subject_id": "agriculture",
+      "blueprint_id": 8928,
+      "distractor_pool_id": 10455,
+      "pool_category": "agriculture-livestock-0",
+      "pool_description": "Real wrong options from corpus MCQs tagged agriculture-livestock-0",
+      "available_distractors": 42,
+      "selected_distractors": [
+        {
+          "distractor_id": 3183416,
+          "value": "1,793 kg/ha",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3183417,
+          "value": "0.28 kg/ha",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3183418,
+          "value": "7,172 kg/ha",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3183419,
+          "value": "1,751 kg/ha",
+          "rank_score": 0.6
+        }
+      ],
+      "selection_score": 0.6
+    },
+    {
+      "concept_id": 15201,
+      "concept_name": "soils",
+      "subject_id": "agriculture",
+      "blueprint_id": 8922,
+      "distractor_pool_id": 9530,
+      "pool_category": "agriculture-soils-0",
+      "pool_description": "Real wrong options from corpus MCQs tagged agriculture-soils-0",
+      "available_distractors": 42,
+      "selected_distractors": [
+        {
+          "distractor_id": 3153628,
+          "value": "Coffee",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3153629,
+          "value": "Rubber",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3183374,
+          "value": "1,980 kg/ha",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3183375,
+          "value": "7,918 kg/ha",
+          "rank_score": 0.6
+        }
+      ],
+      "selection_score": 0.595
+    },
+    {
+      "concept_id": 15202,
+      "concept_name": "deep-kb",
+      "subject_id": "agriculture",
+      "blueprint_id": 8926,
+      "distractor_pool_id": 10453,
+      "pool_category": "agriculture-deep-kb-0",
+      "pool_description": "Real wrong options from corpus MCQs tagged agriculture-deep-kb-0",
+      "available_distractors": 40,
+      "selected_distractors": [
+        {
+          "distractor_id": 3183284,
+          "value": "1,997 kg/ha",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3183285,
+          "value": "7,986 kg/ha",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3183286,
+          "value": "0.25 kg/ha",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3183287,
+          "value": "1,392 kg/ha",
+          "rank_score": 0.6
+        }
+      ],
+      "selection_score": 0.6
+    },
+    {
+      "concept_id": 15203,
+      "concept_name": "crops",
+      "subject_id": "agriculture",
+      "blueprint_id": 8927,
+      "distractor_pool_id": 10454,
+      "pool_category": "agriculture-crops-0",
+      "pool_description": "Real wrong options from corpus MCQs tagged agriculture-crops-0",
+      "available_distractors": 41,
+      "selected_distractors": [
+        {
+          "distractor_id": 3183329,
+          "value": "7,036 kg/ha",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3183330,
+          "value": "1,759 kg/ha",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3183331,
+          "value": "0.28 kg/ha",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3183332,
+          "value": "1,401 kg/ha",
+          "rank_score": 0.6
+        }
+      ],
+      "selection_score": 0.6
+    },
+    {
+      "concept_id": 15204,
+      "concept_name": "Soils and Agronomy",
+      "subject_id": "agriculture",
+      "blueprint_id": 8929,
+      "distractor_pool_id": 10456,
+      "pool_category": "agriculture-soils-and-agronomy-0",
+      "pool_description": "Real wrong options from corpus MCQs tagged agriculture-soils-and-agronomy-0",
+      "available_distractors": 41,
+      "selected_distractors": [
+        {
+          "distractor_id": 3183239,
+          "value": "0.27 kg/ha",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3183240,
+          "value": "1,869 kg/ha",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3183241,
+          "value": "7,476 kg/ha",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3183242,
+          "value": "947 kg/ha",
+          "rank_score": 0.6
+        }
+      ],
+      "selection_score": 0.6
+    },
+    {
+      "concept_id": 15207,
+      "concept_name": "ai",
+      "subject_id": "ai",
+      "blueprint_id": 8931,
+      "distractor_pool_id": 9548,
+      "pool_category": "artificial-intelligence-ai-0",
+      "pool_description": "Real wrong options from corpus MCQs tagged artificial-intelligence-ai-0",
+      "available_distractors": 41,
+      "selected_distractors": [
+        {
+          "distractor_id": 3153727,
+          "value": "Hard-coded if-else rules",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3153728,
+          "value": "Writing macros in spreadsheets",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3153729,
+          "value": "Manual data entry",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3182239,
+          "value": "177.3%",
+          "rank_score": 0.6
+        }
+      ],
+      "selection_score": 0.483
+    },
+    {
+      "concept_id": 15208,
+      "concept_name": "Artificial Intelligence",
+      "subject_id": "ai",
+      "blueprint_id": 8933,
+      "distractor_pool_id": 10099,
+      "pool_category": "artificial-intelligence-artificial-intelligence-0",
+      "pool_description": "Real wrong options from corpus MCQs tagged artificial-intelligence-artificial-intelligence-0",
+      "available_distractors": 41,
+      "selected_distractors": [
+        {
+          "distractor_id": 3164475,
+          "value": "a test of machine conversational intelligence",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3164476,
+          "value": "software that acts to achieve goals",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3164477,
+          "value": "computers understanding human language",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3164479,
+          "value": "machines performing tasks that need human intelligence",
+          "rank_score": 0.6
+        }
+      ],
+      "selection_score": 0.6
+    },
+    {
+      "concept_id": 15209,
+      "concept_name": "deep-kb",
+      "subject_id": "ai",
+      "blueprint_id": 8936,
+      "distractor_pool_id": 10435,
+      "pool_category": "artificial-intelligence-deep-kb-0",
+      "pool_description": "Real wrong options from corpus MCQs tagged artificial-intelligence-deep-kb-0",
+      "available_distractors": 40,
+      "selected_distractors": [
+        {
+          "distractor_id": 3182276,
+          "value": "100.0%",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3182277,
+          "value": "189.1%",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3182279,
+          "value": "195.9%",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3182283,
+          "value": "180.2%",
+          "rank_score": 0.6
+        }
+      ],
+      "selection_score": 0.475
+    },
+    {
+      "concept_id": 15210,
+      "concept_name": "machine-learning",
+      "subject_id": "ai",
+      "blueprint_id": 8937,
+      "distractor_pool_id": 10436,
+      "pool_category": "artificial-intelligence-machine-learning-0",
+      "pool_description": "Real wrong options from corpus MCQs tagged artificial-intelligence-machine-learning-0",
+      "available_distractors": 42,
+      "selected_distractors": [
+        {
+          "distractor_id": 3182323,
+          "value": "190.8%",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3182324,
+          "value": "177.8%",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3182328,
+          "value": "184.3%",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3182331,
+          "value": "180.0%",
+          "rank_score": 0.6
+        }
+      ],
+      "selection_score": 0.471
+    },
+    {
+      "concept_id": 15211,
+      "concept_name": "neural-networks",
+      "subject_id": "ai",
+      "blueprint_id": 8938,
+      "distractor_pool_id": 10437,
+      "pool_category": "artificial-intelligence-neural-networks-0",
+      "pool_description": "Real wrong options from corpus MCQs tagged artificial-intelligence-neural-networks-0",
+      "available_distractors": 41,
+      "selected_distractors": [
+        {
+          "distractor_id": 3182363,
+          "value": "195.8%",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3182365,
+          "value": "100.0%",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3182366,
+          "value": "164.8%",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3182370,
+          "value": "180.1%",
+          "rank_score": 0.6
+        }
+      ],
+      "selection_score": 0.483
+    },
+    {
+      "concept_id": 15212,
+      "concept_name": "metrics",
+      "subject_id": "ai",
+      "blueprint_id": 8939,
+      "distractor_pool_id": 10438,
+      "pool_category": "artificial-intelligence-metrics-0",
+      "pool_description": "Real wrong options from corpus MCQs tagged artificial-intelligence-metrics-0",
+      "available_distractors": 41,
+      "selected_distractors": [
+        {
+          "distractor_id": 3182410,
+          "value": "192.2%",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3182411,
+          "value": "179.6%",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3182414,
+          "value": "166.8%",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3182419,
+          "value": "177.6%",
+          "rank_score": 0.6
+        }
+      ],
+      "selection_score": 0.468
+    },
+    {
+      "concept_id": 15213,
+      "concept_name": "Machine Learning Models",
+      "subject_id": "ai",
+      "blueprint_id": 8940,
+      "distractor_pool_id": 10439,
+      "pool_category": "artificial-intelligence-machine-learning-models-0",
+      "pool_description": "Real wrong options from corpus MCQs tagged artificial-intelligence-machine-learning-models-0",
+      "available_distractors": 42,
+      "selected_distractors": [
+        {
+          "distractor_id": 3182192,
+          "value": "The data used to fit the model",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3182193,
+          "value": "Random forest",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3182194,
+          "value": "Logistic regression",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3182195,
+          "value": "The model is too simple to capture the pattern",
+          "rank_score": 0.6
+        }
+      ],
+      "selection_score": 0.5
+    },
+    {
+      "concept_id": 15214,
+      "concept_name": "ai basics",
+      "subject_id": "ai",
+      "blueprint_id": 8930,
+      "distractor_pool_id": 9547,
+      "pool_category": "artificial-intelligence-ai-basics-0",
+      "pool_description": "Real wrong options from corpus MCQs tagged artificial-intelligence-ai-basics-0",
+      "available_distractors": 3,
+      "selected_distractors": [
+        {
+          "distractor_id": 3153724,
+          "value": "Loebner Test",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3153725,
+          "value": "Captcha Test",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3153726,
+          "value": "IQ Test",
+          "rank_score": 0.6
+        }
+      ],
+      "selection_score": 0.6
+    },
+    {
+      "concept_id": 15215,
+      "concept_name": "ai applications",
+      "subject_id": "ai",
+      "blueprint_id": 8932,
+      "distractor_pool_id": 9549,
+      "pool_category": "artificial-intelligence-ai-applications-0",
+      "pool_description": "Real wrong options from corpus MCQs tagged artificial-intelligence-ai-applications-0",
+      "available_distractors": 19,
+      "selected_distractors": [
+        {
+          "distractor_id": 3153730,
+          "value": "Computer vision",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3153731,
+          "value": "Robotics",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3153732,
+          "value": "Data mining",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3182450,
+          "value": "Converting spoken words into text",
+          "rank_score": 0.6
+        }
+      ],
+      "selection_score": 0.6
+    },
+    {
+      "concept_id": 15218,
+      "concept_name": "AJKPSC (Azad Kashmir Public Service Commission)",
+      "subject_id": "ajkpsc",
+      "blueprint_id": 8941,
+      "distractor_pool_id": 10030,
+      "pool_category": "ajkpsc-azad-kashmir-public-service-commission--ajkpsc-azad-kashmir-public-service-commission-0",
+      "pool_description": "Real wrong options from corpus MCQs tagged ajkpsc-azad-kashmir-public-service-commission--ajkpsc-azad-kashmir-public-service-commission-0",
+      "available_distractors": 40,
+      "selected_distractors": [
+        {
+          "distractor_id": 3162969,
+          "value": "academic and intelligence tests",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3162970,
+          "value": "AJKPSC recruits AJK government officers",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3162971,
+          "value": "Pakistan Testing Service recruitment tests",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3162972,
+          "value": "Azad Kashmir Public Service Commission exams",
+          "rank_score": 0.6
+        }
+      ],
+      "selection_score": 0.555
+    },
+    {
+      "concept_id": 15222,
+      "concept_name": "AJK History and Politics",
+      "subject_id": "ajkpsc",
+      "blueprint_id": 8947,
+      "distractor_pool_id": 10571,
+      "pool_category": "ajkpsc-azad-kashmir-public-service-commission--ajk-history-and-politics-0",
+      "pool_description": "Real wrong options from corpus MCQs tagged ajkpsc-azad-kashmir-public-service-commission--ajk-history-and-politics-0",
+      "available_distractors": 20,
+      "selected_distractors": [
+        {
+          "distractor_id": 3291754,
+          "value": "Sardar Muhammad Ibrahim Khan",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3291756,
+          "value": "Pir Panjal",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3291757,
+          "value": "Kashmiri",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3291761,
+          "value": "Coniferous forest",
+          "rank_score": 0.6
+        }
+      ],
+      "selection_score": 0.55
+    },
+    {
+      "concept_id": 15223,
+      "concept_name": "AJK Culture and Economy",
+      "subject_id": "ajkpsc",
+      "blueprint_id": 8948,
+      "distractor_pool_id": 10572,
+      "pool_category": "ajkpsc-azad-kashmir-public-service-commission--ajk-culture-and-economy-0",
+      "pool_description": "Real wrong options from corpus MCQs tagged ajkpsc-azad-kashmir-public-service-commission--ajk-culture-and-economy-0",
+      "available_distractors": 22,
+      "selected_distractors": [
+        {
+          "distractor_id": 3291781,
+          "value": "Toli Pir",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3291782,
+          "value": "The First Kashmir War",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3291783,
+          "value": "Patti (woven shawls)",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3291786,
+          "value": "Pir Panjal",
+          "rank_score": 0.6
+        }
+      ],
+      "selection_score": 0.564
+    },
+    {
+      "concept_id": 15226,
+      "concept_name": "Algorithms",
+      "subject_id": "algorithms",
+      "blueprint_id": 8949,
+      "distractor_pool_id": 10706,
+      "pool_category": "algorithms-algorithms-0",
+      "pool_description": "Real wrong options from corpus MCQs tagged algorithms-algorithms-0",
+      "available_distractors": 41,
+      "selected_distractors": [
+        {
+          "distractor_id": 3293798,
+          "value": "It makes the locally optimal choice at each step",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3293800,
+          "value": "A structure mapping keys to values via a hash function",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3293802,
+          "value": "An upper bound on time complexity",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3293803,
+          "value": "Breadth-first search explores level by level",
+          "rank_score": 0.6
+        }
+      ],
+      "selection_score": 0.517
+    },
+    {
+      "concept_id": 15227,
+      "concept_name": "Complexity and Sorting",
+      "subject_id": "algorithms",
+      "blueprint_id": 8950,
+      "distractor_pool_id": 10707,
+      "pool_category": "algorithms-complexity-and-sorting-0",
+      "pool_description": "Real wrong options from corpus MCQs tagged algorithms-complexity-and-sorting-0",
+      "available_distractors": 40,
+      "selected_distractors": [
+        {
+          "distractor_id": 3300633,
+          "value": "30911",
+          "rank_score": 0.4
+        },
+        {
+          "distractor_id": 3300634,
+          "value": "32",
+          "rank_score": 0.4
+        },
+        {
+          "distractor_id": 3300635,
+          "value": "61822",
+          "rank_score": 0.4
+        },
+        {
+          "distractor_id": 3300636,
+          "value": "56251",
+          "rank_score": 0.4
+        }
+      ],
+      "selection_score": 0.4
+    },
+    {
+      "concept_id": 15228,
+      "concept_name": "deep-kb",
+      "subject_id": "algorithms",
+      "blueprint_id": 8951,
+      "distractor_pool_id": 10708,
+      "pool_category": "algorithms-deep-kb-0",
+      "pool_description": "Real wrong options from corpus MCQs tagged algorithms-deep-kb-0",
+      "available_distractors": 41,
+      "selected_distractors": [
+        {
+          "distractor_id": 3300687,
+          "value": "26",
+          "rank_score": 0.4
+        },
+        {
+          "distractor_id": 3300688,
+          "value": "3055",
+          "rank_score": 0.4
+        },
+        {
+          "distractor_id": 3300689,
+          "value": "6110",
+          "rank_score": 0.4
+        },
+        {
+          "distractor_id": 3300690,
+          "value": "14536",
+          "rank_score": 0.4
+        }
+      ],
+      "selection_score": 0.4
+    },
+    {
+      "concept_id": 15229,
+      "concept_name": "Analytical Reasoning",
+      "subject_id": "analytical-reasoning",
+      "blueprint_id": 8952,
+      "distractor_pool_id": 9833,
+      "pool_category": "analytical-reasoning-analytical-reasoning-0",
+      "pool_description": "Real wrong options from corpus MCQs tagged analytical-reasoning-analytical-reasoning-0",
+      "available_distractors": 40,
+      "selected_distractors": [
+        {
+          "distractor_id": 3158186,
+          "value": "herbarium",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3158188,
+          "value": "provisions",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3158189,
+          "value": "jewellery",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3158190,
+          "value": "airplane",
+          "rank_score": 0.6
+        }
+      ],
+      "selection_score": 0.5
+    },
+    {
+      "concept_id": 15230,
+      "concept_name": "reasoning",
+      "subject_id": "analytical-reasoning",
+      "blueprint_id": 8954,
+      "distractor_pool_id": 9835,
+      "pool_category": "analytical-reasoning-reasoning-0",
+      "pool_description": "Real wrong options from corpus MCQs tagged analytical-reasoning-reasoning-0",
+      "available_distractors": 40,
+      "selected_distractors": [
+        {
+          "distractor_id": 3158357,
+          "value": "observatory",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3158360,
+          "value": "vehicle",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3158363,
+          "value": "language",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3158365,
+          "value": "courtroom",
+          "rank_score": 0.6
+        }
+      ],
+      "selection_score": 0.49
+    },
+    {
+      "concept_id": 15231,
+      "concept_name": "Ranking and Positioning",
+      "subject_id": "analytical-reasoning",
+      "blueprint_id": 8957,
+      "distractor_pool_id": 9838,
+      "pool_category": "analytical-reasoning-ranking-and-positioning-0",
+      "pool_description": "Real wrong options from corpus MCQs tagged analytical-reasoning-ranking-and-positioning-0",
+      "available_distractors": 40,
+      "selected_distractors": [
+        {
+          "distractor_id": 3158498,
+          "value": "16",
+          "rank_score": 0.4
+        },
+        {
+          "distractor_id": 3158499,
+          "value": "17",
+          "rank_score": 0.4
+        },
+        {
+          "distractor_id": 3158500,
+          "value": "11",
+          "rank_score": 0.4
+        },
+        {
+          "distractor_id": 3158501,
+          "value": "40",
+          "rank_score": 0.4
+        }
+      ],
+      "selection_score": 0.4
+    },
+    {
+      "concept_id": 15232,
+      "concept_name": "Analogies",
+      "subject_id": "analytical-reasoning",
+      "blueprint_id": 8953,
+      "distractor_pool_id": 9834,
+      "pool_category": "analytical-reasoning-analogies-0",
+      "pool_description": "Real wrong options from corpus MCQs tagged analytical-reasoning-analogies-0",
+      "available_distractors": 40,
+      "selected_distractors": [
+        {
+          "distractor_id": 3158270,
+          "value": "language",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3158271,
+          "value": "canvas",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3158272,
+          "value": "excavation",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3158273,
+          "value": "jewellery",
+          "rank_score": 0.6
+        }
+      ],
+      "selection_score": 0.49
+    },
+    {
+      "concept_id": 15233,
+      "concept_name": "Direction Sense",
+      "subject_id": "analytical-reasoning",
+      "blueprint_id": 8956,
+      "distractor_pool_id": 9837,
+      "pool_category": "analytical-reasoning-direction-sense-0",
+      "pool_description": "Real wrong options from corpus MCQs tagged analytical-reasoning-direction-sense-0",
+      "available_distractors": 4,
+      "selected_distractors": [
+        {
+          "distractor_id": 3158474,
+          "value": "North",
+          "rank_score": 0.4
+        },
+        {
+          "distractor_id": 3158475,
+          "value": "West",
+          "rank_score": 0.4
+        },
+        {
+          "distractor_id": 3158476,
+          "value": "East",
+          "rank_score": 0.4
+        },
+        {
+          "distractor_id": 3158479,
+          "value": "South",
+          "rank_score": 0.4
+        }
+      ],
+      "selection_score": 0.4
+    },
+    {
+      "concept_id": 15234,
+      "concept_name": "Blood Relations",
+      "subject_id": "analytical-reasoning",
+      "blueprint_id": 8955,
+      "distractor_pool_id": 9836,
+      "pool_category": "analytical-reasoning-blood-relations-0",
+      "pool_description": "Real wrong options from corpus MCQs tagged analytical-reasoning-blood-relations-0",
+      "available_distractors": 12,
+      "selected_distractors": [
+        {
+          "distractor_id": 3158438,
+          "value": "cousin",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3158439,
+          "value": "grandfather",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3158440,
+          "value": "father-in-law",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3158442,
+          "value": "mother-in-law",
+          "rank_score": 0.6
+        }
+      ],
+      "selection_score": 0.55
+    },
+    {
+      "concept_id": 15235,
+      "concept_name": "Number Coding",
+      "subject_id": "analytical-reasoning",
+      "blueprint_id": 8958,
+      "distractor_pool_id": 10206,
+      "pool_category": "analytical-reasoning-number-coding-0",
+      "pool_description": "Real wrong options from corpus MCQs tagged analytical-reasoning-number-coding-0",
+      "available_distractors": 6,
+      "selected_distractors": [
+        {
+          "distractor_id": 3168703,
+          "value": "Thursday",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3168693,
+          "value": "7-15",
+          "rank_score": 0.4
+        },
+        {
+          "distractor_id": 3168694,
+          "value": "tvo",
+          "rank_score": 0.4
+        },
+        {
+          "distractor_id": 3168696,
+          "value": "26",
+          "rank_score": 0.4
+        }
+      ],
+      "selection_score": 0.433
+    },
+    {
+      "concept_id": 15237,
+      "concept_name": "Anatomy",
+      "subject_id": "anatomy",
+      "blueprint_id": 8961,
+      "distractor_pool_id": 10143,
+      "pool_category": "anatomy-anatomy-0",
+      "pool_description": "Real wrong options from corpus MCQs tagged anatomy-anatomy-0",
+      "available_distractors": 41,
+      "selected_distractors": [
+        {
+          "distractor_id": 3165028,
+          "value": "Cardiac muscle",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3165030,
+          "value": "Semicircular canals",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3165031,
+          "value": "Pituitary",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3165032,
+          "value": "Ligaments",
+          "rank_score": 0.6
+        }
+      ],
+      "selection_score": 0.576
+    },
+    {
+      "concept_id": 15238,
+      "concept_name": "deep-kb",
+      "subject_id": "anatomy",
+      "blueprint_id": 8964,
+      "distractor_pool_id": 10881,
+      "pool_category": "anatomy-deep-kb-0",
+      "pool_description": "Real wrong options from corpus MCQs tagged anatomy-deep-kb-0",
+      "available_distractors": 20,
+      "selected_distractors": [
+        {
+          "distractor_id": 3627040,
+          "value": "44 bones",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3627041,
+          "value": "200 bones",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3627042,
+          "value": "40 bones",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3627043,
+          "value": "300 bones",
+          "rank_score": 0.6
+        }
+      ],
+      "selection_score": 0.6
+    },
+    {
+      "concept_id": 15240,
+      "concept_name": "Spelling and Letter Building",
+      "subject_id": "anatomy",
+      "blueprint_id": 8969,
+      "distractor_pool_id": 11090,
+      "pool_category": "anatomy-spelling-and-letter-building-0",
+      "pool_description": "Real wrong options from corpus MCQs tagged anatomy-spelling-and-letter-building-0",
+      "available_distractors": 18,
+      "selected_distractors": [
+        {
+          "distractor_id": 3332550,
+          "value": "16",
+          "rank_score": 0.4
+        },
+        {
+          "distractor_id": 3332551,
+          "value": "14",
+          "rank_score": 0.4
+        },
+        {
+          "distractor_id": 3332552,
+          "value": "15",
+          "rank_score": 0.4
+        },
+        {
+          "distractor_id": 3332553,
+          "value": "17",
+          "rank_score": 0.4
+        }
+      ],
+      "selection_score": 0.4
+    },
+    {
+      "concept_id": 15241,
+      "concept_name": "Letter Positions",
+      "subject_id": "anatomy",
+      "blueprint_id": 8971,
+      "distractor_pool_id": 11092,
+      "pool_category": "anatomy-letter-positions-0",
+      "pool_description": "Real wrong options from corpus MCQs tagged anatomy-letter-positions-0",
+      "available_distractors": 17,
+      "selected_distractors": [
+        {
+          "distractor_id": 3332980,
+          "value": "17",
+          "rank_score": 0.4
+        },
+        {
+          "distractor_id": 3332981,
+          "value": "15",
+          "rank_score": 0.4
+        },
+        {
+          "distractor_id": 3332982,
+          "value": "16",
+          "rank_score": 0.4
+        },
+        {
+          "distractor_id": 3332985,
+          "value": "14",
+          "rank_score": 0.4
+        }
+      ],
+      "selection_score": 0.4
+    },
+    {
+      "concept_id": 15242,
+      "concept_name": "skeleton",
+      "subject_id": "anatomy",
+      "blueprint_id": 8960,
+      "distractor_pool_id": 9559,
+      "pool_category": "anatomy-skeleton-0",
+      "pool_description": "Real wrong options from corpus MCQs tagged anatomy-skeleton-0",
+      "available_distractors": 3,
+      "selected_distractors": [
+        {
+          "distractor_id": 3153787,
+          "value": "200",
+          "rank_score": 0.4
+        },
+        {
+          "distractor_id": 3153788,
+          "value": "212",
+          "rank_score": 0.4
+        },
+        {
+          "distractor_id": 3153789,
+          "value": "300",
+          "rank_score": 0.4
+        }
+      ],
+      "selection_score": 0.4
+    },
+    {
+      "concept_id": 15245,
+      "concept_name": "Muscles and Joints",
+      "subject_id": "anatomy",
+      "blueprint_id": 8967,
+      "distractor_pool_id": 10884,
+      "pool_category": "anatomy-muscles-and-joints-0",
+      "pool_description": "Real wrong options from corpus MCQs tagged anatomy-muscles-and-joints-0",
+      "available_distractors": 28,
+      "selected_distractors": [
+        {
+          "distractor_id": 3298477,
+          "value": "Trapezius",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3298478,
+          "value": "Gluteus maximus",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3298479,
+          "value": "Iliopsoas",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3298482,
+          "value": "Erector spinae",
+          "rank_score": 0.6
+        }
+      ],
+      "selection_score": 0.6
+    },
+    {
+      "concept_id": 15246,
+      "concept_name": "Bones and Skeleton",
+      "subject_id": "anatomy",
+      "blueprint_id": 8963,
+      "distractor_pool_id": 10880,
+      "pool_category": "anatomy-bones-and-skeleton-0",
+      "pool_description": "Real wrong options from corpus MCQs tagged anatomy-bones-and-skeleton-0",
+      "available_distractors": 42,
+      "selected_distractors": [
+        {
+          "distractor_id": 3306935,
+          "value": "320 bones",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3306936,
+          "value": "64 bones",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3306937,
+          "value": "68 bones",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3306938,
+          "value": "52 bones",
+          "rank_score": 0.6
+        }
+      ],
+      "selection_score": 0.6
+    },
+    {
+      "concept_id": 15247,
+      "concept_name": "Nerves and Vessels",
+      "subject_id": "anatomy",
+      "blueprint_id": 8968,
+      "distractor_pool_id": 10885,
+      "pool_category": "anatomy-nerves-and-vessels-0",
+      "pool_description": "Real wrong options from corpus MCQs tagged anatomy-nerves-and-vessels-0",
+      "available_distractors": 29,
+      "selected_distractors": [
+        {
+          "distractor_id": 3298543,
+          "value": "CN VI (abducens)",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3298544,
+          "value": "CN IX (glossopharyngeal)",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3298545,
+          "value": "31 pairs",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3298547,
+          "value": "CN XI (accessory)",
+          "rank_score": 0.6
+        }
+      ],
+      "selection_score": 0.579
+    },
+    {
+      "concept_id": 15249,
+      "concept_name": "ANF (Anti-Narcotics Force)",
+      "subject_id": "anf",
+      "blueprint_id": 8972,
+      "distractor_pool_id": 9797,
+      "pool_category": "anf-anti-narcotics-force--anf-anti-narcotics-force-0",
+      "pool_description": "Real wrong options from corpus MCQs tagged anf-anti-narcotics-force--anf-anti-narcotics-force-0",
+      "available_distractors": 25,
+      "selected_distractors": [
+        {
+          "distractor_id": 3157562,
+          "value": "IB recruitment tests",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3157563,
+          "value": "PPSC recruits Punjab government officers",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3157564,
+          "value": "WAPDA recruits engineers and staff",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3157565,
+          "value": "academic and aptitude tests",
+          "rank_score": 0.6
+        }
+      ],
+      "selection_score": 0.576
+    },
+    {
+      "concept_id": 15255,
+      "concept_name": "angular",
+      "subject_id": "angular",
+      "blueprint_id": 8978,
+      "distractor_pool_id": 9602,
+      "pool_category": "angular-angular-0",
+      "pool_description": "Real wrong options from corpus MCQs tagged angular-angular-0",
+      "available_distractors": 40,
+      "selected_distractors": [
+        {
+          "distractor_id": 3154233,
+          "value": "@Directive only",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3154234,
+          "value": "@Module only",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3154235,
+          "value": "@Service",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3154236,
+          "value": "loops over arrays",
+          "rank_score": 0.6
+        }
+      ],
+      "selection_score": 0.53
+    },
+    {
+      "concept_id": 15258,
+      "concept_name": "Spelling and Letter Building",
+      "subject_id": "angular",
+      "blueprint_id": 8982,
+      "distractor_pool_id": 11166,
+      "pool_category": "angular-spelling-and-letter-building-0",
+      "pool_description": "Real wrong options from corpus MCQs tagged angular-spelling-and-letter-building-0",
+      "available_distractors": 18,
+      "selected_distractors": [
+        {
+          "distractor_id": 3346159,
+          "value": "14",
+          "rank_score": 0.4
+        },
+        {
+          "distractor_id": 3346160,
+          "value": "13",
+          "rank_score": 0.4
+        },
+        {
+          "distractor_id": 3346161,
+          "value": "12",
+          "rank_score": 0.4
+        },
+        {
+          "distractor_id": 3346162,
+          "value": "19",
+          "rank_score": 0.4
+        }
+      ],
+      "selection_score": 0.4
+    },
+    {
+      "concept_id": 15259,
+      "concept_name": "Letter Positions",
+      "subject_id": "angular",
+      "blueprint_id": 8985,
+      "distractor_pool_id": 11169,
+      "pool_category": "angular-letter-positions-0",
+      "pool_description": "Real wrong options from corpus MCQs tagged angular-letter-positions-0",
+      "available_distractors": 15,
+      "selected_distractors": [
+        {
+          "distractor_id": 3346503,
+          "value": "14",
+          "rank_score": 0.4
+        },
+        {
+          "distractor_id": 3346504,
+          "value": "15",
+          "rank_score": 0.4
+        },
+        {
+          "distractor_id": 3346505,
+          "value": "16",
+          "rank_score": 0.4
+        },
+        {
+          "distractor_id": 3346506,
+          "value": "22",
+          "rank_score": 0.4
+        }
+      ],
+      "selection_score": 0.4
+    },
+    {
+      "concept_id": 15263,
+      "concept_name": "Anthropology",
+      "subject_id": "anthropology",
+      "blueprint_id": 8987,
+      "distractor_pool_id": 9772,
+      "pool_category": "anthropology-anthropology-0",
+      "pool_description": "Real wrong options from corpus MCQs tagged anthropology-anthropology-0",
+      "available_distractors": 9,
+      "selected_distractors": [
+        {
+          "distractor_id": 3157376,
+          "value": "studying past societies through remains",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3157377,
+          "value": "a patterned symbolic act",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3157378,
+          "value": "learned shared behaviour",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3157379,
+          "value": "judging others by one's own culture",
+          "rank_score": 0.6
+        }
+      ],
+      "selection_score": 0.6
+    },
+    {
+      "concept_id": 15265,
+      "concept_name": "branches",
+      "subject_id": "anthropology",
+      "blueprint_id": 8986,
+      "distractor_pool_id": 9529,
+      "pool_category": "anthropology-branches-0",
+      "pool_description": "Real wrong options from corpus MCQs tagged anthropology-branches-0",
+      "available_distractors": 9,
+      "selected_distractors": [
+        {
+          "distractor_id": 3153619,
+          "value": "Cultural anthropology",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3153620,
+          "value": "Linguistic anthropology",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3153621,
+          "value": "Archaeology",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3153622,
+          "value": "Ethnography",
+          "rank_score": 0.6
+        }
+      ],
+      "selection_score": 0.6
+    },
+    {
+      "concept_id": 15266,
+      "concept_name": "Antonyms",
+      "subject_id": "antonyms",
+      "blueprint_id": 8990,
+      "distractor_pool_id": 9860,
+      "pool_category": "antonyms-antonyms-0",
+      "pool_description": "Real wrong options from corpus MCQs tagged antonyms-antonyms-0",
+      "available_distractors": 42,
+      "selected_distractors": [
+        {
+          "distractor_id": 3159763,
+          "value": "Contract",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3159767,
+          "value": "Export",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3159769,
+          "value": "Narrow",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3159770,
+          "value": "Descent",
+          "rank_score": 0.6
+        }
+      ],
+      "selection_score": 0.543
+    },
+    {
+      "concept_id": 15267,
+      "concept_name": "deep-kb",
+      "subject_id": "antonyms",
+      "blueprint_id": 8994,
+      "distractor_pool_id": 10529,
+      "pool_category": "antonyms-deep-kb-0",
+      "pool_description": "Real wrong options from corpus MCQs tagged antonyms-deep-kb-0",
+      "available_distractors": 41,
+      "selected_distractors": [
+        {
+          "distractor_id": 3189456,
+          "value": "feeble",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3189457,
+          "value": "fragile",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3189459,
+          "value": "demolish",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3189460,
+          "value": "orderly",
+          "rank_score": 0.6
+        }
+      ],
+      "selection_score": 0.556
+    },
+    {
+      "concept_id": 15268,
+      "concept_name": "english",
+      "subject_id": "antonyms",
+      "blueprint_id": 8995,
+      "distractor_pool_id": 10530,
+      "pool_category": "antonyms-english-0",
+      "pool_description": "Real wrong options from corpus MCQs tagged antonyms-english-0",
+      "available_distractors": 41,
+      "selected_distractors": [
+        {
+          "distractor_id": 3189504,
+          "value": "abundant",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3189505,
+          "value": "gracious",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3189506,
+          "value": "curious",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3189507,
+          "value": "malevolent",
+          "rank_score": 0.6
+        }
+      ],
+      "selection_score": 0.556
+    },
+    {
+      "concept_id": 15269,
+      "concept_name": "words",
+      "subject_id": "antonyms",
+      "blueprint_id": 8996,
+      "distractor_pool_id": 10531,
+      "pool_category": "antonyms-words-0",
+      "pool_description": "Real wrong options from corpus MCQs tagged antonyms-words-0",
+      "available_distractors": 42,
+      "selected_distractors": [
+        {
+          "distractor_id": 3189549,
+          "value": "enormous",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3189551,
+          "value": "candid",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3189553,
+          "value": "temporary",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3189554,
+          "value": "barren",
+          "rank_score": 0.6
+        }
+      ],
+      "selection_score": 0.557
+    },
+    {
+      "concept_id": 15270,
+      "concept_name": "Word Lengths and Spelling",
+      "subject_id": "antonyms",
+      "blueprint_id": 8998,
+      "distractor_pool_id": 10553,
+      "pool_category": "antonyms-word-lengths-and-spelling-0",
+      "pool_description": "Real wrong options from corpus MCQs tagged antonyms-word-lengths-and-spelling-0",
+      "available_distractors": 20,
+      "selected_distractors": [
+        {
+          "distractor_id": 3193677,
+          "value": "13",
+          "rank_score": 0.4
+        },
+        {
+          "distractor_id": 3193678,
+          "value": "14",
+          "rank_score": 0.4
+        },
+        {
+          "distractor_id": 3193679,
+          "value": "12",
+          "rank_score": 0.4
+        },
+        {
+          "distractor_id": 3193680,
+          "value": "18",
+          "rank_score": 0.4
+        }
+      ],
+      "selection_score": 0.4
+    },
+    {
+      "concept_id": 15271,
+      "concept_name": "Antonym Pairs",
+      "subject_id": "antonyms",
+      "blueprint_id": 8991,
+      "distractor_pool_id": 9861,
+      "pool_category": "antonyms-antonym-pairs-0",
+      "pool_description": "Real wrong options from corpus MCQs tagged antonyms-antonym-pairs-0",
+      "available_distractors": 40,
+      "selected_distractors": [
+        {
+          "distractor_id": 3189414,
+          "value": "malevolent",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3189416,
+          "value": "truthful",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3189418,
+          "value": "victory",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3189419,
+          "value": "deceitful",
+          "rank_score": 0.6
+        }
+      ],
+      "selection_score": 0.555
+    },
+    {
+      "concept_id": 15272,
+      "concept_name": "Harder Antonyms",
+      "subject_id": "antonyms",
+      "blueprint_id": 8997,
+      "distractor_pool_id": 10532,
+      "pool_category": "antonyms-harder-antonyms-0",
+      "pool_description": "Real wrong options from corpus MCQs tagged antonyms-harder-antonyms-0",
+      "available_distractors": 40,
+      "selected_distractors": [
+        {
+          "distractor_id": 3189600,
+          "value": "Barren",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3189601,
+          "value": "Assertive",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3189602,
+          "value": "Idealistic",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3189603,
+          "value": "Humble",
+          "rank_score": 0.6
+        }
+      ],
+      "selection_score": 0.575
+    },
+    {
+      "concept_id": 15275,
+      "concept_name": "antonym",
+      "subject_id": "antonyms",
+      "blueprint_id": 8989,
+      "distractor_pool_id": 9576,
+      "pool_category": "antonyms-antonym-0",
+      "pool_description": "Real wrong options from corpus MCQs tagged antonyms-antonym-0",
+      "available_distractors": 18,
+      "selected_distractors": [
+        {
+          "distractor_id": 3153889,
+          "value": "hardworking",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3153890,
+          "value": "careful",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3153891,
+          "value": "honest",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3153894,
+          "value": "bright",
+          "rank_score": 0.6
+        }
+      ],
+      "selection_score": 0.511
+    },
+    {
+      "concept_id": 15276,
+      "concept_name": "Aptitude Tests",
+      "subject_id": "aptitude-tests",
+      "blueprint_id": 8999,
+      "distractor_pool_id": 9851,
+      "pool_category": "aptitude-tests-aptitude-tests-0",
+      "pool_description": "Real wrong options from corpus MCQs tagged aptitude-tests-aptitude-tests-0",
+      "available_distractors": 41,
+      "selected_distractors": [
+        {
+          "distractor_id": 3159333,
+          "value": "442",
+          "rank_score": 0.4
+        },
+        {
+          "distractor_id": 3159334,
+          "value": "6409",
+          "rank_score": 0.4
+        },
+        {
+          "distractor_id": 3159335,
+          "value": "6188",
+          "rank_score": 0.4
+        },
+        {
+          "distractor_id": 3159336,
+          "value": "6327",
+          "rank_score": 0.4
+        }
+      ],
+      "selection_score": 0.4
+    },
+    {
+      "concept_id": 15277,
+      "concept_name": "aptitude",
+      "subject_id": "aptitude-tests",
+      "blueprint_id": 9001,
+      "distractor_pool_id": 9853,
+      "pool_category": "aptitude-tests-aptitude-0",
+      "pool_description": "Real wrong options from corpus MCQs tagged aptitude-tests-aptitude-0",
+      "available_distractors": 42,
+      "selected_distractors": [
+        {
+          "distractor_id": 3159417,
+          "value": "2405",
+          "rank_score": 0.4
+        },
+        {
+          "distractor_id": 3159418,
+          "value": "370",
+          "rank_score": 0.4
+        },
+        {
+          "distractor_id": 3159419,
+          "value": "2220",
+          "rank_score": 0.4
+        },
+        {
+          "distractor_id": 3159420,
+          "value": "3936",
+          "rank_score": 0.4
+        }
+      ],
+      "selection_score": 0.4
+    },
+    {
+      "concept_id": 15278,
+      "concept_name": "Graph Reading",
+      "subject_id": "aptitude-tests",
+      "blueprint_id": 9002,
+      "distractor_pool_id": 9854,
+      "pool_category": "aptitude-tests-graph-reading-0",
+      "pool_description": "Real wrong options from corpus MCQs tagged aptitude-tests-graph-reading-0",
+      "available_distractors": 40,
+      "selected_distractors": [
+        {
+          "distractor_id": 3159459,
+          "value": "324",
+          "rank_score": 0.4
+        },
+        {
+          "distractor_id": 3159460,
+          "value": "320",
+          "rank_score": 0.4
+        },
+        {
+          "distractor_id": 3159461,
+          "value": "170",
+          "rank_score": 0.4
+        },
+        {
+          "distractor_id": 3159462,
+          "value": "570",
+          "rank_score": 0.4
+        }
+      ],
+      "selection_score": 0.4
+    },
+    {
+      "concept_id": 15279,
+      "concept_name": "Data Interpretation Tables",
+      "subject_id": "aptitude-tests",
+      "blueprint_id": 9000,
+      "distractor_pool_id": 9852,
+      "pool_category": "aptitude-tests-data-interpretation-tables-0",
+      "pool_description": "Real wrong options from corpus MCQs tagged aptitude-tests-data-interpretation-tables-0",
+      "available_distractors": 42,
+      "selected_distractors": [
+        {
+          "distractor_id": 3159375,
+          "value": "228",
+          "rank_score": 0.4
+        },
+        {
+          "distractor_id": 3159376,
+          "value": "2850",
+          "rank_score": 0.4
+        },
+        {
+          "distractor_id": 3159377,
+          "value": "2736",
+          "rank_score": 0.4
+        },
+        {
+          "distractor_id": 3159378,
+          "value": "21760",
+          "rank_score": 0.4
+        }
+      ],
+      "selection_score": 0.4
+    },
+    {
+      "concept_id": 15280,
+      "concept_name": "Percentage Comparisons",
+      "subject_id": "aptitude-tests",
+      "blueprint_id": 9003,
+      "distractor_pool_id": 10288,
+      "pool_category": "aptitude-tests-percentage-comparisons-0",
+      "pool_description": "Real wrong options from corpus MCQs tagged aptitude-tests-percentage-comparisons-0",
+      "available_distractors": 4,
+      "selected_distractors": [
+        {
+          "distractor_id": 3169778,
+          "value": "40% of 250",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3169779,
+          "value": "5% of 1,000",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3169780,
+          "value": "15% of 200",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3169785,
+          "value": "They are equal",
+          "rank_score": 0.6
+        }
+      ],
+      "selection_score": 0.6
+    },
+    {
+      "concept_id": 15282,
+      "concept_name": "Architecture",
+      "subject_id": "architecture",
+      "blueprint_id": 9005,
+      "distractor_pool_id": 10709,
+      "pool_category": "architecture-architecture-0",
+      "pool_description": "Real wrong options from corpus MCQs tagged architecture-architecture-0",
+      "available_distractors": 40,
+      "selected_distractors": [
+        {
+          "distractor_id": 3293867,
+          "value": "An outdoor space enclosed by building",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3293868,
+          "value": "The Romans",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3293869,
+          "value": "The columns and beams",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3293871,
+          "value": "Ventilation and drainage service",
+          "rank_score": 0.6
+        }
+      ],
+      "selection_score": 0.485
+    },
+    {
+      "concept_id": 15283,
+      "concept_name": "deep-kb",
+      "subject_id": "architecture",
+      "blueprint_id": 9007,
+      "distractor_pool_id": 10711,
+      "pool_category": "architecture-deep-kb-0",
+      "pool_description": "Real wrong options from corpus MCQs tagged architecture-deep-kb-0",
+      "available_distractors": 40,
+      "selected_distractors": [
+        {
+          "distractor_id": 3293993,
+          "value": "390 m²",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3293998,
+          "value": "264 m²",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3294000,
+          "value": "360 m²",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3294003,
+          "value": "252 m²",
+          "rank_score": 0.6
+        }
+      ],
+      "selection_score": 0.45
+    },
+    {
+      "concept_id": 15284,
+      "concept_name": "letter-skills",
+      "subject_id": "architecture",
+      "blueprint_id": 9009,
+      "distractor_pool_id": 10978,
+      "pool_category": "architecture-letter-skills-0",
+      "pool_description": "Real wrong options from corpus MCQs tagged architecture-letter-skills-0",
+      "available_distractors": 38,
+      "selected_distractors": [
+        {
+          "distractor_id": 3757809,
+          "value": "18",
+          "rank_score": 0.4
+        },
+        {
+          "distractor_id": 3757810,
+          "value": "17",
+          "rank_score": 0.4
+        },
+        {
+          "distractor_id": 3757811,
+          "value": "16",
+          "rank_score": 0.4
+        },
+        {
+          "distractor_id": 3757812,
+          "value": "13",
+          "rank_score": 0.4
+        }
+      ],
+      "selection_score": 0.4
+    },
+    {
+      "concept_id": 15285,
+      "concept_name": "Spelling and Letter Building",
+      "subject_id": "architecture",
+      "blueprint_id": 9008,
+      "distractor_pool_id": 10977,
+      "pool_category": "architecture-spelling-and-letter-building-0",
+      "pool_description": "Real wrong options from corpus MCQs tagged architecture-spelling-and-letter-building-0",
+      "available_distractors": 16,
+      "selected_distractors": [
+        {
+          "distractor_id": 3310469,
+          "value": "16",
+          "rank_score": 0.4
+        },
+        {
+          "distractor_id": 3310470,
+          "value": "15",
+          "rank_score": 0.4
+        },
+        {
+          "distractor_id": 3310471,
+          "value": "14",
+          "rank_score": 0.4
+        },
+        {
+          "distractor_id": 3310472,
+          "value": "13",
+          "rank_score": 0.4
+        }
+      ],
+      "selection_score": 0.4
+    },
+    {
+      "concept_id": 15286,
+      "concept_name": "Letter Positions",
+      "subject_id": "architecture",
+      "blueprint_id": 9010,
+      "distractor_pool_id": 10979,
+      "pool_category": "architecture-letter-positions-0",
+      "pool_description": "Real wrong options from corpus MCQs tagged architecture-letter-positions-0",
+      "available_distractors": 40,
+      "selected_distractors": [
+        {
+          "distractor_id": 3310889,
+          "value": "10",
+          "rank_score": 0.4
+        },
+        {
+          "distractor_id": 3310890,
+          "value": "18",
+          "rank_score": 0.4
+        },
+        {
+          "distractor_id": 3310891,
+          "value": "17",
+          "rank_score": 0.4
+        },
+        {
+          "distractor_id": 3310892,
+          "value": "19",
+          "rank_score": 0.4
+        }
+      ],
+      "selection_score": 0.4
+    },
+    {
+      "concept_id": 15287,
+      "concept_name": "Design and History",
+      "subject_id": "architecture",
+      "blueprint_id": 9006,
+      "distractor_pool_id": 10710,
+      "pool_category": "architecture-design-and-history-0",
+      "pool_description": "Real wrong options from corpus MCQs tagged architecture-design-and-history-0",
+      "available_distractors": 40,
+      "selected_distractors": [
+        {
+          "distractor_id": 3293939,
+          "value": "364 m²",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3293942,
+          "value": "182 m²",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3293945,
+          "value": "300 m²",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3293956,
+          "value": "208 m²",
+          "rank_score": 0.6
+        }
+      ],
+      "selection_score": 0.45
+    },
+    {
+      "concept_id": 15288,
+      "concept_name": "Pakistan Army (Recruitment)",
+      "subject_id": "army",
+      "blueprint_id": 9011,
+      "distractor_pool_id": 9723,
+      "pool_category": "pakistan-army-recruitment--pakistan-army-recruitment-0",
+      "pool_description": "Real wrong options from corpus MCQs tagged pakistan-army-recruitment--pakistan-army-recruitment-0",
+      "available_distractors": 12,
+      "selected_distractors": [
+        {
+          "distractor_id": 3156578,
+          "value": "Election Officer recruitment tests",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3156579,
+          "value": "NADRA recruitment tests",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3156580,
+          "value": "written, psychometric and interview stages",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3156581,
+          "value": "quantitative, verbal and general papers",
+          "rank_score": 0.6
+        }
+      ],
+      "selection_score": 0.567
+    },
+    {
+      "concept_id": 15292,
+      "concept_name": "Artificial Intelligence (Orig)",
+      "subject_id": "artificial-intelligence",
+      "blueprint_id": 9015,
+      "distractor_pool_id": 10935,
+      "pool_category": "artificial-intelligence-orig--artificial-intelligence-orig-0",
+      "pool_description": "Real wrong options from corpus MCQs tagged artificial-intelligence-orig--artificial-intelligence-orig-0",
+      "available_distractors": 40,
+      "selected_distractors": [
+        {
+          "distractor_id": 3307010,
+          "value": "Artificial Intelligence",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3307011,
+          "value": "framework",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3307012,
+          "value": "Drawing logical conclusions",
+          "rank_score": 0.6
+        },
+        {
+          "distractor_id": 3307013,
+          "value": "documentation",
+          "rank_score": 0.6
+        }
+      ],
+      "selection_score": 0.455
+    },
+    {
+      "concept_id": 15293,
+      "concept_name": "artificial-intelligence",
+      "subject_id": "artificial-intelligence",
+      "blueprint_id": 9017,
+      "distractor_pool_id": 10937,
+      "pool_category": "artificial-intelligence-orig--artificial-intelligence-0",
+      "pool_description": "Real wrong options from corpus MCQs tagged artificial-intelligence-orig--artificial-intelligence-0",
+      "available_distractors": 40,
+      "selected_distractors": [
+        {
+          "distractor_id": 3307098,
+          "value": "47",
+          "rank_score": 0.4
+        },
+        {
+          "distractor_id": 3307099,
+          "value": "80",
+          "rank_score": 0.4
+        },
+        {
+          "distractor_id": 3307100,
+          "value": "1008",
+          "rank_score": 0.4
+        },
+        {
+          "distractor_id": 3307101,
+          "value": "-16",
+          "rank_score": 0.4
+        }
+      ],
+      "selection_score": 0.4
+    },
+    {
+      "concept_id": 15294,
+      "concept_name": "deep-kb",
+      "subject_id": "artificial-intelligence",
+      "blueprint_id": 9018,
+      "distractor_pool_id": 10938,
+      "pool_category": "artificial-intelligence-orig--deep-kb-0",
+      "pool_description": "Real wrong options from corpus MCQs tagged artificial-intelligence-orig--deep-kb-0",
+      "available_distractors": 40,
+      "selected_distractors": [
+        {
+          "distractor_id": 3307144,
+          "value": "24",
+          "rank_score": 0.4
+        },
+        {
+          "distractor_id": 3307145,
+          "value": "1081",
+          "rank_score": 0.4
+        },
+        {
+          "distractor_id": 3307146,
+          "value": "71",
+          "rank_score": 0.4
+        },
+        {
+          "distractor_id": 3307147,
+          "value": "2414",
+          "rank_score": 0.4
+        }
+      ],
+      "selection_score": 0.4
+    },
+    {
+      "concept_id": 15297,
+      "concept_name": "Calculations and Numeric",
+      "subject_id": "artificial-intelligence",
+      "blueprint_id": 9019,
+      "distractor_pool_id": 10939,
+      "pool_category": "artificial-intelligence-orig--calculations-and-numeric-0",
+      "pool_description": "Real wrong options from corpus MCQs tagged artificial-intelligence-orig--calculations-and-numeric-0",
+      "available_distractors": 41,
+      "selected_distractors": [
+        {
+          "distractor_id": 3307055,
+          "value": "1475",
+          "rank_score": 0.4
+        },
+        {
+          "distractor_id": 3307056,
+          "value": "85",
+          "rank_score": 0.4
+        },
+        {
+          "distractor_id": 3307057,
+          "value": "34",
+          "rank_score": 0.4
+        },
+        {
+          "distractor_id": 3307058,
+          "value": "10",
+          "rank_score": 0.4
+        }
+      ],
+      "selection_score": 0.4
+    }
+  ]
+}

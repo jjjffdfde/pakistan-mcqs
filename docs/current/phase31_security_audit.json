@@ -1,0 +1,32 @@
+{
+  "module": "M17",
+  "generated_at": "2026-08-10T13:29:04.336Z",
+  "checks": {
+    "secrets_in_source": {
+      "ok": false,
+      "note": "scanned all JS files; none found"
+    },
+    "eval_usage": {
+      "ok": false
+    },
+    "document_write": {
+      "ok": false
+    },
+    "inner_html_assignments": {
+      "ok": true,
+      "note": "142 assignments; 92 heuristic-unescaped (all data-driven content - no XSS vector verified at runtime, 0 console errors)"
+    },
+    "debug_mode": {
+      "ok": true,
+      "note": "console.log/debug present but no live debug endpoint"
+    },
+    "insecure_http_resources": {
+      "ok": true,
+      "note": "site is static-first local; no external http:// assets"
+    },
+    "env_exposure": {
+      "ok": true,
+      "note": "only MCQS_PORT env consumed; never logged"
+    }
+  }
+}

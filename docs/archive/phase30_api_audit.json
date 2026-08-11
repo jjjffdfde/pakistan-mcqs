@@ -1,0 +1,317 @@
+{
+ "module": "M16",
+ "generated_at": "2026-08-10T10:05:37.432Z",
+ "totals": {
+  "endpoints": 51,
+  "read_only": 33,
+  "write": 18
+ },
+ "endpoints": [
+  {
+   "file": "server.js",
+   "method": "*",
+   "path": "/api/health",
+   "db": true
+  },
+  {
+   "file": "server.js",
+   "method": "*",
+   "path": "/api/stats",
+   "db": true
+  },
+  {
+   "file": "server.js",
+   "method": "GET",
+   "path": "/api/search",
+   "db": false
+  },
+  {
+   "file": "server.js",
+   "method": "GET",
+   "path": "/api/browse",
+   "db": false
+  },
+  {
+   "file": "server.js",
+   "method": "GET",
+   "path": "/api/mcqs",
+   "db": false
+  },
+  {
+   "file": "server.js",
+   "method": "GET",
+   "path": "/api/random",
+   "db": false
+  },
+  {
+   "file": "server.js",
+   "method": "*",
+   "path": "/api/subjects",
+   "db": true
+  },
+  {
+   "file": "server.js",
+   "method": "*",
+   "path": "/api/chapters",
+   "db": true
+  },
+  {
+   "file": "server.js",
+   "method": "*",
+   "path": "/api/topics",
+   "db": true
+  },
+  {
+   "file": "server.js",
+   "method": "*",
+   "path": "/api/categories",
+   "db": true
+  },
+  {
+   "file": "server.js",
+   "method": "*",
+   "path": "/api/exams",
+   "db": false
+  },
+  {
+   "file": "server.js",
+   "method": "*",
+   "path": "/api/quizzes",
+   "db": true
+  },
+  {
+   "file": "server.js",
+   "method": "*",
+   "path": "/api/mocktests",
+   "db": true
+  },
+  {
+   "file": "server.js",
+   "method": "*",
+   "path": "/api/pastpapers",
+   "db": true
+  },
+  {
+   "file": "server.js",
+   "method": "GET",
+   "path": "/api/bookmarks",
+   "db": true
+  },
+  {
+   "file": "server.js",
+   "method": "POST",
+   "path": "/api/bookmarks",
+   "db": true
+  },
+  {
+   "file": "server.js",
+   "method": "GET",
+   "path": "/api/history",
+   "db": true
+  },
+  {
+   "file": "server.js",
+   "method": "POST",
+   "path": "/api/history",
+   "db": false
+  },
+  {
+   "file": "server.js",
+   "method": "*",
+   "path": "/api/leaderboard",
+   "db": true
+  },
+  {
+   "file": "server.js",
+   "method": "*",
+   "path": "/api/analytics",
+   "db": true
+  },
+  {
+   "file": "server.js",
+   "method": "POST",
+   "path": "/api/import",
+   "db": false
+  },
+  {
+   "file": "server.js",
+   "method": "GET",
+   "path": "/api/export",
+   "db": true
+  },
+  {
+   "file": "server.js",
+   "method": "POST",
+   "path": "/api/backup",
+   "db": false
+  },
+  {
+   "file": "server.js",
+   "method": "POST",
+   "path": "/api/restore",
+   "db": false
+  },
+  {
+   "file": "ai/router.js",
+   "method": "GET",
+   "path": "/api/ai/profile",
+   "db": true
+  },
+  {
+   "file": "ai/router.js",
+   "method": "POST",
+   "path": "/api/ai/profile",
+   "db": true
+  },
+  {
+   "file": "ai/router.js",
+   "method": "GET",
+   "path": "/api/ai/weak-topics",
+   "db": false
+  },
+  {
+   "file": "ai/router.js",
+   "method": "GET",
+   "path": "/api/ai/planner",
+   "db": false
+  },
+  {
+   "file": "ai/router.js",
+   "method": "POST",
+   "path": "/api/ai/planner/regenerate",
+   "db": false
+  },
+  {
+   "file": "ai/router.js",
+   "method": "POST",
+   "path": "/api/ai/planner/complete",
+   "db": false
+  },
+  {
+   "file": "ai/router.js",
+   "method": "GET",
+   "path": "/api/ai/spaced/due",
+   "db": false
+  },
+  {
+   "file": "ai/router.js",
+   "method": "POST",
+   "path": "/api/ai/spaced/review",
+   "db": false
+  },
+  {
+   "file": "ai/router.js",
+   "method": "POST",
+   "path": "/api/ai/adaptive/start",
+   "db": false
+  },
+  {
+   "file": "ai/router.js",
+   "method": "GET",
+   "path": "/api/ai/adaptive/next",
+   "db": false
+  },
+  {
+   "file": "ai/router.js",
+   "method": "POST",
+   "path": "/api/ai/adaptive/submit",
+   "db": false
+  },
+  {
+   "file": "ai/router.js",
+   "method": "POST",
+   "path": "/api/ai/adaptive/finish",
+   "db": false
+  },
+  {
+   "file": "ai/router.js",
+   "method": "GET",
+   "path": "/api/ai/mock/predictions",
+   "db": false
+  },
+  {
+   "file": "ai/router.js",
+   "method": "POST",
+   "path": "/api/ai/mock/predict",
+   "db": false
+  },
+  {
+   "file": "ai/router.js",
+   "method": "GET",
+   "path": "/api/ai/recommendations",
+   "db": false
+  },
+  {
+   "file": "ai/router.js",
+   "method": "POST",
+   "path": "/api/ai/recommendations/build",
+   "db": false
+  },
+  {
+   "file": "ai/router.js",
+   "method": "GET",
+   "path": "/api/ai/flashcards/due",
+   "db": false
+  },
+  {
+   "file": "ai/router.js",
+   "method": "POST",
+   "path": "/api/ai/flashcards/build",
+   "db": false
+  },
+  {
+   "file": "ai/router.js",
+   "method": "POST",
+   "path": "/api/ai/flashcards/review",
+   "db": false
+  },
+  {
+   "file": "ai/router.js",
+   "method": "GET",
+   "path": "/api/ai/current-affairs",
+   "db": false
+  },
+  {
+   "file": "ai/router.js",
+   "method": "GET",
+   "path": "/api/ai/current-affairs/summary",
+   "db": false
+  },
+  {
+   "file": "ai/router.js",
+   "method": "GET",
+   "path": "/api/ai/analytics",
+   "db": false
+  },
+  {
+   "file": "ai/router.js",
+   "method": "GET",
+   "path": "/api/ai/leaderboard",
+   "db": false
+  },
+  {
+   "file": "ai/router.js",
+   "method": "GET",
+   "path": "/api/ai/achievements",
+   "db": false
+  },
+  {
+   "file": "ai/router.js",
+   "method": "GET",
+   "path": "/api/ai/notifications",
+   "db": false
+  },
+  {
+   "file": "ai/router.js",
+   "method": "POST",
+   "path": "/api/ai/notifications/read",
+   "db": false
+  },
+  {
+   "file": "ai/router.js",
+   "method": "POST",
+   "path": "/api/ai/refresh",
+   "db": false
+  }
+ ]
+}

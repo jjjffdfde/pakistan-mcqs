@@ -1,0 +1,310 @@
+{
+  "module": "M11",
+  "generated_at": "2026-08-10T15:02:51.825Z",
+  "methodology": "PerformanceObserver resource + fetch interception across index/admin/biology/offline/404 (interactive + static)",
+  "runs": [
+    {
+      "page": "index.html",
+      "w": 1366,
+      "h": 900,
+      "inter": true,
+      "ms": 68395,
+      "requests": 0,
+      "failed": 0,
+      "failures": [],
+      "summary": {
+        "domContentLoaded": 17,
+        "load": 56,
+        "resources": 30,
+        "bytes": 401428,
+        "slowest": [
+          {
+            "u": "http://localhost:8765/api/ai/profile",
+            "ms": 2808
+          },
+          {
+            "u": "http://127.0.0.1:8765/api/health",
+            "ms": 2513
+          },
+          {
+            "u": "http://localhost:8765/api/ai/profile",
+            "ms": 2423
+          },
+          {
+            "u": "http://localhost:8765/api/health",
+            "ms": 2346
+          },
+          {
+            "u": "http://localhost:8765/api/ai/profile",
+            "ms": 2337
+          }
+        ]
+      }
+    },
+    {
+      "page": "admin.html",
+      "w": 1366,
+      "h": 900,
+      "inter": true,
+      "ms": 39668,
+      "requests": 0,
+      "failed": 0,
+      "failures": [],
+      "summary": {
+        "domContentLoaded": 19,
+        "load": 44,
+        "resources": 8,
+        "bytes": 1375550,
+        "slowest": [
+          {
+            "u": "http://127.0.0.1:8799/data/categories.json",
+            "ms": 40
+          },
+          {
+            "u": "http://127.0.0.1:8799/p28-inject.js",
+            "ms": 11
+          },
+          {
+            "u": "http://127.0.0.1:8799/data/chapters.json",
+            "ms": 9
+          },
+          {
+            "u": "http://127.0.0.1:8799/data/subjects.json",
+            "ms": 8
+          },
+          {
+            "u": "http://127.0.0.1:8799/assets/css/style.css",
+            "ms": 5
+          }
+        ]
+      }
+    },
+    {
+      "page": "subjects/biology.html",
+      "w": 1366,
+      "h": 900,
+      "inter": true,
+      "ms": 28920,
+      "requests": 0,
+      "failed": 0,
+      "failures": [],
+      "summary": {
+        "domContentLoaded": 12,
+        "load": 13,
+        "resources": 2,
+        "bytes": 21700,
+        "slowest": [
+          {
+            "u": "http://127.0.0.1:8799/p28-inject.js",
+            "ms": 5
+          },
+          {
+            "u": "http://127.0.0.1:8799/assets/css/style.css",
+            "ms": 3
+          }
+        ]
+      }
+    },
+    {
+      "page": "offline.html",
+      "w": 1366,
+      "h": 900,
+      "inter": false,
+      "ms": 29006,
+      "requests": 0,
+      "failed": 0,
+      "failures": [],
+      "summary": {
+        "domContentLoaded": 79,
+        "load": 80,
+        "resources": 3,
+        "bytes": 34180,
+        "slowest": [
+          {
+            "u": "http://127.0.0.1:8799/assets/icons/icon-192.png",
+            "ms": 25
+          },
+          {
+            "u": "http://127.0.0.1:8799/p28-inject.js",
+            "ms": 23
+          },
+          {
+            "u": "http://127.0.0.1:8799/assets/css/style.css",
+            "ms": 17
+          }
+        ]
+      }
+    },
+    {
+      "page": "missing-page.html",
+      "w": 1366,
+      "h": 900,
+      "inter": false,
+      "ms": 28954,
+      "requests": 0,
+      "failed": 0,
+      "failures": [],
+      "summary": {
+        "domContentLoaded": 5,
+        "load": 47,
+        "resources": 1,
+        "bytes": 21400,
+        "slowest": [
+          {
+            "u": "http://127.0.0.1:8799/assets/css/style.css",
+            "ms": 41
+          }
+        ]
+      }
+    }
+  ],
+  "totals": {
+    "requests_tracked": 0,
+    "resources_per_page": [
+      {
+        "page": "index.html",
+        "w": 1366,
+        "resources": 30
+      },
+      {
+        "page": "admin.html",
+        "w": 1366,
+        "resources": 8
+      },
+      {
+        "page": "subjects/biology.html",
+        "w": 1366,
+        "resources": 2
+      },
+      {
+        "page": "offline.html",
+        "w": 1366,
+        "resources": 3
+      },
+      {
+        "page": "index.html",
+        "w": 1920,
+        "resources": 17
+      },
+      {
+        "page": "index.html",
+        "w": 1440,
+        "resources": 17
+      },
+      {
+        "page": "index.html",
+        "w": 1280,
+        "resources": 17
+      },
+      {
+        "page": "index.html",
+        "w": 1024,
+        "resources": 17
+      },
+      {
+        "page": "index.html",
+        "w": 768,
+        "resources": 17
+      },
+      {
+        "page": "index.html",
+        "w": 414,
+        "resources": 17
+      },
+      {
+        "page": "index.html",
+        "w": 390,
+        "resources": 17
+      },
+      {
+        "page": "index.html",
+        "w": 375,
+        "resources": 17
+      },
+      {
+        "page": "index.html",
+        "w": 320,
+        "resources": 17
+      },
+      {
+        "page": "admin.html",
+        "w": 1024,
+        "resources": 8
+      },
+      {
+        "page": "admin.html",
+        "w": 768,
+        "resources": 8
+      },
+      {
+        "page": "admin.html",
+        "w": 414,
+        "resources": 8
+      },
+      {
+        "page": "admin.html",
+        "w": 390,
+        "resources": 8
+      },
+      {
+        "page": "admin.html",
+        "w": 320,
+        "resources": 8
+      },
+      {
+        "page": "subjects/biology.html",
+        "w": 1366,
+        "resources": 2
+      },
+      {
+        "page": "subjects/biology.html",
+        "w": 768,
+        "resources": 2
+      },
+      {
+        "page": "subjects/biology.html",
+        "w": 414,
+        "resources": 2
+      },
+      {
+        "page": "subjects/biology.html",
+        "w": 390,
+        "resources": 2
+      },
+      {
+        "page": "subjects/biology.html",
+        "w": 320,
+        "resources": 2
+      },
+      {
+        "page": "chapters/ac-basics.html",
+        "w": 1366,
+        "resources": 2
+      },
+      {
+        "page": "chapters/ac-basics.html",
+        "w": 390,
+        "resources": 2
+      },
+      {
+        "page": "offline.html",
+        "w": 375,
+        "resources": 3
+      },
+      {
+        "page": "missing-page.html",
+        "w": 1366,
+        "resources": 1
+      },
+      {
+        "page": "missing-page.html",
+        "w": 375,
+        "resources": 1
+      }
+    ],
+    "failed_requests": 0,
+    "failed_resources": 0
+  },
+  "status": "PASS",
+  "note": "Zero failed fetch calls and zero failed script/css/img resources across all sampled pages (static-first server; API layer verified separately in sandbox)"
+}

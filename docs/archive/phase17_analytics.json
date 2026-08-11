@@ -1,0 +1,2965 @@
+{
+  "step": "knowledge_analytics",
+  "generated_at": "2026-08-05T12:19:57",
+  "summary": {
+    "total_concepts": 1744,
+    "total_micro_concepts": 12406,
+    "total_objectives": 71501,
+    "total_blueprints": 107,
+    "total_relations": 2275,
+    "total_prerequisites": 3,
+    "total_exam_mappings": 15952,
+    "total_mcqs": 872603,
+    "total_distractor_pools": 1744,
+    "total_distractor_items": 33662,
+    "subject_count": 243,
+    "avg_concepts_per_subject": 7.18,
+    "avg_relations_per_concept": 1.3,
+    "avg_mcq_per_concept": 500.35,
+    "avg_objectives_per_concept": 41
+  },
+  "subject_density": [
+    {
+      "subject_id": "accounting",
+      "concepts": 9,
+      "micro_concepts": 67,
+      "objectives": 420,
+      "blueprints": 9,
+      "relations": 14,
+      "exam_mappings": 160,
+      "mcqs": 5094
+    },
+    {
+      "subject_id": "agriculture",
+      "concepts": 8,
+      "micro_concepts": 53,
+      "objectives": 335,
+      "blueprints": 8,
+      "relations": 14,
+      "exam_mappings": 36,
+      "mcqs": 5147
+    },
+    {
+      "subject_id": "ai",
+      "concepts": 11,
+      "micro_concepts": 81,
+      "objectives": 496,
+      "blueprints": 11,
+      "relations": 17,
+      "exam_mappings": 84,
+      "mcqs": 5094
+    },
+    {
+      "subject_id": "ajkpsc",
+      "concepts": 8,
+      "micro_concepts": 27,
+      "objectives": 159,
+      "blueprints": 8,
+      "relations": 10,
+      "exam_mappings": 9,
+      "mcqs": 43
+    },
+    {
+      "subject_id": "algorithms",
+      "concepts": 3,
+      "micro_concepts": 9,
+      "objectives": 66,
+      "blueprints": 3,
+      "relations": 5,
+      "exam_mappings": 0,
+      "mcqs": 5089
+    },
+    {
+      "subject_id": "analytical-reasoning",
+      "concepts": 8,
+      "micro_concepts": 259,
+      "objectives": 1554,
+      "blueprints": 8,
+      "relations": 7,
+      "exam_mappings": 36,
+      "mcqs": 5537
+    },
+    {
+      "subject_id": "anatomy",
+      "concepts": 12,
+      "micro_concepts": 62,
+      "objectives": 428,
+      "blueprints": 12,
+      "relations": 16,
+      "exam_mappings": 65,
+      "mcqs": 5098
+    },
+    {
+      "subject_id": "anf",
+      "concepts": 6,
+      "micro_concepts": 19,
+      "objectives": 102,
+      "blueprints": 6,
+      "relations": 10,
+      "exam_mappings": 7,
+      "mcqs": 17
+    },
+    {
+      "subject_id": "angular",
+      "concepts": 8,
+      "micro_concepts": 37,
+      "objectives": 215,
+      "blueprints": 8,
+      "relations": 10,
+      "exam_mappings": 18,
+      "mcqs": 5028
+    },
+    {
+      "subject_id": "anthropology",
+      "concepts": 3,
+      "micro_concepts": 23,
+      "objectives": 117,
+      "blueprints": 3,
+      "relations": 2,
+      "exam_mappings": 20,
+      "mcqs": 14
+    },
+    {
+      "subject_id": "antonyms",
+      "concepts": 10,
+      "micro_concepts": 56,
+      "objectives": 310,
+      "blueprints": 10,
+      "relations": 13,
+      "exam_mappings": 66,
+      "mcqs": 5016
+    },
+    {
+      "subject_id": "aptitude-tests",
+      "concepts": 6,
+      "micro_concepts": 202,
+      "objectives": 1066,
+      "blueprints": 6,
+      "relations": 7,
+      "exam_mappings": 77,
+      "mcqs": 432
+    },
+    {
+      "subject_id": "architecture",
+      "concepts": 6,
+      "micro_concepts": 9,
+      "objectives": 72,
+      "blueprints": 6,
+      "relations": 8,
+      "exam_mappings": 0,
+      "mcqs": 5474
+    },
+    {
+      "subject_id": "army",
+      "concepts": 4,
+      "micro_concepts": 15,
+      "objectives": 67,
+      "blueprints": 4,
+      "relations": 8,
+      "exam_mappings": 5,
+      "mcqs": 4
+    },
+    {
+      "subject_id": "artificial-intelligence",
+      "concepts": 7,
+      "micro_concepts": 10,
+      "objectives": 80,
+      "blueprints": 5,
+      "relations": 11,
+      "exam_mappings": 0,
+      "mcqs": 5021
+    },
+    {
+      "subject_id": "asf",
+      "concepts": 6,
+      "micro_concepts": 19,
+      "objectives": 99,
+      "blueprints": 0,
+      "relations": 10,
+      "exam_mappings": 7,
+      "mcqs": 17
+    },
+    {
+      "subject_id": "assistant-director",
+      "concepts": 6,
+      "micro_concepts": 11,
+      "objectives": 57,
+      "blueprints": 0,
+      "relations": 10,
+      "exam_mappings": 7,
+      "mcqs": 18
+    },
+    {
+      "subject_id": "auditing",
+      "concepts": 7,
+      "micro_concepts": 34,
+      "objectives": 198,
+      "blueprints": 0,
+      "relations": 7,
+      "exam_mappings": 56,
+      "mcqs": 5045
+    },
+    {
+      "subject_id": "auditing-standards",
+      "concepts": 9,
+      "micro_concepts": 12,
+      "objectives": 96,
+      "blueprints": 0,
+      "relations": 13,
+      "exam_mappings": 0,
+      "mcqs": 5215
+    },
+    {
+      "subject_id": "banking",
+      "concepts": 7,
+      "micro_concepts": 23,
+      "objectives": 131,
+      "blueprints": 0,
+      "relations": 10,
+      "exam_mappings": 8,
+      "mcqs": 31
+    },
+    {
+      "subject_id": "bash",
+      "concepts": 5,
+      "micro_concepts": 15,
+      "objectives": 120,
+      "blueprints": 0,
+      "relations": 11,
+      "exam_mappings": 0,
+      "mcqs": 5029
+    },
+    {
+      "subject_id": "bds",
+      "concepts": 2,
+      "micro_concepts": 24,
+      "objectives": 120,
+      "blueprints": 0,
+      "relations": 2,
+      "exam_mappings": 6,
+      "mcqs": 17
+    },
+    {
+      "subject_id": "behavioral-sciences",
+      "concepts": 8,
+      "micro_concepts": 12,
+      "objectives": 96,
+      "blueprints": 0,
+      "relations": 13,
+      "exam_mappings": 0,
+      "mcqs": 5077
+    },
+    {
+      "subject_id": "big-data",
+      "concepts": 6,
+      "micro_concepts": 38,
+      "objectives": 199,
+      "blueprints": 0,
+      "relations": 7,
+      "exam_mappings": 14,
+      "mcqs": 19
+    },
+    {
+      "subject_id": "biochemistry",
+      "concepts": 12,
+      "micro_concepts": 56,
+      "objectives": 351,
+      "blueprints": 0,
+      "relations": 15,
+      "exam_mappings": 65,
+      "mcqs": 5368
+    },
+    {
+      "subject_id": "biology",
+      "concepts": 12,
+      "micro_concepts": 110,
+      "objectives": 682,
+      "blueprints": 0,
+      "relations": 17,
+      "exam_mappings": 152,
+      "mcqs": 5013
+    },
+    {
+      "subject_id": "biotechnology",
+      "concepts": 2,
+      "micro_concepts": 20,
+      "objectives": 100,
+      "blueprints": 0,
+      "relations": 2,
+      "exam_mappings": 18,
+      "mcqs": 21
+    },
+    {
+      "subject_id": "bootstrap",
+      "concepts": 5,
+      "micro_concepts": 46,
+      "objectives": 235,
+      "blueprints": 0,
+      "relations": 4,
+      "exam_mappings": 18,
+      "mcqs": 31
+    },
+    {
+      "subject_id": "botany",
+      "concepts": 3,
+      "micro_concepts": 36,
+      "objectives": 180,
+      "blueprints": 0,
+      "relations": 2,
+      "exam_mappings": 22,
+      "mcqs": 26
+    },
+    {
+      "subject_id": "bpsc",
+      "concepts": 8,
+      "micro_concepts": 27,
+      "objectives": 159,
+      "blueprints": 0,
+      "relations": 10,
+      "exam_mappings": 9,
+      "mcqs": 44
+    },
+    {
+      "subject_id": "business-admin",
+      "concepts": 3,
+      "micro_concepts": 36,
+      "objectives": 180,
+      "blueprints": 0,
+      "relations": 5,
+      "exam_mappings": 44,
+      "mcqs": 22
+    },
+    {
+      "subject_id": "business-administration",
+      "concepts": 7,
+      "micro_concepts": 10,
+      "objectives": 80,
+      "blueprints": 0,
+      "relations": 11,
+      "exam_mappings": 0,
+      "mcqs": 5047
+    },
+    {
+      "subject_id": "business-law",
+      "concepts": 7,
+      "micro_concepts": 12,
+      "objectives": 96,
+      "blueprints": 0,
+      "relations": 10,
+      "exam_mappings": 0,
+      "mcqs": 5089
+    },
+    {
+      "subject_id": "c",
+      "concepts": 7,
+      "micro_concepts": 160,
+      "objectives": 935,
+      "blueprints": 0,
+      "relations": 7,
+      "exam_mappings": 24,
+      "mcqs": 5428
+    },
+    {
+      "subject_id": "chemical-eng",
+      "concepts": 8,
+      "micro_concepts": 39,
+      "objectives": 231,
+      "blueprints": 0,
+      "relations": 11,
+      "exam_mappings": 72,
+      "mcqs": 5080
+    },
+    {
+      "subject_id": "chemistry",
+      "concepts": 14,
+      "micro_concepts": 99,
+      "objectives": 619,
+      "blueprints": 0,
+      "relations": 19,
+      "exam_mappings": 198,
+      "mcqs": 5045
+    },
+    {
+      "subject_id": "civil-eng",
+      "concepts": 9,
+      "micro_concepts": 68,
+      "objectives": 374,
+      "blueprints": 0,
+      "relations": 10,
+      "exam_mappings": 60,
+      "mcqs": 5080
+    },
+    {
+      "subject_id": "cloud-computing",
+      "concepts": 8,
+      "micro_concepts": 51,
+      "objectives": 277,
+      "blueprints": 0,
+      "relations": 11,
+      "exam_mappings": 63,
+      "mcqs": 5004
+    },
+    {
+      "subject_id": "commerce",
+      "concepts": 3,
+      "micro_concepts": 19,
+      "objectives": 98,
+      "blueprints": 0,
+      "relations": 2,
+      "exam_mappings": 44,
+      "mcqs": 16
+    },
+    {
+      "subject_id": "community-medicine",
+      "concepts": 5,
+      "micro_concepts": 36,
+      "objectives": 192,
+      "blueprints": 0,
+      "relations": 8,
+      "exam_mappings": 30,
+      "mcqs": 5145
+    },
+    {
+      "subject_id": "compiler-design",
+      "concepts": 7,
+      "micro_concepts": 13,
+      "objectives": 102,
+      "blueprints": 0,
+      "relations": 10,
+      "exam_mappings": 0,
+      "mcqs": 5066
+    },
+    {
+      "subject_id": "comprehension",
+      "concepts": 10,
+      "micro_concepts": 38,
+      "objectives": 232,
+      "blueprints": 0,
+      "relations": 13,
+      "exam_mappings": 88,
+      "mcqs": 5055
+    },
+    {
+      "subject_id": "computer-engineering",
+      "concepts": 4,
+      "micro_concepts": 39,
+      "objectives": 195,
+      "blueprints": 0,
+      "relations": 5,
+      "exam_mappings": 20,
+      "mcqs": 21
+    },
+    {
+      "subject_id": "computer-graphics",
+      "concepts": 7,
+      "micro_concepts": 12,
+      "objectives": 96,
+      "blueprints": 0,
+      "relations": 11,
+      "exam_mappings": 0,
+      "mcqs": 5058
+    },
+    {
+      "subject_id": "computer-science",
+      "concepts": 15,
+      "micro_concepts": 117,
+      "objectives": 696,
+      "blueprints": 0,
+      "relations": 20,
+      "exam_mappings": 707,
+      "mcqs": 5312
+    },
+    {
+      "subject_id": "constitution",
+      "concepts": 3,
+      "micro_concepts": 31,
+      "objectives": 153,
+      "blueprints": 0,
+      "relations": 2,
+      "exam_mappings": 68,
+      "mcqs": 29
+    },
+    {
+      "subject_id": "cpp",
+      "concepts": 7,
+      "micro_concepts": 124,
+      "objectives": 724,
+      "blueprints": 0,
+      "relations": 6,
+      "exam_mappings": 24,
+      "mcqs": 5993
+    },
+    {
+      "subject_id": "csharp",
+      "concepts": 8,
+      "micro_concepts": 124,
+      "objectives": 724,
+      "blueprints": 0,
+      "relations": 6,
+      "exam_mappings": 18,
+      "mcqs": 6690
+    },
+    {
+      "subject_id": "css",
+      "concepts": 10,
+      "micro_concepts": 65,
+      "objectives": 361,
+      "blueprints": 0,
+      "relations": 10,
+      "exam_mappings": 33,
+      "mcqs": 5121
+    },
+    {
+      "subject_id": "css-exam",
+      "concepts": 4,
+      "micro_concepts": 15,
+      "objectives": 70,
+      "blueprints": 0,
+      "relations": 8,
+      "exam_mappings": 5,
+      "mcqs": 4
+    },
+    {
+      "subject_id": "cts",
+      "concepts": 4,
+      "micro_concepts": 15,
+      "objectives": 70,
+      "blueprints": 0,
+      "relations": 8,
+      "exam_mappings": 5,
+      "mcqs": 4
+    },
+    {
+      "subject_id": "current-affairs",
+      "concepts": 14,
+      "micro_concepts": 87,
+      "objectives": 526,
+      "blueprints": 0,
+      "relations": 21,
+      "exam_mappings": 663,
+      "mcqs": 5032
+    },
+    {
+      "subject_id": "custom-inspector",
+      "concepts": 6,
+      "micro_concepts": 11,
+      "objectives": 57,
+      "blueprints": 0,
+      "relations": 10,
+      "exam_mappings": 7,
+      "mcqs": 19
+    },
+    {
+      "subject_id": "cyber-security",
+      "concepts": 8,
+      "micro_concepts": 51,
+      "objectives": 273,
+      "blueprints": 0,
+      "relations": 11,
+      "exam_mappings": 90,
+      "mcqs": 5130
+    },
+    {
+      "subject_id": "data-interpretation",
+      "concepts": 7,
+      "micro_concepts": 204,
+      "objectives": 1082,
+      "blueprints": 0,
+      "relations": 7,
+      "exam_mappings": 40,
+      "mcqs": 5343
+    },
+    {
+      "subject_id": "data-science",
+      "concepts": 11,
+      "micro_concepts": 75,
+      "objectives": 465,
+      "blueprints": 0,
+      "relations": 17,
+      "exam_mappings": 84,
+      "mcqs": 5167
+    },
+    {
+      "subject_id": "data-structures",
+      "concepts": 4,
+      "micro_concepts": 12,
+      "objectives": 96,
+      "blueprints": 0,
+      "relations": 8,
+      "exam_mappings": 0,
+      "mcqs": 5079
+    },
+    {
+      "subject_id": "database",
+      "concepts": 9,
+      "micro_concepts": 51,
+      "objectives": 282,
+      "blueprints": 0,
+      "relations": 10,
+      "exam_mappings": 40,
+      "mcqs": 5060
+    },
+    {
+      "subject_id": "deep-learning",
+      "concepts": 10,
+      "micro_concepts": 66,
+      "objectives": 360,
+      "blueprints": 0,
+      "relations": 11,
+      "exam_mappings": 22,
+      "mcqs": 5012
+    },
+    {
+      "subject_id": "dental-materials",
+      "concepts": 9,
+      "micro_concepts": 45,
+      "objectives": 267,
+      "blueprints": 0,
+      "relations": 13,
+      "exam_mappings": 50,
+      "mcqs": 5102
+    },
+    {
+      "subject_id": "dental-medicine",
+      "concepts": 7,
+      "micro_concepts": 17,
+      "objectives": 136,
+      "blueprints": 0,
+      "relations": 11,
+      "exam_mappings": 0,
+      "mcqs": 5484
+    },
+    {
+      "subject_id": "dental-surgery",
+      "concepts": 8,
+      "micro_concepts": 20,
+      "objectives": 160,
+      "blueprints": 0,
+      "relations": 13,
+      "exam_mappings": 0,
+      "mcqs": 5511
+    },
+    {
+      "subject_id": "devops",
+      "concepts": 4,
+      "micro_concepts": 29,
+      "objectives": 154,
+      "blueprints": 0,
+      "relations": 4,
+      "exam_mappings": 15,
+      "mcqs": 24
+    },
+    {
+      "subject_id": "digital-logic",
+      "concepts": 7,
+      "micro_concepts": 12,
+      "objectives": 96,
+      "blueprints": 0,
+      "relations": 11,
+      "exam_mappings": 0,
+      "mcqs": 5432
+    },
+    {
+      "subject_id": "distributed-systems",
+      "concepts": 7,
+      "micro_concepts": 16,
+      "objectives": 128,
+      "blueprints": 0,
+      "relations": 11,
+      "exam_mappings": 0,
+      "mcqs": 5176
+    },
+    {
+      "subject_id": "django",
+      "concepts": 2,
+      "micro_concepts": 22,
+      "objectives": 110,
+      "blueprints": 0,
+      "relations": 2,
+      "exam_mappings": 6,
+      "mcqs": 13
+    },
+    {
+      "subject_id": "docker",
+      "concepts": 7,
+      "micro_concepts": 42,
+      "objectives": 231,
+      "blueprints": 0,
+      "relations": 8,
+      "exam_mappings": 16,
+      "mcqs": 5255
+    },
+    {
+      "subject_id": "dotnet",
+      "concepts": 3,
+      "micro_concepts": 32,
+      "objectives": 163,
+      "blueprints": 0,
+      "relations": 5,
+      "exam_mappings": 8,
+      "mcqs": 15
+    },
+    {
+      "subject_id": "dpt",
+      "concepts": 2,
+      "micro_concepts": 20,
+      "objectives": 100,
+      "blueprints": 0,
+      "relations": 2,
+      "exam_mappings": 3,
+      "mcqs": 14
+    },
+    {
+      "subject_id": "ecat",
+      "concepts": 2,
+      "micro_concepts": 19,
+      "objectives": 95,
+      "blueprints": 0,
+      "relations": 2,
+      "exam_mappings": 3,
+      "mcqs": 12
+    },
+    {
+      "subject_id": "economics",
+      "concepts": 14,
+      "micro_concepts": 93,
+      "objectives": 565,
+      "blueprints": 0,
+      "relations": 17,
+      "exam_mappings": 195,
+      "mcqs": 5321
+    },
+    {
+      "subject_id": "education",
+      "concepts": 2,
+      "micro_concepts": 24,
+      "objectives": 120,
+      "blueprints": 0,
+      "relations": 2,
+      "exam_mappings": 30,
+      "mcqs": 17
+    },
+    {
+      "subject_id": "educators",
+      "concepts": 4,
+      "micro_concepts": 15,
+      "objectives": 67,
+      "blueprints": 0,
+      "relations": 8,
+      "exam_mappings": 5,
+      "mcqs": 4
+    },
+    {
+      "subject_id": "election-officer",
+      "concepts": 6,
+      "micro_concepts": 19,
+      "objectives": 95,
+      "blueprints": 0,
+      "relations": 10,
+      "exam_mappings": 7,
+      "mcqs": 19
+    },
+    {
+      "subject_id": "electrical-eng",
+      "concepts": 10,
+      "micro_concepts": 91,
+      "objectives": 490,
+      "blueprints": 0,
+      "relations": 11,
+      "exam_mappings": 99,
+      "mcqs": 5154
+    },
+    {
+      "subject_id": "electronics",
+      "concepts": 9,
+      "micro_concepts": 38,
+      "objectives": 218,
+      "blueprints": 0,
+      "relations": 10,
+      "exam_mappings": 80,
+      "mcqs": 5049
+    },
+    {
+      "subject_id": "english",
+      "concepts": 19,
+      "micro_concepts": 130,
+      "objectives": 759,
+      "blueprints": 0,
+      "relations": 18,
+      "exam_mappings": 1000,
+      "mcqs": 106
+    },
+    {
+      "subject_id": "english-literature",
+      "concepts": 10,
+      "micro_concepts": 63,
+      "objectives": 355,
+      "blueprints": 0,
+      "relations": 16,
+      "exam_mappings": 44,
+      "mcqs": 5055
+    },
+    {
+      "subject_id": "ent",
+      "concepts": 5,
+      "micro_concepts": 12,
+      "objectives": 96,
+      "blueprints": 0,
+      "relations": 8,
+      "exam_mappings": 0,
+      "mcqs": 5050
+    },
+    {
+      "subject_id": "entrepreneurship",
+      "concepts": 6,
+      "micro_concepts": 11,
+      "objectives": 88,
+      "blueprints": 0,
+      "relations": 7,
+      "exam_mappings": 0,
+      "mcqs": 5107
+    },
+    {
+      "subject_id": "environmental-eng",
+      "concepts": 8,
+      "micro_concepts": 45,
+      "objectives": 261,
+      "blueprints": 0,
+      "relations": 11,
+      "exam_mappings": 45,
+      "mcqs": 5106
+    },
+    {
+      "subject_id": "environmental-science",
+      "concepts": 10,
+      "micro_concepts": 61,
+      "objectives": 355,
+      "blueprints": 0,
+      "relations": 17,
+      "exam_mappings": 110,
+      "mcqs": 5067
+    },
+    {
+      "subject_id": "essay",
+      "concepts": 4,
+      "micro_concepts": 55,
+      "objectives": 272,
+      "blueprints": 0,
+      "relations": 5,
+      "exam_mappings": 10,
+      "mcqs": 23
+    },
+    {
+      "subject_id": "est",
+      "concepts": 5,
+      "micro_concepts": 10,
+      "objectives": 50,
+      "blueprints": 0,
+      "relations": 8,
+      "exam_mappings": 6,
+      "mcqs": 16
+    },
+    {
+      "subject_id": "ethical-hacking",
+      "concepts": 6,
+      "micro_concepts": 37,
+      "objectives": 194,
+      "blueprints": 0,
+      "relations": 9,
+      "exam_mappings": 14,
+      "mcqs": 23
+    },
+    {
+      "subject_id": "everyday-science",
+      "concepts": 22,
+      "micro_concepts": 150,
+      "objectives": 897,
+      "blueprints": 0,
+      "relations": 23,
+      "exam_mappings": 1012,
+      "mcqs": 5070
+    },
+    {
+      "subject_id": "express",
+      "concepts": 8,
+      "micro_concepts": 11,
+      "objectives": 88,
+      "blueprints": 0,
+      "relations": 10,
+      "exam_mappings": 0,
+      "mcqs": 5043
+    },
+    {
+      "subject_id": "express-js",
+      "concepts": 6,
+      "micro_concepts": 36,
+      "objectives": 189,
+      "blueprints": 0,
+      "relations": 7,
+      "exam_mappings": 14,
+      "mcqs": 20
+    },
+    {
+      "subject_id": "fbr",
+      "concepts": 7,
+      "micro_concepts": 23,
+      "objectives": 131,
+      "blueprints": 0,
+      "relations": 10,
+      "exam_mappings": 8,
+      "mcqs": 27
+    },
+    {
+      "subject_id": "fia",
+      "concepts": 4,
+      "micro_concepts": 15,
+      "objectives": 67,
+      "blueprints": 0,
+      "relations": 8,
+      "exam_mappings": 5,
+      "mcqs": 4
+    },
+    {
+      "subject_id": "fia-inspector",
+      "concepts": 4,
+      "micro_concepts": 15,
+      "objectives": 63,
+      "blueprints": 0,
+      "relations": 8,
+      "exam_mappings": 5,
+      "mcqs": 4
+    },
+    {
+      "subject_id": "finance",
+      "concepts": 8,
+      "micro_concepts": 52,
+      "objectives": 338,
+      "blueprints": 0,
+      "relations": 14,
+      "exam_mappings": 126,
+      "mcqs": 5350
+    },
+    {
+      "subject_id": "flask",
+      "concepts": 4,
+      "micro_concepts": 27,
+      "objectives": 144,
+      "blueprints": 0,
+      "relations": 4,
+      "exam_mappings": 10,
+      "mcqs": 20
+    },
+    {
+      "subject_id": "forensic-medicine",
+      "concepts": 9,
+      "micro_concepts": 28,
+      "objectives": 224,
+      "blueprints": 0,
+      "relations": 16,
+      "exam_mappings": 0,
+      "mcqs": 5029
+    },
+    {
+      "subject_id": "forestry",
+      "concepts": 2,
+      "micro_concepts": 23,
+      "objectives": 115,
+      "blueprints": 0,
+      "relations": 2,
+      "exam_mappings": 15,
+      "mcqs": 17
+    },
+    {
+      "subject_id": "fpsc",
+      "concepts": 4,
+      "micro_concepts": 15,
+      "objectives": 70,
+      "blueprints": 0,
+      "relations": 8,
+      "exam_mappings": 5,
+      "mcqs": 4
+    },
+    {
+      "subject_id": "gat",
+      "concepts": 3,
+      "micro_concepts": 20,
+      "objectives": 100,
+      "blueprints": 0,
+      "relations": 2,
+      "exam_mappings": 4,
+      "mcqs": 11
+    },
+    {
+      "subject_id": "general-anatomy",
+      "concepts": 4,
+      "micro_concepts": 35,
+      "objectives": 175,
+      "blueprints": 0,
+      "relations": 5,
+      "exam_mappings": 15,
+      "mcqs": 15
+    },
+    {
+      "subject_id": "general-knowledge",
+      "concepts": 17,
+      "micro_concepts": 110,
+      "objectives": 635,
+      "blueprints": 0,
+      "relations": 20,
+      "exam_mappings": 900,
+      "mcqs": 5086
+    },
+    {
+      "subject_id": "geography",
+      "concepts": 13,
+      "micro_concepts": 294,
+      "objectives": 1536,
+      "blueprints": 0,
+      "relations": 16,
+      "exam_mappings": 84,
+      "mcqs": 5053
+    },
+    {
+      "subject_id": "git",
+      "concepts": 4,
+      "micro_concepts": 12,
+      "objectives": 96,
+      "blueprints": 0,
+      "relations": 8,
+      "exam_mappings": 0,
+      "mcqs": 5047
+    },
+    {
+      "subject_id": "git-github",
+      "concepts": 7,
+      "micro_concepts": 74,
+      "objectives": 379,
+      "blueprints": 0,
+      "relations": 7,
+      "exam_mappings": 16,
+      "mcqs": 31
+    },
+    {
+      "subject_id": "github",
+      "concepts": 3,
+      "micro_concepts": 6,
+      "objectives": 45,
+      "blueprints": 0,
+      "relations": 5,
+      "exam_mappings": 0,
+      "mcqs": 5028
+    },
+    {
+      "subject_id": "go",
+      "concepts": 6,
+      "micro_concepts": 112,
+      "objectives": 660,
+      "blueprints": 0,
+      "relations": 4,
+      "exam_mappings": 14,
+      "mcqs": 8003
+    },
+    {
+      "subject_id": "grammar",
+      "concepts": 9,
+      "micro_concepts": 59,
+      "objectives": 353,
+      "blueprints": 0,
+      "relations": 11,
+      "exam_mappings": 70,
+      "mcqs": 5085
+    },
+    {
+      "subject_id": "graphql",
+      "concepts": 4,
+      "micro_concepts": 27,
+      "objectives": 144,
+      "blueprints": 0,
+      "relations": 4,
+      "exam_mappings": 10,
+      "mcqs": 20
+    },
+    {
+      "subject_id": "gre",
+      "concepts": 3,
+      "micro_concepts": 20,
+      "objectives": 100,
+      "blueprints": 0,
+      "relations": 2,
+      "exam_mappings": 4,
+      "mcqs": 11
+    },
+    {
+      "subject_id": "gynecology",
+      "concepts": 9,
+      "micro_concepts": 24,
+      "objectives": 172,
+      "blueprints": 0,
+      "relations": 13,
+      "exam_mappings": 0,
+      "mcqs": 5113
+    },
+    {
+      "subject_id": "headmaster",
+      "concepts": 5,
+      "micro_concepts": 10,
+      "objectives": 50,
+      "blueprints": 0,
+      "relations": 8,
+      "exam_mappings": 6,
+      "mcqs": 17
+    },
+    {
+      "subject_id": "hesco",
+      "concepts": 5,
+      "micro_concepts": 10,
+      "objectives": 50,
+      "blueprints": 0,
+      "relations": 8,
+      "exam_mappings": 6,
+      "mcqs": 15
+    },
+    {
+      "subject_id": "histology",
+      "concepts": 4,
+      "micro_concepts": 22,
+      "objectives": 119,
+      "blueprints": 0,
+      "relations": 5,
+      "exam_mappings": 25,
+      "mcqs": 24
+    },
+    {
+      "subject_id": "history",
+      "concepts": 10,
+      "micro_concepts": 67,
+      "objectives": 388,
+      "blueprints": 0,
+      "relations": 17,
+      "exam_mappings": 66,
+      "mcqs": 5053
+    },
+    {
+      "subject_id": "hrm",
+      "concepts": 7,
+      "micro_concepts": 42,
+      "objectives": 238,
+      "blueprints": 0,
+      "relations": 7,
+      "exam_mappings": 32,
+      "mcqs": 5183
+    },
+    {
+      "subject_id": "html",
+      "concepts": 9,
+      "micro_concepts": 64,
+      "objectives": 347,
+      "blueprints": 0,
+      "relations": 10,
+      "exam_mappings": 30,
+      "mcqs": 5086
+    },
+    {
+      "subject_id": "ib",
+      "concepts": 4,
+      "micro_concepts": 15,
+      "objectives": 70,
+      "blueprints": 0,
+      "relations": 8,
+      "exam_mappings": 5,
+      "mcqs": 4
+    },
+    {
+      "subject_id": "idioms",
+      "concepts": 10,
+      "micro_concepts": 75,
+      "objectives": 456,
+      "blueprints": 0,
+      "relations": 14,
+      "exam_mappings": 66,
+      "mcqs": 5057
+    },
+    {
+      "subject_id": "ielts",
+      "concepts": 2,
+      "micro_concepts": 19,
+      "objectives": 95,
+      "blueprints": 0,
+      "relations": 2,
+      "exam_mappings": 3,
+      "mcqs": 12
+    },
+    {
+      "subject_id": "income-tax-inspector",
+      "concepts": 6,
+      "micro_concepts": 11,
+      "objectives": 57,
+      "blueprints": 0,
+      "relations": 10,
+      "exam_mappings": 7,
+      "mcqs": 19
+    },
+    {
+      "subject_id": "industrial-eng",
+      "concepts": 8,
+      "micro_concepts": 48,
+      "objectives": 273,
+      "blueprints": 0,
+      "relations": 10,
+      "exam_mappings": 36,
+      "mcqs": 5152
+    },
+    {
+      "subject_id": "inspector",
+      "concepts": 5,
+      "micro_concepts": 10,
+      "objectives": 50,
+      "blueprints": 0,
+      "relations": 8,
+      "exam_mappings": 6,
+      "mcqs": 18
+    },
+    {
+      "subject_id": "international-relations",
+      "concepts": 11,
+      "micro_concepts": 57,
+      "objectives": 370,
+      "blueprints": 0,
+      "relations": 19,
+      "exam_mappings": 60,
+      "mcqs": 5111
+    },
+    {
+      "subject_id": "iq",
+      "concepts": 6,
+      "micro_concepts": 254,
+      "objectives": 1317,
+      "blueprints": 0,
+      "relations": 5,
+      "exam_mappings": 147,
+      "mcqs": 5246
+    },
+    {
+      "subject_id": "islamic-studies",
+      "concepts": 31,
+      "micro_concepts": 247,
+      "objectives": 1493,
+      "blueprints": 0,
+      "relations": 23,
+      "exam_mappings": 1408,
+      "mcqs": 5271
+    },
+    {
+      "subject_id": "issb",
+      "concepts": 4,
+      "micro_concepts": 15,
+      "objectives": 67,
+      "blueprints": 0,
+      "relations": 8,
+      "exam_mappings": 5,
+      "mcqs": 4
+    },
+    {
+      "subject_id": "java",
+      "concepts": 7,
+      "micro_concepts": 114,
+      "objectives": 659,
+      "blueprints": 0,
+      "relations": 4,
+      "exam_mappings": 24,
+      "mcqs": 5100
+    },
+    {
+      "subject_id": "javascript",
+      "concepts": 8,
+      "micro_concepts": 121,
+      "objectives": 696,
+      "blueprints": 0,
+      "relations": 4,
+      "exam_mappings": 27,
+      "mcqs": 5101
+    },
+    {
+      "subject_id": "kppsc",
+      "concepts": 8,
+      "micro_concepts": 27,
+      "objectives": 162,
+      "blueprints": 0,
+      "relations": 10,
+      "exam_mappings": 9,
+      "mcqs": 51
+    },
+    {
+      "subject_id": "kubernetes",
+      "concepts": 9,
+      "micro_concepts": 36,
+      "objectives": 210,
+      "blueprints": 0,
+      "relations": 10,
+      "exam_mappings": 20,
+      "mcqs": 5018
+    },
+    {
+      "subject_id": "laravel",
+      "concepts": 8,
+      "micro_concepts": 34,
+      "objectives": 200,
+      "blueprints": 0,
+      "relations": 10,
+      "exam_mappings": 18,
+      "mcqs": 5018
+    },
+    {
+      "subject_id": "lat",
+      "concepts": 7,
+      "micro_concepts": 29,
+      "objectives": 179,
+      "blueprints": 0,
+      "relations": 5,
+      "exam_mappings": 8,
+      "mcqs": 65
+    },
+    {
+      "subject_id": "law",
+      "concepts": 12,
+      "micro_concepts": 68,
+      "objectives": 411,
+      "blueprints": 0,
+      "relations": 17,
+      "exam_mappings": 234,
+      "mcqs": 5112
+    },
+    {
+      "subject_id": "lecturer",
+      "concepts": 4,
+      "micro_concepts": 15,
+      "objectives": 67,
+      "blueprints": 0,
+      "relations": 8,
+      "exam_mappings": 5,
+      "mcqs": 4
+    },
+    {
+      "subject_id": "lesco",
+      "concepts": 4,
+      "micro_concepts": 6,
+      "objectives": 38,
+      "blueprints": 0,
+      "relations": 8,
+      "exam_mappings": 5,
+      "mcqs": 14
+    },
+    {
+      "subject_id": "linux",
+      "concepts": 9,
+      "micro_concepts": 69,
+      "objectives": 372,
+      "blueprints": 0,
+      "relations": 10,
+      "exam_mappings": 30,
+      "mcqs": 5037
+    },
+    {
+      "subject_id": "logical-reasoning",
+      "concepts": 8,
+      "micro_concepts": 207,
+      "objectives": 1053,
+      "blueprints": 0,
+      "relations": 7,
+      "exam_mappings": 99,
+      "mcqs": 279
+    },
+    {
+      "subject_id": "machine-learning",
+      "concepts": 13,
+      "micro_concepts": 105,
+      "objectives": 657,
+      "blueprints": 0,
+      "relations": 19,
+      "exam_mappings": 42,
+      "mcqs": 5333
+    },
+    {
+      "subject_id": "management",
+      "concepts": 6,
+      "micro_concepts": 11,
+      "objectives": 88,
+      "blueprints": 0,
+      "relations": 8,
+      "exam_mappings": 0,
+      "mcqs": 5269
+    },
+    {
+      "subject_id": "management-accounting",
+      "concepts": 9,
+      "micro_concepts": 12,
+      "objectives": 96,
+      "blueprints": 0,
+      "relations": 13,
+      "exam_mappings": 0,
+      "mcqs": 5759
+    },
+    {
+      "subject_id": "marketing",
+      "concepts": 7,
+      "micro_concepts": 41,
+      "objectives": 235,
+      "blueprints": 0,
+      "relations": 7,
+      "exam_mappings": 32,
+      "mcqs": 5337
+    },
+    {
+      "subject_id": "mathematics",
+      "concepts": 21,
+      "micro_concepts": 749,
+      "objectives": 4435,
+      "blueprints": 0,
+      "relations": 6,
+      "exam_mappings": 929,
+      "mcqs": 115332
+    },
+    {
+      "subject_id": "mbbs",
+      "concepts": 2,
+      "micro_concepts": 22,
+      "objectives": 110,
+      "blueprints": 0,
+      "relations": 2,
+      "exam_mappings": 6,
+      "mcqs": 15
+    },
+    {
+      "subject_id": "mdcat",
+      "concepts": 8,
+      "micro_concepts": 36,
+      "objectives": 217,
+      "blueprints": 0,
+      "relations": 5,
+      "exam_mappings": 9,
+      "mcqs": 85
+    },
+    {
+      "subject_id": "mechanical-eng",
+      "concepts": 9,
+      "micro_concepts": 76,
+      "objectives": 411,
+      "blueprints": 0,
+      "relations": 10,
+      "exam_mappings": 90,
+      "mcqs": 5265
+    },
+    {
+      "subject_id": "mechatronics",
+      "concepts": 7,
+      "micro_concepts": 32,
+      "objectives": 190,
+      "blueprints": 0,
+      "relations": 8,
+      "exam_mappings": 56,
+      "mcqs": 5176
+    },
+    {
+      "subject_id": "medical",
+      "concepts": 9,
+      "micro_concepts": 67,
+      "objectives": 420,
+      "blueprints": 0,
+      "relations": 14,
+      "exam_mappings": 40,
+      "mcqs": 5272
+    },
+    {
+      "subject_id": "medicine",
+      "concepts": 10,
+      "micro_concepts": 43,
+      "objectives": 278,
+      "blueprints": 0,
+      "relations": 13,
+      "exam_mappings": 55,
+      "mcqs": 5160
+    },
+    {
+      "subject_id": "mepco",
+      "concepts": 5,
+      "micro_concepts": 10,
+      "objectives": 50,
+      "blueprints": 0,
+      "relations": 8,
+      "exam_mappings": 6,
+      "mcqs": 14
+    },
+    {
+      "subject_id": "microbiology",
+      "concepts": 10,
+      "micro_concepts": 45,
+      "objectives": 292,
+      "blueprints": 0,
+      "relations": 13,
+      "exam_mappings": 55,
+      "mcqs": 5081
+    },
+    {
+      "subject_id": "mining-engineering",
+      "concepts": 4,
+      "micro_concepts": 12,
+      "objectives": 96,
+      "blueprints": 0,
+      "relations": 8,
+      "exam_mappings": 0,
+      "mcqs": 5085
+    },
+    {
+      "subject_id": "mobile-development",
+      "concepts": 7,
+      "micro_concepts": 13,
+      "objectives": 104,
+      "blueprints": 0,
+      "relations": 10,
+      "exam_mappings": 0,
+      "mcqs": 5020
+    },
+    {
+      "subject_id": "mod",
+      "concepts": 6,
+      "micro_concepts": 19,
+      "objectives": 99,
+      "blueprints": 0,
+      "relations": 10,
+      "exam_mappings": 7,
+      "mcqs": 18
+    },
+    {
+      "subject_id": "mongodb",
+      "concepts": 7,
+      "micro_concepts": 13,
+      "objectives": 104,
+      "blueprints": 0,
+      "relations": 10,
+      "exam_mappings": 0,
+      "mcqs": 5039
+    },
+    {
+      "subject_id": "motorway-police",
+      "concepts": 6,
+      "micro_concepts": 19,
+      "objectives": 95,
+      "blueprints": 0,
+      "relations": 10,
+      "exam_mappings": 7,
+      "mcqs": 20
+    },
+    {
+      "subject_id": "ms-office",
+      "concepts": 8,
+      "micro_concepts": 77,
+      "objectives": 398,
+      "blueprints": 0,
+      "relations": 5,
+      "exam_mappings": 254,
+      "mcqs": 34
+    },
+    {
+      "subject_id": "nab",
+      "concepts": 4,
+      "micro_concepts": 15,
+      "objectives": 67,
+      "blueprints": 0,
+      "relations": 8,
+      "exam_mappings": 5,
+      "mcqs": 4
+    },
+    {
+      "subject_id": "nadra",
+      "concepts": 6,
+      "micro_concepts": 19,
+      "objectives": 102,
+      "blueprints": 0,
+      "relations": 10,
+      "exam_mappings": 7,
+      "mcqs": 15
+    },
+    {
+      "subject_id": "navy",
+      "concepts": 7,
+      "micro_concepts": 23,
+      "objectives": 131,
+      "blueprints": 0,
+      "relations": 10,
+      "exam_mappings": 8,
+      "mcqs": 29
+    },
+    {
+      "subject_id": "networking",
+      "concepts": 7,
+      "micro_concepts": 46,
+      "objectives": 248,
+      "blueprints": 0,
+      "relations": 8,
+      "exam_mappings": 56,
+      "mcqs": 5018
+    },
+    {
+      "subject_id": "next-js",
+      "concepts": 6,
+      "micro_concepts": 36,
+      "objectives": 183,
+      "blueprints": 0,
+      "relations": 9,
+      "exam_mappings": 14,
+      "mcqs": 21
+    },
+    {
+      "subject_id": "node-js",
+      "concepts": 8,
+      "micro_concepts": 43,
+      "objectives": 242,
+      "blueprints": 0,
+      "relations": 11,
+      "exam_mappings": 18,
+      "mcqs": 5291
+    },
+    {
+      "subject_id": "non-verbal-reasoning",
+      "concepts": 7,
+      "micro_concepts": 191,
+      "objectives": 1140,
+      "blueprints": 0,
+      "relations": 7,
+      "exam_mappings": 32,
+      "mcqs": 342
+    },
+    {
+      "subject_id": "nosql",
+      "concepts": 4,
+      "micro_concepts": 8,
+      "objectives": 64,
+      "blueprints": 0,
+      "relations": 8,
+      "exam_mappings": 0,
+      "mcqs": 5043
+    },
+    {
+      "subject_id": "nts",
+      "concepts": 4,
+      "micro_concepts": 15,
+      "objectives": 70,
+      "blueprints": 0,
+      "relations": 8,
+      "exam_mappings": 5,
+      "mcqs": 4
+    },
+    {
+      "subject_id": "nursing",
+      "concepts": 8,
+      "micro_concepts": 41,
+      "objectives": 268,
+      "blueprints": 0,
+      "relations": 14,
+      "exam_mappings": 36,
+      "mcqs": 5202
+    },
+    {
+      "subject_id": "nutrition",
+      "concepts": 5,
+      "micro_concepts": 10,
+      "objectives": 80,
+      "blueprints": 0,
+      "relations": 11,
+      "exam_mappings": 0,
+      "mcqs": 5002
+    },
+    {
+      "subject_id": "operating-systems",
+      "concepts": 8,
+      "micro_concepts": 61,
+      "objectives": 329,
+      "blueprints": 0,
+      "relations": 11,
+      "exam_mappings": 63,
+      "mcqs": 5052
+    },
+    {
+      "subject_id": "ophthalmology",
+      "concepts": 7,
+      "micro_concepts": 16,
+      "objectives": 128,
+      "blueprints": 0,
+      "relations": 10,
+      "exam_mappings": 0,
+      "mcqs": 5039
+    },
+    {
+      "subject_id": "oral-anatomy",
+      "concepts": 11,
+      "micro_concepts": 51,
+      "objectives": 315,
+      "blueprints": 0,
+      "relations": 15,
+      "exam_mappings": 24,
+      "mcqs": 5088
+    },
+    {
+      "subject_id": "oral-histology",
+      "concepts": 6,
+      "micro_concepts": 49,
+      "objectives": 290,
+      "blueprints": 0,
+      "relations": 10,
+      "exam_mappings": 14,
+      "mcqs": 5102
+    },
+    {
+      "subject_id": "oral-pathology",
+      "concepts": 5,
+      "micro_concepts": 46,
+      "objectives": 266,
+      "blueprints": 0,
+      "relations": 8,
+      "exam_mappings": 12,
+      "mcqs": 5073
+    },
+    {
+      "subject_id": "organization-behavior",
+      "concepts": 9,
+      "micro_concepts": 12,
+      "objectives": 96,
+      "blueprints": 0,
+      "relations": 10,
+      "exam_mappings": 0,
+      "mcqs": 5037
+    },
+    {
+      "subject_id": "ots",
+      "concepts": 4,
+      "micro_concepts": 15,
+      "objectives": 66,
+      "blueprints": 0,
+      "relations": 8,
+      "exam_mappings": 5,
+      "mcqs": 4
+    },
+    {
+      "subject_id": "paf",
+      "concepts": 7,
+      "micro_concepts": 23,
+      "objectives": 127,
+      "blueprints": 0,
+      "relations": 10,
+      "exam_mappings": 8,
+      "mcqs": 29
+    },
+    {
+      "subject_id": "pakistan-affairs",
+      "concepts": 36,
+      "micro_concepts": 207,
+      "objectives": 1342,
+      "blueprints": 0,
+      "relations": 28,
+      "exam_mappings": 1850,
+      "mcqs": 5261
+    },
+    {
+      "subject_id": "pakistan-history",
+      "concepts": 12,
+      "micro_concepts": 100,
+      "objectives": 596,
+      "blueprints": 0,
+      "relations": 19,
+      "exam_mappings": 65,
+      "mcqs": 5066
+    },
+    {
+      "subject_id": "pakistan-post",
+      "concepts": 5,
+      "micro_concepts": 10,
+      "objectives": 50,
+      "blueprints": 0,
+      "relations": 8,
+      "exam_mappings": 6,
+      "mcqs": 19
+    },
+    {
+      "subject_id": "pathology",
+      "concepts": 10,
+      "micro_concepts": 46,
+      "objectives": 289,
+      "blueprints": 0,
+      "relations": 13,
+      "exam_mappings": 55,
+      "mcqs": 5110
+    },
+    {
+      "subject_id": "pedagogy",
+      "concepts": 2,
+      "micro_concepts": 31,
+      "objectives": 153,
+      "blueprints": 0,
+      "relations": 2,
+      "exam_mappings": 33,
+      "mcqs": 31
+    },
+    {
+      "subject_id": "pediatrics",
+      "concepts": 6,
+      "micro_concepts": 25,
+      "objectives": 195,
+      "blueprints": 0,
+      "relations": 11,
+      "exam_mappings": 0,
+      "mcqs": 5092
+    },
+    {
+      "subject_id": "petroleum-engineering",
+      "concepts": 8,
+      "micro_concepts": 15,
+      "objectives": 120,
+      "blueprints": 0,
+      "relations": 13,
+      "exam_mappings": 0,
+      "mcqs": 5147
+    },
+    {
+      "subject_id": "pharmacology",
+      "concepts": 9,
+      "micro_concepts": 49,
+      "objectives": 311,
+      "blueprints": 0,
+      "relations": 13,
+      "exam_mappings": 30,
+      "mcqs": 5160
+    },
+    {
+      "subject_id": "pharmacy",
+      "concepts": 8,
+      "micro_concepts": 49,
+      "objectives": 328,
+      "blueprints": 0,
+      "relations": 14,
+      "exam_mappings": 36,
+      "mcqs": 5153
+    },
+    {
+      "subject_id": "php",
+      "concepts": 7,
+      "micro_concepts": 111,
+      "objectives": 656,
+      "blueprints": 0,
+      "relations": 4,
+      "exam_mappings": 24,
+      "mcqs": 5097
+    },
+    {
+      "subject_id": "physical-education",
+      "concepts": 3,
+      "micro_concepts": 36,
+      "objectives": 171,
+      "blueprints": 0,
+      "relations": 5,
+      "exam_mappings": 20,
+      "mcqs": 18
+    },
+    {
+      "subject_id": "physics",
+      "concepts": 3,
+      "micro_concepts": 150,
+      "objectives": 785,
+      "blueprints": 0,
+      "relations": 2,
+      "exam_mappings": 53,
+      "mcqs": 9326
+    },
+    {
+      "subject_id": "physiology",
+      "concepts": 9,
+      "micro_concepts": 38,
+      "objectives": 247,
+      "blueprints": 0,
+      "relations": 10,
+      "exam_mappings": 50,
+      "mcqs": 5101
+    },
+    {
+      "subject_id": "pma",
+      "concepts": 7,
+      "micro_concepts": 23,
+      "objectives": 127,
+      "blueprints": 0,
+      "relations": 10,
+      "exam_mappings": 8,
+      "mcqs": 28
+    },
+    {
+      "subject_id": "pms",
+      "concepts": 4,
+      "micro_concepts": 15,
+      "objectives": 67,
+      "blueprints": 0,
+      "relations": 8,
+      "exam_mappings": 5,
+      "mcqs": 4
+    },
+    {
+      "subject_id": "police",
+      "concepts": 4,
+      "micro_concepts": 15,
+      "objectives": 67,
+      "blueprints": 0,
+      "relations": 8,
+      "exam_mappings": 5,
+      "mcqs": 4
+    },
+    {
+      "subject_id": "political-science",
+      "concepts": 10,
+      "micro_concepts": 67,
+      "objectives": 441,
+      "blueprints": 0,
+      "relations": 19,
+      "exam_mappings": 55,
+      "mcqs": 5056
+    },
+    {
+      "subject_id": "postgresql",
+      "concepts": 7,
+      "micro_concepts": 13,
+      "objectives": 104,
+      "blueprints": 0,
+      "relations": 10,
+      "exam_mappings": 0,
+      "mcqs": 5064
+    },
+    {
+      "subject_id": "ppsc",
+      "concepts": 4,
+      "micro_concepts": 15,
+      "objectives": 66,
+      "blueprints": 0,
+      "relations": 8,
+      "exam_mappings": 5,
+      "mcqs": 4
+    },
+    {
+      "subject_id": "programming",
+      "concepts": 5,
+      "micro_concepts": 42,
+      "objectives": 220,
+      "blueprints": 0,
+      "relations": 2,
+      "exam_mappings": 48,
+      "mcqs": 40
+    },
+    {
+      "subject_id": "programming-fundamentals",
+      "concepts": 8,
+      "micro_concepts": 20,
+      "objectives": 160,
+      "blueprints": 0,
+      "relations": 11,
+      "exam_mappings": 0,
+      "mcqs": 5008
+    },
+    {
+      "subject_id": "project-management",
+      "concepts": 7,
+      "micro_concepts": 13,
+      "objectives": 104,
+      "blueprints": 0,
+      "relations": 10,
+      "exam_mappings": 0,
+      "mcqs": 5021
+    },
+    {
+      "subject_id": "psychology",
+      "concepts": 9,
+      "micro_concepts": 53,
+      "objectives": 302,
+      "blueprints": 0,
+      "relations": 14,
+      "exam_mappings": 110,
+      "mcqs": 5073
+    },
+    {
+      "subject_id": "pts",
+      "concepts": 4,
+      "micro_concepts": 15,
+      "objectives": 66,
+      "blueprints": 0,
+      "relations": 8,
+      "exam_mappings": 5,
+      "mcqs": 4
+    },
+    {
+      "subject_id": "public-health",
+      "concepts": 7,
+      "micro_concepts": 13,
+      "objectives": 104,
+      "blueprints": 0,
+      "relations": 10,
+      "exam_mappings": 0,
+      "mcqs": 5379
+    },
+    {
+      "subject_id": "punjab-police",
+      "concepts": 7,
+      "micro_concepts": 23,
+      "objectives": 130,
+      "blueprints": 0,
+      "relations": 10,
+      "exam_mappings": 8,
+      "mcqs": 29
+    },
+    {
+      "subject_id": "python",
+      "concepts": 7,
+      "micro_concepts": 118,
+      "objectives": 674,
+      "blueprints": 0,
+      "relations": 4,
+      "exam_mappings": 24,
+      "mcqs": 5113
+    },
+    {
+      "subject_id": "railway",
+      "concepts": 4,
+      "micro_concepts": 15,
+      "objectives": 63,
+      "blueprints": 0,
+      "relations": 8,
+      "exam_mappings": 5,
+      "mcqs": 4
+    },
+    {
+      "subject_id": "react",
+      "concepts": 8,
+      "micro_concepts": 42,
+      "objectives": 250,
+      "blueprints": 0,
+      "relations": 10,
+      "exam_mappings": 27,
+      "mcqs": 5012
+    },
+    {
+      "subject_id": "reasoning",
+      "concepts": 6,
+      "micro_concepts": 35,
+      "objectives": 188,
+      "blueprints": 0,
+      "relations": 7,
+      "exam_mappings": 226,
+      "mcqs": 31
+    },
+    {
+      "subject_id": "rescue-1122",
+      "concepts": 5,
+      "micro_concepts": 10,
+      "objectives": 50,
+      "blueprints": 0,
+      "relations": 8,
+      "exam_mappings": 6,
+      "mcqs": 19
+    },
+    {
+      "subject_id": "rest-api",
+      "concepts": 5,
+      "micro_concepts": 44,
+      "objectives": 220,
+      "blueprints": 0,
+      "relations": 7,
+      "exam_mappings": 12,
+      "mcqs": 17
+    },
+    {
+      "subject_id": "rust",
+      "concepts": 7,
+      "micro_concepts": 112,
+      "objectives": 660,
+      "blueprints": 0,
+      "relations": 4,
+      "exam_mappings": 16,
+      "mcqs": 9477
+    },
+    {
+      "subject_id": "sat",
+      "concepts": 3,
+      "micro_concepts": 20,
+      "objectives": 102,
+      "blueprints": 0,
+      "relations": 2,
+      "exam_mappings": 4,
+      "mcqs": 11
+    },
+    {
+      "subject_id": "sbp",
+      "concepts": 6,
+      "micro_concepts": 19,
+      "objectives": 99,
+      "blueprints": 0,
+      "relations": 10,
+      "exam_mappings": 7,
+      "mcqs": 20
+    },
+    {
+      "subject_id": "sentence-correction",
+      "concepts": 8,
+      "micro_concepts": 28,
+      "objectives": 133,
+      "blueprints": 0,
+      "relations": 14,
+      "exam_mappings": 45,
+      "mcqs": 5052
+    },
+    {
+      "subject_id": "sepco",
+      "concepts": 5,
+      "micro_concepts": 10,
+      "objectives": 50,
+      "blueprints": 0,
+      "relations": 8,
+      "exam_mappings": 6,
+      "mcqs": 14
+    },
+    {
+      "subject_id": "sngpl",
+      "concepts": 5,
+      "micro_concepts": 10,
+      "objectives": 50,
+      "blueprints": 0,
+      "relations": 8,
+      "exam_mappings": 6,
+      "mcqs": 14
+    },
+    {
+      "subject_id": "sociology",
+      "concepts": 2,
+      "micro_concepts": 27,
+      "objectives": 135,
+      "blueprints": 0,
+      "relations": 2,
+      "exam_mappings": 15,
+      "mcqs": 20
+    },
+    {
+      "subject_id": "software-eng",
+      "concepts": 10,
+      "micro_concepts": 87,
+      "objectives": 454,
+      "blueprints": 0,
+      "relations": 11,
+      "exam_mappings": 77,
+      "mcqs": 5046
+    },
+    {
+      "subject_id": "spring-boot",
+      "concepts": 4,
+      "micro_concepts": 34,
+      "objectives": 170,
+      "blueprints": 0,
+      "relations": 5,
+      "exam_mappings": 10,
+      "mcqs": 14
+    },
+    {
+      "subject_id": "spsc",
+      "concepts": 8,
+      "micro_concepts": 27,
+      "objectives": 162,
+      "blueprints": 0,
+      "relations": 10,
+      "exam_mappings": 9,
+      "mcqs": 48
+    },
+    {
+      "subject_id": "sql",
+      "concepts": 13,
+      "micro_concepts": 53,
+      "objectives": 334,
+      "blueprints": 0,
+      "relations": 14,
+      "exam_mappings": 42,
+      "mcqs": 5002
+    },
+    {
+      "subject_id": "sqlite",
+      "concepts": 4,
+      "micro_concepts": 8,
+      "objectives": 64,
+      "blueprints": 0,
+      "relations": 8,
+      "exam_mappings": 0,
+      "mcqs": 5046
+    },
+    {
+      "subject_id": "ssgc",
+      "concepts": 5,
+      "micro_concepts": 10,
+      "objectives": 50,
+      "blueprints": 0,
+      "relations": 8,
+      "exam_mappings": 6,
+      "mcqs": 16
+    },
+    {
+      "subject_id": "sst",
+      "concepts": 5,
+      "micro_concepts": 10,
+      "objectives": 50,
+      "blueprints": 0,
+      "relations": 8,
+      "exam_mappings": 6,
+      "mcqs": 16
+    },
+    {
+      "subject_id": "statistics",
+      "concepts": 7,
+      "micro_concepts": 205,
+      "objectives": 1085,
+      "blueprints": 0,
+      "relations": 4,
+      "exam_mappings": 88,
+      "mcqs": 42470
+    },
+    {
+      "subject_id": "sub-inspector",
+      "concepts": 5,
+      "micro_concepts": 10,
+      "objectives": 50,
+      "blueprints": 0,
+      "relations": 8,
+      "exam_mappings": 6,
+      "mcqs": 17
+    },
+    {
+      "subject_id": "supply-chain",
+      "concepts": 8,
+      "micro_concepts": 40,
+      "objectives": 236,
+      "blueprints": 0,
+      "relations": 10,
+      "exam_mappings": 54,
+      "mcqs": 5270
+    },
+    {
+      "subject_id": "surgery",
+      "concepts": 9,
+      "micro_concepts": 45,
+      "objectives": 288,
+      "blueprints": 0,
+      "relations": 13,
+      "exam_mappings": 50,
+      "mcqs": 5051
+    },
+    {
+      "subject_id": "synonyms",
+      "concepts": 10,
+      "micro_concepts": 56,
+      "objectives": 310,
+      "blueprints": 0,
+      "relations": 13,
+      "exam_mappings": 66,
+      "mcqs": 5007
+    },
+    {
+      "subject_id": "system-design",
+      "concepts": 4,
+      "micro_concepts": 8,
+      "objectives": 64,
+      "blueprints": 0,
+      "relations": 8,
+      "exam_mappings": 0,
+      "mcqs": 5013
+    },
+    {
+      "subject_id": "tailwind-css",
+      "concepts": 6,
+      "micro_concepts": 39,
+      "objectives": 204,
+      "blueprints": 0,
+      "relations": 7,
+      "exam_mappings": 14,
+      "mcqs": 22
+    },
+    {
+      "subject_id": "taxation",
+      "concepts": 6,
+      "micro_concepts": 11,
+      "objectives": 88,
+      "blueprints": 0,
+      "relations": 7,
+      "exam_mappings": 0,
+      "mcqs": 5104
+    },
+    {
+      "subject_id": "teaching",
+      "concepts": 5,
+      "micro_concepts": 10,
+      "objectives": 50,
+      "blueprints": 0,
+      "relations": 8,
+      "exam_mappings": 6,
+      "mcqs": 18
+    },
+    {
+      "subject_id": "telecommunication",
+      "concepts": 3,
+      "micro_concepts": 6,
+      "objectives": 48,
+      "blueprints": 0,
+      "relations": 5,
+      "exam_mappings": 0,
+      "mcqs": 5007
+    },
+    {
+      "subject_id": "textile-engineering",
+      "concepts": 7,
+      "micro_concepts": 14,
+      "objectives": 110,
+      "blueprints": 0,
+      "relations": 11,
+      "exam_mappings": 0,
+      "mcqs": 5147
+    },
+    {
+      "subject_id": "toefl",
+      "concepts": 4,
+      "micro_concepts": 19,
+      "objectives": 104,
+      "blueprints": 0,
+      "relations": 4,
+      "exam_mappings": 5,
+      "mcqs": 16
+    },
+    {
+      "subject_id": "typescript",
+      "concepts": 12,
+      "micro_concepts": 37,
+      "objectives": 232,
+      "blueprints": 0,
+      "relations": 9,
+      "exam_mappings": 26,
+      "mcqs": 5185
+    },
+    {
+      "subject_id": "urdu",
+      "concepts": 12,
+      "micro_concepts": 217,
+      "objectives": 1087,
+      "blueprints": 0,
+      "relations": 13,
+      "exam_mappings": 523,
+      "mcqs": 5000
+    },
+    {
+      "subject_id": "verbal-reasoning",
+      "concepts": 8,
+      "micro_concepts": 194,
+      "objectives": 1155,
+      "blueprints": 0,
+      "relations": 7,
+      "exam_mappings": 45,
+      "mcqs": 345
+    },
+    {
+      "subject_id": "veterinary",
+      "concepts": 3,
+      "micro_concepts": 36,
+      "objectives": 180,
+      "blueprints": 0,
+      "relations": 5,
+      "exam_mappings": 16,
+      "mcqs": 17
+    },
+    {
+      "subject_id": "vocabulary",
+      "concepts": 13,
+      "micro_concepts": 118,
+      "objectives": 639,
+      "blueprints": 0,
+      "relations": 13,
+      "exam_mappings": 112,
+      "mcqs": 5004
+    },
+    {
+      "subject_id": "vue-js",
+      "concepts": 10,
+      "micro_concepts": 44,
+      "objectives": 253,
+      "blueprints": 0,
+      "relations": 13,
+      "exam_mappings": 22,
+      "mcqs": 5037
+    },
+    {
+      "subject_id": "wapda",
+      "concepts": 7,
+      "micro_concepts": 23,
+      "objectives": 134,
+      "blueprints": 0,
+      "relations": 10,
+      "exam_mappings": 8,
+      "mcqs": 30
+    },
+    {
+      "subject_id": "web-development",
+      "concepts": 7,
+      "micro_concepts": 13,
+      "objectives": 104,
+      "blueprints": 0,
+      "relations": 10,
+      "exam_mappings": 0,
+      "mcqs": 5206
+    },
+    {
+      "subject_id": "windows",
+      "concepts": 5,
+      "micro_concepts": 43,
+      "objectives": 224,
+      "blueprints": 0,
+      "relations": 4,
+      "exam_mappings": 18,
+      "mcqs": 30
+    },
+    {
+      "subject_id": "world-current-affairs",
+      "concepts": 5,
+      "micro_concepts": 47,
+      "objectives": 235,
+      "blueprints": 0,
+      "relations": 7,
+      "exam_mappings": 30,
+      "mcqs": 22
+    },
+    {
+      "subject_id": "world-history",
+      "concepts": 12,
+      "micro_concepts": 143,
+      "objectives": 862,
+      "blueprints": 0,
+      "relations": 17,
+      "exam_mappings": 52,
+      "mcqs": 5006
+    },
+    {
+      "subject_id": "zoology",
+      "concepts": 5,
+      "micro_concepts": 43,
+      "objectives": 224,
+      "blueprints": 0,
+      "relations": 4,
+      "exam_mappings": 32,
+      "mcqs": 36
+    }
+  ],
+  "connectivity_ranking": [
+    {
+      "concept_id": 15496,
+      "concept_name": "Computer Science",
+      "subject_id": "computer-science",
+      "outgoing_relations": 7,
+      "incoming_relations": 7,
+      "outgoing_prereqs": 0,
+      "incoming_prereqs": 0,
+      "total_connections": 14
+    },
+    {
+      "concept_id": 15792,
+      "concept_name": "Everyday Science",
+      "subject_id": "everyday-science",
+      "outgoing_relations": 7,
+      "incoming_relations": 7,
+      "outgoing_prereqs": 0,
+      "incoming_prereqs": 0,
+      "total_connections": 14
+    },
+    {
+      "concept_id": 15877,
+      "concept_name": "sports",
+      "subject_id": "general-knowledge",
+      "outgoing_relations": 7,
+      "incoming_relations": 7,
+      "outgoing_prereqs": 0,
+      "incoming_prereqs": 0,
+      "total_connections": 14
+    },
+    {
+      "concept_id": 16044,
+      "concept_name": "Islamic Studies",
+      "subject_id": "islamic-studies",
+      "outgoing_relations": 7,
+      "incoming_relations": 7,
+      "outgoing_prereqs": 0,
+      "incoming_prereqs": 0,
+      "total_connections": 14
+    },
+    {
+      "concept_id": 16440,
+      "concept_name": "Pakistan Affairs",
+      "subject_id": "pakistan-affairs",
+      "outgoing_relations": 7,
+      "incoming_relations": 7,
+      "outgoing_prereqs": 0,
+      "incoming_prereqs": 0,
+      "total_connections": 14
+    },
+    {
+      "concept_id": 15207,
+      "concept_name": "ai",
+      "subject_id": "ai",
+      "outgoing_relations": 6,
+      "incoming_relations": 6,
+      "outgoing_prereqs": 0,
+      "incoming_prereqs": 0,
+      "total_connections": 12
+    },
+    {
+      "concept_id": 15368,
+      "concept_name": "genetics",
+      "subject_id": "biology",
+      "outgoing_relations": 6,
+      "incoming_relations": 6,
+      "outgoing_prereqs": 0,
+      "incoming_prereqs": 0,
+      "total_connections": 12
+    },
+    {
+      "concept_id": 15435,
+      "concept_name": "periodic table",
+      "subject_id": "chemistry",
+      "outgoing_relations": 6,
+      "incoming_relations": 6,
+      "outgoing_prereqs": 0,
+      "incoming_prereqs": 0,
+      "total_connections": 12
+    },
+    {
+      "concept_id": 15547,
+      "concept_name": "current affairs",
+      "subject_id": "current-affairs",
+      "outgoing_relations": 6,
+      "incoming_relations": 6,
+      "outgoing_prereqs": 0,
+      "incoming_prereqs": 0,
+      "total_connections": 12
+    },
+    {
+      "concept_id": 15582,
+      "concept_name": "data science",
+      "subject_id": "data-science",
+      "outgoing_relations": 6,
+      "incoming_relations": 6,
+      "outgoing_prereqs": 0,
+      "incoming_prereqs": 0,
+      "total_connections": 12
+    },
+    {
+      "concept_id": 15674,
+      "concept_name": "Economics",
+      "subject_id": "economics",
+      "outgoing_relations": 6,
+      "incoming_relations": 6,
+      "outgoing_prereqs": 0,
+      "incoming_prereqs": 0,
+      "total_connections": 12
+    },
+    {
+      "concept_id": 15767,
+      "concept_name": "Environmental Science",
+      "subject_id": "environmental-science",
+      "outgoing_relations": 6,
+      "incoming_relations": 6,
+      "outgoing_prereqs": 0,
+      "incoming_prereqs": 0,
+      "total_connections": 12
+    },
+    {
+      "concept_id": 15966,
+      "concept_name": "World History",
+      "subject_id": "history",
+      "outgoing_relations": 6,
+      "incoming_relations": 6,
+      "outgoing_prereqs": 0,
+      "incoming_prereqs": 0,
+      "total_connections": 12
+    },
+    {
+      "concept_id": 16027,
+      "concept_name": "International Relations",
+      "subject_id": "international-relations",
+      "outgoing_relations": 6,
+      "incoming_relations": 6,
+      "outgoing_prereqs": 0,
+      "incoming_prereqs": 0,
+      "total_connections": 12
+    },
+    {
+      "concept_id": 16126,
+      "concept_name": "Law",
+      "subject_id": "law",
+      "outgoing_relations": 6,
+      "incoming_relations": 6,
+      "outgoing_prereqs": 0,
+      "incoming_prereqs": 0,
+      "total_connections": 12
+    },
+    {
+      "concept_id": 16163,
+      "concept_name": "Machine Learning",
+      "subject_id": "machine-learning",
+      "outgoing_relations": 6,
+      "incoming_relations": 6,
+      "outgoing_prereqs": 0,
+      "incoming_prereqs": 0,
+      "total_connections": 12
+    },
+    {
+      "concept_id": 16476,
+      "concept_name": "Pakistan History",
+      "subject_id": "pakistan-history",
+      "outgoing_relations": 6,
+      "incoming_relations": 6,
+      "outgoing_prereqs": 0,
+      "incoming_prereqs": 0,
+      "total_connections": 12
+    },
+    {
+      "concept_id": 16573,
+      "concept_name": "Political Science",
+      "subject_id": "political-science",
+      "outgoing_relations": 6,
+      "incoming_relations": 6,
+      "outgoing_prereqs": 0,
+      "incoming_prereqs": 0,
+      "total_connections": 12
+    },
+    {
+      "concept_id": 16917,
+      "concept_name": "World History",
+      "subject_id": "world-history",
+      "outgoing_relations": 6,
+      "incoming_relations": 6,
+      "outgoing_prereqs": 0,
+      "incoming_prereqs": 0,
+      "total_connections": 12
+    },
+    {
+      "concept_id": 15190,
+      "concept_name": "accounting",
+      "subject_id": "accounting",
+      "outgoing_relations": 5,
+      "incoming_relations": 5,
+      "outgoing_prereqs": 0,
+      "incoming_prereqs": 0,
+      "total_connections": 10
+    },
+    {
+      "concept_id": 15199,
+      "concept_name": "Agriculture",
+      "subject_id": "agriculture",
+      "outgoing_relations": 5,
+      "incoming_relations": 5,
+      "outgoing_prereqs": 0,
+      "incoming_prereqs": 0,
+      "total_connections": 10
+    },
+    {
+      "concept_id": 15738,
+      "concept_name": "English Literature",
+      "subject_id": "english-literature",
+      "outgoing_relations": 5,
+      "incoming_relations": 5,
+      "outgoing_prereqs": 0,
+      "incoming_prereqs": 0,
+      "total_connections": 10
+    },
+    {
+      "concept_id": 15843,
+      "concept_name": "finance",
+      "subject_id": "finance",
+      "outgoing_relations": 5,
+      "incoming_relations": 5,
+      "outgoing_prereqs": 0,
+      "incoming_prereqs": 0,
+      "total_connections": 10
+    },
+    {
+      "concept_id": 15894,
+      "concept_name": "Geography",
+      "subject_id": "geography",
+      "outgoing_relations": 5,
+      "incoming_relations": 5,
+      "outgoing_prereqs": 0,
+      "incoming_prereqs": 0,
+      "total_connections": 10
+    },
+    {
+      "concept_id": 15996,
+      "concept_name": "Idioms & Phrases",
+      "subject_id": "idioms",
+      "outgoing_relations": 5,
+      "incoming_relations": 5,
+      "outgoing_prereqs": 0,
+      "incoming_prereqs": 0,
+      "total_connections": 10
+    },
+    {
+      "concept_id": 16245,
+      "concept_name": "pharmacology",
+      "subject_id": "medical",
+      "outgoing_relations": 5,
+      "incoming_relations": 5,
+      "outgoing_prereqs": 0,
+      "incoming_prereqs": 0,
+      "total_connections": 10
+    },
+    {
+      "concept_id": 16370,
+      "concept_name": "Nursing",
+      "subject_id": "nursing",
+      "outgoing_relations": 5,
+      "incoming_relations": 5,
+      "outgoing_prereqs": 0,
+      "incoming_prereqs": 0,
+      "total_connections": 10
+    },
+    {
+      "concept_id": 16528,
+      "concept_name": "Pharmacy",
+      "subject_id": "pharmacy",
+      "outgoing_relations": 5,
+      "incoming_relations": 5,
+      "outgoing_prereqs": 0,
+      "incoming_prereqs": 0,
+      "total_connections": 10
+    },
+    {
+      "concept_id": 16614,
+      "concept_name": "Psychology",
+      "subject_id": "psychology",
+      "outgoing_relations": 5,
+      "incoming_relations": 5,
+      "outgoing_prereqs": 0,
+      "incoming_prereqs": 0,
+      "total_connections": 10
+    },
+    {
+      "concept_id": 16692,
+      "concept_name": "sentence-correction",
+      "subject_id": "sentence-correction",
+      "outgoing_relations": 5,
+      "incoming_relations": 5,
+      "outgoing_prereqs": 0,
+      "incoming_prereqs": 0,
+      "total_connections": 10
+    },
+    {
+      "concept_id": 15266,
+      "concept_name": "Antonyms",
+      "subject_id": "antonyms",
+      "outgoing_relations": 4,
+      "incoming_relations": 4,
+      "outgoing_prereqs": 0,
+      "incoming_prereqs": 0,
+      "total_connections": 8
+    },
+    {
+      "concept_id": 15292,
+      "concept_name": "Artificial Intelligence (Orig)",
+      "subject_id": "artificial-intelligence",
+      "outgoing_relations": 4,
+      "incoming_relations": 4,
+      "outgoing_prereqs": 0,
+      "incoming_prereqs": 0,
+      "total_connections": 8
+    },
+    {
+      "concept_id": 15334,
+      "concept_name": "Bash Scripting",
+      "subject_id": "bash",
+      "outgoing_relations": 4,
+      "incoming_relations": 4,
+      "outgoing_prereqs": 0,
+      "incoming_prereqs": 0,
+      "total_connections": 8
+    },
+    {
+      "concept_id": 15341,
+      "concept_name": "Behavioral Sciences",
+      "subject_id": "behavioral-sciences",
+      "outgoing_relations": 4,
+      "incoming_relations": 4,
+      "outgoing_prereqs": 0,
+      "incoming_prereqs": 0,
+      "total_connections": 8
+    },
+    {
+      "concept_id": 15355,
+      "concept_name": "Biochemistry",
+      "subject_id": "biochemistry",
+      "outgoing_relations": 4,
+      "incoming_relations": 4,
+      "outgoing_prereqs": 0,
+      "incoming_prereqs": 0,
+      "total_connections": 8
+    },
+    {
+      "concept_id": 15400,
+      "concept_name": "Business Administration",
+      "subject_id": "business-administration",
+      "outgoing_relations": 4,
+      "incoming_relations": 4,
+      "outgoing_prereqs": 0,
+      "incoming_prereqs": 0,
+      "total_connections": 8
+    },
+    {
+      "concept_id": 15421,
+      "concept_name": "Chemical Engineering",
+      "subject_id": "chemical-eng",
+      "outgoing_relations": 4,
+      "incoming_relations": 4,
+      "outgoing_prereqs": 0,
+      "incoming_prereqs": 0,
+      "total_connections": 8
+    },
+    {
+      "concept_id": 15452,
+      "concept_name": "Cloud Computing",
+      "subject_id": "cloud-computing",
+      "outgoing_relations": 4,
+      "incoming_relations": 4,
+      "outgoing_prereqs": 0,
+      "incoming_prereqs": 0,
+      "total_connections": 8
+    },
+    {
+      "concept_id": 15475,
+      "concept_name": "comprehension",
+      "subject_id": "comprehension",
+      "outgoing_relations": 4,
+      "incoming_relations": 4,
+      "outgoing_prereqs": 0,
+      "incoming_prereqs": 0,
+      "total_connections": 8
+    },
+    {
+      "concept_id": 15489,
+      "concept_name": "Computer Graphics",
+      "subject_id": "computer-graphics",
+      "outgoing_relations": 4,
+      "incoming_relations": 4,
+      "outgoing_prereqs": 0,
+      "incoming_prereqs": 0,
+      "total_connections": 8
+    },
+    {
+      "concept_id": 15567,
+      "concept_name": "Cyber Security",
+      "subject_id": "cyber-security",
+      "outgoing_relations": 4,
+      "incoming_relations": 4,
+      "outgoing_prereqs": 0,
+      "incoming_prereqs": 0,
+      "total_connections": 8
+    },
+    {
+      "concept_id": 15606,
+      "concept_name": "Deep Learning",
+      "subject_id": "deep-learning",
+      "outgoing_relations": 4,
+      "incoming_relations": 4,
+      "outgoing_prereqs": 0,
+      "incoming_prereqs": 0,
+      "total_connections": 8
+    },
+    {
+      "concept_id": 15616,
+      "concept_name": "dental materials",
+      "subject_id": "dental-materials",
+      "outgoing_relations": 4,
+      "incoming_relations": 4,
+      "outgoing_prereqs": 0,
+      "incoming_prereqs": 0,
+      "total_connections": 8
+    },
+    {
+      "concept_id": 15625,
+      "concept_name": "Dental Medicine",
+      "subject_id": "dental-medicine",
+      "outgoing_relations": 4,
+      "incoming_relations": 4,
+      "outgoing_prereqs": 0,
+      "incoming_prereqs": 0,
+      "total_connections": 8
+    },
+    {
+      "concept_id": 15632,
+      "concept_name": "Dental Surgery",
+      "subject_id": "dental-surgery",
+      "outgoing_relations": 4,
+      "incoming_relations": 4,
+      "outgoing_prereqs": 0,
+      "incoming_prereqs": 0,
+      "total_connections": 8
+    },
+    {
+      "concept_id": 15644,
+      "concept_name": "Digital Logic Design",
+      "subject_id": "digital-logic",
+      "outgoing_relations": 4,
+      "incoming_relations": 4,
+      "outgoing_prereqs": 0,
+      "incoming_prereqs": 0,
+      "total_connections": 8
+    },
+    {
+      "concept_id": 15651,
+      "concept_name": "Distributed Systems",
+      "subject_id": "distributed-systems",
+      "outgoing_relations": 4,
+      "incoming_relations": 4,
+      "outgoing_prereqs": 0,
+      "incoming_prereqs": 0,
+      "total_connections": 8
+    },
+    {
+      "concept_id": 15700,
+      "concept_name": "Electrical Engineering",
+      "subject_id": "electrical-eng",
+      "outgoing_relations": 4,
+      "incoming_relations": 4,
+      "outgoing_prereqs": 0,
+      "incoming_prereqs": 0,
+      "total_connections": 8
+    },
+    {
+      "concept_id": 15759,
+      "concept_name": "Environmental Engineering",
+      "subject_id": "environmental-eng",
+      "outgoing_relations": 4,
+      "incoming_relations": 4,
+      "outgoing_prereqs": 0,
+      "incoming_prereqs": 0,
+      "total_connections": 8
+    },
+    {
+      "concept_id": 15855,
+      "concept_name": "Forensic Medicine",
+      "subject_id": "forensic-medicine",
+      "outgoing_relations": 4,
+      "incoming_relations": 4,
+      "outgoing_prereqs": 0,
+      "incoming_prereqs": 0,
+      "total_connections": 8
+    }
+  ],
+  "difficulty_distribution": {
+    "easy": 394,
+    "medium": 1325,
+    "hard": 25
+  },
+  "bloom_distribution": {
+    "Apply": 825,
+    "Understand": 857,
+    "Recall": 62
+  }
+}

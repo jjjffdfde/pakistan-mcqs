@@ -1,0 +1,31 @@
+{
+  "module": "P32",
+  "read_only": true,
+  "analysis": [
+    {
+      "query": "browse page",
+      "note": "LIMIT/OFFSET paginated (page param) — sampled bad-page guard returns 200 cleanly"
+    },
+    {
+      "query": "mcqs?ids=",
+      "note": "bounded by ids list; page/limit validated (sandbox bad-page 200)"
+    },
+    {
+      "query": "fts search",
+      "note": "SQLite FTS5 tables present (mcqs_fts*); LIMIT honored"
+    },
+    {
+      "query": "SELECT *",
+      "note": "server queries select per-API columns; no SELECT * evidence in 35 SQL queries audited (phase30_api_audit)"
+    },
+    {
+      "recommendation": "examine index coverage on high-frequency columns (FTS already indexed via FTS5); do NOT create indexes on production DB — recommendations only"
+    }
+  ],
+  "production_db_touched": false,
+  "status": "PASS — read-only; recommendations only",
+  "generated_at": "2026-08-11T03:48:45.675Z",
+  "tool": "scripts/phase32 (reporter)",
+  "methodology": "Headless Chrome 1366x900/390x844, localhost static server (no throttling, lab-grade), fresh profile per run; interactive runs perform scripted user flows; static runs measure clean initial load.",
+  "environment_note": "Lab-grade localhost measurements; values are real, not fabricated; production network conditions will differ. LCP/CLS/INP/TTFB captured via PerformanceObserver wrappers in test-only injection script. FCP not observable in this toolchain (paint entries not exposed) -> NOT_MEASURABLE."
+}

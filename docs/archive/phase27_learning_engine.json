@@ -1,0 +1,329 @@
+{
+  "step": "learning_engine",
+  "generated_at": "2026-08-10T12:10:32.543Z",
+  "summary": {
+    "profiles": 1,
+    "total_attempts": 54,
+    "overall_accuracy": 33,
+    "weak_topics_detected": 11,
+    "strong_topics_detected": 2,
+    "revisions_active": 2,
+    "history_days": 2,
+    "status": "PASS"
+  },
+  "profile": [
+    {
+      "device_id": "default",
+      "name": "Selfcheck",
+      "daily_hours": 2,
+      "target_exam": "CSS",
+      "target_date": "2026-12-01",
+      "skill_level": "novice",
+      "readiness_score": 62.5,
+      "avg_accuracy": 34,
+      "avg_speed_sec": 8,
+      "consistency": 50,
+      "total_sessions": 54,
+      "city": "Lahore",
+      "province": "Punjab"
+    }
+  ],
+  "weak_concepts": {
+    "derived": [
+      {
+        "topic_id": "t-ch-cssexa-central-superior-services-pattern-awaren-exam-pattern",
+        "subject_id": "css-exam",
+        "attempts": 4,
+        "correct": 0,
+        "accuracy": 0
+      },
+      {
+        "topic_id": "t-ch-reason-reasoning-aptitude-concepts-aptitude-basics",
+        "subject_id": "reasoning",
+        "attempts": 4,
+        "correct": 0,
+        "accuracy": 0
+      },
+      {
+        "topic_id": "t-ch-iq-reasoning-series-and-patterns-letter-series",
+        "subject_id": "iq",
+        "attempts": 7,
+        "correct": 1,
+        "accuracy": 14
+      },
+      {
+        "topic_id": "t-269",
+        "subject_id": "reasoning",
+        "attempts": 4,
+        "correct": 1,
+        "accuracy": 25
+      },
+      {
+        "topic_id": "t-272",
+        "subject_id": "environmental-science",
+        "attempts": 3,
+        "correct": 1,
+        "accuracy": 33
+      },
+      {
+        "topic_id": "t-274",
+        "subject_id": "environmental-science",
+        "attempts": 3,
+        "correct": 1,
+        "accuracy": 33
+      },
+      {
+        "topic_id": "t-267",
+        "subject_id": "reasoning",
+        "attempts": 3,
+        "correct": 1,
+        "accuracy": 33
+      },
+      {
+        "topic_id": "t-273",
+        "subject_id": "environmental-science",
+        "attempts": 2,
+        "correct": 1,
+        "accuracy": 50
+      },
+      {
+        "topic_id": "t-276",
+        "subject_id": "environmental-science",
+        "attempts": 2,
+        "correct": 1,
+        "accuracy": 50
+      },
+      {
+        "topic_id": "t-277",
+        "subject_id": "environmental-science",
+        "attempts": 2,
+        "correct": 1,
+        "accuracy": 50
+      }
+    ],
+    "stored": [
+      {
+        "topic_id": "t-ch-cssexa-central-superior-services-pattern-awaren-exam-pattern",
+        "subject_id": "css-exam",
+        "weakness_score": 1.1,
+        "incorrect": 3,
+        "total": 4,
+        "priority": 110,
+        "topic_name": "Exam Pattern"
+      },
+      {
+        "topic_id": "t-ch-reason-reasoning-aptitude-concepts-aptitude-basics",
+        "subject_id": "reasoning",
+        "weakness_score": 1,
+        "incorrect": 4,
+        "total": 4,
+        "priority": 100,
+        "topic_name": "Aptitude Basics"
+      },
+      {
+        "topic_id": "t-ch-iq-reasoning-series-and-patterns-letter-series",
+        "subject_id": "iq",
+        "weakness_score": 0.86,
+        "incorrect": 6,
+        "total": 7,
+        "priority": 86,
+        "topic_name": "Letter Series"
+      },
+      {
+        "topic_id": "t-269",
+        "subject_id": "reasoning",
+        "weakness_score": 0.75,
+        "incorrect": 3,
+        "total": 4,
+        "priority": 75,
+        "topic_name": "Syllogisms & Puzzles"
+      },
+      {
+        "topic_id": "t-267",
+        "subject_id": "reasoning",
+        "weakness_score": 0.67,
+        "incorrect": 2,
+        "total": 3,
+        "priority": 67,
+        "topic_name": "Analogies & Series"
+      },
+      {
+        "topic_id": "t-272",
+        "subject_id": "environmental-science",
+        "weakness_score": 0.67,
+        "incorrect": 2,
+        "total": 3,
+        "priority": 67,
+        "topic_name": "Ecosystem Structure & Energy Flow"
+      },
+      {
+        "topic_id": "t-274",
+        "subject_id": "environmental-science",
+        "weakness_score": 0.67,
+        "incorrect": 2,
+        "total": 3,
+        "priority": 67,
+        "topic_name": "Air & Water Pollution"
+      },
+      {
+        "topic_id": "t-ch-enviro-environmental-science-ecology-ecosystems",
+        "subject_id": "environmental-science",
+        "weakness_score": 0.43,
+        "incorrect": 3,
+        "total": 7,
+        "priority": 43,
+        "topic_name": "Ecosystems"
+      }
+    ]
+  },
+  "strong_concepts": {
+    "derived": [
+      {
+        "topic_id": "t-ch-pakist-pakistan-history-movement-and-nation-freedom-movement",
+        "subject_id": "pakistan-history",
+        "attempts": 3,
+        "correct": 3,
+        "accuracy": 100
+      },
+      {
+        "topic_id": "t-193",
+        "subject_id": "accounting",
+        "attempts": 2,
+        "correct": 2,
+        "accuracy": 100
+      }
+    ],
+    "stored": []
+  },
+  "revision_frequency": {
+    "active_cards": 2,
+    "avg_ease": 2.5,
+    "avg_interval_days": 2,
+    "total_reviews": 1,
+    "boxes": [
+      {
+        "box": 1,
+        "n": 1
+      },
+      {
+        "box": 2,
+        "n": 1
+      }
+    ],
+    "flashcard_boxes": [
+      {
+        "box": 1,
+        "n": 15
+      }
+    ]
+  },
+  "learning_history": {
+    "by_day": [
+      {
+        "day": "2026-08-01",
+        "n": 49,
+        "ok": 16
+      },
+      {
+        "day": "2026-08-04",
+        "n": 5,
+        "ok": 2
+      }
+    ],
+    "by_subject": [
+      {
+        "subject_id": "environmental-science",
+        "n": 20,
+        "ok": 9
+      },
+      {
+        "subject_id": "reasoning",
+        "n": 11,
+        "ok": 2
+      },
+      {
+        "subject_id": "iq",
+        "n": 7,
+        "ok": 1
+      },
+      {
+        "subject_id": "css-exam",
+        "n": 5,
+        "ok": 0
+      },
+      {
+        "subject_id": "pakistan-history",
+        "n": 3,
+        "ok": 3
+      },
+      {
+        "subject_id": "accounting",
+        "n": 2,
+        "ok": 2
+      },
+      {
+        "subject_id": "mod",
+        "n": 2,
+        "ok": 0
+      },
+      {
+        "subject_id": "ajkpsc",
+        "n": 1,
+        "ok": 0
+      },
+      {
+        "subject_id": "english",
+        "n": 1,
+        "ok": 0
+      },
+      {
+        "subject_id": "general-knowledge",
+        "n": 1,
+        "ok": 0
+      },
+      {
+        "subject_id": "graphql",
+        "n": 1,
+        "ok": 1
+      }
+    ],
+    "by_mode": [
+      {
+        "mode": "practice",
+        "n": 50,
+        "ok": 17
+      },
+      {
+        "mode": "adaptive",
+        "n": 3,
+        "ok": 0
+      },
+      {
+        "mode": "selfcheck",
+        "n": 1,
+        "ok": 1
+      }
+    ],
+    "by_difficulty": [
+      {
+        "difficulty": "medium",
+        "n": 42,
+        "ok": 13
+      },
+      {
+        "difficulty": "easy",
+        "n": 12,
+        "ok": 5
+      }
+    ],
+    "sessions": [
+      {
+        "session_type": "adaptive",
+        "mode": "adaptive",
+        "n": 3,
+        "q": 3,
+        "ok": 0
+      }
+    ]
+  }
+}

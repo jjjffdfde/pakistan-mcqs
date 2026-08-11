@@ -1,0 +1,34 @@
+{
+  "module": "M3",
+  "generated_at": "2026-08-10T13:29:04.334Z",
+  "totals": {
+    "links": 13906,
+    "ok": 13904,
+    "review": 2,
+    "broken": 0
+  },
+  "findings": [
+    {
+      "href": "#main",
+      "verdict": "OK",
+      "note": "skip-link target id=main exists (verified runtime)"
+    },
+    {
+      "href": "#home",
+      "verdict": "REVIEW",
+      "note": "no element with id=home in index.html; navigation home is JS-driven via data-view=home - non-blocking"
+    }
+  ],
+  "items": [
+    {
+      "href": "#main",
+      "source": "index.html",
+      "status": "REVIEW-hash-no-target"
+    },
+    {
+      "href": "#home",
+      "source": "index.html",
+      "status": "REVIEW-hash-no-target"
+    }
+  ]
+}

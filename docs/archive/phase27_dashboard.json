@@ -1,0 +1,386 @@
+{
+  "step": "dashboard",
+  "generated_at": "2026-08-10T12:10:35.453Z",
+  "summary": {
+    "total_attempts": 54,
+    "overall_accuracy": 33,
+    "study_days": 2,
+    "subjects_touched": 11,
+    "exam_target": "CSS",
+    "readiness": "on-track",
+    "status": "PASS"
+  },
+  "daily_statistics": [
+    {
+      "day": "2026-08-01",
+      "attempts": 49,
+      "correct": 16,
+      "accuracy": 33
+    },
+    {
+      "day": "2026-08-04",
+      "attempts": 5,
+      "correct": 2,
+      "accuracy": 40
+    }
+  ],
+  "weekly_statistics": [
+    {
+      "week": "2026-W31",
+      "attempts": 54,
+      "correct": 18,
+      "accuracy": 33
+    }
+  ],
+  "subject_statistics": [
+    {
+      "subject_id": "environmental-science",
+      "attempts": 20,
+      "correct": 9,
+      "accuracy": 45
+    },
+    {
+      "subject_id": "reasoning",
+      "attempts": 11,
+      "correct": 2,
+      "accuracy": 18
+    },
+    {
+      "subject_id": "iq",
+      "attempts": 7,
+      "correct": 1,
+      "accuracy": 14
+    },
+    {
+      "subject_id": "css-exam",
+      "attempts": 5,
+      "correct": 0,
+      "accuracy": 0
+    },
+    {
+      "subject_id": "pakistan-history",
+      "attempts": 3,
+      "correct": 3,
+      "accuracy": 100
+    },
+    {
+      "subject_id": "mod",
+      "attempts": 2,
+      "correct": 0,
+      "accuracy": 0
+    },
+    {
+      "subject_id": "accounting",
+      "attempts": 2,
+      "correct": 2,
+      "accuracy": 100
+    },
+    {
+      "subject_id": "general-knowledge",
+      "attempts": 1,
+      "correct": 0,
+      "accuracy": 0
+    },
+    {
+      "subject_id": "graphql",
+      "attempts": 1,
+      "correct": 1,
+      "accuracy": 100
+    },
+    {
+      "subject_id": "ajkpsc",
+      "attempts": 1,
+      "correct": 0,
+      "accuracy": 0
+    },
+    {
+      "subject_id": "english",
+      "attempts": 1,
+      "correct": 0,
+      "accuracy": 0
+    }
+  ],
+  "exam_readiness": {
+    "profile_readiness": 62.5,
+    "profile_accuracy": 34,
+    "profile_consistency": 50,
+    "predicted": null,
+    "all_exams": [
+      {
+        "exam_id": "mock-ppsc-assistant-1",
+        "exam_title": "PPSC Assistant - Mock Test 1",
+        "n": 3,
+        "avg_prob_pass": 1400,
+        "avg_readiness": 1750
+      },
+      {
+        "exam_id": "mock-exam-spsc",
+        "exam_title": "SPSC Full-Length Mock Test",
+        "n": 1,
+        "avg_prob_pass": 1400,
+        "avg_readiness": 1750
+      },
+      {
+        "exam_id": "mock-exam-pts",
+        "exam_title": "PTS Full-Length Mock Test",
+        "n": 1,
+        "avg_prob_pass": 1400,
+        "avg_readiness": 1750
+      },
+      {
+        "exam_id": "mock-exam-ppsc",
+        "exam_title": "PPSC Full-Length Mock Test",
+        "n": 1,
+        "avg_prob_pass": 1400,
+        "avg_readiness": 1750
+      },
+      {
+        "exam_id": "mock-exam-police",
+        "exam_title": "Police Full-Length Mock Test",
+        "n": 1,
+        "avg_prob_pass": 1400,
+        "avg_readiness": 1750
+      },
+      {
+        "exam_id": "mock-exam-pms",
+        "exam_title": "PMS Full-Length Mock Test",
+        "n": 1,
+        "avg_prob_pass": 1400,
+        "avg_readiness": 1750
+      },
+      {
+        "exam_id": "mock-exam-ots",
+        "exam_title": "OTS Full-Length Mock Test",
+        "n": 1,
+        "avg_prob_pass": 1400,
+        "avg_readiness": 1750
+      },
+      {
+        "exam_id": "mock-exam-nts",
+        "exam_title": "NTS Full-Length Mock Test",
+        "n": 1,
+        "avg_prob_pass": 1400,
+        "avg_readiness": 1750
+      },
+      {
+        "exam_id": "mock-exam-nab",
+        "exam_title": "NAB Full-Length Mock Test",
+        "n": 1,
+        "avg_prob_pass": 1400,
+        "avg_readiness": 1750
+      },
+      {
+        "exam_id": "mock-exam-kppsc",
+        "exam_title": "KPPSC Full-Length Mock Test",
+        "n": 1,
+        "avg_prob_pass": 1400,
+        "avg_readiness": 1750
+      },
+      {
+        "exam_id": "mock-exam-ib",
+        "exam_title": "IB Full-Length Mock Test",
+        "n": 1,
+        "avg_prob_pass": 1400,
+        "avg_readiness": 1750
+      },
+      {
+        "exam_id": "mock-exam-fpsc",
+        "exam_title": "FPSC Full-Length Mock Test",
+        "n": 1,
+        "avg_prob_pass": 1400,
+        "avg_readiness": 1750
+      },
+      {
+        "exam_id": "mock-exam-fia",
+        "exam_title": "FIA Full-Length Mock Test",
+        "n": 1,
+        "avg_prob_pass": 1400,
+        "avg_readiness": 1750
+      },
+      {
+        "exam_id": "mock-exam-etea",
+        "exam_title": "ETEA Full-Length Mock Test",
+        "n": 1,
+        "avg_prob_pass": 1400,
+        "avg_readiness": 1750
+      },
+      {
+        "exam_id": "mock-exam-educators",
+        "exam_title": "Educators Full-Length Mock Test",
+        "n": 1,
+        "avg_prob_pass": 1400,
+        "avg_readiness": 1750
+      },
+      {
+        "exam_id": "mock-exam-cts",
+        "exam_title": "CTS Full-Length Mock Test",
+        "n": 1,
+        "avg_prob_pass": 1400,
+        "avg_readiness": 1750
+      },
+      {
+        "exam_id": "mock-exam-css",
+        "exam_title": "CSS Full-Length Mock Test",
+        "n": 1,
+        "avg_prob_pass": 1400,
+        "avg_readiness": 1750
+      },
+      {
+        "exam_id": "mock-exam-bpsc",
+        "exam_title": "BPSC Full-Length Mock Test",
+        "n": 1,
+        "avg_prob_pass": 1400,
+        "avg_readiness": 1750
+      },
+      {
+        "exam_id": "mock-exam-asf",
+        "exam_title": "ASF Full-Length Mock Test",
+        "n": 1,
+        "avg_prob_pass": 1400,
+        "avg_readiness": 1750
+      },
+      {
+        "exam_id": "mock-exam-army",
+        "exam_title": "Army Full-Length Mock Test",
+        "n": 1,
+        "avg_prob_pass": 1400,
+        "avg_readiness": 1750
+      },
+      {
+        "exam_id": "mock-exam-ajkpsc",
+        "exam_title": "AJKPSC Full-Length Mock Test",
+        "n": 1,
+        "avg_prob_pass": 1400,
+        "avg_readiness": 1750
+      }
+    ],
+    "verdict": "on-track"
+  },
+  "progress_charts": {
+    "cumulative_accuracy": [
+      {
+        "day": "2026-08-01",
+        "attempts": 49,
+        "correct": 16,
+        "accuracy": 33,
+        "cumulative_accuracy": 33
+      },
+      {
+        "day": "2026-08-04",
+        "attempts": 5,
+        "correct": 2,
+        "accuracy": 40,
+        "cumulative_accuracy": 33
+      }
+    ],
+    "weekly_accuracy": [
+      {
+        "week": "2026-W31",
+        "attempts": 54,
+        "correct": 18,
+        "accuracy": 33
+      }
+    ],
+    "subject_accuracy": [
+      {
+        "subject_id": "environmental-science",
+        "attempts": 20,
+        "correct": 9,
+        "accuracy": 45
+      },
+      {
+        "subject_id": "reasoning",
+        "attempts": 11,
+        "correct": 2,
+        "accuracy": 18
+      },
+      {
+        "subject_id": "iq",
+        "attempts": 7,
+        "correct": 1,
+        "accuracy": 14
+      },
+      {
+        "subject_id": "css-exam",
+        "attempts": 5,
+        "correct": 0,
+        "accuracy": 0
+      },
+      {
+        "subject_id": "pakistan-history",
+        "attempts": 3,
+        "correct": 3,
+        "accuracy": 100
+      },
+      {
+        "subject_id": "mod",
+        "attempts": 2,
+        "correct": 0,
+        "accuracy": 0
+      },
+      {
+        "subject_id": "accounting",
+        "attempts": 2,
+        "correct": 2,
+        "accuracy": 100
+      },
+      {
+        "subject_id": "general-knowledge",
+        "attempts": 1,
+        "correct": 0,
+        "accuracy": 0
+      },
+      {
+        "subject_id": "graphql",
+        "attempts": 1,
+        "correct": 1,
+        "accuracy": 100
+      },
+      {
+        "subject_id": "ajkpsc",
+        "attempts": 1,
+        "correct": 0,
+        "accuracy": 0
+      },
+      {
+        "subject_id": "english",
+        "attempts": 1,
+        "correct": 0,
+        "accuracy": 0
+      }
+    ]
+  },
+  "heat_map": {
+    "cells": [
+      {
+        "day": "2026-08-01",
+        "difficulty": "medium",
+        "attempts": 39,
+        "correct": 13,
+        "accuracy": 33
+      },
+      {
+        "day": "2026-08-01",
+        "difficulty": "easy",
+        "attempts": 10,
+        "correct": 3,
+        "accuracy": 30
+      },
+      {
+        "day": "2026-08-04",
+        "difficulty": "medium",
+        "attempts": 3,
+        "correct": 0,
+        "accuracy": 0
+      },
+      {
+        "day": "2026-08-04",
+        "difficulty": "easy",
+        "attempts": 2,
+        "correct": 2,
+        "accuracy": 100
+      }
+    ],
+    "legend": "Rows are study days; columns difficulty bands."
+  }
+}

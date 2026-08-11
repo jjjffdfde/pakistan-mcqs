@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Offline - Pakistan MCQs Hub</title>
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#01411c">
+<link rel="icon" href="assets/icons/icon-192.png">
+<link rel="stylesheet" href="assets/css/style.css">
+<style>
+  .offline-body { min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 2rem 1rem; }
+  .offline-card { max-width: 520px; width: 100%; padding: 2.5rem 2rem; border-radius: var(--radius, 12px); background: var(--card, #fff); box-shadow: var(--shadow, 0 2px 8px rgba(2, 51, 22, .12)); }
+  .offline-icon { width: 96px; height: 96px; margin: 0 auto 1.25rem; }
+  .offline-actions { display: flex; gap: .75rem; justify-content: center; flex-wrap: wrap; margin-top: 1.5rem; }
+  .offline-meta { margin-top: 1.25rem; color: var(--muted, #64748b); font-size: .85rem; }
+  button:disabled { opacity: .5; cursor: not-allowed; }
+</style>
+</head>
+<body class="offline-body">
+<div class="offline-card" role="alert">
+  <img class="offline-icon" src="assets/icons/icon-192.png" alt="Pakistan MCQs Hub icon" width="96" height="96">
+  <h1>You're offline</h1>
+  <p class="muted">Your saved MCQs, bookmarks, history and recent searches are still available. Connect to the internet to fetch live updates.</p>
+  <div class="offline-actions">
+    <button class="btn btn-primary" id="offlineRetry" type="button">Retry connection</button>
+    <button class="btn btn-outline" id="offlineHome" type="button">Go to home</button>
+  </div>
+  <p class="offline-meta" id="offlineMeta">Cached builds still work without a signal.</p>
+</div>
+<script>
+  (function () {
+    var retry = document.getElementById("offlineRetry");
+    var home = document.getElementById("offlineHome");
+    retry.addEventListener("click", function () {
+      retry.disabled = true;
+      retry.textContent = "Checking…";
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker.ready.then(function (reg) {
+          return reg.sync && reg.sync.register("sync-updates");
+        }).catch(function () {});
+      }
+      if (navigator.onLine) { location.reload(); return; }
+      setTimeout(function () { window.location.reload(); }, 1500);
+    });
+    home.addEventListener("click", function () {
+      if ("caches" in window) {
+        caches.match("./index.html").then(function (hit) {
+          window.location.href = hit ? "./index.html" : "./";
+        }).catch(function () { window.location.href = "./"; });
+      } else {
+        window.location.href = "./";
+      }
+    });
+    window.addEventListener("online", function () {
+      try {
+        if (navigator.onLine) document.getElementById("offlineRetry").textContent = "Back online ✓";
+      } catch (e) {}
+      setTimeout(function () { window.location.href = "./"; }, 600);
+    });
+  })();
+</script>
+</body>
+</html>

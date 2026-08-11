@@ -1,0 +1,6198 @@
+[
+  {
+    "id": "t-1",
+    "chapter": "pa-movement",
+    "name": "Muslim League",
+    "order": 1
+  },
+  {
+    "id": "t-2",
+    "chapter": "pa-movement",
+    "name": "Aligarh Movement",
+    "order": 2
+  },
+  {
+    "id": "t-3",
+    "chapter": "pa-movement",
+    "name": "Khilafat Movement",
+    "order": 3
+  },
+  {
+    "id": "t-4",
+    "chapter": "pa-movement",
+    "name": "Lucknow Pact & Nehru Report",
+    "order": 4
+  },
+  {
+    "id": "t-5",
+    "chapter": "pa-movement",
+    "name": "Fourteen Points of Jinnah",
+    "order": 5
+  },
+  {
+    "id": "t-6",
+    "chapter": "pa-movement",
+    "name": "Lahore Resolution 1940",
+    "order": 6
+  },
+  {
+    "id": "t-7",
+    "chapter": "pa-movement",
+    "name": "Cabinet Mission & Independence",
+    "order": 7
+  },
+  {
+    "id": "t-8",
+    "chapter": "pa-constitution",
+    "name": "Objectives Resolution",
+    "order": 1
+  },
+  {
+    "id": "t-9",
+    "chapter": "pa-constitution",
+    "name": "Constitution of 1956",
+    "order": 2
+  },
+  {
+    "id": "t-10",
+    "chapter": "pa-constitution",
+    "name": "Constitution of 1962",
+    "order": 3
+  },
+  {
+    "id": "t-11",
+    "chapter": "pa-constitution",
+    "name": "Constitution of 1973",
+    "order": 4
+  },
+  {
+    "id": "t-12",
+    "chapter": "pa-constitution",
+    "name": "18th Amendment",
+    "order": 5
+  },
+  {
+    "id": "t-13",
+    "chapter": "pa-geography",
+    "name": "Provinces & Regions",
+    "order": 1
+  },
+  {
+    "id": "t-14",
+    "chapter": "pa-geography",
+    "name": "Rivers & Dams",
+    "order": 2
+  },
+  {
+    "id": "t-15",
+    "chapter": "pa-geography",
+    "name": "Mountains & Passes",
+    "order": 3
+  },
+  {
+    "id": "t-16",
+    "chapter": "pa-geography",
+    "name": "Deserts & Climate",
+    "order": 4
+  },
+  {
+    "id": "t-17",
+    "chapter": "pa-geography",
+    "name": "Natural Resources",
+    "order": 5
+  },
+  {
+    "id": "t-18",
+    "chapter": "pa-symbols",
+    "name": "Flag & Anthem",
+    "order": 1
+  },
+  {
+    "id": "t-19",
+    "chapter": "pa-symbols",
+    "name": "National Emblems",
+    "order": 2
+  },
+  {
+    "id": "t-20",
+    "chapter": "pa-symbols",
+    "name": "Landmarks & Heritage",
+    "order": 3
+  },
+  {
+    "id": "t-21",
+    "chapter": "pa-history",
+    "name": "Early Years (1947-58)",
+    "order": 1
+  },
+  {
+    "id": "t-22",
+    "chapter": "pa-history",
+    "name": "Ayub & Yahya Era",
+    "order": 2
+  },
+  {
+    "id": "t-23",
+    "chapter": "pa-history",
+    "name": "1965 & 1971 Wars",
+    "order": 3
+  },
+  {
+    "id": "t-24",
+    "chapter": "pa-history",
+    "name": "Zia Era & 1990s",
+    "order": 4
+  },
+  {
+    "id": "t-25",
+    "chapter": "pa-history",
+    "name": "Modern Pakistan",
+    "order": 5
+  },
+  {
+    "id": "t-26",
+    "chapter": "pa-foreign-policy",
+    "name": "Kashmir Issue",
+    "order": 1
+  },
+  {
+    "id": "t-27",
+    "chapter": "pa-foreign-policy",
+    "name": "Neighbours & Major Powers",
+    "order": 2
+  },
+  {
+    "id": "t-28",
+    "chapter": "pa-foreign-policy",
+    "name": "OIC & SAARC",
+    "order": 3
+  },
+  {
+    "id": "t-29",
+    "chapter": "pa-foreign-policy",
+    "name": "Nuclear Programme & CPEC",
+    "order": 4
+  },
+  {
+    "id": "t-30",
+    "chapter": "pa-economy",
+    "name": "Agriculture & Industry",
+    "order": 1
+  },
+  {
+    "id": "t-31",
+    "chapter": "pa-economy",
+    "name": "Budget & Banking",
+    "order": 2
+  },
+  {
+    "id": "t-32",
+    "chapter": "pa-economy",
+    "name": "Energy & Trade",
+    "order": 3
+  },
+  {
+    "id": "t-33",
+    "chapter": "pa-defence",
+    "name": "Armed Forces",
+    "order": 1
+  },
+  {
+    "id": "t-34",
+    "chapter": "pa-defence",
+    "name": "Military Awards",
+    "order": 2
+  },
+  {
+    "id": "t-35",
+    "chapter": "pa-government",
+    "name": "Parliament & President",
+    "order": 1
+  },
+  {
+    "id": "t-36",
+    "chapter": "pa-government",
+    "name": "Judiciary & Civil Service",
+    "order": 2
+  },
+  {
+    "id": "t-37",
+    "chapter": "pa-personalities",
+    "name": "Quaid-e-Azam",
+    "order": 1
+  },
+  {
+    "id": "t-38",
+    "chapter": "pa-personalities",
+    "name": "Allama Iqbal",
+    "order": 2
+  },
+  {
+    "id": "t-39",
+    "chapter": "pa-personalities",
+    "name": "Other Leaders",
+    "order": 3
+  },
+  {
+    "id": "t-40",
+    "chapter": "ca-pakistan",
+    "name": "Economy & Finance 2024-26",
+    "order": 1
+  },
+  {
+    "id": "t-41",
+    "chapter": "ca-pakistan",
+    "name": "Political Developments 2024-26",
+    "order": 2
+  },
+  {
+    "id": "t-42",
+    "chapter": "ca-pakistan",
+    "name": "Sports & Culture 2024-26",
+    "order": 3
+  },
+  {
+    "id": "t-43",
+    "chapter": "ca-pakistan",
+    "name": "Science & Technology 2024-26",
+    "order": 4
+  },
+  {
+    "id": "t-44",
+    "chapter": "ca-pakistan",
+    "name": "Appointments 2024-26",
+    "order": 5
+  },
+  {
+    "id": "t-45",
+    "chapter": "ca-world",
+    "name": "Global Events 2024-26",
+    "order": 1
+  },
+  {
+    "id": "t-46",
+    "chapter": "ca-world",
+    "name": "Summits & Conferences",
+    "order": 2
+  },
+  {
+    "id": "t-47",
+    "chapter": "ca-world",
+    "name": "Climate & Space",
+    "order": 3
+  },
+  {
+    "id": "t-48",
+    "chapter": "ca-orgs",
+    "name": "UN & Agencies",
+    "order": 1
+  },
+  {
+    "id": "t-49",
+    "chapter": "ca-orgs",
+    "name": "OIC & SAARC",
+    "order": 2
+  },
+  {
+    "id": "t-50",
+    "chapter": "ca-orgs",
+    "name": "Major Treaties",
+    "order": 3
+  },
+  {
+    "id": "t-51",
+    "chapter": "gk-geography",
+    "name": "Countries & Capitals",
+    "order": 1
+  },
+  {
+    "id": "t-52",
+    "chapter": "gk-geography",
+    "name": "Currencies",
+    "order": 2
+  },
+  {
+    "id": "t-53",
+    "chapter": "gk-geography",
+    "name": "Rivers & Mountains",
+    "order": 3
+  },
+  {
+    "id": "t-54",
+    "chapter": "gk-geography",
+    "name": "Deserts & Oceans",
+    "order": 4
+  },
+  {
+    "id": "t-55",
+    "chapter": "gk-orgs",
+    "name": "UN & World Bodies",
+    "order": 1
+  },
+  {
+    "id": "t-56",
+    "chapter": "gk-orgs",
+    "name": "Financial Institutions",
+    "order": 2
+  },
+  {
+    "id": "t-57",
+    "chapter": "gk-orgs",
+    "name": "Regional Alliances",
+    "order": 3
+  },
+  {
+    "id": "t-58",
+    "chapter": "gk-sports",
+    "name": "Cricket & Football",
+    "order": 1
+  },
+  {
+    "id": "t-59",
+    "chapter": "gk-sports",
+    "name": "Olympics",
+    "order": 2
+  },
+  {
+    "id": "t-60",
+    "chapter": "gk-sports",
+    "name": "Pakistan Sports",
+    "order": 3
+  },
+  {
+    "id": "t-61",
+    "chapter": "gk-awards",
+    "name": "Nobel Prizes",
+    "order": 1
+  },
+  {
+    "id": "t-62",
+    "chapter": "gk-awards",
+    "name": "Pakistani Awards",
+    "order": 2
+  },
+  {
+    "id": "t-63",
+    "chapter": "gk-inventions",
+    "name": "Inventors",
+    "order": 1
+  },
+  {
+    "id": "t-64",
+    "chapter": "gk-inventions",
+    "name": "Space Exploration",
+    "order": 2
+  },
+  {
+    "id": "t-65",
+    "chapter": "gk-books",
+    "name": "Famous Books",
+    "order": 1
+  },
+  {
+    "id": "t-66",
+    "chapter": "gk-books",
+    "name": "Authors",
+    "order": 2
+  },
+  {
+    "id": "t-67",
+    "chapter": "gk-abbreviations",
+    "name": "General Abbreviations",
+    "order": 1
+  },
+  {
+    "id": "t-68",
+    "chapter": "gk-facts",
+    "name": "World Records & Firsts",
+    "order": 1
+  },
+  {
+    "id": "t-69",
+    "chapter": "is-quran",
+    "name": "Revelation & Surahs",
+    "order": 1
+  },
+  {
+    "id": "t-70",
+    "chapter": "is-quran",
+    "name": "Key Verses & Concepts",
+    "order": 2
+  },
+  {
+    "id": "t-71",
+    "chapter": "is-quran",
+    "name": "Scientific References",
+    "order": 3
+  },
+  {
+    "id": "t-72",
+    "chapter": "is-hadith",
+    "name": "Hadith Collections",
+    "order": 1
+  },
+  {
+    "id": "t-73",
+    "chapter": "is-hadith",
+    "name": "Key Teachings",
+    "order": 2
+  },
+  {
+    "id": "t-74",
+    "chapter": "is-seerat",
+    "name": "Early & Makkah Life",
+    "order": 1
+  },
+  {
+    "id": "t-75",
+    "chapter": "is-seerat",
+    "name": "Madinah Period",
+    "order": 2
+  },
+  {
+    "id": "t-76",
+    "chapter": "is-seerat",
+    "name": "Battles",
+    "order": 3
+  },
+  {
+    "id": "t-77",
+    "chapter": "is-seerat",
+    "name": "Character & Family",
+    "order": 4
+  },
+  {
+    "id": "t-78",
+    "chapter": "is-khulafa",
+    "name": "Hazrat Abu Bakr",
+    "order": 1
+  },
+  {
+    "id": "t-79",
+    "chapter": "is-khulafa",
+    "name": "Hazrat Umar",
+    "order": 2
+  },
+  {
+    "id": "t-80",
+    "chapter": "is-khulafa",
+    "name": "Hazrat Uthman",
+    "order": 3
+  },
+  {
+    "id": "t-81",
+    "chapter": "is-khulafa",
+    "name": "Hazrat Ali",
+    "order": 4
+  },
+  {
+    "id": "t-82",
+    "chapter": "is-pillars",
+    "name": "Salah & Zakat",
+    "order": 1
+  },
+  {
+    "id": "t-83",
+    "chapter": "is-pillars",
+    "name": "Fasting & Hajj",
+    "order": 2
+  },
+  {
+    "id": "t-84",
+    "chapter": "is-pillars",
+    "name": "Shahada & Iman",
+    "order": 3
+  },
+  {
+    "id": "t-85",
+    "chapter": "is-history",
+    "name": "Umayyads & Abbasids",
+    "order": 1
+  },
+  {
+    "id": "t-86",
+    "chapter": "is-history",
+    "name": "Andalusia & Ottomans",
+    "order": 2
+  },
+  {
+    "id": "t-87",
+    "chapter": "is-history",
+    "name": "Muslim Scientists",
+    "order": 3
+  },
+  {
+    "id": "t-88",
+    "chapter": "is-fiqh",
+    "name": "Fiqh Schools",
+    "order": 1
+  },
+  {
+    "id": "t-89",
+    "chapter": "is-fiqh",
+    "name": "Halal & Haram",
+    "order": 2
+  },
+  {
+    "id": "t-90",
+    "chapter": "is-personalities",
+    "name": "Sahaba & Imams",
+    "order": 1
+  },
+  {
+    "id": "t-91",
+    "chapter": "is-personalities",
+    "name": "Women of Islam",
+    "order": 2
+  },
+  {
+    "id": "t-92",
+    "chapter": "en-grammar",
+    "name": "Parts of Speech",
+    "order": 1
+  },
+  {
+    "id": "t-93",
+    "chapter": "en-grammar",
+    "name": "Tenses",
+    "order": 2
+  },
+  {
+    "id": "t-94",
+    "chapter": "en-grammar",
+    "name": "Prepositions & Articles",
+    "order": 3
+  },
+  {
+    "id": "t-95",
+    "chapter": "en-vocabulary",
+    "name": "Word Meanings",
+    "order": 1
+  },
+  {
+    "id": "t-96",
+    "chapter": "en-vocabulary",
+    "name": "Phrasal Verbs",
+    "order": 2
+  },
+  {
+    "id": "t-97",
+    "chapter": "en-synonyms",
+    "name": "Common Synonyms",
+    "order": 1
+  },
+  {
+    "id": "t-98",
+    "chapter": "en-antonyms",
+    "name": "Common Antonyms",
+    "order": 1
+  },
+  {
+    "id": "t-99",
+    "chapter": "en-idioms",
+    "name": "Common Idioms",
+    "order": 1
+  },
+  {
+    "id": "t-100",
+    "chapter": "en-idioms",
+    "name": "Proverbs",
+    "order": 2
+  },
+  {
+    "id": "t-101",
+    "chapter": "en-sentence-correction",
+    "name": "Common Errors",
+    "order": 1
+  },
+  {
+    "id": "t-102",
+    "chapter": "en-voice",
+    "name": "Voice Conversion",
+    "order": 1
+  },
+  {
+    "id": "t-103",
+    "chapter": "en-narration",
+    "name": "Speech Conversion",
+    "order": 1
+  },
+  {
+    "id": "t-104",
+    "chapter": "en-ows",
+    "name": "Single Word Substitutes",
+    "order": 1
+  },
+  {
+    "id": "t-105",
+    "chapter": "en-translation",
+    "name": "Translation Practice",
+    "order": 1
+  },
+  {
+    "id": "t-106",
+    "chapter": "ur-adab",
+    "name": "Urdu Poets",
+    "order": 1
+  },
+  {
+    "id": "t-107",
+    "chapter": "ur-adab",
+    "name": "Urdu Writers",
+    "order": 2
+  },
+  {
+    "id": "t-108",
+    "chapter": "ur-adab",
+    "name": "Children's Literature",
+    "order": 3
+  },
+  {
+    "id": "t-109",
+    "chapter": "ur-qawaid",
+    "name": "Urdu Qawaid",
+    "order": 1
+  },
+  {
+    "id": "t-110",
+    "chapter": "ur-qawaid",
+    "name": "Literary Devices",
+    "order": 2
+  },
+  {
+    "id": "t-111",
+    "chapter": "ur-gk",
+    "name": "Urdu Firsts",
+    "order": 1
+  },
+  {
+    "id": "t-112",
+    "chapter": "ma-arithmetic",
+    "name": "Percentages & Ratios",
+    "order": 1
+  },
+  {
+    "id": "t-113",
+    "chapter": "ma-arithmetic",
+    "name": "Averages & Interest",
+    "order": 2
+  },
+  {
+    "id": "t-114",
+    "chapter": "ma-arithmetic",
+    "name": "Speed & Distance",
+    "order": 3
+  },
+  {
+    "id": "t-115",
+    "chapter": "ma-algebra",
+    "name": "Equations",
+    "order": 1
+  },
+  {
+    "id": "t-116",
+    "chapter": "ma-algebra",
+    "name": "Factorization",
+    "order": 2
+  },
+  {
+    "id": "t-117",
+    "chapter": "ma-geometry",
+    "name": "Triangles & Circles",
+    "order": 1
+  },
+  {
+    "id": "t-118",
+    "chapter": "ma-geometry",
+    "name": "Mensuration",
+    "order": 2
+  },
+  {
+    "id": "t-119",
+    "chapter": "ma-trigonometry",
+    "name": "Trigonometric Ratios",
+    "order": 1
+  },
+  {
+    "id": "t-120",
+    "chapter": "ma-numbers",
+    "name": "HCF & LCM",
+    "order": 1
+  },
+  {
+    "id": "t-121",
+    "chapter": "ma-numbers",
+    "name": "Number Series",
+    "order": 2
+  },
+  {
+    "id": "t-122",
+    "chapter": "cs-fundamentals",
+    "name": "Hardware & Software",
+    "order": 1
+  },
+  {
+    "id": "t-123",
+    "chapter": "cs-fundamentals",
+    "name": "Memory & Storage",
+    "order": 2
+  },
+  {
+    "id": "t-124",
+    "chapter": "cs-internet",
+    "name": "Internet Basics",
+    "order": 1
+  },
+  {
+    "id": "t-125",
+    "chapter": "cs-internet",
+    "name": "Email & Search",
+    "order": 2
+  },
+  {
+    "id": "t-126",
+    "chapter": "cs-databases",
+    "name": "SQL Basics",
+    "order": 1
+  },
+  {
+    "id": "t-127",
+    "chapter": "cs-programming",
+    "name": "Algorithms & Languages",
+    "order": 1
+  },
+  {
+    "id": "t-128",
+    "chapter": "cs-abbreviations",
+    "name": "IT Abbreviations",
+    "order": 1
+  },
+  {
+    "id": "t-129",
+    "chapter": "es-body",
+    "name": "Organs & Systems",
+    "order": 1
+  },
+  {
+    "id": "t-130",
+    "chapter": "es-body",
+    "name": "Blood & Immunity",
+    "order": 2
+  },
+  {
+    "id": "t-131",
+    "chapter": "es-body",
+    "name": "Vitamins & Diseases",
+    "order": 3
+  },
+  {
+    "id": "t-132",
+    "chapter": "es-physics",
+    "name": "Light & Sound",
+    "order": 1
+  },
+  {
+    "id": "t-133",
+    "chapter": "es-physics",
+    "name": "Force & Electricity",
+    "order": 2
+  },
+  {
+    "id": "t-134",
+    "chapter": "es-physics",
+    "name": "Heat & Temperature",
+    "order": 3
+  },
+  {
+    "id": "t-135",
+    "chapter": "es-chemistry",
+    "name": "Elements & Compounds",
+    "order": 1
+  },
+  {
+    "id": "t-136",
+    "chapter": "es-chemistry",
+    "name": "Acids & Gases",
+    "order": 2
+  },
+  {
+    "id": "t-137",
+    "chapter": "es-space",
+    "name": "Solar System",
+    "order": 1
+  },
+  {
+    "id": "t-138",
+    "chapter": "es-space",
+    "name": "Atmosphere & Earth",
+    "order": 2
+  },
+  {
+    "id": "t-139",
+    "chapter": "es-environment",
+    "name": "Pollution & Climate",
+    "order": 1
+  },
+  {
+    "id": "t-140",
+    "chapter": "es-environment",
+    "name": "Ozone & Conservation",
+    "order": 2
+  },
+  {
+    "id": "t-141",
+    "chapter": "es-nutrition",
+    "name": "Nutrients",
+    "order": 1
+  },
+  {
+    "id": "t-142",
+    "chapter": "es-energy",
+    "name": "Energy Resources",
+    "order": 1
+  },
+  {
+    "id": "t-143",
+    "chapter": "ph-mechanics",
+    "name": "Motion & Force",
+    "order": 1
+  },
+  {
+    "id": "t-144",
+    "chapter": "ph-mechanics",
+    "name": "Work & Energy",
+    "order": 2
+  },
+  {
+    "id": "t-145",
+    "chapter": "ph-electricity",
+    "name": "Current & Circuits",
+    "order": 1
+  },
+  {
+    "id": "t-146",
+    "chapter": "ph-optics",
+    "name": "Reflection & Refraction",
+    "order": 1
+  },
+  {
+    "id": "t-147",
+    "chapter": "ph-sound",
+    "name": "Sound Waves",
+    "order": 1
+  },
+  {
+    "id": "t-148",
+    "chapter": "ph-thermodynamics",
+    "name": "Heat Transfer",
+    "order": 1
+  },
+  {
+    "id": "t-149",
+    "chapter": "ph-modern",
+    "name": "Atomic & Nuclear Physics",
+    "order": 1
+  },
+  {
+    "id": "t-150",
+    "chapter": "ch-physical",
+    "name": "States of Matter",
+    "order": 1
+  },
+  {
+    "id": "t-151",
+    "chapter": "ch-physical",
+    "name": "Solutions & Equilibrium",
+    "order": 2
+  },
+  {
+    "id": "t-152",
+    "chapter": "ch-organic",
+    "name": "Hydrocarbons",
+    "order": 1
+  },
+  {
+    "id": "t-153",
+    "chapter": "ch-inorganic",
+    "name": "Periodic Table",
+    "order": 1
+  },
+  {
+    "id": "t-154",
+    "chapter": "ch-reactions",
+    "name": "Reaction Types",
+    "order": 1
+  },
+  {
+    "id": "t-155",
+    "chapter": "bi-cell",
+    "name": "Cell Structure",
+    "order": 1
+  },
+  {
+    "id": "t-156",
+    "chapter": "bi-cell",
+    "name": "Cell Division",
+    "order": 2
+  },
+  {
+    "id": "t-157",
+    "chapter": "bi-genetics",
+    "name": "DNA & Genes",
+    "order": 1
+  },
+  {
+    "id": "t-158",
+    "chapter": "bi-physiology",
+    "name": "Body Systems",
+    "order": 1
+  },
+  {
+    "id": "t-159",
+    "chapter": "bi-micro",
+    "name": "Microorganisms",
+    "order": 1
+  },
+  {
+    "id": "t-160",
+    "chapter": "bi-ecology",
+    "name": "Ecosystems",
+    "order": 1
+  },
+  {
+    "id": "t-161",
+    "chapter": "bo-structure",
+    "name": "Plant Parts",
+    "order": 1
+  },
+  {
+    "id": "t-162",
+    "chapter": "bo-photosynthesis",
+    "name": "Photosynthesis",
+    "order": 1
+  },
+  {
+    "id": "t-163",
+    "chapter": "bo-reproduction",
+    "name": "Plant Reproduction",
+    "order": 1
+  },
+  {
+    "id": "t-164",
+    "chapter": "bo-economics",
+    "name": "Cash Crops",
+    "order": 1
+  },
+  {
+    "id": "t-165",
+    "chapter": "zo-classification",
+    "name": "Vertebrates & Invertebrates",
+    "order": 1
+  },
+  {
+    "id": "t-166",
+    "chapter": "zo-anatomy",
+    "name": "Animal Systems",
+    "order": 1
+  },
+  {
+    "id": "t-167",
+    "chapter": "zo-ecology",
+    "name": "Adaptation & Evolution",
+    "order": 1
+  },
+  {
+    "id": "t-168",
+    "chapter": "zo-economics",
+    "name": "Fisheries & Apiculture",
+    "order": 1
+  },
+  {
+    "id": "t-169",
+    "chapter": "pe-theories",
+    "name": "Behaviourism & Cognitivism",
+    "order": 1
+  },
+  {
+    "id": "t-170",
+    "chapter": "pe-theories",
+    "name": "Constructivism",
+    "order": 2
+  },
+  {
+    "id": "t-171",
+    "chapter": "pe-theories",
+    "name": "Educational Theorists",
+    "order": 3
+  },
+  {
+    "id": "t-172",
+    "chapter": "pe-methods",
+    "name": "Modern Methods",
+    "order": 1
+  },
+  {
+    "id": "t-173",
+    "chapter": "pe-methods",
+    "name": "Traditional Methods",
+    "order": 2
+  },
+  {
+    "id": "t-174",
+    "chapter": "pe-classroom",
+    "name": "Discipline & Motivation",
+    "order": 1
+  },
+  {
+    "id": "t-175",
+    "chapter": "pe-assessment",
+    "name": "Testing & Grading",
+    "order": 1
+  },
+  {
+    "id": "t-176",
+    "chapter": "pe-curriculum",
+    "name": "Curriculum Planning",
+    "order": 1
+  },
+  {
+    "id": "t-177",
+    "chapter": "pe-psychology",
+    "name": "Child Development",
+    "order": 1
+  },
+  {
+    "id": "t-178",
+    "chapter": "pe-psychology",
+    "name": "Intelligence & Styles",
+    "order": 2
+  },
+  {
+    "id": "t-179",
+    "chapter": "ed-foundations",
+    "name": "Philosophy of Education",
+    "order": 1
+  },
+  {
+    "id": "t-180",
+    "chapter": "ed-pakistan",
+    "name": "National Policies",
+    "order": 1
+  },
+  {
+    "id": "t-181",
+    "chapter": "py-intro",
+    "name": "Branches of Psychology",
+    "order": 1
+  },
+  {
+    "id": "t-182",
+    "chapter": "py-cognitive",
+    "name": "Memory & Learning",
+    "order": 1
+  },
+  {
+    "id": "t-183",
+    "chapter": "py-social",
+    "name": "Personality & Motivation",
+    "order": 1
+  },
+  {
+    "id": "t-184",
+    "chapter": "ec-micro",
+    "name": "Demand & Supply",
+    "order": 1
+  },
+  {
+    "id": "t-185",
+    "chapter": "ec-micro",
+    "name": "Market Structures",
+    "order": 2
+  },
+  {
+    "id": "t-186",
+    "chapter": "ec-macro",
+    "name": "National Income",
+    "order": 1
+  },
+  {
+    "id": "t-187",
+    "chapter": "ec-macro",
+    "name": "Inflation & Policy",
+    "order": 2
+  },
+  {
+    "id": "t-188",
+    "chapter": "ec-pakistan",
+    "name": "Pakistan Economy Facts",
+    "order": 1
+  },
+  {
+    "id": "t-189",
+    "chapter": "ec-banking",
+    "name": "Central & Commercial Banking",
+    "order": 1
+  },
+  {
+    "id": "t-190",
+    "chapter": "st-descriptive",
+    "name": "Measures of Central Tendency",
+    "order": 1
+  },
+  {
+    "id": "t-191",
+    "chapter": "st-probability",
+    "name": "Probability Rules",
+    "order": 1
+  },
+  {
+    "id": "t-192",
+    "chapter": "st-inference",
+    "name": "Sampling & Testing",
+    "order": 1
+  },
+  {
+    "id": "t-193",
+    "chapter": "ac-basics",
+    "name": "Double Entry",
+    "order": 1
+  },
+  {
+    "id": "t-194",
+    "chapter": "ac-statements",
+    "name": "Balance Sheet",
+    "order": 1
+  },
+  {
+    "id": "t-195",
+    "chapter": "ac-cost",
+    "name": "Break-Even Analysis",
+    "order": 1
+  },
+  {
+    "id": "t-196",
+    "chapter": "fi-corporate",
+    "name": "Time Value of Money",
+    "order": 1
+  },
+  {
+    "id": "t-197",
+    "chapter": "fi-markets",
+    "name": "Stock Market & Islamic Finance",
+    "order": 1
+  },
+  {
+    "id": "t-198",
+    "chapter": "cm-business",
+    "name": "Business Forms",
+    "order": 1
+  },
+  {
+    "id": "t-199",
+    "chapter": "cm-banking",
+    "name": "Insurance",
+    "order": 1
+  },
+  {
+    "id": "t-200",
+    "chapter": "ba-management",
+    "name": "Management Functions",
+    "order": 1
+  },
+  {
+    "id": "t-201",
+    "chapter": "ba-hrm",
+    "name": "HR Functions",
+    "order": 1
+  },
+  {
+    "id": "t-202",
+    "chapter": "ba-marketing",
+    "name": "Marketing Mix",
+    "order": 1
+  },
+  {
+    "id": "t-203",
+    "chapter": "ba-entrepreneurship",
+    "name": "SMEs & Startups",
+    "order": 1
+  },
+  {
+    "id": "t-204",
+    "chapter": "la-constitutional",
+    "name": "Judicial Review",
+    "order": 1
+  },
+  {
+    "id": "t-205",
+    "chapter": "la-criminal",
+    "name": "PPC Offences",
+    "order": 1
+  },
+  {
+    "id": "t-206",
+    "chapter": "la-civil",
+    "name": "Contract Law",
+    "order": 1
+  },
+  {
+    "id": "t-207",
+    "chapter": "la-islamic",
+    "name": "Shariah Principles",
+    "order": 1
+  },
+  {
+    "id": "t-208",
+    "chapter": "la-maxims",
+    "name": "Legal Latin Maxims",
+    "order": 1
+  },
+  {
+    "id": "t-209",
+    "chapter": "co-basics",
+    "name": "Salient Features",
+    "order": 1
+  },
+  {
+    "id": "t-210",
+    "chapter": "co-structure",
+    "name": "Parliament & President",
+    "order": 1
+  },
+  {
+    "id": "t-211",
+    "chapter": "co-amendments",
+    "name": "Key Amendments",
+    "order": 1
+  },
+  {
+    "id": "t-212",
+    "chapter": "co-rights",
+    "name": "Fundamental Rights",
+    "order": 1
+  },
+  {
+    "id": "t-213",
+    "chapter": "ge-physical",
+    "name": "Landforms & Climate",
+    "order": 1
+  },
+  {
+    "id": "t-214",
+    "chapter": "ge-human",
+    "name": "Population & Resources",
+    "order": 1
+  },
+  {
+    "id": "t-215",
+    "chapter": "ge-world",
+    "name": "World Landmarks",
+    "order": 1
+  },
+  {
+    "id": "t-216",
+    "chapter": "hi-ancient",
+    "name": "Ancient Civilizations",
+    "order": 1
+  },
+  {
+    "id": "t-217",
+    "chapter": "hi-modern",
+    "name": "World Wars & Cold War",
+    "order": 1
+  },
+  {
+    "id": "t-218",
+    "chapter": "ir-theory",
+    "name": "Realism & Liberalism",
+    "order": 1
+  },
+  {
+    "id": "t-219",
+    "chapter": "ir-un",
+    "name": "UN Organs",
+    "order": 1
+  },
+  {
+    "id": "t-220",
+    "chapter": "ir-regional",
+    "name": "SAARC & SCO",
+    "order": 1
+  },
+  {
+    "id": "t-221",
+    "chapter": "ir-pakistan",
+    "name": "Pakistan's Bilateral Relations",
+    "order": 1
+  },
+  {
+    "id": "t-222",
+    "chapter": "ps-theory",
+    "name": "State & Sovereignty",
+    "order": 1
+  },
+  {
+    "id": "t-223",
+    "chapter": "ps-systems",
+    "name": "Democracy & Dictatorship",
+    "order": 1
+  },
+  {
+    "id": "t-224",
+    "chapter": "ps-administration",
+    "name": "Bureaucracy",
+    "order": 1
+  },
+  {
+    "id": "t-225",
+    "chapter": "so-basics",
+    "name": "Culture & Socialization",
+    "order": 1
+  },
+  {
+    "id": "t-226",
+    "chapter": "so-change",
+    "name": "Social Problems",
+    "order": 1
+  },
+  {
+    "id": "t-227",
+    "chapter": "an-basics",
+    "name": "Human Evolution",
+    "order": 1
+  },
+  {
+    "id": "t-228",
+    "chapter": "ag-crops",
+    "name": "Major Crops",
+    "order": 1
+  },
+  {
+    "id": "t-229",
+    "chapter": "ag-irrigation",
+    "name": "Water & Pests",
+    "order": 1
+  },
+  {
+    "id": "t-230",
+    "chapter": "ag-economy",
+    "name": "Agri Share in Economy",
+    "order": 1
+  },
+  {
+    "id": "t-231",
+    "chapter": "ve-livestock",
+    "name": "Breeds & Poultry",
+    "order": 1
+  },
+  {
+    "id": "t-232",
+    "chapter": "nu-basics",
+    "name": "Vital Signs",
+    "order": 1
+  },
+  {
+    "id": "t-233",
+    "chapter": "nu-firstaid",
+    "name": "Emergency Care",
+    "order": 1
+  },
+  {
+    "id": "t-234",
+    "chapter": "me-basics",
+    "name": "Body Systems",
+    "order": 1
+  },
+  {
+    "id": "t-235",
+    "chapter": "me-diseases",
+    "name": "Infectious Diseases",
+    "order": 1
+  },
+  {
+    "id": "t-236",
+    "chapter": "me-pharma",
+    "name": "Public Health",
+    "order": 1
+  },
+  {
+    "id": "t-237",
+    "chapter": "pha-basics",
+    "name": "Dosage Forms",
+    "order": 1
+  },
+  {
+    "id": "t-238",
+    "chapter": "el-circuits",
+    "name": "Circuit Laws",
+    "order": 1
+  },
+  {
+    "id": "t-239",
+    "chapter": "el-power",
+    "name": "Transformers & Motors",
+    "order": 1
+  },
+  {
+    "id": "t-240",
+    "chapter": "mec-thermo",
+    "name": "Heat Engines",
+    "order": 1
+  },
+  {
+    "id": "t-241",
+    "chapter": "mec-materials",
+    "name": "Engineering Materials",
+    "order": 1
+  },
+  {
+    "id": "t-242",
+    "chapter": "civ-structures",
+    "name": "Concrete & Steel",
+    "order": 1
+  },
+  {
+    "id": "t-243",
+    "chapter": "civ-surveying",
+    "name": "Surveying Methods",
+    "order": 1
+  },
+  {
+    "id": "t-244",
+    "chapter": "se-process",
+    "name": "SDLC Models",
+    "order": 1
+  },
+  {
+    "id": "t-245",
+    "chapter": "se-quality",
+    "name": "Testing & Management",
+    "order": 1
+  },
+  {
+    "id": "t-246",
+    "chapter": "pr-python",
+    "name": "Python Basics",
+    "order": 1
+  },
+  {
+    "id": "t-247",
+    "chapter": "pr-java",
+    "name": "Java OOP",
+    "order": 1
+  },
+  {
+    "id": "t-248",
+    "chapter": "pr-cpp",
+    "name": "C++ Basics",
+    "order": 1
+  },
+  {
+    "id": "t-249",
+    "chapter": "pr-web",
+    "name": "HTML & CSS",
+    "order": 1
+  },
+  {
+    "id": "t-250",
+    "chapter": "pr-web",
+    "name": "JavaScript & PHP",
+    "order": 2
+  },
+  {
+    "id": "t-251",
+    "chapter": "pr-sql",
+    "name": "SQL Queries",
+    "order": 1
+  },
+  {
+    "id": "t-252",
+    "chapter": "net-basics",
+    "name": "OSI & TCP/IP",
+    "order": 1
+  },
+  {
+    "id": "t-253",
+    "chapter": "net-devices",
+    "name": "IP Addressing",
+    "order": 1
+  },
+  {
+    "id": "t-254",
+    "chapter": "os-basics",
+    "name": "Process & Memory",
+    "order": 1
+  },
+  {
+    "id": "t-255",
+    "chapter": "os-windows",
+    "name": "Windows Basics",
+    "order": 1
+  },
+  {
+    "id": "t-256",
+    "chapter": "os-windows",
+    "name": "Linux Commands",
+    "order": 2
+  },
+  {
+    "id": "t-257",
+    "chapter": "ai-ml",
+    "name": "ML Concepts",
+    "order": 1
+  },
+  {
+    "id": "t-258",
+    "chapter": "ds-basics",
+    "name": "Data Analysis",
+    "order": 1
+  },
+  {
+    "id": "t-259",
+    "chapter": "cyb-basics",
+    "name": "Malware & Threats",
+    "order": 1
+  },
+  {
+    "id": "t-260",
+    "chapter": "cyb-crypto",
+    "name": "Encryption",
+    "order": 1
+  },
+  {
+    "id": "t-261",
+    "chapter": "cld-basics",
+    "name": "Cloud Models",
+    "order": 1
+  },
+  {
+    "id": "t-262",
+    "chapter": "mo-word",
+    "name": "Word Tools",
+    "order": 1
+  },
+  {
+    "id": "t-263",
+    "chapter": "mo-excel",
+    "name": "Formulas & Functions",
+    "order": 1
+  },
+  {
+    "id": "t-264",
+    "chapter": "mo-excel",
+    "name": "Charts & Data Tools",
+    "order": 2
+  },
+  {
+    "id": "t-265",
+    "chapter": "mo-powerpoint",
+    "name": "Slides & Effects",
+    "order": 1
+  },
+  {
+    "id": "t-266",
+    "chapter": "mo-access",
+    "name": "Access & Outlook Basics",
+    "order": 1
+  },
+  {
+    "id": "t-267",
+    "chapter": "rq-verbal",
+    "name": "Analogies & Series",
+    "order": 1
+  },
+  {
+    "id": "t-268",
+    "chapter": "rq-nonverbal",
+    "name": "Pattern Series",
+    "order": 1
+  },
+  {
+    "id": "t-269",
+    "chapter": "rq-analytical",
+    "name": "Syllogisms & Puzzles",
+    "order": 1
+  },
+  {
+    "id": "t-270",
+    "chapter": "lit-poetry",
+    "name": "Poets & Novelists",
+    "order": 1
+  },
+  {
+    "id": "t-271",
+    "chapter": "lit-terms",
+    "name": "Literary Devices",
+    "order": 1
+  },
+  {
+    "id": "t-272",
+    "chapter": "env-ecosystems",
+    "name": "Ecosystem Structure & Energy Flow",
+    "subtopics": [
+      "food chains & webs",
+      "trophic levels",
+      "energy pyramids"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-273",
+    "chapter": "env-ecosystems",
+    "name": "Biomes & Biodiversity",
+    "subtopics": [
+      "terrestrial biomes",
+      "aquatic biomes",
+      "biodiversity hotspots"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-274",
+    "chapter": "env-pollution",
+    "name": "Air & Water Pollution",
+    "subtopics": [
+      "smog & particulates",
+      "water contaminants",
+      "acid rain"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-275",
+    "chapter": "env-pollution",
+    "name": "Climate Change & Ozone",
+    "subtopics": [
+      "greenhouse effect",
+      "ozone depletion",
+      "carbon footprint"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-276",
+    "chapter": "env-conservation",
+    "name": "Renewable Energy & Conservation",
+    "subtopics": [
+      "solar & wind",
+      "hydel & biomass",
+      "energy efficiency"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-277",
+    "chapter": "env-conservation",
+    "name": "Environmental Law & SDGs",
+    "subtopics": [
+      "EPA Pakistan",
+      "sustainable development goals",
+      "EIA"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-278",
+    "chapter": "bt-basics",
+    "name": "DNA Technology",
+    "subtopics": [
+      "recombinant DNA",
+      "PCR",
+      "gel electrophoresis"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-279",
+    "chapter": "bt-basics",
+    "name": "Genetic Engineering",
+    "subtopics": [
+      "GMOs",
+      "gene editing",
+      "CRISPR"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-280",
+    "chapter": "bt-applications",
+    "name": "Medical Biotechnology",
+    "subtopics": [
+      "recombinant vaccines",
+      "insulin production",
+      "gene therapy"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-281",
+    "chapter": "bt-applications",
+    "name": "Agricultural Biotechnology",
+    "subtopics": [
+      "BT crops",
+      "tissue culture",
+      "golden rice"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-282",
+    "chapter": "elx-components",
+    "name": "Semiconductors",
+    "subtopics": [
+      "p-n junction",
+      "doping",
+      "transistors"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-283",
+    "chapter": "elx-components",
+    "name": "Op-Amps & Logic Gates",
+    "subtopics": [
+      "operational amplifiers",
+      "basic gates",
+      "combinational logic"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-284",
+    "chapter": "elx-systems",
+    "name": "Digital Electronics",
+    "subtopics": [
+      "flip-flops",
+      "counters",
+      "registers"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-285",
+    "chapter": "elx-systems",
+    "name": "Communication Electronics",
+    "subtopics": [
+      "modulation",
+      "antennas",
+      "radar"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-286",
+    "chapter": "che-basics",
+    "name": "Material & Energy Balance",
+    "subtopics": [
+      "units & conversion",
+      "material balance",
+      "energy balance"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-287",
+    "chapter": "che-basics",
+    "name": "Kinetics & Reactors",
+    "subtopics": [
+      "reaction order",
+      "reactor types",
+      "catalysts"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-288",
+    "chapter": "che-processes",
+    "name": "Unit Operations",
+    "subtopics": [
+      "distillation",
+      "absorption",
+      "drying"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-289",
+    "chapter": "che-processes",
+    "name": "Process Industries",
+    "subtopics": [
+      "fertilizer",
+      "cement",
+      "petroleum refining"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-290",
+    "chapter": "ind-production",
+    "name": "Operations Management",
+    "subtopics": [
+      "capacity planning",
+      "scheduling",
+      "inventory"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-291",
+    "chapter": "ind-production",
+    "name": "Quality Management",
+    "subtopics": [
+      "TQM",
+      "six sigma",
+      "ISO 9000"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-292",
+    "chapter": "ind-ergonomics",
+    "name": "Work Study",
+    "subtopics": [
+      "time study",
+      "motion study",
+      "productivity"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-293",
+    "chapter": "ind-ergonomics",
+    "name": "Industrial Safety",
+    "subtopics": [
+      "hazard identification",
+      "PPE",
+      "fire safety"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-294",
+    "chapter": "enve-water",
+    "name": "Water Treatment",
+    "subtopics": [
+      "sedimentation",
+      "filtration",
+      "disinfection"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-295",
+    "chapter": "enve-water",
+    "name": "Wastewater Treatment",
+    "subtopics": [
+      "primary treatment",
+      "secondary treatment",
+      "tertiary treatment"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-296",
+    "chapter": "enve-air",
+    "name": "Air Quality Control",
+    "subtopics": [
+      "pollutants",
+      "control devices",
+      "air quality standards"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-297",
+    "chapter": "enve-air",
+    "name": "Solid Waste Management",
+    "subtopics": [
+      "landfilling",
+      "recycling",
+      "composting"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-298",
+    "chapter": "mecx-intro",
+    "name": "Sensors & Actuators",
+    "subtopics": [
+      "transducers",
+      "electric motors",
+      "servos"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-299",
+    "chapter": "mecx-intro",
+    "name": "Control Systems",
+    "subtopics": [
+      "open & closed loop",
+      "PID control",
+      "PLC"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-300",
+    "chapter": "mecx-robotics",
+    "name": "Robotics",
+    "subtopics": [
+      "robot anatomy",
+      "degrees of freedom",
+      "grippers"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-301",
+    "chapter": "mecx-robotics",
+    "name": "Automation",
+    "subtopics": [
+      "CNC machines",
+      "SCADA",
+      "industry 4.0"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-302",
+    "chapter": "ana-basics",
+    "name": "Skeletal System",
+    "subtopics": [
+      "bones & classification",
+      "joints",
+      "skull"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-303",
+    "chapter": "ana-basics",
+    "name": "Muscular System",
+    "subtopics": [
+      "muscle types",
+      "major muscles",
+      "tendons"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-304",
+    "chapter": "ana-organs",
+    "name": "Thoracic & Abdominal Organs",
+    "subtopics": [
+      "heart & lungs",
+      "liver & gallbladder",
+      "kidney & spleen"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-305",
+    "chapter": "ana-organs",
+    "name": "Nervous System",
+    "subtopics": [
+      "brain",
+      "spinal cord",
+      "cranial nerves"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-306",
+    "chapter": "phy-systems",
+    "name": "Cardiovascular & Respiratory",
+    "subtopics": [
+      "cardiac cycle",
+      "blood pressure",
+      "breathing mechanics"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-307",
+    "chapter": "phy-systems",
+    "name": "Renal & Endocrine",
+    "subtopics": [
+      "nephron function",
+      "hormones",
+      "homeostasis"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-308",
+    "chapter": "phy-nerve",
+    "name": "Nerve Conduction",
+    "subtopics": [
+      "action potential",
+      "synapses",
+      "neurotransmitters"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-309",
+    "chapter": "phy-nerve",
+    "name": "Muscle Physiology",
+    "subtopics": [
+      "contraction",
+      "muscle types",
+      "fatigue"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-310",
+    "chapter": "pat-general",
+    "name": "Cell Injury & Inflammation",
+    "subtopics": [
+      "reversible injury",
+      "acute inflammation",
+      "chronic inflammation"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-311",
+    "chapter": "pat-general",
+    "name": "Neoplasia",
+    "subtopics": [
+      "benign tumours",
+      "malignancy",
+      "metastasis"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-312",
+    "chapter": "pat-systemic",
+    "name": "Cardiovascular & Respiratory Pathology",
+    "subtopics": [
+      "atherosclerosis",
+      "myocardial infarction",
+      "pneumonia"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-313",
+    "chapter": "pat-systemic",
+    "name": "Infectious Pathology",
+    "subtopics": [
+      "bacterial infections",
+      "viral infections",
+      "fungal infections"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-314",
+    "chapter": "mic-bacteria",
+    "name": "Bacterial Structure",
+    "subtopics": [
+      "cell wall",
+      "gram staining",
+      "capsules"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-315",
+    "chapter": "mic-bacteria",
+    "name": "Bacterial Diseases",
+    "subtopics": [
+      "tuberculosis",
+      "typhoid",
+      "cholera"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-316",
+    "chapter": "mic-viruses",
+    "name": "Virology",
+    "subtopics": [
+      "virus structure",
+      "viral replication",
+      "viral diseases"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-317",
+    "chapter": "mic-viruses",
+    "name": "Fungi & Parasites",
+    "subtopics": [
+      "mycoses",
+      "protozoa",
+      "helminths"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-318",
+    "chapter": "bic-molecules",
+    "name": "Proteins & Enzymes",
+    "subtopics": [
+      "amino acids",
+      "enzyme kinetics",
+      "enzyme inhibition"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-319",
+    "chapter": "bic-molecules",
+    "name": "Carbohydrates & Lipids",
+    "subtopics": [
+      "monosaccharides",
+      "fatty acids",
+      "cholesterol"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-320",
+    "chapter": "bic-metabolism",
+    "name": "Energy Metabolism",
+    "subtopics": [
+      "glycolysis",
+      "Krebs cycle",
+      "oxidative phosphorylation"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-321",
+    "chapter": "bic-metabolism",
+    "name": "Nucleic Acids",
+    "subtopics": [
+      "DNA replication",
+      "transcription",
+      "translation"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-322",
+    "chapter": "his-tissues",
+    "name": "Epithelial & Connective Tissue",
+    "subtopics": [
+      "epithelium types",
+      "collagen",
+      "cartilage"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-323",
+    "chapter": "his-tissues",
+    "name": "Muscle & Nerve Tissue",
+    "subtopics": [
+      "muscle histology",
+      "neurons",
+      "neuroglia"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-324",
+    "chapter": "his-organs",
+    "name": "GI & Respiratory Histology",
+    "subtopics": [
+      "stomach",
+      "liver",
+      "alveoli"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-325",
+    "chapter": "his-organs",
+    "name": "Renal & Reproductive Histology",
+    "subtopics": [
+      "nephron histology",
+      "testis",
+      "ovary"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-326",
+    "chapter": "den-restorative",
+    "name": "Amalgam & Composites",
+    "subtopics": [
+      "dental amalgam",
+      "composite resins",
+      "bonding agents"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-327",
+    "chapter": "den-restorative",
+    "name": "Cements & Liners",
+    "subtopics": [
+      "glass ionomer",
+      "zinc oxide eugenol",
+      "cavity liners"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-328",
+    "chapter": "den-properties",
+    "name": "Physical Properties",
+    "subtopics": [
+      "hardness",
+      "strength",
+      "thermal expansion"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-329",
+    "chapter": "den-properties",
+    "name": "Impression Materials",
+    "subtopics": [
+      "alginate",
+      "silicones",
+      "impression wax"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-330",
+    "chapter": "med-internal",
+    "name": "Cardiology & Respirology",
+    "subtopics": [
+      "hypertension",
+      "ischaemic heart disease",
+      "asthma"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-331",
+    "chapter": "med-internal",
+    "name": "Gastro & Nephrology",
+    "subtopics": [
+      "peptic ulcer",
+      "hepatitis",
+      "chronic kidney disease"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-332",
+    "chapter": "med-infectious",
+    "name": "Infectious Diseases",
+    "subtopics": [
+      "dengue",
+      "malaria",
+      "typhoid"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-333",
+    "chapter": "med-infectious",
+    "name": "Endocrine Disorders",
+    "subtopics": [
+      "diabetes",
+      "thyroid disorders",
+      "adrenal disorders"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-334",
+    "chapter": "sur-general",
+    "name": "Surgical Principles",
+    "subtopics": [
+      "asepsis",
+      "wound healing",
+      "sutures"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-335",
+    "chapter": "sur-general",
+    "name": "Acute Abdomen",
+    "subtopics": [
+      "appendicitis",
+      "cholecystitis",
+      "bowel obstruction"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-336",
+    "chapter": "sur-trauma",
+    "name": "Trauma Care",
+    "subtopics": [
+      "ATLS approach",
+      "fractures",
+      "head injury"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-337",
+    "chapter": "sur-trauma",
+    "name": "Burns",
+    "subtopics": [
+      "burn classification",
+      "fluid resuscitation",
+      "grafting"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-338",
+    "chapter": "com-epidemiology",
+    "name": "Epidemiology",
+    "subtopics": [
+      "incidence & prevalence",
+      "outbreak investigation",
+      "study designs"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-339",
+    "chapter": "com-epidemiology",
+    "name": "Biostatistics & Screening",
+    "subtopics": [
+      "rates & ratios",
+      "sensitivity & specificity",
+      "screening tests"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-340",
+    "chapter": "com-health",
+    "name": "Primary Health Care",
+    "subtopics": [
+      "PHC elements",
+      "immunization",
+      "maternal & child health"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-341",
+    "chapter": "com-health",
+    "name": "Environmental & Occupational Health",
+    "subtopics": [
+      "occupational hazards",
+      "safe water",
+      "sanitation"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-342",
+    "chapter": "aud-fundamentals",
+    "name": "Audit Concepts",
+    "subtopics": [
+      "audit objectives",
+      "audit types",
+      "audit evidence"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-343",
+    "chapter": "aud-fundamentals",
+    "name": "Audit Process",
+    "subtopics": [
+      "planning",
+      "fieldwork",
+      "reporting"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-344",
+    "chapter": "aud-standards",
+    "name": "Audit Standards & Ethics",
+    "subtopics": [
+      "ISA",
+      "auditor independence",
+      "code of ethics"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-345",
+    "chapter": "aud-standards",
+    "name": "Internal Control",
+    "subtopics": [
+      "control environment",
+      "tests of control",
+      "audit sampling"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-346",
+    "chapter": "scm-logistics",
+    "name": "Logistics",
+    "subtopics": [
+      "transportation",
+      "warehousing",
+      "distribution"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-347",
+    "chapter": "scm-logistics",
+    "name": "Inventory Management",
+    "subtopics": [
+      "EOQ",
+      "safety stock",
+      "JIT"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-348",
+    "chapter": "scm-strategy",
+    "name": "Chain Design & Sourcing",
+    "subtopics": [
+      "network design",
+      "make or buy",
+      "supplier selection"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-349",
+    "chapter": "scm-strategy",
+    "name": "Performance & Trends",
+    "subtopics": [
+      "supply chain KPIs",
+      "bullwhip effect",
+      "reverse logistics"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-350",
+    "chapter": "ped-sports",
+    "name": "Athletics & Games",
+    "subtopics": [
+      "track events",
+      "field events",
+      "team games"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-351",
+    "chapter": "ped-sports",
+    "name": "Fitness Components",
+    "subtopics": [
+      "strength",
+      "endurance",
+      "flexibility"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-352",
+    "chapter": "ped-olympics",
+    "name": "Olympics",
+    "subtopics": [
+      "modern games",
+      "Olympic records",
+      "Pakistan at Olympics"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-353",
+    "chapter": "ped-olympics",
+    "name": "Sports Institutions",
+    "subtopics": [
+      "Pakistan Sports Board",
+      "POA",
+      "sports federations"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-354",
+    "chapter": "for-forests",
+    "name": "Forest Types & Ecology",
+    "subtopics": [
+      "coniferous forests",
+      "tropical forests",
+      "mangroves"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-355",
+    "chapter": "for-forests",
+    "name": "Silviculture",
+    "subtopics": [
+      "planting",
+      "thinning",
+      "harvesting"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-356",
+    "chapter": "for-management",
+    "name": "Conservation & Wildlife",
+    "subtopics": [
+      "national parks",
+      "wildlife protection",
+      "deforestation"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-357",
+    "chapter": "for-management",
+    "name": "Forest Products",
+    "subtopics": [
+      "timber",
+      "non-timber products",
+      "agroforestry"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-358",
+    "chapter": "ess-writing",
+    "name": "Essay Structure",
+    "subtopics": [
+      "introduction",
+      "body paragraphs",
+      "conclusion"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-359",
+    "chapter": "ess-writing",
+    "name": "Planning & Outlining",
+    "subtopics": [
+      "thesis statement",
+      "brainstorming",
+      "outlining"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-360",
+    "chapter": "ess-css",
+    "name": "CSS Essay Paper",
+    "subtopics": [
+      "past essay topics",
+      "presentation",
+      "time management"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-361",
+    "chapter": "ess-css",
+    "name": "Common Essay Themes",
+    "subtopics": [
+      "governance",
+      "economy",
+      "society & science"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-362",
+    "chapter": "world-current-affairs-global-organizations",
+    "name": "UN System & Agencies",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-363",
+    "chapter": "world-current-affairs-global-organizations",
+    "name": "IMF, WTO, BRICS & Bodies",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-364",
+    "chapter": "world-current-affairs-world-economy-trade",
+    "name": "Trade Blocs & Agreements",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-365",
+    "chapter": "world-current-affairs-world-economy-trade",
+    "name": "Global Economic Trends",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-366",
+    "chapter": "world-current-affairs-conflicts-peacekeeping",
+    "name": "Recent Conflicts",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-367",
+    "chapter": "world-current-affairs-conflicts-peacekeeping",
+    "name": "Peace & Diplomacy",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-368",
+    "chapter": "iq-number-letter-series",
+    "name": "Number Series",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-369",
+    "chapter": "iq-number-letter-series",
+    "name": "Letter & Symbol Series",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-370",
+    "chapter": "iq-classification-odd-one-out",
+    "name": "Classification",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-371",
+    "chapter": "iq-classification-odd-one-out",
+    "name": "Odd One Out",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-372",
+    "chapter": "iq-analogies",
+    "name": "Word Analogies",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-373",
+    "chapter": "iq-analogies",
+    "name": "Number Analogies",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-374",
+    "chapter": "logical-reasoning-statements-conclusions",
+    "name": "Conclusions & Assumptions",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-375",
+    "chapter": "logical-reasoning-statements-conclusions",
+    "name": "Inferences",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-376",
+    "chapter": "logical-reasoning-syllogisms",
+    "name": "Basic Syllogisms",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-377",
+    "chapter": "logical-reasoning-syllogisms",
+    "name": "Venn Diagram Logic",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-378",
+    "chapter": "logical-reasoning-logic-puzzles",
+    "name": "Seating & Ordering",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-379",
+    "chapter": "logical-reasoning-logic-puzzles",
+    "name": "Coding-Decoding",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-380",
+    "chapter": "analytical-reasoning-arrangements",
+    "name": "Linear Arrangements",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-381",
+    "chapter": "analytical-reasoning-arrangements",
+    "name": "Circular Arrangements",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-382",
+    "chapter": "analytical-reasoning-data-sufficiency",
+    "name": "Data Sufficiency",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-383",
+    "chapter": "analytical-reasoning-data-sufficiency",
+    "name": "Decision Making",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-384",
+    "chapter": "analytical-reasoning-coding-decoding",
+    "name": "Letter Coding",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-385",
+    "chapter": "analytical-reasoning-coding-decoding",
+    "name": "Number Coding",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-386",
+    "chapter": "verbal-reasoning-word-logic",
+    "name": "Analogies",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-387",
+    "chapter": "verbal-reasoning-word-logic",
+    "name": "Word Relations",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-388",
+    "chapter": "verbal-reasoning-sentence-logic",
+    "name": "Statement Analysis",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-389",
+    "chapter": "verbal-reasoning-sentence-logic",
+    "name": "Cause & Effect",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-390",
+    "chapter": "verbal-reasoning-classification-series",
+    "name": "Verbal Classification",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-391",
+    "chapter": "verbal-reasoning-classification-series",
+    "name": "Verbal Series",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-392",
+    "chapter": "non-verbal-reasoning-figure-series",
+    "name": "Figure Series",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-393",
+    "chapter": "non-verbal-reasoning-figure-series",
+    "name": "Figure Completion",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-394",
+    "chapter": "non-verbal-reasoning-images-reflections",
+    "name": "Mirror Images",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-395",
+    "chapter": "non-verbal-reasoning-images-reflections",
+    "name": "Water Images",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-396",
+    "chapter": "non-verbal-reasoning-cubes-dice",
+    "name": "Cube Problems",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-397",
+    "chapter": "non-verbal-reasoning-cubes-dice",
+    "name": "Dice Problems",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-398",
+    "chapter": "data-interpretation-tables-charts",
+    "name": "Tables",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-399",
+    "chapter": "data-interpretation-tables-charts",
+    "name": "Bar Charts",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-400",
+    "chapter": "data-interpretation-graphs",
+    "name": "Line Graphs",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-401",
+    "chapter": "data-interpretation-graphs",
+    "name": "Pie Charts",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-402",
+    "chapter": "data-interpretation-quantitative-data",
+    "name": "Percentages & Ratios",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-403",
+    "chapter": "data-interpretation-quantitative-data",
+    "name": "Averages & Trends",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-404",
+    "chapter": "aptitude-tests-quantitative-aptitude",
+    "name": "Percentages & Ratios",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-405",
+    "chapter": "aptitude-tests-quantitative-aptitude",
+    "name": "Profit, Loss & Discount",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-406",
+    "chapter": "aptitude-tests-time-work",
+    "name": "Work & Wages",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-407",
+    "chapter": "aptitude-tests-time-work",
+    "name": "Pipes & Cisterns",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-408",
+    "chapter": "aptitude-tests-speed-distance",
+    "name": "Time & Distance",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-409",
+    "chapter": "aptitude-tests-speed-distance",
+    "name": "Boats & Streams",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-410",
+    "chapter": "vocabulary-word-meanings",
+    "name": "Common Exam Words",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-411",
+    "chapter": "vocabulary-word-meanings",
+    "name": "Roots, Prefixes & Suffixes",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-412",
+    "chapter": "vocabulary-confusing-words",
+    "name": "Confusable Pairs",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-413",
+    "chapter": "vocabulary-confusing-words",
+    "name": "Contextual Usage",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-414",
+    "chapter": "grammar-parts-of-speech",
+    "name": "Nouns & Pronouns",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-415",
+    "chapter": "grammar-parts-of-speech",
+    "name": "Verbs & Tenses",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-416",
+    "chapter": "grammar-sentence-structure",
+    "name": "Subject-Verb Agreement",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-417",
+    "chapter": "grammar-sentence-structure",
+    "name": "Clauses & Phrases",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-418",
+    "chapter": "grammar-punctuation-style",
+    "name": "Punctuation",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-419",
+    "chapter": "grammar-punctuation-style",
+    "name": "Common Errors",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-420",
+    "chapter": "synonyms-synonym-sets",
+    "name": "High-Frequency Synonyms",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-421",
+    "chapter": "synonyms-synonym-sets",
+    "name": "Context-Based Synonyms",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-422",
+    "chapter": "synonyms-vocabulary-building",
+    "name": "Word Families",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-423",
+    "chapter": "synonyms-vocabulary-building",
+    "name": "Intensifiers & Shades",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-424",
+    "chapter": "antonyms-antonym-sets",
+    "name": "High-Frequency Antonyms",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-425",
+    "chapter": "antonyms-antonym-sets",
+    "name": "Prefix-Based Opposites",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-426",
+    "chapter": "antonyms-context-antonyms",
+    "name": "Opposites in Sentences",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-427",
+    "chapter": "antonyms-context-antonyms",
+    "name": "Shades of Meaning",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-428",
+    "chapter": "idioms-common-idioms",
+    "name": "Everyday Idioms",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-429",
+    "chapter": "idioms-common-idioms",
+    "name": "Body-Part Idioms",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-430",
+    "chapter": "idioms-phrasal-verbs",
+    "name": "Phrasal Verbs",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-431",
+    "chapter": "idioms-phrasal-verbs",
+    "name": "Idioms in Context",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-432",
+    "chapter": "sentence-correction-error-spotting",
+    "name": "Agreement Errors",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-433",
+    "chapter": "sentence-correction-error-spotting",
+    "name": "Tense & Mood Errors",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-434",
+    "chapter": "sentence-correction-improvement",
+    "name": "Sentence Improvement",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-435",
+    "chapter": "sentence-correction-improvement",
+    "name": "Sentence Reconstruction",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-436",
+    "chapter": "comprehension-reading-passages",
+    "name": "Main Idea & Tone",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-437",
+    "chapter": "comprehension-reading-passages",
+    "name": "Inference & Detail",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-438",
+    "chapter": "comprehension-cloze-fill-ins",
+    "name": "Cloze Tests",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-439",
+    "chapter": "comprehension-cloze-fill-ins",
+    "name": "Vocabulary in Context",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-440",
+    "chapter": "computer-engineering-digital-logic",
+    "name": "Logic Gates",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-441",
+    "chapter": "computer-engineering-digital-logic",
+    "name": "Boolean Algebra",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-442",
+    "chapter": "computer-engineering-computer-architecture",
+    "name": "Processor & Memory",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-443",
+    "chapter": "computer-engineering-computer-architecture",
+    "name": "I/O Systems",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-444",
+    "chapter": "computer-engineering-embedded-systems",
+    "name": "Microcontrollers",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-445",
+    "chapter": "computer-engineering-embedded-systems",
+    "name": "Embedded Programming",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-446",
+    "chapter": "mbbs-pre-clinical-basics",
+    "name": "Anatomy Essentials",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-447",
+    "chapter": "mbbs-pre-clinical-basics",
+    "name": "Physiology Essentials",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-448",
+    "chapter": "mbbs-clinical-foundations",
+    "name": "Medicine Basics",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-449",
+    "chapter": "mbbs-clinical-foundations",
+    "name": "Surgery Basics",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-450",
+    "chapter": "bds-dental-pre-clinical",
+    "name": "Oral Anatomy Basics",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-451",
+    "chapter": "bds-dental-pre-clinical",
+    "name": "Dental Materials Basics",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-452",
+    "chapter": "bds-clinical-dentistry",
+    "name": "Conservative Dentistry",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-453",
+    "chapter": "bds-clinical-dentistry",
+    "name": "Oral Surgery Basics",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-454",
+    "chapter": "dpt-pt-fundamentals",
+    "name": "Anatomy for Physiotherapy",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-455",
+    "chapter": "dpt-pt-fundamentals",
+    "name": "Kinesiology",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-456",
+    "chapter": "dpt-therapeutic-techniques",
+    "name": "Exercise Therapy",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-457",
+    "chapter": "dpt-therapeutic-techniques",
+    "name": "Electrotherapy",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-458",
+    "chapter": "pharmacology-pharmacokinetics",
+    "name": "Absorption & Distribution",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-459",
+    "chapter": "pharmacology-pharmacokinetics",
+    "name": "Metabolism & Excretion",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-460",
+    "chapter": "pharmacology-drug-classes",
+    "name": "Autonomic Drugs",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-461",
+    "chapter": "pharmacology-drug-classes",
+    "name": "Antimicrobials",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-462",
+    "chapter": "pharmacology-clinical-pharmacology",
+    "name": "Adverse Effects",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-463",
+    "chapter": "pharmacology-clinical-pharmacology",
+    "name": "Drug Interactions",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-464",
+    "chapter": "general-anatomy-body-systems",
+    "name": "Skeletal System",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-465",
+    "chapter": "general-anatomy-body-systems",
+    "name": "Muscular System",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-466",
+    "chapter": "general-anatomy-organ-systems",
+    "name": "Cardiovascular System",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-467",
+    "chapter": "general-anatomy-organ-systems",
+    "name": "Nervous System",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-468",
+    "chapter": "oral-anatomy-dental-structures",
+    "name": "Teeth Morphology",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-469",
+    "chapter": "oral-anatomy-dental-structures",
+    "name": "Oral Cavity",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-470",
+    "chapter": "oral-anatomy-head-neck",
+    "name": "Muscles & Nerves",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-471",
+    "chapter": "oral-anatomy-head-neck",
+    "name": "Salivary Glands",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-472",
+    "chapter": "oral-histology-oral-tissues",
+    "name": "Enamel & Dentin",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-473",
+    "chapter": "oral-histology-oral-tissues",
+    "name": "Pulp & Cementum",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-474",
+    "chapter": "oral-histology-development",
+    "name": "Tooth Development",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-475",
+    "chapter": "oral-histology-development",
+    "name": "Oral Mucosa",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-476",
+    "chapter": "oral-pathology-oral-lesions",
+    "name": "Dental Caries",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-477",
+    "chapter": "oral-pathology-oral-lesions",
+    "name": "Periodontal Disease",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-478",
+    "chapter": "oral-pathology-oral-conditions",
+    "name": "Cysts & Tumors",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-479",
+    "chapter": "oral-pathology-oral-conditions",
+    "name": "Oral Infections",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-480",
+    "chapter": "hrm-hrm-fundamentals",
+    "name": "HR Planning",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-481",
+    "chapter": "hrm-hrm-fundamentals",
+    "name": "Recruitment & Selection",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-482",
+    "chapter": "hrm-hr-operations",
+    "name": "Training & Development",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-483",
+    "chapter": "hrm-hr-operations",
+    "name": "Performance Appraisal",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-484",
+    "chapter": "hrm-employee-relations",
+    "name": "Compensation",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-485",
+    "chapter": "hrm-employee-relations",
+    "name": "Labor Laws",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-486",
+    "chapter": "marketing-marketing-fundamentals",
+    "name": "Marketing Mix",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-487",
+    "chapter": "marketing-marketing-fundamentals",
+    "name": "Segmentation & Targeting",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-488",
+    "chapter": "marketing-marketing-strategy",
+    "name": "Branding",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-489",
+    "chapter": "marketing-marketing-strategy",
+    "name": "Pricing Strategies",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-490",
+    "chapter": "marketing-digital-marketing",
+    "name": "Social Media Marketing",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-491",
+    "chapter": "marketing-digital-marketing",
+    "name": "Content & SEO",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-492",
+    "chapter": "world-history-ancient-medieval",
+    "name": "Ancient Civilizations",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-493",
+    "chapter": "world-history-ancient-medieval",
+    "name": "Medieval Empires",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-494",
+    "chapter": "world-history-modern-world",
+    "name": "Renaissance & Enlightenment",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-495",
+    "chapter": "world-history-modern-world",
+    "name": "World Wars",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-496",
+    "chapter": "world-history-contemporary-era",
+    "name": "Cold War",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-497",
+    "chapter": "world-history-contemporary-era",
+    "name": "Post-1990 World",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-498",
+    "chapter": "pakistan-history-pre-independence",
+    "name": "Muslim Rule in India",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-499",
+    "chapter": "pakistan-history-pre-independence",
+    "name": "Freedom Movement",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-500",
+    "chapter": "pakistan-history-post-1947",
+    "name": "Early Years",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-501",
+    "chapter": "pakistan-history-post-1947",
+    "name": "Constitutional Development",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-502",
+    "chapter": "pakistan-history-modern-pakistan",
+    "name": "Politics & Governance",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-503",
+    "chapter": "pakistan-history-modern-pakistan",
+    "name": "Economic History",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-504",
+    "chapter": "machine-learning-ml-fundamentals",
+    "name": "Supervised Learning",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-505",
+    "chapter": "machine-learning-ml-fundamentals",
+    "name": "Unsupervised Learning",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-506",
+    "chapter": "machine-learning-algorithms",
+    "name": "Regression & Classification",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-507",
+    "chapter": "machine-learning-algorithms",
+    "name": "Clustering",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-508",
+    "chapter": "machine-learning-evaluation-tuning",
+    "name": "Metrics",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-509",
+    "chapter": "machine-learning-evaluation-tuning",
+    "name": "Overfitting & Regularization",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-510",
+    "chapter": "deep-learning-neural-networks",
+    "name": "Perceptron & Layers",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-511",
+    "chapter": "deep-learning-neural-networks",
+    "name": "Activation Functions",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-512",
+    "chapter": "deep-learning-cnns-rnns",
+    "name": "Convolutional Networks",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-513",
+    "chapter": "deep-learning-cnns-rnns",
+    "name": "Recurrent Networks",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-514",
+    "chapter": "deep-learning-llms-transformers",
+    "name": "Transformer Architecture",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-515",
+    "chapter": "deep-learning-llms-transformers",
+    "name": "Attention & Embeddings",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-516",
+    "chapter": "ethical-hacking-security-fundamentals",
+    "name": "Threats & Vulnerabilities",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-517",
+    "chapter": "ethical-hacking-security-fundamentals",
+    "name": "Security Controls",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-518",
+    "chapter": "ethical-hacking-penetration-testing",
+    "name": "Reconnaissance",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-519",
+    "chapter": "ethical-hacking-penetration-testing",
+    "name": "Exploitation & Post-Exploitation",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-520",
+    "chapter": "ethical-hacking-defensive-practices",
+    "name": "Hardening",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-521",
+    "chapter": "ethical-hacking-defensive-practices",
+    "name": "Incident Response",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-522",
+    "chapter": "devops-ci-cd",
+    "name": "Pipeline Fundamentals",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-523",
+    "chapter": "devops-ci-cd",
+    "name": "Build & Release",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-524",
+    "chapter": "devops-infrastructure-as-code",
+    "name": "Terraform & Ansible",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-525",
+    "chapter": "devops-infrastructure-as-code",
+    "name": "Configuration Management",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-526",
+    "chapter": "devops-monitoring",
+    "name": "Logging & Metrics",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-527",
+    "chapter": "devops-monitoring",
+    "name": "Observability",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-528",
+    "chapter": "big-data-big-data-fundamentals",
+    "name": "The 3 V's",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-529",
+    "chapter": "big-data-big-data-fundamentals",
+    "name": "Hadoop Ecosystem",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-530",
+    "chapter": "big-data-processing-frameworks",
+    "name": "MapReduce",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-531",
+    "chapter": "big-data-processing-frameworks",
+    "name": "Spark",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-532",
+    "chapter": "big-data-data-pipelines",
+    "name": "Streaming",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-533",
+    "chapter": "big-data-data-pipelines",
+    "name": "Batch Processing",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-534",
+    "chapter": "database-relational-databases",
+    "name": "Tables & Keys",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-535",
+    "chapter": "database-relational-databases",
+    "name": "Normalization",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-536",
+    "chapter": "database-database-design",
+    "name": "ER Modeling",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-537",
+    "chapter": "database-database-design",
+    "name": "Indexes & Constraints",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-538",
+    "chapter": "database-administration",
+    "name": "Transactions & ACID",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-539",
+    "chapter": "database-administration",
+    "name": "Backup & Recovery",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-540",
+    "chapter": "sql-sql-basics",
+    "name": "SELECT & Filtering",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-541",
+    "chapter": "sql-sql-basics",
+    "name": "Joins",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-542",
+    "chapter": "sql-advanced-sql",
+    "name": "Aggregations & Grouping",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-543",
+    "chapter": "sql-advanced-sql",
+    "name": "Subqueries",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-544",
+    "chapter": "sql-sql-in-practice",
+    "name": "Indexes & Optimization",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-545",
+    "chapter": "sql-sql-in-practice",
+    "name": "Stored Procedures",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-546",
+    "chapter": "windows-windows-fundamentals",
+    "name": "Desktop & Files",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-547",
+    "chapter": "windows-windows-fundamentals",
+    "name": "Settings & Control Panel",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-548",
+    "chapter": "windows-administration",
+    "name": "User Accounts",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-549",
+    "chapter": "windows-administration",
+    "name": "Networking & Sharing",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-550",
+    "chapter": "linux-linux-fundamentals",
+    "name": "Command Line Basics",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-551",
+    "chapter": "linux-linux-fundamentals",
+    "name": "File System",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-552",
+    "chapter": "linux-administration",
+    "name": "Processes & Permissions",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-553",
+    "chapter": "linux-administration",
+    "name": "Package Management",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-554",
+    "chapter": "linux-shell-scripting",
+    "name": "Scripting Basics",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-555",
+    "chapter": "linux-shell-scripting",
+    "name": "Automation",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-556",
+    "chapter": "html-html-fundamentals",
+    "name": "Document Structure",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-557",
+    "chapter": "html-html-fundamentals",
+    "name": "Text & Links",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-558",
+    "chapter": "html-forms-media",
+    "name": "Forms",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-559",
+    "chapter": "html-forms-media",
+    "name": "Media Elements",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-560",
+    "chapter": "html-semantic-html",
+    "name": "Semantic Tags",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-561",
+    "chapter": "html-semantic-html",
+    "name": "Accessibility in HTML",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-562",
+    "chapter": "css-css-fundamentals",
+    "name": "Selectors & Box Model",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-563",
+    "chapter": "css-css-fundamentals",
+    "name": "Colors & Typography",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-564",
+    "chapter": "css-layout",
+    "name": "Flexbox",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-565",
+    "chapter": "css-layout",
+    "name": "Grid",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-566",
+    "chapter": "css-responsive-design",
+    "name": "Media Queries",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-567",
+    "chapter": "css-responsive-design",
+    "name": "Responsive Techniques",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-568",
+    "chapter": "javascript-js-fundamentals",
+    "name": "Variables & Types",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-569",
+    "chapter": "javascript-js-fundamentals",
+    "name": "Functions & Scope",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-570",
+    "chapter": "javascript-dom-events",
+    "name": "DOM Manipulation",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-571",
+    "chapter": "javascript-dom-events",
+    "name": "Events & Handlers",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-572",
+    "chapter": "javascript-modern-js",
+    "name": "ES6+ Features",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-573",
+    "chapter": "javascript-modern-js",
+    "name": "Async & Promises",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-574",
+    "chapter": "typescript-ts-fundamentals",
+    "name": "Types & Interfaces",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-575",
+    "chapter": "typescript-ts-fundamentals",
+    "name": "Generics",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-576",
+    "chapter": "typescript-ts-in-practice",
+    "name": "Compilation & Config",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-577",
+    "chapter": "typescript-ts-in-practice",
+    "name": "TypeScript with React",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-578",
+    "chapter": "bootstrap-bootstrap-basics",
+    "name": "Grid System",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-579",
+    "chapter": "bootstrap-bootstrap-basics",
+    "name": "Components",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-580",
+    "chapter": "bootstrap-utilities-theming",
+    "name": "Utility Classes",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-581",
+    "chapter": "bootstrap-utilities-theming",
+    "name": "Customization",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-582",
+    "chapter": "tailwind-css-tailwind-basics",
+    "name": "Utility Classes",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-583",
+    "chapter": "tailwind-css-tailwind-basics",
+    "name": "Layout Utilities",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-584",
+    "chapter": "tailwind-css-design-responsive",
+    "name": "Responsive Design",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-585",
+    "chapter": "tailwind-css-design-responsive",
+    "name": "Theming",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-586",
+    "chapter": "react-react-fundamentals",
+    "name": "Components & Props",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-587",
+    "chapter": "react-react-fundamentals",
+    "name": "State & Hooks",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-588",
+    "chapter": "react-react-in-practice",
+    "name": "Events & Forms",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-589",
+    "chapter": "react-react-in-practice",
+    "name": "Lists & Keys",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-590",
+    "chapter": "react-ecosystem",
+    "name": "React Router",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-591",
+    "chapter": "react-ecosystem",
+    "name": "State Management",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-592",
+    "chapter": "next-js-next-js-fundamentals",
+    "name": "Pages & Routing",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-593",
+    "chapter": "next-js-next-js-fundamentals",
+    "name": "Data Fetching",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-594",
+    "chapter": "next-js-production-features",
+    "name": "SSR & SSG",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-595",
+    "chapter": "next-js-production-features",
+    "name": "API Routes",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-596",
+    "chapter": "vue-js-vue-fundamentals",
+    "name": "Template Syntax",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-597",
+    "chapter": "vue-js-vue-fundamentals",
+    "name": "Components",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-598",
+    "chapter": "vue-js-vue-ecosystem",
+    "name": "Composition API",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-599",
+    "chapter": "vue-js-vue-ecosystem",
+    "name": "Vue Router",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-600",
+    "chapter": "angular-angular-fundamentals",
+    "name": "Components & Modules",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-601",
+    "chapter": "angular-angular-fundamentals",
+    "name": "Templates & Directives",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-602",
+    "chapter": "angular-services-di",
+    "name": "Services",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-603",
+    "chapter": "angular-services-di",
+    "name": "Dependency Injection",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-604",
+    "chapter": "node-js-node-fundamentals",
+    "name": "Event Loop",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-605",
+    "chapter": "node-js-node-fundamentals",
+    "name": "Modules & NPM",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-606",
+    "chapter": "node-js-backend-development",
+    "name": "HTTP Servers",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-607",
+    "chapter": "node-js-backend-development",
+    "name": "File System",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-608",
+    "chapter": "express-js-express-fundamentals",
+    "name": "Routing",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-609",
+    "chapter": "express-js-express-fundamentals",
+    "name": "Middleware",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-610",
+    "chapter": "express-js-express-in-practice",
+    "name": "Templates",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-611",
+    "chapter": "express-js-express-in-practice",
+    "name": "Error Handling",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-612",
+    "chapter": "php-php-fundamentals",
+    "name": "Syntax & Variables",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-613",
+    "chapter": "php-php-fundamentals",
+    "name": "Arrays & Strings",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-614",
+    "chapter": "php-php-web",
+    "name": "Forms & Sessions",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-615",
+    "chapter": "php-php-web",
+    "name": "Database Access",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-616",
+    "chapter": "laravel-laravel-fundamentals",
+    "name": "Routing & Controllers",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-617",
+    "chapter": "laravel-laravel-fundamentals",
+    "name": "Blade Templates",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-618",
+    "chapter": "laravel-eloquent-auth",
+    "name": "Eloquent ORM",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-619",
+    "chapter": "laravel-eloquent-auth",
+    "name": "Authentication",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-620",
+    "chapter": "python-python-fundamentals",
+    "name": "Syntax & Data Types",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-621",
+    "chapter": "python-python-fundamentals",
+    "name": "Control Flow",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-622",
+    "chapter": "python-data-structures",
+    "name": "Lists & Dictionaries",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-623",
+    "chapter": "python-data-structures",
+    "name": "Functions & Modules",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-624",
+    "chapter": "python-python-ecosystem",
+    "name": "File Handling",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-625",
+    "chapter": "python-python-ecosystem",
+    "name": "Popular Libraries",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-626",
+    "chapter": "django-django-fundamentals",
+    "name": "Models & ORM",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-627",
+    "chapter": "django-django-fundamentals",
+    "name": "Views & URLs",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-628",
+    "chapter": "django-django-features",
+    "name": "Templates & Forms",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-629",
+    "chapter": "django-django-features",
+    "name": "Admin & Auth",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-630",
+    "chapter": "flask-flask-fundamentals",
+    "name": "App & Routes",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-631",
+    "chapter": "flask-flask-fundamentals",
+    "name": "Templates",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-632",
+    "chapter": "flask-flask-features",
+    "name": "Forms & Validation",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-633",
+    "chapter": "flask-flask-features",
+    "name": "REST with Flask",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-634",
+    "chapter": "java-java-fundamentals",
+    "name": "Syntax & Types",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-635",
+    "chapter": "java-java-fundamentals",
+    "name": "OOP Concepts",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-636",
+    "chapter": "java-java-apis",
+    "name": "Collections",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-637",
+    "chapter": "java-java-apis",
+    "name": "Exceptions",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-638",
+    "chapter": "java-advanced-java",
+    "name": "Streams & Lambdas",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-639",
+    "chapter": "java-advanced-java",
+    "name": "Multithreading",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-640",
+    "chapter": "spring-boot-spring-basics",
+    "name": "Dependency Injection",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-641",
+    "chapter": "spring-boot-spring-basics",
+    "name": "Spring Boot Starters",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-642",
+    "chapter": "spring-boot-web-data",
+    "name": "REST Controllers",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-643",
+    "chapter": "spring-boot-web-data",
+    "name": "JPA & Data",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-644",
+    "chapter": "c-c-fundamentals",
+    "name": "Syntax & Data Types",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-645",
+    "chapter": "c-c-fundamentals",
+    "name": "Pointers & Arrays",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-646",
+    "chapter": "c-c-in-practice",
+    "name": "Functions",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-647",
+    "chapter": "c-c-in-practice",
+    "name": "Memory Management",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-648",
+    "chapter": "cpp-c-fundamentals",
+    "name": "Classes & Objects",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-649",
+    "chapter": "cpp-c-fundamentals",
+    "name": "Inheritance",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-650",
+    "chapter": "cpp-c-features",
+    "name": "Templates & STL",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-651",
+    "chapter": "cpp-c-features",
+    "name": "Memory & Pointers",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-652",
+    "chapter": "csharp-c-fundamentals",
+    "name": "Syntax & Types",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-653",
+    "chapter": "csharp-c-fundamentals",
+    "name": "OOP in C#",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-654",
+    "chapter": "csharp-c-ecosystem",
+    "name": "LINQ",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-655",
+    "chapter": "csharp-c-ecosystem",
+    "name": "Async & Tasks",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-656",
+    "chapter": "dotnet-net-fundamentals",
+    "name": "NET Runtime",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-657",
+    "chapter": "dotnet-net-fundamentals",
+    "name": "ASP.NET Core",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-658",
+    "chapter": "dotnet-net-features",
+    "name": "EF Core",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-659",
+    "chapter": "dotnet-net-features",
+    "name": "Middleware & Services",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-660",
+    "chapter": "go-go-fundamentals",
+    "name": "Syntax & Types",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-661",
+    "chapter": "go-go-fundamentals",
+    "name": "Functions & Packages",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-662",
+    "chapter": "go-go-concurrency",
+    "name": "Goroutines & Channels",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-663",
+    "chapter": "go-go-concurrency",
+    "name": "Interfaces",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-664",
+    "chapter": "rust-rust-fundamentals",
+    "name": "Ownership & Borrowing",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-665",
+    "chapter": "rust-rust-fundamentals",
+    "name": "Syntax & Types",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-666",
+    "chapter": "rust-rust-in-practice",
+    "name": "Structs & Traits",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-667",
+    "chapter": "rust-rust-in-practice",
+    "name": "Error Handling",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-668",
+    "chapter": "git-github-git-basics",
+    "name": "Repositories & Commits",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-669",
+    "chapter": "git-github-git-basics",
+    "name": "Branches & Merging",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-670",
+    "chapter": "git-github-github-workflow",
+    "name": "Remotes & Pull Requests",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-671",
+    "chapter": "git-github-github-workflow",
+    "name": "Collaboration",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-672",
+    "chapter": "docker-docker-basics",
+    "name": "Images & Containers",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-673",
+    "chapter": "docker-docker-basics",
+    "name": "Dockerfile",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-674",
+    "chapter": "docker-docker-in-practice",
+    "name": "Volumes & Networks",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-675",
+    "chapter": "docker-docker-in-practice",
+    "name": "Docker Compose",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-676",
+    "chapter": "kubernetes-k8s-fundamentals",
+    "name": "Pods & Deployments",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-677",
+    "chapter": "kubernetes-k8s-fundamentals",
+    "name": "Services",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-678",
+    "chapter": "kubernetes-k8s-operations",
+    "name": "ConfigMaps & Secrets",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-679",
+    "chapter": "kubernetes-k8s-operations",
+    "name": "Scaling",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-680",
+    "chapter": "rest-api-rest-fundamentals",
+    "name": "HTTP & Resources",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-681",
+    "chapter": "rest-api-rest-fundamentals",
+    "name": "Status Codes",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-682",
+    "chapter": "rest-api-api-design",
+    "name": "Versioning",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-683",
+    "chapter": "rest-api-api-design",
+    "name": "API Security",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-684",
+    "chapter": "graphql-graphql-fundamentals",
+    "name": "Schema & Types",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-685",
+    "chapter": "graphql-graphql-fundamentals",
+    "name": "Queries & Mutations",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-686",
+    "chapter": "graphql-graphql-in-practice",
+    "name": "Resolvers",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-687",
+    "chapter": "graphql-graphql-in-practice",
+    "name": "Subscriptions",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-688",
+    "chapter": "mdcat-mdcat-biology",
+    "name": "Cell & Molecular Biology",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-689",
+    "chapter": "mdcat-mdcat-biology",
+    "name": "Human Physiology",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-690",
+    "chapter": "mdcat-mdcat-chemistry-physics",
+    "name": "Organic Chemistry",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-691",
+    "chapter": "mdcat-mdcat-chemistry-physics",
+    "name": "Mechanics & Electricity",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-692",
+    "chapter": "ecat-ecat-mathematics",
+    "name": "Algebra & Functions",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-693",
+    "chapter": "ecat-ecat-mathematics",
+    "name": "Calculus Basics",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-694",
+    "chapter": "ecat-ecat-physics-chemistry",
+    "name": "Physics Fundamentals",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-695",
+    "chapter": "ecat-ecat-physics-chemistry",
+    "name": "Chemistry Fundamentals",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-696",
+    "chapter": "lat-lat-english",
+    "name": "Grammar & Vocabulary",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-697",
+    "chapter": "lat-lat-english",
+    "name": "Essay & Comprehension",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-698",
+    "chapter": "lat-lat-islamic-studies-gk",
+    "name": "Islamic Studies",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-699",
+    "chapter": "lat-lat-islamic-studies-gk",
+    "name": "Pakistan GK",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-700",
+    "chapter": "gat-gat-quantitative",
+    "name": "Arithmetic & Algebra",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-701",
+    "chapter": "gat-gat-quantitative",
+    "name": "Data Sufficiency",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-702",
+    "chapter": "gat-gat-verbal",
+    "name": "Comprehension",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-703",
+    "chapter": "gat-gat-verbal",
+    "name": "Critical Thinking",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-704",
+    "chapter": "gre-gre-verbal",
+    "name": "Text Completion",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-705",
+    "chapter": "gre-gre-verbal",
+    "name": "Sentence Equivalence",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-706",
+    "chapter": "gre-gre-quant",
+    "name": "Arithmetic",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-707",
+    "chapter": "gre-gre-quant",
+    "name": "Algebra & Geometry",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-708",
+    "chapter": "ielts-ielts-listening-speaking",
+    "name": "Listening Skills",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-709",
+    "chapter": "ielts-ielts-listening-speaking",
+    "name": "Speaking Tasks",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-710",
+    "chapter": "ielts-ielts-reading-writing",
+    "name": "Reading Strategies",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-711",
+    "chapter": "ielts-ielts-reading-writing",
+    "name": "Task 1 & 2 Writing",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-712",
+    "chapter": "toefl-toefl-reading-listening",
+    "name": "Reading Comprehension",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-713",
+    "chapter": "toefl-toefl-reading-listening",
+    "name": "Listening Skills",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-714",
+    "chapter": "toefl-toefl-speaking-writing",
+    "name": "Speaking Tasks",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-715",
+    "chapter": "toefl-toefl-speaking-writing",
+    "name": "Integrated Writing",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-716",
+    "chapter": "sat-sat-reading-writing",
+    "name": "Reading Passages",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-717",
+    "chapter": "sat-sat-reading-writing",
+    "name": "Writing & Language",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  },
+  {
+    "id": "t-718",
+    "chapter": "sat-sat-math",
+    "name": "Algebra",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 1
+  },
+  {
+    "id": "t-719",
+    "chapter": "sat-sat-math",
+    "name": "Problem Solving & Data",
+    "subtopics": [
+      "fundamentals",
+      "practice questions"
+    ],
+    "order": 2
+  }
+]

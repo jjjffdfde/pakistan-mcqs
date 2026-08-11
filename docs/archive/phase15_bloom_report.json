@@ -1,0 +1,818 @@
+{
+  "generated_at": "2026-08-05T06:47:08.380Z",
+  "total_los_analyzed": 71501,
+  "aligned": 3281,
+  "mismatch": 27347,
+  "uninferred": 40873,
+  "distribution": {
+    "remember": 9141,
+    "understand": 498,
+    "apply": 19434,
+    "analyze": 95,
+    "evaluate": 952,
+    "create": 508,
+    "unknown": 40873
+  },
+  "sample": [
+    {
+      "lo_id": 281985,
+      "concept_id": 15190,
+      "stated_bloom": "Understand",
+      "inferred_bloom": null,
+      "confidence": 0,
+      "match": "uninferred"
+    },
+    {
+      "lo_id": 281986,
+      "concept_id": 15190,
+      "stated_bloom": "Understand",
+      "inferred_bloom": "Apply",
+      "confidence": 0.8,
+      "match": "mismatch"
+    },
+    {
+      "lo_id": 281987,
+      "concept_id": 15190,
+      "stated_bloom": "Understand",
+      "inferred_bloom": "Apply",
+      "confidence": 0.8,
+      "match": "mismatch"
+    },
+    {
+      "lo_id": 281988,
+      "concept_id": 15190,
+      "stated_bloom": "Understand",
+      "inferred_bloom": null,
+      "confidence": 0,
+      "match": "uninferred"
+    },
+    {
+      "lo_id": 281989,
+      "concept_id": 15190,
+      "stated_bloom": "Understand",
+      "inferred_bloom": null,
+      "confidence": 0,
+      "match": "uninferred"
+    },
+    {
+      "lo_id": 281990,
+      "concept_id": 15190,
+      "stated_bloom": "Understand",
+      "inferred_bloom": null,
+      "confidence": 0,
+      "match": "uninferred"
+    },
+    {
+      "lo_id": 281991,
+      "concept_id": 15190,
+      "stated_bloom": "Understand",
+      "inferred_bloom": "Apply",
+      "confidence": 0.8,
+      "match": "mismatch"
+    },
+    {
+      "lo_id": 281992,
+      "concept_id": 15190,
+      "stated_bloom": "Understand",
+      "inferred_bloom": "Apply",
+      "confidence": 0.8,
+      "match": "mismatch"
+    },
+    {
+      "lo_id": 281993,
+      "concept_id": 15190,
+      "stated_bloom": "Understand",
+      "inferred_bloom": null,
+      "confidence": 0,
+      "match": "uninferred"
+    },
+    {
+      "lo_id": 281994,
+      "concept_id": 15190,
+      "stated_bloom": "Understand",
+      "inferred_bloom": null,
+      "confidence": 0,
+      "match": "uninferred"
+    },
+    {
+      "lo_id": 281995,
+      "concept_id": 15190,
+      "stated_bloom": "Understand",
+      "inferred_bloom": null,
+      "confidence": 0,
+      "match": "uninferred"
+    },
+    {
+      "lo_id": 281996,
+      "concept_id": 15190,
+      "stated_bloom": "Understand",
+      "inferred_bloom": "Remember",
+      "confidence": 0.6,
+      "match": "mismatch"
+    },
+    {
+      "lo_id": 281997,
+      "concept_id": 15190,
+      "stated_bloom": "Understand",
+      "inferred_bloom": "Apply",
+      "confidence": 0.8,
+      "match": "mismatch"
+    },
+    {
+      "lo_id": 281998,
+      "concept_id": 15190,
+      "stated_bloom": "Understand",
+      "inferred_bloom": null,
+      "confidence": 0,
+      "match": "uninferred"
+    },
+    {
+      "lo_id": 281999,
+      "concept_id": 15190,
+      "stated_bloom": "Understand",
+      "inferred_bloom": null,
+      "confidence": 0,
+      "match": "uninferred"
+    },
+    {
+      "lo_id": 282000,
+      "concept_id": 15190,
+      "stated_bloom": "Understand",
+      "inferred_bloom": "Apply",
+      "confidence": 0.8,
+      "match": "mismatch"
+    },
+    {
+      "lo_id": 282001,
+      "concept_id": 15190,
+      "stated_bloom": "Understand",
+      "inferred_bloom": "Remember",
+      "confidence": 0.6,
+      "match": "mismatch"
+    },
+    {
+      "lo_id": 282002,
+      "concept_id": 15190,
+      "stated_bloom": "Understand",
+      "inferred_bloom": "Apply",
+      "confidence": 0.8,
+      "match": "mismatch"
+    },
+    {
+      "lo_id": 282003,
+      "concept_id": 15190,
+      "stated_bloom": "Understand",
+      "inferred_bloom": "Remember",
+      "confidence": 0.6,
+      "match": "mismatch"
+    },
+    {
+      "lo_id": 282004,
+      "concept_id": 15190,
+      "stated_bloom": "Understand",
+      "inferred_bloom": null,
+      "confidence": 0,
+      "match": "uninferred"
+    },
+    {
+      "lo_id": 282005,
+      "concept_id": 15190,
+      "stated_bloom": "Understand",
+      "inferred_bloom": null,
+      "confidence": 0,
+      "match": "uninferred"
+    },
+    {
+      "lo_id": 282006,
+      "concept_id": 15190,
+      "stated_bloom": "Understand",
+      "inferred_bloom": "Remember",
+      "confidence": 0.6,
+      "match": "mismatch"
+    },
+    {
+      "lo_id": 282007,
+      "concept_id": 15190,
+      "stated_bloom": "Understand",
+      "inferred_bloom": "Apply",
+      "confidence": 0.8,
+      "match": "mismatch"
+    },
+    {
+      "lo_id": 282008,
+      "concept_id": 15190,
+      "stated_bloom": "Understand",
+      "inferred_bloom": null,
+      "confidence": 0,
+      "match": "uninferred"
+    },
+    {
+      "lo_id": 282009,
+      "concept_id": 15190,
+      "stated_bloom": "Understand",
+      "inferred_bloom": null,
+      "confidence": 0,
+      "match": "uninferred"
+    },
+    {
+      "lo_id": 282010,
+      "concept_id": 15190,
+      "stated_bloom": "Understand",
+      "inferred_bloom": null,
+      "confidence": 0,
+      "match": "uninferred"
+    },
+    {
+      "lo_id": 282011,
+      "concept_id": 15190,
+      "stated_bloom": "Understand",
+      "inferred_bloom": "Remember",
+      "confidence": 0.6,
+      "match": "mismatch"
+    },
+    {
+      "lo_id": 282012,
+      "concept_id": 15190,
+      "stated_bloom": "Understand",
+      "inferred_bloom": "Apply",
+      "confidence": 0.8,
+      "match": "mismatch"
+    },
+    {
+      "lo_id": 282013,
+      "concept_id": 15190,
+      "stated_bloom": "Understand",
+      "inferred_bloom": null,
+      "confidence": 0,
+      "match": "uninferred"
+    },
+    {
+      "lo_id": 282014,
+      "concept_id": 15190,
+      "stated_bloom": "Understand",
+      "inferred_bloom": null,
+      "confidence": 0,
+      "match": "uninferred"
+    },
+    {
+      "lo_id": 282015,
+      "concept_id": 15190,
+      "stated_bloom": "Understand",
+      "inferred_bloom": null,
+      "confidence": 0,
+      "match": "uninferred"
+    },
+    {
+      "lo_id": 282016,
+      "concept_id": 15190,
+      "stated_bloom": "Understand",
+      "inferred_bloom": "Remember",
+      "confidence": 0.6,
+      "match": "mismatch"
+    },
+    {
+      "lo_id": 282017,
+      "concept_id": 15190,
+      "stated_bloom": "Understand",
+      "inferred_bloom": "Apply",
+      "confidence": 0.8,
+      "match": "mismatch"
+    },
+    {
+      "lo_id": 282018,
+      "concept_id": 15190,
+      "stated_bloom": "Understand",
+      "inferred_bloom": null,
+      "confidence": 0,
+      "match": "uninferred"
+    },
+    {
+      "lo_id": 282019,
+      "concept_id": 15190,
+      "stated_bloom": "Understand",
+      "inferred_bloom": null,
+      "confidence": 0,
+      "match": "uninferred"
+    },
+    {
+      "lo_id": 282020,
+      "concept_id": 15190,
+      "stated_bloom": "Understand",
+      "inferred_bloom": null,
+      "confidence": 0,
+      "match": "uninferred"
+    },
+    {
+      "lo_id": 282021,
+      "concept_id": 15190,
+      "stated_bloom": "Understand",
+      "inferred_bloom": "Remember",
+      "confidence": 0.6,
+      "match": "mismatch"
+    },
+    {
+      "lo_id": 282022,
+      "concept_id": 15190,
+      "stated_bloom": "Understand",
+      "inferred_bloom": "Apply",
+      "confidence": 0.8,
+      "match": "mismatch"
+    },
+    {
+      "lo_id": 282023,
+      "concept_id": 15190,
+      "stated_bloom": "Understand",
+      "inferred_bloom": null,
+      "confidence": 0,
+      "match": "uninferred"
+    },
+    {
+      "lo_id": 282024,
+      "concept_id": 15190,
+      "stated_bloom": "Understand",
+      "inferred_bloom": null,
+      "confidence": 0,
+      "match": "uninferred"
+    },
+    {
+      "lo_id": 282025,
+      "concept_id": 15190,
+      "stated_bloom": "Understand",
+      "inferred_bloom": "Remember",
+      "confidence": 0.6,
+      "match": "mismatch"
+    },
+    {
+      "lo_id": 282026,
+      "concept_id": 15190,
+      "stated_bloom": "Understand",
+      "inferred_bloom": "Remember",
+      "confidence": 0.6,
+      "match": "mismatch"
+    },
+    {
+      "lo_id": 282027,
+      "concept_id": 15190,
+      "stated_bloom": "Understand",
+      "inferred_bloom": "Apply",
+      "confidence": 0.8,
+      "match": "mismatch"
+    },
+    {
+      "lo_id": 282028,
+      "concept_id": 15190,
+      "stated_bloom": "Understand",
+      "inferred_bloom": null,
+      "confidence": 0,
+      "match": "uninferred"
+    },
+    {
+      "lo_id": 282029,
+      "concept_id": 15190,
+      "stated_bloom": "Understand",
+      "inferred_bloom": null,
+      "confidence": 0,
+      "match": "uninferred"
+    },
+    {
+      "lo_id": 282030,
+      "concept_id": 15190,
+      "stated_bloom": "Understand",
+      "inferred_bloom": null,
+      "confidence": 0,
+      "match": "uninferred"
+    },
+    {
+      "lo_id": 282031,
+      "concept_id": 15190,
+      "stated_bloom": "Understand",
+      "inferred_bloom": "Remember",
+      "confidence": 0.6,
+      "match": "mismatch"
+    },
+    {
+      "lo_id": 282032,
+      "concept_id": 15190,
+      "stated_bloom": "Understand",
+      "inferred_bloom": "Apply",
+      "confidence": 0.8,
+      "match": "mismatch"
+    },
+    {
+      "lo_id": 282033,
+      "concept_id": 15190,
+      "stated_bloom": "Understand",
+      "inferred_bloom": null,
+      "confidence": 0,
+      "match": "uninferred"
+    },
+    {
+      "lo_id": 282034,
+      "concept_id": 15190,
+      "stated_bloom": "Understand",
+      "inferred_bloom": null,
+      "confidence": 0,
+      "match": "uninferred"
+    },
+    {
+      "lo_id": 282035,
+      "concept_id": 15190,
+      "stated_bloom": "Understand",
+      "inferred_bloom": null,
+      "confidence": 0,
+      "match": "uninferred"
+    },
+    {
+      "lo_id": 282036,
+      "concept_id": 15190,
+      "stated_bloom": "Understand",
+      "inferred_bloom": "Remember",
+      "confidence": 0.6,
+      "match": "mismatch"
+    },
+    {
+      "lo_id": 282037,
+      "concept_id": 15190,
+      "stated_bloom": "Understand",
+      "inferred_bloom": "Apply",
+      "confidence": 0.8,
+      "match": "mismatch"
+    },
+    {
+      "lo_id": 282038,
+      "concept_id": 15190,
+      "stated_bloom": "Understand",
+      "inferred_bloom": null,
+      "confidence": 0,
+      "match": "uninferred"
+    },
+    {
+      "lo_id": 282039,
+      "concept_id": 15190,
+      "stated_bloom": "Understand",
+      "inferred_bloom": null,
+      "confidence": 0,
+      "match": "uninferred"
+    },
+    {
+      "lo_id": 282040,
+      "concept_id": 15190,
+      "stated_bloom": "Understand",
+      "inferred_bloom": null,
+      "confidence": 0,
+      "match": "uninferred"
+    },
+    {
+      "lo_id": 282041,
+      "concept_id": 15190,
+      "stated_bloom": "Understand",
+      "inferred_bloom": "Remember",
+      "confidence": 0.6,
+      "match": "mismatch"
+    },
+    {
+      "lo_id": 282042,
+      "concept_id": 15190,
+      "stated_bloom": "Understand",
+      "inferred_bloom": "Apply",
+      "confidence": 0.8,
+      "match": "mismatch"
+    },
+    {
+      "lo_id": 282043,
+      "concept_id": 15190,
+      "stated_bloom": "Understand",
+      "inferred_bloom": null,
+      "confidence": 0,
+      "match": "uninferred"
+    },
+    {
+      "lo_id": 282044,
+      "concept_id": 15190,
+      "stated_bloom": "Understand",
+      "inferred_bloom": null,
+      "confidence": 0,
+      "match": "uninferred"
+    },
+    {
+      "lo_id": 282045,
+      "concept_id": 15190,
+      "stated_bloom": "Understand",
+      "inferred_bloom": null,
+      "confidence": 0,
+      "match": "uninferred"
+    },
+    {
+      "lo_id": 282046,
+      "concept_id": 15190,
+      "stated_bloom": "Understand",
+      "inferred_bloom": "Remember",
+      "confidence": 0.6,
+      "match": "mismatch"
+    },
+    {
+      "lo_id": 282047,
+      "concept_id": 15190,
+      "stated_bloom": "Understand",
+      "inferred_bloom": "Apply",
+      "confidence": 0.8,
+      "match": "mismatch"
+    },
+    {
+      "lo_id": 282048,
+      "concept_id": 15190,
+      "stated_bloom": "Understand",
+      "inferred_bloom": null,
+      "confidence": 0,
+      "match": "uninferred"
+    },
+    {
+      "lo_id": 282049,
+      "concept_id": 15190,
+      "stated_bloom": "Understand",
+      "inferred_bloom": null,
+      "confidence": 0,
+      "match": "uninferred"
+    },
+    {
+      "lo_id": 282050,
+      "concept_id": 15190,
+      "stated_bloom": "Understand",
+      "inferred_bloom": "Apply",
+      "confidence": 0.8,
+      "match": "mismatch"
+    },
+    {
+      "lo_id": 282051,
+      "concept_id": 15190,
+      "stated_bloom": "Understand",
+      "inferred_bloom": "Remember",
+      "confidence": 0.6,
+      "match": "mismatch"
+    },
+    {
+      "lo_id": 282052,
+      "concept_id": 15190,
+      "stated_bloom": "Understand",
+      "inferred_bloom": "Apply",
+      "confidence": 0.8,
+      "match": "mismatch"
+    },
+    {
+      "lo_id": 282053,
+      "concept_id": 15190,
+      "stated_bloom": "Understand",
+      "inferred_bloom": null,
+      "confidence": 0,
+      "match": "uninferred"
+    },
+    {
+      "lo_id": 282054,
+      "concept_id": 15190,
+      "stated_bloom": "Understand",
+      "inferred_bloom": null,
+      "confidence": 0,
+      "match": "uninferred"
+    },
+    {
+      "lo_id": 282055,
+      "concept_id": 15190,
+      "stated_bloom": "Understand",
+      "inferred_bloom": null,
+      "confidence": 0,
+      "match": "uninferred"
+    },
+    {
+      "lo_id": 282056,
+      "concept_id": 15190,
+      "stated_bloom": "Understand",
+      "inferred_bloom": "Remember",
+      "confidence": 0.6,
+      "match": "mismatch"
+    },
+    {
+      "lo_id": 282057,
+      "concept_id": 15190,
+      "stated_bloom": "Understand",
+      "inferred_bloom": "Apply",
+      "confidence": 0.8,
+      "match": "mismatch"
+    },
+    {
+      "lo_id": 282058,
+      "concept_id": 15190,
+      "stated_bloom": "Understand",
+      "inferred_bloom": "Remember",
+      "confidence": 0.6,
+      "match": "mismatch"
+    },
+    {
+      "lo_id": 282059,
+      "concept_id": 15190,
+      "stated_bloom": "Understand",
+      "inferred_bloom": null,
+      "confidence": 0,
+      "match": "uninferred"
+    },
+    {
+      "lo_id": 282060,
+      "concept_id": 15190,
+      "stated_bloom": "Understand",
+      "inferred_bloom": null,
+      "confidence": 0,
+      "match": "uninferred"
+    },
+    {
+      "lo_id": 282061,
+      "concept_id": 15190,
+      "stated_bloom": "Understand",
+      "inferred_bloom": "Remember",
+      "confidence": 0.6,
+      "match": "mismatch"
+    },
+    {
+      "lo_id": 282062,
+      "concept_id": 15190,
+      "stated_bloom": "Understand",
+      "inferred_bloom": "Apply",
+      "confidence": 0.8,
+      "match": "mismatch"
+    },
+    {
+      "lo_id": 282063,
+      "concept_id": 15190,
+      "stated_bloom": "Understand",
+      "inferred_bloom": null,
+      "confidence": 0,
+      "match": "uninferred"
+    },
+    {
+      "lo_id": 282064,
+      "concept_id": 15190,
+      "stated_bloom": "Understand",
+      "inferred_bloom": null,
+      "confidence": 0,
+      "match": "uninferred"
+    },
+    {
+      "lo_id": 282065,
+      "concept_id": 15190,
+      "stated_bloom": "Understand",
+      "inferred_bloom": null,
+      "confidence": 0,
+      "match": "uninferred"
+    },
+    {
+      "lo_id": 282066,
+      "concept_id": 15190,
+      "stated_bloom": "Understand",
+      "inferred_bloom": "Remember",
+      "confidence": 0.6,
+      "match": "mismatch"
+    },
+    {
+      "lo_id": 282067,
+      "concept_id": 15190,
+      "stated_bloom": "Understand",
+      "inferred_bloom": "Apply",
+      "confidence": 0.8,
+      "match": "mismatch"
+    },
+    {
+      "lo_id": 282068,
+      "concept_id": 15190,
+      "stated_bloom": "Understand",
+      "inferred_bloom": null,
+      "confidence": 0,
+      "match": "uninferred"
+    },
+    {
+      "lo_id": 282069,
+      "concept_id": 15190,
+      "stated_bloom": "Understand",
+      "inferred_bloom": null,
+      "confidence": 0,
+      "match": "uninferred"
+    },
+    {
+      "lo_id": 282070,
+      "concept_id": 15190,
+      "stated_bloom": "Understand",
+      "inferred_bloom": null,
+      "confidence": 0,
+      "match": "uninferred"
+    },
+    {
+      "lo_id": 282071,
+      "concept_id": 15190,
+      "stated_bloom": "Understand",
+      "inferred_bloom": "Remember",
+      "confidence": 0.6,
+      "match": "mismatch"
+    },
+    {
+      "lo_id": 282072,
+      "concept_id": 15190,
+      "stated_bloom": "Understand",
+      "inferred_bloom": "Apply",
+      "confidence": 0.8,
+      "match": "mismatch"
+    },
+    {
+      "lo_id": 282073,
+      "concept_id": 15190,
+      "stated_bloom": "Understand",
+      "inferred_bloom": null,
+      "confidence": 0,
+      "match": "uninferred"
+    },
+    {
+      "lo_id": 282074,
+      "concept_id": 15190,
+      "stated_bloom": "Understand",
+      "inferred_bloom": null,
+      "confidence": 0,
+      "match": "uninferred"
+    },
+    {
+      "lo_id": 282075,
+      "concept_id": 15190,
+      "stated_bloom": "Recall",
+      "inferred_bloom": "Apply",
+      "confidence": 0.8,
+      "match": "mismatch"
+    },
+    {
+      "lo_id": 282076,
+      "concept_id": 15190,
+      "stated_bloom": "Recall",
+      "inferred_bloom": "Remember",
+      "confidence": 0.6,
+      "match": "mismatch"
+    },
+    {
+      "lo_id": 282077,
+      "concept_id": 15190,
+      "stated_bloom": "Recall",
+      "inferred_bloom": null,
+      "confidence": 0,
+      "match": "uninferred"
+    },
+    {
+      "lo_id": 282078,
+      "concept_id": 15190,
+      "stated_bloom": "Recall",
+      "inferred_bloom": null,
+      "confidence": 0,
+      "match": "uninferred"
+    },
+    {
+      "lo_id": 282079,
+      "concept_id": 15190,
+      "stated_bloom": "Recall",
+      "inferred_bloom": "Remember",
+      "confidence": 0.6,
+      "match": "mismatch"
+    },
+    {
+      "lo_id": 282080,
+      "concept_id": 15190,
+      "stated_bloom": "Recall",
+      "inferred_bloom": "Remember",
+      "confidence": 0.6,
+      "match": "mismatch"
+    },
+    {
+      "lo_id": 282081,
+      "concept_id": 15190,
+      "stated_bloom": "Recall",
+      "inferred_bloom": null,
+      "confidence": 0,
+      "match": "uninferred"
+    },
+    {
+      "lo_id": 282082,
+      "concept_id": 15190,
+      "stated_bloom": "Recall",
+      "inferred_bloom": null,
+      "confidence": 0,
+      "match": "uninferred"
+    },
+    {
+      "lo_id": 282083,
+      "concept_id": 15190,
+      "stated_bloom": "Analyze",
+      "inferred_bloom": null,
+      "confidence": 0,
+      "match": "uninferred"
+    },
+    {
+      "lo_id": 282084,
+      "concept_id": 15190,
+      "stated_bloom": "Analyze",
+      "inferred_bloom": "Remember",
+      "confidence": 0.6,
+      "match": "mismatch"
+    }
+  ]
+}

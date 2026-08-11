@@ -1,0 +1,32 @@
+{
+  "step": "admin",
+  "generated_at": "2026-08-10T16:56:04",
+  "summary": {
+    "admin_page_exists": true,
+    "admin_panel_sections": 11,
+    "features_wired": 17,
+    "features_planned": 18,
+    "feature_coverage_pct": 94,
+    "page_noindexed": true
+  },
+  "feature_hooks": {
+    "stats_dashboard": true,
+    "search_mcqs": true,
+    "add_category": true,
+    "add_subject": true,
+    "add_topic": true,
+    "enrich_explanations": true,
+    "generate_drafts": true,
+    "image_library": true,
+    "import_run": true,
+    "duplicate_scan": true,
+    "export_json": true,
+    "export_csv": true,
+    "export_categories": true,
+    "export_subjects": true,
+    "export_topics": true,
+    "reset_data": true,
+    "tabs_wired": false,
+    "page_noindex": true
+  }
+}

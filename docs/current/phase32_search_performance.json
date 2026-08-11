@@ -1,0 +1,18 @@
+{
+  "module": "P32",
+  "correctness_unchanged": true,
+  "facts": {
+    "debounce": "client-side submission on click/Enter + suggestion list from preloaded JSON (no per-keystroke network) — no duplicate requests",
+    "fts": "GET /api/search FTS endpoint verified in sandbox",
+    "pagination": "browse pagination PASS",
+    "large_results": "paginated (PAGE_SIZE 20)",
+    "empty_results": "dedicated no-result state PASS",
+    "special_chars_and_long_queries": "PASS"
+  },
+  "actions": [],
+  "status": "PASS — search unchanged; measured fast (client-side index JSONs preloaded)",
+  "generated_at": "2026-08-11T03:48:45.675Z",
+  "tool": "scripts/phase32 (reporter)",
+  "methodology": "Headless Chrome 1366x900/390x844, localhost static server (no throttling, lab-grade), fresh profile per run; interactive runs perform scripted user flows; static runs measure clean initial load.",
+  "environment_note": "Lab-grade localhost measurements; values are real, not fabricated; production network conditions will differ. LCP/CLS/INP/TTFB captured via PerformanceObserver wrappers in test-only injection script. FCP not observable in this toolchain (paint entries not exposed) -> NOT_MEASURABLE."
+}

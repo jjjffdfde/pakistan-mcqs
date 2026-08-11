@@ -1,0 +1,578 @@
+[
+ {
+  "id": "hrm-009",
+  "question": "Human resource management primarily deals with:",
+  "optionA": "the people of an organization",
+  "optionB": "machinery only",
+  "optionC": "inventory",
+  "optionD": "marketing only",
+  "correctAnswer": "A",
+  "detailedExplanation": "HRM manages an organization's workforce: hiring, developing and retaining employees.",
+  "difficulty": "easy",
+  "subject": "hrm",
+  "chapter": "hrm-hrm-fundamentals",
+  "topic": "t-480",
+  "subtopic": "fundamentals",
+  "exam": [
+   "fpsc",
+   "ppsc",
+   "ib",
+   "banking"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "hrm"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "hrm-010",
+  "question": "HR forecasting estimates future:",
+  "optionA": "workforce needs",
+  "optionB": "product prices",
+  "optionC": "interest rates",
+  "optionD": "tax rates",
+  "correctAnswer": "A",
+  "detailedExplanation": "HR planning predicts how many and what kind of employees will be needed.",
+  "difficulty": "medium",
+  "subject": "hrm",
+  "chapter": "hrm-hrm-fundamentals",
+  "topic": "t-480",
+  "subtopic": "fundamentals",
+  "exam": [
+   "fpsc",
+   "ppsc",
+   "ib",
+   "banking"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "hrm",
+   "planning"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "hrm-011",
+  "question": "Recruitment is the process of:",
+  "optionA": "attracting job candidates",
+  "optionB": "firing employees",
+  "optionC": "paying salaries",
+  "optionD": "training only",
+  "correctAnswer": "A",
+  "detailedExplanation": "Recruitment attracts applicants; selection chooses among them.",
+  "difficulty": "easy",
+  "subject": "hrm",
+  "chapter": "hrm-hrm-fundamentals",
+  "topic": "t-481",
+  "subtopic": "fundamentals",
+  "exam": [
+   "fpsc",
+   "ppsc",
+   "ib",
+   "banking"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "hrm",
+   "recruitment"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "hrm-012",
+  "question": "A structured interview means:",
+  "optionA": "the same questions are asked of all candidates",
+  "optionB": "questions change randomly",
+  "optionC": "no questions are asked",
+  "optionD": "only the manager speaks",
+  "correctAnswer": "A",
+  "detailedExplanation": "Structured interviews standardize questions to compare candidates fairly.",
+  "difficulty": "medium",
+  "subject": "hrm",
+  "chapter": "hrm-hrm-fundamentals",
+  "topic": "t-481",
+  "subtopic": "fundamentals",
+  "exam": [
+   "fpsc",
+   "ppsc",
+   "ib",
+   "banking"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "hrm",
+   "interview"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "hrm-013",
+  "question": "On-the-job training methods include:",
+  "optionA": "job rotation and coaching",
+  "optionB": "distance learning only",
+  "optionC": "exams only",
+  "optionD": "recruitment",
+  "correctAnswer": "A",
+  "detailedExplanation": "Job rotation, coaching and apprenticeships are on-the-job methods.",
+  "difficulty": "medium",
+  "subject": "hrm",
+  "chapter": "hrm-hr-operations",
+  "topic": "t-482",
+  "subtopic": "fundamentals",
+  "exam": [
+   "fpsc",
+   "ppsc",
+   "ib",
+   "banking"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "hrm",
+   "training"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "hrm-014",
+  "question": "360-degree appraisal collects feedback from:",
+  "optionA": "all directions: peers, subordinates, superiors and self",
+  "optionB": "only the boss",
+  "optionC": "only customers",
+  "optionD": "only the HR department",
+  "correctAnswer": "A",
+  "detailedExplanation": "360-degree feedback gathers views from multiple stakeholders.",
+  "difficulty": "medium",
+  "subject": "hrm",
+  "chapter": "hrm-hr-operations",
+  "topic": "t-483",
+  "subtopic": "fundamentals",
+  "exam": [
+   "fpsc",
+   "ppsc",
+   "ib",
+   "banking"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "hrm",
+   "appraisal"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "hrm-015",
+  "question": "A 'salary survey' is used to:",
+  "optionA": "compare pay with the market",
+  "optionB": "survey employees' hobbies",
+  "optionC": "measure productivity",
+  "optionD": "plan vacations",
+  "correctAnswer": "A",
+  "detailedExplanation": "Salary surveys benchmark compensation against market rates.",
+  "difficulty": "medium",
+  "subject": "hrm",
+  "chapter": "hrm-employee-relations",
+  "topic": "t-484",
+  "subtopic": "fundamentals",
+  "exam": [
+   "fpsc",
+   "ppsc",
+   "ib",
+   "banking"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "hrm",
+   "compensation"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "hrm-016",
+  "question": "In Pakistan, the body overseeing labor disputes includes:",
+  "optionA": "National Industrial Relations Commission",
+  "optionB": "SECP only",
+  "optionC": "PTA",
+  "optionD": "FIA",
+  "correctAnswer": "A",
+  "detailedExplanation": "NIRC handles labor disputes under the Industrial Relations Act 2012.",
+  "difficulty": "hard",
+  "subject": "hrm",
+  "chapter": "hrm-employee-relations",
+  "topic": "t-485",
+  "subtopic": "fundamentals",
+  "exam": [
+   "fpsc",
+   "ppsc",
+   "ib",
+   "banking"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "hrm",
+   "labor-laws"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "mkt-008",
+  "question": "The four P's of marketing are:",
+  "optionA": "product, price, place, promotion",
+  "optionB": "people, profit, plan, process",
+  "optionC": "price, power, plan, product",
+  "optionD": "product, profit, publicity, place",
+  "correctAnswer": "A",
+  "detailedExplanation": "The classic marketing mix: Product, Price, Place, Promotion.",
+  "difficulty": "easy",
+  "subject": "marketing",
+  "chapter": "marketing-marketing-fundamentals",
+  "topic": "t-486",
+  "subtopic": "fundamentals",
+  "exam": [
+   "fpsc",
+   "ppsc",
+   "ib",
+   "banking"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "marketing"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "mkt-009",
+  "question": "In the extended marketing mix for services, the extra P's include:",
+  "optionA": "people, process, physical evidence",
+  "optionB": "power, price, packaging",
+  "optionC": "politics, plan, profit",
+  "optionD": "product, people, price",
+  "correctAnswer": "A",
+  "detailedExplanation": "Services marketing adds People, Process and Physical Evidence.",
+  "difficulty": "medium",
+  "subject": "marketing",
+  "chapter": "marketing-marketing-fundamentals",
+  "topic": "t-486",
+  "subtopic": "fundamentals",
+  "exam": [
+   "fpsc",
+   "ppsc",
+   "ib",
+   "banking"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "marketing",
+   "services"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "mkt-010",
+  "question": "Dividing a market into distinct groups is called:",
+  "optionA": "segmentation",
+  "optionB": "positioning only",
+  "optionC": "pricing",
+  "optionD": "distribution",
+  "correctAnswer": "A",
+  "detailedExplanation": "Segmentation splits the market; targeting selects segments.",
+  "difficulty": "easy",
+  "subject": "marketing",
+  "chapter": "marketing-marketing-fundamentals",
+  "topic": "t-487",
+  "subtopic": "fundamentals",
+  "exam": [
+   "fpsc",
+   "ppsc",
+   "ib",
+   "banking"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "marketing",
+   "segmentation"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "mkt-011",
+  "question": "Brand equity refers to:",
+  "optionA": "the value a brand adds beyond its product",
+  "optionB": "the factory's asset value",
+  "optionC": "raw material cost",
+  "optionD": "advertising spend only",
+  "correctAnswer": "A",
+  "detailedExplanation": "Brand equity is the premium customers associate with a brand name.",
+  "difficulty": "medium",
+  "subject": "marketing",
+  "chapter": "marketing-marketing-strategy",
+  "topic": "t-488",
+  "subtopic": "fundamentals",
+  "exam": [
+   "fpsc",
+   "ppsc",
+   "ib",
+   "banking"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "marketing",
+   "branding"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "mkt-012",
+  "question": "Setting a low introductory price to gain market share is:",
+  "optionA": "penetration pricing",
+  "optionB": "skimming pricing",
+  "optionC": "cost pricing",
+  "optionD": "auction pricing",
+  "correctAnswer": "A",
+  "detailedExplanation": "Penetration pricing enters with low prices; skimming starts high.",
+  "difficulty": "medium",
+  "subject": "marketing",
+  "chapter": "marketing-marketing-strategy",
+  "topic": "t-489",
+  "subtopic": "fundamentals",
+  "exam": [
+   "fpsc",
+   "ppsc",
+   "ib",
+   "banking"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "marketing",
+   "pricing"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "mkt-013",
+  "question": "SEO primarily aims to:",
+  "optionA": "improve search engine rankings",
+  "optionB": "print advertisements",
+  "optionC": "reduce costs only",
+  "optionD": "design logos",
+  "correctAnswer": "A",
+  "detailedExplanation": "Search Engine Optimization improves organic visibility in search results.",
+  "difficulty": "medium",
+  "subject": "marketing",
+  "chapter": "marketing-digital-marketing",
+  "topic": "t-491",
+  "subtopic": "fundamentals",
+  "exam": [
+   "fpsc",
+   "ppsc",
+   "ib",
+   "banking"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "marketing",
+   "digital"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "mkt-014",
+  "question": "Which metric measures audience engagement on posts?",
+  "optionA": "likes, shares and comments",
+  "optionB": "page size",
+  "optionC": "load time",
+  "optionD": "server count",
+  "correctAnswer": "A",
+  "detailedExplanation": "Engagement includes likes, comments and shares.",
+  "difficulty": "medium",
+  "subject": "marketing",
+  "chapter": "marketing-digital-marketing",
+  "topic": "t-490",
+  "subtopic": "fundamentals",
+  "exam": [
+   "fpsc",
+   "ppsc",
+   "ib",
+   "banking"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "marketing",
+   "social"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "acc-015",
+  "question": "Every debit entry must have:",
+  "optionA": "an equal credit entry",
+  "optionB": "a larger credit",
+  "optionC": "no corresponding entry",
+  "optionD": "a receipt",
+  "correctAnswer": "A",
+  "detailedExplanation": "The double-entry system keeps debits equal to credits.",
+  "difficulty": "medium",
+  "subject": "accounting",
+  "chapter": "ac-basics",
+  "topic": "t-193",
+  "subtopic": "",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "ots"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "accounting"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "acc-016",
+  "question": "If a business has assets of Rs 100,000 and liabilities of Rs 40,000, its owner's equity is:",
+  "optionA": "Rs 60,000",
+  "optionB": "Rs 140,000",
+  "optionC": "Rs 40,000",
+  "optionD": "Rs 100,000",
+  "correctAnswer": "A",
+  "detailedExplanation": "Equity = Assets - Liabilities = 100,000 - 40,000 = 60,000.",
+  "difficulty": "medium",
+  "subject": "accounting",
+  "chapter": "ac-statements",
+  "topic": "t-194",
+  "subtopic": "",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "ots"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "accounting"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "fin-012",
+  "question": "A rupee today is worth:",
+  "optionA": "more than a rupee tomorrow",
+  "optionB": "less than a rupee tomorrow",
+  "optionC": "the same always",
+  "optionD": "nothing",
+  "correctAnswer": "A",
+  "detailedExplanation": "Money can earn interest, so present value exceeds future value.",
+  "difficulty": "medium",
+  "subject": "finance",
+  "chapter": "fi-corporate",
+  "topic": "t-196",
+  "subtopic": "",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "ots"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "finance",
+   "tvom"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "fin-013",
+  "question": "The stock exchange of Pakistan is headquartered in:",
+  "optionA": "Karachi",
+  "optionB": "Lahore",
+  "optionC": "Islamabad",
+  "optionD": "Peshawar",
+  "correctAnswer": "A",
+  "detailedExplanation": "PSX is based in Karachi.",
+  "difficulty": "medium",
+  "subject": "finance",
+  "chapter": "fi-markets",
+  "topic": "t-197",
+  "subtopic": "",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "ots"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "finance",
+   "markets"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "fin-014",
+  "question": "Diversification reduces:",
+  "optionA": "unsystematic risk",
+  "optionB": "systematic risk",
+  "optionC": "inflation",
+  "optionD": "liquidity",
+  "correctAnswer": "A",
+  "detailedExplanation": "Spreading investments removes company-specific (unsystematic) risk, not market risk.",
+  "difficulty": "hard",
+  "subject": "finance",
+  "chapter": "fi-markets",
+  "topic": "t-197",
+  "subtopic": "",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "ots"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "finance",
+   "risk"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ }
+]

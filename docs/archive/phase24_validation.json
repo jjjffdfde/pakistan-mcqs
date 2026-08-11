@@ -1,0 +1,42 @@
+{
+  "step": "validation",
+  "generated_at": "2026-08-10T16:56:04",
+  "summary": {
+    "db_readable": true,
+    "db_mcqs_total": 872621,
+    "db_mcqs_active": 872621,
+    "static_mcqs_in_data": 1338,
+    "subject_pages": 243,
+    "chapter_pages": 876,
+    "subject_pages_missing_from_db": 0,
+    "subject_db_slugs_without_page": 0,
+    "dup_chapter_slugs_in_db": 8,
+    "chapter_db_slugs_without_page": 0,
+    "chapter_pages_not_in_db": 0,
+    "json_data_parse_errors": 0,
+    "sitemap_targets_missing": 0,
+    "broken_references": 0,
+    "broken_internal_links": 0
+  },
+  "db_counts": {
+    "mcqs": 872621,
+    "mcqs_active": 872621,
+    "subjects": 243,
+    "chapters": 884,
+    "topics": 1597,
+    "options": 3490484,
+    "bookmarks": 5,
+    "history": 54,
+    "categories": 17
+  },
+  "json_parse_errors": [],
+  "subject_slug_mismatch": {
+    "missing_page": [],
+    "extra_page": []
+  },
+  "chapter_slug_mismatch": {
+    "missing_page": [],
+    "extra_page": []
+  },
+  "sitemap_missing_targets": []
+}

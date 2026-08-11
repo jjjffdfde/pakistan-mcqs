@@ -1,0 +1,17 @@
+{
+  "step": "buttons",
+  "generated_at": "2026-08-10T16:56:04",
+  "summary": {
+    "pages_analyzed": 1129,
+    "total_buttons": 81,
+    "total_links": 13906,
+    "total_inputs": 14,
+    "total_selects": 26,
+    "data_view_handlers": 16,
+    "data_ai_tabs": 11,
+    "data_tabs": 11,
+    "orphan_button_ids": 0,
+    "js_event_listeners_registered": 99
+  },
+  "orphan_button_ids": []
+}

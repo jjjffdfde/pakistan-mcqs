@@ -1,0 +1,24 @@
+{
+  "module": "M21",
+  "fixes": [
+    {
+      "issue_id": "P30-FIX-001",
+      "component": "ai/planner.js",
+      "file": "ai/planner.js",
+      "before": "complete(): missing/NaN index -> items[NaN].done TypeError -> 400 'invalid JSON: Cannot set properties of undefined (setting 'done')'",
+      "after": "complete(): explicit index required + isNaN guard -> clean error object {error:'index required'|'bad index'}",
+      "test": "POST /api/ai/planner/complete {} -> 200 {error:'index required'} (was 400 crash message); valid {index:0} -> 200 ok",
+      "risk": "low (malformed-payload path only)"
+    }
+  ],
+  "recommendations_not_applied": [
+    "server.js outer catch mislabels ALL handler errors as 'invalid JSON' (cosmetic; change touches every endpoint error path - left as-is)",
+    "/api/export materializes the full mcqs table in memory (2GB DB -> client timeout + server crash observed). Needs pagination/streaming design - left as-is",
+    "/api/import rebuilds the FTS index on every call - advisory: batch rebuild",
+    "prefers-reduced-motion media query absent in style.css (advisory, CSS enhancement)",
+    "skip-link absent on offline.html / static pages (advisory)",
+    "offline.html missing meta description + canonical (advisory)",
+    "admin page payload 1.37MB (advisory)"
+  ],
+  "db_changes": "none - all API write tests ran against a temp sandbox copy"
+}

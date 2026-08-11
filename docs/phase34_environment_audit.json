@@ -1,0 +1,21 @@
+{
+ "found_env_files": [],
+ "env_variables_in_use": [
+  "MCQS_PORT",
+  "MCQS_API",
+  "MCQS_TEST_DB",
+  "P28_PORT",
+  "CHROME_PATH",
+  "API"
+ ],
+ "env_variables_secret": [],
+ "env_variables_safe": [
+  "MCQS_PORT",
+  "MCQS_API",
+  "MCQS_TEST_DB",
+  "P28_PORT",
+  "CHROME_PATH",
+  "API"
+ ],
+ "action": "create .env.example with safe names only; ensure .env* gitignored (no .env files currently present)"
+}

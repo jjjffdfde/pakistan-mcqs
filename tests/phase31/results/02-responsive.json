@@ -1,0 +1,179 @@
+{
+  "suite": "02-responsive",
+  "generated": "2026-08-11T11:49:53.430Z",
+  "checks": [
+    {
+      "page": "index.html",
+      "w": 320,
+      "overflowX": 0,
+      "errors": 0,
+      "status": "PASS"
+    },
+    {
+      "page": "index.html",
+      "w": 375,
+      "overflowX": 0,
+      "errors": 0,
+      "status": "PASS"
+    },
+    {
+      "page": "index.html",
+      "w": 390,
+      "overflowX": 0,
+      "errors": 0,
+      "status": "PASS"
+    },
+    {
+      "page": "index.html",
+      "w": 414,
+      "overflowX": 0,
+      "errors": 0,
+      "status": "PASS"
+    },
+    {
+      "page": "index.html",
+      "w": 768,
+      "overflowX": 0,
+      "errors": 0,
+      "status": "PASS"
+    },
+    {
+      "page": "index.html",
+      "w": 1024,
+      "overflowX": 0,
+      "errors": 0,
+      "status": "PASS"
+    },
+    {
+      "page": "index.html",
+      "w": 1440,
+      "overflowX": 0,
+      "errors": 0,
+      "status": "PASS"
+    },
+    {
+      "page": "index.html",
+      "w": 1920,
+      "overflowX": 0,
+      "errors": 0,
+      "status": "PASS"
+    },
+    {
+      "page": "admin.html",
+      "w": 320,
+      "overflowX": 0,
+      "errors": 0,
+      "status": "PASS"
+    },
+    {
+      "page": "admin.html",
+      "w": 375,
+      "overflowX": 0,
+      "errors": 0,
+      "status": "PASS"
+    },
+    {
+      "page": "admin.html",
+      "w": 390,
+      "overflowX": 0,
+      "errors": 0,
+      "status": "PASS"
+    },
+    {
+      "page": "admin.html",
+      "w": 414,
+      "overflowX": 0,
+      "errors": 0,
+      "status": "PASS"
+    },
+    {
+      "page": "admin.html",
+      "w": 768,
+      "overflowX": 0,
+      "errors": 0,
+      "status": "PASS"
+    },
+    {
+      "page": "admin.html",
+      "w": 1024,
+      "overflowX": 0,
+      "errors": 0,
+      "status": "PASS"
+    },
+    {
+      "page": "admin.html",
+      "w": 1440,
+      "overflowX": 0,
+      "errors": 0,
+      "status": "PASS"
+    },
+    {
+      "page": "admin.html",
+      "w": 1920,
+      "overflowX": 0,
+      "errors": 0,
+      "status": "PASS"
+    },
+    {
+      "page": "offline.html",
+      "w": 320,
+      "overflowX": 0,
+      "errors": 0,
+      "status": "PASS"
+    },
+    {
+      "page": "offline.html",
+      "w": 375,
+      "overflowX": 0,
+      "errors": 0,
+      "status": "PASS"
+    },
+    {
+      "page": "offline.html",
+      "w": 390,
+      "overflowX": 0,
+      "errors": 0,
+      "status": "PASS"
+    },
+    {
+      "page": "offline.html",
+      "w": 414,
+      "overflowX": 0,
+      "errors": 0,
+      "status": "PASS"
+    },
+    {
+      "page": "offline.html",
+      "w": 768,
+      "overflowX": 0,
+      "errors": 0,
+      "status": "PASS"
+    },
+    {
+      "page": "offline.html",
+      "w": 1024,
+      "overflowX": 0,
+      "errors": 0,
+      "status": "PASS"
+    },
+    {
+      "page": "offline.html",
+      "w": 1440,
+      "overflowX": 0,
+      "errors": 0,
+      "status": "PASS"
+    },
+    {
+      "page": "offline.html",
+      "w": 1920,
+      "overflowX": 0,
+      "errors": 0,
+      "status": "PASS"
+    }
+  ],
+  "totals": {
+    "pass": 24,
+    "fail": 0
+  },
+  "status": "PASS"
+}

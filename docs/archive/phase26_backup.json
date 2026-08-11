@@ -1,0 +1,28 @@
+{
+  "step": "backup",
+  "generated_at": "2026-08-10T12:08:42.190Z",
+  "summary": {
+    "live_db": "E:\\pAK MCQS\\db\\pakistan-mcqs.sqlite",
+    "active_mcqs": 872621,
+    "integrity_check": "ok",
+    "foreign_key_violations": 0,
+    "snapshots_available": 9,
+    "latest_snapshot": {
+      "snapshot": "db-backup-2026-08-04-12-47-20",
+      "matches_manifest": null
+    },
+    "status": "PASS"
+  },
+  "details": {
+    "integrity": [
+      "ok"
+    ],
+    "foreign_key_violations": [],
+    "latest_info": {
+      "snapshot": "db-backup-2026-08-04-12-47-20",
+      "sha256": "fb35e561c3e8c3b0f72f0bc9214b3b44fb6a21a25b44bc3baff1ce40a911c163",
+      "matches_manifest": null,
+      "bytes": 2159501312
+    }
+  }
+}

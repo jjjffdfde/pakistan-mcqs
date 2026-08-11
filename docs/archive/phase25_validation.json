@@ -1,0 +1,18 @@
+{
+  "step": "validation",
+  "generated_at": "2026-08-10T11:58:31.597Z",
+  "checks_total": 28,
+  "checks_passed": 28,
+  "checks_failed": 0,
+  "success_criteria": {
+    "installable_pwa": true,
+    "offline": true,
+    "desktop_ready": true,
+    "android_ready": true,
+    "background_sync": true,
+    "push_ready": true,
+    "offline_search": true,
+    "production_deploy_ready": true
+  },
+  "failed_checks": []
+}

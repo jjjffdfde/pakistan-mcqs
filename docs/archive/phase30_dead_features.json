@@ -1,0 +1,570 @@
+{
+ "module": "M17",
+ "generated_at": "2026-08-10T10:09:38.245Z",
+ "totals": {
+  "coming_soon": 0,
+  "placeholder": 12,
+  "debug_log": 453,
+  "unbound_core_buttons": 17
+ },
+ "findings": [
+  {
+   "page": "index.html",
+   "kind": "placeholder_text",
+   "text": "placeholder"
+  },
+  {
+   "page": "admin.html",
+   "kind": "placeholder_text",
+   "text": "placeholder"
+  },
+  {
+   "page": "admin.html",
+   "kind": "placeholder_text",
+   "text": "placeholder"
+  },
+  {
+   "page": "admin.html",
+   "kind": "placeholder_text",
+   "text": "placeholder"
+  },
+  {
+   "page": "admin.html",
+   "kind": "placeholder_text",
+   "text": "placeholder"
+  },
+  {
+   "page": "admin.html",
+   "kind": "placeholder_text",
+   "text": "placeholder"
+  },
+  {
+   "page": "admin.html",
+   "kind": "placeholder_text",
+   "text": "placeholder"
+  },
+  {
+   "page": "admin.html",
+   "kind": "placeholder_text",
+   "text": "placeholder"
+  },
+  {
+   "page": "admin.html",
+   "kind": "placeholder_text",
+   "text": "placeholder"
+  },
+  {
+   "page": "admin.html",
+   "kind": "placeholder_text",
+   "text": "placeholder"
+  },
+  {
+   "page": "admin.html",
+   "kind": "placeholder_text",
+   "text": "placeholder"
+  },
+  {
+   "page": "admin.html",
+   "kind": "placeholder_text",
+   "text": "placeholder"
+  },
+  {
+   "file": "assistant/analytics-engine.js",
+   "kind": "console_log",
+   "count": 2
+  },
+  {
+   "file": "assistant/automation-engine.js",
+   "kind": "console_log",
+   "count": 2
+  },
+  {
+   "file": "assistant/concept-navigator.js",
+   "kind": "console_log",
+   "count": 2
+  },
+  {
+   "file": "assistant/knowledge-assistant.js",
+   "kind": "console_log",
+   "count": 2
+  },
+  {
+   "file": "assistant/learning-engine.js",
+   "kind": "console_log",
+   "count": 3
+  },
+  {
+   "file": "assistant/offline-api.js",
+   "kind": "console_log",
+   "count": 2
+  },
+  {
+   "file": "assistant/recommendation-engine.js",
+   "kind": "console_log",
+   "count": 2
+  },
+  {
+   "file": "assistant/revision-planner.js",
+   "kind": "console_log",
+   "count": 2
+  },
+  {
+   "file": "database/scripts/build-db.js",
+   "kind": "console_log",
+   "count": 11
+  },
+  {
+   "file": "database/scripts/checksum-db.js",
+   "kind": "console_log",
+   "count": 3
+  },
+  {
+   "file": "database/scripts/compress-db.js",
+   "kind": "console_log",
+   "count": 2
+  },
+  {
+   "file": "database/scripts/decompress-db.js",
+   "kind": "console_log",
+   "count": 1
+  },
+  {
+   "file": "database/scripts/diff-db.js",
+   "kind": "console_log",
+   "count": 2
+  },
+  {
+   "file": "database/scripts/export-db.js",
+   "kind": "console_log",
+   "count": 12
+  },
+  {
+   "file": "database/scripts/import-db.js",
+   "kind": "console_log",
+   "count": 2
+  },
+  {
+   "file": "database/scripts/incremental-export.js",
+   "kind": "console_log",
+   "count": 3
+  },
+  {
+   "file": "database/scripts/storage-report.js",
+   "kind": "console_log",
+   "count": 2
+  },
+  {
+   "file": "database/scripts/validate-db.js",
+   "kind": "console_log",
+   "count": 3
+  },
+  {
+   "file": "database/scripts/verify-db.js",
+   "kind": "console_log",
+   "count": 1
+  },
+  {
+   "file": "db/backup.js",
+   "kind": "console_log",
+   "count": 4
+  },
+  {
+   "file": "db/export-json.js",
+   "kind": "console_log",
+   "count": 4
+  },
+  {
+   "file": "db/import-json.js",
+   "kind": "console_log",
+   "count": 3
+  },
+  {
+   "file": "db/migrate.js",
+   "kind": "console_log",
+   "count": 5
+  },
+  {
+   "file": "db/normalize.js",
+   "kind": "console_log",
+   "count": 9
+  },
+  {
+   "file": "db/restore.js",
+   "kind": "console_log",
+   "count": 8
+  },
+  {
+   "file": "db/validate.js",
+   "kind": "console_log",
+   "count": 1
+  },
+  {
+   "file": "db/_dump.cjs",
+   "kind": "console_log",
+   "count": 5
+  },
+  {
+   "file": "db/_gen-kg-mirrors.cjs",
+   "kind": "console_log",
+   "count": 1
+  },
+  {
+   "file": "phase15_subject_depth_analysis.js",
+   "kind": "console_log",
+   "count": 6
+  },
+  {
+   "file": "pipeline/audit-coverage.js",
+   "kind": "console_log",
+   "count": 4
+  },
+  {
+   "file": "pipeline/audit.js",
+   "kind": "console_log",
+   "count": 1
+  },
+  {
+   "file": "pipeline/enrich-legacy.js",
+   "kind": "console_log",
+   "count": 3
+  },
+  {
+   "file": "pipeline/expand-loop.js",
+   "kind": "console_log",
+   "count": 9
+  },
+  {
+   "file": "pipeline/fill-topics.js",
+   "kind": "console_log",
+   "count": 9
+  },
+  {
+   "file": "pipeline/kg/pack-engine.js",
+   "kind": "console_log",
+   "count": 7
+  },
+  {
+   "file": "pipeline/measure-yield.cjs",
+   "kind": "console_log",
+   "count": 1
+  },
+  {
+   "file": "pipeline/mocks.js",
+   "kind": "console_log",
+   "count": 1
+  },
+  {
+   "file": "pipeline/phase10-attrib.cjs",
+   "kind": "console_log",
+   "count": 5
+  },
+  {
+   "file": "pipeline/phase11-subjects.cjs",
+   "kind": "console_log",
+   "count": 3
+  },
+  {
+   "file": "pipeline/phase13-audit.cjs",
+   "kind": "console_log",
+   "count": 2
+  },
+  {
+   "file": "pipeline/repair.js",
+   "kind": "console_log",
+   "count": 7
+  },
+  {
+   "file": "pipeline/reports.js",
+   "kind": "console_log",
+   "count": 1
+  },
+  {
+   "file": "pipeline/run.js",
+   "kind": "console_log",
+   "count": 1
+  },
+  {
+   "file": "scripts/ai-selfcheck.cjs",
+   "kind": "console_log",
+   "count": 3
+  },
+  {
+   "file": "scripts/audit-2026.js",
+   "kind": "console_log",
+   "count": 1
+  },
+  {
+   "file": "scripts/audit.js",
+   "kind": "console_log",
+   "count": 2
+  },
+  {
+   "file": "scripts/benchmark.cjs",
+   "kind": "console_log",
+   "count": 2
+  },
+  {
+   "file": "scripts/build-mcqs.js",
+   "kind": "console_log",
+   "count": 5
+  },
+  {
+   "file": "scripts/fix-format.cjs",
+   "kind": "console_log",
+   "count": 1
+  },
+  {
+   "file": "scripts/gen-pwa-assets.cjs",
+   "kind": "console_log",
+   "count": 4
+  },
+  {
+   "file": "scripts/gen-seo-pages.cjs",
+   "kind": "console_log",
+   "count": 1
+  },
+  {
+   "file": "scripts/generate-mcqs-phase2.js",
+   "kind": "console_log",
+   "count": 2
+  },
+  {
+   "file": "scripts/lint.cjs",
+   "kind": "console_log",
+   "count": 3
+  },
+  {
+   "file": "scripts/make-og.js",
+   "kind": "console_log",
+   "count": 1
+  },
+  {
+   "file": "scripts/migrate-phase2.js",
+   "kind": "console_log",
+   "count": 10
+  },
+  {
+   "file": "scripts/migrate-phase3.js",
+   "kind": "console_log",
+   "count": 2
+  },
+  {
+   "file": "scripts/monitor.cjs",
+   "kind": "console_log",
+   "count": 3
+  },
+  {
+   "file": "scripts/phase15-intelligence.cjs",
+   "kind": "console_log",
+   "count": 31
+  },
+  {
+   "file": "scripts/phase17-analysis.cjs",
+   "kind": "console_log",
+   "count": 21
+  },
+  {
+   "file": "scripts/phase17-api-reports.cjs",
+   "kind": "console_log",
+   "count": 15
+  },
+  {
+   "file": "scripts/phase17-core.cjs",
+   "kind": "console_log",
+   "count": 15
+  },
+  {
+   "file": "scripts/phase17-search-analytics.cjs",
+   "kind": "console_log",
+   "count": 17
+  },
+  {
+   "file": "scripts/phase18-generation.cjs",
+   "kind": "console_log",
+   "count": 56
+  },
+  {
+   "file": "scripts/phase19-platform.cjs",
+   "kind": "console_log",
+   "count": 41
+  },
+  {
+   "file": "scripts/phase3/gen-helper.cjs",
+   "kind": "console_log",
+   "count": 1
+  },
+  {
+   "file": "scripts/phase30/api-map.cjs",
+   "kind": "console_log",
+   "count": 2
+  },
+  {
+   "file": "scripts/phase30/static.cjs",
+   "kind": "console_log",
+   "count": 1
+  },
+  {
+   "file": "scripts/phase30/static2.cjs",
+   "kind": "console_log",
+   "count": 1
+  },
+  {
+   "file": "scripts/release.cjs",
+   "kind": "console_log",
+   "count": 2
+  },
+  {
+   "file": "scripts/security-audit.cjs",
+   "kind": "console_log",
+   "count": 1
+  },
+  {
+   "file": "scripts/seed-ai.cjs",
+   "kind": "console_log",
+   "count": 4
+  },
+  {
+   "file": "scripts/seed-kg.cjs",
+   "kind": "console_log",
+   "count": 11
+  },
+  {
+   "file": "scripts/serve-test.js",
+   "kind": "console_log",
+   "count": 1
+  },
+  {
+   "file": "scripts/test-db-integration.cjs",
+   "kind": "console_log",
+   "count": 14
+  },
+  {
+   "file": "scripts/test.cjs",
+   "kind": "console_log",
+   "count": 3
+  },
+  {
+   "file": "scripts/validate-buttons.cjs",
+   "kind": "console_log",
+   "count": 2
+  },
+  {
+   "file": "server.js",
+   "kind": "console_log",
+   "count": 2
+  },
+  {
+   "file": "verify_report_accuracy.js",
+   "kind": "console_log",
+   "count": 13
+  },
+  {
+   "kind": "buttons_without_static_handler (runtime-verified on core pages)",
+   "count": 17,
+   "buttons": [
+    {
+     "page": "index.html",
+     "line": 190,
+     "id": "",
+     "class": "btn btn-primary"
+    },
+    {
+     "page": "index.html",
+     "line": 191,
+     "id": "",
+     "class": "btn btn-outline"
+    },
+    {
+     "page": "index.html",
+     "line": 192,
+     "id": "",
+     "class": "btn btn-gold"
+    },
+    {
+     "page": "index.html",
+     "line": 309,
+     "id": "",
+     "class": "btn btn-primary"
+    },
+    {
+     "page": "admin.html",
+     "line": 78,
+     "id": "",
+     "class": "active"
+    },
+    {
+     "page": "admin.html",
+     "line": 79,
+     "id": "",
+     "class": ""
+    },
+    {
+     "page": "admin.html",
+     "line": 80,
+     "id": "",
+     "class": ""
+    },
+    {
+     "page": "admin.html",
+     "line": 81,
+     "id": "",
+     "class": ""
+    },
+    {
+     "page": "admin.html",
+     "line": 82,
+     "id": "",
+     "class": ""
+    },
+    {
+     "page": "admin.html",
+     "line": 83,
+     "id": "",
+     "class": ""
+    },
+    {
+     "page": "admin.html",
+     "line": 84,
+     "id": "",
+     "class": ""
+    },
+    {
+     "page": "admin.html",
+     "line": 85,
+     "id": "",
+     "class": ""
+    },
+    {
+     "page": "admin.html",
+     "line": 86,
+     "id": "",
+     "class": ""
+    },
+    {
+     "page": "admin.html",
+     "line": 87,
+     "id": "",
+     "class": ""
+    },
+    {
+     "page": "admin.html",
+     "line": 88,
+     "id": "",
+     "class": ""
+    },
+    {
+     "page": "offline.html",
+     "line": 26,
+     "id": "offlineRetry",
+     "class": "btn btn-primary"
+    },
+    {
+     "page": "offline.html",
+     "line": 27,
+     "id": "offlineHome",
+     "class": "btn btn-outline"
+    }
+   ]
+  }
+ ]
+}

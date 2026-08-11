@@ -1,0 +1,7 @@
+{
+ "method": "pattern scan of all text files (max 2 MiB) on the FINAL cleaned tree; secret VALUES are never reported",
+ "files_scanned": 394,
+ "hits": [],
+ "accidental_env_files": [],
+ "verdict": "PASS - no secrets, no accidental .env files"
+}

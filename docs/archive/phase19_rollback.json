@@ -1,0 +1,25 @@
+{
+  "step": "rollback_engine",
+  "generated_at": "2026-08-05T13:07:22",
+  "summary": {
+    "registered_rollback_points": 37,
+    "release_batch": "REL-20260805-001",
+    "simulation_verified": true
+  },
+  "rollback_manifest": {
+    "rollback_engine_version": "1.0.0",
+    "release_batch": "REL-20260805-001",
+    "registered_rollback_points": 37,
+    "rollback_capabilities": [
+      "Published MCQ Deactivation / Soft Delete",
+      "Release Batch Rollback",
+      "Queue Status Reversion",
+      "Options and Concept Mappings Restoration"
+    ],
+    "simulation_test": {
+      "status": "verified_clean",
+      "test_rollback_id": "RB-gen-accounting-15195-8914-0006-1785917240362",
+      "verified_at": "2026-08-05T13:07:22"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "step": "offline_search",
+  "generated_at": "2026-08-10T11:58:31.591Z",
+  "offline_mcq_bank": {
+    "static_json_cached": true,
+    "data_cache_active": true,
+    "client_search_exists": true,
+    "offline_greeting": true
+  },
+  "offline_filters": true,
+  "bookmarks_offline": {
+    "persisted": true,
+    "ui": true
+  },
+  "history_offline": {
+    "analytics_local": true,
+    "streaks_local": true
+  },
+  "recent_searches": {
+    "implemented": true,
+    "rendered": true,
+    "cap_12": true,
+    "recovers_on_click": true
+  },
+  "filters_all_present": true
+}

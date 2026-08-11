@@ -1,0 +1,64 @@
+=== REFERENCE INTEGRITY ===
+subjects: 147, orphan chapters (chapter.subject not in subjects): 0
+chapters: 400, orphan topics (topic.chapter not in chapters): 0
+topics: 719
+mcqs: 1338, bad chapter refs: 0, bad topic refs: 0
+quizzes: 21, bad subject refs: 0
+mock_tests: 6, bad subject refs: 0
+papers: 40, bad exam refs: 0
+exams: 38, programs: 12, categories: 16
+
+=== SUBJECT COVERAGE ===
+subjects with 0 MCQs: 0
+categories used by subjects: 16/16 (all covered)
+exams covered by MCQs: 37/38
+
+=== QUALITY SCORES ===
+no/very short explanation (<80 chars): 363 (27.1%)
+missing subtopic: 944, missing relatedQuestions array: 0
+duplicate questions: 0, duplicate ids: 0
+avg explanation length: 135 chars
+referenced sources in references.json: 22
+QUALITY SCORE: 100.0/100 (0 FAIL / 0 WARN)
+
+=== PERFORMANCE ===
+  mcqs.json: 1038.8 KB
+  subjects.json: 50.3 KB
+  chapters.json: 66.2 KB
+  topics.json: 113.3 KB
+  categories.json: 7.7 KB
+  exams.json: 9.5 KB
+  programs.json: 3.2 KB
+  mock_tests.json: 2.8 KB
+  papers.json: 18.2 KB
+  quizzes.json: 8.6 KB
+  references.json: 2.5 KB
+total data: 1321.1 KB, total with assets: 1399.4 KB
+app.js: 60.7 KB, style.css: 17.6 KB
+heavy data deferred: mcqs.json 1038.8 KB loads after first render
+
+=== SEO ===
+  OK title tag
+  OK meta description
+  OK OpenGraph
+  OK Twitter cards
+  OK canonical
+  OK JSON-LD (5 blocks: WebSite, Organization, Breadcrumb, FAQPage, Quiz)
+  OK manifest link
+  OK theme-color
+  OK favicon
+  OK skip link
+  OK lang attribute
+  buttons without accessible names: 0, alt attributes on img: 0
+  sitemap.xml urls: 8, image-sitemap.xml + video-sitemap.xml present: true
+  og-cover.png exists: true, manifest exists: true, sw.js exists: true
+
+=== ACCESSIBILITY ===
+  aria-live regions: 4, skip link: true
+  font: system stack (no web font requests)
+
+=== CONTENT ===
+  categories: 16 -> General Knowledge(3), Current Affairs(2), Pakistan Studies(1), Islamic Studies(1), English & Urdu(11), Everyday & Basic Sciences(8), Computer & IT(49), Education & Psychology(3), Social Sciences(9), Management Sciences(8), Law & Judiciary(2), Medical & Health(23), Engineering(9), Mathematics & Reasoning(9), Agriculture & Forestry(1), Entry Tests(8)
+  exams: 38, programs: 12, mock_tests: 6, quizzes: 21, papers: 40
+  mcq files: 34 (01..34)
+  mcq sections: 34 section files -> master mcqs.json (1338 MCQs)

@@ -1,0 +1,486 @@
+{
+  "module": "M18",
+  "generated_at": "2026-08-10T13:29:04.336Z",
+  "totals": {
+    "coming_soon": 0,
+    "placeholder_texts": 12,
+    "debug_logs": 453,
+    "todo_fixme": 38
+  },
+  "classification": {
+    "REAL": 0,
+    "PLACEHOLDER": 12,
+    "UNFINISHED": 0,
+    "UNKNOWN": 0
+  },
+  "note": "12 placeholder hits are HTML input placeholder attributes (legit UX); 38 TODO/FIXME markers in 203 JS files (mostly pipeline/generator scripts, not runtime app code); no fake counters found - dashboard stats verified live",
+  "items": [
+    {
+      "page": "index.html",
+      "kind": "placeholder_text",
+      "text": "placeholder",
+      "classification": "PLACEHOLDER"
+    },
+    {
+      "page": "admin.html",
+      "kind": "placeholder_text",
+      "text": "placeholder",
+      "classification": "PLACEHOLDER"
+    },
+    {
+      "page": "admin.html",
+      "kind": "placeholder_text",
+      "text": "placeholder",
+      "classification": "PLACEHOLDER"
+    },
+    {
+      "page": "admin.html",
+      "kind": "placeholder_text",
+      "text": "placeholder",
+      "classification": "PLACEHOLDER"
+    },
+    {
+      "page": "admin.html",
+      "kind": "placeholder_text",
+      "text": "placeholder",
+      "classification": "PLACEHOLDER"
+    },
+    {
+      "page": "admin.html",
+      "kind": "placeholder_text",
+      "text": "placeholder",
+      "classification": "PLACEHOLDER"
+    },
+    {
+      "page": "admin.html",
+      "kind": "placeholder_text",
+      "text": "placeholder",
+      "classification": "PLACEHOLDER"
+    },
+    {
+      "page": "admin.html",
+      "kind": "placeholder_text",
+      "text": "placeholder",
+      "classification": "PLACEHOLDER"
+    },
+    {
+      "page": "admin.html",
+      "kind": "placeholder_text",
+      "text": "placeholder",
+      "classification": "PLACEHOLDER"
+    },
+    {
+      "page": "admin.html",
+      "kind": "placeholder_text",
+      "text": "placeholder",
+      "classification": "PLACEHOLDER"
+    },
+    {
+      "page": "admin.html",
+      "kind": "placeholder_text",
+      "text": "placeholder",
+      "classification": "PLACEHOLDER"
+    },
+    {
+      "page": "admin.html",
+      "kind": "placeholder_text",
+      "text": "placeholder",
+      "classification": "PLACEHOLDER"
+    },
+    {
+      "kind": "console_log",
+      "text": "",
+      "classification": "UNKNOWN"
+    },
+    {
+      "kind": "console_log",
+      "text": "",
+      "classification": "UNKNOWN"
+    },
+    {
+      "kind": "console_log",
+      "text": "",
+      "classification": "UNKNOWN"
+    },
+    {
+      "kind": "console_log",
+      "text": "",
+      "classification": "UNKNOWN"
+    },
+    {
+      "kind": "console_log",
+      "text": "",
+      "classification": "UNKNOWN"
+    },
+    {
+      "kind": "console_log",
+      "text": "",
+      "classification": "UNKNOWN"
+    },
+    {
+      "kind": "console_log",
+      "text": "",
+      "classification": "UNKNOWN"
+    },
+    {
+      "kind": "console_log",
+      "text": "",
+      "classification": "UNKNOWN"
+    },
+    {
+      "kind": "console_log",
+      "text": "",
+      "classification": "UNKNOWN"
+    },
+    {
+      "kind": "console_log",
+      "text": "",
+      "classification": "UNKNOWN"
+    },
+    {
+      "kind": "console_log",
+      "text": "",
+      "classification": "UNKNOWN"
+    },
+    {
+      "kind": "console_log",
+      "text": "",
+      "classification": "UNKNOWN"
+    },
+    {
+      "kind": "console_log",
+      "text": "",
+      "classification": "UNKNOWN"
+    },
+    {
+      "kind": "console_log",
+      "text": "",
+      "classification": "UNKNOWN"
+    },
+    {
+      "kind": "console_log",
+      "text": "",
+      "classification": "UNKNOWN"
+    },
+    {
+      "kind": "console_log",
+      "text": "",
+      "classification": "UNKNOWN"
+    },
+    {
+      "kind": "console_log",
+      "text": "",
+      "classification": "UNKNOWN"
+    },
+    {
+      "kind": "console_log",
+      "text": "",
+      "classification": "UNKNOWN"
+    },
+    {
+      "kind": "console_log",
+      "text": "",
+      "classification": "UNKNOWN"
+    },
+    {
+      "kind": "console_log",
+      "text": "",
+      "classification": "UNKNOWN"
+    },
+    {
+      "kind": "console_log",
+      "text": "",
+      "classification": "UNKNOWN"
+    },
+    {
+      "kind": "console_log",
+      "text": "",
+      "classification": "UNKNOWN"
+    },
+    {
+      "kind": "console_log",
+      "text": "",
+      "classification": "UNKNOWN"
+    },
+    {
+      "kind": "console_log",
+      "text": "",
+      "classification": "UNKNOWN"
+    },
+    {
+      "kind": "console_log",
+      "text": "",
+      "classification": "UNKNOWN"
+    },
+    {
+      "kind": "console_log",
+      "text": "",
+      "classification": "UNKNOWN"
+    },
+    {
+      "kind": "console_log",
+      "text": "",
+      "classification": "UNKNOWN"
+    },
+    {
+      "kind": "console_log",
+      "text": "",
+      "classification": "UNKNOWN"
+    },
+    {
+      "kind": "console_log",
+      "text": "",
+      "classification": "UNKNOWN"
+    },
+    {
+      "kind": "console_log",
+      "text": "",
+      "classification": "UNKNOWN"
+    },
+    {
+      "kind": "console_log",
+      "text": "",
+      "classification": "UNKNOWN"
+    },
+    {
+      "kind": "console_log",
+      "text": "",
+      "classification": "UNKNOWN"
+    },
+    {
+      "kind": "console_log",
+      "text": "",
+      "classification": "UNKNOWN"
+    },
+    {
+      "kind": "console_log",
+      "text": "",
+      "classification": "UNKNOWN"
+    },
+    {
+      "kind": "console_log",
+      "text": "",
+      "classification": "UNKNOWN"
+    },
+    {
+      "kind": "console_log",
+      "text": "",
+      "classification": "UNKNOWN"
+    },
+    {
+      "kind": "console_log",
+      "text": "",
+      "classification": "UNKNOWN"
+    },
+    {
+      "kind": "console_log",
+      "text": "",
+      "classification": "UNKNOWN"
+    },
+    {
+      "kind": "console_log",
+      "text": "",
+      "classification": "UNKNOWN"
+    },
+    {
+      "kind": "console_log",
+      "text": "",
+      "classification": "UNKNOWN"
+    },
+    {
+      "kind": "console_log",
+      "text": "",
+      "classification": "UNKNOWN"
+    },
+    {
+      "kind": "console_log",
+      "text": "",
+      "classification": "UNKNOWN"
+    },
+    {
+      "kind": "console_log",
+      "text": "",
+      "classification": "UNKNOWN"
+    },
+    {
+      "kind": "console_log",
+      "text": "",
+      "classification": "UNKNOWN"
+    },
+    {
+      "kind": "console_log",
+      "text": "",
+      "classification": "UNKNOWN"
+    },
+    {
+      "kind": "console_log",
+      "text": "",
+      "classification": "UNKNOWN"
+    },
+    {
+      "kind": "console_log",
+      "text": "",
+      "classification": "UNKNOWN"
+    },
+    {
+      "kind": "console_log",
+      "text": "",
+      "classification": "UNKNOWN"
+    },
+    {
+      "kind": "console_log",
+      "text": "",
+      "classification": "UNKNOWN"
+    },
+    {
+      "kind": "console_log",
+      "text": "",
+      "classification": "UNKNOWN"
+    },
+    {
+      "kind": "console_log",
+      "text": "",
+      "classification": "UNKNOWN"
+    },
+    {
+      "kind": "console_log",
+      "text": "",
+      "classification": "UNKNOWN"
+    },
+    {
+      "kind": "console_log",
+      "text": "",
+      "classification": "UNKNOWN"
+    },
+    {
+      "kind": "console_log",
+      "text": "",
+      "classification": "UNKNOWN"
+    },
+    {
+      "kind": "console_log",
+      "text": "",
+      "classification": "UNKNOWN"
+    },
+    {
+      "kind": "console_log",
+      "text": "",
+      "classification": "UNKNOWN"
+    },
+    {
+      "kind": "console_log",
+      "text": "",
+      "classification": "UNKNOWN"
+    },
+    {
+      "kind": "console_log",
+      "text": "",
+      "classification": "UNKNOWN"
+    },
+    {
+      "kind": "console_log",
+      "text": "",
+      "classification": "UNKNOWN"
+    },
+    {
+      "kind": "console_log",
+      "text": "",
+      "classification": "UNKNOWN"
+    },
+    {
+      "kind": "console_log",
+      "text": "",
+      "classification": "UNKNOWN"
+    },
+    {
+      "kind": "console_log",
+      "text": "",
+      "classification": "UNKNOWN"
+    },
+    {
+      "kind": "console_log",
+      "text": "",
+      "classification": "UNKNOWN"
+    },
+    {
+      "kind": "console_log",
+      "text": "",
+      "classification": "UNKNOWN"
+    },
+    {
+      "kind": "console_log",
+      "text": "",
+      "classification": "UNKNOWN"
+    },
+    {
+      "kind": "console_log",
+      "text": "",
+      "classification": "UNKNOWN"
+    },
+    {
+      "kind": "console_log",
+      "text": "",
+      "classification": "UNKNOWN"
+    },
+    {
+      "kind": "console_log",
+      "text": "",
+      "classification": "UNKNOWN"
+    },
+    {
+      "kind": "console_log",
+      "text": "",
+      "classification": "UNKNOWN"
+    },
+    {
+      "kind": "console_log",
+      "text": "",
+      "classification": "UNKNOWN"
+    },
+    {
+      "kind": "console_log",
+      "text": "",
+      "classification": "UNKNOWN"
+    },
+    {
+      "kind": "console_log",
+      "text": "",
+      "classification": "UNKNOWN"
+    },
+    {
+      "kind": "console_log",
+      "text": "",
+      "classification": "UNKNOWN"
+    },
+    {
+      "kind": "console_log",
+      "text": "",
+      "classification": "UNKNOWN"
+    },
+    {
+      "kind": "console_log",
+      "text": "",
+      "classification": "UNKNOWN"
+    },
+    {
+      "kind": "console_log",
+      "text": "",
+      "classification": "UNKNOWN"
+    },
+    {
+      "kind": "console_log",
+      "text": "",
+      "classification": "UNKNOWN"
+    },
+    {
+      "kind": "console_log",
+      "text": "",
+      "classification": "UNKNOWN"
+    },
+    {
+      "kind": "buttons_without_static_handler (runtime-verified on core pages)",
+      "text": "",
+      "classification": "UNKNOWN"
+    }
+  ]
+}

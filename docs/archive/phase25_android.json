@@ -1,0 +1,32 @@
+{
+  "step": "android_packaging",
+  "generated_at": "2026-08-10T11:58:31.594Z",
+  "twa": {
+    "manifest_valid": true,
+    "package_id": "com.pakistanmcqshub.app",
+    "host": "pakistanmcqshub.github.io",
+    "android_manifest": true,
+    "launcher_activity": true,
+    "auto_verify": true
+  },
+  "apk_build": {
+    "script": true,
+    "bubblewrap": true
+  },
+  "adaptive_icons": {
+    "background_svg": true,
+    "foreground_svg": true,
+    "launcher_png_found": true
+  },
+  "splash": {
+    "portrait": true,
+    "square": true,
+    "background_configured": true
+  },
+  "permissions": {
+    "internet": true,
+    "notifications": true,
+    "minimal": true,
+    "no_sensitive": true
+  }
+}

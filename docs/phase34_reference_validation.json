@@ -1,0 +1,14 @@
+{
+ "method": "(1) existence check: every inventoried file must still exist unless it was in the approved removal plan; (2) forward check: code files may not reference non-existent paths under project directories",
+ "inventory_files": 2957,
+ "planned_removals": 248,
+ "unexpected_missing": [],
+ "forward_reference_issues": [
+  {
+   "from": "pipeline/generators/20-kb-ph11-combos.js",
+   "target": "data/ph11-banks.json"
+  }
+ ],
+ "forward_reference_issue_count": 1,
+ "verdict": "REVIEW - see details"
+}

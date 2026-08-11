@@ -1,0 +1,16 @@
+{
+  "module": "M7",
+  "status": "PASS",
+  "mcq_steps": [
+    "qotd_reveal:PASS",
+    "browse_filters:PASS",
+    "browse_pager:PASS",
+    "practice_workflow:PASS",
+    "practice_quit:PASS",
+    "quick_quiz_workflow:PASS",
+    "paper_workflow:PASS"
+  ],
+  "api": "GET /api/random, /api/mcqs?ids= 200 OK",
+  "static_pages": "1,129 subject/chapter pages (subjects/biology.html sampled at 5 widths, 0 errors)",
+  "note": "practice, quick quiz, past-paper, browse, qotd workflows verified"
+}

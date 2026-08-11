@@ -1,0 +1,65 @@
+{
+  "module": "P32",
+  "scores": [
+    {
+      "category": "PERFORMANCE",
+      "score": 96,
+      "evidence": "LCP 44-108ms static, INP 0, CLS 0.0; repeat-visit traffic -98.8% after caching"
+    },
+    {
+      "category": "UX",
+      "score": 94,
+      "evidence": "24/24 interactive user-flow checks; overflow fixed; -1 for 13 heuristic no-label inputs, -2 for 36px touch targets, -2 for reduced-motion advisory, -1 misc advisories"
+    },
+    {
+      "category": "MOBILE",
+      "score": 95,
+      "evidence": "0 overflow at 320-414 after fix; menu/search/MCQ PASS; 36px targets advisory"
+    },
+    {
+      "category": "DESKTOP",
+      "score": 98,
+      "evidence": "0 overflow 1024-1920; flows PASS; admin 1.38MB payload noted (P3)"
+    },
+    {
+      "category": "NETWORK",
+      "score": 95,
+      "evidence": "30 req index, 0 third-party, 0 redirects, 0 origin failures, caching -98.8% repeat"
+    },
+    {
+      "category": "IMAGES",
+      "score": 100,
+      "evidence": "1 DOM image, sized + alt; no payload"
+    },
+    {
+      "category": "JAVASCRIPT",
+      "score": 90,
+      "evidence": "0 errors, 0 syntax issues, 183 KB total; 453 console.debug advisory (P3)"
+    },
+    {
+      "category": "CSS",
+      "score": 93,
+      "evidence": "21 KB single stylesheet; overflow fix applied; reduced-motion advisory (P2)"
+    },
+    {
+      "category": "ACCESSIBILITY",
+      "score": 88,
+      "evidence": "skip link, landmarks, alt, contrast tokens PASS; 3 heuristic P2 advisories (labels, 44px targets, reduced motion)"
+    },
+    {
+      "category": "SEO SAFETY",
+      "score": 97,
+      "evidence": "static HTML crawlable, canonical, sitemap, structured data; caching HTML uses no-cache (fresh)"
+    },
+    {
+      "category": "STABILITY",
+      "score": 98,
+      "evidence": "0 crashes across 37+ browser runs post-fix; 0 JS errors with active capture; P30-FIX-001 verified"
+    }
+  ],
+  "methodology": "Headless Chrome 1366x900/390x844, localhost static server (no throttling, lab-grade), fresh profile per run; interactive runs perform scripted user flows; static runs measure clean initial load.",
+  "status": "PASS",
+  "generated_at": "2026-08-11T03:48:45.675Z",
+  "tool": "scripts/phase32 (reporter)",
+  "environment_note": "Lab-grade localhost measurements; values are real, not fabricated; production network conditions will differ. LCP/CLS/INP/TTFB captured via PerformanceObserver wrappers in test-only injection script. FCP not observable in this toolchain (paint entries not exposed) -> NOT_MEASURABLE."
+}

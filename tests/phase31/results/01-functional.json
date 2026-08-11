@@ -1,0 +1,141 @@
+{
+  "suite": "01-functional",
+  "generated": "2026-08-11T11:47:43.214Z",
+  "checks": [
+    {
+      "step": "home_rendered",
+      "status": "PASS",
+      "detail": "home_rendered:PASS"
+    },
+    {
+      "step": "theme_toggle",
+      "status": "PASS",
+      "detail": "theme_toggle:PASS"
+    },
+    {
+      "step": "menu_toggle",
+      "status": "PASS",
+      "detail": "menu_toggle:PASS"
+    },
+    {
+      "step": "nav_buttons",
+      "status": "PASS",
+      "detail": "nav_buttons:PASS"
+    },
+    {
+      "step": "qotd_reveal",
+      "status": "PASS",
+      "detail": "qotd_reveal:PASS"
+    },
+    {
+      "step": "search_suggestions",
+      "status": "PASS",
+      "detail": "search_suggestions:PASS"
+    },
+    {
+      "step": "search_constitution",
+      "status": "PASS",
+      "detail": "search_constitution:PASS"
+    },
+    {
+      "step": "search_no_result",
+      "status": "PASS",
+      "detail": "search_no_result:PASS"
+    },
+    {
+      "step": "search_special_chars",
+      "status": "PASS",
+      "detail": "search_special_chars:PASS"
+    },
+    {
+      "step": "search_case_and_multi",
+      "status": "PASS",
+      "detail": "search_case_and_multi:PASS"
+    },
+    {
+      "step": "search_very_long",
+      "status": "PASS",
+      "detail": "search_very_long:PASS"
+    },
+    {
+      "step": "browse_filters",
+      "status": "PASS",
+      "detail": "browse_filters:PASS"
+    },
+    {
+      "step": "browse_pager",
+      "status": "PASS",
+      "detail": "browse_pager:PASS"
+    },
+    {
+      "step": "practice_workflow",
+      "status": "PASS",
+      "detail": "practice_workflow:PASS"
+    },
+    {
+      "step": "practice_quit",
+      "status": "PASS",
+      "detail": "practice_quit:PASS"
+    },
+    {
+      "step": "mock_workflow",
+      "status": "PASS",
+      "detail": "mock_workflow:PASS"
+    },
+    {
+      "step": "quiz_quit",
+      "status": "PASS",
+      "detail": "quiz_quit:PASS"
+    },
+    {
+      "step": "quick_quiz_workflow",
+      "status": "PASS",
+      "detail": "quick_quiz_workflow:PASS"
+    },
+    {
+      "step": "paper_workflow",
+      "status": "PASS",
+      "detail": "paper_workflow:PASS"
+    },
+    {
+      "step": "dashboard_workflow",
+      "status": "PASS",
+      "detail": "dashboard_workflow:PASS"
+    },
+    {
+      "step": "leaderboard_workflow",
+      "status": "PASS",
+      "detail": "leaderboard_workflow:PASS"
+    },
+    {
+      "step": "bookmarks_workflow",
+      "status": "PASS",
+      "detail": "bookmarks_workflow:PASS"
+    },
+    {
+      "step": "ai_coach_tabs",
+      "status": "PASS",
+      "detail": "ai_coach_tabs:PASS"
+    },
+    {
+      "step": "click_sweep",
+      "status": "PASS",
+      "detail": "click_sweep:PASS"
+    },
+    {
+      "step": "index_zero_js_errors",
+      "status": "PASS",
+      "detail": "errors=0"
+    },
+    {
+      "step": "admin_zero_js_errors",
+      "status": "PASS",
+      "detail": "errors=0"
+    }
+  ],
+  "totals": {
+    "pass": 26,
+    "fail": 0
+  },
+  "status": "PASS"
+}

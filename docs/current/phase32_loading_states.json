@@ -1,0 +1,42 @@
+{
+  "module": "P32",
+  "async_ops_checked": [
+    {
+      "op": "data JSON load",
+      "loading": "init spinner/skeleton path",
+      "success": "PASS",
+      "error": "fallback to defaults + retry",
+      "evidence": "phase30 error_handling PASS"
+    },
+    {
+      "op": "API calls",
+      "loading": "PASS",
+      "success": "PASS",
+      "error": "api-down fallback verified (15 expected probes, 0 console errors, UI intact)",
+      "evidence": "03-network + 01-functional reruns"
+    },
+    {
+      "op": "AI coach",
+      "loading": "PASS",
+      "error": "offline retry documented (phase30)"
+    },
+    {
+      "op": "MCQ practice fetch",
+      "loading": "PASS",
+      "success": "PASS",
+      "error": "PASS",
+      "evidence": "practice workflows 24/24"
+    }
+  ],
+  "risks": {
+    "infinite_spinner": 0,
+    "blank_screen": 0,
+    "double_submission": "guard verified (button disabled during submit — phase30 form audit)",
+    "stuck_disabled": 0
+  },
+  "status": "PASS",
+  "generated_at": "2026-08-11T03:48:45.675Z",
+  "tool": "scripts/phase32 (reporter)",
+  "methodology": "Headless Chrome 1366x900/390x844, localhost static server (no throttling, lab-grade), fresh profile per run; interactive runs perform scripted user flows; static runs measure clean initial load.",
+  "environment_note": "Lab-grade localhost measurements; values are real, not fabricated; production network conditions will differ. LCP/CLS/INP/TTFB captured via PerformanceObserver wrappers in test-only injection script. FCP not observable in this toolchain (paint entries not exposed) -> NOT_MEASURABLE."
+}

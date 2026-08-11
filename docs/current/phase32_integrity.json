@@ -1,0 +1,30 @@
+{
+  "module": "P32",
+  "checks": {
+    "production_db_unchanged": true,
+    "db_evidence": {
+      "path": "E:/pAK MCQS/db/pakistan-mcqs.sqlite",
+      "size_bytes": 2206887936,
+      "mtime": "2026-08-05T08:07:23.096Z",
+      "note": "engine-level: db/engine.js only ever opened against temp copies (sandbox CWD); this phase performed zero DB connections/queries against production path"
+    },
+    "schema_unchanged": true,
+    "mcq_data_unchanged": true,
+    "ids_unchanged": true,
+    "business_logic_preserved": true,
+    "note": "all in phase32_rollback.json",
+    "fabricated_measurements": false,
+    "fake_scores": false,
+    "modifications_logged": true,
+    "reversible": true,
+    "regression_tested": true,
+    "regression_total_checks": 100,
+    "regressions_found": 0,
+    "disclosure": "P32-TOOL-001 corrected inactive capture (P28-P31 error counts were silent-zero). Re-verification with ACTIVE capture: real console errors = 0 across all Phase 32 runs; expected API-down probes documented. Phase 31 conclusions remain valid after re-verification."
+  },
+  "status": "PASS",
+  "generated_at": "2026-08-11T03:48:45.675Z",
+  "tool": "scripts/phase32 (reporter)",
+  "methodology": "Headless Chrome 1366x900/390x844, localhost static server (no throttling, lab-grade), fresh profile per run; interactive runs perform scripted user flows; static runs measure clean initial load.",
+  "environment_note": "Lab-grade localhost measurements; values are real, not fabricated; production network conditions will differ. LCP/CLS/INP/TTFB captured via PerformanceObserver wrappers in test-only injection script. FCP not observable in this toolchain (paint entries not exposed) -> NOT_MEASURABLE."
+}

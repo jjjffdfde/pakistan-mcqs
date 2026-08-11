@@ -1,0 +1,27 @@
+{
+  "step": "notifications",
+  "generated_at": "2026-08-10T11:58:31.591Z",
+  "permission": {
+    "request_api": true,
+    "permission_checks": true,
+    "user_opt_in_default": true
+  },
+  "channels": {
+    "daily_mcqs": true,
+    "exam_reminders": true,
+    "revision_reminders": true,
+    "bookmarks_updates": false,
+    "content_updates": true
+  },
+  "delivery": {
+    "push_handler": true,
+    "notification_click": true,
+    "icon_badge": true,
+    "vibrate": true,
+    "show_from_client": true
+  },
+  "scheduling": {
+    "once_per_day": true,
+    "back_online_reminder": true
+  }
+}

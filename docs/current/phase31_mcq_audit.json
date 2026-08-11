@@ -1,0 +1,25 @@
+{
+  "module": "M7",
+  "generated_at": "2026-08-10T15:02:51.825Z",
+  "mcq_steps": [
+    "qotd_reveal:PASS",
+    "browse_filters:PASS",
+    "browse_pager:PASS",
+    "practice_workflow:PASS",
+    "practice_quit:PASS",
+    "mock_workflow:PASS",
+    "quiz_quit:PASS",
+    "quick_quiz_workflow:PASS",
+    "paper_workflow:PASS"
+  ],
+  "summary": {
+    "total": 9,
+    "pass": 9,
+    "fail": 0,
+    "failures": []
+  },
+  "api": "GET /api/random, /api/mcqs?ids= 200 OK",
+  "static_pages": "1,129 subject/chapter pages (subjects/biology.html sampled at 5 widths, 0 errors)",
+  "status": "PASS",
+  "note": "Practice, quick quiz, mock exam, past papers, browse filters, pagination, QOTD all PASS with zero JS errors"
+}

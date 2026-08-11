@@ -1,0 +1,79 @@
+{
+  "step": 15,
+  "keys": [
+    {
+      "key": "pmh_bookmarks",
+      "reads": 1,
+      "writes": 1,
+      "removes": 0,
+      "files": [
+        "assets/js/app.js"
+      ]
+    },
+    {
+      "key": "pmh_theme",
+      "reads": 2,
+      "writes": 2,
+      "removes": 0,
+      "files": [
+        "assets/js/app.js",
+        "assets/js/admin.js"
+      ]
+    },
+    {
+      "key": "pmh_user",
+      "reads": 1,
+      "writes": 1,
+      "removes": 0,
+      "files": [
+        "assets/js/app.js"
+      ]
+    },
+    {
+      "key": "pmh_analytics",
+      "reads": 1,
+      "writes": 1,
+      "removes": 0,
+      "files": [
+        "assets/js/app.js"
+      ]
+    },
+    {
+      "key": "pmh_week",
+      "reads": 1,
+      "writes": 1,
+      "removes": 0,
+      "files": [
+        "assets/js/app.js"
+      ]
+    },
+    {
+      "key": "pmh_month",
+      "reads": 1,
+      "writes": 1,
+      "removes": 0,
+      "files": [
+        "assets/js/app.js"
+      ]
+    },
+    {
+      "key": "pmh_installed",
+      "reads": 1,
+      "writes": 2,
+      "removes": 0,
+      "files": [
+        "assets/js/pwa.js"
+      ]
+    }
+  ],
+  "localStorage_guards": {
+    "assets/js/app.js": "guarded",
+    "assets/js/admin.js": "guarded",
+    "assets/js/pwa.js": "guarded"
+  },
+  "sessionStorage_agg": "none found",
+  "db_writes": false,
+  "broken_cache_invalidation": "none (versioned prune in activate)",
+  "sw_cache_prefix": "pmh",
+  "sw_cache_version": "001"
+}

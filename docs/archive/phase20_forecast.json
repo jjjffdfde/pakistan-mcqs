@@ -1,0 +1,33 @@
+{
+  "step": "forecast_engine",
+  "generated_at": "2026-08-06T08:10:34",
+  "summary": {
+    "method": "historical_evidence_only_no_ml",
+    "coverage_growth_forecast": 1,
+    "question_demand_forecast": 872621,
+    "revision_demand_forecast": 0,
+    "subject_expansion_forecast": 255.15,
+    "exam_growth_forecast": 68.2,
+    "historical_mcq_trend": [
+      {
+        "year": 2023,
+        "count": 4
+      },
+      {
+        "year": 2024,
+        "count": 14
+      },
+      {
+        "year": 2025,
+        "count": 3
+      }
+    ]
+  },
+  "forecast": {
+    "coverage_growth": 1,
+    "question_demand": 872621,
+    "revision_demand": 0,
+    "subject_expansion": 255.15,
+    "exam_growth": 68.2
+  }
+}

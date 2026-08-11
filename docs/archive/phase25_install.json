@@ -1,0 +1,37 @@
+{
+  "step": "install_experience",
+  "generated_at": "2026-08-10T11:58:31.591Z",
+  "installability": {
+    "manifest_present": true,
+    "sw_registered": true,
+    "https_host": true,
+    "pwa_runtime_loaded": true
+  },
+  "prompt": {
+    "beforeinstallprompt": true,
+    "deferred_prompt": true,
+    "userchoice": true,
+    "appinstalled": true,
+    "manual_button": true
+  },
+  "browser_support": {
+    "chrome": true,
+    "edge": true,
+    "firefox": true,
+    "android": true,
+    "ios_standalone": true
+  },
+  "shortcuts": {
+    "declared": 5,
+    "names": [
+      "Search MCQs",
+      "Browse Subjects",
+      "Practice Mode",
+      "Quizzes",
+      "Bookmarks"
+    ],
+    "with_icons": true,
+    "targets_exist": true
+  },
+  "desktop_launch": true
+}

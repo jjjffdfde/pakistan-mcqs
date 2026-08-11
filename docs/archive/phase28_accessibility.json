@@ -1,0 +1,765 @@
+{
+  "step": 13,
+  "pages_checked": 68,
+  "checks": [
+    {
+      "page": "index.html",
+      "issues_total": 1,
+      "issues": [
+        {
+          "type": "input_no_label",
+          "line": 294,
+          "detail": "id=pNegative has no label/aria"
+        }
+      ]
+    },
+    {
+      "page": "admin.html",
+      "issues_total": 3,
+      "issues": [
+        {
+          "type": "input_no_label",
+          "line": 176,
+          "detail": "id=imgFile has no label/aria"
+        },
+        {
+          "type": "input_no_label",
+          "line": 198,
+          "detail": "id=impFile has no label/aria"
+        },
+        {
+          "type": "missing_skip_link",
+          "line": 0,
+          "detail": "no skip-link to #main"
+        }
+      ]
+    },
+    {
+      "page": "404.html",
+      "issues_total": 1,
+      "issues": [
+        {
+          "type": "missing_skip_link",
+          "line": 0,
+          "detail": "no skip-link to #main"
+        }
+      ]
+    },
+    {
+      "page": "offline.html",
+      "issues_total": 0,
+      "issues": []
+    },
+    {
+      "page": "subjects/index.html",
+      "issues_total": 1,
+      "issues": [
+        {
+          "type": "missing_skip_link",
+          "line": 0,
+          "detail": "no skip-link to #main"
+        }
+      ]
+    },
+    {
+      "page": "chapters/ac-basics.html",
+      "issues_total": 1,
+      "issues": [
+        {
+          "type": "missing_skip_link",
+          "line": 0,
+          "detail": "no skip-link to #main"
+        }
+      ]
+    },
+    {
+      "page": "chapters/anatomy-human-structure-phase-11.html",
+      "issues_total": 1,
+      "issues": [
+        {
+          "type": "missing_skip_link",
+          "line": 0,
+          "detail": "no skip-link to #main"
+        }
+      ]
+    },
+    {
+      "page": "chapters/aptitude-tests-speed-distance.html",
+      "issues_total": 1,
+      "issues": [
+        {
+          "type": "missing_skip_link",
+          "line": 0,
+          "detail": "no skip-link to #main"
+        }
+      ]
+    },
+    {
+      "page": "chapters/auditing-standards-phase-11-knowledge-ba.html",
+      "issues_total": 1,
+      "issues": [
+        {
+          "type": "missing_skip_link",
+          "line": 0,
+          "detail": "no skip-link to #main"
+        }
+      ]
+    },
+    {
+      "page": "chapters/bi-genetics.html",
+      "issues_total": 1,
+      "issues": [
+        {
+          "type": "missing_skip_link",
+          "line": 0,
+          "detail": "no skip-link to #main"
+        }
+      ]
+    },
+    {
+      "page": "chapters/bo-photosynthesis.html",
+      "issues_total": 1,
+      "issues": [
+        {
+          "type": "missing_skip_link",
+          "line": 0,
+          "detail": "no skip-link to #main"
+        }
+      ]
+    },
+    {
+      "page": "chapters/c-core-concepts.html",
+      "issues_total": 1,
+      "issues": [
+        {
+          "type": "missing_skip_link",
+          "line": 0,
+          "detail": "no skip-link to #main"
+        }
+      ]
+    },
+    {
+      "page": "chapters/civ-surveying.html",
+      "issues_total": 1,
+      "issues": [
+        {
+          "type": "missing_skip_link",
+          "line": 0,
+          "detail": "no skip-link to #main"
+        }
+      ]
+    },
+    {
+      "page": "chapters/community-medicine-public-health-phase-1.html",
+      "issues_total": 1,
+      "issues": [
+        {
+          "type": "missing_skip_link",
+          "line": 0,
+          "detail": "no skip-link to #main"
+        }
+      ]
+    },
+    {
+      "page": "chapters/cpp-c-fundamentals.html",
+      "issues_total": 1,
+      "issues": [
+        {
+          "type": "missing_skip_link",
+          "line": 0,
+          "detail": "no skip-link to #main"
+        }
+      ]
+    },
+    {
+      "page": "chapters/custom-inspector-pakistan-customs-conten.html",
+      "issues_total": 1,
+      "issues": [
+        {
+          "type": "missing_skip_link",
+          "line": 0,
+          "detail": "no skip-link to #main"
+        }
+      ]
+    },
+    {
+      "page": "chapters/deep-learning-cnns-rnns.html",
+      "issues_total": 1,
+      "issues": [
+        {
+          "type": "missing_skip_link",
+          "line": 0,
+          "detail": "no skip-link to #main"
+        }
+      ]
+    },
+    {
+      "page": "chapters/devops-monitoring.html",
+      "issues_total": 1,
+      "issues": [
+        {
+          "type": "missing_skip_link",
+          "line": 0,
+          "detail": "no skip-link to #main"
+        }
+      ]
+    },
+    {
+      "page": "chapters/ds-basics.html",
+      "issues_total": 1,
+      "issues": [
+        {
+          "type": "missing_skip_link",
+          "line": 0,
+          "detail": "no skip-link to #main"
+        }
+      ]
+    },
+    {
+      "page": "chapters/electrical-eng-letter-skills-phase-11.html",
+      "issues_total": 1,
+      "issues": [
+        {
+          "type": "missing_skip_link",
+          "line": 0,
+          "detail": "no skip-link to #main"
+        }
+      ]
+    },
+    {
+      "page": "chapters/english-antonyms-deep-knowledge-bank.html",
+      "issues_total": 1,
+      "issues": [
+        {
+          "type": "missing_skip_link",
+          "line": 0,
+          "detail": "no skip-link to #main"
+        }
+      ]
+    },
+    {
+      "page": "chapters/environmental-eng-letter-skills-phase-11.html",
+      "issues_total": 1,
+      "issues": [
+        {
+          "type": "missing_skip_link",
+          "line": 0,
+          "detail": "no skip-link to #main"
+        }
+      ]
+    },
+    {
+      "page": "chapters/ethical-hacking-defensive-practices.html",
+      "issues_total": 1,
+      "issues": [
+        {
+          "type": "missing_skip_link",
+          "line": 0,
+          "detail": "no skip-link to #main"
+        }
+      ]
+    },
+    {
+      "page": "chapters/fi-markets.html",
+      "issues_total": 1,
+      "issues": [
+        {
+          "type": "missing_skip_link",
+          "line": 0,
+          "detail": "no skip-link to #main"
+        }
+      ]
+    },
+    {
+      "page": "chapters/ge-physical.html",
+      "issues_total": 1,
+      "issues": [
+        {
+          "type": "missing_skip_link",
+          "line": 0,
+          "detail": "no skip-link to #main"
+        }
+      ]
+    },
+    {
+      "page": "chapters/gk-books.html",
+      "issues_total": 1,
+      "issues": [
+        {
+          "type": "missing_skip_link",
+          "line": 0,
+          "detail": "no skip-link to #main"
+        }
+      ]
+    },
+    {
+      "page": "chapters/gre-graduate-record.html",
+      "issues_total": 1,
+      "issues": [
+        {
+          "type": "missing_skip_link",
+          "line": 0,
+          "detail": "no skip-link to #main"
+        }
+      ]
+    },
+    {
+      "page": "chapters/hrm-hr-operations.html",
+      "issues_total": 1,
+      "issues": [
+        {
+          "type": "missing_skip_link",
+          "line": 0,
+          "detail": "no skip-link to #main"
+        }
+      ]
+    },
+    {
+      "page": "chapters/income-tax-inspector-fbr-content.html",
+      "issues_total": 1,
+      "issues": [
+        {
+          "type": "missing_skip_link",
+          "line": 0,
+          "detail": "no skip-link to #main"
+        }
+      ]
+    },
+    {
+      "page": "chapters/ir-un.html",
+      "issues_total": 1,
+      "issues": [
+        {
+          "type": "missing_skip_link",
+          "line": 0,
+          "detail": "no skip-link to #main"
+        }
+      ]
+    },
+    {
+      "page": "chapters/java-java-fundamentals.html",
+      "issues_total": 1,
+      "issues": [
+        {
+          "type": "missing_skip_link",
+          "line": 0,
+          "detail": "no skip-link to #main"
+        }
+      ]
+    },
+    {
+      "page": "chapters/la-maxims.html",
+      "issues_total": 1,
+      "issues": [
+        {
+          "type": "missing_skip_link",
+          "line": 0,
+          "detail": "no skip-link to #main"
+        }
+      ]
+    },
+    {
+      "page": "chapters/linux-shell-scripting.html",
+      "issues_total": 1,
+      "issues": [
+        {
+          "type": "missing_skip_link",
+          "line": 0,
+          "detail": "no skip-link to #main"
+        }
+      ]
+    },
+    {
+      "page": "chapters/machine-learning-methods.html",
+      "issues_total": 1,
+      "issues": [
+        {
+          "type": "missing_skip_link",
+          "line": 0,
+          "detail": "no skip-link to #main"
+        }
+      ]
+    },
+    {
+      "page": "chapters/mdcat-mdcat-chemistry-physics.html",
+      "issues_total": 1,
+      "issues": [
+        {
+          "type": "missing_skip_link",
+          "line": 0,
+          "detail": "no skip-link to #main"
+        }
+      ]
+    },
+    {
+      "page": "chapters/medical-sciences-deep-knowledge-bank.html",
+      "issues_total": 1,
+      "issues": [
+        {
+          "type": "missing_skip_link",
+          "line": 0,
+          "detail": "no skip-link to #main"
+        }
+      ]
+    },
+    {
+      "page": "chapters/mod-department-recruitment-tests-pattern.html",
+      "issues_total": 1,
+      "issues": [
+        {
+          "type": "missing_skip_link",
+          "line": 0,
+          "detail": "no skip-link to #main"
+        }
+      ]
+    },
+    {
+      "page": "chapters/next-js-next-js-fundamentals.html",
+      "issues_total": 1,
+      "issues": [
+        {
+          "type": "missing_skip_link",
+          "line": 0,
+          "detail": "no skip-link to #main"
+        }
+      ]
+    },
+    {
+      "page": "chapters/operating-systems-concepts.html",
+      "issues_total": 1,
+      "issues": [
+        {
+          "type": "missing_skip_link",
+          "line": 0,
+          "detail": "no skip-link to #main"
+        }
+      ]
+    },
+    {
+      "page": "chapters/oral-pathology-phase-11.html",
+      "issues_total": 1,
+      "issues": [
+        {
+          "type": "missing_skip_link",
+          "line": 0,
+          "detail": "no skip-link to #main"
+        }
+      ]
+    },
+    {
+      "page": "chapters/pakistan-affairs-deeper-topics.html",
+      "issues_total": 1,
+      "issues": [
+        {
+          "type": "missing_skip_link",
+          "line": 0,
+          "detail": "no skip-link to #main"
+        }
+      ]
+    },
+    {
+      "page": "chapters/pat-systemic.html",
+      "issues_total": 1,
+      "issues": [
+        {
+          "type": "missing_skip_link",
+          "line": 0,
+          "detail": "no skip-link to #main"
+        }
+      ]
+    },
+    {
+      "page": "chapters/ph-modern.html",
+      "issues_total": 1,
+      "issues": [
+        {
+          "type": "missing_skip_link",
+          "line": 0,
+          "detail": "no skip-link to #main"
+        }
+      ]
+    },
+    {
+      "page": "chapters/phy-nerve.html",
+      "issues_total": 1,
+      "issues": [
+        {
+          "type": "missing_skip_link",
+          "line": 0,
+          "detail": "no skip-link to #main"
+        }
+      ]
+    },
+    {
+      "page": "chapters/pr-sql.html",
+      "issues_total": 1,
+      "issues": [
+        {
+          "type": "missing_skip_link",
+          "line": 0,
+          "detail": "no skip-link to #main"
+        }
+      ]
+    },
+    {
+      "page": "chapters/py-intro.html",
+      "issues_total": 1,
+      "issues": [
+        {
+          "type": "missing_skip_link",
+          "line": 0,
+          "detail": "no skip-link to #main"
+        }
+      ]
+    },
+    {
+      "page": "chapters/rescue-1122-emergency-service-content.html",
+      "issues_total": 1,
+      "issues": [
+        {
+          "type": "missing_skip_link",
+          "line": 0,
+          "detail": "no skip-link to #main"
+        }
+      ]
+    },
+    {
+      "page": "chapters/scm-strategy.html",
+      "issues_total": 1,
+      "issues": [
+        {
+          "type": "missing_skip_link",
+          "line": 0,
+          "detail": "no skip-link to #main"
+        }
+      ]
+    },
+    {
+      "page": "chapters/software-engineering-process.html",
+      "issues_total": 1,
+      "issues": [
+        {
+          "type": "missing_skip_link",
+          "line": 0,
+          "detail": "no skip-link to #main"
+        }
+      ]
+    },
+    {
+      "page": "chapters/st-probability.html",
+      "issues_total": 1,
+      "issues": [
+        {
+          "type": "missing_skip_link",
+          "line": 0,
+          "detail": "no skip-link to #main"
+        }
+      ]
+    },
+    {
+      "page": "chapters/tailwind-css-design-responsive.html",
+      "issues_total": 1,
+      "issues": [
+        {
+          "type": "missing_skip_link",
+          "line": 0,
+          "detail": "no skip-link to #main"
+        }
+      ]
+    },
+    {
+      "page": "chapters/typescript-phase-11.html",
+      "issues_total": 1,
+      "issues": [
+        {
+          "type": "missing_skip_link",
+          "line": 0,
+          "detail": "no skip-link to #main"
+        }
+      ]
+    },
+    {
+      "page": "chapters/vocabulary-word-power.html",
+      "issues_total": 1,
+      "issues": [
+        {
+          "type": "missing_skip_link",
+          "line": 0,
+          "detail": "no skip-link to #main"
+        }
+      ]
+    },
+    {
+      "page": "chapters/world-history-ancient-medieval.html",
+      "issues_total": 1,
+      "issues": [
+        {
+          "type": "missing_skip_link",
+          "line": 0,
+          "detail": "no skip-link to #main"
+        }
+      ]
+    },
+    {
+      "page": "subjects/ai.html",
+      "issues_total": 1,
+      "issues": [
+        {
+          "type": "missing_skip_link",
+          "line": 0,
+          "detail": "no skip-link to #main"
+        }
+      ]
+    },
+    {
+      "page": "subjects/bash.html",
+      "issues_total": 1,
+      "issues": [
+        {
+          "type": "missing_skip_link",
+          "line": 0,
+          "detail": "no skip-link to #main"
+        }
+      ]
+    },
+    {
+      "page": "subjects/commerce.html",
+      "issues_total": 1,
+      "issues": [
+        {
+          "type": "missing_skip_link",
+          "line": 0,
+          "detail": "no skip-link to #main"
+        }
+      ]
+    },
+    {
+      "page": "subjects/data-structures.html",
+      "issues_total": 1,
+      "issues": [
+        {
+          "type": "missing_skip_link",
+          "line": 0,
+          "detail": "no skip-link to #main"
+        }
+      ]
+    },
+    {
+      "page": "subjects/electrical-eng.html",
+      "issues_total": 1,
+      "issues": [
+        {
+          "type": "missing_skip_link",
+          "line": 0,
+          "detail": "no skip-link to #main"
+        }
+      ]
+    },
+    {
+      "page": "subjects/flask.html",
+      "issues_total": 1,
+      "issues": [
+        {
+          "type": "missing_skip_link",
+          "line": 0,
+          "detail": "no skip-link to #main"
+        }
+      ]
+    },
+    {
+      "page": "subjects/histology.html",
+      "issues_total": 1,
+      "issues": [
+        {
+          "type": "missing_skip_link",
+          "line": 0,
+          "detail": "no skip-link to #main"
+        }
+      ]
+    },
+    {
+      "page": "subjects/laravel.html",
+      "issues_total": 1,
+      "issues": [
+        {
+          "type": "missing_skip_link",
+          "line": 0,
+          "detail": "no skip-link to #main"
+        }
+      ]
+    },
+    {
+      "page": "subjects/mepco.html",
+      "issues_total": 1,
+      "issues": [
+        {
+          "type": "missing_skip_link",
+          "line": 0,
+          "detail": "no skip-link to #main"
+        }
+      ]
+    },
+    {
+      "page": "subjects/nutrition.html",
+      "issues_total": 1,
+      "issues": [
+        {
+          "type": "missing_skip_link",
+          "line": 0,
+          "detail": "no skip-link to #main"
+        }
+      ]
+    },
+    {
+      "page": "subjects/php.html",
+      "issues_total": 1,
+      "issues": [
+        {
+          "type": "missing_skip_link",
+          "line": 0,
+          "detail": "no skip-link to #main"
+        }
+      ]
+    },
+    {
+      "page": "subjects/railway.html",
+      "issues_total": 1,
+      "issues": [
+        {
+          "type": "missing_skip_link",
+          "line": 0,
+          "detail": "no skip-link to #main"
+        }
+      ]
+    },
+    {
+      "page": "subjects/sst.html",
+      "issues_total": 1,
+      "issues": [
+        {
+          "type": "missing_skip_link",
+          "line": 0,
+          "detail": "no skip-link to #main"
+        }
+      ]
+    },
+    {
+      "page": "subjects/vue-js.html",
+      "issues_total": 1,
+      "issues": [
+        {
+          "type": "missing_skip_link",
+          "line": 0,
+          "detail": "no skip-link to #main"
+        }
+      ]
+    }
+  ],
+  "totals": {
+    "imgs_no_alt": 0,
+    "inputs_no_label": 3,
+    "buttons_no_name": 0,
+    "heading_jumps": 0,
+    "missing_skip_link": 66
+  }
+}

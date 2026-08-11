@@ -1,0 +1,42 @@
+{
+  "step": "security",
+  "generated_at": "2026-08-06T08:51:14",
+  "summary": {
+    "parameterized_queries": 17,
+    "string_concatenation_risk": 1,
+    "raw_sql_risk": 4,
+    "prepare_statements": 33,
+    "innerhtml_uses": 0,
+    "document_write_uses": 0,
+    "json_outputs": 41,
+    "input_validations": 5,
+    "sanitize_functions": 2,
+    "cors_headers": 2,
+    "content_type_set": 3,
+    "x_frame_options": 0,
+    "xss_protection_header": 0,
+    "csp_header": 0,
+    "hsts_header": 0,
+    "rate_limiting": 0,
+    "csrf_protection": 0,
+    "path_safety_checks": 11,
+    "sensitive_files_detected": 9,
+    "exposed_db_files": 1,
+    "try_catch_blocks": 8,
+    "error_responses": 4
+  },
+  "sensitive_files": [
+    "db/backup.js",
+    "db/pakistan-mcqs.sqlite",
+    "docs/backup-restore-2026.md",
+    "pipeline/progress.log",
+    "server-err.log",
+    "server-out.log",
+    "srv-err.log",
+    "srv-out.log",
+    "validation.log"
+  ],
+  "exposed_databases": [
+    "db/pakistan-mcqs.sqlite"
+  ]
+}

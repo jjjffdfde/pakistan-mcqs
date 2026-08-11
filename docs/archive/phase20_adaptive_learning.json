@@ -1,0 +1,15 @@
+{
+  "step": "adaptive_learning",
+  "generated_at": "2026-08-06T08:09:42",
+  "summary": {
+    "total_weak_concepts": 0,
+    "total_weak_chapters": 0,
+    "priority_subjects": 0,
+    "next_path_items": 0,
+    "revision_pack_items": 0
+  },
+  "next_learning_path": [],
+  "revision_pack": [],
+  "weak_chapters": [],
+  "priority_subjects": []
+}

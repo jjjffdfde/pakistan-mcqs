@@ -1,0 +1,363 @@
+{
+  "step": "api",
+  "generated_at": "2026-08-10T12:10:36.674Z",
+  "summary": {
+    "service_groups": 5,
+    "services_total": 14,
+    "offline_only": true,
+    "network_free": true,
+    "deterministic": true,
+    "read_only": true,
+    "mapped_to_http": true,
+    "sample_payloads": 13,
+    "status": "PASS"
+  },
+  "services": {
+    "assistant": [
+      {
+        "method": "GET",
+        "route": "/api/ai/assistant/guide",
+        "input": {
+          "query": "subject"
+        },
+        "impl": "knowledge-assistant.subjectGuidance"
+      },
+      {
+        "method": "GET",
+        "route": "/api/ai/assistant/paths",
+        "input": {},
+        "impl": "knowledge-assistant.learningPaths"
+      },
+      {
+        "method": "GET",
+        "route": "/api/ai/assistant/revision",
+        "input": {},
+        "impl": "knowledge-assistant.revisionRecommendations"
+      },
+      {
+        "method": "GET",
+        "route": "/api/ai/assistant/exams",
+        "input": {
+          "exam_id": "css"
+        },
+        "impl": "knowledge-assistant.examPreparation"
+      }
+    ],
+    "recommendation": [
+      {
+        "method": "GET",
+        "route": "/api/ai/recommendations",
+        "input": {
+          "device_id": "default"
+        },
+        "impl": "recommendation-engine.generate"
+      },
+      {
+        "method": "GET",
+        "route": "/api/ai/recommendations/mcqs",
+        "input": {
+          "limit": 10
+        },
+        "impl": "recommendation-engine.mcqRecs"
+      }
+    ],
+    "navigation": [
+      {
+        "method": "GET",
+        "route": "/api/kg/explore",
+        "input": {
+          "subject_id": "pakistan-affairs"
+        },
+        "impl": "concept-navigator.exploreSubject"
+      },
+      {
+        "method": "GET",
+        "route": "/api/kg/relations",
+        "input": {
+          "concept_id": null
+        },
+        "impl": "concept-navigator.relations"
+      },
+      {
+        "method": "GET",
+        "route": "/api/kg/prerequisites",
+        "input": {},
+        "impl": "concept-navigator.prerequisites"
+      }
+    ],
+    "analytics": [
+      {
+        "method": "GET",
+        "route": "/api/ai/analytics",
+        "input": {
+          "device_id": "default"
+        },
+        "impl": "analytics-engine.analytics"
+      },
+      {
+        "method": "GET",
+        "route": "/api/ai/dashboard",
+        "input": {
+          "device_id": "default"
+        },
+        "impl": "analytics-engine.dashboard"
+      }
+    ],
+    "revision": [
+      {
+        "method": "GET",
+        "route": "/api/ai/planner",
+        "input": {
+          "device_id": "default"
+        },
+        "impl": "revision-planner.generate"
+      },
+      {
+        "method": "GET",
+        "route": "/api/ai/revision-intelligence",
+        "input": {},
+        "impl": "learning-engine.generateIntelligence"
+      },
+      {
+        "method": "GET",
+        "route": "/api/ai/spaced/due",
+        "input": {
+          "device_id": "default"
+        },
+        "impl": "revision-planner.dueQueue"
+      }
+    ]
+  },
+  "sample_payloads": {
+    "assistant/guide": {
+      "subjects": 243,
+      "top_subjects": [
+        {
+          "name": "Mathematics",
+          "n": 115332
+        },
+        {
+          "name": "Statistics",
+          "n": 42470
+        },
+        {
+          "name": "Rust",
+          "n": 9477
+        },
+        {
+          "name": "Physics",
+          "n": 9326
+        },
+        {
+          "name": "Go",
+          "n": 8003
+        }
+      ],
+      "total_active_mcqs": 872621
+    },
+    "assistant/paths": [
+      {
+        "name": "CSS Pakistan Affairs Sprint",
+        "subject_id": "pakistan-affairs",
+        "exam_id": "css-exam"
+      },
+      {
+        "name": "CSS GA Mathematics Path",
+        "subject_id": "mathematics",
+        "exam_id": "css-exam"
+      },
+      {
+        "name": "Physics Mastery Path",
+        "subject_id": "physics",
+        "exam_id": "mdcat"
+      }
+    ],
+    "assistant/revision": {
+      "due": [
+        {
+          "mcq_id": "cssexa-000004",
+          "box": 1,
+          "due_date": "2026-08-04"
+        },
+        {
+          "mcq_id": "iq-000377",
+          "box": 2,
+          "due_date": "2026-08-07"
+        }
+      ],
+      "flashcards_due": 15
+    },
+    "assistant/exams": [
+      {
+        "exam_id": "fpsc",
+        "n": 1230
+      },
+      {
+        "exam_id": "nts",
+        "n": 1011
+      },
+      {
+        "exam_id": "ppsc",
+        "n": 892
+      },
+      {
+        "exam_id": "ib",
+        "n": 649
+      },
+      {
+        "exam_id": "educators",
+        "n": 563
+      },
+      {
+        "exam_id": "etea",
+        "n": 408
+      }
+    ],
+    "recommendation/all": {
+      "mcqs_recommended": 18,
+      "subjects_recommended": 6,
+      "target_exam": "CSS"
+    },
+    "recommendation/mcqs": [
+      {
+        "id": "zoology-000008",
+        "subject_id": "zoology",
+        "difficulty": "medium"
+      },
+      {
+        "id": "zoology-000007",
+        "subject_id": "zoology",
+        "difficulty": "medium"
+      },
+      {
+        "id": "zoology-000006",
+        "subject_id": "zoology",
+        "difficulty": "medium"
+      },
+      {
+        "id": "zoology-000005",
+        "subject_id": "zoology",
+        "difficulty": "medium"
+      },
+      {
+        "id": "zoology-000004",
+        "subject_id": "zoology",
+        "difficulty": "medium"
+      },
+      {
+        "id": "zoology-000003",
+        "subject_id": "zoology",
+        "difficulty": "medium"
+      },
+      {
+        "id": "zoology-000002",
+        "subject_id": "zoology",
+        "difficulty": "medium"
+      },
+      {
+        "id": "zoology-000001",
+        "subject_id": "zoology",
+        "difficulty": "medium"
+      },
+      {
+        "id": "zoolog-000020",
+        "subject_id": "zoology",
+        "difficulty": "medium"
+      },
+      {
+        "id": "zoolog-000019",
+        "subject_id": "zoology",
+        "difficulty": "medium"
+      }
+    ],
+    "navigation/explore": [
+      {
+        "id": 16440,
+        "name": "Pakistan Affairs",
+        "difficulty": "medium",
+        "bloom": "Apply",
+        "micros": 34
+      },
+      {
+        "id": 16441,
+        "name": "pakistan-affairs",
+        "difficulty": "medium",
+        "bloom": "Apply",
+        "micros": 35
+      },
+      {
+        "id": 16442,
+        "name": "history",
+        "difficulty": "medium",
+        "bloom": "Apply",
+        "micros": 10
+      },
+      {
+        "id": 16443,
+        "name": "geography",
+        "difficulty": "medium",
+        "bloom": "Apply",
+        "micros": 8
+      },
+      {
+        "id": 16444,
+        "name": "economy",
+        "difficulty": "medium",
+        "bloom": "Apply",
+        "micros": 8
+      },
+      {
+        "id": 16445,
+        "name": "deep-kb",
+        "difficulty": "medium",
+        "bloom": "Apply",
+        "micros": 7
+      }
+    ],
+    "navigation/relations": [
+      {
+        "relation_type": "child",
+        "n": 876
+      },
+      {
+        "relation_type": "depends_on",
+        "n": 22
+      },
+      {
+        "relation_type": "parent",
+        "n": 876
+      },
+      {
+        "relation_type": "related",
+        "n": 501
+      }
+    ],
+    "navigation/prerequisites": 3,
+    "analytics/overview": {
+      "accuracy": 33,
+      "attempts": 54,
+      "study_days": 2
+    },
+    "analytics/dashboard": {
+      "total_attempts": 54,
+      "overall_accuracy": 33,
+      "subjects_touched": 11
+    },
+    "revision/planner": {
+      "days": 7,
+      "weak_topics": 8,
+      "mocks_available": 12
+    },
+    "revision/intelligence": {
+      "forgotten": 2,
+      "failed": 4,
+      "bookmarked": 5
+    }
+  },
+  "contract": {
+    "device_id": "identifies the learner (default profile exists in user_profiles)",
+    "determinism": "Identical inputs + identical DB snapshot => identical outputs (no RANDOM(), no time-dependent ordering)",
+    "connectivity": "Zero network calls; all queries run against the local read-only SQLite handle",
+    "pwa_integration": "sw.js can cache static assets; the offline API layer evaluates over the locally stored DB"
+  }
+}

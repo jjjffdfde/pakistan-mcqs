@@ -1,0 +1,97 @@
+{
+  "module": "M1",
+  "summary": {
+    "html_pages": 1136,
+    "static_content_pages": 1129,
+    "js_files": 203,
+    "css_files": 1,
+    "images": 1,
+    "videos": 0,
+    "fonts": 0,
+    "api_endpoints": 51,
+    "routes_total": 1190,
+    "links": 13906,
+    "buttons": 81,
+    "forms": 0,
+    "inputs": 14,
+    "data_json_files": 268
+  },
+  "entry_points": [
+    {
+      "url": "/",
+      "file": "index.html",
+      "title": "Pakistan MCQs Hub",
+      "scripts": [
+        "assets/js/app.js",
+        "assets/js/ai.js",
+        "assets/js/pwa.js"
+      ],
+      "styles": [
+        "assets/css/style.css"
+      ],
+      "pwa": [
+        "manifest.webmanifest",
+        "sw.js"
+      ],
+      "views": [
+        "home",
+        "browse",
+        "practice",
+        "quiz",
+        "papers",
+        "dashboard",
+        "leaderboard",
+        "bookmarks",
+        "ai-coach"
+      ],
+      "api_deps": [
+        "/api/* (optional — static-first fallback)"
+      ]
+    },
+    {
+      "url": "/admin.html",
+      "title": "Admin",
+      "scripts": [
+        "assets/js/admin.js"
+      ],
+      "api_deps": [
+        "localStorage-backed admin state; /api optional"
+      ]
+    },
+    {
+      "url": "/offline.html",
+      "title": "Offline",
+      "pwa": true
+    },
+    {
+      "url": "/404.html",
+      "title": "Page not found - 404"
+    }
+  ],
+  "components": [
+    "header",
+    "nav",
+    "footer",
+    "search-suggest listbox",
+    "browse filters (subject/chapter/topic/difficulty/exam/year/type)",
+    "browse pager",
+    "practice card",
+    "quiz card + palette",
+    "exam card + palette + progress",
+    "dashboard",
+    "leaderboard modal",
+    "bookmarks",
+    "ai-coach tabs",
+    "admin tabs (mcqs/categories/subjects/topics/import)"
+  ],
+  "pwa_dependencies": [
+    "sw.js (v1.0.1, cache 002, 6 caches)",
+    "manifest.webmanifest (12 icons, standalone, theme #01411c)",
+    "offline.html fallback"
+  ],
+  "env": {
+    "tool": "scripts/phase33 (driver+probe33+reporter)",
+    "generated_at": "2026-08-11T04:24:25.697Z",
+    "methodology": "Headless Chrome 1366x900/390x844 etc, localhost static server, fresh profile per run, ACTIVE error/network capture (P32-TOOL-001 fix), interaction = real DOM clicks/inputs/Enter keys + state assertions. A feature is WORKING only when interaction + expected UI state + 0 console errors + 0 unexpected network failures."
+  }
+}

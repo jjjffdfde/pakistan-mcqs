@@ -1,0 +1,1626 @@
+{
+  "step": "repo_audit",
+  "generated_at": "2026-08-10T11:59:38.810Z",
+  "summary": {
+    "total_files": 2806,
+    "total_directories": 53,
+    "total_bytes": 14329854556,
+    "total_mb": 13666,
+    "duplicate_groups": 410,
+    "large_files_ge_10mb": 31,
+    "build_artifacts_found": 11,
+    "intentional_backup_snapshots": 11,
+    "stray_sqlite_files": 3,
+    "root_log_files": 5,
+    "root_report_pages": 4,
+    "config_files": 9,
+    "root_level_files": 34
+  },
+  "structure": [
+    {
+      "dir": "backup",
+      "files": 201,
+      "bytes": 8713588439,
+      "subdirs": [
+        "backup",
+        "backup/2026-08-01-final-241551",
+        "backup/2026-08-02-kb-phase-2026-08-02-0950",
+        "backup/db-backup-2026-07-31-14-05-56",
+        "backup/db-backup-2026-07-31-14-26-41",
+        "backup/db-backup-2026-08-01-04-06-13",
+        "backup/db-backup-2026-08-01-05-10-43",
+        "backup/db-backup-2026-08-02-17-23-10",
+        "backup/db-backup-2026-08-02-17-47-12",
+        "backup/db-backup-2026-08-04-11-42-07",
+        "backup/db-backup-2026-08-04-12-47-20",
+        "backup/normalize-pre-phase2-2026-08-01-06-14-06",
+        "backup/pre-phase2-2026-07-31",
+        "backup/pre-phase2-2026-07-31/assets/css",
+        "backup/pre-phase2-2026-07-31/assets/js",
+        "backup/pre-phase2-2026-07-31/data",
+        "backup/pre-phase2-2026-07-31/data/mcqs",
+        "backup/pre-phase2-2026-07-31/docs",
+        "backup/pre-phase2-2026-07-31/scripts",
+        "backup/pre-phase3-2026-07-31-1814",
+        "backup/pre-phase3-2026-07-31-1814/assets/css",
+        "backup/pre-phase3-2026-07-31-1814/assets/img",
+        "backup/pre-phase3-2026-07-31-1814/assets/js",
+        "backup/pre-phase3-2026-07-31-1814/data",
+        "backup/pre-phase3-2026-07-31-1814/data/mcqs",
+        "backup/pre-phase3-2026-07-31-1814/docs",
+        "backup/pre-phase4-2026-07-31-1858",
+        "backup/pre-phase4-2026-07-31-1858/assets/css",
+        "backup/pre-phase4-2026-07-31-1858/assets/img",
+        "backup/pre-phase4-2026-07-31-1858/assets/js",
+        "backup/pre-phase4-2026-07-31-1858/data",
+        "backup/pre-phase4-2026-07-31-1858/data/mcqs",
+        "backup/pre-phase4-2026-07-31-1858/docs",
+        "backup/pre-phase4-2026-07-31-1858/scripts",
+        "backup/pre-phase4-2026-07-31-1858/scripts/phase3",
+        "backup/pre-quiz-audit-2026-08-01-1104",
+        "backup/pre-quiz-audit-2026-08-01-1104/assets/css",
+        "backup/pre-quiz-audit-2026-08-01-1104/assets/img",
+        "backup/pre-quiz-audit-2026-08-01-1104/assets/js"
+      ]
+    },
+    {
+      "dir": "db",
+      "files": 21,
+      "bytes": 4352280760,
+      "subdirs": [
+        "db"
+      ]
+    },
+    {
+      "dir": "database",
+      "files": 673,
+      "bytes": 853385861,
+      "subdirs": [
+        "database",
+        "database/data/analytics",
+        "database/data/assessment",
+        "database/data/chapters",
+        "database/data/concepts",
+        "database/data/kg",
+        "database/data/mcqs",
+        "database/data/mcqs/accounting",
+        "database/data/mcqs/agriculture",
+        "database/data/mcqs/ai",
+        "database/data/mcqs/ajkpsc",
+        "database/data/mcqs/algorithms",
+        "database/data/mcqs/analytical-reasoning",
+        "database/data/mcqs/anatomy",
+        "database/data/mcqs/anf",
+        "database/data/mcqs/angular",
+        "database/data/mcqs/anthropology",
+        "database/data/mcqs/antonyms",
+        "database/data/mcqs/aptitude-tests",
+        "database/data/mcqs/architecture",
+        "database/data/mcqs/army",
+        "database/data/mcqs/artificial-intelligence",
+        "database/data/mcqs/asf",
+        "database/data/mcqs/assistant-director",
+        "database/data/mcqs/auditing",
+        "database/data/mcqs/auditing-standards",
+        "database/data/mcqs/banking",
+        "database/data/mcqs/bash",
+        "database/data/mcqs/bds",
+        "database/data/mcqs/behavioral-sciences",
+        "database/data/mcqs/big-data",
+        "database/data/mcqs/biochemistry",
+        "database/data/mcqs/biology",
+        "database/data/mcqs/biotechnology",
+        "database/data/mcqs/bootstrap",
+        "database/data/mcqs/botany",
+        "database/data/mcqs/bpsc",
+        "database/data/mcqs/business-admin",
+        "database/data/mcqs/business-administration",
+        "database/data/mcqs/business-law",
+        "database/data/mcqs/c",
+        "database/data/mcqs/chemical-eng",
+        "database/data/mcqs/chemistry",
+        "database/data/mcqs/civil-eng",
+        "database/data/mcqs/cloud-computing",
+        "database/data/mcqs/commerce",
+        "database/data/mcqs/community-medicine",
+        "database/data/mcqs/compiler-design",
+        "database/data/mcqs/comprehension",
+        "database/data/mcqs/computer-engineering",
+        "database/data/mcqs/computer-graphics",
+        "database/data/mcqs/computer-science",
+        "database/data/mcqs/constitution",
+        "database/data/mcqs/cpp",
+        "database/data/mcqs/csharp",
+        "database/data/mcqs/css",
+        "database/data/mcqs/css-exam",
+        "database/data/mcqs/cts",
+        "database/data/mcqs/current-affairs",
+        "database/data/mcqs/custom-inspector",
+        "database/data/mcqs/cyber-security",
+        "database/data/mcqs/data-interpretation",
+        "database/data/mcqs/data-science",
+        "database/data/mcqs/data-structures",
+        "database/data/mcqs/database",
+        "database/data/mcqs/deep-learning",
+        "database/data/mcqs/dental-materials",
+        "database/data/mcqs/dental-medicine",
+        "database/data/mcqs/dental-surgery",
+        "database/data/mcqs/devops",
+        "database/data/mcqs/digital-logic",
+        "database/data/mcqs/distributed-systems",
+        "database/data/mcqs/django",
+        "database/data/mcqs/docker",
+        "database/data/mcqs/dotnet",
+        "database/data/mcqs/dpt",
+        "database/data/mcqs/ecat",
+        "database/data/mcqs/economics",
+        "database/data/mcqs/education",
+        "database/data/mcqs/educators",
+        "database/data/mcqs/election-officer",
+        "database/data/mcqs/electrical-eng",
+        "database/data/mcqs/electronics",
+        "database/data/mcqs/english",
+        "database/data/mcqs/english-literature",
+        "database/data/mcqs/ent",
+        "database/data/mcqs/entrepreneurship",
+        "database/data/mcqs/environmental-eng",
+        "database/data/mcqs/environmental-science",
+        "database/data/mcqs/essay",
+        "database/data/mcqs/est",
+        "database/data/mcqs/ethical-hacking",
+        "database/data/mcqs/everyday-science",
+        "database/data/mcqs/express",
+        "database/data/mcqs/express-js",
+        "database/data/mcqs/fbr",
+        "database/data/mcqs/fia",
+        "database/data/mcqs/fia-inspector",
+        "database/data/mcqs/finance",
+        "database/data/mcqs/flask",
+        "database/data/mcqs/forensic-medicine",
+        "database/data/mcqs/forestry",
+        "database/data/mcqs/fpsc",
+        "database/data/mcqs/gat",
+        "database/data/mcqs/general-anatomy",
+        "database/data/mcqs/general-knowledge",
+        "database/data/mcqs/geography",
+        "database/data/mcqs/git",
+        "database/data/mcqs/git-github",
+        "database/data/mcqs/github",
+        "database/data/mcqs/go",
+        "database/data/mcqs/grammar",
+        "database/data/mcqs/graphql",
+        "database/data/mcqs/gre",
+        "database/data/mcqs/gynecology",
+        "database/data/mcqs/headmaster",
+        "database/data/mcqs/hesco",
+        "database/data/mcqs/histology",
+        "database/data/mcqs/history",
+        "database/data/mcqs/hrm",
+        "database/data/mcqs/html",
+        "database/data/mcqs/ib",
+        "database/data/mcqs/idioms",
+        "database/data/mcqs/ielts",
+        "database/data/mcqs/income-tax-inspector",
+        "database/data/mcqs/industrial-eng",
+        "database/data/mcqs/inspector",
+        "database/data/mcqs/international-relations",
+        "database/data/mcqs/iq",
+        "database/data/mcqs/islamic-studies",
+        "database/data/mcqs/issb",
+        "database/data/mcqs/java",
+        "database/data/mcqs/javascript",
+        "database/data/mcqs/kppsc",
+        "database/data/mcqs/kubernetes",
+        "database/data/mcqs/laravel",
+        "database/data/mcqs/lat",
+        "database/data/mcqs/law",
+        "database/data/mcqs/lecturer",
+        "database/data/mcqs/lesco",
+        "database/data/mcqs/linux",
+        "database/data/mcqs/logical-reasoning",
+        "database/data/mcqs/machine-learning",
+        "database/data/mcqs/management",
+        "database/data/mcqs/management-accounting",
+        "database/data/mcqs/marketing",
+        "database/data/mcqs/mathematics",
+        "database/data/mcqs/mbbs",
+        "database/data/mcqs/mdcat",
+        "database/data/mcqs/mechanical-eng",
+        "database/data/mcqs/mechatronics",
+        "database/data/mcqs/medical",
+        "database/data/mcqs/medicine",
+        "database/data/mcqs/mepco",
+        "database/data/mcqs/microbiology",
+        "database/data/mcqs/mining-engineering",
+        "database/data/mcqs/mobile-development",
+        "database/data/mcqs/mod",
+        "database/data/mcqs/mongodb",
+        "database/data/mcqs/motorway-police",
+        "database/data/mcqs/ms-office",
+        "database/data/mcqs/nab",
+        "database/data/mcqs/nadra",
+        "database/data/mcqs/navy",
+        "database/data/mcqs/networking",
+        "database/data/mcqs/next-js",
+        "database/data/mcqs/node-js",
+        "database/data/mcqs/non-verbal-reasoning",
+        "database/data/mcqs/nosql",
+        "database/data/mcqs/nts",
+        "database/data/mcqs/nursing",
+        "database/data/mcqs/nutrition",
+        "database/data/mcqs/operating-systems",
+        "database/data/mcqs/ophthalmology",
+        "database/data/mcqs/oral-anatomy",
+        "database/data/mcqs/oral-histology",
+        "database/data/mcqs/oral-pathology",
+        "database/data/mcqs/organization-behavior",
+        "database/data/mcqs/ots",
+        "database/data/mcqs/paf",
+        "database/data/mcqs/pakistan-affairs",
+        "database/data/mcqs/pakistan-history",
+        "database/data/mcqs/pakistan-post",
+        "database/data/mcqs/pathology",
+        "database/data/mcqs/pedagogy",
+        "database/data/mcqs/pediatrics",
+        "database/data/mcqs/petroleum-engineering",
+        "database/data/mcqs/pharmacology",
+        "database/data/mcqs/pharmacy",
+        "database/data/mcqs/php",
+        "database/data/mcqs/physical-education",
+        "database/data/mcqs/physics",
+        "database/data/mcqs/physiology",
+        "database/data/mcqs/pma",
+        "database/data/mcqs/pms",
+        "database/data/mcqs/police",
+        "database/data/mcqs/political-science",
+        "database/data/mcqs/postgresql",
+        "database/data/mcqs/ppsc",
+        "database/data/mcqs/programming",
+        "database/data/mcqs/programming-fundamentals",
+        "database/data/mcqs/project-management",
+        "database/data/mcqs/psychology",
+        "database/data/mcqs/pts",
+        "database/data/mcqs/public-health",
+        "database/data/mcqs/punjab-police",
+        "database/data/mcqs/python",
+        "database/data/mcqs/railway",
+        "database/data/mcqs/react",
+        "database/data/mcqs/reasoning",
+        "database/data/mcqs/rescue-1122",
+        "database/data/mcqs/rest-api",
+        "database/data/mcqs/rust",
+        "database/data/mcqs/sat",
+        "database/data/mcqs/sbp",
+        "database/data/mcqs/sentence-correction",
+        "database/data/mcqs/sepco",
+        "database/data/mcqs/sngpl",
+        "database/data/mcqs/sociology",
+        "database/data/mcqs/software-eng",
+        "database/data/mcqs/spring-boot",
+        "database/data/mcqs/spsc",
+        "database/data/mcqs/sql",
+        "database/data/mcqs/sqlite",
+        "database/data/mcqs/ssgc",
+        "database/data/mcqs/sst",
+        "database/data/mcqs/statistics",
+        "database/data/mcqs/sub-inspector",
+        "database/data/mcqs/supply-chain",
+        "database/data/mcqs/surgery",
+        "database/data/mcqs/synonyms",
+        "database/data/mcqs/system-design",
+        "database/data/mcqs/tailwind-css",
+        "database/data/mcqs/taxation",
+        "database/data/mcqs/teaching",
+        "database/data/mcqs/telecommunication",
+        "database/data/mcqs/textile-engineering",
+        "database/data/mcqs/toefl",
+        "database/data/mcqs/typescript",
+        "database/data/mcqs/unassigned",
+        "database/data/mcqs/urdu",
+        "database/data/mcqs/verbal-reasoning",
+        "database/data/mcqs/veterinary",
+        "database/data/mcqs/vocabulary",
+        "database/data/mcqs/vue-js",
+        "database/data/mcqs/wapda",
+        "database/data/mcqs/web-development",
+        "database/data/mcqs/windows",
+        "database/data/mcqs/world-current-affairs",
+        "database/data/mcqs/world-history",
+        "database/data/mcqs/zoology",
+        "database/data/other",
+        "database/data/publishing",
+        "database/data/review",
+        "database/data/subjects",
+        "database/data/subtopics",
+        "database/data/topics",
+        "database/data/users",
+        "database/manifests",
+        "database/releases/source-v2/data/analytics",
+        "database/releases/source-v2/data/assessment",
+        "database/releases/source-v2/data/chapters",
+        "database/releases/source-v2/data/concepts",
+        "database/releases/source-v2/data/kg",
+        "database/releases/source-v2/data/mcqs",
+        "database/releases/source-v2/data/mcqs/accounting",
+        "database/releases/source-v2/data/mcqs/agriculture",
+        "database/releases/source-v2/data/mcqs/ai",
+        "database/releases/source-v2/data/mcqs/ajkpsc",
+        "database/releases/source-v2/data/mcqs/algorithms",
+        "database/releases/source-v2/data/mcqs/analytical-reasoning",
+        "database/releases/source-v2/data/mcqs/anatomy",
+        "database/releases/source-v2/data/mcqs/anf",
+        "database/releases/source-v2/data/mcqs/angular",
+        "database/releases/source-v2/data/mcqs/anthropology",
+        "database/releases/source-v2/data/mcqs/antonyms",
+        "database/releases/source-v2/data/mcqs/aptitude-tests",
+        "database/releases/source-v2/data/mcqs/architecture",
+        "database/releases/source-v2/data/mcqs/army",
+        "database/releases/source-v2/data/mcqs/artificial-intelligence",
+        "database/releases/source-v2/data/mcqs/asf",
+        "database/releases/source-v2/data/mcqs/assistant-director",
+        "database/releases/source-v2/data/mcqs/auditing",
+        "database/releases/source-v2/data/mcqs/auditing-standards",
+        "database/releases/source-v2/data/mcqs/banking",
+        "database/releases/source-v2/data/mcqs/bash",
+        "database/releases/source-v2/data/mcqs/bds",
+        "database/releases/source-v2/data/mcqs/behavioral-sciences",
+        "database/releases/source-v2/data/mcqs/big-data",
+        "database/releases/source-v2/data/mcqs/biochemistry",
+        "database/releases/source-v2/data/mcqs/biology",
+        "database/releases/source-v2/data/mcqs/biotechnology",
+        "database/releases/source-v2/data/mcqs/bootstrap",
+        "database/releases/source-v2/data/mcqs/botany",
+        "database/releases/source-v2/data/mcqs/bpsc",
+        "database/releases/source-v2/data/mcqs/business-admin",
+        "database/releases/source-v2/data/mcqs/business-administration",
+        "database/releases/source-v2/data/mcqs/business-law",
+        "database/releases/source-v2/data/mcqs/c",
+        "database/releases/source-v2/data/mcqs/chemical-eng",
+        "database/releases/source-v2/data/mcqs/chemistry",
+        "database/releases/source-v2/data/mcqs/civil-eng",
+        "database/releases/source-v2/data/mcqs/cloud-computing",
+        "database/releases/source-v2/data/mcqs/commerce",
+        "database/releases/source-v2/data/mcqs/community-medicine",
+        "database/releases/source-v2/data/mcqs/compiler-design",
+        "database/releases/source-v2/data/mcqs/comprehension",
+        "database/releases/source-v2/data/mcqs/computer-engineering",
+        "database/releases/source-v2/data/mcqs/computer-graphics",
+        "database/releases/source-v2/data/mcqs/computer-science",
+        "database/releases/source-v2/data/mcqs/constitution",
+        "database/releases/source-v2/data/mcqs/cpp",
+        "database/releases/source-v2/data/mcqs/csharp",
+        "database/releases/source-v2/data/mcqs/css",
+        "database/releases/source-v2/data/mcqs/css-exam",
+        "database/releases/source-v2/data/mcqs/cts",
+        "database/releases/source-v2/data/mcqs/current-affairs",
+        "database/releases/source-v2/data/mcqs/custom-inspector",
+        "database/releases/source-v2/data/mcqs/cyber-security",
+        "database/releases/source-v2/data/mcqs/data-interpretation",
+        "database/releases/source-v2/data/mcqs/data-science",
+        "database/releases/source-v2/data/mcqs/data-structures",
+        "database/releases/source-v2/data/mcqs/database",
+        "database/releases/source-v2/data/mcqs/deep-learning",
+        "database/releases/source-v2/data/mcqs/dental-materials",
+        "database/releases/source-v2/data/mcqs/dental-medicine",
+        "database/releases/source-v2/data/mcqs/dental-surgery",
+        "database/releases/source-v2/data/mcqs/devops",
+        "database/releases/source-v2/data/mcqs/digital-logic",
+        "database/releases/source-v2/data/mcqs/distributed-systems",
+        "database/releases/source-v2/data/mcqs/django",
+        "database/releases/source-v2/data/mcqs/docker",
+        "database/releases/source-v2/data/mcqs/dotnet",
+        "database/releases/source-v2/data/mcqs/dpt",
+        "database/releases/source-v2/data/mcqs/ecat",
+        "database/releases/source-v2/data/mcqs/economics",
+        "database/releases/source-v2/data/mcqs/education",
+        "database/releases/source-v2/data/mcqs/educators",
+        "database/releases/source-v2/data/mcqs/election-officer",
+        "database/releases/source-v2/data/mcqs/electrical-eng",
+        "database/releases/source-v2/data/mcqs/electronics",
+        "database/releases/source-v2/data/mcqs/english",
+        "database/releases/source-v2/data/mcqs/english-literature",
+        "database/releases/source-v2/data/mcqs/ent",
+        "database/releases/source-v2/data/mcqs/entrepreneurship",
+        "database/releases/source-v2/data/mcqs/environmental-eng",
+        "database/releases/source-v2/data/mcqs/environmental-science",
+        "database/releases/source-v2/data/mcqs/essay",
+        "database/releases/source-v2/data/mcqs/est",
+        "database/releases/source-v2/data/mcqs/ethical-hacking",
+        "database/releases/source-v2/data/mcqs/everyday-science",
+        "database/releases/source-v2/data/mcqs/express",
+        "database/releases/source-v2/data/mcqs/express-js",
+        "database/releases/source-v2/data/mcqs/fbr",
+        "database/releases/source-v2/data/mcqs/fia",
+        "database/releases/source-v2/data/mcqs/fia-inspector",
+        "database/releases/source-v2/data/mcqs/finance",
+        "database/releases/source-v2/data/mcqs/flask",
+        "database/releases/source-v2/data/mcqs/forensic-medicine",
+        "database/releases/source-v2/data/mcqs/forestry",
+        "database/releases/source-v2/data/mcqs/fpsc",
+        "database/releases/source-v2/data/mcqs/gat",
+        "database/releases/source-v2/data/mcqs/general-anatomy",
+        "database/releases/source-v2/data/mcqs/general-knowledge",
+        "database/releases/source-v2/data/mcqs/geography",
+        "database/releases/source-v2/data/mcqs/git",
+        "database/releases/source-v2/data/mcqs/git-github",
+        "database/releases/source-v2/data/mcqs/github",
+        "database/releases/source-v2/data/mcqs/go",
+        "database/releases/source-v2/data/mcqs/grammar",
+        "database/releases/source-v2/data/mcqs/graphql",
+        "database/releases/source-v2/data/mcqs/gre",
+        "database/releases/source-v2/data/mcqs/gynecology",
+        "database/releases/source-v2/data/mcqs/headmaster",
+        "database/releases/source-v2/data/mcqs/hesco",
+        "database/releases/source-v2/data/mcqs/histology",
+        "database/releases/source-v2/data/mcqs/history",
+        "database/releases/source-v2/data/mcqs/hrm",
+        "database/releases/source-v2/data/mcqs/html",
+        "database/releases/source-v2/data/mcqs/ib",
+        "database/releases/source-v2/data/mcqs/idioms",
+        "database/releases/source-v2/data/mcqs/ielts",
+        "database/releases/source-v2/data/mcqs/income-tax-inspector",
+        "database/releases/source-v2/data/mcqs/industrial-eng",
+        "database/releases/source-v2/data/mcqs/inspector",
+        "database/releases/source-v2/data/mcqs/international-relations",
+        "database/releases/source-v2/data/mcqs/iq",
+        "database/releases/source-v2/data/mcqs/islamic-studies",
+        "database/releases/source-v2/data/mcqs/issb",
+        "database/releases/source-v2/data/mcqs/java",
+        "database/releases/source-v2/data/mcqs/javascript",
+        "database/releases/source-v2/data/mcqs/kppsc",
+        "database/releases/source-v2/data/mcqs/kubernetes",
+        "database/releases/source-v2/data/mcqs/laravel",
+        "database/releases/source-v2/data/mcqs/lat",
+        "database/releases/source-v2/data/mcqs/law",
+        "database/releases/source-v2/data/mcqs/lecturer",
+        "database/releases/source-v2/data/mcqs/lesco",
+        "database/releases/source-v2/data/mcqs/linux",
+        "database/releases/source-v2/data/mcqs/logical-reasoning",
+        "database/releases/source-v2/data/mcqs/machine-learning",
+        "database/releases/source-v2/data/mcqs/management",
+        "database/releases/source-v2/data/mcqs/management-accounting",
+        "database/releases/source-v2/data/mcqs/marketing",
+        "database/releases/source-v2/data/mcqs/mathematics",
+        "database/releases/source-v2/data/mcqs/mbbs",
+        "database/releases/source-v2/data/mcqs/mdcat",
+        "database/releases/source-v2/data/mcqs/mechanical-eng",
+        "database/releases/source-v2/data/mcqs/mechatronics",
+        "database/releases/source-v2/data/mcqs/medical",
+        "database/releases/source-v2/data/mcqs/medicine",
+        "database/releases/source-v2/data/mcqs/mepco",
+        "database/releases/source-v2/data/mcqs/microbiology",
+        "database/releases/source-v2/data/mcqs/mining-engineering",
+        "database/releases/source-v2/data/mcqs/mobile-development",
+        "database/releases/source-v2/data/mcqs/mod",
+        "database/releases/source-v2/data/mcqs/mongodb",
+        "database/releases/source-v2/data/mcqs/motorway-police",
+        "database/releases/source-v2/data/mcqs/ms-office",
+        "database/releases/source-v2/data/mcqs/nab",
+        "database/releases/source-v2/data/mcqs/nadra",
+        "database/releases/source-v2/data/mcqs/navy",
+        "database/releases/source-v2/data/mcqs/networking",
+        "database/releases/source-v2/data/mcqs/next-js",
+        "database/releases/source-v2/data/mcqs/node-js",
+        "database/releases/source-v2/data/mcqs/non-verbal-reasoning",
+        "database/releases/source-v2/data/mcqs/nosql",
+        "database/releases/source-v2/data/mcqs/nts",
+        "database/releases/source-v2/data/mcqs/nursing",
+        "database/releases/source-v2/data/mcqs/nutrition",
+        "database/releases/source-v2/data/mcqs/operating-systems",
+        "database/releases/source-v2/data/mcqs/ophthalmology",
+        "database/releases/source-v2/data/mcqs/oral-anatomy",
+        "database/releases/source-v2/data/mcqs/oral-histology",
+        "database/releases/source-v2/data/mcqs/oral-pathology",
+        "database/releases/source-v2/data/mcqs/organization-behavior",
+        "database/releases/source-v2/data/mcqs/ots",
+        "database/releases/source-v2/data/mcqs/paf",
+        "database/releases/source-v2/data/mcqs/pakistan-affairs",
+        "database/releases/source-v2/data/mcqs/pakistan-history",
+        "database/releases/source-v2/data/mcqs/pakistan-post",
+        "database/releases/source-v2/data/mcqs/pathology",
+        "database/releases/source-v2/data/mcqs/pedagogy",
+        "database/releases/source-v2/data/mcqs/pediatrics",
+        "database/releases/source-v2/data/mcqs/petroleum-engineering",
+        "database/releases/source-v2/data/mcqs/pharmacology",
+        "database/releases/source-v2/data/mcqs/pharmacy",
+        "database/releases/source-v2/data/mcqs/php",
+        "database/releases/source-v2/data/mcqs/physical-education",
+        "database/releases/source-v2/data/mcqs/physics",
+        "database/releases/source-v2/data/mcqs/physiology",
+        "database/releases/source-v2/data/mcqs/pma",
+        "database/releases/source-v2/data/mcqs/pms",
+        "database/releases/source-v2/data/mcqs/police",
+        "database/releases/source-v2/data/mcqs/political-science",
+        "database/releases/source-v2/data/mcqs/postgresql",
+        "database/releases/source-v2/data/mcqs/ppsc",
+        "database/releases/source-v2/data/mcqs/programming",
+        "database/releases/source-v2/data/mcqs/programming-fundamentals",
+        "database/releases/source-v2/data/mcqs/project-management",
+        "database/releases/source-v2/data/mcqs/psychology",
+        "database/releases/source-v2/data/mcqs/pts",
+        "database/releases/source-v2/data/mcqs/public-health",
+        "database/releases/source-v2/data/mcqs/punjab-police",
+        "database/releases/source-v2/data/mcqs/python",
+        "database/releases/source-v2/data/mcqs/railway",
+        "database/releases/source-v2/data/mcqs/react",
+        "database/releases/source-v2/data/mcqs/reasoning",
+        "database/releases/source-v2/data/mcqs/rescue-1122",
+        "database/releases/source-v2/data/mcqs/rest-api",
+        "database/releases/source-v2/data/mcqs/rust",
+        "database/releases/source-v2/data/mcqs/sat",
+        "database/releases/source-v2/data/mcqs/sbp",
+        "database/releases/source-v2/data/mcqs/sentence-correction",
+        "database/releases/source-v2/data/mcqs/sepco",
+        "database/releases/source-v2/data/mcqs/sngpl",
+        "database/releases/source-v2/data/mcqs/sociology",
+        "database/releases/source-v2/data/mcqs/software-eng",
+        "database/releases/source-v2/data/mcqs/spring-boot",
+        "database/releases/source-v2/data/mcqs/spsc",
+        "database/releases/source-v2/data/mcqs/sql",
+        "database/releases/source-v2/data/mcqs/sqlite",
+        "database/releases/source-v2/data/mcqs/ssgc",
+        "database/releases/source-v2/data/mcqs/sst",
+        "database/releases/source-v2/data/mcqs/statistics",
+        "database/releases/source-v2/data/mcqs/sub-inspector",
+        "database/releases/source-v2/data/mcqs/supply-chain",
+        "database/releases/source-v2/data/mcqs/surgery",
+        "database/releases/source-v2/data/mcqs/synonyms",
+        "database/releases/source-v2/data/mcqs/system-design",
+        "database/releases/source-v2/data/mcqs/tailwind-css",
+        "database/releases/source-v2/data/mcqs/taxation",
+        "database/releases/source-v2/data/mcqs/teaching",
+        "database/releases/source-v2/data/mcqs/telecommunication",
+        "database/releases/source-v2/data/mcqs/textile-engineering",
+        "database/releases/source-v2/data/mcqs/toefl",
+        "database/releases/source-v2/data/mcqs/typescript",
+        "database/releases/source-v2/data/mcqs/unassigned",
+        "database/releases/source-v2/data/mcqs/urdu",
+        "database/releases/source-v2/data/mcqs/verbal-reasoning",
+        "database/releases/source-v2/data/mcqs/veterinary",
+        "database/releases/source-v2/data/mcqs/vocabulary",
+        "database/releases/source-v2/data/mcqs/vue-js",
+        "database/releases/source-v2/data/mcqs/wapda",
+        "database/releases/source-v2/data/mcqs/web-development",
+        "database/releases/source-v2/data/mcqs/windows",
+        "database/releases/source-v2/data/mcqs/world-current-affairs",
+        "database/releases/source-v2/data/mcqs/world-history",
+        "database/releases/source-v2/data/mcqs/zoology",
+        "database/releases/source-v2/data/other",
+        "database/releases/source-v2/data/publishing",
+        "database/releases/source-v2/data/review",
+        "database/releases/source-v2/data/subjects",
+        "database/releases/source-v2/data/subtopics",
+        "database/releases/source-v2/data/topics",
+        "database/releases/source-v2/data/users",
+        "database/releases/source-v2/manifests",
+        "database/releases/source-v2/schema",
+        "database/reports",
+        "database/schema",
+        "database/scripts",
+        "database/scripts/lib",
+        "database/snapshots/latest",
+        "database/snapshots/v2"
+      ]
+    },
+    {
+      "dir": "data",
+      "files": 237,
+      "bytes": 348985459,
+      "subdirs": [
+        "data",
+        "data/export",
+        "data/mcqs"
+      ]
+    },
+    {
+      "dir": "docs",
+      "files": 288,
+      "bytes": 50739439,
+      "subdirs": [
+        "docs",
+        "docs/audit"
+      ]
+    },
+    {
+      "dir": "chapters",
+      "files": 876,
+      "bytes": 4433481,
+      "subdirs": [
+        "chapters"
+      ]
+    },
+    {
+      "dir": "pipeline",
+      "files": 90,
+      "bytes": 1916102,
+      "subdirs": [
+        "pipeline",
+        "pipeline/data",
+        "pipeline/generators",
+        "pipeline/kg"
+      ]
+    },
+    {
+      "dir": "subjects",
+      "files": 244,
+      "bytes": 1643329,
+      "subdirs": [
+        "subjects"
+      ]
+    },
+    {
+      "dir": "scripts",
+      "files": 66,
+      "bytes": 984192,
+      "subdirs": [
+        "scripts",
+        "scripts/lib",
+        "scripts/phase28",
+        "scripts/phase3",
+        "scripts/phase30"
+      ]
+    },
+    {
+      "dir": "assets",
+      "files": 19,
+      "bytes": 409824,
+      "subdirs": [
+        "assets/css",
+        "assets/icons",
+        "assets/img",
+        "assets/js"
+      ]
+    },
+    {
+      "dir": "phase37-production-verification.html",
+      "files": 1,
+      "bytes": 337411,
+      "subdirs": []
+    },
+    {
+      "dir": "sitemap.xml",
+      "files": 1,
+      "bytes": 226049,
+      "subdirs": []
+    },
+    {
+      "dir": "kg",
+      "files": 9,
+      "bytes": 194917,
+      "subdirs": [
+        "kg"
+      ]
+    },
+    {
+      "dir": "android",
+      "files": 7,
+      "bytes": 185315,
+      "subdirs": [
+        "android"
+      ]
+    },
+    {
+      "dir": "release",
+      "files": 2,
+      "bytes": 146683,
+      "subdirs": [
+        "release"
+      ]
+    },
+    {
+      "dir": "subject-mcq-distribution-report.html",
+      "files": 1,
+      "bytes": 62934,
+      "subdirs": []
+    },
+    {
+      "dir": "assistant",
+      "files": 8,
+      "bytes": 62248,
+      "subdirs": [
+        "assistant"
+      ]
+    },
+    {
+      "dir": "ai",
+      "files": 15,
+      "bytes": 59130,
+      "subdirs": [
+        "ai"
+      ]
+    },
+    {
+      "dir": "quiz-audit-report.html",
+      "files": 1,
+      "bytes": 30727,
+      "subdirs": []
+    },
+    {
+      "dir": "CHANGELOG.md",
+      "files": 1,
+      "bytes": 30068,
+      "subdirs": []
+    },
+    {
+      "dir": "index.html",
+      "files": 1,
+      "bytes": 26981,
+      "subdirs": []
+    },
+    {
+      "dir": "server.js",
+      "files": 1,
+      "bytes": 20203,
+      "subdirs": []
+    },
+    {
+      "dir": "admin.html",
+      "files": 1,
+      "bytes": 14273,
+      "subdirs": []
+    },
+    {
+      "dir": "tests",
+      "files": 6,
+      "bytes": 13677,
+      "subdirs": [
+        "tests/api",
+        "tests/database",
+        "tests/integration",
+        "tests/performance",
+        "tests/ui",
+        "tests/unit"
+      ]
+    },
+    {
+      "dir": ".github",
+      "files": 6,
+      "bytes": 12505,
+      "subdirs": [
+        ".github/workflows"
+      ]
+    },
+    {
+      "dir": "quiz-audit-results.json",
+      "files": 1,
+      "bytes": 10131,
+      "subdirs": []
+    },
+    {
+      "dir": "phase-functional-repair.html",
+      "files": 1,
+      "bytes": 9418,
+      "subdirs": []
+    },
+    {
+      "dir": "sw.js",
+      "files": 1,
+      "bytes": 7998,
+      "subdirs": []
+    },
+    {
+      "dir": "README.md",
+      "files": 1,
+      "bytes": 7073,
+      "subdirs": []
+    },
+    {
+      "dir": "phase15_subject_depth_analysis.js",
+      "files": 1,
+      "bytes": 5002,
+      "subdirs": []
+    },
+    {
+      "dir": "manifest.webmanifest",
+      "files": 1,
+      "bytes": 3978,
+      "subdirs": []
+    },
+    {
+      "dir": "desktop",
+      "files": 3,
+      "bytes": 3691,
+      "subdirs": [
+        "desktop"
+      ]
+    },
+    {
+      "dir": "offline.html",
+      "files": 1,
+      "bytes": 2997,
+      "subdirs": []
+    },
+    {
+      "dir": "404.html",
+      "files": 1,
+      "bytes": 2261,
+      "subdirs": []
+    },
+    {
+      "dir": "verify_report_accuracy.js",
+      "files": 1,
+      "bytes": 1810,
+      "subdirs": []
+    },
+    {
+      "dir": "docker-compose.yml",
+      "files": 1,
+      "bytes": 1701,
+      "subdirs": []
+    },
+    {
+      "dir": "nginx.conf",
+      "files": 1,
+      "bytes": 1298,
+      "subdirs": []
+    },
+    {
+      "dir": ".eslintrc.json",
+      "files": 1,
+      "bytes": 1079,
+      "subdirs": []
+    },
+    {
+      "dir": "ecosystem.config.js",
+      "files": 1,
+      "bytes": 890,
+      "subdirs": []
+    },
+    {
+      "dir": "Dockerfile",
+      "files": 1,
+      "bytes": 813,
+      "subdirs": []
+    },
+    {
+      "dir": "srv-err.log",
+      "files": 1,
+      "bytes": 777,
+      "subdirs": []
+    },
+    {
+      "dir": "image-sitemap.xml",
+      "files": 1,
+      "bytes": 729,
+      "subdirs": []
+    },
+    {
+      "dir": "video-sitemap.xml",
+      "files": 1,
+      "bytes": 701,
+      "subdirs": []
+    },
+    {
+      "dir": ".editorconfig",
+      "files": 1,
+      "bytes": 496,
+      "subdirs": []
+    },
+    {
+      "dir": "validation.log",
+      "files": 1,
+      "bytes": 469,
+      "subdirs": []
+    },
+    {
+      "dir": "server-err.log",
+      "files": 1,
+      "bytes": 395,
+      "subdirs": []
+    },
+    {
+      "dir": ".prettierrc",
+      "files": 1,
+      "bytes": 317,
+      "subdirs": []
+    },
+    {
+      "dir": "robots.txt",
+      "files": 1,
+      "bytes": 223,
+      "subdirs": []
+    },
+    {
+      "dir": ".markdownlint.json",
+      "files": 1,
+      "bytes": 129,
+      "subdirs": []
+    },
+    {
+      "dir": ".claude",
+      "files": 1,
+      "bytes": 81,
+      "subdirs": [
+        ".claude"
+      ]
+    },
+    {
+      "dir": "server-out.log",
+      "files": 1,
+      "bytes": 46,
+      "subdirs": []
+    },
+    {
+      "dir": "srv-out.log",
+      "files": 1,
+      "bytes": 46,
+      "subdirs": []
+    },
+    {
+      "dir": ".nojekyll",
+      "files": 1,
+      "bytes": 0,
+      "subdirs": []
+    }
+  ],
+  "extensions": [
+    {
+      "ext": "html",
+      "count": 1137
+    },
+    {
+      "ext": "gz",
+      "count": 620
+    },
+    {
+      "ext": "json",
+      "count": 585
+    },
+    {
+      "ext": "js",
+      "count": 182
+    },
+    {
+      "ext": "md",
+      "count": 106
+    },
+    {
+      "ext": "cjs",
+      "count": 73
+    },
+    {
+      "ext": "png",
+      "count": 18
+    },
+    {
+      "ext": "sqlite",
+      "count": 13
+    },
+    {
+      "ext": "sql",
+      "count": 12
+    },
+    {
+      "ext": "xml",
+      "count": 9
+    },
+    {
+      "ext": "yml",
+      "count": 7
+    },
+    {
+      "ext": "txt",
+      "count": 7
+    },
+    {
+      "ext": "log",
+      "count": 6
+    },
+    {
+      "ext": "css",
+      "count": 5
+    },
+    {
+      "ext": "svg",
+      "count": 4
+    },
+    {
+      "ext": "nojekyll",
+      "count": 3
+    },
+    {
+      "ext": "webmanifest",
+      "count": 3
+    },
+    {
+      "ext": "cmd",
+      "count": 3
+    },
+    {
+      "ext": "sha256",
+      "count": 2
+    },
+    {
+      "ext": "sqlite-shm",
+      "count": 2
+    },
+    {
+      "ext": "sqlite-wal",
+      "count": 2
+    },
+    {
+      "ext": "editorconfig",
+      "count": 1
+    },
+    {
+      "ext": "prettierrc",
+      "count": 1
+    },
+    {
+      "ext": "gitattributes",
+      "count": 1
+    },
+    {
+      "ext": "gitignore",
+      "count": 1
+    },
+    {
+      "ext": "dockerfile",
+      "count": 1
+    },
+    {
+      "ext": "conf",
+      "count": 1
+    },
+    {
+      "ext": "sh",
+      "count": 1
+    }
+  ],
+  "duplicate_groups": [
+    {
+      "hash": "ddea99ccab524e902387",
+      "files": [
+        "admin.html",
+        "backup/pre-quiz-audit-2026-08-01-1104/admin.html"
+      ],
+      "bytes": 14273
+    },
+    {
+      "hash": "12c55f3dc80613423032",
+      "files": [
+        "android/ic_launcher-512.png",
+        "assets/icons/maskable-512.png"
+      ],
+      "bytes": 45994
+    },
+    {
+      "hash": "d1afb662c6593681fc8e",
+      "files": [
+        "assets/icons/icon.svg",
+        "assets/icons/maskable.svg"
+      ],
+      "bytes": 453
+    },
+    {
+      "hash": "0335e105d0738cdf6a8c",
+      "files": [
+        "assets/img/og-cover.png",
+        "backup/pre-phase3-2026-07-31-1814/assets/img/og-cover.png",
+        "backup/pre-phase4-2026-07-31-1858/assets/img/og-cover.png",
+        "backup/pre-quiz-audit-2026-08-01-1104/assets/img/og-cover.png"
+      ],
+      "bytes": 3257
+    },
+    {
+      "hash": "7a8862803999a643b972",
+      "files": [
+        "assets/js/admin.js",
+        "backup/pre-quiz-audit-2026-08-01-1104/assets/js/admin.js"
+      ],
+      "bytes": 45104
+    },
+    {
+      "hash": "4f790f887f3a27ff4b8a",
+      "files": [
+        "backup/db-backup-2026-08-01-04-06-13/dump.json",
+        "backup/db-backup-2026-08-01-05-10-43/dump.json"
+      ],
+      "bytes": 233134839
+    },
+    {
+      "hash": "b007dc0e6eb4461905e2",
+      "files": [
+        "backup/pre-phase2-2026-07-31/data/mcqs/01-pakistan-affairs.json",
+        "backup/pre-phase3-2026-07-31-1814/data/mcqs/01-pakistan-affairs.json",
+        "backup/pre-phase4-2026-07-31-1858/data/mcqs/01-pakistan-affairs.json",
+        "data/mcqs/01-pakistan-affairs.json"
+      ],
+      "bytes": 40711
+    },
+    {
+      "hash": "4019a3ba1b85acbd57c2",
+      "files": [
+        "backup/pre-phase2-2026-07-31/data/mcqs/02-current-affairs.json",
+        "backup/pre-phase3-2026-07-31-1814/data/mcqs/02-current-affairs.json",
+        "backup/pre-phase4-2026-07-31-1858/data/mcqs/02-current-affairs.json",
+        "data/mcqs/02-current-affairs.json"
+      ],
+      "bytes": 21770
+    },
+    {
+      "hash": "8e45e9d0cfbc90c6dbb4",
+      "files": [
+        "backup/pre-phase2-2026-07-31/data/mcqs/03-general-knowledge.json",
+        "backup/pre-phase3-2026-07-31-1814/data/mcqs/03-general-knowledge.json",
+        "backup/pre-phase4-2026-07-31-1858/data/mcqs/03-general-knowledge.json",
+        "data/mcqs/03-general-knowledge.json"
+      ],
+      "bytes": 31841
+    },
+    {
+      "hash": "489ee01b61e4d074d8d8",
+      "files": [
+        "backup/pre-phase2-2026-07-31/data/mcqs/04-islamic-studies.json",
+        "backup/pre-phase3-2026-07-31-1814/data/mcqs/04-islamic-studies.json",
+        "backup/pre-phase4-2026-07-31-1858/data/mcqs/04-islamic-studies.json",
+        "data/mcqs/04-islamic-studies.json"
+      ],
+      "bytes": 33993
+    },
+    {
+      "hash": "9892235c003cfd3f3e6c",
+      "files": [
+        "backup/pre-phase2-2026-07-31/data/mcqs/05-english.json",
+        "backup/pre-phase3-2026-07-31-1814/data/mcqs/05-english.json",
+        "backup/pre-phase4-2026-07-31-1858/data/mcqs/05-english.json",
+        "data/mcqs/05-english.json"
+      ],
+      "bytes": 39831
+    },
+    {
+      "hash": "b48a9633a3c6f1e7ea9f",
+      "files": [
+        "backup/pre-phase2-2026-07-31/data/mcqs/06-urdu-math-reasoning.json",
+        "backup/pre-phase3-2026-07-31-1814/data/mcqs/06-urdu-math-reasoning.json",
+        "backup/pre-phase4-2026-07-31-1858/data/mcqs/06-urdu-math-reasoning.json",
+        "data/mcqs/06-urdu-math-reasoning.json"
+      ],
+      "bytes": 34944
+    },
+    {
+      "hash": "710d42b70d939df82366",
+      "files": [
+        "backup/pre-phase2-2026-07-31/data/mcqs/07-everyday-science.json",
+        "backup/pre-phase3-2026-07-31-1814/data/mcqs/07-everyday-science.json",
+        "backup/pre-phase4-2026-07-31-1858/data/mcqs/07-everyday-science.json",
+        "data/mcqs/07-everyday-science.json"
+      ],
+      "bytes": 26610
+    },
+    {
+      "hash": "2676c86a014b8935e139",
+      "files": [
+        "backup/pre-phase2-2026-07-31/data/mcqs/08-physics-chemistry-biology.json",
+        "backup/pre-phase3-2026-07-31-1814/data/mcqs/08-physics-chemistry-biology.json",
+        "backup/pre-phase4-2026-07-31-1858/data/mcqs/08-physics-chemistry-biology.json",
+        "data/mcqs/08-physics-chemistry-biology.json"
+      ],
+      "bytes": 39463
+    },
+    {
+      "hash": "66bfa05cbd173443cfa6",
+      "files": [
+        "backup/pre-phase2-2026-07-31/data/mcqs/09-computer-ms-office.json",
+        "backup/pre-phase3-2026-07-31-1814/data/mcqs/09-computer-ms-office.json",
+        "backup/pre-phase4-2026-07-31-1858/data/mcqs/09-computer-ms-office.json",
+        "data/mcqs/09-computer-ms-office.json"
+      ],
+      "bytes": 34963
+    },
+    {
+      "hash": "e3d902af6b7246639340",
+      "files": [
+        "backup/pre-phase2-2026-07-31/data/mcqs/10-pedagogy-education-psychology.json",
+        "backup/pre-phase3-2026-07-31-1814/data/mcqs/10-pedagogy-education-psychology.json",
+        "backup/pre-phase4-2026-07-31-1858/data/mcqs/10-pedagogy-education-psychology.json",
+        "data/mcqs/10-pedagogy-education-psychology.json"
+      ],
+      "bytes": 21253
+    },
+    {
+      "hash": "5908fad7df0c7709cbda",
+      "files": [
+        "backup/pre-phase2-2026-07-31/data/mcqs/11-economics-statistics.json",
+        "backup/pre-phase3-2026-07-31-1814/data/mcqs/11-economics-statistics.json",
+        "backup/pre-phase4-2026-07-31-1858/data/mcqs/11-economics-statistics.json",
+        "data/mcqs/11-economics-statistics.json"
+      ],
+      "bytes": 19012
+    },
+    {
+      "hash": "fc7baa3a751949407637",
+      "files": [
+        "backup/pre-phase2-2026-07-31/data/mcqs/12-accounting-finance-commerce-business.json",
+        "backup/pre-phase3-2026-07-31-1814/data/mcqs/12-accounting-finance-commerce-business.json",
+        "backup/pre-phase4-2026-07-31-1858/data/mcqs/12-accounting-finance-commerce-business.json",
+        "data/mcqs/12-accounting-finance-commerce-business.json"
+      ],
+      "bytes": 24618
+    },
+    {
+      "hash": "0de622eba9077b437801",
+      "files": [
+        "backup/pre-phase2-2026-07-31/data/mcqs/13-law-constitution.json",
+        "backup/pre-phase3-2026-07-31-1814/data/mcqs/13-law-constitution.json",
+        "backup/pre-phase4-2026-07-31-1858/data/mcqs/13-law-constitution.json",
+        "data/mcqs/13-law-constitution.json"
+      ],
+      "bytes": 19551
+    },
+    {
+      "hash": "037ad1612dae1964d8b4",
+      "files": [
+        "backup/pre-phase2-2026-07-31/data/mcqs/14-geography-history-social-sciences.json",
+        "backup/pre-phase3-2026-07-31-1814/data/mcqs/14-geography-history-social-sciences.json",
+        "backup/pre-phase4-2026-07-31-1858/data/mcqs/14-geography-history-social-sciences.json",
+        "data/mcqs/14-geography-history-social-sciences.json"
+      ],
+      "bytes": 27069
+    },
+    {
+      "hash": "177b52bd42ec23c18bf3",
+      "files": [
+        "backup/pre-phase2-2026-07-31/data/mcqs/15-agriculture-medical.json",
+        "backup/pre-phase3-2026-07-31-1814/data/mcqs/15-agriculture-medical.json",
+        "backup/pre-phase4-2026-07-31-1858/data/mcqs/15-agriculture-medical.json",
+        "data/mcqs/15-agriculture-medical.json"
+      ],
+      "bytes": 22271
+    },
+    {
+      "hash": "95e92ced9c41f937e142",
+      "files": [
+        "backup/pre-phase2-2026-07-31/data/mcqs/16-engineering.json",
+        "backup/pre-phase3-2026-07-31-1814/data/mcqs/16-engineering.json",
+        "backup/pre-phase4-2026-07-31-1858/data/mcqs/16-engineering.json",
+        "data/mcqs/16-engineering.json"
+      ],
+      "bytes": 21767
+    },
+    {
+      "hash": "378fd4131aa36deae926",
+      "files": [
+        "backup/pre-phase2-2026-07-31/data/mcqs/17-programming.json",
+        "backup/pre-phase3-2026-07-31-1814/data/mcqs/17-programming.json",
+        "backup/pre-phase4-2026-07-31-1858/data/mcqs/17-programming.json",
+        "data/mcqs/17-programming.json"
+      ],
+      "bytes": 14899
+    },
+    {
+      "hash": "2cc4fe8a1d6446bab955",
+      "files": [
+        "backup/pre-phase2-2026-07-31/data/mcqs/18-networking-os-cloud.json",
+        "backup/pre-phase3-2026-07-31-1814/data/mcqs/18-networking-os-cloud.json",
+        "backup/pre-phase4-2026-07-31-1858/data/mcqs/18-networking-os-cloud.json",
+        "data/mcqs/18-networking-os-cloud.json"
+      ],
+      "bytes": 12420
+    },
+    {
+      "hash": "bfbf772221d7714a8550",
+      "files": [
+        "backup/pre-phase2-2026-07-31/data/mcqs/19-ai-data-cyber.json",
+        "backup/pre-phase3-2026-07-31-1814/data/mcqs/19-ai-data-cyber.json",
+        "backup/pre-phase4-2026-07-31-1858/data/mcqs/19-ai-data-cyber.json",
+        "data/mcqs/19-ai-data-cyber.json"
+      ],
+      "bytes": 14509
+    },
+    {
+      "hash": "7d0e4d41e15a1dea5904",
+      "files": [
+        "backup/pre-phase2-2026-07-31/data/mcqs/20-english-literature.json",
+        "backup/pre-phase3-2026-07-31-1814/data/mcqs/20-english-literature.json",
+        "backup/pre-phase4-2026-07-31-1858/data/mcqs/20-english-literature.json",
+        "data/mcqs/20-english-literature.json"
+      ],
+      "bytes": 12879
+    },
+    {
+      "hash": "05940da7c8ff3f75cd8c",
+      "files": [
+        "backup/pre-phase2-2026-07-31/robots.txt",
+        "backup/pre-phase3-2026-07-31-1814/robots.txt"
+      ],
+      "bytes": 101
+    },
+    {
+      "hash": "a27743487d0c2f69bd26",
+      "files": [
+        "backup/pre-phase2-2026-07-31/scripts/serve-test.js",
+        "backup/pre-phase4-2026-07-31-1858/scripts/serve-test.js",
+        "scripts/serve-test.js"
+      ],
+      "bytes": 1158
+    },
+    {
+      "hash": "ecf4f72d01d09c2043d7",
+      "files": [
+        "backup/pre-phase3-2026-07-31-1814/data/mcqs/21-environmental-biotech.json",
+        "backup/pre-phase4-2026-07-31-1858/data/mcqs/21-environmental-biotech.json",
+        "data/mcqs/21-environmental-biotech.json"
+      ],
+      "bytes": 25396
+    },
+    {
+      "hash": "df43b9596f9db73b0b62",
+      "files": [
+        "backup/pre-phase3-2026-07-31-1814/data/mcqs/22-electronics-eng.json",
+        "backup/pre-phase4-2026-07-31-1858/data/mcqs/22-electronics-eng.json",
+        "data/mcqs/22-electronics-eng.json"
+      ],
+      "bytes": 29773
+    }
+  ],
+  "large_files": [
+    {
+      "file": "db/pakistan-mcqs.sqlite",
+      "mb": 2104.7
+    },
+    {
+      "file": "backup/db-backup-2026-08-04-12-47-20/pakistan-mcqs.sqlite",
+      "mb": 2059.5
+    },
+    {
+      "file": "db/pakistan-mcqs.rebuilt.sqlite",
+      "mb": 2045.8
+    },
+    {
+      "file": "backup/db-backup-2026-08-04-11-42-07/pakistan-mcqs.sqlite",
+      "mb": 2034.5
+    },
+    {
+      "file": "backup/db-backup-2026-08-02-17-47-12/pakistan-mcqs.sqlite",
+      "mb": 1033.2
+    },
+    {
+      "file": "backup/db-backup-2026-08-02-17-23-10/pakistan-mcqs.sqlite",
+      "mb": 950.2
+    },
+    {
+      "file": "backup/2026-08-02-kb-phase-2026-08-02-0950/pakistan-mcqs.sqlite",
+      "mb": 627
+    },
+    {
+      "file": "backup/2026-08-01-final-241551/pakistan-mcqs.sqlite",
+      "mb": 338
+    },
+    {
+      "file": "backup/normalize-pre-phase2-2026-08-01-06-14-06/pakistan-mcqs.sqlite",
+      "mb": 270.1
+    },
+    {
+      "file": "backup/db-backup-2026-08-01-04-06-13/pakistan-mcqs.sqlite",
+      "mb": 270.1
+    },
+    {
+      "file": "backup/db-backup-2026-08-01-05-10-43/pakistan-mcqs.sqlite",
+      "mb": 270.1
+    },
+    {
+      "file": "backup/db-backup-2026-08-01-04-06-13/dump.json",
+      "mb": 222.3
+    },
+    {
+      "file": "backup/db-backup-2026-08-01-05-10-43/dump.json",
+      "mb": 222.3
+    },
+    {
+      "file": "data/export/mcqs.json",
+      "mb": 165.1
+    },
+    {
+      "file": "data/export/mcqs-mathematics.json",
+      "mb": 77.9
+    },
+    {
+      "file": "database/data/other/mcqs_fts_data-part03.ndjson.gz",
+      "mb": 60.5
+    },
+    {
+      "file": "database/releases/source-v2/data/other/mcqs_fts_data-part03.ndjson.gz",
+      "mb": 60.5
+    },
+    {
+      "file": "database/data/other/mcqs_fts_data-part02.ndjson.gz",
+      "mb": 60.4
+    },
+    {
+      "file": "database/releases/source-v2/data/other/mcqs_fts_data-part02.ndjson.gz",
+      "mb": 60.4
+    },
+    {
+      "file": "database/data/other/mcqs_fts_data-part04.ndjson.gz",
+      "mb": 58.6
+    },
+    {
+      "file": "database/releases/source-v2/data/other/mcqs_fts_data-part04.ndjson.gz",
+      "mb": 58.6
+    },
+    {
+      "file": "database/data/other/mcqs_fts_data-part01.ndjson.gz",
+      "mb": 57.9
+    },
+    {
+      "file": "database/releases/source-v2/data/other/mcqs_fts_data-part01.ndjson.gz",
+      "mb": 57.9
+    },
+    {
+      "file": "database/data/other/mcqs_fts_data-part05.ndjson.gz",
+      "mb": 52.6
+    },
+    {
+      "file": "database/releases/source-v2/data/other/mcqs_fts_data-part05.ndjson.gz",
+      "mb": 52.6
+    },
+    {
+      "file": "docs/phase17_search_index.json",
+      "mb": 31.4
+    },
+    {
+      "file": "data/export/mcqs-statistics.json",
+      "mb": 29.3
+    },
+    {
+      "file": "database/data/mcqs/options.ndjson.gz",
+      "mb": 25.8
+    },
+    {
+      "file": "database/releases/source-v2/data/mcqs/options.ndjson.gz",
+      "mb": 25.8
+    },
+    {
+      "file": "database/data/other/mcqs_fts.ndjson.gz",
+      "mb": 14.9
+    }
+  ],
+  "build_artifacts": [
+    {
+      "file": "pipeline/progress.log",
+      "bytes": 941,
+      "kind": "log"
+    },
+    {
+      "file": "release/SHA256SUMS.txt",
+      "bytes": 146476,
+      "kind": "release"
+    },
+    {
+      "file": "release/version.json",
+      "bytes": 207,
+      "kind": "release"
+    },
+    {
+      "file": "server-err.log",
+      "bytes": 395,
+      "kind": "log"
+    },
+    {
+      "file": "server-out.log",
+      "bytes": 46,
+      "kind": "log"
+    },
+    {
+      "file": "srv-err.log",
+      "bytes": 777,
+      "kind": "log"
+    },
+    {
+      "file": "srv-out.log",
+      "bytes": 46,
+      "kind": "log"
+    },
+    {
+      "file": "validation.log",
+      "bytes": 469,
+      "kind": "log"
+    },
+    {
+      "file": "db/pakistan-mcqs.rebuilt.sqlite",
+      "bytes": 2145193984,
+      "kind": "stray_sqlite"
+    },
+    {
+      "file": "db/pakistan-mcqs.rebuilt.sqlite-shm",
+      "bytes": 32768,
+      "kind": "stray_sqlite"
+    },
+    {
+      "file": "db/pakistan-mcqs.rebuilt.sqlite-wal",
+      "bytes": 0,
+      "kind": "stray_sqlite"
+    }
+  ],
+  "root_debris": [
+    {
+      "file": "phase15_subject_depth_analysis.js",
+      "bytes": 5002
+    },
+    {
+      "file": "quiz-audit-results.json",
+      "bytes": 10131
+    },
+    {
+      "file": "server-err.log",
+      "bytes": 395
+    },
+    {
+      "file": "server-out.log",
+      "bytes": 46
+    },
+    {
+      "file": "server.js",
+      "bytes": 20203
+    },
+    {
+      "file": "srv-err.log",
+      "bytes": 777
+    },
+    {
+      "file": "srv-out.log",
+      "bytes": 46
+    },
+    {
+      "file": "validation.log",
+      "bytes": 469
+    },
+    {
+      "file": "verify_report_accuracy.js",
+      "bytes": 1810
+    }
+  ],
+  "root_report_pages": [
+    {
+      "file": "phase-functional-repair.html",
+      "bytes": 9418
+    },
+    {
+      "file": "phase37-production-verification.html",
+      "bytes": 337411
+    },
+    {
+      "file": "quiz-audit-report.html",
+      "bytes": 30727
+    },
+    {
+      "file": "subject-mcq-distribution-report.html",
+      "bytes": 62934
+    }
+  ],
+  "root_logs": [
+    {
+      "file": "server-err.log",
+      "bytes": 395
+    },
+    {
+      "file": "server-out.log",
+      "bytes": 46
+    },
+    {
+      "file": "srv-err.log",
+      "bytes": 777
+    },
+    {
+      "file": "srv-out.log",
+      "bytes": 46
+    },
+    {
+      "file": "validation.log",
+      "bytes": 469
+    }
+  ],
+  "configuration": [
+    ".editorconfig",
+    ".eslintrc.json",
+    ".prettierrc",
+    "database/.gitignore",
+    "desktop/package.json",
+    "docker-compose.yml",
+    "Dockerfile",
+    "ecosystem.config.js",
+    "nginx.conf"
+  ],
+  "referenced_assets_total": 0
+}

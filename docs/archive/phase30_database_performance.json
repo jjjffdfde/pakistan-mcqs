@@ -1,0 +1,330 @@
+{
+ "module": "M15",
+ "generated_at": "2026-08-10T10:05:37.430Z",
+ "totals": {
+  "queries": 35,
+  "select_star": 19,
+  "without_limit": 25,
+  "like_wildcard": 0,
+  "n_plus_one_candidates": 0
+ },
+ "queries": [
+  {
+   "file": "server.js",
+   "sql": "SELECT COUNT(*) n FROM mcqs",
+   "issues": [
+    "SELECT * used"
+   ]
+  },
+  {
+   "file": "server.js",
+   "sql": "SELECT sqlite_version() v",
+   "issues": [
+    "no LIMIT (full scan risk)"
+   ]
+  },
+  {
+   "file": "server.js",
+   "sql": "SELECT MAX(created_at) v FROM mcqs",
+   "issues": [
+    "no LIMIT (full scan risk)"
+   ]
+  },
+  {
+   "file": "server.js",
+   "sql": "SELECT label, text FROM options WHERE mcq_id=? ORDER BY label",
+   "issues": [
+    "no LIMIT (full scan risk)"
+   ]
+  },
+  {
+   "file": "server.js",
+   "sql": "SELECT s.id,s.name,s.slug,s.category_id,s.icon,s.description,s.exam_ids,(SELECT COUNT(*) FROM mcqs m WHERE m.subject_id=s.id AND m.status='active",
+   "issues": [
+    "SELECT * used"
+   ]
+  },
+  {
+   "file": "server.js",
+   "sql": "SELECT id,subject_id,name,slug FROM chapters ORDER BY subject_id, sort_order, id",
+   "issues": [
+    "no LIMIT (full scan risk)"
+   ]
+  },
+  {
+   "file": "server.js",
+   "sql": "SELECT id,chapter_id,name,slug FROM topics ORDER BY chapter_id, sort_order, id",
+   "issues": [
+    "no LIMIT (full scan risk)"
+   ]
+  },
+  {
+   "file": "server.js",
+   "sql": "SELECT id,name,slug,icon,description,sort_order FROM categories ORDER BY sort_order, id",
+   "issues": [
+    "no LIMIT (full scan risk)"
+   ]
+  },
+  {
+   "file": "server.js",
+   "sql": "SELECT * FROM quizzes ORDER BY id",
+   "issues": [
+    "SELECT * used",
+    "no LIMIT (full scan risk)"
+   ]
+  },
+  {
+   "file": "server.js",
+   "sql": "SELECT * FROM mocktests ORDER BY id",
+   "issues": [
+    "SELECT * used",
+    "no LIMIT (full scan risk)"
+   ]
+  },
+  {
+   "file": "server.js",
+   "sql": "SELECT * FROM pastpapers ORDER BY year DESC, id",
+   "issues": [
+    "SELECT * used",
+    "no LIMIT (full scan risk)"
+   ]
+  },
+  {
+   "file": "server.js",
+   "sql": "SELECT b.*, m.question, m.correct_answer, m.difficulty, m.explanation FROM bookmarks b JOIN mcqs m ON m.id=b.mcq_id ORDER BY b.created_at DESC",
+   "issues": [
+    "SELECT * used",
+    "no LIMIT (full scan risk)"
+   ]
+  },
+  {
+   "file": "server.js",
+   "sql": "SELECT h.*, m.question, m.correct_answer, m.subject_id, m.chapter_id, m.topic_id FROM history h JOIN mcqs m ON m.id=h.mcq_id ORDER BY h.answered_at DESC LIMIT 200",
+   "issues": [
+    "SELECT * used"
+   ]
+  },
+  {
+   "file": "server.js",
+   "sql": "SELECT * FROM leaderboard ORDER BY points DESC, correct DESC LIMIT 100",
+   "issues": [
+    "SELECT * used"
+   ]
+  },
+  {
+   "file": "server.js",
+   "sql": "SELECT * FROM analytics",
+   "issues": [
+    "SELECT * used",
+    "no LIMIT (full scan risk)"
+   ]
+  },
+  {
+   "file": "server.js",
+   "sql": "SELECT id FROM mcqs WHERE qhash=?",
+   "issues": [
+    "no LIMIT (full scan risk)"
+   ]
+  },
+  {
+   "file": "server.js",
+   "sql": "SELECT m.*, c.name as chapter_name, t.name as topic_name FROM mcqs m LEFT JOIN chapters c ON c.id=m.chapter_id LEFT JOIN topics t ON t.id=m.topic_id WHERE m.status='active' ORDER BY m.subject_id, m.chapter_id, m.topic_id",
+   "issues": [
+    "SELECT * used",
+    "no LIMIT (full scan risk)"
+   ]
+  },
+  {
+   "file": "ai/router.js",
+   "sql": "SELECT * FROM user_profiles WHERE device_id=?",
+   "issues": [
+    "SELECT * used",
+    "no LIMIT (full scan risk)"
+   ]
+  },
+  {
+   "file": "ai/achievements.js",
+   "sql": "SELECT COUNT(*) n FROM history WHERE device_id=?",
+   "issues": [
+    "SELECT * used"
+   ]
+  },
+  {
+   "file": "ai/achievements.js",
+   "sql": "SELECT 1 FROM achievements WHERE device_id=? AND code=?",
+   "issues": [
+    "no LIMIT (full scan risk)"
+   ]
+  },
+  {
+   "file": "ai/achievements.js",
+   "sql": "UPDATE notifications SET read=1 WHERE id=? AND device_id=?",
+   "issues": []
+  },
+  {
+   "file": "ai/achievements.js",
+   "sql": "UPDATE notifications SET read=1 WHERE device_id=?",
+   "issues": []
+  },
+  {
+   "file": "ai/adaptive.js",
+   "sql": "SELECT value FROM ai_state WHERE key=?",
+   "issues": [
+    "no LIMIT (full scan risk)"
+   ]
+  },
+  {
+   "file": "ai/adaptive.js",
+   "sql": "SELECT topic_id, priority FROM weak_topics WHERE device_id=? ORDER BY priority DESC LIMIT 6",
+   "issues": []
+  },
+  {
+   "file": "ai/adaptive.js",
+   "sql": "SELECT * FROM mcqs WHERE id=?",
+   "issues": [
+    "SELECT * used",
+    "no LIMIT (full scan risk)"
+   ]
+  },
+  {
+   "file": "ai/flashcards.js",
+   "sql": "SELECT * FROM flashcards WHERE id = ? AND device_id = ?",
+   "issues": [
+    "SELECT * used",
+    "no LIMIT (full scan risk)"
+   ]
+  },
+  {
+   "file": "ai/planner.js",
+   "sql": "SELECT id, title FROM mocktests WHERE status='active' ORDER BY RANDOM() LIMIT 3",
+   "issues": []
+  },
+  {
+   "file": "ai/planner.js",
+   "sql": "DELETE FROM study_plans WHERE device_id=? AND plan_date=?",
+   "issues": []
+  },
+  {
+   "file": "ai/planner.js",
+   "sql": "DELETE FROM study_plans WHERE device_id=? AND plan_type='weekly'",
+   "issues": []
+  },
+  {
+   "file": "ai/planner.js",
+   "sql": "SELECT * FROM study_plans WHERE device_id=? AND plan_date=? AND plan_type='daily'",
+   "issues": [
+    "SELECT * used",
+    "no LIMIT (full scan risk)"
+   ]
+  },
+  {
+   "file": "ai/planner.js",
+   "sql": "SELECT * FROM study_plans WHERE device_id=? AND plan_type='weekly'",
+   "issues": [
+    "SELECT * used",
+    "no LIMIT (full scan risk)"
+   ]
+  },
+  {
+   "file": "ai/planner.js",
+   "sql": "UPDATE study_plans SET items_json=? WHERE id=?",
+   "issues": []
+  },
+  {
+   "file": "ai/recommend.js",
+   "sql": "SELECT id, title FROM mocktests WHERE exam_id=? AND status='active' LIMIT 1",
+   "issues": []
+  },
+  {
+   "file": "ai/recommend.js",
+   "sql": "SELECT id, title FROM mocktests WHERE status='active' ORDER BY RANDOM() LIMIT 1",
+   "issues": []
+  },
+  {
+   "file": "ai/recommend.js",
+   "sql": "SELECT DISTINCT m.subject_id FROM history h JOIN mcqs m ON m.id=h.mcq_id WHERE h.device_id=?",
+   "issues": [
+    "no LIMIT (full scan risk)"
+   ]
+  },
+  {
+   "file": "ai/recommend.js",
+   "sql": "DELETE FROM recommendations WHERE device_id=?",
+   "issues": []
+  },
+  {
+   "file": "ai/recommend.js",
+   "sql": "SELECT 1 FROM ai_state WHERE key=?",
+   "issues": [
+    "no LIMIT (full scan risk)"
+   ]
+  },
+  {
+   "file": "ai/recommend.js",
+   "sql": "UPDATE recommendations SET seen=1 WHERE device_id=? AND seen=0",
+   "issues": []
+  },
+  {
+   "file": "ai/record.js",
+   "sql": "SELECT * FROM leaderboard_periods WHERE device_id=? AND period=? AND period_key=?",
+   "issues": [
+    "SELECT * used",
+    "no LIMIT (full scan risk)"
+   ]
+  },
+  {
+   "file": "ai/record.js",
+   "sql": "SELECT topic_id FROM mcqs WHERE id=?",
+   "issues": [
+    "no LIMIT (full scan risk)"
+   ]
+  },
+  {
+   "file": "ai/spaced.js",
+   "sql": "SELECT * FROM revision_schedule WHERE device_id = ? AND mcq_id = ?",
+   "issues": [
+    "SELECT * used",
+    "no LIMIT (full scan risk)"
+   ]
+  },
+  {
+   "file": "ai/spaced.js",
+   "sql": "SELECT COUNT(*) n FROM revision_schedule WHERE device_id = ? AND due_date <= ? AND status='active'",
+   "issues": [
+    "SELECT * used"
+   ]
+  },
+  {
+   "file": "ai/weak.js",
+   "sql": "DELETE FROM weak_topics WHERE device_id = ?",
+   "issues": []
+  },
+  {
+   "file": "ai/weak.js",
+   "sql": "DELETE FROM strong_topics WHERE device_id = ?",
+   "issues": []
+  }
+ ],
+ "recommendations": [
+  {
+   "id": "REC-1",
+   "rule": "Add LIMIT/OFFSET to admin export/leaderboard reads when dataset exceeds thousands of rows",
+   "applies_to": "SELECT * FROM leaderboard ORDER BY points DESC"
+  },
+  {
+   "id": "REC-2",
+   "rule": "Prefer FTS5 (fts_index) over LIKE %q% for /api/search once DB-backed search is enabled",
+   "applies_to": "/api/search"
+  },
+  {
+   "id": "REC-3",
+   "rule": "Index candidate: mcqs(subject_id,status), mcqs(chapter_id,status), mcqs(topic_id,status) already created by engine.migrate; no new index required on existing schema",
+   "applies_to": "existing schema"
+  },
+  {
+   "id": "REC-4",
+   "rule": "Index candidate for bookmarks/history device_id lookups: history(device_id, answered_at) already exists",
+   "applies_to": "history table"
+  }
+ ]
+}

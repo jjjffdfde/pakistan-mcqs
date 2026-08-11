@@ -1,0 +1,67 @@
+{
+  "module": "M4",
+  "interfaces": [
+    "#globalSearch (header, all views)",
+    "/api/search FTS (sandbox)"
+  ],
+  "scenarios": [
+    {
+      "scenario": "search_suggestions",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "scenario": "search_constitution",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "scenario": "search_no_result",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "scenario": "search_special_chars",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "scenario": "search_case_and_multi",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "scenario": "search_very_long",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "scenario": "search_empty",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "scenario": "search_numbers",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "scenario": "search_urdu",
+      "result": "PASS",
+      "detail": ""
+    }
+  ],
+  "keyboard_enter": "PASS (Enter key dispatches search)",
+  "clear": "PASS (empty query returns to full list state, 0 errors)",
+  "results_links": "PASS (cards link to MCQ practice)",
+  "pagination": "PASS",
+  "no_results_state": "PASS (explicit zero-card state)",
+  "mobile": "PASS (search bar usable at 360px)",
+  "invented_results": 0,
+  "status": "PASS",
+  "env": {
+    "tool": "scripts/phase33 (driver+probe33+reporter)",
+    "generated_at": "2026-08-11T04:24:25.697Z",
+    "methodology": "Headless Chrome 1366x900/390x844 etc, localhost static server, fresh profile per run, ACTIVE error/network capture (P32-TOOL-001 fix), interaction = real DOM clicks/inputs/Enter keys + state assertions. A feature is WORKING only when interaction + expected UI state + 0 console errors + 0 unexpected network failures."
+  }
+}

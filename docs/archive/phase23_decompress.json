@@ -1,0 +1,1560 @@
+{
+  "phase": "decompress",
+  "decompressed_at": "2026-08-06T15:59:59.421Z",
+  "files": [
+    {
+      "file": "data/analytics/ai_state.ndjson.gz",
+      "before": 286,
+      "after": 763
+    },
+    {
+      "file": "data/analytics/analytics.ndjson.gz",
+      "before": 20,
+      "after": 0
+    },
+    {
+      "file": "data/analytics/history.ndjson.gz",
+      "before": 859,
+      "after": 9653
+    },
+    {
+      "file": "data/analytics/leaderboard.ndjson.gz",
+      "before": 148,
+      "after": 186
+    },
+    {
+      "file": "data/analytics/leaderboard_periods.ndjson.gz",
+      "before": 160,
+      "after": 537
+    },
+    {
+      "file": "data/analytics/learning_sessions.ndjson.gz",
+      "before": 196,
+      "after": 645
+    },
+    {
+      "file": "data/assessment/mocktests.ndjson.gz",
+      "before": 4286,
+      "after": 42009
+    },
+    {
+      "file": "data/assessment/pastpapers.ndjson.gz",
+      "before": 3921,
+      "after": 54419
+    },
+    {
+      "file": "data/assessment/quizzes.ndjson.gz",
+      "before": 2616,
+      "after": 9735
+    },
+    {
+      "file": "data/chapters/chapters.ndjson.gz",
+      "before": 23061,
+      "after": 165422
+    },
+    {
+      "file": "data/concepts/concepts.ndjson.gz",
+      "before": 35686,
+      "after": 353200
+    },
+    {
+      "file": "data/concepts/mcq_concepts.ndjson.gz",
+      "before": 982617,
+      "after": 16433512
+    },
+    {
+      "file": "data/kg/kg_concepts.ndjson.gz",
+      "before": 81945,
+      "after": 1032451
+    },
+    {
+      "file": "data/kg/kg_concept_history.ndjson.gz",
+      "before": 20,
+      "after": 0
+    },
+    {
+      "file": "data/kg/kg_concept_relations.ndjson.gz",
+      "before": 18823,
+      "after": 284611
+    },
+    {
+      "file": "data/kg/kg_concept_statistics.ndjson.gz",
+      "before": 20,
+      "after": 0
+    },
+    {
+      "file": "data/kg/kg_difficulty_profiles.ndjson.gz",
+      "before": 14136,
+      "after": 268396
+    },
+    {
+      "file": "data/kg/kg_distractor_items.ndjson.gz",
+      "before": 392124,
+      "after": 3460529
+    },
+    {
+      "file": "data/kg/kg_distractor_pools.ndjson.gz",
+      "before": 36213,
+      "after": 405430
+    },
+    {
+      "file": "data/kg/kg_exam_mappings.ndjson.gz",
+      "before": 96592,
+      "after": 2574860
+    },
+    {
+      "file": "data/kg/kg_knowledge_packs.ndjson.gz",
+      "before": 191721,
+      "after": 1588993
+    },
+    {
+      "file": "data/kg/kg_learning_objectives.ndjson.gz",
+      "before": 1723977,
+      "after": 27326267
+    },
+    {
+      "file": "data/kg/kg_learning_paths.ndjson.gz",
+      "before": 237,
+      "after": 565
+    },
+    {
+      "file": "data/kg/kg_learning_path_steps.ndjson.gz",
+      "before": 141,
+      "after": 462
+    },
+    {
+      "file": "data/kg/kg_micro_concepts.ndjson.gz",
+      "before": 454130,
+      "after": 6334906
+    },
+    {
+      "file": "data/kg/kg_prerequisites.ndjson.gz",
+      "before": 126,
+      "after": 297
+    },
+    {
+      "file": "data/kg/kg_question_blueprints.ndjson.gz",
+      "before": 3706,
+      "after": 38897
+    },
+    {
+      "file": "data/kg/kg_reference_sources.ndjson.gz",
+      "before": 6618,
+      "after": 75236
+    },
+    {
+      "file": "data/kg/kg_subject_statistics.ndjson.gz",
+      "before": 20,
+      "after": 0
+    },
+    {
+      "file": "data/kg/kg_syllabus_units.ndjson.gz",
+      "before": 19176,
+      "after": 180645
+    },
+    {
+      "file": "data/mcqs/accounting/part01.ndjson.gz",
+      "before": 477044,
+      "after": 8834794
+    },
+    {
+      "file": "data/mcqs/agriculture/part01.ndjson.gz",
+      "before": 411803,
+      "after": 7748310
+    },
+    {
+      "file": "data/mcqs/ai/part01.ndjson.gz",
+      "before": 431560,
+      "after": 8163813
+    },
+    {
+      "file": "data/mcqs/ajkpsc/part01.ndjson.gz",
+      "before": 6624,
+      "after": 50309
+    },
+    {
+      "file": "data/mcqs/algorithms/part01.ndjson.gz",
+      "before": 342771,
+      "after": 7084778
+    },
+    {
+      "file": "data/mcqs/analytical-reasoning/part01.ndjson.gz",
+      "before": 449930,
+      "after": 8293995
+    },
+    {
+      "file": "data/mcqs/anatomy/part01.ndjson.gz",
+      "before": 432179,
+      "after": 7025222
+    },
+    {
+      "file": "data/mcqs/anf/part01.ndjson.gz",
+      "before": 3128,
+      "after": 19729
+    },
+    {
+      "file": "data/mcqs/angular/part01.ndjson.gz",
+      "before": 434131,
+      "after": 6845971
+    },
+    {
+      "file": "data/mcqs/anthropology/part01.ndjson.gz",
+      "before": 3084,
+      "after": 23086
+    },
+    {
+      "file": "data/mcqs/antonyms/part01.ndjson.gz",
+      "before": 408927,
+      "after": 6750496
+    },
+    {
+      "file": "data/mcqs/aptitude-tests/part01.ndjson.gz",
+      "before": 40162,
+      "after": 643518
+    },
+    {
+      "file": "data/mcqs/architecture/part01.ndjson.gz",
+      "before": 461131,
+      "after": 7580912
+    },
+    {
+      "file": "data/mcqs/army/part01.ndjson.gz",
+      "before": 1549,
+      "after": 7504
+    },
+    {
+      "file": "data/mcqs/artificial-intelligence/part01.ndjson.gz",
+      "before": 405824,
+      "after": 6866854
+    },
+    {
+      "file": "data/mcqs/asf/part01.ndjson.gz",
+      "before": 2957,
+      "after": 18969
+    },
+    {
+      "file": "data/mcqs/assistant-director/part01.ndjson.gz",
+      "before": 2505,
+      "after": 19232
+    },
+    {
+      "file": "data/mcqs/auditing/part01.ndjson.gz",
+      "before": 411419,
+      "after": 7134019
+    },
+    {
+      "file": "data/mcqs/auditing-standards/part01.ndjson.gz",
+      "before": 416348,
+      "after": 7112411
+    },
+    {
+      "file": "data/mcqs/banking/part01.ndjson.gz",
+      "before": 4541,
+      "after": 34110
+    },
+    {
+      "file": "data/mcqs/bash/part01.ndjson.gz",
+      "before": 381338,
+      "after": 6565978
+    },
+    {
+      "file": "data/mcqs/bds/part01.ndjson.gz",
+      "before": 3011,
+      "after": 22753
+    },
+    {
+      "file": "data/mcqs/behavioral-sciences/part01.ndjson.gz",
+      "before": 434012,
+      "after": 7223687
+    },
+    {
+      "file": "data/mcqs/big-data/part01.ndjson.gz",
+      "before": 3592,
+      "after": 26236
+    },
+    {
+      "file": "data/mcqs/biochemistry/part01.ndjson.gz",
+      "before": 480306,
+      "after": 7838060
+    },
+    {
+      "file": "data/mcqs/biology/part01.ndjson.gz",
+      "before": 418943,
+      "after": 8010237
+    },
+    {
+      "file": "data/mcqs/biotechnology/part01.ndjson.gz",
+      "before": 4669,
+      "after": 31844
+    },
+    {
+      "file": "data/mcqs/bootstrap/part01.ndjson.gz",
+      "before": 4610,
+      "after": 40771
+    },
+    {
+      "file": "data/mcqs/botany/part01.ndjson.gz",
+      "before": 4593,
+      "after": 36633
+    },
+    {
+      "file": "data/mcqs/bpsc/part01.ndjson.gz",
+      "before": 6540,
+      "after": 48438
+    },
+    {
+      "file": "data/mcqs/business-admin/part01.ndjson.gz",
+      "before": 4566,
+      "after": 33896
+    },
+    {
+      "file": "data/mcqs/business-administration/part01.ndjson.gz",
+      "before": 409699,
+      "after": 6867571
+    },
+    {
+      "file": "data/mcqs/business-law/part01.ndjson.gz",
+      "before": 421764,
+      "after": 6984204
+    },
+    {
+      "file": "data/mcqs/c/part01.ndjson.gz",
+      "before": 424312,
+      "after": 7763698
+    },
+    {
+      "file": "data/mcqs/chemical-eng/part01.ndjson.gz",
+      "before": 431797,
+      "after": 7319710
+    },
+    {
+      "file": "data/mcqs/chemistry/part01.ndjson.gz",
+      "before": 434384,
+      "after": 8014321
+    },
+    {
+      "file": "data/mcqs/civil-eng/part01.ndjson.gz",
+      "before": 430115,
+      "after": 7324445
+    },
+    {
+      "file": "data/mcqs/cloud-computing/part01.ndjson.gz",
+      "before": 430621,
+      "after": 7173471
+    },
+    {
+      "file": "data/mcqs/commerce/part01.ndjson.gz",
+      "before": 3475,
+      "after": 23608
+    },
+    {
+      "file": "data/mcqs/community-medicine/part01.ndjson.gz",
+      "before": 423906,
+      "after": 8188897
+    },
+    {
+      "file": "data/mcqs/compiler-design/part01.ndjson.gz",
+      "before": 399290,
+      "after": 7238700
+    },
+    {
+      "file": "data/mcqs/comprehension/part01.ndjson.gz",
+      "before": 399814,
+      "after": 7143814
+    },
+    {
+      "file": "data/mcqs/computer-engineering/part01.ndjson.gz",
+      "before": 3593,
+      "after": 29468
+    },
+    {
+      "file": "data/mcqs/computer-graphics/part01.ndjson.gz",
+      "before": 429843,
+      "after": 7165893
+    },
+    {
+      "file": "data/mcqs/computer-science/part01.ndjson.gz",
+      "before": 460577,
+      "after": 10301556
+    },
+    {
+      "file": "data/mcqs/constitution/part01.ndjson.gz",
+      "before": 5657,
+      "after": 47319
+    },
+    {
+      "file": "data/mcqs/cpp/part01.ndjson.gz",
+      "before": 469145,
+      "after": 8620358
+    },
+    {
+      "file": "data/mcqs/csharp/part01.ndjson.gz",
+      "before": 522781,
+      "after": 9659845
+    },
+    {
+      "file": "data/mcqs/css/part01.ndjson.gz",
+      "before": 429370,
+      "after": 6813529
+    },
+    {
+      "file": "data/mcqs/css-exam/part01.ndjson.gz",
+      "before": 1362,
+      "after": 6614
+    },
+    {
+      "file": "data/mcqs/cts/part01.ndjson.gz",
+      "before": 1356,
+      "after": 6666
+    },
+    {
+      "file": "data/mcqs/current-affairs/part01.ndjson.gz",
+      "before": 421105,
+      "after": 9368113
+    },
+    {
+      "file": "data/mcqs/custom-inspector/part01.ndjson.gz",
+      "before": 2613,
+      "after": 19912
+    },
+    {
+      "file": "data/mcqs/cyber-security/part01.ndjson.gz",
+      "before": 435153,
+      "after": 7431333
+    },
+    {
+      "file": "data/mcqs/data-interpretation/part01.ndjson.gz",
+      "before": 413426,
+      "after": 7861212
+    },
+    {
+      "file": "data/mcqs/data-science/part01.ndjson.gz",
+      "before": 434340,
+      "after": 7859051
+    },
+    {
+      "file": "data/mcqs/data-structures/part01.ndjson.gz",
+      "before": 415145,
+      "after": 7315400
+    },
+    {
+      "file": "data/mcqs/database/part01.ndjson.gz",
+      "before": 431131,
+      "after": 6968889
+    },
+    {
+      "file": "data/mcqs/deep-learning/part01.ndjson.gz",
+      "before": 424644,
+      "after": 6975617
+    },
+    {
+      "file": "data/mcqs/dental-materials/part01.ndjson.gz",
+      "before": 399757,
+      "after": 7261365
+    },
+    {
+      "file": "data/mcqs/dental-medicine/part01.ndjson.gz",
+      "before": 471730,
+      "after": 7718030
+    },
+    {
+      "file": "data/mcqs/dental-surgery/part01.ndjson.gz",
+      "before": 467846,
+      "after": 7723043
+    },
+    {
+      "file": "data/mcqs/devops/part01.ndjson.gz",
+      "before": 4165,
+      "after": 32286
+    },
+    {
+      "file": "data/mcqs/digital-logic/part01.ndjson.gz",
+      "before": 456402,
+      "after": 7605333
+    },
+    {
+      "file": "data/mcqs/distributed-systems/part01.ndjson.gz",
+      "before": 442637,
+      "after": 7372975
+    },
+    {
+      "file": "data/mcqs/django/part01.ndjson.gz",
+      "before": 2432,
+      "after": 18215
+    },
+    {
+      "file": "data/mcqs/docker/part01.ndjson.gz",
+      "before": 451467,
+      "after": 7125180
+    },
+    {
+      "file": "data/mcqs/dotnet/part01.ndjson.gz",
+      "before": 2736,
+      "after": 19779
+    },
+    {
+      "file": "data/mcqs/dpt/part01.ndjson.gz",
+      "before": 2672,
+      "after": 19592
+    },
+    {
+      "file": "data/mcqs/ecat/part01.ndjson.gz",
+      "before": 2313,
+      "after": 16004
+    },
+    {
+      "file": "data/mcqs/economics/part01.ndjson.gz",
+      "before": 458427,
+      "after": 9014172
+    },
+    {
+      "file": "data/mcqs/education/part01.ndjson.gz",
+      "before": 3340,
+      "after": 25577
+    },
+    {
+      "file": "data/mcqs/educators/part01.ndjson.gz",
+      "before": 1382,
+      "after": 6710
+    },
+    {
+      "file": "data/mcqs/election-officer/part01.ndjson.gz",
+      "before": 3103,
+      "after": 22178
+    },
+    {
+      "file": "data/mcqs/electrical-eng/part01.ndjson.gz",
+      "before": 439124,
+      "after": 7521990
+    },
+    {
+      "file": "data/mcqs/electronics/part01.ndjson.gz",
+      "before": 397984,
+      "after": 7564037
+    },
+    {
+      "file": "data/mcqs/english/part01.ndjson.gz",
+      "before": 18249,
+      "after": 179028
+    },
+    {
+      "file": "data/mcqs/english-literature/part01.ndjson.gz",
+      "before": 438186,
+      "after": 7218283
+    },
+    {
+      "file": "data/mcqs/ent/part01.ndjson.gz",
+      "before": 376846,
+      "after": 7171796
+    },
+    {
+      "file": "data/mcqs/entrepreneurship/part01.ndjson.gz",
+      "before": 419159,
+      "after": 7349828
+    },
+    {
+      "file": "data/mcqs/environmental-eng/part01.ndjson.gz",
+      "before": 428486,
+      "after": 7652732
+    },
+    {
+      "file": "data/mcqs/environmental-science/part01.ndjson.gz",
+      "before": 407066,
+      "after": 8225630
+    },
+    {
+      "file": "data/mcqs/essay/part01.ndjson.gz",
+      "before": 4230,
+      "after": 34258
+    },
+    {
+      "file": "data/mcqs/est/part01.ndjson.gz",
+      "before": 2318,
+      "after": 15463
+    },
+    {
+      "file": "data/mcqs/ethical-hacking/part01.ndjson.gz",
+      "before": 4148,
+      "after": 32039
+    },
+    {
+      "file": "data/mcqs/everyday-science/part01.ndjson.gz",
+      "before": 468395,
+      "after": 9550521
+    },
+    {
+      "file": "data/mcqs/express/part01.ndjson.gz",
+      "before": 392656,
+      "after": 6445911
+    },
+    {
+      "file": "data/mcqs/express-js/part01.ndjson.gz",
+      "before": 3315,
+      "after": 26640
+    },
+    {
+      "file": "data/mcqs/fbr/part01.ndjson.gz",
+      "before": 4038,
+      "after": 28679
+    },
+    {
+      "file": "data/mcqs/fia/part01.ndjson.gz",
+      "before": 1328,
+      "after": 6520
+    },
+    {
+      "file": "data/mcqs/fia-inspector/part01.ndjson.gz",
+      "before": 1339,
+      "after": 6731
+    },
+    {
+      "file": "data/mcqs/finance/part01.ndjson.gz",
+      "before": 451584,
+      "after": 8851271
+    },
+    {
+      "file": "data/mcqs/flask/part01.ndjson.gz",
+      "before": 3351,
+      "after": 26068
+    },
+    {
+      "file": "data/mcqs/forensic-medicine/part01.ndjson.gz",
+      "before": 431165,
+      "after": 7143335
+    },
+    {
+      "file": "data/mcqs/forestry/part01.ndjson.gz",
+      "before": 3399,
+      "after": 24545
+    },
+    {
+      "file": "data/mcqs/fpsc/part01.ndjson.gz",
+      "before": 1288,
+      "after": 6664
+    },
+    {
+      "file": "data/mcqs/gat/part01.ndjson.gz",
+      "before": 2346,
+      "after": 14743
+    },
+    {
+      "file": "data/mcqs/general-anatomy/part01.ndjson.gz",
+      "before": 2767,
+      "after": 21192
+    },
+    {
+      "file": "data/mcqs/general-knowledge/part01.ndjson.gz",
+      "before": 455675,
+      "after": 9701022
+    },
+    {
+      "file": "data/mcqs/geography/part01.ndjson.gz",
+      "before": 409118,
+      "after": 7868195
+    },
+    {
+      "file": "data/mcqs/git/part01.ndjson.gz",
+      "before": 427246,
+      "after": 6851032
+    },
+    {
+      "file": "data/mcqs/git-github/part01.ndjson.gz",
+      "before": 4735,
+      "after": 42734
+    },
+    {
+      "file": "data/mcqs/github/part01.ndjson.gz",
+      "before": 382570,
+      "after": 6576999
+    },
+    {
+      "file": "data/mcqs/go/part01.ndjson.gz",
+      "before": 625145,
+      "after": 11425117
+    },
+    {
+      "file": "data/mcqs/grammar/part01.ndjson.gz",
+      "before": 459958,
+      "after": 7526176
+    },
+    {
+      "file": "data/mcqs/graphql/part01.ndjson.gz",
+      "before": 3252,
+      "after": 26193
+    },
+    {
+      "file": "data/mcqs/gre/part01.ndjson.gz",
+      "before": 2362,
+      "after": 14573
+    },
+    {
+      "file": "data/mcqs/gynecology/part01.ndjson.gz",
+      "before": 435011,
+      "after": 7089130
+    },
+    {
+      "file": "data/mcqs/headmaster/part01.ndjson.gz",
+      "before": 2426,
+      "after": 17334
+    },
+    {
+      "file": "data/mcqs/hesco/part01.ndjson.gz",
+      "before": 2307,
+      "after": 14764
+    },
+    {
+      "file": "data/mcqs/histology/part01.ndjson.gz",
+      "before": 4114,
+      "after": 32031
+    },
+    {
+      "file": "data/mcqs/history/part01.ndjson.gz",
+      "before": 393018,
+      "after": 7706983
+    },
+    {
+      "file": "data/mcqs/hrm/part01.ndjson.gz",
+      "before": 411214,
+      "after": 6936610
+    },
+    {
+      "file": "data/mcqs/html/part01.ndjson.gz",
+      "before": 430426,
+      "after": 6809883
+    },
+    {
+      "file": "data/mcqs/ib/part01.ndjson.gz",
+      "before": 1315,
+      "after": 6351
+    },
+    {
+      "file": "data/mcqs/idioms/part01.ndjson.gz",
+      "before": 414172,
+      "after": 6809236
+    },
+    {
+      "file": "data/mcqs/ielts/part01.ndjson.gz",
+      "before": 2529,
+      "after": 16499
+    },
+    {
+      "file": "data/mcqs/income-tax-inspector/part01.ndjson.gz",
+      "before": 2587,
+      "after": 20075
+    },
+    {
+      "file": "data/mcqs/industrial-eng/part01.ndjson.gz",
+      "before": 414759,
+      "after": 7422945
+    },
+    {
+      "file": "data/mcqs/inspector/part01.ndjson.gz",
+      "before": 2554,
+      "after": 17909
+    },
+    {
+      "file": "data/mcqs/international-relations/part01.ndjson.gz",
+      "before": 397871,
+      "after": 8389283
+    },
+    {
+      "file": "data/mcqs/iq/part01.ndjson.gz",
+      "before": 444972,
+      "after": 8218089
+    },
+    {
+      "file": "data/mcqs/islamic-studies/part01.ndjson.gz",
+      "before": 525974,
+      "after": 10114454
+    },
+    {
+      "file": "data/mcqs/issb/part01.ndjson.gz",
+      "before": 1356,
+      "after": 6601
+    },
+    {
+      "file": "data/mcqs/java/part01.ndjson.gz",
+      "before": 398901,
+      "after": 7426769
+    },
+    {
+      "file": "data/mcqs/javascript/part01.ndjson.gz",
+      "before": 401358,
+      "after": 7762964
+    },
+    {
+      "file": "data/mcqs/kppsc/part01.ndjson.gz",
+      "before": 7412,
+      "after": 53453
+    },
+    {
+      "file": "data/mcqs/kubernetes/part01.ndjson.gz",
+      "before": 432099,
+      "after": 6925016
+    },
+    {
+      "file": "data/mcqs/laravel/part01.ndjson.gz",
+      "before": 429569,
+      "after": 6825866
+    },
+    {
+      "file": "data/mcqs/lat/part01.ndjson.gz",
+      "before": 8568,
+      "after": 64321
+    },
+    {
+      "file": "data/mcqs/law/part01.ndjson.gz",
+      "before": 438106,
+      "after": 8698419
+    },
+    {
+      "file": "data/mcqs/lecturer/part01.ndjson.gz",
+      "before": 1357,
+      "after": 6702
+    },
+    {
+      "file": "data/mcqs/lesco/part01.ndjson.gz",
+      "before": 2109,
+      "after": 13532
+    },
+    {
+      "file": "data/mcqs/linux/part01.ndjson.gz",
+      "before": 426480,
+      "after": 6786333
+    },
+    {
+      "file": "data/mcqs/logical-reasoning/part01.ndjson.gz",
+      "before": 30138,
+      "after": 417771
+    },
+    {
+      "file": "data/mcqs/machine-learning/part01.ndjson.gz",
+      "before": 443524,
+      "after": 8441135
+    },
+    {
+      "file": "data/mcqs/management/part01.ndjson.gz",
+      "before": 444367,
+      "after": 7237671
+    },
+    {
+      "file": "data/mcqs/management-accounting/part01.ndjson.gz",
+      "before": 458858,
+      "after": 7884002
+    },
+    {
+      "file": "data/mcqs/marketing/part01.ndjson.gz",
+      "before": 437252,
+      "after": 7473612
+    },
+    {
+      "file": "data/mcqs/mathematics/part01.ndjson.gz",
+      "before": 10230062,
+      "after": 198915124
+    },
+    {
+      "file": "data/mcqs/mbbs/part01.ndjson.gz",
+      "before": 2826,
+      "after": 20807
+    },
+    {
+      "file": "data/mcqs/mdcat/part01.ndjson.gz",
+      "before": 11238,
+      "after": 87372
+    },
+    {
+      "file": "data/mcqs/mechanical-eng/part01.ndjson.gz",
+      "before": 428599,
+      "after": 7672406
+    },
+    {
+      "file": "data/mcqs/mechatronics/part01.ndjson.gz",
+      "before": 424600,
+      "after": 7421918
+    },
+    {
+      "file": "data/mcqs/medical/part01.ndjson.gz",
+      "before": 419971,
+      "after": 8177454
+    },
+    {
+      "file": "data/mcqs/medicine/part01.ndjson.gz",
+      "before": 438600,
+      "after": 7151267
+    },
+    {
+      "file": "data/mcqs/mepco/part01.ndjson.gz",
+      "before": 2222,
+      "after": 13747
+    },
+    {
+      "file": "data/mcqs/microbiology/part01.ndjson.gz",
+      "before": 433981,
+      "after": 7169972
+    },
+    {
+      "file": "data/mcqs/mining-engineering/part01.ndjson.gz",
+      "before": 408439,
+      "after": 7285844
+    },
+    {
+      "file": "data/mcqs/mobile-development/part01.ndjson.gz",
+      "before": 415457,
+      "after": 7083929
+    },
+    {
+      "file": "data/mcqs/mod/part01.ndjson.gz",
+      "before": 2952,
+      "after": 19783
+    },
+    {
+      "file": "data/mcqs/mongodb/part01.ndjson.gz",
+      "before": 400450,
+      "after": 6704990
+    },
+    {
+      "file": "data/mcqs/motorway-police/part01.ndjson.gz",
+      "before": 3226,
+      "after": 23273
+    },
+    {
+      "file": "data/mcqs/ms-office/part01.ndjson.gz",
+      "before": 6402,
+      "after": 55228
+    },
+    {
+      "file": "data/mcqs/nab/part01.ndjson.gz",
+      "before": 1355,
+      "after": 6493
+    },
+    {
+      "file": "data/mcqs/nadra/part01.ndjson.gz",
+      "before": 2746,
+      "after": 17153
+    },
+    {
+      "file": "data/mcqs/navy/part01.ndjson.gz",
+      "before": 4471,
+      "after": 31663
+    },
+    {
+      "file": "data/mcqs/networking/part01.ndjson.gz",
+      "before": 427890,
+      "after": 7044463
+    },
+    {
+      "file": "data/mcqs/next-js/part01.ndjson.gz",
+      "before": 3504,
+      "after": 28430
+    },
+    {
+      "file": "data/mcqs/node-js/part01.ndjson.gz",
+      "before": 450527,
+      "after": 7193576
+    },
+    {
+      "file": "data/mcqs/non-verbal-reasoning/part01.ndjson.gz",
+      "before": 32488,
+      "after": 503868
+    },
+    {
+      "file": "data/mcqs/nosql/part01.ndjson.gz",
+      "before": 385629,
+      "after": 6820775
+    },
+    {
+      "file": "data/mcqs/nts/part01.ndjson.gz",
+      "before": 1311,
+      "after": 6557
+    },
+    {
+      "file": "data/mcqs/nursing/part01.ndjson.gz",
+      "before": 425546,
+      "after": 7599527
+    },
+    {
+      "file": "data/mcqs/nutrition/part01.ndjson.gz",
+      "before": 392493,
+      "after": 7531142
+    },
+    {
+      "file": "data/mcqs/operating-systems/part01.ndjson.gz",
+      "before": 429962,
+      "after": 7289802
+    },
+    {
+      "file": "data/mcqs/ophthalmology/part01.ndjson.gz",
+      "before": 425171,
+      "after": 6994693
+    },
+    {
+      "file": "data/mcqs/options.ndjson.gz",
+      "before": 27005865,
+      "after": 246490952
+    },
+    {
+      "file": "data/mcqs/oral-anatomy/part01.ndjson.gz",
+      "before": 425392,
+      "after": 7059358
+    },
+    {
+      "file": "data/mcqs/oral-histology/part01.ndjson.gz",
+      "before": 395815,
+      "after": 7126387
+    },
+    {
+      "file": "data/mcqs/oral-pathology/part01.ndjson.gz",
+      "before": 386041,
+      "after": 7331911
+    },
+    {
+      "file": "data/mcqs/organization-behavior/part01.ndjson.gz",
+      "before": 401152,
+      "after": 7003695
+    },
+    {
+      "file": "data/mcqs/ots/part01.ndjson.gz",
+      "before": 1396,
+      "after": 6724
+    },
+    {
+      "file": "data/mcqs/paf/part01.ndjson.gz",
+      "before": 4495,
+      "after": 31621
+    },
+    {
+      "file": "data/mcqs/pakistan-affairs/part01.ndjson.gz",
+      "before": 493765,
+      "after": 10376017
+    },
+    {
+      "file": "data/mcqs/pakistan-history/part01.ndjson.gz",
+      "before": 379392,
+      "after": 7719549
+    },
+    {
+      "file": "data/mcqs/pakistan-post/part01.ndjson.gz",
+      "before": 2635,
+      "after": 19174
+    },
+    {
+      "file": "data/mcqs/pathology/part01.ndjson.gz",
+      "before": 432122,
+      "after": 7111389
+    },
+    {
+      "file": "data/mcqs/pedagogy/part01.ndjson.gz",
+      "before": 6538,
+      "after": 47572
+    },
+    {
+      "file": "data/mcqs/pediatrics/part01.ndjson.gz",
+      "before": 395969,
+      "after": 7473308
+    },
+    {
+      "file": "data/mcqs/petroleum-engineering/part01.ndjson.gz",
+      "before": 480919,
+      "after": 7780168
+    },
+    {
+      "file": "data/mcqs/pharmacology/part01.ndjson.gz",
+      "before": 436593,
+      "after": 7461057
+    },
+    {
+      "file": "data/mcqs/pharmacy/part01.ndjson.gz",
+      "before": 423575,
+      "after": 7736927
+    },
+    {
+      "file": "data/mcqs/php/part01.ndjson.gz",
+      "before": 398063,
+      "after": 7354280
+    },
+    {
+      "file": "data/mcqs/physical-education/part01.ndjson.gz",
+      "before": 3422,
+      "after": 26626
+    },
+    {
+      "file": "data/mcqs/physics/part01.ndjson.gz",
+      "before": 712651,
+      "after": 14708275
+    },
+    {
+      "file": "data/mcqs/physiology/part01.ndjson.gz",
+      "before": 433870,
+      "after": 7133792
+    },
+    {
+      "file": "data/mcqs/pma/part01.ndjson.gz",
+      "before": 4460,
+      "after": 30855
+    },
+    {
+      "file": "data/mcqs/pms/part01.ndjson.gz",
+      "before": 1387,
+      "after": 6757
+    },
+    {
+      "file": "data/mcqs/police/part01.ndjson.gz",
+      "before": 1341,
+      "after": 6645
+    },
+    {
+      "file": "data/mcqs/political-science/part01.ndjson.gz",
+      "before": 385532,
+      "after": 7894621
+    },
+    {
+      "file": "data/mcqs/postgresql/part01.ndjson.gz",
+      "before": 386135,
+      "after": 7098856
+    },
+    {
+      "file": "data/mcqs/ppsc/part01.ndjson.gz",
+      "before": 1320,
+      "after": 6648
+    },
+    {
+      "file": "data/mcqs/programming/part01.ndjson.gz",
+      "before": 7826,
+      "after": 58043
+    },
+    {
+      "file": "data/mcqs/programming-fundamentals/part01.ndjson.gz",
+      "before": 431300,
+      "after": 7212164
+    },
+    {
+      "file": "data/mcqs/project-management/part01.ndjson.gz",
+      "before": 393959,
+      "after": 7035222
+    },
+    {
+      "file": "data/mcqs/psychology/part01.ndjson.gz",
+      "before": 422757,
+      "after": 8395591
+    },
+    {
+      "file": "data/mcqs/pts/part01.ndjson.gz",
+      "before": 1314,
+      "after": 6634
+    },
+    {
+      "file": "data/mcqs/public-health/part01.ndjson.gz",
+      "before": 437505,
+      "after": 8326309
+    },
+    {
+      "file": "data/mcqs/punjab-police/part01.ndjson.gz",
+      "before": 4493,
+      "after": 33020
+    },
+    {
+      "file": "data/mcqs/python/part01.ndjson.gz",
+      "before": 400619,
+      "after": 7577855
+    },
+    {
+      "file": "data/mcqs/railway/part01.ndjson.gz",
+      "before": 1388,
+      "after": 6766
+    },
+    {
+      "file": "data/mcqs/react/part01.ndjson.gz",
+      "before": 423555,
+      "after": 6760283
+    },
+    {
+      "file": "data/mcqs/reasoning/part01.ndjson.gz",
+      "before": 5781,
+      "after": 47477
+    },
+    {
+      "file": "data/mcqs/rescue-1122/part01.ndjson.gz",
+      "before": 2572,
+      "after": 19432
+    },
+    {
+      "file": "data/mcqs/rest-api/part01.ndjson.gz",
+      "before": 2951,
+      "after": 23073
+    },
+    {
+      "file": "data/mcqs/rust/part01.ndjson.gz",
+      "before": 741791,
+      "after": 13775234
+    },
+    {
+      "file": "data/mcqs/sat/part01.ndjson.gz",
+      "before": 2250,
+      "after": 14571
+    },
+    {
+      "file": "data/mcqs/sbp/part01.ndjson.gz",
+      "before": 3261,
+      "after": 21834
+    },
+    {
+      "file": "data/mcqs/sentence-correction/part01.ndjson.gz",
+      "before": 412035,
+      "after": 7095351
+    },
+    {
+      "file": "data/mcqs/sepco/part01.ndjson.gz",
+      "before": 2199,
+      "after": 13707
+    },
+    {
+      "file": "data/mcqs/sngpl/part01.ndjson.gz",
+      "before": 2180,
+      "after": 13623
+    },
+    {
+      "file": "data/mcqs/sociology/part01.ndjson.gz",
+      "before": 3852,
+      "after": 29013
+    },
+    {
+      "file": "data/mcqs/software-eng/part01.ndjson.gz",
+      "before": 427934,
+      "after": 7176263
+    },
+    {
+      "file": "data/mcqs/spring-boot/part01.ndjson.gz",
+      "before": 2614,
+      "after": 20246
+    },
+    {
+      "file": "data/mcqs/spsc/part01.ndjson.gz",
+      "before": 6800,
+      "after": 50713
+    },
+    {
+      "file": "data/mcqs/sql/part01.ndjson.gz",
+      "before": 415449,
+      "after": 6665219
+    },
+    {
+      "file": "data/mcqs/sqlite/part01.ndjson.gz",
+      "before": 401104,
+      "after": 6889093
+    },
+    {
+      "file": "data/mcqs/ssgc/part01.ndjson.gz",
+      "before": 2351,
+      "after": 15343
+    },
+    {
+      "file": "data/mcqs/sst/part01.ndjson.gz",
+      "before": 2360,
+      "after": 15543
+    },
+    {
+      "file": "data/mcqs/statistics/part01.ndjson.gz",
+      "before": 3351087,
+      "after": 62503073
+    },
+    {
+      "file": "data/mcqs/sub-inspector/part01.ndjson.gz",
+      "before": 2435,
+      "after": 16910
+    },
+    {
+      "file": "data/mcqs/supply-chain/part01.ndjson.gz",
+      "before": 425243,
+      "after": 7328594
+    },
+    {
+      "file": "data/mcqs/surgery/part01.ndjson.gz",
+      "before": 426816,
+      "after": 6958633
+    },
+    {
+      "file": "data/mcqs/synonyms/part01.ndjson.gz",
+      "before": 404834,
+      "after": 6643039
+    },
+    {
+      "file": "data/mcqs/system-design/part01.ndjson.gz",
+      "before": 404518,
+      "after": 7161734
+    },
+    {
+      "file": "data/mcqs/tailwind-css/part01.ndjson.gz",
+      "before": 3509,
+      "after": 29113
+    },
+    {
+      "file": "data/mcqs/taxation/part01.ndjson.gz",
+      "before": 449484,
+      "after": 6956012
+    },
+    {
+      "file": "data/mcqs/teaching/part01.ndjson.gz",
+      "before": 2688,
+      "after": 18361
+    },
+    {
+      "file": "data/mcqs/telecommunication/part01.ndjson.gz",
+      "before": 396609,
+      "after": 7096724
+    },
+    {
+      "file": "data/mcqs/textile-engineering/part01.ndjson.gz",
+      "before": 436229,
+      "after": 7443675
+    },
+    {
+      "file": "data/mcqs/toefl/part01.ndjson.gz",
+      "before": 2972,
+      "after": 20526
+    },
+    {
+      "file": "data/mcqs/typescript/part01.ndjson.gz",
+      "before": 403479,
+      "after": 7147325
+    },
+    {
+      "file": "data/mcqs/unassigned/part01.ndjson.gz",
+      "before": 20,
+      "after": 0
+    },
+    {
+      "file": "data/mcqs/urdu/part01.ndjson.gz",
+      "before": 432310,
+      "after": 8861879
+    },
+    {
+      "file": "data/mcqs/verbal-reasoning/part01.ndjson.gz",
+      "before": 33112,
+      "after": 506357
+    },
+    {
+      "file": "data/mcqs/veterinary/part01.ndjson.gz",
+      "before": 3205,
+      "after": 24664
+    },
+    {
+      "file": "data/mcqs/vocabulary/part01.ndjson.gz",
+      "before": 405576,
+      "after": 6940256
+    },
+    {
+      "file": "data/mcqs/vue-js/part01.ndjson.gz",
+      "before": 432904,
+      "after": 6802333
+    },
+    {
+      "file": "data/mcqs/wapda/part01.ndjson.gz",
+      "before": 4616,
+      "after": 32250
+    },
+    {
+      "file": "data/mcqs/web-development/part01.ndjson.gz",
+      "before": 426042,
+      "after": 7220872
+    },
+    {
+      "file": "data/mcqs/windows/part01.ndjson.gz",
+      "before": 4611,
+      "after": 40365
+    },
+    {
+      "file": "data/mcqs/world-current-affairs/part01.ndjson.gz",
+      "before": 4339,
+      "after": 32358
+    },
+    {
+      "file": "data/mcqs/world-history/part01.ndjson.gz",
+      "before": 406033,
+      "after": 7646692
+    },
+    {
+      "file": "data/mcqs/zoology/part01.ndjson.gz",
+      "before": 5879,
+      "after": 49693
+    },
+    {
+      "file": "data/other/mcqs_fts.ndjson.gz",
+      "before": 15647162,
+      "after": 268797389
+    },
+    {
+      "file": "data/other/mcqs_fts_config.ndjson.gz",
+      "before": 42,
+      "after": 22
+    },
+    {
+      "file": "data/other/mcqs_fts_data-part01.ndjson.gz",
+      "before": 60666104,
+      "after": 217746749
+    },
+    {
+      "file": "data/other/mcqs_fts_data-part02.ndjson.gz",
+      "before": 63303664,
+      "after": 215791349
+    },
+    {
+      "file": "data/other/mcqs_fts_data-part03.ndjson.gz",
+      "before": 63452939,
+      "after": 223505273
+    },
+    {
+      "file": "data/other/mcqs_fts_data-part04.ndjson.gz",
+      "before": 61413343,
+      "after": 222888803
+    },
+    {
+      "file": "data/other/mcqs_fts_data-part05.ndjson.gz",
+      "before": 55112201,
+      "after": 195963948
+    },
+    {
+      "file": "data/other/mcqs_fts_docsize.ndjson.gz",
+      "before": 2532200,
+      "after": 35854727
+    },
+    {
+      "file": "data/other/mcqs_fts_idx.ndjson.gz",
+      "before": 54537,
+      "after": 483009
+    },
+    {
+      "file": "data/other/pipeline_state.ndjson.gz",
+      "before": 12410,
+      "after": 67042
+    },
+    {
+      "file": "data/other/references_tbl.ndjson.gz",
+      "before": 997,
+      "after": 9117
+    },
+    {
+      "file": "data/publishing/kg_pending_changes.ndjson.gz",
+      "before": 4708,
+      "after": 68633
+    },
+    {
+      "file": "data/publishing/mcq_audit_log.ndjson.gz",
+      "before": 3850,
+      "after": 92193
+    },
+    {
+      "file": "data/publishing/mcq_generation_queue.ndjson.gz",
+      "before": 7953,
+      "after": 77340
+    },
+    {
+      "file": "data/publishing/mcq_releases.ndjson.gz",
+      "before": 241,
+      "after": 341
+    },
+    {
+      "file": "data/publishing/mcq_rollback_points.ndjson.gz",
+      "before": 2443,
+      "after": 31836
+    },
+    {
+      "file": "data/publishing/mcq_versions.ndjson.gz",
+      "before": 25091,
+      "after": 294060
+    },
+    {
+      "file": "data/review/kg_validation_reports.ndjson.gz",
+      "before": 690,
+      "after": 7217
+    },
+    {
+      "file": "data/review/mcq_reviews.ndjson.gz",
+      "before": 1343,
+      "after": 12714
+    },
+    {
+      "file": "data/subjects/categories.ndjson.gz",
+      "before": 1273,
+      "after": 4423
+    },
+    {
+      "file": "data/subjects/subjects.ndjson.gz",
+      "before": 13859,
+      "after": 82215
+    },
+    {
+      "file": "data/subtopics/subtopics.ndjson.gz",
+      "before": 42021,
+      "after": 386424
+    },
+    {
+      "file": "data/topics/topics.ndjson.gz",
+      "before": 36744,
+      "after": 252249
+    },
+    {
+      "file": "data/users/achievements.ndjson.gz",
+      "before": 124,
+      "after": 120
+    },
+    {
+      "file": "data/users/bookmarks.ndjson.gz",
+      "before": 148,
+      "after": 442
+    },
+    {
+      "file": "data/users/current_affairs.ndjson.gz",
+      "before": 1648,
+      "after": 47432
+    },
+    {
+      "file": "data/users/flashcards.ndjson.gz",
+      "before": 2777,
+      "after": 11598
+    },
+    {
+      "file": "data/users/notifications.ndjson.gz",
+      "before": 165,
+      "after": 192
+    },
+    {
+      "file": "data/users/predictions.ndjson.gz",
+      "before": 531,
+      "after": 5211
+    },
+    {
+      "file": "data/users/recommendations.ndjson.gz",
+      "before": 448,
+      "after": 1392
+    },
+    {
+      "file": "data/users/revision_schedule.ndjson.gz",
+      "before": 255,
+      "after": 532
+    },
+    {
+      "file": "data/users/strong_topics.ndjson.gz",
+      "before": 20,
+      "after": 0
+    },
+    {
+      "file": "data/users/study_plans.ndjson.gz",
+      "before": 645,
+      "after": 3898
+    },
+    {
+      "file": "data/users/user_profiles.ndjson.gz",
+      "before": 254,
+      "after": 358
+    },
+    {
+      "file": "data/users/weak_topics.ndjson.gz",
+      "before": 389,
+      "after": 1765
+    }
+  ],
+  "totals": {
+    "in_bytes": 426173668,
+    "out_bytes": 2997232025
+  }
+}

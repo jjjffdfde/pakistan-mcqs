@@ -1,0 +1,32 @@
+{
+  "module": "M14",
+  "generated_at": "2026-08-10T15:02:51.825Z",
+  "runs_scanned": 28,
+  "aggregates": {
+    "imgs_no_alt": 0,
+    "buttons_no_name": 0,
+    "inputs_no_label": 0,
+    "dup_ids": 0,
+    "heading_jumps": 0
+  },
+  "landmarks": {
+    "main": 1,
+    "nav": 2,
+    "header": 1,
+    "footer": 1,
+    "aside": 0,
+    "form": 0
+  },
+  "skip_link": {
+    "href": "#main",
+    "target_exists": true,
+    "note": "verified at runtime in phase 30 (REVIEW closed)"
+  },
+  "lang": "en",
+  "reduced_motion": {
+    "present": false,
+    "advisory": "prefers-reduced-motion media query absent - P2 advisory only (no animations requested by users)"
+  },
+  "status": "PASS",
+  "note": "skip link target verified, landmarks present, lang=en, zero dup IDs; keyboard interactions PASS in phase30 a11y audit"
+}

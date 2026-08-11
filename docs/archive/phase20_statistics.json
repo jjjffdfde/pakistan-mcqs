@@ -1,0 +1,21 @@
+{
+  "phase": 20,
+  "generated_at": "2026-08-06T08:10:34",
+  "execution_time_ms": 808568,
+  "statistics": {
+    "students_processed": 1,
+    "total_attempts": 54,
+    "subjects_processed": 243,
+    "concepts_analyzed": 1744,
+    "exams_analyzed": 62,
+    "learning_paths_generated": 0,
+    "revision_plans_generated": 11,
+    "dashboards_generated": 1,
+    "institution_reports": 729,
+    "kpi_count": 8,
+    "forecast_metrics": 5,
+    "api_endpoints": 6,
+    "integrity_score": 1,
+    "validation_score": 1
+  }
+}

@@ -1,0 +1,1850 @@
+{
+  "generated": "2026-08-10T11:01:09.906Z",
+  "tool": "scripts/phase30/runtime.cjs",
+  "runs": [
+    {
+      "page": "index.html",
+      "w": 1366,
+      "h": 900,
+      "inter": true,
+      "ms": 66545,
+      "errors": 0,
+      "fatal": null,
+      "interactions": 24,
+      "interaction_status": [
+        "home_rendered:PASS",
+        "theme_toggle:PASS",
+        "menu_toggle:PASS",
+        "nav_buttons:PASS",
+        "qotd_reveal:PASS",
+        "search_suggestions:PASS",
+        "search_constitution:PASS",
+        "search_no_result:PASS",
+        "search_special_chars:PASS",
+        "search_case_and_multi:PASS",
+        "search_very_long:PASS",
+        "browse_filters:PASS",
+        "browse_pager:PASS",
+        "practice_workflow:PASS",
+        "practice_quit:PASS",
+        "mock_workflow:PASS",
+        "quiz_quit:PASS",
+        "quick_quiz_workflow:PASS",
+        "paper_workflow:PASS",
+        "dashboard_workflow:PASS",
+        "leaderboard_workflow:PASS",
+        "bookmarks_workflow:PASS",
+        "ai_coach_tabs:PASS",
+        "click_sweep:PASS"
+      ],
+      "layout": {
+        "docScrollW": 1351,
+        "docClientW": 1351,
+        "overflowX": 0,
+        "overflowing": [],
+        "fixedSticky": 1,
+        "minControl": {
+          "tag": "BUTTON",
+          "id": "",
+          "cls": "",
+          "w": 36,
+          "h": 36
+        }
+      },
+      "a11y": {
+        "headings": [],
+        "headingJumps": [],
+        "imgsNoAlt": [],
+        "btnNoName": [],
+        "inputsNoLabel": [],
+        "landmarks": {
+          "main": 1,
+          "nav": 2,
+          "header": 1,
+          "footer": 1,
+          "aside": 0,
+          "form": 0
+        },
+        "skipLink": {
+          "href": "#main",
+          "targetExists": true
+        },
+        "dupIds": [],
+        "lang": "en"
+      },
+      "perf": {
+        "domContentLoaded": 22,
+        "load": 66,
+        "resources": 30,
+        "bytes": 401428,
+        "slowest": [
+          {
+            "u": "http://localhost:8765/api/ai/profile",
+            "ms": 2813
+          },
+          {
+            "u": "http://localhost:8765/api/health",
+            "ms": 2506
+          },
+          {
+            "u": "http://localhost:8765/api/ai/profile",
+            "ms": 2457
+          },
+          {
+            "u": "http://localhost:8765/api/ai/profile",
+            "ms": 2341
+          },
+          {
+            "u": "http://localhost:8765/api/ai/profile",
+            "ms": 2336
+          }
+        ]
+      }
+    },
+    {
+      "page": "admin.html",
+      "w": 1366,
+      "h": 900,
+      "inter": true,
+      "ms": 38474,
+      "errors": 0,
+      "fatal": null,
+      "interactions": 8,
+      "interaction_status": [
+        "admin_loaded:PASS",
+        "admin_tabs:PASS",
+        "admin_stats:PASS",
+        "admin_add_category:PASS",
+        "admin_import_sample:PASS",
+        "admin_gen_setup:PASS",
+        "admin_dups:PASS",
+        "click_sweep:PASS"
+      ],
+      "layout": {
+        "docScrollW": 1366,
+        "docClientW": 1366,
+        "overflowX": 0,
+        "overflowing": [],
+        "fixedSticky": 1,
+        "minControl": {
+          "tag": "BUTTON",
+          "id": "darkToggle",
+          "cls": "icon-btn",
+          "w": 38,
+          "h": 38
+        }
+      },
+      "a11y": {
+        "headings": [],
+        "headingJumps": [],
+        "imgsNoAlt": [],
+        "btnNoName": [],
+        "inputsNoLabel": [],
+        "landmarks": {
+          "main": 1,
+          "nav": 1,
+          "header": 1,
+          "footer": 0,
+          "aside": 0,
+          "form": 0
+        },
+        "skipLink": null,
+        "dupIds": [],
+        "lang": "en"
+      },
+      "perf": {
+        "domContentLoaded": 18,
+        "load": 43,
+        "resources": 8,
+        "bytes": 1375550,
+        "slowest": [
+          {
+            "u": "http://127.0.0.1:8799/p28-inject.js",
+            "ms": 8
+          },
+          {
+            "u": "http://127.0.0.1:8799/data/chapters.json",
+            "ms": 6
+          },
+          {
+            "u": "http://127.0.0.1:8799/assets/css/style.css",
+            "ms": 5
+          },
+          {
+            "u": "http://127.0.0.1:8799/data/subjects.json",
+            "ms": 4
+          },
+          {
+            "u": "http://127.0.0.1:8799/assets/js/admin.js",
+            "ms": 3
+          }
+        ]
+      }
+    },
+    {
+      "page": "subjects/biology.html",
+      "w": 1366,
+      "h": 900,
+      "inter": true,
+      "ms": 28173,
+      "errors": 0,
+      "fatal": null,
+      "interactions": 2,
+      "interaction_status": [
+        "generic_load:PASS",
+        "click_sweep:PASS"
+      ],
+      "layout": {
+        "docScrollW": 1351,
+        "docClientW": 1351,
+        "overflowX": 0,
+        "overflowing": [],
+        "fixedSticky": 1,
+        "minControl": {
+          "tag": "A",
+          "id": "",
+          "cls": "btn btn-primary",
+          "w": 207,
+          "h": 46
+        }
+      },
+      "a11y": {
+        "headings": [],
+        "headingJumps": [],
+        "imgsNoAlt": [],
+        "btnNoName": [],
+        "inputsNoLabel": [],
+        "landmarks": {
+          "main": 1,
+          "nav": 1,
+          "header": 1,
+          "footer": 1,
+          "aside": 0,
+          "form": 0
+        },
+        "skipLink": null,
+        "dupIds": [],
+        "lang": "en"
+      },
+      "perf": {
+        "domContentLoaded": 13,
+        "load": 14,
+        "resources": 2,
+        "bytes": 21700,
+        "slowest": [
+          {
+            "u": "http://127.0.0.1:8799/p28-inject.js",
+            "ms": 3
+          },
+          {
+            "u": "http://127.0.0.1:8799/assets/css/style.css",
+            "ms": 2
+          }
+        ]
+      }
+    },
+    {
+      "page": "offline.html",
+      "w": 1366,
+      "h": 900,
+      "inter": true,
+      "ms": 28172,
+      "errors": 0,
+      "fatal": null,
+      "interactions": 4,
+      "interaction_status": [
+        "generic_load:PASS",
+        "offline_retry:PASS",
+        "offline_home:PASS",
+        "click_sweep:PASS"
+      ],
+      "layout": {
+        "docScrollW": 1366,
+        "docClientW": 1366,
+        "overflowX": 0,
+        "overflowing": [],
+        "fixedSticky": 0,
+        "minControl": {
+          "tag": "BUTTON",
+          "id": "offlineHome",
+          "cls": "btn btn-outline",
+          "w": 117,
+          "h": 42
+        }
+      },
+      "a11y": {
+        "headings": [],
+        "headingJumps": [],
+        "imgsNoAlt": [],
+        "btnNoName": [],
+        "inputsNoLabel": [],
+        "landmarks": {
+          "main": 0,
+          "nav": 0,
+          "header": 0,
+          "footer": 0,
+          "aside": 0,
+          "form": 0
+        },
+        "skipLink": null,
+        "dupIds": [],
+        "lang": "en"
+      },
+      "perf": {
+        "domContentLoaded": 46,
+        "load": 46,
+        "resources": 3,
+        "bytes": 34180,
+        "slowest": [
+          {
+            "u": "http://127.0.0.1:8799/p28-inject.js",
+            "ms": 15
+          },
+          {
+            "u": "http://127.0.0.1:8799/assets/icons/icon-192.png",
+            "ms": 13
+          },
+          {
+            "u": "http://127.0.0.1:8799/assets/css/style.css",
+            "ms": 10
+          }
+        ]
+      }
+    },
+    {
+      "page": "index.html",
+      "w": 1920,
+      "h": 1080,
+      "inter": false,
+      "ms": 28114,
+      "errors": 0,
+      "fatal": null,
+      "interactions": 1,
+      "interaction_status": [
+        "generic_load:PASS"
+      ],
+      "layout": {
+        "docScrollW": 1905,
+        "docClientW": 1905,
+        "overflowX": 0,
+        "overflowing": [],
+        "fixedSticky": 1,
+        "minControl": {
+          "tag": "BUTTON",
+          "id": "darkToggle",
+          "cls": "icon-btn",
+          "w": 38,
+          "h": 38
+        }
+      },
+      "a11y": {
+        "headings": [],
+        "headingJumps": [],
+        "imgsNoAlt": [],
+        "btnNoName": [],
+        "inputsNoLabel": [],
+        "landmarks": {
+          "main": 1,
+          "nav": 2,
+          "header": 1,
+          "footer": 1,
+          "aside": 0,
+          "form": 0
+        },
+        "skipLink": {
+          "href": "#main",
+          "targetExists": true
+        },
+        "dupIds": [],
+        "lang": "en"
+      },
+      "perf": {
+        "domContentLoaded": 24,
+        "load": 67,
+        "resources": 17,
+        "bytes": 401428,
+        "slowest": [
+          {
+            "u": "http://localhost:8765/api/health",
+            "ms": 2513
+          },
+          {
+            "u": "http://127.0.0.1:8765/api/health",
+            "ms": 2056
+          },
+          {
+            "u": "http://127.0.0.1:8799/data/mcqs.json",
+            "ms": 59
+          },
+          {
+            "u": "http://127.0.0.1:8799/data/programs.json",
+            "ms": 59
+          },
+          {
+            "u": "http://127.0.0.1:8799/data/mock_tests.json",
+            "ms": 58
+          }
+        ]
+      }
+    },
+    {
+      "page": "index.html",
+      "w": 1366,
+      "h": 900,
+      "inter": false,
+      "ms": 28080,
+      "errors": 0,
+      "fatal": null,
+      "interactions": 1,
+      "interaction_status": [
+        "generic_load:PASS"
+      ],
+      "layout": {
+        "docScrollW": 1351,
+        "docClientW": 1351,
+        "overflowX": 0,
+        "overflowing": [],
+        "fixedSticky": 1,
+        "minControl": {
+          "tag": "BUTTON",
+          "id": "darkToggle",
+          "cls": "icon-btn",
+          "w": 38,
+          "h": 38
+        }
+      },
+      "a11y": {
+        "headings": [],
+        "headingJumps": [],
+        "imgsNoAlt": [],
+        "btnNoName": [],
+        "inputsNoLabel": [],
+        "landmarks": {
+          "main": 1,
+          "nav": 2,
+          "header": 1,
+          "footer": 1,
+          "aside": 0,
+          "form": 0
+        },
+        "skipLink": {
+          "href": "#main",
+          "targetExists": true
+        },
+        "dupIds": [],
+        "lang": "en"
+      },
+      "perf": {
+        "domContentLoaded": 60,
+        "load": 62,
+        "resources": 17,
+        "bytes": 401428,
+        "slowest": [
+          {
+            "u": "http://localhost:8765/api/health",
+            "ms": 2507
+          },
+          {
+            "u": "http://127.0.0.1:8765/api/health",
+            "ms": 2041
+          },
+          {
+            "u": "http://127.0.0.1:8799/data/quizzes.json",
+            "ms": 50
+          },
+          {
+            "u": "http://127.0.0.1:8799/data/programs.json",
+            "ms": 49
+          },
+          {
+            "u": "http://127.0.0.1:8799/data/mock_tests.json",
+            "ms": 49
+          }
+        ]
+      }
+    },
+    {
+      "page": "index.html",
+      "w": 1024,
+      "h": 768,
+      "inter": false,
+      "ms": 28105,
+      "errors": 0,
+      "fatal": null,
+      "interactions": 1,
+      "interaction_status": [
+        "generic_load:PASS"
+      ],
+      "layout": {
+        "docScrollW": 1009,
+        "docClientW": 1009,
+        "overflowX": 0,
+        "overflowing": [],
+        "fixedSticky": 1,
+        "minControl": {
+          "tag": "BUTTON",
+          "id": "darkToggle",
+          "cls": "icon-btn",
+          "w": 38,
+          "h": 38
+        }
+      },
+      "a11y": {
+        "headings": [],
+        "headingJumps": [],
+        "imgsNoAlt": [],
+        "btnNoName": [],
+        "inputsNoLabel": [],
+        "landmarks": {
+          "main": 1,
+          "nav": 2,
+          "header": 1,
+          "footer": 1,
+          "aside": 0,
+          "form": 0
+        },
+        "skipLink": {
+          "href": "#main",
+          "targetExists": true
+        },
+        "dupIds": [],
+        "lang": "en"
+      },
+      "perf": {
+        "domContentLoaded": 21,
+        "load": 63,
+        "resources": 17,
+        "bytes": 401428,
+        "slowest": [
+          {
+            "u": "http://localhost:8765/api/health",
+            "ms": 2354
+          },
+          {
+            "u": "http://127.0.0.1:8765/api/health",
+            "ms": 2050
+          },
+          {
+            "u": "http://127.0.0.1:8799/data/categories.json",
+            "ms": 23
+          },
+          {
+            "u": "http://127.0.0.1:8799/data/mock_tests.json",
+            "ms": 22
+          },
+          {
+            "u": "http://127.0.0.1:8799/data/programs.json",
+            "ms": 22
+          }
+        ]
+      }
+    },
+    {
+      "page": "index.html",
+      "w": 768,
+      "h": 1024,
+      "inter": false,
+      "ms": 28058,
+      "errors": 0,
+      "fatal": null,
+      "interactions": 1,
+      "interaction_status": [
+        "generic_load:PASS"
+      ],
+      "layout": {
+        "docScrollW": 753,
+        "docClientW": 753,
+        "overflowX": 0,
+        "overflowing": [],
+        "fixedSticky": 1,
+        "minControl": {
+          "tag": "BUTTON",
+          "id": "darkToggle",
+          "cls": "icon-btn",
+          "w": 38,
+          "h": 38
+        }
+      },
+      "a11y": {
+        "headings": [],
+        "headingJumps": [],
+        "imgsNoAlt": [],
+        "btnNoName": [],
+        "inputsNoLabel": [],
+        "landmarks": {
+          "main": 1,
+          "nav": 2,
+          "header": 1,
+          "footer": 1,
+          "aside": 0,
+          "form": 0
+        },
+        "skipLink": {
+          "href": "#main",
+          "targetExists": true
+        },
+        "dupIds": [],
+        "lang": "en"
+      },
+      "perf": {
+        "domContentLoaded": 21,
+        "load": 64,
+        "resources": 17,
+        "bytes": 401428,
+        "slowest": [
+          {
+            "u": "http://localhost:8765/api/health",
+            "ms": 2510
+          },
+          {
+            "u": "http://127.0.0.1:8765/api/health",
+            "ms": 2038
+          },
+          {
+            "u": "http://127.0.0.1:8799/data/categories.json",
+            "ms": 55
+          },
+          {
+            "u": "http://127.0.0.1:8799/data/mock_tests.json",
+            "ms": 52
+          },
+          {
+            "u": "http://127.0.0.1:8799/data/mcqs.json",
+            "ms": 48
+          }
+        ]
+      }
+    },
+    {
+      "page": "index.html",
+      "w": 480,
+      "h": 900,
+      "inter": false,
+      "ms": 28129,
+      "errors": 0,
+      "fatal": null,
+      "interactions": 1,
+      "interaction_status": [
+        "generic_load:PASS"
+      ],
+      "layout": {
+        "docScrollW": 465,
+        "docClientW": 465,
+        "overflowX": 0,
+        "overflowing": [],
+        "fixedSticky": 1,
+        "minControl": {
+          "tag": "BUTTON",
+          "id": "darkToggle",
+          "cls": "icon-btn",
+          "w": 38,
+          "h": 38
+        }
+      },
+      "a11y": {
+        "headings": [],
+        "headingJumps": [],
+        "imgsNoAlt": [],
+        "btnNoName": [],
+        "inputsNoLabel": [],
+        "landmarks": {
+          "main": 1,
+          "nav": 2,
+          "header": 1,
+          "footer": 1,
+          "aside": 0,
+          "form": 0
+        },
+        "skipLink": {
+          "href": "#main",
+          "targetExists": true
+        },
+        "dupIds": [],
+        "lang": "en"
+      },
+      "perf": {
+        "domContentLoaded": 22,
+        "load": 65,
+        "resources": 17,
+        "bytes": 401428,
+        "slowest": [
+          {
+            "u": "http://localhost:8765/api/health",
+            "ms": 2509
+          },
+          {
+            "u": "http://127.0.0.1:8765/api/health",
+            "ms": 2040
+          },
+          {
+            "u": "http://127.0.0.1:8799/data/categories.json",
+            "ms": 28
+          },
+          {
+            "u": "http://127.0.0.1:8799/data/mock_tests.json",
+            "ms": 25
+          },
+          {
+            "u": "http://127.0.0.1:8799/data/programs.json",
+            "ms": 24
+          }
+        ]
+      }
+    },
+    {
+      "page": "index.html",
+      "w": 414,
+      "h": 896,
+      "inter": false,
+      "ms": 28134,
+      "errors": 0,
+      "fatal": null,
+      "interactions": 1,
+      "interaction_status": [
+        "generic_load:PASS"
+      ],
+      "layout": {
+        "docScrollW": 399,
+        "docClientW": 399,
+        "overflowX": 0,
+        "overflowing": [],
+        "fixedSticky": 1,
+        "minControl": {
+          "tag": "BUTTON",
+          "id": "darkToggle",
+          "cls": "icon-btn",
+          "w": 38,
+          "h": 38
+        }
+      },
+      "a11y": {
+        "headings": [],
+        "headingJumps": [],
+        "imgsNoAlt": [],
+        "btnNoName": [],
+        "inputsNoLabel": [],
+        "landmarks": {
+          "main": 1,
+          "nav": 2,
+          "header": 1,
+          "footer": 1,
+          "aside": 0,
+          "form": 0
+        },
+        "skipLink": {
+          "href": "#main",
+          "targetExists": true
+        },
+        "dupIds": [],
+        "lang": "en"
+      },
+      "perf": {
+        "domContentLoaded": 19,
+        "load": 62,
+        "resources": 17,
+        "bytes": 401428,
+        "slowest": [
+          {
+            "u": "http://localhost:8765/api/health",
+            "ms": 2503
+          },
+          {
+            "u": "http://127.0.0.1:8765/api/health",
+            "ms": 2038
+          },
+          {
+            "u": "http://127.0.0.1:8799/data/mcqs.json",
+            "ms": 46
+          },
+          {
+            "u": "http://127.0.0.1:8799/data/programs.json",
+            "ms": 46
+          },
+          {
+            "u": "http://127.0.0.1:8799/data/mock_tests.json",
+            "ms": 44
+          }
+        ]
+      }
+    },
+    {
+      "page": "index.html",
+      "w": 390,
+      "h": 844,
+      "inter": false,
+      "ms": 28174,
+      "errors": 0,
+      "fatal": null,
+      "interactions": 1,
+      "interaction_status": [
+        "generic_load:PASS"
+      ],
+      "layout": {
+        "docScrollW": 375,
+        "docClientW": 375,
+        "overflowX": 0,
+        "overflowing": [],
+        "fixedSticky": 1,
+        "minControl": {
+          "tag": "BUTTON",
+          "id": "darkToggle",
+          "cls": "icon-btn",
+          "w": 38,
+          "h": 38
+        }
+      },
+      "a11y": {
+        "headings": [],
+        "headingJumps": [],
+        "imgsNoAlt": [],
+        "btnNoName": [],
+        "inputsNoLabel": [],
+        "landmarks": {
+          "main": 1,
+          "nav": 2,
+          "header": 1,
+          "footer": 1,
+          "aside": 0,
+          "form": 0
+        },
+        "skipLink": {
+          "href": "#main",
+          "targetExists": true
+        },
+        "dupIds": [],
+        "lang": "en"
+      },
+      "perf": {
+        "domContentLoaded": 61,
+        "load": 62,
+        "resources": 17,
+        "bytes": 401428,
+        "slowest": [
+          {
+            "u": "http://localhost:8765/api/health",
+            "ms": 2506
+          },
+          {
+            "u": "http://127.0.0.1:8765/api/health",
+            "ms": 2041
+          },
+          {
+            "u": "http://127.0.0.1:8799/data/quizzes.json",
+            "ms": 51
+          },
+          {
+            "u": "http://127.0.0.1:8799/data/mock_tests.json",
+            "ms": 50
+          },
+          {
+            "u": "http://127.0.0.1:8799/data/categories.json",
+            "ms": 50
+          }
+        ]
+      }
+    },
+    {
+      "page": "index.html",
+      "w": 375,
+      "h": 812,
+      "inter": false,
+      "ms": 28056,
+      "errors": 0,
+      "fatal": null,
+      "interactions": 1,
+      "interaction_status": [
+        "generic_load:PASS"
+      ],
+      "layout": {
+        "docScrollW": 360,
+        "docClientW": 360,
+        "overflowX": 0,
+        "overflowing": [],
+        "fixedSticky": 1,
+        "minControl": {
+          "tag": "BUTTON",
+          "id": "darkToggle",
+          "cls": "icon-btn",
+          "w": 38,
+          "h": 38
+        }
+      },
+      "a11y": {
+        "headings": [],
+        "headingJumps": [],
+        "imgsNoAlt": [],
+        "btnNoName": [],
+        "inputsNoLabel": [],
+        "landmarks": {
+          "main": 1,
+          "nav": 2,
+          "header": 1,
+          "footer": 1,
+          "aside": 0,
+          "form": 0
+        },
+        "skipLink": {
+          "href": "#main",
+          "targetExists": true
+        },
+        "dupIds": [],
+        "lang": "en"
+      },
+      "perf": {
+        "domContentLoaded": 21,
+        "load": 62,
+        "resources": 17,
+        "bytes": 401428,
+        "slowest": [
+          {
+            "u": "http://localhost:8765/api/health",
+            "ms": 2514
+          },
+          {
+            "u": "http://127.0.0.1:8765/api/health",
+            "ms": 2052
+          },
+          {
+            "u": "http://127.0.0.1:8799/data/mcqs.json",
+            "ms": 51
+          },
+          {
+            "u": "http://127.0.0.1:8799/data/programs.json",
+            "ms": 47
+          },
+          {
+            "u": "http://127.0.0.1:8799/data/mock_tests.json",
+            "ms": 46
+          }
+        ]
+      }
+    },
+    {
+      "page": "index.html",
+      "w": 360,
+      "h": 800,
+      "inter": false,
+      "ms": 28213,
+      "errors": 0,
+      "fatal": null,
+      "interactions": 1,
+      "interaction_status": [
+        "generic_load:PASS"
+      ],
+      "layout": {
+        "docScrollW": 345,
+        "docClientW": 345,
+        "overflowX": 0,
+        "overflowing": [],
+        "fixedSticky": 1,
+        "minControl": {
+          "tag": "BUTTON",
+          "id": "darkToggle",
+          "cls": "icon-btn",
+          "w": 38,
+          "h": 38
+        }
+      },
+      "a11y": {
+        "headings": [],
+        "headingJumps": [],
+        "imgsNoAlt": [],
+        "btnNoName": [],
+        "inputsNoLabel": [],
+        "landmarks": {
+          "main": 1,
+          "nav": 2,
+          "header": 1,
+          "footer": 1,
+          "aside": 0,
+          "form": 0
+        },
+        "skipLink": {
+          "href": "#main",
+          "targetExists": true
+        },
+        "dupIds": [],
+        "lang": "en"
+      },
+      "perf": {
+        "domContentLoaded": 60,
+        "load": 61,
+        "resources": 17,
+        "bytes": 401428,
+        "slowest": [
+          {
+            "u": "http://localhost:8765/api/health",
+            "ms": 2507
+          },
+          {
+            "u": "http://127.0.0.1:8765/api/health",
+            "ms": 2040
+          },
+          {
+            "u": "http://127.0.0.1:8799/data/categories.json",
+            "ms": 24
+          },
+          {
+            "u": "http://127.0.0.1:8799/data/mock_tests.json",
+            "ms": 24
+          },
+          {
+            "u": "http://127.0.0.1:8799/data/programs.json",
+            "ms": 19
+          }
+        ]
+      }
+    },
+    {
+      "page": "admin.html",
+      "w": 1024,
+      "h": 768,
+      "inter": false,
+      "ms": 28225,
+      "errors": 0,
+      "fatal": null,
+      "interactions": 1,
+      "interaction_status": [
+        "generic_load:PASS"
+      ],
+      "layout": {
+        "docScrollW": 1024,
+        "docClientW": 1024,
+        "overflowX": 0,
+        "overflowing": [],
+        "fixedSticky": 1,
+        "minControl": {
+          "tag": "BUTTON",
+          "id": "darkToggle",
+          "cls": "icon-btn",
+          "w": 38,
+          "h": 38
+        }
+      },
+      "a11y": {
+        "headings": [],
+        "headingJumps": [],
+        "imgsNoAlt": [],
+        "btnNoName": [],
+        "inputsNoLabel": [],
+        "landmarks": {
+          "main": 1,
+          "nav": 1,
+          "header": 1,
+          "footer": 0,
+          "aside": 0,
+          "form": 0
+        },
+        "skipLink": null,
+        "dupIds": [],
+        "lang": "en"
+      },
+      "perf": {
+        "domContentLoaded": 18,
+        "load": 43,
+        "resources": 8,
+        "bytes": 1375550,
+        "slowest": [
+          {
+            "u": "http://127.0.0.1:8799/p28-inject.js",
+            "ms": 7
+          },
+          {
+            "u": "http://127.0.0.1:8799/data/chapters.json",
+            "ms": 6
+          },
+          {
+            "u": "http://127.0.0.1:8799/assets/css/style.css",
+            "ms": 4
+          },
+          {
+            "u": "http://127.0.0.1:8799/data/mcqs.json",
+            "ms": 3
+          },
+          {
+            "u": "http://127.0.0.1:8799/data/subjects.json",
+            "ms": 3
+          }
+        ]
+      }
+    },
+    {
+      "page": "admin.html",
+      "w": 768,
+      "h": 1024,
+      "inter": false,
+      "ms": 28236,
+      "errors": 0,
+      "fatal": null,
+      "interactions": 1,
+      "interaction_status": [
+        "generic_load:PASS"
+      ],
+      "layout": {
+        "docScrollW": 768,
+        "docClientW": 768,
+        "overflowX": 0,
+        "overflowing": [],
+        "fixedSticky": 1,
+        "minControl": {
+          "tag": "BUTTON",
+          "id": "darkToggle",
+          "cls": "icon-btn",
+          "w": 38,
+          "h": 38
+        }
+      },
+      "a11y": {
+        "headings": [],
+        "headingJumps": [],
+        "imgsNoAlt": [],
+        "btnNoName": [],
+        "inputsNoLabel": [],
+        "landmarks": {
+          "main": 1,
+          "nav": 1,
+          "header": 1,
+          "footer": 0,
+          "aside": 0,
+          "form": 0
+        },
+        "skipLink": null,
+        "dupIds": [],
+        "lang": "en"
+      },
+      "perf": {
+        "domContentLoaded": 21,
+        "load": 47,
+        "resources": 8,
+        "bytes": 1375550,
+        "slowest": [
+          {
+            "u": "http://127.0.0.1:8799/p28-inject.js",
+            "ms": 9
+          },
+          {
+            "u": "http://127.0.0.1:8799/data/chapters.json",
+            "ms": 6
+          },
+          {
+            "u": "http://127.0.0.1:8799/assets/css/style.css",
+            "ms": 5
+          },
+          {
+            "u": "http://127.0.0.1:8799/data/subjects.json",
+            "ms": 4
+          },
+          {
+            "u": "http://127.0.0.1:8799/data/mcqs.json",
+            "ms": 3
+          }
+        ]
+      }
+    },
+    {
+      "page": "admin.html",
+      "w": 414,
+      "h": 896,
+      "inter": false,
+      "ms": 28211,
+      "errors": 0,
+      "fatal": null,
+      "interactions": 1,
+      "interaction_status": [
+        "generic_load:PASS"
+      ],
+      "layout": {
+        "docScrollW": 414,
+        "docClientW": 414,
+        "overflowX": 0,
+        "overflowing": [],
+        "fixedSticky": 1,
+        "minControl": {
+          "tag": "BUTTON",
+          "id": "darkToggle",
+          "cls": "icon-btn",
+          "w": 38,
+          "h": 38
+        }
+      },
+      "a11y": {
+        "headings": [],
+        "headingJumps": [],
+        "imgsNoAlt": [],
+        "btnNoName": [],
+        "inputsNoLabel": [],
+        "landmarks": {
+          "main": 1,
+          "nav": 1,
+          "header": 1,
+          "footer": 0,
+          "aside": 0,
+          "form": 0
+        },
+        "skipLink": null,
+        "dupIds": [],
+        "lang": "en"
+      },
+      "perf": {
+        "domContentLoaded": 19,
+        "load": 44,
+        "resources": 8,
+        "bytes": 1375550,
+        "slowest": [
+          {
+            "u": "http://127.0.0.1:8799/p28-inject.js",
+            "ms": 8
+          },
+          {
+            "u": "http://127.0.0.1:8799/data/chapters.json",
+            "ms": 6
+          },
+          {
+            "u": "http://127.0.0.1:8799/assets/css/style.css",
+            "ms": 5
+          },
+          {
+            "u": "http://127.0.0.1:8799/data/subjects.json",
+            "ms": 4
+          },
+          {
+            "u": "http://127.0.0.1:8799/data/mcqs.json",
+            "ms": 3
+          }
+        ]
+      }
+    },
+    {
+      "page": "admin.html",
+      "w": 390,
+      "h": 844,
+      "inter": false,
+      "ms": 28102,
+      "errors": 0,
+      "fatal": null,
+      "interactions": 1,
+      "interaction_status": [
+        "generic_load:PASS"
+      ],
+      "layout": {
+        "docScrollW": 390,
+        "docClientW": 390,
+        "overflowX": 0,
+        "overflowing": [],
+        "fixedSticky": 1,
+        "minControl": {
+          "tag": "BUTTON",
+          "id": "darkToggle",
+          "cls": "icon-btn",
+          "w": 38,
+          "h": 38
+        }
+      },
+      "a11y": {
+        "headings": [],
+        "headingJumps": [],
+        "imgsNoAlt": [],
+        "btnNoName": [],
+        "inputsNoLabel": [],
+        "landmarks": {
+          "main": 1,
+          "nav": 1,
+          "header": 1,
+          "footer": 0,
+          "aside": 0,
+          "form": 0
+        },
+        "skipLink": null,
+        "dupIds": [],
+        "lang": "en"
+      },
+      "perf": {
+        "domContentLoaded": 16,
+        "load": 41,
+        "resources": 8,
+        "bytes": 1375550,
+        "slowest": [
+          {
+            "u": "http://127.0.0.1:8799/p28-inject.js",
+            "ms": 7
+          },
+          {
+            "u": "http://127.0.0.1:8799/data/chapters.json",
+            "ms": 5
+          },
+          {
+            "u": "http://127.0.0.1:8799/assets/css/style.css",
+            "ms": 4
+          },
+          {
+            "u": "http://127.0.0.1:8799/data/mcqs.json",
+            "ms": 4
+          },
+          {
+            "u": "http://127.0.0.1:8799/data/subjects.json",
+            "ms": 3
+          }
+        ]
+      }
+    },
+    {
+      "page": "admin.html",
+      "w": 360,
+      "h": 800,
+      "inter": false,
+      "ms": 28140,
+      "errors": 0,
+      "fatal": null,
+      "interactions": 1,
+      "interaction_status": [
+        "generic_load:PASS"
+      ],
+      "layout": {
+        "docScrollW": 345,
+        "docClientW": 345,
+        "overflowX": 0,
+        "overflowing": [],
+        "fixedSticky": 1,
+        "minControl": {
+          "tag": "BUTTON",
+          "id": "darkToggle",
+          "cls": "icon-btn",
+          "w": 38,
+          "h": 38
+        }
+      },
+      "a11y": {
+        "headings": [],
+        "headingJumps": [],
+        "imgsNoAlt": [],
+        "btnNoName": [],
+        "inputsNoLabel": [],
+        "landmarks": {
+          "main": 1,
+          "nav": 1,
+          "header": 1,
+          "footer": 0,
+          "aside": 0,
+          "form": 0
+        },
+        "skipLink": null,
+        "dupIds": [],
+        "lang": "en"
+      },
+      "perf": {
+        "domContentLoaded": 16,
+        "load": 42,
+        "resources": 8,
+        "bytes": 1375550,
+        "slowest": [
+          {
+            "u": "http://127.0.0.1:8799/p28-inject.js",
+            "ms": 7
+          },
+          {
+            "u": "http://127.0.0.1:8799/data/chapters.json",
+            "ms": 5
+          },
+          {
+            "u": "http://127.0.0.1:8799/assets/css/style.css",
+            "ms": 4
+          },
+          {
+            "u": "http://127.0.0.1:8799/data/subjects.json",
+            "ms": 4
+          },
+          {
+            "u": "http://127.0.0.1:8799/data/topics.json",
+            "ms": 3
+          }
+        ]
+      }
+    },
+    {
+      "page": "subjects/biology.html",
+      "w": 1366,
+      "h": 900,
+      "inter": false,
+      "ms": 28273,
+      "errors": 0,
+      "fatal": null,
+      "interactions": 1,
+      "interaction_status": [
+        "generic_load:PASS"
+      ],
+      "layout": {
+        "docScrollW": 1351,
+        "docClientW": 1351,
+        "overflowX": 0,
+        "overflowing": [],
+        "fixedSticky": 1,
+        "minControl": {
+          "tag": "A",
+          "id": "",
+          "cls": "btn btn-primary",
+          "w": 207,
+          "h": 46
+        }
+      },
+      "a11y": {
+        "headings": [],
+        "headingJumps": [],
+        "imgsNoAlt": [],
+        "btnNoName": [],
+        "inputsNoLabel": [],
+        "landmarks": {
+          "main": 1,
+          "nav": 1,
+          "header": 1,
+          "footer": 1,
+          "aside": 0,
+          "form": 0
+        },
+        "skipLink": null,
+        "dupIds": [],
+        "lang": "en"
+      },
+      "perf": {
+        "domContentLoaded": 17,
+        "load": 18,
+        "resources": 2,
+        "bytes": 21700,
+        "slowest": [
+          {
+            "u": "http://127.0.0.1:8799/p28-inject.js",
+            "ms": 4
+          },
+          {
+            "u": "http://127.0.0.1:8799/assets/css/style.css",
+            "ms": 3
+          }
+        ]
+      }
+    },
+    {
+      "page": "subjects/biology.html",
+      "w": 768,
+      "h": 1024,
+      "inter": false,
+      "ms": 28059,
+      "errors": 0,
+      "fatal": null,
+      "interactions": 1,
+      "interaction_status": [
+        "generic_load:PASS"
+      ],
+      "layout": {
+        "docScrollW": 753,
+        "docClientW": 753,
+        "overflowX": 0,
+        "overflowing": [],
+        "fixedSticky": 1,
+        "minControl": {
+          "tag": "A",
+          "id": "",
+          "cls": "btn btn-primary",
+          "w": 207,
+          "h": 46
+        }
+      },
+      "a11y": {
+        "headings": [],
+        "headingJumps": [],
+        "imgsNoAlt": [],
+        "btnNoName": [],
+        "inputsNoLabel": [],
+        "landmarks": {
+          "main": 1,
+          "nav": 1,
+          "header": 1,
+          "footer": 1,
+          "aside": 0,
+          "form": 0
+        },
+        "skipLink": null,
+        "dupIds": [],
+        "lang": "en"
+      },
+      "perf": {
+        "domContentLoaded": 13,
+        "load": 14,
+        "resources": 2,
+        "bytes": 21700,
+        "slowest": [
+          {
+            "u": "http://127.0.0.1:8799/p28-inject.js",
+            "ms": 3
+          },
+          {
+            "u": "http://127.0.0.1:8799/assets/css/style.css",
+            "ms": 2
+          }
+        ]
+      }
+    },
+    {
+      "page": "subjects/biology.html",
+      "w": 414,
+      "h": 896,
+      "inter": false,
+      "ms": 28114,
+      "errors": 0,
+      "fatal": null,
+      "interactions": 1,
+      "interaction_status": [
+        "generic_load:PASS"
+      ],
+      "layout": {
+        "docScrollW": 399,
+        "docClientW": 399,
+        "overflowX": 0,
+        "overflowing": [],
+        "fixedSticky": 1,
+        "minControl": {
+          "tag": "A",
+          "id": "",
+          "cls": "btn btn-primary",
+          "w": 207,
+          "h": 46
+        }
+      },
+      "a11y": {
+        "headings": [],
+        "headingJumps": [],
+        "imgsNoAlt": [],
+        "btnNoName": [],
+        "inputsNoLabel": [],
+        "landmarks": {
+          "main": 1,
+          "nav": 1,
+          "header": 1,
+          "footer": 1,
+          "aside": 0,
+          "form": 0
+        },
+        "skipLink": null,
+        "dupIds": [],
+        "lang": "en"
+      },
+      "perf": {
+        "domContentLoaded": 17,
+        "load": 19,
+        "resources": 2,
+        "bytes": 21700,
+        "slowest": [
+          {
+            "u": "http://127.0.0.1:8799/p28-inject.js",
+            "ms": 4
+          },
+          {
+            "u": "http://127.0.0.1:8799/assets/css/style.css",
+            "ms": 3
+          }
+        ]
+      }
+    },
+    {
+      "page": "subjects/biology.html",
+      "w": 390,
+      "h": 844,
+      "inter": false,
+      "ms": 28043,
+      "errors": 0,
+      "fatal": null,
+      "interactions": 1,
+      "interaction_status": [
+        "generic_load:PASS"
+      ],
+      "layout": {
+        "docScrollW": 375,
+        "docClientW": 375,
+        "overflowX": 0,
+        "overflowing": [],
+        "fixedSticky": 1,
+        "minControl": {
+          "tag": "A",
+          "id": "",
+          "cls": "btn btn-primary",
+          "w": 207,
+          "h": 46
+        }
+      },
+      "a11y": {
+        "headings": [],
+        "headingJumps": [],
+        "imgsNoAlt": [],
+        "btnNoName": [],
+        "inputsNoLabel": [],
+        "landmarks": {
+          "main": 1,
+          "nav": 1,
+          "header": 1,
+          "footer": 1,
+          "aside": 0,
+          "form": 0
+        },
+        "skipLink": null,
+        "dupIds": [],
+        "lang": "en"
+      },
+      "perf": {
+        "domContentLoaded": 12,
+        "load": 12,
+        "resources": 2,
+        "bytes": 21700,
+        "slowest": [
+          {
+            "u": "http://127.0.0.1:8799/p28-inject.js",
+            "ms": 3
+          },
+          {
+            "u": "http://127.0.0.1:8799/assets/css/style.css",
+            "ms": 2
+          }
+        ]
+      }
+    },
+    {
+      "page": "subjects/biology.html",
+      "w": 360,
+      "h": 800,
+      "inter": false,
+      "ms": 28052,
+      "errors": 0,
+      "fatal": null,
+      "interactions": 1,
+      "interaction_status": [
+        "generic_load:PASS"
+      ],
+      "layout": {
+        "docScrollW": 345,
+        "docClientW": 345,
+        "overflowX": 0,
+        "overflowing": [],
+        "fixedSticky": 1,
+        "minControl": {
+          "tag": "A",
+          "id": "",
+          "cls": "btn btn-primary",
+          "w": 207,
+          "h": 46
+        }
+      },
+      "a11y": {
+        "headings": [],
+        "headingJumps": [],
+        "imgsNoAlt": [],
+        "btnNoName": [],
+        "inputsNoLabel": [],
+        "landmarks": {
+          "main": 1,
+          "nav": 1,
+          "header": 1,
+          "footer": 1,
+          "aside": 0,
+          "form": 0
+        },
+        "skipLink": null,
+        "dupIds": [],
+        "lang": "en"
+      },
+      "perf": {
+        "domContentLoaded": 12,
+        "load": 12,
+        "resources": 2,
+        "bytes": 21700,
+        "slowest": [
+          {
+            "u": "http://127.0.0.1:8799/p28-inject.js",
+            "ms": 4
+          },
+          {
+            "u": "http://127.0.0.1:8799/assets/css/style.css",
+            "ms": 2
+          }
+        ]
+      }
+    },
+    {
+      "page": "offline.html",
+      "w": 375,
+      "h": 812,
+      "inter": false,
+      "ms": 28147,
+      "errors": 0,
+      "fatal": null,
+      "interactions": 3,
+      "interaction_status": [
+        "generic_load:PASS",
+        "offline_retry:PASS",
+        "offline_home:PASS"
+      ],
+      "layout": {
+        "docScrollW": 375,
+        "docClientW": 375,
+        "overflowX": 0,
+        "overflowing": [],
+        "fixedSticky": 0,
+        "minControl": {
+          "tag": "BUTTON",
+          "id": "offlineHome",
+          "cls": "btn btn-outline",
+          "w": 117,
+          "h": 42
+        }
+      },
+      "a11y": {
+        "headings": [],
+        "headingJumps": [],
+        "imgsNoAlt": [],
+        "btnNoName": [],
+        "inputsNoLabel": [],
+        "landmarks": {
+          "main": 0,
+          "nav": 0,
+          "header": 0,
+          "footer": 0,
+          "aside": 0,
+          "form": 0
+        },
+        "skipLink": null,
+        "dupIds": [],
+        "lang": "en"
+      },
+      "perf": {
+        "domContentLoaded": 48,
+        "load": 52,
+        "resources": 3,
+        "bytes": 34180,
+        "slowest": [
+          {
+            "u": "http://127.0.0.1:8799/assets/icons/icon-192.png",
+            "ms": 25
+          },
+          {
+            "u": "http://127.0.0.1:8799/p28-inject.js",
+            "ms": 15
+          },
+          {
+            "u": "http://127.0.0.1:8799/assets/css/style.css",
+            "ms": 7
+          }
+        ]
+      }
+    },
+    {
+      "page": "missing-page.html",
+      "w": 1366,
+      "h": 900,
+      "inter": false,
+      "ms": 28180,
+      "errors": 0,
+      "fatal": null,
+      "interactions": 1,
+      "interaction_status": [
+        "generic_load:PASS"
+      ],
+      "layout": {
+        "docScrollW": 1366,
+        "docClientW": 1366,
+        "overflowX": 0,
+        "overflowing": [],
+        "fixedSticky": 1,
+        "minControl": {
+          "tag": "A",
+          "id": "",
+          "cls": "btn btn-outline",
+          "w": 114,
+          "h": 46
+        }
+      },
+      "a11y": {
+        "headings": [],
+        "headingJumps": [],
+        "imgsNoAlt": [],
+        "btnNoName": [],
+        "inputsNoLabel": [],
+        "landmarks": {
+          "main": 1,
+          "nav": 1,
+          "header": 1,
+          "footer": 1,
+          "aside": 0,
+          "form": 0
+        },
+        "skipLink": null,
+        "dupIds": [],
+        "lang": "en"
+      },
+      "perf": {
+        "domContentLoaded": 11,
+        "load": 13,
+        "resources": 1,
+        "bytes": 21400,
+        "slowest": [
+          {
+            "u": "http://127.0.0.1:8799/assets/css/style.css",
+            "ms": 2
+          }
+        ]
+      }
+    },
+    {
+      "page": "missing-page.html",
+      "w": 375,
+      "h": 812,
+      "inter": false,
+      "ms": 28059,
+      "errors": 0,
+      "fatal": null,
+      "interactions": 1,
+      "interaction_status": [
+        "generic_load:PASS"
+      ],
+      "layout": {
+        "docScrollW": 375,
+        "docClientW": 375,
+        "overflowX": 0,
+        "overflowing": [],
+        "fixedSticky": 1,
+        "minControl": {
+          "tag": "A",
+          "id": "",
+          "cls": "btn btn-outline",
+          "w": 114,
+          "h": 46
+        }
+      },
+      "a11y": {
+        "headings": [],
+        "headingJumps": [],
+        "imgsNoAlt": [],
+        "btnNoName": [],
+        "inputsNoLabel": [],
+        "landmarks": {
+          "main": 1,
+          "nav": 1,
+          "header": 1,
+          "footer": 1,
+          "aside": 0,
+          "form": 0
+        },
+        "skipLink": null,
+        "dupIds": [],
+        "lang": "en"
+      },
+      "perf": {
+        "domContentLoaded": 9,
+        "load": 11,
+        "resources": 1,
+        "bytes": 21400,
+        "slowest": [
+          {
+            "u": "http://127.0.0.1:8799/assets/css/style.css",
+            "ms": 2
+          }
+        ]
+      }
+    }
+  ]
+}

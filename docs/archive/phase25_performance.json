@@ -1,0 +1,33 @@
+{
+  "step": "performance",
+  "generated_at": "2026-08-10T11:58:31.595Z",
+  "startup": {
+    "preload_app_js": true,
+    "preload_taxonomy": true,
+    "deferred_sw": true
+  },
+  "caching": {
+    "shell_prerendered": true,
+    "data_cached": true,
+    "install_caches_both": true
+  },
+  "compression": {
+    "server_gzip": false,
+    "gh_pages_gzip": true,
+    "png_bytes": 50248
+  },
+  "lazy_loading": {
+    "mcqs_json_async": true,
+    "search_debounced": true,
+    "admin_only": false
+  },
+  "memory": {
+    "cache_cleanup": true,
+    "recent_cap": true,
+    "data_single_json": 11
+  },
+  "offline_startup": {
+    "install_awaits_shell": true,
+    "skip_waiting": true
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "step": "monitoring",
+  "generated_at": "2026-08-10T12:08:42.260Z",
+  "summary": {
+    "db": "ok",
+    "api": "ok",
+    "status": "HEALTHY",
+    "mcqs_active": 872621,
+    "db_size_mb": 2105,
+    "api_health_ms": 73
+  },
+  "checks": {
+    "db": {
+      "ok": true,
+      "mcqs_total": 872621,
+      "mcqs_active": 872621,
+      "subjects": 243,
+      "chapters": 884,
+      "topics": 1597,
+      "integrity": "ok",
+      "journal_mode": "wal",
+      "page_size": 4096,
+      "page_count": 538791,
+      "db_bytes": 2206887936
+    },
+    "db_file": {
+      "ok": true,
+      "size_bytes": 2206887936,
+      "modified": "2026-08-05T08:07:23.096Z"
+    },
+    "api": {
+      "ok": true,
+      "status": 200,
+      "ms": 73,
+      "body": {
+        "ok": true,
+        "mcqs": 872621
+      },
+      "server_was_running": true,
+      "booted_for_check": true,
+      "boot_ms": 582
+    }
+  }
+}

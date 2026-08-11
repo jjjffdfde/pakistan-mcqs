@@ -1,0 +1,1589 @@
+{
+  "step": "enterprise_reports",
+  "generated_at": "2026-08-05T12:22:17",
+  "execution_summary": {
+    "total_duration_ms": 0,
+    "total_duration_seconds": 0,
+    "phases_completed": 12,
+    "phases": [
+      {
+        "step": 1,
+        "name": "Semantic Concept Graph",
+        "report": "phase17_semantic_graph.json"
+      },
+      {
+        "step": 2,
+        "name": "Prerequisite Discovery Engine",
+        "report": "phase17_prerequisite_graph.json"
+      },
+      {
+        "step": 3,
+        "name": "Learning Path Engine",
+        "report": "phase17_learning_paths.json"
+      },
+      {
+        "step": 4,
+        "name": "Concept Similarity Engine",
+        "report": "phase17_similarity_graph.json"
+      },
+      {
+        "step": 5,
+        "name": "Confusion Intelligence Engine",
+        "report": "phase17_confusion_report.json"
+      },
+      {
+        "step": 6,
+        "name": "Exam Intelligence Engine",
+        "report": "phase17_exam_intelligence.json"
+      },
+      {
+        "step": 7,
+        "name": "Adaptive Recommendation Engine",
+        "report": "phase17_recommendation_engine.json"
+      },
+      {
+        "step": 8,
+        "name": "Semantic Search Index",
+        "report": "phase17_search_index.json"
+      },
+      {
+        "step": 9,
+        "name": "Knowledge Analytics Engine",
+        "report": "phase17_analytics.json"
+      },
+      {
+        "step": 10,
+        "name": "Knowledge Integrity Engine",
+        "report": "phase17_integrity.json"
+      },
+      {
+        "step": 11,
+        "name": "Knowledge API Layer",
+        "report": "phase17_api_layer.json"
+      },
+      {
+        "step": 12,
+        "name": "Enterprise Reports",
+        "report": "phase17_execution_report.md"
+      }
+    ]
+  },
+  "data_sources": {
+    "database": "E:/pAK MCQS/db/pakistan-mcqs.sqlite",
+    "total_mcqs": 872603,
+    "total_concepts": 1744,
+    "total_micro_concepts": 12406,
+    "total_learning_objectives": 71501,
+    "total_exam_mappings": 15952
+  },
+  "methodology": {
+    "approach": "Pure data intelligence - reads existing database evidence only",
+    "no_ai": true,
+    "no_apis": true,
+    "no_llm": true,
+    "no_internet": true,
+    "no_fabricated_content": true,
+    "deterministic": true,
+    "reproducible": true,
+    "all_relationships_traceable": true,
+    "uncertain_relationships_marked_low_confidence": true
+  },
+  "key_findings": {
+    "semantic_graph": {
+      "total_concepts": 1744,
+      "total_relations": 2278,
+      "relation_type_counts": {
+        "parent": 876,
+        "child": 876,
+        "related": 501,
+        "depends_on": 22,
+        "prerequisite": 3
+      },
+      "avg_relation_weight": 0.87,
+      "sources": [
+        "kg_concept_relations",
+        "kg_prerequisites"
+      ],
+      "cooccurrence_summary": {
+        "chapter_cooccurrence": [
+          {
+            "chapter_id": "ch-pakistanaffairs-pakistan-affairs-deep-knowledge-bank",
+            "concept_count": 22
+          },
+          {
+            "chapter_id": "ch-islamicstudies-islamic-studies-deep-knowledge-bank",
+            "concept_count": 21
+          },
+          {
+            "chapter_id": "ch-mathem-mathematics-arithmetic",
+            "concept_count": 17
+          },
+          {
+            "chapter_id": "ch-everydayscience-everyday-science-deep-knowledge-bank",
+            "concept_count": 16
+          },
+          {
+            "chapter_id": "ch-generalknowledge-general-knowledge-deep-knowledge-bank",
+            "concept_count": 13
+          },
+          {
+            "chapter_id": "ch-computerscience-computer-science-deep-knowledge-bank",
+            "concept_count": 12
+          },
+          {
+            "chapter_id": "ch-biology-biology-deep-knowledge-bank",
+            "concept_count": 11
+          },
+          {
+            "chapter_id": "ch-chemistry-chemistry-deep-knowledge-bank",
+            "concept_count": 11
+          },
+          {
+            "chapter_id": "ch-economics-economics-deep-knowledge-bank",
+            "concept_count": 11
+          },
+          {
+            "chapter_id": "ch-law-law-deep-knowledge-bank",
+            "concept_count": 11
+          },
+          {
+            "chapter_id": "ch-ai-artificial-intelligence-deep-knowledge-b",
+            "concept_count": 9
+          },
+          {
+            "chapter_id": "ch-datascience-data-science-deep-knowledge-bank",
+            "concept_count": 9
+          },
+          {
+            "chapter_id": "ch-englishliterature-english-literature-deep-knowledge-bank",
+            "concept_count": 9
+          },
+          {
+            "chapter_id": "ch-environmentalscience-environmental-science-deep-knowledge",
+            "concept_count": 9
+          },
+          {
+            "chapter_id": "ch-machinelearning-machine-learning-deep-knowledge-bank",
+            "concept_count": 9
+          },
+          {
+            "chapter_id": "ch-politicalscience-political-science-deep-knowledge-bank",
+            "concept_count": 9
+          },
+          {
+            "chapter_id": "ch-accounting-accounting-deep-knowledge-bank",
+            "concept_count": 8
+          },
+          {
+            "chapter_id": "ch-currentaffairs-current-affairs-deep-knowledge-bank",
+            "concept_count": 8
+          },
+          {
+            "chapter_id": "ch-geography-geography-deep-knowledge-bank",
+            "concept_count": 8
+          },
+          {
+            "chapter_id": "ch-grammar-english-grammar-deep-knowledge-bank",
+            "concept_count": 8
+          }
+        ],
+        "topic_cooccurrence": [
+          {
+            "topic_id": "t-ch-computerscience-computer-science-deep-knowledge-bank-computing-ar",
+            "concept_count": 8
+          },
+          {
+            "topic_id": "t-ch-everydayscience-everyday-science-deep-knowledge-bank-numerical-ph",
+            "concept_count": 8
+          },
+          {
+            "topic_id": "t-ch-generalknowledge-general-knowledge-deep-knowledge-bank-world-nume",
+            "concept_count": 8
+          },
+          {
+            "topic_id": "t-ch-islamicstudies-islamic-studies-deep-knowledge-bank-zakat-sawm-and",
+            "concept_count": 8
+          },
+          {
+            "topic_id": "t-ch-pakistanaffairs-pakistan-affairs-deep-knowledge-bank-numeric-paki",
+            "concept_count": 8
+          },
+          {
+            "topic_id": "t-ch-ai-artificial-intelligence-deep-knowledge-b-machine-learning-mode",
+            "concept_count": 7
+          },
+          {
+            "topic_id": "t-ch-biology-biology-deep-knowledge-bank-human-body-systems",
+            "concept_count": 7
+          },
+          {
+            "topic_id": "t-ch-chemistry-chemistry-deep-knowledge-bank-periodic-table",
+            "concept_count": 7
+          },
+          {
+            "topic_id": "t-ch-currentaffairs-current-affairs-deep-knowledge-bank-world-and-orga",
+            "concept_count": 7
+          },
+          {
+            "topic_id": "t-ch-datascience-data-science-deep-knowledge-bank-statistics-for-data",
+            "concept_count": 7
+          },
+          {
+            "topic_id": "t-ch-economics-economics-deep-knowledge-bank-money-banking-and-finance",
+            "concept_count": 7
+          },
+          {
+            "topic_id": "t-ch-environmentalscience-environmental-science-deep-knowledge-ecology",
+            "concept_count": 7
+          },
+          {
+            "topic_id": "t-ch-history-history-deep-knowledge-bank-eras-and-civilisations",
+            "concept_count": 7
+          },
+          {
+            "topic_id": "t-ch-internationalrelations-international-relations-deep-knowl-diploma",
+            "concept_count": 7
+          },
+          {
+            "topic_id": "t-ch-law-law-deep-knowledge-bank-legal-calculations",
+            "concept_count": 7
+          },
+          {
+            "topic_id": "t-ch-machinelearning-machine-learning-deep-knowledge-bank-evaluation-a",
+            "concept_count": 7
+          },
+          {
+            "topic_id": "t-ch-pakistanhistory-pakistan-history-deep-knowledge-bank-rulers-and-p",
+            "concept_count": 7
+          },
+          {
+            "topic_id": "t-ch-politicalscience-political-science-deep-knowledge-bank-institutio",
+            "concept_count": 7
+          },
+          {
+            "topic_id": "t-ch-worldhistory-world-history-deep-knowledge-bank-modern-world-histo",
+            "concept_count": 7
+          },
+          {
+            "topic_id": "t-ch-accounting-accounting-deep-knowledge-bank-financial-statements",
+            "concept_count": 6
+          }
+        ],
+        "total_chapters_with_concepts": 546,
+        "total_topics_with_concepts": 868
+      }
+    },
+    "prerequisite_discovery": {
+      "total_prerequisites": 4826,
+      "source_breakdown": {
+        "kg_prerequisites": 3,
+        "kg_concept_relations_parent": 876,
+        "kg_concept_relations_depends_on": 22,
+        "chapter_sequence": 825,
+        "exam_mapping_sequence": 3100
+      },
+      "confidence_breakdown": {
+        "high": 901,
+        "low": 3925
+      },
+      "concepts_with_prereqs": 1654,
+      "avg_strength": 0.397
+    },
+    "learning_paths": {
+      "total_paths": 243,
+      "total_steps": 1744,
+      "subjects_covered": [
+        "accounting",
+        "agriculture",
+        "ai",
+        "ajkpsc",
+        "algorithms",
+        "analytical-reasoning",
+        "anatomy",
+        "anf",
+        "angular",
+        "anthropology",
+        "antonyms",
+        "aptitude-tests",
+        "architecture",
+        "army",
+        "artificial-intelligence",
+        "asf",
+        "assistant-director",
+        "auditing",
+        "auditing-standards",
+        "banking",
+        "bash",
+        "bds",
+        "behavioral-sciences",
+        "big-data",
+        "biochemistry",
+        "biology",
+        "biotechnology",
+        "bootstrap",
+        "botany",
+        "bpsc",
+        "business-admin",
+        "business-administration",
+        "business-law",
+        "c",
+        "chemical-eng",
+        "chemistry",
+        "civil-eng",
+        "cloud-computing",
+        "commerce",
+        "community-medicine",
+        "compiler-design",
+        "comprehension",
+        "computer-engineering",
+        "computer-graphics",
+        "computer-science",
+        "constitution",
+        "cpp",
+        "csharp",
+        "css",
+        "css-exam",
+        "cts",
+        "current-affairs",
+        "custom-inspector",
+        "cyber-security",
+        "data-interpretation",
+        "data-science",
+        "data-structures",
+        "database",
+        "deep-learning",
+        "dental-materials",
+        "dental-medicine",
+        "dental-surgery",
+        "devops",
+        "digital-logic",
+        "distributed-systems",
+        "django",
+        "docker",
+        "dotnet",
+        "dpt",
+        "ecat",
+        "economics",
+        "education",
+        "educators",
+        "election-officer",
+        "electrical-eng",
+        "electronics",
+        "english",
+        "english-literature",
+        "ent",
+        "entrepreneurship",
+        "environmental-eng",
+        "environmental-science",
+        "essay",
+        "est",
+        "ethical-hacking",
+        "everyday-science",
+        "express",
+        "express-js",
+        "fbr",
+        "fia",
+        "fia-inspector",
+        "finance",
+        "flask",
+        "forensic-medicine",
+        "forestry",
+        "fpsc",
+        "gat",
+        "general-anatomy",
+        "general-knowledge",
+        "geography",
+        "git",
+        "git-github",
+        "github",
+        "go",
+        "grammar",
+        "graphql",
+        "gre",
+        "gynecology",
+        "headmaster",
+        "hesco",
+        "histology",
+        "history",
+        "hrm",
+        "html",
+        "ib",
+        "idioms",
+        "ielts",
+        "income-tax-inspector",
+        "industrial-eng",
+        "inspector",
+        "international-relations",
+        "iq",
+        "islamic-studies",
+        "issb",
+        "java",
+        "javascript",
+        "kppsc",
+        "kubernetes",
+        "laravel",
+        "lat",
+        "law",
+        "lecturer",
+        "lesco",
+        "linux",
+        "logical-reasoning",
+        "machine-learning",
+        "management",
+        "management-accounting",
+        "marketing",
+        "mathematics",
+        "mbbs",
+        "mdcat",
+        "mechanical-eng",
+        "mechatronics",
+        "medical",
+        "medicine",
+        "mepco",
+        "microbiology",
+        "mining-engineering",
+        "mobile-development",
+        "mod",
+        "mongodb",
+        "motorway-police",
+        "ms-office",
+        "nab",
+        "nadra",
+        "navy",
+        "networking",
+        "next-js",
+        "node-js",
+        "non-verbal-reasoning",
+        "nosql",
+        "nts",
+        "nursing",
+        "nutrition",
+        "operating-systems",
+        "ophthalmology",
+        "oral-anatomy",
+        "oral-histology",
+        "oral-pathology",
+        "organization-behavior",
+        "ots",
+        "paf",
+        "pakistan-affairs",
+        "pakistan-history",
+        "pakistan-post",
+        "pathology",
+        "pedagogy",
+        "pediatrics",
+        "petroleum-engineering",
+        "pharmacology",
+        "pharmacy",
+        "php",
+        "physical-education",
+        "physics",
+        "physiology",
+        "pma",
+        "pms",
+        "police",
+        "political-science",
+        "postgresql",
+        "ppsc",
+        "programming",
+        "programming-fundamentals",
+        "project-management",
+        "psychology",
+        "pts",
+        "public-health",
+        "punjab-police",
+        "python",
+        "railway",
+        "react",
+        "reasoning",
+        "rescue-1122",
+        "rest-api",
+        "rust",
+        "sat",
+        "sbp",
+        "sentence-correction",
+        "sepco",
+        "sngpl",
+        "sociology",
+        "software-eng",
+        "spring-boot",
+        "spsc",
+        "sql",
+        "sqlite",
+        "ssgc",
+        "sst",
+        "statistics",
+        "sub-inspector",
+        "supply-chain",
+        "surgery",
+        "synonyms",
+        "system-design",
+        "tailwind-css",
+        "taxation",
+        "teaching",
+        "telecommunication",
+        "textile-engineering",
+        "toefl",
+        "typescript",
+        "urdu",
+        "verbal-reasoning",
+        "veterinary",
+        "vocabulary",
+        "vue-js",
+        "wapda",
+        "web-development",
+        "windows",
+        "world-current-affairs",
+        "world-history",
+        "zoology"
+      ]
+    },
+    "concept_similarity": {
+      "total_concepts": 1744,
+      "total_similarity_pairs": 721519,
+      "top_similar_pairs": 200,
+      "avg_similarity": 0.53,
+      "max_similarity": 1,
+      "min_similarity": 0.2
+    },
+    "confusion_intelligence": {
+      "total_mcqs_with_wrong_explanations": 872603,
+      "concepts_with_confusion_data": 0,
+      "subjects_with_confusion": 0,
+      "top_confused_concepts": []
+    },
+    "exam_intelligence": {
+      "total_exams": 62,
+      "total_exam_mappings": 15952,
+      "total_mcqs": 872603,
+      "year_range": null,
+      "top_exams_by_weight": [
+        {
+          "exam_id": "fpsc",
+          "total_weight": 1229.003,
+          "concept_count": 1230
+        },
+        {
+          "exam_id": "nts",
+          "total_weight": 1011,
+          "concept_count": 1011
+        },
+        {
+          "exam_id": "ppsc",
+          "total_weight": 892,
+          "concept_count": 892
+        },
+        {
+          "exam_id": "ib",
+          "total_weight": 649,
+          "concept_count": 649
+        },
+        {
+          "exam_id": "educators",
+          "total_weight": 561.222,
+          "concept_count": 563
+        },
+        {
+          "exam_id": "etea",
+          "total_weight": 406.032,
+          "concept_count": 408
+        },
+        {
+          "exam_id": "css",
+          "total_weight": 400,
+          "concept_count": 401
+        },
+        {
+          "exam_id": "pms",
+          "total_weight": 339,
+          "concept_count": 339
+        },
+        {
+          "exam_id": "nab",
+          "total_weight": 324,
+          "concept_count": 324
+        },
+        {
+          "exam_id": "mod",
+          "total_weight": 307,
+          "concept_count": 307
+        }
+      ],
+      "top_chapters_by_mcq_count": [
+        {
+          "chapter_id": "ch-mathem-mathematics-arithmetic",
+          "mcq_count": 115307,
+          "subject_count": 1
+        },
+        {
+          "chapter_id": "ch-statis-statistics-measures-and-methods",
+          "mcq_count": 42458,
+          "subject_count": 1
+        },
+        {
+          "chapter_id": "ch-rust-rust-code-output",
+          "mcq_count": 9449,
+          "subject_count": 1
+        },
+        {
+          "chapter_id": "ch-go-go-code-output",
+          "mcq_count": 7979,
+          "subject_count": 1
+        },
+        {
+          "chapter_id": "ch-csharp-c-code-output",
+          "mcq_count": 6664,
+          "subject_count": 1
+        },
+        {
+          "chapter_id": "ch-physic-physics-numericals",
+          "mcq_count": 5976,
+          "subject_count": 1
+        },
+        {
+          "chapter_id": "ch-cpp-c-code-output",
+          "mcq_count": 5961,
+          "subject_count": 1
+        },
+        {
+          "chapter_id": "ch-analyt-reasoning-verbal-and-analytical",
+          "mcq_count": 5523,
+          "subject_count": 1
+        },
+        {
+          "chapter_id": "ch-digitallogic-digital-logic-letter-skills-phase-11",
+          "mcq_count": 5426,
+          "subject_count": 1
+        },
+        {
+          "chapter_id": "ch-c-c-code-output",
+          "mcq_count": 5405,
+          "subject_count": 1
+        },
+        {
+          "chapter_id": "ch-finance-finance-deep-knowledge-bank",
+          "mcq_count": 5328,
+          "subject_count": 1
+        },
+        {
+          "chapter_id": "ch-datain-aptitude-quantitative-data",
+          "mcq_count": 5327,
+          "subject_count": 1
+        },
+        {
+          "chapter_id": "ch-machinelearning-machine-learning-deep-knowledge-bank",
+          "mcq_count": 5302,
+          "subject_count": 1
+        },
+        {
+          "chapter_id": "ch-architecture-architecture-letter-skills-phase-11",
+          "mcq_count": 5299,
+          "subject_count": 1
+        },
+        {
+          "chapter_id": "ch-nodejs-node-js-letter-skills-phase-11",
+          "mcq_count": 5277,
+          "subject_count": 1
+        },
+        {
+          "chapter_id": "ch-economics-economics-deep-knowledge-bank",
+          "mcq_count": 5276,
+          "subject_count": 1
+        },
+        {
+          "chapter_id": "ch-medical-medical-sciences-deep-knowledge-bank",
+          "mcq_count": 5252,
+          "subject_count": 1
+        },
+        {
+          "chapter_id": "ch-computerscience-computer-science-deep-knowledge-bank",
+          "mcq_count": 5249,
+          "subject_count": 1
+        },
+        {
+          "chapter_id": "ch-iq-reasoning-series-and-patterns",
+          "mcq_count": 5238,
+          "subject_count": 1
+        },
+        {
+          "chapter_id": "ch-docker-docker-letter-skills-phase-11",
+          "mcq_count": 5235,
+          "subject_count": 1
+        }
+      ],
+      "year_trends": [],
+      "difficulty_distribution": {
+        "easy": 208688,
+        "medium": 642364,
+        "hard": 21551
+      },
+      "bloom_distribution": {
+        "Understand": 248603,
+        "Apply": 621781,
+        "Recall": 1840,
+        "Analyze": 379
+      }
+    },
+    "recommendations": {
+      "total_concepts": 1744,
+      "total_recommendations": 1744,
+      "weak_concepts_count": 0,
+      "next_concepts_count": 127,
+      "revision_concepts_count": 0,
+      "avg_priority_score": 22.44,
+      "top_recommendations": [
+        {
+          "concept_id": 15437,
+          "concept_name": "Acids, Bases and Salts",
+          "priority_score": 55,
+          "recommendation_types": [
+            "prerequisite_review",
+            "high_frequency_review",
+            "exam_relevant",
+            "challenging_topic"
+          ]
+        },
+        {
+          "concept_id": 15505,
+          "concept_name": "Cyber Security",
+          "priority_score": 55,
+          "recommendation_types": [
+            "prerequisite_review",
+            "high_frequency_review",
+            "exam_relevant",
+            "challenging_topic"
+          ]
+        },
+        {
+          "concept_id": 15547,
+          "concept_name": "current affairs",
+          "priority_score": 55,
+          "recommendation_types": [
+            "prerequisite_review",
+            "high_frequency_review",
+            "exam_relevant",
+            "challenging_topic"
+          ]
+        },
+        {
+          "concept_id": 15548,
+          "concept_name": "current-affairs",
+          "priority_score": 55,
+          "recommendation_types": [
+            "prerequisite_review",
+            "high_frequency_review",
+            "exam_relevant",
+            "challenging_topic"
+          ]
+        },
+        {
+          "concept_id": 15549,
+          "concept_name": "deep-kb",
+          "priority_score": 55,
+          "recommendation_types": [
+            "prerequisite_review",
+            "high_frequency_review",
+            "exam_relevant",
+            "challenging_topic"
+          ]
+        },
+        {
+          "concept_id": 15550,
+          "concept_name": "pakistan",
+          "priority_score": 55,
+          "recommendation_types": [
+            "prerequisite_review",
+            "high_frequency_review",
+            "exam_relevant",
+            "challenging_topic"
+          ]
+        },
+        {
+          "concept_id": 15551,
+          "concept_name": "world",
+          "priority_score": 55,
+          "recommendation_types": [
+            "prerequisite_review",
+            "high_frequency_review",
+            "exam_relevant",
+            "challenging_topic"
+          ]
+        },
+        {
+          "concept_id": 15552,
+          "concept_name": "numbers",
+          "priority_score": 55,
+          "recommendation_types": [
+            "prerequisite_review",
+            "high_frequency_review",
+            "exam_relevant",
+            "challenging_topic"
+          ]
+        },
+        {
+          "concept_id": 15553,
+          "concept_name": "World and Organisations",
+          "priority_score": 55,
+          "recommendation_types": [
+            "prerequisite_review",
+            "high_frequency_review",
+            "exam_relevant",
+            "challenging_topic"
+          ]
+        },
+        {
+          "concept_id": 15792,
+          "concept_name": "Everyday Science",
+          "priority_score": 55,
+          "recommendation_types": [
+            "prerequisite_review",
+            "high_frequency_review",
+            "exam_relevant",
+            "challenging_topic"
+          ]
+        },
+        {
+          "concept_id": 15793,
+          "concept_name": "everyday-science",
+          "priority_score": 55,
+          "recommendation_types": [
+            "prerequisite_review",
+            "high_frequency_review",
+            "exam_relevant",
+            "challenging_topic"
+          ]
+        },
+        {
+          "concept_id": 15794,
+          "concept_name": "chemistry",
+          "priority_score": 55,
+          "recommendation_types": [
+            "prerequisite_review",
+            "high_frequency_review",
+            "exam_relevant",
+            "challenging_topic"
+          ]
+        },
+        {
+          "concept_id": 15795,
+          "concept_name": "biology",
+          "priority_score": 55,
+          "recommendation_types": [
+            "prerequisite_review",
+            "high_frequency_review",
+            "exam_relevant",
+            "challenging_topic"
+          ]
+        },
+        {
+          "concept_id": 15796,
+          "concept_name": "physics",
+          "priority_score": 55,
+          "recommendation_types": [
+            "prerequisite_review",
+            "high_frequency_review",
+            "exam_relevant",
+            "challenging_topic"
+          ]
+        },
+        {
+          "concept_id": 15797,
+          "concept_name": "units",
+          "priority_score": 55,
+          "recommendation_types": [
+            "prerequisite_review",
+            "high_frequency_review",
+            "exam_relevant",
+            "challenging_topic"
+          ]
+        },
+        {
+          "concept_id": 15798,
+          "concept_name": "deep-kb",
+          "priority_score": 55,
+          "recommendation_types": [
+            "prerequisite_review",
+            "high_frequency_review",
+            "exam_relevant",
+            "challenging_topic"
+          ]
+        },
+        {
+          "concept_id": 15799,
+          "concept_name": "Numerical Physics",
+          "priority_score": 55,
+          "recommendation_types": [
+            "prerequisite_review",
+            "high_frequency_review",
+            "exam_relevant",
+            "challenging_topic"
+          ]
+        },
+        {
+          "concept_id": 16463,
+          "concept_name": "Constitution of Pakistan",
+          "priority_score": 55,
+          "recommendation_types": [
+            "prerequisite_review",
+            "high_frequency_review",
+            "exam_relevant",
+            "challenging_topic"
+          ]
+        },
+        {
+          "concept_id": 15190,
+          "concept_name": "accounting",
+          "priority_score": 50,
+          "recommendation_types": [
+            "prerequisite_review",
+            "high_frequency_review",
+            "exam_relevant",
+            "related_study"
+          ]
+        },
+        {
+          "concept_id": 15191,
+          "concept_name": "depreciation",
+          "priority_score": 50,
+          "recommendation_types": [
+            "prerequisite_review",
+            "high_frequency_review",
+            "exam_relevant",
+            "related_study"
+          ]
+        },
+        {
+          "concept_id": 15192,
+          "concept_name": "deep-kb",
+          "priority_score": 50,
+          "recommendation_types": [
+            "prerequisite_review",
+            "high_frequency_review",
+            "exam_relevant",
+            "related_study"
+          ]
+        },
+        {
+          "concept_id": 15193,
+          "concept_name": "ratios",
+          "priority_score": 50,
+          "recommendation_types": [
+            "prerequisite_review",
+            "high_frequency_review",
+            "exam_relevant",
+            "related_study"
+          ]
+        },
+        {
+          "concept_id": 15194,
+          "concept_name": "financial-statements",
+          "priority_score": 50,
+          "recommendation_types": [
+            "prerequisite_review",
+            "high_frequency_review",
+            "exam_relevant",
+            "related_study"
+          ]
+        },
+        {
+          "concept_id": 15195,
+          "concept_name": "financial statements",
+          "priority_score": 50,
+          "recommendation_types": [
+            "prerequisite_review",
+            "high_frequency_review",
+            "exam_relevant",
+            "related_study"
+          ]
+        },
+        {
+          "concept_id": 15196,
+          "concept_name": "Accounting Principles",
+          "priority_score": 50,
+          "recommendation_types": [
+            "prerequisite_review",
+            "high_frequency_review",
+            "exam_relevant",
+            "related_study"
+          ]
+        },
+        {
+          "concept_id": 15198,
+          "concept_name": "Accounting Basics",
+          "priority_score": 50,
+          "recommendation_types": [
+            "prerequisite_review",
+            "high_frequency_review",
+            "exam_relevant",
+            "related_study"
+          ]
+        },
+        {
+          "concept_id": 15208,
+          "concept_name": "Artificial Intelligence",
+          "priority_score": 50,
+          "recommendation_types": [
+            "prerequisite_review",
+            "high_frequency_review",
+            "exam_relevant",
+            "related_study"
+          ]
+        },
+        {
+          "concept_id": 15209,
+          "concept_name": "deep-kb",
+          "priority_score": 50,
+          "recommendation_types": [
+            "prerequisite_review",
+            "high_frequency_review",
+            "exam_relevant",
+            "related_study"
+          ]
+        },
+        {
+          "concept_id": 15210,
+          "concept_name": "machine-learning",
+          "priority_score": 50,
+          "recommendation_types": [
+            "prerequisite_review",
+            "high_frequency_review",
+            "exam_relevant",
+            "related_study"
+          ]
+        },
+        {
+          "concept_id": 15211,
+          "concept_name": "neural-networks",
+          "priority_score": 50,
+          "recommendation_types": [
+            "prerequisite_review",
+            "high_frequency_review",
+            "exam_relevant",
+            "related_study"
+          ]
+        },
+        {
+          "concept_id": 15212,
+          "concept_name": "metrics",
+          "priority_score": 50,
+          "recommendation_types": [
+            "prerequisite_review",
+            "high_frequency_review",
+            "exam_relevant",
+            "related_study"
+          ]
+        },
+        {
+          "concept_id": 15213,
+          "concept_name": "Machine Learning Models",
+          "priority_score": 50,
+          "recommendation_types": [
+            "prerequisite_review",
+            "high_frequency_review",
+            "exam_relevant",
+            "related_study"
+          ]
+        },
+        {
+          "concept_id": 15216,
+          "concept_name": "AI Concepts",
+          "priority_score": 50,
+          "recommendation_types": [
+            "prerequisite_review",
+            "high_frequency_review",
+            "exam_relevant",
+            "related_study"
+          ]
+        },
+        {
+          "concept_id": 15266,
+          "concept_name": "Antonyms",
+          "priority_score": 50,
+          "recommendation_types": [
+            "prerequisite_review",
+            "high_frequency_review",
+            "exam_relevant",
+            "related_study"
+          ]
+        },
+        {
+          "concept_id": 15268,
+          "concept_name": "english",
+          "priority_score": 50,
+          "recommendation_types": [
+            "prerequisite_review",
+            "high_frequency_review",
+            "exam_relevant",
+            "related_study"
+          ]
+        },
+        {
+          "concept_id": 15269,
+          "concept_name": "words",
+          "priority_score": 50,
+          "recommendation_types": [
+            "prerequisite_review",
+            "high_frequency_review",
+            "exam_relevant",
+            "related_study"
+          ]
+        },
+        {
+          "concept_id": 15270,
+          "concept_name": "Word Lengths and Spelling",
+          "priority_score": 50,
+          "recommendation_types": [
+            "prerequisite_review",
+            "high_frequency_review",
+            "exam_relevant",
+            "related_study"
+          ]
+        },
+        {
+          "concept_id": 15271,
+          "concept_name": "Antonym Pairs",
+          "priority_score": 50,
+          "recommendation_types": [
+            "prerequisite_review",
+            "high_frequency_review",
+            "exam_relevant",
+            "related_study"
+          ]
+        },
+        {
+          "concept_id": 15272,
+          "concept_name": "Harder Antonyms",
+          "priority_score": 50,
+          "recommendation_types": [
+            "prerequisite_review",
+            "high_frequency_review",
+            "exam_relevant",
+            "related_study"
+          ]
+        },
+        {
+          "concept_id": 15277,
+          "concept_name": "aptitude",
+          "priority_score": 50,
+          "recommendation_types": [
+            "prerequisite_review",
+            "high_frequency_review",
+            "exam_relevant",
+            "related_study"
+          ]
+        },
+        {
+          "concept_id": 15278,
+          "concept_name": "Graph Reading",
+          "priority_score": 50,
+          "recommendation_types": [
+            "prerequisite_review",
+            "high_frequency_review",
+            "exam_relevant",
+            "related_study"
+          ]
+        },
+        {
+          "concept_id": 15279,
+          "concept_name": "Data Interpretation Tables",
+          "priority_score": 50,
+          "recommendation_types": [
+            "prerequisite_review",
+            "high_frequency_review",
+            "exam_relevant",
+            "related_study"
+          ]
+        },
+        {
+          "concept_id": 15281,
+          "concept_name": "topic-bank",
+          "priority_score": 50,
+          "recommendation_types": [
+            "prerequisite_review",
+            "high_frequency_review",
+            "exam_relevant",
+            "related_study"
+          ]
+        },
+        {
+          "concept_id": 15311,
+          "concept_name": "Auditing",
+          "priority_score": 50,
+          "recommendation_types": [
+            "prerequisite_review",
+            "high_frequency_review",
+            "exam_relevant",
+            "related_study"
+          ]
+        },
+        {
+          "concept_id": 15312,
+          "concept_name": "deep-kb",
+          "priority_score": 50,
+          "recommendation_types": [
+            "prerequisite_review",
+            "high_frequency_review",
+            "exam_relevant",
+            "related_study"
+          ]
+        },
+        {
+          "concept_id": 15313,
+          "concept_name": "Audit Process",
+          "priority_score": 50,
+          "recommendation_types": [
+            "prerequisite_review",
+            "high_frequency_review",
+            "exam_relevant",
+            "related_study"
+          ]
+        },
+        {
+          "concept_id": 15315,
+          "concept_name": "Spelling and Letter Building",
+          "priority_score": 50,
+          "recommendation_types": [
+            "prerequisite_review",
+            "high_frequency_review",
+            "exam_relevant",
+            "related_study"
+          ]
+        },
+        {
+          "concept_id": 15316,
+          "concept_name": "Letter Positions",
+          "priority_score": 50,
+          "recommendation_types": [
+            "prerequisite_review",
+            "high_frequency_review",
+            "exam_relevant",
+            "related_study"
+          ]
+        },
+        {
+          "concept_id": 15367,
+          "concept_name": "Biology",
+          "priority_score": 50,
+          "recommendation_types": [
+            "prerequisite_review",
+            "high_frequency_review",
+            "exam_relevant",
+            "related_study"
+          ]
+        },
+        {
+          "concept_id": 15370,
+          "concept_name": "deep-kb",
+          "priority_score": 50,
+          "recommendation_types": [
+            "prerequisite_review",
+            "high_frequency_review",
+            "exam_relevant",
+            "related_study"
+          ]
+        }
+      ]
+    },
+    "search_index": {
+      "index_entries": 101603,
+      "concept_entries": 1744,
+      "micro_concept_entries": 12406,
+      "objective_entries": 71501,
+      "exam_mapping_entries": 15952,
+      "unique_terms": 13214,
+      "terms_per_entry_avg": 14.24,
+      "mcq_statistics": {
+        "total_mcqs": 872603,
+        "by_difficulty": {
+          "easy": 208688,
+          "medium": 642364,
+          "hard": 21551
+        },
+        "by_bloom": {
+          "Understand": 248603,
+          "Apply": 621781,
+          "Recall": 1840,
+          "Analyze": 379
+        },
+        "by_subject": {
+          "pakistan-affairs": 5261,
+          "current-affairs": 5032,
+          "general-knowledge": 5086,
+          "islamic-studies": 5271,
+          "english": 106,
+          "urdu": 5000,
+          "mathematics": 115332,
+          "reasoning": 31,
+          "everyday-science": 5070,
+          "physics": 9326,
+          "chemistry": 5045,
+          "biology": 5013,
+          "botany": 26,
+          "zoology": 36,
+          "computer-science": 5312,
+          "ms-office": 34,
+          "pedagogy": 31,
+          "education": 17,
+          "psychology": 5073,
+          "economics": 5321,
+          "statistics": 42470,
+          "accounting": 5094,
+          "finance": 5350,
+          "commerce": 16,
+          "business-admin": 22,
+          "law": 5112,
+          "constitution": 29,
+          "geography": 5053,
+          "history": 5053,
+          "international-relations": 5111,
+          "political-science": 5056,
+          "sociology": 20,
+          "anthropology": 14,
+          "agriculture": 5147,
+          "veterinary": 17,
+          "nursing": 5202,
+          "medical": 5272,
+          "pharmacy": 5153,
+          "electrical-eng": 5154,
+          "mechanical-eng": 5265,
+          "civil-eng": 5080,
+          "software-eng": 5046,
+          "programming": 40,
+          "networking": 5018,
+          "operating-systems": 5052,
+          "cloud-computing": 5004,
+          "ai": 5094,
+          "data-science": 5167,
+          "cyber-security": 5130,
+          "english-literature": 5055,
+          "environmental-science": 5067,
+          "biotechnology": 21,
+          "electronics": 5049,
+          "chemical-eng": 5080,
+          "industrial-eng": 5152,
+          "environmental-eng": 5106,
+          "mechatronics": 5176,
+          "anatomy": 5098,
+          "physiology": 5101,
+          "pathology": 5110,
+          "microbiology": 5081,
+          "biochemistry": 5368,
+          "histology": 24,
+          "dental-materials": 5102,
+          "medicine": 5160,
+          "surgery": 5051,
+          "community-medicine": 5145,
+          "auditing": 5045,
+          "supply-chain": 5270,
+          "physical-education": 18,
+          "forestry": 17,
+          "essay": 23,
+          "vocabulary": 5004,
+          "grammar": 5085,
+          "synonyms": 5007,
+          "antonyms": 5016,
+          "idioms": 5057,
+          "sentence-correction": 5052,
+          "comprehension": 5055,
+          "iq": 5246,
+          "logical-reasoning": 279,
+          "analytical-reasoning": 5537,
+          "verbal-reasoning": 345,
+          "non-verbal-reasoning": 342,
+          "data-interpretation": 5343,
+          "aptitude-tests": 432,
+          "machine-learning": 5333,
+          "deep-learning": 5012,
+          "ethical-hacking": 23,
+          "devops": 24,
+          "big-data": 19,
+          "database": 5060,
+          "sql": 5002,
+          "windows": 30,
+          "linux": 5037,
+          "html": 5086,
+          "css": 5121,
+          "javascript": 5101,
+          "typescript": 5185,
+          "bootstrap": 31,
+          "tailwind-css": 22,
+          "react": 5012,
+          "next-js": 21,
+          "vue-js": 5037,
+          "angular": 5028,
+          "node-js": 5291,
+          "express-js": 20,
+          "php": 5097,
+          "laravel": 5018,
+          "python": 5113,
+          "django": 13,
+          "flask": 20,
+          "java": 5100,
+          "spring-boot": 14,
+          "c": 5428,
+          "cpp": 5993,
+          "csharp": 6690,
+          "dotnet": 15,
+          "go": 8003,
+          "rust": 9477,
+          "git-github": 31,
+          "docker": 5255,
+          "kubernetes": 5018,
+          "rest-api": 17,
+          "graphql": 20,
+          "computer-engineering": 21,
+          "mbbs": 15,
+          "bds": 17,
+          "dpt": 14,
+          "pharmacology": 5160,
+          "general-anatomy": 15,
+          "oral-anatomy": 5088,
+          "oral-histology": 5102,
+          "oral-pathology": 5073,
+          "hrm": 5183,
+          "marketing": 5337,
+          "world-history": 5006,
+          "pakistan-history": 5066,
+          "mdcat": 85,
+          "ecat": 12,
+          "lat": 65,
+          "gat": 11,
+          "gre": 11,
+          "ielts": 12,
+          "toefl": 16,
+          "sat": 11,
+          "world-current-affairs": 22,
+          "css-exam": 4,
+          "pms": 4,
+          "ppsc": 4,
+          "election-officer": 19,
+          "army": 4,
+          "navy": 29,
+          "paf": 29,
+          "pma": 28,
+          "issb": 4,
+          "police": 4,
+          "punjab-police": 29,
+          "motorway-police": 20,
+          "fia": 4,
+          "fia-inspector": 4,
+          "asf": 17,
+          "anf": 17,
+          "ib": 4,
+          "mod": 18,
+          "nab": 4,
+          "fpsc": 4,
+          "kppsc": 51,
+          "spsc": 48,
+          "bpsc": 44,
+          "ajkpsc": 43,
+          "nts": 4,
+          "ots": 4,
+          "cts": 4,
+          "pts": 4,
+          "educators": 4,
+          "lecturer": 4,
+          "railway": 4,
+          "wapda": 30,
+          "nadra": 15,
+          "fbr": 27,
+          "sbp": 20,
+          "banking": 31,
+          "rescue-1122": 19,
+          "lesco": 14,
+          "mepco": 14,
+          "hesco": 15,
+          "sepco": 14,
+          "ssgc": 16,
+          "sngpl": 14,
+          "pakistan-post": 19,
+          "teaching": 18,
+          "sst": 16,
+          "est": 16,
+          "headmaster": 17,
+          "inspector": 18,
+          "sub-inspector": 17,
+          "custom-inspector": 19,
+          "income-tax-inspector": 19,
+          "assistant-director": 18,
+          "algorithms": 5089,
+          "architecture": 5474,
+          "bash": 5029,
+          "behavioral-sciences": 5077,
+          "business-law": 5089,
+          "compiler-design": 5066,
+          "computer-graphics": 5058,
+          "data-structures": 5079,
+          "dental-medicine": 5484,
+          "dental-surgery": 5511,
+          "digital-logic": 5432,
+          "distributed-systems": 5176,
+          "ent": 5050,
+          "entrepreneurship": 5107,
+          "forensic-medicine": 5029,
+          "git": 5047,
+          "github": 5028,
+          "gynecology": 5113,
+          "management": 5269,
+          "mining-engineering": 5085,
+          "mobile-development": 5020,
+          "mongodb": 5039,
+          "nosql": 5043,
+          "nutrition": 5002,
+          "ophthalmology": 5039,
+          "pediatrics": 5092,
+          "petroleum-engineering": 5147,
+          "postgresql": 5064,
+          "programming-fundamentals": 5008,
+          "project-management": 5021,
+          "public-health": 5379,
+          "sqlite": 5046,
+          "system-design": 5013,
+          "taxation": 5104,
+          "telecommunication": 5007,
+          "textile-engineering": 5147,
+          "web-development": 5206,
+          "artificial-intelligence": 5021,
+          "auditing-standards": 5215,
+          "business-administration": 5047,
+          "express": 5043,
+          "management-accounting": 5759,
+          "organization-behavior": 5037
+        }
+      }
+    },
+    "analytics": {
+      "total_concepts": 1744,
+      "total_micro_concepts": 12406,
+      "total_objectives": 71501,
+      "total_blueprints": 107,
+      "total_relations": 2275,
+      "total_prerequisites": 3,
+      "total_exam_mappings": 15952,
+      "total_mcqs": 872603,
+      "total_distractor_pools": 1744,
+      "total_distractor_items": 33662,
+      "subject_count": 243,
+      "avg_concepts_per_subject": 7.18,
+      "avg_relations_per_concept": 1.3,
+      "avg_mcq_per_concept": 500.35,
+      "avg_objectives_per_concept": 41
+    },
+    "integrity": {
+      "total_issues": 1275,
+      "critical_issues": 0,
+      "high_issues": 1275,
+      "medium_issues": 0,
+      "low_issues": 0,
+      "issue_type_counts": {
+        "orphan_exam_mapping": 1275
+      },
+      "concepts_validated": 1744,
+      "relations_validated": 2275,
+      "prerequisites_validated": 3,
+      "exam_mappings_validated": 15952,
+      "circular_dependencies_detected": 0,
+      "integrity_score": 0.927
+    }
+  }
+}

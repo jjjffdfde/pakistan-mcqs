@@ -1,0 +1,982 @@
+[
+ {
+  "id": "mbs-006",
+  "question": "Which bone is the longest in the human body?",
+  "optionA": "femur",
+  "optionB": "humerus",
+  "optionC": "tibia",
+  "optionD": "fibula",
+  "correctAnswer": "A",
+  "detailedExplanation": "The femur (thigh bone) is the longest and strongest bone.",
+  "difficulty": "easy",
+  "subject": "mbbs",
+  "chapter": "mbbs-pre-clinical-basics",
+  "topic": "t-446",
+  "subtopic": "fundamentals",
+  "exam": [
+   "mdcat",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "anatomy",
+   "mbbs"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "mbs-007",
+  "question": "The normal resting heart rate of an adult is approximately:",
+  "optionA": "60-100 beats per minute",
+  "optionB": "120-150",
+  "optionC": "30-40",
+  "optionD": "150-200",
+  "correctAnswer": "A",
+  "detailedExplanation": "A normal adult resting pulse is 60-100 bpm.",
+  "difficulty": "easy",
+  "subject": "mbbs",
+  "chapter": "mbbs-pre-clinical-basics",
+  "topic": "t-447",
+  "subtopic": "fundamentals",
+  "exam": [
+   "mdcat",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "physiology",
+   "mbbs"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "mbs-008",
+  "question": "The most common cause of iron deficiency anaemia worldwide is:",
+  "optionA": "blood loss",
+  "optionB": "excess iron intake",
+  "optionC": "cold weather",
+  "optionD": "exercise",
+  "correctAnswer": "A",
+  "detailedExplanation": "Chronic blood loss (dietary deficiency in children) is the leading cause.",
+  "difficulty": "medium",
+  "subject": "mbbs",
+  "chapter": "mbbs-clinical-foundations",
+  "topic": "t-448",
+  "subtopic": "fundamentals",
+  "exam": [
+   "mdcat",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "medicine"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "mbs-009",
+  "question": "The appendectomy removes the:",
+  "optionA": "appendix",
+  "optionB": "tonsils",
+  "optionC": "gallbladder",
+  "optionD": "spleen",
+  "correctAnswer": "A",
+  "detailedExplanation": "Appendectomy is surgical removal of the vermiform appendix.",
+  "difficulty": "medium",
+  "subject": "mbbs",
+  "chapter": "mbbs-clinical-foundations",
+  "topic": "t-449",
+  "subtopic": "fundamentals",
+  "exam": [
+   "mdcat",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "surgery"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "mbs-010",
+  "question": "Which condition is caused by deficiency of vitamin D?",
+  "optionA": "rickets",
+  "optionB": "scurvy",
+  "optionC": "beriberi",
+  "optionD": "pellagra",
+  "correctAnswer": "A",
+  "detailedExplanation": "Vitamin D deficiency causes rickets in children and osteomalacia in adults.",
+  "difficulty": "medium",
+  "subject": "mbbs",
+  "chapter": "mbbs-clinical-foundations",
+  "topic": "t-448",
+  "subtopic": "fundamentals",
+  "exam": [
+   "mdcat",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "medicine",
+   "vitamins"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "bds-006",
+  "question": "In adults, the total number of permanent teeth is:",
+  "optionA": "32",
+  "optionB": "20",
+  "optionC": "28",
+  "optionD": "36",
+  "correctAnswer": "A",
+  "detailedExplanation": "Adults normally have 32 permanent teeth including third molars.",
+  "difficulty": "easy",
+  "subject": "bds",
+  "chapter": "bds-dental-pre-clinical",
+  "topic": "t-450",
+  "subtopic": "fundamentals",
+  "exam": [
+   "mdcat",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "dental"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "bds-007",
+  "question": "The hardest substance in the human body is:",
+  "optionA": "enamel",
+  "optionB": "dentine",
+  "optionC": "bone",
+  "optionD": "cementum",
+  "correctAnswer": "A",
+  "detailedExplanation": "Enamel, covering the crown, is the hardest tissue.",
+  "difficulty": "easy",
+  "subject": "bds",
+  "chapter": "bds-dental-pre-clinical",
+  "topic": "t-450",
+  "subtopic": "fundamentals",
+  "exam": [
+   "mdcat",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "dental"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "bds-008",
+  "question": "Amalgam is used for:",
+  "optionA": "dental fillings",
+  "optionB": "braces only",
+  "optionC": "impressions",
+  "optionD": "whitening",
+  "correctAnswer": "A",
+  "detailedExplanation": "Dental amalgam (mercury-silver alloy) is a classic filling material.",
+  "difficulty": "medium",
+  "subject": "bds",
+  "chapter": "bds-dental-pre-clinical",
+  "topic": "t-451",
+  "subtopic": "fundamentals",
+  "exam": [
+   "mdcat",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "dental-materials"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "bds-009",
+  "question": "A dental cavity caused by bacterial acids is called:",
+  "optionA": "dental caries",
+  "optionB": "gingivitis",
+  "optionC": "bruxism",
+  "optionD": "malocclusion",
+  "correctAnswer": "A",
+  "detailedExplanation": "Caries is the demineralization of tooth structure by acid-producing bacteria.",
+  "difficulty": "medium",
+  "subject": "bds",
+  "chapter": "bds-clinical-dentistry",
+  "topic": "t-452",
+  "subtopic": "fundamentals",
+  "exam": [
+   "mdcat",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "dentistry"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "bds-010",
+  "question": "The procedure to remove an impacted wisdom tooth is:",
+  "optionA": "surgical extraction",
+  "optionB": "scaling",
+  "optionC": "filling",
+  "optionD": "polishing",
+  "correctAnswer": "A",
+  "detailedExplanation": "Impacted third molars often require surgical (flap) extraction.",
+  "difficulty": "hard",
+  "subject": "bds",
+  "chapter": "bds-clinical-dentistry",
+  "topic": "t-453",
+  "subtopic": "fundamentals",
+  "exam": [
+   "mdcat",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "oral-surgery"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "dpt-005",
+  "question": "Which muscle flexes the elbow?",
+  "optionA": "biceps brachii",
+  "optionB": "triceps",
+  "optionC": "deltoid",
+  "optionD": "quadriceps",
+  "correctAnswer": "A",
+  "detailedExplanation": "Biceps brachii is the primary elbow flexor; triceps extends.",
+  "difficulty": "easy",
+  "subject": "dpt",
+  "chapter": "dpt-pt-fundamentals",
+  "topic": "t-454",
+  "subtopic": "fundamentals",
+  "exam": [
+   "mdcat"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "physiotherapy",
+   "anatomy"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "dpt-006",
+  "question": "Kinesiology is the study of:",
+  "optionA": "human movement",
+  "optionB": "kidney function",
+  "optionC": "skin diseases",
+  "optionD": "blood cells",
+  "correctAnswer": "A",
+  "detailedExplanation": "Kinesiology analyses body movement and mechanics.",
+  "difficulty": "medium",
+  "subject": "dpt",
+  "chapter": "dpt-pt-fundamentals",
+  "topic": "t-455",
+  "subtopic": "fundamentals",
+  "exam": [
+   "mdcat"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "physiotherapy",
+   "kinesiology"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "dpt-007",
+  "question": "A passive range of motion exercise means:",
+  "optionA": "the therapist moves the joint without patient effort",
+  "optionB": "the patient moves alone",
+  "optionC": "resistance is added",
+  "optionD": "the joint is immobilized",
+  "correctAnswer": "A",
+  "detailedExplanation": "Passive ROM is performed on the patient by the therapist.",
+  "difficulty": "medium",
+  "subject": "dpt",
+  "chapter": "dpt-therapeutic-techniques",
+  "topic": "t-456",
+  "subtopic": "fundamentals",
+  "exam": [
+   "mdcat"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "exercise-therapy"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "dpt-008",
+  "question": "TENS is commonly used for:",
+  "optionA": "pain relief",
+  "optionB": "muscle biopsy",
+  "optionC": "fracture reduction",
+  "optionD": "hearing tests",
+  "correctAnswer": "A",
+  "detailedExplanation": "Transcutaneous Electrical Nerve Stimulation manages pain.",
+  "difficulty": "medium",
+  "subject": "dpt",
+  "chapter": "dpt-therapeutic-techniques",
+  "topic": "t-457",
+  "subtopic": "fundamentals",
+  "exam": [
+   "mdcat"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "electrotherapy"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "phl-007",
+  "question": "The route of administration with the fastest onset is usually:",
+  "optionA": "intravenous",
+  "optionB": "oral",
+  "optionC": "topical",
+  "optionD": "rectal",
+  "correctAnswer": "A",
+  "detailedExplanation": "IV injection delivers the drug directly into the bloodstream.",
+  "difficulty": "easy",
+  "subject": "pharmacology",
+  "chapter": "pharmacology-pharmacokinetics",
+  "topic": "t-458",
+  "subtopic": "fundamentals",
+  "exam": [
+   "mdcat",
+   "fpsc",
+   "ppsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "pharmacology",
+   "pharmacokinetics"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "phl-008",
+  "question": "Most drugs are metabolized in the:",
+  "optionA": "liver",
+  "optionB": "kidney",
+  "optionC": "lungs",
+  "optionD": "spleen",
+  "correctAnswer": "A",
+  "detailedExplanation": "The liver is the main site of drug metabolism (phase I/II reactions).",
+  "difficulty": "easy",
+  "subject": "pharmacology",
+  "chapter": "pharmacology-pharmacokinetics",
+  "topic": "t-459",
+  "subtopic": "fundamentals",
+  "exam": [
+   "mdcat",
+   "fpsc",
+   "ppsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "pharmacology"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "phl-009",
+  "question": "The half-life of a drug is the time taken for its plasma concentration to:",
+  "optionA": "reduce by half",
+  "optionB": "double",
+  "optionC": "reach zero",
+  "optionD": "stay constant",
+  "correctAnswer": "A",
+  "detailedExplanation": "Half-life measures the time for concentration to fall by 50%.",
+  "difficulty": "medium",
+  "subject": "pharmacology",
+  "chapter": "pharmacology-pharmacokinetics",
+  "topic": "t-459",
+  "subtopic": "fundamentals",
+  "exam": [
+   "mdcat",
+   "fpsc",
+   "ppsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "pharmacology"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "phl-010",
+  "question": "Penicillin acts by:",
+  "optionA": "inhibiting bacterial cell wall synthesis",
+  "optionB": "blocking protein pumps",
+  "optionC": "damaging DNA only",
+  "optionD": "raising body temperature",
+  "correctAnswer": "A",
+  "detailedExplanation": "Beta-lactams like penicillin weaken the bacterial cell wall.",
+  "difficulty": "medium",
+  "subject": "pharmacology",
+  "chapter": "pharmacology-drug-classes",
+  "topic": "t-461",
+  "subtopic": "fundamentals",
+  "exam": [
+   "mdcat",
+   "fpsc",
+   "ppsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "antimicrobials"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "phl-011",
+  "question": "Adrenaline primarily acts on which receptors to raise heart rate?",
+  "optionA": "beta-1 adrenergic",
+  "optionB": "muscarinic only",
+  "optionC": "H1 histamine",
+  "optionD": "GABA",
+  "correctAnswer": "A",
+  "detailedExplanation": "Beta-1 receptor stimulation increases cardiac rate and contractility.",
+  "difficulty": "hard",
+  "subject": "pharmacology",
+  "chapter": "pharmacology-drug-classes",
+  "topic": "t-460",
+  "subtopic": "fundamentals",
+  "exam": [
+   "mdcat",
+   "fpsc",
+   "ppsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "autonomic"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "phl-012",
+  "question": "A common adverse effect of aspirin is:",
+  "optionA": "gastric irritation",
+  "optionB": "hair loss",
+  "optionC": "constipation only",
+  "optionD": "blurred vision only",
+  "correctAnswer": "A",
+  "detailedExplanation": "Aspirin's main side effect is gastrointestinal irritation and bleeding risk.",
+  "difficulty": "medium",
+  "subject": "pharmacology",
+  "chapter": "pharmacology-clinical-pharmacology",
+  "topic": "t-462",
+  "subtopic": "fundamentals",
+  "exam": [
+   "mdcat",
+   "fpsc",
+   "ppsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "adverse-effects"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "gan-006",
+  "question": "How many bones are in the adult human body?",
+  "optionA": "206",
+  "optionB": "300",
+  "optionC": "150",
+  "optionD": "250",
+  "correctAnswer": "A",
+  "detailedExplanation": "Adults have 206 bones (babies have about 270).",
+  "difficulty": "easy",
+  "subject": "general-anatomy",
+  "chapter": "general-anatomy-body-systems",
+  "topic": "t-464",
+  "subtopic": "fundamentals",
+  "exam": [
+   "mdcat",
+   "fpsc",
+   "ppsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "anatomy"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "gan-007",
+  "question": "The vertebral column has how many vertebrae typically?",
+  "optionA": "33",
+  "optionB": "24",
+  "optionC": "26",
+  "optionD": "40",
+  "correctAnswer": "A",
+  "detailedExplanation": "33 vertebrae (7 cervical, 12 thoracic, 5 lumbar, 5 sacral fused, 4 coccygeal).",
+  "difficulty": "medium",
+  "subject": "general-anatomy",
+  "chapter": "general-anatomy-body-systems",
+  "topic": "t-464",
+  "subtopic": "fundamentals",
+  "exam": [
+   "mdcat",
+   "fpsc",
+   "ppsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "anatomy"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "gan-008",
+  "question": "Which chamber of the heart pumps blood to the body?",
+  "optionA": "left ventricle",
+  "optionB": "right atrium",
+  "optionC": "left atrium",
+  "optionD": "right ventricle",
+  "correctAnswer": "A",
+  "detailedExplanation": "The left ventricle pumps oxygenated blood into the aorta.",
+  "difficulty": "easy",
+  "subject": "general-anatomy",
+  "chapter": "general-anatomy-organ-systems",
+  "topic": "t-466",
+  "subtopic": "fundamentals",
+  "exam": [
+   "mdcat",
+   "fpsc",
+   "ppsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "anatomy",
+   "heart"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "gan-009",
+  "question": "The brain's largest part is the:",
+  "optionA": "cerebrum",
+  "optionB": "cerebellum",
+  "optionC": "brainstem",
+  "optionD": "medulla",
+  "correctAnswer": "A",
+  "detailedExplanation": "The cerebrum occupies about 85% of brain mass.",
+  "difficulty": "medium",
+  "subject": "general-anatomy",
+  "chapter": "general-anatomy-organ-systems",
+  "topic": "t-467",
+  "subtopic": "fundamentals",
+  "exam": [
+   "mdcat",
+   "fpsc",
+   "ppsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "anatomy",
+   "brain"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "gan-010",
+  "question": "The diaphragm is primarily a:",
+  "optionA": "respiratory muscle",
+  "optionB": "heart muscle",
+  "optionC": "eye muscle",
+  "optionD": "jaw muscle",
+  "correctAnswer": "A",
+  "detailedExplanation": "The diaphragm drives inspiration as the main breathing muscle.",
+  "difficulty": "medium",
+  "subject": "general-anatomy",
+  "chapter": "general-anatomy-body-systems",
+  "topic": "t-465",
+  "subtopic": "fundamentals",
+  "exam": [
+   "mdcat",
+   "fpsc",
+   "ppsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "anatomy",
+   "muscles"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "ora-005",
+  "question": "The tooth with the largest crown is the:",
+  "optionA": "first molar",
+  "optionB": "incisor",
+  "optionC": "canine",
+  "optionD": "premolar",
+  "correctAnswer": "A",
+  "detailedExplanation": "The first permanent molar has the largest crown in the adult dentition.",
+  "difficulty": "easy",
+  "subject": "oral-anatomy",
+  "chapter": "oral-anatomy-dental-structures",
+  "topic": "t-468",
+  "subtopic": "fundamentals",
+  "exam": [
+   "mdcat",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "oral-anatomy"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "ora-006",
+  "question": "A tooth with two roots is typically the:",
+  "optionA": "mandibular molar",
+  "optionB": "maxillary incisor",
+  "optionC": "canine",
+  "optionD": "first premolar",
+  "correctAnswer": "A",
+  "detailedExplanation": "Mandibular (lower) molars usually have two roots.",
+  "difficulty": "medium",
+  "subject": "oral-anatomy",
+  "chapter": "oral-anatomy-dental-structures",
+  "topic": "t-468",
+  "subtopic": "fundamentals",
+  "exam": [
+   "mdcat",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "oral-anatomy"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "ora-007",
+  "question": "Which is the largest salivary gland?",
+  "optionA": "parotid",
+  "optionB": "sublingual",
+  "optionC": "submandibular",
+  "optionD": "minor glands",
+  "correctAnswer": "A",
+  "detailedExplanation": "The parotid gland, near the ear, is the largest.",
+  "difficulty": "medium",
+  "subject": "oral-anatomy",
+  "chapter": "oral-anatomy-head-neck",
+  "topic": "t-471",
+  "subtopic": "fundamentals",
+  "exam": [
+   "mdcat",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "oral-anatomy",
+   "glands"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "ora-008",
+  "question": "Which nerve supplies sensation to the lower lip and chin?",
+  "optionA": "mental nerve",
+  "optionB": "optic nerve",
+  "optionC": "facial only",
+  "optionD": "hypoglossal",
+  "correctAnswer": "A",
+  "detailedExplanation": "The mental nerve (from V3) innervates the lower lip and chin.",
+  "difficulty": "hard",
+  "subject": "oral-anatomy",
+  "chapter": "oral-anatomy-head-neck",
+  "topic": "t-470",
+  "subtopic": "fundamentals",
+  "exam": [
+   "mdcat",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "oral-anatomy",
+   "nerves"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "ohs-005",
+  "question": "Enamel is formed by cells called:",
+  "optionA": "ameloblasts",
+  "optionB": "osteoblasts",
+  "optionC": "odontoblasts",
+  "optionD": "fibroblasts",
+  "correctAnswer": "A",
+  "detailedExplanation": "Ameloblasts produce enamel; odontoblasts form dentin.",
+  "difficulty": "easy",
+  "subject": "oral-histology",
+  "chapter": "oral-histology-oral-tissues",
+  "topic": "t-472",
+  "subtopic": "fundamentals",
+  "exam": [
+   "mdcat",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "oral-histology"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "ohs-006",
+  "question": "Dentin is produced by:",
+  "optionA": "odontoblasts",
+  "optionB": "ameloblasts",
+  "optionC": "cementoblasts",
+  "optionD": "lymphocytes",
+  "correctAnswer": "B",
+  "detailedExplanation": "Odontoblasts line the pulp and secrete dentin.",
+  "difficulty": "medium",
+  "subject": "oral-histology",
+  "chapter": "oral-histology-oral-tissues",
+  "topic": "t-472",
+  "subtopic": "fundamentals",
+  "exam": [
+   "mdcat",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "oral-histology"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "ohs-007",
+  "question": "The dental pulp contains:",
+  "optionA": "nerves and blood vessels",
+  "optionB": "only enamel cells",
+  "optionC": "air",
+  "optionD": "keratin",
+  "correctAnswer": "A",
+  "detailedExplanation": "Pulp is vascular connective tissue with nerves, nourishing the tooth.",
+  "difficulty": "medium",
+  "subject": "oral-histology",
+  "chapter": "oral-histology-oral-tissues",
+  "topic": "t-473",
+  "subtopic": "fundamentals",
+  "exam": [
+   "mdcat",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "oral-histology"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "ohs-008",
+  "question": "Tooth development begins in the embryo at about:",
+  "optionA": "6 weeks",
+  "optionB": "6 months",
+  "optionC": "at birth",
+  "optionD": "1 year",
+  "correctAnswer": "A",
+  "detailedExplanation": "The dental lamina forms around the 6th week of embryonic life.",
+  "difficulty": "hard",
+  "subject": "oral-histology",
+  "chapter": "oral-histology-development",
+  "topic": "t-474",
+  "subtopic": "fundamentals",
+  "exam": [
+   "mdcat",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "oral-histology"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "opa-005",
+  "question": "The primary cause of dental caries is:",
+  "optionA": "bacterial plaque and acids",
+  "optionB": "cold drinks only",
+  "optionC": "age",
+  "optionD": "teeth grinding",
+  "correctAnswer": "A",
+  "detailedExplanation": "Acid produced by plaque bacteria (mainly Streptococcus mutans) demineralizes enamel.",
+  "difficulty": "easy",
+  "subject": "oral-pathology",
+  "chapter": "oral-pathology-oral-lesions",
+  "topic": "t-476",
+  "subtopic": "fundamentals",
+  "exam": [
+   "mdcat",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "oral-pathology"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "opa-006",
+  "question": "Inflammation of the gums is called:",
+  "optionA": "gingivitis",
+  "optionB": "caries",
+  "optionC": "stomatitis",
+  "optionD": "cheilitis",
+  "correctAnswer": "A",
+  "detailedExplanation": "Gingivitis is gum inflammation; periodontitis involves deeper tissues.",
+  "difficulty": "medium",
+  "subject": "oral-pathology",
+  "chapter": "oral-pathology-oral-lesions",
+  "topic": "t-477",
+  "subtopic": "fundamentals",
+  "exam": [
+   "mdcat",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "oral-pathology"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "opa-007",
+  "question": "The most common odontogenic cyst is the:",
+  "optionA": "radicular (periapical) cyst",
+  "optionB": "dermoid cyst",
+  "optionC": "branchial cyst",
+  "optionD": "thyroglossal cyst",
+  "correctAnswer": "A",
+  "detailedExplanation": "Radicular cysts arise from periapical inflammation at tooth roots.",
+  "difficulty": "hard",
+  "subject": "oral-pathology",
+  "chapter": "oral-pathology-oral-conditions",
+  "topic": "t-478",
+  "subtopic": "fundamentals",
+  "exam": [
+   "mdcat",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "oral-pathology"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "opa-008",
+  "question": "Oral candidiasis (thrush) is caused by:",
+  "optionA": "a fungus",
+  "optionB": "a virus",
+  "optionC": "a bacterium",
+  "optionD": "a parasite",
+  "correctAnswer": "A",
+  "detailedExplanation": "Candida albicans, a yeast, causes oral candidiasis.",
+  "difficulty": "medium",
+  "subject": "oral-pathology",
+  "chapter": "oral-pathology-oral-conditions",
+  "topic": "t-479",
+  "subtopic": "fundamentals",
+  "exam": [
+   "mdcat",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "oral-pathology"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ }
+]

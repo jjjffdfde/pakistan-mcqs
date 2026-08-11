@@ -1,0 +1,264 @@
+{
+  "phase": "storage-report",
+  "generated_at": "2026-08-06T16:53:21.857Z",
+  "categories": {
+    "analytics": {
+      "bytes": 1669,
+      "files": 6,
+      "human": "1.63 KB"
+    },
+    "assessment": {
+      "bytes": 10823,
+      "files": 3,
+      "human": "10.57 KB"
+    },
+    "chapters": {
+      "bytes": 23061,
+      "files": 1,
+      "human": "22.52 KB"
+    },
+    "concepts": {
+      "bytes": 1018303,
+      "files": 2,
+      "human": "994.44 KB"
+    },
+    "kg": {
+      "bytes": 3039725,
+      "files": 18,
+      "human": "2.90 MB"
+    },
+    "mcqs": {
+      "bytes": 99736868,
+      "files": 245,
+      "human": "95.12 MB"
+    },
+    "other": {
+      "bytes": 322195599,
+      "files": 11,
+      "human": "307.27 MB"
+    },
+    "publishing": {
+      "bytes": 44286,
+      "files": 6,
+      "human": "43.25 KB"
+    },
+    "review": {
+      "bytes": 2033,
+      "files": 2,
+      "human": "1.99 KB"
+    },
+    "subjects": {
+      "bytes": 15132,
+      "files": 2,
+      "human": "14.78 KB"
+    },
+    "subtopics": {
+      "bytes": 42021,
+      "files": 1,
+      "human": "41.04 KB"
+    },
+    "topics": {
+      "bytes": 36744,
+      "files": 1,
+      "human": "35.88 KB"
+    },
+    "users": {
+      "bytes": 7404,
+      "files": 12,
+      "human": "7.23 KB"
+    }
+  },
+  "total": {
+    "bytes": 426173668,
+    "files": 310,
+    "human": "406.43 MB"
+  },
+  "largest": [
+    {
+      "file": "data/other/mcqs_fts_data-part03.ndjson.gz",
+      "bytes": 63452939,
+      "human": "60.51 MB"
+    },
+    {
+      "file": "data/other/mcqs_fts_data-part02.ndjson.gz",
+      "bytes": 63303664,
+      "human": "60.37 MB"
+    },
+    {
+      "file": "data/other/mcqs_fts_data-part04.ndjson.gz",
+      "bytes": 61413343,
+      "human": "58.57 MB"
+    },
+    {
+      "file": "data/other/mcqs_fts_data-part01.ndjson.gz",
+      "bytes": 60666104,
+      "human": "57.86 MB"
+    },
+    {
+      "file": "data/other/mcqs_fts_data-part05.ndjson.gz",
+      "bytes": 55112201,
+      "human": "52.56 MB"
+    },
+    {
+      "file": "data/mcqs/options.ndjson.gz",
+      "bytes": 27005865,
+      "human": "25.75 MB"
+    },
+    {
+      "file": "data/other/mcqs_fts.ndjson.gz",
+      "bytes": 15647162,
+      "human": "14.92 MB"
+    },
+    {
+      "file": "data/mcqs/mathematics/part01.ndjson.gz",
+      "bytes": 10230062,
+      "human": "9.76 MB"
+    },
+    {
+      "file": "data/mcqs/statistics/part01.ndjson.gz",
+      "bytes": 3351087,
+      "human": "3.20 MB"
+    },
+    {
+      "file": "data/other/mcqs_fts_docsize.ndjson.gz",
+      "bytes": 2532200,
+      "human": "2.41 MB"
+    },
+    {
+      "file": "data/kg/kg_learning_objectives.ndjson.gz",
+      "bytes": 1723977,
+      "human": "1.64 MB"
+    },
+    {
+      "file": "data/concepts/mcq_concepts.ndjson.gz",
+      "bytes": 982617,
+      "human": "959.59 KB"
+    },
+    {
+      "file": "data/mcqs/rust/part01.ndjson.gz",
+      "bytes": 741791,
+      "human": "724.41 KB"
+    },
+    {
+      "file": "data/mcqs/physics/part01.ndjson.gz",
+      "bytes": 712651,
+      "human": "695.95 KB"
+    },
+    {
+      "file": "data/mcqs/go/part01.ndjson.gz",
+      "bytes": 625145,
+      "human": "610.49 KB"
+    },
+    {
+      "file": "data/mcqs/islamic-studies/part01.ndjson.gz",
+      "bytes": 525974,
+      "human": "513.65 KB"
+    },
+    {
+      "file": "data/mcqs/csharp/part01.ndjson.gz",
+      "bytes": 522781,
+      "human": "510.53 KB"
+    },
+    {
+      "file": "data/mcqs/pakistan-affairs/part01.ndjson.gz",
+      "bytes": 493765,
+      "human": "482.19 KB"
+    },
+    {
+      "file": "data/mcqs/petroleum-engineering/part01.ndjson.gz",
+      "bytes": 480919,
+      "human": "469.65 KB"
+    },
+    {
+      "file": "data/mcqs/biochemistry/part01.ndjson.gz",
+      "bytes": 480306,
+      "human": "469.05 KB"
+    },
+    {
+      "file": "data/mcqs/accounting/part01.ndjson.gz",
+      "bytes": 477044,
+      "human": "465.86 KB"
+    },
+    {
+      "file": "data/mcqs/dental-medicine/part01.ndjson.gz",
+      "bytes": 471730,
+      "human": "460.67 KB"
+    },
+    {
+      "file": "data/mcqs/cpp/part01.ndjson.gz",
+      "bytes": 469145,
+      "human": "458.15 KB"
+    },
+    {
+      "file": "data/mcqs/everyday-science/part01.ndjson.gz",
+      "bytes": 468395,
+      "human": "457.42 KB"
+    },
+    {
+      "file": "data/mcqs/dental-surgery/part01.ndjson.gz",
+      "bytes": 467846,
+      "human": "456.88 KB"
+    }
+  ],
+  "github": {
+    "hard_limit_mb": 100,
+    "warn_limit_mb": 50,
+    "over_hard": [],
+    "over_warn": [
+      "data/other/mcqs_fts_data-part01.ndjson.gz",
+      "data/other/mcqs_fts_data-part02.ndjson.gz",
+      "data/other/mcqs_fts_data-part03.ndjson.gz",
+      "data/other/mcqs_fts_data-part04.ndjson.gz",
+      "data/other/mcqs_fts_data-part05.ndjson.gz"
+    ],
+    "lfs_candidates": [
+      {
+        "file": "data/mcqs/options.ndjson.gz",
+        "bytes": 27005865,
+        "human": "25.75 MB"
+      },
+      {
+        "file": "data/other/mcqs_fts.ndjson.gz",
+        "bytes": 15647162,
+        "human": "14.92 MB"
+      },
+      {
+        "file": "data/other/mcqs_fts_data-part01.ndjson.gz",
+        "bytes": 60666104,
+        "human": "57.86 MB"
+      },
+      {
+        "file": "data/other/mcqs_fts_data-part02.ndjson.gz",
+        "bytes": 63303664,
+        "human": "60.37 MB"
+      },
+      {
+        "file": "data/other/mcqs_fts_data-part03.ndjson.gz",
+        "bytes": 63452939,
+        "human": "60.51 MB"
+      },
+      {
+        "file": "data/other/mcqs_fts_data-part04.ndjson.gz",
+        "bytes": 61413343,
+        "human": "58.57 MB"
+      },
+      {
+        "file": "data/other/mcqs_fts_data-part05.ndjson.gz",
+        "bytes": 55112201,
+        "human": "52.56 MB"
+      }
+    ]
+  },
+  "db": {
+    "bytes": 2206887936,
+    "human": "2.06 GB"
+  },
+  "compression": {
+    "files": 310,
+    "total_plain_bytes": 2997232025,
+    "total_gz_bytes": 426173668,
+    "overall_ratio": 0.1422,
+    "saved_bytes_vs_plain": 2571058357,
+    "db_to_repo_ratio": 0.1931
+  }
+}

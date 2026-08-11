@@ -1,0 +1,1799 @@
+{
+  "step": 4,
+  "total_forms": 0,
+  "forms": [
+    {
+      "page": "index.html",
+      "form": null,
+      "control": {
+        "tag": "button",
+        "id": "",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "index.html",
+      "form": null,
+      "control": {
+        "tag": "button",
+        "id": "",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "index.html",
+      "form": null,
+      "control": {
+        "tag": "button",
+        "id": "",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "index.html",
+      "form": null,
+      "control": {
+        "tag": "button",
+        "id": "",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "index.html",
+      "form": null,
+      "control": {
+        "tag": "button",
+        "id": "",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "index.html",
+      "form": null,
+      "control": {
+        "tag": "button",
+        "id": "",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "index.html",
+      "form": null,
+      "control": {
+        "tag": "button",
+        "id": "",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "index.html",
+      "form": null,
+      "control": {
+        "tag": "button",
+        "id": "",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "index.html",
+      "form": null,
+      "control": {
+        "tag": "button",
+        "id": "",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "index.html",
+      "form": null,
+      "control": {
+        "tag": "button",
+        "id": "darkToggle",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "index.html",
+      "form": null,
+      "control": {
+        "tag": "button",
+        "id": "menuToggle",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "index.html",
+      "form": null,
+      "control": {
+        "tag": "input",
+        "id": "globalSearch",
+        "type": "search",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "index.html",
+      "form": null,
+      "control": {
+        "tag": "button",
+        "id": "searchBtn",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "index.html",
+      "form": null,
+      "control": {
+        "tag": "button",
+        "id": "",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "index.html",
+      "form": null,
+      "control": {
+        "tag": "button",
+        "id": "",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "index.html",
+      "form": null,
+      "control": {
+        "tag": "button",
+        "id": "",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "index.html",
+      "form": null,
+      "control": {
+        "tag": "button",
+        "id": "qotdReveal",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "index.html",
+      "form": null,
+      "control": {
+        "tag": "label",
+        "id": "",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "index.html",
+      "form": null,
+      "control": {
+        "tag": "select",
+        "id": "fSubject",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "index.html",
+      "form": null,
+      "control": {
+        "tag": "label",
+        "id": "",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "index.html",
+      "form": null,
+      "control": {
+        "tag": "select",
+        "id": "fChapter",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "index.html",
+      "form": null,
+      "control": {
+        "tag": "label",
+        "id": "",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "index.html",
+      "form": null,
+      "control": {
+        "tag": "select",
+        "id": "fTopic",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "index.html",
+      "form": null,
+      "control": {
+        "tag": "label",
+        "id": "",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "index.html",
+      "form": null,
+      "control": {
+        "tag": "select",
+        "id": "fSubtopic",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "index.html",
+      "form": null,
+      "control": {
+        "tag": "label",
+        "id": "",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "index.html",
+      "form": null,
+      "control": {
+        "tag": "select",
+        "id": "fDifficulty",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "index.html",
+      "form": null,
+      "control": {
+        "tag": "label",
+        "id": "",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "index.html",
+      "form": null,
+      "control": {
+        "tag": "select",
+        "id": "fExam",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "index.html",
+      "form": null,
+      "control": {
+        "tag": "label",
+        "id": "",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "index.html",
+      "form": null,
+      "control": {
+        "tag": "select",
+        "id": "fYear",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "index.html",
+      "form": null,
+      "control": {
+        "tag": "label",
+        "id": "",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "index.html",
+      "form": null,
+      "control": {
+        "tag": "select",
+        "id": "fType",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "index.html",
+      "form": null,
+      "control": {
+        "tag": "button",
+        "id": "fReset",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "index.html",
+      "form": null,
+      "control": {
+        "tag": "label",
+        "id": "",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "index.html",
+      "form": null,
+      "control": {
+        "tag": "select",
+        "id": "pMode",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "index.html",
+      "form": null,
+      "control": {
+        "tag": "label",
+        "id": "",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "index.html",
+      "form": null,
+      "control": {
+        "tag": "select",
+        "id": "pSubject",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "index.html",
+      "form": null,
+      "control": {
+        "tag": "label",
+        "id": "",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "index.html",
+      "form": null,
+      "control": {
+        "tag": "select",
+        "id": "pDifficulty",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "index.html",
+      "form": null,
+      "control": {
+        "tag": "label",
+        "id": "",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "index.html",
+      "form": null,
+      "control": {
+        "tag": "select",
+        "id": "pCount",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "index.html",
+      "form": null,
+      "control": {
+        "tag": "label",
+        "id": "",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "index.html",
+      "form": null,
+      "control": {
+        "tag": "label",
+        "id": "",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "index.html",
+      "form": null,
+      "control": {
+        "tag": "input",
+        "id": "pNegative",
+        "type": "checkbox",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "index.html",
+      "form": null,
+      "control": {
+        "tag": "button",
+        "id": "pStart",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "index.html",
+      "form": null,
+      "control": {
+        "tag": "button",
+        "id": "pQuit",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "index.html",
+      "form": null,
+      "control": {
+        "tag": "button",
+        "id": "",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "index.html",
+      "form": null,
+      "control": {
+        "tag": "button",
+        "id": "pAgain",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "index.html",
+      "form": null,
+      "control": {
+        "tag": "button",
+        "id": "qQuit",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "index.html",
+      "form": null,
+      "control": {
+        "tag": "button",
+        "id": "quizRetry",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "index.html",
+      "form": null,
+      "control": {
+        "tag": "button",
+        "id": "quizBack",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "index.html",
+      "form": null,
+      "control": {
+        "tag": "label",
+        "id": "",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "index.html",
+      "form": null,
+      "control": {
+        "tag": "select",
+        "id": "paperExamFilter",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "index.html",
+      "form": null,
+      "control": {
+        "tag": "button",
+        "id": "eSubmit",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "index.html",
+      "form": null,
+      "control": {
+        "tag": "button",
+        "id": "ePrev",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "index.html",
+      "form": null,
+      "control": {
+        "tag": "button",
+        "id": "eNext",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "index.html",
+      "form": null,
+      "control": {
+        "tag": "button",
+        "id": "examRetry",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "index.html",
+      "form": null,
+      "control": {
+        "tag": "button",
+        "id": "examBack",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "index.html",
+      "form": null,
+      "control": {
+        "tag": "button",
+        "id": "planRecommended",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "index.html",
+      "form": null,
+      "control": {
+        "tag": "button",
+        "id": "weekStart",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "index.html",
+      "form": null,
+      "control": {
+        "tag": "button",
+        "id": "weekClaim",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "index.html",
+      "form": null,
+      "control": {
+        "tag": "button",
+        "id": "monthStart",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "index.html",
+      "form": null,
+      "control": {
+        "tag": "button",
+        "id": "monthClaim",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "index.html",
+      "form": null,
+      "control": {
+        "tag": "button",
+        "id": "lbNewEntry",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "index.html",
+      "form": null,
+      "control": {
+        "tag": "button",
+        "id": "bmPractice",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "index.html",
+      "form": null,
+      "control": {
+        "tag": "button",
+        "id": "",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "index.html",
+      "form": null,
+      "control": {
+        "tag": "button",
+        "id": "",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "index.html",
+      "form": null,
+      "control": {
+        "tag": "button",
+        "id": "",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "index.html",
+      "form": null,
+      "control": {
+        "tag": "button",
+        "id": "",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "index.html",
+      "form": null,
+      "control": {
+        "tag": "button",
+        "id": "",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "index.html",
+      "form": null,
+      "control": {
+        "tag": "button",
+        "id": "",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "index.html",
+      "form": null,
+      "control": {
+        "tag": "button",
+        "id": "",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "index.html",
+      "form": null,
+      "control": {
+        "tag": "button",
+        "id": "",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "index.html",
+      "form": null,
+      "control": {
+        "tag": "button",
+        "id": "",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "index.html",
+      "form": null,
+      "control": {
+        "tag": "button",
+        "id": "",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "index.html",
+      "form": null,
+      "control": {
+        "tag": "button",
+        "id": "",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "index.html",
+      "form": null,
+      "control": {
+        "tag": "button",
+        "id": "",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "index.html",
+      "form": null,
+      "control": {
+        "tag": "button",
+        "id": "",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "index.html",
+      "form": null,
+      "control": {
+        "tag": "button",
+        "id": "",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "index.html",
+      "form": null,
+      "control": {
+        "tag": "button",
+        "id": "certClose",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "index.html",
+      "form": null,
+      "control": {
+        "tag": "button",
+        "id": "certPrint",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "admin.html",
+      "form": null,
+      "control": {
+        "tag": "button",
+        "id": "darkToggle",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "admin.html",
+      "form": null,
+      "control": {
+        "tag": "button",
+        "id": "",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "admin.html",
+      "form": null,
+      "control": {
+        "tag": "button",
+        "id": "",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "admin.html",
+      "form": null,
+      "control": {
+        "tag": "button",
+        "id": "",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "admin.html",
+      "form": null,
+      "control": {
+        "tag": "button",
+        "id": "",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "admin.html",
+      "form": null,
+      "control": {
+        "tag": "button",
+        "id": "",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "admin.html",
+      "form": null,
+      "control": {
+        "tag": "button",
+        "id": "",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "admin.html",
+      "form": null,
+      "control": {
+        "tag": "button",
+        "id": "",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "admin.html",
+      "form": null,
+      "control": {
+        "tag": "button",
+        "id": "",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "admin.html",
+      "form": null,
+      "control": {
+        "tag": "button",
+        "id": "",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "admin.html",
+      "form": null,
+      "control": {
+        "tag": "button",
+        "id": "",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "admin.html",
+      "form": null,
+      "control": {
+        "tag": "button",
+        "id": "",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "admin.html",
+      "form": null,
+      "control": {
+        "tag": "label",
+        "id": "",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "admin.html",
+      "form": null,
+      "control": {
+        "tag": "input",
+        "id": "admSearch",
+        "type": "search",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "admin.html",
+      "form": null,
+      "control": {
+        "tag": "label",
+        "id": "",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "admin.html",
+      "form": null,
+      "control": {
+        "tag": "select",
+        "id": "admSubject",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "admin.html",
+      "form": null,
+      "control": {
+        "tag": "label",
+        "id": "",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "admin.html",
+      "form": null,
+      "control": {
+        "tag": "select",
+        "id": "admDifficulty",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "admin.html",
+      "form": null,
+      "control": {
+        "tag": "label",
+        "id": "",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "admin.html",
+      "form": null,
+      "control": {
+        "tag": "input",
+        "id": "catName",
+        "type": "text",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "admin.html",
+      "form": null,
+      "control": {
+        "tag": "label",
+        "id": "",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "admin.html",
+      "form": null,
+      "control": {
+        "tag": "input",
+        "id": "catIcon",
+        "type": "text",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "admin.html",
+      "form": null,
+      "control": {
+        "tag": "label",
+        "id": "",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "admin.html",
+      "form": null,
+      "control": {
+        "tag": "input",
+        "id": "catDesc",
+        "type": "text",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "admin.html",
+      "form": null,
+      "control": {
+        "tag": "button",
+        "id": "catAdd",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "admin.html",
+      "form": null,
+      "control": {
+        "tag": "label",
+        "id": "",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "admin.html",
+      "form": null,
+      "control": {
+        "tag": "input",
+        "id": "subjName",
+        "type": "text",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "admin.html",
+      "form": null,
+      "control": {
+        "tag": "label",
+        "id": "",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "admin.html",
+      "form": null,
+      "control": {
+        "tag": "input",
+        "id": "subjIcon",
+        "type": "text",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "admin.html",
+      "form": null,
+      "control": {
+        "tag": "label",
+        "id": "",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "admin.html",
+      "form": null,
+      "control": {
+        "tag": "select",
+        "id": "subjCat",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "admin.html",
+      "form": null,
+      "control": {
+        "tag": "label",
+        "id": "",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "admin.html",
+      "form": null,
+      "control": {
+        "tag": "input",
+        "id": "subjDesc",
+        "type": "text",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "admin.html",
+      "form": null,
+      "control": {
+        "tag": "button",
+        "id": "subjAdd",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "admin.html",
+      "form": null,
+      "control": {
+        "tag": "label",
+        "id": "",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "admin.html",
+      "form": null,
+      "control": {
+        "tag": "select",
+        "id": "topChapter",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "admin.html",
+      "form": null,
+      "control": {
+        "tag": "label",
+        "id": "",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "admin.html",
+      "form": null,
+      "control": {
+        "tag": "input",
+        "id": "topName",
+        "type": "text",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "admin.html",
+      "form": null,
+      "control": {
+        "tag": "label",
+        "id": "",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "admin.html",
+      "form": null,
+      "control": {
+        "tag": "input",
+        "id": "topSubtopics",
+        "type": "text",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "admin.html",
+      "form": null,
+      "control": {
+        "tag": "button",
+        "id": "topAdd",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "admin.html",
+      "form": null,
+      "control": {
+        "tag": "label",
+        "id": "",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "admin.html",
+      "form": null,
+      "control": {
+        "tag": "select",
+        "id": "expFilter",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "admin.html",
+      "form": null,
+      "control": {
+        "tag": "button",
+        "id": "expEnrich",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "admin.html",
+      "form": null,
+      "control": {
+        "tag": "label",
+        "id": "",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "admin.html",
+      "form": null,
+      "control": {
+        "tag": "label",
+        "id": "",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "admin.html",
+      "form": null,
+      "control": {
+        "tag": "select",
+        "id": "genSubject",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "admin.html",
+      "form": null,
+      "control": {
+        "tag": "label",
+        "id": "",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "admin.html",
+      "form": null,
+      "control": {
+        "tag": "select",
+        "id": "genChapter",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "admin.html",
+      "form": null,
+      "control": {
+        "tag": "label",
+        "id": "",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "admin.html",
+      "form": null,
+      "control": {
+        "tag": "select",
+        "id": "genTopic",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "admin.html",
+      "form": null,
+      "control": {
+        "tag": "label",
+        "id": "",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "admin.html",
+      "form": null,
+      "control": {
+        "tag": "select",
+        "id": "genDifficulty",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "admin.html",
+      "form": null,
+      "control": {
+        "tag": "label",
+        "id": "",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "admin.html",
+      "form": null,
+      "control": {
+        "tag": "select",
+        "id": "genExam",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "admin.html",
+      "form": null,
+      "control": {
+        "tag": "label",
+        "id": "",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "admin.html",
+      "form": null,
+      "control": {
+        "tag": "select",
+        "id": "genCount",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "admin.html",
+      "form": null,
+      "control": {
+        "tag": "button",
+        "id": "genRun",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "admin.html",
+      "form": null,
+      "control": {
+        "tag": "label",
+        "id": "",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "admin.html",
+      "form": null,
+      "control": {
+        "tag": "input",
+        "id": "imgFile",
+        "type": "file",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "admin.html",
+      "form": null,
+      "control": {
+        "tag": "label",
+        "id": "",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "admin.html",
+      "form": null,
+      "control": {
+        "tag": "input",
+        "id": "imgName",
+        "type": "text",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "admin.html",
+      "form": null,
+      "control": {
+        "tag": "button",
+        "id": "imgAdd",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "admin.html",
+      "form": null,
+      "control": {
+        "tag": "label",
+        "id": "",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "admin.html",
+      "form": null,
+      "control": {
+        "tag": "select",
+        "id": "impType",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "admin.html",
+      "form": null,
+      "control": {
+        "tag": "label",
+        "id": "",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "admin.html",
+      "form": null,
+      "control": {
+        "tag": "select",
+        "id": "impMode",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "admin.html",
+      "form": null,
+      "control": {
+        "tag": "label",
+        "id": "",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "admin.html",
+      "form": null,
+      "control": {
+        "tag": "input",
+        "id": "impFile",
+        "type": "file",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "admin.html",
+      "form": null,
+      "control": {
+        "tag": "textarea",
+        "id": "impText",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "admin.html",
+      "form": null,
+      "control": {
+        "tag": "button",
+        "id": "impRun",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "admin.html",
+      "form": null,
+      "control": {
+        "tag": "button",
+        "id": "impSample",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "admin.html",
+      "form": null,
+      "control": {
+        "tag": "button",
+        "id": "dupRemoveAll",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "admin.html",
+      "form": null,
+      "control": {
+        "tag": "button",
+        "id": "expJson",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "admin.html",
+      "form": null,
+      "control": {
+        "tag": "button",
+        "id": "expCsv",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "admin.html",
+      "form": null,
+      "control": {
+        "tag": "button",
+        "id": "expCategories",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "admin.html",
+      "form": null,
+      "control": {
+        "tag": "button",
+        "id": "expSubjects",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "admin.html",
+      "form": null,
+      "control": {
+        "tag": "button",
+        "id": "expTopics",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "admin.html",
+      "form": null,
+      "control": {
+        "tag": "button",
+        "id": "expReset",
+        "type": "",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "offline.html",
+      "form": null,
+      "control": {
+        "tag": "button",
+        "id": "offlineRetry",
+        "type": "button",
+        "required": false,
+        "name": ""
+      }
+    },
+    {
+      "page": "offline.html",
+      "form": null,
+      "control": {
+        "tag": "button",
+        "id": "offlineHome",
+        "type": "button",
+        "required": false,
+        "name": ""
+      }
+    }
+  ]
+}

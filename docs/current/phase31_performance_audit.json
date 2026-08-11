@@ -1,0 +1,177 @@
+{
+  "module": "M16",
+  "generated_at": "2026-08-10T15:02:51.825Z",
+  "runs": 28,
+  "pages": [
+    "index.html",
+    "admin.html",
+    "subjects/biology.html",
+    "offline.html",
+    "chapters/ac-basics.html",
+    "missing-page.html"
+  ],
+  "dcl_ms": [
+    16,
+    32,
+    11,
+    69,
+    22,
+    19,
+    20,
+    21,
+    107,
+    63,
+    72,
+    17,
+    13,
+    12,
+    12,
+    14,
+    11,
+    11,
+    9,
+    8,
+    9,
+    13,
+    8,
+    10,
+    20,
+    79,
+    5,
+    11
+  ],
+  "load_ms": [
+    54,
+    58,
+    13,
+    71,
+    62,
+    57,
+    60,
+    59,
+    108,
+    64,
+    73,
+    54,
+    50,
+    35,
+    37,
+    38,
+    35,
+    35,
+    10,
+    9,
+    10,
+    14,
+    9,
+    10,
+    21,
+    80,
+    35,
+    77
+  ],
+  "bytes": [
+    401428,
+    1375550,
+    21700,
+    34180,
+    401428,
+    401428,
+    401428,
+    401428,
+    401428,
+    401428,
+    401428,
+    401428,
+    401428,
+    1375550,
+    1375550,
+    1375550,
+    1375550,
+    1375550,
+    21700,
+    21700,
+    21700,
+    21700,
+    21700,
+    21700,
+    21700,
+    34180,
+    21400,
+    21400
+  ],
+  "resources": [
+    30,
+    8,
+    2,
+    3,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    8,
+    8,
+    8,
+    8,
+    8,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    3,
+    1,
+    1
+  ],
+  "slowest_requests": [
+    {
+      "u": "http://localhost:8765/api/ai/profile",
+      "ms": 2805
+    },
+    {
+      "u": "http://localhost:8765/api/ai/profile",
+      "ms": 2442
+    },
+    {
+      "u": "http://localhost:8765/api/ai/profile",
+      "ms": 2361
+    },
+    {
+      "u": "http://127.0.0.1:8799/data/topics.json",
+      "ms": 83
+    },
+    {
+      "u": "http://127.0.0.1:8799/data/mcqs.json",
+      "ms": 32
+    },
+    {
+      "u": "http://127.0.0.1:8799/p28-inject.js",
+      "ms": 22
+    },
+    {
+      "u": "http://127.0.0.1:8799/p28-inject.js",
+      "ms": 6
+    },
+    {
+      "u": "http://127.0.0.1:8799/assets/css/style.css",
+      "ms": 2
+    },
+    {
+      "u": "http://127.0.0.1:8799/p28-inject.js",
+      "ms": 30
+    },
+    {
+      "u": "http://127.0.0.1:8799/assets/icons/icon-192.png",
+      "ms": 26
+    }
+  ],
+  "status": "PASS",
+  "note": "DCL 16ms / load 54ms on homepage (interactive run); ~30 resources / ~400KB transferred; only slow requests are /api/ai/* calls hitting the static-first server (expected 404 fast-fail or down API)"
+}

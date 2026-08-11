@@ -1,0 +1,27 @@
+{
+  "step": "button_function_audit",
+  "generated_at": "2026-08-07T08:22:54",
+  "summary": {
+    "pages_analyzed": 1127,
+    "total_buttons": 79,
+    "total_links": 13906,
+    "total_dropdowns": 26,
+    "total_toggles": 0,
+    "total_checkboxes": 1,
+    "total_modals": 3,
+    "total_search_fields": 4,
+    "total_bookmark_actions": 0,
+    "total_share_actions": 0,
+    "total_download_actions": 0,
+    "total_forms": 0,
+    "total_inputs": 14,
+    "total_onclick_handlers": 0,
+    "total_event_listeners": 2,
+    "total_empty_href_links": 1,
+    "total_quiz_actions": 3,
+    "total_login_elements": 0,
+    "total_logout_elements": 0,
+    "total_hidden_elements": 47,
+    "total_disabled_elements": 6
+  }
+}

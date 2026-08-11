@@ -1,0 +1,364 @@
+{
+  "step": "seo",
+  "generated_at": "2026-08-06T08:51:14",
+  "summary": {
+    "pages_analyzed": 17,
+    "pages_missing_title": 0,
+    "pages_missing_description": 4,
+    "pages_missing_og": 4,
+    "titles_too_long": 4,
+    "descriptions_too_long": 1,
+    "descriptions_too_short": 0,
+    "sitemap_exists": true,
+    "sitemap_urls": 1129,
+    "robots_exists": true,
+    "robots_rules": 6,
+    "pages_with_structured_data": 13
+  },
+  "root_pages": [
+    {
+      "page": "404.html",
+      "exists": true,
+      "title": "Page not found - 404 | Pakistan MCQs Hub",
+      "title_length": 40,
+      "description": "The page you are looking for does not exist. Browse free original MCQs for Pakistani exams.",
+      "description_length": 91,
+      "canonical": "https://pakistanmcqshub.github.io/404.html",
+      "og_title": "Page not found - 404 | Pakistan MCQs Hub",
+      "og_description": "The page you are looking for does not exist. Browse free original MCQs for Pakistani exams.",
+      "og_image": "https://pakistanmcqshub.github.io/assets/img/og-cover.png",
+      "twitter_card": "summary_large_image",
+      "h1_count": 1,
+      "h1_text": [
+        "404 — Page not found"
+      ],
+      "h2_count": 0,
+      "structured_data_blocks": 1,
+      "robots_meta": "index,follow"
+    },
+    {
+      "page": "admin.html",
+      "exists": true,
+      "title": "Admin Panel - Pakistan MCQs Hub",
+      "title_length": 31,
+      "description": "Admin panel for Pakistan MCQs Hub - manage MCQs, categories, images, import and export data.",
+      "description_length": 92,
+      "canonical": "https://pakistanmcqshub.github.io/admin.html",
+      "og_title": "Admin Panel - Pakistan MCQs Hub",
+      "og_description": "Manage MCQs, categories, images, import and export data.",
+      "og_image": null,
+      "twitter_card": "summary",
+      "h1_count": 1,
+      "h1_text": [
+        "Admin Panel"
+      ],
+      "h2_count": 9,
+      "structured_data_blocks": 1,
+      "robots_meta": "noindex, nofollow"
+    },
+    {
+      "page": "index.html",
+      "exists": true,
+      "title": "Pakistan MCQs Hub - Free MCQs for PPSC, FPSC, NTS, CSS & All Exams",
+      "title_length": 66,
+      "description": "Free original MCQs for PPSC, FPSC, NTS, OTS, CSS, PMS and all Pakistani competitive exams. Pakistan Affairs, Current Affairs, Islamic Studies, English, Math, Science, Computer and more.",
+      "description_length": 185,
+      "canonical": "https://pakistanmcqshub.github.io/",
+      "og_title": "Pakistan MCQs Hub - Free MCQs for PPSC, FPSC, NTS, CSS & All Exams",
+      "og_description": "Practice free original MCQs with explanations - 1,300+ available instantly, 240,000+ across 183 subjects when you enable the local database. PPSC, FPSC, NTS, CSS, PMS and more.",
+      "og_image": "https://pakistanmcqshub.github.io/assets/img/og-cover.png",
+      "twitter_card": "summary_large_image",
+      "h1_count": 9,
+      "h1_text": [
+        "Master Every Pakistani Exam with Free MCQs",
+        "Browse All MCQs",
+        "Practice Mode"
+      ],
+      "h2_count": 10,
+      "structured_data_blocks": 6,
+      "robots_meta": "index, follow"
+    },
+    {
+      "page": "phase-functional-repair.html",
+      "exists": true,
+      "title": "Phase Functional Repair Report",
+      "title_length": 30,
+      "description": null,
+      "description_length": 0,
+      "canonical": null,
+      "og_title": null,
+      "og_description": null,
+      "og_image": null,
+      "twitter_card": null,
+      "h1_count": 1,
+      "h1_text": [
+        "🛠️ Phase Functional Repair — Root Cause Audit & Verification Report"
+      ],
+      "h2_count": 2,
+      "structured_data_blocks": 0,
+      "robots_meta": null
+    },
+    {
+      "page": "phase37-production-verification.html",
+      "exists": true,
+      "title": "Phase 37 — Production Verification & Validation Report",
+      "title_length": 54,
+      "description": null,
+      "description_length": 0,
+      "canonical": null,
+      "og_title": null,
+      "og_description": null,
+      "og_image": null,
+      "twitter_card": null,
+      "h1_count": 1,
+      "h1_text": [
+        "🎓 Phase 37 Production Verification Report"
+      ],
+      "h2_count": 2,
+      "structured_data_blocks": 0,
+      "robots_meta": null
+    },
+    {
+      "page": "quiz-audit-report.html",
+      "exists": true,
+      "title": "Quiz System Audit Report",
+      "title_length": 24,
+      "description": null,
+      "description_length": 0,
+      "canonical": null,
+      "og_title": null,
+      "og_description": null,
+      "og_image": null,
+      "twitter_card": null,
+      "h1_count": 1,
+      "h1_text": [
+        "🎯 Quiz System Audit Report"
+      ],
+      "h2_count": 6,
+      "structured_data_blocks": 0,
+      "robots_meta": null
+    },
+    {
+      "page": "subject-mcq-distribution-report.html",
+      "exists": true,
+      "title": "Subject & Section-wise MCQ Distribution Report",
+      "title_length": 46,
+      "description": null,
+      "description_length": 0,
+      "canonical": null,
+      "og_title": null,
+      "og_description": null,
+      "og_image": null,
+      "twitter_card": null,
+      "h1_count": 1,
+      "h1_text": [
+        "📊 Subject-Wise & Section-Wise MCQ Distribution Report"
+      ],
+      "h2_count": 4,
+      "structured_data_blocks": 0,
+      "robots_meta": null
+    }
+  ],
+  "sample_subjects": [
+    {
+      "page": "subjects/accounting.html",
+      "exists": true,
+      "title": "Accounting MCQs - Practice Questions &amp; Answers",
+      "title_length": 50,
+      "description": "Practice 5,094 free original Accounting MCQs with explanations - ideal for PPSC, FPSC, NTS, OTS, CTS and more.",
+      "description_length": 110,
+      "canonical": "https://pakistanmcqshub.github.io/subjects/accounting.html",
+      "og_title": "Accounting MCQs - Practice Questions &amp; Answers",
+      "og_description": "Practice 5,094 free original Accounting MCQs with explanations - ideal for PPSC, FPSC, NTS, OTS, CTS and more.",
+      "og_image": "https://pakistanmcqshub.github.io/assets/img/og-cover.png",
+      "twitter_card": "summary_large_image",
+      "h1_count": 1,
+      "h1_text": [
+        "Accounting MCQs"
+      ],
+      "h2_count": 2,
+      "structured_data_blocks": 1,
+      "robots_meta": "index,follow"
+    },
+    {
+      "page": "subjects/agriculture.html",
+      "exists": true,
+      "title": "Agriculture MCQs - Practice Questions &amp; Answers",
+      "title_length": 51,
+      "description": "Practice 5,147 free original Agriculture MCQs with explanations - ideal for PPSC, FPSC, NTS, EDUCATORS and more.",
+      "description_length": 112,
+      "canonical": "https://pakistanmcqshub.github.io/subjects/agriculture.html",
+      "og_title": "Agriculture MCQs - Practice Questions &amp; Answers",
+      "og_description": "Practice 5,147 free original Agriculture MCQs with explanations - ideal for PPSC, FPSC, NTS, EDUCATORS and more.",
+      "og_image": "https://pakistanmcqshub.github.io/assets/img/og-cover.png",
+      "twitter_card": "summary_large_image",
+      "h1_count": 1,
+      "h1_text": [
+        "Agriculture MCQs"
+      ],
+      "h2_count": 2,
+      "structured_data_blocks": 1,
+      "robots_meta": "index,follow"
+    },
+    {
+      "page": "subjects/ai.html",
+      "exists": true,
+      "title": "Artificial Intelligence MCQs - Practice Questions &amp; Answers",
+      "title_length": 63,
+      "description": "Practice 5,094 free original Artificial Intelligence MCQs with explanations - ideal for PPSC, FPSC, NTS, EDUCATORS, NAB and more.",
+      "description_length": 129,
+      "canonical": "https://pakistanmcqshub.github.io/subjects/ai.html",
+      "og_title": "Artificial Intelligence MCQs - Practice Questions &amp; Answers",
+      "og_description": "Practice 5,094 free original Artificial Intelligence MCQs with explanations - ideal for PPSC, FPSC, NTS, EDUCATORS, NAB and more.",
+      "og_image": "https://pakistanmcqshub.github.io/assets/img/og-cover.png",
+      "twitter_card": "summary_large_image",
+      "h1_count": 1,
+      "h1_text": [
+        "Artificial Intelligence MCQs"
+      ],
+      "h2_count": 2,
+      "structured_data_blocks": 1,
+      "robots_meta": "index,follow"
+    },
+    {
+      "page": "subjects/ajkpsc.html",
+      "exists": true,
+      "title": "AJKPSC (Azad Kashmir Public Service Commission) MCQs - Practice Questions &amp; Answers",
+      "title_length": 87,
+      "description": "Practice 43 free original AJKPSC (Azad Kashmir Public Service Commission) MCQs with explanations - ideal for AJKPSC and more.",
+      "description_length": 125,
+      "canonical": "https://pakistanmcqshub.github.io/subjects/ajkpsc.html",
+      "og_title": "AJKPSC (Azad Kashmir Public Service Commission) MCQs - Practice Questions &amp; Answers",
+      "og_description": "Practice 43 free original AJKPSC (Azad Kashmir Public Service Commission) MCQs with explanations - ideal for AJKPSC and more.",
+      "og_image": "https://pakistanmcqshub.github.io/assets/img/og-cover.png",
+      "twitter_card": "summary_large_image",
+      "h1_count": 1,
+      "h1_text": [
+        "AJKPSC (Azad Kashmir Public Service Commission) MCQs"
+      ],
+      "h2_count": 2,
+      "structured_data_blocks": 1,
+      "robots_meta": "index,follow"
+    },
+    {
+      "page": "subjects/algorithms.html",
+      "exists": true,
+      "title": "Algorithms MCQs - Practice Questions &amp; Answers",
+      "title_length": 50,
+      "description": "Practice 5,089 free original Algorithms MCQs with explanations.",
+      "description_length": 63,
+      "canonical": "https://pakistanmcqshub.github.io/subjects/algorithms.html",
+      "og_title": "Algorithms MCQs - Practice Questions &amp; Answers",
+      "og_description": "Practice 5,089 free original Algorithms MCQs with explanations.",
+      "og_image": "https://pakistanmcqshub.github.io/assets/img/og-cover.png",
+      "twitter_card": "summary_large_image",
+      "h1_count": 1,
+      "h1_text": [
+        "Algorithms MCQs"
+      ],
+      "h2_count": 2,
+      "structured_data_blocks": 1,
+      "robots_meta": "index,follow"
+    },
+    {
+      "page": "subjects/analytical-reasoning.html",
+      "exists": true,
+      "title": "Analytical Reasoning MCQs - Practice Questions &amp; Answers",
+      "title_length": 60,
+      "description": "Practice 5,537 free original Analytical Reasoning MCQs with explanations - ideal for NTS, GAT, GRE, CSS and more.",
+      "description_length": 113,
+      "canonical": "https://pakistanmcqshub.github.io/subjects/analytical-reasoning.html",
+      "og_title": "Analytical Reasoning MCQs - Practice Questions &amp; Answers",
+      "og_description": "Practice 5,537 free original Analytical Reasoning MCQs with explanations - ideal for NTS, GAT, GRE, CSS and more.",
+      "og_image": "https://pakistanmcqshub.github.io/assets/img/og-cover.png",
+      "twitter_card": "summary_large_image",
+      "h1_count": 1,
+      "h1_text": [
+        "Analytical Reasoning MCQs"
+      ],
+      "h2_count": 2,
+      "structured_data_blocks": 1,
+      "robots_meta": "index,follow"
+    },
+    {
+      "page": "subjects/anatomy.html",
+      "exists": true,
+      "title": "Anatomy MCQs - Practice Questions &amp; Answers",
+      "title_length": 47,
+      "description": "Practice 5,098 free original Anatomy MCQs with explanations - ideal for PPSC, FPSC, NTS, EDUCATORS, ETEA and more.",
+      "description_length": 114,
+      "canonical": "https://pakistanmcqshub.github.io/subjects/anatomy.html",
+      "og_title": "Anatomy MCQs - Practice Questions &amp; Answers",
+      "og_description": "Practice 5,098 free original Anatomy MCQs with explanations - ideal for PPSC, FPSC, NTS, EDUCATORS, ETEA and more.",
+      "og_image": "https://pakistanmcqshub.github.io/assets/img/og-cover.png",
+      "twitter_card": "summary_large_image",
+      "h1_count": 1,
+      "h1_text": [
+        "Anatomy MCQs"
+      ],
+      "h2_count": 2,
+      "structured_data_blocks": 1,
+      "robots_meta": "index,follow"
+    },
+    {
+      "page": "subjects/anf.html",
+      "exists": true,
+      "title": "ANF (Anti-Narcotics Force) MCQs - Practice Questions &amp; Answers",
+      "title_length": 66,
+      "description": "Practice 17 free original ANF (Anti-Narcotics Force) MCQs with explanations - ideal for ANF and more.",
+      "description_length": 101,
+      "canonical": "https://pakistanmcqshub.github.io/subjects/anf.html",
+      "og_title": "ANF (Anti-Narcotics Force) MCQs - Practice Questions &amp; Answers",
+      "og_description": "Practice 17 free original ANF (Anti-Narcotics Force) MCQs with explanations - ideal for ANF and more.",
+      "og_image": "https://pakistanmcqshub.github.io/assets/img/og-cover.png",
+      "twitter_card": "summary_large_image",
+      "h1_count": 1,
+      "h1_text": [
+        "ANF (Anti-Narcotics Force) MCQs"
+      ],
+      "h2_count": 2,
+      "structured_data_blocks": 1,
+      "robots_meta": "index,follow"
+    },
+    {
+      "page": "subjects/angular.html",
+      "exists": true,
+      "title": "Angular MCQs - Practice Questions &amp; Answers",
+      "title_length": 47,
+      "description": "Practice 5,028 free original Angular MCQs with explanations - ideal for IB, FPSC and more.",
+      "description_length": 90,
+      "canonical": "https://pakistanmcqshub.github.io/subjects/angular.html",
+      "og_title": "Angular MCQs - Practice Questions &amp; Answers",
+      "og_description": "Practice 5,028 free original Angular MCQs with explanations - ideal for IB, FPSC and more.",
+      "og_image": "https://pakistanmcqshub.github.io/assets/img/og-cover.png",
+      "twitter_card": "summary_large_image",
+      "h1_count": 1,
+      "h1_text": [
+        "Angular MCQs"
+      ],
+      "h2_count": 2,
+      "structured_data_blocks": 1,
+      "robots_meta": "index,follow"
+    },
+    {
+      "page": "subjects/anthropology.html",
+      "exists": true,
+      "title": "Anthropology MCQs - Practice Questions &amp; Answers",
+      "title_length": 52,
+      "description": "Practice 14 free original Anthropology MCQs with explanations - ideal for PPSC, FPSC, NTS, CSS, PMS and more.",
+      "description_length": 109,
+      "canonical": "https://pakistanmcqshub.github.io/subjects/anthropology.html",
+      "og_title": "Anthropology MCQs - Practice Questions &amp; Answers",
+      "og_description": "Practice 14 free original Anthropology MCQs with explanations - ideal for PPSC, FPSC, NTS, CSS, PMS and more.",
+      "og_image": "https://pakistanmcqshub.github.io/assets/img/og-cover.png",
+      "twitter_card": "summary_large_image",
+      "h1_count": 1,
+      "h1_text": [
+        "Anthropology MCQs"
+      ],
+      "h2_count": 2,
+      "structured_data_blocks": 1,
+      "robots_meta": "index,follow"
+    }
+  ]
+}

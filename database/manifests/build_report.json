@@ -1,0 +1,10 @@
+{
+  "built_at": "2026-08-06T15:25:33.565Z",
+  "out": "E:\\pAK MCQS\\db\\pakistan-mcqs.rebuilt.sqlite",
+  "rows": 4847339,
+  "integrity": [
+    "ok"
+  ],
+  "duration_ms": 4295178,
+  "tables": 58
+}

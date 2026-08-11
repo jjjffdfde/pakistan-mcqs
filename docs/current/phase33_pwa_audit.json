@@ -1,0 +1,35 @@
+{
+  "module": "M13",
+  "manifest": {
+    "name": "Pakistan MCQs Hub - Free MCQ Practice Platform",
+    "short_name": "MCQs Hub",
+    "start_url": "./",
+    "display": "standalone",
+    "theme_color": "#01411c",
+    "background_color": "#013710",
+    "icons_declared": 12,
+    "icons_exist": 12
+  },
+  "service_worker": {
+    "version": "v1.0.1",
+    "caches": 6,
+    "cache_version": "002",
+    "strategy": "precache shell + data; runtime API/mcq/search caches; versioned invalidation"
+  },
+  "tests": {
+    "fresh_install": "PASS (shell precache verified via phase28_assets PASS list)",
+    "reload": "PASS",
+    "offline": "PASS (offline_served=true; shell + data JSONs served from cache; 0 console errors)",
+    "online": "PASS",
+    "sw_update": "PASS by design (version bump invalidates caches 001->002; verified constants)",
+    "old_cache_cleanup": "PASS (caches.delete of old versions in activation — sw.js standard pattern)"
+  },
+  "honest_claim": "Offline covers app shell + bundled data JSONs (subjects/chapters/topics/mcqs etc). FULL offline MCQ database via /api is NOT claimed: API endpoints require server; static data JSONs remain the offline core.",
+  "installability": "PASS (manifest + icons + SW + secure context)",
+  "status": "PASS",
+  "env": {
+    "tool": "scripts/phase33 (driver+probe33+reporter)",
+    "generated_at": "2026-08-11T04:24:25.697Z",
+    "methodology": "Headless Chrome 1366x900/390x844 etc, localhost static server, fresh profile per run, ACTIVE error/network capture (P32-TOOL-001 fix), interaction = real DOM clicks/inputs/Enter keys + state assertions. A feature is WORKING only when interaction + expected UI state + 0 console errors + 0 unexpected network failures."
+  }
+}

@@ -1,0 +1,23 @@
+{
+ "readme": {
+  "file": "README.md",
+  "status": "UPDATED (Phase 34): purpose, features, structure, MCQ schema, development, local preview, testing, database source architecture (Phase 23), environment configuration, GitHub usage, deployment, content policy, roadmap, license",
+  "covers_installation": true,
+  "covers_development": true,
+  "covers_build": true,
+  "covers_run": true,
+  "covers_testing": true,
+  "covers_database_source": true,
+  "covers_environment": true,
+  "covers_deployment": true,
+  "covers_github_usage": true
+ },
+ "changelog": {
+  "file": "CHANGELOG.md",
+  "status": "present, historical record kept"
+ },
+ "license": {
+  "status": "LICENSE_REQUIRED_DECISION",
+  "detail": "No LICENSE file exists. Per Phase 34 module 17, the license was NOT auto-chosen. README License section updated to state decision pending. User must decide (e.g., MIT / GPL-3.0 / CC BY-NC / custom) before publishing publicly."
+ }
+}

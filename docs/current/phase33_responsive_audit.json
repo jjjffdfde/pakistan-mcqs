@@ -1,0 +1,104 @@
+{
+  "module": "M11",
+  "viewports": [
+    {
+      "w": 360,
+      "h": 640,
+      "pages": [
+        "index",
+        "admin"
+      ]
+    },
+    {
+      "w": 375,
+      "h": 667,
+      "pages": [
+        "index",
+        "admin",
+        "biology",
+        "offline"
+      ]
+    },
+    {
+      "w": 390,
+      "h": 844,
+      "pages": [
+        "index",
+        "admin",
+        "ac-basics",
+        "missing-page"
+      ]
+    },
+    {
+      "w": 412,
+      "h": 915,
+      "pages": [
+        "index"
+      ]
+    },
+    {
+      "w": 768,
+      "h": 1024,
+      "pages": [
+        "index",
+        "admin"
+      ]
+    },
+    {
+      "w": 1024,
+      "h": 768,
+      "pages": [
+        "index",
+        "admin"
+      ]
+    },
+    {
+      "w": 1280,
+      "h": 720,
+      "pages": [
+        "index"
+      ]
+    },
+    {
+      "w": 1366,
+      "h": 768,
+      "pages": [
+        "index"
+      ]
+    },
+    {
+      "w": 1440,
+      "h": 900,
+      "pages": [
+        "index"
+      ]
+    },
+    {
+      "w": 1920,
+      "h": 1080,
+      "pages": [
+        "index"
+      ]
+    }
+  ],
+  "totals": {
+    "viewports": 10,
+    "runs": 22
+  },
+  "overflow_runs": 0,
+  "overflow_details": [],
+  "text_clipping": 0,
+  "button_clipping": 0,
+  "menu_overflow": 0,
+  "table_overflow": 0,
+  "modal_overflow": 0,
+  "sticky_issues": 0,
+  "smallest_control_w": 36,
+  "fixes_from_phase32": "recent-search chip wrap (33px overflow) — re-verified 0 at all widths this phase",
+  "status": "PASS",
+  "env": {
+    "tool": "scripts/phase33 (driver+probe33+reporter)",
+    "generated_at": "2026-08-11T04:24:25.697Z",
+    "methodology": "Headless Chrome 1366x900/390x844 etc, localhost static server, fresh profile per run, ACTIVE error/network capture (P32-TOOL-001 fix), interaction = real DOM clicks/inputs/Enter keys + state assertions. A feature is WORKING only when interaction + expected UI state + 0 console errors + 0 unexpected network failures."
+  }
+}

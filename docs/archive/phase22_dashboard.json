@@ -1,0 +1,70 @@
+{
+  "phase": 22,
+  "title": "Phase 22 QA Dashboard",
+  "generated_at": "2026-08-07T08:27:32",
+  "dashboard": {
+    "structure": {
+      "files": 2418,
+      "pages": 1127,
+      "routes": 24
+    },
+    "navigation": {
+      "pages_scanned": 1127,
+      "broken_links": 0
+    },
+    "functions": {
+      "buttons": 79,
+      "links": 13906,
+      "forms": 0,
+      "empty_hrefs": 1
+    },
+    "forms": {
+      "total": 0,
+      "with_action": 0,
+      "search": 0
+    },
+    "workflow": {
+      "steps": 12,
+      "available": 12,
+      "passing": 10
+    },
+    "performance": {
+      "site_size_kb": 8907,
+      "js_kb": 2465
+    },
+    "seo": {
+      "missing_titles": 0,
+      "missing_desc": 4,
+      "sitemap_urls": 1129
+    },
+    "accessibility": {
+      "missing_alt": 0,
+      "images": 0
+    },
+    "security": {
+      "param_queries": 17,
+      "exposed_db": 2,
+      "risks": 1
+    },
+    "assets": {
+      "found": 254,
+      "missing": 2,
+      "manifest_valid": true
+    },
+    "analytics": {
+      "mcqs": 872621,
+      "attempts": 54,
+      "bookmarks": 5
+    },
+    "issues": {
+      "critical": 2,
+      "high": 5,
+      "medium": 4,
+      "low": 5
+    },
+    "scores": {
+      "overall": 78,
+      "grade": "C"
+    }
+  }
+}

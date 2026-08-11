@@ -1,0 +1,1384 @@
+[
+ {
+  "id": "mln-007",
+  "question": "In supervised learning, the training data includes:",
+  "optionA": "input features only",
+  "optionB": "input features and labels",
+  "optionC": "labels only",
+  "optionD": "unlabeled clusters",
+  "correctAnswer": "B",
+  "detailedExplanation": "Supervised learning trains on input-output pairs, i.e., features with known labels.",
+  "difficulty": "easy",
+  "subject": "machine-learning",
+  "chapter": "machine-learning-ml-fundamentals",
+  "topic": "t-504",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc",
+   "ppsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "ml",
+   "supervised"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "mln-008",
+  "question": "Which task is an example of classification?",
+  "optionA": "predicting house prices",
+  "optionB": "grouping customers by similarity",
+  "optionC": "detecting spam emails",
+  "optionD": "reducing data dimensions",
+  "correctAnswer": "C",
+  "detailedExplanation": "Spam detection assigns discrete categories (spam / not spam), which is classification.",
+  "difficulty": "easy",
+  "subject": "machine-learning",
+  "chapter": "machine-learning-ml-fundamentals",
+  "topic": "t-504",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc",
+   "ppsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "ml",
+   "classification"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "mln-009",
+  "question": "Linear regression predicts:",
+  "optionA": "categorical labels",
+  "optionB": "continuous numeric values",
+  "optionC": "clusters",
+  "optionD": "rules",
+  "correctAnswer": "B",
+  "detailedExplanation": "Regression models predict a continuous numeric output, e.g. price or temperature.",
+  "difficulty": "medium",
+  "subject": "machine-learning",
+  "chapter": "machine-learning-algorithms",
+  "topic": "t-506",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc",
+   "ppsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "ml",
+   "regression"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "mln-010",
+  "question": "K-means is an example of:",
+  "optionA": "supervised learning",
+  "optionB": "unsupervised learning",
+  "optionC": "reinforcement learning",
+  "optionD": "semi-supervised learning",
+  "correctAnswer": "B",
+  "detailedExplanation": "K-means groups unlabeled data into clusters, so it is unsupervised.",
+  "difficulty": "medium",
+  "subject": "machine-learning",
+  "chapter": "machine-learning-algorithms",
+  "topic": "t-507",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc",
+   "ppsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "ml",
+   "clustering"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "mln-011",
+  "question": "A model performs perfectly on training data but poorly on new data. This is called:",
+  "optionA": "underfitting",
+  "optionB": "overfitting",
+  "optionC": "bias",
+  "optionD": "noise",
+  "correctAnswer": "B",
+  "detailedExplanation": "Overfitting means the model memorized training data and fails to generalize to unseen data.",
+  "difficulty": "hard",
+  "subject": "machine-learning",
+  "chapter": "machine-learning-evaluation-tuning",
+  "topic": "t-509",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc",
+   "ppsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "ml",
+   "overfitting"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "mln-012",
+  "question": "Accuracy alone can mislead when:",
+  "optionA": "classes are balanced",
+  "optionB": "classes are imbalanced",
+  "optionC": "data is numeric",
+  "optionD": "data is small",
+  "correctAnswer": "B",
+  "detailedExplanation": "With imbalanced classes, accuracy can be high while the minority class is ignored; precision/recall help.",
+  "difficulty": "medium",
+  "subject": "machine-learning",
+  "chapter": "machine-learning-evaluation-tuning",
+  "topic": "t-508",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc",
+   "ppsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "ml",
+   "metrics"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "dln-006",
+  "question": "A neural network's first layer is called the:",
+  "optionA": "output layer",
+  "optionB": "input layer",
+  "optionC": "hidden layer",
+  "optionD": "dropout layer",
+  "correctAnswer": "B",
+  "detailedExplanation": "The input layer receives the raw features; hidden layers sit between input and output.",
+  "difficulty": "easy",
+  "subject": "deep-learning",
+  "chapter": "deep-learning-neural-networks",
+  "topic": "t-510",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "dl",
+   "neural-network"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "dln-007",
+  "question": "Which activation function maps values to a range between 0 and 1?",
+  "optionA": "ReLU",
+  "optionB": "Sigmoid",
+  "optionC": "Tanh",
+  "optionD": "Linear",
+  "correctAnswer": "B",
+  "detailedExplanation": "The sigmoid function squashes outputs into (0, 1), useful for probabilities.",
+  "difficulty": "easy",
+  "subject": "deep-learning",
+  "chapter": "deep-learning-neural-networks",
+  "topic": "t-511",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "dl",
+   "activation"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "dln-008",
+  "question": "Convolutional neural networks are most commonly used for:",
+  "optionA": "time series only",
+  "optionB": "image data",
+  "optionC": "text embeddings only",
+  "optionD": "database queries",
+  "correctAnswer": "B",
+  "detailedExplanation": "CNNs excel at image processing by learning spatial features through filters.",
+  "difficulty": "medium",
+  "subject": "deep-learning",
+  "chapter": "deep-learning-cnns-rnns",
+  "topic": "t-512",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "dl",
+   "cnn"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "dln-009",
+  "question": "The 'attention' mechanism in transformers allows the model to:",
+  "optionA": "ignore context",
+  "optionB": "weigh the importance of different words in a sequence",
+  "optionC": "compress images",
+  "optionD": "sort data",
+  "correctAnswer": "B",
+  "detailedExplanation": "Attention scores how relevant each token is to others, capturing context across the sequence.",
+  "difficulty": "medium",
+  "subject": "deep-learning",
+  "chapter": "deep-learning-llms-transformers",
+  "topic": "t-514",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "dl",
+   "transformer",
+   "llm"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "dln-010",
+  "question": "Word embeddings represent words as:",
+  "optionA": "single numbers",
+  "optionB": "dense vectors of numbers",
+  "optionC": "characters",
+  "optionD": "binary trees",
+  "correctAnswer": "B",
+  "detailedExplanation": "Embeddings map words to dense numeric vectors so similar words have similar vectors.",
+  "difficulty": "hard",
+  "subject": "deep-learning",
+  "chapter": "deep-learning-llms-transformers",
+  "topic": "t-515",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "dl",
+   "embedding"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "eht-007",
+  "question": "A 'phishing' attack primarily targets:",
+  "optionA": "hardware",
+  "optionB": "human users",
+  "optionC": "routers",
+  "optionD": "databases",
+  "correctAnswer": "B",
+  "detailedExplanation": "Phishing deceives users into revealing credentials or installing malware.",
+  "difficulty": "easy",
+  "subject": "ethical-hacking",
+  "chapter": "ethical-hacking-security-fundamentals",
+  "topic": "t-516",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "security",
+   "phishing"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "eht-008",
+  "question": "Malware that locks files and demands payment is called:",
+  "optionA": "adware",
+  "optionB": "ransomware",
+  "optionC": "spyware",
+  "optionD": "worm",
+  "correctAnswer": "B",
+  "detailedExplanation": "Ransomware encrypts files and demands a ransom for decryption.",
+  "difficulty": "easy",
+  "subject": "ethical-hacking",
+  "chapter": "ethical-hacking-security-fundamentals",
+  "topic": "t-516",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "security",
+   "malware"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "eht-009",
+  "question": "In penetration testing, 'reconnaissance' is the phase of:",
+  "optionA": "exploiting vulnerabilities",
+  "optionB": "gathering information about the target",
+  "optionC": "cleaning logs",
+  "optionD": "writing reports",
+  "correctAnswer": "B",
+  "detailedExplanation": "Reconnaissance (passive or active) collects target information before any exploitation.",
+  "difficulty": "medium",
+  "subject": "ethical-hacking",
+  "chapter": "ethical-hacking-penetration-testing",
+  "topic": "t-518",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "pentest",
+   "recon"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "eht-010",
+  "question": "Which practice best hardens a web server?",
+  "optionA": "disabling unnecessary services",
+  "optionB": "removing the firewall",
+  "optionC": "using default passwords",
+  "optionD": "opening all ports",
+  "correctAnswer": "A",
+  "detailedExplanation": "Disabling unneeded services reduces the attack surface of a server.",
+  "difficulty": "medium",
+  "subject": "ethical-hacking",
+  "chapter": "ethical-hacking-defensive-practices",
+  "topic": "t-520",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "security",
+   "hardening"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "eht-011",
+  "question": "After gaining access in a test, 'privilege escalation' means:",
+  "optionA": "losing access",
+  "optionB": "obtaining higher-level access rights",
+  "optionC": "deleting the target",
+  "optionD": "scanning ports again",
+  "correctAnswer": "B",
+  "detailedExplanation": "Privilege escalation moves from a limited account to a higher-privileged one.",
+  "difficulty": "hard",
+  "subject": "ethical-hacking",
+  "chapter": "ethical-hacking-penetration-testing",
+  "topic": "t-519",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "pentest"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "eht-012",
+  "question": "The first step in incident response is usually:",
+  "optionA": "recovery",
+  "optionB": "preparation and detection",
+  "optionC": "lawsuits",
+  "optionD": "public announcement",
+  "correctAnswer": "B",
+  "detailedExplanation": "Preparation and detection identify the incident before containment and recovery.",
+  "difficulty": "medium",
+  "subject": "ethical-hacking",
+  "chapter": "ethical-hacking-defensive-practices",
+  "topic": "t-521",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "security",
+   "incident-response"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "dev-007",
+  "question": "In CI/CD, 'CI' stands for:",
+  "optionA": "Continuous Integration",
+  "optionB": "Central Installation",
+  "optionC": "Code Inspection",
+  "optionD": "Continuous Interface",
+  "correctAnswer": "A",
+  "detailedExplanation": "Continuous Integration merges code changes frequently and runs automated tests.",
+  "difficulty": "easy",
+  "subject": "devops",
+  "chapter": "devops-ci-cd",
+  "topic": "t-522",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc",
+   "banking"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "devops",
+   "cicd"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "dev-008",
+  "question": "A 'build' step in a pipeline typically:",
+  "optionA": "compiles code and runs tests",
+  "optionB": "deletes the repository",
+  "optionC": "sends emails",
+  "optionD": "buys servers",
+  "correctAnswer": "A",
+  "detailedExplanation": "The build stage compiles the application and usually runs automated tests.",
+  "difficulty": "easy",
+  "subject": "devops",
+  "chapter": "devops-ci-cd",
+  "topic": "t-522",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc",
+   "banking"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "devops",
+   "cicd"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "dev-009",
+  "question": "Terraform is primarily used for:",
+  "optionA": "containerizing apps",
+  "optionB": "infrastructure as code provisioning",
+  "optionC": "writing unit tests",
+  "optionD": "monitoring logs",
+  "correctAnswer": "B",
+  "detailedExplanation": "Terraform declaratively provisions cloud infrastructure as code.",
+  "difficulty": "medium",
+  "subject": "devops",
+  "chapter": "devops-infrastructure-as-code",
+  "topic": "t-524",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc",
+   "banking"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "devops",
+   "iac",
+   "terraform"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "dev-010",
+  "question": "Which tool is known for configuration management and playbooks?",
+  "optionA": "Ansible",
+  "optionB": "GitHub",
+  "optionC": "Photoshop",
+  "optionD": "Postman",
+  "correctAnswer": "A",
+  "detailedExplanation": "Ansible manages configuration with YAML playbooks over SSH.",
+  "difficulty": "medium",
+  "subject": "devops",
+  "chapter": "devops-infrastructure-as-code",
+  "topic": "t-525",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc",
+   "banking"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "devops",
+   "ansible"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "dev-011",
+  "question": "Which three pillars are commonly associated with observability?",
+  "optionA": "logs, metrics, traces",
+  "optionB": "code, tests, builds",
+  "optionC": "CPU, RAM, disk",
+  "optionD": "DNS, HTTP, TCP",
+  "correctAnswer": "A",
+  "detailedExplanation": "Logs, metrics and traces together give observability into system behaviour.",
+  "difficulty": "medium",
+  "subject": "devops",
+  "chapter": "devops-monitoring",
+  "topic": "t-527",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc",
+   "banking"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "devops",
+   "monitoring"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "dev-012",
+  "question": "A 'blue-green deployment' involves:",
+  "optionA": "two identical environments with instant switchover",
+  "optionB": "deleting the old version",
+  "optionC": "rolling back to source code",
+  "optionD": "renaming the server",
+  "correctAnswer": "A",
+  "detailedExplanation": "Blue-green deploys to an idle environment then switches traffic, enabling instant rollback.",
+  "difficulty": "hard",
+  "subject": "devops",
+  "chapter": "devops-ci-cd",
+  "topic": "t-523",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc",
+   "banking"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "devops",
+   "deployment"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "bdt-006",
+  "question": "The three V's of big data are:",
+  "optionA": "volume, velocity, variety",
+  "optionB": "value, virus, vector",
+  "optionC": "version, vendor, value",
+  "optionD": "velocity, vision, volume",
+  "correctAnswer": "A",
+  "detailedExplanation": "Big data is characterized by large Volume, high Velocity and wide Variety of data.",
+  "difficulty": "easy",
+  "subject": "big-data",
+  "chapter": "big-data-big-data-fundamentals",
+  "topic": "t-528",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "bigdata"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "bdt-007",
+  "question": "HDFS stands for:",
+  "optionA": "Hadoop Distributed File System",
+  "optionB": "High Data File System",
+  "optionC": "Hadoop Data Frame Store",
+  "optionD": "Hyper Distributed Framework",
+  "correctAnswer": "A",
+  "detailedExplanation": "HDFS is Hadoop's distributed, fault-tolerant file storage layer.",
+  "difficulty": "easy",
+  "subject": "big-data",
+  "chapter": "big-data-big-data-fundamentals",
+  "topic": "t-529",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "bigdata",
+   "hadoop"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "bdt-008",
+  "question": "In MapReduce, the 'Reduce' phase typically:",
+  "optionA": "sorts input data",
+  "optionB": "aggregates or summarizes mapped data",
+  "optionC": "stores raw files",
+  "optionD": "renders charts",
+  "correctAnswer": "B",
+  "detailedExplanation": "After Map produces key-value pairs, Reduce aggregates them into final results.",
+  "difficulty": "medium",
+  "subject": "big-data",
+  "chapter": "big-data-processing-frameworks",
+  "topic": "t-530",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "bigdata",
+   "mapreduce"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "bdt-009",
+  "question": "Apache Spark differs from classic MapReduce by:",
+  "optionA": "using in-memory processing",
+  "optionB": "running only on one machine",
+  "optionC": "not supporting SQL",
+  "optionD": "being a database",
+  "correctAnswer": "A",
+  "detailedExplanation": "Spark's in-memory engine makes iterative and interactive jobs far faster.",
+  "difficulty": "medium",
+  "subject": "big-data",
+  "chapter": "big-data-processing-frameworks",
+  "topic": "t-531",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "bigdata",
+   "spark"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "bdt-010",
+  "question": "Kafka is best described as a:",
+  "optionA": "distributed event streaming platform",
+  "optionB": "relational database",
+  "optionC": "web server",
+  "optionD": "static file host",
+  "correctAnswer": "A",
+  "detailedExplanation": "Kafka streams events between producers and consumers at high throughput.",
+  "difficulty": "medium",
+  "subject": "big-data",
+  "chapter": "big-data-data-pipelines",
+  "topic": "t-532",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "bigdata",
+   "kafka"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "dbb-007",
+  "question": "A primary key must be:",
+  "optionA": "unique and non-null",
+  "optionB": "always a number",
+  "optionC": "optional",
+  "optionD": "duplicated across rows",
+  "correctAnswer": "A",
+  "detailedExplanation": "A primary key uniquely identifies each row and cannot be null.",
+  "difficulty": "easy",
+  "subject": "database",
+  "chapter": "database-relational-databases",
+  "topic": "t-534",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc",
+   "nts",
+   "banking"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "database",
+   "keys"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "dbb-008",
+  "question": "Removing duplicate data and splitting tables reduces:",
+  "optionA": "redundancy",
+  "optionB": "security",
+  "optionC": "speed always",
+  "optionD": "queries",
+  "correctAnswer": "A",
+  "detailedExplanation": "Normalization eliminates redundancy, improving consistency.",
+  "difficulty": "easy",
+  "subject": "database",
+  "chapter": "database-relational-databases",
+  "topic": "t-535",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc",
+   "nts",
+   "banking"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "database",
+   "normalization"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "dbb-009",
+  "question": "A table in 3NF must already be in:",
+  "optionA": "1NF and 2NF",
+  "optionB": "no normal form",
+  "optionC": "only 1NF",
+  "optionD": "BCNF",
+  "correctAnswer": "A",
+  "detailedExplanation": "Normal forms build on each other: 3NF requires 2NF which requires 1NF.",
+  "difficulty": "medium",
+  "subject": "database",
+  "chapter": "database-relational-databases",
+  "topic": "t-535",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc",
+   "nts",
+   "banking"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "database",
+   "normalization"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "dbb-010",
+  "question": "In an ER diagram, a 'relationship' is drawn as a:",
+  "optionA": "rectangle",
+  "optionB": "diamond",
+  "optionC": "ellipse",
+  "optionD": "circle",
+  "correctAnswer": "B",
+  "detailedExplanation": "Entities are rectangles, attributes ellipses, and relationships diamonds.",
+  "difficulty": "medium",
+  "subject": "database",
+  "chapter": "database-database-design",
+  "topic": "t-536",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc",
+   "nts",
+   "banking"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "database",
+   "er"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "dbb-011",
+  "question": "The 'A' in ACID stands for:",
+  "optionA": "Atomicity",
+  "optionB": "Accuracy",
+  "optionC": "Access",
+  "optionD": "Availability",
+  "correctAnswer": "A",
+  "detailedExplanation": "Atomicity ensures a transaction fully completes or fully rolls back.",
+  "difficulty": "medium",
+  "subject": "database",
+  "chapter": "database-administration",
+  "topic": "t-538",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc",
+   "nts",
+   "banking"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "database",
+   "acid"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "dbb-012",
+  "question": "Adding an index to a column typically:",
+  "optionA": "speeds up searches on that column",
+  "optionB": "always slows all queries",
+  "optionC": "deletes the column",
+  "optionD": "removes constraints",
+  "correctAnswer": "A",
+  "detailedExplanation": "Indexes accelerate lookups and filtering at the cost of write overhead.",
+  "difficulty": "medium",
+  "subject": "database",
+  "chapter": "database-database-design",
+  "topic": "t-537",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc",
+   "nts",
+   "banking"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "database",
+   "index"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "sql-007",
+  "question": "Which clause filters rows in SQL?",
+  "optionA": "WHERE",
+  "optionB": "ORDER BY",
+  "optionC": "GROUP BY",
+  "optionD": "SELECT",
+  "correctAnswer": "A",
+  "detailedExplanation": "WHERE applies row-level conditions before grouping or ordering.",
+  "difficulty": "easy",
+  "subject": "sql",
+  "chapter": "sql-sql-basics",
+  "topic": "t-540",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc",
+   "nts"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "sql",
+   "select"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "sql-008",
+  "question": "To fetch all columns of table 'students', you write:",
+  "optionA": "SELECT * FROM students;",
+  "optionB": "SELECT all FROM students;",
+  "optionC": "FETCH * FROM students;",
+  "optionD": "GET * students;",
+  "correctAnswer": "A",
+  "detailedExplanation": "SELECT * retrieves every column from the table.",
+  "difficulty": "easy",
+  "subject": "sql",
+  "chapter": "sql-sql-basics",
+  "topic": "t-540",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc",
+   "nts"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "sql"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "sql-009",
+  "question": "An INNER JOIN returns rows that have:",
+  "optionA": "matching values in both tables",
+  "optionB": "only unmatched left rows",
+  "optionC": "only unmatched right rows",
+  "optionD": "all rows regardless of match",
+  "correctAnswer": "A",
+  "detailedExplanation": "INNER JOIN keeps only rows with matches in both joined tables.",
+  "difficulty": "medium",
+  "subject": "sql",
+  "chapter": "sql-sql-basics",
+  "topic": "t-541",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc",
+   "nts"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "sql",
+   "join"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "sql-010",
+  "question": "Which function returns the number of rows in a group?",
+  "optionA": "COUNT()",
+  "optionB": "SUM()",
+  "optionC": "AVG()",
+  "optionD": "LEN()",
+  "correctAnswer": "A",
+  "detailedExplanation": "COUNT() counts rows or non-null values in a group.",
+  "difficulty": "medium",
+  "subject": "sql",
+  "chapter": "sql-advanced-sql",
+  "topic": "t-542",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc",
+   "nts"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "sql",
+   "aggregation"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "sql-011",
+  "question": "The HAVING clause filters:",
+  "optionA": "groups after aggregation",
+  "optionB": "rows before grouping",
+  "optionC": "columns in output",
+  "optionD": "table names",
+  "correctAnswer": "A",
+  "detailedExplanation": "HAVING applies conditions to grouped results, unlike WHERE which filters rows.",
+  "difficulty": "medium",
+  "subject": "sql",
+  "chapter": "sql-advanced-sql",
+  "topic": "t-542",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc",
+   "nts"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "sql"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "sql-012",
+  "question": "A subquery that returns a single value is called a:",
+  "optionA": "scalar subquery",
+  "optionB": "vector query",
+  "optionC": "compound query",
+  "optionD": "nested table",
+  "correctAnswer": "A",
+  "detailedExplanation": "A scalar subquery returns one row and one column and can be used in comparisons.",
+  "difficulty": "hard",
+  "subject": "sql",
+  "chapter": "sql-advanced-sql",
+  "topic": "t-543",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc",
+   "nts"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "sql",
+   "subquery"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "win-005",
+  "question": "In Windows, which shortcut copies a file?",
+  "optionA": "Ctrl+C",
+  "optionB": "Ctrl+V",
+  "optionC": "Ctrl+X",
+  "optionD": "Ctrl+Z",
+  "correctAnswer": "A",
+  "detailedExplanation": "Ctrl+C copies; Ctrl+V pastes; Ctrl+X cuts; Ctrl+Z undoes.",
+  "difficulty": "easy",
+  "subject": "windows",
+  "chapter": "windows-windows-fundamentals",
+  "topic": "t-546",
+  "subtopic": "fundamentals",
+  "exam": [
+   "fpsc",
+   "ppsc",
+   "nts"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "windows"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "win-006",
+  "question": "The Windows tool that manages disk space is called:",
+  "optionA": "Disk Management",
+  "optionB": "Paint",
+  "optionC": "Notepad",
+  "optionD": "Calculator",
+  "correctAnswer": "A",
+  "detailedExplanation": "Disk Management (diskmgmt.msc) handles partitions and volumes.",
+  "difficulty": "easy",
+  "subject": "windows",
+  "chapter": "windows-windows-fundamentals",
+  "topic": "t-546",
+  "subtopic": "fundamentals",
+  "exam": [
+   "fpsc",
+   "ppsc",
+   "nts"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "windows"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "win-007",
+  "question": "Which command opens the System Configuration utility?",
+  "optionA": "msconfig",
+  "optionB": "cmd",
+  "optionC": "regedit",
+  "optionD": "taskmgr",
+  "correctAnswer": "A",
+  "detailedExplanation": "msconfig launches System Configuration; taskmgr opens Task Manager.",
+  "difficulty": "medium",
+  "subject": "windows",
+  "chapter": "windows-windows-fundamentals",
+  "topic": "t-547",
+  "subtopic": "fundamentals",
+  "exam": [
+   "fpsc",
+   "ppsc",
+   "nts"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "windows"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "win-008",
+  "question": "The Windows firewall can be configured from:",
+  "optionA": "Windows Defender Firewall",
+  "optionB": "Disk Management",
+  "optionC": "Device Manager",
+  "optionD": "Event Viewer",
+  "correctAnswer": "A",
+  "detailedExplanation": "Windows Defender Firewall controls inbound and outbound rules.",
+  "difficulty": "medium",
+  "subject": "windows",
+  "chapter": "windows-administration",
+  "topic": "t-549",
+  "subtopic": "fundamentals",
+  "exam": [
+   "fpsc",
+   "ppsc",
+   "nts"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "windows",
+   "network"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "lnx-007",
+  "question": "Which command lists files in Linux?",
+  "optionA": "ls",
+  "optionB": "dir only",
+  "optionC": "list",
+  "optionD": "show",
+  "correctAnswer": "A",
+  "detailedExplanation": "'ls' is the standard command to list directory contents.",
+  "difficulty": "easy",
+  "subject": "linux",
+  "chapter": "linux-linux-fundamentals",
+  "topic": "t-550",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc",
+   "nts"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "linux"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "lnx-008",
+  "question": "To change directories in the terminal, use:",
+  "optionA": "cd",
+  "optionB": "chdir old",
+  "optionC": "mv",
+  "optionD": "go",
+  "correctAnswer": "A",
+  "detailedExplanation": "'cd' (change directory) navigates the file system.",
+  "difficulty": "easy",
+  "subject": "linux",
+  "chapter": "linux-linux-fundamentals",
+  "topic": "t-550",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc",
+   "nts"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "linux"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "lnx-009",
+  "question": "In Linux, everything is treated as:",
+  "optionA": "a file",
+  "optionB": "a process",
+  "optionC": "a window",
+  "optionD": "a service",
+  "correctAnswer": "A",
+  "detailedExplanation": "The Unix philosophy treats devices, sockets and files uniformly as files.",
+  "difficulty": "medium",
+  "subject": "linux",
+  "chapter": "linux-linux-fundamentals",
+  "topic": "t-551",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc",
+   "nts"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "linux"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "lnx-010",
+  "question": "The command 'chmod 755' gives the owner:",
+  "optionA": "read, write, execute",
+  "optionB": "read only",
+  "optionC": "no access",
+  "optionD": "write only",
+  "correctAnswer": "A",
+  "detailedExplanation": "7 = rwx for the owner; 5 = r-x for group and others.",
+  "difficulty": "medium",
+  "subject": "linux",
+  "chapter": "linux-administration",
+  "topic": "t-552",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc",
+   "nts"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "linux",
+   "permissions"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "lnx-011",
+  "question": "On Debian-based systems, package installation uses:",
+  "optionA": "apt",
+  "optionB": "yum only",
+  "optionC": "brew",
+  "optionD": "pip only",
+  "correctAnswer": "A",
+  "detailedExplanation": "APT is the package manager on Debian/Ubuntu; yum is Red Hat.",
+  "difficulty": "medium",
+  "subject": "linux",
+  "chapter": "linux-administration",
+  "topic": "t-553",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc",
+   "nts"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "linux",
+   "packages"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "lnx-012",
+  "question": "A shell script's first line '#!/bin/bash' is called:",
+  "optionA": "the shebang",
+  "optionB": "the header",
+  "optionC": "the comment",
+  "optionD": "the alias",
+  "correctAnswer": "A",
+  "detailedExplanation": "The shebang tells the kernel which interpreter to execute the script with.",
+  "difficulty": "hard",
+  "subject": "linux",
+  "chapter": "linux-shell-scripting",
+  "topic": "t-554",
+  "subtopic": "fundamentals",
+  "exam": [
+   "ib",
+   "fpsc",
+   "nts"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "linux",
+   "shell"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ }
+]

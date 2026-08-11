@@ -1,0 +1,65 @@
+{
+  "step": "pwa_foundation",
+  "generated_at": "2026-08-10T11:58:31.588Z",
+  "manifest": {
+    "valid_json": true,
+    "name": "Pakistan MCQs Hub - Free MCQ Practice Platform",
+    "short_name": "MCQs Hub",
+    "description_len": 148,
+    "theme_color": "#01411c",
+    "background_color": "#013710",
+    "display": "standalone",
+    "display_override": [
+      "window-controls-overlay",
+      "standalone",
+      "minimal-ui"
+    ],
+    "start_url": "./",
+    "scope": "./",
+    "id": "/",
+    "orientation": "any",
+    "categories": [
+      "education",
+      "productivity"
+    ],
+    "icons_declared": 12,
+    "icons_png_192": true,
+    "icons_png_512": true,
+    "maskable_declared": true,
+    "shortcut_count": 5,
+    "screenshot_entries": 1,
+    "all_icon_refs_resolved": true,
+    "icon_files_on_disk": 13,
+    "icon_files_expected": 13
+  },
+  "service_worker": {
+    "file_exists": true,
+    "file_size": 7998,
+    "registered_in_index": true,
+    "pwa_runtime_loaded": true,
+    "install_handler": true,
+    "activate_handler": true,
+    "skip_waiting": true,
+    "clients_claim": true
+  },
+  "offline_page": {
+    "exists": true,
+    "title": true,
+    "linked_from_sw": true,
+    "only_when_offline": true
+  },
+  "app_icons": {
+    "directory_present": true,
+    "png_icons": 11,
+    "svg_sources": true,
+    "apple_touch": true,
+    "maskable": true,
+    "splash": true
+  },
+  "display_modes": {
+    "standalone": true,
+    "window_controls_overlay": true,
+    "minimal_ui": true,
+    "fullscreen": false
+  }
+}

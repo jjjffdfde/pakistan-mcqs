@@ -1,0 +1,38 @@
+{
+  "module": "M8",
+  "forms": {
+    "count": 0,
+    "note": "no <form> elements on the site; data-entry UIs use button-driven flows (admin manager, leaderboard modal)"
+  },
+  "tested": [
+    {
+      "control": "admin add category — empty name/icon",
+      "result": "PASS (empty submit rejected — validation works)"
+    },
+    {
+      "control": "admin add category — duplicate name",
+      "result": "PASS (deduplicated — 1 row)"
+    },
+    {
+      "control": "admin add category — valid",
+      "result": "PASS (added)"
+    },
+    {
+      "control": "leaderboard name modal",
+      "result": "PASS (save persists pmh_user)"
+    },
+    {
+      "control": "search input — special chars/long",
+      "result": "PASS"
+    }
+  ],
+  "double_submit": "PASS (buttons disabled during submit paths)",
+  "success_messages": "PASS",
+  "error_messages": "PASS (validation feedback present)",
+  "status": "PASS",
+  "env": {
+    "tool": "scripts/phase33 (driver+probe33+reporter)",
+    "generated_at": "2026-08-11T04:24:25.697Z",
+    "methodology": "Headless Chrome 1366x900/390x844 etc, localhost static server, fresh profile per run, ACTIVE error/network capture (P32-TOOL-001 fix), interaction = real DOM clicks/inputs/Enter keys + state assertions. A feature is WORKING only when interaction + expected UI state + 0 console errors + 0 unexpected network failures."
+  }
+}

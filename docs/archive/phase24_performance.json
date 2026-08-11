@@ -1,0 +1,23 @@
+{
+  "step": "performance",
+  "generated_at": "2026-08-10T16:56:04",
+  "summary": {
+    "deployed_site_kb": 351528,
+    "html_kb": 6410,
+    "css_kb": 21,
+    "js_kb": 2517,
+    "img_kb": 374,
+    "json_kb": 340968,
+    "preload_links_in_index": 4,
+    "single_stylesheet": true,
+    "service_worker_offline": true,
+    "manifest_present": true,
+    "render_blocking_css_in_head": true,
+    "inline_style_blocks_index": 0,
+    "index_html_kb": 26,
+    "app_js_kb": 91,
+    "admin_js_kb": 44,
+    "ai_js_kb": 38,
+    "css_kb_total": 21
+  }
+}

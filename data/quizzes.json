@@ -1,0 +1,399 @@
+[
+ {
+  "id": "quiz-pakistan-basics",
+  "title": "Pakistan Affairs Essentials",
+  "description": "Core questions on the Pakistan Movement, constitution and geography - a perfect starting point.",
+  "subjects": [
+   "pakistan-affairs"
+  ],
+  "difficulty": "easy",
+  "totalQuestions": 15,
+  "durationMins": 15,
+  "tags": [
+   "pakistan",
+   "basics",
+   "starter"
+  ],
+  "status": "active",
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "quiz-current-2026",
+  "title": "Current Affairs 2024-2026",
+  "description": "Recent national and international developments, summits and appointments.",
+  "subjects": [
+   "current-affairs"
+  ],
+  "difficulty": "medium",
+  "totalQuestions": 15,
+  "durationMins": 15,
+  "tags": [
+   "current affairs",
+   "2026"
+  ],
+  "status": "active",
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "quiz-islamic-essentials",
+  "title": "Islamic Studies Essentials",
+  "description": "Quran, Hadith, Seerah and the pillars of Islam for every aspirant.",
+  "subjects": [
+   "islamic-studies"
+  ],
+  "difficulty": "easy",
+  "totalQuestions": 15,
+  "durationMins": 15,
+  "tags": [
+   "islamic studies",
+   "basics"
+  ],
+  "status": "active",
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "quiz-english-grammar",
+  "title": "English Grammar Challenge",
+  "description": "Tenses, prepositions, articles and sentence correction for competitive tests.",
+  "subjects": [
+   "english"
+  ],
+  "difficulty": "medium",
+  "totalQuestions": 15,
+  "durationMins": 15,
+  "tags": [
+   "english",
+   "grammar"
+  ],
+  "status": "active",
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "quiz-everyday-science",
+  "title": "Everyday Science in Action",
+  "description": "Science questions from daily life - body, energy, space and environment.",
+  "subjects": [
+   "everyday-science"
+  ],
+  "difficulty": "medium",
+  "totalQuestions": 15,
+  "durationMins": 15,
+  "tags": [
+   "science",
+   "daily life"
+  ],
+  "status": "active",
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "quiz-gk-world",
+  "title": "World General Knowledge",
+  "description": "Capitals, currencies, organizations, sports and inventions from around the globe.",
+  "subjects": [
+   "general-knowledge"
+  ],
+  "difficulty": "easy",
+  "totalQuestions": 15,
+  "durationMins": 15,
+  "tags": [
+   "general knowledge",
+   "world"
+  ],
+  "status": "active",
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "quiz-math-speed",
+  "title": "Math Speed Test",
+  "description": "Percentages, ratios, averages and time-speed-distance under timed pressure.",
+  "subjects": [
+   "mathematics"
+  ],
+  "difficulty": "medium",
+  "totalQuestions": 10,
+  "durationMins": 10,
+  "tags": [
+   "mathematics",
+   "arithmetic"
+  ],
+  "status": "active",
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "quiz-reasoning-iq",
+  "title": "Reasoning & IQ Workout",
+  "description": "Verbal and analytical puzzles to sharpen your logical thinking.",
+  "subjects": [
+   "reasoning"
+  ],
+  "difficulty": "medium",
+  "totalQuestions": 10,
+  "durationMins": 10,
+  "tags": [
+   "reasoning",
+   "iq",
+   "puzzles"
+  ],
+  "status": "active",
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "quiz-computer-it",
+  "title": "Computer & IT Fundamentals",
+  "description": "Hardware, software, internet, databases and IT abbreviations for computer tests.",
+  "subjects": [
+   "computer-science",
+   "ms-office"
+  ],
+  "difficulty": "easy",
+  "totalQuestions": 15,
+  "durationMins": 15,
+  "tags": [
+   "computer",
+   "it",
+   "ms office"
+  ],
+  "status": "active",
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "quiz-pedagogy",
+  "title": "Pedagogy & Education",
+  "description": "Learning theories, teaching methods and assessment for educators tests.",
+  "subjects": [
+   "pedagogy",
+   "education",
+   "psychology"
+  ],
+  "difficulty": "medium",
+  "totalQuestions": 15,
+  "durationMins": 15,
+  "tags": [
+   "pedagogy",
+   "educators",
+   "teaching"
+  ],
+  "status": "active",
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "quiz-constitution-law",
+  "title": "Constitution & Law of Pakistan",
+  "description": "Key articles, amendments, legal maxims and the structure of government.",
+  "subjects": [
+   "constitution",
+   "law"
+  ],
+  "difficulty": "hard",
+  "totalQuestions": 15,
+  "durationMins": 15,
+  "tags": [
+   "constitution",
+   "law",
+   "1973"
+  ],
+  "status": "active",
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "quiz-science-subjects",
+  "title": "Physics, Chemistry & Biology Mix",
+  "description": "Core concepts across the three major science subjects for entry tests.",
+  "subjects": [
+   "physics",
+   "chemistry",
+   "biology"
+  ],
+  "difficulty": "medium",
+  "totalQuestions": 15,
+  "durationMins": 15,
+  "tags": [
+   "physics",
+   "chemistry",
+   "biology"
+  ],
+  "status": "active",
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "quiz-economics-banking",
+  "title": "Economics & Banking",
+  "description": "Micro and macro concepts, Pakistan economy, SBP and Islamic finance.",
+  "subjects": [
+   "economics",
+   "finance"
+  ],
+  "difficulty": "medium",
+  "totalQuestions": 15,
+  "durationMins": 15,
+  "tags": [
+   "economics",
+   "banking",
+   "finance"
+  ],
+  "status": "active",
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "quiz-programming-coding",
+  "title": "Programming & Databases",
+  "description": "Python, Java, C++, SQL and web languages for IT-based tests.",
+  "subjects": [
+   "programming",
+   "software-eng"
+  ],
+  "difficulty": "medium",
+  "totalQuestions": 15,
+  "durationMins": 15,
+  "tags": [
+   "programming",
+   "coding",
+   "sql"
+  ],
+  "status": "active",
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "quiz-english-literature",
+  "title": "English Literature Lovers",
+  "description": "Poets, novelists, literary devices and famous works of world literature.",
+  "subjects": [
+   "english-literature"
+  ],
+  "difficulty": "medium",
+  "totalQuestions": 10,
+  "durationMins": 10,
+  "tags": [
+   "literature",
+   "poetry",
+   "novels"
+  ],
+  "status": "active",
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "quiz-mix-challenge",
+  "title": "Mixed Mega Challenge",
+  "description": "A tough random mix across all subjects - the ultimate full-syllabus check.",
+  "subjects": [],
+  "difficulty": "hard",
+  "totalQuestions": 30,
+  "durationMins": 30,
+  "tags": [
+   "mixed",
+   "challenge",
+   "all subjects"
+  ],
+  "status": "active",
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "quiz-vocabulary-sprint",
+  "title": "Vocabulary Sprint",
+  "description": "60-second brain workout on synonyms, antonyms and word meanings.",
+  "subjects": [
+   "english"
+  ],
+  "difficulty": "easy",
+  "totalQuestions": 10,
+  "durationMins": 5,
+  "tags": [
+   "vocabulary",
+   "synonyms",
+   "antonyms"
+  ],
+  "status": "active",
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "quiz-grammar-refresher",
+  "title": "Grammar Refresher",
+  "description": "Tenses, prepositions, articles and common errors to polish your English.",
+  "subjects": [
+   "english"
+  ],
+  "difficulty": "medium",
+  "totalQuestions": 12,
+  "durationMins": 10,
+  "tags": [
+   "grammar",
+   "english"
+  ],
+  "status": "active",
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "quiz-world-affairs",
+  "title": "World Current Affairs",
+  "description": "Global events, summits and international developments.",
+  "subjects": [
+   "current-affairs"
+  ],
+  "difficulty": "medium",
+  "totalQuestions": 10,
+  "durationMins": 10,
+  "tags": [
+   "world",
+   "current affairs"
+  ],
+  "status": "active",
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "quiz-analytical-reasoning",
+  "title": "Analytical Reasoning",
+  "description": "Syllogisms, puzzles and logical deductions for IQ tests.",
+  "subjects": [
+   "reasoning"
+  ],
+  "difficulty": "hard",
+  "totalQuestions": 10,
+  "durationMins": 12,
+  "tags": [
+   "reasoning",
+   "analytical",
+   "puzzles"
+  ],
+  "status": "active",
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "quiz-environmental",
+  "title": "Environmental Science",
+  "description": "Ecosystems, pollution, climate and conservation questions.",
+  "subjects": [
+   "environmental-science"
+  ],
+  "difficulty": "medium",
+  "totalQuestions": 10,
+  "durationMins": 10,
+  "tags": [
+   "environment",
+   "climate",
+   "ecology"
+  ],
+  "status": "active",
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ }
+]

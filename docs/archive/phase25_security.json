@@ -1,0 +1,27 @@
+{
+  "step": "security",
+  "generated_at": "2026-08-10T11:58:31.595Z",
+  "https": {
+    "host_https": true,
+    "sw_same_origin_guard": true,
+    "transport_note": "GitHub Pages serves HTTPS by default."
+  },
+  "service_worker": {
+    "no_external_imports": true,
+    "no_secrets": true,
+    "update_flow": true,
+    "version_pinned": true
+  },
+  "cache_integrity": {
+    "prefixed_namespace": true,
+    "stale_deletion": true,
+    "api_network_first_fallback": true
+  },
+  "manifest_validation": {
+    "valid_json": true,
+    "id_set": true,
+    "start_url_present": true,
+    "icons_local": true,
+    "secrets_absent": true
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "module": "P32",
+  "scan": "recurse assets + all HTML: 0 <video>, 0 <source video>, 0 .mp4/.webm files",
+  "findings": [],
+  "actions": [],
+  "status": "PASS — no video content exists; module N/A",
+  "generated_at": "2026-08-11T03:48:45.675Z",
+  "tool": "scripts/phase32 (reporter)",
+  "methodology": "Headless Chrome 1366x900/390x844, localhost static server (no throttling, lab-grade), fresh profile per run; interactive runs perform scripted user flows; static runs measure clean initial load.",
+  "environment_note": "Lab-grade localhost measurements; values are real, not fabricated; production network conditions will differ. LCP/CLS/INP/TTFB captured via PerformanceObserver wrappers in test-only injection script. FCP not observable in this toolchain (paint entries not exposed) -> NOT_MEASURABLE."
+}

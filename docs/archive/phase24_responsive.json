@@ -1,0 +1,23 @@
+{
+  "step": "responsive",
+  "generated_at": "2026-08-10T16:56:04",
+  "summary": {
+    "pages_with_viewport": 1125,
+    "breakpoints_found": 2,
+    "mobile_menu_toggle": true,
+    "sticky_header": true,
+    "fluid_container": true,
+    "responsive_auto_fill": 4,
+    "responsive_auto_fit": 4
+  },
+  "breakpoints": [
+    {
+      "rule": "@media (max-width: 860px",
+      "value": "860px"
+    },
+    {
+      "rule": "@media (max-width: 560px",
+      "value": "560px"
+    }
+  ]
+}

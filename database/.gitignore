@@ -1,0 +1,34 @@
+# ============================================================
+# database/.gitignore — Phase 23 source repository
+# The production SQLite is NEVER stored here (read-only source).
+# ============================================================
+# Working / intermediate files
+*.part.tmp
+.tmp/
+.tmp*
+
+# Checkpoint / resume state (regenerable)
+manifests/.export-checkpoint.json
+manifests/.build-state.json
+
+# Rebuilt databases are produced locally, never committed
+*.rebuilt.sqlite
+db/pakistan-mcqs.rebuilt.sqlite
+db/*.rebuilt.sqlite
+
+# Regenerable release/snapshot copies (hard-linked duplicates of data/)
+snapshots/
+releases/
+
+# Node artifacts
+node_modules/
+package-lock.json
+
+# OS junk
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Editor
+.vscode/
+.idea/

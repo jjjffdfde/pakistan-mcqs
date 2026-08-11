@@ -1,0 +1,333 @@
+{
+  "step": 14,
+  "checked": [
+    {
+      "ref_type": "css",
+      "path": "assets/css/style.css",
+      "status": "PASS",
+      "note": "exists"
+    },
+    {
+      "ref_type": "preload",
+      "path": "assets/js/admin.js",
+      "status": "PASS",
+      "note": "exists"
+    },
+    {
+      "ref_type": "preload",
+      "path": "data/subjects.json",
+      "status": "PASS",
+      "note": "exists"
+    },
+    {
+      "ref_type": "preload",
+      "path": "data/chapters.json",
+      "status": "PASS",
+      "note": "exists"
+    },
+    {
+      "ref_type": "script",
+      "path": "assets/js/admin.js",
+      "status": "PASS",
+      "note": "exists"
+    },
+    {
+      "ref_type": "icon",
+      "path": "assets/icons/icon-192.png",
+      "status": "PASS",
+      "note": "exists"
+    },
+    {
+      "ref_type": "icon",
+      "path": "assets/icons/apple-touch-icon.png",
+      "status": "PASS",
+      "note": "exists"
+    },
+    {
+      "ref_type": "preload",
+      "path": "assets/js/app.js",
+      "status": "PASS",
+      "note": "exists"
+    },
+    {
+      "ref_type": "preload",
+      "path": "data/topics.json",
+      "status": "PASS",
+      "note": "exists"
+    },
+    {
+      "ref_type": "script",
+      "path": "assets/js/app.js",
+      "status": "PASS",
+      "note": "exists"
+    },
+    {
+      "ref_type": "script",
+      "path": "assets/js/ai.js",
+      "status": "PASS",
+      "note": "exists"
+    },
+    {
+      "ref_type": "script",
+      "path": "assets/js/pwa.js",
+      "status": "PASS",
+      "note": "exists"
+    },
+    {
+      "ref_type": "image",
+      "path": "assets/icons/icon-192.png",
+      "status": "PASS",
+      "note": "exists"
+    },
+    {
+      "ref_type": "manifest-icon",
+      "path": "assets/icons/icon-48.png",
+      "status": "PASS",
+      "note": "exists"
+    },
+    {
+      "ref_type": "manifest-icon",
+      "path": "assets/icons/icon-72.png",
+      "status": "PASS",
+      "note": "exists"
+    },
+    {
+      "ref_type": "manifest-icon",
+      "path": "assets/icons/icon-96.png",
+      "status": "PASS",
+      "note": "exists"
+    },
+    {
+      "ref_type": "manifest-icon",
+      "path": "assets/icons/icon-128.png",
+      "status": "PASS",
+      "note": "exists"
+    },
+    {
+      "ref_type": "manifest-icon",
+      "path": "assets/icons/icon-192.png",
+      "status": "PASS",
+      "note": "exists"
+    },
+    {
+      "ref_type": "manifest-icon",
+      "path": "assets/icons/icon-256.png",
+      "status": "PASS",
+      "note": "exists"
+    },
+    {
+      "ref_type": "manifest-icon",
+      "path": "assets/icons/icon-384.png",
+      "status": "PASS",
+      "note": "exists"
+    },
+    {
+      "ref_type": "manifest-icon",
+      "path": "assets/icons/icon-512.png",
+      "status": "PASS",
+      "note": "exists"
+    },
+    {
+      "ref_type": "manifest-icon",
+      "path": "assets/icons/maskable-192.png",
+      "status": "PASS",
+      "note": "exists"
+    },
+    {
+      "ref_type": "manifest-icon",
+      "path": "assets/icons/maskable-512.png",
+      "status": "PASS",
+      "note": "exists"
+    },
+    {
+      "ref_type": "manifest-icon",
+      "path": "assets/icons/icon.svg",
+      "status": "PASS",
+      "note": "exists"
+    },
+    {
+      "ref_type": "manifest-icon",
+      "path": "assets/icons/maskable.svg",
+      "status": "PASS",
+      "note": "exists"
+    },
+    {
+      "ref_type": "manifest-screenshot",
+      "path": "android/splash-1080x1920.png",
+      "status": "PASS",
+      "note": "exists"
+    },
+    {
+      "ref_type": "sw-asset",
+      "path": "index.html",
+      "status": "PASS",
+      "note": "exists"
+    },
+    {
+      "ref_type": "sw-asset",
+      "path": "offline.html",
+      "status": "PASS",
+      "note": "exists"
+    },
+    {
+      "ref_type": "sw-asset",
+      "path": "admin.html",
+      "status": "PASS",
+      "note": "exists"
+    },
+    {
+      "ref_type": "sw-asset",
+      "path": "404.html",
+      "status": "PASS",
+      "note": "exists"
+    },
+    {
+      "ref_type": "sw-asset",
+      "path": "manifest.webmanifest",
+      "status": "PASS",
+      "note": "exists"
+    },
+    {
+      "ref_type": "sw-asset",
+      "path": "assets/css/style.css",
+      "status": "PASS",
+      "note": "exists"
+    },
+    {
+      "ref_type": "sw-asset",
+      "path": "assets/js/app.js",
+      "status": "PASS",
+      "note": "exists"
+    },
+    {
+      "ref_type": "sw-asset",
+      "path": "assets/js/ai.js",
+      "status": "PASS",
+      "note": "exists"
+    },
+    {
+      "ref_type": "sw-asset",
+      "path": "assets/js/admin.js",
+      "status": "PASS",
+      "note": "exists"
+    },
+    {
+      "ref_type": "sw-asset",
+      "path": "assets/js/pwa.js",
+      "status": "PASS",
+      "note": "exists"
+    },
+    {
+      "ref_type": "sw-asset",
+      "path": "assets/icons/icon-192.png",
+      "status": "PASS",
+      "note": "exists"
+    },
+    {
+      "ref_type": "sw-asset",
+      "path": "assets/icons/icon-512.png",
+      "status": "PASS",
+      "note": "exists"
+    },
+    {
+      "ref_type": "sw-asset",
+      "path": "assets/icons/maskable-512.png",
+      "status": "PASS",
+      "note": "exists"
+    },
+    {
+      "ref_type": "sw-asset",
+      "path": "assets/icons/icon.svg",
+      "status": "PASS",
+      "note": "exists"
+    },
+    {
+      "ref_type": "sw-asset",
+      "path": "assets/img/og-cover.png",
+      "status": "PASS",
+      "note": "exists"
+    },
+    {
+      "ref_type": "sw-asset",
+      "path": "subjects/index.html",
+      "status": "PASS",
+      "note": "exists"
+    },
+    {
+      "ref_type": "sw-asset",
+      "path": "data/subjects.json",
+      "status": "PASS",
+      "note": "exists"
+    },
+    {
+      "ref_type": "sw-asset",
+      "path": "data/chapters.json",
+      "status": "PASS",
+      "note": "exists"
+    },
+    {
+      "ref_type": "sw-asset",
+      "path": "data/topics.json",
+      "status": "PASS",
+      "note": "exists"
+    },
+    {
+      "ref_type": "sw-asset",
+      "path": "data/mcqs.json",
+      "status": "PASS",
+      "note": "exists"
+    },
+    {
+      "ref_type": "sw-asset",
+      "path": "data/categories.json",
+      "status": "PASS",
+      "note": "exists"
+    },
+    {
+      "ref_type": "sw-asset",
+      "path": "data/exams.json",
+      "status": "PASS",
+      "note": "exists"
+    },
+    {
+      "ref_type": "sw-asset",
+      "path": "data/programs.json",
+      "status": "PASS",
+      "note": "exists"
+    },
+    {
+      "ref_type": "sw-asset",
+      "path": "data/mock_tests.json",
+      "status": "PASS",
+      "note": "exists"
+    },
+    {
+      "ref_type": "sw-asset",
+      "path": "data/papers.json",
+      "status": "PASS",
+      "note": "exists"
+    },
+    {
+      "ref_type": "sw-asset",
+      "path": "data/quizzes.json",
+      "status": "PASS",
+      "note": "exists"
+    },
+    {
+      "ref_type": "sw-asset",
+      "path": "data/references.json",
+      "status": "PASS",
+      "note": "exists"
+    },
+    {
+      "ref_type": "sw-asset",
+      "path": "assets/icons/icon-96.png",
+      "status": "PASS",
+      "note": "exists"
+    }
+  ],
+  "totals": {
+    "pass": 54,
+    "missing": 0
+  }
+}

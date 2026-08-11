@@ -1,0 +1,212 @@
+{
+ "phase": 34,
+ "generated": "2026-08-11T12:21:44.641Z",
+ "files_before_cleanup": 2957,
+ "files_after_cleanup": 2740,
+ "files_removed": 248,
+ "files_archived": 0,
+ "files_moved_to_snapshot": 211,
+ "files_retained": 2740,
+ "duplicate_groups_found": 433,
+ "duplicates_removed": 0,
+ "dev_artifacts_removed": 52,
+ "secrets_found": 0,
+ "secrets_excluded": 0,
+ "dependencies_removed": 0,
+ "dependencies_added": 0,
+ "large_files": [
+  {
+   "path": "db/pakistan-mcqs.sqlite",
+   "size": 2206887936,
+   "action": "EXCLUDED from Git (kept locally)"
+  },
+  {
+   "path": "db/pakistan-mcqs.rebuilt.sqlite",
+   "size": 2145193984,
+   "action": "REMOVED to snapshot (reproducible)"
+  },
+  {
+   "path": "backup/** (snapshots)",
+   "size": 8713588439,
+   "action": "EXCLUDED from Git (kept locally)"
+  },
+  {
+   "path": "database/data + releases + snapshots",
+   "size": 852866779,
+   "action": "EXCLUDED from Git (LFS-ready)"
+  }
+ ],
+ "github_candidate_size_mib": 66.9,
+ "largest_tracked_file": {
+  "path": "docs/archive/phase17_search_index.json",
+  "size_mib": 32.8
+ },
+ "regression": {
+  "phase31_functional": "26/26 PASS",
+  "phase31_responsive": "24/24 PASS",
+  "phase31_network": "3/3 PASS",
+  "phase30_api_sandbox": "47/47 PASS",
+  "phase32_cwv": "9 runs, 0 errors, 0 overflow",
+  "phase32_cache": "PASS (406080 -> 4824 B on repeat)",
+  "phase33_runtime": "22 runs, 0 errors, 0 overflow",
+  "phase33_pwa_offline": "PASS",
+  "unit_suite": "34/34 PASS",
+  "db_integration": "30/30 PASS",
+  "lint": "0 errors",
+  "repo_audit": "PASS",
+  "security_audit": "PASS"
+ },
+ "security": {
+  "secrets_found": 0,
+  "env_files_found": 0,
+  "mixed_content": 0,
+  "verdict": "PASS"
+ },
+ "database": {
+  "before_sha256": "3DF39D335F5F931125168CA26877595B620BD1C9F75701B20AC19A9DFFAFA34E",
+  "after_sha256": "3DF39D335F5F931125168CA26877595B620BD1C9F75701B20AC19A9DFFAFA34E",
+  "size": 2206887936,
+  "mtime_unchanged": true,
+  "hash_match": true,
+  "schema_sha256": "C9E4FE0AD9EB2A244549DAF90D3FFA84361892426FE08CD7A06847EBB0A235EC"
+ },
+ "git": {
+  "initialized": true,
+  "branch": "main",
+  "commits": 0,
+  "staged": 0,
+  "dry_run_candidates": 1890,
+  "note": "local dry run only - NO push, NO commit, NO GitHub repository created"
+ },
+ "github_readiness": {
+  "no_file_over_100_mib": true,
+  "no_file_over_50_mib": true,
+  "repo_under_1_gib": true,
+  "verdict": "READY for publication (user must choose LICENSE and review before upload)"
+ },
+ "modules_completed": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30
+ ],
+ "release_gate": {
+  "checks": [
+   [
+    "no critical functionality broken",
+    "PASS"
+   ],
+   [
+    "no required file missing",
+    "PASS"
+   ],
+   [
+    "no broken references",
+    "PASS (0 unexpected missing, 0 forward issues)"
+   ],
+   [
+    "no unexpected JS errors",
+    "PASS (0 across 9 CWV + 22 runtime runs)"
+   ],
+   [
+    "no unexpected network errors",
+    "PASS"
+   ],
+   [
+    "no secrets committed",
+    "PASS (0 found)"
+   ],
+   [
+    ".gitignore correct",
+    "PASS (verified via git check-ignore + dry run)"
+   ],
+   [
+    ".gitattributes correct",
+    "PASS"
+   ],
+   [
+    "package files present",
+    "PASS (package.json + package-lock.json created, zero deps)"
+   ],
+   [
+    "production source present",
+    "PASS"
+   ],
+   [
+    "PWA files present",
+    "PASS (sw.js, manifest.webmanifest, offline.html, icons)"
+   ],
+   [
+    "database unchanged",
+    "PASS (SHA256 + size + mtime identical)"
+   ],
+   [
+    "Phase 31 regression passes",
+    "PASS (53/53)"
+   ],
+   [
+    "Phase 32 regression passes",
+    "PASS"
+   ],
+   [
+    "Phase 33 regression passes",
+    "PASS (22 runs + PWA offline)"
+   ],
+   [
+    "Phase 34 validation passes",
+    "PASS (reference recheck, security recheck, lint, repo audit)"
+   ],
+   [
+    "no file > 100 MiB",
+    "PASS (largest tracked 32.8 MiB)"
+   ],
+   [
+    "git dry run clean",
+    "PASS (1890 candidates, 66.9 MiB)"
+   ],
+   [
+    "no unexplained deletions",
+    "PASS (every removal documented in phase34_deletion_plan.json + backup manifest)"
+   ],
+   [
+    "no data loss",
+    "PASS (snapshot holds 211 moved files; DB hash unchanged)"
+   ],
+   [
+    "no fake functionality",
+    "PASS"
+   ],
+   [
+    "no fabricated data",
+    "PASS"
+   ]
+  ],
+  "verdict": "PHASE 34 READY"
+ }
+}

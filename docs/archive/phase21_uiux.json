@@ -1,0 +1,31 @@
+{
+  "step": "uiux_quality",
+  "generated_at": "2026-08-06T08:51:28",
+  "summary": {
+    "css_font_families": 8,
+    "css_colors": 85,
+    "css_border_radius": 36,
+    "css_box_shadow": 14,
+    "css_transitions": 5,
+    "css_animations": 0,
+    "dark_mode_support": false,
+    "dark_mode_css_rules": 0,
+    "theme_toggle": 0,
+    "hover_states": 15,
+    "active_states": 1,
+    "disabled_states": 2,
+    "focus_states": 3,
+    "loading_states": 3,
+    "empty_states": 1,
+    "error_states": 78,
+    "success_states": 169,
+    "card_components": 2,
+    "button_components": 18,
+    "form_components": 0,
+    "table_components": 6,
+    "grid_system": 10,
+    "flexbox_layout": 31,
+    "spacing_rules": 65,
+    "z_index_layers": 6
+  }
+}

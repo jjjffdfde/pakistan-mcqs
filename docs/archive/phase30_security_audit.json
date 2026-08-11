@@ -1,0 +1,45 @@
+{
+ "module": "M14",
+ "generated_at": "2026-08-10T10:19:52.220Z",
+ "totals": {
+  "eval": 0,
+  "document_write": 0,
+  "inner_html": 142,
+  "inner_html_unescaped": 92,
+  "secrets_found": 0
+ },
+ "findings": [
+  {
+   "file": "assets/js/admin.js",
+   "eval": 0,
+   "document_write": 0,
+   "inner_html_unescaped": 22,
+   "secrets_found": 0,
+   "secrets_masked": ""
+  },
+  {
+   "file": "assets/js/ai.js",
+   "eval": 0,
+   "document_write": 0,
+   "inner_html_unescaped": 21,
+   "secrets_found": 0,
+   "secrets_masked": ""
+  },
+  {
+   "file": "assets/js/app.js",
+   "eval": 0,
+   "document_write": 0,
+   "inner_html_unescaped": 48,
+   "secrets_found": 0,
+   "secrets_masked": ""
+  },
+  {
+   "file": "assets/js/pwa.js",
+   "eval": 0,
+   "document_write": 0,
+   "inner_html_unescaped": 1,
+   "secrets_found": 0,
+   "secrets_masked": ""
+  }
+ ]
+}

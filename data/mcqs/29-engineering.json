@@ -1,0 +1,675 @@
+[
+ {
+  "id": "cpe-010",
+  "question": "Which gate outputs 1 only when ALL inputs are 1?",
+  "optionA": "AND",
+  "optionB": "OR",
+  "optionC": "NOT",
+  "optionD": "XOR",
+  "correctAnswer": "A",
+  "detailedExplanation": "The AND gate outputs 1 only when every input is 1.",
+  "difficulty": "easy",
+  "subject": "computer-engineering",
+  "chapter": "computer-engineering-digital-logic",
+  "topic": "t-440",
+  "subtopic": "fundamentals",
+  "exam": [
+   "nts",
+   "ecat",
+   "fpsc",
+   "ppsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "logic-gates"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "cpe-011",
+  "question": "An OR gate outputs 1 when:",
+  "optionA": "at least one input is 1",
+  "optionB": "all inputs are 0",
+  "optionC": "exactly one input is 0",
+  "optionD": "inputs alternate",
+  "correctAnswer": "A",
+  "detailedExplanation": "OR returns 1 if any input is 1.",
+  "difficulty": "easy",
+  "subject": "computer-engineering",
+  "chapter": "computer-engineering-digital-logic",
+  "topic": "t-440",
+  "subtopic": "fundamentals",
+  "exam": [
+   "nts",
+   "ecat",
+   "fpsc",
+   "ppsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "logic-gates"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "cpe-012",
+  "question": "The NAND gate is the negation of:",
+  "optionA": "AND",
+  "optionB": "OR",
+  "optionC": "XOR",
+  "optionD": "NOR",
+  "correctAnswer": "A",
+  "detailedExplanation": "NAND = NOT (AND); it is functionally complete alone.",
+  "difficulty": "medium",
+  "subject": "computer-engineering",
+  "chapter": "computer-engineering-digital-logic",
+  "topic": "t-440",
+  "subtopic": "fundamentals",
+  "exam": [
+   "nts",
+   "ecat",
+   "fpsc",
+   "ppsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "logic-gates"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "cpe-013",
+  "question": "According to De Morgan's laws, NOT(A AND B) equals:",
+  "optionA": "(NOT A) OR (NOT B)",
+  "optionB": "(NOT A) AND (NOT B)",
+  "optionC": "A OR B",
+  "optionD": "NOT (A OR B)",
+  "correctAnswer": "A",
+  "detailedExplanation": "De Morgan: NOT(A AND B) = NOT A OR NOT B.",
+  "difficulty": "medium",
+  "subject": "computer-engineering",
+  "chapter": "computer-engineering-digital-logic",
+  "topic": "t-441",
+  "subtopic": "fundamentals",
+  "exam": [
+   "nts",
+   "ecat",
+   "fpsc",
+   "ppsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "boolean"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "cpe-014",
+  "question": "Which unit performs arithmetic operations in a CPU?",
+  "optionA": "ALU",
+  "optionB": "RAM",
+  "optionC": "Cache",
+  "optionD": "BIOS",
+  "correctAnswer": "A",
+  "detailedExplanation": "The Arithmetic Logic Unit executes arithmetic and logic operations.",
+  "difficulty": "easy",
+  "subject": "computer-engineering",
+  "chapter": "computer-engineering-computer-architecture",
+  "topic": "t-442",
+  "subtopic": "fundamentals",
+  "exam": [
+   "nts",
+   "ecat",
+   "fpsc",
+   "ppsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "cpu"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "cpe-015",
+  "question": "Registers are located:",
+  "optionA": "inside the CPU",
+  "optionB": "on the hard disk",
+  "optionC": "in RAM",
+  "optionD": "on the network",
+  "correctAnswer": "A",
+  "detailedExplanation": "Registers are the fastest storage, inside the processor.",
+  "difficulty": "medium",
+  "subject": "computer-engineering",
+  "chapter": "computer-engineering-computer-architecture",
+  "topic": "t-442",
+  "subtopic": "fundamentals",
+  "exam": [
+   "nts",
+   "ecat",
+   "fpsc",
+   "ppsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "cpu",
+   "registers"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "cpe-016",
+  "question": "DMA stands for:",
+  "optionA": "Direct Memory Access",
+  "optionB": "Digital Memory Array",
+  "optionC": "Data Management Application",
+  "optionD": "Direct Modem Access",
+  "correctAnswer": "A",
+  "detailedExplanation": "DMA lets devices transfer data to memory without CPU involvement per byte.",
+  "difficulty": "medium",
+  "subject": "computer-engineering",
+  "chapter": "computer-engineering-computer-architecture",
+  "topic": "t-443",
+  "subtopic": "fundamentals",
+  "exam": [
+   "nts",
+   "ecat",
+   "fpsc",
+   "ppsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "io"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "cpe-017",
+  "question": "A microcontroller typically integrates:",
+  "optionA": "CPU, memory and peripherals on one chip",
+  "optionB": "only a display",
+  "optionC": "only a power supply",
+  "optionD": "a hard disk",
+  "correctAnswer": "A",
+  "detailedExplanation": "Microcontrollers bundle processor, RAM/ROM and I/O peripherals.",
+  "difficulty": "medium",
+  "subject": "computer-engineering",
+  "chapter": "computer-engineering-embedded-systems",
+  "topic": "t-444",
+  "subtopic": "fundamentals",
+  "exam": [
+   "nts",
+   "ecat",
+   "fpsc",
+   "ppsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "embedded"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "cpe-018",
+  "question": "Which language dominates low-level embedded programming?",
+  "optionA": "C",
+  "optionB": "HTML",
+  "optionC": "SQL",
+  "optionD": "CSS",
+  "correctAnswer": "A",
+  "detailedExplanation": "C (and C++) is standard for embedded and firmware development.",
+  "difficulty": "medium",
+  "subject": "computer-engineering",
+  "chapter": "computer-engineering-embedded-systems",
+  "topic": "t-445",
+  "subtopic": "fundamentals",
+  "exam": [
+   "nts",
+   "ecat",
+   "fpsc",
+   "ppsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "embedded"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "civ-011",
+  "question": "The instrument used to measure horizontal and vertical angles in surveying is:",
+  "optionA": "theodolite",
+  "optionB": "compass only",
+  "optionC": "level only",
+  "optionD": "ruler",
+  "correctAnswer": "A",
+  "detailedExplanation": "A theodolite measures angles precisely; levels measure heights.",
+  "difficulty": "medium",
+  "subject": "civil-eng",
+  "chapter": "civ-surveying",
+  "topic": "t-243",
+  "subtopic": "",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "etea"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "surveying"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "civ-012",
+  "question": "The standard test for concrete workability is the:",
+  "optionA": "slump test",
+  "optionB": "tensile test",
+  "optionC": "paint test",
+  "optionD": "noise test",
+  "correctAnswer": "A",
+  "detailedExplanation": "The slump test measures fresh concrete's workability.",
+  "difficulty": "medium",
+  "subject": "civil-eng",
+  "chapter": "civ-structures",
+  "topic": "t-242",
+  "subtopic": "",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "etea"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "concrete"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "civ-013",
+  "question": "A beam that resists bending with its top flange in compression and bottom in tension is:",
+  "optionA": "an I-section beam",
+  "optionB": "a rope",
+  "optionC": "a column only",
+  "optionD": "a pile",
+  "correctAnswer": "A",
+  "detailedExplanation": "I-sections efficiently resist bending with material far from the neutral axis.",
+  "difficulty": "hard",
+  "subject": "civil-eng",
+  "chapter": "civ-structures",
+  "topic": "t-242",
+  "subtopic": "",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "etea"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "structures"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "mec-012",
+  "question": "The first law of thermodynamics is a statement of:",
+  "optionA": "energy conservation",
+  "optionB": "entropy increase",
+  "optionC": "heat death",
+  "optionD": "momentum",
+  "correctAnswer": "A",
+  "detailedExplanation": "The first law: energy cannot be created or destroyed.",
+  "difficulty": "easy",
+  "subject": "mechanical-eng",
+  "chapter": "mec-thermo",
+  "topic": "t-240",
+  "subtopic": "",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "etea"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "thermodynamics"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "mec-013",
+  "question": "Which cycle is the ideal cycle for spark-ignition engines?",
+  "optionA": "Otto cycle",
+  "optionB": "Carnot only",
+  "optionC": "Rankine",
+  "optionD": "Diesel only",
+  "correctAnswer": "A",
+  "detailedExplanation": "The Otto cycle models petrol (spark-ignition) engines.",
+  "difficulty": "medium",
+  "subject": "mechanical-eng",
+  "chapter": "mec-thermo",
+  "topic": "t-240",
+  "subtopic": "",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "etea"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "thermo"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "mec-014",
+  "question": "Strain is defined as:",
+  "optionA": "deformation divided by original length",
+  "optionB": "force per unit area",
+  "optionC": "mass per unit volume",
+  "optionD": "work done per second",
+  "correctAnswer": "A",
+  "detailedExplanation": "Strain is the ratio of change in length to the original length and is dimensionless.",
+  "difficulty": "medium",
+  "subject": "mechanical-eng",
+  "chapter": "mec-materials",
+  "topic": "t-241",
+  "subtopic": "",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "etea"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "mechanics"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "mec-015",
+  "question": "Which process uses a rotating wheel to remove material?",
+  "optionA": "grinding",
+  "optionB": "casting",
+  "optionC": "forging",
+  "optionD": "welding",
+  "correctAnswer": "A",
+  "detailedExplanation": "Grinding uses an abrasive rotating wheel; casting pours molten metal.",
+  "difficulty": "medium",
+  "subject": "mechanical-eng",
+  "chapter": "mec-materials",
+  "topic": "t-241",
+  "subtopic": "",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "etea"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "manufacturing"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "ele-013",
+  "question": "Ohm's law states:",
+  "optionA": "V = IR",
+  "optionB": "P = VI only",
+  "optionC": "V = I/R",
+  "optionD": "I = VR",
+  "correctAnswer": "A",
+  "detailedExplanation": "Voltage equals current times resistance.",
+  "difficulty": "easy",
+  "subject": "electrical-eng",
+  "chapter": "el-circuits",
+  "topic": "t-238",
+  "subtopic": "",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "etea"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "circuits"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "ele-014",
+  "question": "In a series circuit, the same ___ flows through every element.",
+  "optionA": "current",
+  "optionB": "voltage",
+  "optionC": "power",
+  "optionD": "resistance",
+  "correctAnswer": "A",
+  "detailedExplanation": "Series elements share current; parallel elements share voltage.",
+  "difficulty": "easy",
+  "subject": "electrical-eng",
+  "chapter": "el-circuits",
+  "topic": "t-238",
+  "subtopic": "",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "etea"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "circuits"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "ele-015",
+  "question": "In Pakistan's national grid, transmission voltage typically used is:",
+  "optionA": "132 kV and 220 kV",
+  "optionB": "5 V",
+  "optionC": "12 V",
+  "optionD": "1 kV only",
+  "correctAnswer": "A",
+  "detailedExplanation": "Pakistan's grid uses 132 kV and 220 kV (and 500 kV) transmission lines.",
+  "difficulty": "medium",
+  "subject": "electrical-eng",
+  "chapter": "el-power",
+  "topic": "t-239",
+  "subtopic": "",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "etea"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "power"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "ele-016",
+  "question": "A transformer changes:",
+  "optionA": "voltage levels using electromagnetic induction",
+  "optionB": "frequency",
+  "optionC": "power",
+  "optionD": "phase",
+  "correctAnswer": "A",
+  "detailedExplanation": "Transformers step voltage up or down via induction, keeping frequency and power.",
+  "difficulty": "medium",
+  "subject": "electrical-eng",
+  "chapter": "el-power",
+  "topic": "t-239",
+  "subtopic": "",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "etea"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "machines"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "swe-012",
+  "question": "SDLC stands for:",
+  "optionA": "Software Development Life Cycle",
+  "optionB": "System Data Link Control",
+  "optionC": "Software Design Logic Cycle",
+  "optionD": "System Development Life Code",
+  "correctAnswer": "A",
+  "detailedExplanation": "SDLC is the process of planning, building and maintaining software.",
+  "difficulty": "easy",
+  "subject": "software-eng",
+  "chapter": "se-process",
+  "topic": "t-244",
+  "subtopic": "",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "sdlc"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "swe-013",
+  "question": "Which model handles changing requirements through repeated cycles?",
+  "optionA": "Agile/iterative",
+  "optionB": "Waterfall only",
+  "optionC": "V-model only",
+  "optionD": "Spiral only",
+  "correctAnswer": "A",
+  "detailedExplanation": "Agile and iterative models revisit requirements in short cycles.",
+  "difficulty": "medium",
+  "subject": "software-eng",
+  "chapter": "se-process",
+  "topic": "t-244",
+  "subtopic": "",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "agile"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "swe-014",
+  "question": "Testing that verifies the whole system works together is:",
+  "optionA": "integration testing",
+  "optionB": "unit testing only",
+  "optionC": "code review",
+  "optionD": "compilation",
+  "correctAnswer": "A",
+  "detailedExplanation": "Integration testing checks combined modules; unit tests check single units.",
+  "difficulty": "medium",
+  "subject": "software-eng",
+  "chapter": "se-quality",
+  "topic": "t-245",
+  "subtopic": "",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "testing"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "swe-015",
+  "question": "The Singleton pattern ensures:",
+  "optionA": "a class has only one instance",
+  "optionB": "a class has many instances",
+  "optionC": "objects are immutable",
+  "optionD": "fast sorting",
+  "correctAnswer": "A",
+  "detailedExplanation": "Singleton restricts instantiation to one object.",
+  "difficulty": "hard",
+  "subject": "software-eng",
+  "chapter": "se-quality",
+  "topic": "t-245",
+  "subtopic": "",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "patterns"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ }
+]

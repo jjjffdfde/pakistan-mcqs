@@ -1,0 +1,105 @@
+{
+  "step": "statistics",
+  "generated_at": "2026-08-10T12:10:40.440Z",
+  "reports_expected": 14,
+  "reports_emitted": 14,
+  "reports": [
+    {
+      "name": "phase27_assistant.json",
+      "kb": 14
+    },
+    {
+      "name": "phase27_learning_engine.json",
+      "kb": 7
+    },
+    {
+      "name": "phase27_revision.json",
+      "kb": 7
+    },
+    {
+      "name": "phase27_recommendations.json",
+      "kb": 12
+    },
+    {
+      "name": "phase27_navigation.json",
+      "kb": 20
+    },
+    {
+      "name": "phase27_dashboard.json",
+      "kb": 8
+    },
+    {
+      "name": "phase27_revision_intelligence.json",
+      "kb": 4
+    },
+    {
+      "name": "phase27_api.json",
+      "kb": 8
+    },
+    {
+      "name": "phase27_analytics.json",
+      "kb": 3
+    },
+    {
+      "name": "phase27_automation.json",
+      "kb": 4
+    },
+    {
+      "name": "phase27_validation.json",
+      "kb": 1
+    },
+    {
+      "name": "phase27_statistics.json",
+      "kb": 2
+    },
+    {
+      "name": "phase27_summary.json",
+      "kb": 1
+    },
+    {
+      "name": "PHASE27_EXECUTION_REPORT.md",
+      "kb": 4
+    }
+  ],
+  "modules": [
+    {
+      "name": "knowledge-assistant",
+      "kb": 8
+    },
+    {
+      "name": "learning-engine",
+      "kb": 9
+    },
+    {
+      "name": "revision-planner",
+      "kb": 7
+    },
+    {
+      "name": "recommendation-engine",
+      "kb": 8
+    },
+    {
+      "name": "concept-navigator",
+      "kb": 6
+    },
+    {
+      "name": "analytics-engine",
+      "kb": 10
+    },
+    {
+      "name": "automation-engine",
+      "kb": 6
+    },
+    {
+      "name": "offline-api",
+      "kb": 7
+    }
+  ],
+  "modules_total_kb": 61,
+  "lines_of_code": 1406,
+  "oracle": {
+    "db_path": "db/pakistan-mcqs.sqlite",
+    "readonly": true,
+    "active_mcqs": 872621
+  }
+}

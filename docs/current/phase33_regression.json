@@ -1,0 +1,46 @@
+{
+  "module": "M20",
+  "suites": [
+    {
+      "name": "Phase 31 functional (tests/phase31/01-functional.cjs)",
+      "before": "26/26",
+      "after": "26/26 (rerun this phase)",
+      "status": "PASS"
+    },
+    {
+      "name": "Phase 31 responsive (02-responsive.cjs)",
+      "before": "24/24",
+      "after": "24/24",
+      "status": "PASS"
+    },
+    {
+      "name": "Phase 31 network (03-network.cjs)",
+      "before": "3/3",
+      "after": "3/3",
+      "status": "PASS"
+    },
+    {
+      "name": "Phase 32 api sandbox (47 checks)",
+      "before": "47/47",
+      "after": "47/47",
+      "status": "PASS"
+    },
+    {
+      "name": "Phase 33 probe33 interactive (index+admin)",
+      "before": "-",
+      "after": "31/31 steps PASS",
+      "status": "PASS"
+    }
+  ],
+  "totals": {
+    "checks": 131,
+    "fail": 0
+  },
+  "no_regression": true,
+  "status": "PASS",
+  "env": {
+    "tool": "scripts/phase33 (driver+probe33+reporter)",
+    "generated_at": "2026-08-11T04:24:25.697Z",
+    "methodology": "Headless Chrome 1366x900/390x844 etc, localhost static server, fresh profile per run, ACTIVE error/network capture (P32-TOOL-001 fix), interaction = real DOM clicks/inputs/Enter keys + state assertions. A feature is WORKING only when interaction + expected UI state + 0 console errors + 0 unexpected network failures."
+  }
+}

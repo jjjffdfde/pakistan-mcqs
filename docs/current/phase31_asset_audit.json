@@ -1,0 +1,340 @@
+{
+  "module": "M12",
+  "generated_at": "2026-08-10T13:29:04.334Z",
+  "totals": {
+    "checked": 54,
+    "broken": 0,
+    "css": 1,
+    "js": 210,
+    "images": 19,
+    "fonts": 0,
+    "videos": 0
+  },
+  "note": "all referenced css/js/json/icon/image assets resolve on disk; site is offline-capable (no external font/video assets used)",
+  "items": [
+    {
+      "ref": "assets/css/style.css",
+      "type": "css",
+      "status": "OK",
+      "note": "exists"
+    },
+    {
+      "ref": "assets/js/admin.js",
+      "type": "preload",
+      "status": "OK",
+      "note": "exists"
+    },
+    {
+      "ref": "data/subjects.json",
+      "type": "preload",
+      "status": "OK",
+      "note": "exists"
+    },
+    {
+      "ref": "data/chapters.json",
+      "type": "preload",
+      "status": "OK",
+      "note": "exists"
+    },
+    {
+      "ref": "assets/js/admin.js",
+      "type": "script",
+      "status": "OK",
+      "note": "exists"
+    },
+    {
+      "ref": "assets/icons/icon-192.png",
+      "type": "icon",
+      "status": "OK",
+      "note": "exists"
+    },
+    {
+      "ref": "assets/icons/apple-touch-icon.png",
+      "type": "icon",
+      "status": "OK",
+      "note": "exists"
+    },
+    {
+      "ref": "assets/js/app.js",
+      "type": "preload",
+      "status": "OK",
+      "note": "exists"
+    },
+    {
+      "ref": "data/topics.json",
+      "type": "preload",
+      "status": "OK",
+      "note": "exists"
+    },
+    {
+      "ref": "assets/js/app.js",
+      "type": "script",
+      "status": "OK",
+      "note": "exists"
+    },
+    {
+      "ref": "assets/js/ai.js",
+      "type": "script",
+      "status": "OK",
+      "note": "exists"
+    },
+    {
+      "ref": "assets/js/pwa.js",
+      "type": "script",
+      "status": "OK",
+      "note": "exists"
+    },
+    {
+      "ref": "assets/icons/icon-192.png",
+      "type": "image",
+      "status": "OK",
+      "note": "exists"
+    },
+    {
+      "ref": "assets/icons/icon-48.png",
+      "type": "manifest-icon",
+      "status": "OK",
+      "note": "exists"
+    },
+    {
+      "ref": "assets/icons/icon-72.png",
+      "type": "manifest-icon",
+      "status": "OK",
+      "note": "exists"
+    },
+    {
+      "ref": "assets/icons/icon-96.png",
+      "type": "manifest-icon",
+      "status": "OK",
+      "note": "exists"
+    },
+    {
+      "ref": "assets/icons/icon-128.png",
+      "type": "manifest-icon",
+      "status": "OK",
+      "note": "exists"
+    },
+    {
+      "ref": "assets/icons/icon-192.png",
+      "type": "manifest-icon",
+      "status": "OK",
+      "note": "exists"
+    },
+    {
+      "ref": "assets/icons/icon-256.png",
+      "type": "manifest-icon",
+      "status": "OK",
+      "note": "exists"
+    },
+    {
+      "ref": "assets/icons/icon-384.png",
+      "type": "manifest-icon",
+      "status": "OK",
+      "note": "exists"
+    },
+    {
+      "ref": "assets/icons/icon-512.png",
+      "type": "manifest-icon",
+      "status": "OK",
+      "note": "exists"
+    },
+    {
+      "ref": "assets/icons/maskable-192.png",
+      "type": "manifest-icon",
+      "status": "OK",
+      "note": "exists"
+    },
+    {
+      "ref": "assets/icons/maskable-512.png",
+      "type": "manifest-icon",
+      "status": "OK",
+      "note": "exists"
+    },
+    {
+      "ref": "assets/icons/icon.svg",
+      "type": "manifest-icon",
+      "status": "OK",
+      "note": "exists"
+    },
+    {
+      "ref": "assets/icons/maskable.svg",
+      "type": "manifest-icon",
+      "status": "OK",
+      "note": "exists"
+    },
+    {
+      "ref": "android/splash-1080x1920.png",
+      "type": "manifest-screenshot",
+      "status": "OK",
+      "note": "exists"
+    },
+    {
+      "ref": "index.html",
+      "type": "sw-asset",
+      "status": "OK",
+      "note": "exists"
+    },
+    {
+      "ref": "offline.html",
+      "type": "sw-asset",
+      "status": "OK",
+      "note": "exists"
+    },
+    {
+      "ref": "admin.html",
+      "type": "sw-asset",
+      "status": "OK",
+      "note": "exists"
+    },
+    {
+      "ref": "404.html",
+      "type": "sw-asset",
+      "status": "OK",
+      "note": "exists"
+    },
+    {
+      "ref": "manifest.webmanifest",
+      "type": "sw-asset",
+      "status": "OK",
+      "note": "exists"
+    },
+    {
+      "ref": "assets/css/style.css",
+      "type": "sw-asset",
+      "status": "OK",
+      "note": "exists"
+    },
+    {
+      "ref": "assets/js/app.js",
+      "type": "sw-asset",
+      "status": "OK",
+      "note": "exists"
+    },
+    {
+      "ref": "assets/js/ai.js",
+      "type": "sw-asset",
+      "status": "OK",
+      "note": "exists"
+    },
+    {
+      "ref": "assets/js/admin.js",
+      "type": "sw-asset",
+      "status": "OK",
+      "note": "exists"
+    },
+    {
+      "ref": "assets/js/pwa.js",
+      "type": "sw-asset",
+      "status": "OK",
+      "note": "exists"
+    },
+    {
+      "ref": "assets/icons/icon-192.png",
+      "type": "sw-asset",
+      "status": "OK",
+      "note": "exists"
+    },
+    {
+      "ref": "assets/icons/icon-512.png",
+      "type": "sw-asset",
+      "status": "OK",
+      "note": "exists"
+    },
+    {
+      "ref": "assets/icons/maskable-512.png",
+      "type": "sw-asset",
+      "status": "OK",
+      "note": "exists"
+    },
+    {
+      "ref": "assets/icons/icon.svg",
+      "type": "sw-asset",
+      "status": "OK",
+      "note": "exists"
+    },
+    {
+      "ref": "assets/img/og-cover.png",
+      "type": "sw-asset",
+      "status": "OK",
+      "note": "exists"
+    },
+    {
+      "ref": "subjects/index.html",
+      "type": "sw-asset",
+      "status": "OK",
+      "note": "exists"
+    },
+    {
+      "ref": "data/subjects.json",
+      "type": "sw-asset",
+      "status": "OK",
+      "note": "exists"
+    },
+    {
+      "ref": "data/chapters.json",
+      "type": "sw-asset",
+      "status": "OK",
+      "note": "exists"
+    },
+    {
+      "ref": "data/topics.json",
+      "type": "sw-asset",
+      "status": "OK",
+      "note": "exists"
+    },
+    {
+      "ref": "data/mcqs.json",
+      "type": "sw-asset",
+      "status": "OK",
+      "note": "exists"
+    },
+    {
+      "ref": "data/categories.json",
+      "type": "sw-asset",
+      "status": "OK",
+      "note": "exists"
+    },
+    {
+      "ref": "data/exams.json",
+      "type": "sw-asset",
+      "status": "OK",
+      "note": "exists"
+    },
+    {
+      "ref": "data/programs.json",
+      "type": "sw-asset",
+      "status": "OK",
+      "note": "exists"
+    },
+    {
+      "ref": "data/mock_tests.json",
+      "type": "sw-asset",
+      "status": "OK",
+      "note": "exists"
+    },
+    {
+      "ref": "data/papers.json",
+      "type": "sw-asset",
+      "status": "OK",
+      "note": "exists"
+    },
+    {
+      "ref": "data/quizzes.json",
+      "type": "sw-asset",
+      "status": "OK",
+      "note": "exists"
+    },
+    {
+      "ref": "data/references.json",
+      "type": "sw-asset",
+      "status": "OK",
+      "note": "exists"
+    },
+    {
+      "ref": "assets/icons/icon-96.png",
+      "type": "sw-asset",
+      "status": "OK",
+      "note": "exists"
+    }
+  ]
+}

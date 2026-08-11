@@ -1,0 +1,22 @@
+{
+  "step": "accessibility",
+  "generated_at": "2026-08-07T08:22:54",
+  "summary": {
+    "pages_analyzed": 1127,
+    "total_images": 0,
+    "images_missing_alt": 0,
+    "images_with_empty_alt": 0,
+    "total_form_inputs": 14,
+    "total_form_labels": 41,
+    "form_inputs_without_labels": 0,
+    "total_buttons": 79,
+    "buttons_without_text": 0,
+    "aria_labels_used": 1135,
+    "aria_roles_used": 18,
+    "landmark_elements": 4513,
+    "pages_with_lang": 1127,
+    "pages_with_skip_link": 1,
+    "focus_styles_in_css": 3,
+    "outline_none_without_focus": false
+  }
+}

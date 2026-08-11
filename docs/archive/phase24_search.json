@@ -1,0 +1,16 @@
+{
+  "step": "search",
+  "generated_at": "2026-08-10T16:56:04",
+  "summary": {
+    "global_search_input": true,
+    "search_button": true,
+    "suggestions_container": true,
+    "search_wired_click": true,
+    "search_wired_keydown": true,
+    "search_wired_suggest": true,
+    "fts_server_search": true,
+    "fts_sanitizer": true,
+    "static_json_cached": true,
+    "instant_search_hint": true
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "module": "M15",
+  "generated_at": "2026-08-10T13:29:04.335Z",
+  "checks": {
+    "robots_txt": {
+      "exists": true,
+      "ok": true,
+      "note": "allow all except /admin.html; sitemaps declared"
+    },
+    "sitemap_xml": {
+      "exists": true,
+      "urls": 1121,
+      "ok": true
+    },
+    "index_title": {
+      "exists": true,
+      "ok": true
+    },
+    "index_meta_description": {
+      "exists": true
+    },
+    "index_canonical": {
+      "exists": true
+    },
+    "viewport": {
+      "index": true,
+      "admin": true
+    },
+    "noindex_check": {
+      "ok": true,
+      "note": "no accidental noindex found in scanned pages"
+    },
+    "broken_canonical": {
+      "ok": true
+    },
+    "offline_meta_missing": {
+      "ok": false,
+      "severity": "P3",
+      "note": "offline.html missing meta description + canonical",
+      "fix": "manual queue"
+    }
+  }
+}

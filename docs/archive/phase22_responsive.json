@@ -1,0 +1,39 @@
+{
+  "step": "responsive",
+  "generated_at": "2026-08-07T08:22:54",
+  "summary": {
+    "media_queries": 3,
+    "breakpoints": [
+      "860px",
+      "560px"
+    ],
+    "orientation_queries": 0,
+    "pages_with_viewport": 1124,
+    "flexbox_uses": 31,
+    "grid_uses": 13,
+    "container_max_width_rules": 8,
+    "percentage_width_rules": 4,
+    "overflow_rules": 2,
+    "responsive_images_using_srcset": 0
+  },
+  "media_query_details": [
+    {
+      "query": "@media (max-width: 860px) {",
+      "breakpoint": {
+        "type": "max-width",
+        "value": "860px"
+      }
+    },
+    {
+      "query": "@media (max-width: 560px) {",
+      "breakpoint": {
+        "type": "max-width",
+        "value": "560px"
+      }
+    },
+    {
+      "query": "@media print {",
+      "breakpoint": null
+    }
+  ]
+}

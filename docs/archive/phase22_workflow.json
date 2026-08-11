@@ -1,0 +1,139 @@
+{
+  "step": "workflow_validation",
+  "generated_at": "2026-08-07T08:22:54",
+  "summary": {
+    "total_steps": 12,
+    "steps_available": 12,
+    "steps_missing": 0,
+    "workflow_complete": true,
+    "journey_paths_verified": 10,
+    "journey_paths_passing": 10
+  },
+  "workflow_steps": [
+    {
+      "step": "Home",
+      "exists": true,
+      "file": "index.html",
+      "evidence": "index.html found"
+    },
+    {
+      "step": "Subject",
+      "exists": true,
+      "count": 244,
+      "evidence": "244 subject pages"
+    },
+    {
+      "step": "Chapter",
+      "exists": true,
+      "count": 876,
+      "evidence": "876 chapter pages"
+    },
+    {
+      "step": "Topic",
+      "exists": true,
+      "evidence": "Topics embedded in chapter pages"
+    },
+    {
+      "step": "MCQ",
+      "exists": true,
+      "api": "/api/mcq/:id",
+      "evidence": "Single MCQ API endpoint"
+    },
+    {
+      "step": "Quiz",
+      "exists": true,
+      "api": "/api/quizzes",
+      "db_count": 21,
+      "evidence": "Quiz endpoint + DB records"
+    },
+    {
+      "step": "Result",
+      "exists": true,
+      "evidence": "Results computed client-side after quiz"
+    },
+    {
+      "step": "Explanation",
+      "exists": true,
+      "evidence": "Explanation field in MCQs and API responses"
+    },
+    {
+      "step": "Bookmark",
+      "exists": true,
+      "api": "/api/bookmarks",
+      "db_count": 5,
+      "evidence": "Bookmark API + DB records"
+    },
+    {
+      "step": "History",
+      "exists": true,
+      "api": "/api/history",
+      "db_count": 54,
+      "evidence": "History API + DB records"
+    },
+    {
+      "step": "Dashboard",
+      "exists": true,
+      "file": "admin.html",
+      "api": "/api/stats",
+      "evidence": "Admin page + Stats API"
+    },
+    {
+      "step": "Profile",
+      "exists": true,
+      "db_count": 1,
+      "evidence": "User profile table"
+    }
+  ],
+  "journey_paths": [
+    {
+      "from": "Home",
+      "to": "Subject",
+      "linksFound": 1
+    },
+    {
+      "from": "Subject",
+      "to": "Chapter",
+      "linksFound": 1
+    },
+    {
+      "from": "Chapter",
+      "to": "MCQ",
+      "linksFound": 1
+    },
+    {
+      "from": "MCQ",
+      "to": "Quiz",
+      "linksFound": 1
+    },
+    {
+      "from": "Quiz",
+      "to": "Result",
+      "linksFound": 1
+    },
+    {
+      "from": "Result",
+      "to": "Explanation",
+      "linksFound": 1
+    },
+    {
+      "from": "Explanation",
+      "to": "Bookmark",
+      "linksFound": 1
+    },
+    {
+      "from": "Bookmark",
+      "to": "History",
+      "linksFound": 1
+    },
+    {
+      "from": "History",
+      "to": "Dashboard",
+      "linksFound": 1
+    },
+    {
+      "from": "Dashboard",
+      "to": "Profile",
+      "linksFound": 1
+    }
+  ]
+}

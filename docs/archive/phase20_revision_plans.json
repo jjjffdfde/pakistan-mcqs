@@ -1,0 +1,158 @@
+{
+  "step": "revision_planner",
+  "generated_at": "2026-08-06T08:09:42",
+  "summary": {
+    "daily_plan_items": 0,
+    "weekly_plan_days": 7,
+    "monthly_plan_weeks": 4,
+    "exam_countdown_days": 14,
+    "target_exam": "CSS",
+    "target_date": "2026-12-01"
+  },
+  "daily_plan": [],
+  "weekly_plan": [
+    {
+      "day": 1,
+      "mcq_count": 0,
+      "mcqs": []
+    },
+    {
+      "day": 2,
+      "mcq_count": 0,
+      "mcqs": []
+    },
+    {
+      "day": 3,
+      "mcq_count": 0,
+      "mcqs": []
+    },
+    {
+      "day": 4,
+      "mcq_count": 0,
+      "mcqs": []
+    },
+    {
+      "day": 5,
+      "mcq_count": 0,
+      "mcqs": []
+    },
+    {
+      "day": 6,
+      "mcq_count": 0,
+      "mcqs": []
+    },
+    {
+      "day": 7,
+      "mcq_count": 0,
+      "mcqs": []
+    }
+  ],
+  "monthly_plan": [
+    {
+      "week": 1,
+      "focus_subjects": [],
+      "mcq_count": 40
+    },
+    {
+      "week": 2,
+      "focus_subjects": [],
+      "mcq_count": 40
+    },
+    {
+      "week": 3,
+      "focus_subjects": [],
+      "mcq_count": 40
+    },
+    {
+      "week": 4,
+      "focus_subjects": [],
+      "mcq_count": 40
+    }
+  ],
+  "exam_countdown_plan": [
+    {
+      "day": 1,
+      "focus": "weak concepts revision",
+      "mcq_count": 15,
+      "target_exam": "CSS"
+    },
+    {
+      "day": 2,
+      "focus": "weak concepts revision",
+      "mcq_count": 15,
+      "target_exam": "CSS"
+    },
+    {
+      "day": 3,
+      "focus": "weak concepts revision",
+      "mcq_count": 15,
+      "target_exam": "CSS"
+    },
+    {
+      "day": 4,
+      "focus": "weak concepts revision",
+      "mcq_count": 15,
+      "target_exam": "CSS"
+    },
+    {
+      "day": 5,
+      "focus": "weak concepts revision",
+      "mcq_count": 15,
+      "target_exam": "CSS"
+    },
+    {
+      "day": 6,
+      "focus": "weak concepts revision",
+      "mcq_count": 15,
+      "target_exam": "CSS"
+    },
+    {
+      "day": 7,
+      "focus": "weak concepts revision",
+      "mcq_count": 15,
+      "target_exam": "CSS"
+    },
+    {
+      "day": 8,
+      "focus": "full exam practice",
+      "mcq_count": 30,
+      "target_exam": "CSS"
+    },
+    {
+      "day": 9,
+      "focus": "full exam practice",
+      "mcq_count": 30,
+      "target_exam": "CSS"
+    },
+    {
+      "day": 10,
+      "focus": "full exam practice",
+      "mcq_count": 30,
+      "target_exam": "CSS"
+    },
+    {
+      "day": 11,
+      "focus": "full exam practice",
+      "mcq_count": 30,
+      "target_exam": "CSS"
+    },
+    {
+      "day": 12,
+      "focus": "full exam practice",
+      "mcq_count": 30,
+      "target_exam": "CSS"
+    },
+    {
+      "day": 13,
+      "focus": "full exam practice",
+      "mcq_count": 30,
+      "target_exam": "CSS"
+    },
+    {
+      "day": 14,
+      "focus": "full exam practice",
+      "mcq_count": 30,
+      "target_exam": "CSS"
+    }
+  ]
+}

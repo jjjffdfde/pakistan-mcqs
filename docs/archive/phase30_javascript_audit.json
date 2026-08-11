@@ -1,0 +1,529 @@
+{
+ "module": "M4",
+ "generated_at": "2026-08-10T10:19:44.558Z",
+ "totals": {
+  "files": 203,
+  "syntax_ok": 203,
+  "syntax_error": 0,
+  "console_debug": 453,
+  "TODO_markers": 38
+ },
+ "files": [
+  {
+   "file": "assistant/analytics-engine.js",
+   "syntax": "OK",
+   "console_debug": 2,
+   "TODO_markers": 0
+  },
+  {
+   "file": "assistant/automation-engine.js",
+   "syntax": "OK",
+   "console_debug": 2,
+   "TODO_markers": 0
+  },
+  {
+   "file": "assistant/concept-navigator.js",
+   "syntax": "OK",
+   "console_debug": 2,
+   "TODO_markers": 0
+  },
+  {
+   "file": "assistant/knowledge-assistant.js",
+   "syntax": "OK",
+   "console_debug": 2,
+   "TODO_markers": 0
+  },
+  {
+   "file": "assistant/learning-engine.js",
+   "syntax": "OK",
+   "console_debug": 3,
+   "TODO_markers": 0
+  },
+  {
+   "file": "assistant/offline-api.js",
+   "syntax": "OK",
+   "console_debug": 2,
+   "TODO_markers": 0
+  },
+  {
+   "file": "assistant/recommendation-engine.js",
+   "syntax": "OK",
+   "console_debug": 2,
+   "TODO_markers": 0
+  },
+  {
+   "file": "assistant/revision-planner.js",
+   "syntax": "OK",
+   "console_debug": 2,
+   "TODO_markers": 0
+  },
+  {
+   "file": "database/scripts/build-db.js",
+   "syntax": "OK",
+   "console_debug": 11,
+   "TODO_markers": 0
+  },
+  {
+   "file": "database/scripts/checksum-db.js",
+   "syntax": "OK",
+   "console_debug": 3,
+   "TODO_markers": 0
+  },
+  {
+   "file": "database/scripts/compress-db.js",
+   "syntax": "OK",
+   "console_debug": 2,
+   "TODO_markers": 0
+  },
+  {
+   "file": "database/scripts/decompress-db.js",
+   "syntax": "OK",
+   "console_debug": 1,
+   "TODO_markers": 0
+  },
+  {
+   "file": "database/scripts/diff-db.js",
+   "syntax": "OK",
+   "console_debug": 2,
+   "TODO_markers": 0
+  },
+  {
+   "file": "database/scripts/export-db.js",
+   "syntax": "OK",
+   "console_debug": 12,
+   "TODO_markers": 0
+  },
+  {
+   "file": "database/scripts/import-db.js",
+   "syntax": "OK",
+   "console_debug": 2,
+   "TODO_markers": 0
+  },
+  {
+   "file": "database/scripts/incremental-export.js",
+   "syntax": "OK",
+   "console_debug": 3,
+   "TODO_markers": 0
+  },
+  {
+   "file": "database/scripts/storage-report.js",
+   "syntax": "OK",
+   "console_debug": 2,
+   "TODO_markers": 0
+  },
+  {
+   "file": "database/scripts/validate-db.js",
+   "syntax": "OK",
+   "console_debug": 3,
+   "TODO_markers": 0
+  },
+  {
+   "file": "database/scripts/verify-db.js",
+   "syntax": "OK",
+   "console_debug": 1,
+   "TODO_markers": 0
+  },
+  {
+   "file": "db/backup.js",
+   "syntax": "OK",
+   "console_debug": 4,
+   "TODO_markers": 0
+  },
+  {
+   "file": "db/export-json.js",
+   "syntax": "OK",
+   "console_debug": 4,
+   "TODO_markers": 0
+  },
+  {
+   "file": "db/import-json.js",
+   "syntax": "OK",
+   "console_debug": 3,
+   "TODO_markers": 0
+  },
+  {
+   "file": "db/migrate.js",
+   "syntax": "OK",
+   "console_debug": 5,
+   "TODO_markers": 0
+  },
+  {
+   "file": "db/normalize.js",
+   "syntax": "OK",
+   "console_debug": 9,
+   "TODO_markers": 0
+  },
+  {
+   "file": "db/restore.js",
+   "syntax": "OK",
+   "console_debug": 8,
+   "TODO_markers": 0
+  },
+  {
+   "file": "db/validate.js",
+   "syntax": "OK",
+   "console_debug": 1,
+   "TODO_markers": 2
+  },
+  {
+   "file": "db/_dump.cjs",
+   "syntax": "OK",
+   "console_debug": 5,
+   "TODO_markers": 0
+  },
+  {
+   "file": "db/_gen-kg-mirrors.cjs",
+   "syntax": "OK",
+   "console_debug": 1,
+   "TODO_markers": 0
+  },
+  {
+   "file": "kg/packs-data.js",
+   "syntax": "OK",
+   "console_debug": 0,
+   "TODO_markers": 1
+  },
+  {
+   "file": "phase15_subject_depth_analysis.js",
+   "syntax": "OK",
+   "console_debug": 6,
+   "TODO_markers": 0
+  },
+  {
+   "file": "pipeline/audit-coverage.js",
+   "syntax": "OK",
+   "console_debug": 4,
+   "TODO_markers": 0
+  },
+  {
+   "file": "pipeline/audit.js",
+   "syntax": "OK",
+   "console_debug": 1,
+   "TODO_markers": 0
+  },
+  {
+   "file": "pipeline/enrich-legacy.js",
+   "syntax": "OK",
+   "console_debug": 3,
+   "TODO_markers": 0
+  },
+  {
+   "file": "pipeline/expand-loop.js",
+   "syntax": "OK",
+   "console_debug": 9,
+   "TODO_markers": 0
+  },
+  {
+   "file": "pipeline/fill-topics.js",
+   "syntax": "OK",
+   "console_debug": 9,
+   "TODO_markers": 0
+  },
+  {
+   "file": "pipeline/generators/04-computer.js",
+   "syntax": "OK",
+   "console_debug": 0,
+   "TODO_markers": 5
+  },
+  {
+   "file": "pipeline/generators/18-topic-banks.js",
+   "syntax": "OK",
+   "console_debug": 0,
+   "TODO_markers": 2
+  },
+  {
+   "file": "pipeline/generators/20-kb-computer.js",
+   "syntax": "OK",
+   "console_debug": 0,
+   "TODO_markers": 1
+  },
+  {
+   "file": "pipeline/generators/20-kb-english-literature.js",
+   "syntax": "OK",
+   "console_debug": 0,
+   "TODO_markers": 3
+  },
+  {
+   "file": "pipeline/generators/20-kb-ph11a.js",
+   "syntax": "OK",
+   "console_debug": 0,
+   "TODO_markers": 1
+  },
+  {
+   "file": "pipeline/kg/pack-engine.js",
+   "syntax": "OK",
+   "console_debug": 7,
+   "TODO_markers": 0
+  },
+  {
+   "file": "pipeline/measure-yield.cjs",
+   "syntax": "OK",
+   "console_debug": 1,
+   "TODO_markers": 0
+  },
+  {
+   "file": "pipeline/mocks.js",
+   "syntax": "OK",
+   "console_debug": 1,
+   "TODO_markers": 0
+  },
+  {
+   "file": "pipeline/phase10-attrib.cjs",
+   "syntax": "OK",
+   "console_debug": 5,
+   "TODO_markers": 0
+  },
+  {
+   "file": "pipeline/phase11-subjects.cjs",
+   "syntax": "OK",
+   "console_debug": 3,
+   "TODO_markers": 0
+  },
+  {
+   "file": "pipeline/phase13-audit.cjs",
+   "syntax": "OK",
+   "console_debug": 2,
+   "TODO_markers": 0
+  },
+  {
+   "file": "pipeline/quality.js",
+   "syntax": "OK",
+   "console_debug": 0,
+   "TODO_markers": 1
+  },
+  {
+   "file": "pipeline/repair.js",
+   "syntax": "OK",
+   "console_debug": 7,
+   "TODO_markers": 0
+  },
+  {
+   "file": "pipeline/reports.js",
+   "syntax": "OK",
+   "console_debug": 1,
+   "TODO_markers": 0
+  },
+  {
+   "file": "pipeline/run.js",
+   "syntax": "OK",
+   "console_debug": 1,
+   "TODO_markers": 0
+  },
+  {
+   "file": "scripts/ai-selfcheck.cjs",
+   "syntax": "OK",
+   "console_debug": 3,
+   "TODO_markers": 0
+  },
+  {
+   "file": "scripts/audit-2026.js",
+   "syntax": "OK",
+   "console_debug": 1,
+   "TODO_markers": 0
+  },
+  {
+   "file": "scripts/audit.js",
+   "syntax": "OK",
+   "console_debug": 2,
+   "TODO_markers": 0
+  },
+  {
+   "file": "scripts/benchmark.cjs",
+   "syntax": "OK",
+   "console_debug": 2,
+   "TODO_markers": 0
+  },
+  {
+   "file": "scripts/build-mcqs.js",
+   "syntax": "OK",
+   "console_debug": 5,
+   "TODO_markers": 0
+  },
+  {
+   "file": "scripts/fix-format.cjs",
+   "syntax": "OK",
+   "console_debug": 1,
+   "TODO_markers": 0
+  },
+  {
+   "file": "scripts/gen-pwa-assets.cjs",
+   "syntax": "OK",
+   "console_debug": 4,
+   "TODO_markers": 0
+  },
+  {
+   "file": "scripts/gen-seo-pages.cjs",
+   "syntax": "OK",
+   "console_debug": 1,
+   "TODO_markers": 0
+  },
+  {
+   "file": "scripts/generate-mcqs-phase2.js",
+   "syntax": "OK",
+   "console_debug": 2,
+   "TODO_markers": 0
+  },
+  {
+   "file": "scripts/lint.cjs",
+   "syntax": "OK",
+   "console_debug": 3,
+   "TODO_markers": 0
+  },
+  {
+   "file": "scripts/make-og.js",
+   "syntax": "OK",
+   "console_debug": 1,
+   "TODO_markers": 0
+  },
+  {
+   "file": "scripts/migrate-phase2.js",
+   "syntax": "OK",
+   "console_debug": 10,
+   "TODO_markers": 0
+  },
+  {
+   "file": "scripts/migrate-phase3.js",
+   "syntax": "OK",
+   "console_debug": 2,
+   "TODO_markers": 2
+  },
+  {
+   "file": "scripts/monitor.cjs",
+   "syntax": "OK",
+   "console_debug": 3,
+   "TODO_markers": 0
+  },
+  {
+   "file": "scripts/phase15-intelligence.cjs",
+   "syntax": "OK",
+   "console_debug": 31,
+   "TODO_markers": 0
+  },
+  {
+   "file": "scripts/phase17-analysis.cjs",
+   "syntax": "OK",
+   "console_debug": 21,
+   "TODO_markers": 0
+  },
+  {
+   "file": "scripts/phase17-api-reports.cjs",
+   "syntax": "OK",
+   "console_debug": 15,
+   "TODO_markers": 0
+  },
+  {
+   "file": "scripts/phase17-core.cjs",
+   "syntax": "OK",
+   "console_debug": 15,
+   "TODO_markers": 0
+  },
+  {
+   "file": "scripts/phase17-search-analytics.cjs",
+   "syntax": "OK",
+   "console_debug": 17,
+   "TODO_markers": 0
+  },
+  {
+   "file": "scripts/phase18-generation.cjs",
+   "syntax": "OK",
+   "console_debug": 56,
+   "TODO_markers": 0
+  },
+  {
+   "file": "scripts/phase19-platform.cjs",
+   "syntax": "OK",
+   "console_debug": 41,
+   "TODO_markers": 0
+  },
+  {
+   "file": "scripts/phase3/data27.cjs",
+   "syntax": "OK",
+   "console_debug": 0,
+   "TODO_markers": 7
+  },
+  {
+   "file": "scripts/phase3/gen-helper.cjs",
+   "syntax": "OK",
+   "console_debug": 1,
+   "TODO_markers": 1
+  },
+  {
+   "file": "scripts/phase30/api-map.cjs",
+   "syntax": "OK",
+   "console_debug": 2,
+   "TODO_markers": 0
+  },
+  {
+   "file": "scripts/phase30/static.cjs",
+   "syntax": "OK",
+   "console_debug": 1,
+   "TODO_markers": 10
+  },
+  {
+   "file": "scripts/phase30/static2.cjs",
+   "syntax": "OK",
+   "console_debug": 1,
+   "TODO_markers": 2
+  },
+  {
+   "file": "scripts/release.cjs",
+   "syntax": "OK",
+   "console_debug": 2,
+   "TODO_markers": 0
+  },
+  {
+   "file": "scripts/security-audit.cjs",
+   "syntax": "OK",
+   "console_debug": 1,
+   "TODO_markers": 0
+  },
+  {
+   "file": "scripts/seed-ai.cjs",
+   "syntax": "OK",
+   "console_debug": 4,
+   "TODO_markers": 0
+  },
+  {
+   "file": "scripts/seed-kg.cjs",
+   "syntax": "OK",
+   "console_debug": 11,
+   "TODO_markers": 0
+  },
+  {
+   "file": "scripts/serve-test.js",
+   "syntax": "OK",
+   "console_debug": 1,
+   "TODO_markers": 0
+  },
+  {
+   "file": "scripts/test-db-integration.cjs",
+   "syntax": "OK",
+   "console_debug": 14,
+   "TODO_markers": 0
+  },
+  {
+   "file": "scripts/test.cjs",
+   "syntax": "OK",
+   "console_debug": 3,
+   "TODO_markers": 0
+  },
+  {
+   "file": "scripts/validate-buttons.cjs",
+   "syntax": "OK",
+   "console_debug": 2,
+   "TODO_markers": 0
+  },
+  {
+   "file": "server.js",
+   "syntax": "OK",
+   "console_debug": 2,
+   "TODO_markers": 0
+  },
+  {
+   "file": "verify_report_accuracy.js",
+   "syntax": "OK",
+   "console_debug": 13,
+   "TODO_markers": 0
+  }
+ ]
+}

@@ -1,0 +1,31 @@
+{
+  "step": "responsive",
+  "generated_at": "2026-08-06T08:51:14",
+  "summary": {
+    "media_query_count": 3,
+    "breakpoints_detected": [
+      "860px",
+      "560px"
+    ],
+    "flexbox_uses": 31,
+    "grid_uses": 13,
+    "container_max_width": 0,
+    "pages_with_viewport_meta": 1124,
+    "responsive_images": 0,
+    "fluid_width_rules": 4
+  },
+  "media_queries": [
+    {
+      "query": "@media (max-width: 860px) {",
+      "breakpoint": "860px"
+    },
+    {
+      "query": "@media (max-width: 560px) {",
+      "breakpoint": "560px"
+    },
+    {
+      "query": "@media print {",
+      "breakpoint": null
+    }
+  ]
+}

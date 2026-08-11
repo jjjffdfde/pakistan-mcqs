@@ -1,0 +1,66 @@
+{
+  "step": "github_actions",
+  "generated_at": "2026-08-10T12:09:47.797Z",
+  "summary": {
+    "workflows_declared": 6,
+    "workflows_present": 6,
+    "all_valid_structure": true,
+    "status": "PASS"
+  },
+  "workflows": [
+    {
+      "name": "build.yml",
+      "exists": true,
+      "bytes": 1644,
+      "sha": "aab0752772e6606d",
+      "has_on": true,
+      "has_jobs": true,
+      "has_steps": true
+    },
+    {
+      "name": "test.yml",
+      "exists": true,
+      "bytes": 3099,
+      "sha": "ea92bc2cfe0ddc2b",
+      "has_on": true,
+      "has_jobs": true,
+      "has_steps": true
+    },
+    {
+      "name": "lint.yml",
+      "exists": true,
+      "bytes": 1199,
+      "sha": "3503c56acbcc05f0",
+      "has_on": true,
+      "has_jobs": true,
+      "has_steps": true
+    },
+    {
+      "name": "security.yml",
+      "exists": true,
+      "bytes": 2628,
+      "sha": "8043995db5f71569",
+      "has_on": true,
+      "has_jobs": true,
+      "has_steps": true
+    },
+    {
+      "name": "release.yml",
+      "exists": true,
+      "bytes": 1485,
+      "sha": "ea5887f58ccd1456",
+      "has_on": true,
+      "has_jobs": true,
+      "has_steps": true
+    },
+    {
+      "name": "database-verify.yml",
+      "exists": true,
+      "bytes": 2450,
+      "sha": "47e3e08d8a890871",
+      "has_on": true,
+      "has_jobs": true,
+      "has_steps": true
+    }
+  ]
+}

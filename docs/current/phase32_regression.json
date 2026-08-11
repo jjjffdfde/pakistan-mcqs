@@ -1,0 +1,48 @@
+{
+  "module": "P32",
+  "rerun": [
+    {
+      "suite": "tests/phase31/01-functional.cjs",
+      "totals": {
+        "pass": 26,
+        "fail": 0
+      },
+      "status": "PASS",
+      "note": "homepage, nav, search, MCQ, quiz, assessment, mobile menu, critical journeys"
+    },
+    {
+      "suite": "tests/phase31/02-responsive.cjs",
+      "totals": {
+        "pass": 24,
+        "fail": 0
+      },
+      "status": "PASS",
+      "note": "3 pages x 8 widths overflow+error gates"
+    },
+    {
+      "suite": "tests/phase31/03-network.cjs",
+      "totals": {
+        "pass": 3,
+        "fail": 0
+      },
+      "status": "PASS",
+      "note": "served-origin failures + api-down expectation handling"
+    },
+    {
+      "suite": "scripts/phase30/api-audit.cjs (sandbox on temp DB)",
+      "totals": {
+        "pass": 47,
+        "fail": 0
+      },
+      "status": "PASS"
+    }
+  ],
+  "total_checks": 100,
+  "regressions_found": 0,
+  "tooling_note": "03-network was updated (documented) to classify the product's expected API-down probes to :8765 as non-failures — previously hidden by inactive capture (P32-TOOL-001). No app regression exists.",
+  "status": "PASS — zero regressions; optimization release not blocked",
+  "generated_at": "2026-08-11T03:48:45.675Z",
+  "tool": "scripts/phase32 (reporter)",
+  "methodology": "Headless Chrome 1366x900/390x844, localhost static server (no throttling, lab-grade), fresh profile per run; interactive runs perform scripted user flows; static runs measure clean initial load.",
+  "environment_note": "Lab-grade localhost measurements; values are real, not fabricated; production network conditions will differ. LCP/CLS/INP/TTFB captured via PerformanceObserver wrappers in test-only injection script. FCP not observable in this toolchain (paint entries not exposed) -> NOT_MEASURABLE."
+}

@@ -1,0 +1,48 @@
+{
+  "step": "security",
+  "generated_at": "2026-08-07T08:22:54",
+  "summary": {
+    "parameterized_queries": 17,
+    "string_concatenation_risk": 1,
+    "raw_sql_risk": 0,
+    "prepared_statements": 33,
+    "innerhtml_in_server": 0,
+    "document_write": 0,
+    "json_api_outputs": 41,
+    "input_validations": 5,
+    "sanitize_functions": 2,
+    "try_catch_blocks": 8,
+    "error_responses": 4,
+    "cors_headers": 2,
+    "x_frame_options": 0,
+    "content_security_policy": 0,
+    "hsts_header": 0,
+    "rate_limiting": 0,
+    "csrf_protection": 0,
+    "security_txt_exists": false,
+    "exposed_database_files": 2,
+    "sensitive_files_detected": 6,
+    "directory_indexing_protected": true
+  },
+  "sensitive_files": [
+    "pipeline/progress.log",
+    "server-err.log",
+    "server-out.log",
+    "srv-err.log",
+    "srv-out.log",
+    "validation.log"
+  ],
+  "exposed_databases": [
+    "db/pakistan-mcqs.rebuilt.sqlite",
+    "db/pakistan-mcqs.sqlite"
+  ],
+  "recommendations": [
+    "Add X-Frame-Options header",
+    "Add Content-Security-Policy header",
+    "Add Strict-Transport-Security header",
+    "Implement rate limiting",
+    "Add CSRF protection",
+    "Move database files outside web root",
+    "Use parameterized queries to prevent SQL injection"
+  ]
+}

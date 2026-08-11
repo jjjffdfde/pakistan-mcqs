@@ -1,0 +1,52 @@
+{
+  "step": "offline_api_layer",
+  "generated_at": "2026-08-06T08:10:34",
+  "summary": {
+    "total_endpoints": 6
+  },
+  "endpoints": [
+    {
+      "name": "Analytics API",
+      "endpoint": "GET /api/v2/analytics",
+      "source": "phase20_student_analytics.json + phase20_exam_analytics.json",
+      "local": true
+    },
+    {
+      "name": "Dashboard API",
+      "endpoint": "GET /api/v2/dashboard",
+      "source": "phase20_dashboard.json",
+      "local": true
+    },
+    {
+      "name": "Revision API",
+      "endpoint": "GET /api/v2/revision/plans",
+      "source": "phase20_revision_plans.json",
+      "local": true
+    },
+    {
+      "name": "Recommendation API",
+      "endpoint": "GET /api/v2/recommendations",
+      "source": "phase20_adaptive_learning.json",
+      "local": true
+    },
+    {
+      "name": "Mastery API",
+      "endpoint": "GET /api/v2/mastery",
+      "source": "phase20_mastery.json",
+      "local": true
+    },
+    {
+      "name": "Exam API",
+      "endpoint": "GET /api/v2/exams",
+      "source": "phase20_exam_analytics.json",
+      "local": true
+    }
+  ],
+  "api_spec": {
+    "version": "2.0.0",
+    "base_url": "/api/v2",
+    "authentication": "none (offline)",
+    "data_format": "JSON",
+    "mode": "local_only"
+  }
+}

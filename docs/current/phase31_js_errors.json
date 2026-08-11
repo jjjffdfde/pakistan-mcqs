@@ -1,0 +1,188 @@
+{
+  "module": "M10",
+  "generated_at": "2026-08-10T15:02:51.825Z",
+  "methodology": "inject.js captures console.error/warn, window error, unhandledrejection, fetch>=400 across 28 browser runs (12 widths) + 5 network runs",
+  "runs_covered": 33,
+  "totals": {
+    "console_errors": 0,
+    "window_errors": 0,
+    "rejections": 0,
+    "fetch_failures_400plus": 0
+  },
+  "per_run": [
+    {
+      "page": "index.html",
+      "w": 1366,
+      "inter": true,
+      "errors": 0
+    },
+    {
+      "page": "admin.html",
+      "w": 1366,
+      "inter": true,
+      "errors": 0
+    },
+    {
+      "page": "subjects/biology.html",
+      "w": 1366,
+      "inter": true,
+      "errors": 0
+    },
+    {
+      "page": "offline.html",
+      "w": 1366,
+      "inter": true,
+      "errors": 0
+    },
+    {
+      "page": "index.html",
+      "w": 1920,
+      "inter": false,
+      "errors": 0
+    },
+    {
+      "page": "index.html",
+      "w": 1440,
+      "inter": false,
+      "errors": 0
+    },
+    {
+      "page": "index.html",
+      "w": 1280,
+      "inter": false,
+      "errors": 0
+    },
+    {
+      "page": "index.html",
+      "w": 1024,
+      "inter": false,
+      "errors": 0
+    },
+    {
+      "page": "index.html",
+      "w": 768,
+      "inter": false,
+      "errors": 0
+    },
+    {
+      "page": "index.html",
+      "w": 414,
+      "inter": false,
+      "errors": 0
+    },
+    {
+      "page": "index.html",
+      "w": 390,
+      "inter": false,
+      "errors": 0
+    },
+    {
+      "page": "index.html",
+      "w": 375,
+      "inter": false,
+      "errors": 0
+    },
+    {
+      "page": "index.html",
+      "w": 320,
+      "inter": false,
+      "errors": 0
+    },
+    {
+      "page": "admin.html",
+      "w": 1024,
+      "inter": false,
+      "errors": 0
+    },
+    {
+      "page": "admin.html",
+      "w": 768,
+      "inter": false,
+      "errors": 0
+    },
+    {
+      "page": "admin.html",
+      "w": 414,
+      "inter": false,
+      "errors": 0
+    },
+    {
+      "page": "admin.html",
+      "w": 390,
+      "inter": false,
+      "errors": 0
+    },
+    {
+      "page": "admin.html",
+      "w": 320,
+      "inter": false,
+      "errors": 0
+    },
+    {
+      "page": "subjects/biology.html",
+      "w": 1366,
+      "inter": false,
+      "errors": 0
+    },
+    {
+      "page": "subjects/biology.html",
+      "w": 768,
+      "inter": false,
+      "errors": 0
+    },
+    {
+      "page": "subjects/biology.html",
+      "w": 414,
+      "inter": false,
+      "errors": 0
+    },
+    {
+      "page": "subjects/biology.html",
+      "w": 390,
+      "inter": false,
+      "errors": 0
+    },
+    {
+      "page": "subjects/biology.html",
+      "w": 320,
+      "inter": false,
+      "errors": 0
+    },
+    {
+      "page": "chapters/ac-basics.html",
+      "w": 1366,
+      "inter": false,
+      "errors": 0
+    },
+    {
+      "page": "chapters/ac-basics.html",
+      "w": 390,
+      "inter": false,
+      "errors": 0
+    },
+    {
+      "page": "offline.html",
+      "w": 375,
+      "inter": false,
+      "errors": 0
+    },
+    {
+      "page": "missing-page.html",
+      "w": 1366,
+      "inter": false,
+      "errors": 0
+    },
+    {
+      "page": "missing-page.html",
+      "w": 375,
+      "inter": false,
+      "errors": 0
+    }
+  ],
+  "static_js": {
+    "files": 203,
+    "syntax_errors": 0
+  },
+  "status": "PASS",
+  "note": "Zero JS errors across all 33 browser runs; all 203 JS files syntax-clean"
+}

@@ -1,0 +1,519 @@
+{
+  "step": "recommendations",
+  "generated_at": "2026-08-10T12:10:40.191Z",
+  "summary": {
+    "mcqs": 18,
+    "subjects": 6,
+    "concepts": 6,
+    "objectives": 12,
+    "practice_sets": 6,
+    "mocks": 6,
+    "revision_sessions": 2,
+    "target_exam": "CSS",
+    "exam_days_left": 113,
+    "status": "PASS"
+  },
+  "mcq_recommendations": [
+    {
+      "mcq_id": "reason-000008",
+      "subject_id": "reasoning",
+      "difficulty": "medium",
+      "reason": "weak-topic practice"
+    },
+    {
+      "mcq_id": "reason-000007",
+      "subject_id": "reasoning",
+      "difficulty": "medium",
+      "reason": "weak-topic practice"
+    },
+    {
+      "mcq_id": "reason-000006",
+      "subject_id": "reasoning",
+      "difficulty": "medium",
+      "reason": "weak-topic practice"
+    },
+    {
+      "mcq_id": "reason-000005",
+      "subject_id": "reasoning",
+      "difficulty": "medium",
+      "reason": "weak-topic practice"
+    },
+    {
+      "mcq_id": "reason-000004",
+      "subject_id": "reasoning",
+      "difficulty": "medium",
+      "reason": "weak-topic practice"
+    },
+    {
+      "mcq_id": "reason-000003",
+      "subject_id": "reasoning",
+      "difficulty": "medium",
+      "reason": "weak-topic practice"
+    },
+    {
+      "mcq_id": "reason-000002",
+      "subject_id": "reasoning",
+      "difficulty": "medium",
+      "reason": "weak-topic practice"
+    },
+    {
+      "mcq_id": "reason-000001",
+      "subject_id": "reasoning",
+      "difficulty": "medium",
+      "reason": "weak-topic practice"
+    },
+    {
+      "mcq_id": "rea-015",
+      "subject_id": "reasoning",
+      "difficulty": "medium",
+      "reason": "weak-topic practice"
+    },
+    {
+      "mcq_id": "rea-014",
+      "subject_id": "reasoning",
+      "difficulty": "hard",
+      "reason": "weak-topic practice"
+    },
+    {
+      "mcq_id": "rea-013",
+      "subject_id": "reasoning",
+      "difficulty": "easy",
+      "reason": "weak-topic practice"
+    },
+    {
+      "mcq_id": "rea-012",
+      "subject_id": "reasoning",
+      "difficulty": "medium",
+      "reason": "weak-topic practice"
+    },
+    {
+      "mcq_id": "zoology-000008",
+      "subject_id": "zoology",
+      "difficulty": "medium",
+      "reason": "recently published"
+    },
+    {
+      "mcq_id": "zoology-000007",
+      "subject_id": "zoology",
+      "difficulty": "medium",
+      "reason": "recently published"
+    },
+    {
+      "mcq_id": "zoology-000006",
+      "subject_id": "zoology",
+      "difficulty": "medium",
+      "reason": "recently published"
+    },
+    {
+      "mcq_id": "zoology-000005",
+      "subject_id": "zoology",
+      "difficulty": "medium",
+      "reason": "recently published"
+    },
+    {
+      "mcq_id": "zoology-000004",
+      "subject_id": "zoology",
+      "difficulty": "medium",
+      "reason": "recently published"
+    },
+    {
+      "mcq_id": "zoology-000003",
+      "subject_id": "zoology",
+      "difficulty": "medium",
+      "reason": "recently published"
+    }
+  ],
+  "subject_recommendations": [
+    {
+      "subject_id": "mathematics",
+      "name": "Mathematics",
+      "mcqs": 115332,
+      "reason": "untouched high-volume subject — start with Mathematics"
+    },
+    {
+      "subject_id": "statistics",
+      "name": "Statistics",
+      "mcqs": 42470,
+      "reason": "untouched high-volume subject — start with Statistics"
+    },
+    {
+      "subject_id": "rust",
+      "name": "Rust",
+      "mcqs": 9477,
+      "reason": "untouched high-volume subject — start with Rust"
+    },
+    {
+      "subject_id": "physics",
+      "name": "Physics",
+      "mcqs": 9326,
+      "reason": "untouched high-volume subject — start with Physics"
+    },
+    {
+      "subject_id": "go",
+      "name": "Go",
+      "mcqs": 8003,
+      "reason": "untouched high-volume subject — start with Go"
+    },
+    {
+      "subject_id": "csharp",
+      "name": "C#",
+      "mcqs": 6690,
+      "reason": "untouched high-volume subject — start with C#"
+    }
+  ],
+  "concept_recommendations": [
+    {
+      "topic_id": "t-ch-cssexa-central-superior-services-pattern-awaren-exam-pattern",
+      "topic_name": "Exam Pattern",
+      "priority": 110,
+      "concepts": [
+        {
+          "name": "CSS Exam (Central Superior Services)",
+          "exam_frequency": 1
+        },
+        {
+          "name": "css-exam",
+          "exam_frequency": 1
+        },
+        {
+          "name": "exam-awareness",
+          "exam_frequency": 1
+        }
+      ],
+      "reason": "weak topic — drill these concepts first"
+    },
+    {
+      "topic_id": "t-ch-reason-reasoning-aptitude-concepts-aptitude-basics",
+      "topic_name": "Aptitude Basics",
+      "priority": 100,
+      "concepts": [
+        {
+          "name": "reasoning",
+          "exam_frequency": 35
+        },
+        {
+          "name": "Reasoning & IQ",
+          "exam_frequency": 30
+        },
+        {
+          "name": "Aptitude Basics",
+          "exam_frequency": 30
+        }
+      ],
+      "reason": "weak topic — drill these concepts first"
+    },
+    {
+      "topic_id": "t-ch-iq-reasoning-series-and-patterns-letter-series",
+      "topic_name": "Letter Series",
+      "priority": 86,
+      "concepts": [
+        {
+          "name": "Letter Series",
+          "exam_frequency": 21
+        }
+      ],
+      "reason": "weak topic — drill these concepts first"
+    },
+    {
+      "topic_id": "t-269",
+      "topic_name": "Syllogisms & Puzzles",
+      "priority": 75,
+      "concepts": [],
+      "reason": "weak topic — drill these concepts first"
+    },
+    {
+      "topic_id": "t-267",
+      "topic_name": "Analogies & Series",
+      "priority": 67,
+      "concepts": [
+        {
+          "name": "odd one out",
+          "exam_frequency": 36
+        }
+      ],
+      "reason": "weak topic — drill these concepts first"
+    },
+    {
+      "topic_id": "t-272",
+      "topic_name": "Ecosystem Structure & Energy Flow",
+      "priority": 67,
+      "concepts": [],
+      "reason": "weak topic — drill these concepts first"
+    }
+  ],
+  "objective_recommendations": [
+    {
+      "concept_id": 16042,
+      "bloom": "Understand",
+      "difficulty": "medium",
+      "objectives": 297
+    },
+    {
+      "concept_id": 16038,
+      "bloom": "Understand",
+      "difficulty": "medium",
+      "objectives": 250
+    },
+    {
+      "concept_id": 16039,
+      "bloom": "Understand",
+      "difficulty": "medium",
+      "objectives": 250
+    },
+    {
+      "concept_id": 16040,
+      "bloom": "Understand",
+      "difficulty": "medium",
+      "objectives": 250
+    },
+    {
+      "concept_id": 16041,
+      "bloom": "Understand",
+      "difficulty": "medium",
+      "objectives": 250
+    },
+    {
+      "concept_id": 15767,
+      "bloom": "Understand",
+      "difficulty": "medium",
+      "objectives": 60
+    },
+    {
+      "concept_id": 15768,
+      "bloom": "Understand",
+      "difficulty": "medium",
+      "objectives": 60
+    },
+    {
+      "concept_id": 15769,
+      "bloom": "Understand",
+      "difficulty": "medium",
+      "objectives": 60
+    },
+    {
+      "concept_id": 16660,
+      "bloom": "Understand",
+      "difficulty": "medium",
+      "objectives": 48
+    },
+    {
+      "concept_id": 16661,
+      "bloom": "Understand",
+      "difficulty": "medium",
+      "objectives": 40
+    },
+    {
+      "concept_id": 16662,
+      "bloom": "Understand",
+      "difficulty": "medium",
+      "objectives": 40
+    },
+    {
+      "concept_id": 16661,
+      "bloom": "Understand",
+      "difficulty": "easy",
+      "objectives": 28
+    }
+  ],
+  "practice_set_recommendations": [
+    {
+      "quiz_id": "quiz-analytical-reasoning",
+      "title": "Analytical Reasoning",
+      "subject_ids": "reasoning",
+      "total_questions": 10,
+      "difficulty": "hard",
+      "reason": "targeted practice set"
+    },
+    {
+      "quiz_id": "quiz-computer-it",
+      "title": "Computer & IT Fundamentals",
+      "subject_ids": "computer-science,ms-office",
+      "total_questions": 15,
+      "difficulty": "easy",
+      "reason": "targeted practice set"
+    },
+    {
+      "quiz_id": "quiz-constitution-law",
+      "title": "Constitution & Law of Pakistan",
+      "subject_ids": "constitution,law",
+      "total_questions": 15,
+      "difficulty": "hard",
+      "reason": "targeted practice set"
+    },
+    {
+      "quiz_id": "quiz-current-2026",
+      "title": "Current Affairs 2024-2026",
+      "subject_ids": "current-affairs",
+      "total_questions": 15,
+      "difficulty": "medium",
+      "reason": "targeted practice set"
+    },
+    {
+      "quiz_id": "quiz-economics-banking",
+      "title": "Economics & Banking",
+      "subject_ids": "economics,finance",
+      "total_questions": 15,
+      "difficulty": "medium",
+      "reason": "targeted practice set"
+    },
+    {
+      "quiz_id": "quiz-english-grammar",
+      "title": "English Grammar Challenge",
+      "subject_ids": "english",
+      "total_questions": 15,
+      "difficulty": "medium",
+      "reason": "targeted practice set"
+    }
+  ],
+  "mock_test_recommendations": [
+    {
+      "id": "mock-computer-1",
+      "title": "Computer & IT - Mock Test 1",
+      "exam_id": "nts",
+      "total_questions": 40,
+      "duration_mins": 35,
+      "difficulty": "medium"
+    },
+    {
+      "id": "mock-educators-1",
+      "title": "Educators - Mock Test 1",
+      "exam_id": "educators",
+      "total_questions": 40,
+      "duration_mins": 40,
+      "difficulty": "medium"
+    },
+    {
+      "id": "mock-exam-ajkpsc",
+      "title": "AJKPSC Full-Length Mock Test",
+      "exam_id": "ajkpsc",
+      "total_questions": 100,
+      "duration_mins": 90,
+      "difficulty": "mixed"
+    },
+    {
+      "id": "mock-exam-anf",
+      "title": "ANF Full-Length Mock Test",
+      "exam_id": "anf",
+      "total_questions": 100,
+      "duration_mins": 90,
+      "difficulty": "mixed"
+    },
+    {
+      "id": "mock-exam-army",
+      "title": "Army Full-Length Mock Test",
+      "exam_id": "army",
+      "total_questions": 100,
+      "duration_mins": 90,
+      "difficulty": "mixed"
+    },
+    {
+      "id": "mock-exam-asf",
+      "title": "ASF Full-Length Mock Test",
+      "exam_id": "asf",
+      "total_questions": 100,
+      "duration_mins": 90,
+      "difficulty": "mixed"
+    }
+  ],
+  "revision_session_recommendations": [
+    {
+      "type": "spaced",
+      "title": "Due spaced revisions",
+      "items": [
+        {
+          "mcq_id": "cssexa-000004",
+          "due_date": "2026-08-04",
+          "box": 1
+        },
+        {
+          "mcq_id": "iq-000377",
+          "due_date": "2026-08-07",
+          "box": 2
+        }
+      ],
+      "session_size": 2
+    },
+    {
+      "type": "flashcards",
+      "title": "Due flashcards",
+      "items": [
+        {
+          "mcq_id": "pak-001",
+          "due_date": "2026-08-04",
+          "box": 1
+        },
+        {
+          "mcq_id": "pak-002",
+          "due_date": "2026-08-04",
+          "box": 1
+        },
+        {
+          "mcq_id": "pak-003",
+          "due_date": "2026-08-04",
+          "box": 1
+        },
+        {
+          "mcq_id": "pak-004",
+          "due_date": "2026-08-04",
+          "box": 1
+        },
+        {
+          "mcq_id": "pak-005",
+          "due_date": "2026-08-04",
+          "box": 1
+        },
+        {
+          "mcq_id": "pak-006",
+          "due_date": "2026-08-04",
+          "box": 1
+        },
+        {
+          "mcq_id": "pak-007",
+          "due_date": "2026-08-04",
+          "box": 1
+        },
+        {
+          "mcq_id": "pak-008",
+          "due_date": "2026-08-04",
+          "box": 1
+        },
+        {
+          "mcq_id": "pak-009",
+          "due_date": "2026-08-04",
+          "box": 1
+        },
+        {
+          "mcq_id": "pak-010",
+          "due_date": "2026-08-04",
+          "box": 1
+        },
+        {
+          "mcq_id": "pak-011",
+          "due_date": "2026-08-04",
+          "box": 1
+        },
+        {
+          "mcq_id": "pak-012",
+          "due_date": "2026-08-04",
+          "box": 1
+        },
+        {
+          "mcq_id": "pak-013",
+          "due_date": "2026-08-04",
+          "box": 1
+        },
+        {
+          "mcq_id": "pak-014",
+          "due_date": "2026-08-04",
+          "box": 1
+        },
+        {
+          "mcq_id": "pak-015",
+          "due_date": "2026-08-04",
+          "box": 1
+        }
+      ],
+      "session_size": 15
+    }
+  ]
+}

@@ -1,0 +1,271 @@
+{
+ "module": "M18",
+ "generated_at": "2026-08-10T10:09:38.274Z",
+ "file": "assets/css/style.css",
+ "bytes": 21100,
+ "css_variables": {
+  "green-900": "#01301a",
+  "green-800": "#01411c",
+  "green-700": "#015f2a",
+  "green-600": "#00703c",
+  "green-500": "#0a8f4e",
+  "green-100": "#123524",
+  "green-50": "#0e1f16",
+  "gold": "#f2b705",
+  "gold-dark": "#7a5c00",
+  "red": "#b02e2e",
+  "red-light": "#3a1d1d",
+  "ink": "#e8eef4",
+  "muted": "#9fb0bf",
+  "line": "#2b3d4d",
+  "card-bg": "#132330",
+  "body-bg": "#0b1620",
+  "shadow": "0 1px 3px rgba(0, 0, 0, 0.4), 0 4px 14px rgba(0, 0, 0, 0.35)",
+  "radius": "14px",
+  "font": "\"Segoe UI\", system-ui, -apple-system, Roboto, Arial, sans-serif"
+ },
+ "component_classes": [
+  [
+   "db",
+   11
+  ],
+  [
+   "btn",
+   9
+  ],
+  [
+   "mcq",
+   9
+  ],
+  [
+   "result",
+   9
+  ],
+  [
+   "opt",
+   8
+  ],
+  [
+   "exam",
+   8
+  ],
+  [
+   "modal",
+   8
+  ],
+  [
+   "main",
+   7
+  ],
+  [
+   "subject",
+   7
+  ],
+  [
+   "chip",
+   6
+  ],
+  [
+   "qotd",
+   6
+  ],
+  [
+   "brand",
+   5
+  ],
+  [
+   "search",
+   5
+  ],
+  [
+   "hero",
+   5
+  ],
+  [
+   "planner",
+   5
+  ],
+  [
+   "palette",
+   5
+  ],
+  [
+   "pager",
+   5
+  ],
+  [
+   "footer",
+   5
+  ],
+  [
+   "dash",
+   5
+  ],
+  [
+   "ach",
+   5
+  ],
+  [
+   "seo",
+   5
+  ],
+  [
+   "header",
+   4
+  ],
+  [
+   "grid",
+   4
+  ],
+  [
+   "stat",
+   4
+  ],
+  [
+   "cert",
+   4
+  ],
+  [
+   "lb",
+   4
+  ],
+  [
+   "ai",
+   4
+  ],
+  [
+   "site",
+   3
+  ],
+  [
+   "nav",
+   3
+  ],
+  [
+   "quiz",
+   3
+  ]
+ ],
+ "typography": {
+  "font_families": [
+   "var(--font)",
+   "inherit"
+  ],
+  "font_sizes": [
+   [
+    "0.85rem",
+    7
+   ],
+   [
+    "0.9rem",
+    6
+   ],
+   [
+    "0.72rem",
+    5
+   ],
+   [
+    "0.95rem",
+    4
+   ],
+   [
+    "0.78rem",
+    4
+   ],
+   [
+    "1rem",
+    3
+   ],
+   [
+    "1.05rem",
+    2
+   ],
+   [
+    "0.92rem",
+    2
+   ],
+   [
+    "0.8rem",
+    2
+   ],
+   [
+    "1.02rem",
+    2
+   ],
+   [
+    "1.15rem",
+    1
+   ],
+   [
+    "0.68rem",
+    1
+   ],
+   [
+    "0.84rem",
+    1
+   ],
+   [
+    "0.98rem",
+    1
+   ],
+   [
+    "0.83rem",
+    1
+   ],
+   [
+    "clamp(1.7rem, 4vw, 2.7rem)",
+    1
+   ],
+   [
+    "1.7rem",
+    1
+   ],
+   [
+    "1.35rem",
+    1
+   ],
+   [
+    "1.6rem",
+    1
+   ],
+   [
+    "0.82rem",
+    1
+   ]
+  ]
+ },
+ "media_queries": [
+  "(max-width: 860px)",
+  "(max-width: 560px)",
+  "print"
+ ],
+ "findings": [
+  {
+   "kind": "button_variants",
+   "count": 5,
+   "variants": [
+    ".btn",
+    ".btn-primary",
+    ".btn-outline",
+    ".btn-sm",
+    ".btn-gold"
+   ]
+  },
+  {
+   "kind": "card_variants",
+   "count": 2,
+   "variants": [
+    ".card",
+    ".card-meta"
+   ]
+  },
+  {
+   "kind": "focus_visible_rule",
+   "present": true
+  },
+  {
+   "kind": "prefers_reduced_motion",
+   "present": false
+  }
+ ]
+}

@@ -1,0 +1,17 @@
+{
+  "step": "security",
+  "generated_at": "2026-08-11T12:15:57.031Z",
+  "summary": {
+    "scanned_public_pages": 11,
+    "errors": 0,
+    "warnings": 0,
+    "status": "PASS"
+  },
+  "errors": [],
+  "warnings": [],
+  "policy": [
+    "no secrets in source",
+    "no mixed content on public pages",
+    "no private keys in repo"
+  ]
+}

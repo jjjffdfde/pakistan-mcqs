@@ -1,0 +1,68 @@
+{
+  "step": "uiux_audit",
+  "generated_at": "2026-08-07T08:27:32",
+  "summary": {
+    "typography_rules": 57,
+    "spacing_rules": 104,
+    "card_components": 2,
+    "button_styles": 11,
+    "table_styles": 5,
+    "form_styles": 5,
+    "hover_states": 15,
+    "focus_states": 3,
+    "disabled_states": 2,
+    "dark_mode_support": false,
+    "theme_toggle_present": false,
+    "animations_count": 0,
+    "transitions_count": 5,
+    "border_radius_rules": 36,
+    "box_shadow_rules": 14,
+    "gradient_rules": 2,
+    "loading_state_patterns": 0,
+    "empty_state_patterns": 0,
+    "error_state_patterns": 0,
+    "success_state_patterns": 0
+  },
+  "details": {
+    "typography": {
+      "font_families": 8,
+      "font_sizes": 57,
+      "line_heights": 4
+    },
+    "spacing": {
+      "margin_rules": 57,
+      "padding_rules": 47
+    },
+    "components": {
+      "card_styles": 2,
+      "button_styles": 11,
+      "table_styles": 5,
+      "form_styles": 5
+    },
+    "states": {
+      "hover_states": 15,
+      "focus_states": 3,
+      "active_states": 1,
+      "disabled_states": 2
+    },
+    "dark_mode": {
+      "css_prefers_dark": 0,
+      "html_dark_class": 0,
+      "theme_toggle": 0
+    },
+    "visual_effects": {
+      "transitions": 5,
+      "animations": 0,
+      "transforms": 6,
+      "box_shadows": 14,
+      "border_radius": 36,
+      "gradients": 2
+    },
+    "ui_patterns": {
+      "loading_spinner": 0,
+      "empty_state": 0,
+      "error_state": 0,
+      "success_state": 0
+    }
+  }
+}

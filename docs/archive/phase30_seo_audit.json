@@ -1,0 +1,84 @@
+{
+ "module": "M12",
+ "generated_at": "2026-08-10T10:19:52.211Z",
+ "files": {
+  "robots_txt": [
+   "User-agent: *",
+   "Allow: /",
+   "Disallow: /admin.html",
+   "Sitemap: https://pakistanmcqshub.github.io/sitemap.xml",
+   "Sitemap: https://pakistanmcqshub.github.io/image-sitemap.xml",
+   "Sitemap: https://pakistanmcqshub.github.io/video-sitemap.xml"
+  ],
+  "sitemap_xml": {
+   "bytes": 226049,
+   "urls": 1121
+  },
+  "index.html": {
+   "title": "Pakistan MCQs Hub - Free MCQs for PPSC, FPSC, NTS, CSS & All Exams",
+   "title_len": 66,
+   "meta_description": "Free original MCQs for PPSC, FPSC, NTS, OTS, CSS, PMS and all Pakistani competitive exams. Pakistan Affairs, Current Affairs, Islamic Studies, English, Math, Sc",
+   "canonical": "https://pakistanmcqshub.github.io/",
+   "h1_count": 9,
+   "og_tags": 9,
+   "json_ld": 6,
+   "img_alt_ratio": "n/a",
+   "has_viewport": true
+  },
+  "admin.html": {
+   "title": "Admin Panel - Pakistan MCQs Hub",
+   "title_len": 31,
+   "meta_description": "Admin panel for Pakistan MCQs Hub - manage MCQs, categories, images, import and export data.",
+   "canonical": "https://pakistanmcqshub.github.io/admin.html",
+   "h1_count": 1,
+   "og_tags": 4,
+   "json_ld": 1,
+   "img_alt_ratio": "n/a",
+   "has_viewport": true
+  },
+  "404.html": {
+   "title": "Page not found - 404 | Pakistan MCQs Hub",
+   "title_len": 40,
+   "meta_description": "The page you are looking for does not exist. Browse free original MCQs for Pakistani exams.",
+   "canonical": "https://pakistanmcqshub.github.io/404.html",
+   "h1_count": 1,
+   "og_tags": 5,
+   "json_ld": 1,
+   "img_alt_ratio": "n/a",
+   "has_viewport": true
+  },
+  "offline.html": {
+   "title": "Offline - Pakistan MCQs Hub",
+   "title_len": 27,
+   "meta_description": "MISSING",
+   "canonical": "MISSING",
+   "h1_count": 1,
+   "og_tags": 0,
+   "json_ld": 0,
+   "img_alt_ratio": "100%",
+   "has_viewport": true
+  },
+  "subjects/index.html": {
+   "title": "All Subjects - Free MCQs by Subject | Pakistan MCQs Hub",
+   "title_len": 55,
+   "meta_description": "Browse 243 subjects and 1597 topics of free original MCQs for PPSC, FPSC, NTS, CSS, PMS and all Pakistani exams.",
+   "canonical": "https://pakistanmcqshub.github.io/subjects/index.html",
+   "h1_count": 1,
+   "og_tags": 5,
+   "json_ld": 1,
+   "img_alt_ratio": "n/a",
+   "has_viewport": true
+  },
+  "chapters/ac-basics.html": {
+   "title": "Accounting Basics - Accounting MCQs",
+   "title_len": 35,
+   "meta_description": "Practice 8 free original MCQs on Accounting Basics (Accounting) with explanations for PPSC, FPSC, NTS, CSS and more.",
+   "canonical": "https://pakistanmcqshub.github.io/chapters/ac-basics.html",
+   "h1_count": 1,
+   "og_tags": 5,
+   "json_ld": 1,
+   "img_alt_ratio": "n/a",
+   "has_viewport": true
+  }
+ }
+}

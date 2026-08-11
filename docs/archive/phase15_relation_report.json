@@ -1,0 +1,1121 @@
+{
+  "generated_at": "2026-08-05T06:46:23.522Z",
+  "relationships": {
+    "co_occurrence_pairs": 3787,
+    "same_chapter_groups": 405,
+    "same_topic_groups": 375,
+    "shared_exam_groups": 1230,
+    "shared_tags_pairs": 500,
+    "shared_syllabus_groups": 200
+  },
+  "sample": {
+    "co_occurrence": [
+      {
+        "concept1_id": "15190",
+        "concept2_id": "15197",
+        "co_occurrence_count": 32,
+        "subject_id": "accounting"
+      },
+      {
+        "concept1_id": "15190",
+        "concept2_id": "15190",
+        "co_occurrence_count": 5080,
+        "subject_id": "accounting"
+      },
+      {
+        "concept1_id": "15190",
+        "concept2_id": "15198",
+        "co_occurrence_count": 18,
+        "subject_id": "accounting"
+      },
+      {
+        "concept1_id": "15190",
+        "concept2_id": "15192",
+        "co_occurrence_count": 10128,
+        "subject_id": "accounting"
+      },
+      {
+        "concept1_id": "15190",
+        "concept2_id": "15193",
+        "co_occurrence_count": 10128,
+        "subject_id": "accounting"
+      },
+      {
+        "concept1_id": "15190",
+        "concept2_id": "15194",
+        "co_occurrence_count": 10128,
+        "subject_id": "accounting"
+      },
+      {
+        "concept1_id": "15190",
+        "concept2_id": "15191",
+        "co_occurrence_count": 10128,
+        "subject_id": "accounting"
+      },
+      {
+        "concept1_id": "15192",
+        "concept2_id": "15198",
+        "co_occurrence_count": 9,
+        "subject_id": "accounting"
+      },
+      {
+        "concept1_id": "15193",
+        "concept2_id": "15198",
+        "co_occurrence_count": 9,
+        "subject_id": "accounting"
+      },
+      {
+        "concept1_id": "15194",
+        "concept2_id": "15198",
+        "co_occurrence_count": 9,
+        "subject_id": "accounting"
+      },
+      {
+        "concept1_id": "15191",
+        "concept2_id": "15198",
+        "co_occurrence_count": 9,
+        "subject_id": "accounting"
+      },
+      {
+        "concept1_id": "15192",
+        "concept2_id": "15193",
+        "co_occurrence_count": 5064,
+        "subject_id": "accounting"
+      },
+      {
+        "concept1_id": "15192",
+        "concept2_id": "15194",
+        "co_occurrence_count": 5064,
+        "subject_id": "accounting"
+      },
+      {
+        "concept1_id": "15191",
+        "concept2_id": "15192",
+        "co_occurrence_count": 5064,
+        "subject_id": "accounting"
+      },
+      {
+        "concept1_id": "15193",
+        "concept2_id": "15194",
+        "co_occurrence_count": 5064,
+        "subject_id": "accounting"
+      },
+      {
+        "concept1_id": "15191",
+        "concept2_id": "15193",
+        "co_occurrence_count": 5064,
+        "subject_id": "accounting"
+      },
+      {
+        "concept1_id": "15191",
+        "concept2_id": "15194",
+        "co_occurrence_count": 5064,
+        "subject_id": "accounting"
+      },
+      {
+        "concept1_id": "15190",
+        "concept2_id": "15195",
+        "co_occurrence_count": 8404,
+        "subject_id": "accounting"
+      },
+      {
+        "concept1_id": "15192",
+        "concept2_id": "15195",
+        "co_occurrence_count": 4202,
+        "subject_id": "accounting"
+      },
+      {
+        "concept1_id": "15193",
+        "concept2_id": "15195",
+        "co_occurrence_count": 4202,
+        "subject_id": "accounting"
+      },
+      {
+        "concept1_id": "15194",
+        "concept2_id": "15195",
+        "co_occurrence_count": 4202,
+        "subject_id": "accounting"
+      },
+      {
+        "concept1_id": "15191",
+        "concept2_id": "15195",
+        "co_occurrence_count": 4202,
+        "subject_id": "accounting"
+      },
+      {
+        "concept1_id": "15190",
+        "concept2_id": "15196",
+        "co_occurrence_count": 1706,
+        "subject_id": "accounting"
+      },
+      {
+        "concept1_id": "15192",
+        "concept2_id": "15196",
+        "co_occurrence_count": 853,
+        "subject_id": "accounting"
+      },
+      {
+        "concept1_id": "15193",
+        "concept2_id": "15196",
+        "co_occurrence_count": 853,
+        "subject_id": "accounting"
+      },
+      {
+        "concept1_id": "15194",
+        "concept2_id": "15196",
+        "co_occurrence_count": 853,
+        "subject_id": "accounting"
+      },
+      {
+        "concept1_id": "15191",
+        "concept2_id": "15196",
+        "co_occurrence_count": 853,
+        "subject_id": "accounting"
+      },
+      {
+        "concept1_id": "15199",
+        "concept2_id": "15205",
+        "co_occurrence_count": 28,
+        "subject_id": "agriculture"
+      },
+      {
+        "concept1_id": "15199",
+        "concept2_id": "15199",
+        "co_occurrence_count": 5139,
+        "subject_id": "agriculture"
+      },
+      {
+        "concept1_id": "15199",
+        "concept2_id": "15206",
+        "co_occurrence_count": 28,
+        "subject_id": "agriculture"
+      },
+      {
+        "concept1_id": "15199",
+        "concept2_id": "15202",
+        "co_occurrence_count": 10250,
+        "subject_id": "agriculture"
+      },
+      {
+        "concept1_id": "15199",
+        "concept2_id": "15203",
+        "co_occurrence_count": 10250,
+        "subject_id": "agriculture"
+      },
+      {
+        "concept1_id": "15199",
+        "concept2_id": "15201",
+        "co_occurrence_count": 10250,
+        "subject_id": "agriculture"
+      },
+      {
+        "concept1_id": "15199",
+        "concept2_id": "15200",
+        "co_occurrence_count": 14650,
+        "subject_id": "agriculture"
+      },
+      {
+        "concept1_id": "15202",
+        "concept2_id": "15206",
+        "co_occurrence_count": 14,
+        "subject_id": "agriculture"
+      },
+      {
+        "concept1_id": "15203",
+        "concept2_id": "15206",
+        "co_occurrence_count": 14,
+        "subject_id": "agriculture"
+      },
+      {
+        "concept1_id": "15201",
+        "concept2_id": "15206",
+        "co_occurrence_count": 14,
+        "subject_id": "agriculture"
+      },
+      {
+        "concept1_id": "15200",
+        "concept2_id": "15206",
+        "co_occurrence_count": 14,
+        "subject_id": "agriculture"
+      },
+      {
+        "concept1_id": "15202",
+        "concept2_id": "15203",
+        "co_occurrence_count": 5125,
+        "subject_id": "agriculture"
+      },
+      {
+        "concept1_id": "15201",
+        "concept2_id": "15202",
+        "co_occurrence_count": 5125,
+        "subject_id": "agriculture"
+      },
+      {
+        "concept1_id": "15200",
+        "concept2_id": "15202",
+        "co_occurrence_count": 7325,
+        "subject_id": "agriculture"
+      },
+      {
+        "concept1_id": "15201",
+        "concept2_id": "15203",
+        "co_occurrence_count": 5125,
+        "subject_id": "agriculture"
+      },
+      {
+        "concept1_id": "15200",
+        "concept2_id": "15203",
+        "co_occurrence_count": 7325,
+        "subject_id": "agriculture"
+      },
+      {
+        "concept1_id": "15200",
+        "concept2_id": "15201",
+        "co_occurrence_count": 7325,
+        "subject_id": "agriculture"
+      },
+      {
+        "concept1_id": "15199",
+        "concept2_id": "15204",
+        "co_occurrence_count": 5822,
+        "subject_id": "agriculture"
+      },
+      {
+        "concept1_id": "15202",
+        "concept2_id": "15204",
+        "co_occurrence_count": 2911,
+        "subject_id": "agriculture"
+      },
+      {
+        "concept1_id": "15203",
+        "concept2_id": "15204",
+        "co_occurrence_count": 2911,
+        "subject_id": "agriculture"
+      },
+      {
+        "concept1_id": "15201",
+        "concept2_id": "15204",
+        "co_occurrence_count": 2911,
+        "subject_id": "agriculture"
+      },
+      {
+        "concept1_id": "15200",
+        "concept2_id": "15204",
+        "co_occurrence_count": 2911,
+        "subject_id": "agriculture"
+      },
+      {
+        "concept1_id": "15200",
+        "concept2_id": "15200",
+        "co_occurrence_count": 2200,
+        "subject_id": "agriculture"
+      }
+    ],
+    "same_chapter": [
+      {
+        "chapter_id": "analytical-reasoning-coding-decoding",
+        "concept_ids": "15235,15236",
+        "cnt": 2
+      },
+      {
+        "chapter_id": "angular-services-di",
+        "concept_ids": "15261,15262",
+        "cnt": 2
+      },
+      {
+        "chapter_id": "antonyms-context-antonyms",
+        "concept_ids": "15273,15274",
+        "cnt": 2
+      },
+      {
+        "chapter_id": "bic-molecules",
+        "concept_ids": "15364,15365",
+        "cnt": 2
+      },
+      {
+        "chapter_id": "big-data-data-pipelines",
+        "concept_ids": "15353,15354",
+        "cnt": 2
+      },
+      {
+        "chapter_id": "bootstrap-utilities-theming",
+        "concept_ids": "15384,15385",
+        "cnt": 2
+      },
+      {
+        "chapter_id": "ca-pakistan",
+        "concept_ids": "15557,15559,15560",
+        "cnt": 3
+      },
+      {
+        "chapter_id": "ch-accounting-accounting-deep-knowledge-bank",
+        "concept_ids": "15190,15191,15192,15193,15194,15195,15196,15198",
+        "cnt": 8
+      },
+      {
+        "chapter_id": "ch-agriculture-agriculture-deep-knowledge-bank",
+        "concept_ids": "15199,15200,15201,15202,15203,15204,15206",
+        "cnt": 7
+      },
+      {
+        "chapter_id": "ch-ai-artificial-intelligence-basics",
+        "concept_ids": "15216,15217",
+        "cnt": 2
+      },
+      {
+        "chapter_id": "ch-ai-artificial-intelligence-deep-knowledge-b",
+        "concept_ids": "15207,15208,15209,15210,15211,15212,15213,15214,15215",
+        "cnt": 9
+      },
+      {
+        "chapter_id": "ch-ajkpsc-azad-kashmir-provincial-knowledge-ajkpsc",
+        "concept_ids": "15218,15219,15220,15221,15222,15223",
+        "cnt": 6
+      },
+      {
+        "chapter_id": "ch-ajkpsc-azad-kashmir-public-service-commission-e",
+        "concept_ids": "15224,15225",
+        "cnt": 2
+      },
+      {
+        "chapter_id": "ch-algorithms-algorithms-phase-11",
+        "concept_ids": "15226,15227,15228",
+        "cnt": 3
+      },
+      {
+        "chapter_id": "ch-analyt-reasoning-verbal-and-analytical",
+        "concept_ids": "15229,15230,15231,15232,15233,15234",
+        "cnt": 6
+      },
+      {
+        "chapter_id": "ch-anatomy-anatomy-human-structure-phase-11",
+        "concept_ids": "15242,15243,15244,15245,15246,15247",
+        "cnt": 6
+      },
+      {
+        "chapter_id": "ch-anatomy-anatomy-letter-skills-phase-11",
+        "concept_ids": "15237,15238,15239,15240,15241",
+        "cnt": 5
+      },
+      {
+        "chapter_id": "ch-anf-anf-anti-narcotics-force-content",
+        "concept_ids": "15249,15250,15251,15252",
+        "cnt": 4
+      },
+      {
+        "chapter_id": "ch-anf-anf-recruitment-tests-pattern-awareness",
+        "concept_ids": "15253,15254",
+        "cnt": 2
+      },
+      {
+        "chapter_id": "ch-angular-angular-letter-skills-phase-11",
+        "concept_ids": "15255,15256,15257,15258,15259",
+        "cnt": 5
+      },
+      {
+        "chapter_id": "ch-anthro-anthropology-human-study",
+        "concept_ids": "15263,15264",
+        "cnt": 2
+      },
+      {
+        "chapter_id": "ch-antonyms-english-antonyms-deep-knowledge-bank",
+        "concept_ids": "15266,15267,15268,15269,15270,15271,15272",
+        "cnt": 7
+      },
+      {
+        "chapter_id": "ch-aptitu-aptitude-quantitative-data",
+        "concept_ids": "15276,15277,15278,15279,15280,15281",
+        "cnt": 6
+      },
+      {
+        "chapter_id": "ch-architecture-architecture-letter-skills-phase-11",
+        "concept_ids": "15282,15283,15284,15285,15286",
+        "cnt": 5
+      },
+      {
+        "chapter_id": "ch-army-pakistan-army-initial-tests-pattern-awar",
+        "concept_ids": "15288,15289,15290,15291",
+        "cnt": 4
+      },
+      {
+        "chapter_id": "ch-artificialintelligence-artificial-intelligence-letter-ski",
+        "concept_ids": "15292,15293,15294,15295,15296",
+        "cnt": 5
+      },
+      {
+        "chapter_id": "ch-artificialintelligence-artificial-intelligence-phase-11-k",
+        "concept_ids": "15297,15298",
+        "cnt": 2
+      },
+      {
+        "chapter_id": "ch-asf-asf-airport-security-force-content",
+        "concept_ids": "15299,15300,15301,15302",
+        "cnt": 4
+      },
+      {
+        "chapter_id": "ch-asf-asf-recruitment-tests-pattern-awareness",
+        "concept_ids": "15303,15304",
+        "cnt": 2
+      },
+      {
+        "chapter_id": "ch-assistantdirector-assistant-director-departmental-content",
+        "concept_ids": "15305,15306,15307,15308",
+        "cnt": 4
+      },
+      {
+        "chapter_id": "ch-assistantdirector-assistant-director-recruitment-tests-pa",
+        "concept_ids": "15309,15310",
+        "cnt": 2
+      },
+      {
+        "chapter_id": "ch-auditing-auditing-letter-skills-phase-11",
+        "concept_ids": "15314,15315,15316",
+        "cnt": 3
+      },
+      {
+        "chapter_id": "ch-auditing-auditing-phase-11",
+        "concept_ids": "15311,15312,15313",
+        "cnt": 3
+      },
+      {
+        "chapter_id": "ch-auditingstandards-auditing-standards-letter-skills-phase-",
+        "concept_ids": "15322,15323,15324,15325",
+        "cnt": 4
+      },
+      {
+        "chapter_id": "ch-auditingstandards-auditing-standards-phase-11-knowledge-b",
+        "concept_ids": "15318,15319,15320,15321,15326",
+        "cnt": 5
+      },
+      {
+        "chapter_id": "ch-bankin-commercial-bank-recruitment-tests-patter",
+        "concept_ids": "15332,15333",
+        "cnt": 2
+      },
+      {
+        "chapter_id": "ch-banking-banking-sector-recruitment-content",
+        "concept_ids": "15327,15328,15329,15330,15331",
+        "cnt": 5
+      },
+      {
+        "chapter_id": "ch-bash-bash-scripting-phase-11",
+        "concept_ids": "15334,15335,15336,15337,15338",
+        "cnt": 5
+      },
+      {
+        "chapter_id": "ch-bds-bds-dental-studies",
+        "concept_ids": "15339,15340",
+        "cnt": 2
+      },
+      {
+        "chapter_id": "ch-behavioralsciences-behavioral-sciences-letter-skills-phas",
+        "concept_ids": "15341,15342,15343,15344,15345,15346",
+        "cnt": 6
+      },
+      {
+        "chapter_id": "ch-behavioralsciences-behavioral-sciences-phase-11",
+        "concept_ids": "15347,15348",
+        "cnt": 2
+      },
+      {
+        "chapter_id": "ch-bigdat-big-data-concepts",
+        "concept_ids": "15349,15350,15351",
+        "cnt": 3
+      },
+      {
+        "chapter_id": "ch-biochemistry-biochemistry-letter-skills-phase-11",
+        "concept_ids": "15361,15362,15363",
+        "cnt": 3
+      },
+      {
+        "chapter_id": "ch-biochemistry-biochemistry-molecules-of-life-phase-11",
+        "concept_ids": "15355,15356,15357,15358,15359,15360",
+        "cnt": 6
+      },
+      {
+        "chapter_id": "ch-biology-biology-deep-knowledge-bank",
+        "concept_ids": "15367,15368,15369,15370,15371,15372,15373,15374,15375,15376,15377",
+        "cnt": 11
+      },
+      {
+        "chapter_id": "ch-biotec-biotechnology-applications",
+        "concept_ids": "15379,15380",
+        "cnt": 2
+      },
+      {
+        "chapter_id": "ch-bootst-bootstrap-framework",
+        "concept_ids": "15381,15382,15383",
+        "cnt": 3
+      },
+      {
+        "chapter_id": "ch-botany-botany-plant-science",
+        "concept_ids": "15386,15387,15388",
+        "cnt": 3
+      },
+      {
+        "chapter_id": "ch-bpsc-balochistan-provincial-knowledge-bpsc",
+        "concept_ids": "15389,15390,15391,15392,15393,15394",
+        "cnt": 6
+      },
+      {
+        "chapter_id": "ch-bpsc-balochistan-public-service-commission-ex",
+        "concept_ids": "15395,15396",
+        "cnt": 2
+      }
+    ],
+    "same_topic": [
+      {
+        "topic_id": "t-100",
+        "concept_ids": "15720,15725",
+        "cnt": 2
+      },
+      {
+        "topic_id": "t-103",
+        "concept_ids": "15734,15735",
+        "cnt": 2
+      },
+      {
+        "topic_id": "t-110",
+        "concept_ids": "16853,16854,16855",
+        "cnt": 3
+      },
+      {
+        "topic_id": "t-112",
+        "concept_ids": "16215,16217",
+        "cnt": 2
+      },
+      {
+        "topic_id": "t-134",
+        "concept_ids": "15808,15809",
+        "cnt": 2
+      },
+      {
+        "topic_id": "t-151",
+        "concept_ids": "15441,15442",
+        "cnt": 2
+      },
+      {
+        "topic_id": "t-167",
+        "concept_ids": "16932,16933",
+        "cnt": 2
+      },
+      {
+        "topic_id": "t-17",
+        "concept_ids": "16448,16464",
+        "cnt": 2
+      },
+      {
+        "topic_id": "t-221",
+        "concept_ids": "16035,16036",
+        "cnt": 2
+      },
+      {
+        "topic_id": "t-268",
+        "concept_ids": "16663,16664",
+        "cnt": 2
+      },
+      {
+        "topic_id": "t-319",
+        "concept_ids": "15364,15365",
+        "cnt": 2
+      },
+      {
+        "topic_id": "t-325",
+        "concept_ids": "15962,15963,15964",
+        "cnt": 3
+      },
+      {
+        "topic_id": "t-362",
+        "concept_ids": "16912,16916",
+        "cnt": 2
+      },
+      {
+        "topic_id": "t-375",
+        "concept_ids": "16159,16161",
+        "cnt": 2
+      },
+      {
+        "topic_id": "t-385",
+        "concept_ids": "15235,15236",
+        "cnt": 2
+      },
+      {
+        "topic_id": "t-402",
+        "concept_ids": "15579,15580",
+        "cnt": 2
+      },
+      {
+        "topic_id": "t-413",
+        "concept_ids": "16880,16881",
+        "cnt": 2
+      },
+      {
+        "topic_id": "t-42",
+        "concept_ids": "15559,15560",
+        "cnt": 2
+      },
+      {
+        "topic_id": "t-423",
+        "concept_ids": "16797,16798",
+        "cnt": 2
+      },
+      {
+        "topic_id": "t-426",
+        "concept_ids": "15273,15274",
+        "cnt": 2
+      },
+      {
+        "topic_id": "t-439",
+        "concept_ids": "15483,15484",
+        "cnt": 2
+      },
+      {
+        "topic_id": "t-502",
+        "concept_ids": "16484,16485",
+        "cnt": 2
+      },
+      {
+        "topic_id": "t-517",
+        "concept_ids": "15789,15790",
+        "cnt": 2
+      },
+      {
+        "topic_id": "t-526",
+        "concept_ids": "15642,15643",
+        "cnt": 2
+      },
+      {
+        "topic_id": "t-533",
+        "concept_ids": "15353,15354",
+        "cnt": 2
+      },
+      {
+        "topic_id": "t-539",
+        "concept_ids": "15603,15604",
+        "cnt": 2
+      },
+      {
+        "topic_id": "t-544",
+        "concept_ids": "16741,16742",
+        "cnt": 2
+      },
+      {
+        "topic_id": "t-548",
+        "concept_ids": "16910,16911",
+        "cnt": 2
+      },
+      {
+        "topic_id": "t-555",
+        "concept_ids": "16153,16154",
+        "cnt": 2
+      },
+      {
+        "topic_id": "t-561",
+        "concept_ids": "15990,15991",
+        "cnt": 2
+      },
+      {
+        "topic_id": "t-563",
+        "concept_ids": "15534,15537",
+        "cnt": 2
+      },
+      {
+        "topic_id": "t-571",
+        "concept_ids": "16088,16089",
+        "cnt": 2
+      },
+      {
+        "topic_id": "t-581",
+        "concept_ids": "15384,15385",
+        "cnt": 2
+      },
+      {
+        "topic_id": "t-585",
+        "concept_ids": "16807,16808",
+        "cnt": 2
+      },
+      {
+        "topic_id": "t-588",
+        "concept_ids": "16658,16659",
+        "cnt": 2
+      },
+      {
+        "topic_id": "t-593",
+        "concept_ids": "16344,16345",
+        "cnt": 2
+      },
+      {
+        "topic_id": "t-599",
+        "concept_ids": "16890,16891",
+        "cnt": 2
+      },
+      {
+        "topic_id": "t-602",
+        "concept_ids": "15261,15262",
+        "cnt": 2
+      },
+      {
+        "topic_id": "t-610",
+        "concept_ids": "15825,15826",
+        "cnt": 2
+      },
+      {
+        "topic_id": "t-617",
+        "concept_ids": "16117,16118",
+        "cnt": 2
+      },
+      {
+        "topic_id": "t-625",
+        "concept_ids": "16645,16646",
+        "cnt": 2
+      },
+      {
+        "topic_id": "t-632",
+        "concept_ids": "15853,15854",
+        "cnt": 2
+      },
+      {
+        "topic_id": "t-639",
+        "concept_ids": "16081,16082",
+        "cnt": 2
+      },
+      {
+        "topic_id": "t-665",
+        "concept_ids": "16678,16679",
+        "cnt": 2
+      },
+      {
+        "topic_id": "t-671",
+        "concept_ids": "15916,15917",
+        "cnt": 2
+      },
+      {
+        "topic_id": "t-679",
+        "concept_ids": "16108,16109",
+        "cnt": 2
+      },
+      {
+        "topic_id": "t-680",
+        "concept_ids": "16674,16675",
+        "cnt": 2
+      },
+      {
+        "topic_id": "t-687",
+        "concept_ids": "15938,15939",
+        "cnt": 2
+      },
+      {
+        "topic_id": "t-714",
+        "concept_ids": "16833,16834",
+        "cnt": 2
+      },
+      {
+        "topic_id": "t-73",
+        "concept_ids": "16057,16070",
+        "cnt": 2
+      }
+    ],
+    "shared_exam": [
+      {
+        "exam_id": "ajkpsc",
+        "subject_id": "ajkpsc",
+        "concept_ids": "15218,15225,15219,15224,15221,15220,15222,15223",
+        "cnt": 8
+      },
+      {
+        "exam_id": "ajkpsc",
+        "subject_id": "computer-science",
+        "concept_ids": "15510,15498,15499,15500,15501,15496,15506,15497,15509,15504,15502,15508,15507,15505,15503",
+        "cnt": 15
+      },
+      {
+        "exam_id": "ajkpsc",
+        "subject_id": "current-affairs",
+        "concept_ids": "15559,15547,15557,15560,15558,15555,15548,15556,15554,15549,15550,15551,15552,15553",
+        "cnt": 14
+      },
+      {
+        "exam_id": "ajkpsc",
+        "subject_id": "english",
+        "concept_ids": "15726,15721,15731,15729,15730,15723,15732,15722,15736,15733,15734,15735,15737,15719,15724,15725,15720,15727,15728",
+        "cnt": 19
+      },
+      {
+        "exam_id": "ajkpsc",
+        "subject_id": "everyday-science",
+        "concept_ids": "15801,15795,15794,15812,15796,15797,15813,15792,15810,15793,15811,15808,15809,15800,15798,15807,15805,15804,15803,15806,15802,15799",
+        "cnt": 22
+      },
+      {
+        "exam_id": "ajkpsc",
+        "subject_id": "general-knowledge",
+        "concept_ids": "15892,15893,15890,15877,15880,15878,15891,15879,15885,15881,15882,15883,15886,15887,15888,15889,15884",
+        "cnt": 17
+      },
+      {
+        "exam_id": "ajkpsc",
+        "subject_id": "islamic-studies",
+        "concept_ids": "16046,16047,16074,16044,16068,16045,16069,16067,16066,16072,16057,16070,16071,16073,16059,16048,16049,16050,16052,16065,16051,16056,16058,16064,16055,16060,16061,16062,16063,16053,16054",
+        "cnt": 31
+      },
+      {
+        "exam_id": "ajkpsc",
+        "subject_id": "mathematics",
+        "concept_ids": "16217,16215,16200,16203,16210,16216,16213,16218,16198,16199,16201,16205,16207,16208,16209,16206,16211,16212,16202,16204,16214",
+        "cnt": 21
+      },
+      {
+        "exam_id": "ajkpsc",
+        "subject_id": "ms-office",
+        "concept_ids": "16314,16315,16316",
+        "cnt": 3
+      },
+      {
+        "exam_id": "ajkpsc",
+        "subject_id": "pakistan-affairs",
+        "concept_ids": "16442,16474,16443,16470,16475,16444,16440,16441,16461,16472,16464,16448,16471,16465,16466,16473,16467,16468,16469,16452,16445,16446,16449,16451,16460,16463,16450,16454,16456,16453,16457,16458,16455,16462,16459,16447",
+        "cnt": 36
+      },
+      {
+        "exam_id": "ajkpsc",
+        "subject_id": "reasoning",
+        "concept_ids": "16665,16661",
+        "cnt": 2
+      },
+      {
+        "exam_id": "ajkpsc",
+        "subject_id": "urdu",
+        "concept_ids": "16858,16856,16847,16853,16854,16855,16857,16852,16848,16849,16851,16850",
+        "cnt": 12
+      },
+      {
+        "exam_id": "anf",
+        "subject_id": "anf",
+        "concept_ids": "15249,15254,15250,15253,15251,15252",
+        "cnt": 6
+      },
+      {
+        "exam_id": "anf",
+        "subject_id": "chemistry",
+        "concept_ids": "15435,15429,15436,15440,15441,15442,15430,15431,15432,15433,15434,15438,15437,15439",
+        "cnt": 14
+      },
+      {
+        "exam_id": "anf",
+        "subject_id": "computer-science",
+        "concept_ids": "15510,15498,15499,15500,15501,15496,15506,15497,15509,15504,15502,15508,15507,15505,15503",
+        "cnt": 15
+      },
+      {
+        "exam_id": "anf",
+        "subject_id": "current-affairs",
+        "concept_ids": "15559,15547,15557,15560,15558,15555,15548,15556,15554,15549,15550,15551,15552,15553",
+        "cnt": 14
+      },
+      {
+        "exam_id": "anf",
+        "subject_id": "english",
+        "concept_ids": "15726,15721,15731,15729,15730,15723,15732,15722,15736,15733,15734,15735,15737,15719,15724,15725,15720,15727,15728",
+        "cnt": 19
+      },
+      {
+        "exam_id": "anf",
+        "subject_id": "everyday-science",
+        "concept_ids": "15801,15795,15794,15812,15796,15797,15813,15792,15810,15793,15811,15808,15809,15800,15798,15807,15805,15804,15803,15806,15802,15799",
+        "cnt": 22
+      },
+      {
+        "exam_id": "anf",
+        "subject_id": "general-knowledge",
+        "concept_ids": "15892,15893,15890,15877,15880,15878,15891,15879,15885,15881,15882,15883,15886,15887,15888,15889,15884",
+        "cnt": 17
+      },
+      {
+        "exam_id": "anf",
+        "subject_id": "islamic-studies",
+        "concept_ids": "16046,16047,16074,16044,16068,16045,16069,16067,16066,16072,16057,16070,16071,16073,16059,16048,16049,16050,16052,16065,16051,16056,16058,16064,16055,16060,16061,16062,16063,16053,16054",
+        "cnt": 31
+      },
+      {
+        "exam_id": "anf",
+        "subject_id": "mathematics",
+        "concept_ids": "16217,16215,16200,16203,16210,16216,16213,16218,16198,16199,16201,16205,16207,16208,16209,16206,16211,16212,16202,16204,16214",
+        "cnt": 21
+      },
+      {
+        "exam_id": "anf",
+        "subject_id": "pakistan-affairs",
+        "concept_ids": "16442,16474,16443,16470,16475,16444,16440,16441,16461,16472,16464,16448,16471,16465,16466,16473,16467,16468,16469,16452,16445,16446,16449,16451,16460,16463,16450,16454,16456,16453,16457,16458,16455,16462,16459,16447",
+        "cnt": 36
+      },
+      {
+        "exam_id": "anf",
+        "subject_id": "urdu",
+        "concept_ids": "16858,16856,16847,16853,16854,16855,16857,16852,16848,16849,16851,16850",
+        "cnt": 12
+      },
+      {
+        "exam_id": "army",
+        "subject_id": "army",
+        "concept_ids": "15288,15291,15289,15290",
+        "cnt": 4
+      },
+      {
+        "exam_id": "army",
+        "subject_id": "biology",
+        "concept_ids": "15368,15369,15367,15375,15378,15376,15370,15371,15372,15373,15377,15374",
+        "cnt": 12
+      },
+      {
+        "exam_id": "army",
+        "subject_id": "chemical-eng",
+        "concept_ids": "15421,15428,15422,15426,15423,15425,15424,15427",
+        "cnt": 8
+      },
+      {
+        "exam_id": "army",
+        "subject_id": "chemistry",
+        "concept_ids": "15435,15429,15436,15440,15441,15442,15430,15431,15432,15433,15434,15438,15437,15439",
+        "cnt": 14
+      },
+      {
+        "exam_id": "army",
+        "subject_id": "electrical-eng",
+        "concept_ids": "15709,15708,15700,15707,15701,15705,15702,15704,15703,15706",
+        "cnt": 10
+      },
+      {
+        "exam_id": "army",
+        "subject_id": "electronics",
+        "concept_ids": "15716,15710,15718,15712,15713,15711,15715,15714,15717",
+        "cnt": 9
+      },
+      {
+        "exam_id": "army",
+        "subject_id": "english",
+        "concept_ids": "15726,15721,15731,15729,15730,15723,15732,15722,15736,15733,15734,15735,15737,15719,15724,15725,15720,15727,15728",
+        "cnt": 19
+      },
+      {
+        "exam_id": "army",
+        "subject_id": "everyday-science",
+        "concept_ids": "15801,15795,15794,15812,15796,15797,15813,15792,15810,15793,15811,15808,15809,15800,15798,15807,15805,15804,15803,15806,15802,15799",
+        "cnt": 22
+      },
+      {
+        "exam_id": "army",
+        "subject_id": "general-knowledge",
+        "concept_ids": "15892,15893,15890,15877,15880,15878,15891,15879,15885,15881,15882,15883,15886,15887,15888,15889,15884",
+        "cnt": 17
+      },
+      {
+        "exam_id": "army",
+        "subject_id": "islamic-studies",
+        "concept_ids": "16046,16047,16074,16044,16068,16045,16069,16067,16066,16072,16057,16070,16071,16073,16059,16048,16049,16050,16052,16065,16051,16056,16058,16064,16055,16060,16061,16062,16063,16053,16054",
+        "cnt": 31
+      },
+      {
+        "exam_id": "army",
+        "subject_id": "mechanical-eng",
+        "concept_ids": "16236,16237,16229,16230,16232,16231,16234,16233,16235",
+        "cnt": 9
+      },
+      {
+        "exam_id": "army",
+        "subject_id": "mechatronics",
+        "concept_ids": "16238,16244,16242,16239,16241,16240,16243",
+        "cnt": 7
+      },
+      {
+        "exam_id": "army",
+        "subject_id": "pakistan-affairs",
+        "concept_ids": "16442,16474,16443,16470,16475,16444,16440,16441,16461,16472,16464,16448,16471,16465,16466,16473,16467,16468,16469,16452,16445,16446,16449,16451,16460,16463,16450,16454,16456,16453,16457,16458,16455,16462,16459,16447",
+        "cnt": 36
+      },
+      {
+        "exam_id": "army",
+        "subject_id": "physics",
+        "concept_ids": "16546,16547,16548",
+        "cnt": 3
+      },
+      {
+        "exam_id": "army",
+        "subject_id": "reasoning",
+        "concept_ids": "16665,16661,16660,16662,16663,16664",
+        "cnt": 6
+      },
+      {
+        "exam_id": "asf",
+        "subject_id": "asf",
+        "concept_ids": "15299,15304,15300,15303,15301,15302",
+        "cnt": 6
+      },
+      {
+        "exam_id": "asf",
+        "subject_id": "computer-science",
+        "concept_ids": "15510,15498,15499,15500,15501,15496,15506,15497,15509,15504,15502,15508,15507,15505,15503",
+        "cnt": 15
+      },
+      {
+        "exam_id": "asf",
+        "subject_id": "current-affairs",
+        "concept_ids": "15559,15547,15557,15560,15558,15555,15548,15556,15554,15549,15550,15551,15552,15553",
+        "cnt": 14
+      },
+      {
+        "exam_id": "asf",
+        "subject_id": "english",
+        "concept_ids": "15726,15721,15731,15729,15730,15723,15732,15722,15736,15733,15734,15735,15737,15719,15724,15725,15720,15727,15728",
+        "cnt": 19
+      },
+      {
+        "exam_id": "asf",
+        "subject_id": "everyday-science",
+        "concept_ids": "15801,15795,15794,15812,15796,15797,15813,15792,15810,15793,15811,15808,15809,15800,15798,15807,15805,15804,15803,15806,15802,15799",
+        "cnt": 22
+      },
+      {
+        "exam_id": "asf",
+        "subject_id": "general-knowledge",
+        "concept_ids": "15892,15893,15890,15877,15880,15878,15891,15879,15885,15881,15882,15883,15886,15887,15888,15889,15884",
+        "cnt": 17
+      },
+      {
+        "exam_id": "asf",
+        "subject_id": "islamic-studies",
+        "concept_ids": "16046,16047,16074,16044,16068,16045,16069,16067,16066,16072,16057,16070,16071,16073,16059,16048,16049,16050,16052,16065,16051,16056,16058,16064,16055,16060,16061,16062,16063,16053,16054",
+        "cnt": 31
+      },
+      {
+        "exam_id": "asf",
+        "subject_id": "mathematics",
+        "concept_ids": "16217,16215,16200,16203,16210,16216,16213,16218,16198,16199,16201,16205,16207,16208,16209,16206,16211,16212,16202,16204,16214",
+        "cnt": 21
+      },
+      {
+        "exam_id": "asf",
+        "subject_id": "ms-office",
+        "concept_ids": "16314,16315,16316,16309,16311,16310,16312,16313",
+        "cnt": 8
+      },
+      {
+        "exam_id": "asf",
+        "subject_id": "pakistan-affairs",
+        "concept_ids": "16442,16474,16443,16470,16475,16444,16440,16441,16461,16472,16464,16448,16471,16465,16466,16473,16467,16468,16469,16452,16445,16446,16449,16451,16460,16463,16450,16454,16456,16453,16457,16458,16455,16462,16459,16447",
+        "cnt": 36
+      },
+      {
+        "exam_id": "asf",
+        "subject_id": "reasoning",
+        "concept_ids": "16665,16661,16660,16662,16663,16664",
+        "cnt": 6
+      },
+      {
+        "exam_id": "asf",
+        "subject_id": "urdu",
+        "concept_ids": "16858,16856,16847,16853,16854,16855,16857,16852,16848,16849,16851,16850",
+        "cnt": 12
+      }
+    ]
+  }
+}

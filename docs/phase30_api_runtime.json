@@ -1,0 +1,506 @@
+{
+  "module": "M16",
+  "generated_at": "2026-08-11T11:56:11.919Z",
+  "tool": "scripts/phase30/api-audit.cjs",
+  "sandbox": "temp copy at E:\\pAK MCQS\\.audit-tmp\\p30api (production DB untouched)",
+  "results": [
+    {
+      "name": "health",
+      "method": "GET",
+      "path": "/api/health",
+      "status": 200,
+      "expected": 200,
+      "ok": true,
+      "body": "{\"ok\":true,\"mcqs\":1200}"
+    },
+    {
+      "name": "stats",
+      "method": "GET",
+      "path": "/api/stats",
+      "status": 200,
+      "expected": 200,
+      "ok": true,
+      "body": "{\"source\":\"sqlite\",\"db\":\"pakistan-mcqs.sqlite\",\"sqlite_version\":\"3.51.2\",\"mcqs\":1200,\"mcqs_total\":1200,\"options\":3490484,\"subjects\":243,\"chapters\":884,\"topics\":1597,\"subtopics\":4436,\"papers\":110,\"mock"
+    },
+    {
+      "name": "subjects",
+      "method": "GET",
+      "path": "/api/subjects",
+      "status": 200,
+      "expected": 200,
+      "ok": true,
+      "body": "[{\"id\":\"css-exam\",\"name\":\"CSS Exam (Central Superior Services)\",\"slug\":\"css-exam\",\"category_id\":\"exam-preparation\",\"icon\":\"🏛️\",\"description\":\"FPSC CSS pattern, compulsory/optional subjects and gradin"
+    },
+    {
+      "name": "chapters",
+      "method": "GET",
+      "path": "/api/chapters",
+      "status": 200,
+      "expected": 200,
+      "ok": true,
+      "body": "[{\"id\":\"ch-accoun-accounting-principles\",\"subject_id\":\"accounting\",\"name\":\"Accounting — Principles\",\"slug\":\"accounting-principles\"},{\"id\":\"ch-accounting-accounting-deep-knowledge-bank\",\"subject_id\":\"a"
+    },
+    {
+      "name": "topics",
+      "method": "GET",
+      "path": "/api/topics",
+      "status": 200,
+      "expected": 200,
+      "ok": true,
+      "body": "[{\"id\":\"t-193\",\"chapter_id\":\"ac-basics\",\"name\":\"Double Entry\",\"slug\":\"t-193\"},{\"id\":\"t-195\",\"chapter_id\":\"ac-cost\",\"name\":\"Break-Even Analysis\",\"slug\":\"t-195\"},{\"id\":\"t-194\",\"chapter_id\":\"ac-statement"
+    },
+    {
+      "name": "categories",
+      "method": "GET",
+      "path": "/api/categories",
+      "status": 200,
+      "expected": 200,
+      "ok": true,
+      "body": "[{\"id\":\"general-knowledge\",\"name\":\"General Knowledge\",\"slug\":\"general-knowledge\",\"icon\":\"GK\",\"description\":\"World geography, organizations, sports, awards, inventions and general facts.\",\"sort_order\":"
+    },
+    {
+      "name": "exams",
+      "method": "GET",
+      "path": "/api/exams",
+      "status": 200,
+      "expected": 200,
+      "ok": true,
+      "body": "[{\"id\":\"css\",\"name\":\"CSS\",\"fullName\":\"Central Superior Services (CSS)\",\"category\":\"central\",\"description\":\"Central superior services exam conducted by FPSC for federal bureaucracy.\",\"site\":\"https://fp"
+    },
+    {
+      "name": "quizzes",
+      "method": "GET",
+      "path": "/api/quizzes",
+      "status": 200,
+      "expected": 200,
+      "ok": true,
+      "body": "[{\"id\":\"quiz-analytical-reasoning\",\"title\":\"Analytical Reasoning\",\"description\":\"Syllogisms, puzzles and logical deductions for IQ tests.\",\"subject_ids\":\"reasoning\",\"difficulty\":\"hard\",\"total_question"
+    },
+    {
+      "name": "mocktests",
+      "method": "GET",
+      "path": "/api/mocktests",
+      "status": 200,
+      "expected": 200,
+      "ok": true,
+      "body": "[{\"id\":\"mock-computer-1\",\"title\":\"Computer & IT - Mock Test 1\",\"exam_id\":\"nts\",\"subject_ids\":\"computer-science,ms-office,programming,networking,operating-systems\",\"difficulty\":\"medium\",\"total_question"
+    },
+    {
+      "name": "pastpapers",
+      "method": "GET",
+      "path": "/api/pastpapers",
+      "status": 200,
+      "expected": 200,
+      "ok": true,
+      "body": "[{\"id\":\"paper-ajkpsc-2026\",\"title\":\"AJKPSC — 2026 Original Practice Paper (100 Qs)\",\"exam_id\":\"ajkpsc\",\"year\":2026,\"subject_ids\":\"pakistan-affairs,current-affairs,general-knowledge,islamic-studies,eng"
+    },
+    {
+      "name": "search",
+      "method": "GET",
+      "path": "/api/search?q=democracy&limit=5",
+      "status": 200,
+      "expected": 200,
+      "ok": true,
+      "body": "{\"results\":[],\"total\":0,\"page\":1,\"limit\":5,\"pages\":0}"
+    },
+    {
+      "name": "browse",
+      "method": "GET",
+      "path": "/api/browse?page=1&limit=5",
+      "status": 200,
+      "expected": 200,
+      "ok": true,
+      "body": "{\"results\":[{\"id\":\"accounting-000872\",\"question\":\"A firm has revenue of Rs 2,600,000, cost of goods sold of Rs 1,389,555 and operating expenses of Rs 493,084. What is its net profit?\",\"correct_answer\""
+    },
+    {
+      "name": "random",
+      "method": "GET",
+      "path": "/api/random?limit=3",
+      "status": 200,
+      "expected": 200,
+      "ok": true,
+      "body": "{\"results\":[{\"id\":\"accounting-000964\",\"question\":\"A firm has revenue of Rs 6,000,000, cost of goods sold of Rs 3,512,287 and operating expenses of Rs 1,637,228. What is its net profit?\",\"correct_answe"
+    },
+    {
+      "name": "mcqs-ids",
+      "method": "GET",
+      "path": "/api/mcqs?ids=accounting-000964,accounting-000660",
+      "status": 200,
+      "expected": 200,
+      "ok": true,
+      "body": "[{\"id\":\"accounting-000660\",\"question\":\"A firm's cost of goods sold is Rs 63,923,130 and average inventory is Rs 8,800,000. What is the inventory turnover?\",\"correct_answer\":\"C\",\"difficulty\":\"medium\",\""
+    },
+    {
+      "name": "mcqs-empty-ids",
+      "method": "GET",
+      "path": "/api/mcqs",
+      "status": 200,
+      "expected": 200,
+      "ok": true,
+      "body": "[]"
+    },
+    {
+      "name": "bookmarks-get",
+      "method": "GET",
+      "path": "/api/bookmarks",
+      "status": 200,
+      "expected": 200,
+      "ok": true,
+      "body": "[]"
+    },
+    {
+      "name": "history-get",
+      "method": "GET",
+      "path": "/api/history",
+      "status": 200,
+      "expected": 200,
+      "ok": true,
+      "body": "[{\"id\":56,\"device_id\":\"default\",\"mcq_id\":\"acc-001\",\"correct\":1,\"points\":10,\"mode\":\"selfcheck\",\"answered_at\":\"2026-08-04 07:44:25\",\"time_taken_sec\":9,\"skipped\":0,\"session_id\":0,\"question\":\"The accounti"
+    },
+    {
+      "name": "leaderboard",
+      "method": "GET",
+      "path": "/api/leaderboard",
+      "status": 200,
+      "expected": 200,
+      "ok": true,
+      "body": "[{\"id\":2,\"device_id\":\"default\",\"name\":\"\",\"points\":180,\"week_key\":\"31\",\"month_key\":\"2026-08\",\"correct\":18,\"total\":54,\"week_claimed\":0,\"month_claimed\":0,\"updated_at\":\"2026-08-01 05:31:34\"}]"
+    },
+    {
+      "name": "analytics",
+      "method": "GET",
+      "path": "/api/analytics",
+      "status": 200,
+      "expected": 200,
+      "ok": true,
+      "body": "[]"
+    },
+    {
+      "name": "export",
+      "method": "GET",
+      "path": "/api/export?format=csv",
+      "status": 200,
+      "expected": 200,
+      "ok": true,
+      "body": "id,question,optionA,optionB,optionC,optionD,correct_answer,difficulty,subject_id,chapter_id,topic_id,explanation,tags,exam_ids,year,references,source,status\n\"acc-001\",\"The accounting equation is:\",\"un"
+    },
+    {
+      "name": "ai-profile",
+      "method": "GET",
+      "path": "/api/ai/profile",
+      "status": 200,
+      "expected": 200,
+      "ok": true,
+      "body": "{\"device_id\":\"default\",\"level\":\"novice\",\"readiness\":41.8,\"accuracy\":34,\"avg_speed_sec\":8,\"consistency\":18.18,\"streak\":0,\"active_days\":2,\"total_answered\":53,\"total_questions\":54,\"skipped\":1,\"sessions\":"
+    },
+    {
+      "name": "ai-weak",
+      "method": "GET",
+      "path": "/api/ai/weak-topics",
+      "status": 200,
+      "expected": 200,
+      "ok": true,
+      "body": "{\"weak\":[],\"strong\":[]}"
+    },
+    {
+      "name": "ai-planner",
+      "method": "GET",
+      "path": "/api/ai/planner",
+      "status": 200,
+      "expected": 200,
+      "ok": true,
+      "body": "{\"date\":\"2026-08-11\",\"items\":[{\"type\":\"practice\",\"title\":\"Mixed practice\",\"target\":\"\",\"q\":33,\"done\":false},{\"type\":\"revision\",\"title\":\"Spaced revision (due: 2)\",\"target\":\"\",\"q\":1,\"done\":false},{\"type\""
+    },
+    {
+      "name": "ai-spaced",
+      "method": "GET",
+      "path": "/api/ai/spaced/due",
+      "status": 200,
+      "expected": 200,
+      "ok": true,
+      "body": "{\"due\":[{\"id\":2,\"device_id\":\"default\",\"mcq_id\":\"cssexa-000004\",\"topic_id\":\"t-ch-cssexa-central-superior-services-pattern-awaren-exam-pattern\",\"box\":1,\"ease\":2.5,\"interval_days\":1,\"due_date\":\"2026-08-0"
+    },
+    {
+      "name": "ai-mock",
+      "method": "GET",
+      "path": "/api/ai/mock/predictions",
+      "status": 200,
+      "expected": 200,
+      "ok": true,
+      "body": "[{\"exam_id\":\"mock-ppsc-assistant-1\",\"exam_title\":\"PPSC Assistant - Mock Test 1\",\"prob_pass\":14,\"expected_score\":9,\"expected_pct\":17.5,\"readiness\":17.5,\"strong_areas\":[],\"weak_areas\":[],\"created_at\":\"2"
+    },
+    {
+      "name": "ai-reco",
+      "method": "GET",
+      "path": "/api/ai/recommendations",
+      "status": 200,
+      "expected": 200,
+      "ok": true,
+      "body": "[{\"id\":32,\"rec_type\":\"weak-topic\",\"target_id\":\"t-ch-cssexa-central-superior-services-pattern-awaren-exam-pattern\",\"title\":\"Master weak area: Exam Pattern\",\"reason\":\"Accuracy -10% on 4 attempts\",\"prior"
+    },
+    {
+      "name": "ai-current",
+      "method": "GET",
+      "path": "/api/ai/current-affairs",
+      "status": 200,
+      "expected": 200,
+      "ok": true,
+      "body": "{\"total\":50,\"periods\":2,\"items\":[{\"id\":36,\"period\":\"weekly\",\"period_date\":\"2026-W31\",\"category\":\"world\",\"title\":\"World and Organisations\",\"summary\":\"The UN General Assembly has 188 member states. If 1"
+    },
+    {
+      "name": "ai-lb",
+      "method": "GET",
+      "path": "/api/ai/leaderboard",
+      "status": 200,
+      "expected": 200,
+      "ok": true,
+      "body": "{\"period\":\"weekly\",\"key\":\"2026-W32\",\"rows\":[]}"
+    },
+    {
+      "name": "ai-ach",
+      "method": "GET",
+      "path": "/api/ai/achievements",
+      "status": 200,
+      "expected": 200,
+      "ok": true,
+      "body": "{\"achievements\":[{\"code\":\"first-steps\",\"name\":\"First Steps\",\"value\":49,\"unlocked_at\":\"2026-08-04 07:36:59\"}],\"unlocked\":[]}"
+    },
+    {
+      "name": "ai-analytics",
+      "method": "GET",
+      "path": "/api/ai/analytics",
+      "status": 200,
+      "expected": 200,
+      "ok": true,
+      "body": "{\"daily\":[{\"d\":\"2026-08-01\",\"total\":49,\"skipped\":0,\"correct\":16},{\"d\":\"2026-08-04\",\"total\":5,\"skipped\":1,\"correct\":2}],\"trend\":[{\"d\":\"2026-08-01\",\"c\":16,\"t\":49},{\"d\":\"2026-08-04\",\"c\":2,\"t\":4}],\"master"
+    },
+    {
+      "name": "bookmarks-post",
+      "method": "POST",
+      "path": "/api/bookmarks",
+      "status": 201,
+      "expected": 200,
+      "ok": true,
+      "body": "{\"ok\":true}"
+    },
+    {
+      "name": "history-post",
+      "method": "POST",
+      "path": "/api/history",
+      "status": 201,
+      "expected": 200,
+      "ok": true,
+      "body": "{\"ok\":true,\"points\":10,\"correct\":true,\"skipped\":0}"
+    },
+    {
+      "name": "ai-profile-post",
+      "method": "POST",
+      "path": "/api/ai/profile",
+      "status": 200,
+      "expected": 200,
+      "ok": true,
+      "body": "{\"device_id\":\"default\",\"level\":\"novice\",\"readiness\":41.8,\"accuracy\":34,\"avg_speed_sec\":8,\"consistency\":18.18,\"streak\":0,\"active_days\":2,\"total_answered\":53,\"total_questions\":54,\"skipped\":1,\"sessions\":"
+    },
+    {
+      "name": "ai-planner-reg",
+      "method": "POST",
+      "path": "/api/ai/planner/regenerate",
+      "status": 200,
+      "expected": 200,
+      "ok": true,
+      "body": "{\"plans\":[{\"date\":\"2026-08-11\",\"items\":[{\"type\":\"practice\",\"title\":\"Mixed practice\",\"target\":\"\",\"q\":17,\"done\":false},{\"type\":\"revision\",\"title\":\"Spaced revision (due: 2)\",\"target\":\"\",\"q\":1,\"done\":fals"
+    },
+    {
+      "name": "ai-planner-complete",
+      "method": "POST",
+      "path": "/api/ai/planner/complete",
+      "status": 200,
+      "expected": 200,
+      "ok": true,
+      "body": "{\"ok\":true,\"item\":{\"type\":\"practice\",\"title\":\"Mixed practice\",\"target\":\"\",\"q\":17,\"done\":true}}"
+    },
+    {
+      "name": "ai-planner-complete-missing-index",
+      "method": "POST",
+      "path": "/api/ai/planner/complete",
+      "status": 200,
+      "expected": 200,
+      "ok": true,
+      "body": "{\"error\":\"index required\"}"
+    },
+    {
+      "name": "ai-spaced-review",
+      "method": "POST",
+      "path": "/api/ai/spaced/review",
+      "status": 200,
+      "expected": 200,
+      "ok": true,
+      "body": "{\"mcq_id\":\"accounting-000964\",\"quality\":4,\"box\":2,\"ease\":2.5,\"interval_days\":3,\"next_review\":\"2026-08-14\"}"
+    },
+    {
+      "name": "ai-adapt-start",
+      "method": "POST",
+      "path": "/api/ai/adaptive/start",
+      "status": 201,
+      "expected": 200,
+      "ok": true,
+      "body": "{\"session_id\":4,\"total\":1,\"started\":true}"
+    },
+    {
+      "name": "ai-adapt-next",
+      "method": "GET",
+      "path": "/api/ai/adaptive/next",
+      "status": 200,
+      "expected": 200,
+      "ok": true,
+      "body": "{\"done\":false,\"question\":{\"id\":\"accounting-001005\",\"question\":\"A firm has revenue of Rs 3,400,000, cost of goods sold of Rs 1,484,625 and operating expenses of Rs 965,862. What is its net profit?\",\"di"
+    },
+    {
+      "name": "ai-adapt-submit",
+      "method": "POST",
+      "path": "/api/ai/adaptive/submit",
+      "status": 200,
+      "expected": 200,
+      "ok": true,
+      "body": "{\"correct\":false,\"correct_answer\":\"B\",\"explanation\":\"Gross profit = 6,000,000 − 3,512,287 = 2,487,713. Net profit = 2,487,713 − 1,637,228 = Rs 850,485, because expenses are deducted after gross profit"
+    },
+    {
+      "name": "ai-mock-predict",
+      "method": "POST",
+      "path": "/api/ai/mock/predict",
+      "status": 200,
+      "expected": 200,
+      "ok": true,
+      "body": "{\"error\":\"unknown mock / pastpaper id: css\"}"
+    },
+    {
+      "name": "import",
+      "method": "POST",
+      "path": "/api/import",
+      "status": 200,
+      "expected": 200,
+      "ok": true,
+      "body": "{\"inserted\":1,\"skipped\":0}"
+    },
+    {
+      "name": "bad-json",
+      "method": "POST",
+      "path": "/api/history",
+      "status": 400,
+      "expected": 400,
+      "ok": true,
+      "body": "{\"error\":\"mcq_id required\"}"
+    },
+    {
+      "name": "not-found",
+      "method": "GET",
+      "path": "/api/nope-xyz",
+      "status": 404,
+      "expected": 404,
+      "ok": true,
+      "body": "{\"error\":\"not found\"}"
+    },
+    {
+      "name": "bad-page",
+      "method": "GET",
+      "path": "/api/mcqs?ids=accounting-000964&page=0&limit=999",
+      "status": 200,
+      "expected": 200,
+      "ok": true,
+      "body": "[{\"id\":\"accounting-000964\",\"question\":\"A firm has revenue of Rs 6,000,000, cost of goods sold of Rs 3,512,287 and operating expenses of Rs 1,637,228. What is its net profit?\",\"correct_answer\":\"B\",\"dif"
+    },
+    {
+      "name": "history-after-write",
+      "method": "GET",
+      "path": "/api/history",
+      "status": 200,
+      "expected": 200,
+      "ok": true,
+      "body": "[{\"id\":58,\"device_id\":\"default\",\"mcq_id\":\"accounting-000964\",\"correct\":0,\"points\":0,\"mode\":\"adaptive\",\"answered_at\":\"2026-08-11 11:55:33\",\"time_taken_sec\":0,\"skipped\":0,\"session_id\":4,\"question\":\"A fi"
+    },
+    {
+      "name": "leaderboard-after",
+      "method": "GET",
+      "path": "/api/leaderboard",
+      "status": 200,
+      "expected": 200,
+      "ok": true,
+      "body": "[{\"id\":2,\"device_id\":\"default\",\"name\":\"\",\"points\":180,\"week_key\":\"32\",\"month_key\":\"2026-08\",\"correct\":18,\"total\":55,\"week_claimed\":0,\"month_claimed\":0,\"updated_at\":\"2026-08-01 05:31:34\"},{\"id\":3,\"devi"
+    }
+  ],
+  "db_integrity": {
+    "integrity_check": "ok"
+  },
+  "table_counts": {
+    "achievements": 1,
+    "ai_state": 2,
+    "analytics": 0,
+    "bookmarks": 6,
+    "categories": 17,
+    "chapters": 884,
+    "concepts": 2950,
+    "current_affairs": 116,
+    "flashcards": 15,
+    "history": 56,
+    "kg_concept_history": 0,
+    "kg_concept_relations": 2275,
+    "kg_concept_statistics": 0,
+    "kg_concepts": 1744,
+    "kg_difficulty_profiles": 1744,
+    "kg_distractor_items": 33662,
+    "kg_distractor_pools": 1744,
+    "kg_exam_mappings": 15952,
+    "kg_knowledge_packs": 183,
+    "kg_learning_objectives": 71501,
+    "kg_learning_path_steps": 8,
+    "kg_learning_paths": 3,
+    "kg_micro_concepts": 12406,
+    "kg_pending_changes": 230,
+    "kg_prerequisites": 3,
+    "kg_question_blueprints": 107,
+    "kg_reference_sources": 270,
+    "kg_subject_statistics": 0,
+    "kg_syllabus_units": 882,
+    "kg_validation_reports": 5,
+    "leaderboard": 2,
+    "leaderboard_periods": 10,
+    "learning_sessions": 4,
+    "mcq_audit_log": 317,
+    "mcq_concepts": 330228,
+    "mcq_generation_queue": 37,
+    "mcq_releases": 1,
+    "mcq_reviews": 37,
+    "mcq_rollback_points": 111,
+    "mcq_versions": 111,
+    "mcqs": 1201,
+    "mcqs_fts": 1201,
+    "mcqs_fts_config": 1,
+    "mcqs_fts_data": 63,
+    "mcqs_fts_docsize": 1201,
+    "mcqs_fts_idx": 57,
+    "mocktests": 95,
+    "notifications": 1,
+    "options": 3490488,
+    "pastpapers": 110,
+    "pipeline_state": 4,
+    "predictions": 23,
+    "quizzes": 21,
+    "recommendations": 4,
+    "references_tbl": 66,
+    "revision_schedule": 4,
+    "sqlite_sequence": 41,
+    "strong_topics": 0,
+    "study_plans": 15,
+    "subjects": 243,
+    "subtopics": 4436,
+    "topics": 1597,
+    "user_profiles": 1,
+    "weak_topics": 0
+  },
+  "totals": {
+    "tested": 47,
+    "pass": 47,
+    "fail": 0
+  },
+  "failed": []
+}

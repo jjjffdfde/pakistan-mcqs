@@ -1,0 +1,462 @@
+{
+  "step": 18,
+  "findings": [
+    {
+      "file": "assets/js/app.js",
+      "type": "innerhtml_raw",
+      "expr": "\"<strong>Related questions:</strong>\""
+    },
+    {
+      "file": "assets/js/app.js",
+      "type": "innerhtml_raw",
+      "expr": "`\n        <div class=\"db-status-head\"><span class=\"dot\"></span><strong>SQLite connected</s"
+    },
+    {
+      "file": "assets/js/app.js",
+      "type": "innerhtml_raw",
+      "expr": "`\n      <div class=\"db-status-head\"><span class=\"dot dot-off\"></span><strong>${src}</stron"
+    },
+    {
+      "file": "assets/js/app.js",
+      "type": "innerhtml_raw",
+      "expr": "\"\""
+    },
+    {
+      "file": "assets/js/app.js",
+      "type": "innerhtml_raw",
+      "expr": "\"\""
+    },
+    {
+      "file": "assets/js/app.js",
+      "type": "innerhtml_raw",
+      "expr": "\"\""
+    },
+    {
+      "file": "assets/js/app.js",
+      "type": "innerhtml_raw",
+      "expr": "\"\""
+    },
+    {
+      "file": "assets/js/app.js",
+      "type": "innerhtml_raw",
+      "expr": "\"\""
+    },
+    {
+      "file": "assets/js/app.js",
+      "type": "innerhtml_raw",
+      "expr": "'<option value=\"\">Subtopics not available in DB mode</option>'"
+    },
+    {
+      "file": "assets/js/app.js",
+      "type": "innerhtml_raw",
+      "expr": "'<option value=\"\">Select chapter first</option>'"
+    },
+    {
+      "file": "assets/js/app.js",
+      "type": "innerhtml_raw",
+      "expr": "\"\""
+    },
+    {
+      "file": "assets/js/app.js",
+      "type": "innerhtml_raw",
+      "expr": "\"\""
+    },
+    {
+      "file": "assets/js/app.js",
+      "type": "innerhtml_raw",
+      "expr": "`\n        <div class=\"result-score\">${pct}%</div>\n        <div class=\"result-stats\">\n     "
+    },
+    {
+      "file": "assets/js/app.js",
+      "type": "innerhtml_raw",
+      "expr": "\"\""
+    },
+    {
+      "file": "assets/js/app.js",
+      "type": "innerhtml_raw",
+      "expr": "\"\""
+    },
+    {
+      "file": "assets/js/app.js",
+      "type": "innerhtml_raw",
+      "expr": "\"\""
+    },
+    {
+      "file": "assets/js/app.js",
+      "type": "innerhtml_raw",
+      "expr": "`\n      <div class=\"result-score\">${pct}%</div>\n      <p>${verdict}</p>\n      ${cert ? '<p"
+    },
+    {
+      "file": "assets/js/app.js",
+      "type": "innerhtml_raw",
+      "expr": "\"\""
+    },
+    {
+      "file": "assets/js/app.js",
+      "type": "innerhtml_raw",
+      "expr": "\"\""
+    },
+    {
+      "file": "assets/js/app.js",
+      "type": "innerhtml_raw",
+      "expr": "\"\""
+    },
+    {
+      "file": "assets/js/app.js",
+      "type": "innerhtml_raw",
+      "expr": "`\n      <div class=\"result-score\">${correct}/${e.list.length} (${pct}%)</div>\n      <p>${v"
+    },
+    {
+      "file": "assets/js/app.js",
+      "type": "innerhtml_raw",
+      "expr": "\"\""
+    },
+    {
+      "file": "assets/js/app.js",
+      "type": "innerhtml_raw",
+      "expr": "`<span class=\"chip chip-gray\">Unanswered</span>`"
+    },
+    {
+      "file": "assets/js/app.js",
+      "type": "innerhtml_raw",
+      "expr": "`<span class=\"chip chip-green\">Your Answer: ${userAns} (Correct)</span>`"
+    },
+    {
+      "file": "assets/js/app.js",
+      "type": "innerhtml_raw",
+      "expr": "`<span class=\"chip chip-red\">Your Answer: ${userAns} (Incorrect)</span>`"
+    },
+    {
+      "file": "assets/js/app.js",
+      "type": "innerhtml_raw",
+      "expr": "\"\""
+    },
+    {
+      "file": "assets/js/app.js",
+      "type": "innerhtml_raw",
+      "expr": "\"\""
+    },
+    {
+      "file": "assets/js/app.js",
+      "type": "innerhtml_raw",
+      "expr": "'<p class=\"muted\">No certificates yet. Score 80%+ in a quiz, mock or paper to earn one.</p"
+    },
+    {
+      "file": "assets/js/app.js",
+      "type": "innerhtml_raw",
+      "expr": "\"\""
+    },
+    {
+      "file": "assets/js/app.js",
+      "type": "innerhtml_raw",
+      "expr": "'<p class=\"muted\">No history yet - take a quiz or practice session.</p>'"
+    },
+    {
+      "file": "assets/js/app.js",
+      "type": "innerhtml_raw",
+      "expr": "`<span class=\"chip chip-${x.kind === \"quiz\" ? \"gold\" : x.kind === \"mock\" ? \"red\" : \"green\""
+    },
+    {
+      "file": "assets/js/app.js",
+      "type": "innerhtml_raw",
+      "expr": "\"\""
+    },
+    {
+      "file": "assets/js/app.js",
+      "type": "innerhtml_raw",
+      "expr": "'<p class=\"muted\">No weak topics detected yet - answer at least 3 questions per topic. Kee"
+    },
+    {
+      "file": "assets/js/app.js",
+      "type": "innerhtml_raw",
+      "expr": "\"\""
+    },
+    {
+      "file": "assets/js/app.js",
+      "type": "innerhtml_raw",
+      "expr": "\"\""
+    },
+    {
+      "file": "assets/js/app.js",
+      "type": "innerhtml_raw",
+      "expr": "'<tr><td colspan=\"6\" class=\"muted\">No ranked players yet — answer questions to earn points"
+    },
+    {
+      "file": "assets/js/app.js",
+      "type": "innerhtml_raw",
+      "expr": "\"\""
+    },
+    {
+      "file": "assets/js/app.js",
+      "type": "innerhtml_raw",
+      "expr": "`<p>Progress to 20 correct answers: <strong>${state.week.correct}/${goal}</strong></p><div"
+    },
+    {
+      "file": "assets/js/app.js",
+      "type": "innerhtml_raw",
+      "expr": "\"\""
+    },
+    {
+      "file": "assets/js/app.js",
+      "type": "innerhtml_raw",
+      "expr": "`<p>Progress to 80 correct answers: <strong>${state.month.correct}/${mGoal}</strong></p><d"
+    },
+    {
+      "file": "assets/js/app.js",
+      "type": "innerhtml_raw",
+      "expr": "\"\""
+    },
+    {
+      "file": "assets/js/app.js",
+      "type": "innerhtml_raw",
+      "expr": "'<p class=\"muted\">No bookmarks yet. Use the 🔖 button on any MCQ to save it here.</p>'"
+    },
+    {
+      "file": "assets/js/app.js",
+      "type": "innerhtml_raw",
+      "expr": "\"\""
+    },
+    {
+      "file": "assets/js/app.js",
+      "type": "innerhtml_raw",
+      "expr": "'<p class=\"muted\">No bookmarks yet. Use the 🔖 button on any MCQ to save it here.</p>'"
+    },
+    {
+      "file": "assets/js/app.js",
+      "type": "innerhtml_raw",
+      "expr": "\"\""
+    },
+    {
+      "file": "assets/js/app.js",
+      "type": "innerhtml_raw",
+      "expr": "'<div class=\"sug-item muted\">No matches - try a shorter word</div>'"
+    },
+    {
+      "file": "assets/js/app.js",
+      "type": "innerhtml_raw",
+      "expr": "\"\""
+    },
+    {
+      "file": "assets/js/app.js",
+      "type": "innerhtml_raw",
+      "expr": "'<div class=\"sug-item muted\">No matches - try a shorter word</div>'"
+    },
+    {
+      "file": "assets/js/app.js",
+      "type": "innerhtml_raw",
+      "expr": "`\n        <div class=\"container\" style=\"padding:60px 0"
+    },
+    {
+      "file": "assets/js/admin.js",
+      "type": "innerhtml_raw",
+      "expr": "\"\""
+    },
+    {
+      "file": "assets/js/admin.js",
+      "type": "innerhtml_raw",
+      "expr": "'<p class=\"muted\">No categories.</p>'"
+    },
+    {
+      "file": "assets/js/admin.js",
+      "type": "innerhtml_raw",
+      "expr": "`\n        <div class=\"admin-row\" style=\"align-items:flex-end\">\n          <label>Name <inpu"
+    },
+    {
+      "file": "assets/js/admin.js",
+      "type": "innerhtml_raw",
+      "expr": "\"\""
+    },
+    {
+      "file": "assets/js/admin.js",
+      "type": "innerhtml_raw",
+      "expr": "'<p class=\"muted\">No subjects.</p>'"
+    },
+    {
+      "file": "assets/js/admin.js",
+      "type": "innerhtml_raw",
+      "expr": "`\n        <div class=\"admin-row\" style=\"align-items:flex-end\">\n          <label>Name <inpu"
+    },
+    {
+      "file": "assets/js/admin.js",
+      "type": "innerhtml_raw",
+      "expr": "\"\""
+    },
+    {
+      "file": "assets/js/admin.js",
+      "type": "innerhtml_raw",
+      "expr": "'<p class=\"muted\">Select a chapter to manage its topics.</p>'"
+    },
+    {
+      "file": "assets/js/admin.js",
+      "type": "innerhtml_raw",
+      "expr": "'<p class=\"muted\">No topics in this chapter yet - add one above.</p>'"
+    },
+    {
+      "file": "assets/js/admin.js",
+      "type": "innerhtml_raw",
+      "expr": "`\n        <div class=\"admin-row\" style=\"align-items:flex-end\">\n          <label>Topic name"
+    },
+    {
+      "file": "assets/js/admin.js",
+      "type": "innerhtml_raw",
+      "expr": "\"\""
+    },
+    {
+      "file": "assets/js/admin.js",
+      "type": "innerhtml_raw",
+      "expr": "'<p class=\"muted\">No MCQs match this filter - great explanations everywhere!</p>'"
+    },
+    {
+      "file": "assets/js/admin.js",
+      "type": "innerhtml_raw",
+      "expr": "\"\""
+    },
+    {
+      "file": "assets/js/admin.js",
+      "type": "innerhtml_raw",
+      "expr": "\"\""
+    },
+    {
+      "file": "assets/js/admin.js",
+      "type": "innerhtml_raw",
+      "expr": "'<p class=\"muted\">No images yet. Upload one above (PNG / JPG / SVG).</p>'"
+    },
+    {
+      "file": "assets/js/admin.js",
+      "type": "innerhtml_raw",
+      "expr": "\"\""
+    },
+    {
+      "file": "assets/js/admin.js",
+      "type": "innerhtml_raw",
+      "expr": "'<p class=\"muted\">No MCQs found.</p>'"
+    },
+    {
+      "file": "assets/js/admin.js",
+      "type": "innerhtml_raw",
+      "expr": "\"\""
+    },
+    {
+      "file": "assets/js/admin.js",
+      "type": "innerhtml_raw",
+      "expr": "'<p class=\"muted\">No duplicate questions found.</p>'"
+    },
+    {
+      "file": "assets/js/admin.js",
+      "type": "innerhtml_raw",
+      "expr": "'<option value=\"\">Select chapter...</option>' + chapters.filter((c) => c.subject === genSu"
+    },
+    {
+      "file": "assets/js/admin.js",
+      "type": "innerhtml_raw",
+      "expr": "'<option value=\"\">Select chapter first</option>'"
+    },
+    {
+      "file": "assets/js/admin.js",
+      "type": "innerhtml_raw",
+      "expr": "'<option value=\"\">Select topic...</option>' + topics.filter((t) => t.chapter === genCh.val"
+    },
+    {
+      "file": "assets/js/ai.js",
+      "type": "innerhtml_raw",
+      "expr": "`\n      <div class=\"dash-grid\" style=\"grid-template-columns:repeat(auto-fit,minmax(220px,1"
+    },
+    {
+      "file": "assets/js/ai.js",
+      "type": "innerhtml_raw",
+      "expr": "`\n      <div class=\"dash-grid\" style=\"grid-template-columns:repeat(auto-fit,minmax(160px,1"
+    },
+    {
+      "file": "assets/js/ai.js",
+      "type": "innerhtml_raw",
+      "expr": "`\n        <div class=\"card\">\n          <h3>Adaptive Quiz</h3>\n          <p class=\"muted\">T"
+    },
+    {
+      "file": "assets/js/ai.js",
+      "type": "innerhtml_raw",
+      "expr": "`\n      <div class=\"card\">\n        <h3>Adaptive Quiz — ${state.adaptive.answered}/${state."
+    },
+    {
+      "file": "assets/js/ai.js",
+      "type": "innerhtml_raw",
+      "expr": "'<p class=\"muted\">Grading…</p>'"
+    },
+    {
+      "file": "assets/js/ai.js",
+      "type": "innerhtml_raw",
+      "expr": "`\n      <div class=\"result-card\" style=\"margin-top:14px\">\n        <div class=\"result-score"
+    },
+    {
+      "file": "assets/js/ai.js",
+      "type": "innerhtml_raw",
+      "expr": "`\n        <div class=\"card\">\n          <h3>Spaced Revision</h3>\n          <p class=\"muted\""
+    },
+    {
+      "file": "assets/js/ai.js",
+      "type": "innerhtml_raw",
+      "expr": "`\n      <div class=\"card\">\n        <h3>Spaced Revision — ${d.count} due now</h3>\n        <"
+    },
+    {
+      "file": "assets/js/ai.js",
+      "type": "innerhtml_raw",
+      "expr": "`\n        <div class=\"card\">\n          <h3>Flashcards</h3>\n          <p class=\"muted\">No c"
+    },
+    {
+      "file": "assets/js/ai.js",
+      "type": "innerhtml_raw",
+      "expr": "`\n      <div class=\"card\">\n        <h3>Flashcards — ${d.cards.length} due</h3>\n        <p "
+    },
+    {
+      "file": "assets/js/ai.js",
+      "type": "innerhtml_raw",
+      "expr": "`\n      <div class=\"card\">\n        <h3>Mock &amp"
+    },
+    {
+      "file": "assets/js/ai.js",
+      "type": "innerhtml_raw",
+      "expr": "'<p class=\"muted\">Computing from your chapter history…</p>'"
+    },
+    {
+      "file": "assets/js/ai.js",
+      "type": "innerhtml_raw",
+      "expr": "`\n            <div class=\"result-card\">\n              <div class=\"result-score\">${r.expect"
+    },
+    {
+      "file": "assets/js/ai.js",
+      "type": "innerhtml_raw",
+      "expr": "`\n      <div class=\"card\">\n        <h3>Personalized Recommendations</h3>\n        <p class="
+    },
+    {
+      "file": "assets/js/ai.js",
+      "type": "innerhtml_raw",
+      "expr": "`\n      <div class=\"card\">\n        <h3>Current Affairs Digest</h3>\n        <div class=\"fil"
+    },
+    {
+      "file": "assets/js/ai.js",
+      "type": "innerhtml_raw",
+      "expr": "`\n      <div class=\"card\">\n        <h3>Last 14 Days</h3>\n        <div class=\"dash-grid\" st"
+    },
+    {
+      "file": "assets/js/ai.js",
+      "type": "innerhtml_raw",
+      "expr": "`\n      <div class=\"card\">\n        <div style=\"display:flex"
+    },
+    {
+      "file": "assets/js/ai.js",
+      "type": "innerhtml_raw",
+      "expr": "\"\""
+    },
+    {
+      "file": "assets/js/pwa.js",
+      "type": "innerhtml_raw",
+      "expr": "\"\""
+    }
+  ],
+  "totals": {
+    "unsafe_innerhtml": 90,
+    "eval_usage": 0,
+    "document_write": 0,
+    "exposed_secrets": 0,
+    "unsafe_url": 0
+  }
+}

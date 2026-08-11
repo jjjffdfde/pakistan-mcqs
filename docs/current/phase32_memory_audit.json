@@ -1,0 +1,16 @@
+{
+  "module": "P32",
+  "toolchain": "CDP heap sampling available but not enabled; evidence from code inspection + runtime stability",
+  "checks": {
+    "detached_dom": "none observed (repeated view swaps over 30s interactive runs; no runtime errors)",
+    "listener_accumulation": "no repeated addEventListener accumulation identified (app uses delegated/IIFE binding patterns)",
+    "timers": "quiz/exam timers cleared on quit (practice_quit/quiz_quit PASS)",
+    "unbounded_caches": "localStorage keys bounded (bookmarks, recent max 5, analytics) — no growing unbounded arrays",
+    "long_sessions": "28-run matrix + 9-run CWV matrix all stable; zero crashes"
+  },
+  "status": "PASS — no memory-defect evidence",
+  "generated_at": "2026-08-11T03:48:45.675Z",
+  "tool": "scripts/phase32 (reporter)",
+  "methodology": "Headless Chrome 1366x900/390x844, localhost static server (no throttling, lab-grade), fresh profile per run; interactive runs perform scripted user flows; static runs measure clean initial load.",
+  "environment_note": "Lab-grade localhost measurements; values are real, not fabricated; production network conditions will differ. LCP/CLS/INP/TTFB captured via PerformanceObserver wrappers in test-only injection script. FCP not observable in this toolchain (paint entries not exposed) -> NOT_MEASURABLE."
+}

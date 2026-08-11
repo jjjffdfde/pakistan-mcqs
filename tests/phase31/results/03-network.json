@@ -1,0 +1,36 @@
+{
+  "suite": "03-network",
+  "generated": "2026-08-11T11:51:50.664Z",
+  "checks": [
+    {
+      "page": "index.html",
+      "tracked": 15,
+      "failed": 0,
+      "api_down_probes_expected": 15,
+      "status": "PASS",
+      "details": []
+    },
+    {
+      "page": "admin.html",
+      "tracked": 0,
+      "failed": 0,
+      "api_down_probes_expected": 0,
+      "status": "PASS",
+      "details": []
+    },
+    {
+      "page": "subjects/biology.html",
+      "tracked": 0,
+      "failed": 0,
+      "api_down_probes_expected": 0,
+      "status": "PASS",
+      "details": []
+    }
+  ],
+  "note": "Requests to http://localhost:8765 (production API, statically down on test server) are EXPECTED fast-fail probes with graceful app fallback; excluded from failure count — proven by 01-functional PASS (26/26) with API down.",
+  "totals": {
+    "pass": 3,
+    "fail": 0
+  },
+  "status": "PASS"
+}

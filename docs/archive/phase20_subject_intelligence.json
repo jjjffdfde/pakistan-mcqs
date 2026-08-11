@@ -1,0 +1,4877 @@
+{
+  "step": "subject_intelligence",
+  "generated_at": "2026-08-06T08:09:32",
+  "summary": {
+    "total_subjects": 243,
+    "avg_concept_density": 439.53,
+    "avg_exam_readiness": 0,
+    "subjects_with_mcqs": 243
+  },
+  "subjects": [
+    {
+      "subject_id": "accounting",
+      "subject_name": "Accounting",
+      "exam_ids": "ppsc,fpsc,nts,ots,cts,pts,nab,ib,mod,fbr,sbp,banking,lecturer,fia-inspector,custom-inspector,income-tax-inspector",
+      "concept_count": 9,
+      "mcq_count": 5096,
+      "chapter_count": 5,
+      "concept_density": 566.22,
+      "difficulty_curve": {
+        "easy": 7,
+        "medium": 2
+      },
+      "bloom_distribution": {
+        "Apply": 7,
+        "Understand": 1,
+        "Recall": 1
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "agriculture",
+      "subject_name": "Agriculture",
+      "exam_ids": "ppsc,fpsc,nts,educators",
+      "concept_count": 8,
+      "mcq_count": 5148,
+      "chapter_count": 5,
+      "concept_density": 643.5,
+      "difficulty_curve": {
+        "easy": 7,
+        "medium": 1
+      },
+      "bloom_distribution": {
+        "Apply": 6,
+        "Understand": 1,
+        "Recall": 1
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "ai",
+      "subject_name": "Artificial Intelligence",
+      "exam_ids": "ppsc,fpsc,nts,educators,nab,ib,mod",
+      "concept_count": 11,
+      "mcq_count": 5094,
+      "chapter_count": 3,
+      "concept_density": 463.09,
+      "difficulty_curve": {
+        "easy": 9,
+        "medium": 2
+      },
+      "bloom_distribution": {
+        "Apply": 7,
+        "Recall": 2,
+        "Understand": 2
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "ajkpsc",
+      "subject_name": "AJKPSC (Azad Kashmir Public Service Commission)",
+      "exam_ids": "ajkpsc",
+      "concept_count": 8,
+      "mcq_count": 46,
+      "chapter_count": 2,
+      "concept_density": 5.75,
+      "difficulty_curve": {
+        "medium": 8
+      },
+      "bloom_distribution": {
+        "Understand": 8
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "algorithms",
+      "subject_name": "Algorithms",
+      "exam_ids": "",
+      "concept_count": 3,
+      "mcq_count": 5089,
+      "chapter_count": 1,
+      "concept_density": 1696.33,
+      "difficulty_curve": {
+        "easy": 3
+      },
+      "bloom_distribution": {
+        "Apply": 3
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "analytical-reasoning",
+      "subject_name": "Analytical Reasoning",
+      "exam_ids": "nts,gat,gre,css",
+      "concept_count": 8,
+      "mcq_count": 5538,
+      "chapter_count": 4,
+      "concept_density": 692.25,
+      "difficulty_curve": {
+        "medium": 8
+      },
+      "bloom_distribution": {
+        "Understand": 8
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "anatomy",
+      "subject_name": "Anatomy",
+      "exam_ids": "ppsc,fpsc,nts,educators,etea",
+      "concept_count": 12,
+      "mcq_count": 5100,
+      "chapter_count": 5,
+      "concept_density": 425,
+      "difficulty_curve": {
+        "medium": 10,
+        "easy": 2
+      },
+      "bloom_distribution": {
+        "Apply": 11,
+        "Understand": 1
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "anf",
+      "subject_name": "ANF (Anti-Narcotics Force)",
+      "exam_ids": "anf",
+      "concept_count": 6,
+      "mcq_count": 18,
+      "chapter_count": 2,
+      "concept_density": 3,
+      "difficulty_curve": {
+        "medium": 6
+      },
+      "bloom_distribution": {
+        "Understand": 6
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "angular",
+      "subject_name": "Angular",
+      "exam_ids": "ib,fpsc",
+      "concept_count": 8,
+      "mcq_count": 5028,
+      "chapter_count": 5,
+      "concept_density": 628.5,
+      "difficulty_curve": {
+        "medium": 7,
+        "easy": 1
+      },
+      "bloom_distribution": {
+        "Apply": 5,
+        "Understand": 3
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "anthropology",
+      "subject_name": "Anthropology",
+      "exam_ids": "ppsc,fpsc,nts,css,pms",
+      "concept_count": 3,
+      "mcq_count": 16,
+      "chapter_count": 2,
+      "concept_density": 5.33,
+      "difficulty_curve": {
+        "medium": 2,
+        "easy": 1
+      },
+      "bloom_distribution": {
+        "Understand": 3
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "antonyms",
+      "subject_name": "Antonyms",
+      "exam_ids": "css,ppsc,fpsc,nts,gre,sat",
+      "concept_count": 10,
+      "mcq_count": 5020,
+      "chapter_count": 5,
+      "concept_density": 502,
+      "difficulty_curve": {
+        "medium": 9,
+        "easy": 1
+      },
+      "bloom_distribution": {
+        "Apply": 5,
+        "Understand": 4,
+        "Recall": 1
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "aptitude-tests",
+      "subject_name": "Aptitude Tests",
+      "exam_ids": "nts,ib,sbp,banking,wapda,lesco,mepco,hesco,sepco,ssgc,sngpl",
+      "concept_count": 6,
+      "mcq_count": 433,
+      "chapter_count": 5,
+      "concept_density": 72.17,
+      "difficulty_curve": {
+        "medium": 6
+      },
+      "bloom_distribution": {
+        "Understand": 6
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "architecture",
+      "subject_name": "Architecture",
+      "exam_ids": "",
+      "concept_count": 6,
+      "mcq_count": 5474,
+      "chapter_count": 2,
+      "concept_density": 912.33,
+      "difficulty_curve": {
+        "medium": 4,
+        "easy": 2
+      },
+      "bloom_distribution": {
+        "Apply": 6
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "army",
+      "subject_name": "Pakistan Army (Recruitment)",
+      "exam_ids": "army",
+      "concept_count": 4,
+      "mcq_count": 5,
+      "chapter_count": 1,
+      "concept_density": 1.25,
+      "difficulty_curve": {
+        "medium": 4
+      },
+      "bloom_distribution": {
+        "Understand": 4
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "artificial-intelligence",
+      "subject_name": "Artificial Intelligence (Orig)",
+      "exam_ids": "",
+      "concept_count": 7,
+      "mcq_count": 5021,
+      "chapter_count": 2,
+      "concept_density": 717.29,
+      "difficulty_curve": {
+        "medium": 6,
+        "easy": 1
+      },
+      "bloom_distribution": {
+        "Apply": 6,
+        "Recall": 1
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "asf",
+      "subject_name": "ASF (Airport Security Force)",
+      "exam_ids": "asf",
+      "concept_count": 6,
+      "mcq_count": 17,
+      "chapter_count": 2,
+      "concept_density": 2.83,
+      "difficulty_curve": {
+        "medium": 6
+      },
+      "bloom_distribution": {
+        "Understand": 6
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "assistant-director",
+      "subject_name": "Assistant Director (Departmental)",
+      "exam_ids": "assistant-director",
+      "concept_count": 6,
+      "mcq_count": 18,
+      "chapter_count": 2,
+      "concept_density": 3,
+      "difficulty_curve": {
+        "medium": 6
+      },
+      "bloom_distribution": {
+        "Understand": 6
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "auditing",
+      "subject_name": "Auditing",
+      "exam_ids": "ppsc,fpsc,nts,ots,cts,pts,nab",
+      "concept_count": 7,
+      "mcq_count": 5045,
+      "chapter_count": 5,
+      "concept_density": 720.71,
+      "difficulty_curve": {
+        "easy": 4,
+        "medium": 3
+      },
+      "bloom_distribution": {
+        "Apply": 6,
+        "Understand": 1
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "auditing-standards",
+      "subject_name": "Auditing Standards",
+      "exam_ids": "",
+      "concept_count": 9,
+      "mcq_count": 5215,
+      "chapter_count": 2,
+      "concept_density": 579.44,
+      "difficulty_curve": {
+        "medium": 7,
+        "easy": 2
+      },
+      "bloom_distribution": {
+        "Apply": 8,
+        "Recall": 1
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "banking",
+      "subject_name": "Banking Tests (Commercial Banks)",
+      "exam_ids": "banking",
+      "concept_count": 7,
+      "mcq_count": 31,
+      "chapter_count": 2,
+      "concept_density": 4.43,
+      "difficulty_curve": {
+        "medium": 7
+      },
+      "bloom_distribution": {
+        "Understand": 7
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "bash",
+      "subject_name": "Bash Scripting",
+      "exam_ids": "",
+      "concept_count": 5,
+      "mcq_count": 5029,
+      "chapter_count": 1,
+      "concept_density": 1005.8,
+      "difficulty_curve": {
+        "easy": 5
+      },
+      "bloom_distribution": {
+        "Apply": 5
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "bds",
+      "subject_name": "BDS",
+      "exam_ids": "mdcat,fpsc",
+      "concept_count": 2,
+      "mcq_count": 17,
+      "chapter_count": 3,
+      "concept_density": 8.5,
+      "difficulty_curve": {
+        "medium": 2
+      },
+      "bloom_distribution": {
+        "Understand": 2
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "behavioral-sciences",
+      "subject_name": "Behavioral Sciences",
+      "exam_ids": "",
+      "concept_count": 8,
+      "mcq_count": 5077,
+      "chapter_count": 2,
+      "concept_density": 634.63,
+      "difficulty_curve": {
+        "medium": 5,
+        "easy": 3
+      },
+      "bloom_distribution": {
+        "Apply": 6,
+        "Recall": 2
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "big-data",
+      "subject_name": "Big Data",
+      "exam_ids": "ib,fpsc",
+      "concept_count": 6,
+      "mcq_count": 19,
+      "chapter_count": 5,
+      "concept_density": 3.17,
+      "difficulty_curve": {
+        "medium": 6
+      },
+      "bloom_distribution": {
+        "Understand": 6
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "biochemistry",
+      "subject_name": "Biochemistry",
+      "exam_ids": "ppsc,fpsc,nts,educators,etea",
+      "concept_count": 12,
+      "mcq_count": 5368,
+      "chapter_count": 6,
+      "concept_density": 447.33,
+      "difficulty_curve": {
+        "medium": 8,
+        "easy": 4
+      },
+      "bloom_distribution": {
+        "Apply": 9,
+        "Understand": 3
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "biology",
+      "subject_name": "Biology",
+      "exam_ids": "ppsc,fpsc,nts,educators,police,army,navy,paf,etea,lecturer,mdcat",
+      "concept_count": 12,
+      "mcq_count": 5013,
+      "chapter_count": 7,
+      "concept_density": 417.75,
+      "difficulty_curve": {
+        "easy": 8,
+        "medium": 4
+      },
+      "bloom_distribution": {
+        "Apply": 9,
+        "Understand": 2,
+        "Recall": 1
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "biotechnology",
+      "subject_name": "Biotechnology",
+      "exam_ids": "ppsc,fpsc,nts,educators,etea,css",
+      "concept_count": 2,
+      "mcq_count": 21,
+      "chapter_count": 3,
+      "concept_density": 10.5,
+      "difficulty_curve": {
+        "medium": 2
+      },
+      "bloom_distribution": {
+        "Understand": 2
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "bootstrap",
+      "subject_name": "Bootstrap",
+      "exam_ids": "ib,fpsc,nts",
+      "concept_count": 5,
+      "mcq_count": 31,
+      "chapter_count": 4,
+      "concept_density": 6.2,
+      "difficulty_curve": {
+        "medium": 5
+      },
+      "bloom_distribution": {
+        "Understand": 5
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "botany",
+      "subject_name": "Botany",
+      "exam_ids": "ppsc,fpsc,nts,educators,etea",
+      "concept_count": 3,
+      "mcq_count": 26,
+      "chapter_count": 5,
+      "concept_density": 8.67,
+      "difficulty_curve": {
+        "medium": 3
+      },
+      "bloom_distribution": {
+        "Understand": 3
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "bpsc",
+      "subject_name": "BPSC (Balochistan Public Service Commission)",
+      "exam_ids": "bpsc",
+      "concept_count": 8,
+      "mcq_count": 44,
+      "chapter_count": 2,
+      "concept_density": 5.5,
+      "difficulty_curve": {
+        "medium": 8
+      },
+      "bloom_distribution": {
+        "Understand": 8
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "business-admin",
+      "subject_name": "Business Administration",
+      "exam_ids": "ppsc,fpsc,nts,ots,cts,pts,nab,ib,mod,sbp,banking",
+      "concept_count": 3,
+      "mcq_count": 22,
+      "chapter_count": 5,
+      "concept_density": 7.33,
+      "difficulty_curve": {
+        "medium": 3
+      },
+      "bloom_distribution": {
+        "Understand": 3
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "business-administration",
+      "subject_name": "Business Administration",
+      "exam_ids": "",
+      "concept_count": 7,
+      "mcq_count": 5047,
+      "chapter_count": 2,
+      "concept_density": 721,
+      "difficulty_curve": {
+        "medium": 6,
+        "easy": 1
+      },
+      "bloom_distribution": {
+        "Apply": 6,
+        "Recall": 1
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "business-law",
+      "subject_name": "Business Law",
+      "exam_ids": "",
+      "concept_count": 7,
+      "mcq_count": 5089,
+      "chapter_count": 2,
+      "concept_density": 727,
+      "difficulty_curve": {
+        "easy": 5,
+        "medium": 2
+      },
+      "bloom_distribution": {
+        "Apply": 7
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "c",
+      "subject_name": "C Programming",
+      "exam_ids": "ib,fpsc,ecat",
+      "concept_count": 7,
+      "mcq_count": 5428,
+      "chapter_count": 4,
+      "concept_density": 775.43,
+      "difficulty_curve": {
+        "medium": 7
+      },
+      "bloom_distribution": {
+        "Understand": 7
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "chemical-eng",
+      "subject_name": "Chemical Engineering",
+      "exam_ids": "ppsc,fpsc,nts,etea,railways,army,navy,paf",
+      "concept_count": 8,
+      "mcq_count": 5080,
+      "chapter_count": 5,
+      "concept_density": 635,
+      "difficulty_curve": {
+        "medium": 7,
+        "easy": 1
+      },
+      "bloom_distribution": {
+        "Apply": 7,
+        "Understand": 1
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "chemistry",
+      "subject_name": "Chemistry",
+      "exam_ids": "ppsc,fpsc,nts,educators,police,army,navy,paf,etea,anf,lecturer,mdcat",
+      "concept_count": 14,
+      "mcq_count": 5045,
+      "chapter_count": 7,
+      "concept_density": 360.36,
+      "difficulty_curve": {
+        "medium": 12,
+        "hard": 1,
+        "easy": 1
+      },
+      "bloom_distribution": {
+        "Apply": 10,
+        "Recall": 1,
+        "Understand": 3
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "civil-eng",
+      "subject_name": "Civil Engineering",
+      "exam_ids": "ppsc,fpsc,nts,etea,railways,wapda",
+      "concept_count": 9,
+      "mcq_count": 5080,
+      "chapter_count": 5,
+      "concept_density": 564.44,
+      "difficulty_curve": {
+        "medium": 8,
+        "easy": 1
+      },
+      "bloom_distribution": {
+        "Apply": 7,
+        "Understand": 2
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "cloud-computing",
+      "subject_name": "Cloud Computing",
+      "exam_ids": "ppsc,fpsc,nts,educators,nab,ib,mod",
+      "concept_count": 8,
+      "mcq_count": 5004,
+      "chapter_count": 3,
+      "concept_density": 625.5,
+      "difficulty_curve": {
+        "medium": 7,
+        "easy": 1
+      },
+      "bloom_distribution": {
+        "Apply": 6,
+        "Understand": 2
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "commerce",
+      "subject_name": "Commerce",
+      "exam_ids": "ppsc,fpsc,nts,ots,cts,pts,nab,ib,mod,banking,lecturer",
+      "concept_count": 3,
+      "mcq_count": 16,
+      "chapter_count": 3,
+      "concept_density": 5.33,
+      "difficulty_curve": {
+        "medium": 2,
+        "easy": 1
+      },
+      "bloom_distribution": {
+        "Understand": 3
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "community-medicine",
+      "subject_name": "Community Medicine",
+      "exam_ids": "ppsc,fpsc,nts,educators,etea",
+      "concept_count": 5,
+      "mcq_count": 5145,
+      "chapter_count": 4,
+      "concept_density": 1029,
+      "difficulty_curve": {
+        "medium": 5
+      },
+      "bloom_distribution": {
+        "Apply": 4,
+        "Understand": 1
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "compiler-design",
+      "subject_name": "Compiler Design",
+      "exam_ids": "",
+      "concept_count": 7,
+      "mcq_count": 5066,
+      "chapter_count": 2,
+      "concept_density": 723.71,
+      "difficulty_curve": {
+        "easy": 5,
+        "medium": 2
+      },
+      "bloom_distribution": {
+        "Apply": 7
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "comprehension",
+      "subject_name": "Comprehension",
+      "exam_ids": "css,ppsc,fpsc,nts,ielts,toefl,sat,gre",
+      "concept_count": 10,
+      "mcq_count": 5055,
+      "chapter_count": 5,
+      "concept_density": 505.5,
+      "difficulty_curve": {
+        "medium": 9,
+        "easy": 1
+      },
+      "bloom_distribution": {
+        "Apply": 7,
+        "Understand": 3
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "computer-engineering",
+      "subject_name": "Computer Engineering",
+      "exam_ids": "nts,ecat,fpsc,ppsc",
+      "concept_count": 4,
+      "mcq_count": 21,
+      "chapter_count": 4,
+      "concept_density": 5.25,
+      "difficulty_curve": {
+        "medium": 3,
+        "easy": 1
+      },
+      "bloom_distribution": {
+        "Understand": 4
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "computer-graphics",
+      "subject_name": "Computer Graphics",
+      "exam_ids": "",
+      "concept_count": 7,
+      "mcq_count": 5058,
+      "chapter_count": 2,
+      "concept_density": 722.57,
+      "difficulty_curve": {
+        "medium": 5,
+        "easy": 2
+      },
+      "bloom_distribution": {
+        "Apply": 6,
+        "Recall": 1
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "computer-science",
+      "subject_name": "Computer Science",
+      "exam_ids": "ppsc,fpsc,nts,ots,cts,pts,spsc,kppsc,ajkpsc,bpsc,educators,police,fia,asf,motorway,railways,nadra,etea,nab,ib,mod,fia-inspector,anf,wapda,fbr,banking,custom-exams,lecturer,rescue-1122,lesco,mepco,hesco,sepco,ssgc,sngpl,pakistan-post,teaching,sst,est,headmaster,inspector,sub-inspector,custom-inspector,income-tax-inspector,assistant-director",
+      "concept_count": 15,
+      "mcq_count": 5312,
+      "chapter_count": 7,
+      "concept_density": 354.13,
+      "difficulty_curve": {
+        "medium": 11,
+        "hard": 1,
+        "easy": 3
+      },
+      "bloom_distribution": {
+        "Apply": 10,
+        "Understand": 3,
+        "Recall": 2
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "constitution",
+      "subject_name": "Constitution",
+      "exam_ids": "ppsc,fpsc,nts,css,pms,police,fia,nab,ib,mod,election-officer,fia-inspector,inspector,sub-inspector,custom-inspector,income-tax-inspector,assistant-director",
+      "concept_count": 3,
+      "mcq_count": 29,
+      "chapter_count": 5,
+      "concept_density": 9.67,
+      "difficulty_curve": {
+        "medium": 3
+      },
+      "bloom_distribution": {
+        "Understand": 3
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "cpp",
+      "subject_name": "C++",
+      "exam_ids": "ib,fpsc,ecat",
+      "concept_count": 7,
+      "mcq_count": 5993,
+      "chapter_count": 4,
+      "concept_density": 856.14,
+      "difficulty_curve": {
+        "medium": 7
+      },
+      "bloom_distribution": {
+        "Understand": 7
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "csharp",
+      "subject_name": "C#",
+      "exam_ids": "ib,fpsc",
+      "concept_count": 8,
+      "mcq_count": 6690,
+      "chapter_count": 4,
+      "concept_density": 836.25,
+      "difficulty_curve": {
+        "medium": 8
+      },
+      "bloom_distribution": {
+        "Understand": 8
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "css",
+      "subject_name": "CSS",
+      "exam_ids": "ib,fpsc,nts",
+      "concept_count": 10,
+      "mcq_count": 5121,
+      "chapter_count": 6,
+      "concept_density": 512.1,
+      "difficulty_curve": {
+        "medium": 9,
+        "easy": 1
+      },
+      "bloom_distribution": {
+        "Apply": 5,
+        "Understand": 5
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "css-exam",
+      "subject_name": "CSS Exam (Central Superior Services)",
+      "exam_ids": "css",
+      "concept_count": 4,
+      "mcq_count": 4,
+      "chapter_count": 1,
+      "concept_density": 1,
+      "difficulty_curve": {
+        "medium": 4
+      },
+      "bloom_distribution": {
+        "Understand": 4
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "cts",
+      "subject_name": "CTS (Common Testing Service)",
+      "exam_ids": "cts",
+      "concept_count": 4,
+      "mcq_count": 4,
+      "chapter_count": 1,
+      "concept_density": 1,
+      "difficulty_curve": {
+        "medium": 4
+      },
+      "bloom_distribution": {
+        "Understand": 4
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "current-affairs",
+      "subject_name": "Current Affairs",
+      "exam_ids": "ppsc,fpsc,nts,ots,cts,pts,spsc,kppsc,ajkpsc,bpsc,css,pms,educators,police,fia,asf,motorway,railways,nadra,etea,nab,ib,mod,election-officer,fia-inspector,custom-exams,anf,banking,rescue-1122,lesco,mepco,hesco,sepco,ssgc,sngpl,pakistan-post,teaching,sst,est,headmaster,inspector,sub-inspector,custom-inspector,income-tax-inspector,assistant-director",
+      "concept_count": 14,
+      "mcq_count": 5032,
+      "chapter_count": 5,
+      "concept_density": 359.43,
+      "difficulty_curve": {
+        "hard": 7,
+        "medium": 4,
+        "easy": 3
+      },
+      "bloom_distribution": {
+        "Apply": 8,
+        "Understand": 6
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "custom-inspector",
+      "subject_name": "Custom Inspector (Pakistan Customs)",
+      "exam_ids": "custom-inspector",
+      "concept_count": 6,
+      "mcq_count": 19,
+      "chapter_count": 2,
+      "concept_density": 3.17,
+      "difficulty_curve": {
+        "medium": 6
+      },
+      "bloom_distribution": {
+        "Understand": 6
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "cyber-security",
+      "subject_name": "Cyber Security",
+      "exam_ids": "ppsc,fpsc,nts,educators,police,fia,nab,ib,mod,fia-inspector",
+      "concept_count": 8,
+      "mcq_count": 5130,
+      "chapter_count": 4,
+      "concept_density": 641.25,
+      "difficulty_curve": {
+        "medium": 7,
+        "easy": 1
+      },
+      "bloom_distribution": {
+        "Apply": 6,
+        "Understand": 2
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "data-interpretation",
+      "subject_name": "Data Interpretation",
+      "exam_ids": "css,gat,gre,ib,sbp",
+      "concept_count": 7,
+      "mcq_count": 5343,
+      "chapter_count": 4,
+      "concept_density": 763.29,
+      "difficulty_curve": {
+        "medium": 7
+      },
+      "bloom_distribution": {
+        "Understand": 7
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "data-science",
+      "subject_name": "Data Science",
+      "exam_ids": "ppsc,fpsc,nts,educators,nab,ib,mod",
+      "concept_count": 11,
+      "mcq_count": 5167,
+      "chapter_count": 3,
+      "concept_density": 469.73,
+      "difficulty_curve": {
+        "easy": 9,
+        "medium": 2
+      },
+      "bloom_distribution": {
+        "Apply": 7,
+        "Recall": 2,
+        "Understand": 2
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "data-structures",
+      "subject_name": "Data Structures",
+      "exam_ids": "",
+      "concept_count": 4,
+      "mcq_count": 5079,
+      "chapter_count": 1,
+      "concept_density": 1269.75,
+      "difficulty_curve": {
+        "easy": 4
+      },
+      "bloom_distribution": {
+        "Apply": 4
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "database",
+      "subject_name": "Database",
+      "exam_ids": "ib,fpsc,nts,banking",
+      "concept_count": 9,
+      "mcq_count": 5060,
+      "chapter_count": 6,
+      "concept_density": 562.22,
+      "difficulty_curve": {
+        "medium": 8,
+        "easy": 1
+      },
+      "bloom_distribution": {
+        "Apply": 5,
+        "Understand": 4
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "deep-learning",
+      "subject_name": "Deep Learning",
+      "exam_ids": "ib,fpsc",
+      "concept_count": 10,
+      "mcq_count": 5012,
+      "chapter_count": 6,
+      "concept_density": 501.2,
+      "difficulty_curve": {
+        "medium": 8,
+        "easy": 2
+      },
+      "bloom_distribution": {
+        "Apply": 6,
+        "Understand": 4
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "dental-materials",
+      "subject_name": "Dental Materials",
+      "exam_ids": "ppsc,fpsc,nts,educators,etea",
+      "concept_count": 9,
+      "mcq_count": 5102,
+      "chapter_count": 5,
+      "concept_density": 566.89,
+      "difficulty_curve": {
+        "easy": 6,
+        "medium": 3
+      },
+      "bloom_distribution": {
+        "Apply": 8,
+        "Understand": 1
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "dental-medicine",
+      "subject_name": "Dental Medicine",
+      "exam_ids": "",
+      "concept_count": 7,
+      "mcq_count": 5484,
+      "chapter_count": 2,
+      "concept_density": 783.43,
+      "difficulty_curve": {
+        "medium": 5,
+        "easy": 2
+      },
+      "bloom_distribution": {
+        "Apply": 7
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "dental-surgery",
+      "subject_name": "Dental Surgery",
+      "exam_ids": "",
+      "concept_count": 8,
+      "mcq_count": 5511,
+      "chapter_count": 2,
+      "concept_density": 688.88,
+      "difficulty_curve": {
+        "medium": 5,
+        "easy": 3
+      },
+      "bloom_distribution": {
+        "Apply": 8
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "devops",
+      "subject_name": "DevOps",
+      "exam_ids": "ib,fpsc,banking",
+      "concept_count": 4,
+      "mcq_count": 24,
+      "chapter_count": 5,
+      "concept_density": 6,
+      "difficulty_curve": {
+        "medium": 4
+      },
+      "bloom_distribution": {
+        "Understand": 4
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "digital-logic",
+      "subject_name": "Digital Logic Design",
+      "exam_ids": "",
+      "concept_count": 7,
+      "mcq_count": 5432,
+      "chapter_count": 2,
+      "concept_density": 776,
+      "difficulty_curve": {
+        "medium": 5,
+        "easy": 2
+      },
+      "bloom_distribution": {
+        "Apply": 6,
+        "Recall": 1
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "distributed-systems",
+      "subject_name": "Distributed Systems",
+      "exam_ids": "",
+      "concept_count": 7,
+      "mcq_count": 5176,
+      "chapter_count": 2,
+      "concept_density": 739.43,
+      "difficulty_curve": {
+        "medium": 5,
+        "easy": 2
+      },
+      "bloom_distribution": {
+        "Apply": 7
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "django",
+      "subject_name": "Django",
+      "exam_ids": "ib,fpsc",
+      "concept_count": 2,
+      "mcq_count": 13,
+      "chapter_count": 3,
+      "concept_density": 6.5,
+      "difficulty_curve": {
+        "medium": 2
+      },
+      "bloom_distribution": {
+        "Understand": 2
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "docker",
+      "subject_name": "Docker",
+      "exam_ids": "ib,fpsc",
+      "concept_count": 7,
+      "mcq_count": 5255,
+      "chapter_count": 4,
+      "concept_density": 750.71,
+      "difficulty_curve": {
+        "medium": 6,
+        "easy": 1
+      },
+      "bloom_distribution": {
+        "Apply": 5,
+        "Understand": 2
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "dotnet",
+      "subject_name": ".NET",
+      "exam_ids": "ib,fpsc",
+      "concept_count": 3,
+      "mcq_count": 15,
+      "chapter_count": 4,
+      "concept_density": 5,
+      "difficulty_curve": {
+        "medium": 3
+      },
+      "bloom_distribution": {
+        "Understand": 3
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "dpt",
+      "subject_name": "DPT",
+      "exam_ids": "mdcat",
+      "concept_count": 2,
+      "mcq_count": 14,
+      "chapter_count": 3,
+      "concept_density": 7,
+      "difficulty_curve": {
+        "medium": 2
+      },
+      "bloom_distribution": {
+        "Understand": 2
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "ecat",
+      "subject_name": "ECAT",
+      "exam_ids": "ecat",
+      "concept_count": 2,
+      "mcq_count": 12,
+      "chapter_count": 3,
+      "concept_density": 6,
+      "difficulty_curve": {
+        "medium": 2
+      },
+      "bloom_distribution": {
+        "Understand": 2
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "economics",
+      "subject_name": "Economics",
+      "exam_ids": "ppsc,fpsc,nts,css,pms,educators,nab,ib,mod,fbr,sbp,banking,income-tax-inspector",
+      "concept_count": 14,
+      "mcq_count": 5321,
+      "chapter_count": 6,
+      "concept_density": 380.07,
+      "difficulty_curve": {
+        "easy": 10,
+        "medium": 4
+      },
+      "bloom_distribution": {
+        "Apply": 9,
+        "Understand": 3,
+        "Recall": 2
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "education",
+      "subject_name": "Education",
+      "exam_ids": "ppsc,fpsc,nts,educators,etea,lecturer,teaching,sst,est,headmaster",
+      "concept_count": 2,
+      "mcq_count": 17,
+      "chapter_count": 3,
+      "concept_density": 8.5,
+      "difficulty_curve": {
+        "medium": 2
+      },
+      "bloom_distribution": {
+        "Understand": 2
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "educators",
+      "subject_name": "Educators (Teachers Recruitment)",
+      "exam_ids": "educators",
+      "concept_count": 4,
+      "mcq_count": 4,
+      "chapter_count": 1,
+      "concept_density": 1,
+      "difficulty_curve": {
+        "medium": 4
+      },
+      "bloom_distribution": {
+        "Understand": 4
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "election-officer",
+      "subject_name": "Election Officer",
+      "exam_ids": "election-officer",
+      "concept_count": 6,
+      "mcq_count": 19,
+      "chapter_count": 2,
+      "concept_density": 3.17,
+      "difficulty_curve": {
+        "medium": 6
+      },
+      "bloom_distribution": {
+        "Understand": 6
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "electrical-eng",
+      "subject_name": "Electrical Engineering",
+      "exam_ids": "ppsc,fpsc,nts,etea,railways,army,navy,paf,wapda",
+      "concept_count": 10,
+      "mcq_count": 5154,
+      "chapter_count": 5,
+      "concept_density": 515.4,
+      "difficulty_curve": {
+        "medium": 8,
+        "easy": 2
+      },
+      "bloom_distribution": {
+        "Apply": 7,
+        "Understand": 3
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "electronics",
+      "subject_name": "Electronics",
+      "exam_ids": "ppsc,fpsc,nts,etea,railways,army,navy,paf",
+      "concept_count": 9,
+      "mcq_count": 5049,
+      "chapter_count": 6,
+      "concept_density": 561,
+      "difficulty_curve": {
+        "medium": 7,
+        "easy": 2
+      },
+      "bloom_distribution": {
+        "Apply": 8,
+        "Understand": 1
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "english",
+      "subject_name": "English",
+      "exam_ids": "ppsc,fpsc,nts,ots,cts,pts,spsc,kppsc,ajkpsc,bpsc,css,pms,educators,police,army,navy,paf,fia,asf,motorway,railways,nadra,etea,nab,ib,mod,election-officer,fia-inspector,custom-exams,lecturer,anf,banking,mdcat,lat,rescue-1122,lesco,mepco,hesco,sepco,ssgc,sngpl,pakistan-post,teaching,sst,est,headmaster,inspector,sub-inspector,custom-inspector,income-tax-inspector,assistant-director",
+      "concept_count": 19,
+      "mcq_count": 106,
+      "chapter_count": 12,
+      "concept_density": 5.58,
+      "difficulty_curve": {
+        "medium": 10,
+        "easy": 9
+      },
+      "bloom_distribution": {
+        "Understand": 19
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "english-literature",
+      "subject_name": "English Literature",
+      "exam_ids": "ppsc,fpsc,nts,educators",
+      "concept_count": 10,
+      "mcq_count": 5055,
+      "chapter_count": 4,
+      "concept_density": 505.5,
+      "difficulty_curve": {
+        "medium": 8,
+        "easy": 2
+      },
+      "bloom_distribution": {
+        "Apply": 7,
+        "Understand": 2,
+        "Recall": 1
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "ent",
+      "subject_name": "ENT",
+      "exam_ids": "",
+      "concept_count": 5,
+      "mcq_count": 5050,
+      "chapter_count": 1,
+      "concept_density": 1010,
+      "difficulty_curve": {
+        "medium": 4,
+        "easy": 1
+      },
+      "bloom_distribution": {
+        "Apply": 4,
+        "Recall": 1
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "entrepreneurship",
+      "subject_name": "Entrepreneurship",
+      "exam_ids": "",
+      "concept_count": 6,
+      "mcq_count": 5107,
+      "chapter_count": 2,
+      "concept_density": 851.17,
+      "difficulty_curve": {
+        "easy": 4,
+        "medium": 2
+      },
+      "bloom_distribution": {
+        "Apply": 6
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "environmental-eng",
+      "subject_name": "Environmental Engineering",
+      "exam_ids": "ppsc,fpsc,nts,etea,css",
+      "concept_count": 8,
+      "mcq_count": 5106,
+      "chapter_count": 5,
+      "concept_density": 638.25,
+      "difficulty_curve": {
+        "medium": 7,
+        "easy": 1
+      },
+      "bloom_distribution": {
+        "Apply": 7,
+        "Understand": 1
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "environmental-science",
+      "subject_name": "Environmental Science",
+      "exam_ids": "ppsc,fpsc,nts,css,pms,educators,etea,police,fia,nab",
+      "concept_count": 10,
+      "mcq_count": 5067,
+      "chapter_count": 5,
+      "concept_density": 506.7,
+      "difficulty_curve": {
+        "easy": 9,
+        "medium": 1
+      },
+      "bloom_distribution": {
+        "Apply": 8,
+        "Recall": 1,
+        "Understand": 1
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "essay",
+      "subject_name": "Essay Writing",
+      "exam_ids": "css,pms",
+      "concept_count": 4,
+      "mcq_count": 23,
+      "chapter_count": 3,
+      "concept_density": 5.75,
+      "difficulty_curve": {
+        "medium": 4
+      },
+      "bloom_distribution": {
+        "Understand": 4
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "est",
+      "subject_name": "EST (Elementary School Teacher)",
+      "exam_ids": "est",
+      "concept_count": 5,
+      "mcq_count": 16,
+      "chapter_count": 2,
+      "concept_density": 3.2,
+      "difficulty_curve": {
+        "medium": 5
+      },
+      "bloom_distribution": {
+        "Understand": 5
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "ethical-hacking",
+      "subject_name": "Ethical Hacking",
+      "exam_ids": "ib,fpsc",
+      "concept_count": 6,
+      "mcq_count": 23,
+      "chapter_count": 5,
+      "concept_density": 3.83,
+      "difficulty_curve": {
+        "medium": 5,
+        "easy": 1
+      },
+      "bloom_distribution": {
+        "Understand": 6
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "everyday-science",
+      "subject_name": "Everyday Science",
+      "exam_ids": "ppsc,fpsc,nts,ots,cts,pts,spsc,kppsc,ajkpsc,bpsc,css,pms,educators,police,army,navy,paf,fia,asf,motorway,railways,nadra,etea,pma,punjab-police,custom-exams,lecturer,anf,rescue-1122,lesco,mepco,hesco,sepco,ssgc,sngpl,pakistan-post,teaching,sst,est,headmaster,inspector,sub-inspector,custom-inspector,income-tax-inspector,assistant-director",
+      "concept_count": 22,
+      "mcq_count": 5070,
+      "chapter_count": 10,
+      "concept_density": 230.45,
+      "difficulty_curve": {
+        "hard": 8,
+        "medium": 11,
+        "easy": 3
+      },
+      "bloom_distribution": {
+        "Apply": 14,
+        "Understand": 7,
+        "Recall": 1
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "express",
+      "subject_name": "Express.js",
+      "exam_ids": "",
+      "concept_count": 8,
+      "mcq_count": 5043,
+      "chapter_count": 3,
+      "concept_density": 630.38,
+      "difficulty_curve": {
+        "medium": 7,
+        "easy": 1
+      },
+      "bloom_distribution": {
+        "Apply": 7,
+        "Recall": 1
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "express-js",
+      "subject_name": "Express.js",
+      "exam_ids": "ib,fpsc",
+      "concept_count": 6,
+      "mcq_count": 20,
+      "chapter_count": 4,
+      "concept_density": 3.33,
+      "difficulty_curve": {
+        "medium": 6
+      },
+      "bloom_distribution": {
+        "Understand": 6
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "fbr",
+      "subject_name": "FBR (Federal Board of Revenue)",
+      "exam_ids": "fbr",
+      "concept_count": 7,
+      "mcq_count": 27,
+      "chapter_count": 2,
+      "concept_density": 3.86,
+      "difficulty_curve": {
+        "medium": 7
+      },
+      "bloom_distribution": {
+        "Understand": 7
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "fia",
+      "subject_name": "FIA (Federal Investigation Agency)",
+      "exam_ids": "fia",
+      "concept_count": 4,
+      "mcq_count": 4,
+      "chapter_count": 1,
+      "concept_density": 1,
+      "difficulty_curve": {
+        "medium": 4
+      },
+      "bloom_distribution": {
+        "Understand": 4
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "fia-inspector",
+      "subject_name": "FIA Inspector",
+      "exam_ids": "fia-inspector",
+      "concept_count": 4,
+      "mcq_count": 4,
+      "chapter_count": 1,
+      "concept_density": 1,
+      "difficulty_curve": {
+        "medium": 4
+      },
+      "bloom_distribution": {
+        "Understand": 4
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "finance",
+      "subject_name": "Finance",
+      "exam_ids": "ppsc,fpsc,nts,ots,cts,pts,nab,ib,mod,fbr,sbp,banking,custom-inspector,income-tax-inspector",
+      "concept_count": 8,
+      "mcq_count": 5350,
+      "chapter_count": 4,
+      "concept_density": 668.75,
+      "difficulty_curve": {
+        "medium": 7,
+        "easy": 1
+      },
+      "bloom_distribution": {
+        "Apply": 6,
+        "Understand": 1,
+        "Recall": 1
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "flask",
+      "subject_name": "Flask",
+      "exam_ids": "ib,fpsc",
+      "concept_count": 4,
+      "mcq_count": 20,
+      "chapter_count": 4,
+      "concept_density": 5,
+      "difficulty_curve": {
+        "medium": 4
+      },
+      "bloom_distribution": {
+        "Understand": 4
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "forensic-medicine",
+      "subject_name": "Forensic Medicine",
+      "exam_ids": "",
+      "concept_count": 9,
+      "mcq_count": 5029,
+      "chapter_count": 2,
+      "concept_density": 558.78,
+      "difficulty_curve": {
+        "medium": 8,
+        "easy": 1
+      },
+      "bloom_distribution": {
+        "Apply": 9
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "forestry",
+      "subject_name": "Forestry",
+      "exam_ids": "ppsc,fpsc,nts,educators,etea",
+      "concept_count": 2,
+      "mcq_count": 17,
+      "chapter_count": 3,
+      "concept_density": 8.5,
+      "difficulty_curve": {
+        "medium": 2
+      },
+      "bloom_distribution": {
+        "Understand": 2
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "fpsc",
+      "subject_name": "FPSC (Federal Public Service Commission)",
+      "exam_ids": "fpsc",
+      "concept_count": 4,
+      "mcq_count": 4,
+      "chapter_count": 1,
+      "concept_density": 1,
+      "difficulty_curve": {
+        "medium": 4
+      },
+      "bloom_distribution": {
+        "Understand": 4
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "gat",
+      "subject_name": "GAT",
+      "exam_ids": "gat",
+      "concept_count": 3,
+      "mcq_count": 11,
+      "chapter_count": 3,
+      "concept_density": 3.67,
+      "difficulty_curve": {
+        "medium": 3
+      },
+      "bloom_distribution": {
+        "Understand": 3
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "general-anatomy",
+      "subject_name": "General Anatomy",
+      "exam_ids": "mdcat,fpsc,ppsc",
+      "concept_count": 4,
+      "mcq_count": 15,
+      "chapter_count": 3,
+      "concept_density": 3.75,
+      "difficulty_curve": {
+        "medium": 4
+      },
+      "bloom_distribution": {
+        "Understand": 4
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "general-knowledge",
+      "subject_name": "General Knowledge",
+      "exam_ids": "ppsc,fpsc,nts,ots,cts,pts,spsc,kppsc,ajkpsc,bpsc,css,pms,educators,police,army,navy,paf,fia,asf,motorway,railways,nadra,etea,nab,ib,mod,election-officer,pma,punjab-police,fia-inspector,anf,custom-exams,banking,lat,rescue-1122,lesco,mepco,hesco,sepco,ssgc,sngpl,pakistan-post,teaching,sst,est,headmaster,inspector,sub-inspector,custom-inspector,income-tax-inspector,assistant-director",
+      "concept_count": 17,
+      "mcq_count": 5086,
+      "chapter_count": 10,
+      "concept_density": 299.18,
+      "difficulty_curve": {
+        "easy": 10,
+        "medium": 7
+      },
+      "bloom_distribution": {
+        "Apply": 11,
+        "Understand": 6
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "geography",
+      "subject_name": "Geography",
+      "exam_ids": "ppsc,fpsc,nts,css,pms,educators",
+      "concept_count": 13,
+      "mcq_count": 5053,
+      "chapter_count": 6,
+      "concept_density": 388.69,
+      "difficulty_curve": {
+        "easy": 9,
+        "medium": 4
+      },
+      "bloom_distribution": {
+        "Apply": 6,
+        "Understand": 5,
+        "Recall": 2
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "git",
+      "subject_name": "Git",
+      "exam_ids": "",
+      "concept_count": 4,
+      "mcq_count": 5047,
+      "chapter_count": 1,
+      "concept_density": 1261.75,
+      "difficulty_curve": {
+        "medium": 4
+      },
+      "bloom_distribution": {
+        "Apply": 4
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "git-github",
+      "subject_name": "Git & GitHub",
+      "exam_ids": "ib,fpsc",
+      "concept_count": 7,
+      "mcq_count": 31,
+      "chapter_count": 4,
+      "concept_density": 4.43,
+      "difficulty_curve": {
+        "medium": 7
+      },
+      "bloom_distribution": {
+        "Understand": 7
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "github",
+      "subject_name": "GitHub",
+      "exam_ids": "",
+      "concept_count": 3,
+      "mcq_count": 5028,
+      "chapter_count": 1,
+      "concept_density": 1676,
+      "difficulty_curve": {
+        "medium": 3
+      },
+      "bloom_distribution": {
+        "Apply": 3
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "go",
+      "subject_name": "Go",
+      "exam_ids": "ib,fpsc",
+      "concept_count": 6,
+      "mcq_count": 8003,
+      "chapter_count": 4,
+      "concept_density": 1333.83,
+      "difficulty_curve": {
+        "medium": 6
+      },
+      "bloom_distribution": {
+        "Understand": 6
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "grammar",
+      "subject_name": "Grammar",
+      "exam_ids": "css,ppsc,fpsc,nts,ielts,toefl,sat",
+      "concept_count": 9,
+      "mcq_count": 5085,
+      "chapter_count": 5,
+      "concept_density": 565,
+      "difficulty_curve": {
+        "medium": 7,
+        "easy": 2
+      },
+      "bloom_distribution": {
+        "Apply": 8,
+        "Understand": 1
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "graphql",
+      "subject_name": "GraphQL",
+      "exam_ids": "ib,fpsc",
+      "concept_count": 4,
+      "mcq_count": 20,
+      "chapter_count": 4,
+      "concept_density": 5,
+      "difficulty_curve": {
+        "medium": 4
+      },
+      "bloom_distribution": {
+        "Understand": 4
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "gre",
+      "subject_name": "GRE",
+      "exam_ids": "gre",
+      "concept_count": 3,
+      "mcq_count": 11,
+      "chapter_count": 3,
+      "concept_density": 3.67,
+      "difficulty_curve": {
+        "medium": 2,
+        "easy": 1
+      },
+      "bloom_distribution": {
+        "Understand": 3
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "gynecology",
+      "subject_name": "Gynecology & Obstetrics",
+      "exam_ids": "",
+      "concept_count": 9,
+      "mcq_count": 5113,
+      "chapter_count": 2,
+      "concept_density": 568.11,
+      "difficulty_curve": {
+        "medium": 5,
+        "easy": 4
+      },
+      "bloom_distribution": {
+        "Apply": 8,
+        "Recall": 1
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "headmaster",
+      "subject_name": "Headmaster (School Leadership)",
+      "exam_ids": "headmaster",
+      "concept_count": 5,
+      "mcq_count": 17,
+      "chapter_count": 2,
+      "concept_density": 3.4,
+      "difficulty_curve": {
+        "medium": 5
+      },
+      "bloom_distribution": {
+        "Understand": 5
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "hesco",
+      "subject_name": "HESCO (Hyderabad Electric Supply Company)",
+      "exam_ids": "hesco",
+      "concept_count": 5,
+      "mcq_count": 15,
+      "chapter_count": 2,
+      "concept_density": 3,
+      "difficulty_curve": {
+        "medium": 5
+      },
+      "bloom_distribution": {
+        "Understand": 5
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "histology",
+      "subject_name": "Histology",
+      "exam_ids": "ppsc,fpsc,nts,educators,etea",
+      "concept_count": 4,
+      "mcq_count": 24,
+      "chapter_count": 4,
+      "concept_density": 6,
+      "difficulty_curve": {
+        "medium": 4
+      },
+      "bloom_distribution": {
+        "Understand": 4
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "history",
+      "subject_name": "World History",
+      "exam_ids": "ppsc,fpsc,nts,css,pms,educators",
+      "concept_count": 10,
+      "mcq_count": 5053,
+      "chapter_count": 4,
+      "concept_density": 505.3,
+      "difficulty_curve": {
+        "medium": 8,
+        "easy": 2
+      },
+      "bloom_distribution": {
+        "Apply": 7,
+        "Understand": 2,
+        "Recall": 1
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "hrm",
+      "subject_name": "HRM",
+      "exam_ids": "fpsc,ppsc,ib,banking",
+      "concept_count": 7,
+      "mcq_count": 5183,
+      "chapter_count": 6,
+      "concept_density": 740.43,
+      "difficulty_curve": {
+        "easy": 4,
+        "medium": 3
+      },
+      "bloom_distribution": {
+        "Apply": 6,
+        "Understand": 1
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "html",
+      "subject_name": "HTML",
+      "exam_ids": "ib,fpsc,nts",
+      "concept_count": 9,
+      "mcq_count": 5086,
+      "chapter_count": 6,
+      "concept_density": 565.11,
+      "difficulty_curve": {
+        "medium": 8,
+        "easy": 1
+      },
+      "bloom_distribution": {
+        "Apply": 5,
+        "Understand": 4
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "ib",
+      "subject_name": "IB (Intelligence Bureau)",
+      "exam_ids": "ib",
+      "concept_count": 4,
+      "mcq_count": 4,
+      "chapter_count": 1,
+      "concept_density": 1,
+      "difficulty_curve": {
+        "medium": 4
+      },
+      "bloom_distribution": {
+        "Understand": 4
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "idioms",
+      "subject_name": "Idioms & Phrases",
+      "exam_ids": "css,ppsc,fpsc,nts,ielts,sat",
+      "concept_count": 10,
+      "mcq_count": 5057,
+      "chapter_count": 4,
+      "concept_density": 505.7,
+      "difficulty_curve": {
+        "medium": 9,
+        "easy": 1
+      },
+      "bloom_distribution": {
+        "Apply": 7,
+        "Recall": 1,
+        "Understand": 2
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "ielts",
+      "subject_name": "IELTS",
+      "exam_ids": "ielts",
+      "concept_count": 2,
+      "mcq_count": 12,
+      "chapter_count": 3,
+      "concept_density": 6,
+      "difficulty_curve": {
+        "medium": 2
+      },
+      "bloom_distribution": {
+        "Understand": 2
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "income-tax-inspector",
+      "subject_name": "Income Tax Inspector (FBR)",
+      "exam_ids": "income-tax-inspector",
+      "concept_count": 6,
+      "mcq_count": 19,
+      "chapter_count": 2,
+      "concept_density": 3.17,
+      "difficulty_curve": {
+        "medium": 6
+      },
+      "bloom_distribution": {
+        "Understand": 6
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "industrial-eng",
+      "subject_name": "Industrial Engineering",
+      "exam_ids": "ppsc,fpsc,nts,etea",
+      "concept_count": 8,
+      "mcq_count": 5152,
+      "chapter_count": 5,
+      "concept_density": 644,
+      "difficulty_curve": {
+        "easy": 5,
+        "medium": 3
+      },
+      "bloom_distribution": {
+        "Apply": 7,
+        "Understand": 1
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "inspector",
+      "subject_name": "Inspector (General Duty)",
+      "exam_ids": "inspector",
+      "concept_count": 5,
+      "mcq_count": 18,
+      "chapter_count": 2,
+      "concept_density": 3.6,
+      "difficulty_curve": {
+        "medium": 5
+      },
+      "bloom_distribution": {
+        "Understand": 5
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "international-relations",
+      "subject_name": "International Relations",
+      "exam_ids": "ppsc,fpsc,nts,css,pms",
+      "concept_count": 11,
+      "mcq_count": 5111,
+      "chapter_count": 7,
+      "concept_density": 464.64,
+      "difficulty_curve": {
+        "medium": 10,
+        "easy": 1
+      },
+      "bloom_distribution": {
+        "Apply": 8,
+        "Understand": 3
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "iq",
+      "subject_name": "IQ & Aptitude",
+      "exam_ids": "nts,ots,cts,pts,fpsc,ppsc,police,pma,issb,punjab-police,rescue-1122,lesco,mepco,hesco,sepco,ssgc,sngpl,pakistan-post,inspector,sub-inspector,assistant-director",
+      "concept_count": 6,
+      "mcq_count": 5246,
+      "chapter_count": 4,
+      "concept_density": 874.33,
+      "difficulty_curve": {
+        "medium": 5,
+        "easy": 1
+      },
+      "bloom_distribution": {
+        "Understand": 6
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "islamic-studies",
+      "subject_name": "Islamic Studies",
+      "exam_ids": "ppsc,fpsc,nts,ots,cts,pts,spsc,kppsc,ajkpsc,bpsc,css,pms,educators,police,army,navy,paf,fia,asf,motorway,railways,nadra,etea,election-officer,anf,custom-exams,lecturer,lat,rescue-1122,lesco,mepco,hesco,sepco,ssgc,sngpl,pakistan-post,teaching,sst,est,headmaster,inspector,sub-inspector,custom-inspector,income-tax-inspector,assistant-director",
+      "concept_count": 31,
+      "mcq_count": 5271,
+      "chapter_count": 12,
+      "concept_density": 170.03,
+      "difficulty_curve": {
+        "medium": 29,
+        "easy": 2
+      },
+      "bloom_distribution": {
+        "Apply": 16,
+        "Understand": 14,
+        "Recall": 1
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "issb",
+      "subject_name": "ISSB (Inter Services Selection Board)",
+      "exam_ids": "issb",
+      "concept_count": 4,
+      "mcq_count": 4,
+      "chapter_count": 1,
+      "concept_density": 1,
+      "difficulty_curve": {
+        "medium": 4
+      },
+      "bloom_distribution": {
+        "Understand": 4
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "java",
+      "subject_name": "Java",
+      "exam_ids": "ib,fpsc,nts",
+      "concept_count": 7,
+      "mcq_count": 5100,
+      "chapter_count": 5,
+      "concept_density": 728.57,
+      "difficulty_curve": {
+        "medium": 7
+      },
+      "bloom_distribution": {
+        "Understand": 7
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "javascript",
+      "subject_name": "JavaScript",
+      "exam_ids": "ib,fpsc,nts",
+      "concept_count": 8,
+      "mcq_count": 5101,
+      "chapter_count": 5,
+      "concept_density": 637.63,
+      "difficulty_curve": {
+        "medium": 8
+      },
+      "bloom_distribution": {
+        "Understand": 8
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "kppsc",
+      "subject_name": "KPPSC (Khyber Pakhtunkhwa PSC)",
+      "exam_ids": "kppsc",
+      "concept_count": 8,
+      "mcq_count": 51,
+      "chapter_count": 2,
+      "concept_density": 6.38,
+      "difficulty_curve": {
+        "medium": 8
+      },
+      "bloom_distribution": {
+        "Understand": 8
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "kubernetes",
+      "subject_name": "Kubernetes",
+      "exam_ids": "ib,fpsc",
+      "concept_count": 9,
+      "mcq_count": 5018,
+      "chapter_count": 5,
+      "concept_density": 557.56,
+      "difficulty_curve": {
+        "medium": 8,
+        "easy": 1
+      },
+      "bloom_distribution": {
+        "Apply": 5,
+        "Understand": 4
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "laravel",
+      "subject_name": "Laravel",
+      "exam_ids": "ib,fpsc",
+      "concept_count": 8,
+      "mcq_count": 5018,
+      "chapter_count": 5,
+      "concept_density": 627.25,
+      "difficulty_curve": {
+        "medium": 7,
+        "easy": 1
+      },
+      "bloom_distribution": {
+        "Apply": 5,
+        "Understand": 3
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "lat",
+      "subject_name": "LAT",
+      "exam_ids": "lat",
+      "concept_count": 7,
+      "mcq_count": 65,
+      "chapter_count": 4,
+      "concept_density": 9.29,
+      "difficulty_curve": {
+        "medium": 7
+      },
+      "bloom_distribution": {
+        "Understand": 7
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "law",
+      "subject_name": "Law",
+      "exam_ids": "ppsc,fpsc,nts,css,pms,police,fia,nab,ib,mod,fia-inspector,fbr,lat,inspector,sub-inspector,custom-inspector,income-tax-inspector,assistant-director",
+      "concept_count": 12,
+      "mcq_count": 5112,
+      "chapter_count": 7,
+      "concept_density": 426,
+      "difficulty_curve": {
+        "medium": 10,
+        "easy": 2
+      },
+      "bloom_distribution": {
+        "Apply": 9,
+        "Recall": 2,
+        "Understand": 1
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "lecturer",
+      "subject_name": "Lecturer (Subject Specialist)",
+      "exam_ids": "lecturer",
+      "concept_count": 4,
+      "mcq_count": 4,
+      "chapter_count": 1,
+      "concept_density": 1,
+      "difficulty_curve": {
+        "medium": 4
+      },
+      "bloom_distribution": {
+        "Understand": 4
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "lesco",
+      "subject_name": "LESCO (Lahore Electric Supply Company)",
+      "exam_ids": "lesco",
+      "concept_count": 4,
+      "mcq_count": 14,
+      "chapter_count": 2,
+      "concept_density": 3.5,
+      "difficulty_curve": {
+        "medium": 4
+      },
+      "bloom_distribution": {
+        "Understand": 4
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "linux",
+      "subject_name": "Linux",
+      "exam_ids": "ib,fpsc,nts",
+      "concept_count": 9,
+      "mcq_count": 5037,
+      "chapter_count": 6,
+      "concept_density": 559.67,
+      "difficulty_curve": {
+        "medium": 8,
+        "easy": 1
+      },
+      "bloom_distribution": {
+        "Apply": 5,
+        "Understand": 4
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "logical-reasoning",
+      "subject_name": "Logical Reasoning",
+      "exam_ids": "nts,css,pms,gat,gre,issb,punjab-police,mdcat,inspector,sub-inspector,assistant-director",
+      "concept_count": 8,
+      "mcq_count": 279,
+      "chapter_count": 6,
+      "concept_density": 34.88,
+      "difficulty_curve": {
+        "medium": 8
+      },
+      "bloom_distribution": {
+        "Understand": 8
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "machine-learning",
+      "subject_name": "Machine Learning",
+      "exam_ids": "ib,fpsc,ppsc",
+      "concept_count": 13,
+      "mcq_count": 5333,
+      "chapter_count": 6,
+      "concept_density": 410.23,
+      "difficulty_curve": {
+        "medium": 12,
+        "easy": 1
+      },
+      "bloom_distribution": {
+        "Apply": 8,
+        "Understand": 4,
+        "Recall": 1
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "management",
+      "subject_name": "Management",
+      "exam_ids": "",
+      "concept_count": 6,
+      "mcq_count": 5269,
+      "chapter_count": 2,
+      "concept_density": 878.17,
+      "difficulty_curve": {
+        "medium": 4,
+        "easy": 2
+      },
+      "bloom_distribution": {
+        "Apply": 6
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "management-accounting",
+      "subject_name": "Management Accounting",
+      "exam_ids": "",
+      "concept_count": 9,
+      "mcq_count": 5759,
+      "chapter_count": 2,
+      "concept_density": 639.89,
+      "difficulty_curve": {
+        "medium": 7,
+        "easy": 2
+      },
+      "bloom_distribution": {
+        "Apply": 8,
+        "Recall": 1
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "marketing",
+      "subject_name": "Marketing",
+      "exam_ids": "fpsc,ppsc,ib,banking",
+      "concept_count": 7,
+      "mcq_count": 5337,
+      "chapter_count": 6,
+      "concept_density": 762.43,
+      "difficulty_curve": {
+        "easy": 4,
+        "medium": 3
+      },
+      "bloom_distribution": {
+        "Apply": 6,
+        "Understand": 1
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "mathematics",
+      "subject_name": "Mathematics",
+      "exam_ids": "ppsc,fpsc,nts,ots,cts,pts,spsc,kppsc,ajkpsc,bpsc,educators,police,fia,asf,motorway,railways,nab,ib,mod,election-officer,wapda,custom-exams,lecturer,anf,banking,pms,rescue-1122,lesco,mepco,hesco,sepco,ssgc,sngpl,pakistan-post,teaching,sst,est,headmaster,inspector,sub-inspector,custom-inspector,income-tax-inspector,assistant-director",
+      "concept_count": 21,
+      "mcq_count": 115332,
+      "chapter_count": 6,
+      "concept_density": 5492,
+      "difficulty_curve": {
+        "medium": 17,
+        "easy": 4
+      },
+      "bloom_distribution": {
+        "Understand": 21
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "mbbs",
+      "subject_name": "MBBS",
+      "exam_ids": "mdcat,fpsc",
+      "concept_count": 2,
+      "mcq_count": 15,
+      "chapter_count": 3,
+      "concept_density": 7.5,
+      "difficulty_curve": {
+        "medium": 2
+      },
+      "bloom_distribution": {
+        "Understand": 2
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "mdcat",
+      "subject_name": "MDCAT",
+      "exam_ids": "mdcat",
+      "concept_count": 8,
+      "mcq_count": 85,
+      "chapter_count": 4,
+      "concept_density": 10.63,
+      "difficulty_curve": {
+        "medium": 8
+      },
+      "bloom_distribution": {
+        "Understand": 8
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "mechanical-eng",
+      "subject_name": "Mechanical Engineering",
+      "exam_ids": "ppsc,fpsc,nts,etea,railways,army,navy,paf,wapda",
+      "concept_count": 9,
+      "mcq_count": 5265,
+      "chapter_count": 5,
+      "concept_density": 585,
+      "difficulty_curve": {
+        "medium": 8,
+        "easy": 1
+      },
+      "bloom_distribution": {
+        "Apply": 7,
+        "Understand": 2
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "mechatronics",
+      "subject_name": "Mechatronics",
+      "exam_ids": "ppsc,fpsc,nts,etea,army,navy,paf",
+      "concept_count": 7,
+      "mcq_count": 5176,
+      "chapter_count": 5,
+      "concept_density": 739.43,
+      "difficulty_curve": {
+        "medium": 6,
+        "easy": 1
+      },
+      "bloom_distribution": {
+        "Apply": 6,
+        "Understand": 1
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "medical",
+      "subject_name": "Medical Sciences",
+      "exam_ids": "ppsc,fpsc,nts,educators",
+      "concept_count": 9,
+      "mcq_count": 5272,
+      "chapter_count": 5,
+      "concept_density": 585.78,
+      "difficulty_curve": {
+        "easy": 8,
+        "medium": 1
+      },
+      "bloom_distribution": {
+        "Apply": 6,
+        "Recall": 2,
+        "Understand": 1
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "medicine",
+      "subject_name": "Medicine",
+      "exam_ids": "ppsc,fpsc,nts,educators,etea",
+      "concept_count": 10,
+      "mcq_count": 5160,
+      "chapter_count": 5,
+      "concept_density": 516,
+      "difficulty_curve": {
+        "medium": 5,
+        "easy": 5
+      },
+      "bloom_distribution": {
+        "Apply": 5,
+        "Recall": 4,
+        "Understand": 1
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "mepco",
+      "subject_name": "MEPCO (Multan Electric Power Company)",
+      "exam_ids": "mepco",
+      "concept_count": 5,
+      "mcq_count": 14,
+      "chapter_count": 2,
+      "concept_density": 2.8,
+      "difficulty_curve": {
+        "medium": 5
+      },
+      "bloom_distribution": {
+        "Understand": 5
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "microbiology",
+      "subject_name": "Microbiology",
+      "exam_ids": "ppsc,fpsc,nts,educators,etea",
+      "concept_count": 10,
+      "mcq_count": 5081,
+      "chapter_count": 5,
+      "concept_density": 508.1,
+      "difficulty_curve": {
+        "medium": 8,
+        "easy": 2
+      },
+      "bloom_distribution": {
+        "Apply": 8,
+        "Recall": 1,
+        "Understand": 1
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "mining-engineering",
+      "subject_name": "Mining Engineering",
+      "exam_ids": "",
+      "concept_count": 4,
+      "mcq_count": 5085,
+      "chapter_count": 1,
+      "concept_density": 1271.25,
+      "difficulty_curve": {
+        "easy": 4
+      },
+      "bloom_distribution": {
+        "Apply": 4
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "mobile-development",
+      "subject_name": "Mobile Development",
+      "exam_ids": "",
+      "concept_count": 7,
+      "mcq_count": 5020,
+      "chapter_count": 2,
+      "concept_density": 717.14,
+      "difficulty_curve": {
+        "easy": 5,
+        "medium": 2
+      },
+      "bloom_distribution": {
+        "Apply": 7
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "mod",
+      "subject_name": "MOD (Ministry of Defence)",
+      "exam_ids": "mod",
+      "concept_count": 6,
+      "mcq_count": 18,
+      "chapter_count": 2,
+      "concept_density": 3,
+      "difficulty_curve": {
+        "medium": 6
+      },
+      "bloom_distribution": {
+        "Understand": 6
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "mongodb",
+      "subject_name": "MongoDB",
+      "exam_ids": "",
+      "concept_count": 7,
+      "mcq_count": 5039,
+      "chapter_count": 2,
+      "concept_density": 719.86,
+      "difficulty_curve": {
+        "easy": 5,
+        "medium": 2
+      },
+      "bloom_distribution": {
+        "Apply": 7
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "motorway-police",
+      "subject_name": "Motorway Police (NH&MP)",
+      "exam_ids": "motorway",
+      "concept_count": 6,
+      "mcq_count": 20,
+      "chapter_count": 2,
+      "concept_density": 3.33,
+      "difficulty_curve": {
+        "medium": 6
+      },
+      "bloom_distribution": {
+        "Understand": 6
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "ms-office",
+      "subject_name": "Microsoft Office",
+      "exam_ids": "ppsc,fpsc,nts,ots,cts,pts,police,fia,asf,motorway,railways,nadra,nab,ib,mod,rescue-1122,lesco,mepco,hesco,sepco,ssgc,sngpl,pakistan-post,inspector,sub-inspector,assistant-director",
+      "concept_count": 8,
+      "mcq_count": 34,
+      "chapter_count": 5,
+      "concept_density": 4.25,
+      "difficulty_curve": {
+        "medium": 5,
+        "easy": 3
+      },
+      "bloom_distribution": {
+        "Understand": 8
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "nab",
+      "subject_name": "NAB (National Accountability Bureau)",
+      "exam_ids": "nab",
+      "concept_count": 4,
+      "mcq_count": 4,
+      "chapter_count": 1,
+      "concept_density": 1,
+      "difficulty_curve": {
+        "medium": 4
+      },
+      "bloom_distribution": {
+        "Understand": 4
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "nadra",
+      "subject_name": "NADRA (National Database & Registration Authority)",
+      "exam_ids": "nadra",
+      "concept_count": 6,
+      "mcq_count": 15,
+      "chapter_count": 2,
+      "concept_density": 2.5,
+      "difficulty_curve": {
+        "medium": 6
+      },
+      "bloom_distribution": {
+        "Understand": 6
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "navy",
+      "subject_name": "Pakistan Navy (Recruitment)",
+      "exam_ids": "navy",
+      "concept_count": 7,
+      "mcq_count": 29,
+      "chapter_count": 2,
+      "concept_density": 4.14,
+      "difficulty_curve": {
+        "medium": 7
+      },
+      "bloom_distribution": {
+        "Understand": 7
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "networking",
+      "subject_name": "Networking",
+      "exam_ids": "ppsc,fpsc,nts,educators,nab,ib,mod",
+      "concept_count": 7,
+      "mcq_count": 5018,
+      "chapter_count": 4,
+      "concept_density": 716.86,
+      "difficulty_curve": {
+        "medium": 6,
+        "easy": 1
+      },
+      "bloom_distribution": {
+        "Apply": 5,
+        "Understand": 2
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "next-js",
+      "subject_name": "Next.js",
+      "exam_ids": "ib,fpsc",
+      "concept_count": 6,
+      "mcq_count": 21,
+      "chapter_count": 4,
+      "concept_density": 3.5,
+      "difficulty_curve": {
+        "medium": 6
+      },
+      "bloom_distribution": {
+        "Understand": 6
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "node-js",
+      "subject_name": "Node.js",
+      "exam_ids": "ib,fpsc",
+      "concept_count": 8,
+      "mcq_count": 5291,
+      "chapter_count": 4,
+      "concept_density": 661.38,
+      "difficulty_curve": {
+        "medium": 6,
+        "easy": 2
+      },
+      "bloom_distribution": {
+        "Apply": 6,
+        "Understand": 2
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "non-verbal-reasoning",
+      "subject_name": "Non-Verbal Reasoning",
+      "exam_ids": "nts,pma,issb,police",
+      "concept_count": 7,
+      "mcq_count": 342,
+      "chapter_count": 5,
+      "concept_density": 48.86,
+      "difficulty_curve": {
+        "medium": 7
+      },
+      "bloom_distribution": {
+        "Understand": 7
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "nosql",
+      "subject_name": "NoSQL Databases",
+      "exam_ids": "",
+      "concept_count": 4,
+      "mcq_count": 5043,
+      "chapter_count": 1,
+      "concept_density": 1260.75,
+      "difficulty_curve": {
+        "easy": 4
+      },
+      "bloom_distribution": {
+        "Apply": 4
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "nts",
+      "subject_name": "NTS (National Testing Service)",
+      "exam_ids": "nts",
+      "concept_count": 4,
+      "mcq_count": 4,
+      "chapter_count": 1,
+      "concept_density": 1,
+      "difficulty_curve": {
+        "medium": 4
+      },
+      "bloom_distribution": {
+        "Understand": 4
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "nursing",
+      "subject_name": "Nursing",
+      "exam_ids": "ppsc,fpsc,nts,educators",
+      "concept_count": 8,
+      "mcq_count": 5202,
+      "chapter_count": 4,
+      "concept_density": 650.25,
+      "difficulty_curve": {
+        "medium": 8
+      },
+      "bloom_distribution": {
+        "Apply": 7,
+        "Understand": 1
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "nutrition",
+      "subject_name": "Nutrition & Dietetics",
+      "exam_ids": "",
+      "concept_count": 5,
+      "mcq_count": 5002,
+      "chapter_count": 1,
+      "concept_density": 1000.4,
+      "difficulty_curve": {
+        "easy": 5
+      },
+      "bloom_distribution": {
+        "Apply": 5
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "operating-systems",
+      "subject_name": "Operating Systems",
+      "exam_ids": "ppsc,fpsc,nts,educators,nab,ib,mod",
+      "concept_count": 8,
+      "mcq_count": 5052,
+      "chapter_count": 4,
+      "concept_density": 631.5,
+      "difficulty_curve": {
+        "medium": 7,
+        "easy": 1
+      },
+      "bloom_distribution": {
+        "Apply": 6,
+        "Understand": 2
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "ophthalmology",
+      "subject_name": "Ophthalmology",
+      "exam_ids": "",
+      "concept_count": 7,
+      "mcq_count": 5039,
+      "chapter_count": 2,
+      "concept_density": 719.86,
+      "difficulty_curve": {
+        "medium": 6,
+        "easy": 1
+      },
+      "bloom_distribution": {
+        "Apply": 7
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "oral-anatomy",
+      "subject_name": "Oral Anatomy",
+      "exam_ids": "mdcat,fpsc",
+      "concept_count": 11,
+      "mcq_count": 5088,
+      "chapter_count": 6,
+      "concept_density": 462.55,
+      "difficulty_curve": {
+        "medium": 8,
+        "easy": 3
+      },
+      "bloom_distribution": {
+        "Apply": 8,
+        "Understand": 3
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "oral-histology",
+      "subject_name": "Oral Histology",
+      "exam_ids": "mdcat,fpsc",
+      "concept_count": 6,
+      "mcq_count": 5102,
+      "chapter_count": 5,
+      "concept_density": 850.33,
+      "difficulty_curve": {
+        "easy": 4,
+        "medium": 2
+      },
+      "bloom_distribution": {
+        "Apply": 4,
+        "Understand": 2
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "oral-pathology",
+      "subject_name": "Oral Pathology",
+      "exam_ids": "mdcat,fpsc",
+      "concept_count": 5,
+      "mcq_count": 5073,
+      "chapter_count": 4,
+      "concept_density": 1014.6,
+      "difficulty_curve": {
+        "easy": 4,
+        "medium": 1
+      },
+      "bloom_distribution": {
+        "Apply": 4,
+        "Understand": 1
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "organization-behavior",
+      "subject_name": "Organizational Behaviour",
+      "exam_ids": "",
+      "concept_count": 9,
+      "mcq_count": 5037,
+      "chapter_count": 3,
+      "concept_density": 559.67,
+      "difficulty_curve": {
+        "medium": 7,
+        "easy": 2
+      },
+      "bloom_distribution": {
+        "Apply": 8,
+        "Recall": 1
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "ots",
+      "subject_name": "OTS (Open Testing Service)",
+      "exam_ids": "ots",
+      "concept_count": 4,
+      "mcq_count": 4,
+      "chapter_count": 1,
+      "concept_density": 1,
+      "difficulty_curve": {
+        "medium": 4
+      },
+      "bloom_distribution": {
+        "Understand": 4
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "paf",
+      "subject_name": "Pakistan Air Force (Recruitment)",
+      "exam_ids": "paf",
+      "concept_count": 7,
+      "mcq_count": 29,
+      "chapter_count": 2,
+      "concept_density": 4.14,
+      "difficulty_curve": {
+        "medium": 7
+      },
+      "bloom_distribution": {
+        "Understand": 7
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "pakistan-affairs",
+      "subject_name": "Pakistan Affairs",
+      "exam_ids": "ppsc,fpsc,nts,ots,cts,pts,spsc,kppsc,ajkpsc,bpsc,css,pms,educators,police,army,navy,paf,fia,asf,motorway,railways,nadra,etea,nab,ib,mod,election-officer,punjab-police,custom-exams,lecturer,anf,fia-inspector,banking,lat,rescue-1122,lesco,mepco,hesco,sepco,ssgc,sngpl,pakistan-post,teaching,sst,est,headmaster,inspector,sub-inspector,custom-inspector,income-tax-inspector,assistant-director",
+      "concept_count": 36,
+      "mcq_count": 5261,
+      "chapter_count": 14,
+      "concept_density": 146.14,
+      "difficulty_curve": {
+        "medium": 33,
+        "easy": 2,
+        "hard": 1
+      },
+      "bloom_distribution": {
+        "Apply": 18,
+        "Understand": 16,
+        "Recall": 2
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "pakistan-history",
+      "subject_name": "Pakistan History",
+      "exam_ids": "css,pms,ppsc,fpsc,nts",
+      "concept_count": 12,
+      "mcq_count": 5066,
+      "chapter_count": 6,
+      "concept_density": 422.17,
+      "difficulty_curve": {
+        "easy": 8,
+        "medium": 4
+      },
+      "bloom_distribution": {
+        "Apply": 8,
+        "Understand": 4
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "pakistan-post",
+      "subject_name": "Pakistan Post (GPO)",
+      "exam_ids": "pakistan-post",
+      "concept_count": 5,
+      "mcq_count": 19,
+      "chapter_count": 2,
+      "concept_density": 3.8,
+      "difficulty_curve": {
+        "medium": 5
+      },
+      "bloom_distribution": {
+        "Understand": 5
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "pathology",
+      "subject_name": "Pathology",
+      "exam_ids": "ppsc,fpsc,nts,educators,etea",
+      "concept_count": 10,
+      "mcq_count": 5110,
+      "chapter_count": 5,
+      "concept_density": 511,
+      "difficulty_curve": {
+        "medium": 5,
+        "easy": 5
+      },
+      "bloom_distribution": {
+        "Apply": 5,
+        "Recall": 4,
+        "Understand": 1
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "pedagogy",
+      "subject_name": "Pedagogy",
+      "exam_ids": "ppsc,fpsc,nts,educators,police,etea,lecturer,teaching,sst,est,headmaster",
+      "concept_count": 2,
+      "mcq_count": 31,
+      "chapter_count": 7,
+      "concept_density": 15.5,
+      "difficulty_curve": {
+        "medium": 2
+      },
+      "bloom_distribution": {
+        "Understand": 2
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "pediatrics",
+      "subject_name": "Pediatrics",
+      "exam_ids": "",
+      "concept_count": 6,
+      "mcq_count": 5092,
+      "chapter_count": 1,
+      "concept_density": 848.67,
+      "difficulty_curve": {
+        "easy": 6
+      },
+      "bloom_distribution": {
+        "Apply": 5,
+        "Recall": 1
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "petroleum-engineering",
+      "subject_name": "Petroleum Engineering",
+      "exam_ids": "",
+      "concept_count": 8,
+      "mcq_count": 5147,
+      "chapter_count": 2,
+      "concept_density": 643.38,
+      "difficulty_curve": {
+        "medium": 7,
+        "easy": 1
+      },
+      "bloom_distribution": {
+        "Apply": 8
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "pharmacology",
+      "subject_name": "Pharmacology",
+      "exam_ids": "mdcat,fpsc,ppsc",
+      "concept_count": 9,
+      "mcq_count": 5160,
+      "chapter_count": 7,
+      "concept_density": 573.33,
+      "difficulty_curve": {
+        "medium": 5,
+        "easy": 4
+      },
+      "bloom_distribution": {
+        "Apply": 8,
+        "Understand": 1
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "pharmacy",
+      "subject_name": "Pharmacy",
+      "exam_ids": "ppsc,fpsc,nts,educators",
+      "concept_count": 8,
+      "mcq_count": 5153,
+      "chapter_count": 3,
+      "concept_density": 644.13,
+      "difficulty_curve": {
+        "hard": 7,
+        "medium": 1
+      },
+      "bloom_distribution": {
+        "Apply": 7,
+        "Understand": 1
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "php",
+      "subject_name": "PHP",
+      "exam_ids": "ib,fpsc,nts",
+      "concept_count": 7,
+      "mcq_count": 5097,
+      "chapter_count": 4,
+      "concept_density": 728.14,
+      "difficulty_curve": {
+        "medium": 7
+      },
+      "bloom_distribution": {
+        "Understand": 7
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "physical-education",
+      "subject_name": "Physical Education",
+      "exam_ids": "ppsc,fpsc,nts,educators,etea",
+      "concept_count": 3,
+      "mcq_count": 18,
+      "chapter_count": 3,
+      "concept_density": 6,
+      "difficulty_curve": {
+        "medium": 3
+      },
+      "bloom_distribution": {
+        "Understand": 3
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "physics",
+      "subject_name": "Physics",
+      "exam_ids": "ppsc,fpsc,nts,educators,police,army,navy,paf,etea,lecturer,mdcat",
+      "concept_count": 3,
+      "mcq_count": 9326,
+      "chapter_count": 8,
+      "concept_density": 3108.67,
+      "difficulty_curve": {
+        "medium": 3
+      },
+      "bloom_distribution": {
+        "Understand": 3
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "physiology",
+      "subject_name": "Physiology",
+      "exam_ids": "ppsc,fpsc,nts,educators,etea",
+      "concept_count": 9,
+      "mcq_count": 5101,
+      "chapter_count": 5,
+      "concept_density": 566.78,
+      "difficulty_curve": {
+        "medium": 7,
+        "easy": 2
+      },
+      "bloom_distribution": {
+        "Apply": 7,
+        "Recall": 1,
+        "Understand": 1
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "pma",
+      "subject_name": "PMA (Pakistan Military Academy)",
+      "exam_ids": "pma",
+      "concept_count": 7,
+      "mcq_count": 28,
+      "chapter_count": 2,
+      "concept_density": 4,
+      "difficulty_curve": {
+        "medium": 7
+      },
+      "bloom_distribution": {
+        "Understand": 7
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "pms",
+      "subject_name": "PMS (Provincial Management Services)",
+      "exam_ids": "pms",
+      "concept_count": 4,
+      "mcq_count": 4,
+      "chapter_count": 1,
+      "concept_density": 1,
+      "difficulty_curve": {
+        "medium": 4
+      },
+      "bloom_distribution": {
+        "Understand": 4
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "police",
+      "subject_name": "Police (Recruitment)",
+      "exam_ids": "police",
+      "concept_count": 4,
+      "mcq_count": 4,
+      "chapter_count": 1,
+      "concept_density": 1,
+      "difficulty_curve": {
+        "medium": 4
+      },
+      "bloom_distribution": {
+        "Understand": 4
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "political-science",
+      "subject_name": "Political Science",
+      "exam_ids": "ppsc,fpsc,nts,css,pms",
+      "concept_count": 10,
+      "mcq_count": 5056,
+      "chapter_count": 5,
+      "concept_density": 505.6,
+      "difficulty_curve": {
+        "medium": 8,
+        "easy": 2
+      },
+      "bloom_distribution": {
+        "Apply": 7,
+        "Recall": 2,
+        "Understand": 1
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "postgresql",
+      "subject_name": "PostgreSQL",
+      "exam_ids": "",
+      "concept_count": 7,
+      "mcq_count": 5064,
+      "chapter_count": 2,
+      "concept_density": 723.43,
+      "difficulty_curve": {
+        "easy": 5,
+        "medium": 2
+      },
+      "bloom_distribution": {
+        "Apply": 7
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "ppsc",
+      "subject_name": "PPSC (Punjab Public Service Commission)",
+      "exam_ids": "ppsc",
+      "concept_count": 4,
+      "mcq_count": 4,
+      "chapter_count": 1,
+      "concept_density": 1,
+      "difficulty_curve": {
+        "medium": 4
+      },
+      "bloom_distribution": {
+        "Understand": 4
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "programming",
+      "subject_name": "Programming",
+      "exam_ids": "ppsc,fpsc,nts,educators,nab,ib,mod,wapda",
+      "concept_count": 5,
+      "mcq_count": 40,
+      "chapter_count": 6,
+      "concept_density": 8,
+      "difficulty_curve": {
+        "medium": 2,
+        "easy": 3
+      },
+      "bloom_distribution": {
+        "Understand": 5
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "programming-fundamentals",
+      "subject_name": "Programming Fundamentals",
+      "exam_ids": "",
+      "concept_count": 8,
+      "mcq_count": 5008,
+      "chapter_count": 2,
+      "concept_density": 626,
+      "difficulty_curve": {
+        "medium": 6,
+        "easy": 2
+      },
+      "bloom_distribution": {
+        "Apply": 8
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "project-management",
+      "subject_name": "Project Management",
+      "exam_ids": "",
+      "concept_count": 7,
+      "mcq_count": 5021,
+      "chapter_count": 2,
+      "concept_density": 717.29,
+      "difficulty_curve": {
+        "easy": 5,
+        "medium": 2
+      },
+      "bloom_distribution": {
+        "Apply": 7
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "psychology",
+      "subject_name": "Psychology",
+      "exam_ids": "ppsc,fpsc,nts,educators,issb,lecturer,pms,teaching,sst,est,headmaster",
+      "concept_count": 9,
+      "mcq_count": 5073,
+      "chapter_count": 5,
+      "concept_density": 563.67,
+      "difficulty_curve": {
+        "easy": 8,
+        "medium": 1
+      },
+      "bloom_distribution": {
+        "Apply": 6,
+        "Recall": 2,
+        "Understand": 1
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "pts",
+      "subject_name": "PTS (Pakistan Testing Service)",
+      "exam_ids": "pts",
+      "concept_count": 4,
+      "mcq_count": 4,
+      "chapter_count": 1,
+      "concept_density": 1,
+      "difficulty_curve": {
+        "medium": 4
+      },
+      "bloom_distribution": {
+        "Understand": 4
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "public-health",
+      "subject_name": "Public Health",
+      "exam_ids": "",
+      "concept_count": 7,
+      "mcq_count": 5379,
+      "chapter_count": 2,
+      "concept_density": 768.43,
+      "difficulty_curve": {
+        "easy": 6,
+        "medium": 1
+      },
+      "bloom_distribution": {
+        "Apply": 6,
+        "Recall": 1
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "punjab-police",
+      "subject_name": "Punjab Police (Recruitment)",
+      "exam_ids": "punjab-police",
+      "concept_count": 7,
+      "mcq_count": 29,
+      "chapter_count": 2,
+      "concept_density": 4.14,
+      "difficulty_curve": {
+        "medium": 7
+      },
+      "bloom_distribution": {
+        "Understand": 7
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "python",
+      "subject_name": "Python",
+      "exam_ids": "ib,fpsc,nts",
+      "concept_count": 7,
+      "mcq_count": 5113,
+      "chapter_count": 5,
+      "concept_density": 730.43,
+      "difficulty_curve": {
+        "medium": 7
+      },
+      "bloom_distribution": {
+        "Understand": 7
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "railway",
+      "subject_name": "Railways (Recruitment)",
+      "exam_ids": "railways",
+      "concept_count": 4,
+      "mcq_count": 4,
+      "chapter_count": 1,
+      "concept_density": 1,
+      "difficulty_curve": {
+        "medium": 4
+      },
+      "bloom_distribution": {
+        "Understand": 4
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "react",
+      "subject_name": "React",
+      "exam_ids": "ib,fpsc,nts",
+      "concept_count": 8,
+      "mcq_count": 5012,
+      "chapter_count": 7,
+      "concept_density": 626.5,
+      "difficulty_curve": {
+        "medium": 7,
+        "easy": 1
+      },
+      "bloom_distribution": {
+        "Apply": 5,
+        "Understand": 3
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "reasoning",
+      "subject_name": "Reasoning & IQ",
+      "exam_ids": "ppsc,fpsc,nts,ots,cts,pts,police,army,navy,paf,fia,asf,motorway,railways,nab,ib,mod,election-officer,nadra,rescue-1122,lesco,mepco,hesco,sepco,ssgc,sngpl,pakistan-post,inspector,sub-inspector,assistant-director",
+      "concept_count": 6,
+      "mcq_count": 31,
+      "chapter_count": 5,
+      "concept_density": 5.17,
+      "difficulty_curve": {
+        "medium": 5,
+        "easy": 1
+      },
+      "bloom_distribution": {
+        "Understand": 6
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "rescue-1122",
+      "subject_name": "Rescue 1122 (Emergency Services)",
+      "exam_ids": "rescue-1122",
+      "concept_count": 5,
+      "mcq_count": 19,
+      "chapter_count": 2,
+      "concept_density": 3.8,
+      "difficulty_curve": {
+        "medium": 5
+      },
+      "bloom_distribution": {
+        "Understand": 5
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "rest-api",
+      "subject_name": "REST API",
+      "exam_ids": "ib,fpsc",
+      "concept_count": 5,
+      "mcq_count": 17,
+      "chapter_count": 3,
+      "concept_density": 3.4,
+      "difficulty_curve": {
+        "medium": 4,
+        "easy": 1
+      },
+      "bloom_distribution": {
+        "Understand": 5
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "rust",
+      "subject_name": "Rust",
+      "exam_ids": "ib,fpsc",
+      "concept_count": 7,
+      "mcq_count": 9477,
+      "chapter_count": 4,
+      "concept_density": 1353.86,
+      "difficulty_curve": {
+        "medium": 7
+      },
+      "bloom_distribution": {
+        "Understand": 7
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "sat",
+      "subject_name": "SAT",
+      "exam_ids": "sat",
+      "concept_count": 3,
+      "mcq_count": 11,
+      "chapter_count": 3,
+      "concept_density": 3.67,
+      "difficulty_curve": {
+        "medium": 3
+      },
+      "bloom_distribution": {
+        "Understand": 3
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "sbp",
+      "subject_name": "SBP (State Bank of Pakistan)",
+      "exam_ids": "sbp",
+      "concept_count": 6,
+      "mcq_count": 20,
+      "chapter_count": 2,
+      "concept_density": 3.33,
+      "difficulty_curve": {
+        "medium": 6
+      },
+      "bloom_distribution": {
+        "Understand": 6
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "sentence-correction",
+      "subject_name": "Sentence Correction",
+      "exam_ids": "css,ppsc,fpsc,nts,sat",
+      "concept_count": 8,
+      "mcq_count": 5052,
+      "chapter_count": 4,
+      "concept_density": 631.5,
+      "difficulty_curve": {
+        "medium": 8
+      },
+      "bloom_distribution": {
+        "Apply": 8
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "sepco",
+      "subject_name": "SEPCO (Sukkur Electric Power Company)",
+      "exam_ids": "sepco",
+      "concept_count": 5,
+      "mcq_count": 14,
+      "chapter_count": 2,
+      "concept_density": 2.8,
+      "difficulty_curve": {
+        "medium": 5
+      },
+      "bloom_distribution": {
+        "Understand": 5
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "sngpl",
+      "subject_name": "SNGPL (Sui Northern Gas Pipelines)",
+      "exam_ids": "sngpl",
+      "concept_count": 5,
+      "mcq_count": 14,
+      "chapter_count": 2,
+      "concept_density": 2.8,
+      "difficulty_curve": {
+        "medium": 5
+      },
+      "bloom_distribution": {
+        "Understand": 5
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "sociology",
+      "subject_name": "Sociology",
+      "exam_ids": "ppsc,fpsc,nts,css,pms",
+      "concept_count": 2,
+      "mcq_count": 20,
+      "chapter_count": 3,
+      "concept_density": 10,
+      "difficulty_curve": {
+        "medium": 2
+      },
+      "bloom_distribution": {
+        "Understand": 2
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "software-eng",
+      "subject_name": "Software Engineering",
+      "exam_ids": "ppsc,fpsc,nts,educators,nab,ib,mod",
+      "concept_count": 10,
+      "mcq_count": 5046,
+      "chapter_count": 5,
+      "concept_density": 504.6,
+      "difficulty_curve": {
+        "medium": 9,
+        "easy": 1
+      },
+      "bloom_distribution": {
+        "Apply": 6,
+        "Understand": 4
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "spring-boot",
+      "subject_name": "Spring Boot",
+      "exam_ids": "ib,fpsc",
+      "concept_count": 4,
+      "mcq_count": 14,
+      "chapter_count": 3,
+      "concept_density": 3.5,
+      "difficulty_curve": {
+        "medium": 4
+      },
+      "bloom_distribution": {
+        "Understand": 4
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "spsc",
+      "subject_name": "SPSC (Sindh Public Service Commission)",
+      "exam_ids": "spsc",
+      "concept_count": 8,
+      "mcq_count": 48,
+      "chapter_count": 2,
+      "concept_density": 6,
+      "difficulty_curve": {
+        "medium": 8
+      },
+      "bloom_distribution": {
+        "Understand": 8
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "sql",
+      "subject_name": "SQL",
+      "exam_ids": "ib,fpsc,nts",
+      "concept_count": 13,
+      "mcq_count": 5002,
+      "chapter_count": 7,
+      "concept_density": 384.77,
+      "difficulty_curve": {
+        "medium": 10,
+        "easy": 3
+      },
+      "bloom_distribution": {
+        "Apply": 7,
+        "Understand": 6
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "sqlite",
+      "subject_name": "SQLite",
+      "exam_ids": "",
+      "concept_count": 4,
+      "mcq_count": 5046,
+      "chapter_count": 1,
+      "concept_density": 1261.5,
+      "difficulty_curve": {
+        "easy": 4
+      },
+      "bloom_distribution": {
+        "Apply": 4
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "ssgc",
+      "subject_name": "SSGC (Sui Southern Gas Company)",
+      "exam_ids": "ssgc",
+      "concept_count": 5,
+      "mcq_count": 16,
+      "chapter_count": 2,
+      "concept_density": 3.2,
+      "difficulty_curve": {
+        "medium": 5
+      },
+      "bloom_distribution": {
+        "Understand": 5
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "sst",
+      "subject_name": "SST (Secondary School Teacher)",
+      "exam_ids": "sst",
+      "concept_count": 5,
+      "mcq_count": 16,
+      "chapter_count": 2,
+      "concept_density": 3.2,
+      "difficulty_curve": {
+        "medium": 5
+      },
+      "bloom_distribution": {
+        "Understand": 5
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "statistics",
+      "subject_name": "Statistics",
+      "exam_ids": "ppsc,fpsc,nts,educators,nab,ib,mod,fbr,sbp,custom-inspector,income-tax-inspector",
+      "concept_count": 7,
+      "mcq_count": 42470,
+      "chapter_count": 4,
+      "concept_density": 6067.14,
+      "difficulty_curve": {
+        "medium": 6,
+        "easy": 1
+      },
+      "bloom_distribution": {
+        "Understand": 7
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "sub-inspector",
+      "subject_name": "Sub Inspector (SI)",
+      "exam_ids": "sub-inspector",
+      "concept_count": 5,
+      "mcq_count": 17,
+      "chapter_count": 2,
+      "concept_density": 3.4,
+      "difficulty_curve": {
+        "medium": 5
+      },
+      "bloom_distribution": {
+        "Understand": 5
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "supply-chain",
+      "subject_name": "Supply Chain",
+      "exam_ids": "ppsc,fpsc,nts,ots,cts,pts",
+      "concept_count": 8,
+      "mcq_count": 5270,
+      "chapter_count": 5,
+      "concept_density": 658.75,
+      "difficulty_curve": {
+        "easy": 5,
+        "medium": 3
+      },
+      "bloom_distribution": {
+        "Apply": 7,
+        "Understand": 1
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "surgery",
+      "subject_name": "Surgery",
+      "exam_ids": "ppsc,fpsc,nts,educators,etea",
+      "concept_count": 9,
+      "mcq_count": 5051,
+      "chapter_count": 5,
+      "concept_density": 561.22,
+      "difficulty_curve": {
+        "medium": 8,
+        "easy": 1
+      },
+      "bloom_distribution": {
+        "Apply": 5,
+        "Recall": 3,
+        "Understand": 1
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "synonyms",
+      "subject_name": "Synonyms",
+      "exam_ids": "css,ppsc,fpsc,nts,gre,sat",
+      "concept_count": 10,
+      "mcq_count": 5007,
+      "chapter_count": 5,
+      "concept_density": 500.7,
+      "difficulty_curve": {
+        "medium": 9,
+        "easy": 1
+      },
+      "bloom_distribution": {
+        "Apply": 5,
+        "Understand": 4,
+        "Recall": 1
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "system-design",
+      "subject_name": "System Design",
+      "exam_ids": "",
+      "concept_count": 4,
+      "mcq_count": 5013,
+      "chapter_count": 1,
+      "concept_density": 1253.25,
+      "difficulty_curve": {
+        "easy": 4
+      },
+      "bloom_distribution": {
+        "Apply": 4
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "tailwind-css",
+      "subject_name": "Tailwind CSS",
+      "exam_ids": "ib,fpsc",
+      "concept_count": 6,
+      "mcq_count": 22,
+      "chapter_count": 4,
+      "concept_density": 3.67,
+      "difficulty_curve": {
+        "medium": 6
+      },
+      "bloom_distribution": {
+        "Understand": 6
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "taxation",
+      "subject_name": "Taxation",
+      "exam_ids": "",
+      "concept_count": 6,
+      "mcq_count": 5104,
+      "chapter_count": 2,
+      "concept_density": 850.67,
+      "difficulty_curve": {
+        "easy": 4,
+        "medium": 2
+      },
+      "bloom_distribution": {
+        "Apply": 6
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "teaching",
+      "subject_name": "Teaching Jobs (Recruitment)",
+      "exam_ids": "teaching",
+      "concept_count": 5,
+      "mcq_count": 18,
+      "chapter_count": 2,
+      "concept_density": 3.6,
+      "difficulty_curve": {
+        "medium": 5
+      },
+      "bloom_distribution": {
+        "Understand": 5
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "telecommunication",
+      "subject_name": "Telecommunication",
+      "exam_ids": "",
+      "concept_count": 3,
+      "mcq_count": 5007,
+      "chapter_count": 1,
+      "concept_density": 1669,
+      "difficulty_curve": {
+        "easy": 3
+      },
+      "bloom_distribution": {
+        "Apply": 3
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "textile-engineering",
+      "subject_name": "Textile Engineering",
+      "exam_ids": "",
+      "concept_count": 7,
+      "mcq_count": 5147,
+      "chapter_count": 2,
+      "concept_density": 735.29,
+      "difficulty_curve": {
+        "medium": 6,
+        "easy": 1
+      },
+      "bloom_distribution": {
+        "Apply": 7
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "toefl",
+      "subject_name": "TOEFL",
+      "exam_ids": "toefl",
+      "concept_count": 4,
+      "mcq_count": 16,
+      "chapter_count": 4,
+      "concept_density": 4,
+      "difficulty_curve": {
+        "medium": 4
+      },
+      "bloom_distribution": {
+        "Understand": 4
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "typescript",
+      "subject_name": "TypeScript",
+      "exam_ids": "ib,fpsc",
+      "concept_count": 12,
+      "mcq_count": 5185,
+      "chapter_count": 7,
+      "concept_density": 432.08,
+      "difficulty_curve": {
+        "easy": 4,
+        "medium": 8
+      },
+      "bloom_distribution": {
+        "Apply": 6,
+        "Understand": 6
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "urdu",
+      "subject_name": "Urdu",
+      "exam_ids": "ppsc,nts,ots,cts,pts,spsc,kppsc,ajkpsc,bpsc,educators,police,fia,asf,motorway,railways,nab,ib,mod,election-officer,custom-exams,lecturer,anf,pms,lat,rescue-1122,lesco,mepco,hesco,sepco,ssgc,sngpl,pakistan-post,teaching,sst,est,headmaster,inspector,sub-inspector,custom-inspector,income-tax-inspector,assistant-director",
+      "concept_count": 12,
+      "mcq_count": 5000,
+      "chapter_count": 6,
+      "concept_density": 416.67,
+      "difficulty_curve": {
+        "medium": 11,
+        "easy": 1
+      },
+      "bloom_distribution": {
+        "Apply": 6,
+        "Understand": 6
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "verbal-reasoning",
+      "subject_name": "Verbal Reasoning",
+      "exam_ids": "nts,gat,gre,ielts,pma",
+      "concept_count": 8,
+      "mcq_count": 345,
+      "chapter_count": 5,
+      "concept_density": 43.13,
+      "difficulty_curve": {
+        "medium": 8
+      },
+      "bloom_distribution": {
+        "Understand": 8
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "veterinary",
+      "subject_name": "Veterinary Science",
+      "exam_ids": "ppsc,fpsc,nts,educators",
+      "concept_count": 3,
+      "mcq_count": 17,
+      "chapter_count": 2,
+      "concept_density": 5.67,
+      "difficulty_curve": {
+        "medium": 3
+      },
+      "bloom_distribution": {
+        "Understand": 3
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "vocabulary",
+      "subject_name": "Vocabulary",
+      "exam_ids": "css,ppsc,fpsc,nts,gre,ielts,toefl,sat",
+      "concept_count": 13,
+      "mcq_count": 5004,
+      "chapter_count": 5,
+      "concept_density": 384.92,
+      "difficulty_curve": {
+        "medium": 10,
+        "easy": 3
+      },
+      "bloom_distribution": {
+        "Apply": 6,
+        "Understand": 6,
+        "Recall": 1
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "vue-js",
+      "subject_name": "Vue.js",
+      "exam_ids": "ib,fpsc",
+      "concept_count": 10,
+      "mcq_count": 5037,
+      "chapter_count": 5,
+      "concept_density": 503.7,
+      "difficulty_curve": {
+        "medium": 9,
+        "easy": 1
+      },
+      "bloom_distribution": {
+        "Apply": 6,
+        "Understand": 4
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "wapda",
+      "subject_name": "WAPDA (Water & Power Development Authority)",
+      "exam_ids": "wapda",
+      "concept_count": 7,
+      "mcq_count": 30,
+      "chapter_count": 2,
+      "concept_density": 4.29,
+      "difficulty_curve": {
+        "medium": 7
+      },
+      "bloom_distribution": {
+        "Understand": 7
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "web-development",
+      "subject_name": "Web Development",
+      "exam_ids": "",
+      "concept_count": 7,
+      "mcq_count": 5206,
+      "chapter_count": 2,
+      "concept_density": 743.71,
+      "difficulty_curve": {
+        "easy": 5,
+        "medium": 2
+      },
+      "bloom_distribution": {
+        "Apply": 7
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "windows",
+      "subject_name": "Windows",
+      "exam_ids": "fpsc,ppsc,nts",
+      "concept_count": 5,
+      "mcq_count": 30,
+      "chapter_count": 4,
+      "concept_density": 6,
+      "difficulty_curve": {
+        "medium": 5
+      },
+      "bloom_distribution": {
+        "Understand": 5
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "world-current-affairs",
+      "subject_name": "World Current Affairs",
+      "exam_ids": "css,pms,fpsc,nts,ots",
+      "concept_count": 5,
+      "mcq_count": 22,
+      "chapter_count": 4,
+      "concept_density": 4.4,
+      "difficulty_curve": {
+        "medium": 5
+      },
+      "bloom_distribution": {
+        "Understand": 5
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "world-history",
+      "subject_name": "World History",
+      "exam_ids": "css,pms,fpsc,nts",
+      "concept_count": 12,
+      "mcq_count": 5006,
+      "chapter_count": 6,
+      "concept_density": 417.17,
+      "difficulty_curve": {
+        "medium": 11,
+        "easy": 1
+      },
+      "bloom_distribution": {
+        "Apply": 8,
+        "Understand": 4
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    },
+    {
+      "subject_id": "zoology",
+      "subject_name": "Zoology",
+      "exam_ids": "ppsc,fpsc,nts,educators,etea",
+      "concept_count": 5,
+      "mcq_count": 36,
+      "chapter_count": 6,
+      "concept_density": 7.2,
+      "difficulty_curve": {
+        "medium": 5
+      },
+      "bloom_distribution": {
+        "Understand": 5
+      },
+      "attempts": 0,
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0
+    }
+  ]
+}

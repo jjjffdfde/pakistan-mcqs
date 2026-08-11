@@ -1,0 +1,69 @@
+# ============================================================
+# .gitignore - Pakistan MCQs Hub (Phase 34 final release)
+# ============================================================
+
+# --- Dependencies (never committed; zero-dependency project) ---
+node_modules/
+desktop/node_modules/
+
+# --- Environment files (secrets stay local; example is committed) ---
+.env
+.env.*
+!.env.example
+
+# --- Production database (2.2 GiB - exceeds GitHub 100 MiB hard limit) ---
+db/*.sqlite
+db/*.sqlite-shm
+db/*.sqlite-wal
+
+# --- Historical DB backups (kept locally for the restore feature) ---
+backup/*/
+
+# --- Phase 23 database source payload (large binary; LFS attributes ready) ---
+database/data/
+database/releases/
+database/snapshots/
+database/manifests/.export-checkpoint.json
+database/manifests/.build-state.json
+*.part.tmp
+
+# --- Phase 34 cleanup snapshot (outside the repository) ---
+phase34-backup-*/
+
+# --- Test fixtures / caches ---
+.phase26-db-test/
+coverage/
+.cache/
+.tmp/
+temp/
+
+# --- Audit scratch ---
+.audit-tmp/
+.claude/
+
+# --- Logs / temp / backups / editor swaps ---
+*.log
+*.tmp
+*.temp
+*.bak
+*.old
+*.swp
+*.orig
+*.part
+*.har
+*.zip
+*.7z
+
+# --- OS junk ---
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# --- IDE local state ---
+.vscode/
+.idea/
+*.code-workspace
+
+# --- Browser test artifacts ---
+playwright-report/
+test-results/

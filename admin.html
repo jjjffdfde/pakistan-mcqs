@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>Admin Panel - Pakistan MCQs Hub</title>
+<meta name="description" content="Admin panel for Pakistan MCQs Hub - manage MCQs, categories, images, import and export data.">
+<link rel="canonical" href="https://pakistanmcqshub.github.io/admin.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Pakistan MCQs Hub">
+<meta property="og:title" content="Admin Panel - Pakistan MCQs Hub">
+<meta property="og:description" content="Manage MCQs, categories, images, import and export data.">
+<meta property="og:url" content="https://pakistanmcqshub.github.io/admin.html">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Admin Panel - Pakistan MCQs Hub">
+<meta name="twitter:description" content="Manage MCQs, categories, images, import and export data.">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎓</text></svg>">
+<link rel="preload" href="assets/js/admin.js" as="script">
+<link rel="preload" href="data/subjects.json" as="fetch" crossorigin>
+<link rel="preload" href="data/chapters.json" as="fetch" crossorigin>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Admin Panel - Pakistan MCQs Hub",
+  "url": "https://pakistanmcqshub.github.io/admin.html",
+  "isPartOf": {"@type": "WebSite", "name": "Pakistan MCQs Hub", "url": "https://pakistanmcqshub.github.io/"}
+}
+</script>
+<link rel="stylesheet" href="assets/css/style.css">
+<style>
+  .admin-tabs { display: flex; gap: 6px; flex-wrap: wrap; margin: 16px 0; }
+  .admin-tabs button { background: var(--card-bg); border: 1px solid var(--line); border-radius: 9px; padding: 8px 16px; cursor: pointer; font-weight: 700; color: var(--ink); font-family: inherit; }
+  .admin-tabs button.active { background: var(--green-700); color: #fff; border-color: var(--green-700); }
+  .admin-stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin: 16px 0; }
+  .admin-stats div { background: var(--card-bg); border: 1px solid var(--line); border-radius: 12px; padding: 14px; text-align: center; }
+  .admin-stats strong { display: block; font-size: 1.6rem; color: var(--green-700); }
+  [data-theme="dark"] .admin-stats strong { color: #35c17e; }
+  .admin-stats span { font-size: 0.78rem; color: var(--muted); }
+  .dup-card { border: 2px solid var(--red); background: var(--red-light); border-radius: 12px; padding: 12px; margin-bottom: 10px; font-size: 0.9rem; }
+  .dup-card .ids { font-weight: 700; }
+  textarea { width: 100%; min-height: 220px; font-family: Consolas, monospace; font-size: 0.85rem; padding: 10px; border-radius: 10px; border: 1px solid var(--line); background: var(--card-bg); color: var(--ink); }
+  .log { font-family: Consolas, monospace; font-size: 0.82rem; background: var(--green-900); color: #7dffb8; padding: 12px; border-radius: 10px; margin-top: 12px; max-height: 260px; overflow: auto; white-space: pre-wrap; }
+  .admin-row { display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 14px; }
+  .admin-row label { font-size: 0.8rem; font-weight: 700; color: var(--muted); display: flex; flex-direction: column; gap: 4px; flex: 1 1 160px; }
+  .admin-row input, .admin-row select { padding: 8px 10px; border-radius: 9px; border: 1px solid var(--line); background: var(--card-bg); color: var(--ink); font-family: inherit; }
+  .inline-edit textarea { min-height: 46px; }
+  .cat-card { background: var(--card-bg); border: 1px solid var(--line); border-radius: 12px; padding: 14px; margin-bottom: 12px; }
+  .cat-card h3 { font-size: 1rem; margin-bottom: 4px; }
+  .cat-card .cat-meta { font-size: 0.8rem; color: var(--muted); margin-bottom: 8px; }
+  .cat-subjects { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0; }
+  .cat-subjects span { font-size: 0.72rem; background: var(--green-50); border: 1px solid var(--green-100); padding: 2px 8px; border-radius: 999px; }
+  .img-lib { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 12px; margin-top: 12px; }
+  .img-card { background: var(--card-bg); border: 1px solid var(--line); border-radius: 12px; padding: 10px; text-align: center; }
+  .img-card img { max-width: 100%; height: 90px; object-fit: contain; border-radius: 8px; background: var(--body-bg); }
+  .img-card small { display: block; font-size: 0.7rem; color: var(--muted); word-break: break-all; margin: 6px 0; }
+</style>
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="brand"><span class="brand-badge">PAK</span><span class="brand-text"><strong>MCQs</strong> Hub<small>Admin Panel</small></span></a>
+    <nav class="main-nav" style="display:flex">
+      <a class="nav-link" href="index.html" style="color:#fff">← Back to Site</a>
+    </nav>
+    <div class="header-actions">
+      <button id="darkToggle" class="icon-btn" aria-label="Toggle dark mode">🌙</button>
+    </div>
+  </div>
+</header>
+
+<main class="container">
+  <h1 class="page-title">Admin Panel</h1>
+
+  <div class="admin-tabs" role="tablist">
+    <button data-tab="stats" class="active" role="tab">Dashboard</button>
+    <button data-tab="mcqs" role="tab">MCQ Manager</button>
+    <button data-tab="categories" role="tab">Category Manager</button>
+    <button data-tab="subjects" role="tab">Subject Manager</button>
+    <button data-tab="topics" role="tab">Topic Manager</button>
+    <button data-tab="explanations" role="tab">Explanations</button>
+    <button data-tab="gen" role="tab">AI Generator</button>
+    <button data-tab="images" role="tab">Image Library</button>
+    <button data-tab="import" role="tab">Import (CSV / TSV / JSON)</button>
+    <button data-tab="dups" role="tab">Duplicates</button>
+    <button data-tab="export" role="tab">Export</button>
+  </div>
+
+  <section id="tab-stats">
+    <div id="adminStats" class="admin-stats"></div>
+    <p class="muted">Edits and imports are saved in your browser (localStorage). Use the Export tab to download updated data files for deployment.</p>
+  </section>
+
+  <section id="tab-mcqs" hidden>
+    <div class="admin-row">
+      <label>Search <input type="search" id="admSearch" placeholder="Question text, id, subject..."></label>
+      <label>Subject <select id="admSubject"></select></label>
+      <label>Difficulty <select id="admDifficulty"><option value="">All</option><option>easy</option><option>medium</option><option>hard</option></select></label>
+    </div>
+    <div id="admList" class="mcq-list"></div>
+  </section>
+
+  <section id="tab-categories" hidden>
+    <h2>Category Manager</h2>
+    <p class="muted">Categories group subjects (e.g. Medical, Engineering) and exams (e.g. Central, Provincial). Changes are stored locally; use Export to download.</p>
+    <div class="admin-row" style="margin-top:12px">
+      <label>New category name <input type="text" id="catName" placeholder="e.g. Law Enforcement"></label>
+      <label>Icon (2 letters) <input type="text" id="catIcon" maxlength="2" placeholder="LE"></label>
+      <label>Description <input type="text" id="catDesc" placeholder="What belongs here"></label>
+      <button id="catAdd" class="btn btn-primary" style="align-self:flex-end">Add Category</button>
+    </div>
+    <div id="catList"></div>
+  </section>
+
+  <section id="tab-subjects" hidden>
+    <h2>Subject Manager</h2>
+    <p class="muted">Subjects belong to categories and are referenced by chapters, topics and MCQs. Edits are stored locally; use Export to download updated <code>subjects.json</code>.</p>
+    <div class="admin-row" style="margin-top:12px">
+      <label>New subject name <input type="text" id="subjName" placeholder="e.g. Islamic Banking"></label>
+      <label>Icon (2 letters) <input type="text" id="subjIcon" maxlength="2" placeholder="IB"></label>
+      <label>Category <select id="subjCat"></select></label>
+      <label>Description <input type="text" id="subjDesc" placeholder="One-line description"></label>
+      <button id="subjAdd" class="btn btn-primary" style="align-self:flex-end">Add Subject</button>
+    </div>
+    <div id="subjList"></div>
+  </section>
+
+  <section id="tab-topics" hidden>
+    <h2>Topic Manager</h2>
+    <p class="muted">Topics live inside chapters and can carry subtopics (comma separated). MCQs link to topics by id.</p>
+    <div class="admin-row" style="margin-top:12px">
+      <label>Chapter <select id="topChapter"><option value="">Select chapter...</option></select></label>
+      <label>New topic name <input type="text" id="topName" placeholder="e.g. Vectors & Scalars"></label>
+      <label>Subtopics <input type="text" id="topSubtopics" placeholder="fundamentals, practice questions"></label>
+      <button id="topAdd" class="btn btn-primary" style="align-self:flex-end">Add Topic</button>
+    </div>
+    <div id="topList"></div>
+  </section>
+
+  <section id="tab-explanations" hidden>
+    <h2>Explanation Manager</h2>
+    <p class="muted">MCQs with missing or very short explanations (< 80 characters). Rewrite or auto-enrich them for better learning and SEO.</p>
+    <div class="admin-row" style="margin-top:12px">
+      <label>Show <select id="expFilter">
+        <option value="short">Explanations shorter than 80 characters</option>
+        <option value="missing">Missing explanations only</option>
+        <option value="all">All MCQs</option>
+      </select></label>
+      <button id="expEnrich" class="btn btn-gold" style="align-self:flex-end">Auto-enrich all shown</button>
+      <label style="flex:0 1 220px"><span class="muted" id="expCount"></span></label>
+    </div>
+    <div id="expList" class="mcq-list"></div>
+  </section>
+
+  <section id="tab-gen" hidden>
+    <h2>AI Question Generator (Drafts)</h2>
+    <p class="muted">Generates original draft questions from a verified template bank, pre-filled with the selected subject, chapter, topic and exam. Review and edit each draft before saving - saving adds it to your local bank.</p>
+    <div class="admin-row" style="margin-top:12px">
+      <label>Subject <select id="genSubject"></select></label>
+      <label>Chapter <select id="genChapter" disabled><option value="">Select subject first</option></select></label>
+      <label>Topic <select id="genTopic" disabled><option value="">Select chapter first</option></select></label>
+      <label>Difficulty <select id="genDifficulty"><option>easy</option><option selected>medium</option><option>hard</option></select></label>
+      <label>Exam <select id="genExam"></select></label>
+      <label>Count <select id="genCount"><option>3</option><option selected>5</option><option>8</option><option>10</option></select></label>
+      <button id="genRun" class="btn btn-primary" style="align-self:flex-end">Generate Drafts</button>
+    </div>
+    <div id="genList" class="mcq-list"></div>
+  </section>
+
+  <section id="tab-images" hidden>
+    <h2>Image Library</h2>
+    <p class="muted">Upload images (max ~200 KB each) to embed in subjects or questions. Stored as data URLs in localStorage.</p>
+    <div class="admin-row" style="margin-top:12px">
+      <label>Upload image <input type="file" id="imgFile" accept="image/*"></label>
+      <label>Name <input type="text" id="imgName" placeholder="og-cover"></label>
+      <button id="imgAdd" class="btn btn-primary" style="align-self:flex-end">Add to Library</button>
+    </div>
+    <div id="imgList" class="img-lib"></div>
+  </section>
+
+  <section id="tab-import" hidden>
+    <h2>Import MCQs</h2>
+    <div class="admin-row">
+      <label>Import type
+        <select id="impType">
+          <option value="csv">CSV / TSV (auto-detect comma or tab)</option>
+          <option value="json">JSON array</option>
+        </select>
+      </label>
+      <label>Mode
+        <select id="impMode">
+          <option value="merge">Merge (skip existing ids)</option>
+          <option value="replace">Replace duplicates by id</option>
+        </select>
+      </label>
+      <label>Or upload a file <input type="file" id="impFile" accept=".csv,.json,.txt"></label>
+    </div>
+    <p class="muted">CSV/TSV columns: question, optionA, optionB, optionC, optionD, correctAnswer, detailedExplanation, difficulty, subject, chapter, topic, exam, year, tags (tags and exam as | separated). Tab-separated text copied from Excel/Sheets works too.</p>
+    <textarea id="impText" placeholder="Paste CSV or JSON here..."></textarea>
+    <div style="margin-top:10px;display:flex;gap:10px">
+      <button id="impRun" class="btn btn-primary">Import</button>
+      <button id="impSample" class="btn btn-outline">Load Sample</button>
+    </div>
+    <div id="impLog" class="log" hidden></div>
+  </section>
+
+  <section id="tab-dups" hidden>
+    <h2>Duplicate Detection</h2>
+    <p class="muted">MCQs with identical question text (case-insensitive, trimmed).</p>
+    <div id="dupList" style="margin-top:12px"></div>
+    <button id="dupRemoveAll" class="btn btn-outline" style="margin-top:10px">Remove duplicates (keep first)</button>
+  </section>
+
+  <section id="tab-export" hidden>
+    <h2>Export & Deploy</h2>
+    <div style="display:flex;gap:10px;flex-wrap:wrap;margin-bottom:14px">
+      <button id="expJson" class="btn btn-primary">Download mcqs.json</button>
+      <button id="expCsv" class="btn btn-primary">Download all as CSV</button>
+      <button id="expCategories" class="btn btn-primary">Download categories.json</button>
+      <button id="expSubjects" class="btn btn-primary">Download subjects.json</button>
+      <button id="expTopics" class="btn btn-primary">Download topics.json</button>
+      <button id="expReset" class="btn btn-outline">Reset to original data</button>
+    </div>
+    <p class="muted">Download mcqs.json and replace <code>data/mcqs.json</code> in the repository, then redeploy to GitHub Pages. The build script <code>scripts/build-mcqs.js</code> regenerates it from <code>data/mcqs/*.json</code>.</p>
+  </section>
+</main>
+
+<div id="toast" class="toast" role="status" hidden></div>
+<script src="assets/js/admin.js"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+{
+  "step": "desktop_packaging",
+  "generated_at": "2026-08-10T11:58:31.592Z",
+  "electron_shell": {
+    "main_process": true,
+    "preload": true,
+    "package_json_valid": true,
+    "sandbox": true,
+    "context_isolation": true,
+    "node_integration_off": true,
+    "loads_offline_file": true
+  },
+  "windows": {
+    "nsis_installer": true,
+    "portable_exe": true,
+    "desktop_shortcut": true,
+    "installer_variant": true
+  },
+  "linux": {
+    "appimage": true,
+    "deb": true,
+    "education_category": true
+  },
+  "packaged": {
+    "app_shell": true,
+    "assets": true,
+    "data": true,
+    "pwa": true,
+    "subjects": true,
+    "chapters": true
+  },
+  "build_scripts": {
+    "windows": true,
+    "linux": true
+  }
+}

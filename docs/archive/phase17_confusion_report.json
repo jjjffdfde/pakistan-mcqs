@@ -1,0 +1,12 @@
+{
+  "step": "confusion_intelligence",
+  "generated_at": "2026-08-05T12:17:34",
+  "summary": {
+    "total_mcqs_with_wrong_explanations": 872603,
+    "concepts_with_confusion_data": 0,
+    "subjects_with_confusion": 0,
+    "top_confused_concepts": []
+  },
+  "confusion_by_concept": [],
+  "subject_summary": []
+}

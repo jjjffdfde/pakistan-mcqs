@@ -1,0 +1,38 @@
+name: Lint & Code Quality
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Deterministic Lint (ESLint/Prettier rule subset, zero deps)
+        run: node scripts/lint.cjs
+
+      - name: Repo audit
+        run: node scripts/phase26-repo-audit.cjs
+
+      - name: Repository size guard
+        run: |
+          node -e "
+            const fs=require('fs'); const path=require('path');
+            let bytes=0, files=0;
+            (function walk(d){ for(const e of fs.readdirSync(d,{withFileTypes:true})){ const p=path.join(d,e.name);
+              if(e.isDirectory()){ if(['node_modules','.git','backup','data'].includes(e.name)) continue; walk(p); }
+              else { const st=fs.statSync(p); bytes+=st.size; files++; } } })(process.cwd());
+            const mb=bytes/1024/1024;
+            console.log('source files:', files, 'size MB:', Math.round(mb));
+            if(files===0){ console.error('no files'); process.exit(1); }
+          " public/"

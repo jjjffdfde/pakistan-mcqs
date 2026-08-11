@@ -1,0 +1,28 @@
+{
+  "module": "M22",
+  "generated_at": "2026-08-10T15:02:51.825Z",
+  "metric": {
+    "before": "phase30_runtime_raw.json (26 runs)",
+    "after": "phase31_runtime_raw.json (28 runs)"
+  },
+  "comparison": {
+    "js_errors": {
+      "before": "0/26",
+      "after": "0/28"
+    },
+    "overflow": {
+      "before": "0/26",
+      "after": "0/28"
+    },
+    "interactive_steps_pass": {
+      "before": "PASS",
+      "after": "24/24 PASS"
+    },
+    "fatal_runs": {
+      "before": 0,
+      "after": 0
+    },
+    "pg_fix": "P30-FIX-001 carried forward and regression-tested"
+  },
+  "note": "No source changes were required between Phase 30 and Phase 31 verification; parity confirmed."
+}

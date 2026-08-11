@@ -1,0 +1,839 @@
+[
+ {
+  "id": "agr-001",
+  "question": "The largest food crop of Pakistan by cultivated area is:",
+  "optionA": "Cotton",
+  "optionB": "Wheat",
+  "optionC": "Rice",
+  "optionD": "Sugarcane",
+  "correctAnswer": "B",
+  "detailedExplanation": "Wheat is Pakistan's staple food and largest food crop by area, mainly grown in Punjab and Sindh. Cotton is the largest cash crop and sugarcane the second largest cash crop.",
+  "difficulty": "easy",
+  "subject": "agriculture",
+  "chapter": "ag-crops",
+  "topic": "t-228",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators"
+  ],
+  "year": null,
+  "tags": [
+   "wheat",
+   "major crops"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "agr-002",
+  "question": "Which crop is known as the 'king of cash crops' in Pakistan?",
+  "optionA": "Rice",
+  "optionB": "Cotton",
+  "optionC": "Maize",
+  "optionD": "Tobacco",
+  "correctAnswer": "B",
+  "detailedExplanation": "Cotton is called the king of cash crops because it earns the largest export revenue (textiles) and supports Pakistan's textile industry.",
+  "difficulty": "easy",
+  "subject": "agriculture",
+  "chapter": "ag-crops",
+  "topic": "t-228",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators"
+  ],
+  "year": null,
+  "tags": [
+   "cotton",
+   "cash crops"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "agr-003",
+  "question": "The variety of rice for which Pakistan is famous worldwide is:",
+  "optionA": "IRRI-6",
+  "optionB": "Basmati",
+  "optionC": "Super Kernal",
+  "optionD": "N-28",
+  "correctAnswer": "B",
+  "detailedExplanation": "Basmati rice, with its long grains and fragrance, is Pakistan's famous export variety grown mainly in Punjab (districts like Gujranwala, Sialkot, Sheikhupura).",
+  "difficulty": "easy",
+  "subject": "agriculture",
+  "chapter": "ag-crops",
+  "topic": "t-228",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators"
+  ],
+  "year": null,
+  "tags": [
+   "basmati",
+   "rice"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "agr-004",
+  "question": "The most important source of irrigation in Pakistan is:",
+  "optionA": "Tube wells",
+  "optionB": "The Indus Basin irrigation system (canals)",
+  "optionC": "Rainwater harvesting",
+  "optionD": "Karatez wells",
+  "correctAnswer": "B",
+  "detailedExplanation": "Pakistan has one of the world's largest contiguous irrigation systems, the Indus Basin network of canals, barrages and dams, irrigating most of the cultivated land.",
+  "difficulty": "easy",
+  "subject": "agriculture",
+  "chapter": "ag-irrigation",
+  "topic": "t-229",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators"
+  ],
+  "year": null,
+  "tags": [
+   "irrigation",
+   "indus basin"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "agr-005",
+  "question": "The alluvial soil deposited by the Indus and its tributaries in Punjab and Sindh is most suitable for:",
+  "optionA": "Coffee",
+  "optionB": "Wheat and cotton",
+  "optionC": "Rubber",
+  "optionD": "Cocoa",
+  "correctAnswer": "B",
+  "detailedExplanation": "Indus alluvial soils, rich and replenished by river silt, are highly fertile and ideal for wheat, cotton, sugarcane and rice cultivation.",
+  "difficulty": "medium",
+  "subject": "agriculture",
+  "chapter": "ag-crops",
+  "topic": "t-228",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators"
+  ],
+  "year": null,
+  "tags": [
+   "alluvial soil",
+   "soils"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "agr-006",
+  "question": "The primary nutrients in fertilizers are:",
+  "optionA": "Nitrogen, Phosphorus, Potassium (NPK)",
+  "optionB": "Carbon, Oxygen, Hydrogen",
+  "optionC": "Iron, Zinc, Copper",
+  "optionD": "Sulphur, Calcium, Magnesium",
+  "correctAnswer": "A",
+  "detailedExplanation": "NPK - nitrogen (leaf growth), phosphorus (roots and fruit) and potassium (overall vigour) - are the primary macronutrients supplied by chemical fertilizers.",
+  "difficulty": "easy",
+  "subject": "agriculture",
+  "chapter": "ag-crops",
+  "topic": "t-228",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators"
+  ],
+  "year": null,
+  "tags": [
+   "fertilizers",
+   "npk"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "agr-007",
+  "question": "The pink bollworm and American bollworm are major pests of which crop in Pakistan?",
+  "optionA": "Wheat",
+  "optionB": "Cotton",
+  "optionC": "Rice",
+  "optionD": "Sugarcane",
+  "correctAnswer": "B",
+  "detailedExplanation": "Bollworms attack cotton bolls, causing heavy yield losses in Pakistan. Integrated pest management and resistant varieties (Bt cotton) help control them.",
+  "difficulty": "medium",
+  "subject": "agriculture",
+  "chapter": "ag-irrigation",
+  "topic": "t-229",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators"
+  ],
+  "year": null,
+  "tags": [
+   "pests",
+   "cotton"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "agr-008",
+  "question": "Agriculture contributes approximately what share of Pakistan's GDP?",
+  "optionA": "5-8%",
+  "optionB": "20-25%",
+  "optionC": "45-50%",
+  "optionD": "70-75%",
+  "correctAnswer": "B",
+  "detailedExplanation": "Agriculture contributes roughly one-fifth to one-quarter of Pakistan's GDP and employs a large share of the labour force, besides supplying raw materials to industry.",
+  "difficulty": "medium",
+  "subject": "agriculture",
+  "chapter": "ag-economy",
+  "topic": "t-230",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators"
+  ],
+  "year": null,
+  "tags": [
+   "gdp share",
+   "agriculture economy"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "vet-001",
+  "question": "Which animal contributes the most to milk production in Pakistan?",
+  "optionA": "Cow",
+  "optionB": "Buffalo",
+  "optionC": "Goat",
+  "optionD": "Camel",
+  "correctAnswer": "B",
+  "detailedExplanation": "Buffaloes (mainly the Nili-Ravi breed) produce the largest share of Pakistan's milk, making Pakistan among the world's top milk producers.",
+  "difficulty": "easy",
+  "subject": "veterinary",
+  "chapter": "ve-livestock",
+  "topic": "t-231",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators"
+  ],
+  "year": null,
+  "tags": [
+   "buffalo",
+   "milk production"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "vet-002",
+  "question": "Nili-Ravi, Kundhi and Azi-Kheli are famous breeds of which animal?",
+  "optionA": "Cow",
+  "optionB": "Buffalo",
+  "optionC": "Goat",
+  "optionD": "Sheep",
+  "correctAnswer": "B",
+  "detailedExplanation": "Nili-Ravi, Kundhi and Azi-Kheli are well-known Pakistani buffalo breeds, prized for high milk yield. Sahiwal is a famous Pakistani cow breed.",
+  "difficulty": "medium",
+  "subject": "veterinary",
+  "chapter": "ve-livestock",
+  "topic": "t-231",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators"
+  ],
+  "year": null,
+  "tags": [
+   "breeds",
+   "buffalo"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "vet-003",
+  "question": "Foot-and-Mouth Disease (FMD) mainly affects:",
+  "optionA": "Only poultry",
+  "optionB": "Cloven-hoofed animals like cattle and buffalo",
+  "optionC": "Only camels",
+  "optionD": "Fish",
+  "correctAnswer": "B",
+  "detailedExplanation": "FMD is a highly contagious viral disease of cloven-hoofed livestock (cattle, buffalo, sheep, goats), causing fever and mouth/foot blisters; controlled through vaccination.",
+  "difficulty": "easy",
+  "subject": "veterinary",
+  "chapter": "ve-livestock",
+  "topic": "t-231",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators"
+  ],
+  "year": null,
+  "tags": [
+   "fmd",
+   "livestock diseases"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "vet-004",
+  "question": "The most common feed ingredient for poultry in Pakistan is:",
+  "optionA": "Fish meal only",
+  "optionB": "Maize (corn)",
+  "optionC": "Sugarcane bagasse",
+  "optionD": "Cotton seed oil",
+  "correctAnswer": "B",
+  "detailedExplanation": "Maize is the main energy grain in poultry rations, supplemented with soybean meal for protein. Balanced feed determines growth and egg production.",
+  "difficulty": "medium",
+  "subject": "veterinary",
+  "chapter": "ve-livestock",
+  "topic": "t-231",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators"
+  ],
+  "year": null,
+  "tags": [
+   "poultry",
+   "feed"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "vet-005",
+  "question": "The disease Newcastle (Ranikhet) is a major viral threat to:",
+  "optionA": "Poultry",
+  "optionB": "Cattle",
+  "optionC": "Buffaloes",
+  "optionD": "Goats",
+  "correctAnswer": "A",
+  "detailedExplanation": "Newcastle disease (Ranikhet) is a highly contagious viral disease of poultry causing respiratory, digestive and nervous signs; prevented by routine vaccination.",
+  "difficulty": "medium",
+  "subject": "veterinary",
+  "chapter": "ve-livestock",
+  "topic": "t-231",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators"
+  ],
+  "year": null,
+  "tags": [
+   "newcastle",
+   "poultry diseases"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "nur-001",
+  "question": "The normal body temperature of a healthy human adult is approximately:",
+  "optionA": "35.0°C",
+  "optionB": "37.0°C",
+  "optionC": "39.5°C",
+  "optionD": "40.5°C",
+  "correctAnswer": "B",
+  "detailedExplanation": "Normal body temperature is about 37.0°C (98.6°F), varying slightly by time of day and site of measurement. Fever is usually defined above 38°C.",
+  "difficulty": "easy",
+  "subject": "nursing",
+  "chapter": "nu-basics",
+  "topic": "t-232",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators"
+  ],
+  "year": null,
+  "tags": [
+   "temperature",
+   "vital signs"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "nur-002",
+  "question": "The normal resting blood pressure of an adult is approximately:",
+  "optionA": "80/60 mmHg",
+  "optionB": "120/80 mmHg",
+  "optionC": "160/100 mmHg",
+  "optionD": "200/120 mmHg",
+  "correctAnswer": "B",
+  "detailedExplanation": "Normal adult blood pressure is about 120/80 mmHg - systolic (120) is the pressure during heart contraction and diastolic (80) during relaxation.",
+  "difficulty": "easy",
+  "subject": "nursing",
+  "chapter": "nu-basics",
+  "topic": "t-232",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators"
+  ],
+  "year": null,
+  "tags": [
+   "blood pressure",
+   "vital signs"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "nur-003",
+  "question": "In first aid, the ABC of emergency care stands for:",
+  "optionA": "Airway, Breathing, Circulation",
+  "optionB": "Ambulance, Bandage, Care",
+  "optionC": "Assessment, Blood, Compression",
+  "optionD": "Alertness, Breathing, Caution",
+  "correctAnswer": "A",
+  "detailedExplanation": "The ABC approach - Airway (clear), Breathing (check), Circulation (pulse/chest compressions) - is the priority sequence in basic life support and CPR.",
+  "difficulty": "easy",
+  "subject": "nursing",
+  "chapter": "nu-firstaid",
+  "topic": "t-233",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators"
+  ],
+  "year": null,
+  "tags": [
+   "abc",
+   "first aid"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "nur-004",
+  "question": "For a fresh sprain, the recommended immediate treatment is:",
+  "optionA": "Hot compress and massage",
+  "optionB": "RICE - Rest, Ice, Compression, Elevation",
+  "optionC": "Exercise the joint vigorously",
+  "optionD": "Tight bandaging overnight",
+  "correctAnswer": "B",
+  "detailedExplanation": "RICE (Rest, Ice, Compression, Elevation) reduces swelling and pain in sprains and strains. Ice is applied in the first 24-48 hours; heat is avoided initially.",
+  "difficulty": "easy",
+  "subject": "nursing",
+  "chapter": "nu-firstaid",
+  "topic": "t-233",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators"
+  ],
+  "year": null,
+  "tags": [
+   "rice",
+   "sprains"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "nur-005",
+  "question": "Who is regarded as the founder of modern nursing?",
+  "optionA": "Mother Teresa",
+  "optionB": "Florence Nightingale",
+  "optionC": "Clara Barton",
+  "optionD": "Virginia Henderson",
+  "correctAnswer": "B",
+  "detailedExplanation": "Florence Nightingale established professional nursing during the Crimean War (1850s) and founded the first nursing school at St Thomas' Hospital, London in 1860.",
+  "difficulty": "easy",
+  "subject": "nursing",
+  "chapter": "nu-basics",
+  "topic": "t-232",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators"
+  ],
+  "year": null,
+  "tags": [
+   "florence nightingale",
+   "nursing history"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "nur-006",
+  "question": "The correct ratio of chest compressions to rescue breaths in adult CPR (single rescuer) is:",
+  "optionA": "15:2",
+  "optionB": "30:2",
+  "optionC": "5:1",
+  "optionD": "100:10",
+  "correctAnswer": "B",
+  "detailedExplanation": "Standard adult CPR uses 30 chest compressions to 2 rescue breaths at a rate of about 100-120 compressions per minute, per current AHA guidelines.",
+  "difficulty": "medium",
+  "subject": "nursing",
+  "chapter": "nu-firstaid",
+  "topic": "t-233",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators"
+  ],
+  "year": null,
+  "tags": [
+   "cpr",
+   "emergency care"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "med-001",
+  "question": "The largest organ of the human body is the:",
+  "optionA": "Liver",
+  "optionB": "Skin",
+  "optionC": "Brain",
+  "optionD": "Lungs",
+  "correctAnswer": "B",
+  "detailedExplanation": "The skin is the body's largest organ, covering about 2 square meters in adults. It protects, regulates temperature and senses the environment.",
+  "difficulty": "easy",
+  "subject": "medical",
+  "chapter": "me-basics",
+  "topic": "t-234",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators"
+  ],
+  "year": null,
+  "tags": [
+   "skin",
+   "anatomy"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "med-002",
+  "question": "The human heart has how many chambers?",
+  "optionA": "Two",
+  "optionB": "Three",
+  "optionC": "Four",
+  "optionD": "Five",
+  "correctAnswer": "C",
+  "detailedExplanation": "The heart has four chambers - two atria (receiving) and two ventricles (pumping) - ensuring one-way blood flow through the pulmonary and systemic circuits.",
+  "difficulty": "easy",
+  "subject": "medical",
+  "chapter": "me-basics",
+  "topic": "t-234",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators"
+  ],
+  "year": null,
+  "tags": [
+   "heart",
+   "anatomy"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "med-003",
+  "question": "Oxygen is transported in the blood mainly by:",
+  "optionA": "White blood cells",
+  "optionB": "Haemoglobin in red blood cells",
+  "optionC": "Platelets",
+  "optionD": "Plasma proteins",
+  "correctAnswer": "B",
+  "detailedExplanation": "Haemoglobin, the iron-containing pigment in red blood cells, binds oxygen in the lungs and releases it in tissues - about 97% of oxygen travels this way.",
+  "difficulty": "easy",
+  "subject": "medical",
+  "chapter": "me-basics",
+  "topic": "t-234",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators"
+  ],
+  "year": null,
+  "tags": [
+   "haemoglobin",
+   "physiology"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "med-004",
+  "question": "Malaria is transmitted by:",
+  "optionA": "Housefly",
+  "optionB": "Female Anopheles mosquito",
+  "optionC": "Rat flea",
+  "optionD": "Tsetse fly",
+  "correctAnswer": "B",
+  "detailedExplanation": "Malaria is caused by Plasmodium parasites spread through the bite of infected female Anopheles mosquitoes. Prevention includes nets, repellents and antimalarials.",
+  "difficulty": "easy",
+  "subject": "medical",
+  "chapter": "me-diseases",
+  "topic": "t-235",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators"
+  ],
+  "year": null,
+  "tags": [
+   "malaria",
+   "infectious diseases"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "med-005",
+  "question": "Diabetes mellitus is characterized by:",
+  "optionA": "Low blood sugar",
+  "optionB": "High blood sugar due to insulin problems",
+  "optionC": "High blood pressure",
+  "optionD": "Low haemoglobin",
+  "correctAnswer": "B",
+  "detailedExplanation": "Diabetes results from deficient insulin action (Type 1) or insulin resistance (Type 2), causing chronically high blood glucose, managed by diet, drugs and insulin.",
+  "difficulty": "easy",
+  "subject": "medical",
+  "chapter": "me-diseases",
+  "topic": "t-235",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators"
+  ],
+  "year": null,
+  "tags": [
+   "diabetes",
+   "diseases"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "med-006",
+  "question": "Hypertension is the medical term for:",
+  "optionA": "Low blood pressure",
+  "optionB": "High blood pressure",
+  "optionC": "Irregular heartbeat",
+  "optionD": "Narrowed arteries only",
+  "correctAnswer": "B",
+  "detailedExplanation": "Hypertension is persistently high blood pressure (≥140/90 mmHg), a major risk factor for heart attack, stroke and kidney disease - the 'silent killer'.",
+  "difficulty": "easy",
+  "subject": "medical",
+  "chapter": "me-diseases",
+  "topic": "t-235",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators"
+  ],
+  "year": null,
+  "tags": [
+   "hypertension",
+   "diseases"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "med-007",
+  "question": "Tuberculosis primarily affects which organ?",
+  "optionA": "Kidneys",
+  "optionB": "Lungs",
+  "optionC": "Liver",
+  "optionD": "Stomach",
+  "correctAnswer": "B",
+  "detailedExplanation": "TB, caused by Mycobacterium tuberculosis, mainly attacks the lungs (pulmonary TB) causing chronic cough, fever and weight loss, though it can spread to other organs.",
+  "difficulty": "easy",
+  "subject": "medical",
+  "chapter": "me-diseases",
+  "topic": "t-235",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators"
+  ],
+  "year": null,
+  "tags": [
+   "tuberculosis",
+   "infectious diseases"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "med-008",
+  "question": "Vaccination provides protection against diseases by:",
+  "optionA": "Killing all bacteria",
+  "optionB": "Training the immune system with weakened or inactive antigens",
+  "optionC": "Increasing body temperature",
+  "optionD": "Removing antibodies",
+  "correctAnswer": "B",
+  "detailedExplanation": "Vaccines expose the immune system to weakened or inactivated antigens, producing memory cells that mount a fast defence on later exposure - herd immunity protects the community.",
+  "difficulty": "easy",
+  "subject": "medical",
+  "chapter": "me-pharma",
+  "topic": "t-236",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators"
+  ],
+  "year": null,
+  "tags": [
+   "vaccination",
+   "public health"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "pha-001",
+  "question": "Which scientist discovered the antibiotic penicillin in 1928?",
+  "optionA": "Louis Pasteur",
+  "optionB": "Alexander Fleming",
+  "optionC": "Robert Koch",
+  "optionD": "Edward Jenner",
+  "correctAnswer": "B",
+  "detailedExplanation": "Alexander Fleming discovered penicillin from the mould Penicillium notatum in 1928. Edward Jenner developed the smallpox vaccine and Pasteur founded germ theory.",
+  "difficulty": "easy",
+  "subject": "pharmacy",
+  "chapter": "pha-basics",
+  "topic": "t-237",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators"
+  ],
+  "year": null,
+  "tags": [
+   "penicillin",
+   "antibiotics"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "pha-002",
+  "question": "Paracetamol is primarily used as a(n):",
+  "optionA": "Antibiotic",
+  "optionB": "Analgesic and antipyretic",
+  "optionC": "Antacid",
+  "optionD": "Antihistamine",
+  "correctAnswer": "B",
+  "detailedExplanation": "Paracetamol (acetaminophen) relieves pain (analgesic) and reduces fever (antipyretic). It does not have significant anti-inflammatory or antibiotic activity.",
+  "difficulty": "easy",
+  "subject": "pharmacy",
+  "chapter": "pha-basics",
+  "topic": "t-237",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators"
+  ],
+  "year": null,
+  "tags": [
+   "paracetamol",
+   "drugs"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "pha-003",
+  "question": "A tablet designed to release its drug slowly over time is called:",
+  "optionA": "Effervescent tablet",
+  "optionB": "Sustained (extended) release tablet",
+  "optionC": "Chewable tablet",
+  "optionD": "Sublingual tablet",
+  "correctAnswer": "B",
+  "detailedExplanation": "Sustained/extended release formulations release the drug gradually, reducing dosing frequency and stabilizing blood levels. Sublingual tablets dissolve under the tongue for rapid effect.",
+  "difficulty": "medium",
+  "subject": "pharmacy",
+  "chapter": "pha-basics",
+  "topic": "t-237",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators"
+  ],
+  "year": null,
+  "tags": [
+   "dosage forms",
+   "tablets"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "pha-004",
+  "question": "The science dealing with the action of drugs on the body is called:",
+  "optionA": "Pharmaceutics",
+  "optionB": "Pharmacology",
+  "optionC": "Pharmacognosy",
+  "optionD": "Toxicology",
+  "correctAnswer": "B",
+  "detailedExplanation": "Pharmacology studies drug actions, mechanisms and uses. Pharmaceutics covers formulation, pharmacognosy the study of natural drugs, and toxicology poisons and overdoses.",
+  "difficulty": "easy",
+  "subject": "pharmacy",
+  "chapter": "pha-basics",
+  "topic": "t-237",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators"
+  ],
+  "year": null,
+  "tags": [
+   "pharmacology",
+   "pharmacy basics"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ }
+]

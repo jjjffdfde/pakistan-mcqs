@@ -1,0 +1,48 @@
+{
+  "module": "M16",
+  "journeys": [
+    {
+      "id": "A",
+      "name": "Home → subject → chapter → topic → MCQ → answer → explanation → next",
+      "status": "PASS",
+      "evidence": "nav_buttons + browse_filters_multi + practice_workflow + mcq_rapid_click"
+    },
+    {
+      "id": "B",
+      "name": "Home → search → result → MCQ → answer",
+      "status": "PASS",
+      "evidence": "search_constitution/numbers + cards render"
+    },
+    {
+      "id": "C",
+      "name": "Home → quiz → questions → submit → result",
+      "status": "PASS",
+      "evidence": "quick_quiz_workflow + paper_workflow + mcq_exam_nav_edges (exam submit → result)"
+    },
+    {
+      "id": "D",
+      "name": "Mobile → menu → subject → MCQ → answer → navigate",
+      "status": "PASS",
+      "evidence": "390px interactive run: menu_toggle + nav + practice PASS, 0 overflow"
+    },
+    {
+      "id": "E",
+      "name": "PWA → load → reload → offline → recovery",
+      "status": "PASS",
+      "evidence": "phase33_pwa_raw: online 0 errors; offline served from SW cache 0 errors; reload normal"
+    },
+    {
+      "id": "F",
+      "name": "Admin: tabs → stats → add category → validation",
+      "status": "PASS",
+      "evidence": "admin_tabs/stats/add_category/empty/dup"
+    }
+  ],
+  "only_supported_features": true,
+  "status": "PASS",
+  "env": {
+    "tool": "scripts/phase33 (driver+probe33+reporter)",
+    "generated_at": "2026-08-11T04:24:25.697Z",
+    "methodology": "Headless Chrome 1366x900/390x844 etc, localhost static server, fresh profile per run, ACTIVE error/network capture (P32-TOOL-001 fix), interaction = real DOM clicks/inputs/Enter keys + state assertions. A feature is WORKING only when interaction + expected UI state + 0 console errors + 0 unexpected network failures."
+  }
+}

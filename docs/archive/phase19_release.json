@@ -1,0 +1,26 @@
+{
+  "step": "release_manager",
+  "generated_at": "2026-08-05T13:07:22",
+  "summary": {
+    "release_id": "REL-20260805-001",
+    "total_candidates_in_batch": 37,
+    "approved_count": 18,
+    "rejected_count": 1,
+    "needs_revision_count": 18,
+    "published_count": 18,
+    "subjects_affected_count": 10,
+    "subjects_list": [
+      "accounting",
+      "agriculture",
+      "ajkpsc",
+      "analytical-reasoning",
+      "anatomy",
+      "anf",
+      "anthropology",
+      "antonyms",
+      "aptitude-tests",
+      "army"
+    ],
+    "coverage_increase": 18
+  }
+}

@@ -1,0 +1,3266 @@
+{
+  "step": "evidence_viewer_engine",
+  "generated_at": "2026-08-05T13:07:15",
+  "summary": {
+    "total_views": 37,
+    "all_traceable": true
+  },
+  "evidence_views": [
+    {
+      "mcq_id": "gen-accounting-15195-8914-0006",
+      "queue_id": 1,
+      "subject_id": "accounting",
+      "question": "financial statements - calculation",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "Sales revenue",
+          "source": "distractor_pool_9520"
+        },
+        {
+          "label": "B",
+          "text": "Sales revenue",
+          "source": "distractor_pool_9520"
+        },
+        {
+          "label": "C",
+          "text": "Sales revenue",
+          "source": "distractor_pool_9520"
+        },
+        {
+          "label": "D",
+          "text": "Sales revenue",
+          "source": "distractor_pool_9520"
+        }
+      ],
+      "difficulty": "easy",
+      "bloom_taxonomy": "Apply",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "Sales revenue; Rent expense; Service income; Net profit",
+      "confidence_score": 0.6,
+      "traceability_card": {
+        "concept": {
+          "id": 15195,
+          "name": "financial statements",
+          "slug": "accounting-financial-statements-1"
+        },
+        "learning_objective": {
+          "id": 282240,
+          "statement": "Accounts receivable is an asset shown on the balance sheet."
+        },
+        "blueprint": {
+          "id": 8914,
+          "type": "calculation",
+          "difficulty": "easy",
+          "bloom": "Apply"
+        },
+        "pattern_id": "calculation-15195",
+        "distractor_pool_id": 9520,
+        "exam_mapping_id": null,
+        "evidence_details": {
+          "source_concept_id": 15195,
+          "source_concept_name": "financial statements",
+          "source_subject_id": "accounting",
+          "source_mcq_ids": [],
+          "blueprint_id": 8914,
+          "blueprint_type": "calculation",
+          "learning_objective_id": 282240,
+          "learning_objective": "Accounts receivable is an asset shown on the balance sheet.",
+          "distractor_pool_id": 9520,
+          "pattern_id": "calculation-15195",
+          "exam_mapping_id": null,
+          "exam_id": "ppsc",
+          "generation_timestamp": "2026-08-05T12:30:06",
+          "confidence_score": 0.6,
+          "generation_method": "offline_recomposition",
+          "data_sources": [
+            "kg_concepts",
+            "kg_question_blueprints",
+            "kg_distractor_pools",
+            "kg_distractor_items",
+            "kg_learning_objectives",
+            "kg_exam_mappings",
+            "mcq_concepts",
+            "mcqs",
+            "options"
+          ],
+          "traceability": {
+            "concept_traceable": true,
+            "blueprint_traceable": true,
+            "lo_traceable": true,
+            "distractor_traceable": true
+          }
+        }
+      }
+    },
+    {
+      "mcq_id": "gen-accounting-15196-8921-0007",
+      "queue_id": 2,
+      "subject_id": "accounting",
+      "question": "Accounting Principles - general",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "Record assets at their original purchase cost",
+          "source": "distractor_pool_10412"
+        },
+        {
+          "label": "B",
+          "text": "Record assets at their original purchase cost",
+          "source": "distractor_pool_10412"
+        },
+        {
+          "label": "C",
+          "text": "Record assets at their original purchase cost",
+          "source": "distractor_pool_10412"
+        },
+        {
+          "label": "D",
+          "text": "Record assets at their original purchase cost",
+          "source": "distractor_pool_10412"
+        }
+      ],
+      "difficulty": "medium",
+      "bloom_taxonomy": "Apply",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "Record assets at their original purchase cost; The business is separate from its owners; Do not overstate assets or income; Assume the business will continue indefinitely",
+      "confidence_score": 0.522,
+      "traceability_card": {
+        "concept": {
+          "id": 15196,
+          "name": "Accounting Principles",
+          "slug": "accounting-accounting-principles-0"
+        },
+        "learning_objective": {
+          "id": 282268,
+          "statement": "Expenses are recorded in the same period as the revenue they helped generate."
+        },
+        "blueprint": {
+          "id": 8921,
+          "type": "general",
+          "difficulty": "medium",
+          "bloom": "Apply"
+        },
+        "pattern_id": "general-15196",
+        "distractor_pool_id": 10412,
+        "exam_mapping_id": null,
+        "evidence_details": {
+          "source_concept_id": 15196,
+          "source_concept_name": "Accounting Principles",
+          "source_subject_id": "accounting",
+          "source_mcq_ids": [],
+          "blueprint_id": 8921,
+          "blueprint_type": "general",
+          "learning_objective_id": 282268,
+          "learning_objective": "Expenses are recorded in the same period as the revenue they helped generate.",
+          "distractor_pool_id": 10412,
+          "pattern_id": "general-15196",
+          "exam_mapping_id": null,
+          "exam_id": "ppsc",
+          "generation_timestamp": "2026-08-05T12:30:06",
+          "confidence_score": 0.522,
+          "generation_method": "offline_recomposition",
+          "data_sources": [
+            "kg_concepts",
+            "kg_question_blueprints",
+            "kg_distractor_pools",
+            "kg_distractor_items",
+            "kg_learning_objectives",
+            "kg_exam_mappings",
+            "mcq_concepts",
+            "mcqs",
+            "options"
+          ],
+          "traceability": {
+            "concept_traceable": true,
+            "blueprint_traceable": true,
+            "lo_traceable": true,
+            "distractor_traceable": true
+          }
+        }
+      }
+    },
+    {
+      "mcq_id": "gen-accounting-15197-8913-0008",
+      "queue_id": 3,
+      "subject_id": "accounting",
+      "question": "basics - definition",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "Assets = Liabilities - Owner's Equity",
+          "source": "distractor_pool_9519"
+        },
+        {
+          "label": "B",
+          "text": "Assets = Liabilities - Owner's Equity",
+          "source": "distractor_pool_9519"
+        },
+        {
+          "label": "C",
+          "text": "Assets = Liabilities - Owner's Equity",
+          "source": "distractor_pool_9519"
+        },
+        {
+          "label": "D",
+          "text": "Assets = Liabilities - Owner's Equity",
+          "source": "distractor_pool_9519"
+        }
+      ],
+      "difficulty": "medium",
+      "bloom_taxonomy": "Understand",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "Assets = Liabilities - Owner's Equity; Assets + Liabilities = Owner's Equity; Liabilities = Assets + Owner's Equity; One account",
+      "confidence_score": 0.6,
+      "traceability_card": {
+        "concept": {
+          "id": 15197,
+          "name": "basics",
+          "slug": "accounting-basics-0"
+        },
+        "learning_objective": {
+          "id": 282292,
+          "statement": "The fundamental accounting equation is Assets = Liabilities + Owner's Equity."
+        },
+        "blueprint": {
+          "id": 8913,
+          "type": "definition",
+          "difficulty": "medium",
+          "bloom": "Understand"
+        },
+        "pattern_id": "definition-15197",
+        "distractor_pool_id": 9519,
+        "exam_mapping_id": null,
+        "evidence_details": {
+          "source_concept_id": 15197,
+          "source_concept_name": "basics",
+          "source_subject_id": "accounting",
+          "source_mcq_ids": [],
+          "blueprint_id": 8913,
+          "blueprint_type": "definition",
+          "learning_objective_id": 282292,
+          "learning_objective": "The fundamental accounting equation is Assets = Liabilities + Owner's Equity.",
+          "distractor_pool_id": 9519,
+          "pattern_id": "definition-15197",
+          "exam_mapping_id": null,
+          "exam_id": "ppsc",
+          "generation_timestamp": "2026-08-05T12:30:06",
+          "confidence_score": 0.6,
+          "generation_method": "offline_recomposition",
+          "data_sources": [
+            "kg_concepts",
+            "kg_question_blueprints",
+            "kg_distractor_pools",
+            "kg_distractor_items",
+            "kg_learning_objectives",
+            "kg_exam_mappings",
+            "mcq_concepts",
+            "mcqs",
+            "options"
+          ],
+          "traceability": {
+            "concept_traceable": true,
+            "blueprint_traceable": true,
+            "lo_traceable": true,
+            "distractor_traceable": true
+          }
+        }
+      }
+    },
+    {
+      "mcq_id": "gen-agriculture-15204-8929-0015",
+      "queue_id": 4,
+      "subject_id": "agriculture",
+      "question": "Soils and Agronomy - general",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "0.27 kg/ha",
+          "source": "distractor_pool_10456"
+        },
+        {
+          "label": "B",
+          "text": "0.27 kg/ha",
+          "source": "distractor_pool_10456"
+        },
+        {
+          "label": "C",
+          "text": "0.27 kg/ha",
+          "source": "distractor_pool_10456"
+        },
+        {
+          "label": "D",
+          "text": "0.27 kg/ha",
+          "source": "distractor_pool_10456"
+        }
+      ],
+      "difficulty": "easy",
+      "bloom_taxonomy": "Apply",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "0.27 kg/ha; 1,869 kg/ha; 7,476 kg/ha; 947 kg/ha",
+      "confidence_score": 0.6,
+      "traceability_card": {
+        "concept": {
+          "id": 15204,
+          "name": "Soils and Agronomy",
+          "slug": "agriculture-soils-and-agronomy-0"
+        },
+        "learning_objective": {
+          "id": 282639,
+          "statement": "Indus plains are alluvial; barani lands have loess and sandy soils."
+        },
+        "blueprint": {
+          "id": 8929,
+          "type": "general",
+          "difficulty": "easy",
+          "bloom": "Apply"
+        },
+        "pattern_id": "general-15204",
+        "distractor_pool_id": 10456,
+        "exam_mapping_id": null,
+        "evidence_details": {
+          "source_concept_id": 15204,
+          "source_concept_name": "Soils and Agronomy",
+          "source_subject_id": "agriculture",
+          "source_mcq_ids": [],
+          "blueprint_id": 8929,
+          "blueprint_type": "general",
+          "learning_objective_id": 282639,
+          "learning_objective": "Indus plains are alluvial; barani lands have loess and sandy soils.",
+          "distractor_pool_id": 10456,
+          "pattern_id": "general-15204",
+          "exam_mapping_id": null,
+          "exam_id": "ppsc",
+          "generation_timestamp": "2026-08-05T12:30:06",
+          "confidence_score": 0.6,
+          "generation_method": "offline_recomposition",
+          "data_sources": [
+            "kg_concepts",
+            "kg_question_blueprints",
+            "kg_distractor_pools",
+            "kg_distractor_items",
+            "kg_learning_objectives",
+            "kg_exam_mappings",
+            "mcq_concepts",
+            "mcqs",
+            "options"
+          ],
+          "traceability": {
+            "concept_traceable": true,
+            "blueprint_traceable": true,
+            "lo_traceable": true,
+            "distractor_traceable": true
+          }
+        }
+      }
+    },
+    {
+      "mcq_id": "gen-ai-15213-8940-0024",
+      "queue_id": 5,
+      "subject_id": "ai",
+      "question": "Machine Learning Models - general",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "The data used to fit the model",
+          "source": "distractor_pool_10439"
+        },
+        {
+          "label": "B",
+          "text": "The data used to fit the model",
+          "source": "distractor_pool_10439"
+        },
+        {
+          "label": "C",
+          "text": "The data used to fit the model",
+          "source": "distractor_pool_10439"
+        },
+        {
+          "label": "D",
+          "text": "The data used to fit the model",
+          "source": "distractor_pool_10439"
+        }
+      ],
+      "difficulty": "easy",
+      "bloom_taxonomy": "Apply",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "The data used to fit the model; Random forest; Logistic regression; The model is too simple to capture the pattern",
+      "confidence_score": 0.5,
+      "traceability_card": {
+        "concept": {
+          "id": 15213,
+          "name": "Machine Learning Models",
+          "slug": "artificial-intelligence-machine-learning-models-0"
+        },
+        "learning_objective": {
+          "id": 283097,
+          "statement": "Linear regression fits a line to predict continuous targets like prices."
+        },
+        "blueprint": {
+          "id": 8940,
+          "type": "general",
+          "difficulty": "easy",
+          "bloom": "Apply"
+        },
+        "pattern_id": "general-15213",
+        "distractor_pool_id": 10439,
+        "exam_mapping_id": null,
+        "evidence_details": {
+          "source_concept_id": 15213,
+          "source_concept_name": "Machine Learning Models",
+          "source_subject_id": "ai",
+          "source_mcq_ids": [],
+          "blueprint_id": 8940,
+          "blueprint_type": "general",
+          "learning_objective_id": 283097,
+          "learning_objective": "Linear regression fits a line to predict continuous targets like prices.",
+          "distractor_pool_id": 10439,
+          "pattern_id": "general-15213",
+          "exam_mapping_id": null,
+          "exam_id": "ppsc",
+          "generation_timestamp": "2026-08-05T12:30:06",
+          "confidence_score": 0.5,
+          "generation_method": "offline_recomposition",
+          "data_sources": [
+            "kg_concepts",
+            "kg_question_blueprints",
+            "kg_distractor_pools",
+            "kg_distractor_items",
+            "kg_learning_objectives",
+            "kg_exam_mappings",
+            "mcq_concepts",
+            "mcqs",
+            "options"
+          ],
+          "traceability": {
+            "concept_traceable": true,
+            "blueprint_traceable": true,
+            "lo_traceable": true,
+            "distractor_traceable": true
+          }
+        }
+      }
+    },
+    {
+      "mcq_id": "gen-ajkpsc-15218-8941-0029",
+      "queue_id": 6,
+      "subject_id": "ajkpsc",
+      "question": "AJKPSC (Azad Kashmir Public Service Commission) - general",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "academic and intelligence tests",
+          "source": "distractor_pool_10030"
+        },
+        {
+          "label": "B",
+          "text": "academic and intelligence tests",
+          "source": "distractor_pool_10030"
+        },
+        {
+          "label": "C",
+          "text": "academic and intelligence tests",
+          "source": "distractor_pool_10030"
+        },
+        {
+          "label": "D",
+          "text": "academic and intelligence tests",
+          "source": "distractor_pool_10030"
+        }
+      ],
+      "difficulty": "medium",
+      "bloom_taxonomy": "Understand",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "academic and intelligence tests; AJKPSC recruits AJK government officers; Pakistan Testing Service recruitment tests; Azad Kashmir Public Service Commission exams",
+      "confidence_score": 0.555,
+      "traceability_card": {
+        "concept": {
+          "id": 15218,
+          "name": "AJKPSC (Azad Kashmir Public Service Commission)",
+          "slug": "ajkpsc-azad-kashmir-public-service-commission--ajkpsc-azad-kashmir-public-service-commission-0"
+        },
+        "learning_objective": {
+          "id": 283236,
+          "statement": "AJKPSC stands for Azad Kashmir Public Service Commission exams."
+        },
+        "blueprint": {
+          "id": 8941,
+          "type": "general",
+          "difficulty": "medium",
+          "bloom": "Understand"
+        },
+        "pattern_id": "general-15218",
+        "distractor_pool_id": 10030,
+        "exam_mapping_id": null,
+        "evidence_details": {
+          "source_concept_id": 15218,
+          "source_concept_name": "AJKPSC (Azad Kashmir Public Service Commission)",
+          "source_subject_id": "ajkpsc",
+          "source_mcq_ids": [],
+          "blueprint_id": 8941,
+          "blueprint_type": "general",
+          "learning_objective_id": 283236,
+          "learning_objective": "AJKPSC stands for Azad Kashmir Public Service Commission exams.",
+          "distractor_pool_id": 10030,
+          "pattern_id": "general-15218",
+          "exam_mapping_id": null,
+          "exam_id": "ajkpsc",
+          "generation_timestamp": "2026-08-05T12:30:06",
+          "confidence_score": 0.555,
+          "generation_method": "offline_recomposition",
+          "data_sources": [
+            "kg_concepts",
+            "kg_question_blueprints",
+            "kg_distractor_pools",
+            "kg_distractor_items",
+            "kg_learning_objectives",
+            "kg_exam_mappings",
+            "mcq_concepts",
+            "mcqs",
+            "options"
+          ],
+          "traceability": {
+            "concept_traceable": true,
+            "blueprint_traceable": true,
+            "lo_traceable": true,
+            "distractor_traceable": true
+          }
+        }
+      }
+    },
+    {
+      "mcq_id": "gen-ajkpsc-15222-8947-0033",
+      "queue_id": 7,
+      "subject_id": "ajkpsc",
+      "question": "AJK History and Politics - general",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "Sardar Muhammad Ibrahim Khan",
+          "source": "distractor_pool_10571"
+        },
+        {
+          "label": "B",
+          "text": "Sardar Muhammad Ibrahim Khan",
+          "source": "distractor_pool_10571"
+        },
+        {
+          "label": "C",
+          "text": "Sardar Muhammad Ibrahim Khan",
+          "source": "distractor_pool_10571"
+        },
+        {
+          "label": "D",
+          "text": "Sardar Muhammad Ibrahim Khan",
+          "source": "distractor_pool_10571"
+        }
+      ],
+      "difficulty": "medium",
+      "bloom_taxonomy": "Understand",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "Sardar Muhammad Ibrahim Khan; Pir Panjal; Kashmiri; Coniferous forest",
+      "confidence_score": 0.55,
+      "traceability_card": {
+        "concept": {
+          "id": 15222,
+          "name": "AJK History and Politics",
+          "slug": "ajkpsc-azad-kashmir-public-service-commission--ajk-history-and-politics-0"
+        },
+        "learning_objective": {
+          "id": 283350,
+          "statement": "The Poonch rebellion of 1947 against the Dogra Maharaja triggered the tribal intervention and the Kashmir dispute."
+        },
+        "blueprint": {
+          "id": 8947,
+          "type": "general",
+          "difficulty": "medium",
+          "bloom": "Understand"
+        },
+        "pattern_id": "general-15222",
+        "distractor_pool_id": 10571,
+        "exam_mapping_id": null,
+        "evidence_details": {
+          "source_concept_id": 15222,
+          "source_concept_name": "AJK History and Politics",
+          "source_subject_id": "ajkpsc",
+          "source_mcq_ids": [],
+          "blueprint_id": 8947,
+          "blueprint_type": "general",
+          "learning_objective_id": 283350,
+          "learning_objective": "The Poonch rebellion of 1947 against the Dogra Maharaja triggered the tribal intervention and the Kashmir dispute.",
+          "distractor_pool_id": 10571,
+          "pattern_id": "general-15222",
+          "exam_mapping_id": null,
+          "exam_id": "ajkpsc",
+          "generation_timestamp": "2026-08-05T12:30:06",
+          "confidence_score": 0.55,
+          "generation_method": "offline_recomposition",
+          "data_sources": [
+            "kg_concepts",
+            "kg_question_blueprints",
+            "kg_distractor_pools",
+            "kg_distractor_items",
+            "kg_learning_objectives",
+            "kg_exam_mappings",
+            "mcq_concepts",
+            "mcqs",
+            "options"
+          ],
+          "traceability": {
+            "concept_traceable": true,
+            "blueprint_traceable": true,
+            "lo_traceable": true,
+            "distractor_traceable": true
+          }
+        }
+      }
+    },
+    {
+      "mcq_id": "gen-ajkpsc-15223-8948-0034",
+      "queue_id": 8,
+      "subject_id": "ajkpsc",
+      "question": "AJK Culture and Economy - general",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "Toli Pir",
+          "source": "distractor_pool_10572"
+        },
+        {
+          "label": "B",
+          "text": "Toli Pir",
+          "source": "distractor_pool_10572"
+        },
+        {
+          "label": "C",
+          "text": "Toli Pir",
+          "source": "distractor_pool_10572"
+        },
+        {
+          "label": "D",
+          "text": "Toli Pir",
+          "source": "distractor_pool_10572"
+        }
+      ],
+      "difficulty": "medium",
+      "bloom_taxonomy": "Understand",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "Toli Pir; The First Kashmir War; Patti (woven shawls); Pir Panjal",
+      "confidence_score": 0.564,
+      "traceability_card": {
+        "concept": {
+          "id": 15223,
+          "name": "AJK Culture and Economy",
+          "slug": "ajkpsc-azad-kashmir-public-service-commission--ajk-culture-and-economy-0"
+        },
+        "learning_objective": {
+          "id": 283358,
+          "statement": "Pahari, also called Pothwari, is the main language of Mirpur, Kotli, Bhimber and Poonch districts of AJK."
+        },
+        "blueprint": {
+          "id": 8948,
+          "type": "general",
+          "difficulty": "medium",
+          "bloom": "Understand"
+        },
+        "pattern_id": "general-15223",
+        "distractor_pool_id": 10572,
+        "exam_mapping_id": null,
+        "evidence_details": {
+          "source_concept_id": 15223,
+          "source_concept_name": "AJK Culture and Economy",
+          "source_subject_id": "ajkpsc",
+          "source_mcq_ids": [],
+          "blueprint_id": 8948,
+          "blueprint_type": "general",
+          "learning_objective_id": 283358,
+          "learning_objective": "Pahari, also called Pothwari, is the main language of Mirpur, Kotli, Bhimber and Poonch districts of AJK.",
+          "distractor_pool_id": 10572,
+          "pattern_id": "general-15223",
+          "exam_mapping_id": null,
+          "exam_id": "ajkpsc",
+          "generation_timestamp": "2026-08-05T12:30:06",
+          "confidence_score": 0.564,
+          "generation_method": "offline_recomposition",
+          "data_sources": [
+            "kg_concepts",
+            "kg_question_blueprints",
+            "kg_distractor_pools",
+            "kg_distractor_items",
+            "kg_learning_objectives",
+            "kg_exam_mappings",
+            "mcq_concepts",
+            "mcqs",
+            "options"
+          ],
+          "traceability": {
+            "concept_traceable": true,
+            "blueprint_traceable": true,
+            "lo_traceable": true,
+            "distractor_traceable": true
+          }
+        }
+      }
+    },
+    {
+      "mcq_id": "gen-analytical-reasoning-15229-8952-0040",
+      "queue_id": 9,
+      "subject_id": "analytical-reasoning",
+      "question": "Analytical Reasoning - general",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "herbarium",
+          "source": "distractor_pool_9833"
+        },
+        {
+          "label": "B",
+          "text": "herbarium",
+          "source": "distractor_pool_9833"
+        },
+        {
+          "label": "C",
+          "text": "herbarium",
+          "source": "distractor_pool_9833"
+        },
+        {
+          "label": "D",
+          "text": "herbarium",
+          "source": "distractor_pool_9833"
+        }
+      ],
+      "difficulty": "medium",
+      "bloom_taxonomy": "Understand",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "herbarium; provisions; jewellery; airplane",
+      "confidence_score": 0.5,
+      "traceability_card": {
+        "concept": {
+          "id": 15229,
+          "name": "Analytical Reasoning",
+          "slug": "analytical-reasoning-analytical-reasoning-0"
+        },
+        "learning_objective": {
+          "id": 283461,
+          "statement": "A writer works in a pen."
+        },
+        "blueprint": {
+          "id": 8952,
+          "type": "general",
+          "difficulty": "medium",
+          "bloom": "Understand"
+        },
+        "pattern_id": "general-15229",
+        "distractor_pool_id": 9833,
+        "exam_mapping_id": null,
+        "evidence_details": {
+          "source_concept_id": 15229,
+          "source_concept_name": "Analytical Reasoning",
+          "source_subject_id": "analytical-reasoning",
+          "source_mcq_ids": [],
+          "blueprint_id": 8952,
+          "blueprint_type": "general",
+          "learning_objective_id": 283461,
+          "learning_objective": "A writer works in a pen.",
+          "distractor_pool_id": 9833,
+          "pattern_id": "general-15229",
+          "exam_mapping_id": null,
+          "exam_id": "nts",
+          "generation_timestamp": "2026-08-05T12:30:06",
+          "confidence_score": 0.5,
+          "generation_method": "offline_recomposition",
+          "data_sources": [
+            "kg_concepts",
+            "kg_question_blueprints",
+            "kg_distractor_pools",
+            "kg_distractor_items",
+            "kg_learning_objectives",
+            "kg_exam_mappings",
+            "mcq_concepts",
+            "mcqs",
+            "options"
+          ],
+          "traceability": {
+            "concept_traceable": true,
+            "blueprint_traceable": true,
+            "lo_traceable": true,
+            "distractor_traceable": true
+          }
+        }
+      }
+    },
+    {
+      "mcq_id": "gen-analytical-reasoning-15230-8954-0041",
+      "queue_id": 10,
+      "subject_id": "analytical-reasoning",
+      "question": "reasoning - general",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "observatory",
+          "source": "distractor_pool_9835"
+        },
+        {
+          "label": "B",
+          "text": "observatory",
+          "source": "distractor_pool_9835"
+        },
+        {
+          "label": "C",
+          "text": "observatory",
+          "source": "distractor_pool_9835"
+        },
+        {
+          "label": "D",
+          "text": "observatory",
+          "source": "distractor_pool_9835"
+        }
+      ],
+      "difficulty": "medium",
+      "bloom_taxonomy": "Understand",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "observatory; vehicle; language; courtroom",
+      "confidence_score": 0.49,
+      "traceability_card": {
+        "concept": {
+          "id": 15230,
+          "name": "reasoning",
+          "slug": "analytical-reasoning-reasoning-0"
+        },
+        "learning_objective": {
+          "id": 283761,
+          "statement": "A writer works in a pen."
+        },
+        "blueprint": {
+          "id": 8954,
+          "type": "general",
+          "difficulty": "medium",
+          "bloom": "Understand"
+        },
+        "pattern_id": "general-15230",
+        "distractor_pool_id": 9835,
+        "exam_mapping_id": null,
+        "evidence_details": {
+          "source_concept_id": 15230,
+          "source_concept_name": "reasoning",
+          "source_subject_id": "analytical-reasoning",
+          "source_mcq_ids": [],
+          "blueprint_id": 8954,
+          "blueprint_type": "general",
+          "learning_objective_id": 283761,
+          "learning_objective": "A writer works in a pen.",
+          "distractor_pool_id": 9835,
+          "pattern_id": "general-15230",
+          "exam_mapping_id": null,
+          "exam_id": "nts",
+          "generation_timestamp": "2026-08-05T12:30:06",
+          "confidence_score": 0.49,
+          "generation_method": "offline_recomposition",
+          "data_sources": [
+            "kg_concepts",
+            "kg_question_blueprints",
+            "kg_distractor_pools",
+            "kg_distractor_items",
+            "kg_learning_objectives",
+            "kg_exam_mappings",
+            "mcq_concepts",
+            "mcqs",
+            "options"
+          ],
+          "traceability": {
+            "concept_traceable": true,
+            "blueprint_traceable": true,
+            "lo_traceable": true,
+            "distractor_traceable": true
+          }
+        }
+      }
+    },
+    {
+      "mcq_id": "gen-analytical-reasoning-15231-8957-0042",
+      "queue_id": 11,
+      "subject_id": "analytical-reasoning",
+      "question": "Ranking and Positioning - general",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "16",
+          "source": "distractor_pool_9838"
+        },
+        {
+          "label": "B",
+          "text": "16",
+          "source": "distractor_pool_9838"
+        },
+        {
+          "label": "C",
+          "text": "16",
+          "source": "distractor_pool_9838"
+        },
+        {
+          "label": "D",
+          "text": "16",
+          "source": "distractor_pool_9838"
+        }
+      ],
+      "difficulty": "medium",
+      "bloom_taxonomy": "Understand",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "16; 17; 11; 40",
+      "confidence_score": 0.4,
+      "traceability_card": {
+        "concept": {
+          "id": 15231,
+          "name": "Ranking and Positioning",
+          "slug": "analytical-reasoning-ranking-and-positioning-0"
+        },
+        "learning_objective": {
+          "id": 284061,
+          "statement": "Rank from bottom = total − rank from top + 1 = 27 − 10 + 1 = 18."
+        },
+        "blueprint": {
+          "id": 8957,
+          "type": "general",
+          "difficulty": "medium",
+          "bloom": "Understand"
+        },
+        "pattern_id": "general-15231",
+        "distractor_pool_id": 9838,
+        "exam_mapping_id": null,
+        "evidence_details": {
+          "source_concept_id": 15231,
+          "source_concept_name": "Ranking and Positioning",
+          "source_subject_id": "analytical-reasoning",
+          "source_mcq_ids": [],
+          "blueprint_id": 8957,
+          "blueprint_type": "general",
+          "learning_objective_id": 284061,
+          "learning_objective": "Rank from bottom = total − rank from top + 1 = 27 − 10 + 1 = 18.",
+          "distractor_pool_id": 9838,
+          "pattern_id": "general-15231",
+          "exam_mapping_id": null,
+          "exam_id": "nts",
+          "generation_timestamp": "2026-08-05T12:30:06",
+          "confidence_score": 0.4,
+          "generation_method": "offline_recomposition",
+          "data_sources": [
+            "kg_concepts",
+            "kg_question_blueprints",
+            "kg_distractor_pools",
+            "kg_distractor_items",
+            "kg_learning_objectives",
+            "kg_exam_mappings",
+            "mcq_concepts",
+            "mcqs",
+            "options"
+          ],
+          "traceability": {
+            "concept_traceable": true,
+            "blueprint_traceable": true,
+            "lo_traceable": true,
+            "distractor_traceable": true
+          }
+        }
+      }
+    },
+    {
+      "mcq_id": "gen-analytical-reasoning-15232-8953-0043",
+      "queue_id": 12,
+      "subject_id": "analytical-reasoning",
+      "question": "Analogies - general",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "language",
+          "source": "distractor_pool_9834"
+        },
+        {
+          "label": "B",
+          "text": "language",
+          "source": "distractor_pool_9834"
+        },
+        {
+          "label": "C",
+          "text": "language",
+          "source": "distractor_pool_9834"
+        },
+        {
+          "label": "D",
+          "text": "language",
+          "source": "distractor_pool_9834"
+        }
+      ],
+      "difficulty": "medium",
+      "bloom_taxonomy": "Understand",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "language; canvas; excavation; jewellery",
+      "confidence_score": 0.49,
+      "traceability_card": {
+        "concept": {
+          "id": 15232,
+          "name": "Analogies",
+          "slug": "analytical-reasoning-analogies-0"
+        },
+        "learning_objective": {
+          "id": 284269,
+          "statement": "A writer works in a pen."
+        },
+        "blueprint": {
+          "id": 8953,
+          "type": "general",
+          "difficulty": "medium",
+          "bloom": "Understand"
+        },
+        "pattern_id": "general-15232",
+        "distractor_pool_id": 9834,
+        "exam_mapping_id": null,
+        "evidence_details": {
+          "source_concept_id": 15232,
+          "source_concept_name": "Analogies",
+          "source_subject_id": "analytical-reasoning",
+          "source_mcq_ids": [],
+          "blueprint_id": 8953,
+          "blueprint_type": "general",
+          "learning_objective_id": 284269,
+          "learning_objective": "A writer works in a pen.",
+          "distractor_pool_id": 9834,
+          "pattern_id": "general-15232",
+          "exam_mapping_id": null,
+          "exam_id": "nts",
+          "generation_timestamp": "2026-08-05T12:30:06",
+          "confidence_score": 0.49,
+          "generation_method": "offline_recomposition",
+          "data_sources": [
+            "kg_concepts",
+            "kg_question_blueprints",
+            "kg_distractor_pools",
+            "kg_distractor_items",
+            "kg_learning_objectives",
+            "kg_exam_mappings",
+            "mcq_concepts",
+            "mcqs",
+            "options"
+          ],
+          "traceability": {
+            "concept_traceable": true,
+            "blueprint_traceable": true,
+            "lo_traceable": true,
+            "distractor_traceable": true
+          }
+        }
+      }
+    },
+    {
+      "mcq_id": "gen-analytical-reasoning-15233-8956-0044",
+      "queue_id": 13,
+      "subject_id": "analytical-reasoning",
+      "question": "Direction Sense - general",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "North",
+          "source": "distractor_pool_9837"
+        },
+        {
+          "label": "B",
+          "text": "North",
+          "source": "distractor_pool_9837"
+        },
+        {
+          "label": "C",
+          "text": "North",
+          "source": "distractor_pool_9837"
+        },
+        {
+          "label": "D",
+          "text": "North",
+          "source": "distractor_pool_9837"
+        }
+      ],
+      "difficulty": "medium",
+      "bloom_taxonomy": "Understand",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "North; West; East; South",
+      "confidence_score": 0.4,
+      "traceability_card": {
+        "concept": {
+          "id": 15233,
+          "name": "Direction Sense",
+          "slug": "analytical-reasoning-direction-sense-0"
+        },
+        "learning_objective": {
+          "id": 284569,
+          "statement": "Facing East, a right turn points South."
+        },
+        "blueprint": {
+          "id": 8956,
+          "type": "general",
+          "difficulty": "medium",
+          "bloom": "Understand"
+        },
+        "pattern_id": "general-15233",
+        "distractor_pool_id": 9837,
+        "exam_mapping_id": null,
+        "evidence_details": {
+          "source_concept_id": 15233,
+          "source_concept_name": "Direction Sense",
+          "source_subject_id": "analytical-reasoning",
+          "source_mcq_ids": [],
+          "blueprint_id": 8956,
+          "blueprint_type": "general",
+          "learning_objective_id": 284569,
+          "learning_objective": "Facing East, a right turn points South.",
+          "distractor_pool_id": 9837,
+          "pattern_id": "general-15233",
+          "exam_mapping_id": null,
+          "exam_id": "nts",
+          "generation_timestamp": "2026-08-05T12:30:06",
+          "confidence_score": 0.4,
+          "generation_method": "offline_recomposition",
+          "data_sources": [
+            "kg_concepts",
+            "kg_question_blueprints",
+            "kg_distractor_pools",
+            "kg_distractor_items",
+            "kg_learning_objectives",
+            "kg_exam_mappings",
+            "mcq_concepts",
+            "mcqs",
+            "options"
+          ],
+          "traceability": {
+            "concept_traceable": true,
+            "blueprint_traceable": true,
+            "lo_traceable": true,
+            "distractor_traceable": true
+          }
+        }
+      }
+    },
+    {
+      "mcq_id": "gen-analytical-reasoning-15234-8955-0045",
+      "queue_id": 14,
+      "subject_id": "analytical-reasoning",
+      "question": "Blood Relations - general",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "cousin",
+          "source": "distractor_pool_9836"
+        },
+        {
+          "label": "B",
+          "text": "cousin",
+          "source": "distractor_pool_9836"
+        },
+        {
+          "label": "C",
+          "text": "cousin",
+          "source": "distractor_pool_9836"
+        },
+        {
+          "label": "D",
+          "text": "cousin",
+          "source": "distractor_pool_9836"
+        }
+      ],
+      "difficulty": "medium",
+      "bloom_taxonomy": "Understand",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "cousin; grandfather; father-in-law; mother-in-law",
+      "confidence_score": 0.55,
+      "traceability_card": {
+        "concept": {
+          "id": 15234,
+          "name": "Blood Relations",
+          "slug": "analytical-reasoning-blood-relations-0"
+        },
+        "learning_objective": {
+          "id": 284919,
+          "statement": "Father's sister is one's paternal aunt."
+        },
+        "blueprint": {
+          "id": 8955,
+          "type": "general",
+          "difficulty": "medium",
+          "bloom": "Understand"
+        },
+        "pattern_id": "general-15234",
+        "distractor_pool_id": 9836,
+        "exam_mapping_id": null,
+        "evidence_details": {
+          "source_concept_id": 15234,
+          "source_concept_name": "Blood Relations",
+          "source_subject_id": "analytical-reasoning",
+          "source_mcq_ids": [],
+          "blueprint_id": 8955,
+          "blueprint_type": "general",
+          "learning_objective_id": 284919,
+          "learning_objective": "Father's sister is one's paternal aunt.",
+          "distractor_pool_id": 9836,
+          "pattern_id": "general-15234",
+          "exam_mapping_id": null,
+          "exam_id": "nts",
+          "generation_timestamp": "2026-08-05T12:30:06",
+          "confidence_score": 0.55,
+          "generation_method": "offline_recomposition",
+          "data_sources": [
+            "kg_concepts",
+            "kg_question_blueprints",
+            "kg_distractor_pools",
+            "kg_distractor_items",
+            "kg_learning_objectives",
+            "kg_exam_mappings",
+            "mcq_concepts",
+            "mcqs",
+            "options"
+          ],
+          "traceability": {
+            "concept_traceable": true,
+            "blueprint_traceable": true,
+            "lo_traceable": true,
+            "distractor_traceable": true
+          }
+        }
+      }
+    },
+    {
+      "mcq_id": "gen-analytical-reasoning-15235-8958-0046",
+      "queue_id": 15,
+      "subject_id": "analytical-reasoning",
+      "question": "Number Coding - general",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "Thursday",
+          "source": "distractor_pool_10206"
+        },
+        {
+          "label": "B",
+          "text": "Thursday",
+          "source": "distractor_pool_10206"
+        },
+        {
+          "label": "C",
+          "text": "Thursday",
+          "source": "distractor_pool_10206"
+        },
+        {
+          "label": "D",
+          "text": "Thursday",
+          "source": "distractor_pool_10206"
+        }
+      ],
+      "difficulty": "medium",
+      "bloom_taxonomy": "Understand",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "Thursday; 7-15; tvo; 26",
+      "confidence_score": 0.433,
+      "traceability_card": {
+        "concept": {
+          "id": 15235,
+          "name": "Number Coding",
+          "slug": "analytical-reasoning-number-coding-0"
+        },
+        "learning_objective": {
+          "id": 284999,
+          "statement": "Codes count letters: CAT has 3 letters, BIRD has 4."
+        },
+        "blueprint": {
+          "id": 8958,
+          "type": "general",
+          "difficulty": "medium",
+          "bloom": "Understand"
+        },
+        "pattern_id": "general-15235",
+        "distractor_pool_id": 10206,
+        "exam_mapping_id": null,
+        "evidence_details": {
+          "source_concept_id": 15235,
+          "source_concept_name": "Number Coding",
+          "source_subject_id": "analytical-reasoning",
+          "source_mcq_ids": [],
+          "blueprint_id": 8958,
+          "blueprint_type": "general",
+          "learning_objective_id": 284999,
+          "learning_objective": "Codes count letters: CAT has 3 letters, BIRD has 4.",
+          "distractor_pool_id": 10206,
+          "pattern_id": "general-15235",
+          "exam_mapping_id": null,
+          "exam_id": "nts",
+          "generation_timestamp": "2026-08-05T12:30:06",
+          "confidence_score": 0.433,
+          "generation_method": "offline_recomposition",
+          "data_sources": [
+            "kg_concepts",
+            "kg_question_blueprints",
+            "kg_distractor_pools",
+            "kg_distractor_items",
+            "kg_learning_objectives",
+            "kg_exam_mappings",
+            "mcq_concepts",
+            "mcqs",
+            "options"
+          ],
+          "traceability": {
+            "concept_traceable": true,
+            "blueprint_traceable": true,
+            "lo_traceable": true,
+            "distractor_traceable": true
+          }
+        }
+      }
+    },
+    {
+      "mcq_id": "gen-anatomy-15237-8961-0048",
+      "queue_id": 16,
+      "subject_id": "anatomy",
+      "question": "Anatomy - calculation",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "Cardiac muscle",
+          "source": "distractor_pool_10143"
+        },
+        {
+          "label": "B",
+          "text": "Cardiac muscle",
+          "source": "distractor_pool_10143"
+        },
+        {
+          "label": "C",
+          "text": "Cardiac muscle",
+          "source": "distractor_pool_10143"
+        },
+        {
+          "label": "D",
+          "text": "Cardiac muscle",
+          "source": "distractor_pool_10143"
+        }
+      ],
+      "difficulty": "medium",
+      "bloom_taxonomy": "Understand",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "Cardiac muscle; Semicircular canals; Pituitary; Ligaments",
+      "confidence_score": 0.43199999999999994,
+      "traceability_card": {
+        "concept": {
+          "id": 15237,
+          "name": "Anatomy",
+          "slug": "anatomy-anatomy-0"
+        },
+        "learning_objective": {
+          "id": 285015,
+          "statement": "Two atria and two ventricles."
+        },
+        "blueprint": {
+          "id": 8961,
+          "type": "calculation",
+          "difficulty": "medium",
+          "bloom": "Understand"
+        },
+        "pattern_id": "calculation-15237",
+        "distractor_pool_id": 10143,
+        "exam_mapping_id": null,
+        "evidence_details": {
+          "source_concept_id": 15237,
+          "source_concept_name": "Anatomy",
+          "source_subject_id": "anatomy",
+          "source_mcq_ids": [],
+          "blueprint_id": 8961,
+          "blueprint_type": "calculation",
+          "learning_objective_id": 285015,
+          "learning_objective": "Two atria and two ventricles.",
+          "distractor_pool_id": 10143,
+          "pattern_id": "calculation-15237",
+          "exam_mapping_id": null,
+          "exam_id": "ppsc",
+          "generation_timestamp": "2026-08-05T12:30:06",
+          "confidence_score": 0.43199999999999994,
+          "generation_method": "offline_recomposition",
+          "data_sources": [
+            "kg_concepts",
+            "kg_question_blueprints",
+            "kg_distractor_pools",
+            "kg_distractor_items",
+            "kg_learning_objectives",
+            "kg_exam_mappings",
+            "mcq_concepts",
+            "mcqs",
+            "options"
+          ],
+          "traceability": {
+            "concept_traceable": true,
+            "blueprint_traceable": true,
+            "lo_traceable": true,
+            "distractor_traceable": true
+          }
+        }
+      }
+    },
+    {
+      "mcq_id": "gen-anatomy-15241-8971-0052",
+      "queue_id": 17,
+      "subject_id": "anatomy",
+      "question": "Letter Positions - calculation",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "17",
+          "source": "distractor_pool_11092"
+        },
+        {
+          "label": "B",
+          "text": "17",
+          "source": "distractor_pool_11092"
+        },
+        {
+          "label": "C",
+          "text": "17",
+          "source": "distractor_pool_11092"
+        },
+        {
+          "label": "D",
+          "text": "17",
+          "source": "distractor_pool_11092"
+        }
+      ],
+      "difficulty": "easy",
+      "bloom_taxonomy": "Apply",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "17; 15; 16; 14",
+      "confidence_score": 0.4,
+      "traceability_card": {
+        "concept": {
+          "id": 15241,
+          "name": "Letter Positions",
+          "slug": "anatomy-letter-positions-0"
+        },
+        "learning_objective": {
+          "id": 285174,
+          "statement": "The first letter of \"neck\" is \"n\", which is position fourteenth in the English alphabet (A=1 to Z=26)."
+        },
+        "blueprint": {
+          "id": 8971,
+          "type": "calculation",
+          "difficulty": "easy",
+          "bloom": "Apply"
+        },
+        "pattern_id": "calculation-15241",
+        "distractor_pool_id": 11092,
+        "exam_mapping_id": null,
+        "evidence_details": {
+          "source_concept_id": 15241,
+          "source_concept_name": "Letter Positions",
+          "source_subject_id": "anatomy",
+          "source_mcq_ids": [],
+          "blueprint_id": 8971,
+          "blueprint_type": "calculation",
+          "learning_objective_id": 285174,
+          "learning_objective": "The first letter of \"neck\" is \"n\", which is position fourteenth in the English alphabet (A=1 to Z=26).",
+          "distractor_pool_id": 11092,
+          "pattern_id": "calculation-15241",
+          "exam_mapping_id": null,
+          "exam_id": "ppsc",
+          "generation_timestamp": "2026-08-05T12:30:06",
+          "confidence_score": 0.4,
+          "generation_method": "offline_recomposition",
+          "data_sources": [
+            "kg_concepts",
+            "kg_question_blueprints",
+            "kg_distractor_pools",
+            "kg_distractor_items",
+            "kg_learning_objectives",
+            "kg_exam_mappings",
+            "mcq_concepts",
+            "mcqs",
+            "options"
+          ],
+          "traceability": {
+            "concept_traceable": true,
+            "blueprint_traceable": true,
+            "lo_traceable": true,
+            "distractor_traceable": true
+          }
+        }
+      }
+    },
+    {
+      "mcq_id": "gen-anatomy-15246-8963-0057",
+      "queue_id": 18,
+      "subject_id": "anatomy",
+      "question": "Bones and Skeleton - calculation",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "320 bones",
+          "source": "distractor_pool_10880"
+        },
+        {
+          "label": "B",
+          "text": "320 bones",
+          "source": "distractor_pool_10880"
+        },
+        {
+          "label": "C",
+          "text": "320 bones",
+          "source": "distractor_pool_10880"
+        },
+        {
+          "label": "D",
+          "text": "320 bones",
+          "source": "distractor_pool_10880"
+        }
+      ],
+      "difficulty": "easy",
+      "bloom_taxonomy": "Apply",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "320 bones; 64 bones; 68 bones; 52 bones",
+      "confidence_score": 0.6,
+      "traceability_card": {
+        "concept": {
+          "id": 15246,
+          "name": "Bones and Skeleton",
+          "slug": "anatomy-bones-and-skeleton-0"
+        },
+        "learning_objective": {
+          "id": 285348,
+          "statement": "The femur runs from the hip to the knee and is both longest and strongest."
+        },
+        "blueprint": {
+          "id": 8963,
+          "type": "calculation",
+          "difficulty": "easy",
+          "bloom": "Apply"
+        },
+        "pattern_id": "calculation-15246",
+        "distractor_pool_id": 10880,
+        "exam_mapping_id": null,
+        "evidence_details": {
+          "source_concept_id": 15246,
+          "source_concept_name": "Bones and Skeleton",
+          "source_subject_id": "anatomy",
+          "source_mcq_ids": [],
+          "blueprint_id": 8963,
+          "blueprint_type": "calculation",
+          "learning_objective_id": 285348,
+          "learning_objective": "The femur runs from the hip to the knee and is both longest and strongest.",
+          "distractor_pool_id": 10880,
+          "pattern_id": "calculation-15246",
+          "exam_mapping_id": null,
+          "exam_id": "ppsc",
+          "generation_timestamp": "2026-08-05T12:30:06",
+          "confidence_score": 0.6,
+          "generation_method": "offline_recomposition",
+          "data_sources": [
+            "kg_concepts",
+            "kg_question_blueprints",
+            "kg_distractor_pools",
+            "kg_distractor_items",
+            "kg_learning_objectives",
+            "kg_exam_mappings",
+            "mcq_concepts",
+            "mcqs",
+            "options"
+          ],
+          "traceability": {
+            "concept_traceable": true,
+            "blueprint_traceable": true,
+            "lo_traceable": true,
+            "distractor_traceable": true
+          }
+        }
+      }
+    },
+    {
+      "mcq_id": "gen-anatomy-15247-8968-0058",
+      "queue_id": 19,
+      "subject_id": "anatomy",
+      "question": "Nerves and Vessels - general",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "CN VI (abducens)",
+          "source": "distractor_pool_10885"
+        },
+        {
+          "label": "B",
+          "text": "CN VI (abducens)",
+          "source": "distractor_pool_10885"
+        },
+        {
+          "label": "C",
+          "text": "CN VI (abducens)",
+          "source": "distractor_pool_10885"
+        },
+        {
+          "label": "D",
+          "text": "CN VI (abducens)",
+          "source": "distractor_pool_10885"
+        }
+      ],
+      "difficulty": "medium",
+      "bloom_taxonomy": "Apply",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "CN VI (abducens); CN IX (glossopharyngeal); 31 pairs; CN XI (accessory)",
+      "confidence_score": 0.579,
+      "traceability_card": {
+        "concept": {
+          "id": 15247,
+          "name": "Nerves and Vessels",
+          "slug": "anatomy-nerves-and-vessels-0"
+        },
+        "learning_objective": {
+          "id": 285372,
+          "statement": "Olfactory nerve CN I carries smell to the brain."
+        },
+        "blueprint": {
+          "id": 8968,
+          "type": "general",
+          "difficulty": "medium",
+          "bloom": "Apply"
+        },
+        "pattern_id": "general-15247",
+        "distractor_pool_id": 10885,
+        "exam_mapping_id": null,
+        "evidence_details": {
+          "source_concept_id": 15247,
+          "source_concept_name": "Nerves and Vessels",
+          "source_subject_id": "anatomy",
+          "source_mcq_ids": [],
+          "blueprint_id": 8968,
+          "blueprint_type": "general",
+          "learning_objective_id": 285372,
+          "learning_objective": "Olfactory nerve CN I carries smell to the brain.",
+          "distractor_pool_id": 10885,
+          "pattern_id": "general-15247",
+          "exam_mapping_id": null,
+          "exam_id": "ppsc",
+          "generation_timestamp": "2026-08-05T12:30:06",
+          "confidence_score": 0.579,
+          "generation_method": "offline_recomposition",
+          "data_sources": [
+            "kg_concepts",
+            "kg_question_blueprints",
+            "kg_distractor_pools",
+            "kg_distractor_items",
+            "kg_learning_objectives",
+            "kg_exam_mappings",
+            "mcq_concepts",
+            "mcqs",
+            "options"
+          ],
+          "traceability": {
+            "concept_traceable": true,
+            "blueprint_traceable": true,
+            "lo_traceable": true,
+            "distractor_traceable": true
+          }
+        }
+      }
+    },
+    {
+      "mcq_id": "gen-anf-15249-8972-0060",
+      "queue_id": 20,
+      "subject_id": "anf",
+      "question": "ANF (Anti-Narcotics Force) - general",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "IB recruitment tests",
+          "source": "distractor_pool_9797"
+        },
+        {
+          "label": "B",
+          "text": "IB recruitment tests",
+          "source": "distractor_pool_9797"
+        },
+        {
+          "label": "C",
+          "text": "IB recruitment tests",
+          "source": "distractor_pool_9797"
+        },
+        {
+          "label": "D",
+          "text": "IB recruitment tests",
+          "source": "distractor_pool_9797"
+        }
+      ],
+      "difficulty": "medium",
+      "bloom_taxonomy": "Understand",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "IB recruitment tests; PPSC recruits Punjab government officers; WAPDA recruits engineers and staff; academic and aptitude tests",
+      "confidence_score": 0.576,
+      "traceability_card": {
+        "concept": {
+          "id": 15249,
+          "name": "ANF (Anti-Narcotics Force)",
+          "slug": "anf-anti-narcotics-force--anf-anti-narcotics-force-0"
+        },
+        "learning_objective": {
+          "id": 285443,
+          "statement": "ANF stands for ANF recruitment tests."
+        },
+        "blueprint": {
+          "id": 8972,
+          "type": "general",
+          "difficulty": "medium",
+          "bloom": "Understand"
+        },
+        "pattern_id": "general-15249",
+        "distractor_pool_id": 9797,
+        "exam_mapping_id": null,
+        "evidence_details": {
+          "source_concept_id": 15249,
+          "source_concept_name": "ANF (Anti-Narcotics Force)",
+          "source_subject_id": "anf",
+          "source_mcq_ids": [],
+          "blueprint_id": 8972,
+          "blueprint_type": "general",
+          "learning_objective_id": 285443,
+          "learning_objective": "ANF stands for ANF recruitment tests.",
+          "distractor_pool_id": 9797,
+          "pattern_id": "general-15249",
+          "exam_mapping_id": null,
+          "exam_id": "anf",
+          "generation_timestamp": "2026-08-05T12:30:06",
+          "confidence_score": 0.576,
+          "generation_method": "offline_recomposition",
+          "data_sources": [
+            "kg_concepts",
+            "kg_question_blueprints",
+            "kg_distractor_pools",
+            "kg_distractor_items",
+            "kg_learning_objectives",
+            "kg_exam_mappings",
+            "mcq_concepts",
+            "mcqs",
+            "options"
+          ],
+          "traceability": {
+            "concept_traceable": true,
+            "blueprint_traceable": true,
+            "lo_traceable": true,
+            "distractor_traceable": true
+          }
+        }
+      }
+    },
+    {
+      "mcq_id": "gen-angular-15255-8978-0066",
+      "queue_id": 21,
+      "subject_id": "angular",
+      "question": "angular - calculation",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "@Directive only",
+          "source": "distractor_pool_9602"
+        },
+        {
+          "label": "B",
+          "text": "@Directive only",
+          "source": "distractor_pool_9602"
+        },
+        {
+          "label": "C",
+          "text": "@Directive only",
+          "source": "distractor_pool_9602"
+        },
+        {
+          "label": "D",
+          "text": "@Directive only",
+          "source": "distractor_pool_9602"
+        }
+      ],
+      "difficulty": "medium",
+      "bloom_taxonomy": "Understand",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "@Directive only; @Module only; @Service; loops over arrays",
+      "confidence_score": 0.3975,
+      "traceability_card": {
+        "concept": {
+          "id": 15255,
+          "name": "angular",
+          "slug": "angular-angular-0"
+        },
+        "learning_objective": {
+          "id": 285545,
+          "statement": "@Component marks a class as a component with template metadata."
+        },
+        "blueprint": {
+          "id": 8978,
+          "type": "calculation",
+          "difficulty": "medium",
+          "bloom": "Understand"
+        },
+        "pattern_id": "calculation-15255",
+        "distractor_pool_id": 9602,
+        "exam_mapping_id": null,
+        "evidence_details": {
+          "source_concept_id": 15255,
+          "source_concept_name": "angular",
+          "source_subject_id": "angular",
+          "source_mcq_ids": [],
+          "blueprint_id": 8978,
+          "blueprint_type": "calculation",
+          "learning_objective_id": 285545,
+          "learning_objective": "@Component marks a class as a component with template metadata.",
+          "distractor_pool_id": 9602,
+          "pattern_id": "calculation-15255",
+          "exam_mapping_id": null,
+          "exam_id": "ib",
+          "generation_timestamp": "2026-08-05T12:30:06",
+          "confidence_score": 0.3975,
+          "generation_method": "offline_recomposition",
+          "data_sources": [
+            "kg_concepts",
+            "kg_question_blueprints",
+            "kg_distractor_pools",
+            "kg_distractor_items",
+            "kg_learning_objectives",
+            "kg_exam_mappings",
+            "mcq_concepts",
+            "mcqs",
+            "options"
+          ],
+          "traceability": {
+            "concept_traceable": true,
+            "blueprint_traceable": true,
+            "lo_traceable": true,
+            "distractor_traceable": true
+          }
+        }
+      }
+    },
+    {
+      "mcq_id": "gen-angular-15258-8982-0069",
+      "queue_id": 22,
+      "subject_id": "angular",
+      "question": "Spelling and Letter Building - calculation",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "14",
+          "source": "distractor_pool_11166"
+        },
+        {
+          "label": "B",
+          "text": "14",
+          "source": "distractor_pool_11166"
+        },
+        {
+          "label": "C",
+          "text": "14",
+          "source": "distractor_pool_11166"
+        },
+        {
+          "label": "D",
+          "text": "14",
+          "source": "distractor_pool_11166"
+        }
+      ],
+      "difficulty": "medium",
+      "bloom_taxonomy": "Apply",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "14; 13; 12; 19",
+      "confidence_score": 0.4,
+      "traceability_card": {
+        "concept": {
+          "id": 15258,
+          "name": "Spelling and Letter Building",
+          "slug": "angular-spelling-and-letter-building-0"
+        },
+        "learning_objective": {
+          "id": 285652,
+          "statement": "\"caching\" contains 7 letters and \"units\" contains 5 letters, so together they contain 7 + 5 = 12 letters; count every letter, including repeated ones."
+        },
+        "blueprint": {
+          "id": 8982,
+          "type": "calculation",
+          "difficulty": "medium",
+          "bloom": "Apply"
+        },
+        "pattern_id": "calculation-15258",
+        "distractor_pool_id": 11166,
+        "exam_mapping_id": null,
+        "evidence_details": {
+          "source_concept_id": 15258,
+          "source_concept_name": "Spelling and Letter Building",
+          "source_subject_id": "angular",
+          "source_mcq_ids": [],
+          "blueprint_id": 8982,
+          "blueprint_type": "calculation",
+          "learning_objective_id": 285652,
+          "learning_objective": "\"caching\" contains 7 letters and \"units\" contains 5 letters, so together they contain 7 + 5 = 12 letters; count every letter, including repeated ones.",
+          "distractor_pool_id": 11166,
+          "pattern_id": "calculation-15258",
+          "exam_mapping_id": null,
+          "exam_id": "ib",
+          "generation_timestamp": "2026-08-05T12:30:06",
+          "confidence_score": 0.4,
+          "generation_method": "offline_recomposition",
+          "data_sources": [
+            "kg_concepts",
+            "kg_question_blueprints",
+            "kg_distractor_pools",
+            "kg_distractor_items",
+            "kg_learning_objectives",
+            "kg_exam_mappings",
+            "mcq_concepts",
+            "mcqs",
+            "options"
+          ],
+          "traceability": {
+            "concept_traceable": true,
+            "blueprint_traceable": true,
+            "lo_traceable": true,
+            "distractor_traceable": true
+          }
+        }
+      }
+    },
+    {
+      "mcq_id": "gen-anthropology-15263-8987-0074",
+      "queue_id": 23,
+      "subject_id": "anthropology",
+      "question": "Anthropology - definition",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "studying past societies through remains",
+          "source": "distractor_pool_9772"
+        },
+        {
+          "label": "B",
+          "text": "studying past societies through remains",
+          "source": "distractor_pool_9772"
+        },
+        {
+          "label": "C",
+          "text": "studying past societies through remains",
+          "source": "distractor_pool_9772"
+        },
+        {
+          "label": "D",
+          "text": "studying past societies through remains",
+          "source": "distractor_pool_9772"
+        }
+      ],
+      "difficulty": "medium",
+      "bloom_taxonomy": "Understand",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "studying past societies through remains; a patterned symbolic act; learned shared behaviour; judging others by one's own culture",
+      "confidence_score": 0.6,
+      "traceability_card": {
+        "concept": {
+          "id": 15263,
+          "name": "Anthropology",
+          "slug": "anthropology-anthropology-0"
+        },
+        "learning_objective": {
+          "id": 285760,
+          "statement": "Anthropology spans biology, society and language."
+        },
+        "blueprint": {
+          "id": 8987,
+          "type": "definition",
+          "difficulty": "medium",
+          "bloom": "Understand"
+        },
+        "pattern_id": "definition-15263",
+        "distractor_pool_id": 9772,
+        "exam_mapping_id": null,
+        "evidence_details": {
+          "source_concept_id": 15263,
+          "source_concept_name": "Anthropology",
+          "source_subject_id": "anthropology",
+          "source_mcq_ids": [],
+          "blueprint_id": 8987,
+          "blueprint_type": "definition",
+          "learning_objective_id": 285760,
+          "learning_objective": "Anthropology spans biology, society and language.",
+          "distractor_pool_id": 9772,
+          "pattern_id": "definition-15263",
+          "exam_mapping_id": null,
+          "exam_id": "ppsc",
+          "generation_timestamp": "2026-08-05T12:30:06",
+          "confidence_score": 0.6,
+          "generation_method": "offline_recomposition",
+          "data_sources": [
+            "kg_concepts",
+            "kg_question_blueprints",
+            "kg_distractor_pools",
+            "kg_distractor_items",
+            "kg_learning_objectives",
+            "kg_exam_mappings",
+            "mcq_concepts",
+            "mcqs",
+            "options"
+          ],
+          "traceability": {
+            "concept_traceable": true,
+            "blueprint_traceable": true,
+            "lo_traceable": true,
+            "distractor_traceable": true
+          }
+        }
+      }
+    },
+    {
+      "mcq_id": "gen-anthropology-15265-8986-0076",
+      "queue_id": 24,
+      "subject_id": "anthropology",
+      "question": "branches - definition",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "Cultural anthropology",
+          "source": "distractor_pool_9529"
+        },
+        {
+          "label": "B",
+          "text": "Cultural anthropology",
+          "source": "distractor_pool_9529"
+        },
+        {
+          "label": "C",
+          "text": "Cultural anthropology",
+          "source": "distractor_pool_9529"
+        },
+        {
+          "label": "D",
+          "text": "Cultural anthropology",
+          "source": "distractor_pool_9529"
+        }
+      ],
+      "difficulty": "easy",
+      "bloom_taxonomy": "Understand",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "Cultural anthropology; Linguistic anthropology; Archaeology; Ethnography",
+      "confidence_score": 0.6,
+      "traceability_card": {
+        "concept": {
+          "id": 15265,
+          "name": "branches",
+          "slug": "anthropology-branches-0"
+        },
+        "learning_objective": {
+          "id": 285860,
+          "statement": "Physical anthropology studies human biological evolution, primatology and genetic variation."
+        },
+        "blueprint": {
+          "id": 8986,
+          "type": "definition",
+          "difficulty": "easy",
+          "bloom": "Understand"
+        },
+        "pattern_id": "definition-15265",
+        "distractor_pool_id": 9529,
+        "exam_mapping_id": null,
+        "evidence_details": {
+          "source_concept_id": 15265,
+          "source_concept_name": "branches",
+          "source_subject_id": "anthropology",
+          "source_mcq_ids": [],
+          "blueprint_id": 8986,
+          "blueprint_type": "definition",
+          "learning_objective_id": 285860,
+          "learning_objective": "Physical anthropology studies human biological evolution, primatology and genetic variation.",
+          "distractor_pool_id": 9529,
+          "pattern_id": "definition-15265",
+          "exam_mapping_id": null,
+          "exam_id": "ppsc",
+          "generation_timestamp": "2026-08-05T12:30:06",
+          "confidence_score": 0.6,
+          "generation_method": "offline_recomposition",
+          "data_sources": [
+            "kg_concepts",
+            "kg_question_blueprints",
+            "kg_distractor_pools",
+            "kg_distractor_items",
+            "kg_learning_objectives",
+            "kg_exam_mappings",
+            "mcq_concepts",
+            "mcqs",
+            "options"
+          ],
+          "traceability": {
+            "concept_traceable": true,
+            "blueprint_traceable": true,
+            "lo_traceable": true,
+            "distractor_traceable": true
+          }
+        }
+      }
+    },
+    {
+      "mcq_id": "gen-antonyms-15266-8990-0077",
+      "queue_id": 25,
+      "subject_id": "antonyms",
+      "question": "Antonyms - calculation",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "Contract",
+          "source": "distractor_pool_9860"
+        },
+        {
+          "label": "B",
+          "text": "Contract",
+          "source": "distractor_pool_9860"
+        },
+        {
+          "label": "C",
+          "text": "Contract",
+          "source": "distractor_pool_9860"
+        },
+        {
+          "label": "D",
+          "text": "Contract",
+          "source": "distractor_pool_9860"
+        }
+      ],
+      "difficulty": "medium",
+      "bloom_taxonomy": "Understand",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "Contract; Export; Narrow; Descent",
+      "confidence_score": 0.40725,
+      "traceability_card": {
+        "concept": {
+          "id": 15266,
+          "name": "Antonyms",
+          "slug": "antonyms-antonyms-0"
+        },
+        "learning_objective": {
+          "id": 285877,
+          "statement": "Cold is the opposite of hot."
+        },
+        "blueprint": {
+          "id": 8990,
+          "type": "calculation",
+          "difficulty": "medium",
+          "bloom": "Understand"
+        },
+        "pattern_id": "calculation-15266",
+        "distractor_pool_id": 9860,
+        "exam_mapping_id": null,
+        "evidence_details": {
+          "source_concept_id": 15266,
+          "source_concept_name": "Antonyms",
+          "source_subject_id": "antonyms",
+          "source_mcq_ids": [],
+          "blueprint_id": 8990,
+          "blueprint_type": "calculation",
+          "learning_objective_id": 285877,
+          "learning_objective": "Cold is the opposite of hot.",
+          "distractor_pool_id": 9860,
+          "pattern_id": "calculation-15266",
+          "exam_mapping_id": null,
+          "exam_id": "css",
+          "generation_timestamp": "2026-08-05T12:30:06",
+          "confidence_score": 0.40725,
+          "generation_method": "offline_recomposition",
+          "data_sources": [
+            "kg_concepts",
+            "kg_question_blueprints",
+            "kg_distractor_pools",
+            "kg_distractor_items",
+            "kg_learning_objectives",
+            "kg_exam_mappings",
+            "mcq_concepts",
+            "mcqs",
+            "options"
+          ],
+          "traceability": {
+            "concept_traceable": true,
+            "blueprint_traceable": true,
+            "lo_traceable": true,
+            "distractor_traceable": true
+          }
+        }
+      }
+    },
+    {
+      "mcq_id": "gen-antonyms-15267-8994-0078",
+      "queue_id": 26,
+      "subject_id": "antonyms",
+      "question": "deep-kb - calculation",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "feeble",
+          "source": "distractor_pool_10529"
+        },
+        {
+          "label": "B",
+          "text": "feeble",
+          "source": "distractor_pool_10529"
+        },
+        {
+          "label": "C",
+          "text": "feeble",
+          "source": "distractor_pool_10529"
+        },
+        {
+          "label": "D",
+          "text": "feeble",
+          "source": "distractor_pool_10529"
+        }
+      ],
+      "difficulty": "medium",
+      "bloom_taxonomy": "Apply",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "feeble; fragile; demolish; orderly",
+      "confidence_score": 0.556,
+      "traceability_card": {
+        "concept": {
+          "id": 15267,
+          "name": "deep-kb",
+          "slug": "antonyms-deep-kb-0"
+        },
+        "learning_objective": {
+          "id": 285993,
+          "statement": "Match each word to its closest antonym."
+        },
+        "blueprint": {
+          "id": 8994,
+          "type": "calculation",
+          "difficulty": "medium",
+          "bloom": "Apply"
+        },
+        "pattern_id": "calculation-15267",
+        "distractor_pool_id": 10529,
+        "exam_mapping_id": null,
+        "evidence_details": {
+          "source_concept_id": 15267,
+          "source_concept_name": "deep-kb",
+          "source_subject_id": "antonyms",
+          "source_mcq_ids": [],
+          "blueprint_id": 8994,
+          "blueprint_type": "calculation",
+          "learning_objective_id": 285993,
+          "learning_objective": "Match each word to its closest antonym.",
+          "distractor_pool_id": 10529,
+          "pattern_id": "calculation-15267",
+          "exam_mapping_id": null,
+          "exam_id": "css",
+          "generation_timestamp": "2026-08-05T12:30:06",
+          "confidence_score": 0.556,
+          "generation_method": "offline_recomposition",
+          "data_sources": [
+            "kg_concepts",
+            "kg_question_blueprints",
+            "kg_distractor_pools",
+            "kg_distractor_items",
+            "kg_learning_objectives",
+            "kg_exam_mappings",
+            "mcq_concepts",
+            "mcqs",
+            "options"
+          ],
+          "traceability": {
+            "concept_traceable": true,
+            "blueprint_traceable": true,
+            "lo_traceable": true,
+            "distractor_traceable": true
+          }
+        }
+      }
+    },
+    {
+      "mcq_id": "gen-antonyms-15268-8995-0079",
+      "queue_id": 27,
+      "subject_id": "antonyms",
+      "question": "english - calculation",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "abundant",
+          "source": "distractor_pool_10530"
+        },
+        {
+          "label": "B",
+          "text": "abundant",
+          "source": "distractor_pool_10530"
+        },
+        {
+          "label": "C",
+          "text": "abundant",
+          "source": "distractor_pool_10530"
+        },
+        {
+          "label": "D",
+          "text": "abundant",
+          "source": "distractor_pool_10530"
+        }
+      ],
+      "difficulty": "medium",
+      "bloom_taxonomy": "Apply",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "abundant; gracious; curious; malevolent",
+      "confidence_score": 0.556,
+      "traceability_card": {
+        "concept": {
+          "id": 15268,
+          "name": "english",
+          "slug": "antonyms-english-0"
+        },
+        "learning_objective": {
+          "id": 286001,
+          "statement": "Match each word to its closest antonym."
+        },
+        "blueprint": {
+          "id": 8995,
+          "type": "calculation",
+          "difficulty": "medium",
+          "bloom": "Apply"
+        },
+        "pattern_id": "calculation-15268",
+        "distractor_pool_id": 10530,
+        "exam_mapping_id": null,
+        "evidence_details": {
+          "source_concept_id": 15268,
+          "source_concept_name": "english",
+          "source_subject_id": "antonyms",
+          "source_mcq_ids": [],
+          "blueprint_id": 8995,
+          "blueprint_type": "calculation",
+          "learning_objective_id": 286001,
+          "learning_objective": "Match each word to its closest antonym.",
+          "distractor_pool_id": 10530,
+          "pattern_id": "calculation-15268",
+          "exam_mapping_id": null,
+          "exam_id": "css",
+          "generation_timestamp": "2026-08-05T12:30:06",
+          "confidence_score": 0.556,
+          "generation_method": "offline_recomposition",
+          "data_sources": [
+            "kg_concepts",
+            "kg_question_blueprints",
+            "kg_distractor_pools",
+            "kg_distractor_items",
+            "kg_learning_objectives",
+            "kg_exam_mappings",
+            "mcq_concepts",
+            "mcqs",
+            "options"
+          ],
+          "traceability": {
+            "concept_traceable": true,
+            "blueprint_traceable": true,
+            "lo_traceable": true,
+            "distractor_traceable": true
+          }
+        }
+      }
+    },
+    {
+      "mcq_id": "gen-antonyms-15269-8996-0080",
+      "queue_id": 28,
+      "subject_id": "antonyms",
+      "question": "words - calculation",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "enormous",
+          "source": "distractor_pool_10531"
+        },
+        {
+          "label": "B",
+          "text": "enormous",
+          "source": "distractor_pool_10531"
+        },
+        {
+          "label": "C",
+          "text": "enormous",
+          "source": "distractor_pool_10531"
+        },
+        {
+          "label": "D",
+          "text": "enormous",
+          "source": "distractor_pool_10531"
+        }
+      ],
+      "difficulty": "medium",
+      "bloom_taxonomy": "Apply",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "enormous; candid; temporary; barren",
+      "confidence_score": 0.557,
+      "traceability_card": {
+        "concept": {
+          "id": 15269,
+          "name": "words",
+          "slug": "antonyms-words-0"
+        },
+        "learning_objective": {
+          "id": 286009,
+          "statement": "Match each word to its closest antonym."
+        },
+        "blueprint": {
+          "id": 8996,
+          "type": "calculation",
+          "difficulty": "medium",
+          "bloom": "Apply"
+        },
+        "pattern_id": "calculation-15269",
+        "distractor_pool_id": 10531,
+        "exam_mapping_id": null,
+        "evidence_details": {
+          "source_concept_id": 15269,
+          "source_concept_name": "words",
+          "source_subject_id": "antonyms",
+          "source_mcq_ids": [],
+          "blueprint_id": 8996,
+          "blueprint_type": "calculation",
+          "learning_objective_id": 286009,
+          "learning_objective": "Match each word to its closest antonym.",
+          "distractor_pool_id": 10531,
+          "pattern_id": "calculation-15269",
+          "exam_mapping_id": null,
+          "exam_id": "css",
+          "generation_timestamp": "2026-08-05T12:30:06",
+          "confidence_score": 0.557,
+          "generation_method": "offline_recomposition",
+          "data_sources": [
+            "kg_concepts",
+            "kg_question_blueprints",
+            "kg_distractor_pools",
+            "kg_distractor_items",
+            "kg_learning_objectives",
+            "kg_exam_mappings",
+            "mcq_concepts",
+            "mcqs",
+            "options"
+          ],
+          "traceability": {
+            "concept_traceable": true,
+            "blueprint_traceable": true,
+            "lo_traceable": true,
+            "distractor_traceable": true
+          }
+        }
+      }
+    },
+    {
+      "mcq_id": "gen-antonyms-15270-8998-0081",
+      "queue_id": 29,
+      "subject_id": "antonyms",
+      "question": "Word Lengths and Spelling - calculation",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "13",
+          "source": "distractor_pool_10553"
+        },
+        {
+          "label": "B",
+          "text": "13",
+          "source": "distractor_pool_10553"
+        },
+        {
+          "label": "C",
+          "text": "13",
+          "source": "distractor_pool_10553"
+        },
+        {
+          "label": "D",
+          "text": "13",
+          "source": "distractor_pool_10553"
+        }
+      ],
+      "difficulty": "medium",
+      "bloom_taxonomy": "Apply",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "13; 14; 12; 18",
+      "confidence_score": 0.4,
+      "traceability_card": {
+        "concept": {
+          "id": 15270,
+          "name": "Word Lengths and Spelling",
+          "slug": "antonyms-word-lengths-and-spelling-0"
+        },
+        "learning_objective": {
+          "id": 286017,
+          "statement": "The word \"unfit\" has 5 letters and \"yeoman\" has 6 letters, so counting both together gives 5 + 6 = 11 letters in total."
+        },
+        "blueprint": {
+          "id": 8998,
+          "type": "calculation",
+          "difficulty": "medium",
+          "bloom": "Apply"
+        },
+        "pattern_id": "calculation-15270",
+        "distractor_pool_id": 10553,
+        "exam_mapping_id": null,
+        "evidence_details": {
+          "source_concept_id": 15270,
+          "source_concept_name": "Word Lengths and Spelling",
+          "source_subject_id": "antonyms",
+          "source_mcq_ids": [],
+          "blueprint_id": 8998,
+          "blueprint_type": "calculation",
+          "learning_objective_id": 286017,
+          "learning_objective": "The word \"unfit\" has 5 letters and \"yeoman\" has 6 letters, so counting both together gives 5 + 6 = 11 letters in total.",
+          "distractor_pool_id": 10553,
+          "pattern_id": "calculation-15270",
+          "exam_mapping_id": null,
+          "exam_id": "css",
+          "generation_timestamp": "2026-08-05T12:30:06",
+          "confidence_score": 0.4,
+          "generation_method": "offline_recomposition",
+          "data_sources": [
+            "kg_concepts",
+            "kg_question_blueprints",
+            "kg_distractor_pools",
+            "kg_distractor_items",
+            "kg_learning_objectives",
+            "kg_exam_mappings",
+            "mcq_concepts",
+            "mcqs",
+            "options"
+          ],
+          "traceability": {
+            "concept_traceable": true,
+            "blueprint_traceable": true,
+            "lo_traceable": true,
+            "distractor_traceable": true
+          }
+        }
+      }
+    },
+    {
+      "mcq_id": "gen-antonyms-15271-8991-0082",
+      "queue_id": 30,
+      "subject_id": "antonyms",
+      "question": "Antonym Pairs - general",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "malevolent",
+          "source": "distractor_pool_9861"
+        },
+        {
+          "label": "B",
+          "text": "malevolent",
+          "source": "distractor_pool_9861"
+        },
+        {
+          "label": "C",
+          "text": "malevolent",
+          "source": "distractor_pool_9861"
+        },
+        {
+          "label": "D",
+          "text": "malevolent",
+          "source": "distractor_pool_9861"
+        }
+      ],
+      "difficulty": "medium",
+      "bloom_taxonomy": "Understand",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "malevolent; truthful; victory; deceitful",
+      "confidence_score": 0.555,
+      "traceability_card": {
+        "concept": {
+          "id": 15271,
+          "name": "Antonym Pairs",
+          "slug": "antonyms-antonym-pairs-0"
+        },
+        "learning_objective": {
+          "id": 286025,
+          "statement": "Cold is the opposite of hot."
+        },
+        "blueprint": {
+          "id": 8991,
+          "type": "general",
+          "difficulty": "medium",
+          "bloom": "Understand"
+        },
+        "pattern_id": "general-15271",
+        "distractor_pool_id": 9861,
+        "exam_mapping_id": null,
+        "evidence_details": {
+          "source_concept_id": 15271,
+          "source_concept_name": "Antonym Pairs",
+          "source_subject_id": "antonyms",
+          "source_mcq_ids": [],
+          "blueprint_id": 8991,
+          "blueprint_type": "general",
+          "learning_objective_id": 286025,
+          "learning_objective": "Cold is the opposite of hot.",
+          "distractor_pool_id": 9861,
+          "pattern_id": "general-15271",
+          "exam_mapping_id": null,
+          "exam_id": "css",
+          "generation_timestamp": "2026-08-05T12:30:06",
+          "confidence_score": 0.555,
+          "generation_method": "offline_recomposition",
+          "data_sources": [
+            "kg_concepts",
+            "kg_question_blueprints",
+            "kg_distractor_pools",
+            "kg_distractor_items",
+            "kg_learning_objectives",
+            "kg_exam_mappings",
+            "mcq_concepts",
+            "mcqs",
+            "options"
+          ],
+          "traceability": {
+            "concept_traceable": true,
+            "blueprint_traceable": true,
+            "lo_traceable": true,
+            "distractor_traceable": true
+          }
+        }
+      }
+    },
+    {
+      "mcq_id": "gen-antonyms-15275-8989-0086",
+      "queue_id": 31,
+      "subject_id": "antonyms",
+      "question": "antonym - terminology-translation",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "hardworking",
+          "source": "distractor_pool_9576"
+        },
+        {
+          "label": "B",
+          "text": "hardworking",
+          "source": "distractor_pool_9576"
+        },
+        {
+          "label": "C",
+          "text": "hardworking",
+          "source": "distractor_pool_9576"
+        },
+        {
+          "label": "D",
+          "text": "hardworking",
+          "source": "distractor_pool_9576"
+        }
+      ],
+      "difficulty": "medium",
+      "bloom_taxonomy": "Understand",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "hardworking; careful; honest; bright",
+      "confidence_score": 0.511,
+      "traceability_card": {
+        "concept": {
+          "id": 15275,
+          "name": "antonym",
+          "slug": "antonyms-antonym-0"
+        },
+        "learning_objective": {
+          "id": 286157,
+          "statement": "Diligent means industrious and hardworking; lazy is its opposite."
+        },
+        "blueprint": {
+          "id": 8989,
+          "type": "terminology-translation",
+          "difficulty": "medium",
+          "bloom": "Understand"
+        },
+        "pattern_id": "terminology-translation-15275",
+        "distractor_pool_id": 9576,
+        "exam_mapping_id": null,
+        "evidence_details": {
+          "source_concept_id": 15275,
+          "source_concept_name": "antonym",
+          "source_subject_id": "antonyms",
+          "source_mcq_ids": [],
+          "blueprint_id": 8989,
+          "blueprint_type": "terminology-translation",
+          "learning_objective_id": 286157,
+          "learning_objective": "Diligent means industrious and hardworking; lazy is its opposite.",
+          "distractor_pool_id": 9576,
+          "pattern_id": "terminology-translation-15275",
+          "exam_mapping_id": null,
+          "exam_id": "css",
+          "generation_timestamp": "2026-08-05T12:30:06",
+          "confidence_score": 0.511,
+          "generation_method": "offline_recomposition",
+          "data_sources": [
+            "kg_concepts",
+            "kg_question_blueprints",
+            "kg_distractor_pools",
+            "kg_distractor_items",
+            "kg_learning_objectives",
+            "kg_exam_mappings",
+            "mcq_concepts",
+            "mcqs",
+            "options"
+          ],
+          "traceability": {
+            "concept_traceable": true,
+            "blueprint_traceable": true,
+            "lo_traceable": true,
+            "distractor_traceable": true
+          }
+        }
+      }
+    },
+    {
+      "mcq_id": "gen-aptitude-tests-15276-8999-0087",
+      "queue_id": 32,
+      "subject_id": "aptitude-tests",
+      "question": "Aptitude Tests - data-interpretation",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "442",
+          "source": "distractor_pool_9851"
+        },
+        {
+          "label": "B",
+          "text": "442",
+          "source": "distractor_pool_9851"
+        },
+        {
+          "label": "C",
+          "text": "442",
+          "source": "distractor_pool_9851"
+        },
+        {
+          "label": "D",
+          "text": "442",
+          "source": "distractor_pool_9851"
+        }
+      ],
+      "difficulty": "medium",
+      "bloom_taxonomy": "Understand",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "442; 6409; 6188; 6327",
+      "confidence_score": 0.4,
+      "traceability_card": {
+        "concept": {
+          "id": 15276,
+          "name": "Aptitude Tests",
+          "slug": "aptitude-tests-aptitude-tests-0"
+        },
+        "learning_objective": {
+          "id": 286187,
+          "statement": "Total = 221 + 6409 = 6630."
+        },
+        "blueprint": {
+          "id": 8999,
+          "type": "data-interpretation",
+          "difficulty": "medium",
+          "bloom": "Understand"
+        },
+        "pattern_id": "data-interpretation-15276",
+        "distractor_pool_id": 9851,
+        "exam_mapping_id": null,
+        "evidence_details": {
+          "source_concept_id": 15276,
+          "source_concept_name": "Aptitude Tests",
+          "source_subject_id": "aptitude-tests",
+          "source_mcq_ids": [],
+          "blueprint_id": 8999,
+          "blueprint_type": "data-interpretation",
+          "learning_objective_id": 286187,
+          "learning_objective": "Total = 221 + 6409 = 6630.",
+          "distractor_pool_id": 9851,
+          "pattern_id": "data-interpretation-15276",
+          "exam_mapping_id": null,
+          "exam_id": "nts",
+          "generation_timestamp": "2026-08-05T12:30:06",
+          "confidence_score": 0.4,
+          "generation_method": "offline_recomposition",
+          "data_sources": [
+            "kg_concepts",
+            "kg_question_blueprints",
+            "kg_distractor_pools",
+            "kg_distractor_items",
+            "kg_learning_objectives",
+            "kg_exam_mappings",
+            "mcq_concepts",
+            "mcqs",
+            "options"
+          ],
+          "traceability": {
+            "concept_traceable": true,
+            "blueprint_traceable": true,
+            "lo_traceable": true,
+            "distractor_traceable": true
+          }
+        }
+      }
+    },
+    {
+      "mcq_id": "gen-aptitude-tests-15277-9001-0088",
+      "queue_id": 33,
+      "subject_id": "aptitude-tests",
+      "question": "aptitude - data-interpretation",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "2405",
+          "source": "distractor_pool_9853"
+        },
+        {
+          "label": "B",
+          "text": "2405",
+          "source": "distractor_pool_9853"
+        },
+        {
+          "label": "C",
+          "text": "2405",
+          "source": "distractor_pool_9853"
+        },
+        {
+          "label": "D",
+          "text": "2405",
+          "source": "distractor_pool_9853"
+        }
+      ],
+      "difficulty": "medium",
+      "bloom_taxonomy": "Understand",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "2405; 370; 2220; 3936",
+      "confidence_score": 0.4,
+      "traceability_card": {
+        "concept": {
+          "id": 15277,
+          "name": "aptitude",
+          "slug": "aptitude-tests-aptitude-0"
+        },
+        "learning_objective": {
+          "id": 286437,
+          "statement": "Total = 221 + 6409 = 6630."
+        },
+        "blueprint": {
+          "id": 9001,
+          "type": "data-interpretation",
+          "difficulty": "medium",
+          "bloom": "Understand"
+        },
+        "pattern_id": "data-interpretation-15277",
+        "distractor_pool_id": 9853,
+        "exam_mapping_id": null,
+        "evidence_details": {
+          "source_concept_id": 15277,
+          "source_concept_name": "aptitude",
+          "source_subject_id": "aptitude-tests",
+          "source_mcq_ids": [],
+          "blueprint_id": 9001,
+          "blueprint_type": "data-interpretation",
+          "learning_objective_id": 286437,
+          "learning_objective": "Total = 221 + 6409 = 6630.",
+          "distractor_pool_id": 9853,
+          "pattern_id": "data-interpretation-15277",
+          "exam_mapping_id": null,
+          "exam_id": "nts",
+          "generation_timestamp": "2026-08-05T12:30:07",
+          "confidence_score": 0.4,
+          "generation_method": "offline_recomposition",
+          "data_sources": [
+            "kg_concepts",
+            "kg_question_blueprints",
+            "kg_distractor_pools",
+            "kg_distractor_items",
+            "kg_learning_objectives",
+            "kg_exam_mappings",
+            "mcq_concepts",
+            "mcqs",
+            "options"
+          ],
+          "traceability": {
+            "concept_traceable": true,
+            "blueprint_traceable": true,
+            "lo_traceable": true,
+            "distractor_traceable": true
+          }
+        }
+      }
+    },
+    {
+      "mcq_id": "gen-aptitude-tests-15278-9002-0089",
+      "queue_id": 34,
+      "subject_id": "aptitude-tests",
+      "question": "Graph Reading - data-interpretation",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "324",
+          "source": "distractor_pool_9854"
+        },
+        {
+          "label": "B",
+          "text": "324",
+          "source": "distractor_pool_9854"
+        },
+        {
+          "label": "C",
+          "text": "324",
+          "source": "distractor_pool_9854"
+        },
+        {
+          "label": "D",
+          "text": "324",
+          "source": "distractor_pool_9854"
+        }
+      ],
+      "difficulty": "medium",
+      "bloom_taxonomy": "Understand",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "324; 320; 170; 570",
+      "confidence_score": 0.4,
+      "traceability_card": {
+        "concept": {
+          "id": 15278,
+          "name": "Graph Reading",
+          "slug": "aptitude-tests-graph-reading-0"
+        },
+        "learning_objective": {
+          "id": 286687,
+          "statement": "Increase = 484 − 324 = 160."
+        },
+        "blueprint": {
+          "id": 9002,
+          "type": "data-interpretation",
+          "difficulty": "medium",
+          "bloom": "Understand"
+        },
+        "pattern_id": "data-interpretation-15278",
+        "distractor_pool_id": 9854,
+        "exam_mapping_id": null,
+        "evidence_details": {
+          "source_concept_id": 15278,
+          "source_concept_name": "Graph Reading",
+          "source_subject_id": "aptitude-tests",
+          "source_mcq_ids": [],
+          "blueprint_id": 9002,
+          "blueprint_type": "data-interpretation",
+          "learning_objective_id": 286687,
+          "learning_objective": "Increase = 484 − 324 = 160.",
+          "distractor_pool_id": 9854,
+          "pattern_id": "data-interpretation-15278",
+          "exam_mapping_id": null,
+          "exam_id": "nts",
+          "generation_timestamp": "2026-08-05T12:30:07",
+          "confidence_score": 0.4,
+          "generation_method": "offline_recomposition",
+          "data_sources": [
+            "kg_concepts",
+            "kg_question_blueprints",
+            "kg_distractor_pools",
+            "kg_distractor_items",
+            "kg_learning_objectives",
+            "kg_exam_mappings",
+            "mcq_concepts",
+            "mcqs",
+            "options"
+          ],
+          "traceability": {
+            "concept_traceable": true,
+            "blueprint_traceable": true,
+            "lo_traceable": true,
+            "distractor_traceable": true
+          }
+        }
+      }
+    },
+    {
+      "mcq_id": "gen-aptitude-tests-15279-9000-0090",
+      "queue_id": 35,
+      "subject_id": "aptitude-tests",
+      "question": "Data Interpretation Tables - calculation",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "228",
+          "source": "distractor_pool_9852"
+        },
+        {
+          "label": "B",
+          "text": "228",
+          "source": "distractor_pool_9852"
+        },
+        {
+          "label": "C",
+          "text": "228",
+          "source": "distractor_pool_9852"
+        },
+        {
+          "label": "D",
+          "text": "228",
+          "source": "distractor_pool_9852"
+        }
+      ],
+      "difficulty": "medium",
+      "bloom_taxonomy": "Understand",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "228; 2850; 2736; 21760",
+      "confidence_score": 0.4,
+      "traceability_card": {
+        "concept": {
+          "id": 15279,
+          "name": "Data Interpretation Tables",
+          "slug": "aptitude-tests-data-interpretation-tables-0"
+        },
+        "learning_objective": {
+          "id": 286987,
+          "statement": "Total = 221 + 6409 = 6630."
+        },
+        "blueprint": {
+          "id": 9000,
+          "type": "calculation",
+          "difficulty": "medium",
+          "bloom": "Understand"
+        },
+        "pattern_id": "calculation-15279",
+        "distractor_pool_id": 9852,
+        "exam_mapping_id": null,
+        "evidence_details": {
+          "source_concept_id": 15279,
+          "source_concept_name": "Data Interpretation Tables",
+          "source_subject_id": "aptitude-tests",
+          "source_mcq_ids": [],
+          "blueprint_id": 9000,
+          "blueprint_type": "calculation",
+          "learning_objective_id": 286987,
+          "learning_objective": "Total = 221 + 6409 = 6630.",
+          "distractor_pool_id": 9852,
+          "pattern_id": "calculation-15279",
+          "exam_mapping_id": null,
+          "exam_id": "nts",
+          "generation_timestamp": "2026-08-05T12:30:07",
+          "confidence_score": 0.4,
+          "generation_method": "offline_recomposition",
+          "data_sources": [
+            "kg_concepts",
+            "kg_question_blueprints",
+            "kg_distractor_pools",
+            "kg_distractor_items",
+            "kg_learning_objectives",
+            "kg_exam_mappings",
+            "mcq_concepts",
+            "mcqs",
+            "options"
+          ],
+          "traceability": {
+            "concept_traceable": true,
+            "blueprint_traceable": true,
+            "lo_traceable": true,
+            "distractor_traceable": true
+          }
+        }
+      }
+    },
+    {
+      "mcq_id": "gen-aptitude-tests-15280-9003-0091",
+      "queue_id": 36,
+      "subject_id": "aptitude-tests",
+      "question": "Percentage Comparisons - definition",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "40% of 250",
+          "source": "distractor_pool_10288"
+        },
+        {
+          "label": "B",
+          "text": "40% of 250",
+          "source": "distractor_pool_10288"
+        },
+        {
+          "label": "C",
+          "text": "40% of 250",
+          "source": "distractor_pool_10288"
+        },
+        {
+          "label": "D",
+          "text": "40% of 250",
+          "source": "distractor_pool_10288"
+        }
+      ],
+      "difficulty": "medium",
+      "bloom_taxonomy": "Understand",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "40% of 250; 5% of 1,000; 15% of 200; They are equal",
+      "confidence_score": 0.6,
+      "traceability_card": {
+        "concept": {
+          "id": 15280,
+          "name": "Percentage Comparisons",
+          "slug": "aptitude-tests-percentage-comparisons-0"
+        },
+        "learning_objective": {
+          "id": 287237,
+          "statement": "40% of 500 = 200 and 25% of 800 = 200."
+        },
+        "blueprint": {
+          "id": 9003,
+          "type": "definition",
+          "difficulty": "medium",
+          "bloom": "Understand"
+        },
+        "pattern_id": "definition-15280",
+        "distractor_pool_id": 10288,
+        "exam_mapping_id": null,
+        "evidence_details": {
+          "source_concept_id": 15280,
+          "source_concept_name": "Percentage Comparisons",
+          "source_subject_id": "aptitude-tests",
+          "source_mcq_ids": [],
+          "blueprint_id": 9003,
+          "blueprint_type": "definition",
+          "learning_objective_id": 287237,
+          "learning_objective": "40% of 500 = 200 and 25% of 800 = 200.",
+          "distractor_pool_id": 10288,
+          "pattern_id": "definition-15280",
+          "exam_mapping_id": null,
+          "exam_id": "nts",
+          "generation_timestamp": "2026-08-05T12:30:07",
+          "confidence_score": 0.6,
+          "generation_method": "offline_recomposition",
+          "data_sources": [
+            "kg_concepts",
+            "kg_question_blueprints",
+            "kg_distractor_pools",
+            "kg_distractor_items",
+            "kg_learning_objectives",
+            "kg_exam_mappings",
+            "mcq_concepts",
+            "mcqs",
+            "options"
+          ],
+          "traceability": {
+            "concept_traceable": true,
+            "blueprint_traceable": true,
+            "lo_traceable": true,
+            "distractor_traceable": true
+          }
+        }
+      }
+    },
+    {
+      "mcq_id": "gen-army-15288-9011-0099",
+      "queue_id": 37,
+      "subject_id": "army",
+      "question": "Pakistan Army (Recruitment) - definition",
+      "correct_answer": "A",
+      "options": [
+        {
+          "label": "A",
+          "text": "Election Officer recruitment tests",
+          "source": "distractor_pool_9723"
+        },
+        {
+          "label": "B",
+          "text": "Election Officer recruitment tests",
+          "source": "distractor_pool_9723"
+        },
+        {
+          "label": "C",
+          "text": "Election Officer recruitment tests",
+          "source": "distractor_pool_9723"
+        },
+        {
+          "label": "D",
+          "text": "Election Officer recruitment tests",
+          "source": "distractor_pool_9723"
+        }
+      ],
+      "difficulty": "medium",
+      "bloom_taxonomy": "Understand",
+      "explanation": "Generated from existing knowledge graph evidence. Requires human review.",
+      "explanation_why_wrong": "Election Officer recruitment tests; NADRA recruitment tests; written, psychometric and interview stages; quantitative, verbal and general papers",
+      "confidence_score": 0.567,
+      "traceability_card": {
+        "concept": {
+          "id": 15288,
+          "name": "Pakistan Army (Recruitment)",
+          "slug": "pakistan-army-recruitment--pakistan-army-recruitment-0"
+        },
+        "learning_objective": {
+          "id": 287325,
+          "statement": "ARMY stands for Pakistan Army initial tests."
+        },
+        "blueprint": {
+          "id": 9011,
+          "type": "definition",
+          "difficulty": "medium",
+          "bloom": "Understand"
+        },
+        "pattern_id": "definition-15288",
+        "distractor_pool_id": 9723,
+        "exam_mapping_id": null,
+        "evidence_details": {
+          "source_concept_id": 15288,
+          "source_concept_name": "Pakistan Army (Recruitment)",
+          "source_subject_id": "army",
+          "source_mcq_ids": [],
+          "blueprint_id": 9011,
+          "blueprint_type": "definition",
+          "learning_objective_id": 287325,
+          "learning_objective": "ARMY stands for Pakistan Army initial tests.",
+          "distractor_pool_id": 9723,
+          "pattern_id": "definition-15288",
+          "exam_mapping_id": null,
+          "exam_id": "army",
+          "generation_timestamp": "2026-08-05T12:30:07",
+          "confidence_score": 0.567,
+          "generation_method": "offline_recomposition",
+          "data_sources": [
+            "kg_concepts",
+            "kg_question_blueprints",
+            "kg_distractor_pools",
+            "kg_distractor_items",
+            "kg_learning_objectives",
+            "kg_exam_mappings",
+            "mcq_concepts",
+            "mcqs",
+            "options"
+          ],
+          "traceability": {
+            "concept_traceable": true,
+            "blueprint_traceable": true,
+            "lo_traceable": true,
+            "distractor_traceable": true
+          }
+        }
+      }
+    }
+  ]
+}

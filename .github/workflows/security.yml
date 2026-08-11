@@ -1,0 +1,66 @@
+name: Security Audit
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+jobs:
+  security:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Dependency vulnerability scan (npm audit if lockfile exists)
+        run: |
+          if [ -f package-lock.json ]; then
+            npm audit --audit-level=high || true
+          else
+            echo "no package-lock.json — zero-dependency project, skipping npm audit"
+          fi
+
+      - name: Secrets & credentials scan (deterministic)
+        run: |
+          node -e "
+            const fs=require('fs'), path=require('path');
+            const patterns=[
+              /(api[_-]?key|secret|token|password)\s*[:=]\s*['\\\"][A-Za-z0-9_\\-]{12,}['\\\"]/i,
+              /(BEGIN (RSA |EC |OPENSSH )?PRIVATE KEY)/,
+              /AKIA[0-9A-Z]{16}/,
+              /sk-[A-Za-z0-9]{20,}/,
+              /ghp_[A-Za-z0-9]{36}/,
+              /xox[baprs]-[A-Za-z0-9-]{10,}/
+            ];
+            let hits=[];
+            (function walk(d){ for(const e of fs.readdirSync(d,{withFileTypes:true})){ const p=path.join(d,e.name);
+              if(e.isDirectory()){ if(['node_modules','.git','backup','data','db','subjects','chapters'].includes(e.name)) continue; walk(p); continue; }
+              if(!/\.(js|cjs|json|yml|yaml|env|md|html|xml|sql)$/.test(e.name)) continue;
+              if(fs.statSync(p).size>5*1024*1024) continue;
+              const src=fs.readFileSync(p,'utf8');
+              patterns.forEach((re,idx)=>{ if(re.test(src)) hits.push(p+' (pattern '+idx+')'); });
+            } })(process.cwd());
+            if(hits.length){ console.error('Possible secrets found:'); hits.forEach(h=>console.error('  '+h)); process.exit(1); }
+            console.log('secrets scan clean');
+          "
+
+      - name: HTTP-only / mixed-content check on public pages
+        run: |
+          node -e "
+            const fs=require('fs');
+            let issues=0;
+            for(const f of ['index.html','admin.html','offline.html','404.html']){
+              if(!fs.existsSync(f)) continue;
+              const s=fs.readFileSync(f,'utf8');
+              const m=(s.match(/http:\/\/[^\s'\\\"]+/g)||[]).filter(u=>!u.startsWith('http://localhost')&&!u.startsWith('http://127.0.0.1'));
+              if(m.length){ console.error(f+' has insecure refs:', m.slice(0,5)); issues++; }
+            }
+            if(issues) process.exit(1);
+            console.log('mixed-content check clean');
+          " public/

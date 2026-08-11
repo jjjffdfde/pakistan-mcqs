@@ -1,0 +1,132 @@
+{
+  "step": "student_learning_analytics",
+  "generated_at": "2026-08-06T07:57:06",
+  "summary": {
+    "total_students": 1,
+    "total_attempts": 54,
+    "total_sessions": 3,
+    "avg_accuracy": 0.34,
+    "avg_mastery": 0.508,
+    "total_bookmarks": 5,
+    "total_weak_topics": 8,
+    "total_revision_scheduled": 2
+  },
+  "students": [
+    {
+      "device_id": "default",
+      "name": "Selfcheck",
+      "skill_level": "novice",
+      "target_exam": "CSS",
+      "target_date": "2026-12-01",
+      "city": "Lahore",
+      "province": "Punjab",
+      "readiness_score": 62.5,
+      "total_sessions": 3,
+      "total_attempts": 54,
+      "correct_attempts": 18,
+      "skipped_attempts": 1,
+      "accuracy": 0.34,
+      "avg_time_sec": 8,
+      "learning_velocity": 18,
+      "retention_score": 0.34,
+      "mastery_score": 0.508,
+      "weak_concept_count": 0,
+      "strong_concept_count": 3,
+      "bookmarks_count": 5,
+      "weak_topics_count": 8,
+      "revision_scheduled_count": 2,
+      "concept_performance": [
+        {
+          "concept_id": 34,
+          "attempts": 1,
+          "correct": 0,
+          "accuracy": 0
+        },
+        {
+          "concept_id": 35,
+          "attempts": 1,
+          "correct": 0,
+          "accuracy": 0
+        },
+        {
+          "concept_id": 1029,
+          "attempts": 7,
+          "correct": 4,
+          "accuracy": 0.571
+        },
+        {
+          "concept_id": 1030,
+          "attempts": 7,
+          "correct": 4,
+          "accuracy": 0.571
+        },
+        {
+          "concept_id": 1031,
+          "attempts": 7,
+          "correct": 4,
+          "accuracy": 0.571
+        },
+        {
+          "concept_id": 1235,
+          "attempts": 1,
+          "correct": 0,
+          "accuracy": 0
+        },
+        {
+          "concept_id": 1236,
+          "attempts": 1,
+          "correct": 0,
+          "accuracy": 0
+        },
+        {
+          "concept_id": 1237,
+          "attempts": 1,
+          "correct": 0,
+          "accuracy": 0
+        },
+        {
+          "concept_id": 1509,
+          "attempts": 1,
+          "correct": 0,
+          "accuracy": 0
+        },
+        {
+          "concept_id": 1510,
+          "attempts": 1,
+          "correct": 0,
+          "accuracy": 0
+        },
+        {
+          "concept_id": 1511,
+          "attempts": 1,
+          "correct": 0,
+          "accuracy": 0
+        },
+        {
+          "concept_id": 2207,
+          "attempts": 3,
+          "correct": 3,
+          "accuracy": 1
+        },
+        {
+          "concept_id": 2208,
+          "attempts": 3,
+          "correct": 3,
+          "accuracy": 1
+        },
+        {
+          "concept_id": 2209,
+          "attempts": 3,
+          "correct": 3,
+          "accuracy": 1
+        }
+      ],
+      "weak_concepts": [],
+      "strong_concepts": [
+        2207,
+        2208,
+        2209
+      ]
+    }
+  ]
+}

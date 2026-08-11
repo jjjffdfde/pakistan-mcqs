@@ -1,0 +1,893 @@
+{
+  "step": "navigation",
+  "generated_at": "2026-08-10T12:10:35.398Z",
+  "summary": {
+    "kg_subjects": 12,
+    "relation_types": 4,
+    "total_relations": 2275,
+    "prerequisite_edges": 25,
+    "learning_maps": 6,
+    "top_hubs": 8,
+    "status": "PASS"
+  },
+  "concept_explorer": {
+    "by_subject": [
+      {
+        "subject_id": "pakistan-affairs",
+        "concepts": 36,
+        "micros": 207
+      },
+      {
+        "subject_id": "islamic-studies",
+        "concepts": 31,
+        "micros": 247
+      },
+      {
+        "subject_id": "everyday-science",
+        "concepts": 22,
+        "micros": 150
+      },
+      {
+        "subject_id": "mathematics",
+        "concepts": 21,
+        "micros": 749
+      },
+      {
+        "subject_id": "english",
+        "concepts": 19,
+        "micros": 130
+      },
+      {
+        "subject_id": "general-knowledge",
+        "concepts": 17,
+        "micros": 110
+      },
+      {
+        "subject_id": "computer-science",
+        "concepts": 15,
+        "micros": 117
+      },
+      {
+        "subject_id": "chemistry",
+        "concepts": 14,
+        "micros": 99
+      },
+      {
+        "subject_id": "current-affairs",
+        "concepts": 14,
+        "micros": 87
+      },
+      {
+        "subject_id": "economics",
+        "concepts": 14,
+        "micros": 93
+      },
+      {
+        "subject_id": "geography",
+        "concepts": 13,
+        "micros": 294
+      },
+      {
+        "subject_id": "machine-learning",
+        "concepts": 13,
+        "micros": 105
+      }
+    ],
+    "objectives_by_subject": [
+      {
+        "subject_id": "mathematics",
+        "n": 4435
+      },
+      {
+        "subject_id": "analytical-reasoning",
+        "n": 1554
+      },
+      {
+        "subject_id": "geography",
+        "n": 1536
+      },
+      {
+        "subject_id": "islamic-studies",
+        "n": 1493
+      },
+      {
+        "subject_id": "pakistan-affairs",
+        "n": 1342
+      },
+      {
+        "subject_id": "iq",
+        "n": 1317
+      },
+      {
+        "subject_id": "verbal-reasoning",
+        "n": 1155
+      },
+      {
+        "subject_id": "non-verbal-reasoning",
+        "n": 1140
+      },
+      {
+        "subject_id": "urdu",
+        "n": 1087
+      },
+      {
+        "subject_id": "statistics",
+        "n": 1085
+      },
+      {
+        "subject_id": "data-interpretation",
+        "n": 1082
+      },
+      {
+        "subject_id": "aptitude-tests",
+        "n": 1066
+      }
+    ]
+  },
+  "semantic_navigation": {
+    "relation_types": [
+      {
+        "relation_type": "parent",
+        "count": 876
+      },
+      {
+        "relation_type": "child",
+        "count": 876
+      },
+      {
+        "relation_type": "related",
+        "count": 501
+      },
+      {
+        "relation_type": "depends_on",
+        "count": 22
+      }
+    ],
+    "relation_sample": [
+      {
+        "from_concept": 16440,
+        "to_concept": 16441,
+        "relation_type": "parent",
+        "weight": 1
+      },
+      {
+        "from_concept": 16441,
+        "to_concept": 16440,
+        "relation_type": "child",
+        "weight": 0.9
+      },
+      {
+        "from_concept": 16440,
+        "to_concept": 16442,
+        "relation_type": "parent",
+        "weight": 1
+      },
+      {
+        "from_concept": 16442,
+        "to_concept": 16440,
+        "relation_type": "child",
+        "weight": 0.9
+      },
+      {
+        "from_concept": 16440,
+        "to_concept": 16443,
+        "relation_type": "parent",
+        "weight": 1
+      },
+      {
+        "from_concept": 16443,
+        "to_concept": 16440,
+        "relation_type": "child",
+        "weight": 0.9
+      },
+      {
+        "from_concept": 16440,
+        "to_concept": 16444,
+        "relation_type": "parent",
+        "weight": 1
+      },
+      {
+        "from_concept": 16444,
+        "to_concept": 16440,
+        "relation_type": "child",
+        "weight": 0.9
+      },
+      {
+        "from_concept": 16440,
+        "to_concept": 16445,
+        "relation_type": "parent",
+        "weight": 1
+      },
+      {
+        "from_concept": 16445,
+        "to_concept": 16440,
+        "relation_type": "child",
+        "weight": 0.9
+      }
+    ]
+  },
+  "relationship_explorer": {
+    "top_hubs": [
+      {
+        "concept_id": 15496,
+        "name": "Computer Science",
+        "subject_id": "computer-science",
+        "degree": 14,
+        "neighbors": [
+          {
+            "concept_id": 15497,
+            "name": "computer-science",
+            "relation_type": "parent"
+          },
+          {
+            "concept_id": 15497,
+            "name": "computer-science",
+            "relation_type": "child"
+          },
+          {
+            "concept_id": 15498,
+            "name": "hardware",
+            "relation_type": "parent"
+          },
+          {
+            "concept_id": 15498,
+            "name": "hardware",
+            "relation_type": "child"
+          },
+          {
+            "concept_id": 15499,
+            "name": "networking",
+            "relation_type": "parent"
+          },
+          {
+            "concept_id": 15499,
+            "name": "networking",
+            "relation_type": "child"
+          }
+        ]
+      },
+      {
+        "concept_id": 15792,
+        "name": "Everyday Science",
+        "subject_id": "everyday-science",
+        "degree": 14,
+        "neighbors": [
+          {
+            "concept_id": 15793,
+            "name": "everyday-science",
+            "relation_type": "parent"
+          },
+          {
+            "concept_id": 15793,
+            "name": "everyday-science",
+            "relation_type": "child"
+          },
+          {
+            "concept_id": 15794,
+            "name": "chemistry",
+            "relation_type": "parent"
+          },
+          {
+            "concept_id": 15794,
+            "name": "chemistry",
+            "relation_type": "child"
+          },
+          {
+            "concept_id": 15795,
+            "name": "biology",
+            "relation_type": "parent"
+          },
+          {
+            "concept_id": 15795,
+            "name": "biology",
+            "relation_type": "child"
+          }
+        ]
+      },
+      {
+        "concept_id": 15877,
+        "name": "sports",
+        "subject_id": "general-knowledge",
+        "degree": 14,
+        "neighbors": [
+          {
+            "concept_id": 15878,
+            "name": "General Knowledge",
+            "relation_type": "parent"
+          },
+          {
+            "concept_id": 15878,
+            "name": "General Knowledge",
+            "relation_type": "child"
+          },
+          {
+            "concept_id": 15879,
+            "name": "general-knowledge",
+            "relation_type": "parent"
+          },
+          {
+            "concept_id": 15879,
+            "name": "general-knowledge",
+            "relation_type": "child"
+          },
+          {
+            "concept_id": 15880,
+            "name": "books",
+            "relation_type": "parent"
+          },
+          {
+            "concept_id": 15880,
+            "name": "books",
+            "relation_type": "child"
+          }
+        ]
+      },
+      {
+        "concept_id": 16044,
+        "name": "Islamic Studies",
+        "subject_id": "islamic-studies",
+        "degree": 14,
+        "neighbors": [
+          {
+            "concept_id": 16045,
+            "name": "islamic-studies",
+            "relation_type": "parent"
+          },
+          {
+            "concept_id": 16045,
+            "name": "islamic-studies",
+            "relation_type": "child"
+          },
+          {
+            "concept_id": 16046,
+            "name": "quran",
+            "relation_type": "parent"
+          },
+          {
+            "concept_id": 16046,
+            "name": "quran",
+            "relation_type": "child"
+          },
+          {
+            "concept_id": 16047,
+            "name": "hadith",
+            "relation_type": "parent"
+          },
+          {
+            "concept_id": 16047,
+            "name": "hadith",
+            "relation_type": "child"
+          }
+        ]
+      },
+      {
+        "concept_id": 16440,
+        "name": "Pakistan Affairs",
+        "subject_id": "pakistan-affairs",
+        "degree": 14,
+        "neighbors": [
+          {
+            "concept_id": 16441,
+            "name": "pakistan-affairs",
+            "relation_type": "parent"
+          },
+          {
+            "concept_id": 16441,
+            "name": "pakistan-affairs",
+            "relation_type": "child"
+          },
+          {
+            "concept_id": 16442,
+            "name": "history",
+            "relation_type": "parent"
+          },
+          {
+            "concept_id": 16442,
+            "name": "history",
+            "relation_type": "child"
+          },
+          {
+            "concept_id": 16443,
+            "name": "geography",
+            "relation_type": "parent"
+          },
+          {
+            "concept_id": 16443,
+            "name": "geography",
+            "relation_type": "child"
+          }
+        ]
+      },
+      {
+        "concept_id": 15207,
+        "name": "ai",
+        "subject_id": "ai",
+        "degree": 12,
+        "neighbors": [
+          {
+            "concept_id": 15208,
+            "name": "Artificial Intelligence",
+            "relation_type": "parent"
+          },
+          {
+            "concept_id": 15208,
+            "name": "Artificial Intelligence",
+            "relation_type": "child"
+          },
+          {
+            "concept_id": 15209,
+            "name": "deep-kb",
+            "relation_type": "parent"
+          },
+          {
+            "concept_id": 15209,
+            "name": "deep-kb",
+            "relation_type": "child"
+          },
+          {
+            "concept_id": 15210,
+            "name": "machine-learning",
+            "relation_type": "parent"
+          },
+          {
+            "concept_id": 15210,
+            "name": "machine-learning",
+            "relation_type": "child"
+          }
+        ]
+      },
+      {
+        "concept_id": 15368,
+        "name": "genetics",
+        "subject_id": "biology",
+        "degree": 12,
+        "neighbors": [
+          {
+            "concept_id": 15369,
+            "name": "plants",
+            "relation_type": "parent"
+          },
+          {
+            "concept_id": 15369,
+            "name": "plants",
+            "relation_type": "child"
+          },
+          {
+            "concept_id": 15367,
+            "name": "Biology",
+            "relation_type": "parent"
+          },
+          {
+            "concept_id": 15367,
+            "name": "Biology",
+            "relation_type": "child"
+          },
+          {
+            "concept_id": 15370,
+            "name": "deep-kb",
+            "relation_type": "parent"
+          },
+          {
+            "concept_id": 15370,
+            "name": "deep-kb",
+            "relation_type": "child"
+          }
+        ]
+      },
+      {
+        "concept_id": 15435,
+        "name": "periodic table",
+        "subject_id": "chemistry",
+        "degree": 12,
+        "neighbors": [
+          {
+            "concept_id": 15429,
+            "name": "Chemistry",
+            "relation_type": "parent"
+          },
+          {
+            "concept_id": 15429,
+            "name": "Chemistry",
+            "relation_type": "child"
+          },
+          {
+            "concept_id": 15430,
+            "name": "deep-kb",
+            "relation_type": "parent"
+          },
+          {
+            "concept_id": 15430,
+            "name": "deep-kb",
+            "relation_type": "child"
+          },
+          {
+            "concept_id": 15431,
+            "name": "periodic-table",
+            "relation_type": "parent"
+          },
+          {
+            "concept_id": 15431,
+            "name": "periodic-table",
+            "relation_type": "child"
+          }
+        ]
+      }
+    ]
+  },
+  "prerequisite_explorer": {
+    "explicit_prerequisites": [
+      {
+        "concept_id": 16446,
+        "requires_id": 16480,
+        "strength": 0.8,
+        "concept": "constitution",
+        "requires": "constitutions"
+      },
+      {
+        "concept_id": 16463,
+        "requires_id": 16480,
+        "strength": 0.8,
+        "concept": "Constitution of Pakistan",
+        "requires": "constitutions"
+      },
+      {
+        "concept_id": 16472,
+        "requires_id": 16480,
+        "strength": 0.8,
+        "concept": "Constitution and Government",
+        "requires": "constitutions"
+      }
+    ],
+    "depends_on_edges": [
+      {
+        "from_concept": 16471,
+        "from_name": "Early Years (1947-58)",
+        "to_concept": 16465,
+        "to_name": "Ayub & Yahya Era",
+        "weight": 0.7
+      },
+      {
+        "from_concept": 16465,
+        "from_name": "Ayub & Yahya Era",
+        "to_concept": 16475,
+        "to_name": "defence",
+        "weight": 0.7
+      },
+      {
+        "from_concept": 16475,
+        "from_name": "defence",
+        "to_concept": 16466,
+        "to_name": "Zia Era & 1990s",
+        "weight": 0.7
+      },
+      {
+        "from_concept": 16466,
+        "from_name": "Zia Era & 1990s",
+        "to_concept": 16461,
+        "to_name": "Geography of Pakistan",
+        "weight": 0.7
+      },
+      {
+        "from_concept": 16473,
+        "from_name": "Neighbours & Major Powers",
+        "to_concept": 16467,
+        "to_name": "OIC & SAARC",
+        "weight": 0.7
+      },
+      {
+        "from_concept": 16468,
+        "from_name": "Parliament & President",
+        "to_concept": 16469,
+        "to_name": "Judiciary & Civil Service",
+        "weight": 0.7
+      },
+      {
+        "from_concept": 15559,
+        "from_name": "sports",
+        "to_concept": 15557,
+        "to_name": "appointments",
+        "weight": 0.7
+      },
+      {
+        "from_concept": 15560,
+        "from_name": "olympics",
+        "to_concept": 15557,
+        "to_name": "appointments",
+        "weight": 0.7
+      },
+      {
+        "from_concept": 16066,
+        "from_name": "Fiqh and Terms",
+        "to_concept": 16073,
+        "to_name": "Halal & Haram",
+        "weight": 0.7
+      },
+      {
+        "from_concept": 15729,
+        "from_name": "idioms",
+        "to_concept": 15720,
+        "to_name": "topic-bank",
+        "weight": 0.7
+      },
+      {
+        "from_concept": 15729,
+        "from_name": "idioms",
+        "to_concept": 15725,
+        "to_name": "Proverbs",
+        "weight": 0.7
+      },
+      {
+        "from_concept": 15730,
+        "from_name": "phrases",
+        "to_concept": 15720,
+        "to_name": "topic-bank",
+        "weight": 0.7
+      },
+      {
+        "from_concept": 15730,
+        "from_name": "phrases",
+        "to_concept": 15725,
+        "to_name": "Proverbs",
+        "weight": 0.7
+      },
+      {
+        "from_concept": 15722,
+        "from_name": "tenses",
+        "to_concept": 15723,
+        "to_name": "grammar",
+        "weight": 0.7
+      },
+      {
+        "from_concept": 15722,
+        "from_name": "tenses",
+        "to_concept": 15732,
+        "to_name": "prepositions",
+        "weight": 0.7
+      },
+      {
+        "from_concept": 15813,
+        "from_name": "planets",
+        "to_concept": 15812,
+        "to_name": "atmosphere",
+        "weight": 0.7
+      },
+      {
+        "from_concept": 15791,
+        "from_name": "security",
+        "to_concept": 15789,
+        "to_name": "Security Controls",
+        "weight": 0.7
+      },
+      {
+        "from_concept": 15791,
+        "from_name": "security",
+        "to_concept": 15790,
+        "to_name": "topic-bank",
+        "weight": 0.7
+      },
+      {
+        "from_concept": 16741,
+        "from_name": "topic-bank",
+        "to_concept": 16743,
+        "to_name": "Stored Procedures",
+        "weight": 0.7
+      },
+      {
+        "from_concept": 16742,
+        "from_name": "Indexes & Optimization",
+        "to_concept": 16743,
+        "to_name": "Stored Procedures",
+        "weight": 0.7
+      },
+      {
+        "from_concept": 16346,
+        "from_name": "nextjs",
+        "to_concept": 16344,
+        "to_name": "Data Fetching",
+        "weight": 0.7
+      },
+      {
+        "from_concept": 16346,
+        "from_name": "nextjs",
+        "to_concept": 16345,
+        "to_name": "topic-bank",
+        "weight": 0.7
+      }
+    ],
+    "guidance": "Complete depends_on targets before attempting the dependent concept."
+  },
+  "learning_maps": [
+    {
+      "subject_id": "mathematics",
+      "name": "Mathematics",
+      "mcqs": 115332,
+      "chapters": [
+        {
+          "name": "Mathematics — Arithmetic",
+          "topics": 15,
+          "subtopics": 45
+        },
+        {
+          "name": "Arithmetic",
+          "topics": 3,
+          "subtopics": 9
+        },
+        {
+          "name": "Algebra",
+          "topics": 2,
+          "subtopics": 6
+        },
+        {
+          "name": "Geometry",
+          "topics": 2,
+          "subtopics": 6
+        },
+        {
+          "name": "Trigonometry",
+          "topics": 1,
+          "subtopics": 3
+        },
+        {
+          "name": "Number System",
+          "topics": 2,
+          "subtopics": 6
+        }
+      ]
+    },
+    {
+      "subject_id": "statistics",
+      "name": "Statistics",
+      "mcqs": 42470,
+      "chapters": [
+        {
+          "name": "Statistics — Measures and Methods",
+          "topics": 4,
+          "subtopics": 12
+        },
+        {
+          "name": "Descriptive Statistics",
+          "topics": 1,
+          "subtopics": 3
+        },
+        {
+          "name": "Probability",
+          "topics": 1,
+          "subtopics": 3
+        },
+        {
+          "name": "Statistical Inference",
+          "topics": 1,
+          "subtopics": 3
+        }
+      ]
+    },
+    {
+      "subject_id": "rust",
+      "name": "Rust",
+      "mcqs": 9477,
+      "chapters": [
+        {
+          "name": "Rust — Code Output",
+          "topics": 1,
+          "subtopics": 3
+        },
+        {
+          "name": "rust — Core Concepts",
+          "topics": 3,
+          "subtopics": 9
+        },
+        {
+          "name": "Rust Fundamentals",
+          "topics": 2,
+          "subtopics": 4
+        },
+        {
+          "name": "Rust in Practice",
+          "topics": 2,
+          "subtopics": 4
+        }
+      ]
+    },
+    {
+      "subject_id": "physics",
+      "name": "Physics",
+      "mcqs": 9326,
+      "chapters": [
+        {
+          "name": "Physics — Numericals",
+          "topics": 1,
+          "subtopics": 3
+        },
+        {
+          "name": "Physics — Numericals II",
+          "topics": 1,
+          "subtopics": 3
+        },
+        {
+          "name": "Mechanics",
+          "topics": 2,
+          "subtopics": 6
+        },
+        {
+          "name": "Electricity & Magnetism",
+          "topics": 1,
+          "subtopics": 3
+        },
+        {
+          "name": "Light & Optics",
+          "topics": 1,
+          "subtopics": 3
+        },
+        {
+          "name": "Sound",
+          "topics": 1,
+          "subtopics": 3
+        },
+        {
+          "name": "Heat & Thermodynamics",
+          "topics": 1,
+          "subtopics": 3
+        },
+        {
+          "name": "Modern Physics",
+          "topics": 1,
+          "subtopics": 3
+        }
+      ]
+    },
+    {
+      "subject_id": "go",
+      "name": "Go",
+      "mcqs": 8003,
+      "chapters": [
+        {
+          "name": "Go — Code Output",
+          "topics": 1,
+          "subtopics": 3
+        },
+        {
+          "name": "go — Core Concepts",
+          "topics": 3,
+          "subtopics": 9
+        },
+        {
+          "name": "Go Fundamentals",
+          "topics": 2,
+          "subtopics": 4
+        },
+        {
+          "name": "Go Concurrency",
+          "topics": 2,
+          "subtopics": 4
+        }
+      ]
+    },
+    {
+      "subject_id": "csharp",
+      "name": "C#",
+      "mcqs": 6690,
+      "chapters": [
+        {
+          "name": "C# — Code Output",
+          "topics": 1,
+          "subtopics": 3
+        },
+        {
+          "name": "csharp — Core Concepts",
+          "topics": 3,
+          "subtopics": 9
+        },
+        {
+          "name": "C# Fundamentals",
+          "topics": 2,
+          "subtopics": 4
+        },
+        {
+          "name": "C# Ecosystem",
+          "topics": 2,
+          "subtopics": 4
+        }
+      ]
+    }
+  ]
+}

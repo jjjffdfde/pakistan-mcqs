@@ -1,0 +1,19 @@
+# ============================================================
+# database/.gitattributes — Git LFS & diff behavior for Phase 23
+# Compressed NDJSON data files are large → track with Git LFS
+# so clones stay small and diffs use text (LFS smudge) properly.
+# ============================================================
+*.ndjson       -text
+*.ndjson.gz    filter=lfs diff=lfs merge=lfs -text
+*.ndjson.zst   filter=lfs diff=lfs merge=lfs -text
+db/*.sqlite    filter=lfs diff=lfs merge=lfs -text
+*.sha256       text diff syntax=text
+
+# Binary artifacts should never be diffed
+*.sqlite       -text
+*.gz           binary
+*.zst          binary
+*.png          binary
+*.jpg          binary
+*.jpeg         binary
+*.webp         binary

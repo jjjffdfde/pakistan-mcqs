@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://pakistanmcqshub.github.io/</loc>
+    <image:image>
+      <image:loc>https://pakistanmcqshub.github.io/assets/img/og-cover.png</image:loc>
+      <image:title>Pakistan MCQs Hub - free MCQs for all Pakistani competitive exams</image:title>
+      <image:caption>Original MCQs with explanations for PPSC, FPSC, NTS, OTS, CSS, PMS, entry tests and 38 exams.</image:caption>
+      <image:geo_location>Pakistan</image:geo_location>
+      <image:license>https://pakistanmcqshub.github.io/</image:license>
+    </image:image>
+  </url>
+</urlset>

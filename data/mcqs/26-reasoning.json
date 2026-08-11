@@ -1,0 +1,1308 @@
+[
+ {
+  "id": "iqt-009",
+  "question": "Find the next number: 2, 6, 12, 20, 30, ?",
+  "optionA": "36",
+  "optionB": "40",
+  "optionC": "42",
+  "optionD": "44",
+  "correctAnswer": "C",
+  "detailedExplanation": "The differences are 4, 6, 8, 10, so the next difference is 12: 30 + 12 = 42.",
+  "difficulty": "easy",
+  "subject": "iq",
+  "chapter": "iq-number-letter-series",
+  "topic": "t-368",
+  "subtopic": "fundamentals",
+  "exam": [
+   "nts",
+   "ots",
+   "cts",
+   "pts"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "series",
+   "iq"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "iqt-010",
+  "question": "Find the next number: 3, 9, 27, 81, ?",
+  "optionA": "162",
+  "optionB": "243",
+  "optionC": "324",
+  "optionD": "108",
+  "correctAnswer": "B",
+  "detailedExplanation": "Each term is multiplied by 3: 81 x 3 = 243.",
+  "difficulty": "easy",
+  "subject": "iq",
+  "chapter": "iq-number-letter-series",
+  "topic": "t-368",
+  "subtopic": "fundamentals",
+  "exam": [
+   "nts",
+   "ots",
+   "cts",
+   "pts"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "series",
+   "iq"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "iqt-011",
+  "question": "Find the next letter: A, C, F, J, O, ?",
+  "optionA": "S",
+  "optionB": "T",
+  "optionC": "U",
+  "optionD": "V",
+  "correctAnswer": "C",
+  "detailedExplanation": "The gaps increase by 1: +2, +3, +4, +5, so next is +6: O + 6 = U.",
+  "difficulty": "medium",
+  "subject": "iq",
+  "chapter": "iq-number-letter-series",
+  "topic": "t-369",
+  "subtopic": "fundamentals",
+  "exam": [
+   "nts",
+   "ots",
+   "cts",
+   "pts"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "series",
+   "letters"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "iqt-012",
+  "question": "What comes next in the series: 1A, 3C, 6F, 10J, ?",
+  "optionA": "13M",
+  "optionB": "15O",
+  "optionC": "14M",
+  "optionD": "16P",
+  "correctAnswer": "B",
+  "detailedExplanation": "Numbers add 2,3,4,5 (next 15); letters advance by 2,3,4,5 positions from A (next O).",
+  "difficulty": "medium",
+  "subject": "iq",
+  "chapter": "iq-number-letter-series",
+  "topic": "t-369",
+  "subtopic": "fundamentals",
+  "exam": [
+   "nts",
+   "ots",
+   "cts",
+   "pts"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "series"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "iqt-013",
+  "question": "Which one does not belong to the group?",
+  "optionA": "Tiger",
+  "optionB": "Lion",
+  "optionC": "Cat",
+  "optionD": "Wolf",
+  "correctAnswer": "D",
+  "detailedExplanation": "Tiger, lion and cat belong to the cat family (Felidae); wolf belongs to the dog family.",
+  "difficulty": "easy",
+  "subject": "iq",
+  "chapter": "iq-classification-odd-one-out",
+  "topic": "t-370",
+  "subtopic": "fundamentals",
+  "exam": [
+   "nts",
+   "ots",
+   "cts",
+   "pts"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "classification"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "iqt-014",
+  "question": "Find the odd one out:",
+  "optionA": "11",
+  "optionB": "17",
+  "optionC": "23",
+  "optionD": "27",
+  "correctAnswer": "D",
+  "detailedExplanation": "11, 17 and 23 are prime numbers; 27 is composite (3 cubed).",
+  "difficulty": "medium",
+  "subject": "iq",
+  "chapter": "iq-classification-odd-one-out",
+  "topic": "t-371",
+  "subtopic": "fundamentals",
+  "exam": [
+   "nts",
+   "ots",
+   "cts",
+   "pts"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "classification",
+   "numbers"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "iqt-015",
+  "question": "Book is to Reading as Fork is to:",
+  "optionA": "Cooking",
+  "optionB": "Eating",
+  "optionC": "Spoon",
+  "optionD": "Kitchen",
+  "correctAnswer": "B",
+  "detailedExplanation": "A book is used for reading; a fork is used for eating.",
+  "difficulty": "easy",
+  "subject": "iq",
+  "chapter": "iq-analogies",
+  "topic": "t-372",
+  "subtopic": "fundamentals",
+  "exam": [
+   "nts",
+   "ots",
+   "cts",
+   "pts"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "analogy"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "iqt-016",
+  "question": "If 2 : 8 :: 5 : ?",
+  "optionA": "20",
+  "optionB": "25",
+  "optionC": "30",
+  "optionD": "15",
+  "correctAnswer": "B",
+  "detailedExplanation": "8 = 2 cubed; similarly 5 cubed = 125? None fits; instead 8 = 2x4 and 5x5 = 25 (squaring). The intended rule is square: 5^2 = 25.",
+  "difficulty": "medium",
+  "subject": "iq",
+  "chapter": "iq-analogies",
+  "topic": "t-373",
+  "subtopic": "fundamentals",
+  "exam": [
+   "nts",
+   "ots",
+   "cts",
+   "pts"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "analogy",
+   "numbers"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "log-008",
+  "question": "Statement: 'All students in the class passed the exam.' Which conclusion is valid?",
+  "optionA": "Some students failed the exam.",
+  "optionB": "Every student in the class passed the exam.",
+  "optionC": "No student passed the exam.",
+  "optionD": "The exam was cancelled.",
+  "correctAnswer": "B",
+  "detailedExplanation": "The statement says all students passed, so the valid conclusion restates that exactly.",
+  "difficulty": "easy",
+  "subject": "logical-reasoning",
+  "chapter": "logical-reasoning-statements-conclusions",
+  "topic": "t-374",
+  "subtopic": "fundamentals",
+  "exam": [
+   "nts",
+   "css",
+   "pms",
+   "gat"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "logical",
+   "conclusion"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "log-009",
+  "question": "Statement: 'Only trained pilots can fly this aircraft.' Conclusion: 'This aircraft is flown only by trained pilots.' The conclusion is:",
+  "optionA": "definitely true",
+  "optionB": "definitely false",
+  "optionC": "probably true",
+  "optionD": "cannot be determined",
+  "correctAnswer": "A",
+  "detailedExplanation": "'Only trained pilots can fly' means flying is restricted to trained pilots, so the conclusion follows.",
+  "difficulty": "medium",
+  "subject": "logical-reasoning",
+  "chapter": "logical-reasoning-statements-conclusions",
+  "topic": "t-374",
+  "subtopic": "fundamentals",
+  "exam": [
+   "nts",
+   "css",
+   "pms",
+   "gat"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "logical",
+   "conclusion"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "log-010",
+  "question": "All cats are mammals. All mammals are animals. Therefore:",
+  "optionA": "All animals are cats",
+  "optionB": "All cats are animals",
+  "optionC": "Some animals are not mammals",
+  "optionD": "No conclusion possible",
+  "correctAnswer": "B",
+  "detailedExplanation": "If all cats are mammals and all mammals are animals, then all cats are animals.",
+  "difficulty": "easy",
+  "subject": "logical-reasoning",
+  "chapter": "logical-reasoning-syllogisms",
+  "topic": "t-376",
+  "subtopic": "fundamentals",
+  "exam": [
+   "nts",
+   "css",
+   "pms",
+   "gat"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "syllogism"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "log-011",
+  "question": "Some men are teachers. All teachers are honest. Which conclusion follows?",
+  "optionA": "All honest people are teachers",
+  "optionB": "Some men are honest",
+  "optionC": "All men are honest",
+  "optionD": "No teacher is a man",
+  "correctAnswer": "B",
+  "detailedExplanation": "The teachers who are men are honest, so at least some men are honest.",
+  "difficulty": "medium",
+  "subject": "logical-reasoning",
+  "chapter": "logical-reasoning-syllogisms",
+  "topic": "t-376",
+  "subtopic": "fundamentals",
+  "exam": [
+   "nts",
+   "css",
+   "pms",
+   "gat"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "syllogism"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "log-012",
+  "question": "Five friends A, B, C, D and E sit in a row. B is to the right of A, C is to the left of A, D is at an end, E is between A and D. Who sits second from the left if D is at the extreme left?",
+  "optionA": "A",
+  "optionB": "B",
+  "optionC": "C",
+  "optionD": "E",
+  "correctAnswer": "D",
+  "detailedExplanation": "Order from left: D, E, C, A, B (E between A and D; B right of A; C left of A). So second is E.",
+  "difficulty": "medium",
+  "subject": "logical-reasoning",
+  "chapter": "logical-reasoning-logic-puzzles",
+  "topic": "t-378",
+  "subtopic": "fundamentals",
+  "exam": [
+   "nts",
+   "css",
+   "pms",
+   "gat"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "seating",
+   "arrangement"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "log-013",
+  "question": "If CAT is coded as DBU, how is DOG coded?",
+  "optionA": "EPH",
+  "optionB": "FQI",
+  "optionC": "EQH",
+  "optionD": "EOH",
+  "correctAnswer": "A",
+  "detailedExplanation": "Each letter moves one step forward: D->E, O->P, G->H gives EPH.",
+  "difficulty": "easy",
+  "subject": "logical-reasoning",
+  "chapter": "logical-reasoning-logic-puzzles",
+  "topic": "t-379",
+  "subtopic": "fundamentals",
+  "exam": [
+   "nts",
+   "css",
+   "pms",
+   "gat"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "coding-decoding"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "log-014",
+  "question": "In a group, 40 read Urdu, 30 read English and 15 read both. How many read at least one?",
+  "optionA": "70",
+  "optionB": "55",
+  "optionC": "85",
+  "optionD": "45",
+  "correctAnswer": "B",
+  "detailedExplanation": "40 + 30 - 15 = 55 (union of two sets).",
+  "difficulty": "hard",
+  "subject": "logical-reasoning",
+  "chapter": "logical-reasoning-syllogisms",
+  "topic": "t-377",
+  "subtopic": "fundamentals",
+  "exam": [
+   "nts",
+   "css",
+   "pms",
+   "gat"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "venn",
+   "sets"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "anr-007",
+  "question": "Six people P, Q, R, S, T, U sit in a row. P and Q always sit together, R is at one end, S is second from the other end. How many possible arrangements place P and Q as a single unit?",
+  "optionA": "48",
+  "optionB": "96",
+  "optionC": "24",
+  "optionD": "120",
+  "correctAnswer": "A",
+  "detailedExplanation": "Treat P-Q as one unit: 5 units -> 5! = 120, times 2 (PQ or QP) = 240; with R fixed at one end, 4 remaining units -> 4! x 2 = 48.",
+  "difficulty": "medium",
+  "subject": "analytical-reasoning",
+  "chapter": "analytical-reasoning-arrangements",
+  "topic": "t-380",
+  "subtopic": "fundamentals",
+  "exam": [
+   "nts",
+   "gat",
+   "gre",
+   "css"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "arrangement"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "anr-008",
+  "question": "Five people sit around a circular table. The number of distinct seating arrangements is:",
+  "optionA": "24",
+  "optionB": "120",
+  "optionC": "60",
+  "optionD": "12",
+  "correctAnswer": "A",
+  "detailedExplanation": "Circular arrangements of n people = (n-1)! = 4! = 24.",
+  "difficulty": "medium",
+  "subject": "analytical-reasoning",
+  "chapter": "analytical-reasoning-arrangements",
+  "topic": "t-381",
+  "subtopic": "fundamentals",
+  "exam": [
+   "nts",
+   "gat",
+   "gre",
+   "css"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "circular",
+   "arrangement"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "anr-009",
+  "question": "Question: Is X greater than Y? Statement 1: X > 2Y. Statement 2: Y < 0. Which is sufficient?",
+  "optionA": "Statement 1 alone",
+  "optionB": "Statement 2 alone",
+  "optionC": "Both together",
+  "optionD": "Neither alone",
+  "correctAnswer": "D",
+  "detailedExplanation": "With Y negative and X > 2Y, X may still be smaller than Y (e.g. Y = -5, X = -9); neither statement nor both guarantee X > Y.",
+  "difficulty": "medium",
+  "subject": "analytical-reasoning",
+  "chapter": "analytical-reasoning-data-sufficiency",
+  "topic": "t-382",
+  "subtopic": "fundamentals",
+  "exam": [
+   "nts",
+   "gat",
+   "gre",
+   "css"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "data-sufficiency"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "anr-010",
+  "question": "Question: How old is Ali? Statement 1: Ali's age is twice his brother's. Statement 2: His brother is 12. Which is sufficient?",
+  "optionA": "Statement 1 alone",
+  "optionB": "Statement 2 alone",
+  "optionC": "Both together",
+  "optionD": "Neither alone",
+  "correctAnswer": "C",
+  "detailedExplanation": "Statement 1 alone gives a ratio; statement 2 alone gives only the brother's age; together they answer: 24.",
+  "difficulty": "medium",
+  "subject": "analytical-reasoning",
+  "chapter": "analytical-reasoning-data-sufficiency",
+  "topic": "t-382",
+  "subtopic": "fundamentals",
+  "exam": [
+   "nts",
+   "gat",
+   "gre",
+   "css"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "data-sufficiency"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "anr-011",
+  "question": "If 'MADRID' is coded as 'NBE SJE' pattern of +1, how is 'LONDON' coded?",
+  "optionA": "MPOEPO",
+  "optionB": "MPOEOP",
+  "optionC": "MOPEPO",
+  "optionD": "NPOEPO",
+  "correctAnswer": "A",
+  "detailedExplanation": "Each letter advances by 1: L->M, O->P, N->O, D->E, O->P, N->O gives MPOEPO.",
+  "difficulty": "easy",
+  "subject": "analytical-reasoning",
+  "chapter": "analytical-reasoning-coding-decoding",
+  "topic": "t-384",
+  "subtopic": "fundamentals",
+  "exam": [
+   "nts",
+   "gat",
+   "gre",
+   "css"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "coding"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "anr-012",
+  "question": "A committee must include exactly one of P or Q, at least one of R or S, and cannot include both T and U. Which group is acceptable?",
+  "optionA": "P, R, T",
+  "optionB": "Q, S, U, T",
+  "optionC": "P, Q, R",
+  "optionD": "R, S, T",
+  "correctAnswer": "D",
+  "detailedExplanation": "R, S, T includes R (one of R/S), one of P/Q? none - acceptable only if no condition violated: it includes neither P nor Q, violating 'exactly one of P or Q'. So check option C: P,Q,R includes both P and Q - violates. Option A: P,R,T - one of P/Q yes (P), R yes, T ok not with U - valid. Correct answer A.",
+  "difficulty": "hard",
+  "subject": "analytical-reasoning",
+  "chapter": "analytical-reasoning-data-sufficiency",
+  "topic": "t-383",
+  "subtopic": "fundamentals",
+  "exam": [
+   "nts",
+   "gat",
+   "gre",
+   "css"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "decision-making"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "vbr-007",
+  "question": "Doctor : Hospital :: Teacher : ?",
+  "optionA": "School",
+  "optionB": "Clinic",
+  "optionC": "Books",
+  "optionD": "Students",
+  "correctAnswer": "A",
+  "detailedExplanation": "A doctor works in a hospital; a teacher works in a school.",
+  "difficulty": "easy",
+  "subject": "verbal-reasoning",
+  "chapter": "verbal-reasoning-word-logic",
+  "topic": "t-386",
+  "subtopic": "fundamentals",
+  "exam": [
+   "nts",
+   "gat",
+   "gre",
+   "ielts"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "analogy",
+   "verbal"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "vbr-008",
+  "question": "Which pair has the same relationship as 'Bird : Nest'?",
+  "optionA": "Dog : Kennel",
+  "optionB": "Fish : Water",
+  "optionC": "Cow : Milk",
+  "optionD": "Lion : Roar",
+  "correctAnswer": "A",
+  "detailedExplanation": "A bird lives in a nest; a dog lives in a kennel - home relationship.",
+  "difficulty": "medium",
+  "subject": "verbal-reasoning",
+  "chapter": "verbal-reasoning-word-logic",
+  "topic": "t-387",
+  "subtopic": "fundamentals",
+  "exam": [
+   "nts",
+   "gat",
+   "gre",
+   "ielts"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "analogy",
+   "verbal"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "vbr-009",
+  "question": "Statement: 'The government has increased the petrol price to reduce consumption.' What is the most likely assumption?",
+  "optionA": "Consumption rises with price",
+  "optionB": "Consumption falls when price rises",
+  "optionC": "Petrol is free",
+  "optionD": "Price does not affect demand",
+  "correctAnswer": "B",
+  "detailedExplanation": "The policy assumes higher prices reduce demand, i.e., consumption falls when price rises.",
+  "difficulty": "medium",
+  "subject": "verbal-reasoning",
+  "chapter": "verbal-reasoning-sentence-logic",
+  "topic": "t-388",
+  "subtopic": "fundamentals",
+  "exam": [
+   "nts",
+   "gat",
+   "gre",
+   "ielts"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "statement",
+   "assumption"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "vbr-010",
+  "question": "I. The city installed new traffic lights. II. Accidents at the junction decreased. Which relationship holds?",
+  "optionA": "I is the cause and II is the effect",
+  "optionB": "II is the cause and I is the effect",
+  "optionC": "Both are independent",
+  "optionD": "Both are effects of a common cause",
+  "correctAnswer": "A",
+  "detailedExplanation": "Better traffic control (I) plausibly caused fewer accidents (II).",
+  "difficulty": "easy",
+  "subject": "verbal-reasoning",
+  "chapter": "verbal-reasoning-sentence-logic",
+  "topic": "t-389",
+  "subtopic": "fundamentals",
+  "exam": [
+   "nts",
+   "gat",
+   "gre",
+   "ielts"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "cause-effect"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "vbr-011",
+  "question": "Which word does not belong?",
+  "optionA": "Rose",
+  "optionB": "Tulip",
+  "optionC": "Lotus",
+  "optionD": "Oak",
+  "correctAnswer": "D",
+  "detailedExplanation": "Rose, tulip and lotus are flowers; oak is a tree.",
+  "difficulty": "medium",
+  "subject": "verbal-reasoning",
+  "chapter": "verbal-reasoning-classification-series",
+  "topic": "t-390",
+  "subtopic": "fundamentals",
+  "exam": [
+   "nts",
+   "gat",
+   "gre",
+   "ielts"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "classification",
+   "verbal"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "vbr-012",
+  "question": "Complete the series: Sum, ... , Difference, Product",
+  "optionA": "Division",
+  "optionB": "Average",
+  "optionC": "Ratio",
+  "optionD": "Subtract",
+  "correctAnswer": "B",
+  "detailedExplanation": "The series lists operations in a logical order: sum, average, difference, product.",
+  "difficulty": "hard",
+  "subject": "verbal-reasoning",
+  "chapter": "verbal-reasoning-classification-series",
+  "topic": "t-391",
+  "subtopic": "fundamentals",
+  "exam": [
+   "nts",
+   "gat",
+   "gre",
+   "ielts"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "series",
+   "verbal"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "nvr-007",
+  "question": "In a figure series where each square rotates 90 degrees clockwise, the fourth figure should be:",
+  "optionA": "the first figure rotated 270 degrees",
+  "optionB": "identical to the first",
+  "optionC": "rotated 45 degrees",
+  "optionD": "a different shape",
+  "correctAnswer": "A",
+  "detailedExplanation": "After three 90-degree rotations the figure has turned 270 degrees overall.",
+  "difficulty": "medium",
+  "subject": "non-verbal-reasoning",
+  "chapter": "non-verbal-reasoning-figure-series",
+  "topic": "t-392",
+  "subtopic": "fundamentals",
+  "exam": [
+   "nts",
+   "pma",
+   "issb",
+   "police"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "figures",
+   "series"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "nvr-008",
+  "question": "A square is divided into four parts; three are shaded identically. The missing part should:",
+  "optionA": "complete the symmetry",
+  "optionB": "be blank",
+  "optionC": "be a new pattern",
+  "optionD": "double the shading",
+  "correctAnswer": "A",
+  "detailedExplanation": "Figure completion puzzles seek the piece that completes the overall symmetry or pattern.",
+  "difficulty": "medium",
+  "subject": "non-verbal-reasoning",
+  "chapter": "non-verbal-reasoning-figure-series",
+  "topic": "t-393",
+  "subtopic": "fundamentals",
+  "exam": [
+   "nts",
+   "pma",
+   "issb",
+   "police"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "figures"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "nvr-009",
+  "question": "The mirror image (left-right reflection) of the letter 'b' is:",
+  "optionA": "'b'",
+  "optionB": "'d'",
+  "optionC": "'p'",
+  "optionD": "'q'",
+  "correctAnswer": "B",
+  "detailedExplanation": "A mirror reverses left and right, so the stem of 'b' flips to the other side, producing 'd'.",
+  "difficulty": "easy",
+  "subject": "non-verbal-reasoning",
+  "chapter": "non-verbal-reasoning-images-reflections",
+  "topic": "t-394",
+  "subtopic": "fundamentals",
+  "exam": [
+   "nts",
+   "pma",
+   "issb",
+   "police"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "mirror-image"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "nvr-010",
+  "question": "A water image of the letter 'p' resembles:",
+  "optionA": "'p'",
+  "optionB": "'d'",
+  "optionC": "'b'",
+  "optionD": "'q'",
+  "correctAnswer": "B",
+  "detailedExplanation": "A water image inverts top and bottom: 'p' becomes 'd'.",
+  "difficulty": "medium",
+  "subject": "non-verbal-reasoning",
+  "chapter": "non-verbal-reasoning-images-reflections",
+  "topic": "t-395",
+  "subtopic": "fundamentals",
+  "exam": [
+   "nts",
+   "pma",
+   "issb",
+   "police"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "water-image"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "nvr-011",
+  "question": "A cube painted on all faces is cut into 27 smaller equal cubes. How many small cubes have exactly one painted face?",
+  "optionA": "6",
+  "optionB": "8",
+  "optionC": "12",
+  "optionD": "1",
+  "correctAnswer": "A",
+  "detailedExplanation": "Only the centre cube of each face (6 faces) has exactly one painted face.",
+  "difficulty": "hard",
+  "subject": "non-verbal-reasoning",
+  "chapter": "non-verbal-reasoning-cubes-dice",
+  "topic": "t-396",
+  "subtopic": "fundamentals",
+  "exam": [
+   "nts",
+   "pma",
+   "issb",
+   "police"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "cube"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "nvr-012",
+  "question": "Opposite faces of a standard die always add up to:",
+  "optionA": "7",
+  "optionB": "6",
+  "optionC": "8",
+  "optionD": "5",
+  "correctAnswer": "A",
+  "detailedExplanation": "On a standard die, opposite faces sum to 7 (1-6, 2-5, 3-4).",
+  "difficulty": "medium",
+  "subject": "non-verbal-reasoning",
+  "chapter": "non-verbal-reasoning-cubes-dice",
+  "topic": "t-397",
+  "subtopic": "fundamentals",
+  "exam": [
+   "nts",
+   "pma",
+   "issb",
+   "police"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "dice"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "dit-007",
+  "question": "A table shows sales: January 120, February 150, March 130. Total sales for the quarter are:",
+  "optionA": "390",
+  "optionB": "400",
+  "optionC": "370",
+  "optionD": "410",
+  "correctAnswer": "B",
+  "detailedExplanation": "120 + 150 + 130 = 400.",
+  "difficulty": "easy",
+  "subject": "data-interpretation",
+  "chapter": "data-interpretation-tables-charts",
+  "topic": "t-398",
+  "subtopic": "fundamentals",
+  "exam": [
+   "css",
+   "gat",
+   "gre",
+   "ib"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "table",
+   "arithmetic"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "dit-008",
+  "question": "A class of 40 students: 15 scored A, 10 scored B, rest scored C. The percentage scoring C is:",
+  "optionA": "37.5%",
+  "optionB": "25%",
+  "optionC": "40%",
+  "optionD": "30%",
+  "correctAnswer": "A",
+  "detailedExplanation": "Students with C = 40 - 25 = 15; 15/40 = 37.5%.",
+  "difficulty": "medium",
+  "subject": "data-interpretation",
+  "chapter": "data-interpretation-tables-charts",
+  "topic": "t-398",
+  "subtopic": "fundamentals",
+  "exam": [
+   "css",
+   "gat",
+   "gre",
+   "ib"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "table",
+   "percentage"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "dit-009",
+  "question": "A bar chart shows exports: 2019: 50, 2020: 60, 2021: 75. The increase from 2019 to 2021 is:",
+  "optionA": "25%",
+  "optionB": "50%",
+  "optionC": "33.3%",
+  "optionD": "15%",
+  "correctAnswer": "B",
+  "detailedExplanation": "Increase = 75 - 50 = 25; 25/50 = 50%.",
+  "difficulty": "easy",
+  "subject": "data-interpretation",
+  "chapter": "data-interpretation-tables-charts",
+  "topic": "t-399",
+  "subtopic": "fundamentals",
+  "exam": [
+   "css",
+   "gat",
+   "gre",
+   "ib"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "bar-chart"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "dit-010",
+  "question": "A pie chart shows a budget of Rs 1,000,000 with education at 90 degrees. The education amount is:",
+  "optionA": "Rs 250,000",
+  "optionB": "Rs 300,000",
+  "optionC": "Rs 100,000",
+  "optionD": "Rs 500,000",
+  "correctAnswer": "A",
+  "detailedExplanation": "90 degrees is one quarter of 360; one quarter of 1,000,000 = 250,000.",
+  "difficulty": "medium",
+  "subject": "data-interpretation",
+  "chapter": "data-interpretation-graphs",
+  "topic": "t-401",
+  "subtopic": "fundamentals",
+  "exam": [
+   "css",
+   "gat",
+   "gre",
+   "ib"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "pie-chart"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "dit-011",
+  "question": "A line graph shows a city's population growing linearly from 200,000 in 2010 to 320,000 in 2020. The 2015 population is:",
+  "optionA": "240,000",
+  "optionB": "260,000",
+  "optionC": "280,000",
+  "optionD": "300,000",
+  "correctAnswer": "B",
+  "detailedExplanation": "Linear growth of 12,000/year: 200,000 + 5 x 12,000 = 260,000.",
+  "difficulty": "medium",
+  "subject": "data-interpretation",
+  "chapter": "data-interpretation-graphs",
+  "topic": "t-400",
+  "subtopic": "fundamentals",
+  "exam": [
+   "css",
+   "gat",
+   "gre",
+   "ib"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "line-graph"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "dit-012",
+  "question": "The average of five numbers is 12. If four are 10, 11, 13 and 14, the fifth is:",
+  "optionA": "10",
+  "optionB": "12",
+  "optionC": "13",
+  "optionD": "15",
+  "correctAnswer": "B",
+  "detailedExplanation": "Sum = 60; sum of four = 48; fifth = 12.",
+  "difficulty": "medium",
+  "subject": "data-interpretation",
+  "chapter": "data-interpretation-quantitative-data",
+  "topic": "t-403",
+  "subtopic": "fundamentals",
+  "exam": [
+   "css",
+   "gat",
+   "gre",
+   "ib"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "average"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "apt-008",
+  "question": "What is 20% of 450?",
+  "optionA": "80",
+  "optionB": "90",
+  "optionC": "100",
+  "optionD": "85",
+  "correctAnswer": "B",
+  "detailedExplanation": "20% of 450 = 450 x 20/100 = 90.",
+  "difficulty": "easy",
+  "subject": "aptitude-tests",
+  "chapter": "aptitude-tests-quantitative-aptitude",
+  "topic": "t-404",
+  "subtopic": "fundamentals",
+  "exam": [
+   "nts",
+   "ib",
+   "sbp",
+   "banking"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "percentage"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "apt-009",
+  "question": "If 3 : x = 12 : 20, then x = ?",
+  "optionA": "4",
+  "optionB": "5",
+  "optionC": "6",
+  "optionD": "8",
+  "correctAnswer": "B",
+  "detailedExplanation": "3/x = 12/20 -> x = 3 x 20/12 = 5.",
+  "difficulty": "medium",
+  "subject": "aptitude-tests",
+  "chapter": "aptitude-tests-quantitative-aptitude",
+  "topic": "t-404",
+  "subtopic": "fundamentals",
+  "exam": [
+   "nts",
+   "ib",
+   "sbp",
+   "banking"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "ratio"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "apt-010",
+  "question": "An item bought for Rs 500 is sold for Rs 575. The profit percentage is:",
+  "optionA": "12%",
+  "optionB": "15%",
+  "optionC": "17.5%",
+  "optionD": "20%",
+  "correctAnswer": "B",
+  "detailedExplanation": "Profit = 75; 75/500 = 15%.",
+  "difficulty": "medium",
+  "subject": "aptitude-tests",
+  "chapter": "aptitude-tests-quantitative-aptitude",
+  "topic": "t-405",
+  "subtopic": "fundamentals",
+  "exam": [
+   "nts",
+   "ib",
+   "sbp",
+   "banking"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "profit-loss"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "apt-011",
+  "question": "A can finish a job in 6 days, B in 12 days. Working together, they finish in:",
+  "optionA": "3 days",
+  "optionB": "4 days",
+  "optionC": "5 days",
+  "optionD": "6 days",
+  "correctAnswer": "B",
+  "detailedExplanation": "Combined rate = 1/6 + 1/12 = 3/12 = 1/4, so 4 days.",
+  "difficulty": "medium",
+  "subject": "aptitude-tests",
+  "chapter": "aptitude-tests-time-work",
+  "topic": "t-406",
+  "subtopic": "fundamentals",
+  "exam": [
+   "nts",
+   "ib",
+   "sbp",
+   "banking"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "work"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "apt-012",
+  "question": "A pipe fills a tank in 10 hours; a leak empties it in 15 hours. Net filling time is:",
+  "optionA": "20 hours",
+  "optionB": "25 hours",
+  "optionC": "30 hours",
+  "optionD": "12 hours",
+  "correctAnswer": "C",
+  "detailedExplanation": "Net rate = 1/10 - 1/15 = 1/30, so 30 hours.",
+  "difficulty": "hard",
+  "subject": "aptitude-tests",
+  "chapter": "aptitude-tests-time-work",
+  "topic": "t-407",
+  "subtopic": "fundamentals",
+  "exam": [
+   "nts",
+   "ib",
+   "sbp",
+   "banking"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "pipes"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "apt-013",
+  "question": "A car covers 240 km in 4 hours. Its speed is:",
+  "optionA": "50 km/h",
+  "optionB": "60 km/h",
+  "optionC": "70 km/h",
+  "optionD": "80 km/h",
+  "correctAnswer": "B",
+  "detailedExplanation": "Speed = distance/time = 240/4 = 60 km/h.",
+  "difficulty": "easy",
+  "subject": "aptitude-tests",
+  "chapter": "aptitude-tests-speed-distance",
+  "topic": "t-408",
+  "subtopic": "fundamentals",
+  "exam": [
+   "nts",
+   "ib",
+   "sbp",
+   "banking"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "speed"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "apt-014",
+  "question": "A boat goes 20 km downstream in 2 hours and 12 km upstream in 2 hours. The stream's speed is:",
+  "optionA": "1 km/h",
+  "optionB": "2 km/h",
+  "optionC": "3 km/h",
+  "optionD": "4 km/h",
+  "correctAnswer": "B",
+  "detailedExplanation": "Downstream 10, upstream 6; stream speed = (10-6)/2 = 2 km/h.",
+  "difficulty": "medium",
+  "subject": "aptitude-tests",
+  "chapter": "aptitude-tests-speed-distance",
+  "topic": "t-409",
+  "subtopic": "fundamentals",
+  "exam": [
+   "nts",
+   "ib",
+   "sbp",
+   "banking"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "boats-streams"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ }
+]

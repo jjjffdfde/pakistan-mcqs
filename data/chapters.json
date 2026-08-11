@@ -1,0 +1,2802 @@
+[
+  {
+    "id": "pa-movement",
+    "subject": "pakistan-affairs",
+    "name": "Pakistan Movement (1857-1947)",
+    "description": "Muslim League, Aligarh Movement, Khilafat Movement, Lahore Resolution and the road to independence.",
+    "order": 1
+  },
+  {
+    "id": "pa-constitution",
+    "subject": "pakistan-affairs",
+    "name": "Constitutional Development",
+    "description": "Objectives Resolution, constitutions of 1956, 1962 and 1973, and constitutional amendments.",
+    "order": 2
+  },
+  {
+    "id": "pa-geography",
+    "subject": "pakistan-affairs",
+    "name": "Geography of Pakistan",
+    "description": "Provinces, rivers, dams, mountains, passes, deserts, climate and natural resources.",
+    "order": 3
+  },
+  {
+    "id": "pa-symbols",
+    "subject": "pakistan-affairs",
+    "name": "National Symbols & Heritage",
+    "description": "National flag, anthem, animal, bird, landmarks and cultural heritage.",
+    "order": 4
+  },
+  {
+    "id": "pa-history",
+    "subject": "pakistan-affairs",
+    "name": "Post-1947 History",
+    "description": "Early years, martial law eras, 1965 and 1971 wars, democratic transitions and modern Pakistan.",
+    "order": 5
+  },
+  {
+    "id": "pa-foreign-policy",
+    "subject": "pakistan-affairs",
+    "name": "Foreign Policy",
+    "description": "Relations with neighbours, Kashmir, SAARC, OIC, nuclear programme and CPEC.",
+    "order": 6
+  },
+  {
+    "id": "pa-economy",
+    "subject": "pakistan-affairs",
+    "name": "Economy of Pakistan",
+    "description": "Agriculture, industry, banking, budget, energy and trade.",
+    "order": 7
+  },
+  {
+    "id": "pa-defence",
+    "subject": "pakistan-affairs",
+    "name": "Armed Forces & Defence",
+    "description": "Army, Navy, Air Force, defence strategy and military awards.",
+    "order": 8
+  },
+  {
+    "id": "pa-government",
+    "subject": "pakistan-affairs",
+    "name": "Government & Administration",
+    "description": "Executive, legislature, judiciary, civil service and local government.",
+    "order": 9
+  },
+  {
+    "id": "pa-personalities",
+    "subject": "pakistan-affairs",
+    "name": "Notable Personalities",
+    "description": "Quaid-e-Azam, Allama Iqbal, Liaquat Ali Khan, Sir Syed Ahmad Khan and other leaders.",
+    "order": 10
+  },
+  {
+    "id": "ca-pakistan",
+    "subject": "current-affairs",
+    "name": "Pakistan Current Affairs",
+    "description": "Recent political, economic, sports, technology and appointment updates in Pakistan.",
+    "order": 1
+  },
+  {
+    "id": "ca-world",
+    "subject": "current-affairs",
+    "name": "World Current Affairs",
+    "description": "Global conflicts, summits, elections, climate, economy and space developments.",
+    "order": 2
+  },
+  {
+    "id": "ca-orgs",
+    "subject": "current-affairs",
+    "name": "International Organizations & Treaties",
+    "description": "UN, OIC, SAARC, SCO, ASEAN, EU and major treaties.",
+    "order": 3
+  },
+  {
+    "id": "gk-geography",
+    "subject": "general-knowledge",
+    "name": "World Geography",
+    "description": "Countries, capitals, currencies, mountains, rivers, deserts and oceans.",
+    "order": 1
+  },
+  {
+    "id": "gk-orgs",
+    "subject": "general-knowledge",
+    "name": "International Organizations",
+    "description": "UN, IMF, World Bank, WTO, OPEC, NATO and Red Cross.",
+    "order": 2
+  },
+  {
+    "id": "gk-sports",
+    "subject": "general-knowledge",
+    "name": "Sports & Games",
+    "description": "Cricket, football, Olympics, Pakistan sports and world cups.",
+    "order": 3
+  },
+  {
+    "id": "gk-awards",
+    "subject": "general-knowledge",
+    "name": "Awards & Honours",
+    "description": "Nobel Prizes, Pakistani civil awards, film awards and world honours.",
+    "order": 4
+  },
+  {
+    "id": "gk-inventions",
+    "subject": "general-knowledge",
+    "name": "Inventions & Discoveries",
+    "description": "Famous inventors, scientific discoveries and space exploration.",
+    "order": 5
+  },
+  {
+    "id": "gk-books",
+    "subject": "general-knowledge",
+    "name": "Books & Authors",
+    "description": "World literature, Pakistani literature and famous books.",
+    "order": 6
+  },
+  {
+    "id": "gk-abbreviations",
+    "subject": "general-knowledge",
+    "name": "Abbreviations & Terms",
+    "description": "Common abbreviations and general terms.",
+    "order": 7
+  },
+  {
+    "id": "gk-facts",
+    "subject": "general-knowledge",
+    "name": "General Facts",
+    "description": "World records, firsts, and fascinating facts about nature and the human body.",
+    "order": 8
+  },
+  {
+    "id": "is-quran",
+    "subject": "islamic-studies",
+    "name": "Holy Quran",
+    "description": "Revelation, surahs, key concepts and scientific references in the Quran.",
+    "order": 1
+  },
+  {
+    "id": "is-hadith",
+    "subject": "islamic-studies",
+    "name": "Hadith & Sunnah",
+    "description": "Hadith collections, terms and key teachings of the Prophet.",
+    "order": 2
+  },
+  {
+    "id": "is-seerat",
+    "subject": "islamic-studies",
+    "name": "Seerat-un-Nabi",
+    "description": "Early life, Makkah and Madinah periods, battles and character of Prophet Muhammad.",
+    "order": 3
+  },
+  {
+    "id": "is-khulafa",
+    "subject": "islamic-studies",
+    "name": "Khulafa-e-Rashideen",
+    "description": "Abu Bakr, Umar, Uthman and Ali - their lives and achievements.",
+    "order": 4
+  },
+  {
+    "id": "is-pillars",
+    "subject": "islamic-studies",
+    "name": "Pillars of Islam",
+    "description": "Shahada, Salah, Zakat, Fasting and Hajj.",
+    "order": 5
+  },
+  {
+    "id": "is-history",
+    "subject": "islamic-studies",
+    "name": "Islamic History",
+    "description": "Umayyads, Abbasids, Andalusia, Ottoman caliphate and Muslim scientists.",
+    "order": 6
+  },
+  {
+    "id": "is-fiqh",
+    "subject": "islamic-studies",
+    "name": "Fiqh & Islamic Ethics",
+    "description": "Schools of fiqh, halal and haram, manners and social teachings.",
+    "order": 7
+  },
+  {
+    "id": "is-personalities",
+    "subject": "islamic-studies",
+    "name": "Islamic Personalities",
+    "description": "Companions, imams, women of Islam and great scholars.",
+    "order": 8
+  },
+  {
+    "id": "en-grammar",
+    "subject": "english",
+    "name": "Grammar",
+    "description": "Parts of speech, tenses, articles, prepositions and sentence structure.",
+    "order": 1
+  },
+  {
+    "id": "en-vocabulary",
+    "subject": "english",
+    "name": "Vocabulary",
+    "description": "Word meanings, prefixes and suffixes, pair of words and phrasal verbs.",
+    "order": 2
+  },
+  {
+    "id": "en-synonyms",
+    "subject": "english",
+    "name": "Synonyms",
+    "description": "Words with similar meanings.",
+    "order": 3
+  },
+  {
+    "id": "en-antonyms",
+    "subject": "english",
+    "name": "Antonyms",
+    "description": "Words with opposite meanings.",
+    "order": 4
+  },
+  {
+    "id": "en-idioms",
+    "subject": "english",
+    "name": "Idioms & Phrases",
+    "description": "Common idioms, phrases and proverbs.",
+    "order": 5
+  },
+  {
+    "id": "en-sentence-correction",
+    "subject": "english",
+    "name": "Sentence Correction",
+    "description": "Subject-verb agreement, parallel structure and common errors.",
+    "order": 6
+  },
+  {
+    "id": "en-voice",
+    "subject": "english",
+    "name": "Active & Passive Voice",
+    "description": "Changing sentences between active and passive voice.",
+    "order": 7
+  },
+  {
+    "id": "en-narration",
+    "subject": "english",
+    "name": "Direct & Indirect Speech",
+    "description": "Converting direct speech into indirect speech and vice versa.",
+    "order": 8
+  },
+  {
+    "id": "en-ows",
+    "subject": "english",
+    "name": "One Word Substitution",
+    "description": "Replacing phrases with a single word.",
+    "order": 9
+  },
+  {
+    "id": "en-translation",
+    "subject": "english",
+    "name": "Translation & Comprehension",
+    "description": "Urdu to English and English to Urdu translation practice.",
+    "order": 10
+  },
+  {
+    "id": "ur-adab",
+    "subject": "urdu",
+    "name": "Urdu Adab",
+    "description": "Urdu poetry, poets, writers and children's literature.",
+    "order": 1
+  },
+  {
+    "id": "ur-qawaid",
+    "subject": "urdu",
+    "name": "Urdu Grammar (Qawaid)",
+    "description": "Urdu grammar, sentence structure and literary devices.",
+    "order": 2
+  },
+  {
+    "id": "ur-gk",
+    "subject": "urdu",
+    "name": "Urdu General Knowledge",
+    "description": "Firsts in Urdu literature and Urdu's role in Pakistan.",
+    "order": 3
+  },
+  {
+    "id": "ma-arithmetic",
+    "subject": "mathematics",
+    "name": "Arithmetic",
+    "description": "Percentages, ratios, averages, profit and loss, interest and time-speed-distance.",
+    "order": 1
+  },
+  {
+    "id": "ma-algebra",
+    "subject": "mathematics",
+    "name": "Algebra",
+    "description": "Linear and quadratic equations, factorization and sequences.",
+    "order": 2
+  },
+  {
+    "id": "ma-geometry",
+    "subject": "mathematics",
+    "name": "Geometry",
+    "description": "Angles, triangles, circles and mensuration.",
+    "order": 3
+  },
+  {
+    "id": "ma-trigonometry",
+    "subject": "mathematics",
+    "name": "Trigonometry",
+    "description": "Basic trigonometric ratios and identities.",
+    "order": 4
+  },
+  {
+    "id": "ma-numbers",
+    "subject": "mathematics",
+    "name": "Number System",
+    "description": "HCF and LCM, squares, cubes and number series.",
+    "order": 5
+  },
+  {
+    "id": "cs-fundamentals",
+    "subject": "computer-science",
+    "name": "Computer Fundamentals",
+    "description": "Hardware, software, memory, storage and units of measurement.",
+    "order": 1
+  },
+  {
+    "id": "cs-internet",
+    "subject": "computer-science",
+    "name": "Internet & WWW",
+    "description": "Browsers, email, search engines and web protocols.",
+    "order": 2
+  },
+  {
+    "id": "cs-databases",
+    "subject": "computer-science",
+    "name": "Databases",
+    "description": "SQL, relational databases and normalization.",
+    "order": 3
+  },
+  {
+    "id": "cs-programming",
+    "subject": "computer-science",
+    "name": "Programming Basics",
+    "description": "Algorithms, flowcharts and programming languages.",
+    "order": 4
+  },
+  {
+    "id": "cs-abbreviations",
+    "subject": "computer-science",
+    "name": "IT Abbreviations",
+    "description": "Common computer and IT abbreviations.",
+    "order": 5
+  },
+  {
+    "id": "es-body",
+    "subject": "everyday-science",
+    "name": "Human Body & Health",
+    "description": "Organs, blood, bones, vitamins, minerals and common diseases.",
+    "order": 1
+  },
+  {
+    "id": "es-physics",
+    "subject": "everyday-science",
+    "name": "Physics in Daily Life",
+    "description": "Light, sound, electricity, force, motion and heat.",
+    "order": 2
+  },
+  {
+    "id": "es-chemistry",
+    "subject": "everyday-science",
+    "name": "Chemistry in Daily Life",
+    "description": "Elements, compounds, acids and bases and everyday gases.",
+    "order": 3
+  },
+  {
+    "id": "es-space",
+    "subject": "everyday-science",
+    "name": "Earth & Space",
+    "description": "Solar system, planets, atmosphere, oceans and layers of the earth.",
+    "order": 4
+  },
+  {
+    "id": "es-environment",
+    "subject": "everyday-science",
+    "name": "Environment & Ecology",
+    "description": "Pollution, ozone layer, climate change and conservation.",
+    "order": 5
+  },
+  {
+    "id": "es-nutrition",
+    "subject": "everyday-science",
+    "name": "Food & Nutrition",
+    "description": "Nutrients, calories and deficiency diseases.",
+    "order": 6
+  },
+  {
+    "id": "es-energy",
+    "subject": "everyday-science",
+    "name": "Energy & Technology",
+    "description": "Renewable energy, everyday devices and scientific units.",
+    "order": 7
+  },
+  {
+    "id": "ph-mechanics",
+    "subject": "physics",
+    "name": "Mechanics",
+    "description": "Motion, force, work, energy and gravitation.",
+    "order": 1
+  },
+  {
+    "id": "ph-electricity",
+    "subject": "physics",
+    "name": "Electricity & Magnetism",
+    "description": "Current, circuits, resistance and magnetic fields.",
+    "order": 2
+  },
+  {
+    "id": "ph-optics",
+    "subject": "physics",
+    "name": "Light & Optics",
+    "description": "Reflection, refraction, lenses and optical instruments.",
+    "order": 3
+  },
+  {
+    "id": "ph-sound",
+    "subject": "physics",
+    "name": "Sound",
+    "description": "Wave properties of sound, pitch and loudness.",
+    "order": 4
+  },
+  {
+    "id": "ph-thermodynamics",
+    "subject": "physics",
+    "name": "Heat & Thermodynamics",
+    "description": "Temperature, heat transfer and laws of thermodynamics.",
+    "order": 5
+  },
+  {
+    "id": "ph-modern",
+    "subject": "physics",
+    "name": "Modern Physics",
+    "description": "Atomic structure, radioactivity and nuclear energy.",
+    "order": 6
+  },
+  {
+    "id": "ch-physical",
+    "subject": "chemistry",
+    "name": "Physical Chemistry",
+    "description": "States of matter, solutions, acids and bases and chemical equilibrium.",
+    "order": 1
+  },
+  {
+    "id": "ch-organic",
+    "subject": "chemistry",
+    "name": "Organic Chemistry",
+    "description": "Hydrocarbons, functional groups and organic reactions.",
+    "order": 2
+  },
+  {
+    "id": "ch-inorganic",
+    "subject": "chemistry",
+    "name": "Inorganic Chemistry",
+    "description": "Periodic table, metals and non-metals.",
+    "order": 3
+  },
+  {
+    "id": "ch-reactions",
+    "subject": "chemistry",
+    "name": "Chemical Reactions",
+    "description": "Types of reactions, balancing and everyday chemistry.",
+    "order": 4
+  },
+  {
+    "id": "bi-cell",
+    "subject": "biology",
+    "name": "Cell Biology",
+    "description": "Cell structure, organelles and cell division.",
+    "order": 1
+  },
+  {
+    "id": "bi-genetics",
+    "subject": "biology",
+    "name": "Genetics",
+    "description": "DNA, genes, inheritance and genetic disorders.",
+    "order": 2
+  },
+  {
+    "id": "bi-physiology",
+    "subject": "biology",
+    "name": "Human Physiology",
+    "description": "Body systems, digestion, circulation and respiration.",
+    "order": 3
+  },
+  {
+    "id": "bi-micro",
+    "subject": "biology",
+    "name": "Microorganisms",
+    "description": "Bacteria, viruses, fungi and their roles.",
+    "order": 4
+  },
+  {
+    "id": "bi-ecology",
+    "subject": "biology",
+    "name": "Ecology",
+    "description": "Ecosystems, food chains and biodiversity.",
+    "order": 5
+  },
+  {
+    "id": "bo-structure",
+    "subject": "botany",
+    "name": "Plant Structure",
+    "description": "Roots, stems, leaves and plant tissues.",
+    "order": 1
+  },
+  {
+    "id": "bo-photosynthesis",
+    "subject": "botany",
+    "name": "Photosynthesis",
+    "description": "The process plants use to make food.",
+    "order": 2
+  },
+  {
+    "id": "bo-reproduction",
+    "subject": "botany",
+    "name": "Plant Reproduction",
+    "description": "Flowers, seeds, fruits and vegetative propagation.",
+    "order": 3
+  },
+  {
+    "id": "bo-economics",
+    "subject": "botany",
+    "name": "Economic Botany",
+    "description": "Food, fibre, medicinal and cash crops.",
+    "order": 4
+  },
+  {
+    "id": "zo-classification",
+    "subject": "zoology",
+    "name": "Animal Classification",
+    "description": "Invertebrates and vertebrates across the animal kingdom.",
+    "order": 1
+  },
+  {
+    "id": "zo-anatomy",
+    "subject": "zoology",
+    "name": "Animal Anatomy",
+    "description": "Structure and organ systems of animals.",
+    "order": 2
+  },
+  {
+    "id": "zo-ecology",
+    "subject": "zoology",
+    "name": "Ecology & Evolution",
+    "description": "Animal behaviour, adaptation and evolution.",
+    "order": 3
+  },
+  {
+    "id": "zo-economics",
+    "subject": "zoology",
+    "name": "Economic Zoology",
+    "description": "Fisheries, apiculture, poultry and livestock.",
+    "order": 4
+  },
+  {
+    "id": "pe-theories",
+    "subject": "pedagogy",
+    "name": "Learning Theories",
+    "description": "Behaviourism, cognitivism, constructivism and theorists.",
+    "order": 1
+  },
+  {
+    "id": "pe-methods",
+    "subject": "pedagogy",
+    "name": "Teaching Methods",
+    "description": "Lecture, discussion, demonstration and activity-based methods.",
+    "order": 2
+  },
+  {
+    "id": "pe-classroom",
+    "subject": "pedagogy",
+    "name": "Classroom Management",
+    "description": "Discipline, motivation and the learning environment.",
+    "order": 3
+  },
+  {
+    "id": "pe-assessment",
+    "subject": "pedagogy",
+    "name": "Assessment & Evaluation",
+    "description": "Tests, examinations, grading and feedback.",
+    "order": 4
+  },
+  {
+    "id": "pe-curriculum",
+    "subject": "pedagogy",
+    "name": "Curriculum Development",
+    "description": "Curriculum design, aims and National Education Policies.",
+    "order": 5
+  },
+  {
+    "id": "pe-psychology",
+    "subject": "pedagogy",
+    "name": "Educational Psychology",
+    "description": "Child development, intelligence and learning styles.",
+    "order": 6
+  },
+  {
+    "id": "ed-foundations",
+    "subject": "education",
+    "name": "Foundations of Education",
+    "description": "Philosophy, sociology and history of education.",
+    "order": 1
+  },
+  {
+    "id": "ed-pakistan",
+    "subject": "education",
+    "name": "Education in Pakistan",
+    "description": "Education structure, literacy and national policies.",
+    "order": 2
+  },
+  {
+    "id": "py-intro",
+    "subject": "psychology",
+    "name": "Introduction to Psychology",
+    "description": "Branches of psychology and research methods.",
+    "order": 1
+  },
+  {
+    "id": "py-cognitive",
+    "subject": "psychology",
+    "name": "Cognitive & Developmental",
+    "description": "Memory, learning, thinking and human development.",
+    "order": 2
+  },
+  {
+    "id": "py-social",
+    "subject": "psychology",
+    "name": "Social & Personality",
+    "description": "Social behaviour, personality theories and motivation.",
+    "order": 3
+  },
+  {
+    "id": "ec-micro",
+    "subject": "economics",
+    "name": "Microeconomics",
+    "description": "Demand, supply, elasticity, market structures and consumer behaviour.",
+    "order": 1
+  },
+  {
+    "id": "ec-macro",
+    "subject": "economics",
+    "name": "Macroeconomics",
+    "description": "National income, inflation, unemployment, fiscal and monetary policy.",
+    "order": 2
+  },
+  {
+    "id": "ec-pakistan",
+    "subject": "economics",
+    "name": "Pakistan Economy",
+    "description": "GDP, agriculture, industry, poverty and development plans.",
+    "order": 3
+  },
+  {
+    "id": "ec-banking",
+    "subject": "economics",
+    "name": "Money & Banking",
+    "description": "Money supply, central bank, commercial banking and Islamic banking.",
+    "order": 4
+  },
+  {
+    "id": "st-descriptive",
+    "subject": "statistics",
+    "name": "Descriptive Statistics",
+    "description": "Mean, median, mode, dispersion and graphical representation.",
+    "order": 1
+  },
+  {
+    "id": "st-probability",
+    "subject": "statistics",
+    "name": "Probability",
+    "description": "Probability rules, distributions and expectation.",
+    "order": 2
+  },
+  {
+    "id": "st-inference",
+    "subject": "statistics",
+    "name": "Statistical Inference",
+    "description": "Sampling, estimation and hypothesis testing.",
+    "order": 3
+  },
+  {
+    "id": "ac-basics",
+    "subject": "accounting",
+    "name": "Accounting Basics",
+    "description": "Accounting equation, double entry and the accounting cycle.",
+    "order": 1
+  },
+  {
+    "id": "ac-statements",
+    "subject": "accounting",
+    "name": "Financial Statements",
+    "description": "Trading account, profit and loss account and balance sheet.",
+    "order": 2
+  },
+  {
+    "id": "ac-cost",
+    "subject": "accounting",
+    "name": "Cost & Management Accounting",
+    "description": "Costing methods, break-even and budgeting.",
+    "order": 3
+  },
+  {
+    "id": "fi-corporate",
+    "subject": "finance",
+    "name": "Corporate Finance",
+    "description": "Time value of money, capital budgeting and cost of capital.",
+    "order": 1
+  },
+  {
+    "id": "fi-markets",
+    "subject": "finance",
+    "name": "Financial Markets & Banking",
+    "description": "Stock market, money market, central bank and Islamic finance.",
+    "order": 2
+  },
+  {
+    "id": "cm-business",
+    "subject": "commerce",
+    "name": "Business & Trade",
+    "description": "Forms of business, trade and commerce fundamentals.",
+    "order": 1
+  },
+  {
+    "id": "cm-banking",
+    "subject": "commerce",
+    "name": "Banking & Insurance",
+    "description": "Banking services, negotiable instruments and insurance types.",
+    "order": 2
+  },
+  {
+    "id": "ba-management",
+    "subject": "business-admin",
+    "name": "Management Principles",
+    "description": "Planning, organizing, leading and controlling.",
+    "order": 1
+  },
+  {
+    "id": "ba-hrm",
+    "subject": "business-admin",
+    "name": "Human Resource Management",
+    "description": "Recruitment, training, appraisal and motivation.",
+    "order": 2
+  },
+  {
+    "id": "ba-marketing",
+    "subject": "business-admin",
+    "name": "Marketing",
+    "description": "Marketing mix, segmentation and consumer behaviour.",
+    "order": 3
+  },
+  {
+    "id": "ba-entrepreneurship",
+    "subject": "business-admin",
+    "name": "Entrepreneurship",
+    "description": "Business ideas, business plans and SME development.",
+    "order": 4
+  },
+  {
+    "id": "la-constitutional",
+    "subject": "law",
+    "name": "Constitutional Law",
+    "description": "Supremacy of the constitution, fundamental rights and judicial review.",
+    "order": 1
+  },
+  {
+    "id": "la-criminal",
+    "subject": "law",
+    "name": "Criminal Law",
+    "description": "Pakistan Penal Code, offences and criminal procedure.",
+    "order": 2
+  },
+  {
+    "id": "la-civil",
+    "subject": "law",
+    "name": "Civil Law",
+    "description": "Contract law, property law and civil procedure.",
+    "order": 3
+  },
+  {
+    "id": "la-islamic",
+    "subject": "law",
+    "name": "Islamic Law",
+    "description": "Shariah principles, hudood and Islamic jurisprudence.",
+    "order": 4
+  },
+  {
+    "id": "la-maxims",
+    "subject": "law",
+    "name": "Legal Maxims",
+    "description": "Latin maxims and legal principles used in courts.",
+    "order": 5
+  },
+  {
+    "id": "co-basics",
+    "subject": "constitution",
+    "name": "Basics of the Constitution",
+    "description": "Preamble, salient features and ideology of Pakistan.",
+    "order": 1
+  },
+  {
+    "id": "co-structure",
+    "subject": "constitution",
+    "name": "Structure of Government",
+    "description": "President, Parliament, judiciary and provinces.",
+    "order": 2
+  },
+  {
+    "id": "co-amendments",
+    "subject": "constitution",
+    "name": "Amendments",
+    "description": "Important constitutional amendments including the 18th Amendment.",
+    "order": 3
+  },
+  {
+    "id": "co-rights",
+    "subject": "constitution",
+    "name": "Fundamental Rights",
+    "description": "Rights guaranteed to citizens under the Constitution.",
+    "order": 4
+  },
+  {
+    "id": "ge-physical",
+    "subject": "geography",
+    "name": "Physical Geography",
+    "description": "Landforms, climate zones, oceans and natural phenomena.",
+    "order": 1
+  },
+  {
+    "id": "ge-human",
+    "subject": "geography",
+    "name": "Human Geography",
+    "description": "Population, settlement, resources and economic geography.",
+    "order": 2
+  },
+  {
+    "id": "ge-world",
+    "subject": "geography",
+    "name": "World Regions",
+    "description": "Continents, famous regions and world landmarks.",
+    "order": 3
+  },
+  {
+    "id": "hi-ancient",
+    "subject": "history",
+    "name": "Ancient & Medieval World",
+    "description": "Early civilizations, classical empires and medieval age.",
+    "order": 1
+  },
+  {
+    "id": "hi-modern",
+    "subject": "history",
+    "name": "Modern World History",
+    "description": "Renaissance, industrial revolution, world wars and cold war.",
+    "order": 2
+  },
+  {
+    "id": "ir-theory",
+    "subject": "international-relations",
+    "name": "IR Theory & Concepts",
+    "description": "Realism, liberalism and key IR concepts.",
+    "order": 1
+  },
+  {
+    "id": "ir-un",
+    "subject": "international-relations",
+    "name": "United Nations",
+    "description": "UN organs, agencies and peacekeeping.",
+    "order": 2
+  },
+  {
+    "id": "ir-regional",
+    "subject": "international-relations",
+    "name": "Regional Organizations",
+    "description": "SAARC, OIC, SCO, ASEAN, EU and NAM.",
+    "order": 3
+  },
+  {
+    "id": "ir-pakistan",
+    "subject": "international-relations",
+    "name": "Pakistan's Foreign Policy",
+    "description": "Pakistan's relations with major powers and neighbours.",
+    "order": 4
+  },
+  {
+    "id": "ps-theory",
+    "subject": "political-science",
+    "name": "Political Theory",
+    "description": "State, sovereignty, power and ideologies.",
+    "order": 1
+  },
+  {
+    "id": "ps-systems",
+    "subject": "political-science",
+    "name": "Systems of Government",
+    "description": "Democracy, monarchy, dictatorship and parliamentary systems.",
+    "order": 2
+  },
+  {
+    "id": "ps-administration",
+    "subject": "political-science",
+    "name": "Public Administration",
+    "description": "Bureaucracy, governance and public policy.",
+    "order": 3
+  },
+  {
+    "id": "so-basics",
+    "subject": "sociology",
+    "name": "Sociology Basics",
+    "description": "Society, culture, socialization and social institutions.",
+    "order": 1
+  },
+  {
+    "id": "so-change",
+    "subject": "sociology",
+    "name": "Social Change & Problems",
+    "description": "Social change, inequality, population and deviance.",
+    "order": 2
+  },
+  {
+    "id": "an-basics",
+    "subject": "anthropology",
+    "name": "Anthropology Basics",
+    "description": "Branches of anthropology and human evolution.",
+    "order": 1
+  },
+  {
+    "id": "ag-crops",
+    "subject": "agriculture",
+    "name": "Crops & Soils",
+    "description": "Major crops of Pakistan, soil types and fertilizers.",
+    "order": 1
+  },
+  {
+    "id": "ag-irrigation",
+    "subject": "agriculture",
+    "name": "Irrigation & Pest Control",
+    "description": "Water management, pests and plant protection.",
+    "order": 2
+  },
+  {
+    "id": "ag-economy",
+    "subject": "agriculture",
+    "name": "Agricultural Economy",
+    "description": "Role of agriculture in Pakistan's economy.",
+    "order": 3
+  },
+  {
+    "id": "ve-livestock",
+    "subject": "veterinary",
+    "name": "Livestock & Poultry",
+    "description": "Animal breeds, livestock management and poultry science.",
+    "order": 1
+  },
+  {
+    "id": "nu-basics",
+    "subject": "nursing",
+    "name": "Nursing Fundamentals",
+    "description": "Nursing process, patient care and vital signs.",
+    "order": 1
+  },
+  {
+    "id": "nu-firstaid",
+    "subject": "nursing",
+    "name": "First Aid & Emergency Care",
+    "description": "First aid procedures and emergency response.",
+    "order": 2
+  },
+  {
+    "id": "me-basics",
+    "subject": "medical",
+    "name": "Anatomy & Physiology",
+    "description": "Human body structure and function.",
+    "order": 1
+  },
+  {
+    "id": "me-diseases",
+    "subject": "medical",
+    "name": "Pathology & Diseases",
+    "description": "Common diseases, causes and prevention.",
+    "order": 2
+  },
+  {
+    "id": "me-pharma",
+    "subject": "medical",
+    "name": "Pharmacology & Community Medicine",
+    "description": "Drug actions, public health and preventive medicine.",
+    "order": 3
+  },
+  {
+    "id": "pha-basics",
+    "subject": "pharmacy",
+    "name": "Pharmaceutics & Pharmacology",
+    "description": "Drug dosage forms, drug actions and dispensing.",
+    "order": 1
+  },
+  {
+    "id": "el-circuits",
+    "subject": "electrical-eng",
+    "name": "Circuits & Electronics",
+    "description": "Ohm's law, circuit analysis and electronic components.",
+    "order": 1
+  },
+  {
+    "id": "el-power",
+    "subject": "electrical-eng",
+    "name": "Power Systems & Machines",
+    "description": "Generation, transmission, transformers and motors.",
+    "order": 2
+  },
+  {
+    "id": "mec-thermo",
+    "subject": "mechanical-eng",
+    "name": "Thermodynamics & Machines",
+    "description": "Heat engines, refrigerators and mechanical devices.",
+    "order": 1
+  },
+  {
+    "id": "mec-materials",
+    "subject": "mechanical-eng",
+    "name": "Materials & Fluids",
+    "description": "Engineering materials, fluid mechanics and hydraulics.",
+    "order": 2
+  },
+  {
+    "id": "civ-structures",
+    "subject": "civil-eng",
+    "name": "Structures & Materials",
+    "description": "Concrete, steel, loads and structural elements.",
+    "order": 1
+  },
+  {
+    "id": "civ-surveying",
+    "subject": "civil-eng",
+    "name": "Surveying & Construction",
+    "description": "Surveying methods, roads and construction management.",
+    "order": 2
+  },
+  {
+    "id": "se-process",
+    "subject": "software-eng",
+    "name": "Software Process & SDLC",
+    "description": "Software development life cycle and models.",
+    "order": 1
+  },
+  {
+    "id": "se-quality",
+    "subject": "software-eng",
+    "name": "Design, Testing & Management",
+    "description": "Design principles, testing types and project management.",
+    "order": 2
+  },
+  {
+    "id": "pr-python",
+    "subject": "programming",
+    "name": "Python",
+    "description": "Python syntax, data structures and core concepts.",
+    "order": 1
+  },
+  {
+    "id": "pr-java",
+    "subject": "programming",
+    "name": "Java",
+    "description": "Java basics, OOP and platform concepts.",
+    "order": 2
+  },
+  {
+    "id": "pr-cpp",
+    "subject": "programming",
+    "name": "C++",
+    "description": "C++ basics, pointers and OOP in C++.",
+    "order": 3
+  },
+  {
+    "id": "pr-web",
+    "subject": "programming",
+    "name": "Web Languages (HTML, CSS, JS, PHP)",
+    "description": "Frontend and backend web technologies.",
+    "order": 4
+  },
+  {
+    "id": "pr-sql",
+    "subject": "programming",
+    "name": "SQL",
+    "description": "Database queries, joins and data manipulation.",
+    "order": 5
+  },
+  {
+    "id": "net-basics",
+    "subject": "networking",
+    "name": "Networking Fundamentals",
+    "description": "OSI model, TCP/IP and network topologies.",
+    "order": 1
+  },
+  {
+    "id": "net-devices",
+    "subject": "networking",
+    "name": "Devices, Routing & Wireless",
+    "description": "Routers, switches, IP addressing and wireless networks.",
+    "order": 2
+  },
+  {
+    "id": "os-basics",
+    "subject": "operating-systems",
+    "name": "Operating System Concepts",
+    "description": "Processes, memory, file systems and scheduling.",
+    "order": 1
+  },
+  {
+    "id": "os-windows",
+    "subject": "operating-systems",
+    "name": "Windows & Linux",
+    "description": "Windows and Linux operating systems basics.",
+    "order": 2
+  },
+  {
+    "id": "ai-ml",
+    "subject": "ai",
+    "name": "Machine Learning & AI Basics",
+    "description": "ML concepts, neural networks and AI applications.",
+    "order": 1
+  },
+  {
+    "id": "ds-basics",
+    "subject": "data-science",
+    "name": "Data Science Fundamentals",
+    "description": "Data analysis, statistics and visualization.",
+    "order": 1
+  },
+  {
+    "id": "cyb-basics",
+    "subject": "cyber-security",
+    "name": "Cyber Security Basics",
+    "description": "Threats, malware and security fundamentals.",
+    "order": 1
+  },
+  {
+    "id": "cyb-crypto",
+    "subject": "cyber-security",
+    "name": "Cryptography & Network Security",
+    "description": "Encryption, digital security and safe practices.",
+    "order": 2
+  },
+  {
+    "id": "cld-basics",
+    "subject": "cloud-computing",
+    "name": "Cloud Fundamentals",
+    "description": "Cloud models, virtualization and providers.",
+    "order": 1
+  },
+  {
+    "id": "mo-word",
+    "subject": "ms-office",
+    "name": "MS Word",
+    "description": "Word processing, formatting and document tools.",
+    "order": 1
+  },
+  {
+    "id": "mo-excel",
+    "subject": "ms-office",
+    "name": "MS Excel",
+    "description": "Spreadsheets, formulas, functions and charts.",
+    "order": 2
+  },
+  {
+    "id": "mo-powerpoint",
+    "subject": "ms-office",
+    "name": "MS PowerPoint",
+    "description": "Presentations, slides and animation tools.",
+    "order": 3
+  },
+  {
+    "id": "mo-access",
+    "subject": "ms-office",
+    "name": "MS Access & Outlook",
+    "description": "Databases in Access and email management in Outlook.",
+    "order": 4
+  },
+  {
+    "id": "rq-verbal",
+    "subject": "reasoning",
+    "name": "Verbal Reasoning",
+    "description": "Analogies, classification, coding-decoding and word problems.",
+    "order": 1
+  },
+  {
+    "id": "rq-nonverbal",
+    "subject": "reasoning",
+    "name": "Non-Verbal Reasoning",
+    "description": "Patterns, series and figure-based questions.",
+    "order": 2
+  },
+  {
+    "id": "rq-analytical",
+    "subject": "reasoning",
+    "name": "Analytical & Logical",
+    "description": "Puzzles, syllogisms and logical deductions.",
+    "order": 3
+  },
+  {
+    "id": "lit-poetry",
+    "subject": "english-literature",
+    "name": "Poetry & Prose",
+    "description": "English poetry, novels and prose writers.",
+    "order": 1
+  },
+  {
+    "id": "lit-terms",
+    "subject": "english-literature",
+    "name": "Literary Terms & Drama",
+    "description": "Literary devices, terms and drama studies.",
+    "order": 2
+  },
+  {
+    "id": "env-ecosystems",
+    "subject": "environmental-science",
+    "name": "Ecosystems & Ecology",
+    "description": "Ecosystem structure, energy flow, biomes and biodiversity.",
+    "order": 1
+  },
+  {
+    "id": "env-pollution",
+    "subject": "environmental-science",
+    "name": "Pollution & Climate",
+    "description": "Air and water pollution, climate change and ozone depletion.",
+    "order": 2
+  },
+  {
+    "id": "env-conservation",
+    "subject": "environmental-science",
+    "name": "Conservation & Sustainability",
+    "description": "Renewable energy, conservation practices and environmental law.",
+    "order": 3
+  },
+  {
+    "id": "bt-basics",
+    "subject": "biotechnology",
+    "name": "Biotechnology Fundamentals",
+    "description": "Recombinant DNA, PCR and genetic engineering tools.",
+    "order": 1
+  },
+  {
+    "id": "bt-applications",
+    "subject": "biotechnology",
+    "name": "Biotechnology Applications",
+    "description": "Medical and agricultural applications of biotechnology.",
+    "order": 2
+  },
+  {
+    "id": "elx-components",
+    "subject": "electronics",
+    "name": "Components & Circuits",
+    "description": "Semiconductors, transistors, op-amps and logic gates.",
+    "order": 1
+  },
+  {
+    "id": "elx-systems",
+    "subject": "electronics",
+    "name": "Electronic Systems",
+    "description": "Digital electronics and communication electronics.",
+    "order": 2
+  },
+  {
+    "id": "che-basics",
+    "subject": "chemical-eng",
+    "name": "Process Fundamentals",
+    "description": "Material and energy balance, reaction kinetics and thermodynamics.",
+    "order": 1
+  },
+  {
+    "id": "che-processes",
+    "subject": "chemical-eng",
+    "name": "Unit Operations & Industries",
+    "description": "Distillation, absorption and major process industries.",
+    "order": 2
+  },
+  {
+    "id": "ind-production",
+    "subject": "industrial-eng",
+    "name": "Production & Operations",
+    "description": "Operations management, quality and productivity.",
+    "order": 1
+  },
+  {
+    "id": "ind-ergonomics",
+    "subject": "industrial-eng",
+    "name": "Ergonomics & Safety",
+    "description": "Work study, ergonomics and industrial safety.",
+    "order": 2
+  },
+  {
+    "id": "enve-water",
+    "subject": "environmental-eng",
+    "name": "Water & Wastewater",
+    "description": "Drinking water treatment and wastewater treatment systems.",
+    "order": 1
+  },
+  {
+    "id": "enve-air",
+    "subject": "environmental-eng",
+    "name": "Air & Solid Waste",
+    "description": "Air quality control and solid waste management.",
+    "order": 2
+  },
+  {
+    "id": "mecx-intro",
+    "subject": "mechatronics",
+    "name": "Mechatronics Foundations",
+    "description": "Sensors, actuators and control systems.",
+    "order": 1
+  },
+  {
+    "id": "mecx-robotics",
+    "subject": "mechatronics",
+    "name": "Robotics & Automation",
+    "description": "Robot anatomy, automation and industrial control.",
+    "order": 2
+  },
+  {
+    "id": "ana-basics",
+    "subject": "anatomy",
+    "name": "Anatomy Basics",
+    "description": "Skeletal and muscular systems.",
+    "order": 1
+  },
+  {
+    "id": "ana-organs",
+    "subject": "anatomy",
+    "name": "Organ Systems",
+    "description": "Thoracic, abdominal and nervous system anatomy.",
+    "order": 2
+  },
+  {
+    "id": "phy-systems",
+    "subject": "physiology",
+    "name": "Body Systems Physiology",
+    "description": "Cardiovascular, respiratory, renal and endocrine function.",
+    "order": 1
+  },
+  {
+    "id": "phy-nerve",
+    "subject": "physiology",
+    "name": "Nerve & Muscle Physiology",
+    "description": "Nerve conduction, synapses and muscle contraction.",
+    "order": 2
+  },
+  {
+    "id": "pat-general",
+    "subject": "pathology",
+    "name": "General Pathology",
+    "description": "Cell injury, inflammation and neoplasia.",
+    "order": 1
+  },
+  {
+    "id": "pat-systemic",
+    "subject": "pathology",
+    "name": "Systemic Pathology",
+    "description": "Cardiovascular, respiratory and infectious pathology.",
+    "order": 2
+  },
+  {
+    "id": "mic-bacteria",
+    "subject": "microbiology",
+    "name": "Bacteriology",
+    "description": "Bacterial structure and bacterial diseases.",
+    "order": 1
+  },
+  {
+    "id": "mic-viruses",
+    "subject": "microbiology",
+    "name": "Virology & Parasitology",
+    "description": "Viruses, fungi, protozoa and helminths.",
+    "order": 2
+  },
+  {
+    "id": "bic-molecules",
+    "subject": "biochemistry",
+    "name": "Biomolecules & Enzymes",
+    "description": "Proteins, enzymes, carbohydrates and lipids.",
+    "order": 1
+  },
+  {
+    "id": "bic-metabolism",
+    "subject": "biochemistry",
+    "name": "Metabolism & Genetics",
+    "description": "Energy metabolism and nucleic acids.",
+    "order": 2
+  },
+  {
+    "id": "his-tissues",
+    "subject": "histology",
+    "name": "Basic Tissues",
+    "description": "Epithelial, connective, muscle and nerve tissue.",
+    "order": 1
+  },
+  {
+    "id": "his-organs",
+    "subject": "histology",
+    "name": "Organ Histology",
+    "description": "GI, respiratory, renal and reproductive histology.",
+    "order": 2
+  },
+  {
+    "id": "den-restorative",
+    "subject": "dental-materials",
+    "name": "Restorative Materials",
+    "description": "Amalgam, composites, cements and bonding.",
+    "order": 1
+  },
+  {
+    "id": "den-properties",
+    "subject": "dental-materials",
+    "name": "Material Properties",
+    "description": "Physical properties and impression materials.",
+    "order": 2
+  },
+  {
+    "id": "med-internal",
+    "subject": "medicine",
+    "name": "Internal Medicine",
+    "description": "Cardiology, respirology, gastroenterology and nephrology.",
+    "order": 1
+  },
+  {
+    "id": "med-infectious",
+    "subject": "medicine",
+    "name": "Infectious & Endocrine",
+    "description": "Infectious diseases and endocrine disorders.",
+    "order": 2
+  },
+  {
+    "id": "sur-general",
+    "subject": "surgery",
+    "name": "General Surgery",
+    "description": "Surgical principles and acute abdomen.",
+    "order": 1
+  },
+  {
+    "id": "sur-trauma",
+    "subject": "surgery",
+    "name": "Trauma & Burns",
+    "description": "Trauma care and burn management.",
+    "order": 2
+  },
+  {
+    "id": "com-epidemiology",
+    "subject": "community-medicine",
+    "name": "Epidemiology & Biostatistics",
+    "description": "Disease measurement and screening.",
+    "order": 1
+  },
+  {
+    "id": "com-health",
+    "subject": "community-medicine",
+    "name": "Public Health",
+    "description": "Primary health care, immunization and environmental health.",
+    "order": 2
+  },
+  {
+    "id": "aud-fundamentals",
+    "subject": "auditing",
+    "name": "Auditing Fundamentals",
+    "description": "Audit objectives, types, evidence and process.",
+    "order": 1
+  },
+  {
+    "id": "aud-standards",
+    "subject": "auditing",
+    "name": "Standards & Internal Control",
+    "description": "Audit standards, ethics and internal control.",
+    "order": 2
+  },
+  {
+    "id": "scm-logistics",
+    "subject": "supply-chain",
+    "name": "Logistics & Inventory",
+    "description": "Transportation, warehousing and inventory models.",
+    "order": 1
+  },
+  {
+    "id": "scm-strategy",
+    "subject": "supply-chain",
+    "name": "Chain Strategy & Performance",
+    "description": "Network design, sourcing and performance measures.",
+    "order": 2
+  },
+  {
+    "id": "ped-sports",
+    "subject": "physical-education",
+    "name": "Sports & Fitness",
+    "description": "Athletics, games and fitness components.",
+    "order": 1
+  },
+  {
+    "id": "ped-olympics",
+    "subject": "physical-education",
+    "name": "Olympics & Institutions",
+    "description": "Olympic history and Pakistani sports institutions.",
+    "order": 2
+  },
+  {
+    "id": "for-forests",
+    "subject": "forestry",
+    "name": "Forest Science",
+    "description": "Forest types, ecology and silviculture.",
+    "order": 1
+  },
+  {
+    "id": "for-management",
+    "subject": "forestry",
+    "name": "Forest Management",
+    "description": "Conservation, wildlife and forest products.",
+    "order": 2
+  },
+  {
+    "id": "ess-writing",
+    "subject": "essay",
+    "name": "Essay Writing Skills",
+    "description": "Structure, planning and presentation of essays.",
+    "order": 1
+  },
+  {
+    "id": "ess-css",
+    "subject": "essay",
+    "name": "CSS & PMS Essays",
+    "description": "Past themes and strategies for descriptive papers.",
+    "order": 2
+  },
+  {
+    "id": "world-current-affairs-global-organizations",
+    "subject": "world-current-affairs",
+    "name": "Global Organizations",
+    "description": "",
+    "order": 1
+  },
+  {
+    "id": "world-current-affairs-world-economy-trade",
+    "subject": "world-current-affairs",
+    "name": "World Economy & Trade",
+    "description": "",
+    "order": 2
+  },
+  {
+    "id": "world-current-affairs-conflicts-peacekeeping",
+    "subject": "world-current-affairs",
+    "name": "Conflicts & Peacekeeping",
+    "description": "",
+    "order": 3
+  },
+  {
+    "id": "iq-number-letter-series",
+    "subject": "iq",
+    "name": "Number & Letter Series",
+    "description": "",
+    "order": 1
+  },
+  {
+    "id": "iq-classification-odd-one-out",
+    "subject": "iq",
+    "name": "Classification & Odd One Out",
+    "description": "",
+    "order": 2
+  },
+  {
+    "id": "iq-analogies",
+    "subject": "iq",
+    "name": "Analogies",
+    "description": "",
+    "order": 3
+  },
+  {
+    "id": "logical-reasoning-statements-conclusions",
+    "subject": "logical-reasoning",
+    "name": "Statements & Conclusions",
+    "description": "",
+    "order": 1
+  },
+  {
+    "id": "logical-reasoning-syllogisms",
+    "subject": "logical-reasoning",
+    "name": "Syllogisms",
+    "description": "",
+    "order": 2
+  },
+  {
+    "id": "logical-reasoning-logic-puzzles",
+    "subject": "logical-reasoning",
+    "name": "Logic Puzzles",
+    "description": "",
+    "order": 3
+  },
+  {
+    "id": "analytical-reasoning-arrangements",
+    "subject": "analytical-reasoning",
+    "name": "Arrangements",
+    "description": "",
+    "order": 1
+  },
+  {
+    "id": "analytical-reasoning-data-sufficiency",
+    "subject": "analytical-reasoning",
+    "name": "Data Sufficiency",
+    "description": "",
+    "order": 2
+  },
+  {
+    "id": "analytical-reasoning-coding-decoding",
+    "subject": "analytical-reasoning",
+    "name": "Coding-Decoding",
+    "description": "",
+    "order": 3
+  },
+  {
+    "id": "verbal-reasoning-word-logic",
+    "subject": "verbal-reasoning",
+    "name": "Word Logic",
+    "description": "",
+    "order": 1
+  },
+  {
+    "id": "verbal-reasoning-sentence-logic",
+    "subject": "verbal-reasoning",
+    "name": "Sentence Logic",
+    "description": "",
+    "order": 2
+  },
+  {
+    "id": "verbal-reasoning-classification-series",
+    "subject": "verbal-reasoning",
+    "name": "Classification & Series",
+    "description": "",
+    "order": 3
+  },
+  {
+    "id": "non-verbal-reasoning-figure-series",
+    "subject": "non-verbal-reasoning",
+    "name": "Figure Series",
+    "description": "",
+    "order": 1
+  },
+  {
+    "id": "non-verbal-reasoning-images-reflections",
+    "subject": "non-verbal-reasoning",
+    "name": "Images & Reflections",
+    "description": "",
+    "order": 2
+  },
+  {
+    "id": "non-verbal-reasoning-cubes-dice",
+    "subject": "non-verbal-reasoning",
+    "name": "Cubes & Dice",
+    "description": "",
+    "order": 3
+  },
+  {
+    "id": "data-interpretation-tables-charts",
+    "subject": "data-interpretation",
+    "name": "Tables & Charts",
+    "description": "",
+    "order": 1
+  },
+  {
+    "id": "data-interpretation-graphs",
+    "subject": "data-interpretation",
+    "name": "Graphs",
+    "description": "",
+    "order": 2
+  },
+  {
+    "id": "data-interpretation-quantitative-data",
+    "subject": "data-interpretation",
+    "name": "Quantitative Data",
+    "description": "",
+    "order": 3
+  },
+  {
+    "id": "aptitude-tests-quantitative-aptitude",
+    "subject": "aptitude-tests",
+    "name": "Quantitative Aptitude",
+    "description": "",
+    "order": 1
+  },
+  {
+    "id": "aptitude-tests-time-work",
+    "subject": "aptitude-tests",
+    "name": "Time & Work",
+    "description": "",
+    "order": 2
+  },
+  {
+    "id": "aptitude-tests-speed-distance",
+    "subject": "aptitude-tests",
+    "name": "Speed & Distance",
+    "description": "",
+    "order": 3
+  },
+  {
+    "id": "vocabulary-word-meanings",
+    "subject": "vocabulary",
+    "name": "Word Meanings",
+    "description": "",
+    "order": 1
+  },
+  {
+    "id": "vocabulary-confusing-words",
+    "subject": "vocabulary",
+    "name": "Confusing Words",
+    "description": "",
+    "order": 2
+  },
+  {
+    "id": "grammar-parts-of-speech",
+    "subject": "grammar",
+    "name": "Parts of Speech",
+    "description": "",
+    "order": 1
+  },
+  {
+    "id": "grammar-sentence-structure",
+    "subject": "grammar",
+    "name": "Sentence Structure",
+    "description": "",
+    "order": 2
+  },
+  {
+    "id": "grammar-punctuation-style",
+    "subject": "grammar",
+    "name": "Punctuation & Style",
+    "description": "",
+    "order": 3
+  },
+  {
+    "id": "synonyms-synonym-sets",
+    "subject": "synonyms",
+    "name": "Synonym Sets",
+    "description": "",
+    "order": 1
+  },
+  {
+    "id": "synonyms-vocabulary-building",
+    "subject": "synonyms",
+    "name": "Vocabulary Building",
+    "description": "",
+    "order": 2
+  },
+  {
+    "id": "antonyms-antonym-sets",
+    "subject": "antonyms",
+    "name": "Antonym Sets",
+    "description": "",
+    "order": 1
+  },
+  {
+    "id": "antonyms-context-antonyms",
+    "subject": "antonyms",
+    "name": "Context Antonyms",
+    "description": "",
+    "order": 2
+  },
+  {
+    "id": "idioms-common-idioms",
+    "subject": "idioms",
+    "name": "Common Idioms",
+    "description": "",
+    "order": 1
+  },
+  {
+    "id": "idioms-phrasal-verbs",
+    "subject": "idioms",
+    "name": "Phrasal Verbs",
+    "description": "",
+    "order": 2
+  },
+  {
+    "id": "sentence-correction-error-spotting",
+    "subject": "sentence-correction",
+    "name": "Error Spotting",
+    "description": "",
+    "order": 1
+  },
+  {
+    "id": "sentence-correction-improvement",
+    "subject": "sentence-correction",
+    "name": "Improvement",
+    "description": "",
+    "order": 2
+  },
+  {
+    "id": "comprehension-reading-passages",
+    "subject": "comprehension",
+    "name": "Reading Passages",
+    "description": "",
+    "order": 1
+  },
+  {
+    "id": "comprehension-cloze-fill-ins",
+    "subject": "comprehension",
+    "name": "Cloze & Fill-ins",
+    "description": "",
+    "order": 2
+  },
+  {
+    "id": "computer-engineering-digital-logic",
+    "subject": "computer-engineering",
+    "name": "Digital Logic",
+    "description": "",
+    "order": 1
+  },
+  {
+    "id": "computer-engineering-computer-architecture",
+    "subject": "computer-engineering",
+    "name": "Computer Architecture",
+    "description": "",
+    "order": 2
+  },
+  {
+    "id": "computer-engineering-embedded-systems",
+    "subject": "computer-engineering",
+    "name": "Embedded Systems",
+    "description": "",
+    "order": 3
+  },
+  {
+    "id": "mbbs-pre-clinical-basics",
+    "subject": "mbbs",
+    "name": "Pre-Clinical Basics",
+    "description": "",
+    "order": 1
+  },
+  {
+    "id": "mbbs-clinical-foundations",
+    "subject": "mbbs",
+    "name": "Clinical Foundations",
+    "description": "",
+    "order": 2
+  },
+  {
+    "id": "bds-dental-pre-clinical",
+    "subject": "bds",
+    "name": "Dental Pre-Clinical",
+    "description": "",
+    "order": 1
+  },
+  {
+    "id": "bds-clinical-dentistry",
+    "subject": "bds",
+    "name": "Clinical Dentistry",
+    "description": "",
+    "order": 2
+  },
+  {
+    "id": "dpt-pt-fundamentals",
+    "subject": "dpt",
+    "name": "PT Fundamentals",
+    "description": "",
+    "order": 1
+  },
+  {
+    "id": "dpt-therapeutic-techniques",
+    "subject": "dpt",
+    "name": "Therapeutic Techniques",
+    "description": "",
+    "order": 2
+  },
+  {
+    "id": "pharmacology-pharmacokinetics",
+    "subject": "pharmacology",
+    "name": "Pharmacokinetics",
+    "description": "",
+    "order": 1
+  },
+  {
+    "id": "pharmacology-drug-classes",
+    "subject": "pharmacology",
+    "name": "Drug Classes",
+    "description": "",
+    "order": 2
+  },
+  {
+    "id": "pharmacology-clinical-pharmacology",
+    "subject": "pharmacology",
+    "name": "Clinical Pharmacology",
+    "description": "",
+    "order": 3
+  },
+  {
+    "id": "general-anatomy-body-systems",
+    "subject": "general-anatomy",
+    "name": "Body Systems",
+    "description": "",
+    "order": 1
+  },
+  {
+    "id": "general-anatomy-organ-systems",
+    "subject": "general-anatomy",
+    "name": "Organ Systems",
+    "description": "",
+    "order": 2
+  },
+  {
+    "id": "oral-anatomy-dental-structures",
+    "subject": "oral-anatomy",
+    "name": "Dental Structures",
+    "description": "",
+    "order": 1
+  },
+  {
+    "id": "oral-anatomy-head-neck",
+    "subject": "oral-anatomy",
+    "name": "Head & Neck",
+    "description": "",
+    "order": 2
+  },
+  {
+    "id": "oral-histology-oral-tissues",
+    "subject": "oral-histology",
+    "name": "Oral Tissues",
+    "description": "",
+    "order": 1
+  },
+  {
+    "id": "oral-histology-development",
+    "subject": "oral-histology",
+    "name": "Development",
+    "description": "",
+    "order": 2
+  },
+  {
+    "id": "oral-pathology-oral-lesions",
+    "subject": "oral-pathology",
+    "name": "Oral Lesions",
+    "description": "",
+    "order": 1
+  },
+  {
+    "id": "oral-pathology-oral-conditions",
+    "subject": "oral-pathology",
+    "name": "Oral Conditions",
+    "description": "",
+    "order": 2
+  },
+  {
+    "id": "hrm-hrm-fundamentals",
+    "subject": "hrm",
+    "name": "HRM Fundamentals",
+    "description": "",
+    "order": 1
+  },
+  {
+    "id": "hrm-hr-operations",
+    "subject": "hrm",
+    "name": "HR Operations",
+    "description": "",
+    "order": 2
+  },
+  {
+    "id": "hrm-employee-relations",
+    "subject": "hrm",
+    "name": "Employee Relations",
+    "description": "",
+    "order": 3
+  },
+  {
+    "id": "marketing-marketing-fundamentals",
+    "subject": "marketing",
+    "name": "Marketing Fundamentals",
+    "description": "",
+    "order": 1
+  },
+  {
+    "id": "marketing-marketing-strategy",
+    "subject": "marketing",
+    "name": "Marketing Strategy",
+    "description": "",
+    "order": 2
+  },
+  {
+    "id": "marketing-digital-marketing",
+    "subject": "marketing",
+    "name": "Digital Marketing",
+    "description": "",
+    "order": 3
+  },
+  {
+    "id": "world-history-ancient-medieval",
+    "subject": "world-history",
+    "name": "Ancient & Medieval",
+    "description": "",
+    "order": 1
+  },
+  {
+    "id": "world-history-modern-world",
+    "subject": "world-history",
+    "name": "Modern World",
+    "description": "",
+    "order": 2
+  },
+  {
+    "id": "world-history-contemporary-era",
+    "subject": "world-history",
+    "name": "Contemporary Era",
+    "description": "",
+    "order": 3
+  },
+  {
+    "id": "pakistan-history-pre-independence",
+    "subject": "pakistan-history",
+    "name": "Pre-Independence",
+    "description": "",
+    "order": 1
+  },
+  {
+    "id": "pakistan-history-post-1947",
+    "subject": "pakistan-history",
+    "name": "Post-1947",
+    "description": "",
+    "order": 2
+  },
+  {
+    "id": "pakistan-history-modern-pakistan",
+    "subject": "pakistan-history",
+    "name": "Modern Pakistan",
+    "description": "",
+    "order": 3
+  },
+  {
+    "id": "machine-learning-ml-fundamentals",
+    "subject": "machine-learning",
+    "name": "ML Fundamentals",
+    "description": "",
+    "order": 1
+  },
+  {
+    "id": "machine-learning-algorithms",
+    "subject": "machine-learning",
+    "name": "Algorithms",
+    "description": "",
+    "order": 2
+  },
+  {
+    "id": "machine-learning-evaluation-tuning",
+    "subject": "machine-learning",
+    "name": "Evaluation & Tuning",
+    "description": "",
+    "order": 3
+  },
+  {
+    "id": "deep-learning-neural-networks",
+    "subject": "deep-learning",
+    "name": "Neural Networks",
+    "description": "",
+    "order": 1
+  },
+  {
+    "id": "deep-learning-cnns-rnns",
+    "subject": "deep-learning",
+    "name": "CNNs & RNNs",
+    "description": "",
+    "order": 2
+  },
+  {
+    "id": "deep-learning-llms-transformers",
+    "subject": "deep-learning",
+    "name": "LLMs & Transformers",
+    "description": "",
+    "order": 3
+  },
+  {
+    "id": "ethical-hacking-security-fundamentals",
+    "subject": "ethical-hacking",
+    "name": "Security Fundamentals",
+    "description": "",
+    "order": 1
+  },
+  {
+    "id": "ethical-hacking-penetration-testing",
+    "subject": "ethical-hacking",
+    "name": "Penetration Testing",
+    "description": "",
+    "order": 2
+  },
+  {
+    "id": "ethical-hacking-defensive-practices",
+    "subject": "ethical-hacking",
+    "name": "Defensive Practices",
+    "description": "",
+    "order": 3
+  },
+  {
+    "id": "devops-ci-cd",
+    "subject": "devops",
+    "name": "CI/CD",
+    "description": "",
+    "order": 1
+  },
+  {
+    "id": "devops-infrastructure-as-code",
+    "subject": "devops",
+    "name": "Infrastructure as Code",
+    "description": "",
+    "order": 2
+  },
+  {
+    "id": "devops-monitoring",
+    "subject": "devops",
+    "name": "Monitoring",
+    "description": "",
+    "order": 3
+  },
+  {
+    "id": "big-data-big-data-fundamentals",
+    "subject": "big-data",
+    "name": "Big Data Fundamentals",
+    "description": "",
+    "order": 1
+  },
+  {
+    "id": "big-data-processing-frameworks",
+    "subject": "big-data",
+    "name": "Processing Frameworks",
+    "description": "",
+    "order": 2
+  },
+  {
+    "id": "big-data-data-pipelines",
+    "subject": "big-data",
+    "name": "Data Pipelines",
+    "description": "",
+    "order": 3
+  },
+  {
+    "id": "database-relational-databases",
+    "subject": "database",
+    "name": "Relational Databases",
+    "description": "",
+    "order": 1
+  },
+  {
+    "id": "database-database-design",
+    "subject": "database",
+    "name": "Database Design",
+    "description": "",
+    "order": 2
+  },
+  {
+    "id": "database-administration",
+    "subject": "database",
+    "name": "Administration",
+    "description": "",
+    "order": 3
+  },
+  {
+    "id": "sql-sql-basics",
+    "subject": "sql",
+    "name": "SQL Basics",
+    "description": "",
+    "order": 1
+  },
+  {
+    "id": "sql-advanced-sql",
+    "subject": "sql",
+    "name": "Advanced SQL",
+    "description": "",
+    "order": 2
+  },
+  {
+    "id": "sql-sql-in-practice",
+    "subject": "sql",
+    "name": "SQL in Practice",
+    "description": "",
+    "order": 3
+  },
+  {
+    "id": "windows-windows-fundamentals",
+    "subject": "windows",
+    "name": "Windows Fundamentals",
+    "description": "",
+    "order": 1
+  },
+  {
+    "id": "windows-administration",
+    "subject": "windows",
+    "name": "Administration",
+    "description": "",
+    "order": 2
+  },
+  {
+    "id": "linux-linux-fundamentals",
+    "subject": "linux",
+    "name": "Linux Fundamentals",
+    "description": "",
+    "order": 1
+  },
+  {
+    "id": "linux-administration",
+    "subject": "linux",
+    "name": "Administration",
+    "description": "",
+    "order": 2
+  },
+  {
+    "id": "linux-shell-scripting",
+    "subject": "linux",
+    "name": "Shell Scripting",
+    "description": "",
+    "order": 3
+  },
+  {
+    "id": "html-html-fundamentals",
+    "subject": "html",
+    "name": "HTML Fundamentals",
+    "description": "",
+    "order": 1
+  },
+  {
+    "id": "html-forms-media",
+    "subject": "html",
+    "name": "Forms & Media",
+    "description": "",
+    "order": 2
+  },
+  {
+    "id": "html-semantic-html",
+    "subject": "html",
+    "name": "Semantic HTML",
+    "description": "",
+    "order": 3
+  },
+  {
+    "id": "css-css-fundamentals",
+    "subject": "css",
+    "name": "CSS Fundamentals",
+    "description": "",
+    "order": 1
+  },
+  {
+    "id": "css-layout",
+    "subject": "css",
+    "name": "Layout",
+    "description": "",
+    "order": 2
+  },
+  {
+    "id": "css-responsive-design",
+    "subject": "css",
+    "name": "Responsive Design",
+    "description": "",
+    "order": 3
+  },
+  {
+    "id": "javascript-js-fundamentals",
+    "subject": "javascript",
+    "name": "JS Fundamentals",
+    "description": "",
+    "order": 1
+  },
+  {
+    "id": "javascript-dom-events",
+    "subject": "javascript",
+    "name": "DOM & Events",
+    "description": "",
+    "order": 2
+  },
+  {
+    "id": "javascript-modern-js",
+    "subject": "javascript",
+    "name": "Modern JS",
+    "description": "",
+    "order": 3
+  },
+  {
+    "id": "typescript-ts-fundamentals",
+    "subject": "typescript",
+    "name": "TS Fundamentals",
+    "description": "",
+    "order": 1
+  },
+  {
+    "id": "typescript-ts-in-practice",
+    "subject": "typescript",
+    "name": "TS in Practice",
+    "description": "",
+    "order": 2
+  },
+  {
+    "id": "bootstrap-bootstrap-basics",
+    "subject": "bootstrap",
+    "name": "Bootstrap Basics",
+    "description": "",
+    "order": 1
+  },
+  {
+    "id": "bootstrap-utilities-theming",
+    "subject": "bootstrap",
+    "name": "Utilities & Theming",
+    "description": "",
+    "order": 2
+  },
+  {
+    "id": "tailwind-css-tailwind-basics",
+    "subject": "tailwind-css",
+    "name": "Tailwind Basics",
+    "description": "",
+    "order": 1
+  },
+  {
+    "id": "tailwind-css-design-responsive",
+    "subject": "tailwind-css",
+    "name": "Design & Responsive",
+    "description": "",
+    "order": 2
+  },
+  {
+    "id": "react-react-fundamentals",
+    "subject": "react",
+    "name": "React Fundamentals",
+    "description": "",
+    "order": 1
+  },
+  {
+    "id": "react-react-in-practice",
+    "subject": "react",
+    "name": "React in Practice",
+    "description": "",
+    "order": 2
+  },
+  {
+    "id": "react-ecosystem",
+    "subject": "react",
+    "name": "Ecosystem",
+    "description": "",
+    "order": 3
+  },
+  {
+    "id": "next-js-next-js-fundamentals",
+    "subject": "next-js",
+    "name": "Next.js Fundamentals",
+    "description": "",
+    "order": 1
+  },
+  {
+    "id": "next-js-production-features",
+    "subject": "next-js",
+    "name": "Production Features",
+    "description": "",
+    "order": 2
+  },
+  {
+    "id": "vue-js-vue-fundamentals",
+    "subject": "vue-js",
+    "name": "Vue Fundamentals",
+    "description": "",
+    "order": 1
+  },
+  {
+    "id": "vue-js-vue-ecosystem",
+    "subject": "vue-js",
+    "name": "Vue Ecosystem",
+    "description": "",
+    "order": 2
+  },
+  {
+    "id": "angular-angular-fundamentals",
+    "subject": "angular",
+    "name": "Angular Fundamentals",
+    "description": "",
+    "order": 1
+  },
+  {
+    "id": "angular-services-di",
+    "subject": "angular",
+    "name": "Services & DI",
+    "description": "",
+    "order": 2
+  },
+  {
+    "id": "node-js-node-fundamentals",
+    "subject": "node-js",
+    "name": "Node Fundamentals",
+    "description": "",
+    "order": 1
+  },
+  {
+    "id": "node-js-backend-development",
+    "subject": "node-js",
+    "name": "Backend Development",
+    "description": "",
+    "order": 2
+  },
+  {
+    "id": "express-js-express-fundamentals",
+    "subject": "express-js",
+    "name": "Express Fundamentals",
+    "description": "",
+    "order": 1
+  },
+  {
+    "id": "express-js-express-in-practice",
+    "subject": "express-js",
+    "name": "Express in Practice",
+    "description": "",
+    "order": 2
+  },
+  {
+    "id": "php-php-fundamentals",
+    "subject": "php",
+    "name": "PHP Fundamentals",
+    "description": "",
+    "order": 1
+  },
+  {
+    "id": "php-php-web",
+    "subject": "php",
+    "name": "PHP Web",
+    "description": "",
+    "order": 2
+  },
+  {
+    "id": "laravel-laravel-fundamentals",
+    "subject": "laravel",
+    "name": "Laravel Fundamentals",
+    "description": "",
+    "order": 1
+  },
+  {
+    "id": "laravel-eloquent-auth",
+    "subject": "laravel",
+    "name": "Eloquent & Auth",
+    "description": "",
+    "order": 2
+  },
+  {
+    "id": "python-python-fundamentals",
+    "subject": "python",
+    "name": "Python Fundamentals",
+    "description": "",
+    "order": 1
+  },
+  {
+    "id": "python-data-structures",
+    "subject": "python",
+    "name": "Data Structures",
+    "description": "",
+    "order": 2
+  },
+  {
+    "id": "python-python-ecosystem",
+    "subject": "python",
+    "name": "Python Ecosystem",
+    "description": "",
+    "order": 3
+  },
+  {
+    "id": "django-django-fundamentals",
+    "subject": "django",
+    "name": "Django Fundamentals",
+    "description": "",
+    "order": 1
+  },
+  {
+    "id": "django-django-features",
+    "subject": "django",
+    "name": "Django Features",
+    "description": "",
+    "order": 2
+  },
+  {
+    "id": "flask-flask-fundamentals",
+    "subject": "flask",
+    "name": "Flask Fundamentals",
+    "description": "",
+    "order": 1
+  },
+  {
+    "id": "flask-flask-features",
+    "subject": "flask",
+    "name": "Flask Features",
+    "description": "",
+    "order": 2
+  },
+  {
+    "id": "java-java-fundamentals",
+    "subject": "java",
+    "name": "Java Fundamentals",
+    "description": "",
+    "order": 1
+  },
+  {
+    "id": "java-java-apis",
+    "subject": "java",
+    "name": "Java APIs",
+    "description": "",
+    "order": 2
+  },
+  {
+    "id": "java-advanced-java",
+    "subject": "java",
+    "name": "Advanced Java",
+    "description": "",
+    "order": 3
+  },
+  {
+    "id": "spring-boot-spring-basics",
+    "subject": "spring-boot",
+    "name": "Spring Basics",
+    "description": "",
+    "order": 1
+  },
+  {
+    "id": "spring-boot-web-data",
+    "subject": "spring-boot",
+    "name": "Web & Data",
+    "description": "",
+    "order": 2
+  },
+  {
+    "id": "c-c-fundamentals",
+    "subject": "c",
+    "name": "C Fundamentals",
+    "description": "",
+    "order": 1
+  },
+  {
+    "id": "c-c-in-practice",
+    "subject": "c",
+    "name": "C in Practice",
+    "description": "",
+    "order": 2
+  },
+  {
+    "id": "cpp-c-fundamentals",
+    "subject": "cpp",
+    "name": "C++ Fundamentals",
+    "description": "",
+    "order": 1
+  },
+  {
+    "id": "cpp-c-features",
+    "subject": "cpp",
+    "name": "C++ Features",
+    "description": "",
+    "order": 2
+  },
+  {
+    "id": "csharp-c-fundamentals",
+    "subject": "csharp",
+    "name": "C# Fundamentals",
+    "description": "",
+    "order": 1
+  },
+  {
+    "id": "csharp-c-ecosystem",
+    "subject": "csharp",
+    "name": "C# Ecosystem",
+    "description": "",
+    "order": 2
+  },
+  {
+    "id": "dotnet-net-fundamentals",
+    "subject": "dotnet",
+    "name": "NET Fundamentals",
+    "description": "",
+    "order": 1
+  },
+  {
+    "id": "dotnet-net-features",
+    "subject": "dotnet",
+    "name": "NET Features",
+    "description": "",
+    "order": 2
+  },
+  {
+    "id": "go-go-fundamentals",
+    "subject": "go",
+    "name": "Go Fundamentals",
+    "description": "",
+    "order": 1
+  },
+  {
+    "id": "go-go-concurrency",
+    "subject": "go",
+    "name": "Go Concurrency",
+    "description": "",
+    "order": 2
+  },
+  {
+    "id": "rust-rust-fundamentals",
+    "subject": "rust",
+    "name": "Rust Fundamentals",
+    "description": "",
+    "order": 1
+  },
+  {
+    "id": "rust-rust-in-practice",
+    "subject": "rust",
+    "name": "Rust in Practice",
+    "description": "",
+    "order": 2
+  },
+  {
+    "id": "git-github-git-basics",
+    "subject": "git-github",
+    "name": "Git Basics",
+    "description": "",
+    "order": 1
+  },
+  {
+    "id": "git-github-github-workflow",
+    "subject": "git-github",
+    "name": "GitHub Workflow",
+    "description": "",
+    "order": 2
+  },
+  {
+    "id": "docker-docker-basics",
+    "subject": "docker",
+    "name": "Docker Basics",
+    "description": "",
+    "order": 1
+  },
+  {
+    "id": "docker-docker-in-practice",
+    "subject": "docker",
+    "name": "Docker in Practice",
+    "description": "",
+    "order": 2
+  },
+  {
+    "id": "kubernetes-k8s-fundamentals",
+    "subject": "kubernetes",
+    "name": "K8s Fundamentals",
+    "description": "",
+    "order": 1
+  },
+  {
+    "id": "kubernetes-k8s-operations",
+    "subject": "kubernetes",
+    "name": "K8s Operations",
+    "description": "",
+    "order": 2
+  },
+  {
+    "id": "rest-api-rest-fundamentals",
+    "subject": "rest-api",
+    "name": "REST Fundamentals",
+    "description": "",
+    "order": 1
+  },
+  {
+    "id": "rest-api-api-design",
+    "subject": "rest-api",
+    "name": "API Design",
+    "description": "",
+    "order": 2
+  },
+  {
+    "id": "graphql-graphql-fundamentals",
+    "subject": "graphql",
+    "name": "GraphQL Fundamentals",
+    "description": "",
+    "order": 1
+  },
+  {
+    "id": "graphql-graphql-in-practice",
+    "subject": "graphql",
+    "name": "GraphQL in Practice",
+    "description": "",
+    "order": 2
+  },
+  {
+    "id": "mdcat-mdcat-biology",
+    "subject": "mdcat",
+    "name": "MDCAT Biology",
+    "description": "",
+    "order": 1
+  },
+  {
+    "id": "mdcat-mdcat-chemistry-physics",
+    "subject": "mdcat",
+    "name": "MDCAT Chemistry & Physics",
+    "description": "",
+    "order": 2
+  },
+  {
+    "id": "ecat-ecat-mathematics",
+    "subject": "ecat",
+    "name": "ECAT Mathematics",
+    "description": "",
+    "order": 1
+  },
+  {
+    "id": "ecat-ecat-physics-chemistry",
+    "subject": "ecat",
+    "name": "ECAT Physics & Chemistry",
+    "description": "",
+    "order": 2
+  },
+  {
+    "id": "lat-lat-english",
+    "subject": "lat",
+    "name": "LAT English",
+    "description": "",
+    "order": 1
+  },
+  {
+    "id": "lat-lat-islamic-studies-gk",
+    "subject": "lat",
+    "name": "LAT Islamic Studies & GK",
+    "description": "",
+    "order": 2
+  },
+  {
+    "id": "gat-gat-quantitative",
+    "subject": "gat",
+    "name": "GAT Quantitative",
+    "description": "",
+    "order": 1
+  },
+  {
+    "id": "gat-gat-verbal",
+    "subject": "gat",
+    "name": "GAT Verbal",
+    "description": "",
+    "order": 2
+  },
+  {
+    "id": "gre-gre-verbal",
+    "subject": "gre",
+    "name": "GRE Verbal",
+    "description": "",
+    "order": 1
+  },
+  {
+    "id": "gre-gre-quant",
+    "subject": "gre",
+    "name": "GRE Quant",
+    "description": "",
+    "order": 2
+  },
+  {
+    "id": "ielts-ielts-listening-speaking",
+    "subject": "ielts",
+    "name": "IELTS Listening & Speaking",
+    "description": "",
+    "order": 1
+  },
+  {
+    "id": "ielts-ielts-reading-writing",
+    "subject": "ielts",
+    "name": "IELTS Reading & Writing",
+    "description": "",
+    "order": 2
+  },
+  {
+    "id": "toefl-toefl-reading-listening",
+    "subject": "toefl",
+    "name": "TOEFL Reading & Listening",
+    "description": "",
+    "order": 1
+  },
+  {
+    "id": "toefl-toefl-speaking-writing",
+    "subject": "toefl",
+    "name": "TOEFL Speaking & Writing",
+    "description": "",
+    "order": 2
+  },
+  {
+    "id": "sat-sat-reading-writing",
+    "subject": "sat",
+    "name": "SAT Reading & Writing",
+    "description": "",
+    "order": 1
+  },
+  {
+    "id": "sat-sat-math",
+    "subject": "sat",
+    "name": "SAT Math",
+    "description": "",
+    "order": 2
+  }
+]

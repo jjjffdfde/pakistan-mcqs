@@ -1,0 +1,48 @@
+{
+  "module": "P32",
+  "scan": "all 1,136 .html files across the site: total <img> elements = 1",
+  "images": [
+    {
+      "file": "assets/icons/icon-192.png",
+      "usage": "offline.html icon",
+      "width_height": "96x96 attributes present",
+      "alt": "present",
+      "size_bytes": 0,
+      "note": "furthest screenshot baseline; icon is small PNG"
+    },
+    {
+      "file": "assets/icons/icon-512.png",
+      "usage": "manifest",
+      "note": "manifest-only, not rendered in DOM"
+    },
+    {
+      "file": "assets/icons/maskable-512.png",
+      "usage": "manifest"
+    },
+    {
+      "file": "assets/icons/apple-touch-icon.png",
+      "usage": "iOS home screen"
+    },
+    {
+      "file": "assets/icons/icon.svg",
+      "usage": "favicon-ish"
+    },
+    {
+      "file": "assets/img/og-cover.png",
+      "usage": "social share (not rendered)"
+    }
+  ],
+  "findings": {
+    "oversized": 0,
+    "missing_dimensions": 0,
+    "missing_alt": 0,
+    "unoptimized_png": "only 1 rendered image total",
+    "lazy_loading_need": "none — only 1 DOM image (offline icon); nothing below-the-fold to lazy-load"
+  },
+  "actions": [],
+  "status": "PASS — image footprint essentially zero; no optimization required (no destructive changes)",
+  "generated_at": "2026-08-11T03:48:45.675Z",
+  "tool": "scripts/phase32 (reporter)",
+  "methodology": "Headless Chrome 1366x900/390x844, localhost static server (no throttling, lab-grade), fresh profile per run; interactive runs perform scripted user flows; static runs measure clean initial load.",
+  "environment_note": "Lab-grade localhost measurements; values are real, not fabricated; production network conditions will differ. LCP/CLS/INP/TTFB captured via PerformanceObserver wrappers in test-only injection script. FCP not observable in this toolchain (paint entries not exposed) -> NOT_MEASURABLE."
+}

@@ -1,0 +1,27 @@
+{
+  "module": "M17",
+  "rerun": {
+    "js_errors": "0 across 22 phase33 runs (active capture)",
+    "network_errors": "0 on served origin",
+    "overflow": "0 across 10 viewports",
+    "lcp": "index static ~64-256ms lab (phase32 & phase33 runs consistent)",
+    "cls": "0.0 static",
+    "cache": "repeat visit -98.8% (phase32 cache raw; ETag still served — re-verified header behavior this phase)",
+    "service_worker": "v1.0.1/002 active; offline PASS",
+    "page_load": "DCL 21-35ms, load 46-81ms lab",
+    "interactive": "all interaction steps PASS with 0 errors"
+  },
+  "before_after": {
+    "phase31_errors": 0,
+    "phase32_errors": 0,
+    "phase33_errors": 0,
+    "overflow": "0/0/0",
+    "regressions": 0
+  },
+  "status": "PASS — no performance regression",
+  "env": {
+    "tool": "scripts/phase33 (driver+probe33+reporter)",
+    "generated_at": "2026-08-11T04:24:25.697Z",
+    "methodology": "Headless Chrome 1366x900/390x844 etc, localhost static server, fresh profile per run, ACTIVE error/network capture (P32-TOOL-001 fix), interaction = real DOM clicks/inputs/Enter keys + state assertions. A feature is WORKING only when interaction + expected UI state + 0 console errors + 0 unexpected network failures."
+  }
+}

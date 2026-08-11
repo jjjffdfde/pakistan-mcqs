@@ -1,0 +1,2517 @@
+[
+  {
+    "id": "pakistan-affairs",
+    "name": "Pakistan Affairs",
+    "icon": "PA",
+    "category": "pakistan-studies",
+    "description": "Pakistan Movement, constitutional history, geography, economy, foreign policy and post-1947 history.",
+    "exams": [
+      "ppsc",
+      "fpsc",
+      "nts",
+      "ots",
+      "cts",
+      "pts",
+      "spsc",
+      "kppsc",
+      "ajkpsc",
+      "bpsc",
+      "css",
+      "pms",
+      "educators",
+      "police",
+      "army",
+      "navy",
+      "paf",
+      "fia",
+      "asf",
+      "motorway",
+      "railways",
+      "nadra",
+      "etea",
+      "nab",
+      "ib",
+      "mod",
+      "election-officer",
+      "punjab-police"
+    ],
+    "order": 1,
+    "status": "active"
+  },
+  {
+    "id": "current-affairs",
+    "name": "Current Affairs",
+    "icon": "CA",
+    "category": "current-affairs",
+    "description": "National and international current affairs, summits, treaties, appointments and global events.",
+    "exams": [
+      "ppsc",
+      "fpsc",
+      "nts",
+      "ots",
+      "cts",
+      "pts",
+      "spsc",
+      "kppsc",
+      "ajkpsc",
+      "bpsc",
+      "css",
+      "pms",
+      "educators",
+      "police",
+      "fia",
+      "asf",
+      "motorway",
+      "railways",
+      "nadra",
+      "etea",
+      "nab",
+      "ib",
+      "mod",
+      "election-officer",
+      "fia-inspector"
+    ],
+    "order": 2,
+    "status": "active"
+  },
+  {
+    "id": "general-knowledge",
+    "name": "General Knowledge",
+    "icon": "GK",
+    "category": "general-knowledge",
+    "description": "World geography, capitals, currencies, international organizations, sports, awards and inventions.",
+    "exams": [
+      "ppsc",
+      "fpsc",
+      "nts",
+      "ots",
+      "cts",
+      "pts",
+      "spsc",
+      "kppsc",
+      "ajkpsc",
+      "bpsc",
+      "css",
+      "pms",
+      "educators",
+      "police",
+      "army",
+      "navy",
+      "paf",
+      "fia",
+      "asf",
+      "motorway",
+      "railways",
+      "nadra",
+      "etea",
+      "nab",
+      "ib",
+      "mod",
+      "election-officer",
+      "pma",
+      "punjab-police",
+      "fia-inspector",
+      "anf"
+    ],
+    "order": 3,
+    "status": "active"
+  },
+  {
+    "id": "islamic-studies",
+    "name": "Islamic Studies",
+    "icon": "IS",
+    "category": "islamic-studies",
+    "description": "Holy Quran, Hadith, Seerat-un-Nabi, Khulafa-e-Rashideen, pillars of Islam and Islamic history.",
+    "exams": [
+      "ppsc",
+      "fpsc",
+      "nts",
+      "ots",
+      "cts",
+      "pts",
+      "spsc",
+      "kppsc",
+      "ajkpsc",
+      "bpsc",
+      "css",
+      "pms",
+      "educators",
+      "police",
+      "army",
+      "navy",
+      "paf",
+      "fia",
+      "asf",
+      "motorway",
+      "railways",
+      "nadra",
+      "etea",
+      "election-officer",
+      "anf"
+    ],
+    "order": 4,
+    "status": "active"
+  },
+  {
+    "id": "english",
+    "name": "English",
+    "icon": "EN",
+    "category": "english-urdu",
+    "description": "Grammar, vocabulary, synonyms, antonyms, idioms, sentence correction, voice and narration.",
+    "exams": [
+      "ppsc",
+      "fpsc",
+      "nts",
+      "ots",
+      "cts",
+      "pts",
+      "spsc",
+      "kppsc",
+      "ajkpsc",
+      "bpsc",
+      "css",
+      "pms",
+      "educators",
+      "police",
+      "army",
+      "navy",
+      "paf",
+      "fia",
+      "asf",
+      "motorway",
+      "railways",
+      "nadra",
+      "etea",
+      "nab",
+      "ib",
+      "mod",
+      "election-officer",
+      "fia-inspector"
+    ],
+    "order": 5,
+    "status": "active"
+  },
+  {
+    "id": "urdu",
+    "name": "Urdu",
+    "icon": "UR",
+    "category": "english-urdu",
+    "description": "Urdu adab, Urdu grammar and general knowledge in Urdu.",
+    "exams": [
+      "ppsc",
+      "nts",
+      "ots",
+      "cts",
+      "pts",
+      "spsc",
+      "kppsc",
+      "ajkpsc",
+      "bpsc",
+      "educators",
+      "police",
+      "fia",
+      "asf",
+      "motorway",
+      "railways",
+      "nab",
+      "ib",
+      "mod",
+      "election-officer"
+    ],
+    "order": 6,
+    "status": "active"
+  },
+  {
+    "id": "mathematics",
+    "name": "Mathematics",
+    "icon": "MA",
+    "category": "mathematics",
+    "description": "Arithmetic, algebra, geometry, trigonometry and number systems for competitive tests.",
+    "exams": [
+      "ppsc",
+      "fpsc",
+      "nts",
+      "ots",
+      "cts",
+      "pts",
+      "spsc",
+      "kppsc",
+      "ajkpsc",
+      "bpsc",
+      "educators",
+      "police",
+      "fia",
+      "asf",
+      "motorway",
+      "railways",
+      "nab",
+      "ib",
+      "mod",
+      "election-officer",
+      "wapda"
+    ],
+    "order": 7,
+    "status": "active"
+  },
+  {
+    "id": "computer-science",
+    "name": "Computer Science",
+    "icon": "CS",
+    "category": "computer-it",
+    "description": "Computer fundamentals, hardware, software, internet, databases and IT abbreviations.",
+    "exams": [
+      "ppsc",
+      "fpsc",
+      "nts",
+      "ots",
+      "cts",
+      "pts",
+      "spsc",
+      "kppsc",
+      "ajkpsc",
+      "bpsc",
+      "educators",
+      "police",
+      "fia",
+      "asf",
+      "motorway",
+      "railways",
+      "nadra",
+      "etea",
+      "nab",
+      "ib",
+      "mod",
+      "fia-inspector",
+      "anf",
+      "wapda",
+      "fbr",
+      "banking"
+    ],
+    "order": 8,
+    "status": "active"
+  },
+  {
+    "id": "everyday-science",
+    "name": "Everyday Science",
+    "icon": "ES",
+    "category": "science",
+    "description": "Human body, physics and chemistry in daily life, earth and space, environment, food and energy.",
+    "exams": [
+      "ppsc",
+      "fpsc",
+      "nts",
+      "ots",
+      "cts",
+      "pts",
+      "spsc",
+      "kppsc",
+      "ajkpsc",
+      "bpsc",
+      "css",
+      "pms",
+      "educators",
+      "police",
+      "army",
+      "navy",
+      "paf",
+      "fia",
+      "asf",
+      "motorway",
+      "railways",
+      "nadra",
+      "etea",
+      "pma",
+      "punjab-police"
+    ],
+    "order": 9,
+    "status": "active"
+  },
+  {
+    "id": "physics",
+    "name": "Physics",
+    "icon": "PH",
+    "category": "science",
+    "description": "Mechanics, electricity, optics, sound, heat and modern physics.",
+    "exams": [
+      "ppsc",
+      "fpsc",
+      "nts",
+      "educators",
+      "police",
+      "army",
+      "navy",
+      "paf",
+      "etea"
+    ],
+    "order": 10,
+    "status": "active"
+  },
+  {
+    "id": "chemistry",
+    "name": "Chemistry",
+    "icon": "CH",
+    "category": "science",
+    "description": "Physical, organic and inorganic chemistry, periodic table and chemical reactions.",
+    "exams": [
+      "ppsc",
+      "fpsc",
+      "nts",
+      "educators",
+      "police",
+      "army",
+      "navy",
+      "paf",
+      "etea",
+      "anf"
+    ],
+    "order": 11,
+    "status": "active"
+  },
+  {
+    "id": "biology",
+    "name": "Biology",
+    "icon": "BI",
+    "category": "science",
+    "description": "Cell biology, genetics, human physiology, microorganisms and ecosystems.",
+    "exams": [
+      "ppsc",
+      "fpsc",
+      "nts",
+      "educators",
+      "police",
+      "army",
+      "navy",
+      "paf",
+      "etea"
+    ],
+    "order": 12,
+    "status": "active"
+  },
+  {
+    "id": "botany",
+    "name": "Botany",
+    "icon": "BO",
+    "category": "science",
+    "description": "Plant structure, photosynthesis, plant reproduction, plant diseases and economic botany.",
+    "exams": [
+      "ppsc",
+      "fpsc",
+      "nts",
+      "educators",
+      "etea"
+    ],
+    "order": 13,
+    "status": "active"
+  },
+  {
+    "id": "zoology",
+    "name": "Zoology",
+    "icon": "ZO",
+    "category": "science",
+    "description": "Animal classification, anatomy, evolution, ecology and economic zoology.",
+    "exams": [
+      "ppsc",
+      "fpsc",
+      "nts",
+      "educators",
+      "etea"
+    ],
+    "order": 14,
+    "status": "active"
+  },
+  {
+    "id": "pedagogy",
+    "name": "Pedagogy",
+    "icon": "PD",
+    "category": "education",
+    "description": "Learning theories, teaching methods, assessment, classroom management and curriculum.",
+    "exams": [
+      "ppsc",
+      "fpsc",
+      "nts",
+      "educators",
+      "police",
+      "etea"
+    ],
+    "order": 15,
+    "status": "active"
+  },
+  {
+    "id": "education",
+    "name": "Education",
+    "icon": "ED",
+    "category": "education",
+    "description": "Foundations of education, Pakistan education systems and educational planning.",
+    "exams": [
+      "ppsc",
+      "fpsc",
+      "nts",
+      "educators",
+      "etea"
+    ],
+    "order": 16,
+    "status": "active"
+  },
+  {
+    "id": "psychology",
+    "name": "Psychology",
+    "icon": "PY",
+    "category": "education",
+    "description": "Cognitive, developmental, social and abnormal psychology and learning theories.",
+    "exams": [
+      "ppsc",
+      "fpsc",
+      "nts",
+      "educators",
+      "issb"
+    ],
+    "order": 17,
+    "status": "active"
+  },
+  {
+    "id": "economics",
+    "name": "Economics",
+    "icon": "EC",
+    "category": "social-sciences",
+    "description": "Microeconomics, macroeconomics, Pakistan economy, money and banking and international economics.",
+    "exams": [
+      "ppsc",
+      "fpsc",
+      "nts",
+      "css",
+      "pms",
+      "educators",
+      "nab",
+      "ib",
+      "mod",
+      "fbr",
+      "sbp",
+      "banking"
+    ],
+    "order": 18,
+    "status": "active"
+  },
+  {
+    "id": "statistics",
+    "name": "Statistics",
+    "icon": "ST",
+    "category": "social-sciences",
+    "description": "Descriptive statistics, probability, distributions, sampling and hypothesis testing.",
+    "exams": [
+      "ppsc",
+      "fpsc",
+      "nts",
+      "educators",
+      "nab",
+      "ib",
+      "mod",
+      "fbr",
+      "sbp"
+    ],
+    "order": 19,
+    "status": "active"
+  },
+  {
+    "id": "accounting",
+    "name": "Accounting",
+    "icon": "AC",
+    "category": "management",
+    "description": "Accounting basics, financial statements, journals, cost accounting and auditing.",
+    "exams": [
+      "ppsc",
+      "fpsc",
+      "nts",
+      "ots",
+      "cts",
+      "pts",
+      "nab",
+      "ib",
+      "mod",
+      "fbr",
+      "sbp",
+      "banking"
+    ],
+    "order": 20,
+    "status": "active"
+  },
+  {
+    "id": "finance",
+    "name": "Finance",
+    "icon": "FI",
+    "category": "management",
+    "description": "Corporate finance, investments, banking, financial markets and Islamic finance.",
+    "exams": [
+      "ppsc",
+      "fpsc",
+      "nts",
+      "ots",
+      "cts",
+      "pts",
+      "nab",
+      "ib",
+      "mod",
+      "fbr",
+      "sbp",
+      "banking"
+    ],
+    "order": 21,
+    "status": "active"
+  },
+  {
+    "id": "commerce",
+    "name": "Commerce",
+    "icon": "CM",
+    "category": "management",
+    "description": "Business studies, trade, banking, insurance and e-commerce.",
+    "exams": [
+      "ppsc",
+      "fpsc",
+      "nts",
+      "ots",
+      "cts",
+      "pts",
+      "nab",
+      "ib",
+      "mod",
+      "banking"
+    ],
+    "order": 22,
+    "status": "active"
+  },
+  {
+    "id": "business-admin",
+    "name": "Business Administration",
+    "icon": "BA",
+    "category": "management",
+    "description": "Management principles, HRM, marketing, organizational behavior and entrepreneurship.",
+    "exams": [
+      "ppsc",
+      "fpsc",
+      "nts",
+      "ots",
+      "cts",
+      "pts",
+      "nab",
+      "ib",
+      "mod",
+      "sbp",
+      "banking"
+    ],
+    "order": 23,
+    "status": "active"
+  },
+  {
+    "id": "law",
+    "name": "Law",
+    "icon": "LA",
+    "category": "law",
+    "description": "Constitutional, criminal and civil law, Islamic law and legal maxims.",
+    "exams": [
+      "ppsc",
+      "fpsc",
+      "nts",
+      "css",
+      "pms",
+      "police",
+      "fia",
+      "nab",
+      "ib",
+      "mod",
+      "fia-inspector",
+      "fbr"
+    ],
+    "order": 24,
+    "status": "active"
+  },
+  {
+    "id": "constitution",
+    "name": "Constitution",
+    "icon": "CT",
+    "category": "law",
+    "description": "Constitution of Pakistan, fundamental rights, structure of government and amendments.",
+    "exams": [
+      "ppsc",
+      "fpsc",
+      "nts",
+      "css",
+      "pms",
+      "police",
+      "fia",
+      "nab",
+      "ib",
+      "mod",
+      "election-officer"
+    ],
+    "order": 25,
+    "status": "active"
+  },
+  {
+    "id": "geography",
+    "name": "Geography",
+    "icon": "GE",
+    "category": "general-knowledge",
+    "description": "Physical and human geography, world regions, map skills and world landmarks.",
+    "exams": [
+      "ppsc",
+      "fpsc",
+      "nts",
+      "css",
+      "pms",
+      "educators"
+    ],
+    "order": 26,
+    "status": "active"
+  },
+  {
+    "id": "history",
+    "name": "World History",
+    "icon": "HI",
+    "category": "general-knowledge",
+    "description": "Ancient, medieval and modern world history, world wars and the cold war.",
+    "exams": [
+      "ppsc",
+      "fpsc",
+      "nts",
+      "css",
+      "pms",
+      "educators"
+    ],
+    "order": 27,
+    "status": "active"
+  },
+  {
+    "id": "international-relations",
+    "name": "International Relations",
+    "icon": "IR",
+    "category": "social-sciences",
+    "description": "IR theories, United Nations, foreign policy, regional organizations and global conflicts.",
+    "exams": [
+      "ppsc",
+      "fpsc",
+      "nts",
+      "css",
+      "pms"
+    ],
+    "order": 28,
+    "status": "active"
+  },
+  {
+    "id": "political-science",
+    "name": "Political Science",
+    "icon": "PS",
+    "category": "social-sciences",
+    "description": "Political theory, systems of government, comparative politics and public administration.",
+    "exams": [
+      "ppsc",
+      "fpsc",
+      "nts",
+      "css",
+      "pms"
+    ],
+    "order": 29,
+    "status": "active"
+  },
+  {
+    "id": "sociology",
+    "name": "Sociology",
+    "icon": "SO",
+    "category": "social-sciences",
+    "description": "Social institutions, culture, social change, social problems and sociological theory.",
+    "exams": [
+      "ppsc",
+      "fpsc",
+      "nts",
+      "css",
+      "pms"
+    ],
+    "order": 30,
+    "status": "active"
+  },
+  {
+    "id": "anthropology",
+    "name": "Anthropology",
+    "icon": "AN",
+    "category": "social-sciences",
+    "description": "Cultural, physical, archaeological and linguistic anthropology.",
+    "exams": [
+      "ppsc",
+      "fpsc",
+      "nts",
+      "css",
+      "pms"
+    ],
+    "order": 31,
+    "status": "active"
+  },
+  {
+    "id": "agriculture",
+    "name": "Agriculture",
+    "icon": "AG",
+    "category": "medical",
+    "description": "Crops, soils, irrigation, pest control and agricultural economy of Pakistan.",
+    "exams": [
+      "ppsc",
+      "fpsc",
+      "nts",
+      "educators"
+    ],
+    "order": 32,
+    "status": "active"
+  },
+  {
+    "id": "veterinary",
+    "name": "Veterinary Science",
+    "icon": "VE",
+    "category": "medical",
+    "description": "Animal health, livestock management, poultry science and veterinary diseases.",
+    "exams": [
+      "ppsc",
+      "fpsc",
+      "nts",
+      "educators"
+    ],
+    "order": 33,
+    "status": "active"
+  },
+  {
+    "id": "nursing",
+    "name": "Nursing",
+    "icon": "NU",
+    "category": "medical",
+    "description": "Fundamentals of nursing, patient care, first aid and nursing ethics.",
+    "exams": [
+      "ppsc",
+      "fpsc",
+      "nts",
+      "educators"
+    ],
+    "order": 34,
+    "status": "active"
+  },
+  {
+    "id": "medical",
+    "name": "Medical Sciences",
+    "icon": "MD",
+    "category": "medical",
+    "description": "Anatomy, physiology, pathology, pharmacology and community medicine.",
+    "exams": [
+      "ppsc",
+      "fpsc",
+      "nts",
+      "educators"
+    ],
+    "order": 35,
+    "status": "active"
+  },
+  {
+    "id": "pharmacy",
+    "name": "Pharmacy",
+    "icon": "PHA",
+    "category": "medical",
+    "description": "Pharmacology, pharmaceutics, drug actions and dispensing.",
+    "exams": [
+      "ppsc",
+      "fpsc",
+      "nts",
+      "educators"
+    ],
+    "order": 36,
+    "status": "active"
+  },
+  {
+    "id": "electrical-eng",
+    "name": "Electrical Engineering",
+    "icon": "EE",
+    "category": "engineering",
+    "description": "Circuits, power systems, machines, electronics and control systems.",
+    "exams": [
+      "ppsc",
+      "fpsc",
+      "nts",
+      "etea",
+      "railways",
+      "army",
+      "navy",
+      "paf",
+      "wapda"
+    ],
+    "order": 37,
+    "status": "active"
+  },
+  {
+    "id": "mechanical-eng",
+    "name": "Mechanical Engineering",
+    "icon": "ME",
+    "category": "engineering",
+    "description": "Thermodynamics, machines, materials, fluid mechanics and engineering design.",
+    "exams": [
+      "ppsc",
+      "fpsc",
+      "nts",
+      "etea",
+      "railways",
+      "army",
+      "navy",
+      "paf",
+      "wapda"
+    ],
+    "order": 38,
+    "status": "active"
+  },
+  {
+    "id": "civil-eng",
+    "name": "Civil Engineering",
+    "icon": "CE",
+    "category": "engineering",
+    "description": "Structures, construction materials, surveying, geotechnical and transportation engineering.",
+    "exams": [
+      "ppsc",
+      "fpsc",
+      "nts",
+      "etea",
+      "railways",
+      "wapda"
+    ],
+    "order": 39,
+    "status": "active"
+  },
+  {
+    "id": "software-eng",
+    "name": "Software Engineering",
+    "icon": "SW",
+    "category": "computer-it",
+    "description": "SDLC, requirements engineering, design, testing and project management.",
+    "exams": [
+      "ppsc",
+      "fpsc",
+      "nts",
+      "educators",
+      "nab",
+      "ib",
+      "mod"
+    ],
+    "order": 40,
+    "status": "active"
+  },
+  {
+    "id": "programming",
+    "name": "Programming",
+    "icon": "PR",
+    "category": "computer-it",
+    "description": "Python, Java, C++, JavaScript, PHP, SQL, HTML and CSS programming questions.",
+    "exams": [
+      "ppsc",
+      "fpsc",
+      "nts",
+      "educators",
+      "nab",
+      "ib",
+      "mod",
+      "wapda"
+    ],
+    "order": 41,
+    "status": "active"
+  },
+  {
+    "id": "networking",
+    "name": "Networking",
+    "icon": "NW",
+    "category": "computer-it",
+    "description": "OSI model, TCP/IP, network devices, routing, protocols and wireless networks.",
+    "exams": [
+      "ppsc",
+      "fpsc",
+      "nts",
+      "educators",
+      "nab",
+      "ib",
+      "mod"
+    ],
+    "order": 42,
+    "status": "active"
+  },
+  {
+    "id": "operating-systems",
+    "name": "Operating Systems",
+    "icon": "OS",
+    "category": "computer-it",
+    "description": "Processes, memory management, file systems, Windows and Linux operating systems.",
+    "exams": [
+      "ppsc",
+      "fpsc",
+      "nts",
+      "educators",
+      "nab",
+      "ib",
+      "mod"
+    ],
+    "order": 43,
+    "status": "active"
+  },
+  {
+    "id": "ai",
+    "name": "Artificial Intelligence",
+    "icon": "AI",
+    "category": "computer-it",
+    "description": "Machine learning, neural networks, natural language processing, robotics and AI ethics.",
+    "exams": [
+      "ppsc",
+      "fpsc",
+      "nts",
+      "educators",
+      "nab",
+      "ib",
+      "mod"
+    ],
+    "order": 44,
+    "status": "active"
+  },
+  {
+    "id": "data-science",
+    "name": "Data Science",
+    "icon": "DS",
+    "category": "computer-it",
+    "description": "Data analysis, statistics for data science, machine learning, visualization and big data.",
+    "exams": [
+      "ppsc",
+      "fpsc",
+      "nts",
+      "educators",
+      "nab",
+      "ib",
+      "mod"
+    ],
+    "order": 45,
+    "status": "active"
+  },
+  {
+    "id": "cyber-security",
+    "name": "Cyber Security",
+    "icon": "CY",
+    "category": "computer-it",
+    "description": "Cyber threats, malware, cryptography, network security and best practices.",
+    "exams": [
+      "ppsc",
+      "fpsc",
+      "nts",
+      "educators",
+      "police",
+      "fia",
+      "nab",
+      "ib",
+      "mod"
+    ],
+    "order": 46,
+    "status": "active"
+  },
+  {
+    "id": "cloud-computing",
+    "name": "Cloud Computing",
+    "icon": "CL",
+    "category": "computer-it",
+    "description": "IaaS, PaaS, SaaS, virtualization, cloud providers and storage services.",
+    "exams": [
+      "ppsc",
+      "fpsc",
+      "nts",
+      "educators",
+      "nab",
+      "ib",
+      "mod"
+    ],
+    "order": 47,
+    "status": "active"
+  },
+  {
+    "id": "ms-office",
+    "name": "Microsoft Office",
+    "icon": "MO",
+    "category": "computer-it",
+    "description": "MS Word, MS Excel, MS PowerPoint, MS Access and Outlook.",
+    "exams": [
+      "ppsc",
+      "fpsc",
+      "nts",
+      "ots",
+      "cts",
+      "pts",
+      "police",
+      "fia",
+      "asf",
+      "motorway",
+      "railways",
+      "nadra",
+      "nab",
+      "ib",
+      "mod"
+    ],
+    "order": 48,
+    "status": "active"
+  },
+  {
+    "id": "reasoning",
+    "name": "Reasoning & IQ",
+    "icon": "RQ",
+    "category": "mathematics",
+    "description": "Verbal and non-verbal reasoning, series, coding-decoding, puzzles and logical deduction.",
+    "exams": [
+      "ppsc",
+      "fpsc",
+      "nts",
+      "ots",
+      "cts",
+      "pts",
+      "police",
+      "army",
+      "navy",
+      "paf",
+      "fia",
+      "asf",
+      "motorway",
+      "railways",
+      "nab",
+      "ib",
+      "mod",
+      "election-officer"
+    ],
+    "order": 49,
+    "status": "active"
+  },
+  {
+    "id": "english-literature",
+    "name": "English Literature",
+    "icon": "LT",
+    "category": "english-urdu",
+    "description": "Poetry, prose, drama, literary terms and Pakistani literature in English.",
+    "exams": [
+      "ppsc",
+      "fpsc",
+      "nts",
+      "educators"
+    ],
+    "order": 50,
+    "status": "active"
+  },
+  {
+    "id": "environmental-science",
+    "name": "Environmental Science",
+    "icon": "EV",
+    "category": "science",
+    "description": "Ecosystems, pollution, climate change, conservation and environmental policy.",
+    "exams": [
+      "ppsc",
+      "fpsc",
+      "nts",
+      "css",
+      "pms",
+      "educators",
+      "etea",
+      "police",
+      "fia",
+      "nab"
+    ],
+    "order": 51,
+    "status": "active"
+  },
+  {
+    "id": "biotechnology",
+    "name": "Biotechnology",
+    "icon": "BT",
+    "category": "science",
+    "description": "DNA technology, genetic engineering, medical and agricultural biotechnology.",
+    "exams": [
+      "ppsc",
+      "fpsc",
+      "nts",
+      "educators",
+      "etea",
+      "css"
+    ],
+    "order": 52,
+    "status": "active"
+  },
+  {
+    "id": "electronics",
+    "name": "Electronics",
+    "icon": "EL",
+    "category": "engineering",
+    "description": "Semiconductors, digital electronics, logic gates and communication electronics.",
+    "exams": [
+      "ppsc",
+      "fpsc",
+      "nts",
+      "etea",
+      "railways",
+      "army",
+      "navy",
+      "paf"
+    ],
+    "order": 53,
+    "status": "active"
+  },
+  {
+    "id": "chemical-eng",
+    "name": "Chemical Engineering",
+    "icon": "CE",
+    "category": "engineering",
+    "description": "Process calculations, thermodynamics, unit operations and process industries.",
+    "exams": [
+      "ppsc",
+      "fpsc",
+      "nts",
+      "etea",
+      "railways",
+      "army",
+      "navy",
+      "paf"
+    ],
+    "order": 54,
+    "status": "active"
+  },
+  {
+    "id": "industrial-eng",
+    "name": "Industrial Engineering",
+    "icon": "IE",
+    "category": "engineering",
+    "description": "Operations management, quality control, work study and industrial safety.",
+    "exams": [
+      "ppsc",
+      "fpsc",
+      "nts",
+      "etea"
+    ],
+    "order": 55,
+    "status": "active"
+  },
+  {
+    "id": "environmental-eng",
+    "name": "Environmental Engineering",
+    "icon": "ENV",
+    "category": "engineering",
+    "description": "Water and wastewater treatment, air quality and solid waste management.",
+    "exams": [
+      "ppsc",
+      "fpsc",
+      "nts",
+      "etea",
+      "css"
+    ],
+    "order": 56,
+    "status": "active"
+  },
+  {
+    "id": "mechatronics",
+    "name": "Mechatronics",
+    "icon": "MX",
+    "category": "engineering",
+    "description": "Sensors, actuators, control systems, robotics and industrial automation.",
+    "exams": [
+      "ppsc",
+      "fpsc",
+      "nts",
+      "etea",
+      "army",
+      "navy",
+      "paf"
+    ],
+    "order": 57,
+    "status": "active"
+  },
+  {
+    "id": "anatomy",
+    "name": "Anatomy",
+    "icon": "AN",
+    "category": "medical",
+    "description": "Skeletal, muscular, nervous and organ system anatomy for medical entry tests.",
+    "exams": [
+      "ppsc",
+      "fpsc",
+      "nts",
+      "educators",
+      "etea"
+    ],
+    "order": 58,
+    "status": "active"
+  },
+  {
+    "id": "physiology",
+    "name": "Physiology",
+    "icon": "PHY",
+    "category": "medical",
+    "description": "Cardiovascular, respiratory, renal, endocrine and nerve-muscle physiology.",
+    "exams": [
+      "ppsc",
+      "fpsc",
+      "nts",
+      "educators",
+      "etea"
+    ],
+    "order": 59,
+    "status": "active"
+  },
+  {
+    "id": "pathology",
+    "name": "Pathology",
+    "icon": "PA",
+    "category": "medical",
+    "description": "Cell injury, inflammation, neoplasia and systemic pathology.",
+    "exams": [
+      "ppsc",
+      "fpsc",
+      "nts",
+      "educators",
+      "etea"
+    ],
+    "order": 60,
+    "status": "active"
+  },
+  {
+    "id": "microbiology",
+    "name": "Microbiology",
+    "icon": "MB",
+    "category": "medical",
+    "description": "Bacteriology, virology, mycology, parasitology and infectious diseases.",
+    "exams": [
+      "ppsc",
+      "fpsc",
+      "nts",
+      "educators",
+      "etea"
+    ],
+    "order": 61,
+    "status": "active"
+  },
+  {
+    "id": "biochemistry",
+    "name": "Biochemistry",
+    "icon": "BC",
+    "category": "medical",
+    "description": "Biomolecules, enzymes, metabolism and nucleic acids.",
+    "exams": [
+      "ppsc",
+      "fpsc",
+      "nts",
+      "educators",
+      "etea"
+    ],
+    "order": 62,
+    "status": "active"
+  },
+  {
+    "id": "histology",
+    "name": "Histology",
+    "icon": "HT",
+    "category": "medical",
+    "description": "Microscopic structure of basic tissues and organs.",
+    "exams": [
+      "ppsc",
+      "fpsc",
+      "nts",
+      "educators",
+      "etea"
+    ],
+    "order": 63,
+    "status": "active"
+  },
+  {
+    "id": "dental-materials",
+    "name": "Dental Materials",
+    "icon": "DM",
+    "category": "medical",
+    "description": "Restorative materials, cements, impressions and material properties.",
+    "exams": [
+      "ppsc",
+      "fpsc",
+      "nts",
+      "educators",
+      "etea"
+    ],
+    "order": 64,
+    "status": "active"
+  },
+  {
+    "id": "medicine",
+    "name": "Medicine",
+    "icon": "MD",
+    "category": "medical",
+    "description": "Internal medicine, cardiology, infectious and endocrine disorders.",
+    "exams": [
+      "ppsc",
+      "fpsc",
+      "nts",
+      "educators",
+      "etea"
+    ],
+    "order": 65,
+    "status": "active"
+  },
+  {
+    "id": "surgery",
+    "name": "Surgery",
+    "icon": "SU",
+    "category": "medical",
+    "description": "General surgery, acute abdomen, trauma care and burns.",
+    "exams": [
+      "ppsc",
+      "fpsc",
+      "nts",
+      "educators",
+      "etea"
+    ],
+    "order": 66,
+    "status": "active"
+  },
+  {
+    "id": "community-medicine",
+    "name": "Community Medicine",
+    "icon": "CM",
+    "category": "medical",
+    "description": "Epidemiology, biostatistics, primary health care and public health.",
+    "exams": [
+      "ppsc",
+      "fpsc",
+      "nts",
+      "educators",
+      "etea"
+    ],
+    "order": 67,
+    "status": "active"
+  },
+  {
+    "id": "auditing",
+    "name": "Auditing",
+    "icon": "AU",
+    "category": "management",
+    "description": "Audit concepts, process, standards, internal control and sampling.",
+    "exams": [
+      "ppsc",
+      "fpsc",
+      "nts",
+      "ots",
+      "cts",
+      "pts",
+      "nab"
+    ],
+    "order": 68,
+    "status": "active"
+  },
+  {
+    "id": "supply-chain",
+    "name": "Supply Chain",
+    "icon": "SC",
+    "category": "management",
+    "description": "Logistics, inventory management, chain design and performance.",
+    "exams": [
+      "ppsc",
+      "fpsc",
+      "nts",
+      "ots",
+      "cts",
+      "pts"
+    ],
+    "order": 69,
+    "status": "active"
+  },
+  {
+    "id": "physical-education",
+    "name": "Physical Education",
+    "icon": "PE",
+    "category": "social-sciences",
+    "description": "Sports science, fitness, athletics, Olympics and sports institutions.",
+    "exams": [
+      "ppsc",
+      "fpsc",
+      "nts",
+      "educators",
+      "etea"
+    ],
+    "order": 70,
+    "status": "active"
+  },
+  {
+    "id": "forestry",
+    "name": "Forestry",
+    "icon": "FO",
+    "category": "agriculture",
+    "description": "Forest types, silviculture, conservation, wildlife and forest products.",
+    "exams": [
+      "ppsc",
+      "fpsc",
+      "nts",
+      "educators",
+      "etea"
+    ],
+    "order": 71,
+    "status": "active"
+  },
+  {
+    "id": "essay",
+    "name": "Essay Writing",
+    "icon": "ES",
+    "category": "english-urdu",
+    "description": "Essay structure, planning, CSS and PMS essay themes (descriptive preparation).",
+    "exams": [
+      "css",
+      "pms"
+    ],
+    "order": 72,
+    "status": "reference"
+  },
+  {
+    "id": "world-current-affairs",
+    "name": "World Current Affairs",
+    "icon": "WC",
+    "category": "current-affairs",
+    "description": "Global events, international organizations, world economy and major world developments.",
+    "exams": [
+      "css",
+      "pms",
+      "fpsc",
+      "nts",
+      "ots"
+    ],
+    "order": 73,
+    "status": "active"
+  },
+  {
+    "id": "iq",
+    "name": "IQ & Aptitude",
+    "icon": "IQ",
+    "category": "mathematics",
+    "description": "Intelligence quotient tests: number series, analogies, classification and pattern recognition.",
+    "exams": [
+      "nts",
+      "ots",
+      "cts",
+      "pts",
+      "fpsc",
+      "ppsc",
+      "police",
+      "pma",
+      "issb",
+      "punjab-police"
+    ],
+    "order": 74,
+    "status": "active"
+  },
+  {
+    "id": "logical-reasoning",
+    "name": "Logical Reasoning",
+    "icon": "LR",
+    "category": "mathematics",
+    "description": "Syllogisms, statements and conclusions, assumptions and logic puzzles.",
+    "exams": [
+      "nts",
+      "css",
+      "pms",
+      "gat",
+      "gre",
+      "issb",
+      "punjab-police"
+    ],
+    "order": 75,
+    "status": "active"
+  },
+  {
+    "id": "analytical-reasoning",
+    "name": "Analytical Reasoning",
+    "icon": "AR",
+    "category": "mathematics",
+    "description": "Arrangements, data sufficiency, decision making and coding patterns.",
+    "exams": [
+      "nts",
+      "gat",
+      "gre",
+      "css"
+    ],
+    "order": 76,
+    "status": "active"
+  },
+  {
+    "id": "verbal-reasoning",
+    "name": "Verbal Reasoning",
+    "icon": "VR",
+    "category": "mathematics",
+    "description": "Word logic, sentence logic, cause and effect and verbal classification.",
+    "exams": [
+      "nts",
+      "gat",
+      "gre",
+      "ielts",
+      "pma"
+    ],
+    "order": 77,
+    "status": "active"
+  },
+  {
+    "id": "non-verbal-reasoning",
+    "name": "Non-Verbal Reasoning",
+    "icon": "NV",
+    "category": "mathematics",
+    "description": "Figure series, mirror and water images, cubes and dice problems.",
+    "exams": [
+      "nts",
+      "pma",
+      "issb",
+      "police"
+    ],
+    "order": 78,
+    "status": "active"
+  },
+  {
+    "id": "data-interpretation",
+    "name": "Data Interpretation",
+    "icon": "DI",
+    "category": "mathematics",
+    "description": "Tables, charts, graphs and quantitative data analysis.",
+    "exams": [
+      "css",
+      "gat",
+      "gre",
+      "ib",
+      "sbp"
+    ],
+    "order": 79,
+    "status": "active"
+  },
+  {
+    "id": "aptitude-tests",
+    "name": "Aptitude Tests",
+    "icon": "AP",
+    "category": "mathematics",
+    "description": "Quantitative aptitude: percentages, time & work, speed & distance and arithmetic.",
+    "exams": [
+      "nts",
+      "ib",
+      "sbp",
+      "banking",
+      "wapda"
+    ],
+    "order": 80,
+    "status": "active"
+  },
+  {
+    "id": "vocabulary",
+    "name": "Vocabulary",
+    "icon": "VO",
+    "category": "english-urdu",
+    "description": "Word meanings, roots, prefixes, confusable words and contextual usage.",
+    "exams": [
+      "css",
+      "ppsc",
+      "fpsc",
+      "nts",
+      "gre",
+      "ielts",
+      "toefl",
+      "sat"
+    ],
+    "order": 81,
+    "status": "active"
+  },
+  {
+    "id": "grammar",
+    "name": "Grammar",
+    "icon": "GR",
+    "category": "english-urdu",
+    "description": "Parts of speech, sentence structure, agreement and punctuation.",
+    "exams": [
+      "css",
+      "ppsc",
+      "fpsc",
+      "nts",
+      "ielts",
+      "toefl",
+      "sat"
+    ],
+    "order": 82,
+    "status": "active"
+  },
+  {
+    "id": "synonyms",
+    "name": "Synonyms",
+    "icon": "SY",
+    "category": "english-urdu",
+    "description": "High-frequency synonyms and context-based synonym questions.",
+    "exams": [
+      "css",
+      "ppsc",
+      "fpsc",
+      "nts",
+      "gre",
+      "sat"
+    ],
+    "order": 83,
+    "status": "active"
+  },
+  {
+    "id": "antonyms",
+    "name": "Antonyms",
+    "icon": "AN",
+    "category": "english-urdu",
+    "description": "Opposite words: high-frequency antonyms and prefix-based opposites.",
+    "exams": [
+      "css",
+      "ppsc",
+      "fpsc",
+      "nts",
+      "gre",
+      "sat"
+    ],
+    "order": 84,
+    "status": "active"
+  },
+  {
+    "id": "idioms",
+    "name": "Idioms & Phrases",
+    "icon": "ID",
+    "category": "english-urdu",
+    "description": "Common English idioms, phrases and phrasal verbs.",
+    "exams": [
+      "css",
+      "ppsc",
+      "fpsc",
+      "nts",
+      "ielts",
+      "sat"
+    ],
+    "order": 85,
+    "status": "active"
+  },
+  {
+    "id": "sentence-correction",
+    "name": "Sentence Correction",
+    "icon": "SC",
+    "category": "english-urdu",
+    "description": "Error spotting and sentence improvement for English papers.",
+    "exams": [
+      "css",
+      "ppsc",
+      "fpsc",
+      "nts",
+      "sat"
+    ],
+    "order": 86,
+    "status": "active"
+  },
+  {
+    "id": "comprehension",
+    "name": "Comprehension",
+    "icon": "CO",
+    "category": "english-urdu",
+    "description": "Reading passages, main idea, inference and cloze tests.",
+    "exams": [
+      "css",
+      "ppsc",
+      "fpsc",
+      "nts",
+      "ielts",
+      "toefl",
+      "sat",
+      "gre"
+    ],
+    "order": 87,
+    "status": "active"
+  },
+  {
+    "id": "computer-engineering",
+    "name": "Computer Engineering",
+    "icon": "CE",
+    "category": "engineering",
+    "description": "Digital logic, computer architecture and embedded systems.",
+    "exams": [
+      "nts",
+      "ecat",
+      "fpsc",
+      "ppsc"
+    ],
+    "order": 88,
+    "status": "active"
+  },
+  {
+    "id": "mbbs",
+    "name": "MBBS",
+    "icon": "MB",
+    "category": "medical",
+    "description": "Medical entry and professional content for the Bachelor of Medicine & Bachelor of Surgery.",
+    "exams": [
+      "mdcat",
+      "fpsc"
+    ],
+    "order": 89,
+    "status": "active"
+  },
+  {
+    "id": "bds",
+    "name": "BDS",
+    "icon": "BD",
+    "category": "medical",
+    "description": "Dental curriculum content for the Bachelor of Dental Surgery.",
+    "exams": [
+      "mdcat",
+      "fpsc"
+    ],
+    "order": 90,
+    "status": "active"
+  },
+  {
+    "id": "dpt",
+    "name": "DPT",
+    "icon": "DP",
+    "category": "medical",
+    "description": "Doctor of Physical Therapy content: anatomy, kinesiology and therapeutics.",
+    "exams": [
+      "mdcat"
+    ],
+    "order": 91,
+    "status": "active"
+  },
+  {
+    "id": "pharmacology",
+    "name": "Pharmacology",
+    "icon": "PH",
+    "category": "medical",
+    "description": "Pharmacokinetics, drug classes and clinical pharmacology.",
+    "exams": [
+      "mdcat",
+      "fpsc",
+      "ppsc"
+    ],
+    "order": 92,
+    "status": "active"
+  },
+  {
+    "id": "general-anatomy",
+    "name": "General Anatomy",
+    "icon": "GA",
+    "category": "medical",
+    "description": "Human body systems, organs and their structure and function.",
+    "exams": [
+      "mdcat",
+      "fpsc",
+      "ppsc"
+    ],
+    "order": 93,
+    "status": "active"
+  },
+  {
+    "id": "oral-anatomy",
+    "name": "Oral Anatomy",
+    "icon": "OA",
+    "category": "medical",
+    "description": "Teeth morphology, oral cavity and head & neck anatomy.",
+    "exams": [
+      "mdcat",
+      "fpsc"
+    ],
+    "order": 94,
+    "status": "active"
+  },
+  {
+    "id": "oral-histology",
+    "name": "Oral Histology",
+    "icon": "OH",
+    "category": "medical",
+    "description": "Microscopic structure of oral tissues and tooth development.",
+    "exams": [
+      "mdcat",
+      "fpsc"
+    ],
+    "order": 95,
+    "status": "active"
+  },
+  {
+    "id": "oral-pathology",
+    "name": "Oral Pathology",
+    "icon": "OP",
+    "category": "medical",
+    "description": "Oral lesions, dental caries, periodontal disease and oral conditions.",
+    "exams": [
+      "mdcat",
+      "fpsc"
+    ],
+    "order": 96,
+    "status": "active"
+  },
+  {
+    "id": "hrm",
+    "name": "HRM",
+    "icon": "HR",
+    "category": "management",
+    "description": "Human resource management: planning, recruitment, training and employee relations.",
+    "exams": [
+      "fpsc",
+      "ppsc",
+      "ib",
+      "banking"
+    ],
+    "order": 97,
+    "status": "active"
+  },
+  {
+    "id": "marketing",
+    "name": "Marketing",
+    "icon": "MK",
+    "category": "management",
+    "description": "Marketing mix, segmentation, branding, pricing and digital marketing.",
+    "exams": [
+      "fpsc",
+      "ppsc",
+      "ib",
+      "banking"
+    ],
+    "order": 98,
+    "status": "active"
+  },
+  {
+    "id": "world-history",
+    "name": "World History",
+    "icon": "WH",
+    "category": "social-sciences",
+    "description": "Ancient civilizations, medieval empires, world wars and the modern world.",
+    "exams": [
+      "css",
+      "pms",
+      "fpsc",
+      "nts"
+    ],
+    "order": 99,
+    "status": "active"
+  },
+  {
+    "id": "pakistan-history",
+    "name": "Pakistan History",
+    "icon": "PH",
+    "category": "social-sciences",
+    "description": "Muslim rule in India, the freedom movement and Pakistan's post-1947 history.",
+    "exams": [
+      "css",
+      "pms",
+      "ppsc",
+      "fpsc",
+      "nts"
+    ],
+    "order": 100,
+    "status": "active"
+  },
+  {
+    "id": "machine-learning",
+    "name": "Machine Learning",
+    "icon": "ML",
+    "category": "computer-it",
+    "description": "Supervised and unsupervised learning, algorithms, evaluation and tuning.",
+    "exams": [
+      "ib",
+      "fpsc",
+      "ppsc"
+    ],
+    "order": 101,
+    "status": "active"
+  },
+  {
+    "id": "deep-learning",
+    "name": "Deep Learning",
+    "icon": "DL",
+    "category": "computer-it",
+    "description": "Neural networks, CNNs, RNNs, transformers and large language models.",
+    "exams": [
+      "ib",
+      "fpsc"
+    ],
+    "order": 102,
+    "status": "active"
+  },
+  {
+    "id": "ethical-hacking",
+    "name": "Ethical Hacking",
+    "icon": "EH",
+    "category": "computer-it",
+    "description": "Security fundamentals, penetration testing and defensive practices.",
+    "exams": [
+      "ib",
+      "fpsc"
+    ],
+    "order": 103,
+    "status": "active"
+  },
+  {
+    "id": "devops",
+    "name": "DevOps",
+    "icon": "DO",
+    "category": "computer-it",
+    "description": "CI/CD, infrastructure as code and monitoring practices.",
+    "exams": [
+      "ib",
+      "fpsc",
+      "banking"
+    ],
+    "order": 104,
+    "status": "active"
+  },
+  {
+    "id": "big-data",
+    "name": "Big Data",
+    "icon": "BD",
+    "category": "computer-it",
+    "description": "Big data fundamentals, Hadoop ecosystem and processing frameworks.",
+    "exams": [
+      "ib",
+      "fpsc"
+    ],
+    "order": 105,
+    "status": "active"
+  },
+  {
+    "id": "database",
+    "name": "Database",
+    "icon": "DB",
+    "category": "computer-it",
+    "description": "Relational databases, normalization, design and administration.",
+    "exams": [
+      "ib",
+      "fpsc",
+      "nts",
+      "banking"
+    ],
+    "order": 106,
+    "status": "active"
+  },
+  {
+    "id": "sql",
+    "name": "SQL",
+    "icon": "SQ",
+    "category": "computer-it",
+    "description": "Structured Query Language: queries, joins, aggregation and optimization.",
+    "exams": [
+      "ib",
+      "fpsc",
+      "nts"
+    ],
+    "order": 107,
+    "status": "active"
+  },
+  {
+    "id": "windows",
+    "name": "Windows",
+    "icon": "WN",
+    "category": "computer-it",
+    "description": "Windows operating system: desktop, files, settings and administration.",
+    "exams": [
+      "fpsc",
+      "ppsc",
+      "nts"
+    ],
+    "order": 108,
+    "status": "active"
+  },
+  {
+    "id": "linux",
+    "name": "Linux",
+    "icon": "LX",
+    "category": "computer-it",
+    "description": "Linux command line, file system, administration and shell scripting.",
+    "exams": [
+      "ib",
+      "fpsc",
+      "nts"
+    ],
+    "order": 109,
+    "status": "active"
+  },
+  {
+    "id": "html",
+    "name": "HTML",
+    "icon": "HT",
+    "category": "computer-it",
+    "description": "HyperText Markup Language: structure, forms, media and semantic markup.",
+    "exams": [
+      "ib",
+      "fpsc",
+      "nts"
+    ],
+    "order": 110,
+    "status": "active"
+  },
+  {
+    "id": "css",
+    "name": "CSS",
+    "icon": "CS",
+    "category": "computer-it",
+    "description": "Cascading Style Sheets: selectors, layout, flexbox, grid and responsive design.",
+    "exams": [
+      "ib",
+      "fpsc",
+      "nts"
+    ],
+    "order": 111,
+    "status": "active"
+  },
+  {
+    "id": "javascript",
+    "name": "JavaScript",
+    "icon": "JS",
+    "category": "computer-it",
+    "description": "JavaScript fundamentals, DOM, events, ES6+ and async programming.",
+    "exams": [
+      "ib",
+      "fpsc",
+      "nts"
+    ],
+    "order": 112,
+    "status": "active"
+  },
+  {
+    "id": "typescript",
+    "name": "TypeScript",
+    "icon": "TS",
+    "category": "computer-it",
+    "description": "TypeScript types, interfaces, generics and compilation.",
+    "exams": [
+      "ib",
+      "fpsc"
+    ],
+    "order": 113,
+    "status": "active"
+  },
+  {
+    "id": "bootstrap",
+    "name": "Bootstrap",
+    "icon": "BT",
+    "category": "computer-it",
+    "description": "Bootstrap grid system, components, utilities and theming.",
+    "exams": [
+      "ib",
+      "fpsc",
+      "nts"
+    ],
+    "order": 114,
+    "status": "active"
+  },
+  {
+    "id": "tailwind-css",
+    "name": "Tailwind CSS",
+    "icon": "TW",
+    "category": "computer-it",
+    "description": "Tailwind utility classes, layout utilities and responsive design.",
+    "exams": [
+      "ib",
+      "fpsc"
+    ],
+    "order": 115,
+    "status": "active"
+  },
+  {
+    "id": "react",
+    "name": "React",
+    "icon": "RE",
+    "category": "computer-it",
+    "description": "React components, props, state, hooks and the React ecosystem.",
+    "exams": [
+      "ib",
+      "fpsc",
+      "nts"
+    ],
+    "order": 116,
+    "status": "active"
+  },
+  {
+    "id": "next-js",
+    "name": "Next.js",
+    "icon": "NX",
+    "category": "computer-it",
+    "description": "Next.js pages, routing, data fetching and production features.",
+    "exams": [
+      "ib",
+      "fpsc"
+    ],
+    "order": 117,
+    "status": "active"
+  },
+  {
+    "id": "vue-js",
+    "name": "Vue.js",
+    "icon": "VU",
+    "category": "computer-it",
+    "description": "Vue template syntax, components, composition API and router.",
+    "exams": [
+      "ib",
+      "fpsc"
+    ],
+    "order": 118,
+    "status": "active"
+  },
+  {
+    "id": "angular",
+    "name": "Angular",
+    "icon": "AG",
+    "category": "computer-it",
+    "description": "Angular components, modules, templates, services and dependency injection.",
+    "exams": [
+      "ib",
+      "fpsc"
+    ],
+    "order": 119,
+    "status": "active"
+  },
+  {
+    "id": "node-js",
+    "name": "Node.js",
+    "icon": "NO",
+    "category": "computer-it",
+    "description": "Node.js event loop, modules, npm and backend development.",
+    "exams": [
+      "ib",
+      "fpsc"
+    ],
+    "order": 120,
+    "status": "active"
+  },
+  {
+    "id": "express-js",
+    "name": "Express.js",
+    "icon": "EX",
+    "category": "computer-it",
+    "description": "Express routing, middleware, templates and error handling.",
+    "exams": [
+      "ib",
+      "fpsc"
+    ],
+    "order": 121,
+    "status": "active"
+  },
+  {
+    "id": "php",
+    "name": "PHP",
+    "icon": "PH",
+    "category": "computer-it",
+    "description": "PHP syntax, arrays, strings, forms, sessions and database access.",
+    "exams": [
+      "ib",
+      "fpsc",
+      "nts"
+    ],
+    "order": 122,
+    "status": "active"
+  },
+  {
+    "id": "laravel",
+    "name": "Laravel",
+    "icon": "LA",
+    "category": "computer-it",
+    "description": "Laravel routing, controllers, Blade, Eloquent ORM and authentication.",
+    "exams": [
+      "ib",
+      "fpsc"
+    ],
+    "order": 123,
+    "status": "active"
+  },
+  {
+    "id": "python",
+    "name": "Python",
+    "icon": "PY",
+    "category": "computer-it",
+    "description": "Python syntax, data structures, functions, modules and libraries.",
+    "exams": [
+      "ib",
+      "fpsc",
+      "nts"
+    ],
+    "order": 124,
+    "status": "active"
+  },
+  {
+    "id": "django",
+    "name": "Django",
+    "icon": "DJ",
+    "category": "computer-it",
+    "description": "Django models, ORM, views, URLs, templates, forms and admin.",
+    "exams": [
+      "ib",
+      "fpsc"
+    ],
+    "order": 125,
+    "status": "active"
+  },
+  {
+    "id": "flask",
+    "name": "Flask",
+    "icon": "FL",
+    "category": "computer-it",
+    "description": "Flask app structure, routes, templates, forms and REST APIs.",
+    "exams": [
+      "ib",
+      "fpsc"
+    ],
+    "order": 126,
+    "status": "active"
+  },
+  {
+    "id": "java",
+    "name": "Java",
+    "icon": "JV",
+    "category": "computer-it",
+    "description": "Java syntax, OOP, collections, exceptions and multithreading.",
+    "exams": [
+      "ib",
+      "fpsc",
+      "nts"
+    ],
+    "order": 127,
+    "status": "active"
+  },
+  {
+    "id": "spring-boot",
+    "name": "Spring Boot",
+    "icon": "SB",
+    "category": "computer-it",
+    "description": "Spring dependency injection, starters, REST controllers and JPA.",
+    "exams": [
+      "ib",
+      "fpsc"
+    ],
+    "order": 128,
+    "status": "active"
+  },
+  {
+    "id": "c",
+    "name": "C Programming",
+    "icon": "CP",
+    "category": "computer-it",
+    "description": "C syntax, pointers, arrays, functions and memory management.",
+    "exams": [
+      "ib",
+      "fpsc",
+      "ecat"
+    ],
+    "order": 129,
+    "status": "active"
+  },
+  {
+    "id": "cpp",
+    "name": "C++",
+    "icon": "C+",
+    "category": "computer-it",
+    "description": "C++ classes, inheritance, templates, STL and memory management.",
+    "exams": [
+      "ib",
+      "fpsc",
+      "ecat"
+    ],
+    "order": 130,
+    "status": "active"
+  },
+  {
+    "id": "csharp",
+    "name": "C#",
+    "icon": "C#",
+    "category": "computer-it",
+    "description": "C# syntax, OOP, LINQ and async programming.",
+    "exams": [
+      "ib",
+      "fpsc"
+    ],
+    "order": 131,
+    "status": "active"
+  },
+  {
+    "id": "dotnet",
+    "name": ".NET",
+    "icon": "DN",
+    "category": "computer-it",
+    "description": ".NET runtime, ASP.NET Core, EF Core and middleware.",
+    "exams": [
+      "ib",
+      "fpsc"
+    ],
+    "order": 132,
+    "status": "active"
+  },
+  {
+    "id": "go",
+    "name": "Go",
+    "icon": "GO",
+    "category": "computer-it",
+    "description": "Go syntax, functions, packages, goroutines and interfaces.",
+    "exams": [
+      "ib",
+      "fpsc"
+    ],
+    "order": 133,
+    "status": "active"
+  },
+  {
+    "id": "rust",
+    "name": "Rust",
+    "icon": "RS",
+    "category": "computer-it",
+    "description": "Rust ownership, borrowing, structs, traits and error handling.",
+    "exams": [
+      "ib",
+      "fpsc"
+    ],
+    "order": 134,
+    "status": "active"
+  },
+  {
+    "id": "git-github",
+    "name": "Git & GitHub",
+    "icon": "GT",
+    "category": "computer-it",
+    "description": "Git repositories, branches, merging and GitHub collaboration.",
+    "exams": [
+      "ib",
+      "fpsc"
+    ],
+    "order": 135,
+    "status": "active"
+  },
+  {
+    "id": "docker",
+    "name": "Docker",
+    "icon": "DK",
+    "category": "computer-it",
+    "description": "Docker images, containers, Dockerfile, volumes and Compose.",
+    "exams": [
+      "ib",
+      "fpsc"
+    ],
+    "order": 136,
+    "status": "active"
+  },
+  {
+    "id": "kubernetes",
+    "name": "Kubernetes",
+    "icon": "K8",
+    "category": "computer-it",
+    "description": "Kubernetes pods, deployments, services, config and scaling.",
+    "exams": [
+      "ib",
+      "fpsc"
+    ],
+    "order": 137,
+    "status": "active"
+  },
+  {
+    "id": "rest-api",
+    "name": "REST API",
+    "icon": "RA",
+    "category": "computer-it",
+    "description": "REST fundamentals, HTTP, API design, versioning and security.",
+    "exams": [
+      "ib",
+      "fpsc"
+    ],
+    "order": 138,
+    "status": "active"
+  },
+  {
+    "id": "graphql",
+    "name": "GraphQL",
+    "icon": "GQ",
+    "category": "computer-it",
+    "description": "GraphQL schema, types, queries, mutations, resolvers and subscriptions.",
+    "exams": [
+      "ib",
+      "fpsc"
+    ],
+    "order": 139,
+    "status": "active"
+  },
+  {
+    "id": "mdcat",
+    "name": "MDCAT",
+    "icon": "MD",
+    "category": "entry-tests",
+    "description": "Medical & Dental College Admission Test: biology, chemistry, physics and English.",
+    "exams": [
+      "mdcat"
+    ],
+    "order": 140,
+    "status": "active"
+  },
+  {
+    "id": "ecat",
+    "name": "ECAT",
+    "icon": "EC",
+    "category": "entry-tests",
+    "description": "Engineering College Admission Test: mathematics, physics and chemistry.",
+    "exams": [
+      "ecat"
+    ],
+    "order": 141,
+    "status": "active"
+  },
+  {
+    "id": "lat",
+    "name": "LAT",
+    "icon": "LT",
+    "category": "entry-tests",
+    "description": "Law Admission Test: English, Islamic studies and general knowledge.",
+    "exams": [
+      "lat"
+    ],
+    "order": 142,
+    "status": "active"
+  },
+  {
+    "id": "gat",
+    "name": "GAT",
+    "icon": "GA",
+    "category": "entry-tests",
+    "description": "Graduate Assessment Test: quantitative, verbal and analytical reasoning.",
+    "exams": [
+      "gat"
+    ],
+    "order": 143,
+    "status": "active"
+  },
+  {
+    "id": "gre",
+    "name": "GRE",
+    "icon": "GE",
+    "category": "entry-tests",
+    "description": "Graduate Record Examination: verbal reasoning and quantitative reasoning.",
+    "exams": [
+      "gre"
+    ],
+    "order": 144,
+    "status": "active"
+  },
+  {
+    "id": "ielts",
+    "name": "IELTS",
+    "icon": "IL",
+    "category": "entry-tests",
+    "description": "International English Language Testing System: all four skills.",
+    "exams": [
+      "ielts"
+    ],
+    "order": 145,
+    "status": "active"
+  },
+  {
+    "id": "toefl",
+    "name": "TOEFL",
+    "icon": "TF",
+    "category": "entry-tests",
+    "description": "Test of English as a Foreign Language: reading, listening, speaking and writing.",
+    "exams": [
+      "toefl"
+    ],
+    "order": 146,
+    "status": "active"
+  },
+  {
+    "id": "sat",
+    "name": "SAT",
+    "icon": "ST",
+    "category": "entry-tests",
+    "description": "Scholastic Assessment Test: reading, writing & language and math.",
+    "exams": [
+      "sat"
+    ],
+    "order": 147,
+    "status": "active"
+  }
+]

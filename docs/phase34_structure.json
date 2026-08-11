@@ -1,0 +1,11 @@
+{
+ "decision": "NO source reorganization performed - the static-first layout (site at repo root) is required for GitHub Pages and is documented in build.yml upload list. Only docs/ was reorganized per module 12.",
+ "site_structure": "repo root = static site (index.html, admin.html, assets/, data/, subjects/, chapters/, sw.js, manifest.webmanifest) + optional Node API layer (server.js, db/, ai/) + tooling (scripts/, tests/, pipeline/, kg/) + deployment (android/, desktop/, release/, Dockerfile, nginx.conf, docker-compose.yml, ecosystem.config.js) + evidence (docs/, .github/)",
+ "docs_reorg": {
+  "docs_root": "Phase 34 deliverables (14 files)",
+  "docs_current": "Phase 31-33 reports + operational guides (90 files)",
+  "docs_archive": "Phase 11-30 reports + dated historical batch reports (277 files + audit/)",
+  "note": "content preserved; nothing deleted; scripts only write new docs/ files so paths remain valid"
+ },
+ "moved_nothing_else": true
+}

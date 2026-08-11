@@ -1,0 +1,16 @@
+{
+  "module": "P32",
+  "facts": {
+    "loading": "MCQs fetched per view / random endpoint; NOT preloaded en masse into browser memory",
+    "browser_memory_policy": "state.mcqs holds current view batch only (PAGE_SIZE 20 browse; practice/mock/quiz fetch their sets on demand)",
+    "repeated_data_loading": "index JSONs fetched once (preload) — no re-fetch observed",
+    "db_side": "read queries verified in sandbox (47/47); SELECT-based; production DB untouched"
+  },
+  "content_unchanged": true,
+  "actions": [],
+  "status": "PASS — no thousands-of-MCQs-in-memory pattern; question content untouched",
+  "generated_at": "2026-08-11T03:48:45.675Z",
+  "tool": "scripts/phase32 (reporter)",
+  "methodology": "Headless Chrome 1366x900/390x844, localhost static server (no throttling, lab-grade), fresh profile per run; interactive runs perform scripted user flows; static runs measure clean initial load.",
+  "environment_note": "Lab-grade localhost measurements; values are real, not fabricated; production network conditions will differ. LCP/CLS/INP/TTFB captured via PerformanceObserver wrappers in test-only injection script. FCP not observable in this toolchain (paint entries not exposed) -> NOT_MEASURABLE."
+}

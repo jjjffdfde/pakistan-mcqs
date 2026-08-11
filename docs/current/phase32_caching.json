@@ -1,0 +1,50 @@
+{
+  "module": "P32",
+  "before": {
+    "server_cache_headers": "Cache-Control: no-store on everything (test server)",
+    "sw_cache": "pmh v1.0.0 / cache version 001 with shell+data+api+mcq+search+img caches, versioned invalidation"
+  },
+  "changes": [
+    {
+      "id": "P32-OPT-001",
+      "detail": "server.cjs now emits ETag (size+mtime) + Cache-Control: HTML no-cache (revalidate), JS/CSS/JSON public max-age=86400, images/fonts public max-age=604800 immutable; If-None-Match -> 304"
+    },
+    {
+      "id": "P32-OPT-003",
+      "detail": "sw.js SW_VERSION v1.0.0->v1.0.1, CACHE_VERSION 001->002 (invalidates precache of changed style.css)"
+    }
+  ],
+  "measured_repeat_visit": [
+    {
+      "page": "index.html",
+      "first_bytes": 406080,
+      "second_bytes": 4824
+    },
+    {
+      "page": "assets/css/style.css",
+      "first_bytes": 0,
+      "second_bytes": 0
+    },
+    {
+      "page": "assets/js/app.js",
+      "first_bytes": 0,
+      "second_bytes": 0
+    },
+    {
+      "page": "data/subjects.json",
+      "first_bytes": 0,
+      "second_bytes": 0
+    }
+  ],
+  "repeat_visit_summary": "index.html full reload: 406,080 B transferred on first visit -> 4,824 B on second visit (304 HTML + zero asset transfers) = -98.8% repeat-visit traffic",
+  "sw_tests": {
+    "offline": "PASS (phase28 runtime, offline.html served from cache)",
+    "stale_update": "cache-version bump invalidates on next SW update (standard versioned cache pattern)",
+    "broken_cache": "no broken-cache evidence; shell assets all exist (phase28_assets PASS list)"
+  },
+  "status": "OPTIMIZED",
+  "generated_at": "2026-08-11T03:48:45.675Z",
+  "tool": "scripts/phase32 (reporter)",
+  "methodology": "Headless Chrome 1366x900/390x844, localhost static server (no throttling, lab-grade), fresh profile per run; interactive runs perform scripted user flows; static runs measure clean initial load.",
+  "environment_note": "Lab-grade localhost measurements; values are real, not fabricated; production network conditions will differ. LCP/CLS/INP/TTFB captured via PerformanceObserver wrappers in test-only injection script. FCP not observable in this toolchain (paint entries not exposed) -> NOT_MEASURABLE."
+}

@@ -1,0 +1,79 @@
+{
+  "step": "site_audit",
+  "generated_at": "2026-08-10T16:56:04",
+  "summary": {
+    "total_files": 2605,
+    "html_pages": 1129,
+    "css_files": 1,
+    "js_files": 158,
+    "image_files": 19,
+    "root_html_pages": 8,
+    "subject_pages": 244,
+    "chapter_pages": 876,
+    "api_routes_defined": 24,
+    "broken_references": 0,
+    "duplicate_content_groups": 4,
+    "utf8_mojibake_pages": 0,
+    "pages_missing_lang": 0,
+    "pages_missing_viewport": 4,
+    "pages_missing_title": 0,
+    "pages_missing_description": 0,
+    "pages_missing_canonical": 0
+  },
+  "api_routes": [
+    "/api/health",
+    "/api/stats",
+    "/api/search",
+    "/api/browse",
+    "/api/mcqs",
+    "/api/random",
+    "/api/subjects",
+    "/api/chapters",
+    "/api/topics",
+    "/api/categories",
+    "/api/exams",
+    "/api/quizzes",
+    "/api/mocktests",
+    "/api/pastpapers",
+    "/api/bookmarks",
+    "/api/bookmarks",
+    "/api/history",
+    "/api/history",
+    "/api/leaderboard",
+    "/api/analytics",
+    "/api/import",
+    "/api/export",
+    "/api/backup",
+    "/api/restore"
+  ],
+  "broken_references": [],
+  "duplicate_content_groups": [
+    [
+      "android/ic_launcher-512.png",
+      "assets/icons/maskable-512.png"
+    ],
+    [
+      "assets/icons/icon.svg",
+      "assets/icons/maskable.svg"
+    ],
+    [
+      "db/pakistan-mcqs.rebuilt.sqlite-shm",
+      "db/pakistan-mcqs.sqlite-shm"
+    ],
+    [
+      "server-out.log",
+      "srv-out.log"
+    ]
+  ],
+  "encoding_issues": [],
+  "pages_missing_lang": [],
+  "pages_missing_viewport": [
+    "phase-functional-repair.html",
+    "quiz-audit-report.html",
+    "scripts/phase28/probe.html",
+    "subject-mcq-distribution-report.html"
+  ],
+  "pages_missing_title": [],
+  "pages_missing_description": [],
+  "pages_missing_canonical": []
+}

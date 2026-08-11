@@ -1,0 +1,23 @@
+{
+  "phase": 18,
+  "generated_at": "2026-08-05T12:30:07",
+  "statistics": {
+    "total_mcqs_in_db": 872603,
+    "total_concepts": 1744,
+    "total_blueprints": 107,
+    "total_distractor_pools": 1744,
+    "total_distractor_items": 33662,
+    "total_learning_objectives": 71501,
+    "total_exam_mappings": 15952,
+    "generation_candidates": 107,
+    "candidates_composed": 61,
+    "duplicates_prevented": 2,
+    "approval_queue_size": 37,
+    "coverage_increase": 37,
+    "validation_score": 0.627,
+    "integrity_score": 0.607,
+    "subjects_processed": 12,
+    "exams_processed": 7,
+    "concepts_processed": 37
+  }
+}

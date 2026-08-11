@@ -1,0 +1,62 @@
+# ============================================================
+# Phase 26 - STEP 9: Pakistan MCQS Hub — Compose (Enterprise)
+#   api : node server.js (SQLite read-only)          [internal]
+#   web : nginx static site + proxy /api -> api:8765  [public:80]
+# Usage: docker compose up -d --build
+# ============================================================
+name: pakistan-mcqs-hub
+
+services:
+  api:
+    image: node:22-alpine
+    container_name: pakistan-mcqs-api
+    restart: unless-stopped
+    working_dir: /app
+    command: ["node", "server.js"]
+    volumes:
+      - ./:/app:ro
+      - ./db:/app/db:ro
+    environment:
+      MCQS_PORT: "8765"
+    security_opt:
+      - no-new-privileges:true
+    read_only: true
+    tmpfs:
+      - /tmp
+    healthcheck:
+      test: ["CMD", "node", "-e", "fetch('http://127.0.0.1:8765/api/health').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 10s
+
+  web:
+    build: .
+    container_name: pakistan-mcqs-web
+    restart: unless-stopped
+    ports:
+      - "80:80"
+    depends_on:
+      api:
+        condition: service_healthy
+    security_opt:
+      - no-new-privileges:true
+    read_only: true
+    tmpfs:
+      - /tmp
+      - /var/cache/nginx
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://127.0.0.1/api/health"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 10s
+
+  verify:
+    image: node:22-alpine
+    container_name: pakistan-mcqs-verify
+    profiles: ["verify"]
+    working_dir: /repo
+    command: ["sh", "-c", "node scripts/lint.cjs && node backup/verify-backup.js && node scripts/benchmark.cjs"]
+    volumes:
+      - .:/repo:ro

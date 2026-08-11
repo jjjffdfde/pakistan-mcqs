@@ -1,0 +1,217 @@
+{
+  "step": "knowledge_api_layer",
+  "generated_at": "2026-08-05T12:22:17",
+  "summary": {
+    "total_services": 10,
+    "services": [
+      "concept_search",
+      "concept_graph",
+      "prerequisite_chain",
+      "learning_path",
+      "similarity",
+      "exam_intelligence",
+      "recommendations",
+      "search",
+      "analytics",
+      "integrity"
+    ]
+  },
+  "services": {
+    "concept_search": {
+      "description": "Search concepts by name, domain, difficulty, bloom, tags",
+      "endpoint": "GET /api/v1/concepts/search?q=&domain=&difficulty=&bloom=&subject_id=&limit=50",
+      "parameters": {
+        "q": {
+          "type": "string",
+          "description": "Search query against concept name and slug"
+        },
+        "domain": {
+          "type": "string",
+          "description": "Filter by domain"
+        },
+        "difficulty": {
+          "type": "string",
+          "description": "Filter by difficulty level"
+        },
+        "bloom": {
+          "type": "string",
+          "description": "Filter by Bloom taxonomy level"
+        },
+        "subject_id": {
+          "type": "string",
+          "description": "Filter by subject"
+        },
+        "limit": {
+          "type": "integer",
+          "description": "Maximum results",
+          "default": 50
+        }
+      },
+      "implementation": "Full-text search across kg_concepts.name, kg_concepts.slug, kg_concepts.domain, kg_concepts.tags using SQL LIKE and exact match filters",
+      "data_source": "kg_concepts table"
+    },
+    "concept_graph": {
+      "description": "Get concept relationships and connections",
+      "endpoint": "GET /api/v1/concepts/{id}/graph",
+      "parameters": {
+        "id": {
+          "type": "integer",
+          "description": "Concept ID"
+        },
+        "depth": {
+          "type": "integer",
+          "description": "Relationship depth (1-3)",
+          "default": 1
+        }
+      },
+      "implementation": "Traverse kg_concept_relations and kg_prerequisites edges up to specified depth",
+      "data_source": "kg_concept_relations, kg_prerequisites, kg_concepts"
+    },
+    "prerequisite_chain": {
+      "description": "Get prerequisite chain for a concept",
+      "endpoint": "GET /api/v1/concepts/{id}/prerequisites",
+      "parameters": {
+        "id": {
+          "type": "integer",
+          "description": "Concept ID"
+        },
+        "direction": {
+          "type": "string",
+          "description": "upstream or downstream",
+          "enum": [
+            "upstream",
+            "downstream"
+          ],
+          "default": "upstream"
+        }
+      },
+      "implementation": "BFS traversal of kg_prerequisites and kg_concept_relations edges",
+      "data_source": "kg_prerequisites, kg_concept_relations, kg_concepts"
+    },
+    "learning_path": {
+      "description": "Get learning path for a subject",
+      "endpoint": "GET /api/v1/paths/{subject_id}",
+      "parameters": {
+        "subject_id": {
+          "type": "string",
+          "description": "Subject identifier"
+        }
+      },
+      "implementation": "Return topologically sorted concept sequence from step 3 learning paths",
+      "data_source": "phase17_learning_paths.json"
+    },
+    "similarity": {
+      "description": "Get similar concepts",
+      "endpoint": "GET /api/v1/concepts/{id}/similar?limit=10",
+      "parameters": {
+        "id": {
+          "type": "integer",
+          "description": "Concept ID"
+        },
+        "limit": {
+          "type": "integer",
+          "description": "Max similar concepts",
+          "default": 10
+        }
+      },
+      "implementation": "Look up from phase17_similarity_graph.json top pairs",
+      "data_source": "phase17_similarity_graph.json"
+    },
+    "exam_intelligence": {
+      "description": "Get exam analysis data",
+      "endpoint": "GET /api/v1/exams/intelligence",
+      "parameters": {
+        "exam_id": {
+          "type": "string",
+          "description": "Optional exam filter"
+        },
+        "subject_id": {
+          "type": "string",
+          "description": "Optional subject filter"
+        }
+      },
+      "implementation": "Return exam mapping analysis, year trends, difficulty distribution",
+      "data_source": "phase17_exam_intelligence.json"
+    },
+    "recommendations": {
+      "description": "Get adaptive recommendations",
+      "endpoint": "GET /api/v1/recommendations?subject_id=&limit=20",
+      "parameters": {
+        "subject_id": {
+          "type": "string",
+          "description": "Filter by subject"
+        },
+        "limit": {
+          "type": "integer",
+          "description": "Max recommendations",
+          "default": 20
+        }
+      },
+      "implementation": "Return prioritized recommendations from step 7",
+      "data_source": "phase17_recommendation_engine.json"
+    },
+    "search": {
+      "description": "Semantic search across all knowledge entities",
+      "endpoint": "GET /api/v1/search?q=&type=&limit=20",
+      "parameters": {
+        "q": {
+          "type": "string",
+          "description": "Search query"
+        },
+        "type": {
+          "type": "string",
+          "description": "Filter by type",
+          "enum": [
+            "concept",
+            "micro_concept",
+            "objective",
+            "exam_mapping",
+            "all"
+          ],
+          "default": "all"
+        },
+        "limit": {
+          "type": "integer",
+          "description": "Max results",
+          "default": 20
+        }
+      },
+      "implementation": "Term index lookup from phase17_search_index.json",
+      "data_source": "phase17_search_index.json"
+    },
+    "analytics": {
+      "description": "Get knowledge analytics",
+      "endpoint": "GET /api/v1/analytics",
+      "parameters": {},
+      "implementation": "Return coverage, density, connectivity, distribution analytics",
+      "data_source": "phase17_analytics.json"
+    },
+    "integrity": {
+      "description": "Get knowledge integrity report",
+      "endpoint": "GET /api/v1/integrity",
+      "parameters": {},
+      "implementation": "Return integrity validation results",
+      "data_source": "phase17_integrity.json"
+    }
+  },
+  "api_specification": {
+    "version": "1.0.0",
+    "base_url": "/api/v1",
+    "authentication": "none (offline, local use only)",
+    "data_format": "JSON",
+    "rate_limiting": "not applicable (offline)",
+    "cors": "not applicable (offline)",
+    "endpoints": [
+      "concept_search",
+      "concept_graph",
+      "prerequisite_chain",
+      "learning_path",
+      "similarity",
+      "exam_intelligence",
+      "recommendations",
+      "search",
+      "analytics",
+      "integrity"
+    ]
+  }
+}

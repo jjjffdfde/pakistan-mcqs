@@ -1,0 +1,22 @@
+[
+ {
+  "file": "package.json",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {},
+  "note": "root package.json MISSING - will be created (zero-dependency project; workflows run node directly)"
+ },
+ {
+  "file": "desktop/package.json",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+   "start": "electron .",
+   "dist": "electron-builder --win nsis --win portable",
+   "dist:win": "electron-builder --win nsis",
+   "dist:win-portable": "electron-builder --win portable",
+   "dist:linux": "electron-builder --linux AppImage deb"
+  },
+  "note": "desktop Electron wrapper dependencies"
+ }
+]

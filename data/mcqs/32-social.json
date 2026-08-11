@@ -1,0 +1,542 @@
+[
+ {
+  "id": "whi-009",
+  "question": "The pyramids of Giza were built by the:",
+  "optionA": "ancient Egyptians",
+  "optionB": "Greeks",
+  "optionC": "Romans",
+  "optionD": "Persians",
+  "correctAnswer": "A",
+  "detailedExplanation": "The Great Pyramids are Egyptian monuments of the Old Kingdom.",
+  "difficulty": "easy",
+  "subject": "world-history",
+  "chapter": "world-history-ancient-medieval",
+  "topic": "t-492",
+  "subtopic": "fundamentals",
+  "exam": [
+   "css",
+   "pms",
+   "fpsc",
+   "nts"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "history"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "whi-010",
+  "question": "Hammurabi's Code belongs to ancient:",
+  "optionA": "Babylonia",
+  "optionB": "China",
+  "optionC": "India",
+  "optionD": "Greece",
+  "correctAnswer": "A",
+  "detailedExplanation": "Hammurabi, king of Babylon, issued one of the first written law codes.",
+  "difficulty": "easy",
+  "subject": "world-history",
+  "chapter": "world-history-ancient-medieval",
+  "topic": "t-492",
+  "subtopic": "fundamentals",
+  "exam": [
+   "css",
+   "pms",
+   "fpsc",
+   "nts"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "history"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "whi-011",
+  "question": "The Ottoman Empire was centered in:",
+  "optionA": "Anatolia (Turkey)",
+  "optionB": "Spain",
+  "optionC": "Iran",
+  "optionD": "Egypt",
+  "correctAnswer": "A",
+  "detailedExplanation": "The Ottomans ruled from Anatolia, expanding into Europe, Asia and Africa.",
+  "difficulty": "medium",
+  "subject": "world-history",
+  "chapter": "world-history-ancient-medieval",
+  "topic": "t-493",
+  "subtopic": "fundamentals",
+  "exam": [
+   "css",
+   "pms",
+   "fpsc",
+   "nts"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "history"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "whi-012",
+  "question": "The Renaissance began in:",
+  "optionA": "Italy",
+  "optionB": "France",
+  "optionC": "England",
+  "optionD": "Germany",
+  "correctAnswer": "A",
+  "detailedExplanation": "The Renaissance started in 14th-century Italy and spread across Europe.",
+  "difficulty": "medium",
+  "subject": "world-history",
+  "chapter": "world-history-modern-world",
+  "topic": "t-494",
+  "subtopic": "fundamentals",
+  "exam": [
+   "css",
+   "pms",
+   "fpsc",
+   "nts"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "history"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "whi-013",
+  "question": "World War I began in the year:",
+  "optionA": "1914",
+  "optionB": "1918",
+  "optionC": "1939",
+  "optionD": "1905",
+  "correctAnswer": "A",
+  "detailedExplanation": "WWI started in 1914 after the assassination of Archduke Franz Ferdinand.",
+  "difficulty": "medium",
+  "subject": "world-history",
+  "chapter": "world-history-modern-world",
+  "topic": "t-495",
+  "subtopic": "fundamentals",
+  "exam": [
+   "css",
+   "pms",
+   "fpsc",
+   "nts"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "history",
+   "ww1"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "whi-014",
+  "question": "World War II ended in:",
+  "optionA": "1945",
+  "optionB": "1940",
+  "optionC": "1950",
+  "optionD": "1939",
+  "correctAnswer": "A",
+  "detailedExplanation": "WWII ended in 1945 with the surrender of Germany and Japan.",
+  "difficulty": "easy",
+  "subject": "world-history",
+  "chapter": "world-history-modern-world",
+  "topic": "t-495",
+  "subtopic": "fundamentals",
+  "exam": [
+   "css",
+   "pms",
+   "fpsc",
+   "nts"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "history",
+   "ww2"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "whi-015",
+  "question": "The Berlin Wall fell in:",
+  "optionA": "1989",
+  "optionB": "1991",
+  "optionC": "1979",
+  "optionD": "1985",
+  "correctAnswer": "A",
+  "detailedExplanation": "The Berlin Wall fell in November 1989, preceding German reunification.",
+  "difficulty": "medium",
+  "subject": "world-history",
+  "chapter": "world-history-contemporary-era",
+  "topic": "t-496",
+  "subtopic": "fundamentals",
+  "exam": [
+   "css",
+   "pms",
+   "fpsc",
+   "nts"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "history",
+   "cold-war"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "whi-016",
+  "question": "The Cuban Missile Crisis occurred in:",
+  "optionA": "1962",
+  "optionB": "1958",
+  "optionC": "1970",
+  "optionD": "1955",
+  "correctAnswer": "A",
+  "detailedExplanation": "The 1962 crisis brought the US and USSR to the brink of nuclear war.",
+  "difficulty": "hard",
+  "subject": "world-history",
+  "chapter": "world-history-contemporary-era",
+  "topic": "t-496",
+  "subtopic": "fundamentals",
+  "exam": [
+   "css",
+   "pms",
+   "fpsc",
+   "nts"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "history",
+   "cold-war"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "phi-009",
+  "question": "The Mughal Empire was founded by:",
+  "optionA": "Babur",
+  "optionB": "Akbar",
+  "optionC": "Aurangzeb",
+  "optionD": "Shah Jahan",
+  "correctAnswer": "A",
+  "detailedExplanation": "Babur founded the Mughal Empire after the Battle of Panipat (1526).",
+  "difficulty": "easy",
+  "subject": "pakistan-history",
+  "chapter": "pakistan-history-pre-independence",
+  "topic": "t-498",
+  "subtopic": "fundamentals",
+  "exam": [
+   "css",
+   "pms",
+   "ppsc",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "history"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "phi-010",
+  "question": "The last Mughal emperor was:",
+  "optionA": "Bahadur Shah Zafar",
+  "optionB": "Shah Jahan",
+  "optionC": "Jahangir",
+  "optionD": "Akbar",
+  "correctAnswer": "A",
+  "detailedExplanation": "Bahadur Shah Zafar was deposed after the War of Independence 1857.",
+  "difficulty": "medium",
+  "subject": "pakistan-history",
+  "chapter": "pakistan-history-pre-independence",
+  "topic": "t-498",
+  "subtopic": "fundamentals",
+  "exam": [
+   "css",
+   "pms",
+   "ppsc",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "history"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "phi-011",
+  "question": "The All-India Muslim League was founded in:",
+  "optionA": "1906",
+  "optionB": "1857",
+  "optionC": "1940",
+  "optionD": "1920",
+  "correctAnswer": "A",
+  "detailedExplanation": "The Muslim League was founded in Dhaka in 1906.",
+  "difficulty": "easy",
+  "subject": "pakistan-history",
+  "chapter": "pakistan-history-pre-independence",
+  "topic": "t-499",
+  "subtopic": "fundamentals",
+  "exam": [
+   "css",
+   "pms",
+   "ppsc",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "history",
+   "muslim-league"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "phi-012",
+  "question": "The Lahore Resolution was passed in:",
+  "optionA": "1940",
+  "optionB": "1930",
+  "optionC": "1947",
+  "optionD": "1935",
+  "correctAnswer": "A",
+  "detailedExplanation": "The Pakistan Resolution was adopted in Lahore in March 1940.",
+  "difficulty": "easy",
+  "subject": "pakistan-history",
+  "chapter": "pakistan-history-pre-independence",
+  "topic": "t-499",
+  "subtopic": "fundamentals",
+  "exam": [
+   "css",
+   "pms",
+   "ppsc",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "history",
+   "resolution"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "phi-013",
+  "question": "Who proposed the Two-Nation Theory at Allahabad in 1930?",
+  "optionA": "Allama Iqbal",
+  "optionB": "Quaid-e-Azam",
+  "optionC": "Liaquat Ali",
+  "optionD": "Sir Syed",
+  "correctAnswer": "A",
+  "detailedExplanation": "Iqbal's 1930 Allahabad address articulated the vision for a Muslim state.",
+  "difficulty": "medium",
+  "subject": "pakistan-history",
+  "chapter": "pakistan-history-pre-independence",
+  "topic": "t-499",
+  "subtopic": "fundamentals",
+  "exam": [
+   "css",
+   "pms",
+   "ppsc",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "history"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "phi-014",
+  "question": "Pakistan became a republic in:",
+  "optionA": "1956",
+  "optionB": "1947",
+  "optionC": "1971",
+  "optionD": "1962",
+  "correctAnswer": "A",
+  "detailedExplanation": "The 1956 Constitution made Pakistan an Islamic Republic.",
+  "difficulty": "medium",
+  "subject": "pakistan-history",
+  "chapter": "pakistan-history-post-1947",
+  "topic": "t-500",
+  "subtopic": "fundamentals",
+  "exam": [
+   "css",
+   "pms",
+   "ppsc",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "history"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "phi-015",
+  "question": "Pakistan's first constitution was enforced in:",
+  "optionA": "1956",
+  "optionB": "1947",
+  "optionC": "1958",
+  "optionD": "1962",
+  "correctAnswer": "A",
+  "detailedExplanation": "The Constitution of 1956 was the first, adopted by the Constituent Assembly.",
+  "difficulty": "medium",
+  "subject": "pakistan-history",
+  "chapter": "pakistan-history-post-1947",
+  "topic": "t-501",
+  "subtopic": "fundamentals",
+  "exam": [
+   "css",
+   "pms",
+   "ppsc",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "history",
+   "constitution"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "phi-016",
+  "question": "The Green Revolution in Pakistan is associated with:",
+  "optionA": "high-yield wheat varieties",
+  "optionB": "the steel industry",
+  "optionC": "textile exports only",
+  "optionD": "IT parks",
+  "correctAnswer": "A",
+  "detailedExplanation": "Improved wheat varieties in the 1960s dramatically raised output.",
+  "difficulty": "hard",
+  "subject": "pakistan-history",
+  "chapter": "pakistan-history-modern-pakistan",
+  "topic": "t-503",
+  "subtopic": "fundamentals",
+  "exam": [
+   "css",
+   "pms",
+   "ppsc",
+   "fpsc"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "history",
+   "economy"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "soc-009",
+  "question": "Who is considered the founder of sociology?",
+  "optionA": "Auguste Comte",
+  "optionB": "Karl Marx only",
+  "optionC": "Sigmund Freud",
+  "optionD": "Max Weber only",
+  "correctAnswer": "A",
+  "detailedExplanation": "Comte coined the term 'sociology' in the 1830s.",
+  "difficulty": "medium",
+  "subject": "sociology",
+  "chapter": "so-basics",
+  "topic": "t-225",
+  "subtopic": "",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "css"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "sociology"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "soc-010",
+  "question": "The family is an example of a:",
+  "optionA": "primary social institution",
+  "optionB": "financial institution",
+  "optionC": "political party",
+  "optionD": "corporation",
+  "correctAnswer": "A",
+  "detailedExplanation": "The family is the primary institution for socialization.",
+  "difficulty": "medium",
+  "subject": "sociology",
+  "chapter": "so-basics",
+  "topic": "t-225",
+  "subtopic": "",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "css"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "sociology"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "soc-011",
+  "question": "Modernization refers to:",
+  "optionA": "the shift from traditional to industrial societies",
+  "optionB": "restoring old customs",
+  "optionC": "population decline",
+  "optionD": "urban planning only",
+  "correctAnswer": "A",
+  "detailedExplanation": "Modernization describes the broad transformation toward industrial, urban societies.",
+  "difficulty": "hard",
+  "subject": "sociology",
+  "chapter": "so-change",
+  "topic": "t-226",
+  "subtopic": "",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "css"
+  ],
+  "year": null,
+  "references": [],
+  "tags": [
+   "sociology"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ }
+]

@@ -1,0 +1,174 @@
+{
+  "step": "automation",
+  "generated_at": "2026-08-10T12:10:40.414Z",
+  "summary": {
+    "reminders": 5,
+    "schedule_days": 14,
+    "snapshot_taken": true,
+    "daily_summaries": 2,
+    "weekly_summaries": 1,
+    "status": "PASS"
+  },
+  "reminders": [
+    {
+      "type": "revision",
+      "title": "Spaced revisions due",
+      "items": 2,
+      "priority": 3
+    },
+    {
+      "type": "flashcards",
+      "title": "Flashcards due",
+      "items": 10,
+      "priority": 2
+    },
+    {
+      "type": "bookmarks",
+      "title": "Review bookmarked questions",
+      "items": 5,
+      "priority": 2
+    },
+    {
+      "type": "current-affairs",
+      "title": "Current affairs digest available",
+      "items": 116,
+      "priority": 1
+    },
+    {
+      "type": "streak",
+      "title": "Keep your streak alive",
+      "items": 1,
+      "priority": 1
+    }
+  ],
+  "revision_schedule": [
+    {
+      "date": "2026-08-11",
+      "revisions_due": 0,
+      "flashcards_due": 0,
+      "action": "practice"
+    },
+    {
+      "date": "2026-08-12",
+      "revisions_due": 0,
+      "flashcards_due": 0,
+      "action": "practice"
+    },
+    {
+      "date": "2026-08-13",
+      "revisions_due": 0,
+      "flashcards_due": 0,
+      "action": "practice"
+    },
+    {
+      "date": "2026-08-14",
+      "revisions_due": 0,
+      "flashcards_due": 0,
+      "action": "practice"
+    },
+    {
+      "date": "2026-08-15",
+      "revisions_due": 0,
+      "flashcards_due": 0,
+      "action": "practice"
+    },
+    {
+      "date": "2026-08-16",
+      "revisions_due": 0,
+      "flashcards_due": 0,
+      "action": "practice"
+    },
+    {
+      "date": "2026-08-17",
+      "revisions_due": 0,
+      "flashcards_due": 0,
+      "action": "practice"
+    },
+    {
+      "date": "2026-08-18",
+      "revisions_due": 0,
+      "flashcards_due": 0,
+      "action": "practice"
+    },
+    {
+      "date": "2026-08-19",
+      "revisions_due": 0,
+      "flashcards_due": 0,
+      "action": "practice"
+    },
+    {
+      "date": "2026-08-20",
+      "revisions_due": 0,
+      "flashcards_due": 0,
+      "action": "practice"
+    },
+    {
+      "date": "2026-08-21",
+      "revisions_due": 0,
+      "flashcards_due": 0,
+      "action": "practice"
+    },
+    {
+      "date": "2026-08-22",
+      "revisions_due": 0,
+      "flashcards_due": 0,
+      "action": "practice"
+    },
+    {
+      "date": "2026-08-23",
+      "revisions_due": 0,
+      "flashcards_due": 0,
+      "action": "practice"
+    },
+    {
+      "date": "2026-08-24",
+      "revisions_due": 0,
+      "flashcards_due": 0,
+      "action": "practice"
+    }
+  ],
+  "progress_snapshot": {
+    "timestamp": "2026-08-10T12:10:40.342Z",
+    "device": "default",
+    "total_attempts": 54,
+    "correct": 18,
+    "accuracy": 33,
+    "skipped": 1,
+    "profile_readiness": 62.5,
+    "profile_consistency": 50,
+    "target_exam": "CSS",
+    "due_revisions": 2,
+    "due_flashcards": 10,
+    "bookmarks": 5,
+    "current_affairs": 116,
+    "active_mcqs": 872621
+  },
+  "daily_summaries": [
+    {
+      "date": "2026-08-01",
+      "attempts": 49,
+      "correct": 16,
+      "skipped": 0,
+      "accuracy": 33,
+      "summary": "49 questions, 33% accuracy."
+    },
+    {
+      "date": "2026-08-04",
+      "attempts": 5,
+      "correct": 2,
+      "skipped": 1,
+      "accuracy": 40,
+      "summary": "5 questions, 40% accuracy (1 skipped)."
+    }
+  ],
+  "weekly_summaries": [
+    {
+      "week": "2026-W31",
+      "attempts": 54,
+      "correct": 18,
+      "accuracy": 33,
+      "summary": "54 questions across the week at 33% accuracy."
+    }
+  ],
+  "scheduling_policy": "SM-2 boxes: review on due date; failed => box 1; success => advance box (1,2,4,7,15,30+ days)."
+}

@@ -1,0 +1,981 @@
+{
+  "phase": 18,
+  "generated_at": "2026-08-05T12:30:07",
+  "validation_summary": {
+    "total_candidates": 59,
+    "passed": 37,
+    "failed": 22,
+    "pass_rate": 0.627,
+    "issue_type_counts": {
+      "low_confidence": 6,
+      "invalid_bloom": 18
+    },
+    "avg_confidence": 0.504
+  },
+  "validation_results": [
+    {
+      "mcq_id": "gen-accounting-15190-8916-0001",
+      "concept_id": 15190,
+      "blueprint_id": 8916,
+      "learning_objective_id": 281985,
+      "passed": false,
+      "issue_count": 1,
+      "issues": [
+        {
+          "type": "low_confidence",
+          "severity": "medium",
+          "message": "Confidence score 0.27 below threshold"
+        }
+      ],
+      "confidence_score": 0.27
+    },
+    {
+      "mcq_id": "gen-accounting-15191-8915-0002",
+      "concept_id": 15191,
+      "blueprint_id": 8915,
+      "learning_objective_id": 282107,
+      "passed": false,
+      "issue_count": 1,
+      "issues": [
+        {
+          "type": "invalid_bloom",
+          "severity": "high",
+          "message": "Invalid Bloom taxonomy: Recall"
+        }
+      ],
+      "confidence_score": 0.44999999999999996
+    },
+    {
+      "mcq_id": "gen-accounting-15192-8918-0003",
+      "concept_id": 15192,
+      "blueprint_id": 8918,
+      "learning_objective_id": 282144,
+      "passed": false,
+      "issue_count": 1,
+      "issues": [
+        {
+          "type": "invalid_bloom",
+          "severity": "high",
+          "message": "Invalid Bloom taxonomy: Recall"
+        }
+      ],
+      "confidence_score": 0.44999999999999996
+    },
+    {
+      "mcq_id": "gen-accounting-15193-8919-0004",
+      "concept_id": 15193,
+      "blueprint_id": 8919,
+      "learning_objective_id": 282176,
+      "passed": false,
+      "issue_count": 1,
+      "issues": [
+        {
+          "type": "invalid_bloom",
+          "severity": "high",
+          "message": "Invalid Bloom taxonomy: Recall"
+        }
+      ],
+      "confidence_score": 0.44999999999999996
+    },
+    {
+      "mcq_id": "gen-accounting-15194-8920-0005",
+      "concept_id": 15194,
+      "blueprint_id": 8920,
+      "learning_objective_id": 282208,
+      "passed": false,
+      "issue_count": 1,
+      "issues": [
+        {
+          "type": "invalid_bloom",
+          "severity": "high",
+          "message": "Invalid Bloom taxonomy: Recall"
+        }
+      ],
+      "confidence_score": 0.44999999999999996
+    },
+    {
+      "mcq_id": "gen-accounting-15195-8914-0006",
+      "concept_id": 15195,
+      "blueprint_id": 8914,
+      "learning_objective_id": 282240,
+      "passed": true,
+      "issue_count": 0,
+      "issues": [],
+      "confidence_score": 0.6
+    },
+    {
+      "mcq_id": "gen-accounting-15196-8921-0007",
+      "concept_id": 15196,
+      "blueprint_id": 8921,
+      "learning_objective_id": 282268,
+      "passed": true,
+      "issue_count": 0,
+      "issues": [],
+      "confidence_score": 0.522
+    },
+    {
+      "mcq_id": "gen-accounting-15197-8913-0008",
+      "concept_id": 15197,
+      "blueprint_id": 8913,
+      "learning_objective_id": 282292,
+      "passed": true,
+      "issue_count": 0,
+      "issues": [],
+      "confidence_score": 0.6
+    },
+    {
+      "mcq_id": "gen-agriculture-15199-8923-0010",
+      "concept_id": 15199,
+      "blueprint_id": 8923,
+      "learning_objective_id": 282405,
+      "passed": false,
+      "issue_count": 1,
+      "issues": [
+        {
+          "type": "low_confidence",
+          "severity": "medium",
+          "message": "Confidence score 0.26775 below threshold"
+        }
+      ],
+      "confidence_score": 0.26775
+    },
+    {
+      "mcq_id": "gen-agriculture-15200-8928-0011",
+      "concept_id": 15200,
+      "blueprint_id": 8928,
+      "learning_objective_id": 282506,
+      "passed": false,
+      "issue_count": 1,
+      "issues": [
+        {
+          "type": "invalid_bloom",
+          "severity": "high",
+          "message": "Invalid Bloom taxonomy: Recall"
+        }
+      ],
+      "confidence_score": 0.44999999999999996
+    },
+    {
+      "mcq_id": "gen-agriculture-15201-8922-0012",
+      "concept_id": 15201,
+      "blueprint_id": 8922,
+      "learning_objective_id": 282538,
+      "passed": false,
+      "issue_count": 1,
+      "issues": [
+        {
+          "type": "invalid_bloom",
+          "severity": "high",
+          "message": "Invalid Bloom taxonomy: Recall"
+        }
+      ],
+      "confidence_score": 0.44625
+    },
+    {
+      "mcq_id": "gen-agriculture-15202-8926-0013",
+      "concept_id": 15202,
+      "blueprint_id": 8926,
+      "learning_objective_id": 282575,
+      "passed": false,
+      "issue_count": 1,
+      "issues": [
+        {
+          "type": "invalid_bloom",
+          "severity": "high",
+          "message": "Invalid Bloom taxonomy: Recall"
+        }
+      ],
+      "confidence_score": 0.44999999999999996
+    },
+    {
+      "mcq_id": "gen-agriculture-15203-8927-0014",
+      "concept_id": 15203,
+      "blueprint_id": 8927,
+      "learning_objective_id": 282607,
+      "passed": false,
+      "issue_count": 1,
+      "issues": [
+        {
+          "type": "invalid_bloom",
+          "severity": "high",
+          "message": "Invalid Bloom taxonomy: Recall"
+        }
+      ],
+      "confidence_score": 0.44999999999999996
+    },
+    {
+      "mcq_id": "gen-agriculture-15204-8929-0015",
+      "concept_id": 15204,
+      "blueprint_id": 8929,
+      "learning_objective_id": 282639,
+      "passed": true,
+      "issue_count": 0,
+      "issues": [],
+      "confidence_score": 0.6
+    },
+    {
+      "mcq_id": "gen-ai-15207-8931-0018",
+      "concept_id": 15207,
+      "blueprint_id": 8931,
+      "learning_objective_id": 282740,
+      "passed": false,
+      "issue_count": 1,
+      "issues": [
+        {
+          "type": "low_confidence",
+          "severity": "medium",
+          "message": "Confidence score 0.21735 below threshold"
+        }
+      ],
+      "confidence_score": 0.21735
+    },
+    {
+      "mcq_id": "gen-ai-15208-8933-0019",
+      "concept_id": 15208,
+      "blueprint_id": 8933,
+      "learning_objective_id": 282857,
+      "passed": false,
+      "issue_count": 1,
+      "issues": [
+        {
+          "type": "low_confidence",
+          "severity": "medium",
+          "message": "Confidence score 0.27 below threshold"
+        }
+      ],
+      "confidence_score": 0.27
+    },
+    {
+      "mcq_id": "gen-ai-15209-8936-0020",
+      "concept_id": 15209,
+      "blueprint_id": 8936,
+      "learning_objective_id": 282969,
+      "passed": false,
+      "issue_count": 1,
+      "issues": [
+        {
+          "type": "invalid_bloom",
+          "severity": "high",
+          "message": "Invalid Bloom taxonomy: Recall"
+        }
+      ],
+      "confidence_score": 0.35624999999999996
+    },
+    {
+      "mcq_id": "gen-ai-15210-8937-0021",
+      "concept_id": 15210,
+      "blueprint_id": 8937,
+      "learning_objective_id": 283001,
+      "passed": false,
+      "issue_count": 1,
+      "issues": [
+        {
+          "type": "invalid_bloom",
+          "severity": "high",
+          "message": "Invalid Bloom taxonomy: Recall"
+        }
+      ],
+      "confidence_score": 0.35324999999999995
+    },
+    {
+      "mcq_id": "gen-ai-15211-8938-0022",
+      "concept_id": 15211,
+      "blueprint_id": 8938,
+      "learning_objective_id": 283033,
+      "passed": false,
+      "issue_count": 1,
+      "issues": [
+        {
+          "type": "invalid_bloom",
+          "severity": "high",
+          "message": "Invalid Bloom taxonomy: Recall"
+        }
+      ],
+      "confidence_score": 0.36224999999999996
+    },
+    {
+      "mcq_id": "gen-ai-15212-8939-0023",
+      "concept_id": 15212,
+      "blueprint_id": 8939,
+      "learning_objective_id": 283065,
+      "passed": false,
+      "issue_count": 1,
+      "issues": [
+        {
+          "type": "invalid_bloom",
+          "severity": "high",
+          "message": "Invalid Bloom taxonomy: Recall"
+        }
+      ],
+      "confidence_score": 0.35100000000000003
+    },
+    {
+      "mcq_id": "gen-ai-15213-8940-0024",
+      "concept_id": 15213,
+      "blueprint_id": 8940,
+      "learning_objective_id": 283097,
+      "passed": true,
+      "issue_count": 0,
+      "issues": [],
+      "confidence_score": 0.5
+    },
+    {
+      "mcq_id": "gen-ai-15214-8930-0025",
+      "concept_id": 15214,
+      "blueprint_id": 8930,
+      "learning_objective_id": 283113,
+      "passed": false,
+      "issue_count": 1,
+      "issues": [
+        {
+          "type": "invalid_bloom",
+          "severity": "high",
+          "message": "Invalid Bloom taxonomy: Recall"
+        }
+      ],
+      "confidence_score": 0.6
+    },
+    {
+      "mcq_id": "gen-ai-15215-8932-0026",
+      "concept_id": 15215,
+      "blueprint_id": 8932,
+      "learning_objective_id": 283134,
+      "passed": false,
+      "issue_count": 1,
+      "issues": [
+        {
+          "type": "invalid_bloom",
+          "severity": "high",
+          "message": "Invalid Bloom taxonomy: Recall"
+        }
+      ],
+      "confidence_score": 0.6
+    },
+    {
+      "mcq_id": "gen-ajkpsc-15218-8941-0029",
+      "concept_id": 15218,
+      "blueprint_id": 8941,
+      "learning_objective_id": 283236,
+      "passed": true,
+      "issue_count": 0,
+      "issues": [],
+      "confidence_score": 0.555
+    },
+    {
+      "mcq_id": "gen-ajkpsc-15222-8947-0033",
+      "concept_id": 15222,
+      "blueprint_id": 8947,
+      "learning_objective_id": 283350,
+      "passed": true,
+      "issue_count": 0,
+      "issues": [],
+      "confidence_score": 0.55
+    },
+    {
+      "mcq_id": "gen-ajkpsc-15223-8948-0034",
+      "concept_id": 15223,
+      "blueprint_id": 8948,
+      "learning_objective_id": 283358,
+      "passed": true,
+      "issue_count": 0,
+      "issues": [],
+      "confidence_score": 0.564
+    },
+    {
+      "mcq_id": "gen-analytical-reasoning-15229-8952-0040",
+      "concept_id": 15229,
+      "blueprint_id": 8952,
+      "learning_objective_id": 283461,
+      "passed": true,
+      "issue_count": 0,
+      "issues": [],
+      "confidence_score": 0.5
+    },
+    {
+      "mcq_id": "gen-analytical-reasoning-15230-8954-0041",
+      "concept_id": 15230,
+      "blueprint_id": 8954,
+      "learning_objective_id": 283761,
+      "passed": true,
+      "issue_count": 0,
+      "issues": [],
+      "confidence_score": 0.49
+    },
+    {
+      "mcq_id": "gen-analytical-reasoning-15231-8957-0042",
+      "concept_id": 15231,
+      "blueprint_id": 8957,
+      "learning_objective_id": 284061,
+      "passed": true,
+      "issue_count": 0,
+      "issues": [],
+      "confidence_score": 0.4
+    },
+    {
+      "mcq_id": "gen-analytical-reasoning-15232-8953-0043",
+      "concept_id": 15232,
+      "blueprint_id": 8953,
+      "learning_objective_id": 284269,
+      "passed": true,
+      "issue_count": 0,
+      "issues": [],
+      "confidence_score": 0.49
+    },
+    {
+      "mcq_id": "gen-analytical-reasoning-15233-8956-0044",
+      "concept_id": 15233,
+      "blueprint_id": 8956,
+      "learning_objective_id": 284569,
+      "passed": true,
+      "issue_count": 0,
+      "issues": [],
+      "confidence_score": 0.4
+    },
+    {
+      "mcq_id": "gen-analytical-reasoning-15234-8955-0045",
+      "concept_id": 15234,
+      "blueprint_id": 8955,
+      "learning_objective_id": 284919,
+      "passed": true,
+      "issue_count": 0,
+      "issues": [],
+      "confidence_score": 0.55
+    },
+    {
+      "mcq_id": "gen-analytical-reasoning-15235-8958-0046",
+      "concept_id": 15235,
+      "blueprint_id": 8958,
+      "learning_objective_id": 284999,
+      "passed": true,
+      "issue_count": 0,
+      "issues": [],
+      "confidence_score": 0.433
+    },
+    {
+      "mcq_id": "gen-anatomy-15237-8961-0048",
+      "concept_id": 15237,
+      "blueprint_id": 8961,
+      "learning_objective_id": 285015,
+      "passed": true,
+      "issue_count": 0,
+      "issues": [],
+      "confidence_score": 0.43199999999999994
+    },
+    {
+      "mcq_id": "gen-anatomy-15238-8964-0049",
+      "concept_id": 15238,
+      "blueprint_id": 8964,
+      "learning_objective_id": 285110,
+      "passed": false,
+      "issue_count": 2,
+      "issues": [
+        {
+          "type": "invalid_bloom",
+          "severity": "high",
+          "message": "Invalid Bloom taxonomy: Recall"
+        },
+        {
+          "type": "low_confidence",
+          "severity": "medium",
+          "message": "Confidence score 0.27 below threshold"
+        }
+      ],
+      "confidence_score": 0.27
+    },
+    {
+      "mcq_id": "gen-anatomy-15241-8971-0052",
+      "concept_id": 15241,
+      "blueprint_id": 8971,
+      "learning_objective_id": 285174,
+      "passed": true,
+      "issue_count": 0,
+      "issues": [],
+      "confidence_score": 0.4
+    },
+    {
+      "mcq_id": "gen-anatomy-15242-8960-0053",
+      "concept_id": 15242,
+      "blueprint_id": 8960,
+      "learning_objective_id": 285182,
+      "passed": false,
+      "issue_count": 2,
+      "issues": [
+        {
+          "type": "invalid_bloom",
+          "severity": "high",
+          "message": "Invalid Bloom taxonomy: Recall"
+        },
+        {
+          "type": "low_confidence",
+          "severity": "medium",
+          "message": "Confidence score 0.18000000000000002 below threshold"
+        }
+      ],
+      "confidence_score": 0.18000000000000002
+    },
+    {
+      "mcq_id": "gen-anatomy-15245-8967-0056",
+      "concept_id": 15245,
+      "blueprint_id": 8967,
+      "learning_objective_id": 285332,
+      "passed": false,
+      "issue_count": 1,
+      "issues": [
+        {
+          "type": "invalid_bloom",
+          "severity": "high",
+          "message": "Invalid Bloom taxonomy: Recall"
+        }
+      ],
+      "confidence_score": 0.44999999999999996
+    },
+    {
+      "mcq_id": "gen-anatomy-15246-8963-0057",
+      "concept_id": 15246,
+      "blueprint_id": 8963,
+      "learning_objective_id": 285348,
+      "passed": true,
+      "issue_count": 0,
+      "issues": [],
+      "confidence_score": 0.6
+    },
+    {
+      "mcq_id": "gen-anatomy-15247-8968-0058",
+      "concept_id": 15247,
+      "blueprint_id": 8968,
+      "learning_objective_id": 285372,
+      "passed": true,
+      "issue_count": 0,
+      "issues": [],
+      "confidence_score": 0.579
+    },
+    {
+      "mcq_id": "gen-anf-15249-8972-0060",
+      "concept_id": 15249,
+      "blueprint_id": 8972,
+      "learning_objective_id": 285443,
+      "passed": true,
+      "issue_count": 0,
+      "issues": [],
+      "confidence_score": 0.576
+    },
+    {
+      "mcq_id": "gen-angular-15255-8978-0066",
+      "concept_id": 15255,
+      "blueprint_id": 8978,
+      "learning_objective_id": 285545,
+      "passed": true,
+      "issue_count": 0,
+      "issues": [],
+      "confidence_score": 0.3975
+    },
+    {
+      "mcq_id": "gen-angular-15258-8982-0069",
+      "concept_id": 15258,
+      "blueprint_id": 8982,
+      "learning_objective_id": 285652,
+      "passed": true,
+      "issue_count": 0,
+      "issues": [],
+      "confidence_score": 0.4
+    },
+    {
+      "mcq_id": "gen-anthropology-15263-8987-0074",
+      "concept_id": 15263,
+      "blueprint_id": 8987,
+      "learning_objective_id": 285760,
+      "passed": true,
+      "issue_count": 0,
+      "issues": [],
+      "confidence_score": 0.6
+    },
+    {
+      "mcq_id": "gen-anthropology-15265-8986-0076",
+      "concept_id": 15265,
+      "blueprint_id": 8986,
+      "learning_objective_id": 285860,
+      "passed": true,
+      "issue_count": 0,
+      "issues": [],
+      "confidence_score": 0.6
+    },
+    {
+      "mcq_id": "gen-antonyms-15266-8990-0077",
+      "concept_id": 15266,
+      "blueprint_id": 8990,
+      "learning_objective_id": 285877,
+      "passed": true,
+      "issue_count": 0,
+      "issues": [],
+      "confidence_score": 0.40725
+    },
+    {
+      "mcq_id": "gen-antonyms-15267-8994-0078",
+      "concept_id": 15267,
+      "blueprint_id": 8994,
+      "learning_objective_id": 285993,
+      "passed": true,
+      "issue_count": 0,
+      "issues": [],
+      "confidence_score": 0.556
+    },
+    {
+      "mcq_id": "gen-antonyms-15268-8995-0079",
+      "concept_id": 15268,
+      "blueprint_id": 8995,
+      "learning_objective_id": 286001,
+      "passed": true,
+      "issue_count": 0,
+      "issues": [],
+      "confidence_score": 0.556
+    },
+    {
+      "mcq_id": "gen-antonyms-15269-8996-0080",
+      "concept_id": 15269,
+      "blueprint_id": 8996,
+      "learning_objective_id": 286009,
+      "passed": true,
+      "issue_count": 0,
+      "issues": [],
+      "confidence_score": 0.557
+    },
+    {
+      "mcq_id": "gen-antonyms-15270-8998-0081",
+      "concept_id": 15270,
+      "blueprint_id": 8998,
+      "learning_objective_id": 286017,
+      "passed": true,
+      "issue_count": 0,
+      "issues": [],
+      "confidence_score": 0.4
+    },
+    {
+      "mcq_id": "gen-antonyms-15271-8991-0082",
+      "concept_id": 15271,
+      "blueprint_id": 8991,
+      "learning_objective_id": 286025,
+      "passed": true,
+      "issue_count": 0,
+      "issues": [],
+      "confidence_score": 0.555
+    },
+    {
+      "mcq_id": "gen-antonyms-15272-8997-0083",
+      "concept_id": 15272,
+      "blueprint_id": 8997,
+      "learning_objective_id": 286133,
+      "passed": false,
+      "issue_count": 1,
+      "issues": [
+        {
+          "type": "invalid_bloom",
+          "severity": "high",
+          "message": "Invalid Bloom taxonomy: Recall"
+        }
+      ],
+      "confidence_score": 0.575
+    },
+    {
+      "mcq_id": "gen-antonyms-15275-8989-0086",
+      "concept_id": 15275,
+      "blueprint_id": 8989,
+      "learning_objective_id": 286157,
+      "passed": true,
+      "issue_count": 0,
+      "issues": [],
+      "confidence_score": 0.511
+    },
+    {
+      "mcq_id": "gen-aptitude-tests-15276-8999-0087",
+      "concept_id": 15276,
+      "blueprint_id": 8999,
+      "learning_objective_id": 286187,
+      "passed": true,
+      "issue_count": 0,
+      "issues": [],
+      "confidence_score": 0.4
+    },
+    {
+      "mcq_id": "gen-aptitude-tests-15277-9001-0088",
+      "concept_id": 15277,
+      "blueprint_id": 9001,
+      "learning_objective_id": 286437,
+      "passed": true,
+      "issue_count": 0,
+      "issues": [],
+      "confidence_score": 0.4
+    },
+    {
+      "mcq_id": "gen-aptitude-tests-15278-9002-0089",
+      "concept_id": 15278,
+      "blueprint_id": 9002,
+      "learning_objective_id": 286687,
+      "passed": true,
+      "issue_count": 0,
+      "issues": [],
+      "confidence_score": 0.4
+    },
+    {
+      "mcq_id": "gen-aptitude-tests-15279-9000-0090",
+      "concept_id": 15279,
+      "blueprint_id": 9000,
+      "learning_objective_id": 286987,
+      "passed": true,
+      "issue_count": 0,
+      "issues": [],
+      "confidence_score": 0.4
+    },
+    {
+      "mcq_id": "gen-aptitude-tests-15280-9003-0091",
+      "concept_id": 15280,
+      "blueprint_id": 9003,
+      "learning_objective_id": 287237,
+      "passed": true,
+      "issue_count": 0,
+      "issues": [],
+      "confidence_score": 0.6
+    },
+    {
+      "mcq_id": "gen-army-15288-9011-0099",
+      "concept_id": 15288,
+      "blueprint_id": 9011,
+      "learning_objective_id": 287325,
+      "passed": true,
+      "issue_count": 0,
+      "issues": [],
+      "confidence_score": 0.567
+    }
+  ],
+  "failed_validations": [
+    {
+      "mcq_id": "gen-accounting-15190-8916-0001",
+      "issues": [
+        {
+          "type": "low_confidence",
+          "severity": "medium",
+          "message": "Confidence score 0.27 below threshold"
+        }
+      ]
+    },
+    {
+      "mcq_id": "gen-accounting-15191-8915-0002",
+      "issues": [
+        {
+          "type": "invalid_bloom",
+          "severity": "high",
+          "message": "Invalid Bloom taxonomy: Recall"
+        }
+      ]
+    },
+    {
+      "mcq_id": "gen-accounting-15192-8918-0003",
+      "issues": [
+        {
+          "type": "invalid_bloom",
+          "severity": "high",
+          "message": "Invalid Bloom taxonomy: Recall"
+        }
+      ]
+    },
+    {
+      "mcq_id": "gen-accounting-15193-8919-0004",
+      "issues": [
+        {
+          "type": "invalid_bloom",
+          "severity": "high",
+          "message": "Invalid Bloom taxonomy: Recall"
+        }
+      ]
+    },
+    {
+      "mcq_id": "gen-accounting-15194-8920-0005",
+      "issues": [
+        {
+          "type": "invalid_bloom",
+          "severity": "high",
+          "message": "Invalid Bloom taxonomy: Recall"
+        }
+      ]
+    },
+    {
+      "mcq_id": "gen-agriculture-15199-8923-0010",
+      "issues": [
+        {
+          "type": "low_confidence",
+          "severity": "medium",
+          "message": "Confidence score 0.26775 below threshold"
+        }
+      ]
+    },
+    {
+      "mcq_id": "gen-agriculture-15200-8928-0011",
+      "issues": [
+        {
+          "type": "invalid_bloom",
+          "severity": "high",
+          "message": "Invalid Bloom taxonomy: Recall"
+        }
+      ]
+    },
+    {
+      "mcq_id": "gen-agriculture-15201-8922-0012",
+      "issues": [
+        {
+          "type": "invalid_bloom",
+          "severity": "high",
+          "message": "Invalid Bloom taxonomy: Recall"
+        }
+      ]
+    },
+    {
+      "mcq_id": "gen-agriculture-15202-8926-0013",
+      "issues": [
+        {
+          "type": "invalid_bloom",
+          "severity": "high",
+          "message": "Invalid Bloom taxonomy: Recall"
+        }
+      ]
+    },
+    {
+      "mcq_id": "gen-agriculture-15203-8927-0014",
+      "issues": [
+        {
+          "type": "invalid_bloom",
+          "severity": "high",
+          "message": "Invalid Bloom taxonomy: Recall"
+        }
+      ]
+    },
+    {
+      "mcq_id": "gen-ai-15207-8931-0018",
+      "issues": [
+        {
+          "type": "low_confidence",
+          "severity": "medium",
+          "message": "Confidence score 0.21735 below threshold"
+        }
+      ]
+    },
+    {
+      "mcq_id": "gen-ai-15208-8933-0019",
+      "issues": [
+        {
+          "type": "low_confidence",
+          "severity": "medium",
+          "message": "Confidence score 0.27 below threshold"
+        }
+      ]
+    },
+    {
+      "mcq_id": "gen-ai-15209-8936-0020",
+      "issues": [
+        {
+          "type": "invalid_bloom",
+          "severity": "high",
+          "message": "Invalid Bloom taxonomy: Recall"
+        }
+      ]
+    },
+    {
+      "mcq_id": "gen-ai-15210-8937-0021",
+      "issues": [
+        {
+          "type": "invalid_bloom",
+          "severity": "high",
+          "message": "Invalid Bloom taxonomy: Recall"
+        }
+      ]
+    },
+    {
+      "mcq_id": "gen-ai-15211-8938-0022",
+      "issues": [
+        {
+          "type": "invalid_bloom",
+          "severity": "high",
+          "message": "Invalid Bloom taxonomy: Recall"
+        }
+      ]
+    },
+    {
+      "mcq_id": "gen-ai-15212-8939-0023",
+      "issues": [
+        {
+          "type": "invalid_bloom",
+          "severity": "high",
+          "message": "Invalid Bloom taxonomy: Recall"
+        }
+      ]
+    },
+    {
+      "mcq_id": "gen-ai-15214-8930-0025",
+      "issues": [
+        {
+          "type": "invalid_bloom",
+          "severity": "high",
+          "message": "Invalid Bloom taxonomy: Recall"
+        }
+      ]
+    },
+    {
+      "mcq_id": "gen-ai-15215-8932-0026",
+      "issues": [
+        {
+          "type": "invalid_bloom",
+          "severity": "high",
+          "message": "Invalid Bloom taxonomy: Recall"
+        }
+      ]
+    },
+    {
+      "mcq_id": "gen-anatomy-15238-8964-0049",
+      "issues": [
+        {
+          "type": "invalid_bloom",
+          "severity": "high",
+          "message": "Invalid Bloom taxonomy: Recall"
+        },
+        {
+          "type": "low_confidence",
+          "severity": "medium",
+          "message": "Confidence score 0.27 below threshold"
+        }
+      ]
+    },
+    {
+      "mcq_id": "gen-anatomy-15242-8960-0053",
+      "issues": [
+        {
+          "type": "invalid_bloom",
+          "severity": "high",
+          "message": "Invalid Bloom taxonomy: Recall"
+        },
+        {
+          "type": "low_confidence",
+          "severity": "medium",
+          "message": "Confidence score 0.18000000000000002 below threshold"
+        }
+      ]
+    },
+    {
+      "mcq_id": "gen-anatomy-15245-8967-0056",
+      "issues": [
+        {
+          "type": "invalid_bloom",
+          "severity": "high",
+          "message": "Invalid Bloom taxonomy: Recall"
+        }
+      ]
+    },
+    {
+      "mcq_id": "gen-antonyms-15272-8997-0083",
+      "issues": [
+        {
+          "type": "invalid_bloom",
+          "severity": "high",
+          "message": "Invalid Bloom taxonomy: Recall"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1128 @@
+[
+ {
+  "id": "elx-001",
+  "question": "A p-n junction diode conducts current when it is:",
+  "optionA": "Reverse biased",
+  "optionB": "Forward biased",
+  "optionC": "Unbiased and heated",
+  "optionD": "Connected in parallel with a capacitor",
+  "correctAnswer": "B",
+  "detailedExplanation": "A diode conducts when the p-side is connected to positive and n-side to negative (forward bias), allowing majority carriers to cross the junction; reverse bias blocks conduction.",
+  "difficulty": "easy",
+  "subject": "electronics",
+  "chapter": "elx-components",
+  "topic": "t-282",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "etea",
+   "railways",
+   "army",
+   "navy",
+   "paf"
+  ],
+  "year": null,
+  "tags": [
+   "diode",
+   "semiconductors"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "elx-002",
+  "question": "An n-type semiconductor is created by doping silicon with:",
+  "optionA": "Boron",
+  "optionB": "Gallium",
+  "optionC": "Phosphorus",
+  "optionD": "Indium",
+  "correctAnswer": "C",
+  "detailedExplanation": "Pentavalent impurities such as phosphorus donate extra free electrons to silicon, creating an n-type semiconductor with electrons as the majority charge carriers.",
+  "difficulty": "medium",
+  "subject": "electronics",
+  "chapter": "elx-components",
+  "topic": "t-282",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "etea",
+   "railways",
+   "army",
+   "navy",
+   "paf"
+  ],
+  "year": null,
+  "tags": [
+   "doping",
+   "semiconductors"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "elx-003",
+  "question": "A transistor is primarily used for:",
+  "optionA": "Storing electric charge",
+  "optionB": "Amplification and switching",
+  "optionC": "Converting AC to DC",
+  "optionD": "Generating light",
+  "correctAnswer": "B",
+  "detailedExplanation": "Bipolar junction transistors (BJTs) and field-effect transistors amplify small signals and act as electronic switches, forming the basis of all modern electronic circuits.",
+  "difficulty": "easy",
+  "subject": "electronics",
+  "chapter": "elx-components",
+  "topic": "t-282",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "etea",
+   "railways",
+   "army",
+   "navy",
+   "paf"
+  ],
+  "year": null,
+  "tags": [
+   "transistor"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "elx-004",
+  "question": "An operational amplifier (op-amp) is characterised by:",
+  "optionA": "Very low gain",
+  "optionB": "Very high open-loop voltage gain and high input impedance",
+  "optionC": "Zero input impedance",
+  "optionD": "Only digital output",
+  "correctAnswer": "B",
+  "detailedExplanation": "An ideal op-amp has infinite open-loop gain, infinite input impedance and zero output impedance; with negative feedback it performs precise mathematical operations like summing and integration.",
+  "difficulty": "medium",
+  "subject": "electronics",
+  "chapter": "elx-components",
+  "topic": "t-283",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "etea",
+   "railways",
+   "army",
+   "navy",
+   "paf"
+  ],
+  "year": null,
+  "tags": [
+   "op-amp"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "elx-005",
+  "question": "Which logic gate outputs 1 only when all inputs are 1?",
+  "optionA": "OR",
+  "optionB": "NAND",
+  "optionC": "AND",
+  "optionD": "XOR",
+  "correctAnswer": "C",
+  "detailedExplanation": "The AND gate produces a high output (1) only when every input is high; a NAND gate inverts this behaviour, outputting 0 when all inputs are 1.",
+  "difficulty": "easy",
+  "subject": "electronics",
+  "chapter": "elx-components",
+  "topic": "t-283",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "etea",
+   "railways",
+   "army",
+   "navy",
+   "paf"
+  ],
+  "year": null,
+  "tags": [
+   "logic gates"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "elx-006",
+  "question": "The logic gate that inverts its input is the:",
+  "optionA": "AND gate",
+  "optionB": "OR gate",
+  "optionC": "NOT gate",
+  "optionD": "XOR gate",
+  "correctAnswer": "C",
+  "detailedExplanation": "The NOT gate (inverter) outputs the complement of its input: 0 becomes 1 and 1 becomes 0. It is built from a single transistor switch.",
+  "difficulty": "easy",
+  "subject": "electronics",
+  "chapter": "elx-components",
+  "topic": "t-283",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "etea",
+   "railways",
+   "army",
+   "navy",
+   "paf"
+  ],
+  "year": null,
+  "tags": [
+   "logic gates",
+   "NOT gate"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "elx-007",
+  "question": "A flip-flop is a digital circuit that can store:",
+  "optionA": "One bit of data",
+  "optionB": "One byte of data",
+  "optionC": "An analog voltage",
+  "optionD": "A full memory page",
+  "correctAnswer": "A",
+  "detailedExplanation": "A flip-flop is a bistable multivibrator that latches a single binary digit (0 or 1); multiple flip-flops form registers, counters and memory cells.",
+  "difficulty": "easy",
+  "subject": "electronics",
+  "chapter": "elx-systems",
+  "topic": "t-284",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "etea",
+   "railways",
+   "army",
+   "navy",
+   "paf"
+  ],
+  "year": null,
+  "tags": [
+   "flip-flop",
+   "digital electronics"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "elx-008",
+  "question": "Counters in digital electronics are built from:",
+  "optionA": "Resistors only",
+  "optionB": "Flip-flops connected in sequence",
+  "optionC": "Transformers",
+  "optionD": "Diodes",
+  "correctAnswer": "B",
+  "detailedExplanation": "Digital counters cascade flip-flops so that each stage toggles on the output of the previous one, counting clock pulses in binary for timing and frequency division.",
+  "difficulty": "medium",
+  "subject": "electronics",
+  "chapter": "elx-systems",
+  "topic": "t-284",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "etea",
+   "railways",
+   "army",
+   "navy",
+   "paf"
+  ],
+  "year": null,
+  "tags": [
+   "counters",
+   "digital electronics"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "elx-009",
+  "question": "Modulation in communication systems is used to:",
+  "optionA": "Increase battery life",
+  "optionB": "Impose information on a high-frequency carrier wave",
+  "optionC": "Reduce antenna resistance",
+  "optionD": "Filter noise from power lines",
+  "correctAnswer": "B",
+  "detailedExplanation": "Modulation (AM, FM, PM) varies a carrier wave's amplitude, frequency or phase with the information signal so it can travel long distances and be transmitted efficiently over the air.",
+  "difficulty": "easy",
+  "subject": "electronics",
+  "chapter": "elx-systems",
+  "topic": "t-285",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "etea",
+   "railways",
+   "army",
+   "navy",
+   "paf"
+  ],
+  "year": null,
+  "tags": [
+   "modulation",
+   "communication"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "elx-010",
+  "question": "Radar systems detect objects by transmitting and receiving:",
+  "optionA": "Light waves only",
+  "optionB": "Radio waves reflected from targets",
+  "optionC": "Ultrasound through solids",
+  "optionD": "Infrared from the Sun",
+  "correctAnswer": "B",
+  "detailedExplanation": "Radar transmits pulses of radio waves; waves reflected (echoed) by a target return to the antenna, and the delay gives the distance - the same principle used for weather and aircraft tracking.",
+  "difficulty": "medium",
+  "subject": "electronics",
+  "chapter": "elx-systems",
+  "topic": "t-285",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "etea",
+   "railways",
+   "army",
+   "navy",
+   "paf"
+  ],
+  "year": null,
+  "tags": [
+   "radar",
+   "communication"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "elx-011",
+  "question": "An LED emits light because of:",
+  "optionA": "Heating of the filament",
+  "optionB": "Recombination of electrons and holes in a semiconductor",
+  "optionC": "Gas discharge in a tube",
+  "optionD": "Chemical reaction with oxygen",
+  "correctAnswer": "B",
+  "detailedExplanation": "In a light-emitting diode, electrons falling into holes across the p-n junction release energy as photons; the semiconductor band gap determines the colour of the emitted light.",
+  "difficulty": "medium",
+  "subject": "electronics",
+  "chapter": "elx-components",
+  "topic": "t-282",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "etea",
+   "railways",
+   "army",
+   "navy",
+   "paf"
+  ],
+  "year": null,
+  "tags": [
+   "LED",
+   "optoelectronics"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "cng-001",
+  "question": "A material balance in a process is based on the law of:",
+  "optionA": "Conservation of mass",
+  "optionB": "Conservation of momentum",
+  "optionC": "Ideal gas law",
+  "optionD": "Graham's law",
+  "correctAnswer": "A",
+  "detailedExplanation": "Material balance applies the law of conservation of mass: mass entering a system equals mass leaving plus accumulation. It is the foundation of chemical process design.",
+  "difficulty": "easy",
+  "subject": "chemical-eng",
+  "chapter": "che-basics",
+  "topic": "t-286",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "etea",
+   "railways",
+   "army",
+   "navy",
+   "paf"
+  ],
+  "year": null,
+  "tags": [
+   "material balance",
+   "process fundamentals"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "cng-002",
+  "question": "The SI unit of energy is the:",
+  "optionA": "Watt",
+  "optionB": "Newton",
+  "optionC": "Joule",
+  "optionD": "Pascal",
+  "correctAnswer": "C",
+  "detailedExplanation": "The joule (J) is the SI unit of energy, equal to one newton-metre. The watt is power (joules per second), the newton is force and the pascal is pressure.",
+  "difficulty": "easy",
+  "subject": "chemical-eng",
+  "chapter": "che-basics",
+  "topic": "t-286",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "etea",
+   "railways",
+   "army",
+   "navy",
+   "paf"
+  ],
+  "year": null,
+  "tags": [
+   "units",
+   "energy"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "cng-003",
+  "question": "According to Arrhenius equation, the rate of a reaction increases with temperature because:",
+  "optionA": "Activation energy decreases",
+  "optionB": "More molecules acquire energy above the activation energy",
+  "optionC": "Catalysts are consumed faster",
+  "optionD": "Molecular collisions stop",
+  "correctAnswer": "B",
+  "detailedExplanation": "The Arrhenius equation k = Ae^(-Ea/RT) shows the rate constant rises exponentially with temperature: a larger fraction of molecules gains energy exceeding the activation energy barrier.",
+  "difficulty": "medium",
+  "subject": "chemical-eng",
+  "chapter": "che-basics",
+  "topic": "t-287",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "etea",
+   "railways",
+   "army",
+   "navy",
+   "paf"
+  ],
+  "year": null,
+  "tags": [
+   "kinetics",
+   "arrhenius"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "cng-004",
+  "question": "A catalyst works by:",
+  "optionA": "Increasing the activation energy",
+  "optionB": "Providing an alternative pathway with lower activation energy",
+  "optionC": "Being consumed in the reaction",
+  "optionD": "Raising the reaction temperature",
+  "correctAnswer": "B",
+  "detailedExplanation": "Catalysts speed up reactions by offering a lower-activation-energy pathway without being consumed; they do not shift equilibrium, only help reach it faster.",
+  "difficulty": "easy",
+  "subject": "chemical-eng",
+  "chapter": "che-basics",
+  "topic": "t-287",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "etea",
+   "railways",
+   "army",
+   "navy",
+   "paf"
+  ],
+  "year": null,
+  "tags": [
+   "catalyst",
+   "kinetics"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "cng-005",
+  "question": "Distillation is a unit operation that separates components based on differences in:",
+  "optionA": "Density",
+  "optionB": "Boiling points",
+  "optionC": "Magnetic properties",
+  "optionD": "Viscosity",
+  "correctAnswer": "B",
+  "detailedExplanation": "Distillation exploits differences in volatility (boiling points): vapour is enriched in the more volatile component and condensed, enabling separation of mixtures like crude oil fractions.",
+  "difficulty": "easy",
+  "subject": "chemical-eng",
+  "chapter": "che-processes",
+  "topic": "t-288",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "etea",
+   "railways",
+   "army",
+   "navy",
+   "paf"
+  ],
+  "year": null,
+  "tags": [
+   "distillation",
+   "unit operations"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "cng-006",
+  "question": "The Haber-Bosch process industrially produces:",
+  "optionA": "Sulphuric acid",
+  "optionB": "Ammonia",
+  "optionC": "Cement",
+  "optionD": "Caustic soda",
+  "correctAnswer": "B",
+  "detailedExplanation": "The Haber-Bosch process combines nitrogen and hydrogen over an iron catalyst at high pressure to produce ammonia, the basis of nitrogenous fertilisers used in agriculture.",
+  "difficulty": "easy",
+  "subject": "chemical-eng",
+  "chapter": "che-processes",
+  "topic": "t-288",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "etea",
+   "railways",
+   "army",
+   "navy",
+   "paf"
+  ],
+  "year": null,
+  "tags": [
+   "haber process",
+   "fertilizer"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "cng-007",
+  "question": "The main raw material for cement production is:",
+  "optionA": "Bauxite",
+  "optionB": "Limestone",
+  "optionC": "Sandstone",
+  "optionD": "Gypsum",
+  "correctAnswer": "B",
+  "detailedExplanation": "Cement clinker is made by heating limestone (calcium carbonate) with clay; gypsum is added in small amounts to control setting time. Pakistan has major cement plants in Punjab and KPK.",
+  "difficulty": "medium",
+  "subject": "chemical-eng",
+  "chapter": "che-processes",
+  "topic": "t-289",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "etea",
+   "railways",
+   "army",
+   "navy",
+   "paf"
+  ],
+  "year": null,
+  "tags": [
+   "cement industry"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "cng-008",
+  "question": "In petroleum refining, crude oil fractions are separated by:",
+  "optionA": "Centrifugation",
+  "optionB": "Fractional distillation",
+  "optionC": "Electrolysis",
+  "optionD": "Evaporation",
+  "correctAnswer": "B",
+  "detailedExplanation": "Fractional distillation in a distillation column separates crude oil into fractions - LPG, petrol, kerosene, diesel and lubricants - according to their boiling ranges.",
+  "difficulty": "medium",
+  "subject": "chemical-eng",
+  "chapter": "che-processes",
+  "topic": "t-289",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "etea",
+   "railways",
+   "army",
+   "navy",
+   "paf"
+  ],
+  "year": null,
+  "tags": [
+   "petroleum refining"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "ind-001",
+  "question": "TQM stands for:",
+  "optionA": "Total Quality Management",
+  "optionB": "Total Quantity Measure",
+  "optionC": "Technical Quality Model",
+  "optionD": "Total Quota Management",
+  "correctAnswer": "A",
+  "detailedExplanation": "Total Quality Management is a company-wide approach involving all employees in continuous quality improvement to satisfy customers, associated with Deming and Juran.",
+  "difficulty": "easy",
+  "subject": "industrial-eng",
+  "chapter": "ind-production",
+  "topic": "t-290",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "etea"
+  ],
+  "year": null,
+  "tags": [
+   "TQM",
+   "quality"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "ind-002",
+  "question": "Six Sigma methodology aims to reduce defects to approximately:",
+  "optionA": "1% of output",
+  "optionB": "3.4 defects per million opportunities",
+  "optionC": "5 defects per thousand",
+  "optionD": "Zero material waste",
+  "correctAnswer": "B",
+  "detailedExplanation": "Six Sigma, popularised by Motorola and General Electric, targets 3.4 defects per million opportunities, using the DMAIC cycle (Define, Measure, Analyse, Improve, Control).",
+  "difficulty": "medium",
+  "subject": "industrial-eng",
+  "chapter": "ind-production",
+  "topic": "t-290",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "etea"
+  ],
+  "year": null,
+  "tags": [
+   "six sigma",
+   "quality"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "ind-003",
+  "question": "ISO 9000 series of standards deals with:",
+  "optionA": "Environmental management",
+  "optionB": "Quality management systems",
+  "optionC": "Occupational safety",
+  "optionD": "Financial reporting",
+  "correctAnswer": "B",
+  "detailedExplanation": "The ISO 9000 family specifies requirements for quality management systems, helping organisations consistently meet customer and regulatory requirements.",
+  "difficulty": "easy",
+  "subject": "industrial-eng",
+  "chapter": "ind-production",
+  "topic": "t-291",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "etea"
+  ],
+  "year": null,
+  "tags": [
+   "ISO 9000",
+   "standards"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "ind-004",
+  "question": "Ergonomics is the study of:",
+  "optionA": "Earthquake engineering",
+  "optionB": "Designing work systems to fit human capabilities",
+  "optionC": "Electronic circuits",
+  "optionD": "Energy conservation",
+  "correctAnswer": "B",
+  "detailedExplanation": "Ergonomics (human factors) designs workplaces, tools and tasks to match human physical and cognitive abilities, reducing fatigue, injuries and errors while boosting productivity.",
+  "difficulty": "easy",
+  "subject": "industrial-eng",
+  "chapter": "ind-ergonomics",
+  "topic": "t-292",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "etea"
+  ],
+  "year": null,
+  "tags": [
+   "ergonomics",
+   "work study"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "ind-005",
+  "question": "The purpose of time study in work measurement is to:",
+  "optionA": "Increase machine speed",
+  "optionB": "Determine the standard time for a task",
+  "optionC": "Count the number of employees",
+  "optionD": "Measure product weight",
+  "correctAnswer": "B",
+  "detailedExplanation": "Time study, pioneered by F.W. Taylor, measures how long a qualified worker takes to perform a task under standard conditions to establish standard times for planning and incentives.",
+  "difficulty": "easy",
+  "subject": "industrial-eng",
+  "chapter": "ind-ergonomics",
+  "topic": "t-293",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "etea"
+  ],
+  "year": null,
+  "tags": [
+   "time study",
+   "work study"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "enve-001",
+  "question": "The first step in conventional drinking water treatment is usually:",
+  "optionA": "Chlorination",
+  "optionB": "Coagulation and flocculation",
+  "optionC": "Filtration",
+  "optionD": "Reverse osmosis",
+  "correctAnswer": "B",
+  "detailedExplanation": "Coagulation and flocculation add chemicals that clump suspended particles, which then settle in sedimentation tanks before sand filtration and final disinfection.",
+  "difficulty": "easy",
+  "subject": "environmental-eng",
+  "chapter": "enve-water",
+  "topic": "t-294",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "etea",
+   "css"
+  ],
+  "year": null,
+  "tags": [
+   "water treatment"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "enve-002",
+  "question": "Chlorination of drinking water is done primarily to:",
+  "optionA": "Improve taste",
+  "optionB": "Kill pathogenic microorganisms",
+  "optionC": "Remove hardness",
+  "optionD": "Lower water temperature",
+  "correctAnswer": "B",
+  "detailedExplanation": "Chlorine is a powerful disinfectant that destroys bacteria and viruses in water supplies, protecting against waterborne diseases such as cholera and typhoid.",
+  "difficulty": "easy",
+  "subject": "environmental-eng",
+  "chapter": "enve-water",
+  "topic": "t-294",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "etea",
+   "css"
+  ],
+  "year": null,
+  "tags": [
+   "chlorination",
+   "disinfection"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "enve-003",
+  "question": "The activated sludge process is a:",
+  "optionA": "Physical screening method",
+  "optionB": "Biological wastewater treatment method",
+  "optionC": "Chemical precipitation method",
+  "optionD": "Thermal oxidation method",
+  "correctAnswer": "B",
+  "detailedExplanation": "Activated sludge aerates wastewater with microorganisms that decompose organic matter; it is the most common secondary (biological) treatment for municipal sewage.",
+  "difficulty": "medium",
+  "subject": "environmental-eng",
+  "chapter": "enve-water",
+  "topic": "t-295",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "etea",
+   "css"
+  ],
+  "year": null,
+  "tags": [
+   "wastewater",
+   "activated sludge"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "enve-004",
+  "question": "BOD (Biochemical Oxygen Demand) measures:",
+  "optionA": "Turbidity of water",
+  "optionB": "Oxygen required by microorganisms to decompose organic matter in water",
+  "optionC": "Dissolved oxygen already present",
+  "optionD": "Temperature of the effluent",
+  "correctAnswer": "B",
+  "detailedExplanation": "BOD quantifies the oxygen microorganisms consume while decomposing organic waste in water; high BOD indicates heavy organic pollution in rivers and industrial effluent.",
+  "difficulty": "medium",
+  "subject": "environmental-eng",
+  "chapter": "enve-air",
+  "topic": "t-296",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "etea",
+   "css"
+  ],
+  "year": null,
+  "tags": [
+   "BOD",
+   "water quality"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "enve-005",
+  "question": "An electrostatic precipitator is used to control air pollution by removing:",
+  "optionA": "Odour",
+  "optionB": "Particulate matter",
+  "optionC": "Carbon dioxide",
+  "optionD": "Noise",
+  "correctAnswer": "B",
+  "detailedExplanation": "Electrostatic precipitators charge dust and fly ash particles and collect them on oppositely charged plates, removing up to 99% of particulates from industrial flue gases.",
+  "difficulty": "medium",
+  "subject": "environmental-eng",
+  "chapter": "enve-air",
+  "topic": "t-296",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "etea",
+   "css"
+  ],
+  "year": null,
+  "tags": [
+   "electrostatic precipitator",
+   "air pollution"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "enve-006",
+  "question": "Which of the following is a sanitary method of solid waste disposal?",
+  "optionA": "Open dumping",
+  "optionB": "Sanitary landfilling",
+  "optionC": "Burning in the open",
+  "optionD": "Dumping in rivers",
+  "correctAnswer": "B",
+  "detailedExplanation": "Sanitary landfilling compacts waste in lined pits covered daily with soil, preventing leachate and odour problems, unlike open dumping which pollutes air, soil and water.",
+  "difficulty": "easy",
+  "subject": "environmental-eng",
+  "chapter": "enve-air",
+  "topic": "t-297",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "etea",
+   "css"
+  ],
+  "year": null,
+  "tags": [
+   "solid waste",
+   "landfill"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "mecx-001",
+  "question": "A sensor is a device that:",
+  "optionA": "Converts a physical quantity into an electrical signal",
+  "optionB": "Converts electrical signals into motion",
+  "optionC": "Stores electrical energy",
+  "optionD": "Amplifies sound waves",
+  "correctAnswer": "A",
+  "detailedExplanation": "Sensors (transducers) such as thermocouples, strain gauges and encoders measure temperature, force and position and convert them into electrical signals for control systems.",
+  "difficulty": "easy",
+  "subject": "mechatronics",
+  "chapter": "mecx-intro",
+  "topic": "t-298",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "etea",
+   "army",
+   "navy",
+   "paf"
+  ],
+  "year": null,
+  "tags": [
+   "sensors",
+   "mechatronics"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "mecx-002",
+  "question": "An actuator converts:",
+  "optionA": "Mechanical motion into electricity",
+  "optionB": "Electrical signals into mechanical motion",
+  "optionC": "Heat into light",
+  "optionD": "Pressure into temperature",
+  "correctAnswer": "B",
+  "detailedExplanation": "Actuators such as DC motors, servos, solenoids and pneumatic cylinders convert electrical or hydraulic commands into controlled mechanical movement.",
+  "difficulty": "easy",
+  "subject": "mechatronics",
+  "chapter": "mecx-intro",
+  "topic": "t-298",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "etea",
+   "army",
+   "navy",
+   "paf"
+  ],
+  "year": null,
+  "tags": [
+   "actuators",
+   "mechatronics"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "mecx-003",
+  "question": "In a closed-loop control system, the output is:",
+  "optionA": "Ignored by the controller",
+  "optionB": "Measured and fed back to correct the input",
+  "optionC": "Always equal to the input",
+  "optionD": "Converted to digital only",
+  "correctAnswer": "B",
+  "detailedExplanation": "Closed-loop (feedback) systems sense the output with a transducer and compare it with the set point, adjusting the input to minimise error - as in room thermostats and servo drives.",
+  "difficulty": "easy",
+  "subject": "mechatronics",
+  "chapter": "mecx-intro",
+  "topic": "t-299",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "etea",
+   "army",
+   "navy",
+   "paf"
+  ],
+  "year": null,
+  "tags": [
+   "control systems",
+   "feedback"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "mecx-004",
+  "question": "PID controller stands for:",
+  "optionA": "Proportional-Integral-Derivative",
+  "optionB": "Power-Input-Digital",
+  "optionC": "Process-Index-Device",
+  "optionD": "Phase-Integrated-Data",
+  "correctAnswer": "A",
+  "detailedExplanation": "A PID controller combines proportional (current error), integral (past error) and derivative (predicted error) actions to give accurate, stable industrial process control.",
+  "difficulty": "medium",
+  "subject": "mechatronics",
+  "chapter": "mecx-intro",
+  "topic": "t-299",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "etea",
+   "army",
+   "navy",
+   "paf"
+  ],
+  "year": null,
+  "tags": [
+   "PID",
+   "control"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "mecx-005",
+  "question": "The number of independent movements a robot arm can make is called its:",
+  "optionA": "Payload",
+  "optionB": "Degrees of freedom",
+  "optionC": "Repeatability",
+  "optionD": "Workspace volume",
+  "correctAnswer": "B",
+  "detailedExplanation": "Degrees of freedom count each independent joint motion (linear or rotary); an industrial six-axis robot has six degrees of freedom, giving it human-arm-like flexibility.",
+  "difficulty": "easy",
+  "subject": "mechatronics",
+  "chapter": "mecx-robotics",
+  "topic": "t-300",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "etea",
+   "army",
+   "navy",
+   "paf"
+  ],
+  "year": null,
+  "tags": [
+   "robotics",
+   "degrees of freedom"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "mecx-006",
+  "question": "A servo motor is preferred in robotics because it provides:",
+  "optionA": "Very high speed only",
+  "optionB": "Precise position and speed control with feedback",
+  "optionC": "No rotation",
+  "optionD": "Steam power",
+  "correctAnswer": "B",
+  "detailedExplanation": "Servo motors integrate a motor with an encoder and control electronics to achieve accurate closed-loop position, speed and torque control, ideal for robot joints.",
+  "difficulty": "easy",
+  "subject": "mechatronics",
+  "chapter": "mecx-robotics",
+  "topic": "t-300",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "etea",
+   "army",
+   "navy",
+   "paf"
+  ],
+  "year": null,
+  "tags": [
+   "servo motor",
+   "robotics"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "mecx-007",
+  "question": "PLC stands for:",
+  "optionA": "Programmable Logic Controller",
+  "optionB": "Primary Load Circuit",
+  "optionC": "Parallel Line Converter",
+  "optionD": "Power Level Computer",
+  "correctAnswer": "A",
+  "detailedExplanation": "A PLC is an industrial digital computer that executes ladder-logic programs to control machines and processes in factories - the backbone of industrial automation.",
+  "difficulty": "medium",
+  "subject": "mechatronics",
+  "chapter": "mecx-robotics",
+  "topic": "t-301",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "etea",
+   "army",
+   "navy",
+   "paf"
+  ],
+  "year": null,
+  "tags": [
+   "PLC",
+   "automation"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "mecx-008",
+  "question": "CNC machines are controlled by:",
+  "optionA": "Hand wheels only",
+  "optionB": "Pre-programmed numerical commands",
+  "optionC": "Hydraulic levers",
+  "optionD": "Manual templates",
+  "correctAnswer": "B",
+  "detailedExplanation": "Computer Numerical Control machines follow coded instructions (G-code) that position cutting tools automatically, enabling precise, repeatable machining of complex parts.",
+  "difficulty": "medium",
+  "subject": "mechatronics",
+  "chapter": "mecx-robotics",
+  "topic": "t-301",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "etea",
+   "army",
+   "navy",
+   "paf"
+  ],
+  "year": null,
+  "tags": [
+   "CNC",
+   "automation"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ }
+]

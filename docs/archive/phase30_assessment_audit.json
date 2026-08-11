@@ -1,0 +1,13 @@
+{
+  "module": "M8",
+  "status": "PASS",
+  "assessment_steps": [
+    "practice_workflow:PASS",
+    "practice_quit:PASS",
+    "mock_workflow:PASS",
+    "quiz_quit:PASS",
+    "quick_quiz_workflow:PASS",
+    "paper_workflow:PASS"
+  ],
+  "note": "practice scoring, mock workflow, quiz quit/resume, paper workflow all PASS"
+}

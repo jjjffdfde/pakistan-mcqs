@@ -1,0 +1,26 @@
+{
+ "module": "M3",
+ "generated_at": "2026-08-10T10:19:43.509Z",
+ "totals": {
+  "PASS": 13904,
+  "REVIEW": 2
+ },
+ "items": [
+  {
+   "page": "index.html",
+   "line": 148,
+   "href": "#main",
+   "kind": "anchor",
+   "status": "REVIEW",
+   "note": "in-page anchor (runtime check)"
+  },
+  {
+   "page": "index.html",
+   "line": 152,
+   "href": "#home",
+   "kind": "anchor",
+   "status": "REVIEW",
+   "note": "in-page anchor (runtime check)"
+  }
+ ]
+}

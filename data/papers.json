@@ -1,0 +1,769 @@
+[
+ {
+  "id": "ppsc-assistant",
+  "exam": "ppsc",
+  "title": "PPSC Assistant (BS-16)",
+  "description": "General ability, English, Urdu and computer knowledge paper for the post of Assistant in Punjab government departments.",
+  "subjects": [
+   "general-knowledge",
+   "current-affairs",
+   "english",
+   "urdu",
+   "mathematics",
+   "computer-science",
+   "pakistan-affairs"
+  ],
+  "totalQuestions": 100,
+  "durationMins": 90,
+  "difficulty": "medium",
+  "status": "active",
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "ppsc-junior-clerk",
+  "exam": "ppsc",
+  "title": "PPSC Junior Clerk (BS-11)",
+  "description": "English, Urdu, mathematics and basic computer knowledge paper for clerical positions.",
+  "subjects": [
+   "english",
+   "urdu",
+   "mathematics",
+   "computer-science",
+   "ms-office",
+   "general-knowledge"
+  ],
+  "totalQuestions": 100,
+  "durationMins": 90,
+  "difficulty": "easy",
+  "status": "active",
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "ppsc-tehsildar",
+  "exam": "ppsc",
+  "title": "PPSC Tehsildar (BS-16)",
+  "description": "General knowledge, Pakistan affairs, land records and revenue administration paper for Tehsildar/Naib Tehsildar.",
+  "subjects": [
+   "pakistan-affairs",
+   "general-knowledge",
+   "english",
+   "urdu",
+   "constitution",
+   "law"
+  ],
+  "totalQuestions": 100,
+  "durationMins": 90,
+  "difficulty": "hard",
+  "status": "active",
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "ppsc-asi",
+  "exam": "ppsc",
+  "title": "PPSC ASI/SI Punjab Police",
+  "description": "General knowledge, Pakistan studies, Urdu and reasoning paper for ASI and Sub-Inspector recruitment.",
+  "subjects": [
+   "pakistan-affairs",
+   "general-knowledge",
+   "islamic-studies",
+   "urdu",
+   "reasoning",
+   "current-affairs"
+  ],
+  "totalQuestions": 100,
+  "durationMins": 90,
+  "difficulty": "medium",
+  "status": "active",
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "ppsc-pms",
+  "exam": "ppsc",
+  "title": "PMS Punjab Written Test",
+  "description": "Punjab Management Service paper covering Pakistan affairs, current affairs, English essay and general knowledge.",
+  "subjects": [
+   "pakistan-affairs",
+   "current-affairs",
+   "english",
+   "general-knowledge",
+   "constitution",
+   "islamic-studies"
+  ],
+  "totalQuestions": 100,
+  "durationMins": 90,
+  "difficulty": "hard",
+  "status": "active",
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "ppsc-deputy-accountant",
+  "exam": "ppsc",
+  "title": "PPSC Deputy Accountant (BS-16)",
+  "description": "Accounting, general knowledge and English paper for Deputy Accountant posts.",
+  "subjects": [
+   "accounting",
+   "finance",
+   "general-knowledge",
+   "english",
+   "computer-science"
+  ],
+  "totalQuestions": 100,
+  "durationMins": 90,
+  "difficulty": "medium",
+  "status": "active",
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "ppsc-computer-operator",
+  "exam": "ppsc",
+  "title": "PPSC Computer Operator (BS-16)",
+  "description": "Computer fundamentals, MS Office, general knowledge and English paper for Computer Operators.",
+  "subjects": [
+   "computer-science",
+   "ms-office",
+   "programming",
+   "general-knowledge",
+   "english",
+   "current-affairs"
+  ],
+  "totalQuestions": 100,
+  "durationMins": 90,
+  "difficulty": "medium",
+  "status": "active",
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "ppsc-educators",
+  "exam": "ppsc",
+  "title": "PPSC Educator (Secondary School Teacher)",
+  "description": "Pedagogy, subject mastery and general ability paper for SSE recruitment.",
+  "subjects": [
+   "pedagogy",
+   "education",
+   "english",
+   "everyday-science",
+   "mathematics"
+  ],
+  "totalQuestions": 100,
+  "durationMins": 90,
+  "difficulty": "medium",
+  "status": "active",
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "ppsc-head-clerk",
+  "exam": "ppsc",
+  "title": "PPSC Head Clerk (BS-11)",
+  "description": "English, Urdu, typing and office procedures paper for Head Clerk positions.",
+  "subjects": [
+   "english",
+   "urdu",
+   "ms-office",
+   "computer-science",
+   "general-knowledge"
+  ],
+  "totalQuestions": 100,
+  "durationMins": 90,
+  "difficulty": "medium",
+  "status": "active",
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "ppsc-teacher-training",
+  "exam": "ppsc",
+  "title": "PPSC Lecturer (BS-17) Subject Specialist",
+  "description": "Subject knowledge, pedagogy and professional skills paper for college lecturers.",
+  "subjects": [
+   "pedagogy",
+   "education",
+   "english",
+   "psychology"
+  ],
+  "totalQuestions": 100,
+  "durationMins": 90,
+  "difficulty": "hard",
+  "status": "active",
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "fpsc-css-pt",
+  "exam": "fpsc",
+  "title": "FPSC CSS Preliminary Test (MCQ)",
+  "description": "General Science & Ability and Current Affairs MCQ paper for CSS candidates.",
+  "subjects": [
+   "everyday-science",
+   "current-affairs",
+   "general-knowledge",
+   "pakistan-affairs",
+   "islamic-studies",
+   "constitution",
+   "english"
+  ],
+  "totalQuestions": 200,
+  "durationMins": 180,
+  "difficulty": "hard",
+  "status": "active",
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "fpsc-pms-pt",
+  "exam": "fpsc",
+  "title": "FPSC PMS Preliminary Test",
+  "description": "General knowledge, current affairs and ability paper for Provincial Management Service (federal quota).",
+  "subjects": [
+   "pakistan-affairs",
+   "current-affairs",
+   "general-knowledge",
+   "constitution",
+   "english",
+   "islamic-studies"
+  ],
+  "totalQuestions": 200,
+  "durationMins": 180,
+  "difficulty": "hard",
+  "status": "active",
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "fpsc-lecturer",
+  "exam": "fpsc",
+  "title": "FPSC Lecturer Test",
+  "description": "Subject-specific MCQ paper for FPSC lecturer recruitment in federal institutions.",
+  "subjects": [
+   "pedagogy",
+   "education",
+   "english",
+   "psychology"
+  ],
+  "totalQuestions": 100,
+  "durationMins": 90,
+  "difficulty": "hard",
+  "status": "active",
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "fpsc-inspector-fia",
+  "exam": "fpsc",
+  "title": "FPSC Inspector FIA (BS-16)",
+  "description": "General knowledge, current affairs, law and English paper for FIA Inspector posts.",
+  "subjects": [
+   "general-knowledge",
+   "current-affairs",
+   "law",
+   "english",
+   "computer-science",
+   "cyber-security",
+   "pakistan-affairs"
+  ],
+  "totalQuestions": 100,
+  "durationMins": 90,
+  "difficulty": "hard",
+  "status": "active",
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "fpsc-asf-asi",
+  "exam": "fpsc",
+  "title": "FPSC ASF Assistant Sub Inspector",
+  "description": "General ability, English, Urdu and current affairs paper for ASF ASI.",
+  "subjects": [
+   "general-knowledge",
+   "current-affairs",
+   "english",
+   "urdu",
+   "reasoning",
+   "pakistan-affairs"
+  ],
+  "totalQuestions": 100,
+  "durationMins": 90,
+  "difficulty": "medium",
+  "status": "active",
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "nts-gat",
+  "exam": "nts",
+  "title": "NTS GAT (General)",
+  "description": "NTS Graduate Assessment Test covering verbal, quantitative and analytical reasoning.",
+  "subjects": [
+   "english",
+   "mathematics",
+   "reasoning"
+  ],
+  "totalQuestions": 100,
+  "durationMins": 120,
+  "difficulty": "medium",
+  "status": "active",
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "nts-teachers",
+  "exam": "nts",
+  "title": "NTS Teachers Recruitment Test",
+  "description": "Pedagogy, subject knowledge and general ability paper for teaching posts.",
+  "subjects": [
+   "pedagogy",
+   "education",
+   "english",
+   "general-knowledge",
+   "islamic-studies"
+  ],
+  "totalQuestions": 100,
+  "durationMins": 90,
+  "difficulty": "medium",
+  "status": "active",
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "nts-police-constable",
+  "exam": "nts",
+  "title": "NTS Police Recruitment Test",
+  "description": "General knowledge, Pakistan studies, Urdu and reasoning paper for police constables.",
+  "subjects": [
+   "pakistan-affairs",
+   "general-knowledge",
+   "islamic-studies",
+   "urdu",
+   "reasoning"
+  ],
+  "totalQuestions": 100,
+  "durationMins": 90,
+  "difficulty": "easy",
+  "status": "active",
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "ots-junior-clerk",
+  "exam": "ots",
+  "title": "OTS Junior Clerk Test",
+  "description": "English, Urdu, arithmetic and computer knowledge for One Paper testing of clerks.",
+  "subjects": [
+   "english",
+   "urdu",
+   "mathematics",
+   "computer-science",
+   "ms-office"
+  ],
+  "totalQuestions": 100,
+  "durationMins": 90,
+  "difficulty": "easy",
+  "status": "active",
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "cts-general",
+  "exam": "cts",
+  "title": "CTS General Ability Test",
+  "description": "Allied testing service paper for general recruitment and clerical posts.",
+  "subjects": [
+   "general-knowledge",
+   "english",
+   "mathematics",
+   "reasoning",
+   "urdu"
+  ],
+  "totalQuestions": 100,
+  "durationMins": 90,
+  "difficulty": "medium",
+  "status": "active",
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "pts-general",
+  "exam": "pts",
+  "title": "PTS Recruitment Test",
+  "description": "Pakistan testing service paper covering GK, English and reasoning for provincial posts.",
+  "subjects": [
+   "general-knowledge",
+   "english",
+   "mathematics",
+   "reasoning",
+   "pakistan-affairs"
+  ],
+  "totalQuestions": 100,
+  "durationMins": 90,
+  "difficulty": "medium",
+  "status": "active",
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "spsc-assistant",
+  "exam": "spsc",
+  "title": "SPSC Sindh Assistant",
+  "description": "General knowledge, English, Sindhi and computer awareness for Sindh government assistants.",
+  "subjects": [
+   "general-knowledge",
+   "english",
+   "computer-science",
+   "pakistan-affairs",
+   "current-affairs"
+  ],
+  "totalQuestions": 100,
+  "durationMins": 90,
+  "difficulty": "medium",
+  "status": "active",
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "kppsc-gk",
+  "exam": "kppsc",
+  "title": "KPPSC General Knowledge Test",
+  "description": "General ability and GK paper for Khyber Pakhtunkhwa recruitment.",
+  "subjects": [
+   "general-knowledge",
+   "pakistan-affairs",
+   "english",
+   "islamic-studies",
+   "current-affairs"
+  ],
+  "totalQuestions": 100,
+  "durationMins": 90,
+  "difficulty": "medium",
+  "status": "active",
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "ajkpsc-general",
+  "exam": "ajkpsc",
+  "title": "AJKPSC General Recruitment Test",
+  "description": "General knowledge and ability paper for Azad Kashmir public service posts.",
+  "subjects": [
+   "general-knowledge",
+   "pakistan-affairs",
+   "english",
+   "current-affairs",
+   "islamic-studies"
+  ],
+  "totalQuestions": 100,
+  "durationMins": 90,
+  "difficulty": "medium",
+  "status": "active",
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "bpsc-general",
+  "exam": "bpsc",
+  "title": "BPSC General Recruitment Test",
+  "description": "General knowledge and ability paper for Balochistan public service posts.",
+  "subjects": [
+   "general-knowledge",
+   "pakistan-affairs",
+   "english",
+   "current-affairs"
+  ],
+  "totalQuestions": 100,
+  "durationMins": 90,
+  "difficulty": "medium",
+  "status": "active",
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "etea-test",
+  "exam": "etea",
+  "title": "ETEA Educators & Engineering Test",
+  "description": "Education testing paper for Punjab educators and engineering programs.",
+  "subjects": [
+   "pedagogy",
+   "education",
+   "physics",
+   "chemistry",
+   "mathematics",
+   "biology",
+   "english"
+  ],
+  "totalQuestions": 100,
+  "durationMins": 120,
+  "difficulty": "hard",
+  "status": "active",
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "navy-sailor",
+  "exam": "navy",
+  "title": "Pakistan Navy Sailor Entry Test",
+  "description": "English, general knowledge, Islamic studies and mathematics for sailor entries.",
+  "subjects": [
+   "english",
+   "general-knowledge",
+   "islamic-studies",
+   "mathematics",
+   "physics"
+  ],
+  "totalQuestions": 100,
+  "durationMins": 90,
+  "difficulty": "easy",
+  "status": "active",
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "paf-iat",
+  "exam": "paf",
+  "title": "PAF Initial Academic Test",
+  "description": "English, general knowledge and mathematics for PAF airmen and airwomen entries.",
+  "subjects": [
+   "english",
+   "general-knowledge",
+   "mathematics",
+   "physics"
+  ],
+  "totalQuestions": 100,
+  "durationMins": 90,
+  "difficulty": "easy",
+  "status": "active",
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "army-ism",
+  "exam": "army",
+  "title": "Pakistan Army ISSB Screening Test",
+  "description": "Academic screening covering English, general knowledge and mathematics for army selection.",
+  "subjects": [
+   "english",
+   "general-knowledge",
+   "mathematics",
+   "islamic-studies"
+  ],
+  "totalQuestions": 100,
+  "durationMins": 90,
+  "difficulty": "easy",
+  "status": "active",
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "railways-clerk",
+  "exam": "railways",
+  "title": "Pakistan Railways Clerk Test",
+  "description": "English, Urdu, arithmetic and GK for railways clerical posts.",
+  "subjects": [
+   "english",
+   "urdu",
+   "mathematics",
+   "general-knowledge",
+   "computer-science"
+  ],
+  "totalQuestions": 100,
+  "durationMins": 90,
+  "difficulty": "easy",
+  "status": "active",
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "nadra-junior-executive",
+  "exam": "nadra",
+  "title": "NADRA Junior Executive Test",
+  "description": "Computer knowledge, English and general ability for NADRA junior executives.",
+  "subjects": [
+   "computer-science",
+   "ms-office",
+   "english",
+   "general-knowledge",
+   "reasoning"
+  ],
+  "totalQuestions": 100,
+  "durationMins": 90,
+  "difficulty": "medium",
+  "status": "active",
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "motorway-patrol-officer",
+  "exam": "motorway",
+  "title": "Motorway Police Recruitment Test",
+  "description": "General knowledge, English and reasoning for Motorway Patrol Officer (MPO).",
+  "subjects": [
+   "general-knowledge",
+   "english",
+   "reasoning",
+   "pakistan-affairs",
+   "current-affairs"
+  ],
+  "totalQuestions": 100,
+  "durationMins": 90,
+  "difficulty": "medium",
+  "status": "active",
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "css-essay",
+  "exam": "css",
+  "title": "CSS Written - Essay Paper",
+  "description": "Descriptive essay paper - structure, argumentation and presentation (reference pattern).",
+  "subjects": [
+   "essay",
+   "english"
+  ],
+  "totalQuestions": 1,
+  "durationMins": 180,
+  "difficulty": "hard",
+  "status": "reference",
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "css-precis",
+  "exam": "css",
+  "title": "CSS Written - Precis & Composition",
+  "description": "Descriptive paper on precis writing, composition and comprehension (reference pattern).",
+  "subjects": [
+   "english",
+   "essay"
+  ],
+  "totalQuestions": 1,
+  "durationMins": 180,
+  "difficulty": "hard",
+  "status": "reference",
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "nab-inspector",
+  "exam": "nab",
+  "title": "NAB Inspector Test",
+  "description": "General knowledge, law, English and IT paper for NAB inspectors and officers.",
+  "subjects": [
+   "general-knowledge",
+   "current-affairs",
+   "law",
+   "constitution",
+   "english",
+   "computer-science",
+   "accounting"
+  ],
+  "totalQuestions": 100,
+  "durationMins": 90,
+  "difficulty": "hard",
+  "status": "active",
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "ib-assistant",
+  "exam": "ib",
+  "title": "Intelligence Bureau (IB) Test",
+  "description": "General knowledge, current affairs, mental ability and English for IB staff.",
+  "subjects": [
+   "general-knowledge",
+   "current-affairs",
+   "english",
+   "reasoning",
+   "pakistan-affairs",
+   "islamic-studies"
+  ],
+  "totalQuestions": 100,
+  "durationMins": 90,
+  "difficulty": "hard",
+  "status": "active",
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "mod-general",
+  "exam": "mod",
+  "title": "MOD (Ministry of Defence) Test",
+  "description": "General ability and GK paper for MOD civilian posts.",
+  "subjects": [
+   "general-knowledge",
+   "current-affairs",
+   "english",
+   "mathematics",
+   "pakistan-affairs"
+  ],
+  "totalQuestions": 100,
+  "durationMins": 90,
+  "difficulty": "medium",
+  "status": "active",
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "election-officer",
+  "exam": "election-officer",
+  "title": "Election Officer / RO / ARO Test",
+  "description": "Constitution, electoral laws, general knowledge and English for ECP posts.",
+  "subjects": [
+   "constitution",
+   "law",
+   "general-knowledge",
+   "current-affairs",
+   "english",
+   "pakistan-affairs"
+  ],
+  "totalQuestions": 100,
+  "durationMins": 90,
+  "difficulty": "medium",
+  "status": "active",
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "police-constable",
+  "exam": "police",
+  "title": "Punjab Police Constable Test",
+  "description": "General knowledge, Pakistan studies, Urdu and reasoning for constables.",
+  "subjects": [
+   "pakistan-affairs",
+   "general-knowledge",
+   "islamic-studies",
+   "urdu",
+   "reasoning",
+   "current-affairs"
+  ],
+  "totalQuestions": 100,
+  "durationMins": 90,
+  "difficulty": "easy",
+  "status": "active",
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "kppsc-junior-clerk",
+  "exam": "kppsc",
+  "title": "KPPSC Junior Clerk Test",
+  "description": "English, Urdu, math and computer basics for Khyber Pakhtunkhwa clerks.",
+  "subjects": [
+   "english",
+   "urdu",
+   "mathematics",
+   "computer-science",
+   "ms-office"
+  ],
+  "totalQuestions": 100,
+  "durationMins": 90,
+  "difficulty": "easy",
+  "status": "active",
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ }
+]

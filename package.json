@@ -1,0 +1,39 @@
+{
+  "name": "pakistan-mcqs-hub",
+  "version": "1.0.0",
+  "description": "Free, open-source MCQ preparation platform for Pakistani competitive exams (PPSC, FPSC, NTS, CSS, PMS and more). Zero-dependency static-first PWA with an optional Node API layer.",
+  "type": "commonjs",
+  "private": true,
+  "license": "SEE LICENSE IN LICENSE (decision pending)",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "serve": "node scripts/serve-test.js",
+    "build": "node scripts/build-mcqs.js",
+    "build:pages": "node scripts/gen-seo-pages.cjs",
+    "build:og": "node scripts/make-og.js",
+    "build:pwa-assets": "node scripts/gen-pwa-assets.cjs",
+    "test": "node scripts/test.cjs",
+    "test:db": "node scripts/test-db-integration.cjs",
+    "benchmark": "node scripts/benchmark.cjs",
+    "lint": "node scripts/lint.cjs",
+    "audit": "node scripts/audit.js",
+    "audit:repo": "node scripts/phase26-repo-audit.cjs",
+    "monitor": "node scripts/monitor.cjs",
+    "release": "node scripts/release.cjs"
+  },
+  "keywords": [
+    "mcq",
+    "pakistan",
+    "ppsc",
+    "fpsc",
+    "nts",
+    "css",
+    "pms",
+    "pwa",
+    "education",
+    "exam-prep"
+  ]
+}

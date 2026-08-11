@@ -1,0 +1,134 @@
+{
+  "python": [
+    {
+      "title": "Python Documentation",
+      "url": "https://docs.python.org/3/"
+    }
+  ],
+  "javascript": [
+    {
+      "title": "MDN Web Docs - JavaScript",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+    }
+  ],
+  "html": [
+    {
+      "title": "MDN Web Docs - HTML",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+    }
+  ],
+  "css": [
+    {
+      "title": "MDN Web Docs - CSS",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+    }
+  ],
+  "react": [
+    {
+      "title": "React Documentation",
+      "url": "https://react.dev/"
+    }
+  ],
+  "node-js": [
+    {
+      "title": "Node.js Documentation",
+      "url": "https://nodejs.org/docs/"
+    }
+  ],
+  "laravel": [
+    {
+      "title": "Laravel Documentation",
+      "url": "https://laravel.com/docs/"
+    }
+  ],
+  "django": [
+    {
+      "title": "Django Documentation",
+      "url": "https://docs.djangoproject.com/"
+    }
+  ],
+  "spring-boot": [
+    {
+      "title": "Spring Boot Reference",
+      "url": "https://spring.io/projects/spring-boot"
+    }
+  ],
+  "rust": [
+    {
+      "title": "The Rust Book",
+      "url": "https://doc.rust-lang.org/book/"
+    }
+  ],
+  "go": [
+    {
+      "title": "Go Documentation",
+      "url": "https://go.dev/doc/"
+    }
+  ],
+  "docker": [
+    {
+      "title": "Docker Documentation",
+      "url": "https://docs.docker.com/"
+    }
+  ],
+  "kubernetes": [
+    {
+      "title": "Kubernetes Documentation",
+      "url": "https://kubernetes.io/docs/"
+    }
+  ],
+  "graphql": [
+    {
+      "title": "GraphQL Learn",
+      "url": "https://graphql.org/learn/"
+    }
+  ],
+  "typescript": [
+    {
+      "title": "TypeScript Handbook",
+      "url": "https://www.typescriptlang.org/docs/"
+    }
+  ],
+  "git-github": [
+    {
+      "title": "Git Documentation",
+      "url": "https://git-scm.com/doc/"
+    }
+  ],
+  "gre": [
+    {
+      "title": "ETS - GRE",
+      "url": "https://www.ets.org/gre"
+    }
+  ],
+  "toefl": [
+    {
+      "title": "ETS - TOEFL",
+      "url": "https://www.ets.org/toefl"
+    }
+  ],
+  "ielts": [
+    {
+      "title": "IELTS Official",
+      "url": "https://www.ielts.org/"
+    }
+  ],
+  "sat": [
+    {
+      "title": "College Board - SAT",
+      "url": "https://www.collegeboard.org/sat"
+    }
+  ],
+  "vocabulary": [
+    {
+      "title": "Merriam-Webster",
+      "url": "https://www.merriam-webster.com/"
+    }
+  ],
+  "grammar": [
+    {
+      "title": "English Grammar Guide",
+      "url": "https://en.wikipedia.org/wiki/English_grammar"
+    }
+  ]
+}

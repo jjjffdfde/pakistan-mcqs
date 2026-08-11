@@ -1,0 +1,373 @@
+{
+ "module": "M2",
+ "generated_at": "2026-08-10T10:19:42.733Z",
+ "totals": {
+  "scanned": 81,
+  "working": 41,
+  "probable": 22,
+  "no_action": 18,
+  "disabled": 0
+ },
+ "items": [
+  {
+   "page": "admin.html",
+   "line": 78,
+   "id": "",
+   "class": "active",
+   "text": "Dashboard</button>",
+   "status": "NO_ACTION",
+   "note": "no handler found statically"
+  },
+  {
+   "page": "admin.html",
+   "line": 79,
+   "id": "",
+   "class": "",
+   "text": "MCQ Manager</button>",
+   "status": "PROBABLE",
+   "note": "container-delegated binding - runtime verify"
+  },
+  {
+   "page": "admin.html",
+   "line": 80,
+   "id": "",
+   "class": "",
+   "text": "Category Manager</button>",
+   "status": "PROBABLE",
+   "note": "container-delegated binding - runtime verify"
+  },
+  {
+   "page": "admin.html",
+   "line": 81,
+   "id": "",
+   "class": "",
+   "text": "Subject Manager</button>",
+   "status": "PROBABLE",
+   "note": "container-delegated binding - runtime verify"
+  },
+  {
+   "page": "admin.html",
+   "line": 82,
+   "id": "",
+   "class": "",
+   "text": "Topic Manager</button>",
+   "status": "PROBABLE",
+   "note": "container-delegated binding - runtime verify"
+  },
+  {
+   "page": "admin.html",
+   "line": 83,
+   "id": "",
+   "class": "",
+   "text": "Explanations</button>",
+   "status": "PROBABLE",
+   "note": "container-delegated binding - runtime verify"
+  },
+  {
+   "page": "admin.html",
+   "line": 84,
+   "id": "",
+   "class": "",
+   "text": "AI Generator</button>",
+   "status": "PROBABLE",
+   "note": "container-delegated binding - runtime verify"
+  },
+  {
+   "page": "admin.html",
+   "line": 85,
+   "id": "",
+   "class": "",
+   "text": "Image Library</button>",
+   "status": "PROBABLE",
+   "note": "container-delegated binding - runtime verify"
+  },
+  {
+   "page": "admin.html",
+   "line": 86,
+   "id": "",
+   "class": "",
+   "text": "Import (CSV / TSV / JSON)</button>",
+   "status": "PROBABLE",
+   "note": "container-delegated binding - runtime verify"
+  },
+  {
+   "page": "admin.html",
+   "line": 87,
+   "id": "",
+   "class": "",
+   "text": "Duplicates</button>",
+   "status": "PROBABLE",
+   "note": "container-delegated binding - runtime verify"
+  },
+  {
+   "page": "admin.html",
+   "line": 88,
+   "id": "",
+   "class": "",
+   "text": "Export</button> </div> <section id=\"tab-stats\"> <d",
+   "status": "PROBABLE",
+   "note": "container-delegated binding - runtime verify"
+  },
+  {
+   "page": "index.html",
+   "line": 157,
+   "id": "",
+   "class": "nav-link",
+   "text": "Home</button>",
+   "status": "PROBABLE",
+   "note": "class-referenced in JS - runtime verify"
+  },
+  {
+   "page": "index.html",
+   "line": 158,
+   "id": "",
+   "class": "nav-link",
+   "text": "Browse MCQs</button>",
+   "status": "PROBABLE",
+   "note": "class-referenced in JS - runtime verify"
+  },
+  {
+   "page": "index.html",
+   "line": 159,
+   "id": "",
+   "class": "nav-link",
+   "text": "Practice</button>",
+   "status": "PROBABLE",
+   "note": "class-referenced in JS - runtime verify"
+  },
+  {
+   "page": "index.html",
+   "line": 160,
+   "id": "",
+   "class": "nav-link",
+   "text": "Quizzes</button>",
+   "status": "PROBABLE",
+   "note": "class-referenced in JS - runtime verify"
+  },
+  {
+   "page": "index.html",
+   "line": 161,
+   "id": "",
+   "class": "nav-link",
+   "text": "Past Papers</button>",
+   "status": "PROBABLE",
+   "note": "class-referenced in JS - runtime verify"
+  },
+  {
+   "page": "index.html",
+   "line": 162,
+   "id": "",
+   "class": "nav-link",
+   "text": "Dashboard</button>",
+   "status": "PROBABLE",
+   "note": "class-referenced in JS - runtime verify"
+  },
+  {
+   "page": "index.html",
+   "line": 163,
+   "id": "",
+   "class": "nav-link",
+   "text": "AI Coach</button>",
+   "status": "PROBABLE",
+   "note": "class-referenced in JS - runtime verify"
+  },
+  {
+   "page": "index.html",
+   "line": 164,
+   "id": "",
+   "class": "nav-link",
+   "text": "Leaderboard</button>",
+   "status": "PROBABLE",
+   "note": "class-referenced in JS - runtime verify"
+  },
+  {
+   "page": "index.html",
+   "line": 165,
+   "id": "",
+   "class": "nav-link",
+   "text": "Bookmarks</button> <a class=\"nav-link\" href=\"subje",
+   "status": "PROBABLE",
+   "note": "class-referenced in JS - runtime verify"
+  },
+  {
+   "page": "index.html",
+   "line": 190,
+   "id": "",
+   "class": "btn btn-primary",
+   "text": "Start Practicing</button>",
+   "status": "NO_ACTION",
+   "note": "no handler found statically"
+  },
+  {
+   "page": "index.html",
+   "line": 191,
+   "id": "",
+   "class": "btn btn-outline",
+   "text": "Take a Quiz</button>",
+   "status": "NO_ACTION",
+   "note": "no handler found statically"
+  },
+  {
+   "page": "index.html",
+   "line": 192,
+   "id": "",
+   "class": "btn btn-gold",
+   "text": "My Dashboard</button> </div> <div id=\"statsRow\" cl",
+   "status": "NO_ACTION",
+   "note": "no handler found statically"
+  },
+  {
+   "page": "index.html",
+   "line": 309,
+   "id": "",
+   "class": "btn btn-primary",
+   "text": "View Dashboard</button>",
+   "status": "NO_ACTION",
+   "note": "no handler found statically"
+  },
+  {
+   "page": "index.html",
+   "line": 465,
+   "id": "",
+   "class": "ai-tab active",
+   "text": "Readiness</button>",
+   "status": "NO_ACTION",
+   "note": "no handler found statically"
+  },
+  {
+   "page": "index.html",
+   "line": 466,
+   "id": "",
+   "class": "ai-tab",
+   "text": "Planner</button>",
+   "status": "NO_ACTION",
+   "note": "no handler found statically"
+  },
+  {
+   "page": "index.html",
+   "line": 467,
+   "id": "",
+   "class": "ai-tab",
+   "text": "Adaptive</button>",
+   "status": "NO_ACTION",
+   "note": "no handler found statically"
+  },
+  {
+   "page": "index.html",
+   "line": 468,
+   "id": "",
+   "class": "ai-tab",
+   "text": "Revision</button>",
+   "status": "NO_ACTION",
+   "note": "no handler found statically"
+  },
+  {
+   "page": "index.html",
+   "line": 469,
+   "id": "",
+   "class": "ai-tab",
+   "text": "Flashcards</button>",
+   "status": "NO_ACTION",
+   "note": "no handler found statically"
+  },
+  {
+   "page": "index.html",
+   "line": 470,
+   "id": "",
+   "class": "ai-tab",
+   "text": "Mock Predictor</button>",
+   "status": "NO_ACTION",
+   "note": "no handler found statically"
+  },
+  {
+   "page": "index.html",
+   "line": 471,
+   "id": "",
+   "class": "ai-tab",
+   "text": "Recommendations</button>",
+   "status": "NO_ACTION",
+   "note": "no handler found statically"
+  },
+  {
+   "page": "index.html",
+   "line": 472,
+   "id": "",
+   "class": "ai-tab",
+   "text": "Current Affairs</button>",
+   "status": "NO_ACTION",
+   "note": "no handler found statically"
+  },
+  {
+   "page": "index.html",
+   "line": 473,
+   "id": "",
+   "class": "ai-tab",
+   "text": "Analytics</button>",
+   "status": "NO_ACTION",
+   "note": "no handler found statically"
+  },
+  {
+   "page": "index.html",
+   "line": 474,
+   "id": "",
+   "class": "ai-tab",
+   "text": "Leaderboard</button>",
+   "status": "NO_ACTION",
+   "note": "no handler found statically"
+  },
+  {
+   "page": "index.html",
+   "line": 475,
+   "id": "",
+   "class": "ai-tab",
+   "text": "Notifications</button> </div> <div id=\"aiPanel\" cl",
+   "status": "NO_ACTION",
+   "note": "no handler found statically"
+  },
+  {
+   "page": "index.html",
+   "line": 489,
+   "id": "",
+   "class": "nav-link",
+   "text": "Home</button>",
+   "status": "PROBABLE",
+   "note": "class-referenced in JS - runtime verify"
+  },
+  {
+   "page": "index.html",
+   "line": 490,
+   "id": "",
+   "class": "nav-link",
+   "text": "Browse MCQs</button>",
+   "status": "PROBABLE",
+   "note": "class-referenced in JS - runtime verify"
+  },
+  {
+   "page": "index.html",
+   "line": 491,
+   "id": "",
+   "class": "nav-link",
+   "text": "Past Papers</button> <a href=\"admin.html\">Admin</a",
+   "status": "PROBABLE",
+   "note": "class-referenced in JS - runtime verify"
+  },
+  {
+   "page": "offline.html",
+   "line": 26,
+   "id": "offlineRetry",
+   "class": "btn btn-primary",
+   "text": "Retry connection</button>",
+   "status": "NO_ACTION",
+   "note": "no handler found statically"
+  },
+  {
+   "page": "offline.html",
+   "line": 27,
+   "id": "offlineHome",
+   "class": "btn btn-outline",
+   "text": "Go to home</button> </div> <p class=\"offline-meta\"",
+   "status": "NO_ACTION",
+   "note": "no handler found statically"
+  }
+ ]
+}

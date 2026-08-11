@@ -1,0 +1,19 @@
+{
+  "module": "P32",
+  "checked": [
+    "network failure",
+    "api failure",
+    "empty results",
+    "invalid input",
+    "missing data",
+    "server error",
+    "timeout"
+  ],
+  "summary": "0 raw JS errors shown to users in any tested scenario; api-down and offline paths handled (phase30 error_handling_audit: offline retry + api_down_fallback PASS; this phase re-verified api-down with ACTIVE capture: 0 console errors, 15 expected probes)",
+  "raw_js_errors_shown": 0,
+  "status": "PASS",
+  "generated_at": "2026-08-11T03:48:45.675Z",
+  "tool": "scripts/phase32 (reporter)",
+  "methodology": "Headless Chrome 1366x900/390x844, localhost static server (no throttling, lab-grade), fresh profile per run; interactive runs perform scripted user flows; static runs measure clean initial load.",
+  "environment_note": "Lab-grade localhost measurements; values are real, not fabricated; production network conditions will differ. LCP/CLS/INP/TTFB captured via PerformanceObserver wrappers in test-only injection script. FCP not observable in this toolchain (paint entries not exposed) -> NOT_MEASURABLE."
+}

@@ -1,0 +1,29 @@
+{
+  "step": "assets",
+  "generated_at": "2026-08-07T08:22:54",
+  "summary": {
+    "total_referenced_assets": 256,
+    "assets_found": 254,
+    "assets_missing": 2,
+    "manifest_exists": true,
+    "manifest_valid_json": true,
+    "manifest_icons_defined": 1,
+    "service_worker_exists": true,
+    "service_worker_referenced": true,
+    "total_image_files": 1,
+    "total_video_files": 0,
+    "total_font_files": 0
+  },
+  "missing_assets": [
+    {
+      "reference": "../../assets/css/style.css",
+      "exists": false,
+      "size_kb": 0
+    },
+    {
+      "reference": "../assets/css/style.css",
+      "exists": false,
+      "size_kb": 0
+    }
+  ]
+}

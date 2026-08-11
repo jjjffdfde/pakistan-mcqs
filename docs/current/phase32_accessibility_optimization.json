@@ -1,0 +1,20 @@
+{
+  "module": "P32",
+  "before": {
+    "skip_link": "target verified (phase30)",
+    "landmarks": "main/nav/header/footer",
+    "imgs": "alt present (only 1 img, has alt)",
+    "inputs": "13 heuristic no-label inputs have visible placeholders (P2 advisory)",
+    "touch": "smallest 36px (P2 advisory)",
+    "reduced_motion": "absent media query (P2 advisory)"
+  },
+  "after": {
+    "unchanged": "all above still PASS; P32-OPT-002 adds no a11y regression (chips wrap; keyboard still operable)"
+  },
+  "regression_check": "01-functional suite exercises keyboard/click flows — 26/26 PASS after optimizations; contrast variables unchanged; no focus or label changes",
+  "status": "PASS — optimizations did not damage accessibility",
+  "generated_at": "2026-08-11T03:48:45.675Z",
+  "tool": "scripts/phase32 (reporter)",
+  "methodology": "Headless Chrome 1366x900/390x844, localhost static server (no throttling, lab-grade), fresh profile per run; interactive runs perform scripted user flows; static runs measure clean initial load.",
+  "environment_note": "Lab-grade localhost measurements; values are real, not fabricated; production network conditions will differ. LCP/CLS/INP/TTFB captured via PerformanceObserver wrappers in test-only injection script. FCP not observable in this toolchain (paint entries not exposed) -> NOT_MEASURABLE."
+}

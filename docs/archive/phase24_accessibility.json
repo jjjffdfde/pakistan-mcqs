@@ -1,0 +1,17 @@
+{
+  "step": "accessibility",
+  "generated_at": "2026-08-10T16:56:04",
+  "summary": {
+    "pages_with_lang": 1129,
+    "pages_with_viewport": 1125,
+    "skip_links_found": 3,
+    "total_images": 1,
+    "images_missing_alt": 0,
+    "empty_buttons": 0,
+    "input_fields": 14,
+    "label_elements": 41,
+    "focus_visible_styles": true,
+    "dark_theme_defined": true
+  },
+  "issues": []
+}

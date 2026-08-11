@@ -1,0 +1,265 @@
+{
+  "step": "revision",
+  "generated_at": "2026-08-10T12:10:32.586Z",
+  "summary": {
+    "daily_days": 7,
+    "weak_topics": 8,
+    "revisions_queued": 2,
+    "flashcards_queued": 15,
+    "mocks_available": 12,
+    "bookmarks_planned": 5,
+    "exam_days_left": 113,
+    "status": "PASS"
+  },
+  "daily_plan": [
+    {
+      "date": "2026-08-10",
+      "items": [
+        {
+          "type": "practice",
+          "title": "Fix weak area: Exam Pattern",
+          "target": "t-ch-cssexa-central-superior-services-pattern-awaren-exam-pattern",
+          "subject_id": "css-exam",
+          "questions": 30
+        },
+        {
+          "type": "revision",
+          "title": "Spaced revision",
+          "questions": 2,
+          "targets": [
+            "cssexa-000004",
+            "iq-000377"
+          ]
+        },
+        {
+          "type": "current-affairs",
+          "title": "Current affairs digest",
+          "questions": 5
+        },
+        {
+          "type": "bookmark",
+          "title": "Re-attempt bookmarked question",
+          "target": "cssexa-000001",
+          "questions": 1
+        }
+      ]
+    },
+    {
+      "date": "2026-08-11",
+      "items": [
+        {
+          "type": "practice",
+          "title": "Fix weak area: Aptitude Basics",
+          "target": "t-ch-reason-reasoning-aptitude-concepts-aptitude-basics",
+          "subject_id": "reasoning",
+          "questions": 30
+        },
+        {
+          "type": "flashcards",
+          "title": "Flashcard review",
+          "questions": 15
+        }
+      ]
+    },
+    {
+      "date": "2026-08-12",
+      "items": [
+        {
+          "type": "practice",
+          "title": "Fix weak area: Letter Series",
+          "target": "t-ch-iq-reasoning-series-and-patterns-letter-series",
+          "subject_id": "iq",
+          "questions": 30
+        },
+        {
+          "type": "bookmark",
+          "title": "Re-attempt bookmarked question",
+          "target": "cssexa-000004",
+          "questions": 1
+        }
+      ]
+    },
+    {
+      "date": "2026-08-13",
+      "items": [
+        {
+          "type": "practice",
+          "title": "Fix weak area: Syllogisms & Puzzles",
+          "target": "t-269",
+          "subject_id": "reasoning",
+          "questions": 30
+        }
+      ]
+    },
+    {
+      "date": "2026-08-14",
+      "items": [
+        {
+          "type": "practice",
+          "title": "Fix weak area: Analogies & Series",
+          "target": "t-267",
+          "subject_id": "reasoning",
+          "questions": 30
+        },
+        {
+          "type": "mock",
+          "title": "Mock test: Educators - Mock Test 1",
+          "target": "mock-educators-1",
+          "questions": 40
+        },
+        {
+          "type": "bookmark",
+          "title": "Re-attempt bookmarked question",
+          "target": "urd-015",
+          "questions": 1
+        }
+      ]
+    },
+    {
+      "date": "2026-08-15",
+      "items": [
+        {
+          "type": "practice",
+          "title": "Fix weak area: Ecosystem Structure & Energy Flow",
+          "target": "t-272",
+          "subject_id": "environmental-science",
+          "questions": 30
+        }
+      ]
+    },
+    {
+      "date": "2026-08-16",
+      "items": [
+        {
+          "type": "practice",
+          "title": "Fix weak area: Air & Water Pollution",
+          "target": "t-274",
+          "subject_id": "environmental-science",
+          "questions": 30
+        },
+        {
+          "type": "bookmark",
+          "title": "Re-attempt bookmarked question",
+          "target": "cssexa-000002",
+          "questions": 1
+        }
+      ]
+    }
+  ],
+  "weekly_plan": {
+    "horizon_days": 7,
+    "target_questions": 420,
+    "mocks": 1,
+    "weak_focus_count": 8,
+    "revisions_queued": 2,
+    "flashcards_queued": 15,
+    "exam_days_left": 113
+  },
+  "monthly_plan": {
+    "weeks": [
+      {
+        "week": 1,
+        "start_date": "2026-08-10",
+        "focus": [
+          "Exam Pattern",
+          "Aptitude Basics"
+        ],
+        "mock": {
+          "id": "mock-computer-1",
+          "title": "Computer & IT - Mock Test 1"
+        },
+        "target_questions": 420
+      },
+      {
+        "week": 2,
+        "start_date": "2026-08-17",
+        "focus": [
+          "Letter Series",
+          "Syllogisms & Puzzles"
+        ],
+        "mock": {
+          "id": "mock-educators-1",
+          "title": "Educators - Mock Test 1"
+        },
+        "target_questions": 420
+      },
+      {
+        "week": 3,
+        "start_date": "2026-08-24",
+        "focus": [
+          "Analogies & Series",
+          "Ecosystem Structure & Energy Flow"
+        ],
+        "mock": {
+          "id": "mock-exam-ajkpsc",
+          "title": "AJKPSC Full-Length Mock Test"
+        },
+        "target_questions": 420
+      },
+      {
+        "week": 4,
+        "start_date": "2026-08-31",
+        "focus": [
+          "Air & Water Pollution",
+          "Ecosystems"
+        ],
+        "mock": {
+          "id": "mock-exam-anf",
+          "title": "ANF Full-Length Mock Test"
+        },
+        "target_questions": 420
+      }
+    ],
+    "total_weeks": 4
+  },
+  "exam_plan": {
+    "target_exam": "CSS",
+    "target_date": "2026-12-01",
+    "days_left": 113,
+    "phase": "foundation",
+    "weekly_mocks": 1,
+    "focus": "subject mastery + weak-topic repair"
+  },
+  "bookmark_plan": [
+    {
+      "order": 1,
+      "mcq_id": "cssexa-000001",
+      "subject": "CSS Exam (Central Superior Services)",
+      "difficulty": "medium",
+      "plan": "Re-attempt and read the full explanation; then add to flashcards if missed.",
+      "scheduled_day": "2026-08-10"
+    },
+    {
+      "order": 2,
+      "mcq_id": "cssexa-000002",
+      "subject": "CSS Exam (Central Superior Services)",
+      "difficulty": "medium",
+      "plan": "Re-attempt and read the full explanation; then add to flashcards if missed.",
+      "scheduled_day": "2026-08-11"
+    },
+    {
+      "order": 3,
+      "mcq_id": "cssexa-000004",
+      "subject": "CSS Exam (Central Superior Services)",
+      "difficulty": "medium",
+      "plan": "Re-attempt and read the full explanation; then add to flashcards if missed.",
+      "scheduled_day": "2026-08-12"
+    },
+    {
+      "order": 4,
+      "mcq_id": "gk-010",
+      "subject": "General Knowledge",
+      "difficulty": "easy",
+      "plan": "Re-attempt and read the full explanation; then add to flashcards if missed.",
+      "scheduled_day": "2026-08-13"
+    },
+    {
+      "order": 5,
+      "mcq_id": "urd-015",
+      "subject": "Urdu",
+      "difficulty": "medium",
+      "plan": "Re-attempt and read the full explanation; then add to flashcards if missed.",
+      "scheduled_day": "2026-08-14"
+    }
+  ]
+}

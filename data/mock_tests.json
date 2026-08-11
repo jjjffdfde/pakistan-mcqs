@@ -1,0 +1,117 @@
+[
+ {
+  "id": "mock-ppsc-assistant-1",
+  "title": "PPSC Assistant - Mock Test 1",
+  "description": "Full-length simulated mock for PPSC Assistant following the official paper pattern with negative marking practice.",
+  "exam": "ppsc",
+  "subjects": [
+   "general-knowledge",
+   "current-affairs",
+   "english",
+   "urdu",
+   "mathematics",
+   "computer-science",
+   "pakistan-affairs"
+  ],
+  "difficulty": "medium",
+  "totalQuestions": 50,
+  "durationMins": 45,
+  "negativeMarking": true,
+  "status": "active",
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "mock-fpsc-css-1",
+  "title": "FPSC CSS PT - Mock Test 1",
+  "description": "Preliminary test mock covering General Science & Ability with current affairs.",
+  "exam": "css",
+  "subjects": [
+   "everyday-science",
+   "current-affairs",
+   "general-knowledge",
+   "pakistan-affairs",
+   "islamic-studies",
+   "constitution"
+  ],
+  "difficulty": "hard",
+  "totalQuestions": 60,
+  "durationMins": 60,
+  "negativeMarking": false,
+  "status": "active",
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "mock-nts-gat-1",
+  "title": "NTS GAT - Mock Test 1",
+  "description": "Graduate Assessment Test mock - verbal, quantitative and analytical reasoning.",
+  "exam": "nts",
+  "subjects": [
+   "english",
+   "mathematics",
+   "reasoning"
+  ],
+  "difficulty": "medium",
+  "totalQuestions": 40,
+  "durationMins": 40,
+  "negativeMarking": false,
+  "status": "active",
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "mock-educators-1",
+  "title": "Educators - Mock Test 1",
+  "description": "Pedagogy plus subject knowledge mock for teaching posts.",
+  "exam": "educators",
+  "subjects": [
+   "pedagogy",
+   "education",
+   "psychology",
+   "english",
+   "everyday-science"
+  ],
+  "difficulty": "medium",
+  "totalQuestions": 40,
+  "durationMins": 40,
+  "negativeMarking": true,
+  "status": "active",
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "mock-computer-1",
+  "title": "Computer & IT - Mock Test 1",
+  "description": "IT fundamentals mock for computer operator and IT posts.",
+  "exam": "nts",
+  "subjects": [
+   "computer-science",
+   "ms-office",
+   "programming",
+   "networking",
+   "operating-systems"
+  ],
+  "difficulty": "medium",
+  "totalQuestions": 40,
+  "durationMins": 35,
+  "negativeMarking": true,
+  "status": "active",
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "mock-mixed-1",
+  "title": "Mixed General - Mock Test 1",
+  "description": "All-subject random challenge for a complete syllabus check.",
+  "exam": "custom-exams",
+  "subjects": [],
+  "difficulty": "hard",
+  "totalQuestions": 50,
+  "durationMins": 45,
+  "negativeMarking": true,
+  "status": "active",
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ }
+]

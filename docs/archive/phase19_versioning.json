@@ -1,0 +1,494 @@
+{
+  "step": "version_control_engine",
+  "generated_at": "2026-08-05T13:07:22",
+  "summary": {
+    "total_versions_tracked": 37,
+    "published_versions": 18,
+    "rollback_points_registered": 37
+  },
+  "versions": [
+    {
+      "mcq_id": "gen-accounting-15195-8914-0006",
+      "draft_version": "v0.9.0-draft",
+      "published_version": "v1.0.0-published",
+      "stage": "published",
+      "rollback_id": "RB-gen-accounting-15195-8914-0006-1785917240362"
+    },
+    {
+      "mcq_id": "gen-accounting-15196-8921-0007",
+      "draft_version": "v0.9.0-draft",
+      "published_version": "v0.9.0-unpublished",
+      "stage": "draft",
+      "rollback_id": "RB-gen-accounting-15196-8921-0007-1785917240406"
+    },
+    {
+      "mcq_id": "gen-accounting-15197-8913-0008",
+      "draft_version": "v0.9.0-draft",
+      "published_version": "v1.0.0-published",
+      "stage": "published",
+      "rollback_id": "RB-gen-accounting-15197-8913-0008-1785917240448"
+    },
+    {
+      "mcq_id": "gen-agriculture-15204-8929-0015",
+      "draft_version": "v0.9.0-draft",
+      "published_version": "v1.0.0-published",
+      "stage": "published",
+      "rollback_id": "RB-gen-agriculture-15204-8929-0015-1785917240490"
+    },
+    {
+      "mcq_id": "gen-ai-15213-8940-0024",
+      "draft_version": "v0.9.0-draft",
+      "published_version": "v0.9.0-unpublished",
+      "stage": "draft",
+      "rollback_id": "RB-gen-ai-15213-8940-0024-1785917240532"
+    },
+    {
+      "mcq_id": "gen-ajkpsc-15218-8941-0029",
+      "draft_version": "v0.9.0-draft",
+      "published_version": "v1.0.0-published",
+      "stage": "published",
+      "rollback_id": "RB-gen-ajkpsc-15218-8941-0029-1785917240574"
+    },
+    {
+      "mcq_id": "gen-ajkpsc-15222-8947-0033",
+      "draft_version": "v0.9.0-draft",
+      "published_version": "v1.0.0-published",
+      "stage": "published",
+      "rollback_id": "RB-gen-ajkpsc-15222-8947-0033-1785917240615"
+    },
+    {
+      "mcq_id": "gen-ajkpsc-15223-8948-0034",
+      "draft_version": "v0.9.0-draft",
+      "published_version": "v1.0.0-published",
+      "stage": "published",
+      "rollback_id": "RB-gen-ajkpsc-15223-8948-0034-1785917240657"
+    },
+    {
+      "mcq_id": "gen-analytical-reasoning-15229-8952-0040",
+      "draft_version": "v0.9.0-draft",
+      "published_version": "v0.9.0-unpublished",
+      "stage": "draft",
+      "rollback_id": "RB-gen-analytical-reasoning-15229-8952-0040-1785917240699"
+    },
+    {
+      "mcq_id": "gen-analytical-reasoning-15230-8954-0041",
+      "draft_version": "v0.9.0-draft",
+      "published_version": "v0.9.0-unpublished",
+      "stage": "draft",
+      "rollback_id": "RB-gen-analytical-reasoning-15230-8954-0041-1785917240744"
+    },
+    {
+      "mcq_id": "gen-analytical-reasoning-15231-8957-0042",
+      "draft_version": "v0.9.0-draft",
+      "published_version": "v0.9.0-unpublished",
+      "stage": "draft",
+      "rollback_id": "RB-gen-analytical-reasoning-15231-8957-0042-1785917240778"
+    },
+    {
+      "mcq_id": "gen-analytical-reasoning-15232-8953-0043",
+      "draft_version": "v0.9.0-draft",
+      "published_version": "v0.9.0-unpublished",
+      "stage": "draft",
+      "rollback_id": "RB-gen-analytical-reasoning-15232-8953-0043-1785917240919"
+    },
+    {
+      "mcq_id": "gen-analytical-reasoning-15233-8956-0044",
+      "draft_version": "v0.9.0-draft",
+      "published_version": "v0.9.0-unpublished",
+      "stage": "draft",
+      "rollback_id": "RB-gen-analytical-reasoning-15233-8956-0044-1785917240969"
+    },
+    {
+      "mcq_id": "gen-analytical-reasoning-15234-8955-0045",
+      "draft_version": "v0.9.0-draft",
+      "published_version": "v1.0.0-published",
+      "stage": "published",
+      "rollback_id": "RB-gen-analytical-reasoning-15234-8955-0045-1785917241010"
+    },
+    {
+      "mcq_id": "gen-analytical-reasoning-15235-8958-0046",
+      "draft_version": "v0.9.0-draft",
+      "published_version": "v0.9.0-unpublished",
+      "stage": "draft",
+      "rollback_id": "RB-gen-analytical-reasoning-15235-8958-0046-1785917241052"
+    },
+    {
+      "mcq_id": "gen-anatomy-15237-8961-0048",
+      "draft_version": "v0.9.0-draft",
+      "published_version": "v0.9.0-unpublished",
+      "stage": "draft",
+      "rollback_id": "RB-gen-anatomy-15237-8961-0048-1785917241094"
+    },
+    {
+      "mcq_id": "gen-anatomy-15241-8971-0052",
+      "draft_version": "v0.9.0-draft",
+      "published_version": "v0.9.0-unpublished",
+      "stage": "draft",
+      "rollback_id": "RB-gen-anatomy-15241-8971-0052-1785917241136"
+    },
+    {
+      "mcq_id": "gen-anatomy-15246-8963-0057",
+      "draft_version": "v0.9.0-draft",
+      "published_version": "v1.0.0-published",
+      "stage": "published",
+      "rollback_id": "RB-gen-anatomy-15246-8963-0057-1785917241177"
+    },
+    {
+      "mcq_id": "gen-anatomy-15247-8968-0058",
+      "draft_version": "v0.9.0-draft",
+      "published_version": "v1.0.0-published",
+      "stage": "published",
+      "rollback_id": "RB-gen-anatomy-15247-8968-0058-1785917241219"
+    },
+    {
+      "mcq_id": "gen-anf-15249-8972-0060",
+      "draft_version": "v0.9.0-draft",
+      "published_version": "v1.0.0-published",
+      "stage": "published",
+      "rollback_id": "RB-gen-anf-15249-8972-0060-1785917241261"
+    },
+    {
+      "mcq_id": "gen-angular-15255-8978-0066",
+      "draft_version": "v0.9.0-draft",
+      "published_version": "v0.9.0-unpublished",
+      "stage": "draft",
+      "rollback_id": "RB-gen-angular-15255-8978-0066-1785917241302"
+    },
+    {
+      "mcq_id": "gen-angular-15258-8982-0069",
+      "draft_version": "v0.9.0-draft",
+      "published_version": "v0.9.0-unpublished",
+      "stage": "draft",
+      "rollback_id": "RB-gen-angular-15258-8982-0069-1785917241344"
+    },
+    {
+      "mcq_id": "gen-anthropology-15263-8987-0074",
+      "draft_version": "v0.9.0-draft",
+      "published_version": "v1.0.0-published",
+      "stage": "published",
+      "rollback_id": "RB-gen-anthropology-15263-8987-0074-1785917241386"
+    },
+    {
+      "mcq_id": "gen-anthropology-15265-8986-0076",
+      "draft_version": "v0.9.0-draft",
+      "published_version": "v1.0.0-published",
+      "stage": "published",
+      "rollback_id": "RB-gen-anthropology-15265-8986-0076-1785917241427"
+    },
+    {
+      "mcq_id": "gen-antonyms-15266-8990-0077",
+      "draft_version": "v0.9.0-draft",
+      "published_version": "v0.9.0-unpublished",
+      "stage": "draft",
+      "rollback_id": "RB-gen-antonyms-15266-8990-0077-1785917241469"
+    },
+    {
+      "mcq_id": "gen-antonyms-15267-8994-0078",
+      "draft_version": "v0.9.0-draft",
+      "published_version": "v1.0.0-published",
+      "stage": "published",
+      "rollback_id": "RB-gen-antonyms-15267-8994-0078-1785917241511"
+    },
+    {
+      "mcq_id": "gen-antonyms-15268-8995-0079",
+      "draft_version": "v0.9.0-draft",
+      "published_version": "v1.0.0-published",
+      "stage": "published",
+      "rollback_id": "RB-gen-antonyms-15268-8995-0079-1785917241552"
+    },
+    {
+      "mcq_id": "gen-antonyms-15269-8996-0080",
+      "draft_version": "v0.9.0-draft",
+      "published_version": "v1.0.0-published",
+      "stage": "published",
+      "rollback_id": "RB-gen-antonyms-15269-8996-0080-1785917241594"
+    },
+    {
+      "mcq_id": "gen-antonyms-15270-8998-0081",
+      "draft_version": "v0.9.0-draft",
+      "published_version": "v0.9.0-unpublished",
+      "stage": "draft",
+      "rollback_id": "RB-gen-antonyms-15270-8998-0081-1785917241636"
+    },
+    {
+      "mcq_id": "gen-antonyms-15271-8991-0082",
+      "draft_version": "v0.9.0-draft",
+      "published_version": "v1.0.0-published",
+      "stage": "published",
+      "rollback_id": "RB-gen-antonyms-15271-8991-0082-1785917241678"
+    },
+    {
+      "mcq_id": "gen-antonyms-15275-8989-0086",
+      "draft_version": "v0.9.0-draft",
+      "published_version": "v0.9.0-unpublished",
+      "stage": "draft",
+      "rollback_id": "RB-gen-antonyms-15275-8989-0086-1785917241719"
+    },
+    {
+      "mcq_id": "gen-aptitude-tests-15276-8999-0087",
+      "draft_version": "v0.9.0-draft",
+      "published_version": "v0.9.0-unpublished",
+      "stage": "draft",
+      "rollback_id": "RB-gen-aptitude-tests-15276-8999-0087-1785917241761"
+    },
+    {
+      "mcq_id": "gen-aptitude-tests-15277-9001-0088",
+      "draft_version": "v0.9.0-draft",
+      "published_version": "v0.9.0-unpublished",
+      "stage": "draft",
+      "rollback_id": "RB-gen-aptitude-tests-15277-9001-0088-1785917241803"
+    },
+    {
+      "mcq_id": "gen-aptitude-tests-15278-9002-0089",
+      "draft_version": "v0.9.0-draft",
+      "published_version": "v0.9.0-unpublished",
+      "stage": "draft",
+      "rollback_id": "RB-gen-aptitude-tests-15278-9002-0089-1785917241844"
+    },
+    {
+      "mcq_id": "gen-aptitude-tests-15279-9000-0090",
+      "draft_version": "v0.9.0-draft",
+      "published_version": "v0.9.0-unpublished",
+      "stage": "draft",
+      "rollback_id": "RB-gen-aptitude-tests-15279-9000-0090-1785917241894"
+    },
+    {
+      "mcq_id": "gen-aptitude-tests-15280-9003-0091",
+      "draft_version": "v0.9.0-draft",
+      "published_version": "v1.0.0-published",
+      "stage": "published",
+      "rollback_id": "RB-gen-aptitude-tests-15280-9003-0091-1785917241936"
+    },
+    {
+      "mcq_id": "gen-army-15288-9011-0099",
+      "draft_version": "v0.9.0-draft",
+      "published_version": "v1.0.0-published",
+      "stage": "published",
+      "rollback_id": "RB-gen-army-15288-9011-0099-1785917241977"
+    }
+  ],
+  "rollback_points": [
+    {
+      "rollback_id": "RB-gen-accounting-15195-8914-0006-1785917240362",
+      "release_id": "REL-20260805-001",
+      "mcq_id": "gen-accounting-15195-8914-0006",
+      "action": "publish_inserted"
+    },
+    {
+      "rollback_id": "RB-gen-accounting-15196-8921-0007-1785917240406",
+      "release_id": "REL-20260805-001",
+      "mcq_id": "gen-accounting-15196-8921-0007",
+      "action": "review_decision"
+    },
+    {
+      "rollback_id": "RB-gen-accounting-15197-8913-0008-1785917240448",
+      "release_id": "REL-20260805-001",
+      "mcq_id": "gen-accounting-15197-8913-0008",
+      "action": "publish_inserted"
+    },
+    {
+      "rollback_id": "RB-gen-agriculture-15204-8929-0015-1785917240490",
+      "release_id": "REL-20260805-001",
+      "mcq_id": "gen-agriculture-15204-8929-0015",
+      "action": "publish_inserted"
+    },
+    {
+      "rollback_id": "RB-gen-ai-15213-8940-0024-1785917240532",
+      "release_id": "REL-20260805-001",
+      "mcq_id": "gen-ai-15213-8940-0024",
+      "action": "review_decision"
+    },
+    {
+      "rollback_id": "RB-gen-ajkpsc-15218-8941-0029-1785917240574",
+      "release_id": "REL-20260805-001",
+      "mcq_id": "gen-ajkpsc-15218-8941-0029",
+      "action": "publish_inserted"
+    },
+    {
+      "rollback_id": "RB-gen-ajkpsc-15222-8947-0033-1785917240615",
+      "release_id": "REL-20260805-001",
+      "mcq_id": "gen-ajkpsc-15222-8947-0033",
+      "action": "publish_inserted"
+    },
+    {
+      "rollback_id": "RB-gen-ajkpsc-15223-8948-0034-1785917240657",
+      "release_id": "REL-20260805-001",
+      "mcq_id": "gen-ajkpsc-15223-8948-0034",
+      "action": "publish_inserted"
+    },
+    {
+      "rollback_id": "RB-gen-analytical-reasoning-15229-8952-0040-1785917240699",
+      "release_id": "REL-20260805-001",
+      "mcq_id": "gen-analytical-reasoning-15229-8952-0040",
+      "action": "review_decision"
+    },
+    {
+      "rollback_id": "RB-gen-analytical-reasoning-15230-8954-0041-1785917240744",
+      "release_id": "REL-20260805-001",
+      "mcq_id": "gen-analytical-reasoning-15230-8954-0041",
+      "action": "review_decision"
+    },
+    {
+      "rollback_id": "RB-gen-analytical-reasoning-15231-8957-0042-1785917240778",
+      "release_id": "REL-20260805-001",
+      "mcq_id": "gen-analytical-reasoning-15231-8957-0042",
+      "action": "review_decision"
+    },
+    {
+      "rollback_id": "RB-gen-analytical-reasoning-15232-8953-0043-1785917240919",
+      "release_id": "REL-20260805-001",
+      "mcq_id": "gen-analytical-reasoning-15232-8953-0043",
+      "action": "review_decision"
+    },
+    {
+      "rollback_id": "RB-gen-analytical-reasoning-15233-8956-0044-1785917240969",
+      "release_id": "REL-20260805-001",
+      "mcq_id": "gen-analytical-reasoning-15233-8956-0044",
+      "action": "review_decision"
+    },
+    {
+      "rollback_id": "RB-gen-analytical-reasoning-15234-8955-0045-1785917241010",
+      "release_id": "REL-20260805-001",
+      "mcq_id": "gen-analytical-reasoning-15234-8955-0045",
+      "action": "publish_inserted"
+    },
+    {
+      "rollback_id": "RB-gen-analytical-reasoning-15235-8958-0046-1785917241052",
+      "release_id": "REL-20260805-001",
+      "mcq_id": "gen-analytical-reasoning-15235-8958-0046",
+      "action": "review_decision"
+    },
+    {
+      "rollback_id": "RB-gen-anatomy-15237-8961-0048-1785917241094",
+      "release_id": "REL-20260805-001",
+      "mcq_id": "gen-anatomy-15237-8961-0048",
+      "action": "review_decision"
+    },
+    {
+      "rollback_id": "RB-gen-anatomy-15241-8971-0052-1785917241136",
+      "release_id": "REL-20260805-001",
+      "mcq_id": "gen-anatomy-15241-8971-0052",
+      "action": "review_decision"
+    },
+    {
+      "rollback_id": "RB-gen-anatomy-15246-8963-0057-1785917241177",
+      "release_id": "REL-20260805-001",
+      "mcq_id": "gen-anatomy-15246-8963-0057",
+      "action": "publish_inserted"
+    },
+    {
+      "rollback_id": "RB-gen-anatomy-15247-8968-0058-1785917241219",
+      "release_id": "REL-20260805-001",
+      "mcq_id": "gen-anatomy-15247-8968-0058",
+      "action": "publish_inserted"
+    },
+    {
+      "rollback_id": "RB-gen-anf-15249-8972-0060-1785917241261",
+      "release_id": "REL-20260805-001",
+      "mcq_id": "gen-anf-15249-8972-0060",
+      "action": "publish_inserted"
+    },
+    {
+      "rollback_id": "RB-gen-angular-15255-8978-0066-1785917241302",
+      "release_id": "REL-20260805-001",
+      "mcq_id": "gen-angular-15255-8978-0066",
+      "action": "review_decision"
+    },
+    {
+      "rollback_id": "RB-gen-angular-15258-8982-0069-1785917241344",
+      "release_id": "REL-20260805-001",
+      "mcq_id": "gen-angular-15258-8982-0069",
+      "action": "review_decision"
+    },
+    {
+      "rollback_id": "RB-gen-anthropology-15263-8987-0074-1785917241386",
+      "release_id": "REL-20260805-001",
+      "mcq_id": "gen-anthropology-15263-8987-0074",
+      "action": "publish_inserted"
+    },
+    {
+      "rollback_id": "RB-gen-anthropology-15265-8986-0076-1785917241427",
+      "release_id": "REL-20260805-001",
+      "mcq_id": "gen-anthropology-15265-8986-0076",
+      "action": "publish_inserted"
+    },
+    {
+      "rollback_id": "RB-gen-antonyms-15266-8990-0077-1785917241469",
+      "release_id": "REL-20260805-001",
+      "mcq_id": "gen-antonyms-15266-8990-0077",
+      "action": "review_decision"
+    },
+    {
+      "rollback_id": "RB-gen-antonyms-15267-8994-0078-1785917241511",
+      "release_id": "REL-20260805-001",
+      "mcq_id": "gen-antonyms-15267-8994-0078",
+      "action": "publish_inserted"
+    },
+    {
+      "rollback_id": "RB-gen-antonyms-15268-8995-0079-1785917241552",
+      "release_id": "REL-20260805-001",
+      "mcq_id": "gen-antonyms-15268-8995-0079",
+      "action": "publish_inserted"
+    },
+    {
+      "rollback_id": "RB-gen-antonyms-15269-8996-0080-1785917241594",
+      "release_id": "REL-20260805-001",
+      "mcq_id": "gen-antonyms-15269-8996-0080",
+      "action": "publish_inserted"
+    },
+    {
+      "rollback_id": "RB-gen-antonyms-15270-8998-0081-1785917241636",
+      "release_id": "REL-20260805-001",
+      "mcq_id": "gen-antonyms-15270-8998-0081",
+      "action": "review_decision"
+    },
+    {
+      "rollback_id": "RB-gen-antonyms-15271-8991-0082-1785917241678",
+      "release_id": "REL-20260805-001",
+      "mcq_id": "gen-antonyms-15271-8991-0082",
+      "action": "publish_inserted"
+    },
+    {
+      "rollback_id": "RB-gen-antonyms-15275-8989-0086-1785917241719",
+      "release_id": "REL-20260805-001",
+      "mcq_id": "gen-antonyms-15275-8989-0086",
+      "action": "review_decision"
+    },
+    {
+      "rollback_id": "RB-gen-aptitude-tests-15276-8999-0087-1785917241761",
+      "release_id": "REL-20260805-001",
+      "mcq_id": "gen-aptitude-tests-15276-8999-0087",
+      "action": "review_decision"
+    },
+    {
+      "rollback_id": "RB-gen-aptitude-tests-15277-9001-0088-1785917241803",
+      "release_id": "REL-20260805-001",
+      "mcq_id": "gen-aptitude-tests-15277-9001-0088",
+      "action": "review_decision"
+    },
+    {
+      "rollback_id": "RB-gen-aptitude-tests-15278-9002-0089-1785917241844",
+      "release_id": "REL-20260805-001",
+      "mcq_id": "gen-aptitude-tests-15278-9002-0089",
+      "action": "review_decision"
+    },
+    {
+      "rollback_id": "RB-gen-aptitude-tests-15279-9000-0090-1785917241894",
+      "release_id": "REL-20260805-001",
+      "mcq_id": "gen-aptitude-tests-15279-9000-0090",
+      "action": "review_decision"
+    },
+    {
+      "rollback_id": "RB-gen-aptitude-tests-15280-9003-0091-1785917241936",
+      "release_id": "REL-20260805-001",
+      "mcq_id": "gen-aptitude-tests-15280-9003-0091",
+      "action": "publish_inserted"
+    },
+    {
+      "rollback_id": "RB-gen-army-15288-9011-0099-1785917241977",
+      "release_id": "REL-20260805-001",
+      "mcq_id": "gen-army-15288-9011-0099",
+      "action": "publish_inserted"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "step": "deployment",
+  "generated_at": "2026-08-10T12:09:47.811Z",
+  "summary": {
+    "files_present": 4,
+    "compose_has_api_and_web": true,
+    "dockerfile_nginx_based": true,
+    "nginx_proxies_api": true,
+    "pm2_named": true,
+    "status": "PASS"
+  },
+  "files": [
+    {
+      "name": "Dockerfile",
+      "exists": true,
+      "bytes": 813,
+      "sha": "8232f5a22ff90f42"
+    },
+    {
+      "name": "docker-compose.yml",
+      "exists": true,
+      "bytes": 1701,
+      "sha": "3588bbfaebd1288a"
+    },
+    {
+      "name": "nginx.conf",
+      "exists": true,
+      "bytes": 1298,
+      "sha": "f120350d8e642b12"
+    },
+    {
+      "name": "ecosystem.config.js",
+      "exists": true,
+      "bytes": 890,
+      "sha": "1b60376de48d6063"
+    }
+  ]
+}

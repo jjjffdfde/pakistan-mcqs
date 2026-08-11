@@ -1,0 +1,177 @@
+{
+  "step": "revision_intelligence",
+  "generated_at": "2026-08-10T12:10:32.545Z",
+  "summary": {
+    "forgotten_revisions": 2,
+    "forgotten_flashcards": 15,
+    "frequently_failed": 4,
+    "frequently_skipped": 0,
+    "frequently_bookmarked": 5,
+    "now_unix": 1786363832,
+    "status": "PASS"
+  },
+  "forgotten_concepts": {
+    "due_revisions": [
+      {
+        "mcq_id": "cssexa-000004",
+        "box": 1,
+        "interval_days": 1,
+        "due_date": "2026-08-04",
+        "reviews": 0
+      },
+      {
+        "mcq_id": "iq-000377",
+        "box": 2,
+        "interval_days": 3,
+        "due_date": "2026-08-07",
+        "reviews": 1
+      }
+    ],
+    "overdue_flashcards": [
+      {
+        "mcq_id": "pak-001",
+        "box": 1,
+        "due_date": "2026-08-04"
+      },
+      {
+        "mcq_id": "pak-002",
+        "box": 1,
+        "due_date": "2026-08-04"
+      },
+      {
+        "mcq_id": "pak-003",
+        "box": 1,
+        "due_date": "2026-08-04"
+      },
+      {
+        "mcq_id": "pak-004",
+        "box": 1,
+        "due_date": "2026-08-04"
+      },
+      {
+        "mcq_id": "pak-005",
+        "box": 1,
+        "due_date": "2026-08-04"
+      },
+      {
+        "mcq_id": "pak-006",
+        "box": 1,
+        "due_date": "2026-08-04"
+      },
+      {
+        "mcq_id": "pak-007",
+        "box": 1,
+        "due_date": "2026-08-04"
+      },
+      {
+        "mcq_id": "pak-008",
+        "box": 1,
+        "due_date": "2026-08-04"
+      },
+      {
+        "mcq_id": "pak-009",
+        "box": 1,
+        "due_date": "2026-08-04"
+      },
+      {
+        "mcq_id": "pak-010",
+        "box": 1,
+        "due_date": "2026-08-04"
+      },
+      {
+        "mcq_id": "pak-011",
+        "box": 1,
+        "due_date": "2026-08-04"
+      },
+      {
+        "mcq_id": "pak-012",
+        "box": 1,
+        "due_date": "2026-08-04"
+      },
+      {
+        "mcq_id": "pak-013",
+        "box": 1,
+        "due_date": "2026-08-04"
+      },
+      {
+        "mcq_id": "pak-014",
+        "box": 1,
+        "due_date": "2026-08-04"
+      },
+      {
+        "mcq_id": "pak-015",
+        "box": 1,
+        "due_date": "2026-08-04"
+      }
+    ],
+    "strategy": "Review overdue cards first; re-attempt forgotten questions in practice mode."
+  },
+  "frequently_failed_concepts": [
+    {
+      "mcq_id": "cssexa-000004",
+      "subject_id": "css-exam",
+      "topic_id": "t-ch-cssexa-central-superior-services-pattern-awaren-exam-pattern",
+      "difficulty": "medium",
+      "n": 2
+    },
+    {
+      "mcq_id": "iq-000377",
+      "subject_id": "iq",
+      "topic_id": "t-ch-iq-reasoning-series-and-patterns-letter-series",
+      "difficulty": "medium",
+      "n": 2
+    },
+    {
+      "mcq_id": "iq-000465",
+      "subject_id": "iq",
+      "topic_id": "t-ch-iq-reasoning-series-and-patterns-letter-series",
+      "difficulty": "medium",
+      "n": 2
+    },
+    {
+      "mcq_id": "iq-000466",
+      "subject_id": "iq",
+      "topic_id": "t-ch-iq-reasoning-series-and-patterns-letter-series",
+      "difficulty": "medium",
+      "n": 2
+    }
+  ],
+  "frequently_skipped_concepts": [],
+  "frequently_bookmarked_concepts": [
+    {
+      "mcq_id": "urd-015",
+      "created_at": "2026-08-01 09:10:41",
+      "subject_id": "urdu",
+      "topic_id": "t-106",
+      "difficulty": "medium"
+    },
+    {
+      "mcq_id": "cssexa-000001",
+      "created_at": "2026-08-01 09:10:37",
+      "subject_id": "css-exam",
+      "topic_id": "t-ch-cssexa-central-superior-services-pattern-awaren-exam-pattern",
+      "difficulty": "medium"
+    },
+    {
+      "mcq_id": "cssexa-000002",
+      "created_at": "2026-08-01 09:10:36",
+      "subject_id": "css-exam",
+      "topic_id": "t-ch-cssexa-central-superior-services-pattern-awaren-exam-pattern",
+      "difficulty": "medium"
+    },
+    {
+      "mcq_id": "cssexa-000004",
+      "created_at": "2026-08-01 09:10:35",
+      "subject_id": "css-exam",
+      "topic_id": "t-ch-cssexa-central-superior-services-pattern-awaren-exam-pattern",
+      "difficulty": "medium"
+    },
+    {
+      "mcq_id": "gk-010",
+      "created_at": "2026-08-01 09:10:32",
+      "subject_id": "general-knowledge",
+      "topic_id": "t-55",
+      "difficulty": "easy"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "step": "sync_engine",
+  "generated_at": "2026-08-10T11:58:31.594Z",
+  "background_sync": {
+    "sync_handler_sw": true,
+    "tag": true,
+    "register_from_client": true
+  },
+  "cache_refresh": {
+    "message_protocol": true,
+    "client_trigger": true,
+    "auto_on_online": true,
+    "hourly_update_check": true
+  },
+  "incremental": {
+    "versioned_namespacing": true,
+    "stale_revalidate": true,
+    "cache_pruning": true
+  },
+  "resume": {
+    "reconnect_retrigger": true,
+    "manual_sync": true
+  }
+}

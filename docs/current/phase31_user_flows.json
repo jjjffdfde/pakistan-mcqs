@@ -1,0 +1,115 @@
+{
+  "module": "M9",
+  "generated_at": "2026-08-10T15:02:51.825Z",
+  "flows": [
+    {
+      "flow": "Student browse -> practice -> answer -> score",
+      "steps": [
+        "home_rendered:PASS",
+        "nav_buttons:PASS",
+        "browse_filters:PASS",
+        "practice_workflow:PASS"
+      ],
+      "summary": {
+        "total": 4,
+        "pass": 4,
+        "fail": 0,
+        "failures": []
+      },
+      "status": "PASS",
+      "note": "End-to-end MCQ practice journey with zero errors"
+    },
+    {
+      "flow": "Quick quiz session",
+      "steps": [
+        "quiz_quit:PASS",
+        "quick_quiz_workflow:PASS"
+      ],
+      "summary": {
+        "total": 2,
+        "pass": 2,
+        "fail": 0,
+        "failures": []
+      },
+      "status": "PASS",
+      "note": "Quick quiz start, answer, finish"
+    },
+    {
+      "flow": "Mock exam session",
+      "steps": [
+        "mock_workflow:PASS"
+      ],
+      "summary": {
+        "total": 1,
+        "pass": 1,
+        "fail": 0,
+        "failures": []
+      },
+      "status": "PASS",
+      "note": "Mock exam timer + submit flow"
+    },
+    {
+      "flow": "Search -> results -> revisit",
+      "steps": [
+        "search_suggestions:PASS",
+        "search_constitution:PASS",
+        "search_case_and_multi:PASS"
+      ],
+      "summary": {
+        "total": 3,
+        "pass": 3,
+        "fail": 0,
+        "failures": []
+      },
+      "status": "PASS",
+      "note": "FTS search journey"
+    },
+    {
+      "flow": "Bookmark + dashboard + leaderboard",
+      "steps": [
+        "dashboard_workflow:PASS",
+        "leaderboard_workflow:PASS",
+        "bookmarks_workflow:PASS"
+      ],
+      "summary": {
+        "total": 3,
+        "pass": 3,
+        "fail": 0,
+        "failures": []
+      },
+      "status": "PASS",
+      "note": "Persistence-backed user features"
+    },
+    {
+      "flow": "Theme + responsive menu",
+      "steps": [
+        "theme_toggle:PASS",
+        "menu_toggle:PASS"
+      ],
+      "summary": {
+        "total": 2,
+        "pass": 2,
+        "fail": 0,
+        "failures": []
+      },
+      "status": "PASS",
+      "note": "UI state features"
+    },
+    {
+      "flow": "Admin manager workflow",
+      "steps": [
+        "click_sweep:PASS"
+      ],
+      "summary": {
+        "total": 1,
+        "pass": 1,
+        "fail": 0,
+        "failures": []
+      },
+      "status": "PASS",
+      "note": "Admin desktop flow (from admin interactive run)"
+    }
+  ],
+  "status": "PASS",
+  "note": "All 7 critical user flows pass interactive verification with 0 console/window errors"
+}

@@ -1,0 +1,852 @@
+[
+ {
+  "id": "ele-001",
+  "question": "According to Ohm's law, how are voltage, current and resistance related?",
+  "optionA": "V = I x R",
+  "optionB": "V = I / R",
+  "optionC": "V = R / I",
+  "optionD": "I = V x R",
+  "correctAnswer": "A",
+  "detailedExplanation": "Ohm's law: Voltage = Current x Resistance (V = IR). At constant temperature, current is directly proportional to voltage and inversely proportional to resistance.",
+  "difficulty": "easy",
+  "subject": "electrical-eng",
+  "chapter": "el-circuits",
+  "topic": "t-238",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "etea",
+   "railways",
+   "army",
+   "navy",
+   "paf"
+  ],
+  "year": null,
+  "tags": [
+   "ohms law",
+   "circuits"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "ele-002",
+  "question": "The SI unit of electrical power is the:",
+  "optionA": "Joule",
+  "optionB": "Watt",
+  "optionC": "Ampere",
+  "optionD": "Ohm",
+  "correctAnswer": "B",
+  "detailedExplanation": "Power is measured in watts (W) - 1 watt = 1 joule per second. Ampere measures current, ohm measures resistance, and joule measures energy.",
+  "difficulty": "easy",
+  "subject": "electrical-eng",
+  "chapter": "el-circuits",
+  "topic": "t-238",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "etea",
+   "railways",
+   "army",
+   "navy",
+   "paf"
+  ],
+  "year": null,
+  "tags": [
+   "watt",
+   "units"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "ele-003",
+  "question": "The standard frequency of the AC power supply in Pakistan is:",
+  "optionA": "50 Hz",
+  "optionB": "60 Hz",
+  "optionC": "100 Hz",
+  "optionD": "400 Hz",
+  "correctAnswer": "A",
+  "detailedExplanation": "Pakistan's grid supplies 220-240 V AC at 50 Hz, like most of Asia and Europe. The USA and some countries use 60 Hz.",
+  "difficulty": "easy",
+  "subject": "electrical-eng",
+  "chapter": "el-power",
+  "topic": "t-239",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "etea",
+   "railways",
+   "army",
+   "navy",
+   "paf"
+  ],
+  "year": null,
+  "tags": [
+   "frequency",
+   "ac supply"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "ele-004",
+  "question": "A transformer is used to:",
+  "optionA": "Convert DC to AC",
+  "optionB": "Change the voltage level of AC",
+  "optionC": "Store electrical energy",
+  "optionD": "Rectify AC to DC",
+  "correctAnswer": "B",
+  "detailedExplanation": "A transformer steps up or steps down AC voltage through electromagnetic induction between windings. Rectifiers (diodes) convert AC to DC, and inverters convert DC to AC.",
+  "difficulty": "easy",
+  "subject": "electrical-eng",
+  "chapter": "el-power",
+  "topic": "t-239",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "etea",
+   "railways",
+   "army",
+   "navy",
+   "paf"
+  ],
+  "year": null,
+  "tags": [
+   "transformer",
+   "power systems"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "ele-005",
+  "question": "An electric motor converts:",
+  "optionA": "Mechanical energy to electrical energy",
+  "optionB": "Electrical energy to mechanical energy",
+  "optionC": "Thermal energy to electrical energy",
+  "optionD": "Chemical energy to thermal energy",
+  "correctAnswer": "B",
+  "detailedExplanation": "A motor converts electrical energy into mechanical rotation. A generator does the reverse - mechanical energy into electrical energy.",
+  "difficulty": "easy",
+  "subject": "electrical-eng",
+  "chapter": "el-power",
+  "topic": "t-239",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "etea",
+   "railways",
+   "army",
+   "navy",
+   "paf"
+  ],
+  "year": null,
+  "tags": [
+   "motor",
+   "machines"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "ele-006",
+  "question": "A diode primarily allows current to flow:",
+  "optionA": "In both directions",
+  "optionB": "In one direction only",
+  "optionC": "In neither direction",
+  "optionD": "Only at high voltages",
+  "correctAnswer": "B",
+  "detailedExplanation": "A diode is a semiconductor device conducting current in one direction only - it acts as a rectifier, converting AC to pulsating DC.",
+  "difficulty": "easy",
+  "subject": "electrical-eng",
+  "chapter": "el-circuits",
+  "topic": "t-238",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "etea",
+   "railways",
+   "army",
+   "navy",
+   "paf"
+  ],
+  "year": null,
+  "tags": [
+   "diode",
+   "electronics"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "ele-007",
+  "question": "The unit of electrical capacitance is the:",
+  "optionA": "Henry",
+  "optionB": "Farad",
+  "optionC": "Tesla",
+  "optionD": "Weber",
+  "correctAnswer": "B",
+  "detailedExplanation": "Capacitance is measured in farads (F). Henry measures inductance, tesla measures magnetic flux density, and weber measures magnetic flux.",
+  "difficulty": "easy",
+  "subject": "electrical-eng",
+  "chapter": "el-circuits",
+  "topic": "t-238",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "etea",
+   "railways",
+   "army",
+   "navy",
+   "paf"
+  ],
+  "year": null,
+  "tags": [
+   "farad",
+   "units"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "ele-008",
+  "question": "Electrical energy is billed to consumers in units of:",
+  "optionA": "Watts",
+  "optionB": "Kilowatt-hours (kWh)",
+  "optionC": "Ampere-hours",
+  "optionD": "Joules",
+  "correctAnswer": "B",
+  "detailedExplanation": "Electricity bills charge per kilowatt-hour (kWh) - the energy consumed by a 1 kW appliance running for one hour. 1 kWh = 3.6 million joules.",
+  "difficulty": "easy",
+  "subject": "electrical-eng",
+  "chapter": "el-power",
+  "topic": "t-239",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "etea",
+   "railways",
+   "army",
+   "navy",
+   "paf"
+  ],
+  "year": null,
+  "tags": [
+   "kwh",
+   "energy billing"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "mec-001",
+  "question": "The first law of thermodynamics is essentially a statement of:",
+  "optionA": "Conservation of momentum",
+  "optionB": "Conservation of energy",
+  "optionC": "Entropy increase",
+  "optionD": "Newton's third law",
+  "correctAnswer": "B",
+  "detailedExplanation": "The first law states energy cannot be created or destroyed - heat added to a system equals the change in internal energy plus work done (Q = ΔU + W).",
+  "difficulty": "easy",
+  "subject": "mechanical-eng",
+  "chapter": "mec-thermo",
+  "topic": "t-240",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "etea",
+   "railways",
+   "army",
+   "navy",
+   "paf"
+  ],
+  "year": null,
+  "tags": [
+   "thermodynamics",
+   "first law"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "mec-002",
+  "question": "A device that converts heat into work is called a:",
+  "optionA": "Refrigerator",
+  "optionB": "Heat engine",
+  "optionC": "Compressor",
+  "optionD": "Pump",
+  "correctAnswer": "B",
+  "detailedExplanation": "A heat engine takes heat from a high-temperature source, converts part of it into work and rejects the rest to a low-temperature sink (e.g., steam and internal combustion engines).",
+  "difficulty": "easy",
+  "subject": "mechanical-eng",
+  "chapter": "mec-thermo",
+  "topic": "t-240",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "etea",
+   "railways",
+   "army",
+   "navy",
+   "paf"
+  ],
+  "year": null,
+  "tags": [
+   "heat engine",
+   "thermodynamics"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "mec-003",
+  "question": "The ideal cycle with the maximum possible efficiency between two temperatures is the:",
+  "optionA": "Otto cycle",
+  "optionB": "Carnot cycle",
+  "optionC": "Diesel cycle",
+  "optionD": "Rankine cycle",
+  "correctAnswer": "B",
+  "detailedExplanation": "The Carnot cycle sets the theoretical maximum efficiency for any heat engine operating between two temperatures; no real engine can exceed it.",
+  "difficulty": "medium",
+  "subject": "mechanical-eng",
+  "chapter": "mec-thermo",
+  "topic": "t-240",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "etea",
+   "railways",
+   "army",
+   "navy",
+   "paf"
+  ],
+  "year": null,
+  "tags": [
+   "carnot cycle",
+   "thermodynamics"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "mec-004",
+  "question": "Stress is defined as:",
+  "optionA": "Deformation per unit length",
+  "optionB": "Force per unit area",
+  "optionC": "Energy per unit volume",
+  "optionD": "Power per unit area",
+  "correctAnswer": "B",
+  "detailedExplanation": "Stress = Force / Area (N/m² or Pa). Strain is the resulting deformation per unit length. Their ratio gives Young's modulus of elasticity.",
+  "difficulty": "easy",
+  "subject": "mechanical-eng",
+  "chapter": "mec-materials",
+  "topic": "t-241",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "etea",
+   "railways",
+   "army",
+   "navy",
+   "paf"
+  ],
+  "year": null,
+  "tags": [
+   "stress",
+   "mechanics of materials"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "mec-005",
+  "question": "Steel is essentially an alloy of:",
+  "optionA": "Iron and carbon",
+  "optionB": "Copper and zinc",
+  "optionC": "Aluminium and silicon",
+  "optionD": "Iron and chromium only",
+  "correctAnswer": "A",
+  "detailedExplanation": "Steel is iron alloyed with up to about 2% carbon, improving strength and hardness. Stainless steel additionally contains chromium for corrosion resistance. Brass is copper-zinc.",
+  "difficulty": "easy",
+  "subject": "mechanical-eng",
+  "chapter": "mec-materials",
+  "topic": "t-241",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "etea",
+   "railways",
+   "army",
+   "navy",
+   "paf"
+  ],
+  "year": null,
+  "tags": [
+   "steel",
+   "materials"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "mec-006",
+  "question": "The resistance of a fluid to flow is called:",
+  "optionA": "Density",
+  "optionB": "Viscosity",
+  "optionC": "Surface tension",
+  "optionD": "Buoyancy",
+  "correctAnswer": "B",
+  "detailedExplanation": "Viscosity is a fluid's internal friction or resistance to flow - honey has high viscosity, water low. It governs lubrication and fluid mechanics.",
+  "difficulty": "easy",
+  "subject": "mechanical-eng",
+  "chapter": "mec-materials",
+  "topic": "t-241",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "etea",
+   "railways",
+   "army",
+   "navy",
+   "paf"
+  ],
+  "year": null,
+  "tags": [
+   "viscosity",
+   "fluid mechanics"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "mec-007",
+  "question": "Pascal's law, the basis of hydraulic systems, states that:",
+  "optionA": "Pressure applied to an enclosed fluid is transmitted equally in all directions",
+  "optionB": "Pressure decreases with depth",
+  "optionC": "Force equals mass times acceleration",
+  "optionD": "Energy is always conserved",
+  "correctAnswer": "A",
+  "detailedExplanation": "Pascal's principle - pressure applied to a confined fluid transmits undiminished to every point - powers hydraulic lifts, brakes and presses by multiplying force.",
+  "difficulty": "easy",
+  "subject": "mechanical-eng",
+  "chapter": "mec-materials",
+  "topic": "t-241",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "etea",
+   "railways",
+   "army",
+   "navy",
+   "paf"
+  ],
+  "year": null,
+  "tags": [
+   "pascals law",
+   "hydraulics"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "civ-001",
+  "question": "Ordinary Portland Cement (OPC) is classified in Pakistan as:",
+  "optionA": "Type I",
+  "optionB": "Type II",
+  "optionC": "Type III",
+  "optionD": "Type V",
+  "correctAnswer": "A",
+  "detailedExplanation": "OPC (Type I) is general-purpose cement used for most construction. Type II resists moderate sulphate attack, Type III gains high early strength, and Type V resists severe sulphate.",
+  "difficulty": "medium",
+  "subject": "civil-eng",
+  "chapter": "civ-structures",
+  "topic": "t-242",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "etea",
+   "railways"
+  ],
+  "year": null,
+  "tags": [
+   "cement",
+   "materials"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "civ-002",
+  "question": "The most common mix ratio for plain cement concrete in general work is:",
+  "optionA": "1:1:1",
+  "optionB": "1:2:4",
+  "optionC": "1:5:10",
+  "optionD": "2:1:4",
+  "correctAnswer": "B",
+  "detailedExplanation": "1:2:4 (cement:sand:coarse aggregate) is the standard nominal mix for general reinforced concrete work; leaner mixes like 1:4:8 are used for foundations.",
+  "difficulty": "easy",
+  "subject": "civil-eng",
+  "chapter": "civ-structures",
+  "topic": "t-242",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "etea",
+   "railways"
+  ],
+  "year": null,
+  "tags": [
+   "concrete mix",
+   "construction"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "civ-003",
+  "question": "Reinforced concrete (RCC) uses steel bars mainly to:",
+  "optionA": "Reduce cost",
+  "optionB": "Resist tensile stresses",
+  "optionC": "Improve appearance",
+  "optionD": "Prevent shrinkage only",
+  "correctAnswer": "B",
+  "detailedExplanation": "Concrete is strong in compression but weak in tension; embedded steel bars carry the tensile forces, producing RCC - the dominant structural material.",
+  "difficulty": "easy",
+  "subject": "civil-eng",
+  "chapter": "civ-structures",
+  "topic": "t-242",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "etea",
+   "railways"
+  ],
+  "year": null,
+  "tags": [
+   "rcc",
+   "structures"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "civ-004",
+  "question": "The process of keeping freshly laid concrete moist for proper strength gain is called:",
+  "optionA": "Curing",
+  "optionB": "Grouting",
+  "optionC": "Compaction",
+  "optionD": "Leveling",
+  "correctAnswer": "A",
+  "detailedExplanation": "Curing maintains moisture and temperature so hydration of cement continues - usually for 7 to 14 days - preventing shrinkage cracks and weak concrete.",
+  "difficulty": "easy",
+  "subject": "civil-eng",
+  "chapter": "civ-structures",
+  "topic": "t-242",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "etea",
+   "railways"
+  ],
+  "year": null,
+  "tags": [
+   "curing",
+   "concrete"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "civ-005",
+  "question": "A dumpy level and a theodolite are instruments used in:",
+  "optionA": "Concrete testing",
+  "optionB": "Surveying",
+  "optionC": "Soil testing",
+  "optionD": "Asphalt mixing",
+  "correctAnswer": "B",
+  "detailedExplanation": "The dumpy level measures height differences (levelling) and the theodolite measures horizontal and vertical angles - both are essential surveying instruments.",
+  "difficulty": "easy",
+  "subject": "civil-eng",
+  "chapter": "civ-surveying",
+  "topic": "t-243",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "etea",
+   "railways"
+  ],
+  "year": null,
+  "tags": [
+   "surveying",
+   "instruments"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "civ-006",
+  "question": "The ability of soil to safely support the load of a structure is called its:",
+  "optionA": "Porosity",
+  "optionB": "Bearing capacity",
+  "optionC": "Permeability",
+  "optionD": "Compressibility",
+  "correctAnswer": "B",
+  "detailedExplanation": "Bearing capacity is the maximum pressure soil can carry without excessive settlement or failure - it determines foundation design and size.",
+  "difficulty": "easy",
+  "subject": "civil-eng",
+  "chapter": "civ-structures",
+  "topic": "t-242",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "etea",
+   "railways"
+  ],
+  "year": null,
+  "tags": [
+   "bearing capacity",
+   "foundations"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "civ-007",
+  "question": "A horizontal structural member spanning between supports is called a:",
+  "optionA": "Column",
+  "optionB": "Beam",
+  "optionC": "Footing",
+  "optionD": "Slab only",
+  "correctAnswer": "B",
+  "detailedExplanation": "A beam is a horizontal member carrying loads and transferring them to columns (vertical members) and then footings/foundations.",
+  "difficulty": "easy",
+  "subject": "civil-eng",
+  "chapter": "civ-structures",
+  "topic": "t-242",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "etea",
+   "railways"
+  ],
+  "year": null,
+  "tags": [
+   "beam",
+   "structural elements"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "swe-001",
+  "question": "The correct order of the classic SDLC phases is:",
+  "optionA": "Testing, Design, Coding, Planning",
+  "optionB": "Planning, Analysis, Design, Implementation, Testing, Maintenance",
+  "optionC": "Coding, Deployment, Analysis, Design",
+  "optionD": "Design, Planning, Maintenance, Testing",
+  "correctAnswer": "B",
+  "detailedExplanation": "The classic waterfall SDLC sequence is: requirement analysis, design, implementation (coding), testing, deployment and maintenance - each phase feeding the next.",
+  "difficulty": "easy",
+  "subject": "software-eng",
+  "chapter": "se-process",
+  "topic": "t-244",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators"
+  ],
+  "year": null,
+  "tags": [
+   "sdlc",
+   "software process"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "swe-002",
+  "question": "An SDLC model that emphasizes iterative development, working software and customer collaboration is:",
+  "optionA": "Waterfall model",
+  "optionB": "Agile methodology",
+  "optionC": "Spiral model only",
+  "optionD": "V-model only",
+  "correctAnswer": "B",
+  "detailedExplanation": "Agile (from the 2001 Manifesto) values iterative delivery, adaptive planning and close customer collaboration, with Scrum and Kanban as popular frameworks.",
+  "difficulty": "easy",
+  "subject": "software-eng",
+  "chapter": "se-process",
+  "topic": "t-244",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators"
+  ],
+  "year": null,
+  "tags": [
+   "agile",
+   "sdlc models"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "swe-003",
+  "question": "In Scrum, the person responsible for removing impediments and coaching the team is the:",
+  "optionA": "Product owner",
+  "optionB": "Scrum master",
+  "optionC": "Developer",
+  "optionD": "Stakeholder",
+  "correctAnswer": "B",
+  "detailedExplanation": "The Scrum master facilitates the process and removes blockers; the product owner manages the backlog and priorities; the development team builds the product.",
+  "difficulty": "medium",
+  "subject": "software-eng",
+  "chapter": "se-process",
+  "topic": "t-244",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators"
+  ],
+  "year": null,
+  "tags": [
+   "scrum",
+   "agile"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "swe-004",
+  "question": "Testing individual components or modules in isolation is called:",
+  "optionA": "Unit testing",
+  "optionB": "Integration testing",
+  "optionC": "System testing",
+  "optionD": "Acceptance testing",
+  "correctAnswer": "A",
+  "detailedExplanation": "Unit testing verifies single functions/modules in isolation. Integration testing checks combined modules, system testing the whole product, and acceptance testing validates requirements with users (UAT).",
+  "difficulty": "easy",
+  "subject": "software-eng",
+  "chapter": "se-quality",
+  "topic": "t-245",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators"
+  ],
+  "year": null,
+  "tags": [
+   "unit testing",
+   "testing"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "swe-005",
+  "question": "A defect in software is commonly called a:",
+  "optionA": "Bug",
+  "optionB": "Patch",
+  "optionC": "Build",
+  "optionD": "Commit",
+  "correctAnswer": "A",
+  "detailedExplanation": "A bug is a flaw or error in software causing incorrect behaviour; fixing it usually requires a patch. Bugs are tracked in issue trackers and fixed during maintenance.",
+  "difficulty": "easy",
+  "subject": "software-eng",
+  "chapter": "se-quality",
+  "topic": "t-245",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators"
+  ],
+  "year": null,
+  "tags": [
+   "bug",
+   "quality"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "swe-006",
+  "question": "Requirements that describe WHAT the system should do are called:",
+  "optionA": "Non-functional requirements",
+  "optionB": "Functional requirements",
+  "optionC": "Design constraints",
+  "optionD": "Test cases",
+  "correctAnswer": "B",
+  "detailedExplanation": "Functional requirements specify system functions (e.g., 'user can log in'). Non-functional requirements cover quality attributes like performance, security and usability.",
+  "difficulty": "easy",
+  "subject": "software-eng",
+  "chapter": "se-quality",
+  "topic": "t-245",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators"
+  ],
+  "year": null,
+  "tags": [
+   "requirements",
+   "software engineering"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "swe-007",
+  "question": "Git is a tool used for:",
+  "optionA": "Testing automation",
+  "optionB": "Version control of source code",
+  "optionC": "Database design",
+  "optionD": "UI prototyping",
+  "correctAnswer": "B",
+  "detailedExplanation": "Git is a distributed version control system tracking code changes and enabling collaboration, with platforms like GitHub and GitLab hosting repositories.",
+  "difficulty": "easy",
+  "subject": "software-eng",
+  "chapter": "se-quality",
+  "topic": "t-245",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators"
+  ],
+  "year": null,
+  "tags": [
+   "git",
+   "version control"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ }
+]

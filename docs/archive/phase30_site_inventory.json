@@ -1,0 +1,896 @@
+{
+ "module": "M1",
+ "generated_at": "2026-08-10T10:19:42.481Z",
+ "totals": {
+  "pages": 1129,
+  "js_files": 203,
+  "css_files": 1,
+  "json_files": 268,
+  "images": 19,
+  "fonts": 0,
+  "videos": 0,
+  "forms": 0,
+  "buttons": 81,
+  "links": 13906,
+  "inputs": 14,
+  "api_endpoints": 51,
+  "interactive_components": 81
+ },
+ "api_endpoints": [
+  {
+   "file": "server.js",
+   "method": "*",
+   "path": "/api/health",
+   "db": true
+  },
+  {
+   "file": "server.js",
+   "method": "*",
+   "path": "/api/stats",
+   "db": true
+  },
+  {
+   "file": "server.js",
+   "method": "GET",
+   "path": "/api/search",
+   "db": false
+  },
+  {
+   "file": "server.js",
+   "method": "GET",
+   "path": "/api/browse",
+   "db": false
+  },
+  {
+   "file": "server.js",
+   "method": "GET",
+   "path": "/api/mcqs",
+   "db": false
+  },
+  {
+   "file": "server.js",
+   "method": "GET",
+   "path": "/api/random",
+   "db": false
+  },
+  {
+   "file": "server.js",
+   "method": "*",
+   "path": "/api/subjects",
+   "db": true
+  },
+  {
+   "file": "server.js",
+   "method": "*",
+   "path": "/api/chapters",
+   "db": true
+  },
+  {
+   "file": "server.js",
+   "method": "*",
+   "path": "/api/topics",
+   "db": true
+  },
+  {
+   "file": "server.js",
+   "method": "*",
+   "path": "/api/categories",
+   "db": true
+  },
+  {
+   "file": "server.js",
+   "method": "*",
+   "path": "/api/exams",
+   "db": false
+  },
+  {
+   "file": "server.js",
+   "method": "*",
+   "path": "/api/quizzes",
+   "db": true
+  },
+  {
+   "file": "server.js",
+   "method": "*",
+   "path": "/api/mocktests",
+   "db": true
+  },
+  {
+   "file": "server.js",
+   "method": "*",
+   "path": "/api/pastpapers",
+   "db": true
+  },
+  {
+   "file": "server.js",
+   "method": "GET",
+   "path": "/api/bookmarks",
+   "db": true
+  },
+  {
+   "file": "server.js",
+   "method": "POST",
+   "path": "/api/bookmarks",
+   "db": true
+  },
+  {
+   "file": "server.js",
+   "method": "GET",
+   "path": "/api/history",
+   "db": true
+  },
+  {
+   "file": "server.js",
+   "method": "POST",
+   "path": "/api/history",
+   "db": false
+  },
+  {
+   "file": "server.js",
+   "method": "*",
+   "path": "/api/leaderboard",
+   "db": true
+  },
+  {
+   "file": "server.js",
+   "method": "*",
+   "path": "/api/analytics",
+   "db": true
+  },
+  {
+   "file": "server.js",
+   "method": "POST",
+   "path": "/api/import",
+   "db": false
+  },
+  {
+   "file": "server.js",
+   "method": "GET",
+   "path": "/api/export",
+   "db": true
+  },
+  {
+   "file": "server.js",
+   "method": "POST",
+   "path": "/api/backup",
+   "db": false
+  },
+  {
+   "file": "server.js",
+   "method": "POST",
+   "path": "/api/restore",
+   "db": false
+  },
+  {
+   "file": "ai/router.js",
+   "method": "GET",
+   "path": "/api/ai/profile",
+   "db": true
+  },
+  {
+   "file": "ai/router.js",
+   "method": "POST",
+   "path": "/api/ai/profile",
+   "db": true
+  },
+  {
+   "file": "ai/router.js",
+   "method": "GET",
+   "path": "/api/ai/weak-topics",
+   "db": false
+  },
+  {
+   "file": "ai/router.js",
+   "method": "GET",
+   "path": "/api/ai/planner",
+   "db": false
+  },
+  {
+   "file": "ai/router.js",
+   "method": "POST",
+   "path": "/api/ai/planner/regenerate",
+   "db": false
+  },
+  {
+   "file": "ai/router.js",
+   "method": "POST",
+   "path": "/api/ai/planner/complete",
+   "db": false
+  },
+  {
+   "file": "ai/router.js",
+   "method": "GET",
+   "path": "/api/ai/spaced/due",
+   "db": false
+  },
+  {
+   "file": "ai/router.js",
+   "method": "POST",
+   "path": "/api/ai/spaced/review",
+   "db": false
+  },
+  {
+   "file": "ai/router.js",
+   "method": "POST",
+   "path": "/api/ai/adaptive/start",
+   "db": false
+  },
+  {
+   "file": "ai/router.js",
+   "method": "GET",
+   "path": "/api/ai/adaptive/next",
+   "db": false
+  },
+  {
+   "file": "ai/router.js",
+   "method": "POST",
+   "path": "/api/ai/adaptive/submit",
+   "db": false
+  },
+  {
+   "file": "ai/router.js",
+   "method": "POST",
+   "path": "/api/ai/adaptive/finish",
+   "db": false
+  },
+  {
+   "file": "ai/router.js",
+   "method": "GET",
+   "path": "/api/ai/mock/predictions",
+   "db": false
+  },
+  {
+   "file": "ai/router.js",
+   "method": "POST",
+   "path": "/api/ai/mock/predict",
+   "db": false
+  },
+  {
+   "file": "ai/router.js",
+   "method": "GET",
+   "path": "/api/ai/recommendations",
+   "db": false
+  },
+  {
+   "file": "ai/router.js",
+   "method": "POST",
+   "path": "/api/ai/recommendations/build",
+   "db": false
+  },
+  {
+   "file": "ai/router.js",
+   "method": "GET",
+   "path": "/api/ai/flashcards/due",
+   "db": false
+  },
+  {
+   "file": "ai/router.js",
+   "method": "POST",
+   "path": "/api/ai/flashcards/build",
+   "db": false
+  },
+  {
+   "file": "ai/router.js",
+   "method": "POST",
+   "path": "/api/ai/flashcards/review",
+   "db": false
+  },
+  {
+   "file": "ai/router.js",
+   "method": "GET",
+   "path": "/api/ai/current-affairs",
+   "db": false
+  },
+  {
+   "file": "ai/router.js",
+   "method": "GET",
+   "path": "/api/ai/current-affairs/summary",
+   "db": false
+  },
+  {
+   "file": "ai/router.js",
+   "method": "GET",
+   "path": "/api/ai/analytics",
+   "db": false
+  },
+  {
+   "file": "ai/router.js",
+   "method": "GET",
+   "path": "/api/ai/leaderboard",
+   "db": false
+  },
+  {
+   "file": "ai/router.js",
+   "method": "GET",
+   "path": "/api/ai/achievements",
+   "db": false
+  },
+  {
+   "file": "ai/router.js",
+   "method": "GET",
+   "path": "/api/ai/notifications",
+   "db": false
+  },
+  {
+   "file": "ai/router.js",
+   "method": "POST",
+   "path": "/api/ai/notifications/read",
+   "db": false
+  },
+  {
+   "file": "ai/router.js",
+   "method": "POST",
+   "path": "/api/ai/refresh",
+   "db": false
+  }
+ ],
+ "sample_interactive": [
+  {
+   "page": "admin.html",
+   "line": 69,
+   "id": "darkToggle",
+   "cls": "icon-btn",
+   "onclick": ""
+  },
+  {
+   "page": "admin.html",
+   "line": 78,
+   "id": "",
+   "cls": "active",
+   "onclick": ""
+  },
+  {
+   "page": "admin.html",
+   "line": 79,
+   "id": "",
+   "cls": "",
+   "onclick": ""
+  },
+  {
+   "page": "admin.html",
+   "line": 80,
+   "id": "",
+   "cls": "",
+   "onclick": ""
+  },
+  {
+   "page": "admin.html",
+   "line": 81,
+   "id": "",
+   "cls": "",
+   "onclick": ""
+  },
+  {
+   "page": "admin.html",
+   "line": 82,
+   "id": "",
+   "cls": "",
+   "onclick": ""
+  },
+  {
+   "page": "admin.html",
+   "line": 83,
+   "id": "",
+   "cls": "",
+   "onclick": ""
+  },
+  {
+   "page": "admin.html",
+   "line": 84,
+   "id": "",
+   "cls": "",
+   "onclick": ""
+  },
+  {
+   "page": "admin.html",
+   "line": 85,
+   "id": "",
+   "cls": "",
+   "onclick": ""
+  },
+  {
+   "page": "admin.html",
+   "line": 86,
+   "id": "",
+   "cls": "",
+   "onclick": ""
+  },
+  {
+   "page": "admin.html",
+   "line": 87,
+   "id": "",
+   "cls": "",
+   "onclick": ""
+  },
+  {
+   "page": "admin.html",
+   "line": 88,
+   "id": "",
+   "cls": "",
+   "onclick": ""
+  },
+  {
+   "page": "admin.html",
+   "line": 112,
+   "id": "catAdd",
+   "cls": "btn btn-primary",
+   "onclick": ""
+  },
+  {
+   "page": "admin.html",
+   "line": 125,
+   "id": "subjAdd",
+   "cls": "btn btn-primary",
+   "onclick": ""
+  },
+  {
+   "page": "admin.html",
+   "line": 137,
+   "id": "topAdd",
+   "cls": "btn btn-primary",
+   "onclick": ""
+  },
+  {
+   "page": "admin.html",
+   "line": 151,
+   "id": "expEnrich",
+   "cls": "btn btn-gold",
+   "onclick": ""
+  },
+  {
+   "page": "admin.html",
+   "line": 167,
+   "id": "genRun",
+   "cls": "btn btn-primary",
+   "onclick": ""
+  },
+  {
+   "page": "admin.html",
+   "line": 178,
+   "id": "imgAdd",
+   "cls": "btn btn-primary",
+   "onclick": ""
+  },
+  {
+   "page": "admin.html",
+   "line": 203,
+   "id": "impRun",
+   "cls": "btn btn-primary",
+   "onclick": ""
+  },
+  {
+   "page": "admin.html",
+   "line": 204,
+   "id": "impSample",
+   "cls": "btn btn-outline",
+   "onclick": ""
+  },
+  {
+   "page": "admin.html",
+   "line": 213,
+   "id": "dupRemoveAll",
+   "cls": "btn btn-outline",
+   "onclick": ""
+  },
+  {
+   "page": "admin.html",
+   "line": 219,
+   "id": "expJson",
+   "cls": "btn btn-primary",
+   "onclick": ""
+  },
+  {
+   "page": "admin.html",
+   "line": 220,
+   "id": "expCsv",
+   "cls": "btn btn-primary",
+   "onclick": ""
+  },
+  {
+   "page": "admin.html",
+   "line": 221,
+   "id": "expCategories",
+   "cls": "btn btn-primary",
+   "onclick": ""
+  },
+  {
+   "page": "admin.html",
+   "line": 222,
+   "id": "expSubjects",
+   "cls": "btn btn-primary",
+   "onclick": ""
+  },
+  {
+   "page": "admin.html",
+   "line": 223,
+   "id": "expTopics",
+   "cls": "btn btn-primary",
+   "onclick": ""
+  },
+  {
+   "page": "admin.html",
+   "line": 224,
+   "id": "expReset",
+   "cls": "btn btn-outline",
+   "onclick": ""
+  },
+  {
+   "page": "index.html",
+   "line": 157,
+   "id": "",
+   "cls": "nav-link",
+   "onclick": ""
+  },
+  {
+   "page": "index.html",
+   "line": 158,
+   "id": "",
+   "cls": "nav-link",
+   "onclick": ""
+  },
+  {
+   "page": "index.html",
+   "line": 159,
+   "id": "",
+   "cls": "nav-link",
+   "onclick": ""
+  },
+  {
+   "page": "index.html",
+   "line": 160,
+   "id": "",
+   "cls": "nav-link",
+   "onclick": ""
+  },
+  {
+   "page": "index.html",
+   "line": 161,
+   "id": "",
+   "cls": "nav-link",
+   "onclick": ""
+  },
+  {
+   "page": "index.html",
+   "line": 162,
+   "id": "",
+   "cls": "nav-link",
+   "onclick": ""
+  },
+  {
+   "page": "index.html",
+   "line": 163,
+   "id": "",
+   "cls": "nav-link",
+   "onclick": ""
+  },
+  {
+   "page": "index.html",
+   "line": 164,
+   "id": "",
+   "cls": "nav-link",
+   "onclick": ""
+  },
+  {
+   "page": "index.html",
+   "line": 165,
+   "id": "",
+   "cls": "nav-link",
+   "onclick": ""
+  },
+  {
+   "page": "index.html",
+   "line": 171,
+   "id": "darkToggle",
+   "cls": "icon-btn",
+   "onclick": ""
+  },
+  {
+   "page": "index.html",
+   "line": 172,
+   "id": "menuToggle",
+   "cls": "icon-btn menu-btn",
+   "onclick": ""
+  },
+  {
+   "page": "index.html",
+   "line": 177,
+   "id": "searchBtn",
+   "cls": "btn btn-primary",
+   "onclick": ""
+  },
+  {
+   "page": "index.html",
+   "line": 190,
+   "id": "",
+   "cls": "btn btn-primary",
+   "onclick": ""
+  },
+  {
+   "page": "index.html",
+   "line": 191,
+   "id": "",
+   "cls": "btn btn-outline",
+   "onclick": ""
+  },
+  {
+   "page": "index.html",
+   "line": 192,
+   "id": "",
+   "cls": "btn btn-gold",
+   "onclick": ""
+  },
+  {
+   "page": "index.html",
+   "line": 211,
+   "id": "qotdReveal",
+   "cls": "btn btn-sm btn-outline",
+   "onclick": ""
+  },
+  {
+   "page": "index.html",
+   "line": 265,
+   "id": "fReset",
+   "cls": "btn btn-outline btn-sm",
+   "onclick": ""
+  },
+  {
+   "page": "index.html",
+   "line": 295,
+   "id": "pStart",
+   "cls": "btn btn-primary",
+   "onclick": ""
+  },
+  {
+   "page": "index.html",
+   "line": 302,
+   "id": "pQuit",
+   "cls": "btn btn-outline btn-sm",
+   "onclick": ""
+  },
+  {
+   "page": "index.html",
+   "line": 309,
+   "id": "",
+   "cls": "btn btn-primary",
+   "onclick": ""
+  },
+  {
+   "page": "index.html",
+   "line": 310,
+   "id": "pAgain",
+   "cls": "btn btn-outline",
+   "onclick": ""
+  },
+  {
+   "page": "index.html",
+   "line": 334,
+   "id": "qQuit",
+   "cls": "btn btn-outline btn-sm",
+   "onclick": ""
+  },
+  {
+   "page": "index.html",
+   "line": 341,
+   "id": "quizRetry",
+   "cls": "btn btn-primary",
+   "onclick": ""
+  },
+  {
+   "page": "index.html",
+   "line": 342,
+   "id": "quizBack",
+   "cls": "btn btn-outline",
+   "onclick": ""
+  },
+  {
+   "page": "index.html",
+   "line": 357,
+   "id": "eSubmit",
+   "cls": "btn btn-primary btn-sm",
+   "onclick": ""
+  },
+  {
+   "page": "index.html",
+   "line": 362,
+   "id": "ePrev",
+   "cls": "btn btn-outline",
+   "onclick": ""
+  },
+  {
+   "page": "index.html",
+   "line": 363,
+   "id": "eNext",
+   "cls": "btn btn-primary",
+   "onclick": ""
+  },
+  {
+   "page": "index.html",
+   "line": 369,
+   "id": "examRetry",
+   "cls": "btn btn-primary",
+   "onclick": ""
+  },
+  {
+   "page": "index.html",
+   "line": 370,
+   "id": "examBack",
+   "cls": "btn btn-outline",
+   "onclick": ""
+  },
+  {
+   "page": "index.html",
+   "line": 420,
+   "id": "planRecommended",
+   "cls": "btn btn-gold btn-sm",
+   "onclick": ""
+  },
+  {
+   "page": "index.html",
+   "line": 433,
+   "id": "weekStart",
+   "cls": "btn btn-primary",
+   "onclick": ""
+  },
+  {
+   "page": "index.html",
+   "line": 434,
+   "id": "weekClaim",
+   "cls": "btn btn-gold",
+   "onclick": ""
+  },
+  {
+   "page": "index.html",
+   "line": 440,
+   "id": "monthStart",
+   "cls": "btn btn-primary",
+   "onclick": ""
+  },
+  {
+   "page": "index.html",
+   "line": 441,
+   "id": "monthClaim",
+   "cls": "btn btn-gold",
+   "onclick": ""
+  },
+  {
+   "page": "index.html",
+   "line": 449,
+   "id": "lbNewEntry",
+   "cls": "btn btn-outline",
+   "onclick": ""
+  },
+  {
+   "page": "index.html",
+   "line": 456,
+   "id": "bmPractice",
+   "cls": "btn btn-primary",
+   "onclick": ""
+  },
+  {
+   "page": "index.html",
+   "line": 465,
+   "id": "",
+   "cls": "ai-tab active",
+   "onclick": ""
+  },
+  {
+   "page": "index.html",
+   "line": 466,
+   "id": "",
+   "cls": "ai-tab",
+   "onclick": ""
+  },
+  {
+   "page": "index.html",
+   "line": 467,
+   "id": "",
+   "cls": "ai-tab",
+   "onclick": ""
+  },
+  {
+   "page": "index.html",
+   "line": 468,
+   "id": "",
+   "cls": "ai-tab",
+   "onclick": ""
+  },
+  {
+   "page": "index.html",
+   "line": 469,
+   "id": "",
+   "cls": "ai-tab",
+   "onclick": ""
+  },
+  {
+   "page": "index.html",
+   "line": 470,
+   "id": "",
+   "cls": "ai-tab",
+   "onclick": ""
+  },
+  {
+   "page": "index.html",
+   "line": 471,
+   "id": "",
+   "cls": "ai-tab",
+   "onclick": ""
+  },
+  {
+   "page": "index.html",
+   "line": 472,
+   "id": "",
+   "cls": "ai-tab",
+   "onclick": ""
+  },
+  {
+   "page": "index.html",
+   "line": 473,
+   "id": "",
+   "cls": "ai-tab",
+   "onclick": ""
+  },
+  {
+   "page": "index.html",
+   "line": 474,
+   "id": "",
+   "cls": "ai-tab",
+   "onclick": ""
+  },
+  {
+   "page": "index.html",
+   "line": 475,
+   "id": "",
+   "cls": "ai-tab",
+   "onclick": ""
+  },
+  {
+   "page": "index.html",
+   "line": 489,
+   "id": "",
+   "cls": "nav-link",
+   "onclick": ""
+  },
+  {
+   "page": "index.html",
+   "line": 490,
+   "id": "",
+   "cls": "nav-link",
+   "onclick": ""
+  },
+  {
+   "page": "index.html",
+   "line": 491,
+   "id": "",
+   "cls": "nav-link",
+   "onclick": ""
+  },
+  {
+   "page": "index.html",
+   "line": 505,
+   "id": "certClose",
+   "cls": "btn btn-primary",
+   "onclick": ""
+  },
+  {
+   "page": "index.html",
+   "line": 506,
+   "id": "certPrint",
+   "cls": "btn btn-outline",
+   "onclick": ""
+  },
+  {
+   "page": "offline.html",
+   "line": 26,
+   "id": "offlineRetry",
+   "cls": "btn btn-primary",
+   "onclick": ""
+  },
+  {
+   "page": "offline.html",
+   "line": 27,
+   "id": "offlineHome",
+   "cls": "btn btn-outline",
+   "onclick": ""
+  }
+ ]
+}

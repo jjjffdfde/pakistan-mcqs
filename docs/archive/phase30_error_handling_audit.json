@@ -1,0 +1,12 @@
+{
+  "module": "M19",
+  "status": "PASS",
+  "console_window_rejection_errors_total": 0,
+  "runs_covered": 26,
+  "offline_retry": [
+    "offline_retry:PASS",
+    "offline_home:PASS"
+  ],
+  "api_down_fallback": "port 8765 down: site fully functional, graceful degraded API path (health/profile timeouts ~2.5s, no console errors)",
+  "fixed": "ai/planner/complete missing index crashed with TypeError -> guarded (returns clean error object)"
+}

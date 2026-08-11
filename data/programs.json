@@ -1,0 +1,179 @@
+[
+ {
+  "id": "mbbs",
+  "name": "MBBS",
+  "duration": "5 years",
+  "category": "medical",
+  "description": "Bachelor of Medicine & Bachelor of Surgery.",
+  "subjects": [
+   "medicine",
+   "surgery",
+   "anatomy",
+   "physiology",
+   "pathology",
+   "microbiology",
+   "biochemistry",
+   "community-medicine",
+   "pharmacology"
+  ]
+ },
+ {
+  "id": "bds",
+  "name": "BDS",
+  "duration": "4 years",
+  "category": "medical",
+  "description": "Bachelor of Dental Surgery.",
+  "subjects": [
+   "dental-materials",
+   "anatomy",
+   "physiology",
+   "biochemistry",
+   "histology",
+   "pathology",
+   "microbiology"
+  ]
+ },
+ {
+  "id": "dpt",
+  "name": "DPT",
+  "duration": "5 years",
+  "category": "medical",
+  "description": "Doctor of Physical Therapy.",
+  "subjects": [
+   "physiology",
+   "anatomy",
+   "pathology",
+   "physical-education"
+  ]
+ },
+ {
+  "id": "bs-nursing",
+  "name": "BS Nursing",
+  "duration": "4 years",
+  "category": "medical",
+  "description": "Bachelor of Science in Nursing.",
+  "subjects": [
+   "nursing",
+   "anatomy",
+   "physiology",
+   "pharmacology",
+   "community-medicine",
+   "microbiology"
+  ]
+ },
+ {
+  "id": "pharm-d",
+  "name": "Pharm-D",
+  "duration": "5 years",
+  "category": "medical",
+  "description": "Doctor of Pharmacy.",
+  "subjects": [
+   "pharmacy",
+   "biochemistry",
+   "microbiology",
+   "pathology",
+   "medicine"
+  ]
+ },
+ {
+  "id": "bs-eng",
+  "name": "B.Sc Engineering",
+  "duration": "4 years",
+  "category": "engineering",
+  "description": "Bachelor of Engineering (all disciplines).",
+  "subjects": [
+   "electrical-eng",
+   "mechanical-eng",
+   "civil-eng",
+   "chemical-eng",
+   "industrial-eng",
+   "environmental-eng",
+   "mechatronics",
+   "electronics"
+  ]
+ },
+ {
+  "id": "bscs",
+  "name": "BSCS / BSIT",
+  "duration": "4 years",
+  "category": "computer-it",
+  "description": "Computer Science and Information Technology.",
+  "subjects": [
+   "computer-science",
+   "programming",
+   "software-eng",
+   "data-science",
+   "ai",
+   "networking",
+   "operating-systems",
+   "cyber-security",
+   "cloud-computing"
+  ]
+ },
+ {
+  "id": "mba",
+  "name": "MBA / BBA",
+  "duration": "2-4 years",
+  "category": "management",
+  "description": "Business administration degrees.",
+  "subjects": [
+   "business-admin",
+   "finance",
+   "accounting",
+   "commerce",
+   "supply-chain",
+   "economics"
+  ]
+ },
+ {
+  "id": "llb",
+  "name": "LLB",
+  "duration": "5 years",
+  "category": "law",
+  "description": "Bachelor of Laws.",
+  "subjects": [
+   "law",
+   "constitution",
+   "islamic-studies"
+  ]
+ },
+ {
+  "id": "b-ed",
+  "name": "B.Ed / M.Ed",
+  "duration": "1.5-4 years",
+  "category": "education",
+  "description": "Teaching qualifications.",
+  "subjects": [
+   "pedagogy",
+   "education",
+   "psychology",
+   "english-literature"
+  ]
+ },
+ {
+  "id": "bs-agriculture",
+  "name": "B.Sc Agriculture",
+  "duration": "4 years",
+  "category": "agriculture",
+  "description": "Agricultural sciences.",
+  "subjects": [
+   "agriculture",
+   "forestry",
+   "environmental-science"
+  ]
+ },
+ {
+  "id": "dvm",
+  "name": "DVM",
+  "duration": "5 years",
+  "category": "agriculture",
+  "description": "Doctor of Veterinary Medicine.",
+  "subjects": [
+   "veterinary",
+   "anatomy",
+   "physiology",
+   "microbiology",
+   "pathology"
+  ]
+ }
+]

@@ -1,0 +1,76 @@
+{
+  "phase": "validate",
+  "validated_at": "2026-08-06T15:38:00.974Z",
+  "original": "E:\\pAK MCQS\\db\\pakistan-mcqs.sqlite",
+  "rebuilt": "E:\\pAK MCQS\\db\\pakistan-mcqs.rebuilt.sqlite",
+  "checks": [
+    {
+      "check": "table_count",
+      "status": "PASSED",
+      "detail": "58 vs 58"
+    },
+    {
+      "check": "row_counts_per_table",
+      "status": "PASSED",
+      "detail": "missing=0 extra=0"
+    },
+    {
+      "check": "content_hash_per_table",
+      "status": "PASSED",
+      "detail": "0 modified rows across 0 tables"
+    },
+    {
+      "check": "no_missing_rows",
+      "status": "PASSED",
+      "detail": "0 missing"
+    },
+    {
+      "check": "no_extra_rows",
+      "status": "PASSED",
+      "detail": "0 extra"
+    },
+    {
+      "check": "no_modified_rows",
+      "status": "PASSED",
+      "detail": "0 modified"
+    },
+    {
+      "check": "schema_table",
+      "status": "PASSED",
+      "detail": "table"
+    },
+    {
+      "check": "schema_index",
+      "status": "PASSED",
+      "detail": "index"
+    },
+    {
+      "check": "schema_view",
+      "status": "PASSED",
+      "detail": "view"
+    },
+    {
+      "check": "schema_trigger",
+      "status": "PASSED",
+      "detail": "trigger"
+    },
+    {
+      "check": "rebuilt_integrity",
+      "status": "PASSED",
+      "detail": "[{\"integrity_check\":\"ok\"}]"
+    },
+    {
+      "check": "total_row_count",
+      "status": "PASSED",
+      "detail": "4847339 vs 4847339"
+    }
+  ],
+  "passed": 12,
+  "failed": 0,
+  "diffs": [],
+  "overall_validation_score": 1,
+  "totals": {
+    "original_rows": 4847339,
+    "rebuilt_rows": 4847339
+  }
+}

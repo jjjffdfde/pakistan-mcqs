@@ -1,0 +1,1228 @@
+[
+ {
+  "id": "ana-001",
+  "question": "The total number of bones in the adult human body is:",
+  "optionA": "200",
+  "optionB": "206",
+  "optionC": "212",
+  "optionD": "300",
+  "correctAnswer": "B",
+  "detailedExplanation": "The adult human skeleton has 206 bones (children have about 270; some fuse during growth). The axial skeleton has 80 bones and the appendicular skeleton 126.",
+  "difficulty": "easy",
+  "subject": "anatomy",
+  "chapter": "ana-basics",
+  "topic": "t-302",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators",
+   "etea"
+  ],
+  "year": null,
+  "tags": [
+   "skeleton",
+   "bones"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "ana-002",
+  "question": "The longest bone in the human body is the:",
+  "optionA": "Humerus",
+  "optionB": "Tibia",
+  "optionC": "Femur",
+  "optionD": "Fibula",
+  "correctAnswer": "C",
+  "detailedExplanation": "The femur (thigh bone) is the longest and strongest bone, bearing the body's weight; the stapes in the ear is the smallest bone.",
+  "difficulty": "easy",
+  "subject": "anatomy",
+  "chapter": "ana-basics",
+  "topic": "t-302",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators",
+   "etea"
+  ],
+  "year": null,
+  "tags": [
+   "femur",
+   "bones"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "ana-003",
+  "question": "Which structure connects bones to bones at a joint?",
+  "optionA": "Tendon",
+  "optionB": "Ligament",
+  "optionC": "Cartilage",
+  "optionD": "Fascia",
+  "correctAnswer": "B",
+  "detailedExplanation": "Ligaments are tough bands of fibrous tissue joining bone to bone, stabilising joints; tendons attach muscle to bone and cartilage cushions joint surfaces.",
+  "difficulty": "medium",
+  "subject": "anatomy",
+  "chapter": "ana-basics",
+  "topic": "t-302",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators",
+   "etea"
+  ],
+  "year": null,
+  "tags": [
+   "ligaments",
+   "joints"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "ana-004",
+  "question": "The number of cranial bones in the adult skull is:",
+  "optionA": "8",
+  "optionB": "12",
+  "optionC": "14",
+  "optionD": "22",
+  "correctAnswer": "A",
+  "detailedExplanation": "The skull has 8 cranial bones (frontal, parietal x2, temporal x2, occipital, sphenoid, ethmoid) that enclose the brain, plus 14 facial bones.",
+  "difficulty": "easy",
+  "subject": "anatomy",
+  "chapter": "ana-basics",
+  "topic": "t-303",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators",
+   "etea"
+  ],
+  "year": null,
+  "tags": [
+   "skull",
+   "cranial bones"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "ana-005",
+  "question": "Which muscle is the prime flexor of the elbow joint?",
+  "optionA": "Deltoid",
+  "optionB": "Triceps brachii",
+  "optionC": "Biceps brachii",
+  "optionD": "Pectoralis major",
+  "correctAnswer": "C",
+  "detailedExplanation": "The biceps brachii flexes the elbow and supinates the forearm, while the triceps brachii at the back of the arm is the extensor.",
+  "difficulty": "easy",
+  "subject": "anatomy",
+  "chapter": "ana-basics",
+  "topic": "t-303",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators",
+   "etea"
+  ],
+  "year": null,
+  "tags": [
+   "muscles",
+   "biceps"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "ana-006",
+  "question": "The heart is located in which region of the chest?",
+  "optionA": "Left side of the mediastinum",
+  "optionB": "Right pleural cavity",
+  "optionC": "Posterior mediastinum",
+  "optionD": "Abdominal cavity",
+  "correctAnswer": "A",
+  "detailedExplanation": "The heart sits in the middle mediastinum of the thorax, slightly tilted to the left, between the lungs and behind the sternum.",
+  "difficulty": "easy",
+  "subject": "anatomy",
+  "chapter": "ana-organs",
+  "topic": "t-304",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators",
+   "etea"
+  ],
+  "year": null,
+  "tags": [
+   "heart",
+   "thorax"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "ana-007",
+  "question": "The liver is situated mainly in the:",
+  "optionA": "Left upper quadrant",
+  "optionB": "Right upper quadrant of the abdomen",
+  "optionC": "Pelvic cavity",
+  "optionD": "Right lower quadrant",
+  "correctAnswer": "B",
+  "detailedExplanation": "The liver, the largest internal organ, occupies most of the right upper quadrant, protected by the rib cage; it performs over 500 metabolic functions.",
+  "difficulty": "easy",
+  "subject": "anatomy",
+  "chapter": "ana-organs",
+  "topic": "t-304",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators",
+   "etea"
+  ],
+  "year": null,
+  "tags": [
+   "liver",
+   "abdomen"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "ana-008",
+  "question": "The number of pairs of cranial nerves in humans is:",
+  "optionA": "10",
+  "optionB": "12",
+  "optionC": "16",
+  "optionD": "31",
+  "correctAnswer": "B",
+  "detailedExplanation": "There are 12 pairs of cranial nerves (I-XII) arising from the brain, while 31 pairs of spinal nerves arise from the spinal cord.",
+  "difficulty": "easy",
+  "subject": "anatomy",
+  "chapter": "ana-organs",
+  "topic": "t-305",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators",
+   "etea"
+  ],
+  "year": null,
+  "tags": [
+   "cranial nerves",
+   "nervous system"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "ana-009",
+  "question": "The blood-brain barrier is mainly formed by:",
+  "optionA": "Red blood cells",
+  "optionB": "Tight junctions of brain capillary endothelial cells",
+  "optionC": "Meninges",
+  "optionD": "Cerebrospinal fluid only",
+  "correctAnswer": "B",
+  "detailedExplanation": "Tight junctions between capillary endothelial cells and surrounding astrocytes create the blood-brain barrier, selectively protecting neurons from toxins and pathogens.",
+  "difficulty": "medium",
+  "subject": "anatomy",
+  "chapter": "ana-organs",
+  "topic": "t-305",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators",
+   "etea"
+  ],
+  "year": null,
+  "tags": [
+   "blood-brain barrier"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "ana-010",
+  "question": "The functional unit of the kidney is the:",
+  "optionA": "Alveolus",
+  "optionB": "Nephron",
+  "optionC": "Neuron",
+  "optionD": "Acinus",
+  "correctAnswer": "B",
+  "detailedExplanation": "Each kidney contains about one million nephrons - the filtering units made of glomerulus and tubules that form urine and regulate fluid balance.",
+  "difficulty": "medium",
+  "subject": "anatomy",
+  "chapter": "ana-organs",
+  "topic": "t-305",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators",
+   "etea"
+  ],
+  "year": null,
+  "tags": [
+   "kidney",
+   "nephron"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "phs-001",
+  "question": "The normal resting heart rate for an adult is approximately:",
+  "optionA": "40-50 beats per minute",
+  "optionB": "60-100 beats per minute",
+  "optionC": "120-150 beats per minute",
+  "optionD": "200 beats per minute",
+  "correctAnswer": "B",
+  "detailedExplanation": "Normal adult resting heart rate is 60-100 bpm, regulated by the sinoatrial (SA) node; athletes may have slower rates due to greater stroke volume.",
+  "difficulty": "easy",
+  "subject": "physiology",
+  "chapter": "phy-systems",
+  "topic": "t-306",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators",
+   "etea"
+  ],
+  "year": null,
+  "tags": [
+   "heart rate",
+   "cardiovascular"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "phs-002",
+  "question": "Cardiac output is calculated as:",
+  "optionA": "Heart rate x stroke volume",
+  "optionB": "Heart rate x blood pressure",
+  "optionC": "Stroke volume x blood viscosity",
+  "optionD": "Blood pressure x resistance",
+  "correctAnswer": "A",
+  "detailedExplanation": "Cardiac output (about 5 L/min at rest) equals heart rate multiplied by stroke volume - the volume of blood each ventricle pumps per beat.",
+  "difficulty": "easy",
+  "subject": "physiology",
+  "chapter": "phy-systems",
+  "topic": "t-306",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators",
+   "etea"
+  ],
+  "year": null,
+  "tags": [
+   "cardiac output",
+   "cardiovascular"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "phs-003",
+  "question": "Gas exchange between air and blood in the lungs takes place in the:",
+  "optionA": "Bronchi",
+  "optionB": "Alveoli",
+  "optionC": "Trachea",
+  "optionD": "Larynx",
+  "correctAnswer": "B",
+  "detailedExplanation": "Alveoli are millions of thin-walled air sacs where oxygen diffuses into blood and carbon dioxide out, across a membrane only one cell thick.",
+  "difficulty": "easy",
+  "subject": "physiology",
+  "chapter": "phy-systems",
+  "topic": "t-306",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators",
+   "etea"
+  ],
+  "year": null,
+  "tags": [
+   "alveoli",
+   "respiratory"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "phs-004",
+  "question": "Which hormone increases blood calcium levels?",
+  "optionA": "Calcitonin",
+  "optionB": "Parathyroid hormone",
+  "optionC": "Insulin",
+  "optionD": "Thyroxine",
+  "correctAnswer": "B",
+  "detailedExplanation": "Parathyroid hormone (PTH) raises blood calcium by stimulating bone resorption, kidney calcium reabsorption and vitamin D activation; calcitonin does the opposite.",
+  "difficulty": "easy",
+  "subject": "physiology",
+  "chapter": "phy-systems",
+  "topic": "t-307",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators",
+   "etea"
+  ],
+  "year": null,
+  "tags": [
+   "parathyroid hormone",
+   "endocrine"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "phs-005",
+  "question": "Insulin is secreted by which cells of the pancreas?",
+  "optionA": "Alpha cells",
+  "optionB": "Beta cells of the islets of Langerhans",
+  "optionC": "Acinar cells",
+  "optionD": "Delta cells",
+  "correctAnswer": "B",
+  "detailedExplanation": "Beta cells in the islets of Langerhans secrete insulin to lower blood glucose; alpha cells secrete glucagon to raise it.",
+  "difficulty": "medium",
+  "subject": "physiology",
+  "chapter": "phy-systems",
+  "topic": "t-307",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators",
+   "etea"
+  ],
+  "year": null,
+  "tags": [
+   "insulin",
+   "pancreas"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "phs-006",
+  "question": "The primary function of the kidneys is to:",
+  "optionA": "Produce bile",
+  "optionB": "Filter blood and maintain fluid and electrolyte balance",
+  "optionC": "Digest proteins",
+  "optionD": "Store glucose",
+  "correctAnswer": "B",
+  "detailedExplanation": "Nephrons filter the blood, reabsorb useful solutes and excrete waste in urine, regulating water, electrolytes, pH and blood pressure through renin.",
+  "difficulty": "medium",
+  "subject": "physiology",
+  "chapter": "phy-systems",
+  "topic": "t-307",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators",
+   "etea"
+  ],
+  "year": null,
+  "tags": [
+   "kidney function",
+   "renal"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "phs-007",
+  "question": "The neurotransmitter released at the neuromuscular junction is:",
+  "optionA": "Dopamine",
+  "optionB": "Acetylcholine",
+  "optionC": "Serotonin",
+  "optionD": "GABA",
+  "correctAnswer": "B",
+  "detailedExplanation": "Acetylcholine released from motor nerve endings binds receptors on the muscle fibre, triggering contraction; it is destroyed by acetylcholinesterase after release.",
+  "difficulty": "easy",
+  "subject": "physiology",
+  "chapter": "phy-nerve",
+  "topic": "t-308",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators",
+   "etea"
+  ],
+  "year": null,
+  "tags": [
+   "acetylcholine",
+   "neuromuscular"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "phs-008",
+  "question": "An action potential is best described as:",
+  "optionA": "A slow chemical drift",
+  "optionB": "A rapid, all-or-none electrical signal along a neuron membrane",
+  "optionC": "Continuous passive diffusion",
+  "optionD": "A mechanical wave",
+  "correctAnswer": "B",
+  "detailedExplanation": "An action potential is a brief reversal of membrane potential caused by voltage-gated sodium and potassium channels, propagated along the axon as an all-or-none impulse.",
+  "difficulty": "medium",
+  "subject": "physiology",
+  "chapter": "phy-nerve",
+  "topic": "t-308",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators",
+   "etea"
+  ],
+  "year": null,
+  "tags": [
+   "action potential",
+   "nerve"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "phs-009",
+  "question": "Muscle contraction is initiated when calcium binds to:",
+  "optionA": "Myosin heads",
+  "optionB": "Troponin on the actin filament",
+  "optionC": "ATPase",
+  "optionD": "Sarcolemma",
+  "correctAnswer": "B",
+  "detailedExplanation": "Calcium released from the sarcoplasmic reticulum binds troponin, shifting tropomyosin to expose actin binding sites so myosin cross-bridges can pull the filaments.",
+  "difficulty": "medium",
+  "subject": "physiology",
+  "chapter": "phy-nerve",
+  "topic": "t-309",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators",
+   "etea"
+  ],
+  "year": null,
+  "tags": [
+   "muscle contraction"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "pat-001",
+  "question": "The four cardinal signs of acute inflammation are:",
+  "optionA": "Fever, cough, fatigue, rash",
+  "optionB": "Redness, swelling, heat, pain",
+  "optionC": "Nausea, vomiting, diarrhoea, cramps",
+  "optionD": "Itching, scaling, blistering, oozing",
+  "correctAnswer": "B",
+  "detailedExplanation": "Acute inflammation presents rubor (redness), tumor (swelling), calor (heat) and dolor (pain) from vasodilation, increased permeability and inflammatory mediators; loss of function is the fifth sign.",
+  "difficulty": "easy",
+  "subject": "pathology",
+  "chapter": "pat-general",
+  "topic": "t-310",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators",
+   "etea"
+  ],
+  "year": null,
+  "tags": [
+   "inflammation"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "pat-002",
+  "question": "Necrosis refers to:",
+  "optionA": "Programmed cell death",
+  "optionB": "Cell death in a living organism due to injury or disease",
+  "optionC": "Cell division",
+  "optionD": "Inflammatory exudate",
+  "correctAnswer": "B",
+  "detailedExplanation": "Necrosis is unprogrammed cell death caused by ischaemia, toxins or infection, and is often accompanied by inflammation; apoptosis is the controlled form of cell death.",
+  "difficulty": "medium",
+  "subject": "pathology",
+  "chapter": "pat-general",
+  "topic": "t-310",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators",
+   "etea"
+  ],
+  "year": null,
+  "tags": [
+   "necrosis",
+   "cell injury"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "pat-003",
+  "question": "A benign tumour is characterised by:",
+  "optionA": "Metastasis to distant organs",
+  "optionB": "Localised growth without invasion or spread",
+  "optionC": "Rapid uncontrolled spread",
+  "optionD": "Invasion of blood vessels",
+  "correctAnswer": "B",
+  "detailedExplanation": "Benign tumours grow slowly, are encapsulated, well-differentiated and do not invade or metastasise; malignant tumours invade surrounding tissue and spread.",
+  "difficulty": "easy",
+  "subject": "pathology",
+  "chapter": "pat-general",
+  "topic": "t-311",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators",
+   "etea"
+  ],
+  "year": null,
+  "tags": [
+   "neoplasia",
+   "benign tumour"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "pat-004",
+  "question": "Atherosclerosis primarily involves:",
+  "optionA": "Nerve degeneration",
+  "optionB": "Fatty plaque buildup in artery walls",
+  "optionC": "Bone demineralisation",
+  "optionD": "Muscle atrophy",
+  "correctAnswer": "B",
+  "detailedExplanation": "Atherosclerosis is the progressive deposition of cholesterol-rich plaques in arterial intima, narrowing vessels and causing heart attacks, strokes and peripheral artery disease.",
+  "difficulty": "easy",
+  "subject": "pathology",
+  "chapter": "pat-systemic",
+  "topic": "t-312",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators",
+   "etea"
+  ],
+  "year": null,
+  "tags": [
+   "atherosclerosis",
+   "cardiovascular"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "pat-005",
+  "question": "The spread of malignant cells to distant organs is called:",
+  "optionA": "Hypertrophy",
+  "optionB": "Metastasis",
+  "optionC": "Hyperplasia",
+  "optionD": "Metaplasia",
+  "correctAnswer": "B",
+  "detailedExplanation": "Metastasis is the hallmark of malignancy - cancer cells travel through blood or lymphatics to colonise distant sites such as liver, lungs or bones.",
+  "difficulty": "easy",
+  "subject": "pathology",
+  "chapter": "pat-systemic",
+  "topic": "t-313",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators",
+   "etea"
+  ],
+  "year": null,
+  "tags": [
+   "metastasis",
+   "cancer"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "mic-001",
+  "question": "Bacteria are classified as:",
+  "optionA": "Eukaryotes",
+  "optionB": "Prokaryotes",
+  "optionC": "Viruses",
+  "optionD": "Fungi",
+  "correctAnswer": "B",
+  "detailedExplanation": "Bacteria are single-celled prokaryotes lacking a true nucleus and membrane-bound organelles, with circular DNA in the cytoplasm; they reproduce by binary fission.",
+  "difficulty": "easy",
+  "subject": "microbiology",
+  "chapter": "mic-bacteria",
+  "topic": "t-314",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators",
+   "etea"
+  ],
+  "year": null,
+  "tags": [
+   "bacteria",
+   "prokaryotes"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "mic-002",
+  "question": "Gram staining differentiates bacteria based on:",
+  "optionA": "Cell wall peptidoglycan content",
+  "optionB": "Presence of nucleus",
+  "optionC": "Flagella length",
+  "optionD": "Capsule colour",
+  "correctAnswer": "A",
+  "detailedExplanation": "Gram-positive bacteria have a thick peptidoglycan layer that retains crystal violet and appear purple; gram-negative bacteria have a thin layer plus outer membrane and appear pink.",
+  "difficulty": "medium",
+  "subject": "microbiology",
+  "chapter": "mic-bacteria",
+  "topic": "t-314",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators",
+   "etea"
+  ],
+  "year": null,
+  "tags": [
+   "gram staining"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "mic-003",
+  "question": "Mycobacterium tuberculosis is the causative agent of:",
+  "optionA": "Cholera",
+  "optionB": "Tuberculosis",
+  "optionC": "Malaria",
+  "optionD": "Influenza",
+  "correctAnswer": "B",
+  "detailedExplanation": "M. tuberculosis causes pulmonary and extrapulmonary TB; it is an acid-fast bacillus spread by airborne droplets and treated with a multi-drug regimen.",
+  "difficulty": "easy",
+  "subject": "microbiology",
+  "chapter": "mic-bacteria",
+  "topic": "t-315",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators",
+   "etea"
+  ],
+  "year": null,
+  "tags": [
+   "tuberculosis"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "mic-004",
+  "question": "HIV is classified as a:",
+  "optionA": "DNA virus",
+  "optionB": "Retrovirus",
+  "optionC": "Bacteriophage",
+  "optionD": "Prion",
+  "correctAnswer": "B",
+  "detailedExplanation": "HIV is a retrovirus carrying RNA that is reverse-transcribed into DNA by reverse transcriptase and integrated into host chromosomes, leading to AIDS if untreated.",
+  "difficulty": "easy",
+  "subject": "microbiology",
+  "chapter": "mic-viruses",
+  "topic": "t-316",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators",
+   "etea"
+  ],
+  "year": null,
+  "tags": [
+   "HIV",
+   "retrovirus"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "mic-005",
+  "question": "Malaria is caused by which microorganism?",
+  "optionA": "Virus",
+  "optionB": "Protozoan Plasmodium",
+  "optionC": "Bacterium",
+  "optionD": "Helminth",
+  "correctAnswer": "B",
+  "detailedExplanation": "Plasmodium species (falciparum, vivax, etc.) are protozoan parasites transmitted by Anopheles mosquitoes; P. falciparum causes the most severe disease.",
+  "difficulty": "easy",
+  "subject": "microbiology",
+  "chapter": "mic-viruses",
+  "topic": "t-317",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators",
+   "etea"
+  ],
+  "year": null,
+  "tags": [
+   "malaria",
+   "plasmodium"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "mic-006",
+  "question": "Penicillin kills bacteria by:",
+  "optionA": "Inhibiting protein synthesis",
+  "optionB": "Inhibiting cell wall synthesis",
+  "optionC": "Blocking DNA replication",
+  "optionD": "Disrupting the cell membrane",
+  "correctAnswer": "B",
+  "detailedExplanation": "Beta-lactams like penicillin block the transpeptidase enzymes that cross-link peptidoglycan, weakening the bacterial cell wall so cells lyse - most effective on growing bacteria.",
+  "difficulty": "medium",
+  "subject": "microbiology",
+  "chapter": "mic-viruses",
+  "topic": "t-317",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators",
+   "etea"
+  ],
+  "year": null,
+  "tags": [
+   "penicillin",
+   "antibiotics"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "bic-001",
+  "question": "In DNA, adenine always pairs with:",
+  "optionA": "Guanine",
+  "optionB": "Cytosine",
+  "optionC": "Thymine",
+  "optionD": "Uracil",
+  "correctAnswer": "C",
+  "detailedExplanation": "Complementary base pairing in DNA follows Chargaff's rules: adenine pairs with thymine (A-T) via two hydrogen bonds and guanine with cytosine (G-C) via three.",
+  "difficulty": "easy",
+  "subject": "biochemistry",
+  "chapter": "bic-molecules",
+  "topic": "t-318",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators",
+   "etea"
+  ],
+  "year": null,
+  "tags": [
+   "DNA",
+   "base pairing"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "bic-002",
+  "question": "Enzymes are biological catalysts that work by:",
+  "optionA": "Raising activation energy",
+  "optionB": "Lowering the activation energy of reactions",
+  "optionC": "Being consumed in reactions",
+  "optionD": "Changing the equilibrium constant",
+  "correctAnswer": "B",
+  "detailedExplanation": "Enzymes, mostly proteins, lower activation energy by stabilising the transition state at their active sites, enormously speeding up biochemical reactions without being consumed.",
+  "difficulty": "easy",
+  "subject": "biochemistry",
+  "chapter": "bic-molecules",
+  "topic": "t-318",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators",
+   "etea"
+  ],
+  "year": null,
+  "tags": [
+   "enzymes"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "bic-003",
+  "question": "The energy currency of the cell is:",
+  "optionA": "DNA",
+  "optionB": "ATP",
+  "optionC": "Glucose",
+  "optionD": "NADH",
+  "correctAnswer": "B",
+  "detailedExplanation": "ATP (adenosine triphosphate) stores energy in its high-energy phosphate bonds and powers biosynthesis, transport and mechanical work in the cell.",
+  "difficulty": "easy",
+  "subject": "biochemistry",
+  "chapter": "bic-molecules",
+  "topic": "t-318",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators",
+   "etea"
+  ],
+  "year": null,
+  "tags": [
+   "ATP",
+   "energy"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "bic-004",
+  "question": "Glycolysis takes place in the:",
+  "optionA": "Mitochondria",
+  "optionB": "Cytoplasm",
+  "optionC": "Nucleus",
+  "optionD": "Ribosomes",
+  "correctAnswer": "B",
+  "detailedExplanation": "Glycolysis, the breakdown of glucose to pyruvate with net 2 ATP, occurs in the cytoplasm; the Krebs cycle and oxidative phosphorylation occur in mitochondria.",
+  "difficulty": "easy",
+  "subject": "biochemistry",
+  "chapter": "bic-metabolism",
+  "topic": "t-320",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators",
+   "etea"
+  ],
+  "year": null,
+  "tags": [
+   "glycolysis",
+   "metabolism"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "bic-005",
+  "question": "Vitamin C deficiency causes:",
+  "optionA": "Rickets",
+  "optionB": "Scurvy",
+  "optionC": "Beriberi",
+  "optionD": "Night blindness",
+  "correctAnswer": "B",
+  "detailedExplanation": "Scurvy results from vitamin C deficiency, causing bleeding gums and poor wound healing because vitamin C is required for collagen synthesis; rickets is vitamin D deficiency.",
+  "difficulty": "medium",
+  "subject": "biochemistry",
+  "chapter": "bic-metabolism",
+  "topic": "t-320",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators",
+   "etea"
+  ],
+  "year": null,
+  "tags": [
+   "vitamin C",
+   "scurvy"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "hst-001",
+  "question": "Which tissue type lines the inner surfaces of body cavities and organs?",
+  "optionA": "Connective tissue",
+  "optionB": "Epithelial tissue",
+  "optionC": "Nervous tissue",
+  "optionD": "Adipose tissue",
+  "correctAnswer": "B",
+  "detailedExplanation": "Epithelial tissue covers body surfaces and lines cavities, providing protection, absorption, secretion and sensation; it rests on a basement membrane.",
+  "difficulty": "easy",
+  "subject": "histology",
+  "chapter": "his-tissues",
+  "topic": "t-322",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators",
+   "etea"
+  ],
+  "year": null,
+  "tags": [
+   "epithelial tissue",
+   "histology"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "hst-002",
+  "question": "Cartilage-producing cells are called:",
+  "optionA": "Osteocytes",
+  "optionB": "Chondrocytes",
+  "optionC": "Fibroblasts",
+  "optionD": "Adipocytes",
+  "correctAnswer": "B",
+  "detailedExplanation": "Chondrocytes maintain cartilage, residing in spaces called lacunae; osteocytes are bone cells and fibroblasts produce connective tissue fibres.",
+  "difficulty": "easy",
+  "subject": "histology",
+  "chapter": "his-tissues",
+  "topic": "t-322",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators",
+   "etea"
+  ],
+  "year": null,
+  "tags": [
+   "cartilage",
+   "chondrocytes"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "hst-003",
+  "question": "Skeletal muscle fibres appear striated because of:",
+  "optionA": "Glycogen granules",
+  "optionB": "Repeating sarcomere arrangement of actin and myosin",
+  "optionC": "Fat droplets",
+  "optionD": "Nerve endings",
+  "correctAnswer": "B",
+  "detailedExplanation": "The regular, repeating sarcomeres of actin and myosin filaments give skeletal and cardiac muscle their striated appearance under the microscope.",
+  "difficulty": "medium",
+  "subject": "histology",
+  "chapter": "his-tissues",
+  "topic": "t-323",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators",
+   "etea"
+  ],
+  "year": null,
+  "tags": [
+   "muscle histology",
+   "striations"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "hst-004",
+  "question": "The alveoli of the lungs are lined by which epithelium?",
+  "optionA": "Stratified squamous",
+  "optionB": "Simple squamous",
+  "optionC": "Transitional",
+  "optionD": "Pseudostratified ciliated",
+  "correctAnswer": "B",
+  "detailedExplanation": "Alveoli are lined by simple squamous epithelium (type I pneumocytes) one cell thick, maximising gas diffusion between air and capillaries.",
+  "difficulty": "medium",
+  "subject": "histology",
+  "chapter": "his-organs",
+  "topic": "t-324",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators",
+   "etea"
+  ],
+  "year": null,
+  "tags": [
+   "alveoli",
+   "epithelium"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "den-001",
+  "question": "Dental amalgam is an alloy of mercury with:",
+  "optionA": "Gold and platinum",
+  "optionB": "Silver, tin and copper",
+  "optionC": "Zinc and lead",
+  "optionD": "Nickel and chromium",
+  "correctAnswer": "B",
+  "detailedExplanation": "Amalgam mixes mercury with a silver-tin-copper alloy powder; the mercury binds the particles into a hard, durable filling commonly used for posterior restorations.",
+  "difficulty": "easy",
+  "subject": "dental-materials",
+  "chapter": "den-restorative",
+  "topic": "t-326",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators",
+   "etea"
+  ],
+  "year": null,
+  "tags": [
+   "amalgam",
+   "dental materials"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "den-002",
+  "question": "Composite resin fillings are hardened (cured) using:",
+  "optionA": "Heat only",
+  "optionB": "Visible blue light",
+  "optionC": "Ultrasonic vibration",
+  "optionD": "Chemical acid",
+  "correctAnswer": "B",
+  "detailedExplanation": "Light-cured composites contain camphorquinone photoinitiators that polymerise when exposed to blue light (around 470 nm), allowing the dentist to control setting time.",
+  "difficulty": "medium",
+  "subject": "dental-materials",
+  "chapter": "den-restorative",
+  "topic": "t-326",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators",
+   "etea"
+  ],
+  "year": null,
+  "tags": [
+   "composite",
+   "light curing"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "den-003",
+  "question": "Zinc oxide eugenol cement is commonly used as a:",
+  "optionA": "Root filling material only",
+  "optionB": "Temporary filling and base",
+  "optionC": "Orthodontic bracket",
+  "optionD": "Whitening agent",
+  "correctAnswer": "B",
+  "detailedExplanation": "ZOE cement, made by mixing zinc oxide powder with eugenol liquid, is used for temporary restorations, bases and sedative dressings due to its soothing action on pulp.",
+  "difficulty": "easy",
+  "subject": "dental-materials",
+  "chapter": "den-restorative",
+  "topic": "t-327",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators",
+   "etea"
+  ],
+  "year": null,
+  "tags": [
+   "zinc oxide eugenol",
+   "cements"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "den-004",
+  "question": "Alginate is widely used in dentistry as an:",
+  "optionA": "Permanent crown material",
+  "optionB": "Impression material",
+  "optionC": "Cement liner",
+  "optionD": "Anesthetic gel",
+  "correctAnswer": "B",
+  "detailedExplanation": "Alginate, derived from seaweed, is an elastic impression material used to take study models of the mouth; it is mixed with water and sets by gelation.",
+  "difficulty": "easy",
+  "subject": "dental-materials",
+  "chapter": "den-properties",
+  "topic": "t-328",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators",
+   "etea"
+  ],
+  "year": null,
+  "tags": [
+   "alginate",
+   "impression"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ },
+ {
+  "id": "den-005",
+  "question": "The ability of a material to withstand biting forces without breaking is its:",
+  "optionA": "Viscosity",
+  "optionB": "Strength",
+  "optionC": "Solubility",
+  "optionD": "Wettability",
+  "correctAnswer": "B",
+  "detailedExplanation": "Strength - including compressive, tensile and flexural strength - measures a material's resistance to fracture under the high masticatory forces in the mouth.",
+  "difficulty": "medium",
+  "subject": "dental-materials",
+  "chapter": "den-properties",
+  "topic": "t-329",
+  "exam": [
+   "ppsc",
+   "fpsc",
+   "nts",
+   "educators",
+   "etea"
+  ],
+  "year": null,
+  "tags": [
+   "material properties",
+   "strength"
+  ],
+  "createdDate": "2026-07-31",
+  "updatedDate": "2026-07-31"
+ }
+]

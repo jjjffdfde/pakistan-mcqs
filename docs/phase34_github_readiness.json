@@ -1,0 +1,18 @@
+{
+ "repo_size_candidate_mib": null,
+ "file_count": 1892,
+ "files_over_100_mib": [],
+ "files_over_50_mib": [],
+ "largest_file": {
+  "Path": "docs/archive/phase17_search_index.json",
+  "Size": 32876440
+ },
+ "github_limits_met": {
+  "no_file_over_100_mib": true,
+  "no_file_over_50_mib": true,
+  "under_1_gib_repo": false,
+  "no_secrets": true,
+  "browser_upload_compatible": "25 MiB browser-upload exceeded by docs/archive/phase17_search_index.json (32.8 MiB) - use git CLI or large-file strategy; CLI recommended"
+ },
+ "note": "excluded from Git (documented): db/pakistan-mcqs.sqlite (2.2 GiB), db rebuilt artifact (removed), backup/ snapshots (8.7 GiB), database/data + releases (850 MiB, LFS rules prepared), phase34 snapshot, .audit-tmp"
+}

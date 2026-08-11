@@ -1,0 +1,2122 @@
+{
+  "step": "performance_dashboard",
+  "generated_at": "2026-08-06T08:09:42",
+  "student_progress": [
+    {
+      "device_id": "default",
+      "name": "Selfcheck",
+      "accuracy": 0.34,
+      "mastery_score": 0.508,
+      "retention_score": 0.34,
+      "learning_velocity": 18,
+      "readiness_score": 62.5
+    }
+  ],
+  "subject_progress": [
+    {
+      "subject_id": "accounting",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "agriculture",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "ai",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "ajkpsc",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.46
+    },
+    {
+      "subject_id": "algorithms",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "analytical-reasoning",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "anatomy",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "anf",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.18
+    },
+    {
+      "subject_id": "angular",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "anthropology",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.16
+    },
+    {
+      "subject_id": "antonyms",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "aptitude-tests",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "architecture",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "army",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.05
+    },
+    {
+      "subject_id": "artificial-intelligence",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "asf",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.17
+    },
+    {
+      "subject_id": "assistant-director",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.18
+    },
+    {
+      "subject_id": "auditing",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "auditing-standards",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "banking",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.31
+    },
+    {
+      "subject_id": "bash",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "bds",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.17
+    },
+    {
+      "subject_id": "behavioral-sciences",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "big-data",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.19
+    },
+    {
+      "subject_id": "biochemistry",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "biology",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "biotechnology",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.21
+    },
+    {
+      "subject_id": "bootstrap",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.31
+    },
+    {
+      "subject_id": "botany",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.26
+    },
+    {
+      "subject_id": "bpsc",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.44
+    },
+    {
+      "subject_id": "business-admin",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.22
+    },
+    {
+      "subject_id": "business-administration",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "business-law",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "c",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "chemical-eng",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "chemistry",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "civil-eng",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "cloud-computing",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "commerce",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.16
+    },
+    {
+      "subject_id": "community-medicine",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "compiler-design",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "comprehension",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "computer-engineering",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.21
+    },
+    {
+      "subject_id": "computer-graphics",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "computer-science",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "constitution",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.29
+    },
+    {
+      "subject_id": "cpp",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "csharp",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "css",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "css-exam",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.04
+    },
+    {
+      "subject_id": "cts",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.04
+    },
+    {
+      "subject_id": "current-affairs",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "custom-inspector",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.19
+    },
+    {
+      "subject_id": "cyber-security",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "data-interpretation",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "data-science",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "data-structures",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "database",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "deep-learning",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "dental-materials",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "dental-medicine",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "dental-surgery",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "devops",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.24
+    },
+    {
+      "subject_id": "digital-logic",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "distributed-systems",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "django",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.13
+    },
+    {
+      "subject_id": "docker",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "dotnet",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.15
+    },
+    {
+      "subject_id": "dpt",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.14
+    },
+    {
+      "subject_id": "ecat",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.12
+    },
+    {
+      "subject_id": "economics",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "education",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.17
+    },
+    {
+      "subject_id": "educators",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.04
+    },
+    {
+      "subject_id": "election-officer",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.19
+    },
+    {
+      "subject_id": "electrical-eng",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "electronics",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "english",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "english-literature",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "ent",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "entrepreneurship",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "environmental-eng",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "environmental-science",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "essay",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.23
+    },
+    {
+      "subject_id": "est",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.16
+    },
+    {
+      "subject_id": "ethical-hacking",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.23
+    },
+    {
+      "subject_id": "everyday-science",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "express",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "express-js",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.2
+    },
+    {
+      "subject_id": "fbr",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.27
+    },
+    {
+      "subject_id": "fia",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.04
+    },
+    {
+      "subject_id": "fia-inspector",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.04
+    },
+    {
+      "subject_id": "finance",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "flask",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.2
+    },
+    {
+      "subject_id": "forensic-medicine",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "forestry",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.17
+    },
+    {
+      "subject_id": "fpsc",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.04
+    },
+    {
+      "subject_id": "gat",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.11
+    },
+    {
+      "subject_id": "general-anatomy",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.15
+    },
+    {
+      "subject_id": "general-knowledge",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "geography",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "git",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "git-github",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.31
+    },
+    {
+      "subject_id": "github",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "go",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "grammar",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "graphql",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.2
+    },
+    {
+      "subject_id": "gre",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.11
+    },
+    {
+      "subject_id": "gynecology",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "headmaster",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.17
+    },
+    {
+      "subject_id": "hesco",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.15
+    },
+    {
+      "subject_id": "histology",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.24
+    },
+    {
+      "subject_id": "history",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "hrm",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "html",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "ib",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.04
+    },
+    {
+      "subject_id": "idioms",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "ielts",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.12
+    },
+    {
+      "subject_id": "income-tax-inspector",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.19
+    },
+    {
+      "subject_id": "industrial-eng",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "inspector",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.18
+    },
+    {
+      "subject_id": "international-relations",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "iq",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "islamic-studies",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "issb",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.04
+    },
+    {
+      "subject_id": "java",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "javascript",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "kppsc",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.51
+    },
+    {
+      "subject_id": "kubernetes",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "laravel",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "lat",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.65
+    },
+    {
+      "subject_id": "law",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "lecturer",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.04
+    },
+    {
+      "subject_id": "lesco",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.14
+    },
+    {
+      "subject_id": "linux",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "logical-reasoning",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "machine-learning",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "management",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "management-accounting",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "marketing",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "mathematics",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "mbbs",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.15
+    },
+    {
+      "subject_id": "mdcat",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.85
+    },
+    {
+      "subject_id": "mechanical-eng",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "mechatronics",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "medical",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "medicine",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "mepco",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.14
+    },
+    {
+      "subject_id": "microbiology",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "mining-engineering",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "mobile-development",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "mod",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.18
+    },
+    {
+      "subject_id": "mongodb",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "motorway-police",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.2
+    },
+    {
+      "subject_id": "ms-office",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.34
+    },
+    {
+      "subject_id": "nab",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.04
+    },
+    {
+      "subject_id": "nadra",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.15
+    },
+    {
+      "subject_id": "navy",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.29
+    },
+    {
+      "subject_id": "networking",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "next-js",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.21
+    },
+    {
+      "subject_id": "node-js",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "non-verbal-reasoning",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "nosql",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "nts",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.04
+    },
+    {
+      "subject_id": "nursing",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "nutrition",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "operating-systems",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "ophthalmology",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "oral-anatomy",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "oral-histology",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "oral-pathology",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "organization-behavior",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "ots",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.04
+    },
+    {
+      "subject_id": "paf",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.29
+    },
+    {
+      "subject_id": "pakistan-affairs",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "pakistan-history",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "pakistan-post",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.19
+    },
+    {
+      "subject_id": "pathology",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "pedagogy",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.31
+    },
+    {
+      "subject_id": "pediatrics",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "petroleum-engineering",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "pharmacology",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "pharmacy",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "php",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "physical-education",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.18
+    },
+    {
+      "subject_id": "physics",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "physiology",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "pma",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.28
+    },
+    {
+      "subject_id": "pms",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.04
+    },
+    {
+      "subject_id": "police",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.04
+    },
+    {
+      "subject_id": "political-science",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "postgresql",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "ppsc",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.04
+    },
+    {
+      "subject_id": "programming",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.4
+    },
+    {
+      "subject_id": "programming-fundamentals",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "project-management",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "psychology",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "pts",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.04
+    },
+    {
+      "subject_id": "public-health",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "punjab-police",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.29
+    },
+    {
+      "subject_id": "python",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "railway",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.04
+    },
+    {
+      "subject_id": "react",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "reasoning",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.31
+    },
+    {
+      "subject_id": "rescue-1122",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.19
+    },
+    {
+      "subject_id": "rest-api",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.17
+    },
+    {
+      "subject_id": "rust",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "sat",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.11
+    },
+    {
+      "subject_id": "sbp",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.2
+    },
+    {
+      "subject_id": "sentence-correction",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "sepco",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.14
+    },
+    {
+      "subject_id": "sngpl",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.14
+    },
+    {
+      "subject_id": "sociology",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.2
+    },
+    {
+      "subject_id": "software-eng",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "spring-boot",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.14
+    },
+    {
+      "subject_id": "spsc",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.48
+    },
+    {
+      "subject_id": "sql",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "sqlite",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "ssgc",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.16
+    },
+    {
+      "subject_id": "sst",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.16
+    },
+    {
+      "subject_id": "statistics",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "sub-inspector",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.17
+    },
+    {
+      "subject_id": "supply-chain",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "surgery",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "synonyms",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "system-design",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "tailwind-css",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.22
+    },
+    {
+      "subject_id": "taxation",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "teaching",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.18
+    },
+    {
+      "subject_id": "telecommunication",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "textile-engineering",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "toefl",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.16
+    },
+    {
+      "subject_id": "typescript",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "urdu",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "verbal-reasoning",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "veterinary",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.17
+    },
+    {
+      "subject_id": "vocabulary",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "vue-js",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "wapda",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.3
+    },
+    {
+      "subject_id": "web-development",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "windows",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.3
+    },
+    {
+      "subject_id": "world-current-affairs",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.22
+    },
+    {
+      "subject_id": "world-history",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 1
+    },
+    {
+      "subject_id": "zoology",
+      "accuracy": 0,
+      "learning_depth": 0,
+      "exam_readiness": 0,
+      "coverage": 0.36
+    }
+  ],
+  "exam_progress": [
+    {
+      "exam_id": "ajkpsc",
+      "coverage_pct": 750.33,
+      "avg_score": 0,
+      "attempts": 0
+    },
+    {
+      "exam_id": "anf",
+      "coverage_pct": 752.56,
+      "avg_score": 0,
+      "attempts": 0
+    },
+    {
+      "exam_id": "army",
+      "coverage_pct": 317.02,
+      "avg_score": 0,
+      "attempts": 0
+    },
+    {
+      "exam_id": "asf",
+      "coverage_pct": 725.3,
+      "avg_score": 0,
+      "attempts": 0
+    },
+    {
+      "exam_id": "assistant-director",
+      "coverage_pct": 684.47,
+      "avg_score": 0,
+      "attempts": 0
+    },
+    {
+      "exam_id": "banking",
+      "coverage_pct": 840,
+      "avg_score": 0,
+      "attempts": 0
+    },
+    {
+      "exam_id": "bpsc",
+      "coverage_pct": 750.34,
+      "avg_score": 0,
+      "attempts": 0
+    },
+    {
+      "exam_id": "css",
+      "coverage_pct": 335.18,
+      "avg_score": 0,
+      "attempts": 0
+    },
+    {
+      "exam_id": "cts",
+      "coverage_pct": 707.68,
+      "avg_score": 0,
+      "attempts": 0
+    },
+    {
+      "exam_id": "custom-inspector",
+      "coverage_pct": 899.33,
+      "avg_score": 0,
+      "attempts": 0
+    },
+    {
+      "exam_id": "ecat",
+      "coverage_pct": 545.43,
+      "avg_score": 0,
+      "attempts": 0
+    },
+    {
+      "exam_id": "educators",
+      "coverage_pct": 677.2,
+      "avg_score": 0,
+      "attempts": 0
+    },
+    {
+      "exam_id": "election-officer",
+      "coverage_pct": 850.4,
+      "avg_score": 0,
+      "attempts": 0
+    },
+    {
+      "exam_id": "est",
+      "coverage_pct": 760.23,
+      "avg_score": 0,
+      "attempts": 0
+    },
+    {
+      "exam_id": "etea",
+      "coverage_pct": 385.6,
+      "avg_score": 0,
+      "attempts": 0
+    },
+    {
+      "exam_id": "fbr",
+      "coverage_pct": 940.9,
+      "avg_score": 0,
+      "attempts": 0
+    },
+    {
+      "exam_id": "fia",
+      "coverage_pct": 695.48,
+      "avg_score": 0,
+      "attempts": 0
+    },
+    {
+      "exam_id": "fia-inspector",
+      "coverage_pct": 262.07,
+      "avg_score": 0,
+      "attempts": 0
+    },
+    {
+      "exam_id": "fpsc",
+      "coverage_pct": 576.36,
+      "avg_score": 0,
+      "attempts": 0
+    },
+    {
+      "exam_id": "gat",
+      "coverage_pct": 329,
+      "avg_score": 0,
+      "attempts": 0
+    },
+    {
+      "exam_id": "gre",
+      "coverage_pct": 405.09,
+      "avg_score": 0,
+      "attempts": 0
+    },
+    {
+      "exam_id": "headmaster",
+      "coverage_pct": 760.23,
+      "avg_score": 0,
+      "attempts": 0
+    },
+    {
+      "exam_id": "hesco",
+      "coverage_pct": 717.94,
+      "avg_score": 0,
+      "attempts": 0
+    },
+    {
+      "exam_id": "ib",
+      "coverage_pct": 668.81,
+      "avg_score": 0,
+      "attempts": 0
+    },
+    {
+      "exam_id": "ielts",
+      "coverage_pct": 387.89,
+      "avg_score": 0,
+      "attempts": 0
+    },
+    {
+      "exam_id": "income-tax-inspector",
+      "coverage_pct": 869.9,
+      "avg_score": 0,
+      "attempts": 0
+    },
+    {
+      "exam_id": "inspector",
+      "coverage_pct": 687.37,
+      "avg_score": 0,
+      "attempts": 0
+    },
+    {
+      "exam_id": "issb",
+      "coverage_pct": 312.69,
+      "avg_score": 0,
+      "attempts": 0
+    },
+    {
+      "exam_id": "kppsc",
+      "coverage_pct": 750.46,
+      "avg_score": 0,
+      "attempts": 0
+    },
+    {
+      "exam_id": "lat",
+      "coverage_pct": 191.86,
+      "avg_score": 0,
+      "attempts": 0
+    },
+    {
+      "exam_id": "lecturer",
+      "coverage_pct": 795.21,
+      "avg_score": 0,
+      "attempts": 0
+    },
+    {
+      "exam_id": "lesco",
+      "coverage_pct": 721.22,
+      "avg_score": 0,
+      "attempts": 0
+    },
+    {
+      "exam_id": "mdcat",
+      "coverage_pct": 380.55,
+      "avg_score": 0,
+      "attempts": 0
+    },
+    {
+      "exam_id": "mepco",
+      "coverage_pct": 717.93,
+      "avg_score": 0,
+      "attempts": 0
+    },
+    {
+      "exam_id": "mod",
+      "coverage_pct": 851.69,
+      "avg_score": 0,
+      "attempts": 0
+    },
+    {
+      "exam_id": "motorway",
+      "coverage_pct": 728.63,
+      "avg_score": 0,
+      "attempts": 0
+    },
+    {
+      "exam_id": "nab",
+      "coverage_pct": 842.68,
+      "avg_score": 0,
+      "attempts": 0
+    },
+    {
+      "exam_id": "nadra",
+      "coverage_pct": 178.39,
+      "avg_score": 0,
+      "attempts": 0
+    },
+    {
+      "exam_id": "navy",
+      "coverage_pct": 312.63,
+      "avg_score": 0,
+      "attempts": 0
+    },
+    {
+      "exam_id": "nts",
+      "coverage_pct": 584.33,
+      "avg_score": 0,
+      "attempts": 0
+    },
+    {
+      "exam_id": "ots",
+      "coverage_pct": 693.94,
+      "avg_score": 0,
+      "attempts": 0
+    },
+    {
+      "exam_id": "paf",
+      "coverage_pct": 312.63,
+      "avg_score": 0,
+      "attempts": 0
+    },
+    {
+      "exam_id": "pakistan-post",
+      "coverage_pct": 736.15,
+      "avg_score": 0,
+      "attempts": 0
+    },
+    {
+      "exam_id": "pma",
+      "coverage_pct": 237.01,
+      "avg_score": 0,
+      "attempts": 0
+    },
+    {
+      "exam_id": "pms",
+      "coverage_pct": 626.88,
+      "avg_score": 0,
+      "attempts": 0
+    },
+    {
+      "exam_id": "police",
+      "coverage_pct": 678.04,
+      "avg_score": 0,
+      "attempts": 0
+    },
+    {
+      "exam_id": "ppsc",
+      "coverage_pct": 609.48,
+      "avg_score": 0,
+      "attempts": 0
+    },
+    {
+      "exam_id": "pts",
+      "coverage_pct": 707.68,
+      "avg_score": 0,
+      "attempts": 0
+    },
+    {
+      "exam_id": "punjab-police",
+      "coverage_pct": 216.2,
+      "avg_score": 0,
+      "attempts": 0
+    },
+    {
+      "exam_id": "railways",
+      "coverage_pct": 705.84,
+      "avg_score": 0,
+      "attempts": 0
+    },
+    {
+      "exam_id": "rescue-1122",
+      "coverage_pct": 736.15,
+      "avg_score": 0,
+      "attempts": 0
+    },
+    {
+      "exam_id": "sat",
+      "coverage_pct": 476.85,
+      "avg_score": 0,
+      "attempts": 0
+    },
+    {
+      "exam_id": "sbp",
+      "coverage_pct": 1050.03,
+      "avg_score": 0,
+      "attempts": 0
+    },
+    {
+      "exam_id": "sepco",
+      "coverage_pct": 717.93,
+      "avg_score": 0,
+      "attempts": 0
+    },
+    {
+      "exam_id": "sngpl",
+      "coverage_pct": 717.93,
+      "avg_score": 0,
+      "attempts": 0
+    },
+    {
+      "exam_id": "spsc",
+      "coverage_pct": 750.45,
+      "avg_score": 0,
+      "attempts": 0
+    },
+    {
+      "exam_id": "ssgc",
+      "coverage_pct": 717.94,
+      "avg_score": 0,
+      "attempts": 0
+    },
+    {
+      "exam_id": "sst",
+      "coverage_pct": 760.23,
+      "avg_score": 0,
+      "attempts": 0
+    },
+    {
+      "exam_id": "sub-inspector",
+      "coverage_pct": 687.36,
+      "avg_score": 0,
+      "attempts": 0
+    },
+    {
+      "exam_id": "teaching",
+      "coverage_pct": 760.24,
+      "avg_score": 0,
+      "attempts": 0
+    },
+    {
+      "exam_id": "toefl",
+      "coverage_pct": 409.73,
+      "avg_score": 0,
+      "attempts": 0
+    },
+    {
+      "exam_id": "wapda",
+      "coverage_pct": 1646.33,
+      "avg_score": 0,
+      "attempts": 0
+    }
+  ],
+  "learning_curve": [
+    {
+      "session_id": 1,
+      "started_at": "2026-08-04 07:37:18",
+      "accuracy": 0,
+      "mcqs_answered": 2
+    },
+    {
+      "session_id": 2,
+      "started_at": "2026-08-04 07:44:22",
+      "accuracy": 0,
+      "mcqs_answered": 1
+    },
+    {
+      "session_id": 3,
+      "started_at": "2026-08-04 07:46:55",
+      "accuracy": 0,
+      "mcqs_answered": 0
+    }
+  ],
+  "completion_pct": 0.54,
+  "success_pct": 0,
+  "metrics": {
+    "avg_accuracy": 0.34,
+    "avg_mastery": 0.508,
+    "total_attempts": 54,
+    "total_sessions": 3,
+    "total_bookmarks": 5,
+    "weak_topics": 8
+  }
+}

@@ -1,0 +1,150 @@
+{
+ "generated": "2026-08-11T12:21:44.640Z",
+ "totals": {
+  "files": 2740,
+  "directories": 605,
+  "size_bytes": 11843788740,
+  "size_mib": 11295.1
+ },
+ "tracked_candidates": {
+  "files": 1890,
+  "size_mib": 66.9
+ },
+ "categories": {
+  "site_root": {
+   "files": 13,
+   "size_mib": 0.3
+  },
+  "assets": {
+   "files": 19,
+   "size_mib": 0.4
+  },
+  "data_runtime": {
+   "files": 45,
+   "size_mib": 2.2
+  },
+  "static_pages": {
+   "files": 1120,
+   "size_mib": 5.8
+  },
+  "scripts": {
+   "files": 86,
+   "size_mib": 1.1
+  },
+  "tests": {
+   "files": 13,
+   "size_mib": 0
+  },
+  "docs": {
+   "files": 400,
+   "size_mib": 54.2
+  },
+  "database_source": {
+   "files": 673,
+   "size_mib": 813.9
+  },
+  "deployment": {
+   "files": 12,
+   "size_mib": 0.3
+  },
+  "backend": {
+   "files": 137,
+   "size_mib": 2106.9
+  },
+  "config": {
+   "files": 17,
+   "size_mib": 0
+  }
+ },
+ "excluded_from_git": {
+  "production_db": {
+   "size_bytes": 2206887936,
+   "size_mib": 2104.7
+  },
+  "backup_snapshots": {
+   "size_bytes": 8713588439,
+   "size_mib": 8309.9
+  },
+  "database_payload": {
+   "size_bytes": 852866779,
+   "size_mib": 813.4
+  },
+  "phase34_snapshot": {
+   "size_bytes": 2492407191,
+   "size_mib": 2376.9
+  },
+  "audit_tmp": {
+   "size_bytes": 0,
+   "size_mib": 0
+  }
+ },
+ "largest_files": [
+  {
+   "path": "db/pakistan-mcqs.sqlite",
+   "size": 2206887936
+  },
+  {
+   "path": "backup/db-backup-2026-08-04-12-47-20/pakistan-mcqs.sqlite",
+   "size": 2159501312
+  },
+  {
+   "path": "backup/db-backup-2026-08-04-11-42-07/pakistan-mcqs.sqlite",
+   "size": 2133368832
+  },
+  {
+   "path": "backup/db-backup-2026-08-02-17-47-12/pakistan-mcqs.sqlite",
+   "size": 1083437056
+  },
+  {
+   "path": "backup/db-backup-2026-08-02-17-23-10/pakistan-mcqs.sqlite",
+   "size": 996319232
+  },
+  {
+   "path": "backup/2026-08-02-kb-phase-2026-08-02-0950/pakistan-mcqs.sqlite",
+   "size": 657465344
+  },
+  {
+   "path": "backup/2026-08-01-final-241551/pakistan-mcqs.sqlite",
+   "size": 354398208
+  },
+  {
+   "path": "backup/normalize-pre-phase2-2026-08-01-06-14-06/pakistan-mcqs.sqlite",
+   "size": 283262976
+  },
+  {
+   "path": "backup/db-backup-2026-08-01-04-06-13/pakistan-mcqs.sqlite",
+   "size": 283254784
+  },
+  {
+   "path": "backup/db-backup-2026-08-01-05-10-43/pakistan-mcqs.sqlite",
+   "size": 283254784
+  },
+  {
+   "path": "backup/db-backup-2026-08-01-04-06-13/dump.json",
+   "size": 233134839
+  },
+  {
+   "path": "backup/db-backup-2026-08-01-05-10-43/dump.json",
+   "size": 233134839
+  },
+  {
+   "path": "database/data/other/mcqs_fts_data-part03.ndjson.gz",
+   "size": 63452939
+  },
+  {
+   "path": "database/releases/source-v2/data/other/mcqs_fts_data-part03.ndjson.gz",
+   "size": 63452939
+  },
+  {
+   "path": "database/data/other/mcqs_fts_data-part02.ndjson.gz",
+   "size": 63303664
+  }
+ ],
+ "remaining_warnings": [
+  "LICENSE_REQUIRED_DECISION - no LICENSE file chosen yet (see docs/phase34_documentation.json)",
+  "docs/archive/phase17_search_index.json is 32.8 MiB - exceeds GitHub browser-upload 25 MiB; use git CLI (tracked fine, < 100 MiB)",
+  "production DB (2.2 GiB) and database/ source payload (850 MiB) are intentionally NOT tracked - rebuildable via Phase 23 tooling; Git LFS rules prepared in .gitattributes if wanted",
+  "backup/ snapshots (8.7 GiB) kept locally for the server restore feature, excluded from Git",
+  "6 pre-existing UX advisories carried from Phase 33 (touch targets 36px, reduced-motion, placeholder labels, innerHTML, console.debug, timer not time-compressed)"
+ ]
+}

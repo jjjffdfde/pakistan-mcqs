@@ -1,0 +1,102 @@
+[
+    {
+        "Path":  "docs/archive/phase17_search_index.json",
+        "Size":  32876440
+    },
+    {
+        "Path":  "docs/archive/phase28_link_audit.json",
+        "Size":  4823808
+    },
+    {
+        "Path":  "docs/phase34_file_inventory.json",
+        "Size":  3428497
+    },
+    {
+        "Path":  "docs/archive/phase15_duplicate_report.json",
+        "Size":  2222161
+    },
+    {
+        "Path":  "docs/archive/phase17_semantic_graph.json",
+        "Size":  1846747
+    },
+    {
+        "Path":  "docs/archive/phase17_exam_intelligence.json",
+        "Size":  1642491
+    },
+    {
+        "Path":  "docs/archive/phase18_generation_candidates.json",
+        "Size":  1325200
+    },
+    {
+        "Path":  "data/mcqs.json",
+        "Size":  1063761
+    },
+    {
+        "Path":  "docs/archive/phase20_mastery.json",
+        "Size":  911719
+    },
+    {
+        "Path":  "docs/phase34_file_classification.json",
+        "Size":  836458
+    },
+    {
+        "Path":  "docs/archive/phase17_prerequisite_graph.json",
+        "Size":  811996
+    },
+    {
+        "Path":  "docs/archive/phase17_learning_paths.json",
+        "Size":  711248
+    },
+    {
+        "Path":  "docs/phase34_dead_files.json",
+        "Size":  600676
+    },
+    {
+        "Path":  "docs/archive/phase17_integrity.json",
+        "Size":  295442
+    },
+    {
+        "Path":  "docs/phase34_duplicates.json",
+        "Size":  280951
+    },
+    {
+        "Path":  "docs/archive/phase20_institution_reports.json",
+        "Size":  252929
+    },
+    {
+        "Path":  "sitemap.xml",
+        "Size":  226049
+    },
+    {
+        "Path":  "docs/current/phase31_routes.json",
+        "Size":  206947
+    },
+    {
+        "Path":  "docs/phase34_deletion_plan.json",
+        "Size":  196732
+    },
+    {
+        "Path":  "docs/archive/phase17_recommendation_engine.json",
+        "Size":  171242
+    },
+    {
+        "Path":  "pipeline/data/ph11-banks.json",
+        "Size":  150818
+    },
+    {
+        "Path":  "kg/packs-data.js",
+        "Size":  144495
+    },
+    {
+        "Path":  "docs/archive/phase23_checksums.json",
+        "Size":  120992
+    },
+    {
+        "Path":  "docs/archive/phase19_audit.json",
+        "Size":  118162
+    },
+    {
+        "Path":  "docs/archive/phase20_subject_intelligence.json",
+        "Size":  117865
+    }
+]

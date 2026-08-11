@@ -1,0 +1,42 @@
+{
+  "exported_at": "2026-08-06T16:57:38.088Z",
+  "tables": 63,
+  "rows": 6629995,
+  "files": 310,
+  "schema": {
+    "tables": 59,
+    "views": 0,
+    "triggers": 0,
+    "indexes": 64
+  },
+  "compression": "gz",
+  "incremental": false,
+  "snapshot": true,
+  "perf": {
+    "phases": {
+      "total": {
+        "start": 1786035452747,
+        "ms": 5340
+      },
+      "schema": {
+        "start": 1786035452754,
+        "ms": 1
+      },
+      "mcqs": {
+        "start": 1786035452767,
+        "ms": 62
+      },
+      "manifests": {
+        "start": 1786035452830,
+        "ms": 5132
+      }
+    },
+    "startMs": 1786035452747,
+    "peakRssMB": 54,
+    "rowsExported": 0,
+    "bytesExported": 0,
+    "totalMs": 5335,
+    "rowsTotal": 6629995,
+    "files": 310
+  }
+}

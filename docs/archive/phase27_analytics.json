@@ -1,0 +1,147 @@
+{
+  "step": "analytics",
+  "generated_at": "2026-08-10T12:10:35.453Z",
+  "summary": {
+    "learning_efficiency": "accuracy 33% across 54 attempts",
+    "question_solving_speed": "8s (measured on 5 attempts)",
+    "completion_rate": "0% of plan items done",
+    "consistency": "building (1-day streak)",
+    "status": "PASS"
+  },
+  "learning_efficiency": {
+    "overall_accuracy": 33,
+    "total_attempts": 54,
+    "total_correct": 18,
+    "sessions": {
+      "count": 3,
+      "total_questions": 3,
+      "total_correct": 0,
+      "accuracy": 0,
+      "avg_duration_sec": 0
+    }
+  },
+  "question_solving_speed": {
+    "measured_attempts": 5,
+    "avg_speed_sec": 8,
+    "profile_avg_speed_sec": 8,
+    "efficiency_grade": "excellent"
+  },
+  "accuracy": {
+    "overall": 33,
+    "by_mode": [
+      {
+        "mode": "practice",
+        "attempts": 50,
+        "correct": 17,
+        "accuracy": 34
+      },
+      {
+        "mode": "adaptive",
+        "attempts": 3,
+        "correct": 0,
+        "accuracy": 0
+      },
+      {
+        "mode": "selfcheck",
+        "attempts": 1,
+        "correct": 1,
+        "accuracy": 100
+      }
+    ],
+    "by_difficulty": [
+      {
+        "difficulty": "medium",
+        "attempts": 42,
+        "correct": 13,
+        "accuracy": 31
+      },
+      {
+        "difficulty": "easy",
+        "attempts": 12,
+        "correct": 5,
+        "accuracy": 42
+      }
+    ],
+    "by_subject": [
+      {
+        "subject_id": "environmental-science",
+        "attempts": 20,
+        "correct": 9,
+        "accuracy": 45
+      },
+      {
+        "subject_id": "reasoning",
+        "attempts": 11,
+        "correct": 2,
+        "accuracy": 18
+      },
+      {
+        "subject_id": "iq",
+        "attempts": 7,
+        "correct": 1,
+        "accuracy": 14
+      },
+      {
+        "subject_id": "css-exam",
+        "attempts": 5,
+        "correct": 0,
+        "accuracy": 0
+      },
+      {
+        "subject_id": "pakistan-history",
+        "attempts": 3,
+        "correct": 3,
+        "accuracy": 100
+      },
+      {
+        "subject_id": "mod",
+        "attempts": 2,
+        "correct": 0,
+        "accuracy": 0
+      },
+      {
+        "subject_id": "accounting",
+        "attempts": 2,
+        "correct": 2,
+        "accuracy": 100
+      },
+      {
+        "subject_id": "general-knowledge",
+        "attempts": 1,
+        "correct": 0,
+        "accuracy": 0
+      },
+      {
+        "subject_id": "graphql",
+        "attempts": 1,
+        "correct": 1,
+        "accuracy": 100
+      },
+      {
+        "subject_id": "ajkpsc",
+        "attempts": 1,
+        "correct": 0,
+        "accuracy": 0
+      },
+      {
+        "subject_id": "english",
+        "attempts": 1,
+        "correct": 0,
+        "accuracy": 0
+      }
+    ]
+  },
+  "completion_rates": {
+    "plan_items": 23,
+    "plan_items_done": 0,
+    "plan_completion_pct": 0,
+    "sessions": 3
+  },
+  "study_consistency": {
+    "study_days": 2,
+    "longest_streak": 1,
+    "active_ratio": 7,
+    "profile_consistency": 50,
+    "grade": "building"
+  }
+}

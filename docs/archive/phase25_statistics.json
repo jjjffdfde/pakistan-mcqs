@@ -1,0 +1,86 @@
+{
+  "step": "statistics",
+  "generated_at": "2026-08-10T11:58:31.597Z",
+  "artefacts": {
+    "manifest_bytes": 3978,
+    "sw_bytes": 7998,
+    "offline_bytes": 2997,
+    "pwa_kb": 11
+  },
+  "icons": [
+    {
+      "name": "icon-48.png",
+      "kb": 2,
+      "sha": "04e237d0d3bb52a7"
+    },
+    {
+      "name": "icon-72.png",
+      "kb": 3,
+      "sha": "c5fa00aee348e275"
+    },
+    {
+      "name": "icon-96.png",
+      "kb": 4,
+      "sha": "1abf4d2b50970f3e"
+    },
+    {
+      "name": "icon-128.png",
+      "kb": 7,
+      "sha": "0e691b53f0b6a55b"
+    },
+    {
+      "name": "icon-192.png",
+      "kb": 12,
+      "sha": "875131fc87bfeabc"
+    },
+    {
+      "name": "icon-256.png",
+      "kb": 18,
+      "sha": "3b417cf0fcbe06f8"
+    },
+    {
+      "name": "icon-384.png",
+      "kb": 33,
+      "sha": "c7772a8e6eed5a0a"
+    },
+    {
+      "name": "icon-512.png",
+      "kb": 49,
+      "sha": "00b47ec9868a7805"
+    },
+    {
+      "name": "maskable-192.png",
+      "kb": 10,
+      "sha": "ea893b50c63e3594"
+    },
+    {
+      "name": "maskable-512.png",
+      "kb": 45,
+      "sha": "12c55f3dc8061342"
+    },
+    {
+      "name": "apple-touch-icon.png",
+      "kb": 9,
+      "sha": "6e660bcdf6c42401"
+    },
+    {
+      "name": "icon.svg",
+      "kb": 0,
+      "sha": "d1afb662c6593681"
+    },
+    {
+      "name": "maskable.svg",
+      "kb": 0,
+      "sha": "d1afb662c6593681"
+    }
+  ],
+  "icon_directory_kb": 193,
+  "app_runtime_kb": 183,
+  "data_bank_kb": 1325,
+  "android": {
+    "twa_bytes": 1271,
+    "splash_kb": 97,
+    "manifest_bytes": 2483
+  },
+  "desktop_kb": 4
+}

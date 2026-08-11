@@ -1,0 +1,143 @@
+{
+  "module": "M23",
+  "generated_at": "2026-08-10T15:02:51.825Z",
+  "totals": {
+    "working": 26,
+    "broken": 0,
+    "unknown": 0
+  },
+  "features": [
+    {
+      "feature": "Home page render",
+      "runtime_step": "home_rendered",
+      "status": "WORKING"
+    },
+    {
+      "feature": "Theme toggle",
+      "runtime_step": "theme_toggle",
+      "status": "WORKING"
+    },
+    {
+      "feature": "Responsive menu",
+      "runtime_step": "menu_toggle",
+      "status": "WORKING"
+    },
+    {
+      "feature": "Primary navigation",
+      "runtime_step": "nav_buttons",
+      "status": "WORKING"
+    },
+    {
+      "feature": "Question of the Day",
+      "runtime_step": "qotd_reveal",
+      "status": "WORKING"
+    },
+    {
+      "feature": "Search suggestions",
+      "runtime_step": "search_suggestions",
+      "status": "WORKING"
+    },
+    {
+      "feature": "Search (FTS)",
+      "runtime_step": "search_constitution",
+      "status": "WORKING"
+    },
+    {
+      "feature": "Search no-result",
+      "runtime_step": "search_no_result",
+      "status": "WORKING"
+    },
+    {
+      "feature": "Search special chars",
+      "runtime_step": "search_special_chars",
+      "status": "WORKING"
+    },
+    {
+      "feature": "Search case+multi-term",
+      "runtime_step": "search_case_and_multi",
+      "status": "WORKING"
+    },
+    {
+      "feature": "Search very long query",
+      "runtime_step": "search_very_long",
+      "status": "WORKING"
+    },
+    {
+      "feature": "Browse filters",
+      "runtime_step": "browse_filters",
+      "status": "WORKING"
+    },
+    {
+      "feature": "Browse pagination",
+      "runtime_step": "browse_pager",
+      "status": "WORKING"
+    },
+    {
+      "feature": "Practice workflow",
+      "runtime_step": "practice_workflow",
+      "status": "WORKING"
+    },
+    {
+      "feature": "Practice quit",
+      "runtime_step": "practice_quit",
+      "status": "WORKING"
+    },
+    {
+      "feature": "Quick quiz",
+      "runtime_step": "quick_quiz_workflow",
+      "status": "WORKING"
+    },
+    {
+      "feature": "Quiz quit",
+      "runtime_step": "quiz_quit",
+      "status": "WORKING"
+    },
+    {
+      "feature": "Mock exam",
+      "runtime_step": "mock_workflow",
+      "status": "WORKING"
+    },
+    {
+      "feature": "Past paper",
+      "runtime_step": "paper_workflow",
+      "status": "WORKING"
+    },
+    {
+      "feature": "Dashboard stats",
+      "runtime_step": "dashboard_workflow",
+      "status": "WORKING"
+    },
+    {
+      "feature": "Leaderboard",
+      "runtime_step": "leaderboard_workflow",
+      "status": "WORKING"
+    },
+    {
+      "feature": "Bookmarks",
+      "runtime_step": "bookmarks_workflow",
+      "status": "WORKING"
+    },
+    {
+      "feature": "AI coach tabs",
+      "runtime_step": "ai_coach_tabs",
+      "status": "WORKING"
+    },
+    {
+      "feature": "Admin navigation",
+      "runtime_step": "admin_nav_buttons",
+      "status": "WORKING"
+    },
+    {
+      "feature": "Offline page",
+      "runtime_step": "offline",
+      "status": "WORKING"
+    },
+    {
+      "feature": "404 page",
+      "runtime_step": "missing-page",
+      "status": "WORKING"
+    }
+  ],
+  "status": "PASS",
+  "note": "26/26 features WORKING — zero-broken-feature evidence across static + runtime verification"
+}

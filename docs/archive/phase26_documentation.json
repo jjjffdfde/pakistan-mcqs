@@ -1,0 +1,61 @@
+{
+  "step": "documentation",
+  "generated_at": "2026-08-10T12:09:47.822Z",
+  "summary": {
+    "guides_required": 7,
+    "guides_present": 7,
+    "guides_with_content": 7,
+    "status": "PASS"
+  },
+  "guides": [
+    {
+      "name": "CI_CD_GUIDE.md",
+      "exists": true,
+      "bytes": 2160,
+      "sha": "419a9dd4ce3f76f2",
+      "headings": 6
+    },
+    {
+      "name": "DEPLOYMENT_GUIDE.md",
+      "exists": true,
+      "bytes": 2142,
+      "sha": "1307ee66e04883be",
+      "headings": 6
+    },
+    {
+      "name": "BACKUP_RESTORE_GUIDE.md",
+      "exists": true,
+      "bytes": 1687,
+      "sha": "f69af6ad92043506",
+      "headings": 7
+    },
+    {
+      "name": "MONITORING_GUIDE.md",
+      "exists": true,
+      "bytes": 1682,
+      "sha": "5a913357f83bd549",
+      "headings": 6
+    },
+    {
+      "name": "TESTING_GUIDE.md",
+      "exists": true,
+      "bytes": 2092,
+      "sha": "0da7f0260b91e61b",
+      "headings": 6
+    },
+    {
+      "name": "RELEASING_GUIDE.md",
+      "exists": true,
+      "bytes": 1663,
+      "sha": "f8486cad0f7ee2aa",
+      "headings": 6
+    },
+    {
+      "name": "DEVELOPMENT_GUIDE.md",
+      "exists": true,
+      "bytes": 2339,
+      "sha": "1c3ac004e092da20",
+      "headings": 8
+    }
+  ]
+}

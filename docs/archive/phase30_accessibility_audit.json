@@ -1,0 +1,7 @@
+{
+  "module": "M13",
+  "status": "PASS",
+  "issues": [],
+  "skip_link": "present on index.html",
+  "note": "skip link only on index.html (PWA/offline + static pages lack it - advisory). offline.html has no landmarks (minimal page - advisory). heading order, labels, alt text clean on all 26 runs."
+}

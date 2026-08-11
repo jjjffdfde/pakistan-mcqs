@@ -1,0 +1,145 @@
+{
+  "step": "production_readiness",
+  "generated_at": "2026-08-07T08:27:32",
+  "summary": {
+    "website_health_score": 99.7,
+    "performance_score": 50,
+    "seo_score": 99.3,
+    "accessibility_score": 100,
+    "security_score": 39,
+    "ux_score": 77,
+    "overall_production_score": 78,
+    "grade": "C",
+    "issues": {
+      "critical": 2,
+      "high": 5,
+      "medium": 4,
+      "low": 5,
+      "total": 16
+    }
+  },
+  "scoring_breakdown": {
+    "website_health": {
+      "score": 99.7,
+      "weight": "16.7%"
+    },
+    "performance": {
+      "score": 50,
+      "weight": "16.7%"
+    },
+    "seo": {
+      "score": 99.3,
+      "weight": "16.7%"
+    },
+    "accessibility": {
+      "score": 100,
+      "weight": "16.7%"
+    },
+    "security": {
+      "score": 39,
+      "weight": "16.7%"
+    },
+    "ux": {
+      "score": 77,
+      "weight": "16.7%"
+    }
+  },
+  "issues": [
+    {
+      "category": "Critical",
+      "issue": "SQL injection risk: string concatenation in queries",
+      "file": "server.js",
+      "evidence": "1 string concatenation patterns"
+    },
+    {
+      "category": "Critical",
+      "issue": "SQLite database files exposed in web root",
+      "file": "db/pakistan-mcqs.rebuilt.sqlite",
+      "evidence": "2 .sqlite files"
+    },
+    {
+      "category": "High",
+      "issue": "Missing X-Frame-Options header (clickjacking risk)",
+      "file": "server.js",
+      "evidence": "Not found in server code"
+    },
+    {
+      "category": "High",
+      "issue": "Missing Content-Security-Policy header",
+      "file": "server.js",
+      "evidence": "Not found in server code"
+    },
+    {
+      "category": "High",
+      "issue": "No rate limiting implemented",
+      "file": "server.js",
+      "evidence": "Not found in server code"
+    },
+    {
+      "category": "High",
+      "issue": "No CSRF protection on POST endpoints",
+      "file": "server.js",
+      "evidence": "Not found in server code"
+    },
+    {
+      "category": "High",
+      "issue": "No lazy loading on images",
+      "file": "HTML templates",
+      "evidence": "0 loading=lazy attributes"
+    },
+    {
+      "category": "Medium",
+      "issue": "Pages missing meta description",
+      "file": "HTML",
+      "evidence": "4 pages"
+    },
+    {
+      "category": "Medium",
+      "issue": "Referenced files that do not exist",
+      "file": "Various",
+      "evidence": "2 files"
+    },
+    {
+      "category": "Medium",
+      "issue": "Duplicate files with identical content",
+      "file": "Various",
+      "evidence": "320 groups"
+    },
+    {
+      "category": "Medium",
+      "issue": "Referenced assets that do not exist",
+      "file": "assets",
+      "evidence": "2 assets"
+    },
+    {
+      "category": "Low",
+      "issue": "Missing HSTS header",
+      "file": "server.js",
+      "evidence": "Not found"
+    },
+    {
+      "category": "Low",
+      "issue": "Pages with multiple H1 headings",
+      "file": "HTML",
+      "evidence": "1 pages"
+    },
+    {
+      "category": "Low",
+      "issue": "No loading spinner/skeleton components",
+      "file": "CSS/JS",
+      "evidence": "Not found"
+    },
+    {
+      "category": "Low",
+      "issue": "No empty state UI patterns",
+      "file": "CSS",
+      "evidence": "Not found"
+    },
+    {
+      "category": "Low",
+      "issue": "Subject pages with no MCQs in database",
+      "file": "subjects/",
+      "evidence": "1 pages"
+    }
+  ]
+}

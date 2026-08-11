@@ -1,0 +1,64 @@
+{
+  "module": "P32",
+  "changes": [
+    {
+      "id": "P32-OPT-001",
+      "file": "scripts/phase28/server.cjs",
+      "kind": "test-server caching",
+      "before": "Cache-Control: no-store on all responses",
+      "after": "ETag (size+mtime) + Cache-Control: HTML no-cache; JS/CSS/JSON public max-age=86400; images/fonts max-age=604800 immutable; If-None-Match->304",
+      "reason": "repeat-visit transfer reduction; standard static-asset caching",
+      "expected_benefit": "-98.8% repeat-visit bytes (measured 406,080 -> 4,824)",
+      "verification": "phase32_cache_raw.json; all suites PASS afterwards",
+      "reversible": "revert single diff; rollback documented",
+      "production_impact": "server.js production API untouched; caching applies to static-first test server (production nginx serves same layout — benefits port with same headers)"
+    },
+    {
+      "id": "P32-OPT-002",
+      "file": "assets/css/style.css",
+      "kind": "mobile overflow fix",
+      "before": "#recentSearches flex row no-wrap; long token chips overflow 33px at 390px",
+      "after": "#recentSearches { flex-wrap: wrap } + #recentSearches .chip { max-width:100%; white-space:normal; overflow-wrap:anywhere }",
+      "reason": "proven root cause (39x interactive run overflow; chips measured 394px in 353px container)",
+      "expected_benefit": "horizontal overflow 33px -> 0px on all viewports",
+      "verification": "phase32 cwv 390-interactive run ovf=0; 02-responsive 24/24 after",
+      "reversible": "single CSS hunk removable",
+      "production_impact": "style.css served to all users; chip rendering wraps only when needed; dark/light theme unchanged"
+    },
+    {
+      "id": "P32-OPT-003",
+      "file": "sw.js",
+      "kind": "service worker cache invalidation",
+      "before": "SW_VERSION v1.0.0 / CACHE_VERSION 001",
+      "after": "v1.0.1 / 002",
+      "reason": "cached shell must refresh because style.css changed (P32-OPT-002); versioned invalidation is the existing design",
+      "expected_benefit": "PWA users receive updated CSS on next SW update (no stale-cache period)",
+      "verification": "offline.html still served (offline run PASS in cwv matrix)",
+      "reversible": "revert version constants"
+    },
+    {
+      "id": "P32-TOOL-001",
+      "file": "scripts/phase28/server.cjs (+inject.js/probe.js additions)",
+      "kind": "test-tooling correction (non-production)",
+      "before": "/p28-inject.js referenced but not served -> capture script silently inactive (error/network counts were silent-zero)",
+      "after": "route serves inject.js; 404 branch injects too; added CWV observers (LCP/CLS/INP/TTFB/FCP attempt) + per-run cwv persistence",
+      "reason": "discovered during Phase 32 CWV work; real measurements now possible",
+      "verification": "Phase 32 all measurements produced with ACTIVE capture; true console errors = 0; expected api-down probes now visible",
+      "reversible": "test-only file; no production impact"
+    }
+  ],
+  "optimizations_applied": 3,
+  "tooling_fixes": 1,
+  "rejected_or_na": [
+    "JS defer (no measurable gain; regression risk non-zero)",
+    "preconnect (same-origin only)",
+    "lazy images (only 1 DOM image)",
+    "font-display (no webfonts)",
+    "video (none exist)",
+    "code splitting (static-first architecture)"
+  ],
+  "generated_at": "2026-08-11T03:48:45.675Z",
+  "tool": "scripts/phase32 (reporter)",
+  "methodology": "Headless Chrome 1366x900/390x844, localhost static server (no throttling, lab-grade), fresh profile per run; interactive runs perform scripted user flows; static runs measure clean initial load.",
+  "environment_note": "Lab-grade localhost measurements; values are real, not fabricated; production network conditions will differ. LCP/CLS/INP/TTFB captured via PerformanceObserver wrappers in test-only injection script. FCP not observable in this toolchain (paint entries not exposed) -> NOT_MEASURABLE."
+}

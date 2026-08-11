@@ -1,0 +1,316 @@
+{
+  "module": "M2",
+  "totals": {
+    "interactive_steps": 41,
+    "working": 41,
+    "broken": 0,
+    "static_buttons_scanned": 81,
+    "runtime_click_sweep": "PASS (all page buttons clicked, no handler missing at runtime)"
+  },
+  "items": [
+    {
+      "id": 1,
+      "element": "home_rendered",
+      "page": "index.html",
+      "classification": "WORKING",
+      "evidence": "interaction + expected state + 0 errors"
+    },
+    {
+      "id": 2,
+      "element": "theme_toggle",
+      "page": "index.html",
+      "classification": "WORKING",
+      "evidence": "interaction + expected state + 0 errors"
+    },
+    {
+      "id": 3,
+      "element": "menu_toggle",
+      "page": "index.html",
+      "classification": "WORKING",
+      "evidence": "interaction + expected state + 0 errors"
+    },
+    {
+      "id": 4,
+      "element": "nav_buttons",
+      "page": "index.html",
+      "classification": "WORKING",
+      "evidence": "interaction + expected state + 0 errors"
+    },
+    {
+      "id": 5,
+      "element": "qotd_reveal",
+      "page": "index.html",
+      "classification": "WORKING",
+      "evidence": "interaction + expected state + 0 errors"
+    },
+    {
+      "id": 6,
+      "element": "search_suggestions",
+      "page": "index.html",
+      "classification": "WORKING",
+      "evidence": "interaction + expected state + 0 errors"
+    },
+    {
+      "id": 7,
+      "element": "search_constitution",
+      "page": "index.html",
+      "classification": "WORKING",
+      "evidence": "interaction + expected state + 0 errors"
+    },
+    {
+      "id": 8,
+      "element": "search_no_result",
+      "page": "index.html",
+      "classification": "WORKING",
+      "evidence": "interaction + expected state + 0 errors"
+    },
+    {
+      "id": 9,
+      "element": "search_special_chars",
+      "page": "index.html",
+      "classification": "WORKING",
+      "evidence": "interaction + expected state + 0 errors"
+    },
+    {
+      "id": 10,
+      "element": "search_case_and_multi",
+      "page": "index.html",
+      "classification": "WORKING",
+      "evidence": "interaction + expected state + 0 errors"
+    },
+    {
+      "id": 11,
+      "element": "search_very_long",
+      "page": "index.html",
+      "classification": "WORKING",
+      "evidence": "interaction + expected state + 0 errors"
+    },
+    {
+      "id": 12,
+      "element": "search_empty",
+      "page": "index.html",
+      "classification": "WORKING",
+      "evidence": "interaction + expected state + 0 errors"
+    },
+    {
+      "id": 13,
+      "element": "search_numbers",
+      "page": "index.html",
+      "classification": "WORKING",
+      "evidence": "interaction + expected state + 0 errors"
+    },
+    {
+      "id": 14,
+      "element": "search_urdu",
+      "page": "index.html",
+      "classification": "WORKING",
+      "evidence": "interaction + expected state + 0 errors"
+    },
+    {
+      "id": 15,
+      "element": "browse_filters",
+      "page": "index.html",
+      "classification": "WORKING",
+      "evidence": "interaction + expected state + 0 errors"
+    },
+    {
+      "id": 16,
+      "element": "browse_filters_multi",
+      "page": "index.html",
+      "classification": "WORKING",
+      "evidence": "interaction + expected state + 0 errors"
+    },
+    {
+      "id": 17,
+      "element": "browse_filter_paged",
+      "page": "index.html",
+      "classification": "WORKING",
+      "evidence": "interaction + expected state + 0 errors"
+    },
+    {
+      "id": 18,
+      "element": "browse_pager",
+      "page": "index.html",
+      "classification": "WORKING",
+      "evidence": "interaction + expected state + 0 errors"
+    },
+    {
+      "id": 19,
+      "element": "practice_workflow",
+      "page": "index.html",
+      "classification": "WORKING",
+      "evidence": "interaction + expected state + 0 errors"
+    },
+    {
+      "id": 20,
+      "element": "practice_quit",
+      "page": "index.html",
+      "classification": "WORKING",
+      "evidence": "interaction + expected state + 0 errors"
+    },
+    {
+      "id": 21,
+      "element": "mcq_rapid_click",
+      "page": "index.html",
+      "classification": "WORKING",
+      "evidence": "interaction + expected state + 0 errors"
+    },
+    {
+      "id": 22,
+      "element": "mcq_exam_nav_edges",
+      "page": "index.html",
+      "classification": "WORKING",
+      "evidence": "interaction + expected state + 0 errors"
+    },
+    {
+      "id": 23,
+      "element": "mock_workflow",
+      "page": "index.html",
+      "classification": "WORKING",
+      "evidence": "interaction + expected state + 0 errors"
+    },
+    {
+      "id": 24,
+      "element": "quiz_quit",
+      "page": "index.html",
+      "classification": "WORKING",
+      "evidence": "interaction + expected state + 0 errors"
+    },
+    {
+      "id": 25,
+      "element": "quick_quiz_workflow",
+      "page": "index.html",
+      "classification": "WORKING",
+      "evidence": "interaction + expected state + 0 errors"
+    },
+    {
+      "id": 26,
+      "element": "paper_workflow",
+      "page": "index.html",
+      "classification": "WORKING",
+      "evidence": "interaction + expected state + 0 errors"
+    },
+    {
+      "id": 27,
+      "element": "dashboard_workflow",
+      "page": "index.html",
+      "classification": "WORKING",
+      "evidence": "interaction + expected state + 0 errors"
+    },
+    {
+      "id": 28,
+      "element": "leaderboard_workflow",
+      "page": "index.html",
+      "classification": "WORKING",
+      "evidence": "interaction + expected state + 0 errors"
+    },
+    {
+      "id": 29,
+      "element": "bookmarks_workflow",
+      "page": "index.html",
+      "classification": "WORKING",
+      "evidence": "interaction + expected state + 0 errors"
+    },
+    {
+      "id": 30,
+      "element": "ai_coach_tabs",
+      "page": "index.html",
+      "classification": "WORKING",
+      "evidence": "interaction + expected state + 0 errors"
+    },
+    {
+      "id": 31,
+      "element": "click_sweep",
+      "page": "index.html",
+      "classification": "WORKING",
+      "evidence": "interaction + expected state + 0 errors"
+    },
+    {
+      "id": 32,
+      "element": "admin_loaded",
+      "page": "admin.html",
+      "classification": "WORKING",
+      "evidence": "interaction + expected state + 0 errors"
+    },
+    {
+      "id": 33,
+      "element": "admin_tabs",
+      "page": "admin.html",
+      "classification": "WORKING",
+      "evidence": "interaction + expected state + 0 errors"
+    },
+    {
+      "id": 34,
+      "element": "admin_stats",
+      "page": "admin.html",
+      "classification": "WORKING",
+      "evidence": "interaction + expected state + 0 errors"
+    },
+    {
+      "id": 35,
+      "element": "admin_add_category",
+      "page": "admin.html",
+      "classification": "WORKING",
+      "evidence": "interaction + expected state + 0 errors"
+    },
+    {
+      "id": 36,
+      "element": "admin_category_empty",
+      "page": "admin.html",
+      "classification": "WORKING",
+      "evidence": "interaction + expected state + 0 errors"
+    },
+    {
+      "id": 37,
+      "element": "admin_category_dup",
+      "page": "admin.html",
+      "classification": "WORKING",
+      "evidence": "interaction + expected state + 0 errors"
+    },
+    {
+      "id": 38,
+      "element": "admin_import_sample",
+      "page": "admin.html",
+      "classification": "WORKING",
+      "evidence": "interaction + expected state + 0 errors"
+    },
+    {
+      "id": 39,
+      "element": "admin_gen_setup",
+      "page": "admin.html",
+      "classification": "WORKING",
+      "evidence": "interaction + expected state + 0 errors"
+    },
+    {
+      "id": 40,
+      "element": "admin_dups",
+      "page": "admin.html",
+      "classification": "WORKING",
+      "evidence": "interaction + expected state + 0 errors"
+    },
+    {
+      "id": 41,
+      "element": "click_sweep",
+      "page": "index.html",
+      "classification": "WORKING",
+      "evidence": "interaction + expected state + 0 errors"
+    }
+  ],
+  "classifications_present": {
+    "WORKING": 41,
+    "BROKEN": 0,
+    "PARTIALLY_WORKING": 0,
+    "NO_ACTION": 0,
+    "DEAD_UI": 0,
+    "MISSING_HANDLER": 0,
+    "INVALID_TARGET": 0,
+    "API_FAILURE": 0,
+    "VALIDATION_FAILURE": 0
+  },
+  "note": "Static-phase 17 'unbound core buttons' (phase30 heuristic) were all proven bound at runtime via click sweep; 0 dead controls remain.",
+  "env": {
+    "tool": "scripts/phase33 (driver+probe33+reporter)",
+    "generated_at": "2026-08-11T04:24:25.697Z",
+    "methodology": "Headless Chrome 1366x900/390x844 etc, localhost static server, fresh profile per run, ACTIVE error/network capture (P32-TOOL-001 fix), interaction = real DOM clicks/inputs/Enter keys + state assertions. A feature is WORKING only when interaction + expected UI state + 0 console errors + 0 unexpected network failures."
+  }
+}

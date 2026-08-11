@@ -1,0 +1,20 @@
+{
+  "phase": 21,
+  "generated_at": "2026-08-06T08:51:34",
+  "execution_time_ms": 28871,
+  "statistics": {
+    "pages_tested": 1127,
+    "routes_tested": 24,
+    "buttons_tested": 214,
+    "forms_tested": 0,
+    "assets_checked": 256,
+    "broken_links": 2,
+    "broken_functions": 1,
+    "performance_score": 70,
+    "seo_score": 52.9,
+    "accessibility_score": 100,
+    "security_score": 32,
+    "production_score": 74,
+    "files_generated": 21
+  }
+}

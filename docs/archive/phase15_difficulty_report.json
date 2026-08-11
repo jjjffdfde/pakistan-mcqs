@@ -1,0 +1,1714 @@
+{
+  "generated_at": "2026-08-05T06:47:07.490Z",
+  "total_concepts_analyzed": 1744,
+  "with_signal": 1744,
+  "without_signal": 0,
+  "distribution": {
+    "easy": 392,
+    "medium": 1327,
+    "hard": 25,
+    "unknown": 0
+  },
+  "sample": [
+    {
+      "concept_id": 15190,
+      "concept_name": "accounting",
+      "subject_id": "accounting",
+      "stated_difficulty": "easy",
+      "inferred_difficulty": "easy",
+      "mcq_sample_size": 5087,
+      "confidence": 0.5,
+      "signals": {
+        "exam_frequency": "easy",
+        "mcq_difficulty_distribution": {
+          "easy": 2546,
+          "medium": 1700,
+          "hard": 841
+        }
+      }
+    },
+    {
+      "concept_id": 15191,
+      "concept_name": "depreciation",
+      "subject_id": "accounting",
+      "stated_difficulty": "easy",
+      "inferred_difficulty": "easy",
+      "mcq_sample_size": 5065,
+      "confidence": 0.502,
+      "signals": {
+        "exam_frequency": "easy",
+        "mcq_difficulty_distribution": {
+          "easy": 2544,
+          "medium": 1680,
+          "hard": 841
+        }
+      }
+    },
+    {
+      "concept_id": 15192,
+      "concept_name": "deep-kb",
+      "subject_id": "accounting",
+      "stated_difficulty": "easy",
+      "inferred_difficulty": "easy",
+      "mcq_sample_size": 5064,
+      "confidence": 0.502,
+      "signals": {
+        "exam_frequency": "easy",
+        "mcq_difficulty_distribution": {
+          "easy": 2543,
+          "medium": 1680,
+          "hard": 841
+        }
+      }
+    },
+    {
+      "concept_id": 15193,
+      "concept_name": "ratios",
+      "subject_id": "accounting",
+      "stated_difficulty": "easy",
+      "inferred_difficulty": "easy",
+      "mcq_sample_size": 5064,
+      "confidence": 0.502,
+      "signals": {
+        "exam_frequency": "easy",
+        "mcq_difficulty_distribution": {
+          "easy": 2543,
+          "medium": 1680,
+          "hard": 841
+        }
+      }
+    },
+    {
+      "concept_id": 15194,
+      "concept_name": "financial-statements",
+      "subject_id": "accounting",
+      "stated_difficulty": "easy",
+      "inferred_difficulty": "easy",
+      "mcq_sample_size": 5064,
+      "confidence": 0.502,
+      "signals": {
+        "exam_frequency": "easy",
+        "mcq_difficulty_distribution": {
+          "easy": 2543,
+          "medium": 1680,
+          "hard": 841
+        }
+      }
+    },
+    {
+      "concept_id": 15195,
+      "concept_name": "financial statements",
+      "subject_id": "accounting",
+      "stated_difficulty": "easy",
+      "inferred_difficulty": "easy",
+      "mcq_sample_size": 4204,
+      "confidence": 0.602,
+      "signals": {
+        "exam_frequency": "easy",
+        "mcq_difficulty_distribution": {
+          "easy": 2531,
+          "medium": 840,
+          "hard": 833
+        }
+      }
+    },
+    {
+      "concept_id": 15196,
+      "concept_name": "Accounting Principles",
+      "subject_id": "accounting",
+      "stated_difficulty": "medium",
+      "inferred_difficulty": "medium",
+      "mcq_sample_size": 853,
+      "confidence": 0.985,
+      "signals": {
+        "exam_frequency": "medium",
+        "mcq_difficulty_distribution": {
+          "easy": 9,
+          "medium": 840,
+          "hard": 4
+        }
+      }
+    },
+    {
+      "concept_id": 15197,
+      "concept_name": "basics",
+      "subject_id": "accounting",
+      "stated_difficulty": "medium",
+      "inferred_difficulty": "medium",
+      "mcq_sample_size": 28,
+      "confidence": 0.571,
+      "signals": {
+        "exam_frequency": "medium",
+        "mcq_difficulty_distribution": {
+          "easy": 8,
+          "medium": 16,
+          "hard": 4
+        }
+      }
+    },
+    {
+      "concept_id": 15198,
+      "concept_name": "Accounting Basics",
+      "subject_id": "accounting",
+      "stated_difficulty": "easy",
+      "inferred_difficulty": "easy",
+      "mcq_sample_size": 9,
+      "confidence": 0.556,
+      "signals": {
+        "exam_frequency": "easy",
+        "mcq_difficulty_distribution": {
+          "easy": 5,
+          "medium": 0,
+          "hard": 4
+        }
+      }
+    },
+    {
+      "concept_id": 15199,
+      "concept_name": "Agriculture",
+      "subject_id": "agriculture",
+      "stated_difficulty": "easy",
+      "inferred_difficulty": "easy",
+      "mcq_sample_size": 5140,
+      "confidence": 0.657,
+      "signals": {
+        "exam_frequency": "easy",
+        "mcq_difficulty_distribution": {
+          "easy": 3375,
+          "medium": 1761,
+          "hard": 4
+        }
+      }
+    },
+    {
+      "concept_id": 15200,
+      "concept_name": "livestock",
+      "subject_id": "agriculture",
+      "stated_difficulty": "easy",
+      "inferred_difficulty": "easy",
+      "mcq_sample_size": 5125,
+      "confidence": 0.659,
+      "signals": {
+        "exam_frequency": "easy",
+        "mcq_difficulty_distribution": {
+          "easy": 3375,
+          "medium": 1746,
+          "hard": 4
+        }
+      }
+    },
+    {
+      "concept_id": 15201,
+      "concept_name": "soils",
+      "subject_id": "agriculture",
+      "stated_difficulty": "easy",
+      "inferred_difficulty": "easy",
+      "mcq_sample_size": 5140,
+      "confidence": 0.657,
+      "signals": {
+        "exam_frequency": "easy",
+        "mcq_difficulty_distribution": {
+          "easy": 3375,
+          "medium": 1761,
+          "hard": 4
+        }
+      }
+    },
+    {
+      "concept_id": 15202,
+      "concept_name": "deep-kb",
+      "subject_id": "agriculture",
+      "stated_difficulty": "easy",
+      "inferred_difficulty": "easy",
+      "mcq_sample_size": 5125,
+      "confidence": 0.659,
+      "signals": {
+        "exam_frequency": "easy",
+        "mcq_difficulty_distribution": {
+          "easy": 3375,
+          "medium": 1746,
+          "hard": 4
+        }
+      }
+    },
+    {
+      "concept_id": 15203,
+      "concept_name": "crops",
+      "subject_id": "agriculture",
+      "stated_difficulty": "easy",
+      "inferred_difficulty": "easy",
+      "mcq_sample_size": 5141,
+      "confidence": 0.657,
+      "signals": {
+        "exam_frequency": "easy",
+        "mcq_difficulty_distribution": {
+          "easy": 3377,
+          "medium": 1760,
+          "hard": 4
+        }
+      }
+    },
+    {
+      "concept_id": 15204,
+      "concept_name": "Soils and Agronomy",
+      "subject_id": "agriculture",
+      "stated_difficulty": "easy",
+      "inferred_difficulty": "easy",
+      "mcq_sample_size": 2911,
+      "confidence": 0.891,
+      "signals": {
+        "exam_frequency": "easy",
+        "mcq_difficulty_distribution": {
+          "easy": 2594,
+          "medium": 317,
+          "hard": 0
+        }
+      }
+    },
+    {
+      "concept_id": 15205,
+      "concept_name": "Crops and Soils",
+      "subject_id": "agriculture",
+      "stated_difficulty": "medium",
+      "inferred_difficulty": "medium",
+      "mcq_sample_size": 14,
+      "confidence": 1,
+      "signals": {
+        "exam_frequency": "medium",
+        "mcq_difficulty_distribution": {
+          "easy": 0,
+          "medium": 14,
+          "hard": 0
+        }
+      }
+    },
+    {
+      "concept_id": 15206,
+      "concept_name": "Crops of Pakistan",
+      "subject_id": "agriculture",
+      "stated_difficulty": "easy",
+      "inferred_difficulty": "easy",
+      "mcq_sample_size": 14,
+      "confidence": 0.714,
+      "signals": {
+        "exam_frequency": "easy",
+        "mcq_difficulty_distribution": {
+          "easy": 10,
+          "medium": 0,
+          "hard": 4
+        }
+      }
+    },
+    {
+      "concept_id": 15207,
+      "concept_name": "ai",
+      "subject_id": "ai",
+      "stated_difficulty": "easy",
+      "inferred_difficulty": "easy",
+      "mcq_sample_size": 5091,
+      "confidence": 0.39,
+      "signals": {
+        "exam_frequency": "easy",
+        "mcq_difficulty_distribution": {
+          "easy": 1983,
+          "medium": 1964,
+          "hard": 1144
+        }
+      }
+    },
+    {
+      "concept_id": 15208,
+      "concept_name": "Artificial Intelligence",
+      "subject_id": "ai",
+      "stated_difficulty": "easy",
+      "inferred_difficulty": "easy",
+      "mcq_sample_size": 5086,
+      "confidence": 0.389,
+      "signals": {
+        "exam_frequency": "easy",
+        "mcq_difficulty_distribution": {
+          "easy": 1980,
+          "medium": 1962,
+          "hard": 1144
+        }
+      }
+    },
+    {
+      "concept_id": 15209,
+      "concept_name": "deep-kb",
+      "subject_id": "ai",
+      "stated_difficulty": "easy",
+      "inferred_difficulty": "easy",
+      "mcq_sample_size": 5070,
+      "confidence": 0.391,
+      "signals": {
+        "exam_frequency": "easy",
+        "mcq_difficulty_distribution": {
+          "easy": 1980,
+          "medium": 1946,
+          "hard": 1144
+        }
+      }
+    },
+    {
+      "concept_id": 15210,
+      "concept_name": "machine-learning",
+      "subject_id": "ai",
+      "stated_difficulty": "easy",
+      "inferred_difficulty": "easy",
+      "mcq_sample_size": 5070,
+      "confidence": 0.391,
+      "signals": {
+        "exam_frequency": "easy",
+        "mcq_difficulty_distribution": {
+          "easy": 1980,
+          "medium": 1946,
+          "hard": 1144
+        }
+      }
+    },
+    {
+      "concept_id": 15211,
+      "concept_name": "neural-networks",
+      "subject_id": "ai",
+      "stated_difficulty": "easy",
+      "inferred_difficulty": "easy",
+      "mcq_sample_size": 5070,
+      "confidence": 0.391,
+      "signals": {
+        "exam_frequency": "easy",
+        "mcq_difficulty_distribution": {
+          "easy": 1980,
+          "medium": 1946,
+          "hard": 1144
+        }
+      }
+    },
+    {
+      "concept_id": 15212,
+      "concept_name": "metrics",
+      "subject_id": "ai",
+      "stated_difficulty": "easy",
+      "inferred_difficulty": "easy",
+      "mcq_sample_size": 5070,
+      "confidence": 0.391,
+      "signals": {
+        "exam_frequency": "easy",
+        "mcq_difficulty_distribution": {
+          "easy": 1980,
+          "medium": 1946,
+          "hard": 1144
+        }
+      }
+    },
+    {
+      "concept_id": 15213,
+      "concept_name": "Machine Learning Models",
+      "subject_id": "ai",
+      "stated_difficulty": "easy",
+      "inferred_difficulty": "easy",
+      "mcq_sample_size": 5047,
+      "confidence": 0.389,
+      "signals": {
+        "exam_frequency": "easy",
+        "mcq_difficulty_distribution": {
+          "easy": 1965,
+          "medium": 1946,
+          "hard": 1136
+        }
+      }
+    },
+    {
+      "concept_id": 15214,
+      "concept_name": "ai basics",
+      "subject_id": "ai",
+      "stated_difficulty": "easy",
+      "inferred_difficulty": "easy",
+      "mcq_sample_size": 13,
+      "confidence": 0.692,
+      "signals": {
+        "exam_frequency": "easy",
+        "mcq_difficulty_distribution": {
+          "easy": 9,
+          "medium": 0,
+          "hard": 4
+        }
+      }
+    },
+    {
+      "concept_id": 15215,
+      "concept_name": "ai applications",
+      "subject_id": "ai",
+      "stated_difficulty": "easy",
+      "inferred_difficulty": "easy",
+      "mcq_sample_size": 12,
+      "confidence": 0.667,
+      "signals": {
+        "exam_frequency": "easy",
+        "mcq_difficulty_distribution": {
+          "easy": 8,
+          "medium": 0,
+          "hard": 4
+        }
+      }
+    },
+    {
+      "concept_id": 15216,
+      "concept_name": "AI Concepts",
+      "subject_id": "ai",
+      "stated_difficulty": "medium",
+      "inferred_difficulty": "medium",
+      "mcq_sample_size": 10,
+      "confidence": 1,
+      "signals": {
+        "exam_frequency": "medium",
+        "mcq_difficulty_distribution": {
+          "easy": 0,
+          "medium": 10,
+          "hard": 0
+        }
+      }
+    },
+    {
+      "concept_id": 15217,
+      "concept_name": "AI in Practice",
+      "subject_id": "ai",
+      "stated_difficulty": "medium",
+      "inferred_difficulty": "medium",
+      "mcq_sample_size": 6,
+      "confidence": 1,
+      "signals": {
+        "exam_frequency": "medium",
+        "mcq_difficulty_distribution": {
+          "easy": 0,
+          "medium": 6,
+          "hard": 0
+        }
+      }
+    },
+    {
+      "concept_id": 15218,
+      "concept_name": "AJKPSC (Azad Kashmir Public Service Commission)",
+      "subject_id": "ajkpsc",
+      "stated_difficulty": "medium",
+      "inferred_difficulty": "medium",
+      "mcq_sample_size": 43,
+      "confidence": 1,
+      "signals": {
+        "exam_frequency": "medium",
+        "mcq_difficulty_distribution": {
+          "easy": 0,
+          "medium": 43,
+          "hard": 0
+        }
+      }
+    },
+    {
+      "concept_id": 15219,
+      "concept_name": "ajkpsc",
+      "subject_id": "ajkpsc",
+      "stated_difficulty": "medium",
+      "inferred_difficulty": "medium",
+      "mcq_sample_size": 43,
+      "confidence": 1,
+      "signals": {
+        "exam_frequency": "medium",
+        "mcq_difficulty_distribution": {
+          "easy": 0,
+          "medium": 43,
+          "hard": 0
+        }
+      }
+    },
+    {
+      "concept_id": 15220,
+      "concept_name": "exam-content",
+      "subject_id": "ajkpsc",
+      "stated_difficulty": "medium",
+      "inferred_difficulty": "medium",
+      "mcq_sample_size": 39,
+      "confidence": 1,
+      "signals": {
+        "exam_frequency": "medium",
+        "mcq_difficulty_distribution": {
+          "easy": 0,
+          "medium": 39,
+          "hard": 0
+        }
+      }
+    },
+    {
+      "concept_id": 15221,
+      "concept_name": "AJK Geography",
+      "subject_id": "ajkpsc",
+      "stated_difficulty": "medium",
+      "inferred_difficulty": "medium",
+      "mcq_sample_size": 14,
+      "confidence": 1,
+      "signals": {
+        "exam_frequency": "medium",
+        "mcq_difficulty_distribution": {
+          "easy": 0,
+          "medium": 14,
+          "hard": 0
+        }
+      }
+    },
+    {
+      "concept_id": 15222,
+      "concept_name": "AJK History and Politics",
+      "subject_id": "ajkpsc",
+      "stated_difficulty": "medium",
+      "inferred_difficulty": "medium",
+      "mcq_sample_size": 13,
+      "confidence": 1,
+      "signals": {
+        "exam_frequency": "medium",
+        "mcq_difficulty_distribution": {
+          "easy": 0,
+          "medium": 13,
+          "hard": 0
+        }
+      }
+    },
+    {
+      "concept_id": 15223,
+      "concept_name": "AJK Culture and Economy",
+      "subject_id": "ajkpsc",
+      "stated_difficulty": "medium",
+      "inferred_difficulty": "medium",
+      "mcq_sample_size": 12,
+      "confidence": 1,
+      "signals": {
+        "exam_frequency": "medium",
+        "mcq_difficulty_distribution": {
+          "easy": 0,
+          "medium": 12,
+          "hard": 0
+        }
+      }
+    },
+    {
+      "concept_id": 15224,
+      "concept_name": "exam-awareness",
+      "subject_id": "ajkpsc",
+      "stated_difficulty": "medium",
+      "inferred_difficulty": "medium",
+      "mcq_sample_size": 4,
+      "confidence": 1,
+      "signals": {
+        "exam_frequency": "medium",
+        "mcq_difficulty_distribution": {
+          "easy": 0,
+          "medium": 4,
+          "hard": 0
+        }
+      }
+    },
+    {
+      "concept_id": 15225,
+      "concept_name": "Exam Pattern",
+      "subject_id": "ajkpsc",
+      "stated_difficulty": "medium",
+      "inferred_difficulty": "medium",
+      "mcq_sample_size": 3,
+      "confidence": 1,
+      "signals": {
+        "exam_frequency": "medium",
+        "mcq_difficulty_distribution": {
+          "easy": 0,
+          "medium": 3,
+          "hard": 0
+        }
+      }
+    },
+    {
+      "concept_id": 15226,
+      "concept_name": "Algorithms",
+      "subject_id": "algorithms",
+      "stated_difficulty": "easy",
+      "inferred_difficulty": "easy",
+      "mcq_sample_size": 5089,
+      "confidence": 0.993,
+      "signals": {
+        "exam_frequency": "easy",
+        "mcq_difficulty_distribution": {
+          "easy": 5055,
+          "medium": 31,
+          "hard": 3
+        }
+      }
+    },
+    {
+      "concept_id": 15227,
+      "concept_name": "Complexity and Sorting",
+      "subject_id": "algorithms",
+      "stated_difficulty": "easy",
+      "inferred_difficulty": "easy",
+      "mcq_sample_size": 5089,
+      "confidence": 0.993,
+      "signals": {
+        "exam_frequency": "easy",
+        "mcq_difficulty_distribution": {
+          "easy": 5055,
+          "medium": 31,
+          "hard": 3
+        }
+      }
+    },
+    {
+      "concept_id": 15228,
+      "concept_name": "deep-kb",
+      "subject_id": "algorithms",
+      "stated_difficulty": "easy",
+      "inferred_difficulty": "easy",
+      "mcq_sample_size": 5089,
+      "confidence": 0.993,
+      "signals": {
+        "exam_frequency": "easy",
+        "mcq_difficulty_distribution": {
+          "easy": 5055,
+          "medium": 31,
+          "hard": 3
+        }
+      }
+    },
+    {
+      "concept_id": 15229,
+      "concept_name": "Analytical Reasoning",
+      "subject_id": "analytical-reasoning",
+      "stated_difficulty": "medium",
+      "inferred_difficulty": "medium",
+      "mcq_sample_size": 5531,
+      "confidence": 1,
+      "signals": {
+        "exam_frequency": "medium",
+        "mcq_difficulty_distribution": {
+          "easy": 0,
+          "medium": 5531,
+          "hard": 0
+        }
+      }
+    },
+    {
+      "concept_id": 15230,
+      "concept_name": "reasoning",
+      "subject_id": "analytical-reasoning",
+      "stated_difficulty": "medium",
+      "inferred_difficulty": "medium",
+      "mcq_sample_size": 5531,
+      "confidence": 1,
+      "signals": {
+        "exam_frequency": "medium",
+        "mcq_difficulty_distribution": {
+          "easy": 0,
+          "medium": 5531,
+          "hard": 0
+        }
+      }
+    },
+    {
+      "concept_id": 15231,
+      "concept_name": "Ranking and Positioning",
+      "subject_id": "analytical-reasoning",
+      "stated_difficulty": "medium",
+      "inferred_difficulty": "medium",
+      "mcq_sample_size": 3018,
+      "confidence": 1,
+      "signals": {
+        "exam_frequency": "medium",
+        "mcq_difficulty_distribution": {
+          "easy": 0,
+          "medium": 3018,
+          "hard": 0
+        }
+      }
+    },
+    {
+      "concept_id": 15232,
+      "concept_name": "Analogies",
+      "subject_id": "analytical-reasoning",
+      "stated_difficulty": "medium",
+      "inferred_difficulty": "medium",
+      "mcq_sample_size": 1973,
+      "confidence": 1,
+      "signals": {
+        "exam_frequency": "medium",
+        "mcq_difficulty_distribution": {
+          "easy": 0,
+          "medium": 1973,
+          "hard": 0
+        }
+      }
+    },
+    {
+      "concept_id": 15233,
+      "concept_name": "Direction Sense",
+      "subject_id": "analytical-reasoning",
+      "stated_difficulty": "medium",
+      "inferred_difficulty": "medium",
+      "mcq_sample_size": 512,
+      "confidence": 1,
+      "signals": {
+        "exam_frequency": "medium",
+        "mcq_difficulty_distribution": {
+          "easy": 0,
+          "medium": 512,
+          "hard": 0
+        }
+      }
+    },
+    {
+      "concept_id": 15234,
+      "concept_name": "Blood Relations",
+      "subject_id": "analytical-reasoning",
+      "stated_difficulty": "medium",
+      "inferred_difficulty": "medium",
+      "mcq_sample_size": 20,
+      "confidence": 1,
+      "signals": {
+        "exam_frequency": "medium",
+        "mcq_difficulty_distribution": {
+          "easy": 0,
+          "medium": 20,
+          "hard": 0
+        }
+      }
+    },
+    {
+      "concept_id": 15235,
+      "concept_name": "Number Coding",
+      "subject_id": "analytical-reasoning",
+      "stated_difficulty": "medium",
+      "inferred_difficulty": "medium",
+      "mcq_sample_size": 8,
+      "confidence": 1,
+      "signals": {
+        "exam_frequency": "medium",
+        "mcq_difficulty_distribution": {
+          "easy": 0,
+          "medium": 8,
+          "hard": 0
+        }
+      }
+    },
+    {
+      "concept_id": 15236,
+      "concept_name": "topic-bank",
+      "subject_id": "analytical-reasoning",
+      "stated_difficulty": "medium",
+      "inferred_difficulty": "medium",
+      "mcq_sample_size": 8,
+      "confidence": 1,
+      "signals": {
+        "exam_frequency": "medium",
+        "mcq_difficulty_distribution": {
+          "easy": 0,
+          "medium": 8,
+          "hard": 0
+        }
+      }
+    },
+    {
+      "concept_id": 15237,
+      "concept_name": "Anatomy",
+      "subject_id": "anatomy",
+      "stated_difficulty": "medium",
+      "inferred_difficulty": "medium",
+      "mcq_sample_size": 5088,
+      "confidence": 0.929,
+      "signals": {
+        "exam_frequency": "medium",
+        "mcq_difficulty_distribution": {
+          "easy": 355,
+          "medium": 4727,
+          "hard": 6
+        }
+      }
+    },
+    {
+      "concept_id": 15238,
+      "concept_name": "deep-kb",
+      "subject_id": "anatomy",
+      "stated_difficulty": "medium",
+      "inferred_difficulty": "medium",
+      "mcq_sample_size": 5077,
+      "confidence": 0.929,
+      "signals": {
+        "exam_frequency": "medium",
+        "mcq_difficulty_distribution": {
+          "easy": 355,
+          "medium": 4716,
+          "hard": 6
+        }
+      }
+    },
+    {
+      "concept_id": 15239,
+      "concept_name": "letter-skills",
+      "subject_id": "anatomy",
+      "stated_difficulty": "medium",
+      "inferred_difficulty": "medium",
+      "mcq_sample_size": 4941,
+      "confidence": 0.94,
+      "signals": {
+        "exam_frequency": "medium",
+        "mcq_difficulty_distribution": {
+          "easy": 297,
+          "medium": 4644,
+          "hard": 0
+        }
+      }
+    },
+    {
+      "concept_id": 15240,
+      "concept_name": "Spelling and Letter Building",
+      "subject_id": "anatomy",
+      "stated_difficulty": "medium",
+      "inferred_difficulty": "medium",
+      "mcq_sample_size": 4644,
+      "confidence": 1,
+      "signals": {
+        "exam_frequency": "medium",
+        "mcq_difficulty_distribution": {
+          "easy": 0,
+          "medium": 4644,
+          "hard": 0
+        }
+      }
+    },
+    {
+      "concept_id": 15241,
+      "concept_name": "Letter Positions",
+      "subject_id": "anatomy",
+      "stated_difficulty": "easy",
+      "inferred_difficulty": "easy",
+      "mcq_sample_size": 297,
+      "confidence": 1,
+      "signals": {
+        "exam_frequency": "easy",
+        "mcq_difficulty_distribution": {
+          "easy": 297,
+          "medium": 0,
+          "hard": 0
+        }
+      }
+    },
+    {
+      "concept_id": 15242,
+      "concept_name": "skeleton",
+      "subject_id": "anatomy",
+      "stated_difficulty": "medium",
+      "inferred_difficulty": "medium",
+      "mcq_sample_size": 137,
+      "confidence": 0.526,
+      "signals": {
+        "exam_frequency": "medium",
+        "mcq_difficulty_distribution": {
+          "easy": 59,
+          "medium": 72,
+          "hard": 6
+        }
+      }
+    },
+    {
+      "concept_id": 15243,
+      "concept_name": "muscle",
+      "subject_id": "anatomy",
+      "stated_difficulty": "medium",
+      "inferred_difficulty": "medium",
+      "mcq_sample_size": 137,
+      "confidence": 0.526,
+      "signals": {
+        "exam_frequency": "medium",
+        "mcq_difficulty_distribution": {
+          "easy": 59,
+          "medium": 72,
+          "hard": 6
+        }
+      }
+    },
+    {
+      "concept_id": 15244,
+      "concept_name": "nerve",
+      "subject_id": "anatomy",
+      "stated_difficulty": "medium",
+      "inferred_difficulty": "medium",
+      "mcq_sample_size": 137,
+      "confidence": 0.526,
+      "signals": {
+        "exam_frequency": "medium",
+        "mcq_difficulty_distribution": {
+          "easy": 59,
+          "medium": 72,
+          "hard": 6
+        }
+      }
+    },
+    {
+      "concept_id": 15245,
+      "concept_name": "Muscles and Joints",
+      "subject_id": "anatomy",
+      "stated_difficulty": "medium",
+      "inferred_difficulty": "medium",
+      "mcq_sample_size": 50,
+      "confidence": 0.72,
+      "signals": {
+        "exam_frequency": "medium",
+        "mcq_difficulty_distribution": {
+          "easy": 11,
+          "medium": 36,
+          "hard": 3
+        }
+      }
+    },
+    {
+      "concept_id": 15246,
+      "concept_name": "Bones and Skeleton",
+      "subject_id": "anatomy",
+      "stated_difficulty": "easy",
+      "inferred_difficulty": "easy",
+      "mcq_sample_size": 43,
+      "confidence": 0.86,
+      "signals": {
+        "exam_frequency": "easy",
+        "mcq_difficulty_distribution": {
+          "easy": 37,
+          "medium": 6,
+          "hard": 0
+        }
+      }
+    },
+    {
+      "concept_id": 15247,
+      "concept_name": "Nerves and Vessels",
+      "subject_id": "anatomy",
+      "stated_difficulty": "medium",
+      "inferred_difficulty": "medium",
+      "mcq_sample_size": 43,
+      "confidence": 0.698,
+      "signals": {
+        "exam_frequency": "medium",
+        "mcq_difficulty_distribution": {
+          "easy": 10,
+          "medium": 30,
+          "hard": 3
+        }
+      }
+    },
+    {
+      "concept_id": 15248,
+      "concept_name": "Systems and Parts",
+      "subject_id": "anatomy",
+      "stated_difficulty": "medium",
+      "inferred_difficulty": "medium",
+      "mcq_sample_size": 11,
+      "confidence": 1,
+      "signals": {
+        "exam_frequency": "medium",
+        "mcq_difficulty_distribution": {
+          "easy": 0,
+          "medium": 11,
+          "hard": 0
+        }
+      }
+    },
+    {
+      "concept_id": 15249,
+      "concept_name": "ANF (Anti-Narcotics Force)",
+      "subject_id": "anf",
+      "stated_difficulty": "medium",
+      "inferred_difficulty": "medium",
+      "mcq_sample_size": 17,
+      "confidence": 1,
+      "signals": {
+        "exam_frequency": "medium",
+        "mcq_difficulty_distribution": {
+          "easy": 0,
+          "medium": 17,
+          "hard": 0
+        }
+      }
+    },
+    {
+      "concept_id": 15250,
+      "concept_name": "anf",
+      "subject_id": "anf",
+      "stated_difficulty": "medium",
+      "inferred_difficulty": "medium",
+      "mcq_sample_size": 17,
+      "confidence": 1,
+      "signals": {
+        "exam_frequency": "medium",
+        "mcq_difficulty_distribution": {
+          "easy": 0,
+          "medium": 17,
+          "hard": 0
+        }
+      }
+    },
+    {
+      "concept_id": 15251,
+      "concept_name": "ANF Organisation",
+      "subject_id": "anf",
+      "stated_difficulty": "medium",
+      "inferred_difficulty": "medium",
+      "mcq_sample_size": 13,
+      "confidence": 1,
+      "signals": {
+        "exam_frequency": "medium",
+        "mcq_difficulty_distribution": {
+          "easy": 0,
+          "medium": 13,
+          "hard": 0
+        }
+      }
+    },
+    {
+      "concept_id": 15252,
+      "concept_name": "exam-content",
+      "subject_id": "anf",
+      "stated_difficulty": "medium",
+      "inferred_difficulty": "medium",
+      "mcq_sample_size": 13,
+      "confidence": 1,
+      "signals": {
+        "exam_frequency": "medium",
+        "mcq_difficulty_distribution": {
+          "easy": 0,
+          "medium": 13,
+          "hard": 0
+        }
+      }
+    },
+    {
+      "concept_id": 15253,
+      "concept_name": "exam-awareness",
+      "subject_id": "anf",
+      "stated_difficulty": "medium",
+      "inferred_difficulty": "medium",
+      "mcq_sample_size": 4,
+      "confidence": 1,
+      "signals": {
+        "exam_frequency": "medium",
+        "mcq_difficulty_distribution": {
+          "easy": 0,
+          "medium": 4,
+          "hard": 0
+        }
+      }
+    },
+    {
+      "concept_id": 15254,
+      "concept_name": "Exam Pattern",
+      "subject_id": "anf",
+      "stated_difficulty": "medium",
+      "inferred_difficulty": "medium",
+      "mcq_sample_size": 3,
+      "confidence": 1,
+      "signals": {
+        "exam_frequency": "medium",
+        "mcq_difficulty_distribution": {
+          "easy": 0,
+          "medium": 3,
+          "hard": 0
+        }
+      }
+    },
+    {
+      "concept_id": 15255,
+      "concept_name": "angular",
+      "subject_id": "angular",
+      "stated_difficulty": "medium",
+      "inferred_difficulty": "medium",
+      "mcq_sample_size": 5028,
+      "confidence": 0.982,
+      "signals": {
+        "exam_frequency": "medium",
+        "mcq_difficulty_distribution": {
+          "easy": 88,
+          "medium": 4940,
+          "hard": 0
+        }
+      }
+    },
+    {
+      "concept_id": 15256,
+      "concept_name": "deep-kb",
+      "subject_id": "angular",
+      "stated_difficulty": "medium",
+      "inferred_difficulty": "medium",
+      "mcq_sample_size": 5007,
+      "confidence": 0.983,
+      "signals": {
+        "exam_frequency": "medium",
+        "mcq_difficulty_distribution": {
+          "easy": 87,
+          "medium": 4920,
+          "hard": 0
+        }
+      }
+    },
+    {
+      "concept_id": 15257,
+      "concept_name": "letter-skills",
+      "subject_id": "angular",
+      "stated_difficulty": "medium",
+      "inferred_difficulty": "medium",
+      "mcq_sample_size": 5007,
+      "confidence": 0.983,
+      "signals": {
+        "exam_frequency": "medium",
+        "mcq_difficulty_distribution": {
+          "easy": 87,
+          "medium": 4920,
+          "hard": 0
+        }
+      }
+    },
+    {
+      "concept_id": 15258,
+      "concept_name": "Spelling and Letter Building",
+      "subject_id": "angular",
+      "stated_difficulty": "medium",
+      "inferred_difficulty": "medium",
+      "mcq_sample_size": 4920,
+      "confidence": 1,
+      "signals": {
+        "exam_frequency": "medium",
+        "mcq_difficulty_distribution": {
+          "easy": 0,
+          "medium": 4920,
+          "hard": 0
+        }
+      }
+    },
+    {
+      "concept_id": 15259,
+      "concept_name": "Letter Positions",
+      "subject_id": "angular",
+      "stated_difficulty": "easy",
+      "inferred_difficulty": "easy",
+      "mcq_sample_size": 87,
+      "confidence": 1,
+      "signals": {
+        "exam_frequency": "easy",
+        "mcq_difficulty_distribution": {
+          "easy": 87,
+          "medium": 0,
+          "hard": 0
+        }
+      }
+    },
+    {
+      "concept_id": 15260,
+      "concept_name": "Angular Concepts",
+      "subject_id": "angular",
+      "stated_difficulty": "medium",
+      "inferred_difficulty": "medium",
+      "mcq_sample_size": 12,
+      "confidence": 1,
+      "signals": {
+        "exam_frequency": "medium",
+        "mcq_difficulty_distribution": {
+          "easy": 0,
+          "medium": 12,
+          "hard": 0
+        }
+      }
+    },
+    {
+      "concept_id": 15261,
+      "concept_name": "Services",
+      "subject_id": "angular",
+      "stated_difficulty": "medium",
+      "inferred_difficulty": "medium",
+      "mcq_sample_size": 6,
+      "confidence": 1,
+      "signals": {
+        "exam_frequency": "medium",
+        "mcq_difficulty_distribution": {
+          "easy": 0,
+          "medium": 6,
+          "hard": 0
+        }
+      }
+    },
+    {
+      "concept_id": 15262,
+      "concept_name": "topic-bank",
+      "subject_id": "angular",
+      "stated_difficulty": "medium",
+      "inferred_difficulty": "medium",
+      "mcq_sample_size": 6,
+      "confidence": 1,
+      "signals": {
+        "exam_frequency": "medium",
+        "mcq_difficulty_distribution": {
+          "easy": 0,
+          "medium": 6,
+          "hard": 0
+        }
+      }
+    },
+    {
+      "concept_id": 15263,
+      "concept_name": "Anthropology",
+      "subject_id": "anthropology",
+      "stated_difficulty": "medium",
+      "inferred_difficulty": "medium",
+      "mcq_sample_size": 12,
+      "confidence": 0.833,
+      "signals": {
+        "exam_frequency": "medium",
+        "mcq_difficulty_distribution": {
+          "easy": 2,
+          "medium": 10,
+          "hard": 0
+        }
+      }
+    },
+    {
+      "concept_id": 15264,
+      "concept_name": "Anthropology Concepts",
+      "subject_id": "anthropology",
+      "stated_difficulty": "medium",
+      "inferred_difficulty": "medium",
+      "mcq_sample_size": 10,
+      "confidence": 1,
+      "signals": {
+        "exam_frequency": "medium",
+        "mcq_difficulty_distribution": {
+          "easy": 0,
+          "medium": 10,
+          "hard": 0
+        }
+      }
+    },
+    {
+      "concept_id": 15265,
+      "concept_name": "branches",
+      "subject_id": "anthropology",
+      "stated_difficulty": "easy",
+      "inferred_difficulty": "easy",
+      "mcq_sample_size": 3,
+      "confidence": 1,
+      "signals": {
+        "exam_frequency": "easy",
+        "mcq_difficulty_distribution": {
+          "easy": 3,
+          "medium": 0,
+          "hard": 0
+        }
+      }
+    },
+    {
+      "concept_id": 15266,
+      "concept_name": "Antonyms",
+      "subject_id": "antonyms",
+      "stated_difficulty": "medium",
+      "inferred_difficulty": "medium",
+      "mcq_sample_size": 5010,
+      "confidence": 0.99,
+      "signals": {
+        "exam_frequency": "medium",
+        "mcq_difficulty_distribution": {
+          "easy": 46,
+          "medium": 4961,
+          "hard": 3
+        }
+      }
+    },
+    {
+      "concept_id": 15267,
+      "concept_name": "deep-kb",
+      "subject_id": "antonyms",
+      "stated_difficulty": "medium",
+      "inferred_difficulty": "medium",
+      "mcq_sample_size": 4980,
+      "confidence": 0.99,
+      "signals": {
+        "exam_frequency": "medium",
+        "mcq_difficulty_distribution": {
+          "easy": 46,
+          "medium": 4931,
+          "hard": 3
+        }
+      }
+    },
+    {
+      "concept_id": 15268,
+      "concept_name": "english",
+      "subject_id": "antonyms",
+      "stated_difficulty": "medium",
+      "inferred_difficulty": "medium",
+      "mcq_sample_size": 4980,
+      "confidence": 0.99,
+      "signals": {
+        "exam_frequency": "medium",
+        "mcq_difficulty_distribution": {
+          "easy": 46,
+          "medium": 4931,
+          "hard": 3
+        }
+      }
+    },
+    {
+      "concept_id": 15269,
+      "concept_name": "words",
+      "subject_id": "antonyms",
+      "stated_difficulty": "medium",
+      "inferred_difficulty": "medium",
+      "mcq_sample_size": 4980,
+      "confidence": 0.99,
+      "signals": {
+        "exam_frequency": "medium",
+        "mcq_difficulty_distribution": {
+          "easy": 46,
+          "medium": 4931,
+          "hard": 3
+        }
+      }
+    },
+    {
+      "concept_id": 15270,
+      "concept_name": "Word Lengths and Spelling",
+      "subject_id": "antonyms",
+      "stated_difficulty": "medium",
+      "inferred_difficulty": "medium",
+      "mcq_sample_size": 4074,
+      "confidence": 1,
+      "signals": {
+        "exam_frequency": "medium",
+        "mcq_difficulty_distribution": {
+          "easy": 0,
+          "medium": 4074,
+          "hard": 0
+        }
+      }
+    },
+    {
+      "concept_id": 15271,
+      "concept_name": "Antonym Pairs",
+      "subject_id": "antonyms",
+      "stated_difficulty": "medium",
+      "inferred_difficulty": "medium",
+      "mcq_sample_size": 880,
+      "confidence": 0.997,
+      "signals": {
+        "exam_frequency": "medium",
+        "mcq_difficulty_distribution": {
+          "easy": 0,
+          "medium": 877,
+          "hard": 3
+        }
+      }
+    },
+    {
+      "concept_id": 15272,
+      "concept_name": "Harder Antonyms",
+      "subject_id": "antonyms",
+      "stated_difficulty": "easy",
+      "inferred_difficulty": "easy",
+      "mcq_sample_size": 46,
+      "confidence": 1,
+      "signals": {
+        "exam_frequency": "easy",
+        "mcq_difficulty_distribution": {
+          "easy": 46,
+          "medium": 0,
+          "hard": 0
+        }
+      }
+    },
+    {
+      "concept_id": 15273,
+      "concept_name": "Opposites in Sentences",
+      "subject_id": "antonyms",
+      "stated_difficulty": "medium",
+      "inferred_difficulty": "medium",
+      "mcq_sample_size": 10,
+      "confidence": 1,
+      "signals": {
+        "exam_frequency": "medium",
+        "mcq_difficulty_distribution": {
+          "easy": 0,
+          "medium": 10,
+          "hard": 0
+        }
+      }
+    },
+    {
+      "concept_id": 15274,
+      "concept_name": "topic-bank",
+      "subject_id": "antonyms",
+      "stated_difficulty": "medium",
+      "inferred_difficulty": "medium",
+      "mcq_sample_size": 10,
+      "confidence": 1,
+      "signals": {
+        "exam_frequency": "medium",
+        "mcq_difficulty_distribution": {
+          "easy": 0,
+          "medium": 10,
+          "hard": 0
+        }
+      }
+    },
+    {
+      "concept_id": 15275,
+      "concept_name": "antonym",
+      "subject_id": "antonyms",
+      "stated_difficulty": "medium",
+      "inferred_difficulty": "medium",
+      "mcq_sample_size": 5016,
+      "confidence": 0.99,
+      "signals": {
+        "exam_frequency": "medium",
+        "mcq_difficulty_distribution": {
+          "easy": 48,
+          "medium": 4964,
+          "hard": 4
+        }
+      }
+    },
+    {
+      "concept_id": 15276,
+      "concept_name": "Aptitude Tests",
+      "subject_id": "aptitude-tests",
+      "stated_difficulty": "medium",
+      "inferred_difficulty": "medium",
+      "mcq_sample_size": 425,
+      "confidence": 1,
+      "signals": {
+        "exam_frequency": "medium",
+        "mcq_difficulty_distribution": {
+          "easy": 0,
+          "medium": 425,
+          "hard": 0
+        }
+      }
+    },
+    {
+      "concept_id": 15277,
+      "concept_name": "aptitude",
+      "subject_id": "aptitude-tests",
+      "stated_difficulty": "medium",
+      "inferred_difficulty": "medium",
+      "mcq_sample_size": 425,
+      "confidence": 1,
+      "signals": {
+        "exam_frequency": "medium",
+        "mcq_difficulty_distribution": {
+          "easy": 0,
+          "medium": 425,
+          "hard": 0
+        }
+      }
+    },
+    {
+      "concept_id": 15278,
+      "concept_name": "Graph Reading",
+      "subject_id": "aptitude-tests",
+      "stated_difficulty": "medium",
+      "inferred_difficulty": "medium",
+      "mcq_sample_size": 223,
+      "confidence": 1,
+      "signals": {
+        "exam_frequency": "medium",
+        "mcq_difficulty_distribution": {
+          "easy": 0,
+          "medium": 223,
+          "hard": 0
+        }
+      }
+    },
+    {
+      "concept_id": 15279,
+      "concept_name": "Data Interpretation Tables",
+      "subject_id": "aptitude-tests",
+      "stated_difficulty": "medium",
+      "inferred_difficulty": "medium",
+      "mcq_sample_size": 197,
+      "confidence": 1,
+      "signals": {
+        "exam_frequency": "medium",
+        "mcq_difficulty_distribution": {
+          "easy": 0,
+          "medium": 197,
+          "hard": 0
+        }
+      }
+    },
+    {
+      "concept_id": 15280,
+      "concept_name": "Percentage Comparisons",
+      "subject_id": "aptitude-tests",
+      "stated_difficulty": "medium",
+      "inferred_difficulty": "medium",
+      "mcq_sample_size": 5,
+      "confidence": 1,
+      "signals": {
+        "exam_frequency": "medium",
+        "mcq_difficulty_distribution": {
+          "easy": 0,
+          "medium": 5,
+          "hard": 0
+        }
+      }
+    },
+    {
+      "concept_id": 15281,
+      "concept_name": "topic-bank",
+      "subject_id": "aptitude-tests",
+      "stated_difficulty": "medium",
+      "inferred_difficulty": "medium",
+      "mcq_sample_size": 5,
+      "confidence": 1,
+      "signals": {
+        "exam_frequency": "medium",
+        "mcq_difficulty_distribution": {
+          "easy": 0,
+          "medium": 5,
+          "hard": 0
+        }
+      }
+    },
+    {
+      "concept_id": 15282,
+      "concept_name": "Architecture",
+      "subject_id": "architecture",
+      "stated_difficulty": "medium",
+      "inferred_difficulty": "medium",
+      "mcq_sample_size": 5474,
+      "confidence": 0.722,
+      "signals": {
+        "exam_frequency": "medium",
+        "mcq_difficulty_distribution": {
+          "easy": 1521,
+          "medium": 3953,
+          "hard": 0
+        }
+      }
+    },
+    {
+      "concept_id": 15283,
+      "concept_name": "deep-kb",
+      "subject_id": "architecture",
+      "stated_difficulty": "medium",
+      "inferred_difficulty": "medium",
+      "mcq_sample_size": 5474,
+      "confidence": 0.722,
+      "signals": {
+        "exam_frequency": "medium",
+        "mcq_difficulty_distribution": {
+          "easy": 1521,
+          "medium": 3953,
+          "hard": 0
+        }
+      }
+    },
+    {
+      "concept_id": 15284,
+      "concept_name": "letter-skills",
+      "subject_id": "architecture",
+      "stated_difficulty": "medium",
+      "inferred_difficulty": "medium",
+      "mcq_sample_size": 5299,
+      "confidence": 0.746,
+      "signals": {
+        "exam_frequency": "medium",
+        "mcq_difficulty_distribution": {
+          "easy": 1346,
+          "medium": 3953,
+          "hard": 0
+        }
+      }
+    },
+    {
+      "concept_id": 15285,
+      "concept_name": "Spelling and Letter Building",
+      "subject_id": "architecture",
+      "stated_difficulty": "medium",
+      "inferred_difficulty": "medium",
+      "mcq_sample_size": 3953,
+      "confidence": 1,
+      "signals": {
+        "exam_frequency": "medium",
+        "mcq_difficulty_distribution": {
+          "easy": 0,
+          "medium": 3953,
+          "hard": 0
+        }
+      }
+    },
+    {
+      "concept_id": 15286,
+      "concept_name": "Letter Positions",
+      "subject_id": "architecture",
+      "stated_difficulty": "easy",
+      "inferred_difficulty": "easy",
+      "mcq_sample_size": 1346,
+      "confidence": 1,
+      "signals": {
+        "exam_frequency": "easy",
+        "mcq_difficulty_distribution": {
+          "easy": 1346,
+          "medium": 0,
+          "hard": 0
+        }
+      }
+    },
+    {
+      "concept_id": 15287,
+      "concept_name": "Design and History",
+      "subject_id": "architecture",
+      "stated_difficulty": "easy",
+      "inferred_difficulty": "easy",
+      "mcq_sample_size": 175,
+      "confidence": 1,
+      "signals": {
+        "exam_frequency": "easy",
+        "mcq_difficulty_distribution": {
+          "easy": 175,
+          "medium": 0,
+          "hard": 0
+        }
+      }
+    },
+    {
+      "concept_id": 15288,
+      "concept_name": "Pakistan Army (Recruitment)",
+      "subject_id": "army",
+      "stated_difficulty": "medium",
+      "inferred_difficulty": "medium",
+      "mcq_sample_size": 4,
+      "confidence": 1,
+      "signals": {
+        "exam_frequency": "medium",
+        "mcq_difficulty_distribution": {
+          "easy": 0,
+          "medium": 4,
+          "hard": 0
+        }
+      }
+    },
+    {
+      "concept_id": 15289,
+      "concept_name": "army",
+      "subject_id": "army",
+      "stated_difficulty": "medium",
+      "inferred_difficulty": "medium",
+      "mcq_sample_size": 4,
+      "confidence": 1,
+      "signals": {
+        "exam_frequency": "medium",
+        "mcq_difficulty_distribution": {
+          "easy": 0,
+          "medium": 4,
+          "hard": 0
+        }
+      }
+    }
+  ]
+}

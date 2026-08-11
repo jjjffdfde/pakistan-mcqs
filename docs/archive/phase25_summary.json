@@ -1,0 +1,19 @@
+{
+  "step": "summary",
+  "generated_at": "2026-08-10T11:58:31.605Z",
+  "status": "Ready",
+  "ready": true,
+  "checks": {
+    "total": 28,
+    "passed": 28,
+    "failed": 0
+  },
+  "failed": [],
+  "platform_matrix": {
+    "web": true,
+    "pwa": true,
+    "android": true,
+    "windows": true,
+    "linux": true
+  }
+}

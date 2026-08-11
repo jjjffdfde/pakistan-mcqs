@@ -1,0 +1,51 @@
+{
+ "build_system": "plain static-first website + optional Node server (no bundler: no vite/webpack/parcel/next config present)",
+ "source": [
+  "index.html",
+  "admin.html",
+  "offline.html",
+  "404.html",
+  "assets/",
+  "data/",
+  "sw.js",
+  "manifest.webmanifest",
+  "server.js"
+ ],
+ "build_output": [
+  {
+   "output": "subjects/*.html, chapters/*.html, sitemap.xml, 404.html",
+   "generator": "node scripts/gen-seo-pages.cjs",
+   "classification": "DEPLOYMENT_REQUIRED (build.yml uploads; sitemap listed)"
+  },
+  {
+   "output": "data/mcqs.json",
+   "generator": "node scripts/build-mcqs.js",
+   "classification": "DEPLOYMENT_REQUIRED (sw.js + app fetch it)"
+  },
+  {
+   "output": "data/export/*.json",
+   "generator": "node db/export-json.js",
+   "classification": "REGENERABLE - not deployment-required"
+  },
+  {
+   "output": "assets/img/og-cover.png",
+   "generator": "node scripts/make-og.js",
+   "classification": "DEPLOYMENT_REQUIRED"
+  },
+  {
+   "output": "assets/icons/*",
+   "generator": "node scripts/gen-pwa-assets.cjs",
+   "classification": "DEPLOYMENT_REQUIRED"
+  },
+  {
+   "output": "db/pakistan-mcqs.rebuilt.sqlite",
+   "generator": "node database/scripts/build-db.js",
+   "classification": "REGENERABLE - build verification artifact"
+  }
+ ],
+ "regenerate_documented_in": [
+  "README.md",
+  "database/README.md",
+  "docs/PHASE23_EXECUTION_REPORT.md"
+ ]
+}

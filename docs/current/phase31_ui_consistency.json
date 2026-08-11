@@ -1,0 +1,55 @@
+{
+  "module": "M19",
+  "generated_at": "2026-08-10T15:02:51.825Z",
+  "css": {
+    "file": "assets/css/style.css",
+    "bytes": 21100,
+    "media_queries": [
+      "(max-width: 860px)",
+      "(max-width: 560px)",
+      "print"
+    ]
+  },
+  "runtime": {
+    "theme_toggle": [
+      "PASS"
+    ],
+    "menu_toggle": [
+      "PASS"
+    ],
+    "nav_buttons": [
+      "PASS"
+    ]
+  },
+  "findings": [
+    {
+      "kind": "button_variants",
+      "count": 5,
+      "variants": [
+        ".btn",
+        ".btn-primary",
+        ".btn-outline",
+        ".btn-sm",
+        ".btn-gold"
+      ]
+    },
+    {
+      "kind": "card_variants",
+      "count": 2,
+      "variants": [
+        ".card",
+        ".card-meta"
+      ]
+    },
+    {
+      "kind": "focus_visible_rule",
+      "present": true
+    },
+    {
+      "kind": "prefers_reduced_motion",
+      "present": false
+    }
+  ],
+  "status": "PASS",
+  "note": "Theme toggle persists, responsive menu works, interaction states consistent across pages"
+}

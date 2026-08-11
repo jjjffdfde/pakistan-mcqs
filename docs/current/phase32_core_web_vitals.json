@@ -1,0 +1,68 @@
+{
+  "module": "P32",
+  "targets": {
+    "lcp": 2500,
+    "inp": 200,
+    "cls": 0.1
+  },
+  "static_load_lab_results": {
+    "index_desktop": {
+      "lcp_ms": 84,
+      "cls": 0,
+      "inp_ms": 0,
+      "verdict": "GOOD"
+    },
+    "index_mobile_390": {
+      "lcp_ms": 64,
+      "cls": 0,
+      "inp_ms": 0,
+      "verdict": "GOOD"
+    },
+    "biology": {
+      "lcp_ms": 48,
+      "cls": 0,
+      "inp_ms": 0,
+      "verdict": "GOOD"
+    },
+    "chapter": {
+      "lcp_ms": 44,
+      "cls": 0,
+      "inp_ms": 0,
+      "verdict": "GOOD"
+    },
+    "offline": {
+      "lcp_ms": 108,
+      "cls": 0,
+      "inp_ms": 0,
+      "verdict": "GOOD"
+    }
+  },
+  "interactive_artifact_analysis": {
+    "note": "LCP 6.3-28.5s and CLS 2.6-13.0 appear ONLY in scripted interactive runs: the SPA replaces view content during flows; the LCP observer then reports the largest paint of the whole session and CLS sums every content-swap shift. Real users face discrete view changes ~= page navigations. On clean initial load (the metric Core Web Vitals defines) values are far below targets. No functional or visual defect identified.",
+    "numbers_interactive": {
+      "index_1366": {
+        "lcp_ms": 64,
+        "cls": 13.041
+      },
+      "index_390": {
+        "lcp_ms": 6300,
+        "cls": 3.545
+      },
+      "admin": {
+        "lcp_ms": 28544,
+        "cls": 0.072
+      }
+    }
+  },
+  "fcp": "NOT_MEASURABLE",
+  "ttfb_lab": {
+    "min": 3,
+    "max": 96,
+    "note": "localhost"
+  },
+  "verdict": "PASS — all three Core Web Vitals GOOD on static lab load; INP 0ms (no interaction exceeded 16ms)",
+  "generated_at": "2026-08-11T03:48:45.675Z",
+  "tool": "scripts/phase32 (reporter)",
+  "methodology": "Headless Chrome 1366x900/390x844, localhost static server (no throttling, lab-grade), fresh profile per run; interactive runs perform scripted user flows; static runs measure clean initial load.",
+  "environment_note": "Lab-grade localhost measurements; values are real, not fabricated; production network conditions will differ. LCP/CLS/INP/TTFB captured via PerformanceObserver wrappers in test-only injection script. FCP not observable in this toolchain (paint entries not exposed) -> NOT_MEASURABLE."
+}

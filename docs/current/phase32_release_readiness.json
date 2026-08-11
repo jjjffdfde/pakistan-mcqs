@@ -1,0 +1,57 @@
+{
+  "module": "P32",
+  "criteria": {
+    "critical_functionality_regressed": false,
+    "p0_introduced": false,
+    "severe_js_errors": false,
+    "critical_mobile_flow_broken": false,
+    "data_modified": false,
+    "rollback_possible": true,
+    "primary_journeys_pass": true,
+    "mobile_pass": true,
+    "desktop_pass": true,
+    "critical_performance_issues": "none (all GOOD)",
+    "changes_verified": true,
+    "p0": 0,
+    "p1": 0,
+    "p2": 3,
+    "p3": 3
+  },
+  "advisories": [
+    {
+      "id": "P2",
+      "text": "touch targets 36px < 44px ideal",
+      "mod": "M21"
+    },
+    {
+      "id": "P2",
+      "text": "13 inputs no explicit label association",
+      "mod": "M21"
+    },
+    {
+      "id": "P2",
+      "text": "prefers-reduced-motion absent",
+      "mod": "M21"
+    },
+    {
+      "id": "P3",
+      "text": "453 console.debug statements",
+      "mod": "M5"
+    },
+    {
+      "id": "P3",
+      "text": "admin load 1.38 MB (full data set)",
+      "mod": "M13"
+    },
+    {
+      "id": "P3",
+      "text": "142 innerHTML uses (sanitized where user input flows; no exploit evidence)",
+      "mod": "P31"
+    }
+  ],
+  "status": "READY",
+  "generated_at": "2026-08-11T03:48:45.675Z",
+  "tool": "scripts/phase32 (reporter)",
+  "methodology": "Headless Chrome 1366x900/390x844, localhost static server (no throttling, lab-grade), fresh profile per run; interactive runs perform scripted user flows; static runs measure clean initial load.",
+  "environment_note": "Lab-grade localhost measurements; values are real, not fabricated; production network conditions will differ. LCP/CLS/INP/TTFB captured via PerformanceObserver wrappers in test-only injection script. FCP not observable in this toolchain (paint entries not exposed) -> NOT_MEASURABLE."
+}
