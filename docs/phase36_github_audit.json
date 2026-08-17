@@ -1,0 +1,79 @@
+{
+ "generated_at": "2026-08-17T06:08:12.731Z",
+ "git_repo": true,
+ "tracked_count": 1895,
+ "tracked_size_bytes": 72740218,
+ "largest_tracked": [
+  {
+   "path": "docs/archive/phase17_search_index.json",
+   "size": 32876440
+  },
+  {
+   "path": "docs/phase34_file_inventory.json",
+   "size": 6664912
+  },
+  {
+   "path": "docs/archive/phase28_link_audit.json",
+   "size": 4823808
+  },
+  {
+   "path": "docs/archive/phase15_duplicate_report.json",
+   "size": 2222161
+  },
+  {
+   "path": "docs/phase34_file_classification.json",
+   "size": 1876864
+  },
+  {
+   "path": "docs/archive/phase17_semantic_graph.json",
+   "size": 1846747
+  },
+  {
+   "path": "docs/phase34_dead_files.json",
+   "size": 1800876
+  },
+  {
+   "path": "docs/archive/phase17_exam_intelligence.json",
+   "size": 1642491
+  },
+  {
+   "path": "docs/archive/phase18_generation_candidates.json",
+   "size": 1325200
+  },
+  {
+   "path": "data/mcqs.json",
+   "size": 1063761
+  },
+  {
+   "path": "docs/archive/phase20_mastery.json",
+   "size": 911719
+  },
+  {
+   "path": "docs/archive/phase17_prerequisite_graph.json",
+   "size": 811996
+  },
+  {
+   "path": "docs/archive/phase17_learning_paths.json",
+   "size": 711248
+  },
+  {
+   "path": "docs/phase34_duplicates.json",
+   "size": 438479
+  },
+  {
+   "path": "docs/archive/phase17_integrity.json",
+   "size": 295442
+  }
+ ],
+ "sqlite_tracked": [
+  "db/schema.sqlite.sql"
+ ],
+ "database_data_tracked": [],
+ "backup_tracked": [],
+ "env_tracked": [],
+ "node_modules_tracked": [],
+ "sqlite_ignored": true,
+ "database_data_ignored": true,
+ "backup_ignored": false,
+ "untracked_count": 307
+}

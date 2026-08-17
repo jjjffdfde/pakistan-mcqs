@@ -1,0 +1,13 @@
+{
+  "phase": 40,
+  "step": 10,
+  "run_at": "2026-08-17T13:52:26.351Z",
+  "pipeline": "POST /api/backup (snapshot userdata -> backup/db-backup-<ts>/userdata + backup-info.json) -> POST /api/restore {dir} (root-relative path validated, existence checked, userdata replaced) -> runtime reload",
+  "verify": [
+    "dir validation (400 traversal/regex)",
+    "404 unknown backup",
+    "200 restore ok + count"
+  ],
+  "tests": "backup-test.cjs: 7/7 PASS (history before/after, restore roundtrip, traversal + unknown rejection)",
+  "verdict": "PASS"
+}

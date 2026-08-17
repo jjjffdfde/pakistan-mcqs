@@ -1,0 +1,20 @@
+{
+  "phase": 41,
+  "step": 17,
+  "run_at": "2026-08-17T15:20:00.000Z",
+  "staged": { "total": 442, "added": 223, "modified": 44, "deleted": 173 },
+  "forbidden_class_scan": {
+    "sqlite_anywhere": 0,
+    "userdata": 0,
+    "backup": 0,
+    "node_modules": 0,
+    "database_data_payload": 0,
+    "real_env": 0,
+    "temp_or_log": 0,
+    "note": "only db/schema.sqlite.sql matched — and it is a DELETION (sqlite-era schema removed with the stack)"
+  },
+  "largest_staged_mb": 10.98,
+  "over_100mb": 0,
+  "fixture_note": ".phase40-fixture/ (48 files, 0.05MB) is the hermetic NDJSON fixture the gate's G05 uses — committing it makes CI self-contained without the 872k payload",
+  "verdict": "PASS"
+}

@@ -1,0 +1,15 @@
+{
+  "phase": 41,
+  "step": 14,
+  "run_at": "2026-08-17T15:05:00.000Z",
+  "fresh_dir": "C:\\Users\\Admin\\AppData\\Local\\Temp\\opencode\\phase41-fresh",
+  "suites": [
+    { "suite": "npm test (homepage/search/mcq/subjects/topics/practice/random/pwa/offline/api)", "result": "40/40 PASS" },
+    { "suite": "npm run test:db (real data counts + browse/search/mcq/random/related)", "result": "30/30 PASS" },
+    { "suite": "phase40 gate (incl. fresh tracked-file sqlite audit with post-commit semantics)", "result": "10/10 PASS" },
+    { "suite": "physical smoke (health, homepage surface, subjects, mcq, search, random, options, quiz, flashcards, AI POSTs, PWA, offline, admin, RSS)", "result": "105/105 PASS" },
+    { "suite": "phase39 security scan in fresh tree", "result": "2089 files, 0 findings" }
+  ],
+  "no_sqlite": true,
+  "verdict": "PASS"
+}

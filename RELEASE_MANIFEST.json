@@ -1,0 +1,39 @@
+{
+ "name": "Pakistan MCQs",
+ "version": "1.0",
+ "commit_placeholder": "PENDING_COMMIT — no commit, no push, no GitHub repo created in phase 39 (release-readiness only)",
+ "state": "READY_FOR_GITHUB",
+ "freeze_signature": {
+  "database_main_sha256": "E59FC73F600D9E791E1EA65D065EE6572788B877AEDFEB3DDA316A12938A5830",
+  "database_wal_sha256": "8329EF426C5C65B2D14DE64965CA8E56437A6F039D85ECB4F8382476A48E920A",
+  "candidate_size_bytes": 79576945,
+  "candidate_files": 2011,
+  "tracked_files": 1895,
+  "would_be_added": 116,
+  "lock_during_import": "freeze while the release is prepared-pushed by the user",
+  "hash_recheck_before_import_required": true
+ },
+ "contents": {
+  "source": "server.js (SQLite+NDJSON dual-serve, ~84 routes), runtime-v2/ (SQLite-free NDJSON runtime: data-loader, query-engine, server, kg-store, kg-query, user-store, index-builder — 384 MB memory contract, LRU 20/30000, search cache 32 MB)",
+  "data": "static export assets/indexes (runtime-v2/indexes at runtime, excluded from git)",
+  "static_site": "243 subject pages + 884 chapter pages + index + 404 + sitemap + robots + offline shell",
+  "pwa": "manifest.webmanifest, sw.js, offline.html, icons (>=8), mobile-viewport pages",
+  "documentation": "README (removed deprecated --json-only + pipeline trace in phase 35), docs/ (phases 26-39 evidence), RELEASE_NOTES.md",
+  "builds": "package.json scripts: build (1338 MCQs), build:pages (1123 files), pwa-assets, og; all deterministic + non-mutating; byte-identical outputs"
+ },
+ "checks": {
+  "learner_pwa_path": "PASS - fully SQLite-free, zero-dependency, works offline",
+  "admin_ai_import_restore": "PASS - server.js retained with SQLite (3 PRODUCTION_REQUIRED runtime modules)",
+  "phase39_tests": "PASS - npm test 34/34, test:db 30/30, sqlite-disabled 82/82, parity 55/8/7/0, smoke 43/43, build 4/4, lint errors 0 (regression 51/51 retained from phase 38)",
+  "no_secrets": "PASS - 0 findings any class",
+  "no_large_files": "PASS - no tracked file > 100 MiB",
+  "database_excluded": "PASS - check-ignore verified",
+  "pwa_offline": "PASS - offline shell + SW fetch handler + manifest valid"
+ },
+ "runtime_sqlite_dependencies_remaining": {
+  "count": 3,
+  "reason": "PRODUCTION_REQUIRED — admin/import + AI recommendation logging + full-featured endpoints used by admin & assistant surfaces",
+  "note": "7 routes remain EXPECTED 501/404 on the NDJSON runtime by design (ai/recommendations, import, import post, backup, restore, restore post + ai POST)"
+ },
+ "generated_for": "release 1.0 crate review before the user chooses to commit/push"
+}

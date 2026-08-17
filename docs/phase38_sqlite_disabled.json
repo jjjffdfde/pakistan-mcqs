@@ -1,0 +1,601 @@
+{
+ "phase": "sqlite-disabled",
+ "run_at": "2026-08-13T03:22:02.579Z",
+ "runs": {
+  "disabled": {
+   "results": [
+    {
+     "route": "/api/health",
+     "method": "GET",
+     "status": 501,
+     "expected": 501,
+     "ok": true
+    },
+    {
+     "route": "/api/stats",
+     "method": "GET",
+     "status": 501,
+     "expected": 501,
+     "ok": true
+    },
+    {
+     "route": "/api/search?q=physics",
+     "method": "GET",
+     "status": 501,
+     "expected": 501,
+     "ok": true
+    },
+    {
+     "route": "/api/browse?page=1&limit=10",
+     "method": "GET",
+     "status": 501,
+     "expected": 501,
+     "ok": true
+    },
+    {
+     "route": "/api/mcq/pak-001",
+     "method": "GET",
+     "status": 501,
+     "expected": 501,
+     "ok": true
+    },
+    {
+     "route": "/api/mcqs?ids=pak-001",
+     "method": "GET",
+     "status": 501,
+     "expected": 501,
+     "ok": true
+    },
+    {
+     "route": "/api/random?limit=5",
+     "method": "GET",
+     "status": 501,
+     "expected": 501,
+     "ok": true
+    },
+    {
+     "route": "/api/subjects",
+     "method": "GET",
+     "status": 501,
+     "expected": 501,
+     "ok": true
+    },
+    {
+     "route": "/api/chapters",
+     "method": "GET",
+     "status": 501,
+     "expected": 501,
+     "ok": true
+    },
+    {
+     "route": "/api/topics",
+     "method": "GET",
+     "status": 501,
+     "expected": 501,
+     "ok": true
+    },
+    {
+     "route": "/api/categories",
+     "method": "GET",
+     "status": 501,
+     "expected": 501,
+     "ok": true
+    },
+    {
+     "route": "/api/exams",
+     "method": "GET",
+     "status": 501,
+     "expected": 501,
+     "ok": true
+    },
+    {
+     "route": "/api/quizzes",
+     "method": "GET",
+     "status": 501,
+     "expected": 501,
+     "ok": true
+    },
+    {
+     "route": "/api/mocktests",
+     "method": "GET",
+     "status": 501,
+     "expected": 501,
+     "ok": true
+    },
+    {
+     "route": "/api/pastpapers",
+     "method": "GET",
+     "status": 501,
+     "expected": 501,
+     "ok": true
+    },
+    {
+     "route": "/api/bookmarks",
+     "method": "GET",
+     "status": 501,
+     "expected": 501,
+     "ok": true
+    },
+    {
+     "route": "/api/history",
+     "method": "GET",
+     "status": 501,
+     "expected": 501,
+     "ok": true
+    },
+    {
+     "route": "/api/leaderboard",
+     "method": "GET",
+     "status": 501,
+     "expected": 501,
+     "ok": true
+    },
+    {
+     "route": "/api/analytics",
+     "method": "GET",
+     "status": 501,
+     "expected": 501,
+     "ok": true
+    },
+    {
+     "route": "/api/kg/stats",
+     "method": "GET",
+     "status": 501,
+     "expected": 501,
+     "ok": true
+    },
+    {
+     "route": "/api/kg/concepts?q=physics",
+     "method": "GET",
+     "status": 501,
+     "expected": 501,
+     "ok": true
+    },
+    {
+     "route": "/api/kg/concepts/kg-con-001",
+     "method": "GET",
+     "status": 501,
+     "expected": 501,
+     "ok": true
+    },
+    {
+     "route": "/api/kg/concepts/kg-con-001/relations",
+     "method": "GET",
+     "status": 501,
+     "expected": 501,
+     "ok": true
+    },
+    {
+     "route": "/api/kg/concepts/kg-con-001/prerequisites",
+     "method": "GET",
+     "status": 501,
+     "expected": 501,
+     "ok": true
+    },
+    {
+     "route": "/api/kg/concepts/kg-con-001/objectives",
+     "method": "GET",
+     "status": 501,
+     "expected": 501,
+     "ok": true
+    },
+    {
+     "route": "/api/kg/concepts/kg-con-001/micro",
+     "method": "GET",
+     "status": 501,
+     "expected": 501,
+     "ok": true
+    },
+    {
+     "route": "/api/kg/concepts/kg-con-001/exams",
+     "method": "GET",
+     "status": 501,
+     "expected": 501,
+     "ok": true
+    },
+    {
+     "route": "/api/kg/concepts/kg-con-001/distractors",
+     "method": "GET",
+     "status": 501,
+     "expected": 501,
+     "ok": true
+    },
+    {
+     "route": "/api/kg/micro-concepts?q=cell",
+     "method": "GET",
+     "status": 501,
+     "expected": 501,
+     "ok": true
+    },
+    {
+     "route": "/api/kg/learning-objectives?q=atp",
+     "method": "GET",
+     "status": 501,
+     "expected": 501,
+     "ok": true
+    },
+    {
+     "route": "/api/kg/learning-paths",
+     "method": "GET",
+     "status": 501,
+     "expected": 501,
+     "ok": true
+    },
+    {
+     "route": "/api/ai/explain?q=what+is+atp",
+     "method": "GET",
+     "status": 501,
+     "expected": 501,
+     "ok": true
+    },
+    {
+     "route": "/api/import",
+     "method": "GET",
+     "status": 501,
+     "expected": 501,
+     "ok": true
+    },
+    {
+     "route": "/api/backup",
+     "method": "GET",
+     "status": 501,
+     "expected": 501,
+     "ok": true
+    },
+    {
+     "route": "/api/restore",
+     "method": "GET",
+     "status": 501,
+     "expected": 501,
+     "ok": true
+    },
+    {
+     "route": "/api/nope",
+     "method": "GET",
+     "status": 501,
+     "expected": 501,
+     "ok": true
+    },
+    {
+     "route": "/api/bookmarks",
+     "method": "POST",
+     "status": 501,
+     "expected": 501,
+     "ok": true
+    },
+    {
+     "route": "/api/history",
+     "method": "POST",
+     "status": 501,
+     "expected": 501,
+     "ok": true
+    },
+    {
+     "route": "/api/leaderboard",
+     "method": "POST",
+     "status": 501,
+     "expected": 501,
+     "ok": true
+    },
+    {
+     "route": "/api/import",
+     "method": "POST",
+     "status": 501,
+     "expected": 501,
+     "ok": true
+    },
+    {
+     "route": "/api/restore",
+     "method": "POST",
+     "status": 501,
+     "expected": 501,
+     "ok": true
+    }
+   ],
+   "passed": 41,
+   "failed": 0,
+   "server_alive_after_run": 501
+  },
+  "enabled": {
+   "results": [
+    {
+     "route": "/api/health",
+     "method": "GET",
+     "status": 200,
+     "expected": "normal",
+     "ok": true
+    },
+    {
+     "route": "/api/stats",
+     "method": "GET",
+     "status": 200,
+     "expected": "normal",
+     "ok": true
+    },
+    {
+     "route": "/api/search?q=physics",
+     "method": "GET",
+     "status": 200,
+     "expected": "normal",
+     "ok": true
+    },
+    {
+     "route": "/api/browse?page=1&limit=10",
+     "method": "GET",
+     "status": 200,
+     "expected": "normal",
+     "ok": true
+    },
+    {
+     "route": "/api/mcq/pak-001",
+     "method": "GET",
+     "status": 200,
+     "expected": "normal",
+     "ok": true
+    },
+    {
+     "route": "/api/mcqs?ids=pak-001",
+     "method": "GET",
+     "status": 200,
+     "expected": "normal",
+     "ok": true
+    },
+    {
+     "route": "/api/random?limit=5",
+     "method": "GET",
+     "status": 200,
+     "expected": "normal",
+     "ok": true
+    },
+    {
+     "route": "/api/subjects",
+     "method": "GET",
+     "status": 200,
+     "expected": "normal",
+     "ok": true
+    },
+    {
+     "route": "/api/chapters",
+     "method": "GET",
+     "status": 200,
+     "expected": "normal",
+     "ok": true
+    },
+    {
+     "route": "/api/topics",
+     "method": "GET",
+     "status": 200,
+     "expected": "normal",
+     "ok": true
+    },
+    {
+     "route": "/api/categories",
+     "method": "GET",
+     "status": 200,
+     "expected": "normal",
+     "ok": true
+    },
+    {
+     "route": "/api/exams",
+     "method": "GET",
+     "status": 200,
+     "expected": "normal",
+     "ok": true
+    },
+    {
+     "route": "/api/quizzes",
+     "method": "GET",
+     "status": 200,
+     "expected": "normal",
+     "ok": true
+    },
+    {
+     "route": "/api/mocktests",
+     "method": "GET",
+     "status": 200,
+     "expected": "normal",
+     "ok": true
+    },
+    {
+     "route": "/api/pastpapers",
+     "method": "GET",
+     "status": 200,
+     "expected": "normal",
+     "ok": true
+    },
+    {
+     "route": "/api/bookmarks",
+     "method": "GET",
+     "status": 200,
+     "expected": "normal",
+     "ok": true
+    },
+    {
+     "route": "/api/history",
+     "method": "GET",
+     "status": 200,
+     "expected": "normal",
+     "ok": true
+    },
+    {
+     "route": "/api/leaderboard",
+     "method": "GET",
+     "status": 200,
+     "expected": "normal",
+     "ok": true
+    },
+    {
+     "route": "/api/analytics",
+     "method": "GET",
+     "status": 200,
+     "expected": "normal",
+     "ok": true
+    },
+    {
+     "route": "/api/kg/stats",
+     "method": "GET",
+     "status": 200,
+     "expected": "normal",
+     "ok": true
+    },
+    {
+     "route": "/api/kg/concepts?q=physics",
+     "method": "GET",
+     "status": 200,
+     "expected": "normal",
+     "ok": true
+    },
+    {
+     "route": "/api/kg/concepts/kg-con-001",
+     "method": "GET",
+     "status": 404,
+     "expected": "normal",
+     "ok": true
+    },
+    {
+     "route": "/api/kg/concepts/kg-con-001/relations",
+     "method": "GET",
+     "status": 404,
+     "expected": "normal",
+     "ok": true
+    },
+    {
+     "route": "/api/kg/concepts/kg-con-001/prerequisites",
+     "method": "GET",
+     "status": 404,
+     "expected": "normal",
+     "ok": true
+    },
+    {
+     "route": "/api/kg/concepts/kg-con-001/objectives",
+     "method": "GET",
+     "status": 404,
+     "expected": "normal",
+     "ok": true
+    },
+    {
+     "route": "/api/kg/concepts/kg-con-001/micro",
+     "method": "GET",
+     "status": 404,
+     "expected": "normal",
+     "ok": true
+    },
+    {
+     "route": "/api/kg/concepts/kg-con-001/exams",
+     "method": "GET",
+     "status": 404,
+     "expected": "normal",
+     "ok": true
+    },
+    {
+     "route": "/api/kg/concepts/kg-con-001/distractors",
+     "method": "GET",
+     "status": 404,
+     "expected": "normal",
+     "ok": true
+    },
+    {
+     "route": "/api/kg/micro-concepts?q=cell",
+     "method": "GET",
+     "status": 200,
+     "expected": "normal",
+     "ok": true
+    },
+    {
+     "route": "/api/kg/learning-objectives?q=atp",
+     "method": "GET",
+     "status": 200,
+     "expected": "normal",
+     "ok": true
+    },
+    {
+     "route": "/api/kg/learning-paths",
+     "method": "GET",
+     "status": 200,
+     "expected": "normal",
+     "ok": true
+    },
+    {
+     "route": "/api/ai/explain?q=what+is+atp",
+     "method": "GET",
+     "status": 404,
+     "expected": "normal",
+     "ok": true
+    },
+    {
+     "route": "/api/import",
+     "method": "GET",
+     "status": 404,
+     "expected": "normal",
+     "ok": true
+    },
+    {
+     "route": "/api/backup",
+     "method": "GET",
+     "status": 404,
+     "expected": "normal",
+     "ok": true
+    },
+    {
+     "route": "/api/restore",
+     "method": "GET",
+     "status": 404,
+     "expected": "normal",
+     "ok": true
+    },
+    {
+     "route": "/api/nope",
+     "method": "GET",
+     "status": 404,
+     "expected": "normal",
+     "ok": true
+    },
+    {
+     "route": "/api/bookmarks",
+     "method": "POST",
+     "status": 201,
+     "expected": "normal",
+     "ok": true
+    },
+    {
+     "route": "/api/history",
+     "method": "POST",
+     "status": 201,
+     "expected": "normal",
+     "ok": true
+    },
+    {
+     "route": "/api/leaderboard",
+     "method": "POST",
+     "status": 200,
+     "expected": "normal",
+     "ok": true
+    },
+    {
+     "route": "/api/import",
+     "method": "POST",
+     "status": 400,
+     "expected": "normal",
+     "ok": true
+    },
+    {
+     "route": "/api/restore",
+     "method": "POST",
+     "status": 400,
+     "expected": "normal",
+     "ok": true
+    }
+   ],
+   "passed": 41,
+   "failed": 0,
+   "server_alive_after_run": 200
+  }
+ },
+ "summary": {
+  "disabled_all_501": true,
+  "disabled_data_source": true,
+  "enabled_serves_normally": true,
+  "total_checks": 82,
+  "verdict": "PASS"
+ }
+}

@@ -1,0 +1,26 @@
+{
+  "phase": 39,
+  "step": 3,
+  "generated_at": "2026-08-13T03:23:00.000Z",
+  "method": "phase38 dependency map (303 direct sqlite files) filtered to RUNTIME dependencies; classification per phase 39 taxonomy",
+  "runtime_sqlite_dependencies": [
+    { "module": "db/engine.js", "classification": "PRODUCTION_REQUIRED", "why": "single database entry point for the SQLite-backed server (server.js), admin, AI engine, and import/export tooling; no writes are made unless explicitly invoked" },
+    { "module": "server.js (legacy API server)", "classification": "PRODUCTION_REQUIRED", "why": "serves admin/AI/import/backup/restore endpoints and remains the reference implementation; runtime-v2 is the NDJSON alternative (SQLITE_DISABLED=true switches to 501 for non-migrated routes)" },
+    { "module": "ai/* (adaptive, record, revision-planner, recommendation, learning, analytics, knowledge-assistant)", "classification": "PRODUCTION_REQUIRED", "why": "AI engine intentionally stays SQLite (EXPECTED_NOT_MIGRATED); user scoring writes go through ai/record.js" },
+    { "module": "assistant/* (analytics-engine, learning-engine, revision-planner, recommendation-engine, knowledge-assistant)", "classification": "PRODUCTION_REQUIRED", "why": "read-only analytics/recommendation over history+bookmarks tables" },
+    { "module": "admin.html", "classification": "ADMIN_ONLY", "why": "admin panel against server.js" },
+    { "module": "db/backup.js + db/restore.js", "classification": "BACKUP_RESTORE", "why": "VACUUM INTO + dump/restore; local backup dir kept (never destroyed)" },
+    { "module": "db/import-json.js + db/migrate.js + db/normalize.js + db/kg-migrate.js", "classification": "IMPORT_EXPORT", "why": "one-time/administrative data pipeline into the DB (source of truth)" },
+    { "module": "database/scripts/export-db.js", "classification": "IMPORT_EXPORT", "why": "READ-ONLY re-export DB -> NDJSON.GZ (checkpointed, idempotent)" },
+    { "module": "scripts/phase2x/phase36/37/38 harnesses", "classification": "TEST_ONLY", "why": "audit/parity/bench tooling opening the DB read-only (node:sqlite readOnly) or against sandbox copies" },
+    { "module": "tests/database/sqlite.test.cjs + tests/performance/bench.test.cjs", "classification": "TEST_ONLY", "why": "readOnly opens; never write" },
+    { "module": "scripts/build-mcqs.js / gen-seo-pages.cjs / make-og.js / gen-pwa-assets.cjs", "classification": "DEVELOPMENT_ONLY", "why": "build-time generators; gen-seo-pages reads DB read-only; outputs are deterministic static files" },
+    { "module": "db/schema.sqlite.sql (tracked)", "classification": "LEGACY / SAFE_TO_REMOVE", "why": "kept as schema documentation; not loaded at runtime (engine.js runs idempotent migrations instead)" }
+  ],
+  "nothing_removed": true,
+  "summary": {
+    "runtime_required": "db/engine.js + server.js + ai/* + assistant/* (AI/admin remain SQLite by design)",
+    "read_only_at_runtime": "export-db.js, gen-seo-pages.cjs, tests",
+    "removal_recommendations": "none — all retained dependencies are intentional; removal candidates from phase 38 remain documentation only"
+  }
+}

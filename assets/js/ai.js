@@ -7,7 +7,7 @@
 (function () {
   "use strict";
 
-  const API = "http://localhost:8765";
+  const API = "http://localhost:8766";
   const DEVICE = "default";
   const $ = (id) => document.getElementById(id);
   const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
@@ -40,7 +40,7 @@
   });
 
   function serverDown(err) {
-    state.notice = "AI Coach needs the local server. Start it with: node server.js  (port 8765). " + (err ? "(" + err.message + ")" : "");
+    state.notice = "AI Coach needs the local server. Start it with: node runtime-v2/server.cjs  (port 8766). " + (err ? "(" + err.message + ")" : "");
     const n = $("aiNotice");
     if (n) { n.hidden = false; n.textContent = state.notice; }
   }

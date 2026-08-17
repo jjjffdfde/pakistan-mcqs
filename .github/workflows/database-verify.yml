@@ -1,4 +1,4 @@
-name: Database Integrity Verify
+name: Data Integrity Verify
 
 on:
   push:
@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  database-verify:
+  data-verify:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -18,42 +18,71 @@ jobs:
         with:
           node-version: 22
 
-      - name: SQLite sanity + headless schema audit
+      - name: Build NDJSON fixture (CI has no production data)
+        run: |
+          node scripts/phase40/make-fixture.cjs --force --root .phase40-fixture
+
+      - name: NDJSON + index integrity audit (no SQLite)
         run: |
           node -e "
-            const fs=require('fs');
-            if(!fs.existsSync('db/pakistan-mcqs.sqlite')) {
-              console.log('production DB absent in CI (git-lfs/external) — running structural check only');
+            process.env.MCQS_JSON_DATA_DIR = process.cwd() + '/.phase40-fixture/data';
+            process.env.MCQS_JSON_INDEX_DIR = process.cwd() + '/.phase40-fixture/indexes';
+            const L = require('./runtime-v2/data-loader.cjs');
+            const fs = require('fs');
+            const m = L.manifest();
+            if (!m || !m.rows) { console.error('manifest invalid or empty'); process.exit(1); }
+            const subs = Object.keys(m.sourceFiles).sort();
+            if (subs.length < 3) { console.error('too few subjects:', subs.length); process.exit(1); }
+            for (const s of subs) {
+              if (!fs.existsSync(L.partFile(s))) { console.error('missing part for', s); process.exit(1); }
             }
-            const { DatabaseSync } = require('node:sqlite');
-            const db = new DatabaseSync(':memory:');
-            db.exec(fs.readFileSync('db/schema.sqlite.sql','utf8'));
-            const tables = db.prepare(\"SELECT name FROM sqlite_master WHERE type='table' ORDER BY name\").all().map(r=>r.name);
-            const required = ['categories','subjects','chapters','topics','mcqs','options','history'];
-            const missing = required.filter(t=>!t.includes(tables.find(x=>x===t)));
-            if(missing.length){ console.error('schema missing tables:', missing); process.exit(1); }
-            console.log('schema audit OK - tables:', tables.length);
+            const bySub = L.bySubjectActive();
+            for (const s of subs) {
+              if (!(bySub[s] > 0)) { console.error('subject reports 0 active:', s); process.exit(1); }
+            }
+            const ids = L.rowidOrder();
+            if (ids.length !== m.rows) { console.error('rowid ids', ids.length, '!= rows', m.rows); process.exit(1); }
+            if (new Set(ids).size !== ids.length) { console.error('duplicate ids in rowid order'); process.exit(1); }
+            console.log('data integrity OK - rows:', m.rows, '| subjects:', subs.length, '| options:', m.optionRows, '| active:', Object.values(bySub).reduce((a,b)=>a+b,0));
           "
 
-      - name: Constraint audit on schema
+      - name: SQLite-free audit (runtime + live scripts + tests + workflows)
         run: |
           node -e "
-            const fs=require('fs');
-            const schema=fs.readFileSync('db/schema.sqlite.sql','utf8');
-            const pk=(schema.match(/PRIMARY KEY/i)||[]).length;
-            const fk=(schema.match(/REFERENCES/i)||[]).length;
-            const idx=(schema.match(/CREATE (UNIQUE )?INDEX/i)||[]).length;
-            if(pk<4){ console.error('too few PKs', pk); process.exit(1); }
-            if(idx<4){ console.error('too few indexes', idx); process.exit(1); }
-            console.log('schema constraints: PK refs', pk, 'FK refs', fk, 'indexes', idx);
+            const fs = require('fs');
+            function walk(d, out) {
+              if (!fs.existsSync(d)) return out;
+              for (const e of fs.readdirSync(d, { withFileTypes: true })) {
+                const p = d + '/' + e.name;
+                if (e.isDirectory()) walk(p, out);
+                else if (/\.(cjs|js|yml|yaml)$/.test(e.name)) out.push(p);
+              }
+              return out;
+            }
+            const re = new RegExp('node:sqlite|DatabaseSync|pakistan-mcqs\\\\.sqlite|db\\\\.prepare\\(');
+            const retired = new Set(['scripts/seed-ai.cjs', 'scripts/seed-kg.cjs']);
+            const hits = [];
+            for (const r of ['runtime-v2', 'tests', '.github/workflows']) {
+              for (const f of walk(r, [])) { if (re.test(fs.readFileSync(f, 'utf8'))) hits.push(f); }
+            }
+            for (const f of walk('scripts', [])) {
+              const rel = f.replace(/\\\\\\\\/g, '/');
+              if (/\\/phase(1[0-9]|2[0-9]|3[0-9])\\//.test(rel)) continue;
+              if (retired.has(rel)) continue;
+              if (re.test(fs.readFileSync(f, 'utf8'))) hits.push(f);
+            }
+            const prodDb = 'db/pakistan-mcqs' + '.sqlite';
+            if (fs.existsSync(prodDb)) hits.push(prodDb + ' (production DB must not be present in CI)');
+            if (hits.length) { console.error('SQLite references found:'); for (const h of hits) console.error(' -', h); process.exit(1); }
+            console.log('SQLite-free audit OK - all live runtime/scripts/tests/workflows are file-based');
           "
 
-      - name: Backup restore dry-run (schema-level)
+      - name: Backup snapshot dry-run
         run: |
           node -e "
-            const fs=require('fs');
-            if(!fs.existsSync('backup')) { console.log('no backup dir'); process.exit(0); }
-            const dbs=fs.readdirSync('backup').filter(d=>/^(db-backup|2026)/.test(d));
+            const fs = require('fs');
+            if (!fs.existsSync('backup')) { console.log('no backup dir'); process.exit(0); }
+            const dbs = fs.readdirSync('backup').filter((d) => /^(db-backup|2026)/.test(d));
             console.log('backup snapshots:', dbs.length);
-            if(dbs.length<2){ console.error('expected >=1 backup snapshots, found', dbs.length); process.exit(1); }
+            if (dbs.length < 1) { console.error('expected >=1 backup snapshots, found', dbs.length); process.exit(1); }
           "

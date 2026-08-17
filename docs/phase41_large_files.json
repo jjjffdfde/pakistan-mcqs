@@ -1,0 +1,24 @@
+{
+  "phase": 41,
+  "step": 7,
+  "run_at": "2026-08-17T14:19:57.771Z",
+  "over_25mb": [
+    {
+      "path": "docs/archive/phase17_search_index.json",
+      "bytes": 32876440,
+      "reason": "historical audit artifact (tracked since phase 17-34)",
+      "required": true,
+      "reproducible": false,
+      "lfs_appropriate": false
+    }
+  ],
+  "over_100mb": [],
+  "gitignore_governed": [
+    "database/data/ (643MB NDJSON payload, regenerated from archived oracle export)",
+    "backup/*/ (sqlite snapshots)",
+    "migration-backups/ (oracle rollback copy)",
+    "runtime-v2/indexes/ (generated build output)",
+    "runtime-v2/userdata/ (private)"
+  ],
+  "verdict": "PASS"
+}

@@ -1,0 +1,317 @@
+{
+  "phase": 41,
+  "step": 4,
+  "run_at": "2026-08-17T14:19:55.779Z",
+  "scanned_files": 1259,
+  "flags": 0,
+  "self_audit_patterns": 38,
+  "seo_content": 12,
+  "template_allowed": 0,
+  "hits": [
+    {
+      "path": "/.github/workflows/security.yml",
+      "line": 34,
+      "class": "SELF_AUDIT_PATTERN",
+      "sample": "/(api[_-]?key|secret|token|password)\\s*[:=]\\s*['\\\\\\\"][A-Za-z"
+    },
+    {
+      "path": "/chapters/cyb-crypto.html",
+      "line": 56,
+      "class": "SEO_CONTENT",
+      "sample": "<li>A. A longer password</li>"
+    },
+    {
+      "path": "/chapters/cyb-crypto.html",
+      "line": 64,
+      "class": "SEO_CONTENT",
+      "sample": "<p class=\"seo-q\">Q: Which of the following is a strong passw"
+    },
+    {
+      "path": "/chapters/cyb-crypto.html",
+      "line": 66,
+      "class": "SEO_CONTENT",
+      "sample": "<li>A. Using the same password everywhere</li>"
+    },
+    {
+      "path": "/chapters/cyb-crypto.html",
+      "line": 69,
+      "class": "SEO_CONTENT",
+      "sample": "<li>D. Sharing passwords by email</li>"
+    },
+    {
+      "path": "/chapters/cyber-security-letter-skills-phase-11.html",
+      "line": 55,
+      "class": "SEO_CONTENT",
+      "sample": "<p class=\"seo-q\">Q: How many letters are in the term &quot;p"
+    },
+    {
+      "path": "/chapters/cyber-security-protection.html",
+      "line": 48,
+      "class": "SEO_CONTENT",
+      "sample": "<li>B. trying many passwords rapidly</li>"
+    },
+    {
+      "path": "/chapters/ethical-hacking-defensive-practices.html",
+      "line": 49,
+      "class": "SEO_CONTENT",
+      "sample": "<li>C. using default passwords</li>"
+    },
+    {
+      "path": "/chapters/kubernetes-orchestration.html",
+      "line": 56,
+      "class": "SEO_CONTENT",
+      "sample": "<li>A. sensitive data like passwords</li>"
+    },
+    {
+      "path": "/chapters/rest-api-api-design.html",
+      "line": 45,
+      "class": "SEO_CONTENT",
+      "sample": "<p class=\"seo-q\">Q: Which header commonly carries bearer tok"
+    },
+    {
+      "path": "/chapters/rest-api-api-design.html",
+      "line": 47,
+      "class": "SEO_CONTENT",
+      "sample": "<li>A. Authorization</li>"
+    },
+    {
+      "path": "/chapters/windows-administration.html",
+      "line": 65,
+      "class": "SEO_CONTENT",
+      "sample": "<p class=\"seo-q\">Q: What is a password policy?</p>"
+    },
+    {
+      "path": "/chapters/windows-administration.html",
+      "line": 70,
+      "class": "SEO_CONTENT",
+      "sample": "<li>D. Rules for passwords</li>"
+    },
+    {
+      "path": "/scripts/phase28/static-audit.cjs",
+      "line": 417,
+      "class": "SELF_AUDIT_PATTERN",
+      "sample": "if (/(api[_-]?key|secret|password|token)\\s*[:=]\\s*[\"'][^\"'\\s"
+    },
+    {
+      "path": "/scripts/phase3/data27.cjs",
+      "line": 21,
+      "class": "SELF_AUDIT_PATTERN",
+      "sample": "[\"ethical-hacking\", \"Hardening\", \"medium\", \"Which practice b"
+    },
+    {
+      "path": "/scripts/phase3/data28.cjs",
+      "line": 153,
+      "class": "SELF_AUDIT_PATTERN",
+      "sample": "[\"rest-api\", \"API Security\", \"medium\", \"Which header commonl"
+    },
+    {
+      "path": "/scripts/phase33/report.cjs",
+      "line": 314,
+      "class": "SELF_AUDIT_PATTERN",
+      "sample": "api_keys: 0, [REDACTED]: 0, [REDACTED]:"
+    },
+    {
+      "path": "/scripts/phase34/analyze.cjs",
+      "line": 193,
+      "class": "SELF_AUDIT_PATTERN",
+      "sample": "{ type: \"aws_access_key\", re: /\\bAKIA[0-9A-Z]{16}\\b/i, sever"
+    },
+    {
+      "path": "/scripts/phase34/analyze.cjs",
+      "line": 194,
+      "class": "SELF_AUDIT_PATTERN",
+      "sample": "{ type: \"openai_api_key\", re: /\\bsk-[A-Za-z0-9]{20,}\\b/, sev"
+    },
+    {
+      "path": "/scripts/phase34/analyze.cjs",
+      "line": 197,
+      "class": "SELF_AUDIT_PATTERN",
+      "sample": "{ type: \"private_key\", re: /-----BEGIN (?:RSA |EC |OPENSSH |"
+    },
+    {
+      "path": "/scripts/phase34/analyze.cjs",
+      "line": 200,
+      "class": "SELF_AUDIT_PATTERN",
+      "sample": "{ type: [REDACTED], re: /\\b(?:api[_-]?key|apikey|a"
+    },
+    {
+      "path": "/scripts/phase34/analyze.cjs",
+      "line": 201,
+      "class": "SELF_AUDIT_PATTERN",
+      "sample": "{ type: [REDACTED], re: /\\b(?:password|passwd|pwd"
+    },
+    {
+      "path": "/scripts/phase34/analyze.cjs",
+      "line": 202,
+      "class": "SELF_AUDIT_PATTERN",
+      "sample": "{ type: \"bearer_token\", re: /\\bBearer\\s+[A-Za-z0-9._~+/=-]{1"
+    },
+    {
+      "path": "/scripts/phase34/analyze.cjs",
+      "line": 203,
+      "class": "SELF_AUDIT_PATTERN",
+      "sample": "{ type: [REDACTED], re: /\\b(?:authorization|toke"
+    },
+    {
+      "path": "/scripts/phase34/secrets-recheck.cjs",
+      "line": 14,
+      "class": "SELF_AUDIT_PATTERN",
+      "sample": "{ type: \"aws_access_key\", re: /\\bAKIA[0-9A-Z]{16}\\b/i, sever"
+    },
+    {
+      "path": "/scripts/phase34/secrets-recheck.cjs",
+      "line": 15,
+      "class": "SELF_AUDIT_PATTERN",
+      "sample": "{ type: \"openai_api_key\", re: /\\bsk-[A-Za-z0-9]{20,}\\b/, sev"
+    },
+    {
+      "path": "/scripts/phase34/secrets-recheck.cjs",
+      "line": 18,
+      "class": "SELF_AUDIT_PATTERN",
+      "sample": "{ type: \"private_key\", re: /-----BEGIN (?:RSA |EC |OPENSSH |"
+    },
+    {
+      "path": "/scripts/phase34/secrets-recheck.cjs",
+      "line": 21,
+      "class": "SELF_AUDIT_PATTERN",
+      "sample": "{ type: [REDACTED], re: /\\b(?:api[_-]?key|apikey|a"
+    },
+    {
+      "path": "/scripts/phase34/secrets-recheck.cjs",
+      "line": 22,
+      "class": "SELF_AUDIT_PATTERN",
+      "sample": "{ type: [REDACTED], re: /\\b(?:password|passwd|pwd"
+    },
+    {
+      "path": "/scripts/phase34/secrets-recheck.cjs",
+      "line": 23,
+      "class": "SELF_AUDIT_PATTERN",
+      "sample": "{ type: \"bearer_token\", re: /\\bBearer\\s+[A-Za-z0-9._~+/=-]{1"
+    },
+    {
+      "path": "/scripts/phase34/secrets-recheck.cjs",
+      "line": 24,
+      "class": "SELF_AUDIT_PATTERN",
+      "sample": "{ type: [REDACTED], re: /\\b(?:authorization|toke"
+    },
+    {
+      "path": "/scripts/phase35/analyze.cjs",
+      "line": 256,
+      "class": "SELF_AUDIT_PATTERN",
+      "sample": "{ type: \"aws_access_key\", re: /\\bAKIA[0-9A-Z]{16}\\b/i, sever"
+    },
+    {
+      "path": "/scripts/phase35/analyze.cjs",
+      "line": 257,
+      "class": "SELF_AUDIT_PATTERN",
+      "sample": "{ type: \"openai_api_key\", re: /\\bsk-[A-Za-z0-9]{20,}\\b/, sev"
+    },
+    {
+      "path": "/scripts/phase35/analyze.cjs",
+      "line": 260,
+      "class": "SELF_AUDIT_PATTERN",
+      "sample": "{ type: \"private_key\", re: /-----BEGIN (?:RSA |EC |OPENSSH |"
+    },
+    {
+      "path": "/scripts/phase35/analyze.cjs",
+      "line": 263,
+      "class": "SELF_AUDIT_PATTERN",
+      "sample": "{ type: [REDACTED], re: /\\b(?:api[_-]?key|apikey|a"
+    },
+    {
+      "path": "/scripts/phase35/analyze.cjs",
+      "line": 264,
+      "class": "SELF_AUDIT_PATTERN",
+      "sample": "{ type: [REDACTED], re: /\\b(?:password|passwd|pwd"
+    },
+    {
+      "path": "/scripts/phase35/analyze.cjs",
+      "line": 265,
+      "class": "SELF_AUDIT_PATTERN",
+      "sample": "{ type: \"bearer_token\", re: /\\bBearer\\s+[A-Za-z0-9._~+/=-]{1"
+    },
+    {
+      "path": "/scripts/phase35/final-report.cjs",
+      "line": 77,
+      "class": "SELF_AUDIT_PATTERN",
+      "sample": "private_keys: gh.secret_hits.filter((s) => s.secret_type ==="
+    },
+    {
+      "path": "/scripts/phase39/security-scan.cjs",
+      "line": 19,
+      "class": "SELF_AUDIT_PATTERN",
+      "sample": "[\"aws_access_key\", /\\bAKIA[0-9A-Z]{16}\\b/],"
+    },
+    {
+      "path": "/scripts/phase39/security-scan.cjs",
+      "line": 20,
+      "class": "SELF_AUDIT_PATTERN",
+      "sample": "[\"aws_secret\", /(aws_secret|[REDACTED])\\s*[:=]\\s*['\"]"
+    },
+    {
+      "path": "/scripts/phase39/security-scan.cjs",
+      "line": 22,
+      "class": "SELF_AUDIT_PATTERN",
+      "sample": "[[REDACTED], /-----BEGIN (RSA |EC |OPENSSH )?PRIVAT"
+    },
+    {
+      "path": "/scripts/phase39/security-scan.cjs",
+      "line": 24,
+      "class": "SELF_AUDIT_PATTERN",
+      "sample": "[\"bearer_token\", /Bearer\\s+[A-Za-z0-9._~+/=-]{20,}/i],"
+    },
+    {
+      "path": "/scripts/phase39/security-scan.cjs",
+      "line": 25,
+      "class": "SELF_AUDIT_PATTERN",
+      "sample": "[\"generic_api_key\", /(api[_-]?key|apikey|client[_-]?secret|a"
+    },
+    {
+      "path": "/scripts/phase39/security-scan.cjs",
+      "line": 26,
+      "class": "SELF_AUDIT_PATTERN",
+      "sample": "[[REDACTED], /(password|passwd|pwd)\\s*[:=]\\s*['\"]"
+    },
+    {
+      "path": "/scripts/phase39/security-scan.cjs",
+      "line": 27,
+      "class": "SELF_AUDIT_PATTERN",
+      "sample": "[\"db_password\", /(db[_-]?password|mysql.*password|postgres.*"
+    },
+    {
+      "path": "/scripts/phase40/evidence.cjs",
+      "line": 131,
+      "class": "SELF_AUDIT_PATTERN",
+      "sample": "\"API keys / tokens / passwords / private keys: 0 secret-like"
+    },
+    {
+      "path": "/scripts/phase41/audit.cjs",
+      "line": 94,
+      "class": "SELF_AUDIT_PATTERN",
+      "sample": "const SECRET_RE = /(?:api[_-]?key|access[_-]?key|client[_-]?"
+    },
+    {
+      "path": "/scripts/phase41/audit.cjs",
+      "line": 122,
+      "class": "SELF_AUDIT_PATTERN",
+      "sample": "git_history: { commits: 1, scanned: sh('git grep -In -E \"ghp"
+    },
+    {
+      "path": "/scripts/security-audit.cjs",
+      "line": 24,
+      "class": "SELF_AUDIT_PATTERN",
+      "sample": "[/\\b(begin\\s+)(rsa|ec|openssh|dgst)?\\s*private\\s+key\\b/i, \"p"
+    },
+    {
+      "path": "/scripts/security-audit.cjs",
+      "line": 29,
+      "class": "SELF_AUDIT_PATTERN",
+      "sample": "[/\\b(password|passwd|pwd|secret|api[_-]?key|app[_-]?secret|c"
+    }
+  ],
+  "git_history": {
+    "commits": 1,
+    "scanned": 6
+  },
+  "verdict": "PASS"
+}

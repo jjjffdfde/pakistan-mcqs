@@ -1,0 +1,17 @@
+{
+  "phase": 39,
+  "step": 7,
+  "generated_at": "2026-08-13T03:19:00.000Z",
+  "status": "reviewed — no changes required",
+  "content": {
+    "line_endings": "* text=auto (LF in repo, CRLF on Windows checkout); *.sh eol=lf; explicit text types for html/css/js/cjs/mjs/json/md/yml/yaml/xml/txt/sql/svg/conf/webmanifest",
+    "binaries": "png/jpg/jpeg/gif/webp/ico/avif/woff/woff2/ttf/eot/sqlite/gz/zst/zip marked binary (never diffed)",
+    "ndjson_policy": "LFS patterns commented out (*.ndjson / *.ndjson.gz / *.ndjson.zst filter=lfs) — the payload stays git-ignored; patterns ready only if a verified LFS strategy is adopted"
+  },
+  "verification": {
+    "no_lfs_needed": true,
+    "note": "nothing tracked exceeds 100 MiB (largest tracked 32.9 MiB); enabling LFS now would be unnecessary complexity",
+    "eol_warnings": "git reports CRLF-normalization warnings for modified tracked files (docs/json/js) — expected on Windows; *.sh stays LF so shell scripts are safe"
+  },
+  "verdict": "PASS — attributes are correct and complete for the repository's contents"
+}

@@ -1,0 +1,12 @@
+{
+ "path": "db/pakistan-mcqs.sqlite",
+ "size_bytes": 2206887936,
+ "sha256_before": "3DF39D335F5F931125168CA26877595B620BD1C9F75701B20AC19A9DFFAFA34E",
+ "sha256_after": "3DF39D335F5F931125168CA26877595B620BD1C9F75701B20AC19A9DFFAFA34E",
+ "unchanged": true,
+ "status": "PASS - database byte-for-byte unchanged",
+ "operations_performed": [
+  "read-only queries (COUNT/DISTINCT joins)",
+  "live API reads via server.js"
+ ]
+}

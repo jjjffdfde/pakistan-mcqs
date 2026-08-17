@@ -1,0 +1,105 @@
+{
+  "phase": 41,
+  "step": 2,
+  "run_at": "2026-08-17T14:16:30.388Z",
+  "db_file": "db/pakistan-mcqs.sqlite",
+  "db_file_exists": false,
+  "db_dir_exists": false,
+  "ignored_by": ".gitignore:20:*.sqlite\tdb/pakistan-mcqs.sqlite",
+  "backup_copies": [
+    {
+      "path": "backup/db-backup-2026-08-13-05-29-29/pakistan-mcqs.sqlite",
+      "bytes": 2145030144,
+      "mtime": "2026-08-13T05:29:41.197Z",
+      "ignored": ".gitignore:27:backup/*/\tbackup/db-backup-2026-08-13-05-29-29/pakistan-mcqs.sqlite",
+      "sha256": "a3f6ea321e21c2d7…(sha256 truncated in doc)"
+    },
+    {
+      "path": "backup/db-backup-2026-08-13-05-35-01/pakistan-mcqs.sqlite",
+      "bytes": 2145030144,
+      "mtime": "2026-08-13T05:35:10.956Z",
+      "ignored": ".gitignore:27:backup/*/\tbackup/db-backup-2026-08-13-05-35-01/pakistan-mcqs.sqlite",
+      "sha256": "a3f6ea321e21c2d7…(sha256 truncated in doc)"
+    },
+    {
+      "path": "backup/db-backup-2026-08-13-05-36-25/pakistan-mcqs.sqlite",
+      "bytes": 2145030144,
+      "mtime": "2026-08-13T05:36:34.959Z",
+      "ignored": ".gitignore:27:backup/*/\tbackup/db-backup-2026-08-13-05-36-25/pakistan-mcqs.sqlite",
+      "sha256": "a3f6ea321e21c2d7…(sha256 truncated in doc)"
+    },
+    {
+      "path": "backup/db-backup-2026-08-13-05-37-10/pakistan-mcqs.sqlite",
+      "bytes": 2145030144,
+      "mtime": "2026-08-13T05:37:18.383Z",
+      "ignored": ".gitignore:27:backup/*/\tbackup/db-backup-2026-08-13-05-37-10/pakistan-mcqs.sqlite",
+      "sha256": "a3f6ea321e21c2d7…(sha256 truncated in doc)"
+    },
+    {
+      "path": "backup/db-backup-2026-08-13-07-14-41/pakistan-mcqs.sqlite",
+      "bytes": 1478651904,
+      "mtime": "2026-08-13T07:16:50.694Z",
+      "ignored": ".gitignore:27:backup/*/\tbackup/db-backup-2026-08-13-07-14-41/pakistan-mcqs.sqlite",
+      "sha256": "e55714fdba3d562a…(sha256 truncated in doc)"
+    },
+    {
+      "path": "backup/db-backup-2026-08-13-07-50-14/pakistan-mcqs.sqlite",
+      "bytes": 2145030144,
+      "mtime": "2026-08-13T07:53:32.249Z",
+      "ignored": ".gitignore:27:backup/*/\tbackup/db-backup-2026-08-13-07-50-14/pakistan-mcqs.sqlite",
+      "sha256": "0b72ca0f1a415100…(sha256 truncated in doc)"
+    },
+    {
+      "path": "backup/db-backup-2026-08-13-07-57-34/pakistan-mcqs.sqlite",
+      "bytes": 2145030144,
+      "mtime": "2026-08-13T07:57:45.146Z",
+      "ignored": ".gitignore:27:backup/*/\tbackup/db-backup-2026-08-13-07-57-34/pakistan-mcqs.sqlite",
+      "sha256": "0b72ca0f1a415100…(sha256 truncated in doc)"
+    },
+    {
+      "path": "backup/db-backup-2026-08-13-07-59-31/pakistan-mcqs.sqlite",
+      "bytes": 2145030144,
+      "mtime": "2026-08-13T07:59:41.942Z",
+      "ignored": ".gitignore:27:backup/*/\tbackup/db-backup-2026-08-13-07-59-31/pakistan-mcqs.sqlite",
+      "sha256": "cc7a73e1b0331dc6…(sha256 truncated in doc)"
+    },
+    {
+      "path": "backup/db-backup-2026-08-13-08-02-12/pakistan-mcqs.sqlite",
+      "bytes": 2145034240,
+      "mtime": "2026-08-13T08:02:21.943Z",
+      "ignored": ".gitignore:27:backup/*/\tbackup/db-backup-2026-08-13-08-02-12/pakistan-mcqs.sqlite",
+      "sha256": "b279150dc7792ba6…(sha256 truncated in doc)"
+    },
+    {
+      "path": "backup/db-backup-2026-08-13-08-39-56/pakistan-mcqs.sqlite",
+      "bytes": 2145034240,
+      "mtime": "2026-08-13T08:40:03.894Z",
+      "ignored": ".gitignore:27:backup/*/\tbackup/db-backup-2026-08-13-08-39-56/pakistan-mcqs.sqlite",
+      "sha256": "b1823f8fc5ee0c8a…(sha256 truncated in doc)"
+    },
+    {
+      "path": "backup/db-backup-2026-08-13-08-53-29/pakistan-mcqs.sqlite",
+      "bytes": 2145034240,
+      "mtime": "2026-08-13T08:53:37.393Z",
+      "ignored": ".gitignore:27:backup/*/\tbackup/db-backup-2026-08-13-08-53-29/pakistan-mcqs.sqlite",
+      "sha256": "251fa6e09c59cde4…(sha256 truncated in doc)"
+    },
+    {
+      "path": "backup/db-backup-2026-08-17-03-16-52/pakistan-mcqs.sqlite",
+      "bytes": 2145034240,
+      "mtime": "2026-08-17T03:21:27.625Z",
+      "ignored": ".gitignore:27:backup/*/\tbackup/db-backup-2026-08-17-03-16-52/pakistan-mcqs.sqlite",
+      "sha256": "b379d35265f4688f…(sha256 truncated in doc)"
+    },
+    {
+      "path": "backup/db-backup-2026-08-17-03-26-15/pakistan-mcqs.sqlite",
+      "bytes": 2145034240,
+      "mtime": "2026-08-17T03:26:26.454Z",
+      "ignored": ".gitignore:27:backup/*/\tbackup/db-backup-2026-08-17-03-26-15/pakistan-mcqs.sqlite",
+      "sha256": "c4bf4506fe509e87…(sha256 truncated in doc)"
+    }
+  ],
+  "tracked_sqlite": [],
+  "tracked_sqlite_files": [],
+  "verdict": "PASS"
+}

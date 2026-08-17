@@ -1,309 +1,386 @@
 [
  {
-  "file": ".audit-tmp/p28-last-index_html.json",
-  "size": 4962,
-  "sha256": "acfb3f586c1ee2035b48ec2b5b88c516762a2c05ca8d68cbe3eeced83c879f16",
-  "classification": "REMOVE_SAFE",
-  "evidence": "Phase audit scratch directory (browser profiles, temp DB copies, raw run caches); evidence preserved in docs/"
- },
- {
-  "file": ".audit-tmp/p28-last-offline_html.json",
-  "size": 2021,
-  "sha256": "9084d015e02de8b10be6ab0a2cd8008f7ed93e045819726e1cdc1099682cf44b",
-  "classification": "REMOVE_SAFE",
-  "evidence": "Phase audit scratch directory (browser profiles, temp DB copies, raw run caches); evidence preserved in docs/"
- },
- {
-  "file": ".audit-tmp/p30api/ai/achievements.js",
-  "size": 4232,
-  "sha256": "eaada10d0e651c302c7fba883451a83b1958d2fb45e04cc92efad3f7a94016b3",
-  "classification": "REMOVE_SAFE",
-  "evidence": "Phase audit scratch directory (browser profiles, temp DB copies, raw run caches); evidence preserved in docs/"
- },
- {
-  "file": ".audit-tmp/p30api/ai/adaptive.js",
-  "size": 7236,
-  "sha256": "d604720eeec7cc4ebd6d7572a752311a2d86ea84977c6cea848f6e73213531ff",
-  "classification": "REMOVE_SAFE",
-  "evidence": "Phase audit scratch directory (browser profiles, temp DB copies, raw run caches); evidence preserved in docs/"
- },
- {
-  "file": ".audit-tmp/p30api/ai/analytics.js",
-  "size": 2147,
-  "sha256": "5cf201969c8ea5c5bb0d8b9ca27b8ac88258aceb7f2c139a6f97f7f93f51d459",
-  "classification": "REMOVE_SAFE",
-  "evidence": "Phase audit scratch directory (browser profiles, temp DB copies, raw run caches); evidence preserved in docs/"
- },
- {
-  "file": ".audit-tmp/p30api/ai/current.js",
-  "size": 1595,
-  "sha256": "bb4c173e88b78dd6ebc99ae9d684c0fa87d5644a2c80f4c4d323939d615bd07f",
-  "classification": "REMOVE_SAFE",
-  "evidence": "Phase audit scratch directory (browser profiles, temp DB copies, raw run caches); evidence preserved in docs/"
- },
- {
-  "file": ".audit-tmp/p30api/ai/flashcards.js",
-  "size": 3282,
-  "sha256": "09c7033def6fd465ef19771b2eabb9bd5aa4f263e9a9f6a4b04bfd3f2ab0bf1a",
-  "classification": "REMOVE_SAFE",
-  "evidence": "Phase audit scratch directory (browser profiles, temp DB copies, raw run caches); evidence preserved in docs/"
- },
- {
-  "file": ".audit-tmp/p30api/ai/leaderboard.js",
-  "size": 2021,
-  "sha256": "8b437fac65ec319f631d42ba18ead57f0ebde693fe397dfdc2b99b77fae28402",
-  "classification": "REMOVE_SAFE",
-  "evidence": "Phase audit scratch directory (browser profiles, temp DB copies, raw run caches); evidence preserved in docs/"
- },
- {
-  "file": ".audit-tmp/p30api/ai/mock.js",
-  "size": 4669,
-  "sha256": "e46ea1252e9458942d0b601cfee5ca5be90efca40f75d9655e9a26456acd65b3",
-  "classification": "REMOVE_SAFE",
-  "evidence": "Phase audit scratch directory (browser profiles, temp DB copies, raw run caches); evidence preserved in docs/"
- },
- {
-  "file": ".audit-tmp/p30api/ai/planner.js",
-  "size": 5684,
-  "sha256": "3a0bab4d6480955610505235098647d4a74ec7828bb455eaf55aaa96602a626f",
-  "classification": "REMOVE_SAFE",
-  "evidence": "Phase audit scratch directory (browser profiles, temp DB copies, raw run caches); evidence preserved in docs/"
- },
- {
-  "file": ".audit-tmp/p30api/ai/profile.js",
-  "size": 3711,
-  "sha256": "2a8bd0738ebd9e1ede665f8dbb8cd8f43f4dd40e7ce976e6676874ed9c367afd",
-  "classification": "REMOVE_SAFE",
-  "evidence": "Phase audit scratch directory (browser profiles, temp DB copies, raw run caches); evidence preserved in docs/"
- },
- {
-  "file": ".audit-tmp/p30api/ai/recommend.js",
-  "size": 4246,
-  "sha256": "153c195c0f186af3c24f2b538f70d9c0cbb807a22b3524658cf2a51989d7170b",
-  "classification": "REMOVE_SAFE",
-  "evidence": "Phase audit scratch directory (browser profiles, temp DB copies, raw run caches); evidence preserved in docs/"
- },
- {
-  "file": ".audit-tmp/p30api/ai/record.js",
-  "size": 2568,
-  "sha256": "4c35b9eeeac530482035d8fbf0e57c899ce97ebb4e5d943241f0c85c729dbac4",
-  "classification": "REMOVE_SAFE",
-  "evidence": "Phase audit scratch directory (browser profiles, temp DB copies, raw run caches); evidence preserved in docs/"
- },
- {
-  "file": ".audit-tmp/p30api/ai/router.js",
-  "size": 8887,
-  "sha256": "4e9563426be39d8acde1e13ccccc7c5944215f4c5759c4faad178bc316ec5276",
-  "classification": "REMOVE_SAFE",
-  "evidence": "Phase audit scratch directory (browser profiles, temp DB copies, raw run caches); evidence preserved in docs/"
- },
- {
-  "file": ".audit-tmp/p30api/ai/spaced.js",
-  "size": 3233,
-  "sha256": "348af5f8bfdccd772b419e25a9783baf4bad3b14648de3f7a88fe8536e915f10",
-  "classification": "REMOVE_SAFE",
-  "evidence": "Phase audit scratch directory (browser profiles, temp DB copies, raw run caches); evidence preserved in docs/"
- },
- {
-  "file": ".audit-tmp/p30api/ai/util.js",
-  "size": 1560,
-  "sha256": "715a9a9d1d6c3bdc51a6b24a60bd63878039c5c56ad8ece1d2cefdb7d8bf6e67",
-  "classification": "REMOVE_SAFE",
-  "evidence": "Phase audit scratch directory (browser profiles, temp DB copies, raw run caches); evidence preserved in docs/"
- },
- {
-  "file": ".audit-tmp/p30api/ai/weak.js",
-  "size": 4059,
-  "sha256": "49d6ca5707a0d404b849f56ce1ca3f357128d08a2b0d93d406b96131be2e3004",
-  "classification": "REMOVE_SAFE",
-  "evidence": "Phase audit scratch directory (browser profiles, temp DB copies, raw run caches); evidence preserved in docs/"
- },
- {
-  "file": ".audit-tmp/p30api/data/exams.json",
-  "size": 13979,
-  "sha256": "b31fc708baad9fe86f9ff5b25ae913106b707a65fa83d75f2097de9b617919e4",
-  "classification": "REMOVE_SAFE",
-  "evidence": "Phase audit scratch directory (browser profiles, temp DB copies, raw run caches); evidence preserved in docs/"
- },
- {
-  "file": ".audit-tmp/p30api/db/backup.js",
-  "size": 2090,
-  "sha256": "d7706e09f14b3a3c4ad26867664d09d69189f6c08b08a12a02ca3baddf77d43d",
-  "classification": "REMOVE_SAFE",
-  "evidence": "Phase audit scratch directory (browser profiles, temp DB copies, raw run caches); evidence preserved in docs/"
- },
- {
-  "file": ".audit-tmp/p30api/db/config.json",
-  "size": 305,
-  "sha256": "7a8e31669c5c8dadd056e0bca8a757da045d875352a6f1a56462b063d0e0bf06",
-  "classification": "REMOVE_SAFE",
-  "evidence": "Phase audit scratch directory (browser profiles, temp DB copies, raw run caches); evidence preserved in docs/"
- },
- {
-  "file": ".audit-tmp/p30api/db/engine.js",
-  "size": 14905,
-  "sha256": "be96e80c21548da0f3c3c5ddc2128d39c59b983984bcf9902bd1acfbb4174ed0",
-  "classification": "REMOVE_SAFE",
-  "evidence": "Phase audit scratch directory (browser profiles, temp DB copies, raw run caches); evidence preserved in docs/"
- },
- {
-  "file": ".audit-tmp/p30api/db/kg-migrate.js",
-  "size": 17881,
-  "sha256": "f71ba94205f4d10fa3dcea12f47369d7806fe1815172d20312c36715685aa13b",
-  "classification": "REMOVE_SAFE",
-  "evidence": "Phase audit scratch directory (browser profiles, temp DB copies, raw run caches); evidence preserved in docs/"
- },
- {
-  "file": ".audit-tmp/p30api/db/pakistan-mcqs.sqlite",
-  "size": 2206887936,
-  "sha256": "7acfb24f262790490c42a8ce54617058b2197c07bb1be9528607922d73f5af0b",
-  "classification": "REMOVE_SAFE",
-  "evidence": "Phase audit scratch directory (browser profiles, temp DB copies, raw run caches); evidence preserved in docs/"
- },
- {
-  "file": ".audit-tmp/p30api/db/pakistan-mcqs.sqlite-shm",
-  "size": 32768,
-  "sha256": "0b16cd68700814b74189414513b31726a07e612ba17cacaae743e72d8401ce5c",
-  "classification": "REMOVE_SAFE",
-  "evidence": "Phase audit scratch directory (browser profiles, temp DB copies, raw run caches); evidence preserved in docs/"
- },
- {
-  "file": ".audit-tmp/p30api/db/pakistan-mcqs.sqlite-wal",
-  "size": 1285472,
-  "sha256": "4d7a3ce5a741de0ab6760f4d7026c3a8fb68c9a245dcfb994d7af4dfcf63ca9d",
-  "classification": "REMOVE_SAFE",
-  "evidence": "Phase audit scratch directory (browser profiles, temp DB copies, raw run caches); evidence preserved in docs/"
- },
- {
-  "file": ".audit-tmp/p30api/server.js",
-  "size": 20203,
-  "sha256": "a90633e39aaf4d565e1830078df62adfe7a43f687d4e463604c78dd4d88d7b33",
-  "classification": "REMOVE_SAFE",
-  "evidence": "Phase audit scratch directory (browser profiles, temp DB copies, raw run caches); evidence preserved in docs/"
- },
- {
-  "file": ".audit-tmp/p31-recon.js",
-  "size": 635,
-  "sha256": "279f04e9c9ee697c79d540a972b887ba2e637cd4a9a1da73107fac28c7578a09",
-  "classification": "REMOVE_SAFE",
-  "evidence": "Phase audit scratch directory (browser profiles, temp DB copies, raw run caches); evidence preserved in docs/"
- },
- {
-  "file": ".audit-tmp/p33-ids.js",
-  "size": 570,
-  "sha256": "53dae6e915008fd8293af4303c5a18ed61c0b8d58bb50a9b203a9eccbcb9b5a7",
-  "classification": "REMOVE_SAFE",
-  "evidence": "Phase audit scratch directory (browser profiles, temp DB copies, raw run caches); evidence preserved in docs/"
- },
- {
-  "file": ".audit-tmp/p33-secretscan.js",
-  "size": 1210,
-  "sha256": "9b26ad31116b278855001e24106fd87a4afdab1ca40b3314019727f11eb5ab57",
-  "classification": "REMOVE_SAFE",
-  "evidence": "Phase audit scratch directory (browser profiles, temp DB copies, raw run caches); evidence preserved in docs/"
- },
- {
-  "file": ".audit-tmp/phase31_net_raw.json",
-  "size": 3479,
-  "sha256": "55d685dcb73dd65a0592a2b957cf3e23023ebb73909a0940166f70a5df00aa46",
-  "classification": "REMOVE_SAFE",
-  "evidence": "Phase audit scratch directory (browser profiles, temp DB copies, raw run caches); evidence preserved in docs/"
- },
- {
-  "file": ".audit-tmp/phase31_runtime_raw.json",
-  "size": 43789,
-  "sha256": "bd07b213af0fbf16217b07c304a5750859cd7e6087707ce6eedb3778fe0c5135",
-  "classification": "REMOVE_SAFE",
-  "evidence": "Phase audit scratch directory (browser profiles, temp DB copies, raw run caches); evidence preserved in docs/"
- },
- {
   "file": ".audit-tmp/phase32_cache_raw.json",
-  "size": 984,
-  "sha256": "093eaafb99e218d0f6709e939b9e75cd6db1c62aa11d7e7eece57852ee77f8d0",
-  "classification": "REMOVE_SAFE",
-  "evidence": "Phase audit scratch directory (browser profiles, temp DB copies, raw run caches); evidence preserved in docs/"
- },
- {
-  "file": ".audit-tmp/phase32_cwv_raw.json",
-  "size": 17054,
-  "sha256": "8fcd81a6c664d6b51483aae854bc88cbe0760cd4144a4479b6c4052846efa84a",
-  "classification": "REMOVE_SAFE",
-  "evidence": "Phase audit scratch directory (browser profiles, temp DB copies, raw run caches); evidence preserved in docs/"
- },
- {
-  "file": ".audit-tmp/phase33_dbhash_before.json",
-  "size": 168,
-  "sha256": "c8548bed81aba085aab0d7a96ff40feccc7eee04c0cdc4f21e7d5bea55420678",
+  "size": 986,
+  "sha256": "58f695493c76aaa599b52fcec66136cf1de33531677f5bfc237a120a589ec82f",
   "classification": "REMOVE_SAFE",
   "evidence": "Phase audit scratch directory (browser profiles, temp DB copies, raw run caches); evidence preserved in docs/"
  },
  {
   "file": ".audit-tmp/phase33_pwa_raw.json",
-  "size": 2172,
-  "sha256": "7b0bc77207eda1c407cbc007d28bba38e495f846d1d732ddb6dcc180476eae7a",
+  "size": 2187,
+  "sha256": "d8ea4a30edcccb07abc15cfbad7360f291beee7ebb5fcc8a6b4ed57222e48f05",
   "classification": "REMOVE_SAFE",
   "evidence": "Phase audit scratch directory (browser profiles, temp DB copies, raw run caches); evidence preserved in docs/"
  },
  {
   "file": ".audit-tmp/phase33_runtime_raw.json",
-  "size": 40944,
-  "sha256": "cfc79c412dd872c6a2e532ce7acb2247af20f49ece631e01825dc4c4489ad8cd",
+  "size": 41413,
+  "sha256": "7a0c151739a4286bf6c1724e33cccbe52a456f0645c6b476277f2eae957880c0",
   "classification": "REMOVE_SAFE",
   "evidence": "Phase audit scratch directory (browser profiles, temp DB copies, raw run caches); evidence preserved in docs/"
  },
  {
-  "file": ".audit-tmp/phase34_dbhash_before.json",
-  "size": 168,
-  "sha256": "c8548bed81aba085aab0d7a96ff40feccc7eee04c0cdc4f21e7d5bea55420678",
-  "classification": "REMOVE_SAFE",
-  "evidence": "Phase audit scratch directory (browser profiles, temp DB copies, raw run caches); evidence preserved in docs/"
+  "file": "backup/db-backup-2026-08-13-04-24-04/ai_state.json.bak",
+  "size": 427,
+  "sha256": "eee8f3750b7f040643e778cfa8ea6b75905f2f5a09e32b3a7d4916998ef538f9",
+  "classification": "LARGE_FILE",
+  "evidence": "Historical database backup snapshot (old backups excluded from Git; kept locally for server restore feature)"
  },
  {
-  "file": ".claude/settings.local.json",
-  "size": 81,
-  "sha256": "66ea34a7e05ab1d7e124cd45aabb49ad8d865bc0bbc4ea32ab1c5e8b61157fcc",
-  "classification": "REMOVE_SAFE",
-  "evidence": "IDE local state (AI tool settings), not project content"
+  "file": "backup/db-backup-2026-08-13-04-24-04/flashcards.json.bak",
+  "size": 3849,
+  "sha256": "de622bb1f7389f03108565551afac7904f4981fe6490a3aea797e9e48bb26b20",
+  "classification": "LARGE_FILE",
+  "evidence": "Historical database backup snapshot (old backups excluded from Git; kept locally for server restore feature)"
  },
  {
-  "file": "pipeline/progress.log",
-  "size": 941,
-  "sha256": "7f29e1cea9c63c551d6e2a6f13300825a2a16468776fbf4c59a0fefb955a2449",
-  "classification": "REMOVE_SAFE",
-  "evidence": "log file"
+  "file": "backup/db-backup-2026-08-13-04-24-04/learning_sessions.json.bak",
+  "size": 282,
+  "sha256": "19dda219761d8f397f3e480aac542a60352fe835a1dca6882890e4bbabbe558b",
+  "classification": "LARGE_FILE",
+  "evidence": "Historical database backup snapshot (old backups excluded from Git; kept locally for server restore feature)"
  },
  {
-  "file": "server-err.log",
-  "size": 395,
-  "sha256": "6db8d045db8753801a51bbaf8509eb81fbf694c526b015cadb4f05be4089c1d0",
+  "file": "backup/db-backup-2026-08-13-04-24-04/predictions.json.bak",
+  "size": 5452,
+  "sha256": "5acb914fee35896c350b03cd470af65d6bac085d066689c42417f59dfffc769e",
+  "classification": "LARGE_FILE",
+  "evidence": "Historical database backup snapshot (old backups excluded from Git; kept locally for server restore feature)"
+ },
+ {
+  "file": "backup/db-backup-2026-08-13-04-24-04/recommendations.json.bak",
+  "size": 1288,
+  "sha256": "1a0f7b10cc9d829a2c72999f9bb5b401d7c0c4af978a8df34fbb94469b23b709",
+  "classification": "LARGE_FILE",
+  "evidence": "Historical database backup snapshot (old backups excluded from Git; kept locally for server restore feature)"
+ },
+ {
+  "file": "backup/db-backup-2026-08-13-04-24-04/revision_schedule.json.bak",
+  "size": 578,
+  "sha256": "c0c7294d01bf8b9cd995dbaba39928f51155d32ffbfecaf3c84962e81521ecfb",
+  "classification": "LARGE_FILE",
+  "evidence": "Historical database backup snapshot (old backups excluded from Git; kept locally for server restore feature)"
+ },
+ {
+  "file": "backup/db-backup-2026-08-13-04-24-04/strong_topics.json.bak",
+  "size": 2,
+  "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "classification": "LARGE_FILE",
+  "evidence": "Historical database backup snapshot (old backups excluded from Git; kept locally for server restore feature)"
+ },
+ {
+  "file": "backup/db-backup-2026-08-13-04-24-04/study_plans.json.bak",
+  "size": 3499,
+  "sha256": "63e3f1abce3422394f506d8a0b941892c2eda9a632c6723e90473dc694a1137e",
+  "classification": "LARGE_FILE",
+  "evidence": "Historical database backup snapshot (old backups excluded from Git; kept locally for server restore feature)"
+ },
+ {
+  "file": "backup/db-backup-2026-08-13-04-24-04/user_profiles.json.bak",
+  "size": 1193,
+  "sha256": "11642c1eee8e1094b43c4f9781e4890fe5158ee59dcbfe5a2c468aee889b0090",
+  "classification": "LARGE_FILE",
+  "evidence": "Historical database backup snapshot (old backups excluded from Git; kept locally for server restore feature)"
+ },
+ {
+  "file": "backup/db-backup-2026-08-13-04-24-04/weak_topics.json.bak",
+  "size": 2,
+  "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "classification": "LARGE_FILE",
+  "evidence": "Historical database backup snapshot (old backups excluded from Git; kept locally for server restore feature)"
+ },
+ {
+  "file": "backup/db-backup-2026-08-13-05-29-29/userdata/ai/recommendations.json.bak",
+  "size": 260,
+  "sha256": "0edb4a1862e6ce41b3a367f5353f0af5d2209abdab120fcc23a39c1dbce51c90",
+  "classification": "LARGE_FILE",
+  "evidence": "Historical database backup snapshot (old backups excluded from Git; kept locally for server restore feature)"
+ },
+ {
+  "file": "backup/db-backup-2026-08-13-05-29-29/userdata/ai/study_plans.json.bak",
+  "size": 2755,
+  "sha256": "423b80daed892f9dd1a5bd0141e43dd50e79cfe266d6bdf95865c111a49e998f",
+  "classification": "LARGE_FILE",
+  "evidence": "Historical database backup snapshot (old backups excluded from Git; kept locally for server restore feature)"
+ },
+ {
+  "file": "backup/db-backup-2026-08-13-05-36-09/userdata/ai/recommendations.json.bak",
+  "size": 260,
+  "sha256": "0edb4a1862e6ce41b3a367f5353f0af5d2209abdab120fcc23a39c1dbce51c90",
+  "classification": "LARGE_FILE",
+  "evidence": "Historical database backup snapshot (old backups excluded from Git; kept locally for server restore feature)"
+ },
+ {
+  "file": "backup/db-backup-2026-08-13-05-36-09/userdata/ai/study_plans.json.bak",
+  "size": 2755,
+  "sha256": "423b80daed892f9dd1a5bd0141e43dd50e79cfe266d6bdf95865c111a49e998f",
+  "classification": "LARGE_FILE",
+  "evidence": "Historical database backup snapshot (old backups excluded from Git; kept locally for server restore feature)"
+ },
+ {
+  "file": "backup/db-backup-2026-08-13-07-14-41/userdata/ai/recommendations.json.bak",
+  "size": 260,
+  "sha256": "f19a1a9bc8cc2f422600e971a0802c870b3f859bc0f19a79a6cd501fcc3d7a11",
+  "classification": "LARGE_FILE",
+  "evidence": "Historical database backup snapshot (old backups excluded from Git; kept locally for server restore feature)"
+ },
+ {
+  "file": "backup/db-backup-2026-08-13-07-14-41/userdata/ai/study_plans.json.bak",
+  "size": 2689,
+  "sha256": "5bc0a40235c9299459f1c9b2f3ad1c41ee59097b9311993ed828309fcce42a68",
+  "classification": "LARGE_FILE",
+  "evidence": "Historical database backup snapshot (old backups excluded from Git; kept locally for server restore feature)"
+ },
+ {
+  "file": "backup/db-backup-2026-08-13-07-50-14/userdata/ai/study_plans.json.bak",
+  "size": 2695,
+  "sha256": "c0c44434cae46d761d311ec5ee37a72bcdd3f26d70454910f8146e349921e9a4",
+  "classification": "LARGE_FILE",
+  "evidence": "Historical database backup snapshot (old backups excluded from Git; kept locally for server restore feature)"
+ },
+ {
+  "file": "backup/db-backup-2026-08-13-07-58-36/userdata/ai/study_plans.json.bak",
+  "size": 2695,
+  "sha256": "c0c44434cae46d761d311ec5ee37a72bcdd3f26d70454910f8146e349921e9a4",
+  "classification": "LARGE_FILE",
+  "evidence": "Historical database backup snapshot (old backups excluded from Git; kept locally for server restore feature)"
+ },
+ {
+  "file": "backup/db-backup-2026-08-13-07-59-31/userdata/ai/study_plans.json.bak",
+  "size": 2709,
+  "sha256": "d61c15ee2316d5376af3d96964041f87773132adb905e9db60c0b76e9a661339",
+  "classification": "LARGE_FILE",
+  "evidence": "Historical database backup snapshot (old backups excluded from Git; kept locally for server restore feature)"
+ },
+ {
+  "file": "backup/db-backup-2026-08-13-08-02-12/userdata/ai/recommendations.json.bak",
+  "size": 260,
+  "sha256": "c1500ed5c9ec915ebe4e9bc15f973d8ad4edc926beadb19610fe19be3db6d4bd",
+  "classification": "LARGE_FILE",
+  "evidence": "Historical database backup snapshot (old backups excluded from Git; kept locally for server restore feature)"
+ },
+ {
+  "file": "backup/db-backup-2026-08-13-08-02-12/userdata/ai/study_plans.json.bak",
+  "size": 2689,
+  "sha256": "6118d0b63f444f36d218d9561e4d76f542a6171a77c082e9d9d89877dd31d72f",
+  "classification": "LARGE_FILE",
+  "evidence": "Historical database backup snapshot (old backups excluded from Git; kept locally for server restore feature)"
+ },
+ {
+  "file": "backup/db-backup-2026-08-13-08-39-56/userdata/ai/recommendations.json.bak",
+  "size": 260,
+  "sha256": "833fc5adc0e7cc6596321a540168ba23de88c1a52e37ca8e5142d1a8b9ef5c91",
+  "classification": "LARGE_FILE",
+  "evidence": "Historical database backup snapshot (old backups excluded from Git; kept locally for server restore feature)"
+ },
+ {
+  "file": "backup/db-backup-2026-08-13-08-39-56/userdata/ai/study_plans.json.bak",
+  "size": 2748,
+  "sha256": "8c79fdb1247a35f036645efb83d0db13f98e25ec52aaf835e2a87c384b8cb634",
+  "classification": "LARGE_FILE",
+  "evidence": "Historical database backup snapshot (old backups excluded from Git; kept locally for server restore feature)"
+ },
+ {
+  "file": "backup/db-backup-2026-08-13-08-53-29/userdata/ai/recommendations.json.bak",
+  "size": 260,
+  "sha256": "0ace46595b9e72d8949a6a3f4314dce922b278cec2774f46cc7c5afc1033dd9b",
+  "classification": "LARGE_FILE",
+  "evidence": "Historical database backup snapshot (old backups excluded from Git; kept locally for server restore feature)"
+ },
+ {
+  "file": "backup/db-backup-2026-08-13-08-53-29/userdata/ai/study_plans.json.bak",
+  "size": 2691,
+  "sha256": "c58594143eb5394956f608e01bff9ebae354befa3bb75d0fb4b34e37d1126dab",
+  "classification": "LARGE_FILE",
+  "evidence": "Historical database backup snapshot (old backups excluded from Git; kept locally for server restore feature)"
+ },
+ {
+  "file": "backup/db-backup-2026-08-17-03-16-52/userdata/ai/recommendations.json.bak",
+  "size": 260,
+  "sha256": "6953f7809a329783bc9d282fd18577176fbba4ab4219bc4775fcc2383c33f7f6",
+  "classification": "LARGE_FILE",
+  "evidence": "Historical database backup snapshot (old backups excluded from Git; kept locally for server restore feature)"
+ },
+ {
+  "file": "backup/db-backup-2026-08-17-03-16-52/userdata/ai/study_plans.json.bak",
+  "size": 2733,
+  "sha256": "71821d3c166521537284acfd08b7639324ca2b27d39d057a5770a044fe526135",
+  "classification": "LARGE_FILE",
+  "evidence": "Historical database backup snapshot (old backups excluded from Git; kept locally for server restore feature)"
+ },
+ {
+  "file": "backup/db-backup-2026-08-17-03-26-15/userdata/ai/recommendations.json.bak",
+  "size": 260,
+  "sha256": "a0971d0dfc790dfd1fba28cf9610455c6a20032a012c19385eb7d3627131f405",
+  "classification": "LARGE_FILE",
+  "evidence": "Historical database backup snapshot (old backups excluded from Git; kept locally for server restore feature)"
+ },
+ {
+  "file": "backup/db-backup-2026-08-17-03-26-15/userdata/ai/study_plans.json.bak",
+  "size": 2689,
+  "sha256": "537f1045f84caee9e7bb549025778261d32e96247c2362ca70fa98447ea2f5d4",
+  "classification": "LARGE_FILE",
+  "evidence": "Historical database backup snapshot (old backups excluded from Git; kept locally for server restore feature)"
+ },
+ {
+  "file": "bench.log",
+  "size": 202,
+  "sha256": "fba28c7cc19fbf4b3168382806f5d6572c87af54842be69996d3a07b0cf71702",
   "classification": "REMOVE_SAFE",
   "evidence": "root log file"
  },
  {
-  "file": "server-out.log",
-  "size": 46,
-  "sha256": "39eb06dccd25b60a8e5fdb300fe501bbaeb4415520cba346f60e75fb6f9da840",
+  "file": "browse-check.log",
+  "size": 664,
+  "sha256": "24b906fa007c5fe1dc6b540a96c59fad359fef29d6191ad3ff30a92e0ef1e7d4",
   "classification": "REMOVE_SAFE",
   "evidence": "root log file"
  },
  {
-  "file": "srv-err.log",
-  "size": 777,
-  "sha256": "7f32b00d617413e0c9bf3736c6054b8b031016aa86a9cc66963df41285a079b5",
+  "file": "build-pages.log",
+  "size": 320,
+  "sha256": "d567efd49a76c67969440f4596dfac5cef7e7982d704ce7f9f4c9e6b8e72ef4a",
   "classification": "REMOVE_SAFE",
   "evidence": "root log file"
  },
  {
-  "file": "srv-out.log",
-  "size": 46,
-  "sha256": "39eb06dccd25b60a8e5fdb300fe501bbaeb4415520cba346f60e75fb6f9da840",
+  "file": "fixture.log",
+  "size": 2570,
+  "sha256": "0ff759107415f99e3ec4aae4f04b2451ec0fbb18b34221a82ae4d8c42b79b9f0",
   "classification": "REMOVE_SAFE",
   "evidence": "root log file"
  },
  {
-  "file": "validation.log",
-  "size": 469,
-  "sha256": "85b60d94ac300d3585b29d2ffa1a009c350d3b21a835ed370553c1ccecb4b991",
+  "file": "idx-check.log",
+  "size": 368,
+  "sha256": "15673f9712b8fe2cd41f349be996448cc26a1d1a8b4416f48e8c11b864ce6246",
+  "classification": "REMOVE_SAFE",
+  "evidence": "root log file"
+ },
+ {
+  "file": "missing-check.log",
+  "size": 1552,
+  "sha256": "9853bbc490e5207a6b66c2cf28577dde6ac3f6a264b6bdf09f121e6f567c6af0",
+  "classification": "REMOVE_SAFE",
+  "evidence": "root log file"
+ },
+ {
+  "file": "monitor.log",
+  "size": 250,
+  "sha256": "de55c4d6f90f272296ff089a2125d9c6df6d311a9ca42793d2b5f4bd0af2eea3",
+  "classification": "REMOVE_SAFE",
+  "evidence": "root log file"
+ },
+ {
+  "file": "probe.log",
+  "size": 890,
+  "sha256": "9e038e665cfcfb2111730445ebf1efc62c71e437b4ad89559d40ae9592ac8035",
+  "classification": "REMOVE_SAFE",
+  "evidence": "root log file"
+ },
+ {
+  "file": "rebuild.log",
+  "size": 14190,
+  "sha256": "1d3b306e995f126c91541f3eaccf809155b58d419990c8d296f06a078c66c72c",
+  "classification": "REMOVE_SAFE",
+  "evidence": "root log file"
+ },
+ {
+  "file": "runtime-v2/userdata/ai/ai_state.json.bak",
+  "size": 98,
+  "sha256": "a0f06e484d735f67bf0bb46b42a2866c67fe61856f0aea2ee966865f318000e4",
+  "classification": "UNKNOWN",
+  "evidence": "no references found - requires manual review"
+ },
+ {
+  "file": "runtime-v2/userdata/ai/flashcards.json.bak",
+  "size": 68166,
+  "sha256": "47db2484db30c88ea5c621a8dcbf81a7093decb8b0e1969d95ef4b7562846c7a",
+  "classification": "UNKNOWN",
+  "evidence": "no references found - requires manual review"
+ },
+ {
+  "file": "runtime-v2/userdata/ai/learning_sessions.json.bak",
+  "size": 270,
+  "sha256": "c01ee4d26f5b0294c1764e1ccbee3b8cbd9e088043e53f270428263b8b86a3fe",
+  "classification": "UNKNOWN",
+  "evidence": "no references found - requires manual review"
+ },
+ {
+  "file": "runtime-v2/userdata/ai/notifications.json.bak",
+  "size": 2,
+  "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "classification": "UNKNOWN",
+  "evidence": "no references found - requires manual review"
+ },
+ {
+  "file": "runtime-v2/userdata/ai/recommendations.json.bak",
+  "size": 1052,
+  "sha256": "c01867cda338ef504226d2070015ff932e42cb2de0b884af9d603343fad95ee2",
+  "classification": "UNKNOWN",
+  "evidence": "no references found - requires manual review"
+ },
+ {
+  "file": "runtime-v2/userdata/ai/revision_schedule.json.bak",
+  "size": 4507,
+  "sha256": "868a2d6f7398a698f159f31409bbbcc77248b987a88337c77aa623571ae301f5",
+  "classification": "UNKNOWN",
+  "evidence": "no references found - requires manual review"
+ },
+ {
+  "file": "runtime-v2/userdata/ai/strong_topics.json.bak",
+  "size": 2,
+  "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "classification": "UNKNOWN",
+  "evidence": "no references found - requires manual review"
+ },
+ {
+  "file": "runtime-v2/userdata/ai/study_plans.json.bak",
+  "size": 3963,
+  "sha256": "2c821f1b0176113924a4da541ac8816fa457ee7b7f2f1784e336245bea7f4de1",
+  "classification": "UNKNOWN",
+  "evidence": "no references found - requires manual review"
+ },
+ {
+  "file": "runtime-v2/userdata/ai/user_profiles.json.bak",
+  "size": 249,
+  "sha256": "ee2598037255afdb47e39a1364537dafc15058d3ec8e48bd109325e8ff7a7d71",
+  "classification": "UNKNOWN",
+  "evidence": "no references found - requires manual review"
+ },
+ {
+  "file": "runtime-v2/userdata/ai/weak_topics.json.bak",
+  "size": 2,
+  "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "classification": "UNKNOWN",
+  "evidence": "no references found - requires manual review"
+ },
+ {
+  "file": "test-fixture.log",
+  "size": 170,
+  "sha256": "989d139dc0c06e2b85f0d2c925839a1600a5b9c09386447aa5c880b2e09d25f7",
+  "classification": "REMOVE_SAFE",
+  "evidence": "root log file"
+ },
+ {
+  "file": "test-real.log",
+  "size": 292,
+  "sha256": "88b967f49f1f21929605ad6e51432d917507047ac74fbf656f96ff42f9396de0",
+  "classification": "REMOVE_SAFE",
+  "evidence": "root log file"
+ },
+ {
+  "file": "testdb.log",
+  "size": 4436,
+  "sha256": "471f5ad4c69c2a2293f25018a3bb14b114b3e1cfc2b1d8ec9c7c3d90cb240a1c",
+  "classification": "REMOVE_SAFE",
+  "evidence": "root log file"
+ },
+ {
+  "file": "vb.log",
+  "size": 15972,
+  "sha256": "c428ac4ba8f155e9872088e90a414d5384c6d3857a345ab67d315fea285b27d5",
   "classification": "REMOVE_SAFE",
   "evidence": "root log file"
  }

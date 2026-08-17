@@ -1,0 +1,10 @@
+{
+  "phase": 40,
+  "step": 32,
+  "run_at": "2026-08-17T13:52:27.699Z",
+  "design": "SQLite no longer exists in the runtime; the equivalent reproducibility proof is NDJSON.GZ -> deterministic indexes.",
+  "executed": "full index-builder run over database/data (406MB gz, 244 subjects): 2703/2704 files byte-identical; manifest.json differs only by builtAt timestamp.",
+  "original_sqlite_rebuild_tooling": "database/scripts/build-db.js retired with the sqlite stack by explicit user command (previous phase-40 wave); cross-engine equivalence was proven pre-deletion by the A/B parity harness (98 checks, 0 FAIL — docs/phase40_api_parity.json).",
+  "rollback": "oracle copy retained at migration-backups/pakistan-mcqs.sqlite (sha256 recorded) for manual rebuild comparison until release is confirmed.",
+  "verdict": "PASS"
+}

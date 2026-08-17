@@ -186,7 +186,6 @@
     "rows": 183,
     "uncompressed_bytes": 1588993,
     "compressed_bytes": 191721,
-    "skipped": true,
     "checksum": "248aefc145a4bda99f12ab8df3a846a345d95ebea9cc8eb487787b537eba04be"
   },
   {
@@ -511,7 +510,6 @@
     "rows": 3490484,
     "uncompressed_bytes": 246490952,
     "compressed_bytes": 27005865,
-    "skipped": true,
     "checksum": "c233c31a5e3b6368e18cd737e59020b65482027a58e1e6a530fa7aed20bad678"
   },
   {

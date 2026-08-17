@@ -1,0 +1,37 @@
+{
+  "phase": 41,
+  "step": 8,
+  "run_at": "2026-08-17T14:19:57.772Z",
+  "gitignore": "# ============================================================\n# .gitignore - Pakistan MCQs Hub (Phase 34 final release)\n# ============================================================\n\n# --- Dependencies (never committed; zero-dependency project) ---\nnode_modules/\ndesktop/node_modules/\n\n# --- Environment files (secrets stay local; example is committed) ---\n.env\n.env.*\n!.env.example\n\n# --- Production database (2.2 GiB - exceeds GitHub 100 MiB hard limit) ---\ndb/*.sqlite\ndb/*.sqlite-shm\ndb/*.sqlite-wal\n\n# --- Database files anywhere (never commit live data) ---\n*.sqlite\n*.sqlite3\n*.sqlite-wal\n*.sqlite-shm\n*.db\n\n# --- Historical DB backups (kept locally for the restore feature) ---\nbackup/*/\n\n# --- Phase 23 database source payload (large binary; LFS attributes ready) ---\ndatabase/data/\ndatabase/releases/\ndatabase/snapshots/\ndatabase/manifests/.export-checkpoint.json\ndatabase/manifests/.export-checkpoint.json.bak-*\ndatabase/manifests/.build-state.json\n*.part.tmp\n\n# --- Phase 34 cleanup snapshot (outside the repository) ---\nphase34-backup-*/\n\n# --- Test fixtures / caches ---\n.phase26-db-test/\ncoverage/\n.cache/\n\n# --- Phase 40 sqlite rollback copy (outside the repository, never pushed) ---\nmigration-backups/\n.tmp/\ntemp/\n\n# --- Audit scratch ---\n.audit-tmp/\n.claude/\n\n# --- Logs / temp / backups / editor swaps ---\n*.log\n*.tmp\n*.temp\n*.bak\n*.old\n*.swp\n*.orig\n*.part\n*.har\n*.zip\n*.7z\n\n# --- Generic local dirs (keep the candidate tree clean) ---\nlogs/\ncache/\nsnapshots/\n\n# --- OS junk ---\nThumbs.db\nDesktop.ini\n.DS_Store\n\n# --- IDE local state ---\n.vscode/\n.idea/\n*.code-workspace\n\n# --- Browser test artifacts ---\nplaywright-report/\ntest-results/\n",
+  "gitattributes": "# ============================================================\n# .gitattributes - Pakistan MCQs Hub (Phase 34 final release)\n# ============================================================\n\n# Normalize line endings for text files (LF in the repository)\n* text=auto\n\n# --- Specific text types ---\n*.html  text\n*.css   text\n*.js    text\n*.cjs   text\n*.mjs   text\n*.json  text\n*.md    text\n*.yml   text\n*.yaml  text\n*.xml   text\n*.txt   text\n*.sql   text\n*.sh    text eol=lf\n*.cjs   text\n*.webmanifest text\n*.svg   text\n*.conf  text\n*.nojekyll text\n\n# --- Binary files: never diff ---\n*.png   binary\n*.jpg   binary\n*.jpeg  binary\n*.gif   binary\n*.webp  binary\n*.ico   binary\n*.avif  binary\n*.woff  binary\n*.woff2 binary\n*.ttf   binary\n*.eot   binary\n*.sqlite binary\n*.gz    binary\n*.zst   binary\n*.zip   binary\n\n# --- Phase 23 NDJSON source payload (if ever tracked: use Git LFS) ---\n# *.ndjson      -text\n# *.ndjson.gz   filter=lfs diff=lfs merge=lfs -text\n# *.ndjson.zst  filter=lfs diff=lfs merge=lfs -text\n",
+  "required_ignored": [
+    "node_modules/",
+    ".env",
+    ".env.*",
+    "backup/*/",
+    "snapshots/",
+    "logs/",
+    "cache/",
+    "temp/",
+    "*.sqlite",
+    "*.sqlite3",
+    "*.db",
+    "*.sqlite-wal",
+    "*.sqlite-shm",
+    "runtime-v2/userdata/",
+    "runtime-v2/indexes/",
+    "database/data/",
+    "migration-backups/"
+  ],
+  "checks": {
+    "node_modules": false,
+    "env": true,
+    "backup": true,
+    "sqlite_db": true,
+    "userdata": true,
+    "indexes": true,
+    "data_payload": true,
+    "migration_backups": true
+  },
+  "verdict": "PASS"
+}

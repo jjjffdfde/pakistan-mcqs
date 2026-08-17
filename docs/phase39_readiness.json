@@ -1,0 +1,26 @@
+{
+  "phase": 39,
+  "step": 21,
+  "generated_at": "2026-08-13T03:57:00.000Z",
+  "gate": "RELEASE READINESS GATE — v1.0",
+  "checks": {
+    "source_code_trackable": { "status": "PASS", "evidence": "server.js, runtime-v2/, db/*.js, scripts/, ai/, assistant/, pipeline/, desktop/ all in candidate; 0 ignored as source" },
+    "pwa_config": { "status": "PASS", "evidence": "manifest.webmanifest parses; sw.js has fetch handler; offline.html shell > 1 KB; icons >= 8" },
+    "offline_support": { "status": "PASS", "evidence": "smoke check offline.html + SW precache references" },
+    "responsive_design": { "status": "PASS", "evidence": "viewport meta on index + all SEO pages generated with meta viewport" },
+    "backend_flags_endpoints": { "status": "PASS", "evidence": "501/404 EXPECTED routes documented; EDGE_FLAGS unset defaults verified in phase39_environment.json" },
+    "build_determinism": { "status": "PASS", "evidence": "build, build:pages, pwa-assets, og — byte-identical in sandbox; non-mutating" },
+    "tests_pass": { "status": "PASS", "evidence": "34/34 + 30/30 + 82/82 + 51/51 + 43/43; parity 55/8/7/0; lint 0 errors" },
+    "production_db_protected": { "status": "PASS", "evidence": "main + wal byte-identical before/after; config.json restored identical; shm wal-index only (read-only opens), documented" },
+    "no_secrets": { "status": "PASS", "evidence": "0 findings any class; no .map files; .env.example clean" },
+    "no_huge_files": { "status": "PASS", "evidence": "no tracked file > 100 MiB; largest 32.9 MiB evidence archive kept" },
+    "sqlite_excluded": { "status": "PASS", "evidence": "git check-ignore verified for db/*.sqlite, -wal, -shm, database/data, releases, backups" },
+    "git_ready_inspectable": { "status": "PASS", "evidence": "git add --dry-run 116 files; 0 staged, 0 committed — committed evidence files in tests/phase31 + docs/phase38_* retained" },
+    "docs_manifests_ready": { "status": "PASS", "evidence": "RELEASE_MANIFEST.json + RELEASE_NOTES.md at root; phase39 docs 19 files" },
+    "p0_p1_issues": { "status": "PASS_ZERO", "evidence": "no P0/P1; all fixes phase ≤ 38; phase 39 = verification/finalization only" }
+  },
+  "known_not_implemented": [
+    { "item": "static topic pages (subjects/topics/*.html)", "severity": "NONE (documented)", "detail": "topics served via chapter pages + /api/topics + knowledge-graph; smoke records NOT_IMPLEMENTED" }
+  ],
+  "verdict": "READY_FOR_GITHUB — push/commit NOT performed (user action required: create repo, commit candidate, push)"
+}

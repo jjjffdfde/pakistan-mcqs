@@ -1,0 +1,27 @@
+{
+  "phase": 38,
+  "step": 4,
+  "run_at": "2026-08-12T07:00:00.000Z",
+  "title": "Runtime index design (runtime-v2/indexes)",
+  "builder": "runtime-v2/index-builder.cjs — node runtime-v2/index-builder.cjs (full rebuild 80.2s; pass5 build peak RSS 700MB)",
+  "passes": {
+    "pass1": "id -> subjectIdx int meta (mcq_by_id.json 20MB), by_chapter/by_topic/by_difficulty/by_year/by_exam id lists (insertion order = rowid order), per-subject active counts (mcq_by_subject.json), manifest.json {sourceFiles:{subject:{bytes,lines}}, rows:872621, maxCreatedAt:2026-08-05T12:46:30}",
+    "pass2": "search postings: question+explanation tokens, lowercased unicode [\\p{L}\\p{N}]+ >=4 chars, bucketed by first char (a-z0-9 + 'other' = 37 files), sorted keys for prefix matching",
+    "pass3": "options grouped per subject -> options/<subject>.json (243 files); meta stored as plain ints — decode must use Array.isArray fallback (fix applied: previously 3.49M options orphaned)",
+    "pass4": "recent.json: { ids: [872621 ids in rowid order], rp: [recent-order permutation] } (23MB)",
+    "pass5": "qhash.idx (75MB) + concept.idx — removal candidates: no runtime reader exists"
+  },
+  "boundedness": {
+    "note": "all reads are streaming (ChunkWriter/writeJsonStreamed flush in 20k-item slices); pass3 peak memory kept low via per-subject flush"
+  },
+  "determinism": {
+    "note": "indexes are deterministic across rebuilds given identical exports; integrity verified with order-independent per-row sha256 hashes (27/27 PASS — see phase38_integrity.json)"
+  },
+  "runtime_consumption": {
+    "meta": "mcq_by_id.json parsed once (~79MB heap)",
+    "recent": "recent.json parsed once (ids 44MB heap + rp)",
+    "search": "buckets cached LRU by bytes (32MB cap)",
+    "key_indexes": "chapter/topic/difficulty/year/exam files cached per key",
+    "options": "loaded per subject on demand (options/<subject>.json) or from LRU part"
+  }
+}

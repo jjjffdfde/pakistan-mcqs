@@ -1,0 +1,3037 @@
+{
+ "generated_at": "2026-08-17T06:08:12.731Z",
+ "controls": [
+  {
+   "page": "admin.html",
+   "control": "<a href=\"index.html\" class=\"brand\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "admin.html",
+   "control": "<a class=\"nav-link\" href=\"index.html\" style=\"color:#fff\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "admin.html",
+   "control": "<button id=\"darkToggle\" class=\"icon-btn\" aria-label=\"Toggle dark mode\">",
+   "type": "button",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "admin.html",
+   "control": "<button data-tab=\"stats\" class=\"active\" role=\"tab\">",
+   "type": "button",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "admin.html",
+   "control": "<button data-tab=\"mcqs\" role=\"tab\">",
+   "type": "button",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "admin.html",
+   "control": "<button data-tab=\"categories\" role=\"tab\">",
+   "type": "button",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "admin.html",
+   "control": "<button data-tab=\"subjects\" role=\"tab\">",
+   "type": "button",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "admin.html",
+   "control": "<button data-tab=\"topics\" role=\"tab\">",
+   "type": "button",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "admin.html",
+   "control": "<button data-tab=\"explanations\" role=\"tab\">",
+   "type": "button",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "admin.html",
+   "control": "<button data-tab=\"gen\" role=\"tab\">",
+   "type": "button",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "admin.html",
+   "control": "<button data-tab=\"images\" role=\"tab\">",
+   "type": "button",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "admin.html",
+   "control": "<button data-tab=\"import\" role=\"tab\">",
+   "type": "button",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "admin.html",
+   "control": "<button data-tab=\"dups\" role=\"tab\">",
+   "type": "button",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "admin.html",
+   "control": "<button data-tab=\"export\" role=\"tab\">",
+   "type": "button",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "admin.html",
+   "control": "<input type=\"search\" id=\"admSearch\" placeholder=\"Question text, id, subject...\">",
+   "type": "input",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "admin.html",
+   "control": "<select id=\"admSubject\">",
+   "type": "select",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "admin.html",
+   "control": "<select id=\"admDifficulty\">",
+   "type": "select",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "admin.html",
+   "control": "<input type=\"text\" id=\"catName\" placeholder=\"e.g. Law Enforcement\">",
+   "type": "input",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "admin.html",
+   "control": "<input type=\"text\" id=\"catIcon\" maxlength=\"2\" placeholder=\"LE\">",
+   "type": "input",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "admin.html",
+   "control": "<input type=\"text\" id=\"catDesc\" placeholder=\"What belongs here\">",
+   "type": "input",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "admin.html",
+   "control": "<button id=\"catAdd\" class=\"btn btn-primary\" style=\"align-self:flex-end\">",
+   "type": "button",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "admin.html",
+   "control": "<input type=\"text\" id=\"subjName\" placeholder=\"e.g. Islamic Banking\">",
+   "type": "input",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "admin.html",
+   "control": "<input type=\"text\" id=\"subjIcon\" maxlength=\"2\" placeholder=\"IB\">",
+   "type": "input",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "admin.html",
+   "control": "<select id=\"subjCat\">",
+   "type": "select",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "admin.html",
+   "control": "<input type=\"text\" id=\"subjDesc\" placeholder=\"One-line description\">",
+   "type": "input",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "admin.html",
+   "control": "<button id=\"subjAdd\" class=\"btn btn-primary\" style=\"align-self:flex-end\">",
+   "type": "button",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "admin.html",
+   "control": "<select id=\"topChapter\">",
+   "type": "select",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "admin.html",
+   "control": "<input type=\"text\" id=\"topName\" placeholder=\"e.g. Vectors & Scalars\">",
+   "type": "input",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "admin.html",
+   "control": "<input type=\"text\" id=\"topSubtopics\" placeholder=\"fundamentals, practice questions\">",
+   "type": "input",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "admin.html",
+   "control": "<button id=\"topAdd\" class=\"btn btn-primary\" style=\"align-self:flex-end\">",
+   "type": "button",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "admin.html",
+   "control": "<select id=\"expFilter\">",
+   "type": "select",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "admin.html",
+   "control": "<button id=\"expEnrich\" class=\"btn btn-gold\" style=\"align-self:flex-end\">",
+   "type": "button",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "admin.html",
+   "control": "<select id=\"genSubject\">",
+   "type": "select",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "admin.html",
+   "control": "<select id=\"genChapter\" disabled>",
+   "type": "select",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "admin.html",
+   "control": "<select id=\"genTopic\" disabled>",
+   "type": "select",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "admin.html",
+   "control": "<select id=\"genDifficulty\">",
+   "type": "select",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "admin.html",
+   "control": "<select id=\"genExam\">",
+   "type": "select",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "admin.html",
+   "control": "<select id=\"genCount\">",
+   "type": "select",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "admin.html",
+   "control": "<button id=\"genRun\" class=\"btn btn-primary\" style=\"align-self:flex-end\">",
+   "type": "button",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "admin.html",
+   "control": "<input type=\"file\" id=\"imgFile\" accept=\"image/*\">",
+   "type": "input",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "admin.html",
+   "control": "<input type=\"text\" id=\"imgName\" placeholder=\"og-cover\">",
+   "type": "input",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "admin.html",
+   "control": "<button id=\"imgAdd\" class=\"btn btn-primary\" style=\"align-self:flex-end\">",
+   "type": "button",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "admin.html",
+   "control": "<select id=\"impType\">",
+   "type": "select",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "admin.html",
+   "control": "<select id=\"impMode\">",
+   "type": "select",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "admin.html",
+   "control": "<input type=\"file\" id=\"impFile\" accept=\".csv,.json,.txt\">",
+   "type": "input",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "admin.html",
+   "control": "<button id=\"impRun\" class=\"btn btn-primary\">",
+   "type": "button",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "admin.html",
+   "control": "<button id=\"impSample\" class=\"btn btn-outline\">",
+   "type": "button",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "admin.html",
+   "control": "<button id=\"dupRemoveAll\" class=\"btn btn-outline\" style=\"margin-top:10px\">",
+   "type": "button",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "admin.html",
+   "control": "<button id=\"expJson\" class=\"btn btn-primary\">",
+   "type": "button",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "admin.html",
+   "control": "<button id=\"expCsv\" class=\"btn btn-primary\">",
+   "type": "button",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "admin.html",
+   "control": "<button id=\"expCategories\" class=\"btn btn-primary\">",
+   "type": "button",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "admin.html",
+   "control": "<button id=\"expSubjects\" class=\"btn btn-primary\">",
+   "type": "button",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "admin.html",
+   "control": "<button id=\"expTopics\" class=\"btn btn-primary\">",
+   "type": "button",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "admin.html",
+   "control": "<button id=\"expReset\" class=\"btn btn-outline\">",
+   "type": "button",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "index.html",
+   "control": "<button class=\"nav-link\" data-view=\"home\">",
+   "type": "button",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "index.html",
+   "control": "<button class=\"nav-link\" data-view=\"browse\">",
+   "type": "button",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "index.html",
+   "control": "<button class=\"nav-link\" data-view=\"practice\">",
+   "type": "button",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "index.html",
+   "control": "<button class=\"nav-link\" data-view=\"quiz\">",
+   "type": "button",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "index.html",
+   "control": "<button class=\"nav-link\" data-view=\"papers\">",
+   "type": "button",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "index.html",
+   "control": "<button class=\"nav-link\" data-view=\"dashboard\">",
+   "type": "button",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "index.html",
+   "control": "<button class=\"nav-link\" data-view=\"ai-coach\">",
+   "type": "button",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "index.html",
+   "control": "<button class=\"nav-link\" data-view=\"leaderboard\">",
+   "type": "button",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "index.html",
+   "control": "<button class=\"nav-link\" data-view=\"bookmarks\">",
+   "type": "button",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "index.html",
+   "control": "<a class=\"nav-link\" href=\"subjects/index.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "index.html",
+   "control": "<button id=\"darkToggle\" class=\"icon-btn\" aria-label=\"Toggle dark mode\" title=\"Toggle dark mode\">",
+   "type": "button",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "index.html",
+   "control": "<button id=\"menuToggle\" class=\"icon-btn menu-btn\" aria-label=\"Open menu\" title=\"Menu\">",
+   "type": "button",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "index.html",
+   "control": "<input type=\"search\" id=\"globalSearch\" placeholder=\"Instant search 1300+ MCQs (240,000+ with local D",
+   "type": "input",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "index.html",
+   "control": "<button id=\"searchBtn\" class=\"btn btn-primary\">",
+   "type": "button",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "index.html",
+   "control": "<button class=\"btn btn-primary\" data-view=\"practice\">",
+   "type": "button",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "index.html",
+   "control": "<button class=\"btn btn-outline\" data-view=\"quiz\">",
+   "type": "button",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "index.html",
+   "control": "<button class=\"btn btn-gold\" data-view=\"dashboard\">",
+   "type": "button",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "index.html",
+   "control": "<button id=\"qotdReveal\" class=\"btn btn-sm btn-outline\">",
+   "type": "button",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "index.html",
+   "control": "<select id=\"fSubject\">",
+   "type": "select",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "index.html",
+   "control": "<select id=\"fChapter\" disabled>",
+   "type": "select",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "index.html",
+   "control": "<select id=\"fTopic\" disabled>",
+   "type": "select",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "index.html",
+   "control": "<select id=\"fSubtopic\" disabled>",
+   "type": "select",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "index.html",
+   "control": "<select id=\"fDifficulty\">",
+   "type": "select",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "index.html",
+   "control": "<select id=\"fExam\">",
+   "type": "select",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "index.html",
+   "control": "<select id=\"fYear\">",
+   "type": "select",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "index.html",
+   "control": "<select id=\"fType\">",
+   "type": "select",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "index.html",
+   "control": "<button id=\"fReset\" class=\"btn btn-outline btn-sm\">",
+   "type": "button",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "index.html",
+   "control": "<select id=\"pMode\">",
+   "type": "select",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "index.html",
+   "control": "<select id=\"pSubject\">",
+   "type": "select",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "index.html",
+   "control": "<select id=\"pDifficulty\">",
+   "type": "select",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "index.html",
+   "control": "<select id=\"pCount\">",
+   "type": "select",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "index.html",
+   "control": "<input type=\"checkbox\" id=\"pNegative\">",
+   "type": "input",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "index.html",
+   "control": "<button id=\"pStart\" class=\"btn btn-primary\">",
+   "type": "button",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "index.html",
+   "control": "<button id=\"pQuit\" class=\"btn btn-outline btn-sm\">",
+   "type": "button",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "index.html",
+   "control": "<button class=\"btn btn-primary\" data-view=\"dashboard\">",
+   "type": "button",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "index.html",
+   "control": "<button id=\"pAgain\" class=\"btn btn-outline\">",
+   "type": "button",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "index.html",
+   "control": "<button id=\"qQuit\" class=\"btn btn-outline btn-sm\">",
+   "type": "button",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "index.html",
+   "control": "<button id=\"quizRetry\" class=\"btn btn-primary\">",
+   "type": "button",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "index.html",
+   "control": "<button id=\"quizBack\" class=\"btn btn-outline\">",
+   "type": "button",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "index.html",
+   "control": "<select id=\"paperExamFilter\">",
+   "type": "select",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "index.html",
+   "control": "<button id=\"eSubmit\" class=\"btn btn-primary btn-sm\">",
+   "type": "button",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "index.html",
+   "control": "<button id=\"ePrev\" class=\"btn btn-outline\">",
+   "type": "button",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "index.html",
+   "control": "<button id=\"eNext\" class=\"btn btn-primary\">",
+   "type": "button",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "index.html",
+   "control": "<button id=\"examRetry\" class=\"btn btn-primary\">",
+   "type": "button",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "index.html",
+   "control": "<button id=\"examBack\" class=\"btn btn-outline\">",
+   "type": "button",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "index.html",
+   "control": "<button id=\"planRecommended\" class=\"btn btn-gold btn-sm\" style=\"margin-bottom:10px\">",
+   "type": "button",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "index.html",
+   "control": "<button id=\"weekStart\" class=\"btn btn-primary\">",
+   "type": "button",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "index.html",
+   "control": "<button id=\"weekClaim\" class=\"btn btn-gold\" hidden>",
+   "type": "button",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "index.html",
+   "control": "<button id=\"monthStart\" class=\"btn btn-primary\">",
+   "type": "button",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "index.html",
+   "control": "<button id=\"monthClaim\" class=\"btn btn-gold\" hidden>",
+   "type": "button",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "index.html",
+   "control": "<button id=\"lbNewEntry\" class=\"btn btn-outline\">",
+   "type": "button",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "index.html",
+   "control": "<button id=\"bmPractice\" class=\"btn btn-primary\" style=\"margin-top:10px\">",
+   "type": "button",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "index.html",
+   "control": "<button class=\"ai-tab active\" data-ai-tab=\"dashboard\">",
+   "type": "button",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "index.html",
+   "control": "<button class=\"ai-tab\" data-ai-tab=\"planner\">",
+   "type": "button",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "index.html",
+   "control": "<button class=\"ai-tab\" data-ai-tab=\"adaptive\">",
+   "type": "button",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "index.html",
+   "control": "<button class=\"ai-tab\" data-ai-tab=\"revision\">",
+   "type": "button",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "index.html",
+   "control": "<button class=\"ai-tab\" data-ai-tab=\"cards\">",
+   "type": "button",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "index.html",
+   "control": "<button class=\"ai-tab\" data-ai-tab=\"mock\">",
+   "type": "button",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "index.html",
+   "control": "<button class=\"ai-tab\" data-ai-tab=\"recommend\">",
+   "type": "button",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "index.html",
+   "control": "<button class=\"ai-tab\" data-ai-tab=\"news\">",
+   "type": "button",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "index.html",
+   "control": "<button class=\"ai-tab\" data-ai-tab=\"analytics\">",
+   "type": "button",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "index.html",
+   "control": "<button class=\"ai-tab\" data-ai-tab=\"leaderboard\">",
+   "type": "button",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "index.html",
+   "control": "<button class=\"ai-tab\" data-ai-tab=\"notifications\">",
+   "type": "button",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "index.html",
+   "control": "<button class=\"nav-link\" data-view=\"home\">",
+   "type": "button",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "index.html",
+   "control": "<button class=\"nav-link\" data-view=\"browse\">",
+   "type": "button",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "index.html",
+   "control": "<button class=\"nav-link\" data-view=\"papers\">",
+   "type": "button",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "index.html",
+   "control": "<a href=\"admin.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "index.html",
+   "control": "<button class=\"btn btn-primary\" id=\"certClose\">",
+   "type": "button",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "index.html",
+   "control": "<button class=\"btn btn-outline\" id=\"certPrint\">",
+   "type": "button",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "offline.html",
+   "control": "<button class=\"btn btn-primary\" id=\"offlineRetry\" type=\"button\">",
+   "type": "button",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "offline.html",
+   "control": "<button class=\"btn btn-outline\" id=\"offlineHome\" type=\"button\">",
+   "type": "button",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"general-knowledge.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"geography.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"history.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"current-affairs.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"world-current-affairs.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"pakistan-affairs.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"islamic-studies.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"english.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"urdu.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"english-literature.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"essay.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"vocabulary.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"grammar.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"synonyms.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"antonyms.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"idioms.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"sentence-correction.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"comprehension.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"everyday-science.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"physics.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"chemistry.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"biology.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"botany.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"zoology.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"environmental-science.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"biotechnology.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"computer-science.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"algorithms.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"artificial-intelligence.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"bash.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"compiler-design.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"computer-graphics.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"data-structures.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"digital-logic.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"distributed-systems.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"express.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"git.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"github.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"mobile-development.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"mongodb.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"nosql.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"postgresql.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"programming-fundamentals.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"sqlite.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"system-design.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"web-development.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"software-eng.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"programming.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"networking.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"operating-systems.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"ai.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"data-science.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"cyber-security.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"cloud-computing.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"ms-office.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"machine-learning.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"deep-learning.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"ethical-hacking.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"devops.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"big-data.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"database.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"sql.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"windows.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"linux.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"html.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"css.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"javascript.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"typescript.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"bootstrap.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"tailwind-css.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"react.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"next-js.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"vue-js.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"angular.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"node-js.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"express-js.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"php.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"laravel.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"python.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"django.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"flask.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"java.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"spring-boot.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"c.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"cpp.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"csharp.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"dotnet.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"go.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"rust.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"git-github.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"docker.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"kubernetes.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"rest-api.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"graphql.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"pedagogy.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"education.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"psychology.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"economics.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"statistics.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"international-relations.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"political-science.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"sociology.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"anthropology.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"physical-education.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"world-history.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"pakistan-history.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"accounting.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"auditing-standards.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"business-administration.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"business-law.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"entrepreneurship.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"management.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"management-accounting.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"organization-behavior.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"project-management.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"taxation.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"finance.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"commerce.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"business-admin.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"auditing.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"supply-chain.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"hrm.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"marketing.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"law.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"constitution.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"behavioral-sciences.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"dental-medicine.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"dental-surgery.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"ent.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"forensic-medicine.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"gynecology.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"nutrition.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"ophthalmology.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"pediatrics.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"public-health.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"agriculture.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"veterinary.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"nursing.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"medical.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"pharmacy.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"anatomy.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"physiology.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"pathology.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"microbiology.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"biochemistry.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"histology.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"dental-materials.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"medicine.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"surgery.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"community-medicine.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"mbbs.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"bds.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"dpt.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"pharmacology.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"general-anatomy.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"oral-anatomy.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"oral-histology.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"oral-pathology.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"architecture.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"mining-engineering.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"petroleum-engineering.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"telecommunication.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"textile-engineering.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"electrical-eng.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"mechanical-eng.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"civil-eng.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"electronics.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"chemical-eng.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"industrial-eng.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"environmental-eng.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"mechatronics.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"computer-engineering.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"mathematics.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"reasoning.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"iq.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"logical-reasoning.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"analytical-reasoning.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"verbal-reasoning.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"non-verbal-reasoning.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"data-interpretation.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"aptitude-tests.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"forestry.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"mdcat.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"ecat.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"lat.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"gat.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"gre.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"ielts.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"toefl.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"sat.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"css-exam.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"pms.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"ppsc.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"fpsc.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"kppsc.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"spsc.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"bpsc.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"ajkpsc.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"nts.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"ots.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"cts.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"pts.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"educators.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"lecturer.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"election-officer.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"army.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"navy.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"paf.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"pma.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"issb.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"police.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"punjab-police.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"motorway-police.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"fia.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"fia-inspector.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"asf.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"anf.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"ib.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"mod.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"nab.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"railway.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"wapda.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"nadra.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"fbr.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"sbp.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"banking.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"rescue-1122.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"lesco.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"mepco.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"hesco.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"sepco.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"ssgc.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"sngpl.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"pakistan-post.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"teaching.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"sst.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"est.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"headmaster.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"inspector.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"sub-inspector.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"custom-inspector.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"income-tax-inspector.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  },
+  {
+   "page": "subjects/index.html",
+   "control": "<a href=\"assistant-director.html\">",
+   "type": "link",
+   "has_onclick": false,
+   "api_dependent": null,
+   "sqlite_dependent": null
+  }
+ ],
+ "page_to_api": [
+  {
+   "page": "index.html/admin.html",
+   "apis": [
+    "/api/mcq/",
+    "/api/ai/profile",
+    "/api/ai/mock/predictions",
+    "/api/ai/planner",
+    "/api/ai/planner/regenerate",
+    "/api/ai/planner/complete",
+    "/api/ai/adaptive/start",
+    "/api/ai/adaptive/next",
+    "/api/ai/adaptive/submit",
+    "/api/ai/adaptive/finish",
+    "/api/ai/spaced/due",
+    "/api/ai/spaced/review",
+    "/api/ai/flashcards/due",
+    "/api/ai/flashcards/build",
+    "/api/ai/flashcards/review",
+    "/api/mocktests",
+    "/api/mocktests",
+    "/api/ai/mock/predict",
+    "/api/ai/recommendations",
+    "/api/ai/current-affairs",
+    "/api/ai/analytics",
+    "/api/ai/leaderboard",
+    "/api/ai/notifications",
+    "/api/ai/notifications/read",
+    "/api/ai/weak-topics",
+    "/api/stats",
+    "/api/subjects",
+    "/api/chapters",
+    "/api/topics",
+    "/api/quizzes",
+    "/api/pastpapers",
+    "/api/exams",
+    "/api/categories",
+    "/api/history",
+    "/api/bookmarks",
+    "/api/mcqs",
+    "/api/random",
+    "/api/search",
+    "/api/browse",
+    "/api/leaderboard"
+   ]
+  },
+  {
+   "page": "runtime-v2/server.cjs",
+   "apis": [
+    "/api/mcq/",
+    "/api/kg/concepts/",
+    "/api/ai/"
+   ]
+  },
+  {
+   "page": "scripts/phase40/parity.cjs",
+   "apis": [
+    "/api/mcq/"
+   ]
+  },
+  {
+   "page": "scripts/validate-buttons.cjs",
+   "apis": [
+    "/api/mocktests",
+    "/api/subjects",
+    "/api/quizzes",
+    "/api/pastpapers",
+    "/api/exams",
+    "/api/bookmarks",
+    "/api/random",
+    "/api/browse",
+    "/api/leaderboard",
+    "/api/health"
+   ]
+  },
+  {
+   "page": "scripts/phase35/analyze.cjs",
+   "apis": [
+    "/api"
+   ]
+  },
+  {
+   "page": "scripts/phase36/analyze.cjs",
+   "apis": [
+    "/api"
+   ]
+  }
+ ]
+}

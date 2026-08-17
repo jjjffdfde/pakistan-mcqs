@@ -1,0 +1,44 @@
+{
+  "step": "monitoring",
+  "generated_at": "2026-08-13T05:03:04.919Z",
+  "summary": {
+    "data": "ok",
+    "api": "ok",
+    "status": "HEALTHY",
+    "mcqs_active": 872621,
+    "db_size_mb": 963,
+    "api_health_ms": 29
+  },
+  "checks": {
+    "data": {
+      "ok": true,
+      "mcqs_total": 872621,
+      "mcqs_active": 872621,
+      "subjects": 243,
+      "integrity": "ok",
+      "index_files": 2704,
+      "index_bytes": 663481922,
+      "parts_bytes": 346227820,
+      "last_updated": "2026-08-05T12:46:30",
+      "data_source": "E:\\pAK MCQS\\database\\data"
+    },
+    "ai_store": {
+      "ok": true,
+      "store_files": 4,
+      "store_bytes": 2406
+    },
+    "api": {
+      "ok": true,
+      "status": 200,
+      "ms": 29,
+      "body": {
+        "ok": true,
+        "mcqs": 872621,
+        "data_source": "ndjson"
+      },
+      "server_was_running": true,
+      "booted_for_check": true,
+      "boot_ms": 531
+    }
+  }
+}

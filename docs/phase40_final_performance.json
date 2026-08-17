@@ -1,0 +1,32 @@
+{
+  "phase": 40,
+  "step": 25,
+  "run_at": "2026-08-17T13:52:26.351Z",
+  "target_rss_mb": 512,
+  "measured": {
+    "gate_rss_mb": null,
+    "physical_rss_mb": 482,
+    "heap_cap_mb": 384,
+    "index_rebuild_peak_rss_mb": 695.1,
+    "index_rebuild_time_s": 204.5
+  },
+  "document_gt_1s": [
+    "random?limit=50 (production, cold streams): 10-17s — bounded reservoir + per-subject part streaming of 406MB gz source; set-parity with SQLite RANDOM().",
+    "attachRelated on wide multi-subject rows: ~6-10s cold (full chapter tag-scoring pass; bounded memory).",
+    "/api/export full dump (1.38GB JSON): ~36-115s streamed at O(1) memory (was OOM before streaming).",
+    "search 'physics': ~0.2s after letter-bucket load."
+  ],
+  "optimizations_applied": [
+    "export streaming (JSON array + CSV written incrementally; no 872k-row materialization).",
+    "fetchRows per-subject early termination (aborts part decompression once all wanted ids found).",
+    "fileCache byte-bounded LRU (48MB max, was entry-bounded 8 entries — qhash.idx 74.6MB raw no longer retained).",
+    "subject-part LRU tightened (12 entries / 20,000 rows max, was 20 / 30,000) — fixes high-water OOM at the 384MB test cap.",
+    "searchCache byte-bounded (32MB LRU).",
+    "subject-part LRU bounded (LRU order); oversized parts never materialized into cache."
+  ],
+  "stability": {
+    "issue": "final-smoke OOM at 384MB heap cap (Ineffective mark-compacts) — reproduced 3x, then fixed by byte-bounding fileCache + tightening part LRU; 2 consecutive 105/105 runs after fix.",
+    "status": "RESOLVED"
+  },
+  "verdict": "PASS"
+}

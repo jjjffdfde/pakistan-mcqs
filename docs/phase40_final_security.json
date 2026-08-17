@@ -1,0 +1,21 @@
+{
+  "phase": 40,
+  "step": 24,
+  "run_at": "2026-08-17T13:52:26.350Z",
+  "checks": {
+    "phase39_scan": "PASS",
+    "secret_like_hits": 0,
+    "env_files_committed": 0
+  },
+  "notes": [
+    "Index rebuild after import overlay: rows=872624 optionRows=3490496 (4x rows) — import options now counted in manifest (fix in index-builder pass3).",
+    "Determinism: full rebuild of unchanged inputs reproduced 2703/2704 files byte-identical (manifest differs only by builtAt).",
+    "API keys / tokens / passwords / private keys: 0 secret-like findings (phase39 security-scan: 2055 files, 0 findings).",
+    "SQL endpoints: none (runtime has no SQL engine).",
+    "Path traversal: restore validates dir against backup root (admin.cjs); export/import are validation-gated.",
+    "Private data: userdata/ is gitignored (runtime-v2/.gitignore); migration-backups/ gitignored.",
+    ".env is gitignored; only .env.example is tracked.",
+    "Unsafe file writes: user-store.cjs uses atomic temp-file + rename writes with sha256 sidecars."
+  ],
+  "verdict": "PASS"
+}

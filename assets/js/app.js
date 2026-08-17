@@ -45,15 +45,15 @@
 
   /* ---------- DB mode (localhost API server, optional) ----------
      Static-first: the site works fully from data/*.json without any
-     server. When the localhost API (server.js, port 8765) is reachable,
-     browse/search/practice/quiz/leaderboard use the full 240K+ DB. */
+     server. When the localhost API (runtime-v2/server.cjs, port 8766) is
+     reachable, browse/search/practice/quiz/leaderboard use the full 240K+ DB. */
   const DB = {
-    api: "http://localhost:8765",
+    api: "http://localhost:8766",
     enabled: false,
     total: 0,
     stats: null,
     async probe() {
-      const hosts = ["http://localhost:8765", "http://127.0.0.1:8765"];
+      const hosts = ["http://localhost:8766", "http://127.0.0.1:8766", "http://localhost:8765", "http://127.0.0.1:8765"];
       for (const host of hosts) {
         try {
           const ctl = new AbortController();
@@ -566,7 +566,7 @@
     const n = DB.enabled ? DB.total : state.mcqs.length;
     el.innerHTML = `
       <div class="db-status-head"><span class="dot dot-off"></span><strong>${src}</strong><span class="muted">${n.toLocaleString()} MCQs</span></div>
-      <p class="muted">Local database <b>offline</b> — showing the demo bank. Start the server with <code>node server.js</code> (port 8765) to unlock all 240,000+ MCQs, then reload.</p>`;
+      <p class="muted">Local database <b>offline</b> — showing the demo bank. Start the server with <code>node runtime-v2/server.cjs</code> (port 8766) to unlock all 240,000+ MCQs, then reload.</p>`;
   }
 
   function renderHome() {

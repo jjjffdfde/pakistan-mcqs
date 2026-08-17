@@ -1,0 +1,78 @@
+{
+ "phase": 38,
+ "step": 14,
+ "tool": "scripts/phase38/bench.cjs",
+ "run_at": "2026-08-12T07:08:47.185Z",
+ "method": "isolated node processes; each op 3 runs; medians reported; warm caches for ndjson (cold startup listed separately)",
+ "max_ram_target_mb": 512,
+ "startup_ms": {
+  "sqlite": 6,
+  "ndjson": 22,
+  "note": "ndjson startup streams exports; sqlite opens the DB file"
+ },
+ "ops": {
+  "search_hot": {
+   "sqlite_ms": 3.6,
+   "ndjson_ms": 4331.9,
+   "ratio": 1199.67,
+   "winner": "sqlite"
+  },
+  "search_warm": {
+   "sqlite_ms": 3.1,
+   "ndjson_ms": 1379.4,
+   "ratio": 441.68,
+   "winner": "sqlite"
+  },
+  "browse_p1": {
+   "sqlite_ms": 1296.6,
+   "ndjson_ms": 4130.1,
+   "ratio": 3.19,
+   "winner": "sqlite"
+  },
+  "browse_p3": {
+   "sqlite_ms": 4505.5,
+   "ndjson_ms": 407.8,
+   "ratio": 0.09,
+   "winner": "ndjson"
+  },
+  "mcq_lookup": {
+   "sqlite_ms": 2.5,
+   "ndjson_ms": 598.8,
+   "ratio": 240.1,
+   "winner": "sqlite"
+  },
+  "random_seeded": {
+   "sqlite_ms": 0.3,
+   "ndjson_ms": 671.1,
+   "ratio": 2619.35,
+   "winner": "sqlite"
+  },
+  "subject_filter": {
+   "sqlite_ms": 1.2,
+   "ndjson_ms": 9.2,
+   "ratio": 7.37,
+   "winner": "sqlite"
+  },
+  "kg_concept_lookup": {
+   "sqlite_ms": 0.4,
+   "ndjson_ms": 8,
+   "ratio": 17.85,
+   "winner": "sqlite"
+  },
+  "kg_concept_search": {
+   "sqlite_ms": 6.1,
+   "ndjson_ms": 4.4,
+   "ratio": 0.72,
+   "winner": "ndjson"
+  }
+ },
+ "memory_rss_mb": {
+  "sqlite": 41.9,
+  "ndjson": 465.7,
+  "within_512mb": true
+ },
+ "cache_hits": {
+  "note": "ndjson LRU: subject parts (max 20 entries / 30000 rows) + file cache + key-index cache + search-bucket cache 32MB; sqlite: OS page cache + prepared statements"
+ },
+ "verdict": "PASS"
+}

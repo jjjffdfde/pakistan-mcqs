@@ -1,0 +1,19 @@
+{
+  "phase": 39,
+  "step": 13,
+  "generated_at": "2026-08-13T03:40:00.000Z",
+  "method": "phase38 parity harness re-run; the SQLite reference server was pointed at a byte-identical sandbox copy of the production DB (db/config.json temporarily redirected, restored and verified byte-identical afterwards) so the production database stayed untouched",
+  "result": {
+    "PASS": 55,
+    "PASS_SET": 8,
+    "EXPECTED": 7,
+    "FAIL": 0,
+    "verdict": "PASS_WITH_DOCUMENTED_DIVERGENCES"
+  },
+  "unchanged_from_phase38": true,
+  "production_db_protected": {
+    "writes_occurred_on": "sandbox copy only",
+    "config_restored_identical": true,
+    "phase39_database_integrity": "see phase39_database_integrity.json"
+  }
+}

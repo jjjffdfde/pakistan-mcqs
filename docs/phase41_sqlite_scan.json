@@ -1,0 +1,13 @@
+{
+  "phase": 41,
+  "step": 3,
+  "run_at": "2026-08-17T14:19:55.094Z",
+  "scanned_files": 1259,
+  "runtime_code_hits": 0,
+  "tooling_hits": 0,
+  "test_hits": 0,
+  "ci_hits": 0,
+  "documentation_hits": 0,
+  "detail": "RUNTIME/TEST/CI/TOOLING code hits: 0 expected (phase40 evidence: 27 runtime mentions, all comments or legacy sqlite_version field)",
+  "verdict": "PASS"
+}

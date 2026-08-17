@@ -1,7 +1,7 @@
 # ============================================================
-# Phase 26 - STEP 9: Pakistan MCQS Hub — Compose (Enterprise)
-#   api : node server.js (SQLite read-only)          [internal]
-#   web : nginx static site + proxy /api -> api:8765  [public:80]
+# Phase 40 - Pakistan MCQS Hub — Compose (file-engine runtime)
+#   api : node runtime-v2/server.cjs (NDJSON file engine) [internal]
+#   web : nginx static site + proxy /api -> api:8766  [public:80]
 # Usage: docker compose up -d --build
 # ============================================================
 name: pakistan-mcqs-hub
@@ -12,19 +12,19 @@ services:
     container_name: pakistan-mcqs-api
     restart: unless-stopped
     working_dir: /app
-    command: ["node", "server.js"]
+    command: ["node", "--max-old-space-size=384", "runtime-v2/server.cjs"]
     volumes:
       - ./:/app:ro
-      - ./db:/app/db:ro
+      - mcqs-userdata:/app/runtime-v2/userdata
     environment:
-      MCQS_PORT: "8765"
+      MCQS_JSON_PORT: "8766"
     security_opt:
       - no-new-privileges:true
     read_only: true
     tmpfs:
       - /tmp
     healthcheck:
-      test: ["CMD", "node", "-e", "fetch('http://127.0.0.1:8765/api/health').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))"]
+      test: ["CMD", "node", "-e", "fetch('http://127.0.0.1:8766/api/health').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))"]
       interval: 30s
       timeout: 5s
       retries: 3
@@ -60,3 +60,6 @@ services:
     command: ["sh", "-c", "node scripts/lint.cjs && node backup/verify-backup.js && node scripts/benchmark.cjs"]
     volumes:
       - .:/repo:ro
+
+volumes:
+  mcqs-userdata:

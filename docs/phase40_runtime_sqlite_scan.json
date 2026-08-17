@@ -1,0 +1,213 @@
+{
+  "phase": 40,
+  "step": 19,
+  "run_at": "2026-08-17T13:52:27.638Z",
+  "node_sqlite_imports": 0,
+  "DatabaseSync_usage": 0,
+  "runtime_references": 27,
+  "code_references": 19,
+  "legacy_fields": [
+    {
+      "file": "runtime-v2/query-engine.cjs",
+      "line": 342,
+      "text": "sqlite_version: null,"
+    }
+  ],
+  "comment_mentions": 7,
+  "runtime_code_hits": [
+    {
+      "file": "runtime-v2/ai/admin.cjs",
+      "line": 6,
+      "token": "qlite|SQLit",
+      "kind": "CODE_REF",
+      "text": "like the SQLite import made them part of mcqs. Backup: snapshot of the"
+    },
+    {
+      "file": "runtime-v2/ai/current.cjs",
+      "line": 4,
+      "token": "qlite|SQLit",
+      "kind": "CODE_REF",
+      "text": "produced by the file-based seed). SQLite quirk kept: the period-count"
+    },
+    {
+      "file": "runtime-v2/ai/record.cjs",
+      "line": 5,
+      "token": "qlite|SQLit",
+      "kind": "CODE_REF",
+      "text": "NDJSON query engine. NO SQLite, NO SQL. */"
+    },
+    {
+      "file": "runtime-v2/ai/store.cjs",
+      "line": 2,
+      "token": "qlite|SQLit",
+      "kind": "CODE_REF",
+      "text": "Replaces the SQLite tables (ai_state, user_profiles, learning_sessions,"
+    },
+    {
+      "file": "runtime-v2/ai/store.cjs",
+      "line": 8,
+      "token": "qlite|SQLit",
+      "kind": "CODE_REF",
+      "text": "corruption registry. NO SQL, NO SQLite. */"
+    },
+    {
+      "file": "runtime-v2/ai/store.cjs",
+      "line": 101,
+      "token": "qlite|SQLit",
+      "kind": "CODE_REF",
+      "text": "/* select rows: match = {field:value} equality (String-compare like SQLite), optional order"
+    },
+    {
+      "file": "runtime-v2/ai/util.cjs",
+      "line": 2,
+      "token": "qlite|SQLit",
+      "kind": "CODE_REF",
+      "text": "Mirrors ai/util.js semantics; adds localDate() replicating SQLite"
+    },
+    {
+      "file": "runtime-v2/ai/util.cjs",
+      "line": 45,
+      "token": "qlite|SQLit",
+      "kind": "COMMENT",
+      "text": "/* SQLite date('now','localtime') on a UTC \"YYYY-MM-DD HH:MM:SS\" string -> local YYYY-MM-DD */"
+    },
+    {
+      "file": "runtime-v2/data-loader.cjs",
+      "line": 3,
+      "token": "qlite|SQLit",
+      "kind": "CODE_REF",
+      "text": "Deterministic, low-memory (<512MB), lazy. No SQLite dependency. */"
+    },
+    {
+      "file": "runtime-v2/data-loader.cjs",
+      "line": 123,
+      "token": "qlite|SQLit",
+      "kind": "CODE_REF",
+      "text": "first, imports after — matching SQLite insertion order) and indexed by the"
+    },
+    {
+      "file": "runtime-v2/index-builder.cjs",
+      "line": 232,
+      "token": "qlite|SQLit",
+      "kind": "COMMENT",
+      "text": "return ia < ib ? -1 : 1;                          /* id ASC (SQLite tie = rowid ASC) */"
+    },
+    {
+      "file": "runtime-v2/kg-query.cjs",
+      "line": 3,
+      "token": "qlite|SQLit",
+      "kind": "CODE_REF",
+      "text": "Mirrors the /api/kg/* routes of the SQLite reference server (server.js)."
+    },
+    {
+      "file": "runtime-v2/kg-query.cjs",
+      "line": 14,
+      "token": "qlite|SQLit",
+      "kind": "CODE_REF",
+      "text": "no LIKE wildcards) -> name ASC, id ASC (sqlite: ORDER BY name, id) ---------- */"
+    },
+    {
+      "file": "runtime-v2/kg-store.cjs",
+      "line": 5,
+      "token": "qlite|SQLit",
+      "kind": "CODE_REF",
+      "text": "No SQLite dependency. */"
+    },
+    {
+      "file": "runtime-v2/query-engine.cjs",
+      "line": 4,
+      "token": "qlite|SQLit",
+      "kind": "CODE_REF",
+      "text": "attachment, related questions); deterministic ordering replaces SQLite"
+    },
+    {
+      "file": "runtime-v2/query-engine.cjs",
+      "line": 143,
+      "token": "qlite|SQLit",
+      "kind": "CODE_REF",
+      "text": "/* Top-N selection with SQLite-equivalent ordering: created_at DESC, id ASC."
+    },
+    {
+      "file": "runtime-v2/query-engine.cjs",
+      "line": 221,
+      "token": "qlite|SQLit",
+      "kind": "CODE_REF",
+      "text": "mutated (SQLite builds fresh rows per request; contamination must not leak). */"
+    },
+    {
+      "file": "runtime-v2/query-engine.cjs",
+      "line": 291,
+      "token": "qlite|SQLit",
+      "kind": "COMMENT",
+      "text": "if (row.status !== \"active\") return; /* sqlite: WHERE status = 'active' */"
+    },
+    {
+      "file": "runtime-v2/query-engine.cjs",
+      "line": 297,
+      "token": "qlite|SQLit",
+      "kind": "CODE_REF",
+      "text": "/* sqlite relByTag: tag overlap score 0..3 (LIKE substring match), then"
+    },
+    {
+      "file": "runtime-v2/query-engine.cjs",
+      "line": 318,
+      "token": "qlite|SQLit",
+      "kind": "CODE_REF",
+      "text": "/* Clone + attach names/options/related in the same relative key order as SQLite"
+    },
+    {
+      "file": "runtime-v2/query-engine.cjs",
+      "line": 342,
+      "token": "qlite|SQLit",
+      "kind": "LEGACY_FIELD",
+      "text": "sqlite_version: null,"
+    },
+    {
+      "file": "runtime-v2/query-engine.cjs",
+      "line": 434,
+      "token": "qlite|SQLit",
+      "kind": "COMMENT",
+      "text": "let row = attachNames([{ ...found }])[0]; /* sqlite SELECT aliases come before m.options = ... */"
+    },
+    {
+      "file": "runtime-v2/query-engine.cjs",
+      "line": 454,
+      "token": "qlite|SQLit",
+      "kind": "COMMENT",
+      "text": "/* SQLite: ORDER BY rowid LIMIT ? OFFSET ? — walk rowid order, count matches, slice window */"
+    },
+    {
+      "file": "runtime-v2/query-engine.cjs",
+      "line": 472,
+      "token": "qlite|SQLit",
+      "kind": "COMMENT",
+      "text": "/* SQLite RANDOM(): uniform reservoir sample (set parity only) */"
+    },
+    {
+      "file": "runtime-v2/query-engine.cjs",
+      "line": 524,
+      "token": "qlite|SQLit",
+      "kind": "COMMENT",
+      "text": "if (!words.length) return browse(q); /* sqlite falls back to unfiltered ORDER BY created_at DESC when FTS query is empty */"
+    },
+    {
+      "file": "runtime-v2/server.cjs",
+      "line": 4,
+      "token": "qlite|SQLit",
+      "kind": "CODE_REF",
+      "text": "(runtime-v2/indexes + data/). No SQLite, no SQL, no database file. */"
+    },
+    {
+      "file": "runtime-v2/user-store.cjs",
+      "line": 3,
+      "token": "qlite|SQLit",
+      "kind": "CODE_REF",
+      "text": "leaderboard, analytics) with semantics mirroring the SQLite implementation"
+    }
+  ],
+  "retired_tooling": [
+    "scripts/phase36/analyze.cjs (deleted)",
+    "scripts/phase36/bench.cjs (deleted)"
+  ],
+  "verdict": "REVIEW"
+}

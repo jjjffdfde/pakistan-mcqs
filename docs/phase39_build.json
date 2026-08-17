@@ -1,0 +1,22 @@
+{
+  "phase": 39,
+  "step": 11,
+  "generated_at": "2026-08-13T03:30:00.000Z",
+  "method": "real production builds executed in an isolated sandbox copy (repo frozen; DB accessed read-only from a sandbox copy); outputs compared byte-for-byte (SHA256) against the committed repository",
+  "results": [
+    { "script": "npm run build (scripts/build-mcqs.js)", "result": "PASS", "detail": "1338 MCQs across 34 files validated; data/mcqs.json byte-identical to repo (SHA256 E96B2F56...)" },
+    { "script": "npm run build:pages (scripts/gen-seo-pages.cjs)", "result": "PASS", "detail": "243 subject + 884 chapter pages + index/404/sitemap (1121 URLs) generated from DB copy; 1123 generated files byte-identical, 0 diffs, 0 missing" },
+    { "script": "npm run build:pwa-assets (scripts/gen-pwa-assets.cjs)", "result": "PASS", "detail": "17 icon/splash/android assets byte-identical" },
+    { "script": "npm run build:og (scripts/make-og.js)", "result": "PASS", "detail": "assets/img/og-cover.png byte-identical" }
+  ],
+  "checks": {
+    "build_succeeds": true,
+    "fatal_warnings": 0,
+    "missing_assets": 0,
+    "missing_modules": 0,
+    "missing_env_vars": 0,
+    "broken_routes": "see phase39_smoke_test.json",
+    "note": "builds are deterministic and reproduce the exact committed tree; no repository file was modified"
+  },
+  "verdict": "PASS"
+}

@@ -1,0 +1,25 @@
+{
+  "phase": 39,
+  "step": 20,
+  "generated_at": "2026-08-13T03:56:00.000Z",
+  "commands_run": {
+    "git status --porcelain": "91 entries (79 untracked file paths + 7 collapsed untracked directories + 12 modified tracked)",
+    "git add --dry-run .": "116 files would be added where not already tracked; nothing staged or committed",
+    "git diff --stat": "12 files changed, 242 insertions(+), 467 deletions(-)",
+    "git ls-files": "1895 tracked files",
+    "git count-objects -vH": "1929 objects, 9.86 MiB loose, 0 packs"
+  },
+  "candidate_repository": {
+    "tracked_files": 1895,
+    "would_be_added": 116,
+    "candidate_files": 2011,
+    "candidate_bytes": 79576945,
+    "largest_tracked": "docs/archive/phase17_search_index.json 32.9 MiB (kept as evidence; nothing over 100 MiB)",
+    "excluded_from_candidate": ["db/pakistan-mcqs.sqlite (+wal/shm) 2.2 GB", "database/data 1.1 GB", "database/releases + snapshots", "runtime-v2/indexes ~633 MB, userdata", "backup/*", "* .bak local checkpoints", "logs, cache, test artifacts, coverage"]
+  },
+  "modified_tracked_files": [
+    ".gitignore", "db/config.json", "package.json", "server.js", "database/manifests/checksums.json", "database/manifests/files.json", "database/manifests/manifest.json", "database/manifests/row_counts.json", "database/reports/export_report.json", "docs/DB-INTEGRATION-VERIFICATION.md", "docs/phase26_code_quality.json", "docs/phase26_testing.json"
+  ],
+  "note": "the .bak export checkpoint (database/manifests/.export-checkpoint.json.bak-*) is verified ignored (git check-ignore exit 0) via the finalized .gitignore pattern; no file > 100 MiB; no secrets",
+  "verdict": "CLEAN — dry run only; nothing staged, nothing committed, nothing pushed"
+}

@@ -1,0 +1,12 @@
+{
+  "step": "release",
+  "generated_at": "2026-08-17T12:13:47.584Z",
+  "version": "0.2026.0817",
+  "tag": null,
+  "manifest_files": 4015,
+  "checksum_file": "release/SHA256SUMS.txt",
+  "version_file": "release/version.json",
+  "summary": {
+    "status": "READY"
+  }
+}

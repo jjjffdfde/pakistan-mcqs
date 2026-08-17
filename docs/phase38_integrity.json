@@ -1,0 +1,363 @@
+{
+ "phase": 38,
+ "step": 15,
+ "tool": "scripts/phase38/integrity.cjs",
+ "run_at": "2026-08-11T16:32:34.478Z",
+ "method": "full-table row counts + SHA256 over canonical (key-sorted) row strings; order-independent (per-row hashes, sorted list hashed)",
+ "tables_checked": 27,
+ "tables_verified": 27,
+ "verdict": "PASS",
+ "results": [
+  {
+   "table": "mcqs",
+   "sqlite_rows": 872621,
+   "ndjson_rows": 872621,
+   "count_match": true,
+   "sha256": {
+    "sqlite": "b257e634e57841a646621eb279d5bb0c5e46fd412560c4f6276cacbae62df5fb",
+    "ndjson": "b257e634e57841a646621eb279d5bb0c5e46fd412560c4f6276cacbae62df5fb",
+    "match": true
+   },
+   "verified": true,
+   "seconds": 23.4
+  },
+  {
+   "table": "options",
+   "sqlite_rows": 3490484,
+   "ndjson_rows": 3490484,
+   "count_match": true,
+   "sha256": {
+    "sqlite": "29747ea6c8f4037b285004329e3e4c17fd6a2fc09cfd057910d6debc9898b3ec",
+    "ndjson": "29747ea6c8f4037b285004329e3e4c17fd6a2fc09cfd057910d6debc9898b3ec",
+    "match": true
+   },
+   "verified": true,
+   "seconds": 23.1
+  },
+  {
+   "table": "subjects",
+   "sqlite_rows": 243,
+   "ndjson_rows": 243,
+   "count_match": true,
+   "sha256": {
+    "sqlite": "6c63058927449fc90989da1b0bb664cdcb620c2216613be8d09a847f6388b788",
+    "ndjson": "6c63058927449fc90989da1b0bb664cdcb620c2216613be8d09a847f6388b788",
+    "match": true
+   },
+   "verified": true,
+   "seconds": 0
+  },
+  {
+   "table": "categories",
+   "sqlite_rows": 17,
+   "ndjson_rows": 17,
+   "count_match": true,
+   "sha256": {
+    "sqlite": "fad46b31e255eae7eb14424fab593495cd5b2e41ae27154363661a16ce4ee02a",
+    "ndjson": "fad46b31e255eae7eb14424fab593495cd5b2e41ae27154363661a16ce4ee02a",
+    "match": true
+   },
+   "verified": true,
+   "seconds": 0
+  },
+  {
+   "table": "chapters",
+   "sqlite_rows": 884,
+   "ndjson_rows": 884,
+   "count_match": true,
+   "sha256": {
+    "sqlite": "bf51793009c6182305546706ff04f43cebc0996dfa133d1ecb880ae453d6171f",
+    "ndjson": "bf51793009c6182305546706ff04f43cebc0996dfa133d1ecb880ae453d6171f",
+    "match": true
+   },
+   "verified": true,
+   "seconds": 0
+  },
+  {
+   "table": "topics",
+   "sqlite_rows": 1597,
+   "ndjson_rows": 1597,
+   "count_match": true,
+   "sha256": {
+    "sqlite": "2c082cfb3c320f48882cee1f8207a932d9934fcf0f3d95cc3dbbf67fd3ad7b23",
+    "ndjson": "2c082cfb3c320f48882cee1f8207a932d9934fcf0f3d95cc3dbbf67fd3ad7b23",
+    "match": true
+   },
+   "verified": true,
+   "seconds": 0
+  },
+  {
+   "table": "subtopics",
+   "sqlite_rows": 4436,
+   "ndjson_rows": 4436,
+   "count_match": true,
+   "sha256": {
+    "sqlite": "e2fb3b590dff87a90abcd3189955bf4569b7776363694d3dc0e8fb9fb32dd9f9",
+    "ndjson": "e2fb3b590dff87a90abcd3189955bf4569b7776363694d3dc0e8fb9fb32dd9f9",
+    "match": true
+   },
+   "verified": true,
+   "seconds": 0
+  },
+  {
+   "table": "quizzes",
+   "sqlite_rows": 21,
+   "ndjson_rows": 21,
+   "count_match": true,
+   "sha256": {
+    "sqlite": "a59a94936da21c681dae6e8c1f247b0734c1b2602fd2b2d5087817f5e80108ed",
+    "ndjson": "a59a94936da21c681dae6e8c1f247b0734c1b2602fd2b2d5087817f5e80108ed",
+    "match": true
+   },
+   "verified": true,
+   "seconds": 0
+  },
+  {
+   "table": "mocktests",
+   "sqlite_rows": 95,
+   "ndjson_rows": 95,
+   "count_match": true,
+   "sha256": {
+    "sqlite": "39314d450f177c540c0f36e8d97d2a488d9efa0232a1fe2478888914d6a95e1e",
+    "ndjson": "39314d450f177c540c0f36e8d97d2a488d9efa0232a1fe2478888914d6a95e1e",
+    "match": true
+   },
+   "verified": true,
+   "seconds": 0
+  },
+  {
+   "table": "pastpapers",
+   "sqlite_rows": 110,
+   "ndjson_rows": 110,
+   "count_match": true,
+   "sha256": {
+    "sqlite": "48e1aa7e9b3e156e64703487d3b80a853904d0e01e562c8bde5448419030e77f",
+    "ndjson": "48e1aa7e9b3e156e64703487d3b80a853904d0e01e562c8bde5448419030e77f",
+    "match": true
+   },
+   "verified": true,
+   "seconds": 0
+  },
+  {
+   "table": "concepts",
+   "sqlite_rows": 2950,
+   "ndjson_rows": 2950,
+   "count_match": true,
+   "sha256": {
+    "sqlite": "c477fe97b1dc55cd19d1452ac5db4b3d008164cd051a55ef55ae7ed298f88543",
+    "ndjson": "c477fe97b1dc55cd19d1452ac5db4b3d008164cd051a55ef55ae7ed298f88543",
+    "match": true
+   },
+   "verified": true,
+   "seconds": 0
+  },
+  {
+   "table": "mcq_concepts",
+   "sqlite_rows": 330228,
+   "ndjson_rows": 330228,
+   "count_match": true,
+   "sha256": {
+    "sqlite": "492faee8671c2252ca38d74f7d77bdae3dc650d9fde5abd4e13bb2d18f9ca17c",
+    "ndjson": "492faee8671c2252ca38d74f7d77bdae3dc650d9fde5abd4e13bb2d18f9ca17c",
+    "match": true
+   },
+   "verified": true,
+   "seconds": 1.7
+  },
+  {
+   "table": "kg_concepts",
+   "sqlite_rows": 1744,
+   "ndjson_rows": 1744,
+   "count_match": true,
+   "sha256": {
+    "sqlite": "59de2cb9eaede05521567298aa101467f2784645b6ca8d7fc3a4d45debe00184",
+    "ndjson": "59de2cb9eaede05521567298aa101467f2784645b6ca8d7fc3a4d45debe00184",
+    "match": true
+   },
+   "verified": true,
+   "seconds": 0
+  },
+  {
+   "table": "kg_micro_concepts",
+   "sqlite_rows": 12406,
+   "ndjson_rows": 12406,
+   "count_match": true,
+   "sha256": {
+    "sqlite": "80c596d0aec62895fe44377d9c10c8f68fee08140f71235450d3802b06ec0d4f",
+    "ndjson": "80c596d0aec62895fe44377d9c10c8f68fee08140f71235450d3802b06ec0d4f",
+    "match": true
+   },
+   "verified": true,
+   "seconds": 0.2
+  },
+  {
+   "table": "kg_learning_objectives",
+   "sqlite_rows": 71501,
+   "ndjson_rows": 71501,
+   "count_match": true,
+   "sha256": {
+    "sqlite": "07320c85f2bd73b58366541f766ea5168a678496c3fc03809072dbb6be527503",
+    "ndjson": "07320c85f2bd73b58366541f766ea5168a678496c3fc03809072dbb6be527503",
+    "match": true
+   },
+   "verified": true,
+   "seconds": 0.8
+  },
+  {
+   "table": "kg_concept_relations",
+   "sqlite_rows": 2275,
+   "ndjson_rows": 2275,
+   "count_match": true,
+   "sha256": {
+    "sqlite": "41307e7fca414a452ddb0f3344f8a3d84a4f098a40d8b26be356d7a2486f8d75",
+    "ndjson": "41307e7fca414a452ddb0f3344f8a3d84a4f098a40d8b26be356d7a2486f8d75",
+    "match": true
+   },
+   "verified": true,
+   "seconds": 0
+  },
+  {
+   "table": "kg_prerequisites",
+   "sqlite_rows": 3,
+   "ndjson_rows": 3,
+   "count_match": true,
+   "sha256": {
+    "sqlite": "ab7bf1a5f7611187eda9d5940718920bc3118405ad5b5af9abfc9b9908c6e64a",
+    "ndjson": "ab7bf1a5f7611187eda9d5940718920bc3118405ad5b5af9abfc9b9908c6e64a",
+    "match": true
+   },
+   "verified": true,
+   "seconds": 0
+  },
+  {
+   "table": "kg_exam_mappings",
+   "sqlite_rows": 15952,
+   "ndjson_rows": 15952,
+   "count_match": true,
+   "sha256": {
+    "sqlite": "bface314e4b54d4cf8bf94468c1a2b36364b63c267049c1dd9e3b6fc336503f7",
+    "ndjson": "bface314e4b54d4cf8bf94468c1a2b36364b63c267049c1dd9e3b6fc336503f7",
+    "match": true
+   },
+   "verified": true,
+   "seconds": 0.1
+  },
+  {
+   "table": "kg_distractor_pools",
+   "sqlite_rows": 1744,
+   "ndjson_rows": 1744,
+   "count_match": true,
+   "sha256": {
+    "sqlite": "079d3e43e0bd873e8216c3dff73ae316c13c704916d2153815d991efd13e2f01",
+    "ndjson": "079d3e43e0bd873e8216c3dff73ae316c13c704916d2153815d991efd13e2f01",
+    "match": true
+   },
+   "verified": true,
+   "seconds": 0
+  },
+  {
+   "table": "kg_distractor_items",
+   "sqlite_rows": 33662,
+   "ndjson_rows": 33662,
+   "count_match": true,
+   "sha256": {
+    "sqlite": "1abb9960a9f1138e484e681d3350a33931c902ba0af720c6cb45904ae316b7ba",
+    "ndjson": "1abb9960a9f1138e484e681d3350a33931c902ba0af720c6cb45904ae316b7ba",
+    "match": true
+   },
+   "verified": true,
+   "seconds": 0.2
+  },
+  {
+   "table": "kg_learning_paths",
+   "sqlite_rows": 3,
+   "ndjson_rows": 3,
+   "count_match": true,
+   "sha256": {
+    "sqlite": "6389f1e0b45bfe77b4b9c02d379e6e02f29b71f80061c8a0218d1030d8f3db69",
+    "ndjson": "6389f1e0b45bfe77b4b9c02d379e6e02f29b71f80061c8a0218d1030d8f3db69",
+    "match": true
+   },
+   "verified": true,
+   "seconds": 0
+  },
+  {
+   "table": "kg_learning_path_steps",
+   "sqlite_rows": 8,
+   "ndjson_rows": 8,
+   "count_match": true,
+   "sha256": {
+    "sqlite": "c3d31ee7be8c3f77ded3608a8ac882b1b0946ca47a4f7a7676471e9aee9ea4c2",
+    "ndjson": "c3d31ee7be8c3f77ded3608a8ac882b1b0946ca47a4f7a7676471e9aee9ea4c2",
+    "match": true
+   },
+   "verified": true,
+   "seconds": 0
+  },
+  {
+   "table": "kg_knowledge_packs",
+   "sqlite_rows": 183,
+   "ndjson_rows": 183,
+   "count_match": true,
+   "sha256": {
+    "sqlite": "98d4cd851c9c0de7bdba91436aab4f823a152048e64d17c4223dafdd13fc6356",
+    "ndjson": "98d4cd851c9c0de7bdba91436aab4f823a152048e64d17c4223dafdd13fc6356",
+    "match": true
+   },
+   "verified": true,
+   "seconds": 0
+  },
+  {
+   "table": "kg_syllabus_units",
+   "sqlite_rows": 882,
+   "ndjson_rows": 882,
+   "count_match": true,
+   "sha256": {
+    "sqlite": "9ba1fa2a08adfb0f61d8e6508aa9a2fba946b80357bf4590e8bbd1baee788d50",
+    "ndjson": "9ba1fa2a08adfb0f61d8e6508aa9a2fba946b80357bf4590e8bbd1baee788d50",
+    "match": true
+   },
+   "verified": true,
+   "seconds": 0
+  },
+  {
+   "table": "kg_question_blueprints",
+   "sqlite_rows": 107,
+   "ndjson_rows": 107,
+   "count_match": true,
+   "sha256": {
+    "sqlite": "f916099f680863a89b0635f87279ca8f4e641c25379c1cd82e3bdf4145b39642",
+    "ndjson": "f916099f680863a89b0635f87279ca8f4e641c25379c1cd82e3bdf4145b39642",
+    "match": true
+   },
+   "verified": true,
+   "seconds": 0
+  },
+  {
+   "table": "kg_reference_sources",
+   "sqlite_rows": 270,
+   "ndjson_rows": 270,
+   "count_match": true,
+   "sha256": {
+    "sqlite": "cbfa483a263c0731a43f23533a82b548d88c559ead4fb8e1ddc445d72408ffa6",
+    "ndjson": "cbfa483a263c0731a43f23533a82b548d88c559ead4fb8e1ddc445d72408ffa6",
+    "match": true
+   },
+   "verified": true,
+   "seconds": 0
+  },
+  {
+   "table": "kg_difficulty_profiles",
+   "sqlite_rows": 1744,
+   "ndjson_rows": 1744,
+   "count_match": true,
+   "sha256": {
+    "sqlite": "a9019ada9cae954ae8b127e7bf9ad8b720d21aa3a1c805086028bf57efc64480",
+    "ndjson": "a9019ada9cae954ae8b127e7bf9ad8b720d21aa3a1c805086028bf57efc64480",
+    "match": true
+   },
+   "verified": true,
+   "seconds": 0
+  }
+ ]
+}

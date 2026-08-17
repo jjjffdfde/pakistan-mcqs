@@ -1,0 +1,61 @@
+{
+  "phase": 40,
+  "step": 1,
+  "generated_at": "2026-08-13T04:05",
+  "tool": "recursive grep scan (node:sqlite / DatabaseSync / SQL keywords / sqlite paths / *.sqlite files)",
+  "scan_patterns": ["node:sqlite", "DatabaseSync", "new DatabaseSync", "db.prepare", "db.exec", "db.run", "db.get", "db.all", "PRAGMA", "sqlite_master", "sqlite_schema", "SELECT/INSERT/UPDATE/DELETE/JOIN/GROUP BY", "*.sqlite / *.sqlite3 / *.db paths", "db/engine", "db/backup", "db/restore"],
+  "production_runtime_files_with_sqlite": {
+    "server.js": "SQLite backend via db/engine.js (open()); ~40 prepared statements; import/backup/restore + ai routes write SQL",
+    "ai/": {
+      "router.js": "mounts ai/* handlers on server.js (2 db calls)",
+      "record.js": "history/attempt recording + leaderboard + analytics (7)",
+      "achievements.js": "achievements + notifications (12)",
+      "adaptive.js": "adaptive quiz sessions (11)",
+      "weak.js": "weak/strong topics (8)",
+      "planner.js": "study planner + plan days (11)",
+      "recommend.js": "recommendations build/list (11)",
+      "spaced.js": "spaced repetition due/review (7)",
+      "mock.js": "mock predictions (6)",
+      "flashcards.js": "flashcard build/due/review (6)",
+      "profile.js": "user profile upsert/get (3)",
+      "analytics.js": "ai analytics overview (5)",
+      "leaderboard.js": "period leaderboards (3)",
+      "current.js": "current affairs (3)"
+    },
+    "assistant/": {
+      "note": "8 standalone CLI engines (node assistant/*.js), not required by any runtime module",
+      "knowledge-assistant.js": "24 SQL calls",
+      "learning-engine.js": "17",
+      "recommendation-engine.js": "14",
+      "offline-api.js": "11",
+      "automation-engine.js": "10",
+      "concept-navigator.js": "10",
+      "revision-planner.js": "8",
+      "analytics-engine.js": "5"
+    },
+    "runtime-v2/": "0 SQLite references — already NDJSON/file-based (data-loader, query-engine, kg-store, kg-query, user-store, index-builder, server)"
+  },
+  "build_and_test_tools_with_sqlite": {
+    "scripts/gen-seo-pages.cjs": "build:pages — reads sqlite read-only (MUST migrate; build must work without sqlite)",
+    "scripts/build-mcqs.js": "PURE FILE-BASED (data/*.json) — no sqlite (already clean)",
+    "scripts/test-db-integration.cjs": "test:db — opens sqlite read-only + spawns server",
+    "scripts/test.cjs": "npm test orchestrator — verify how it spawns servers",
+    "scripts/benchmark.cjs": "opens sqlite read-only",
+    "scripts/monitor.cjs": "opens sqlite read-only (live dashboard)",
+    "scripts/validate-buttons.cjs": "opens sqlite read-only",
+    "scripts/phase24-platform.cjs / phase27-platform.cjs / phase30/api-audit.cjs / phase36/* / phase38/audit-deps.cjs": "historical phase harnesses (evidence tools)",
+    "tests/database/sqlite.test.cjs": "sqlite-only unit test",
+    "tests/performance/bench.test.cjs": "sqlite read benchmark section",
+    "database/scripts/*.js": "build-db, diff-db, incremental-export, validate-db, verify-db, lib/db-repo — sqlite migration/build tooling (legacy pipeline)",
+    "pipeline/audit.js, reports.js, phase13-audit.cjs": "legacy sqlite reporting tools",
+    ".github/workflows/test.yml, database-verify.yml": "CI builds/verifies sqlite from NDJSON",
+    "kg/packs-data.js": "data only — one exam_tip string mentions sqlite (harmless data text)"
+  },
+  "sqlite_files_on_disk": {
+    "db/pakistan-mcqs.sqlite": "2,206,896,128 bytes (production oracle — DO NOT MODIFY)",
+    "db/pakistan-mcqs.sqlite-wal": "135,992 bytes",
+    "db/pakistan-mcqs.sqlite-shm": "32,768 bytes"
+  },
+  "runtime_reference_count": "server.js + ai/(14) + assistant/(8) = 23 runtime files with SQLite; runtime-v2 = 0",
+  "verdict": "INVENTORY COMPLETE — migration scope confirmed: 23 runtime files, 7 expected-501 route families (import, backup, restore, ai GET/POST x4), 1 build tool (gen-seo-pages), 3 test suites, 2 CI workflows"
+}

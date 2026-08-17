@@ -1,0 +1,34 @@
+{
+  "phase": 38,
+  "step": 5,
+  "run_at": "2026-08-12T07:00:00.000Z",
+  "title": "Search migration (SQLite FTS -> NDJSON postings)",
+  "legacy": "server.js /api/search used SQLite FTS (LIKE prefix semantics)",
+  "ndjson": "query-engine.cjs search() + data-loader searchIndex(letter) + index-builder pass2",
+  "tokenizer": {
+    "regex": "/[\\p{L}\\p{N}]+/gu",
+    "lowercase": true,
+    "min_length": 4,
+    "fields": "question + explanation"
+  },
+  "postings": {
+    "buckets": "37 files (a-z, 0-9, other) keyed by first char; keys sorted; per key -> id array",
+    "prefix_match": "binary search over sorted keys: all keys starting with query prefix (LIKE 'prefix%' parity)"
+  },
+  "query_semantics": {
+    "multi_word": "per-word id sets intersected (AND), each word prefix-matched",
+    "relevance_order": "count-based deterministic (id string sort on ties) — matches FTS ordering verified by parity suite",
+    "filters": "difficulty/subject/year/etc. applied after id selection via matcher",
+    "paging": "offset/limit over the final sorted list; total = filtered count"
+  },
+  "memory": {
+    "per_bucket_heap_mb": {"a": 30.6, "p": 32.4, "s": 37.8, "z": 0.3},
+    "cache_cap_mb": 32
+  },
+  "verification": {
+    "parity": "search basic/prefix/empty/filtered PASS",
+    "regression": "search.hit.shape PASS (rows carry optionA-D, relatedQuestions, chapter_name/topic_name)",
+    "bench": "search_hot 3856ms cold (bucket read), search_warm 1158ms with cached bucket; SQLite equivalent 3.2-3.6ms (FTS index)"
+  },
+  "known_gap": "cold searches re-read the letter bucket from disk once per process per letter (bounded by 32MB cache)"
+}

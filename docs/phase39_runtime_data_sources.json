@@ -1,0 +1,41 @@
+{
+  "phase": 39,
+  "step": 2,
+  "generated_at": "2026-08-13T03:22:00.000Z",
+  "method": "derived from phase38_feature_classification.json + phase38_runtime verification; verified against runtime-v2/server.cjs route map",
+  "legend": {
+    "NDJSON": "read from database/data NDJSON.GZ exports via runtime-v2",
+    "JSON": "server-side JSON persistence (user-store) or static JSON assets",
+    "API": "network API",
+    "SQLITE": "production SQLite via db/engine.js",
+    "LOCAL_STORAGE": "browser localStorage",
+    "INDEXEDDB": "browser IndexedDB",
+    "CACHE": "service-worker cache / runtime LRU caches",
+    "HYBRID": "combination"
+  },
+  "features": [
+    { "feature": "Browse MCQs (all / by subject / chapter / topic / difficulty / year / exam / status / related)", "runtime_source": "NDJSON", "sqlite_dependency": false, "public": true, "offline_supported": "partial (static pages; API needs server)", "production_ready": true },
+    { "feature": "Search MCQs", "runtime_source": "NDJSON", "sqlite_dependency": false, "public": true, "offline_supported": "partial", "production_ready": true },
+    { "feature": "MCQ by id / batch ids", "runtime_source": "NDJSON", "sqlite_dependency": false, "public": true, "offline_supported": "partial", "production_ready": true },
+    { "feature": "Random MCQs (seeded/unseeded)", "runtime_source": "NDJSON", "sqlite_dependency": false, "public": true, "offline_supported": "partial", "production_ready": true },
+    { "feature": "Knowledge Graph (concepts, relations, prerequisites, objectives, micro, exams, distractors, learning paths, stats)", "runtime_source": "NDJSON", "sqlite_dependency": false, "public": true, "offline_supported": "partial", "production_ready": true },
+    { "feature": "Subjects / chapters / topics / categories / exams / quizzes / mocktests / pastpapers", "runtime_source": "NDJSON", "sqlite_dependency": false, "public": true, "offline_supported": "partial", "production_ready": true },
+    { "feature": "Bookmarks", "runtime_source": "JSON", "sqlite_dependency": false, "public": false, "offline_supported": "partial (server-side; queued writes)", "production_ready": true },
+    { "feature": "Answer history / scoring", "runtime_source": "JSON", "sqlite_dependency": false, "public": false, "offline_supported": "partial", "production_ready": true },
+    { "feature": "Leaderboard (overall + period rollups)", "runtime_source": "JSON", "sqlite_dependency": false, "public": false, "offline_supported": "no", "production_ready": true },
+    { "feature": "Personal analytics", "runtime_source": "JSON", "sqlite_dependency": false, "public": false, "offline_supported": "no", "production_ready": true },
+    { "feature": "PWA shell (index, manifest, sw, offline.html)", "runtime_source": "CACHE + LOCAL_STORAGE + INDEXEDDB", "sqlite_dependency": false, "public": true, "offline_supported": true, "production_ready": true },
+    { "feature": "SEO static pages (subjects/chapters/topics + sitemaps)", "runtime_source": "CACHE (static HTML generated from DB at build time)", "sqlite_dependency": "build-time only (read-only)", "public": true, "offline_supported": true, "production_ready": true },
+    { "feature": "AI engine (adaptive learning, revision planner, recommendation, analytics engine, knowledge assistant, spaced revision)", "runtime_source": "SQLITE", "sqlite_dependency": true, "public": false, "offline_supported": "no", "production_ready": false, "note": "EXPECTED_NOT_MIGRATED — remains SQLite-only by design" },
+    { "feature": "Import (DB <- data)", "runtime_source": "SQLITE", "sqlite_dependency": true, "public": false, "offline_supported": "no", "production_ready": true, "note": "admin tool; API returns 501 in NDJSON runtime (EXPECTED)" },
+    { "feature": "Backup / restore", "runtime_source": "SQLITE", "sqlite_dependency": true, "public": false, "offline_supported": "no", "production_ready": true, "note": "admin tool; API returns 501 in NDJSON runtime (EXPECTED)" },
+    { "feature": "Export (DB -> static/NDJSON)", "runtime_source": "SQLITE -> NDJSON", "sqlite_dependency": "read-only", "public": false, "offline_supported": "no", "production_ready": true, "note": "database/scripts/export-db.js reads DB, writes NDJSON.GZ; runtime-v2 serves the exports" },
+    { "feature": "Admin panel (admin.html)", "runtime_source": "API -> SQLITE", "sqlite_dependency": true, "public": false, "offline_supported": "no", "production_ready": true },
+    { "feature": "AI routes (/api/ai/*)", "runtime_source": "API -> SQLITE", "sqlite_dependency": true, "public": false, "offline_supported": "no", "production_ready": false, "note": "EXPECTED_NOT_MIGRATED — 501 under SQLITE_DISABLED" }
+  ],
+  "phase38_expected_routes_honesty": {
+    "note": "the 7 EXPECTED parity divergences (ai route x2, import, backup, restore, import post, restore post) are NOT marked migrated — they remain SQLite/501 as documented",
+    "expected": 7,
+    "api_parity": "PASS=55 PASS_SET=8 EXPECTED=7 FAIL=0"
+  }
+}

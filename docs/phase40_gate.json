@@ -1,0 +1,56 @@
+{
+  "run_at": "2026-08-17T15:27:45.455Z",
+  "results": [
+    {
+      "id": "G01 runtime-v2 zero-sqlite",
+      "ok": true,
+      "note": "25 code files scanned, clean (comments stripped)"
+    },
+    {
+      "id": "G02 notMigrated fallback only",
+      "ok": true,
+      "note": "1 call site(s) (line 202 AI-fallback only)"
+    },
+    {
+      "id": "G03 AI POST routes migrated",
+      "ok": true,
+      "note": "13 POST routes: statuses match oracle (400 rejections exact, 200/201 successes)"
+    },
+    {
+      "id": "G08 runtime RSS <= 512MB",
+      "ok": true,
+      "note": "runtime pid 6680 RSS 365MB (heap capped at 384MB)"
+    },
+    {
+      "id": "G04 parity report",
+      "ok": true,
+      "note": "PASS_WITH_DOCUMENTED_DIVERGENCES (PASS=80 PASS_SET=15 FAIL=0)"
+    },
+    {
+      "id": "G05 fixture npm test",
+      "ok": true,
+      "note": "npm test passed on .phase40-fixture"
+    },
+    {
+      "id": "G06 test:db real data",
+      "ok": true,
+      "note": "30/30 checks passed on real data"
+    },
+    {
+      "id": "G07 tracked sqlite audit",
+      "ok": true,
+      "note": "1895 tracked files checked"
+    },
+    {
+      "id": "G09 PWA shell + pages",
+      "ok": true,
+      "note": "sw.js/index/manifest: 3/3, subject+chapter page dirs: true"
+    },
+    {
+      "id": "G10 legacy sqlite test gone",
+      "ok": true,
+      "note": "E:\\pAK MCQS\\tests\\database\\sqlite.test.cjs"
+    }
+  ],
+  "status": "PASS"
+}

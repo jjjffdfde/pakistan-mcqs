@@ -1,0 +1,21 @@
+{
+  "phase": 38,
+  "step": 18,
+  "run_at": "2026-08-12T07:00:00.000Z",
+  "title": "SQLITE_DISABLED mode",
+  "env": "SQLITE_DISABLED=true node --max-old-space-size=384 runtime-v2/server.cjs",
+  "behavior": {
+    "migrated_routes": "serve normally (health, stats, search, browse, mcq, mcqs, random, kg, subjects, chapters, topics, categories, exams, quizzes, mocktests, pastpapers, bookmarks, history, leaderboard, analytics)",
+    "not_migrated_routes": "41 routes return 501 {error: '... not migrated to NDJSON runtime', data_source: 'sqlite_disabled'} — AI engine, import, backup, restore",
+    "health": "data_source field reflects the live source (ndjson / sqlite_disabled)"
+  },
+  "gate_implementation": {
+    "server.cjs": "SQLITE_DISABLED true -> 501 blanket before route matching for NOT_MIGRATED paths",
+    "server.js": "line 94 guarded: relByTag prepared statement only created when sqlite is enabled (crash at require time when SQLITE_DISABLED=true was fixed)"
+  },
+  "verification": {
+    "tool": "scripts/phase38/sqlite-disabled-test.cjs",
+    "result": "PASS 82/82 — all 41 not-migrated routes 501 with data_source:'sqlite_disabled', migrated routes served correctly in both modes, server stays alive",
+    "doc": "phase38_sqlite_disabled.json"
+  }
+}

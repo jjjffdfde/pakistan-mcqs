@@ -1,49 +1,49 @@
 {
   "step": "testing",
-  "generated_at": "2026-08-11T12:13:15.278Z",
+  "generated_at": "2026-08-17T15:27:32.125Z",
   "summary": {
     "suites": 6,
-    "tests": 34,
-    "passed": 34,
+    "tests": 40,
+    "passed": 40,
     "failed": 0,
     "status": "PASS"
   },
   "suites": [
     {
       "file": "tests/api/endpoints.test.cjs",
-      "tests": 7,
-      "passed": 7,
-      "duration_ms": 43922
+      "tests": 14,
+      "passed": 14,
+      "duration_ms": 622
     },
     {
-      "file": "tests/database/sqlite.test.cjs",
-      "tests": 8,
-      "passed": 8,
-      "duration_ms": 193479
+      "file": "tests/database/files.test.cjs",
+      "tests": 7,
+      "passed": 7,
+      "duration_ms": 21
     },
     {
       "file": "tests/integration/pages.test.cjs",
       "tests": 4,
       "passed": 4,
-      "duration_ms": 157
+      "duration_ms": 174
     },
     {
       "file": "tests/performance/bench.test.cjs",
       "tests": 4,
       "passed": 4,
-      "duration_ms": 392
+      "duration_ms": 178
     },
     {
       "file": "tests/ui/assets.test.cjs",
       "tests": 6,
       "passed": 6,
-      "duration_ms": 7
+      "duration_ms": 9
     },
     {
       "file": "tests/unit/utils.test.cjs",
       "tests": 5,
       "passed": 5,
-      "duration_ms": 4
+      "duration_ms": 1
     }
   ],
   "failures": []

@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 /* ============================================================
-   Phase 26 - STEP 10: Enterprise Monitoring / Health Check
-   Read-only observability:
-     - API health (starts the real server if not running)
-     - DB integrity, size, active MCQs, WAL mode
+   Phase 26 - STEP 10 + Phase 40 migration: Monitoring / Health
+   Read-only observability (no SQLite):
+     - API health (starts runtime-v2 if not running)
+     - data / index integrity, sizes, active MCQs
      - process / uptime info
    Usage: node scripts/monitor.cjs
    Emits: docs/phase26_monitoring.json   (also prints a summary)
@@ -13,10 +13,10 @@ const fs = require("fs");
 const path = require("path");
 const ROOT = path.join(__dirname, "..");
 const OUT = path.join(ROOT, "docs", "phase26_monitoring.json");
-const { DatabaseSync } = require("node:sqlite");
+const L = require("../runtime-v2/data-loader.cjs");
+const Q = require("../runtime-v2/query-engine.cjs");
 
-const DB_PATH = process.env.MCQS_TEST_DB || path.join(ROOT, "db", "pakistan-mcqs.sqlite");
-const PORT = process.env.MCQS_PORT || 8765;
+const PORT = process.env.MCQS_PORT || 8766;
 
 async function apiHealth() {
   const t0 = Date.now();
@@ -32,9 +32,9 @@ async function apiHealth() {
 
 async function bootAndCheck() {
   const { spawn } = require("child_process");
-  const child = spawn(process.execPath, [path.join(ROOT, "server.js")], {
+  const child = spawn(process.execPath, [path.join(ROOT, "runtime-v2", "server.cjs")], {
     cwd: ROOT,
-    env: { ...process.env, MCQS_PORT: String(PORT) },
+    env: { ...process.env, MCQS_PORT: String(PORT), MCQS_JSON_PORT: String(PORT) },
     stdio: "ignore"
   });
   const t0 = Date.now();
@@ -47,38 +47,58 @@ async function bootAndCheck() {
   return { ok: false, status: 0, ms: Date.now() - t0, error: "server did not become healthy within 30s", booted_for_check: true };
 }
 
+function walkBytes(d) {
+  let b = 0, n = 0;
+  for (const e of fs.readdirSync(d, { withFileTypes: true })) {
+    const p = path.join(d, e.name);
+    if (e.isDirectory()) { const s = walkBytes(p); b += s.bytes; n += s.files; }
+    else { n++; try { b += fs.statSync(p).size; } catch (e2) {} }
+  }
+  return { bytes: b, files: n };
+}
+
 async function main() {
   const startedAt = new Date().toISOString();
   const checks = {};
 
-  checks.db = (() => {
-    let db;
+  checks.data = (() => {
     try {
-      db = new DatabaseSync(DB_PATH, { readOnly: true });
-      const rows = {
-        mcqs_total: db.prepare("SELECT COUNT(*) n FROM mcqs").get().n,
-        mcqs_active: db.prepare("SELECT COUNT(*) n FROM mcqs WHERE status='active'").get().n,
-        subjects: db.prepare("SELECT COUNT(*) n FROM subjects").get().n,
-        chapters: db.prepare("SELECT COUNT(*) n FROM chapters").get().n,
-        topics: db.prepare("SELECT COUNT(*) n FROM topics").get().n,
-        integrity: db.prepare("PRAGMA integrity_check").all().every((r) => Object.values(r)[0] === "ok") ? "ok" : "corrupt",
-        journal_mode: db.prepare("PRAGMA journal_mode").get().journal_mode,
-        page_size: db.prepare("PRAGMA page_size").get().page_size,
-        page_count: db.prepare("PRAGMA page_count").get().page_count
+      const manifest = L.manifest();
+      const bySub = L.bySubjectActive();
+      const active = Object.values(bySub).reduce((a, b) => a + b, 0);
+      const subKeys = Object.keys(manifest.sourceFiles).sort();
+      const idxStat = walkBytes(L.IDX_DIR);
+      const partsStat = walkBytes(path.join(L.SRC_DIR, "mcqs"));
+      const requiredIdx = ["manifest.json", "mcq_by_id.json", "mcq_by_subject.json", "recent.json"];
+      const missing = requiredIdx.filter((f) => !fs.existsSync(path.join(L.IDX_DIR, f)));
+      /* legacy empty part dirs (e.g. "unassigned", 0 rows) are not subjects */
+      const populated = subKeys.filter((s) => (manifest.sourceFiles[s] || {}).lines > 0);
+      const subjectOk = populated.every((s) => (bySub[s] || 0) > 0);
+      const staleSubjects = populated.filter((s) => !(bySub[s] > 0));
+      return {
+        ok: !missing.length && subjectOk && manifest.rows > 0,
+        error: missing.length ? "missing index files: " + missing.join(",") : (staleSubjects.length ? "subjects with 0 active: " + staleSubjects.join(",") : undefined),
+        mcqs_total: manifest.rows,
+        mcqs_active: active,
+        subjects: populated.length,
+        integrity: !missing.length && subjectOk ? "ok" : "corrupt",
+        index_files: idxStat.files,
+        index_bytes: idxStat.bytes,
+        parts_bytes: partsStat.bytes,
+        last_updated: manifest.maxCreatedAt,
+        data_source: L.SRC_DIR
       };
-      rows.db_bytes = rows.page_count * rows.page_size;
-      return { ok: true, ...rows };
     } catch (e) {
       return { ok: false, error: e.message };
-    } finally {
-      try { db && db.close(); } catch (e) {}
     }
   })();
 
-  checks.db_file = (() => {
+  checks.ai_store = (() => {
     try {
-      const st = fs.statSync(DB_PATH);
-      return { ok: true, size_bytes: st.size, modified: st.mtime.toISOString() };
+      const dir = path.join(L.USER_DIR);
+      if (!fs.existsSync(dir)) return { ok: false, error: "userdata dir missing" };
+      const files = fs.readdirSync(dir).filter((f) => f.endsWith(".json"));
+      return { ok: true, store_files: files.length, store_bytes: walkBytes(dir).bytes };
     } catch (e) {
       return { ok: false, error: e.message };
     }
@@ -87,23 +107,23 @@ async function main() {
   checks.api = await apiHealth();
   if (!checks.api.ok) checks.api = await bootAndCheck();
 
-  const exitCode = checks.db.ok && checks.api.ok ? 0 : 1;
+  const exitCode = checks.data.ok && checks.api.ok ? 0 : 1;
   const report = {
     step: "monitoring",
     generated_at: startedAt,
     summary: {
-      db: checks.db.ok ? "ok" : "FAIL",
+      data: checks.data.ok ? "ok" : "FAIL",
       api: checks.api.ok ? "ok" : "FAIL",
       status: exitCode === 0 ? "HEALTHY" : "UNHEALTHY",
-      mcqs_active: checks.db.mcqs_active,
-      db_size_mb: checks.db_file.ok ? Math.round(checks.db_file.size_bytes / 1048576) : 0,
+      mcqs_active: checks.data.mcqs_active,
+      db_size_mb: Math.round((checks.data.parts_bytes + checks.data.index_bytes) / 1048576),
       api_health_ms: checks.api.ms
     },
     checks
   };
   fs.writeFileSync(OUT, JSON.stringify(report, null, 2), "utf8");
-  console.log(`monitor: db=${report.summary.db} api=${report.summary.api} status=${report.summary.status}`);
-  console.log(`  mcqs_active=${report.summary.mcqs_active} db_size=${report.summary.db_size_mb} MB api_ms=${report.summary.api_health_ms}`);
+  console.log(`monitor: data=${report.summary.data} api=${report.summary.api} status=${report.summary.status}`);
+  console.log(`  mcqs_active=${report.summary.mcqs_active} size=${report.summary.db_size_mb} MB api_ms=${report.summary.api_health_ms}`);
   console.log(`report -> docs/phase26_monitoring.json`);
   process.exit(exitCode);
 }

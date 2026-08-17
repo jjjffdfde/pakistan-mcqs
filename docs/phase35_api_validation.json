@@ -1,0 +1,359 @@
+[
+ {
+  "path": "/api/mcq/",
+  "count": 3,
+  "sources": [
+   "assets/js/ai.js",
+   "runtime-v2/server.cjs",
+   "scripts/phase40/parity.cjs"
+  ],
+  "status": "DYNAMIC_BASE"
+ },
+ {
+  "path": "/api/ai/profile",
+  "count": 3,
+  "sources": [
+   "assets/js/ai.js"
+  ],
+  "status": "UNVERIFIED_STATIC_FALLBACK"
+ },
+ {
+  "path": "/api/ai/mock/predictions",
+  "count": 2,
+  "sources": [
+   "assets/js/ai.js"
+  ],
+  "status": "UNVERIFIED_STATIC_FALLBACK"
+ },
+ {
+  "path": "/api/ai/planner",
+  "count": 3,
+  "sources": [
+   "assets/js/ai.js"
+  ],
+  "status": "UNVERIFIED_STATIC_FALLBACK"
+ },
+ {
+  "path": "/api/ai/planner/regenerate",
+  "count": 1,
+  "sources": [
+   "assets/js/ai.js"
+  ],
+  "status": "UNVERIFIED_STATIC_FALLBACK"
+ },
+ {
+  "path": "/api/ai/planner/complete",
+  "count": 2,
+  "sources": [
+   "assets/js/ai.js"
+  ],
+  "status": "UNVERIFIED_STATIC_FALLBACK"
+ },
+ {
+  "path": "/api/ai/adaptive/start",
+  "count": 1,
+  "sources": [
+   "assets/js/ai.js"
+  ],
+  "status": "UNVERIFIED_STATIC_FALLBACK"
+ },
+ {
+  "path": "/api/ai/adaptive/next",
+  "count": 1,
+  "sources": [
+   "assets/js/ai.js"
+  ],
+  "status": "UNVERIFIED_STATIC_FALLBACK"
+ },
+ {
+  "path": "/api/ai/adaptive/submit",
+  "count": 1,
+  "sources": [
+   "assets/js/ai.js"
+  ],
+  "status": "UNVERIFIED_STATIC_FALLBACK"
+ },
+ {
+  "path": "/api/ai/adaptive/finish",
+  "count": 1,
+  "sources": [
+   "assets/js/ai.js"
+  ],
+  "status": "UNVERIFIED_STATIC_FALLBACK"
+ },
+ {
+  "path": "/api/ai/spaced/due",
+  "count": 1,
+  "sources": [
+   "assets/js/ai.js"
+  ],
+  "status": "UNVERIFIED_STATIC_FALLBACK"
+ },
+ {
+  "path": "/api/ai/spaced/review",
+  "count": 1,
+  "sources": [
+   "assets/js/ai.js"
+  ],
+  "status": "UNVERIFIED_STATIC_FALLBACK"
+ },
+ {
+  "path": "/api/ai/flashcards/due",
+  "count": 1,
+  "sources": [
+   "assets/js/ai.js"
+  ],
+  "status": "UNVERIFIED_STATIC_FALLBACK"
+ },
+ {
+  "path": "/api/ai/flashcards/build",
+  "count": 1,
+  "sources": [
+   "assets/js/ai.js"
+  ],
+  "status": "UNVERIFIED_STATIC_FALLBACK"
+ },
+ {
+  "path": "/api/ai/flashcards/review",
+  "count": 1,
+  "sources": [
+   "assets/js/ai.js"
+  ],
+  "status": "UNVERIFIED_STATIC_FALLBACK"
+ },
+ {
+  "path": "/api/mocktests",
+  "count": 3,
+  "sources": [
+   "assets/js/ai.js",
+   "assets/js/app.js",
+   "scripts/validate-buttons.cjs"
+  ],
+  "status": "UNVERIFIED_STATIC_FALLBACK"
+ },
+ {
+  "path": "/api/ai/mock/predict",
+  "count": 1,
+  "sources": [
+   "assets/js/ai.js"
+  ],
+  "status": "UNVERIFIED_STATIC_FALLBACK"
+ },
+ {
+  "path": "/api/ai/recommendations",
+  "count": 1,
+  "sources": [
+   "assets/js/ai.js"
+  ],
+  "status": "UNVERIFIED_STATIC_FALLBACK"
+ },
+ {
+  "path": "/api/ai/current-affairs",
+  "count": 2,
+  "sources": [
+   "assets/js/ai.js"
+  ],
+  "status": "UNVERIFIED_STATIC_FALLBACK"
+ },
+ {
+  "path": "/api/ai/analytics",
+  "count": 1,
+  "sources": [
+   "assets/js/ai.js"
+  ],
+  "status": "UNVERIFIED_STATIC_FALLBACK"
+ },
+ {
+  "path": "/api/ai/leaderboard",
+  "count": 3,
+  "sources": [
+   "assets/js/ai.js"
+  ],
+  "status": "UNVERIFIED_STATIC_FALLBACK"
+ },
+ {
+  "path": "/api/ai/notifications",
+  "count": 1,
+  "sources": [
+   "assets/js/ai.js"
+  ],
+  "status": "UNVERIFIED_STATIC_FALLBACK"
+ },
+ {
+  "path": "/api/ai/notifications/read",
+  "count": 1,
+  "sources": [
+   "assets/js/ai.js"
+  ],
+  "status": "UNVERIFIED_STATIC_FALLBACK"
+ },
+ {
+  "path": "/api/ai/weak-topics",
+  "count": 1,
+  "sources": [
+   "assets/js/ai.js"
+  ],
+  "status": "UNVERIFIED_STATIC_FALLBACK"
+ },
+ {
+  "path": "/api/stats",
+  "count": 1,
+  "sources": [
+   "assets/js/app.js"
+  ],
+  "status": "UNVERIFIED_STATIC_FALLBACK"
+ },
+ {
+  "path": "/api/subjects",
+  "count": 2,
+  "sources": [
+   "assets/js/app.js",
+   "scripts/validate-buttons.cjs"
+  ],
+  "status": "UNVERIFIED_STATIC_FALLBACK"
+ },
+ {
+  "path": "/api/chapters",
+  "count": 1,
+  "sources": [
+   "assets/js/app.js"
+  ],
+  "status": "UNVERIFIED_STATIC_FALLBACK"
+ },
+ {
+  "path": "/api/topics",
+  "count": 1,
+  "sources": [
+   "assets/js/app.js"
+  ],
+  "status": "UNVERIFIED_STATIC_FALLBACK"
+ },
+ {
+  "path": "/api/quizzes",
+  "count": 2,
+  "sources": [
+   "assets/js/app.js",
+   "scripts/validate-buttons.cjs"
+  ],
+  "status": "UNVERIFIED_STATIC_FALLBACK"
+ },
+ {
+  "path": "/api/pastpapers",
+  "count": 2,
+  "sources": [
+   "assets/js/app.js",
+   "scripts/validate-buttons.cjs"
+  ],
+  "status": "UNVERIFIED_STATIC_FALLBACK"
+ },
+ {
+  "path": "/api/exams",
+  "count": 2,
+  "sources": [
+   "assets/js/app.js",
+   "scripts/validate-buttons.cjs"
+  ],
+  "status": "UNVERIFIED_STATIC_FALLBACK"
+ },
+ {
+  "path": "/api/categories",
+  "count": 1,
+  "sources": [
+   "assets/js/app.js"
+  ],
+  "status": "UNVERIFIED_STATIC_FALLBACK"
+ },
+ {
+  "path": "/api/history",
+  "count": 2,
+  "sources": [
+   "assets/js/app.js"
+  ],
+  "status": "UNVERIFIED_STATIC_FALLBACK"
+ },
+ {
+  "path": "/api/bookmarks",
+  "count": 2,
+  "sources": [
+   "assets/js/app.js",
+   "scripts/validate-buttons.cjs"
+  ],
+  "status": "UNVERIFIED_STATIC_FALLBACK"
+ },
+ {
+  "path": "/api/mcqs",
+  "count": 5,
+  "sources": [
+   "assets/js/app.js"
+  ],
+  "status": "UNVERIFIED_STATIC_FALLBACK"
+ },
+ {
+  "path": "/api/random",
+  "count": 18,
+  "sources": [
+   "assets/js/app.js",
+   "scripts/validate-buttons.cjs"
+  ],
+  "status": "UNVERIFIED_STATIC_FALLBACK"
+ },
+ {
+  "path": "/api/search",
+  "count": 2,
+  "sources": [
+   "assets/js/app.js"
+  ],
+  "status": "UNVERIFIED_STATIC_FALLBACK"
+ },
+ {
+  "path": "/api/browse",
+  "count": 2,
+  "sources": [
+   "assets/js/app.js",
+   "scripts/validate-buttons.cjs"
+  ],
+  "status": "UNVERIFIED_STATIC_FALLBACK"
+ },
+ {
+  "path": "/api/leaderboard",
+  "count": 2,
+  "sources": [
+   "assets/js/app.js",
+   "scripts/validate-buttons.cjs"
+  ],
+  "status": "UNVERIFIED_STATIC_FALLBACK"
+ },
+ {
+  "path": "/api/kg/concepts/",
+  "count": 2,
+  "sources": [
+   "runtime-v2/server.cjs"
+  ],
+  "status": "UNVERIFIED_STATIC_FALLBACK"
+ },
+ {
+  "path": "/api/ai/",
+  "count": 1,
+  "sources": [
+   "runtime-v2/server.cjs"
+  ],
+  "status": "UNVERIFIED_STATIC_FALLBACK"
+ },
+ {
+  "path": "/api",
+  "count": 3,
+  "sources": [
+   "scripts/phase35/analyze.cjs",
+   "scripts/phase36/analyze.cjs"
+  ],
+  "status": "DYNAMIC_BASE"
+ },
+ {
+  "path": "/api/health",
+  "count": 1,
+  "sources": [
+   "scripts/validate-buttons.cjs"
+  ],
+  "status": "TEST_HARNESS_ONLY"
+ }
+]

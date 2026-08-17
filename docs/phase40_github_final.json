@@ -1,0 +1,27 @@
+{
+  "phase": 40,
+  "step": 30,
+  "run_at": "2026-08-17T14:05:00.000Z",
+  "branch": "main",
+  "repo_state": {
+    "tracked_files": 1895,
+    "sqlite_tracked": 0,
+    "sqlite_dirs_tracked": 0,
+    "workflow_self_audit": "database-verify.yml + test.yml carry inline sqlite-scan patterns (self-audit allowlisted in tests/database/files.test.cjs SELF_AUDIT)",
+    "phase40_gate_g07": "1895 tracked files checked, 0 sqlite references"
+  },
+  "release_artifact": {
+    "files": 4015,
+    "sqlite_entries": 0,
+    "checksum_file": "release/SHA256SUMS.txt",
+    "version_file": "release/version.json"
+  },
+  "ci_workflows": ["test.yml", "database-verify.yml"],
+  "secrets": "none tracked (.env ignored; only .env.example committed)",
+  "notes": [
+    "The runtime ships zero sqlite: no tracked file matches node:sqlite/DatabaseSync/.sqlite patterns (G07).",
+    "Historical migration docs may name the retired oracle file; they are DOCUMENTATION-class only.",
+    "userdata/ and indexes/ are build/runtime-private and ignored at runtime-v2/.gitignore."
+  ],
+  "verdict": "PASS"
+}

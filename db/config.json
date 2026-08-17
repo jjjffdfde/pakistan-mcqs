@@ -1,6 +1,0 @@
-{
-  "engine": "sqlite",
-  "sqlite": { "file": "db/pakistan-mcqs.sqlite" },
-  "mysql": { "host": "127.0.0.1", "port": 3306, "user": "root", "password": "", "database": "pakistan_mcqs" },
-  "postgres": { "host": "127.0.0.1", "port": 5432, "user": "postgres", "password": "", "database": "pakistan_mcqs" }
-}

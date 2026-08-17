@@ -1,0 +1,12 @@
+{
+  "phase": 40,
+  "step": 18,
+  "run_at": "2026-08-17T13:52:27.637Z",
+  "runtime_sql_count": 0,
+  "runtime_sql_statement_hits": [],
+  "allowed": [
+    "sqlite_version: null (legacy response field, no engine)",
+    "historical-semantics comments"
+  ],
+  "verdict": "PASS"
+}

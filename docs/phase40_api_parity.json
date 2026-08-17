@@ -1,0 +1,1045 @@
+{
+ "phase": 40,
+ "tool": "scripts/phase40/parity.cjs",
+ "run_at": "2026-08-17T03:28:12.298Z",
+ "engines": {
+  "sqlite": {
+   "port": 8765,
+   "script": "server.js"
+  },
+  "json": {
+   "port": 8766,
+   "script": "runtime-v2/server.cjs"
+  }
+ },
+ "summary": {
+  "PASS": 80,
+  "PASS_SET": 15,
+  "EXPECTED": 0,
+  "FAIL": 0,
+  "total": 95
+ },
+ "verdict": "PASS_WITH_DOCUMENTED_DIVERGENCES",
+ "results": [
+  {
+   "name": "health",
+   "method": "GET",
+   "path": "/api/health",
+   "query": {},
+   "sqlite_status": 200,
+   "json_status": 200,
+   "verdict": "PASS",
+   "note": "data_source differs by design: sqlite=sqlite ndjson=ndjson; rest compared"
+  },
+  {
+   "name": "stats",
+   "method": "GET",
+   "path": "/api/stats",
+   "query": {},
+   "sqlite_status": 200,
+   "json_status": 200,
+   "verdict": "PASS",
+   "note": "static subset compared; user counts live (bookmarks=7/0, attempts=92/0)"
+  },
+  {
+   "name": "search basic",
+   "method": "GET",
+   "path": "/api/search",
+   "query": {
+    "q": "lahore resolution"
+   },
+   "sqlite_status": 200,
+   "json_status": 200,
+   "verdict": "PASS_SET",
+   "note": "search: ranking order differs (count-based vs FTS5 bm25)"
+  },
+  {
+   "name": "search prefix",
+   "method": "GET",
+   "path": "/api/search",
+   "query": {
+    "q": "resol*"
+   },
+   "sqlite_status": 200,
+   "json_status": 200,
+   "verdict": "PASS",
+   "note": "totals equal (4364); ranking differs (documented divergence)"
+  },
+  {
+   "name": "search empty",
+   "method": "GET",
+   "path": "/api/search",
+   "query": {
+    "q": ""
+   },
+   "sqlite_status": 200,
+   "json_status": 200,
+   "verdict": "PASS_SET",
+   "note": "search: ranking order differs (count-based vs FTS5 bm25)"
+  },
+  {
+   "name": "search filtered",
+   "method": "GET",
+   "path": "/api/search",
+   "query": {
+    "q": "constitution",
+    "subject": "pakistan-affairs",
+    "chapter": "pa-movement"
+   },
+   "sqlite_status": 200,
+   "json_status": 200,
+   "verdict": "PASS_SET",
+   "note": "search: ranking order differs (count-based vs FTS5 bm25)"
+  },
+  {
+   "name": "browse p1",
+   "method": "GET",
+   "path": "/api/browse",
+   "query": {
+    "page": "1",
+    "limit": "50"
+   },
+   "sqlite_status": 200,
+   "json_status": 200,
+   "verdict": "PASS_SET",
+   "note": "row set equal; page order differs (documented)"
+  },
+  {
+   "name": "browse p3",
+   "method": "GET",
+   "path": "/api/browse",
+   "query": {
+    "page": "3",
+    "limit": "50"
+   },
+   "sqlite_status": 200,
+   "json_status": 200,
+   "verdict": "PASS_SET",
+   "note": "row set equal; page order differs (documented)"
+  },
+  {
+   "name": "browse subject",
+   "method": "GET",
+   "path": "/api/browse",
+   "query": {
+    "subject": "mathematics",
+    "limit": "30"
+   },
+   "sqlite_status": 200,
+   "json_status": 200,
+   "verdict": "PASS_SET",
+   "note": "row set equal; page order differs (documented)"
+  },
+  {
+   "name": "browse multi-subject",
+   "method": "GET",
+   "path": "/api/browse",
+   "query": {
+    "subject": "physics,chemistry,urdu",
+    "limit": "25"
+   },
+   "sqlite_status": 200,
+   "json_status": 200,
+   "verdict": "PASS",
+   "note": "row set equal; page order differs (documented)"
+  },
+  {
+   "name": "browse chapter",
+   "method": "GET",
+   "path": "/api/browse",
+   "query": {
+    "chapter": "pa-movement",
+    "limit": "50"
+   },
+   "sqlite_status": 200,
+   "json_status": 200,
+   "verdict": "PASS",
+   "note": "row set equal; page order differs (documented)"
+  },
+  {
+   "name": "browse topic",
+   "method": "GET",
+   "path": "/api/browse",
+   "query": {
+    "topic": "t-6",
+    "limit": "50"
+   },
+   "sqlite_status": 200,
+   "json_status": 200,
+   "verdict": "PASS",
+   "note": "row set equal; page order differs (documented)"
+  },
+  {
+   "name": "browse difficulty",
+   "method": "GET",
+   "path": "/api/browse",
+   "query": {
+    "difficulty": "easy",
+    "limit": "50"
+   },
+   "sqlite_status": 200,
+   "json_status": 200,
+   "verdict": "PASS_SET",
+   "note": "row set equal; page order differs (documented)"
+  },
+  {
+   "name": "browse exam",
+   "method": "GET",
+   "path": "/api/browse",
+   "query": {
+    "exam": "ppsc",
+    "limit": "50"
+   },
+   "sqlite_status": 200,
+   "json_status": 200,
+   "verdict": "PASS",
+   "note": "row set equal; page order differs (documented)"
+  },
+  {
+   "name": "browse year",
+   "method": "GET",
+   "path": "/api/browse",
+   "query": {
+    "year": "2024",
+    "limit": "50"
+   },
+   "sqlite_status": 200,
+   "json_status": 200,
+   "verdict": "PASS_SET",
+   "note": "row set equal; page order differs (documented)"
+  },
+  {
+   "name": "browse combo",
+   "method": "GET",
+   "path": "/api/browse",
+   "query": {
+    "subject": "islamic-studies",
+    "difficulty": "easy",
+    "chapter": "islamic-basics",
+    "limit": "50"
+   },
+   "sqlite_status": 200,
+   "json_status": 200,
+   "verdict": "PASS",
+   "note": "row set equal; page order differs (documented)"
+  },
+  {
+   "name": "browse status",
+   "method": "GET",
+   "path": "/api/browse",
+   "query": {
+    "status": "archived",
+    "limit": "10"
+   },
+   "sqlite_status": 200,
+   "json_status": 200,
+   "verdict": "PASS",
+   "note": "row set equal; page order differs (documented)"
+  },
+  {
+   "name": "browse related",
+   "method": "GET",
+   "path": "/api/browse",
+   "query": {
+    "related": "pak-001,pak-002,pak-003",
+    "limit": "50"
+   },
+   "sqlite_status": 200,
+   "json_status": 200,
+   "verdict": "PASS",
+   "note": "row set equal; page order differs (documented)"
+  },
+  {
+   "name": "mcq single",
+   "method": "GET",
+   "path": "/api/mcq/pak-001",
+   "query": {},
+   "sqlite_status": 200,
+   "json_status": 200,
+   "verdict": "PASS",
+   "note": ""
+  },
+  {
+   "name": "mcq single 2",
+   "method": "GET",
+   "path": "/api/mcq/mat-50000",
+   "query": {},
+   "sqlite_status": 404,
+   "json_status": 404,
+   "verdict": "PASS",
+   "note": "both 404"
+  },
+  {
+   "name": "mcq missing",
+   "method": "GET",
+   "path": "/api/mcq/does-not-exist",
+   "query": {},
+   "sqlite_status": 404,
+   "json_status": 404,
+   "verdict": "PASS",
+   "note": "both 404"
+  },
+  {
+   "name": "mcqs batch",
+   "method": "GET",
+   "path": "/api/mcqs",
+   "query": {
+    "ids": "pak-001,mat-1,phy-100,css-exam-1,imp-1"
+   },
+   "sqlite_status": 200,
+   "json_status": 200,
+   "verdict": "PASS",
+   "note": ""
+  },
+  {
+   "name": "mcqs batch empty",
+   "method": "GET",
+   "path": "/api/mcqs",
+   "query": {},
+   "sqlite_status": 200,
+   "json_status": 200,
+   "verdict": "PASS",
+   "note": ""
+  },
+  {
+   "name": "random seeded",
+   "method": "GET",
+   "path": "/api/random",
+   "query": {
+    "subject": "pakistan-affairs",
+    "seed": "42",
+    "limit": "10"
+   },
+   "sqlite_status": 200,
+   "json_status": 200,
+   "verdict": "PASS",
+   "note": "seeded random: deterministic order"
+  },
+  {
+   "name": "random seeded filters",
+   "method": "GET",
+   "path": "/api/random",
+   "query": {
+    "difficulty": "medium",
+    "exam": "ppsc",
+    "seed": "7",
+    "limit": "15"
+   },
+   "sqlite_status": 200,
+   "json_status": 200,
+   "verdict": "PASS",
+   "note": "totals equal (382868); seeded window position differs (documented divergence)"
+  },
+  {
+   "name": "random unseeded",
+   "method": "GET",
+   "path": "/api/random",
+   "query": {
+    "subject": "current-affairs",
+    "limit": "10"
+   },
+   "sqlite_status": 200,
+   "json_status": 200,
+   "verdict": "PASS",
+   "note": "unseeded random: sets non-comparable by design — shape+validity compared"
+  },
+  {
+   "name": "kg stats",
+   "method": "GET",
+   "path": "/api/kg/stats",
+   "query": {},
+   "sqlite_status": 200,
+   "json_status": 200,
+   "verdict": "PASS",
+   "note": ""
+  },
+  {
+   "name": "kg concepts q",
+   "method": "GET",
+   "path": "/api/kg/concepts",
+   "query": {
+    "q": "accounting"
+   },
+   "sqlite_status": 200,
+   "json_status": 200,
+   "verdict": "PASS",
+   "note": ""
+  },
+  {
+   "name": "kg concepts q+subject",
+   "method": "GET",
+   "path": "/api/kg/concepts",
+   "query": {
+    "q": "inflation",
+    "subject": "pakistan-affairs"
+   },
+   "sqlite_status": 200,
+   "json_status": 200,
+   "verdict": "PASS",
+   "note": ""
+  },
+  {
+   "name": "kg concepts noq",
+   "method": "GET",
+   "path": "/api/kg/concepts",
+   "query": {},
+   "sqlite_status": 200,
+   "json_status": 200,
+   "verdict": "PASS",
+   "note": ""
+  },
+  {
+   "name": "kg concept detail",
+   "method": "GET",
+   "path": "/api/kg/concepts/15190",
+   "query": {},
+   "sqlite_status": 200,
+   "json_status": 200,
+   "verdict": "PASS",
+   "note": ""
+  },
+  {
+   "name": "kg concept detail 2",
+   "method": "GET",
+   "path": "/api/kg/concepts/15191",
+   "query": {},
+   "sqlite_status": 200,
+   "json_status": 200,
+   "verdict": "PASS",
+   "note": ""
+  },
+  {
+   "name": "kg concept relations",
+   "method": "GET",
+   "path": "/api/kg/concepts/15190/relations",
+   "query": {},
+   "sqlite_status": 200,
+   "json_status": 200,
+   "verdict": "PASS",
+   "note": ""
+  },
+  {
+   "name": "kg concept prerequisites",
+   "method": "GET",
+   "path": "/api/kg/concepts/15190/prerequisites",
+   "query": {},
+   "sqlite_status": 200,
+   "json_status": 200,
+   "verdict": "PASS",
+   "note": ""
+  },
+  {
+   "name": "kg concept objectives",
+   "method": "GET",
+   "path": "/api/kg/concepts/15190/objectives",
+   "query": {},
+   "sqlite_status": 200,
+   "json_status": 200,
+   "verdict": "PASS",
+   "note": ""
+  },
+  {
+   "name": "kg concept micro",
+   "method": "GET",
+   "path": "/api/kg/concepts/15190/micro",
+   "query": {},
+   "sqlite_status": 200,
+   "json_status": 200,
+   "verdict": "PASS",
+   "note": ""
+  },
+  {
+   "name": "kg concept exams",
+   "method": "GET",
+   "path": "/api/kg/concepts/15190/exams",
+   "query": {},
+   "sqlite_status": 200,
+   "json_status": 200,
+   "verdict": "PASS",
+   "note": ""
+  },
+  {
+   "name": "kg concept distractors",
+   "method": "GET",
+   "path": "/api/kg/concepts/15190/distractors",
+   "query": {},
+   "sqlite_status": 200,
+   "json_status": 200,
+   "verdict": "PASS",
+   "note": ""
+  },
+  {
+   "name": "kg concept missing",
+   "method": "GET",
+   "path": "/api/kg/concepts/99999999",
+   "query": {},
+   "sqlite_status": 404,
+   "json_status": 404,
+   "verdict": "PASS",
+   "note": "both 404"
+  },
+  {
+   "name": "kg concept bad id",
+   "method": "GET",
+   "path": "/api/kg/concepts/abc",
+   "query": {},
+   "sqlite_status": 404,
+   "json_status": 404,
+   "verdict": "PASS",
+   "note": "both 404"
+  },
+  {
+   "name": "kg micro q",
+   "method": "GET",
+   "path": "/api/kg/micro-concepts",
+   "query": {
+    "q": "depreciation"
+   },
+   "sqlite_status": 200,
+   "json_status": 200,
+   "verdict": "PASS",
+   "note": ""
+  },
+  {
+   "name": "kg objectives q",
+   "method": "GET",
+   "path": "/api/kg/learning-objectives",
+   "query": {
+    "q": "allocat"
+   },
+   "sqlite_status": 200,
+   "json_status": 200,
+   "verdict": "PASS",
+   "note": ""
+  },
+  {
+   "name": "kg learning paths",
+   "method": "GET",
+   "path": "/api/kg/learning-paths",
+   "query": {},
+   "sqlite_status": 200,
+   "json_status": 200,
+   "verdict": "PASS",
+   "note": ""
+  },
+  {
+   "name": "subjects",
+   "method": "GET",
+   "path": "/api/subjects",
+   "query": {},
+   "sqlite_status": 200,
+   "json_status": 200,
+   "verdict": "PASS",
+   "note": ""
+  },
+  {
+   "name": "chapters",
+   "method": "GET",
+   "path": "/api/chapters",
+   "query": {},
+   "sqlite_status": 200,
+   "json_status": 200,
+   "verdict": "PASS",
+   "note": ""
+  },
+  {
+   "name": "topics",
+   "method": "GET",
+   "path": "/api/topics",
+   "query": {},
+   "sqlite_status": 200,
+   "json_status": 200,
+   "verdict": "PASS",
+   "note": ""
+  },
+  {
+   "name": "categories",
+   "method": "GET",
+   "path": "/api/categories",
+   "query": {},
+   "sqlite_status": 200,
+   "json_status": 200,
+   "verdict": "PASS",
+   "note": ""
+  },
+  {
+   "name": "exams",
+   "method": "GET",
+   "path": "/api/exams",
+   "query": {},
+   "sqlite_status": 200,
+   "json_status": 200,
+   "verdict": "PASS",
+   "note": ""
+  },
+  {
+   "name": "quizzes",
+   "method": "GET",
+   "path": "/api/quizzes",
+   "query": {},
+   "sqlite_status": 200,
+   "json_status": 200,
+   "verdict": "PASS",
+   "note": ""
+  },
+  {
+   "name": "mocktests",
+   "method": "GET",
+   "path": "/api/mocktests",
+   "query": {},
+   "sqlite_status": 200,
+   "json_status": 200,
+   "verdict": "PASS",
+   "note": ""
+  },
+  {
+   "name": "pastpapers",
+   "method": "GET",
+   "path": "/api/pastpapers",
+   "query": {},
+   "sqlite_status": 200,
+   "json_status": 200,
+   "verdict": "PASS",
+   "note": ""
+  },
+  {
+   "name": "bookmarks get",
+   "method": "GET",
+   "path": "/api/bookmarks",
+   "query": {},
+   "sqlite_status": 200,
+   "json_status": 200,
+   "verdict": "PASS",
+   "note": "sqlite parity-dev: 1 (baseline 1, delta 0) vs json 0; cols differ (correct_answer,created_at,device_id,difficulty,explanation,id,mcq_id,question vs null)"
+  },
+  {
+   "name": "history get",
+   "method": "GET",
+   "path": "/api/history",
+   "query": {},
+   "sqlite_status": 200,
+   "json_status": 200,
+   "verdict": "PASS",
+   "note": "sqlite parity-dev: 34 (baseline 34, delta 0) vs json 0; cols differ (answered_at,chapter_id,correct,correct_answer,device_id,id,mcq_id,mode,points,question,session_id,skipped,subject_id,time_taken_sec,topic_id vs null)"
+  },
+  {
+   "name": "leaderboard",
+   "method": "GET",
+   "path": "/api/leaderboard",
+   "query": {},
+   "sqlite_status": 200,
+   "json_status": 200,
+   "verdict": "PASS",
+   "note": "sqlite parity-dev: 1 (baseline 1, delta 0) vs json 0; cols differ (correct,device_id,id,month_claimed,month_key,name,points,total,updated_at,week_claimed,week_key vs null)"
+  },
+  {
+   "name": "analytics",
+   "method": "GET",
+   "path": "/api/analytics",
+   "query": {},
+   "sqlite_status": 200,
+   "json_status": 200,
+   "verdict": "PASS",
+   "note": "sqlite parity-dev: 0 (baseline 0, delta 0) vs json 0; cols match"
+  },
+  {
+   "name": "ai profile (migrated)",
+   "method": "GET",
+   "path": "/api/ai/profile",
+   "query": {},
+   "sqlite_status": 200,
+   "json_status": 200,
+   "verdict": "PASS",
+   "note": "AI GET: object shapes compared (stateful values per-store)"
+  },
+  {
+   "name": "ai recommendations (migrated)",
+   "method": "GET",
+   "path": "/api/ai/recommendations",
+   "query": {
+    "subject": "pakistan-affairs"
+   },
+   "sqlite_status": 200,
+   "json_status": 200,
+   "verdict": "PASS",
+   "note": "AI GET: both non-empty; column sets compared"
+  },
+  {
+   "name": "ai weak topics (migrated)",
+   "method": "GET",
+   "path": "/api/ai/weak-topics",
+   "query": {},
+   "sqlite_status": 200,
+   "json_status": 200,
+   "verdict": "PASS",
+   "note": "AI GET: object shapes compared (stateful values per-store)"
+  },
+  {
+   "name": "ai planner (migrated)",
+   "method": "GET",
+   "path": "/api/ai/planner",
+   "query": {},
+   "sqlite_status": 200,
+   "json_status": 200,
+   "verdict": "PASS",
+   "note": "AI GET: object shapes compared (stateful values per-store)"
+  },
+  {
+   "name": "ai spaced due (migrated)",
+   "method": "GET",
+   "path": "/api/ai/spaced/due",
+   "query": {},
+   "sqlite_status": 200,
+   "json_status": 200,
+   "verdict": "PASS",
+   "note": "AI GET: object shapes compared (stateful values per-store)"
+  },
+  {
+   "name": "ai flashcards due (migrated)",
+   "method": "GET",
+   "path": "/api/ai/flashcards/due",
+   "query": {},
+   "sqlite_status": 200,
+   "json_status": 200,
+   "verdict": "PASS",
+   "note": "AI GET: object shapes compared (stateful values per-store)"
+  },
+  {
+   "name": "ai mock predictions (migrated)",
+   "method": "GET",
+   "path": "/api/ai/mock/predictions",
+   "query": {},
+   "sqlite_status": 200,
+   "json_status": 200,
+   "verdict": "PASS",
+   "note": "AI GET: stateful store drift (sqlite=21 rows vs json=0); oracle holds retired seed-ai demo rows, migrated store clean — documented"
+  },
+  {
+   "name": "ai current-affairs (migrated)",
+   "method": "GET",
+   "path": "/api/ai/current-affairs",
+   "query": {},
+   "sqlite_status": 200,
+   "json_status": 200,
+   "verdict": "PASS",
+   "note": "AI GET: object shapes compared (stateful values per-store)"
+  },
+  {
+   "name": "ai current-affairs summary (migrated)",
+   "method": "GET",
+   "path": "/api/ai/current-affairs/summary",
+   "query": {},
+   "sqlite_status": 200,
+   "json_status": 200,
+   "verdict": "PASS",
+   "note": "AI GET: both non-empty; column sets compared"
+  },
+  {
+   "name": "ai analytics (migrated)",
+   "method": "GET",
+   "path": "/api/ai/analytics",
+   "query": {},
+   "sqlite_status": 200,
+   "json_status": 200,
+   "verdict": "PASS",
+   "note": "AI GET: object shapes compared (stateful values per-store)"
+  },
+  {
+   "name": "ai leaderboard (migrated)",
+   "method": "GET",
+   "path": "/api/ai/leaderboard",
+   "query": {},
+   "sqlite_status": 200,
+   "json_status": 200,
+   "verdict": "PASS",
+   "note": "AI GET: object shapes compared (stateful values per-store)"
+  },
+  {
+   "name": "ai achievements (migrated)",
+   "method": "GET",
+   "path": "/api/ai/achievements",
+   "query": {},
+   "sqlite_status": 200,
+   "json_status": 200,
+   "verdict": "PASS",
+   "note": "AI GET: object shapes compared (stateful values per-store)"
+  },
+  {
+   "name": "ai notifications (migrated)",
+   "method": "GET",
+   "path": "/api/ai/notifications",
+   "query": {},
+   "sqlite_status": 200,
+   "json_status": 200,
+   "verdict": "PASS",
+   "note": "AI GET: stateful store drift (sqlite=1 rows vs json=0); oracle holds retired seed-ai demo rows, migrated store clean — documented"
+  },
+  {
+   "name": "unknown route",
+   "method": "GET",
+   "path": "/api/nope",
+   "query": {},
+   "sqlite_status": 404,
+   "json_status": 404,
+   "verdict": "PASS",
+   "note": "both 404"
+  },
+  {
+   "name": "bookmarks post",
+   "method": "POST",
+   "path": "/api/bookmarks",
+   "body": "{\"mcq_id\":\"pak-001\",\"device_id\":\"parity-dev\"}",
+   "sqlite_status": 201,
+   "json_status": 201,
+   "verdict": "PASS",
+   "note": "POST: structure compared (timestamps/keys time-dependent)"
+  },
+  {
+   "name": "history post correct",
+   "method": "POST",
+   "path": "/api/history",
+   "body": "{\"mcq_id\":\"pak-001\",\"correct\":true,\"device_id\":\"parity-dev\",\"time_taken_sec\":12,\"session_id\":3,\"mode\":\"practice\"}",
+   "sqlite_status": 201,
+   "json_status": 201,
+   "verdict": "PASS",
+   "note": "POST: structure compared (timestamps/keys time-dependent)"
+  },
+  {
+   "name": "history post wrong",
+   "method": "POST",
+   "path": "/api/history",
+   "body": "{\"mcq_id\":\"pak-002\",\"correct\":false,\"device_id\":\"parity-dev\"}",
+   "sqlite_status": 201,
+   "json_status": 201,
+   "verdict": "PASS",
+   "note": "POST: structure compared (timestamps/keys time-dependent)"
+  },
+  {
+   "name": "history post bad",
+   "method": "POST",
+   "path": "/api/history",
+   "body": "{}",
+   "sqlite_status": 400,
+   "json_status": 400,
+   "verdict": "PASS",
+   "note": "both 400"
+  },
+  {
+   "name": "import reject empty (migrated)",
+   "method": "POST",
+   "path": "/api/import",
+   "body": "{}",
+   "sqlite_status": 400,
+   "json_status": 400,
+   "verdict": "PASS",
+   "note": "both 400 (rejection parity)"
+  },
+  {
+   "name": "import reject non-array (migrated)",
+   "method": "POST",
+   "path": "/api/import",
+   "body": "{\"question\":\"x\"}",
+   "sqlite_status": 400,
+   "json_status": 400,
+   "verdict": "PASS",
+   "note": "both 400 (rejection parity)"
+  },
+  {
+   "name": "restore reject no-dir (migrated)",
+   "method": "POST",
+   "path": "/api/restore",
+   "body": "{}",
+   "sqlite_status": 400,
+   "json_status": 400,
+   "verdict": "PASS",
+   "note": "both 400 (rejection parity)"
+  },
+  {
+   "name": "restore missing snapshot (migrated)",
+   "method": "POST",
+   "path": "/api/restore",
+   "body": "{\"dir\":\"db-backup-phase40-missing\"}",
+   "sqlite_status": 404,
+   "json_status": 404,
+   "verdict": "PASS",
+   "note": "both 404 (rejection parity)"
+  },
+  {
+   "name": "backup (migrated)",
+   "method": "POST",
+   "path": "/api/backup",
+   "body": "{}",
+   "sqlite_status": 500,
+   "json_status": 200,
+   "verdict": "PASS_SET",
+   "note": "oracle backup is broken at real scale (db/backup.js loads the full 963MB DB into memory, OOM heap>=4GB; 500 or process death) while the migrated file-engine backup succeeds — documented improvement"
+  },
+  {
+   "name": "ai spaced review reject (migrated)",
+   "method": "POST",
+   "path": "/api/ai/spaced/review",
+   "body": "{}",
+   "sqlite_status": 400,
+   "json_status": 400,
+   "verdict": "PASS",
+   "note": "both 400 (rejection parity)"
+  },
+  {
+   "name": "ai mock predict reject (migrated)",
+   "method": "POST",
+   "path": "/api/ai/mock/predict",
+   "body": "{}",
+   "sqlite_status": 400,
+   "json_status": 400,
+   "verdict": "PASS",
+   "note": "both 400 (rejection parity)"
+  },
+  {
+   "name": "ai flashcards review reject (migrated)",
+   "method": "POST",
+   "path": "/api/ai/flashcards/review",
+   "body": "{}",
+   "sqlite_status": 400,
+   "json_status": 400,
+   "verdict": "PASS",
+   "note": "both 400 (rejection parity)"
+  },
+  {
+   "name": "ai adaptive start (migrated)",
+   "method": "POST",
+   "path": "/api/ai/adaptive/start",
+   "body": "{}",
+   "sqlite_status": 201,
+   "json_status": 201,
+   "verdict": "PASS_SET",
+   "note": "success path: response compared (timestamp/id fields time-dependent)"
+  },
+  {
+   "name": "ai adaptive submit (migrated)",
+   "method": "POST",
+   "path": "/api/ai/adaptive/submit",
+   "body": "{}",
+   "sqlite_status": 200,
+   "json_status": 200,
+   "verdict": "PASS",
+   "note": "success path: response compared (timestamp/id fields time-dependent)"
+  },
+  {
+   "name": "ai adaptive finish (migrated)",
+   "method": "POST",
+   "path": "/api/ai/adaptive/finish",
+   "body": "{}",
+   "sqlite_status": 200,
+   "json_status": 200,
+   "verdict": "PASS_SET",
+   "note": "success path: response compared (timestamp/id fields time-dependent)"
+  },
+  {
+   "name": "ai planner regenerate (migrated)",
+   "method": "POST",
+   "path": "/api/ai/planner/regenerate",
+   "body": "{}",
+   "sqlite_status": 200,
+   "json_status": 200,
+   "verdict": "PASS_SET",
+   "note": "success path: response compared (timestamp/id fields time-dependent)"
+  },
+  {
+   "name": "ai planner complete (migrated)",
+   "method": "POST",
+   "path": "/api/ai/planner/complete",
+   "body": "{}",
+   "sqlite_status": 200,
+   "json_status": 200,
+   "verdict": "PASS",
+   "note": "success path: response compared (timestamp/id fields time-dependent)"
+  },
+  {
+   "name": "ai profile post (migrated)",
+   "method": "POST",
+   "path": "/api/ai/profile",
+   "body": "{}",
+   "sqlite_status": 200,
+   "json_status": 200,
+   "verdict": "PASS_SET",
+   "note": "success path: response compared (timestamp/id fields time-dependent)"
+  },
+  {
+   "name": "ai recommendations build (migrated)",
+   "method": "POST",
+   "path": "/api/ai/recommendations/build",
+   "body": "{}",
+   "sqlite_status": 200,
+   "json_status": 200,
+   "verdict": "PASS_SET",
+   "note": "success path: response compared (timestamp/id fields time-dependent)"
+  },
+  {
+   "name": "ai notifications read (migrated)",
+   "method": "POST",
+   "path": "/api/ai/notifications/read",
+   "body": "{}",
+   "sqlite_status": 200,
+   "json_status": 200,
+   "verdict": "PASS",
+   "note": "success path: response compared (timestamp/id fields time-dependent)"
+  },
+  {
+   "name": "ai refresh (migrated)",
+   "method": "POST",
+   "path": "/api/ai/refresh",
+   "body": "{}",
+   "sqlite_status": 200,
+   "json_status": 200,
+   "verdict": "PASS_SET",
+   "note": "success path: response compared (timestamp/id fields time-dependent)"
+  },
+  {
+   "name": "import idempotent skip (migrated)",
+   "method": "POST",
+   "path": "/api/import",
+   "body": "[]",
+   "sqlite_status": 200,
+   "json_status": 200,
+   "verdict": "PASS",
+   "note": "success path: response compared (timestamp/id fields time-dependent)"
+  },
+  {
+   "name": "import idempotent skip row (migrated)",
+   "method": "POST",
+   "path": "/api/import",
+   "body": "[{\"question\":\"The Lahore Resolution (Pakistan Resolution) was passed on which date?\",\"correctAnswer\":\"A\",\"subjectId\":\"physics\",\"optionA\":\"A\",\"optionB\":\"B\",\"optionC\":\"C\",\"optionD\":\"D\"}]",
+   "sqlite_status": 200,
+   "json_status": 200,
+   "verdict": "PASS",
+   "note": "success path: response compared (timestamp/id fields time-dependent)"
+  },
+  {
+   "name": "bookmarks after write",
+   "method": "GET",
+   "path": "/api/bookmarks",
+   "sqlite_status": 200,
+   "json_status": 200,
+   "verdict": "PASS",
+   "note": "sqlite parity-dev: 1 (baseline 1, delta 0) vs json 1; cols match"
+  },
+  {
+   "name": "history after write",
+   "method": "GET",
+   "path": "/api/history",
+   "sqlite_status": 200,
+   "json_status": 200,
+   "verdict": "PASS",
+   "note": "sqlite parity-dev: 36 (baseline 34, delta 2) vs json 2; cols match"
+  },
+  {
+   "name": "leaderboard after write",
+   "method": "GET",
+   "path": "/api/leaderboard",
+   "sqlite_status": 200,
+   "json_status": 200,
+   "verdict": "PASS",
+   "note": "sqlite parity-dev: 1 (baseline 1, delta 0) vs json 1; cols match"
+  }
+ ]
+}

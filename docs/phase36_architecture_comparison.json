@@ -1,0 +1,59 @@
+{
+ "generated_at": "2026-08-17T06:08:12.731Z",
+ "options": [
+  {
+   "option": "A: SQLite (current)",
+   "github_compat": "DB 2.2GB excluded from Git; server required",
+   "free_hosting": "needs Node host with node:sqlite (Node >=22)",
+   "memory": "~100-200MB server RSS",
+   "search": "FTS + indexes (fast)",
+   "offline_pwa": "static JSON fallback only",
+   "verdict": "current baseline"
+  },
+  {
+   "option": "B: JSON (full)",
+   "github_compat": "872k MCQs ~300-600MB JSON - not Git-friendly",
+   "free_hosting": "static hosting OK for small subsets only",
+   "memory": "high (full load)",
+   "search": "in-memory filter",
+   "offline_pwa": "full offline possible",
+   "verdict": "unsuitable at full scale"
+  },
+  {
+   "option": "C: NDJSON (plain)",
+   "github_compat": "same size issue as JSON",
+   "free_hosting": "streaming needed",
+   "memory": "high",
+   "search": "in-memory",
+   "offline_pwa": "partial",
+   "verdict": "unsuitable raw"
+  },
+  {
+   "option": "D: NDJSON.GZ",
+   "github_compat": "250-400MB compressed - still large for Git",
+   "free_hosting": "needs server-side decompression",
+   "memory": "high once loaded",
+   "search": "in-memory",
+   "offline_pwa": "partial",
+   "verdict": "storage-friendly but memory-heavy"
+  },
+  {
+   "option": "E: Hybrid static JSON + NDJSON (recommended candidate)",
+   "github_compat": "repo stays ~67MB (payload gitignored/LFS)",
+   "free_hosting": "static-first demo + optional API",
+   "memory": "server loads NDJSON index lazily",
+   "search": "SQLite API when server on; static JSON otherwise",
+   "offline_pwa": "works (current behavior)",
+   "verdict": "preserves current architecture"
+  },
+  {
+   "option": "F: External database (Postgres etc.)",
+   "github_compat": "no DB in repo",
+   "free_hosting": "requires external service (cost/auth)",
+   "memory": "server-side",
+   "search": "good",
+   "offline_pwa": "no offline",
+   "verdict": "overkill for PWA; adds ops burden"
+  }
+ ]
+}

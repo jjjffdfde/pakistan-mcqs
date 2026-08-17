@@ -1,0 +1,17 @@
+{
+  "phase": 40,
+  "step": 34,
+  "run_at": "2026-08-17T13:52:27.639Z",
+  "mcqs": 872624,
+  "subjects": 243,
+  "chapters": 0,
+  "topics": 0,
+  "options": 3490496,
+  "concepts": 2968,
+  "concept_links": 330228,
+  "index_files": 2704,
+  "release_manifest_files": 4015,
+  "runtime_code_files": "n/a",
+  "project_size_mb": 1139,
+  "generated_at": "2026-08-17T13:52:27.639Z"
+}

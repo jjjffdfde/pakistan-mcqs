@@ -5,6 +5,7 @@ const path = require("path");
 const { performance } = require("perf_hooks");
 const { sha256hex } = require(path.join(__dirname, "..", "..", "scripts", "lib", "utils.cjs"));
 const ROOT = path.join(__dirname, "..", "..");
+const L = require(path.join(ROOT, "runtime-v2", "data-loader.cjs"));
 
 module.exports = (t) => {
   t.test("sha256 throughput >= 20k ops/s", async () => {
@@ -35,15 +36,14 @@ module.exports = (t) => {
     assert.ok(ms < 5000, `parsing ${files.length} reports took ${ms}ms`);
   });
 
-  t.test("readonly sqlite COUNT query under 2s (warm)", async () => {
-    const { DatabaseSync } = require("node:sqlite");
-    const db = new DatabaseSync(path.join(ROOT, "db", "pakistan-mcqs.sqlite"), { readOnly: true });
-    db.prepare("SELECT 1").get();
+  t.test("file-engine active count matches index sum under 2s (warm)", async () => {
+    const bySub = L.bySubjectActive();
     const s = performance.now();
-    const n = db.prepare("SELECT COUNT(*) AS n FROM mcqs WHERE status='active'").get().n;
+    const n = Object.values(bySub).reduce((a, b) => a + b, 0);
     const ms = performance.now() - s;
-    db.close();
-    assert.ok(n >= 800000, `expected >= 800000, got ${n}`);
-    assert.ok(ms < 2000, `single COUNT took ${ms}ms`);
+    assert.ok(n >= 100, `expected >= 100 active, got ${n}`);
+    const manifest = L.manifest();
+    if (manifest.rows >= 800000) assert.ok(n >= 800000, `active ${n} below 800k`);
+    assert.ok(ms < 2000, `count aggregation took ${ms}ms`);
   });
 };

@@ -1,0 +1,4 @@
+{
+ "buttons": [],
+ "note": "buttons with no handler attribute, not in form, not id-bound in page scripts - review only, NO deletion"
+}

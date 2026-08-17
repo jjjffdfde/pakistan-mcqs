@@ -1,0 +1,282 @@
+{
+ "generated_at": "2026-08-17T12:00:57.659Z",
+ "totals": {
+  "all_files": 5579,
+  "all_bytes": 31216992556,
+  "tracked": 1895,
+  "untracked_not_ignored": 184,
+  "ignored": 3675
+ },
+ "categories": {
+  "root_or_other": {
+   "files": 374,
+   "bytes": 29365004757
+  },
+  "ci_cd": {
+   "files": 6,
+   "bytes": 11942
+  },
+  "assets": {
+   "files": 19,
+   "bytes": 410038
+  },
+  "seo_pages": {
+   "files": 1120,
+   "bytes": 6076810
+  },
+  "data": {
+   "files": 45,
+   "bytes": 2269153
+  },
+  "database_tooling": {
+   "files": 20,
+   "bytes": 470502
+  },
+  "database_data": {
+   "files": 641,
+   "bytes": 1100903518
+  },
+  "desktop": {
+   "files": 3,
+   "bytes": 3691
+  },
+  "docs": {
+   "files": 482,
+   "bytes": 77042142
+  },
+  "runtime_ndjson": {
+   "files": 2768,
+   "bytes": 663870272
+  },
+  "scripts": {
+   "files": 88,
+   "bytes": 895224
+  },
+  "tests": {
+   "files": 13,
+   "bytes": 34507
+  }
+ },
+ "tracked_flags": {
+  "over_25mib": [
+   [
+    "docs/archive/phase17_search_index.json",
+    32876440
+   ]
+  ],
+  "over_50mib": [],
+  "over_90mib": [],
+  "over_100mib": []
+ },
+ "untracked_flags": {
+  "over_25mib": []
+ },
+ "biggest_tracked": [
+  [
+   "docs/archive/phase17_search_index.json",
+   32876440
+  ],
+  [
+   "docs/phase34_file_inventory.json",
+   6664912
+  ],
+  [
+   "docs/archive/phase28_link_audit.json",
+   4823808
+  ],
+  [
+   "docs/archive/phase15_duplicate_report.json",
+   2222161
+  ],
+  [
+   "docs/phase34_file_classification.json",
+   1876864
+  ],
+  [
+   "docs/archive/phase17_semantic_graph.json",
+   1846747
+  ],
+  [
+   "docs/phase34_dead_files.json",
+   1800876
+  ],
+  [
+   "docs/archive/phase17_exam_intelligence.json",
+   1642491
+  ],
+  [
+   "docs/archive/phase18_generation_candidates.json",
+   1325200
+  ],
+  [
+   "data/mcqs.json",
+   1063761
+  ],
+  [
+   "docs/archive/phase20_mastery.json",
+   911719
+  ],
+  [
+   "docs/archive/phase17_prerequisite_graph.json",
+   811996
+  ],
+  [
+   "docs/archive/phase17_learning_paths.json",
+   711248
+  ],
+  [
+   "docs/phase34_duplicates.json",
+   438479
+  ],
+  [
+   "docs/archive/phase17_integrity.json",
+   295442
+  ]
+ ],
+ "biggest_untracked": [
+  [
+   "docs/phase35_dependency_graph.json",
+   5571442
+  ],
+  [
+   "docs/phase35_file_inventory.json",
+   4644825
+  ],
+  [
+   "docs/phase35_dry_run.json",
+   1111846
+  ],
+  [
+   "docs/phase36_file_inventory.json",
+   1000218
+  ],
+  [
+   "docs/phase38_sqlite_dependency_map.json",
+   688662
+  ],
+  [
+   "docs/phase36_data_sources.json",
+   581141
+  ],
+  [
+   "docs/phase36_sqlite_references.json",
+   465109
+  ],
+  [
+   "docs/phase35_duplicate_candidates.json",
+   241693
+  ],
+  [
+   "docs/phase38_security.json",
+   103428
+  ],
+  [
+   "docs/phase36_button_dependency_audit.json",
+   72500
+  ],
+  [
+   "docs/phase36_verdict.json",
+   43862
+  ],
+  [
+   "scripts/phase35/analyze.cjs",
+   31632
+  ],
+  [
+   "docs/phase40_api_parity.json",
+   24864
+  ],
+  [
+   "scripts/phase40/parity.cjs",
+   24390
+  ],
+  [
+   "runtime-v2/query-engine.cjs",
+   23102
+  ]
+ ],
+ "biggest_overall": [
+  [
+   "backup/db-backup-2026-08-13-08-02-12/pakistan-mcqs.sqlite",
+   2145034240
+  ],
+  [
+   "backup/db-backup-2026-08-13-08-39-56/pakistan-mcqs.sqlite",
+   2145034240
+  ],
+  [
+   "backup/db-backup-2026-08-13-08-53-29/pakistan-mcqs.sqlite",
+   2145034240
+  ],
+  [
+   "backup/db-backup-2026-08-17-03-16-52/pakistan-mcqs.sqlite",
+   2145034240
+  ],
+  [
+   "backup/db-backup-2026-08-17-03-26-15/pakistan-mcqs.sqlite",
+   2145034240
+  ],
+  [
+   "migration-backups/pakistan-mcqs.sqlite",
+   2145034240
+  ],
+  [
+   "backup/db-backup-2026-08-13-05-29-29/pakistan-mcqs.sqlite",
+   2145030144
+  ],
+  [
+   "backup/db-backup-2026-08-13-05-35-01/pakistan-mcqs.sqlite",
+   2145030144
+  ],
+  [
+   "backup/db-backup-2026-08-13-05-36-25/pakistan-mcqs.sqlite",
+   2145030144
+  ],
+  [
+   "backup/db-backup-2026-08-13-05-37-10/pakistan-mcqs.sqlite",
+   2145030144
+  ],
+  [
+   "backup/db-backup-2026-08-13-07-50-14/pakistan-mcqs.sqlite",
+   2145030144
+  ],
+  [
+   "backup/db-backup-2026-08-13-07-57-34/pakistan-mcqs.sqlite",
+   2145030144
+  ],
+  [
+   "backup/db-backup-2026-08-13-07-59-31/pakistan-mcqs.sqlite",
+   2145030144
+  ],
+  [
+   "backup/db-backup-2026-08-13-07-14-41/pakistan-mcqs.sqlite",
+   1478651904
+  ],
+  [
+   "database/data/mcqs/options.ndjson",
+   246490952
+  ]
+ ],
+ "git": {
+  "count_objects": [
+   "count: 1929",
+   "size: 9.86 MiB",
+   "in-pack: 0",
+   "packs: 0",
+   "size-pack: 0 bytes",
+   "prune-packable: 0",
+   "garbage: 0",
+   "size-garbage: 0 bytes"
+  ],
+  "branch": [
+   "main"
+  ],
+  "last_commit": [
+   "84600b4d556bdb333808d662a79b6c90754d231b Initial release: Pakistan MCQs Hub - static-first PWA with API layer, content pipeline, and full phase 1-34 audit trail"
+  ],
+  "remotes": [
+   "origin\thttps://github.com/jjjffdfde/pakistan-mcqs.git (fetch)",
+   "origin\thttps://github.com/jjjffdfde/pakistan-mcqs.git (push)"
+  ]
+ }
+}

@@ -1,0 +1,177 @@
+{
+ "generated_at": "2026-08-17T06:08:12.731Z",
+ "env_vars": [
+  {
+   "file": ".github/workflows/database-verify.yml",
+   "var": "MCQS_JSON_DATA_DIR"
+  },
+  {
+   "file": ".github/workflows/database-verify.yml",
+   "var": "MCQS_JSON_INDEX_DIR"
+  },
+  {
+   "file": "docs/phase36_sqlite_references.json",
+   "var": "MCQS_TEST_DB"
+  },
+  {
+   "file": "docs/phase36_sqlite_references.json",
+   "var": "MCQS_TEST_DB"
+  },
+  {
+   "file": "docs/phase38_sqlite_dependency_map.json",
+   "var": "MCQS_TEST_DB"
+  },
+  {
+   "file": "docs/phase38_sqlite_dependency_map.json",
+   "var": "MCQS_TEST_DB"
+  },
+  {
+   "file": "docs/phase38_sqlite_dependency_map.json",
+   "var": "SQLITE_DISABLED"
+  },
+  {
+   "file": "runtime-v2/data-loader.cjs",
+   "var": "MCQS_JSON_DATA_DIR"
+  },
+  {
+   "file": "runtime-v2/data-loader.cjs",
+   "var": "MCQS_JSON_INDEX_DIR"
+  },
+  {
+   "file": "runtime-v2/server.cjs",
+   "var": "MCQS_JSON_PORT"
+  },
+  {
+   "file": "scripts/monitor.cjs",
+   "var": "MCQS_PORT"
+  },
+  {
+   "file": "scripts/phase28/cdp.cjs",
+   "var": "CHROME_PATH"
+  },
+  {
+   "file": "scripts/phase28/server.cjs",
+   "var": "P28_PORT"
+  },
+  {
+   "file": "scripts/phase35/reports.cjs",
+   "var": "P35_DB_SHA"
+  },
+  {
+   "file": "scripts/phase40/export-probe.cjs",
+   "var": "EXPORT_WARM"
+  },
+  {
+   "file": "scripts/phase40/final-smoke.cjs",
+   "var": "MCQS_SMOKE_PORT"
+  },
+  {
+   "file": "scripts/phase40/gate.cjs",
+   "var": "SKIP_FIXTURE_TEST"
+  },
+  {
+   "file": "scripts/phase40/gate.cjs",
+   "var": "SKIP_DB_TEST"
+  },
+  {
+   "file": "scripts/test-db-integration.cjs",
+   "var": "MCQS_API"
+  },
+  {
+   "file": "scripts/validate-buttons.cjs",
+   "var": "MCQS_JSON_PORT"
+  },
+  {
+   "file": "scripts/validate-buttons.cjs",
+   "var": "MCQS_PORT"
+  },
+  {
+   "file": "scripts/validate-buttons.cjs",
+   "var": "API"
+  }
+ ],
+ "sqlite_require": [
+  {
+   "file": "docs/phase36_hidden_dependencies.json",
+   "match": "require('node:sqlite')"
+  },
+  {
+   "file": "docs/phase36_sqlite_references.json",
+   "match": "require('node:sqlite')"
+  },
+  {
+   "file": "docs/phase38_sqlite_dependency_map.json",
+   "match": "require('node:sqlite')"
+  },
+  {
+   "file": "scripts/phase36/analyze.cjs",
+   "match": "require(\"node:sqlite\")"
+  },
+  {
+   "file": "scripts/phase36/bench.cjs",
+   "match": "require(\"node:sqlite\")"
+  }
+ ],
+ "child_process": [
+  "docs/archive/db-design-2026.md",
+  "docs/archive/phase15_duplicate_report.json",
+  "docs/current/backup-restore-2026.md",
+  "docs/current/install-2026.md",
+  "docs/PHASE36_EXECUTION_REPORT.md",
+  "docs/phase36_hidden_dependencies.json",
+  "docs/phase36_sqlite_references.json",
+  "docs/phase38_sqlite_dependency_map.json",
+  "runtime-v2/ai/admin.cjs",
+  "runtime-v2/index-builder.cjs",
+  "scripts/audit.js",
+  "scripts/monitor.cjs",
+  "scripts/phase25-platform.cjs",
+  "scripts/phase26-platform.cjs",
+  "scripts/phase26-repo-audit.cjs",
+  "scripts/phase28/cdp.cjs",
+  "scripts/phase28/probe-quick.cjs",
+  "scripts/phase28/shared.cjs",
+  "scripts/phase28/static-audit.cjs",
+  "scripts/phase31/net.cjs",
+  "scripts/phase31/runtime.cjs",
+  "scripts/phase32/cache-check.cjs",
+  "scripts/phase32/cwv.cjs",
+  "scripts/phase33/pwa.cjs",
+  "scripts/phase33/runtime.cjs",
+  "scripts/phase34/analyze.cjs",
+  "scripts/phase34/git-run.cjs",
+  "scripts/phase35/analyze.cjs",
+  "scripts/phase35/final-report.cjs",
+  "scripts/phase36/analyze.cjs",
+  "scripts/phase36/reports.cjs",
+  "scripts/phase39/audit.cjs",
+  "scripts/phase39/candidate-size.cjs",
+  "scripts/phase39/security-scan.cjs",
+  "scripts/phase39/smoke.cjs",
+  "scripts/phase40/ai-smoke.cjs",
+  "scripts/phase40/backup-test.cjs",
+  "scripts/phase40/export-probe.cjs",
+  "scripts/phase40/final-smoke.cjs",
+  "scripts/phase40/fixture-probe.cjs",
+  "scripts/phase40/gate.cjs",
+  "scripts/phase40/import-test.cjs",
+  "scripts/phase40/make-fixture.cjs",
+  "scripts/phase40/parity.cjs",
+  "scripts/phase40/run-validate-buttons.cjs",
+  "scripts/test-db-integration.cjs",
+  "tests/api/endpoints.test.cjs",
+  "tests/phase31/_lib.cjs",
+  "tests/ui/assets.test.cjs"
+ ],
+ "worker": [
+  "docs/PHASE36_EXECUTION_REPORT.md",
+  "scripts/phase36/reports.cjs"
+ ],
+ "docker": [
+  {
+   "file": ".github/workflows/database-verify.yml",
+   "note": "sqlite/deps mention"
+  }
+ ],
+ "workflows": []
+}

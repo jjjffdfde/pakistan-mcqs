@@ -1,0 +1,45 @@
+{
+  "phase": 39,
+  "step": 1,
+  "generated_at": "2026-08-13T03:15:00.000Z",
+  "tool": "scripts/phase39/audit.cjs (recursive walk + git ls-files)",
+  "totals": {
+    "all_files": 5365,
+    "all_bytes": 4050978472,
+    "tracked": 1895,
+    "untracked_not_ignored": 116,
+    "ignored": 3354,
+    "note": "untracked_not_ignored = 116 at phase end (phase 35-39 reports, runtime-v2 source, phase39 docs/harnesses); all_files updated accordingly"
+  },
+  "categories": {
+    "database_core": { "files": 16, "bytes": "2.21 GB", "note": "db/: engine.js, schema, scripts + the 2.2 GiB SQLite file (git-ignored)" },
+    "database_data": { "files": 640, "bytes": "1.10 GB", "note": "NDJSON.GZ exports + releases/snapshots (all git-ignored)" },
+    "runtime_ndjson": { "files": 2717, "bytes": "663.6 MB", "note": "runtime-v2/: source cjs + built indexes/ + userdata/ (indexes+userdata git-ignored)" },
+    "docs": { "files": 456, "bytes": "65.7 MB", "note": "phase 1-39 reports + archive" },
+    "seo_pages": { "files": 1120, "bytes": "6.1 MB", "note": "static subjects/chapters/topics HTML (tracked)" },
+    "scripts": { "files": 107, "bytes": "1.4 MB", "note": "build/test/lint/audit tooling" },
+    "pipeline_assistant": { "files": 97, "bytes": "2.0 MB" },
+    "root_or_other": { "files": 45, "bytes": "0.9 MB", "note": "index.html, sw.js, manifest, PWA assets, configs, deployment" },
+    "assets": { "files": 19, "bytes": "0.4 MB" },
+    "database_tooling": { "files": 36, "bytes": "0.6 MB" },
+    "data": { "files": 45, "bytes": "2.3 MB", "note": "legacy data/ JSON payloads (tracked)" },
+    "tests": { "files": 13, "bytes": "27.6 KB", "note": "unit/API/integration/performance/database suites" },
+    "ai": { "files": 15, "bytes": "59.1 KB" },
+    "ci_cd": { "files": 6, "bytes": "12.5 KB", "note": ".github/workflows (test.yml, database-verify.yml)" },
+    "desktop": { "files": 3, "bytes": "3.7 KB" }
+  },
+  "key_tracked_files": {
+    "pwa": ["manifest.webmanifest", "sw.js", "offline.html", "404.html", "robots.txt", "sitemap.xml", "image-sitemap.xml", "video-sitemap.xml", ".nojekyll"],
+    "deployment": ["Dockerfile", "docker-compose.yml", "nginx.conf", "ecosystem.config.js", ".github/workflows/test.yml", ".github/workflows/database-verify.yml"],
+    "config": ["package.json", "package-lock.json", ".env.example", ".gitignore", ".gitattributes", ".editorconfig", ".eslintrc.json", ".prettierrc", ".markdownlint.json"],
+    "database_source_archived": {
+      "note": "exports live in database/data + database/releases/source-v2 (ignored locally; see phase39_gitignore_final.json for the LFS-ready policy)"
+    }
+  },
+  "large_ignored_payloads": {
+    "db/pakistan-mcqs.sqlite": "2.21 GB (ignored)",
+    "database/data/**": "1.10 GB (ignored)",
+    "runtime-v2/indexes/**": "~633 MB (ignored, rebuildable)",
+    "database/data/mcqs/options.ndjson": "246 MB staging byproduct (ignored)"
+  }
+}

@@ -1,0 +1,19 @@
+{
+ "before": {
+  "files": 2549,
+  "size_bytes": 3136249698,
+  "git_tracked": 1895,
+  "git_tracked_mib": 67
+ },
+ "after": {
+  "files": 2549,
+  "size_bytes": 3136249698,
+  "git_tracked": 1895,
+  "git_tracked_mib": 67
+ },
+ "files_deleted": 0,
+ "files_archived": 0,
+ "space_saved_bytes": 0,
+ "space_saved_mib": 0,
+ "note": "No deletions were justified by evidence (0 deletable candidates in dry run). Phase 35 added 11 analysis/report artifacts (scripts/phase35/* + docs/phase35_*.json + reports) which remain."
+}

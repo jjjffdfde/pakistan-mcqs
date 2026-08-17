@@ -24,12 +24,12 @@ const latest = head ? { title: head[1].trim(), date: head[2], entry: changelog.s
 const semverHit = changelog.match(/verbs?((\d+)\.(\d+)\.(\d+))\b/);
 const fallbackVersion = () => { const t = new Date().toISOString().slice(0, 10).replace(/-/g, ""); return `0.${t.slice(0, 4)}.${t.slice(4)}`; };
 
-/* deployable surface = static site (no backup/db to keep durable-small) */
-const INCLUDE_DIRS = ["assets", "chapters", "subjects", "data", "scripts", "db", "tests"];
+/* deployable surface = static site + file-engine runtime (no legacy sqlite) */
+const INCLUDE_DIRS = ["assets", "chapters", "subjects", "data", "scripts", "runtime-v2", "tests"];
 const INCLUDE_FILES = new Set([
   "index.html", "admin.html", "404.html", "offline.html", "robots.txt", "sitemap.xml",
   "image-sitemap.xml", "video-sitemap.xml", "sw.js", "manifest.webmanifest",
-  "server.js", "CHANGELOG.md", "README.md", "CONTRIBUTING.md",
+  "CHANGELOG.md", "README.md", "CONTRIBUTING.md",
   ".editorconfig", ".eslintrc.json", ".prettierrc", ".markdownlint.json",
   "Dockerfile", "docker-compose.yml", "nginx.conf", "ecosystem.config.js",
   ".github/workflows/build.yml", ".github/workflows/test.yml", ".github/workflows/lint.yml",

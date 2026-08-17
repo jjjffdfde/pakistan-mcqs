@@ -1,0 +1,29 @@
+{
+  "phase": 39,
+  "step": 5,
+  "generated_at": "2026-08-13T03:16:00.000Z",
+  "method": "git ls-files sizes + untracked-not-ignored sizes; thresholds 25/50/90/100 MiB",
+  "flags": {
+    "tracked_over_25mib": [
+      { "file": "docs/archive/phase17_search_index.json", "bytes": 32876440, "recommendation": "KEEP — historical audit evidence (28-33 MiB); well below the 100 MiB GitHub hard limit" }
+    ],
+    "tracked_over_50mib": [],
+    "tracked_over_90mib": [],
+    "tracked_over_100mib": [],
+    "untracked_over_25mib": []
+  },
+  "conclusion": {
+    "no_file_exceeds_100mib": true,
+    "no_file_exceeds_90mib": true,
+    "largest_tracked": "docs/archive/phase17_search_index.json (32.9 MiB)",
+    "biggest_overall": "db/pakistan-mcqs.sqlite (2.21 GB) — git-ignored, excluded from repo"
+  },
+  "classification": {
+    "KEEP_tracked_under_limit": "all 1895 tracked files except the archive artifact above remain small; typical tracked seo pages < 20 KB",
+    "IGNORE": "db/*.sqlite*, database/data/**, database/releases/**, database/snapshots/**, runtime-v2/indexes/**, runtime-v2/userdata/** — all already git-ignored",
+    "GIT_LFS": "not required — nothing large is tracked; NDJSON payload policy is documented in .gitattributes (commented LFS patterns ready if the payload is ever tracked)",
+    "COMPRESS": "not required",
+    "SPLIT": "not required",
+    "REMOVE": "none — archive artifacts are historical evidence and stay"
+  }
+}

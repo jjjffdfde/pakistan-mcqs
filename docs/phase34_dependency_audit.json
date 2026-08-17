@@ -1,12 +1,5 @@
 [
  {
-  "file": "package.json",
-  "dependencies": {},
-  "devDependencies": {},
-  "scripts": {},
-  "note": "root package.json MISSING - will be created (zero-dependency project; workflows run node directly)"
- },
- {
   "file": "desktop/package.json",
   "dependencies": {},
   "devDependencies": {},
@@ -18,5 +11,27 @@
    "dist:linux": "electron-builder --linux AppImage deb"
   },
   "note": "desktop Electron wrapper dependencies"
+ },
+ {
+  "file": "package.json",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+   "start": "node --max-old-space-size=384 runtime-v2/server.cjs",
+   "serve": "node scripts/serve-test.js",
+   "build": "node scripts/build-mcqs.js",
+   "build:pages": "node scripts/gen-seo-pages.cjs",
+   "build:og": "node scripts/make-og.js",
+   "build:pwa-assets": "node scripts/gen-pwa-assets.cjs",
+   "test": "node scripts/test.cjs",
+   "test:db": "node scripts/test-db-integration.cjs",
+   "benchmark": "node scripts/benchmark.cjs",
+   "lint": "node scripts/lint.cjs",
+   "audit": "node scripts/audit.js",
+   "audit:repo": "node scripts/phase26-repo-audit.cjs",
+   "monitor": "node scripts/monitor.cjs",
+   "release": "node scripts/release.cjs"
+  },
+  "note": "root package.json MISSING - will be created (zero-dependency project; workflows run node directly)"
  }
 ]

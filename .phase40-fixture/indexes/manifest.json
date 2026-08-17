@@ -1,0 +1,28 @@
+{
+ "builtAt": "2026-08-13T04:38:52.941Z",
+ "sourceFiles": {
+  "chemistry": {
+   "lines": 33,
+   "bytes": 770
+  },
+  "general-knowledge": {
+   "lines": 33,
+   "bytes": 800
+  },
+  "physics": {
+   "lines": 34,
+   "bytes": 781
+  }
+ },
+ "rows": 100,
+ "statusCounts": {},
+ "maxCreatedAt": "2026-01-05T04:00:00.000Z",
+ "searchTokens": {
+  "tokens": 9,
+  "stop": 0,
+  "postings": 633,
+  "letterBuckets": 9
+ },
+ "optionRows": 400,
+ "optionOrphans": 0
+}

@@ -96,7 +96,7 @@ node scripts/audit.js
 ### Local preview
 
 ```bash
-npm start                # optional Node server (API + static) → http://localhost:8765
+npm start                # optional Node server (API + static) → http://localhost:8766
 npx serve .              # plain static server → http://localhost:3000
 ```
 
@@ -109,56 +109,48 @@ Zero-dependency test suites (no test framework required):
 ```bash
 npm run lint             # deterministic lint: JS syntax, JSON validity, markdown, HTML refs
 npm run test             # automated test suite (scripts/test.cjs)
-npm run test:db          # DB integration tests (uses a temp copy; production DB untouched)
+npm run test:db          # engine integration tests (fixture NDJSON, runtime-v2/tests)
 npm run benchmark        # performance smoke benchmark
 npm run audit            # full audit (data, HTML refs, JS syntax, SEO, a11y)
 npm run audit:repo       # repository audit (structure/size/consistency)
 ```
 
-Per-phase harnesses under `scripts/phase28`, `scripts/phase30`–`scripts/phase33` and
+Per-phase harnesses under `scripts/phase28`, `scripts/phase31`–`scripts/phase36` and
 `tests/phase31` re-run the functional, responsive, network, performance and PWA
 verification suites used in the release gates. All regression suites (Phase 31/32/33)
 must pass before a release.
 
-## Database Source Repository (Phase 23)
+## Data Engine (Phase 40)
 
-The production SQLite database (`db/pakistan-mcqs.sqlite`, **2.2 GiB, read-only, not
-committed to Git**) is fully rebuildable from the compressed NDJSON source repository in
-`database/`:
+Phase 40 removed the legacy SQLite stack (`db/`, `database/`, `server.js`, the AI/KG
+pipelines) in favor of a zero-dependency **NDJSON file engine**:
 
 ```
-database/
-├── schema/        # DDL as SQL files
-├── data/          # one .ndjson.gz per table (streamed line-per-row JSON) — excluded from Git
-├── manifests/     # manifest.json, row_counts.json, files.json, checksums.json
-├── reports/       # export/build/validate/diff audit reports
-└── scripts/       # export-db.js, build-db.js, validate-db.js, diff-db.js, verify-db.js, ...
+runtime-v2/
+├── server.cjs      # API server (port 8766) over the NDJSON store
+├── loader.cjs      # loads/searches the .ndjson question banks
+├── routes*.cjs     # browse/search/practice/quiz/leaderboard/AI endpoints
+├── userdata/       # writable user data (imports, backups, practice logs)
+└── tests/          # fixture-based engine tests
 ```
 
 ```bash
-# Export the production DB into the source repository (resume-safe, incremental)
-node database/scripts/export-db.js            # full
-node database/scripts/export-db.js --incremental
-
-# Rebuild a database from source and prove reproducibility
-node database/scripts/build-db.js             # → db/pakistan-mcqs.rebuilt.sqlite
-node database/scripts/validate-db.js          # original vs rebuilt (12 checks)
-node database/scripts/verify-db.js            # DB vs repo (10 checks)
+npm start                    # node runtime-v2/server.cjs → http://localhost:8766
+node runtime-v2/server.cjs   # same
 ```
 
-The NDJSON payload (`database/data/`) and historical backup snapshots (`backup/`) are
-excluded from Git because they exceed GitHub size limits — Git LFS rules are already
-prepared in `.gitattributes` if you want to track them. The API server
-(`server.js`) reads the production database directly via `db/engine.js`.
+The API serves the full question bank from `data/*.ndjson` (240K+ MCQs) with no
+compiled database, no rebuild step and no read-only mount constraints. The static
+site degrades gracefully to the bundled demo bank when the API is unreachable.
 
 ## Environment Configuration
 
 The project runs with zero configuration. Optional overrides are documented in
 `.env.example` (copy to `.env` locally — never commit the real `.env`):
 
-- `MCQS_PORT` — port for `server.js` (default 8765)
+- `MCQS_JSON_PORT` — port for `runtime-v2/server.cjs` (default 8766)
 - `MCQS_API` — API base URL used by tooling scripts
-- `MCQS_TEST_DB` — alternate SQLite path for tests/monitoring
+- `MCQS_TEST_JSON` — alternate NDJSON path for tests/monitoring
 - `P28_PORT` — phase 28 audit server port
 - `CHROME_PATH` — Chrome executable for headless audit runs
 

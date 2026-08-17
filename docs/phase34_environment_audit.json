@@ -1,5 +1,7 @@
 {
- "found_env_files": [],
+ "found_env_files": [
+  ".env.example"
+ ],
  "env_variables_in_use": [
   "MCQS_PORT",
   "MCQS_API",

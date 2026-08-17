@@ -1,0 +1,32 @@
+{
+ "generated_at": "2026-08-17T06:08:12.731Z",
+ "packages": [
+  {
+   "file": "desktop/package.json",
+   "total_deps": 0,
+   "sqlite_deps": [],
+   "node_engine": null,
+   "scripts": 5,
+   "uses_node_sqlite_builtin": false
+  },
+  {
+   "file": "package-lock.json",
+   "total_deps": 0,
+   "sqlite_deps": [],
+   "node_engine": null,
+   "scripts": 0,
+   "uses_node_sqlite_builtin": false
+  },
+  {
+   "file": "package.json",
+   "total_deps": 0,
+   "sqlite_deps": [],
+   "node_engine": {
+    "node": ">=22"
+   },
+   "scripts": 14,
+   "uses_node_sqlite_builtin": false
+  }
+ ],
+ "note": "zero-dependency project; node:sqlite is a Node.js built-in (no npm package)"
+}

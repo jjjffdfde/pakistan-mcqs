@@ -1,0 +1,16 @@
+{
+  "phase": 40,
+  "step": 8,
+  "run_at": "2026-08-17T13:52:26.351Z",
+  "pipeline": "POST /api/import (array) -> validation (schema, id/qhash) -> qhash dedupe (global set from committed parts) -> append to userdata/imports/<subject>.ndjson.gz + options JSON -> index rebuild -> cache reload",
+  "validations": [
+    "syntax (JSON parse 400 on malformed)",
+    "schema (required fields)",
+    "IDs (duplicate rejection)",
+    "qhash dedupe (idempotent)",
+    "references (subject table lookup)",
+    "checksums (sha256 sidecars on stores)"
+  ],
+  "tests": "import-test.cjs: inserted 2, search finds imported, idempotent skip, stats alive after rebuild — PASS",
+  "verdict": "PASS"
+}

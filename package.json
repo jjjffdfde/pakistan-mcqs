@@ -9,7 +9,7 @@
     "node": ">=22"
   },
   "scripts": {
-    "start": "node server.js",
+    "start": "node --max-old-space-size=384 runtime-v2/server.cjs",
     "serve": "node scripts/serve-test.js",
     "build": "node scripts/build-mcqs.js",
     "build:pages": "node scripts/gen-seo-pages.cjs",

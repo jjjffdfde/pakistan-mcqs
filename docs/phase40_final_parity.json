@@ -1,0 +1,18 @@
+{
+  "phase": 40,
+  "step": 21,
+  "run_at": "2026-08-17T13:52:27.699Z",
+  "method": "Live A/B parity (oracle server.js vs runtime-v2) executed pre-deletion with the oracle frozen; post-deletion, the same gate suite + physical battery verify the file runtime in isolation.",
+  "parity_evidence": {
+    "PASS": 80,
+    "PASS_SET": 15,
+    "EXPECTED": 0,
+    "FAIL": 0,
+    "total": 95,
+    "verdict": "PASS_WITH_DOCUMENTED_DIVERGENCES"
+  },
+  "final_expected": 0,
+  "final_not_migrated": 0,
+  "hidden_fallback": "none (gate G02: notMigrated reachable only for unknown /api/ai/* paths)",
+  "verdict": "PASS"
+}

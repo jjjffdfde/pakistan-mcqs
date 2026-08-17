@@ -16,6 +16,13 @@ db/*.sqlite
 db/*.sqlite-shm
 db/*.sqlite-wal
 
+# --- Database files anywhere (never commit live data) ---
+*.sqlite
+*.sqlite3
+*.sqlite-wal
+*.sqlite-shm
+*.db
+
 # --- Historical DB backups (kept locally for the restore feature) ---
 backup/*/
 
@@ -24,6 +31,7 @@ database/data/
 database/releases/
 database/snapshots/
 database/manifests/.export-checkpoint.json
+database/manifests/.export-checkpoint.json.bak-*
 database/manifests/.build-state.json
 *.part.tmp
 
@@ -34,6 +42,9 @@ phase34-backup-*/
 .phase26-db-test/
 coverage/
 .cache/
+
+# --- Phase 40 sqlite rollback copy (outside the repository, never pushed) ---
+migration-backups/
 .tmp/
 temp/
 
@@ -53,6 +64,11 @@ temp/
 *.har
 *.zip
 *.7z
+
+# --- Generic local dirs (keep the candidate tree clean) ---
+logs/
+cache/
+snapshots/
 
 # --- OS junk ---
 Thumbs.db

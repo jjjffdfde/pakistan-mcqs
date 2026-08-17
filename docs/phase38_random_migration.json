@@ -1,0 +1,20 @@
+{
+  "phase": 38,
+  "step": 7,
+  "run_at": "2026-08-12T07:00:00.000Z",
+  "title": "Random migration (/api/random -> NDJSON)",
+  "routes": ["/api/random?limit=&seed=&subject=&difficulty=&...&year=&exam="],
+  "implementation": {
+    "seeded": "SQLite ORDER BY rowid LIMIT ? OFFSET ? semantics: walk rowid order (recent.json ids), count matcher hits, compute offset = |seed| % max(1, total - limit), slice the window — deterministic and seed-stable (parity-verified)",
+    "unseeded": "SQLite RANDOM() parity — uniform reservoir sampling over the candidate walk (limit n reservoir, random j swaps)",
+    "matcher": "same filter machinery as browse (subject/difficulty/year/exam/chapter/chapter_id/topic_id/status/combo)",
+    "cap": "limit clamped 1..200",
+    "fetch": "fetchRows on the picked ids (Set-filtered streaming for uncached subject parts)"
+  },
+  "verification": {
+    "parity": "random seeded, random seeded filters, random unseeded: PASS",
+    "regression": "random limit/seed/subject: PASS",
+    "bench": "random_seeded 904ms cold vs 0.2ms sqlite (rowid-order walk needs both ids array + meta; warm path ~same once loaded)"
+  },
+  "memory_note": "walk is O(total) per request over the ids array (44MB resident); no heap spikes (rows materialized only for picked ids)"
+}

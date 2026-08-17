@@ -1,0 +1,230 @@
+{
+ "generated_at": "2026-08-17T06:08:12.731Z",
+ "features": [
+  {
+   "feature": "MCQ search",
+   "api": "/api/search",
+   "page": "index.html",
+   "frontend_fn": "search",
+   "sqlite_required": false,
+   "endpoint_found": false,
+   "tables": []
+  },
+  {
+   "feature": "MCQ browse (filters/pagination)",
+   "api": "/api/browse",
+   "page": "index.html",
+   "frontend_fn": "browse",
+   "sqlite_required": false,
+   "endpoint_found": false,
+   "tables": []
+  },
+  {
+   "feature": "MCQ random / practice",
+   "api": "/api/random",
+   "page": "index.html",
+   "frontend_fn": "practice",
+   "sqlite_required": false,
+   "endpoint_found": false,
+   "tables": []
+  },
+  {
+   "feature": "MCQ detail",
+   "api": "/api/mcqs/:id",
+   "page": "index.html",
+   "frontend_fn": "mcq detail",
+   "sqlite_required": false,
+   "endpoint_found": false,
+   "tables": []
+  },
+  {
+   "feature": "Subject browsing",
+   "api": "/api/subjects",
+   "page": "subjects/*.html + index",
+   "frontend_fn": "subjects",
+   "sqlite_required": false,
+   "endpoint_found": false,
+   "tables": []
+  },
+  {
+   "feature": "Chapter browsing",
+   "api": "/api/chapters",
+   "page": "chapters/*.html + index",
+   "frontend_fn": "chapters",
+   "sqlite_required": false,
+   "endpoint_found": false,
+   "tables": []
+  },
+  {
+   "feature": "Topic browsing",
+   "api": "/api/topics",
+   "page": "index.html",
+   "frontend_fn": "topics",
+   "sqlite_required": false,
+   "endpoint_found": false,
+   "tables": []
+  },
+  {
+   "feature": "Quiz",
+   "api": "/api/quizzes + /api/random",
+   "page": "index.html",
+   "frontend_fn": "quiz",
+   "sqlite_required": false,
+   "endpoint_found": false,
+   "tables": []
+  },
+  {
+   "feature": "Mock test",
+   "api": "/api/mocktests",
+   "page": "index.html",
+   "frontend_fn": "mock",
+   "sqlite_required": false,
+   "endpoint_found": false,
+   "tables": []
+  },
+  {
+   "feature": "Past papers",
+   "api": "/api/pastpapers",
+   "page": "index.html",
+   "frontend_fn": "papers",
+   "sqlite_required": false,
+   "endpoint_found": false,
+   "tables": []
+  },
+  {
+   "feature": "Bookmarks",
+   "api": "/api/bookmarks",
+   "page": "index.html",
+   "frontend_fn": "bookmarks",
+   "sqlite_required": false,
+   "endpoint_found": false,
+   "tables": []
+  },
+  {
+   "feature": "History",
+   "api": "/api/history",
+   "page": "index.html",
+   "frontend_fn": "history",
+   "sqlite_required": false,
+   "endpoint_found": false,
+   "tables": []
+  },
+  {
+   "feature": "Leaderboard",
+   "api": "/api/leaderboard",
+   "page": "index.html",
+   "frontend_fn": "leaderboard",
+   "sqlite_required": false,
+   "endpoint_found": false,
+   "tables": []
+  },
+  {
+   "feature": "Analytics",
+   "api": "/api/analytics",
+   "page": "index.html",
+   "frontend_fn": "analytics",
+   "sqlite_required": false,
+   "endpoint_found": false,
+   "tables": []
+  },
+  {
+   "feature": "AI profile",
+   "api": "/api/ai/profile",
+   "page": "index.html",
+   "frontend_fn": "profile",
+   "sqlite_required": false,
+   "endpoint_found": false,
+   "tables": []
+  },
+  {
+   "feature": "Adaptive practice",
+   "api": "/api/ai/adaptive/*",
+   "page": "index.html",
+   "frontend_fn": "adaptive",
+   "sqlite_required": false,
+   "endpoint_found": false,
+   "tables": []
+  },
+  {
+   "feature": "Spaced revision",
+   "api": "/api/ai/spaced/*",
+   "page": "index.html",
+   "frontend_fn": "spaced",
+   "sqlite_required": false,
+   "endpoint_found": false,
+   "tables": []
+  },
+  {
+   "feature": "Flashcards",
+   "api": "/api/ai/flashcards/*",
+   "page": "index.html",
+   "frontend_fn": "flashcards",
+   "sqlite_required": false,
+   "endpoint_found": false,
+   "tables": []
+  },
+  {
+   "feature": "Mock predictor",
+   "api": "/api/ai/mock/predict",
+   "page": "index.html",
+   "frontend_fn": "predict",
+   "sqlite_required": false,
+   "endpoint_found": false,
+   "tables": []
+  },
+  {
+   "feature": "Recommendations",
+   "api": "/api/ai/recommendations",
+   "page": "index.html",
+   "frontend_fn": "recommendations",
+   "sqlite_required": false,
+   "endpoint_found": false,
+   "tables": []
+  },
+  {
+   "feature": "Knowledge graph",
+   "api": "/api/ai/weak-topics + kg modules",
+   "page": "index.html",
+   "frontend_fn": "kg",
+   "sqlite_required": false,
+   "endpoint_found": false,
+   "tables": []
+  },
+  {
+   "feature": "Current affairs",
+   "api": "/api/ai/current-affairs",
+   "page": "index.html",
+   "frontend_fn": "news",
+   "sqlite_required": false,
+   "endpoint_found": false,
+   "tables": []
+  },
+  {
+   "feature": "Offline demo mode (static data/mcqs.json)",
+   "api": "none (static)",
+   "page": "index.html",
+   "frontend_fn": "static",
+   "sqlite_required": false,
+   "endpoint_found": false,
+   "tables": []
+  },
+  {
+   "feature": "Admin panel",
+   "api": "/api/import /export /backup /restore",
+   "page": "admin.html",
+   "frontend_fn": "admin",
+   "sqlite_required": false,
+   "endpoint_found": false,
+   "tables": []
+  },
+  {
+   "feature": "SEO static pages",
+   "api": "none",
+   "page": "subjects/*.html",
+   "frontend_fn": "static",
+   "sqlite_required": false,
+   "endpoint_found": false,
+   "tables": []
+  }
+ ]
+}

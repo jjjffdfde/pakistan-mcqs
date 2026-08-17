@@ -1,0 +1,376 @@
+{
+ "phase": 38,
+ "step": 2,
+ "tool": "scripts/phase38/classify.cjs",
+ "run_at": "2026-08-11T15:49:40.755Z",
+ "legend": {
+  "A": {
+   "label": "SAFE TO MIGRATE NOW",
+   "meaning": "read-only, derived strictly from exported data; NDJSON implementation exists and is parity-verified"
+  },
+  "B": {
+   "label": "REQUIRES SPECIAL HANDLING",
+   "meaning": "deterministic behavior differs from SQLite internals (tie-breaks, ranking); implemented with documented divergences"
+  },
+  "C": {
+   "label": "SHOULD REMAIN SERVER-SIDE",
+   "meaning": "writable user-specific state; stored server-side (SQLite reference OR runtime-v2/userdata JSON), never in public NDJSON"
+  },
+  "D": {
+   "label": "ADMIN / MAINTENANCE ONLY",
+   "meaning": "backup/restore/import/export tooling; keeps SQLite engine, documented EXPECTED at API level"
+  },
+  "E": {
+   "label": "DO NOT MIGRATE",
+   "meaning": "SQLite administration / migration tooling / AI engine — stays SQLite/server-side"
+  }
+ },
+ "counts": {
+  "A": 11,
+  "B": 4,
+  "C": 5,
+  "D": 4,
+  "E": 2
+ },
+ "total_features": 26,
+ "summary": {
+  "a_safe_to_migrate": 11,
+  "b_special_handling": 4,
+  "c_server_side": 5,
+  "d_admin": 4,
+  "e_do_not_migrate": 2,
+  "migrated_now": 15,
+  "remaining_sqlite": 11,
+  "note": "A+B are served by the NDJSON runtime (runtime-v2). C is served by runtime-v2/userdata (server-side JSON) on the NDJSON engine and by SQLite on the reference engine. D/E stay SQLite-only and are documented EXPECTED at the API level."
+ },
+ "features": [
+  {
+   "class": "A",
+   "class_label": "SAFE TO MIGRATE NOW",
+   "feature": "MCQ browse",
+   "routes": [
+    "/api/browse"
+   ],
+   "implementation": [
+    "runtime-v2/query-engine.cjs: browse()",
+    "runtime-v2/server.cjs"
+   ],
+   "parity_evidence": "browse p1/p3/subject/chapter/topic/difficulty/exam/year/status/related all PASS (sets equal; order divergences documented)"
+  },
+  {
+   "class": "A",
+   "class_label": "SAFE TO MIGRATE NOW",
+   "feature": "MCQ search",
+   "routes": [
+    "/api/search"
+   ],
+   "implementation": [
+    "runtime-v2/query-engine.cjs: search()"
+   ],
+   "parity_evidence": "search basic/prefix/empty/filtered: totals equal; ranking differs (count-based vs FTS5 bm25) documented"
+  },
+  {
+   "class": "A",
+   "class_label": "SAFE TO MIGRATE NOW",
+   "feature": "Subject listing",
+   "routes": [
+    "/api/subjects"
+   ],
+   "implementation": [
+    "runtime-v2/query-engine.cjs: subjects()"
+   ],
+   "parity_evidence": "PASS (strict)"
+  },
+  {
+   "class": "A",
+   "class_label": "SAFE TO MIGRATE NOW",
+   "feature": "Chapter listing",
+   "routes": [
+    "/api/chapters"
+   ],
+   "implementation": [
+    "runtime-v2/query-engine.cjs: chapters()"
+   ],
+   "parity_evidence": "PASS (strict)"
+  },
+  {
+   "class": "A",
+   "class_label": "SAFE TO MIGRATE NOW",
+   "feature": "Topic listing",
+   "routes": [
+    "/api/topics"
+   ],
+   "implementation": [
+    "runtime-v2/query-engine.cjs: topics()"
+   ],
+   "parity_evidence": "PASS (strict)"
+  },
+  {
+   "class": "A",
+   "class_label": "SAFE TO MIGRATE NOW",
+   "feature": "Category listing",
+   "routes": [
+    "/api/categories"
+   ],
+   "implementation": [
+    "runtime-v2/query-engine.cjs: categories()"
+   ],
+   "parity_evidence": "PASS (strict)"
+  },
+  {
+   "class": "A",
+   "class_label": "SAFE TO MIGRATE NOW",
+   "feature": "Practice / random MCQ",
+   "routes": [
+    "/api/random"
+   ],
+   "implementation": [
+    "runtime-v2/query-engine.cjs: random()"
+   ],
+   "parity_evidence": "seeded PASS; unseeded shape+validity PASS (sets differ by design)"
+  },
+  {
+   "class": "A",
+   "class_label": "SAFE TO MIGRATE NOW",
+   "feature": "Question lookup by ID",
+   "routes": [
+    "/api/mcq/:id",
+    "/api/mcqs"
+   ],
+   "implementation": [
+    "runtime-v2/query-engine.cjs: getById(), batchByIds()"
+   ],
+   "parity_evidence": "PASS (strict)"
+  },
+  {
+   "class": "A",
+   "class_label": "SAFE TO MIGRATE NOW",
+   "feature": "Static exam information",
+   "routes": [
+    "/api/exams",
+    "/api/quizzes",
+    "/api/mocktests",
+    "/api/pastpapers"
+   ],
+   "implementation": [
+    "runtime-v2/server.cjs",
+    "runtime-v2/query-engine.cjs"
+   ],
+   "parity_evidence": "PASS (strict)"
+  },
+  {
+   "class": "A",
+   "class_label": "SAFE TO MIGRATE NOW",
+   "feature": "Static analytics",
+   "routes": [
+    "/api/analytics"
+   ],
+   "implementation": [
+    "runtime-v2/user-store.cjs: analytics()"
+   ],
+   "parity_evidence": "PASS (structure)"
+  },
+  {
+   "class": "A",
+   "class_label": "SAFE TO MIGRATE NOW",
+   "feature": "Knowledge graph (read-only)",
+   "routes": [
+    "/api/kg/*"
+   ],
+   "implementation": [
+    "runtime-v2/kg-store.cjs",
+    "runtime-v2/kg-query.cjs"
+   ],
+   "parity_evidence": "concept/micro/objective search, detail, relations, prerequisites, distractors, learning paths — all PASS (strict)"
+  },
+  {
+   "class": "B",
+   "class_label": "REQUIRES SPECIAL HANDLING",
+   "feature": "Pagination",
+   "routes": [
+    "/api/browse",
+    "/api/search"
+   ],
+   "implementation": [
+    "runtime-v2/query-engine.cjs: paginate(), walkRecent()"
+   ],
+   "parity_evidence": "created_at DESC, id ASC mirrors SQLite; tie-order matches; FTS ranking differs"
+  },
+  {
+   "class": "B",
+   "class_label": "REQUIRES SPECIAL HANDLING",
+   "feature": "Search ranking",
+   "routes": [
+    "/api/search"
+   ],
+   "implementation": [
+    "runtime-v2/query-engine.cjs: search()"
+   ],
+   "parity_evidence": "count-based relevance + prefix postings vs FTS5 bm25 — documented, totals always equal"
+  },
+  {
+   "class": "B",
+   "class_label": "REQUIRES SPECIAL HANDLING",
+   "feature": "Related questions",
+   "routes": [
+    "/api/mcq/:id",
+    "/api/browse?related="
+   ],
+   "implementation": [
+    "runtime-v2/query-engine.cjs: attachRelated()"
+   ],
+   "parity_evidence": "tag-overlap score DESC, id ASC LIMIT 5 — sqlite reference switched to deterministic id tie-break; PASS (strict)"
+  },
+  {
+   "class": "B",
+   "class_label": "REQUIRES SPECIAL HANDLING",
+   "feature": "Unseeded random",
+   "routes": [
+    "/api/random"
+   ],
+   "implementation": [
+    "runtime-v2/query-engine.cjs: random()"
+   ],
+   "parity_evidence": "reservoir sampling vs ORDER BY RANDOM() — non-deterministic by design; parity checks shape+validity+total"
+  },
+  {
+   "class": "C",
+   "class_label": "SHOULD REMAIN SERVER-SIDE",
+   "feature": "User history",
+   "routes": [
+    "/api/history"
+   ],
+   "implementation": [
+    "runtime-v2/user-store.cjs",
+    "runtime-v2/userdata/history.json"
+   ],
+   "parity_evidence": "writable; server-side JSON store; never in public NDJSON"
+  },
+  {
+   "class": "C",
+   "class_label": "SHOULD REMAIN SERVER-SIDE",
+   "feature": "Bookmarks",
+   "routes": [
+    "/api/bookmarks"
+   ],
+   "implementation": [
+    "runtime-v2/user-store.cjs",
+    "runtime-v2/userdata/bookmarks.json"
+   ],
+   "parity_evidence": "writable; server-side; device-scoped"
+  },
+  {
+   "class": "C",
+   "class_label": "SHOULD REMAIN SERVER-SIDE",
+   "feature": "Leaderboards",
+   "routes": [
+    "/api/leaderboard"
+   ],
+   "implementation": [
+    "runtime-v2/user-store.cjs",
+    "runtime-v2/userdata/leaderboard.json"
+   ],
+   "parity_evidence": "writable; server-side; period rollups in userdata/periods.json"
+  },
+  {
+   "class": "C",
+   "class_label": "SHOULD REMAIN SERVER-SIDE",
+   "feature": "Sessions / profiles / progress",
+   "routes": [
+    "(AI routes)"
+   ],
+   "implementation": [
+    "ai/ (SQLite reference)",
+    "runtime-v2/user-store.cjs (subset)"
+   ],
+   "parity_evidence": "AI engine stays SQLite; core answer record migrated"
+  },
+  {
+   "class": "C",
+   "class_label": "SHOULD REMAIN SERVER-SIDE",
+   "feature": "Personal analytics",
+   "routes": [
+    "/api/analytics"
+   ],
+   "implementation": [
+    "runtime-v2/user-store.cjs"
+   ],
+   "parity_evidence": "server-side aggregate of user data"
+  },
+  {
+   "class": "D",
+   "class_label": "ADMIN / MAINTENANCE ONLY",
+   "feature": "Backup",
+   "routes": [
+    "/api/backup"
+   ],
+   "implementation": [
+    "db/backup.js",
+    "server.js"
+   ],
+   "parity_evidence": "SQLite only; API returns 501 in runtime-v2 (EXPECTED)"
+  },
+  {
+   "class": "D",
+   "class_label": "ADMIN / MAINTENANCE ONLY",
+   "feature": "Restore",
+   "routes": [
+    "/api/restore"
+   ],
+   "implementation": [
+    "db/restore.js",
+    "server.js"
+   ],
+   "parity_evidence": "SQLite only; API returns 501 in runtime-v2 (EXPECTED)"
+  },
+  {
+   "class": "D",
+   "class_label": "ADMIN / MAINTENANCE ONLY",
+   "feature": "Database import",
+   "routes": [
+    "/api/import"
+   ],
+   "implementation": [
+    "db/import.js (via server)"
+   ],
+   "parity_evidence": "SQLite only; API returns 501 in runtime-v2 (EXPECTED)"
+  },
+  {
+   "class": "D",
+   "class_label": "ADMIN / MAINTENANCE ONLY",
+   "feature": "Export (DB -> static)",
+   "routes": [
+    "/api/export"
+   ],
+   "implementation": [
+    "database/scripts/export-db.js",
+    "server.js"
+   ],
+   "parity_evidence": "reference-side tooling; runtime-v2 implements equivalent export from NDJSON"
+  },
+  {
+   "class": "E",
+   "class_label": "DO NOT MIGRATE",
+   "feature": "SQLite administration / migration tooling",
+   "routes": [],
+   "implementation": [
+    "db/engine.js",
+    "db/kg-migrate.js",
+    "database/scripts/*"
+   ],
+   "parity_evidence": "keeps the reference database; never migrated"
+  },
+  {
+   "class": "E",
+   "class_label": "DO NOT MIGRATE",
+   "feature": "AI engine (recommendations, predictions, spaced revision)",
+   "routes": [
+    "/api/ai/*"
+   ],
+   "implementation": [
+    "ai/*"
+   ],
+   "parity_evidence": "server-side; runtime-v2 returns 501 NOT_MIGRATED (EXPECTED)"
+  }
+ ]
+}

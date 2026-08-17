@@ -1,8 +1,8 @@
 {
-  "version": "0.2026.0810",
+  "version": "0.2026.0817",
   "tag": null,
   "released": "2026-08-04",
   "latest_changelog": "Phase 12 — AI-Powered Personalized Learning Engine",
-  "files_in_manifest": 1477,
+  "files_in_manifest": 4015,
   "node_engines": ">=18"
 }

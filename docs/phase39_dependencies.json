@@ -1,0 +1,18 @@
+{
+  "phase": 39,
+  "step": 10,
+  "generated_at": "2026-08-13T03:21:00.000Z",
+  "files": ["package.json", "package-lock.json (310 bytes)"],
+  "dependencies": {
+    "production": 0,
+    "development": 0,
+    "note": "zero-dependency project; node:sqlite + node:http built-ins only",
+    "unused_dependencies": 0,
+    "node_version_requirement": ">=22 (engines); verified on Node v25.6.1",
+    "npm_scripts": [
+      "start (server.js)", "start:ndjson (runtime-v2)", "serve", "build (build-mcqs.js)", "build:pages (gen-seo-pages.cjs)", "build:og (make-og.js)", "build:pwa-assets (gen-pwa-assets.cjs)",
+      "test (scripts/test.cjs)", "test:db (test-db-integration.cjs)", "benchmark", "lint (scripts/lint.cjs)", "audit", "audit:repo", "monitor", "release"
+    ]
+  },
+  "verdict": "PASS — no dependencies to audit; lockfile present and minimal; nothing to remove"
+}

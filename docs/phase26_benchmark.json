@@ -1,0 +1,49 @@
+{
+  "step": "benchmark",
+  "generated_at": "2026-08-17T12:03:07.744Z",
+  "environment": {
+    "node": "v25.6.1",
+    "platform": "win32",
+    "arch": "x64"
+  },
+  "engine": "runtime-v2 (NDJSON.GZ + JSON indexes)",
+  "measures": {
+    "open_readonly": 16,
+    "avg_count_query_ms": 0,
+    "count_queries": [
+      0.1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "active_mcqs": 872621,
+    "avg_pk_lookup_ms": 220.437,
+    "pk_lookup_batch_ms": 44087.4,
+    "pk_lookup_rows": 200,
+    "taxonomy_ms": {
+      "subjects": 1.7,
+      "chapters": 4.4,
+      "topics": 6.5
+    },
+    "avg_fts_search_ms": 43,
+    "random_20_ms": 6339.8,
+    "static_pages": {
+      "html_pages": 1120,
+      "html_total_mb": 5.8,
+      "median_html_kb": 5
+    },
+    "data": {
+      "json_sources": 872621,
+      "ndjson_parts": 244,
+      "index_files": 2704,
+      "index_total_kb": 647932
+    }
+  },
+  "summary": {
+    "status": "OK",
+    "samples": "deterministic, quantiles aggregated"
+  }
+}

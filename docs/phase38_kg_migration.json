@@ -1,0 +1,28 @@
+{
+  "phase": 38,
+  "step": 8,
+  "run_at": "2026-08-12T07:00:00.000Z",
+  "title": "Knowledge Graph migration (kg/* -> NDJSON readonly)",
+  "routes": [
+    "/api/kg/stats", "/api/kg/concepts?q=&subject=", "/api/kg/concepts/:id",
+    "/api/kg/concepts/:id/relations", "/api/kg/concepts/:id/prerequisites",
+    "/api/kg/concepts/:id/objectives", "/api/kg/concepts/:id/micro-concepts",
+    "/api/kg/concepts/:id/exams", "/api/kg/concepts/:id/distractors",
+    "/api/kg/micro-concepts", "/api/kg/learning-objectives", "/api/kg/learning-paths"
+  ],
+  "implementation": {
+    "store": "kg-store.cjs streams database/data/kg/*.ndjson.gz (18 tables, 2.9MB) + concepts/ exports; tables <= 120000 rows cached; mcq_concepts (330k) mapped once to concept_id -> sorted mcq ids (~30MB)",
+    "concept_detail_shape": "{concept, stats, difficulty_profile, relations, prerequisites, micro, objectives, exams} wrapper — parity-verified",
+    "stats_shape": "{counts:{...}}",
+    "kg_search": "{results, total}",
+    "ids": "numeric-only validation (^\\d+$), missing/invalid -> 404 semantics parity",
+    "distractors": "distractor_pools + distractor_items joined in memory",
+    "learning_paths": "learning_paths + learning_path_steps joined",
+    "all": "no SQLite in the read path"
+  },
+  "verification": {
+    "parity": "kg stats, concepts q/q+subject/noq, detail x2, relations, prerequisites, objectives, micro, exams, distractors, missing, bad id, micro q, objectives q, learning paths: PASS (16 checks)",
+    "regression": "kg.stats shape + kg.detail wrapper: PASS",
+    "bench": "kg_concept_lookup 7.7ms vs 0.1ms; kg_concept_search 4.7ms vs 1.6ms"
+  }
+}

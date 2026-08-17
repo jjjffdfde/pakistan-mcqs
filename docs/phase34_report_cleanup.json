@@ -2,169 +2,223 @@
  "note": "No deletion of phase reports - evidence preserved. Reorganize into docs/current/ and docs/archive/.",
  "reports": [
   {
-   "file": "docs/phase17_search_index.json",
+   "file": "docs/archive/phase17_search_index.json",
    "size": 32876440,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase28_link_audit.json",
+   "file": "docs/archive/phase28_link_audit.json",
    "size": 4823808,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
+   "file": "docs/phase35_dependency_graph.json",
+   "size": 3439476,
+   "classification": "HISTORICAL_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
    "file": "docs/phase34_file_inventory.json",
-   "size": 3544438,
+   "size": 3428497,
    "classification": "CURRENT_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase15_duplicate_report.json",
+   "file": "docs/phase35_file_inventory.json",
+   "size": 2460438,
+   "classification": "HISTORICAL_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/archive/phase15_duplicate_report.json",
    "size": 2222161,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase17_semantic_graph.json",
+   "file": "docs/archive/phase17_semantic_graph.json",
    "size": 1846747,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase17_exam_intelligence.json",
+   "file": "docs/archive/phase17_exam_intelligence.json",
    "size": 1642491,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase18_generation_candidates.json",
+   "file": "docs/archive/phase18_generation_candidates.json",
    "size": 1325200,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase20_mastery.json",
+   "file": "docs/archive/phase20_mastery.json",
    "size": 911719,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
    "file": "docs/phase34_file_classification.json",
-   "size": 836905,
+   "size": 836458,
    "classification": "CURRENT_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase17_prerequisite_graph.json",
+   "file": "docs/archive/phase17_prerequisite_graph.json",
    "size": 811996,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase17_learning_paths.json",
+   "file": "docs/archive/phase17_learning_paths.json",
    "size": 711248,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
+   "file": "docs/phase38_sqlite_dependency_map.json",
+   "size": 688662,
+   "classification": "HISTORICAL_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/phase36_sqlite_references.json",
+   "size": 685612,
+   "classification": "HISTORICAL_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
    "file": "docs/phase34_dead_files.json",
-   "size": 514811,
+   "size": 600676,
    "classification": "CURRENT_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase17_integrity.json",
+   "file": "docs/phase36_file_inventory.json",
+   "size": 439373,
+   "classification": "HISTORICAL_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/phase36_table_usage.json",
+   "size": 424942,
+   "classification": "HISTORICAL_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/archive/phase17_integrity.json",
    "size": 295442,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
    "file": "docs/phase34_duplicates.json",
-   "size": 280982,
+   "size": 280951,
    "classification": "CURRENT_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase20_institution_reports.json",
+   "file": "docs/archive/phase20_institution_reports.json",
    "size": 252929,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase31_routes.json",
+   "file": "docs/current/phase31_routes.json",
    "size": 206947,
    "classification": "CURRENT_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
    "file": "docs/phase34_deletion_plan.json",
-   "size": 205719,
+   "size": 196732,
    "classification": "CURRENT_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase17_recommendation_engine.json",
+   "file": "docs/phase35_duplicate_candidates.json",
+   "size": 184024,
+   "classification": "HISTORICAL_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/archive/phase17_recommendation_engine.json",
    "size": 171242,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase23_checksums.json",
+   "file": "docs/archive/phase23_checksums.json",
    "size": 120992,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase19_audit.json",
+   "file": "docs/phase36_data_sources.json",
+   "size": 119183,
+   "classification": "HISTORICAL_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/archive/phase19_audit.json",
    "size": 118162,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase20_subject_intelligence.json",
+   "file": "docs/archive/phase20_subject_intelligence.json",
    "size": 117865,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase18_composition.json",
+   "file": "docs/archive/phase18_composition.json",
    "size": 110175,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase18_evidence.json",
+   "file": "docs/archive/phase18_evidence.json",
    "size": 109151,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase18_duplicate_detection.json",
+   "file": "docs/archive/phase18_duplicate_detection.json",
    "size": 106809,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase15_subject_audit.json",
+   "file": "docs/archive/phase15_subject_audit.json",
    "size": 105857,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase19_evidence_view.json",
+   "file": "docs/archive/phase19_evidence_view.json",
    "size": 105164,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase15_coverage_report.json",
+   "file": "docs/phase38_security.json",
+   "size": 103428,
+   "classification": "HISTORICAL_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/archive/phase15_coverage_report.json",
    "size": 88199,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase23_files.json",
+   "file": "docs/archive/phase23_files.json",
    "size": 86761,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
@@ -176,169 +230,229 @@
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase17_similarity_graph.json",
+   "file": "docs/archive/phase17_similarity_graph.json",
    "size": 78459,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase18_distractor_selection.json",
+   "file": "docs/phase34_git_dry_run.json",
+   "size": 77743,
+   "classification": "CURRENT_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/phase36_button_dependency_audit.json",
+   "size": 73496,
+   "classification": "HISTORICAL_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/archive/phase18_distractor_selection.json",
    "size": 68759,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase17_analytics.json",
+   "file": "docs/archive/phase17_analytics.json",
    "size": 65482,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/AUDIT-REPORT-2026-08-01-11-28.md",
+   "file": "docs/archive/AUDIT-REPORT-2026-08-01-11-28.md",
    "size": 57081,
    "classification": "HISTORICAL_REPORT (superseded by later phases)",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/AUDIT-REPORT-2026-08-01-11-24.md",
+   "file": "docs/archive/AUDIT-REPORT-2026-08-01-11-24.md",
    "size": 56962,
    "classification": "HISTORICAL_REPORT (superseded by later phases)",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase18_blueprint_selection.json",
+   "file": "docs/archive/phase18_blueprint_selection.json",
    "size": 53121,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase26_repo_audit.json",
+   "file": "docs/archive/phase26_repo_audit.json",
    "size": 52039,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase17_execution_report.json",
+   "file": "docs/phase26_repo_audit.json",
+   "size": 47449,
+   "classification": "HISTORICAL_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/phase34_backup.json",
+   "size": 47410,
+   "classification": "CURRENT_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/phase36_verdict.json",
+   "size": 46748,
+   "classification": "HISTORICAL_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/archive/phase17_execution_report.json",
    "size": 43718,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase20_dashboard.json",
+   "file": "docs/archive/phase20_dashboard.json",
    "size": 42671,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase15_difficulty_report.json",
+   "file": "docs/archive/phase15_difficulty_report.json",
    "size": 42477,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase28_site_inventory.json",
+   "file": "docs/archive/phase28_site_inventory.json",
    "size": 41467,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase30_runtime_raw.json",
+   "file": "docs/archive/phase30_runtime_raw.json",
    "size": 41147,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase15_gap_report.json",
+   "file": "docs/archive/phase15_gap_report.json",
    "size": 40498,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase23_decompress.json",
+   "file": "docs/archive/phase23_decompress.json",
    "size": 35038,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase20_exam_analytics.json",
+   "file": "docs/archive/phase20_exam_analytics.json",
    "size": 34636,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase23_compress.json",
+   "file": "docs/archive/phase23_compress.json",
    "size": 34176,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase28_form_audit.json",
+   "file": "docs/archive/phase28_form_audit.json",
    "size": 32897,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase15_relation_report.json",
+   "file": "docs/archive/phase15_relation_report.json",
    "size": 31854,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase28_button_audit.json",
+   "file": "docs/archive/phase28_button_audit.json",
    "size": 31227,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase21_page_health.json",
+   "file": "docs/archive/phase21_page_health.json",
    "size": 27544,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase18_validation.json",
+   "file": "docs/phase40_api_parity.json",
+   "size": 24864,
+   "classification": "HISTORICAL_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/archive/phase18_validation.json",
    "size": 24418,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/AUDIT-REPORT-2026-08-01-10-25.md",
+   "file": "docs/archive/AUDIT-REPORT-2026-08-01-10-25.md",
    "size": 24226,
    "classification": "HISTORICAL_REPORT (superseded by later phases)",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase27_navigation.json",
+   "file": "docs/PHASE36_EXECUTION_REPORT.md",
+   "size": 20665,
+   "classification": "HISTORICAL_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/archive/phase27_navigation.json",
    "size": 20291,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/COVERAGE-REPORT-2026-08-02-12-22.md",
+   "file": "docs/archive/COVERAGE-REPORT-2026-08-02-12-22.md",
    "size": 19376,
    "classification": "HISTORICAL_REPORT (superseded by later phases)",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/COVERAGE-REPORT-2026-08-01-11-32.md",
+   "file": "docs/archive/COVERAGE-REPORT-2026-08-01-11-32.md",
    "size": 18943,
    "classification": "HISTORICAL_REPORT (superseded by later phases)",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase15_bloom_report.json",
+   "file": "docs/phase38_api_parity.json",
+   "size": 18695,
+   "classification": "HISTORICAL_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/archive/phase15_bloom_report.json",
    "size": 18500,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase30_api_runtime.json",
+   "file": "docs/phase36_migration_map.json",
+   "size": 18492,
+   "classification": "HISTORICAL_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/archive/phase30_api_runtime.json",
    "size": 17914,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase19_versioning.json",
+   "file": "docs/phase30_api_runtime.json",
+   "size": 17868,
+   "classification": "HISTORICAL_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/archive/phase19_versioning.json",
    "size": 17257,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
@@ -350,67 +464,85 @@
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase28_accessibility.json",
+   "file": "docs/archive/phase28_accessibility.json",
    "size": 16474,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase19_workflow.json",
+   "file": "docs/archive/phase19_workflow.json",
    "size": 16233,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase23_diff.json",
+   "file": "docs/archive/phase23_diff.json",
    "size": 15822,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
+   "file": "docs/phase36_database_dependency_graph.json",
+   "size": 15328,
+   "classification": "HISTORICAL_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/phase37_api_parity.json",
+   "size": 15046,
+   "classification": "HISTORICAL_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
    "file": "docs/phase26_code_quality.json",
+   "size": 14866,
+   "classification": "HISTORICAL_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/archive/phase26_code_quality.json",
    "size": 14826,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase21_seo.json",
+   "file": "docs/archive/phase21_seo.json",
    "size": 14716,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase27_assistant.json",
+   "file": "docs/archive/phase27_assistant.json",
    "size": 14556,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase30_site_inventory.json",
+   "file": "docs/archive/phase30_site_inventory.json",
    "size": 14399,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/audit/PHASE1-AUDIT.md",
+   "file": "docs/archive/audit/PHASE1-AUDIT.md",
    "size": 13490,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase28_security_functional.json",
+   "file": "docs/archive/phase28_security_functional.json",
    "size": 13181,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase19_assignments.json",
+   "file": "docs/archive/phase19_assignments.json",
    "size": 13042,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase22_structure.json",
+   "file": "docs/archive/phase22_structure.json",
    "size": 12970,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
@@ -422,133 +554,157 @@
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase27_recommendations.json",
+   "file": "docs/archive/phase27_recommendations.json",
    "size": 12287,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase22_performance.json",
+   "file": "docs/archive/phase22_performance.json",
    "size": 11883,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase19_review_queue.json",
+   "file": "docs/archive/phase19_review_queue.json",
    "size": 11766,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/PHASE12-PLAN.md",
+   "file": "docs/phase38_sqlite_disabled.json",
+   "size": 11355,
+   "classification": "HISTORICAL_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/archive/PHASE12-PLAN.md",
    "size": 11204,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase21_performance.json",
+   "file": "docs/archive/phase21_performance.json",
    "size": 10932,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase30_dead_features.json",
+   "file": "docs/phase36_api_audit.json",
+   "size": 9977,
+   "classification": "HISTORICAL_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/archive/phase30_dead_features.json",
    "size": 9938,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase30_javascript_audit.json",
+   "file": "docs/archive/phase30_javascript_audit.json",
    "size": 9846,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase31_placeholder_audit.json",
+   "file": "docs/phase38_integrity.json",
+   "size": 9804,
+   "classification": "HISTORICAL_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/current/phase31_placeholder_audit.json",
    "size": 9718,
    "classification": "CURRENT_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase21_accessibility.json",
+   "file": "docs/phase38_feature_classification.json",
+   "size": 9594,
+   "classification": "HISTORICAL_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/archive/phase21_accessibility.json",
    "size": 8826,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase33_interaction_audit.json",
+   "file": "docs/current/phase33_interaction_audit.json",
    "size": 8788,
    "classification": "CURRENT_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/BATCH-REPORT-2026-08-04-06-41.md",
+   "file": "docs/archive/BATCH-REPORT-2026-08-04-06-41.md",
    "size": 8503,
    "classification": "HISTORICAL_REPORT (superseded by later phases)",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase27_dashboard.json",
+   "file": "docs/archive/phase27_dashboard.json",
    "size": 8457,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase21_navigation.json",
+   "file": "docs/archive/phase21_navigation.json",
    "size": 8456,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/PHASE13-AUDIT.md",
+   "file": "docs/archive/PHASE13-AUDIT.md",
    "size": 8341,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/BATCH-REPORT-2026-08-02-12-45.md",
+   "file": "docs/archive/BATCH-REPORT-2026-08-02-12-45.md",
    "size": 8307,
    "classification": "HISTORICAL_REPORT (superseded by later phases)",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/db-design-2026.md",
+   "file": "docs/archive/db-design-2026.md",
    "size": 8284,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/BATCH-REPORT-2026-08-01-10-21.md",
+   "file": "docs/archive/BATCH-REPORT-2026-08-01-10-21.md",
    "size": 8196,
    "classification": "HISTORICAL_REPORT (superseded by later phases)",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase30_button_audit.json",
+   "file": "docs/archive/phase30_button_audit.json",
    "size": 8194,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase30_database_performance.json",
+   "file": "docs/archive/phase30_database_performance.json",
    "size": 8155,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase27_api.json",
+   "file": "docs/archive/phase27_api.json",
    "size": 8086,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/BATCH-REPORT-2026-08-02-12-23.md",
+   "file": "docs/archive/BATCH-REPORT-2026-08-02-12-23.md",
    "size": 7904,
    "classification": "HISTORICAL_REPORT (superseded by later phases)",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/PHASE14-KNOWLEDGE-ARCHITECTURE.md",
+   "file": "docs/archive/PHASE14-KNOWLEDGE-ARCHITECTURE.md",
    "size": 7671,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
@@ -560,757 +716,1015 @@
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/pipeline-2026.md",
+   "file": "docs/archive/pipeline-2026.md",
    "size": 7256,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/PHASE23_EXECUTION_REPORT.md",
+   "file": "docs/archive/PHASE23_EXECUTION_REPORT.md",
    "size": 7096,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase28_assets.json",
+   "file": "docs/archive/phase28_assets.json",
    "size": 7048,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase27_learning_engine.json",
+   "file": "docs/archive/phase27_learning_engine.json",
    "size": 7019,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase31_asset_audit.json",
+   "file": "docs/current/phase31_asset_audit.json",
    "size": 6936,
    "classification": "CURRENT_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase27_revision.json",
+   "file": "docs/archive/phase27_revision.json",
    "size": 6681,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase17_api_layer.json",
+   "file": "docs/archive/phase17_api_layer.json",
    "size": 6677,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase21_structure.json",
+   "file": "docs/archive/phase21_structure.json",
    "size": 6616,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase31_network_audit.json",
+   "file": "docs/phase35_api_validation.json",
+   "size": 6603,
+   "classification": "HISTORICAL_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/current/phase31_network_audit.json",
    "size": 6511,
    "classification": "CURRENT_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase21_functions.json",
+   "file": "docs/archive/phase21_functions.json",
    "size": 6060,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase23_storage.json",
+   "file": "docs/PHASE40_EXECUTION_REPORT.md",
+   "size": 6024,
+   "classification": "HISTORICAL_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/archive/phase23_storage.json",
    "size": 5934,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase18_analytics.json",
+   "file": "docs/archive/phase18_analytics.json",
    "size": 5761,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/PHASE12-REPORT.md",
+   "file": "docs/phase36_hidden_dependencies.json",
+   "size": 5627,
+   "classification": "HISTORICAL_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/PHASE38_EXECUTION_REPORT.md",
+   "size": 5620,
+   "classification": "HISTORICAL_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/archive/PHASE12-REPORT.md",
    "size": 5483,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/PHASE32_EXECUTION_REPORT.md",
+   "file": "docs/current/PHASE32_EXECUTION_REPORT.md",
    "size": 5448,
    "classification": "CURRENT_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/PHASE31_EXECUTION_REPORT.md",
+   "file": "docs/current/PHASE31_EXECUTION_REPORT.md",
    "size": 5394,
    "classification": "CURRENT_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase30_api_audit.json",
+   "file": "docs/phase36_feature_dependency_matrix.json",
+   "size": 5369,
+   "classification": "HISTORICAL_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/archive/phase30_api_audit.json",
    "size": 5319,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase-13-offline-ceilings.md",
+   "file": "docs/archive/phase-13-offline-ceilings.md",
    "size": 5242,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/KNOWLEDGE-ARCHITECTURE-REPORT.md",
+   "file": "docs/phase39_smoke_test.json",
+   "size": 5078,
+   "classification": "HISTORICAL_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/archive/KNOWLEDGE-ARCHITECTURE-REPORT.md",
    "size": 5061,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/PHASE33_EXECUTION_REPORT.md",
+   "file": "docs/current/PHASE33_EXECUTION_REPORT.md",
    "size": 5059,
    "classification": "CURRENT_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/PHASE15_EXECUTION_REPORT.md",
+   "file": "docs/archive/PHASE15_EXECUTION_REPORT.md",
    "size": 5032,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase21_analytics.json",
+   "file": "docs/phase35_github_audit.json",
+   "size": 4994,
+   "classification": "HISTORICAL_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/phase39_runtime_data_sources.json",
+   "size": 4984,
+   "classification": "HISTORICAL_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/archive/phase21_analytics.json",
    "size": 4933,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/PHASE30_EXECUTION_REPORT.md",
+   "file": "docs/archive/PHASE30_EXECUTION_REPORT.md",
    "size": 4830,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/PHASE11-REPORT.md",
+   "file": "docs/archive/PHASE11-REPORT.md",
    "size": 4492,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/database-report.md",
+   "file": "docs/archive/database-report.md",
    "size": 4431,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/PHASE27_EXECUTION_REPORT.md",
+   "file": "docs/PHASE39_EXECUTION_REPORT.md",
+   "size": 4392,
+   "classification": "HISTORICAL_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/phase34_execution_report.json",
+   "size": 4365,
+   "classification": "CURRENT_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/archive/PHASE27_EXECUTION_REPORT.md",
    "size": 4284,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase27_revision_intelligence.json",
+   "file": "docs/archive/phase27_revision_intelligence.json",
    "size": 4180,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase32_changes.json",
+   "file": "docs/PHASE34_EXECUTION_REPORT.md",
+   "size": 4161,
+   "classification": "CURRENT_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/PHASE35_EXECUTION_REPORT.md",
+   "size": 4013,
+   "classification": "HISTORICAL_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/phase40_sqlite_final_inventory.json",
+   "size": 3930,
+   "classification": "HISTORICAL_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/current/phase32_changes.json",
    "size": 3914,
    "classification": "CURRENT_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/coverage-report-2026-08-04-06-41.md",
+   "file": "docs/archive/coverage-report-2026-08-04-06-41.md",
    "size": 3886,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/seo-report.md",
+   "file": "docs/archive/seo-report.md",
    "size": 3824,
    "classification": "HISTORICAL_REPORT (superseded by later phases)",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/COVERAGE-REPORT-2026-08-02-12-45.md",
+   "file": "docs/PHASE35_DRY_RUN_REPORT.md",
+   "size": 3738,
+   "classification": "HISTORICAL_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/archive/COVERAGE-REPORT-2026-08-02-12-45.md",
    "size": 3691,
    "classification": "HISTORICAL_REPORT (superseded by later phases)",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase27_automation.json",
+   "file": "docs/archive/phase27_automation.json",
    "size": 3684,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase32_baseline.json",
+   "file": "docs/current/phase32_baseline.json",
    "size": 3660,
    "classification": "CURRENT_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/recommendations.md",
+   "file": "docs/archive/recommendations.md",
    "size": 3611,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase19_dashboard.json",
+   "file": "docs/archive/phase19_dashboard.json",
    "size": 3544,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/coverage-report-2026-08-01-10-21.md",
+   "file": "docs/archive/coverage-report-2026-08-01-10-21.md",
    "size": 3542,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/category-expansion-2026.md",
+   "file": "docs/archive/category-expansion-2026.md",
    "size": 3513,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase13-audit.json",
+   "file": "docs/archive/phase13-audit.json",
    "size": 3489,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase31_form_audit.json",
+   "file": "docs/phase34_final_inventory.json",
+   "size": 3479,
+   "classification": "CURRENT_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/current/phase31_form_audit.json",
    "size": 3464,
    "classification": "CURRENT_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/install-2026.md",
+   "file": "docs/current/install-2026.md",
    "size": 3415,
    "classification": "CURRENT_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase22_production.json",
+   "file": "docs/archive/phase22_production.json",
    "size": 3398,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/performance-report.md",
+   "file": "docs/archive/performance-report.md",
    "size": 3394,
    "classification": "HISTORICAL_REPORT (superseded by later phases)",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/coverage-report-2026-08-02-12-23.md",
+   "file": "docs/archive/coverage-report-2026-08-02-12-23.md",
    "size": 3389,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase31_js_errors.json",
+   "file": "docs/current/phase31_js_errors.json",
    "size": 3388,
    "classification": "CURRENT_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/category-report.md",
+   "file": "docs/archive/category-report.md",
    "size": 3278,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase31_feature_matrix.json",
+   "file": "docs/current/phase31_feature_matrix.json",
    "size": 3278,
    "classification": "CURRENT_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/import-export-2026.md",
+   "file": "docs/archive/import-export-2026.md",
    "size": 3242,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/quality-score-2026.md",
+   "file": "docs/archive/quality-score-2026.md",
    "size": 3224,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/backup-restore-2026.md",
-   "size": 3168,
-   "classification": "CURRENT_REPORT",
-   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
-  },
-  {
-   "file": "docs/phase22_analytics.json",
+   "file": "docs/archive/phase22_analytics.json",
    "size": 3168,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase19_publish_log.json",
+   "file": "docs/current/backup-restore-2026.md",
+   "size": 3168,
+   "classification": "CURRENT_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/phase38_removal_candidates.json",
+   "size": 3133,
+   "classification": "HISTORICAL_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/phase39_remaining_sqlite.json",
+   "size": 3119,
+   "classification": "HISTORICAL_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/archive/phase19_publish_log.json",
    "size": 3110,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase27_analytics.json",
+   "file": "docs/archive/phase27_analytics.json",
    "size": 3040,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/PHASE26_EXECUTION_REPORT.md",
+   "file": "docs/archive/PHASE26_EXECUTION_REPORT.md",
    "size": 2918,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase20_student_analytics.json",
+   "file": "docs/phase39_final_inventory.json",
+   "size": 2893,
+   "classification": "HISTORICAL_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/archive/phase20_student_analytics.json",
    "size": 2887,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase20_revision_plans.json",
+   "file": "docs/phase38_regression.json",
+   "size": 2843,
+   "classification": "HISTORICAL_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/archive/phase20_revision_plans.json",
    "size": 2817,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/PHASE17_EXECUTION_REPORT.md",
+   "file": "docs/archive/PHASE17_EXECUTION_REPORT.md",
    "size": 2809,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/quality-score.md",
+   "file": "docs/archive/quality-score.md",
    "size": 2789,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase30_seo_audit.json",
+   "file": "docs/phase38_ndjson_architecture.json",
+   "size": 2768,
+   "classification": "HISTORICAL_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/archive/phase30_seo_audit.json",
    "size": 2767,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase22_workflow.json",
+   "file": "docs/archive/phase22_workflow.json",
    "size": 2739,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase30_ui_consistency.json",
+   "file": "docs/archive/phase30_ui_consistency.json",
    "size": 2726,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/PHASE20_EXECUTION_REPORT.md",
+   "file": "docs/archive/PHASE20_EXECUTION_REPORT.md",
    "size": 2723,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase33_readiness_score.json",
+   "file": "docs/current/phase33_readiness_score.json",
    "size": 2709,
    "classification": "CURRENT_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/PHASE21_EXECUTION_REPORT.md",
+   "file": "docs/archive/PHASE21_EXECUTION_REPORT.md",
    "size": 2689,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/PHASE25_EXECUTION_REPORT.md",
+   "file": "docs/archive/PHASE25_EXECUTION_REPORT.md",
    "size": 2629,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/FINAL-REPORT-2026-08-01.md",
+   "file": "docs/archive/FINAL-REPORT-2026-08-01.md",
    "size": 2609,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase32_rollback.json",
+   "file": "docs/current/phase32_rollback.json",
    "size": 2576,
    "classification": "CURRENT_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase31_user_flows.json",
+   "file": "docs/current/phase31_user_flows.json",
    "size": 2569,
    "classification": "CURRENT_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/audit-2026.md",
+   "file": "docs/current/audit-2026.md",
    "size": 2562,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/quality-report-2026-08-01-10-21.md",
+   "file": "docs/phase39_readiness.json",
+   "size": 2540,
+   "classification": "HISTORICAL_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/archive/quality-report-2026-08-01-10-21.md",
    "size": 2537,
    "classification": "HISTORICAL_REPORT (superseded by later phases)",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/PHASE19_EXECUTION_REPORT.md",
+   "file": "docs/archive/PHASE19_EXECUTION_REPORT.md",
    "size": 2534,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase32_scorecard.json",
+   "file": "docs/current/phase32_scorecard.json",
    "size": 2533,
    "classification": "CURRENT_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/quality-report-2026-08-04-06-41.md",
+   "file": "docs/archive/quality-report-2026-08-04-06-41.md",
    "size": 2496,
    "classification": "HISTORICAL_REPORT (superseded by later phases)",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/quality-report-2026-08-02-12-45.md",
+   "file": "docs/archive/quality-report-2026-08-02-12-45.md",
    "size": 2495,
    "classification": "HISTORICAL_REPORT (superseded by later phases)",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/accessibility-report.md",
+   "file": "docs/phase35_statistics.json",
+   "size": 2452,
+   "classification": "HISTORICAL_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/archive/accessibility-report.md",
    "size": 2441,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/PHASE18_EXECUTION_REPORT.md",
+   "file": "docs/phase34_largest_tracked_candidates.json",
+   "size": 2424,
+   "classification": "CURRENT_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/archive/PHASE18_EXECUTION_REPORT.md",
    "size": 2417,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase32_before_after.json",
+   "file": "docs/current/phase32_before_after.json",
    "size": 2408,
    "classification": "CURRENT_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/quality-report-2026-08-02-12-23.md",
+   "file": "docs/archive/quality-report-2026-08-02-12-23.md",
    "size": 2395,
    "classification": "HISTORICAL_REPORT (superseded by later phases)",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase33_site_inventory.json",
+   "file": "docs/current/phase33_site_inventory.json",
    "size": 2384,
    "classification": "CURRENT_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase31_performance_audit.json",
+   "file": "docs/current/phase31_performance_audit.json",
    "size": 2360,
    "classification": "CURRENT_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/DEVELOPMENT_GUIDE.md",
-   "size": 2339,
-   "classification": "CURRENT_REPORT",
-   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
-  },
-  {
-   "file": "docs/verify-output.txt",
+   "file": "docs/archive/verify-output.txt",
    "size": 2339,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
+   "file": "docs/current/DEVELOPMENT_GUIDE.md",
+   "size": 2339,
+   "classification": "CURRENT_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
    "file": "docs/DB-INTEGRATION-VERIFICATION.md",
+   "size": 2306,
+   "classification": "HISTORICAL_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/archive/DB-INTEGRATION-VERIFICATION.md",
    "size": 2296,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase32_core_web_vitals.json",
+   "file": "docs/current/phase32_core_web_vitals.json",
    "size": 2210,
    "classification": "CURRENT_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/validation-report.md",
+   "file": "docs/archive/validation-report.md",
    "size": 2205,
    "classification": "HISTORICAL_REPORT (superseded by later phases)",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase32_caching.json",
+   "file": "docs/current/phase32_caching.json",
    "size": 2194,
    "classification": "CURRENT_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/CI_CD_GUIDE.md",
+   "file": "docs/current/CI_CD_GUIDE.md",
    "size": 2160,
    "classification": "CURRENT_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/DEPLOYMENT_GUIDE.md",
+   "file": "docs/current/DEPLOYMENT_GUIDE.md",
    "size": 2142,
    "classification": "CURRENT_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/TESTING_GUIDE.md",
+   "file": "docs/phase36_frontend_data_sources.json",
+   "size": 2133,
+   "classification": "HISTORICAL_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/current/TESTING_GUIDE.md",
    "size": 2092,
    "classification": "CURRENT_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/PHASE22_EXECUTION_REPORT.md",
+   "file": "docs/archive/PHASE22_EXECUTION_REPORT.md",
    "size": 2017,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase31_project_inventory.json",
+   "file": "docs/current/phase31_project_inventory.json",
    "size": 1971,
    "classification": "CURRENT_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase33_responsive_audit.json",
+   "file": "docs/phase36_architecture_comparison.json",
+   "size": 1948,
+   "classification": "HISTORICAL_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/phase35_regression.json",
+   "size": 1941,
+   "classification": "HISTORICAL_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/current/phase33_responsive_audit.json",
    "size": 1934,
    "classification": "CURRENT_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase32_html_optimization.json",
+   "file": "docs/phase38_indexes.json",
+   "size": 1930,
+   "classification": "HISTORICAL_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/current/phase32_html_optimization.json",
    "size": 1923,
    "classification": "CURRENT_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase32_ux_audit.json",
+   "file": "docs/phase39_gitignore_final.json",
+   "size": 1923,
+   "classification": "HISTORICAL_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/current/phase32_ux_audit.json",
    "size": 1892,
    "classification": "CURRENT_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase32_image_optimization.json",
+   "file": "docs/phase39_database_integrity.json",
+   "size": 1880,
+   "classification": "HISTORICAL_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/current/phase32_image_optimization.json",
    "size": 1852,
    "classification": "CURRENT_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase18_generation_report.json",
+   "file": "docs/archive/phase18_generation_report.json",
    "size": 1850,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase33_user_journeys.json",
+   "file": "docs/current/phase33_user_journeys.json",
    "size": 1839,
    "classification": "CURRENT_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase32_regression.json",
+   "file": "docs/current/phase32_regression.json",
    "size": 1831,
    "classification": "CURRENT_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase33_search_audit.json",
+   "file": "docs/current/phase33_search_audit.json",
    "size": 1805,
    "classification": "CURRENT_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase32_javascript_optimization.json",
+   "file": "docs/current/phase32_javascript_optimization.json",
    "size": 1803,
    "classification": "CURRENT_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase21_user_journey.json",
+   "file": "docs/phase39_tests.json",
+   "size": 1799,
+   "classification": "HISTORICAL_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/phase38_user_data_architecture.json",
+   "size": 1798,
+   "classification": "HISTORICAL_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/archive/phase21_user_journey.json",
    "size": 1788,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase27_statistics.json",
+   "file": "docs/archive/phase27_statistics.json",
    "size": 1779,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase24_site_audit.json",
+   "file": "docs/archive/phase24_site_audit.json",
    "size": 1777,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase32_release_readiness.json",
+   "file": "docs/current/phase32_release_readiness.json",
    "size": 1765,
    "classification": "CURRENT_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase33_pwa_audit.json",
+   "file": "docs/phase38_mcq_migration.json",
+   "size": 1747,
+   "classification": "HISTORICAL_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/phase39_git_dry_run.json",
+   "size": 1729,
+   "classification": "HISTORICAL_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/current/phase33_pwa_audit.json",
    "size": 1718,
    "classification": "CURRENT_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase32_integrity.json",
+   "file": "docs/phase39_statistics.json",
+   "size": 1707,
+   "classification": "HISTORICAL_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/current/phase32_integrity.json",
    "size": 1701,
    "classification": "CURRENT_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/BACKUP_RESTORE_GUIDE.md",
+   "file": "docs/current/BACKUP_RESTORE_GUIDE.md",
    "size": 1687,
    "classification": "CURRENT_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/MONITORING_GUIDE.md",
+   "file": "docs/phase38_performance.json",
+   "size": 1686,
+   "classification": "HISTORICAL_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/current/MONITORING_GUIDE.md",
    "size": 1682,
    "classification": "CURRENT_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase33_mcq_flow_audit.json",
+   "file": "docs/current/phase33_mcq_flow_audit.json",
    "size": 1671,
    "classification": "CURRENT_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/RELEASING_GUIDE.md",
+   "file": "docs/current/RELEASING_GUIDE.md",
    "size": 1663,
    "classification": "CURRENT_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/audit-report.md",
+   "file": "docs/phase38_kg_migration.json",
+   "size": 1642,
+   "classification": "HISTORICAL_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/phase38_search_migration.json",
+   "size": 1641,
+   "classification": "HISTORICAL_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/archive/audit-report.md",
    "size": 1624,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase23_validate.json",
+   "file": "docs/archive/phase23_validate.json",
    "size": 1618,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase32_loading_states.json",
+   "file": "docs/current/phase32_loading_states.json",
    "size": 1596,
    "classification": "CURRENT_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase33_accessibility.json",
+   "file": "docs/current/phase33_accessibility.json",
    "size": 1594,
    "classification": "CURRENT_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase25_statistics.json",
+   "file": "docs/phase36_github_audit.json",
+   "size": 1583,
+   "classification": "HISTORICAL_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/archive/phase25_statistics.json",
    "size": 1577,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase32_mobile_performance.json",
+   "file": "docs/current/phase32_mobile_performance.json",
    "size": 1576,
    "classification": "CURRENT_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase23_row_counts.json",
+   "file": "docs/archive/phase23_row_counts.json",
    "size": 1548,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase25_pwa.json",
+   "file": "docs/archive/phase25_pwa.json",
    "size": 1524,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase21_production.json",
+   "file": "docs/archive/phase21_production.json",
    "size": 1518,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase33_assessment_flow.json",
+   "file": "docs/current/phase33_assessment_flow.json",
    "size": 1511,
    "classification": "CURRENT_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase22_uiux.json",
+   "file": "docs/archive/phase22_uiux.json",
    "size": 1503,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase23_incremental.json",
+   "file": "docs/archive/phase23_incremental.json",
    "size": 1495,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase32_database_performance.json",
+   "file": "docs/phase39_git_audit.json",
+   "size": 1493,
+   "classification": "HISTORICAL_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/current/phase32_database_performance.json",
    "size": 1484,
    "classification": "CURRENT_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase28_storage.json",
+   "file": "docs/phase39_source_repository.json",
+   "size": 1471,
+   "classification": "HISTORICAL_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/phase39_large_files.json",
+   "size": 1446,
+   "classification": "HISTORICAL_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/archive/phase28_storage.json",
    "size": 1433,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase33_navigation_audit.json",
+   "file": "docs/phase40_gate.json",
+   "size": 1433,
+   "classification": "HISTORICAL_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/current/phase33_navigation_audit.json",
    "size": 1426,
    "classification": "CURRENT_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase32_statistics.json",
+   "file": "docs/current/phase32_statistics.json",
    "size": 1411,
    "classification": "CURRENT_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase30_fixes.json",
+   "file": "docs/archive/phase30_fixes.json",
    "size": 1385,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase33_form_validation.json",
+   "file": "docs/current/phase33_form_validation.json",
    "size": 1374,
    "classification": "CURRENT_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
@@ -1322,493 +1736,619 @@
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase26_github_actions.json",
+   "file": "docs/archive/phase26_github_actions.json",
    "size": 1357,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase32_seo_safety.json",
+   "file": "docs/current/phase32_seo_safety.json",
    "size": 1347,
    "classification": "CURRENT_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase32_accessibility_optimization.json",
+   "file": "docs/phase34_gitignore.json",
+   "size": 1346,
+   "classification": "CURRENT_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/phase39_build.json",
+   "size": 1346,
+   "classification": "HISTORICAL_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/current/phase32_accessibility_optimization.json",
    "size": 1343,
    "classification": "CURRENT_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/PHASE14-SEED-REPORT.md",
+   "file": "docs/archive/PHASE14-SEED-REPORT.md",
    "size": 1341,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase33_regression.json",
+   "file": "docs/current/phase33_regression.json",
    "size": 1332,
    "classification": "CURRENT_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase23_verify.json",
+   "file": "docs/archive/phase23_verify.json",
    "size": 1331,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase32_memory_audit.json",
+   "file": "docs/current/phase32_memory_audit.json",
    "size": 1329,
    "classification": "CURRENT_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase32_css_optimization.json",
+   "file": "docs/current/phase32_css_optimization.json",
    "size": 1305,
    "classification": "CURRENT_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase33_dead_ui.json",
+   "file": "docs/phase38_random_migration.json",
+   "size": 1284,
+   "classification": "HISTORICAL_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/current/phase33_dead_ui.json",
    "size": 1280,
    "classification": "CURRENT_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase22_security.json",
+   "file": "docs/phase38_sqlite_disabled_mode.json",
+   "size": 1268,
+   "classification": "HISTORICAL_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/phase38_github_audit.json",
+   "size": 1267,
+   "classification": "HISTORICAL_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/archive/phase22_security.json",
    "size": 1266,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase33_filter_audit.json",
+   "file": "docs/current/phase33_filter_audit.json",
    "size": 1264,
    "classification": "CURRENT_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase22_navigation.json",
+   "file": "docs/archive/phase22_navigation.json",
    "size": 1256,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase20_api.json",
+   "file": "docs/archive/phase20_api.json",
    "size": 1255,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase26_statistics.json",
+   "file": "docs/archive/phase26_statistics.json",
    "size": 1255,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase22_dashboard.json",
+   "file": "docs/archive/phase22_dashboard.json",
    "size": 1242,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase26_documentation.json",
+   "file": "docs/archive/phase26_documentation.json",
    "size": 1233,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase33_performance_regression.json",
+   "file": "docs/current/phase33_performance_regression.json",
    "size": 1231,
    "classification": "CURRENT_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase32_network_optimization.json",
+   "file": "docs/current/phase32_network_optimization.json",
    "size": 1224,
    "classification": "CURRENT_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase32_mcq_performance.json",
+   "file": "docs/current/phase32_mcq_performance.json",
    "size": 1219,
    "classification": "CURRENT_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase33_security_audit.json",
+   "file": "docs/current/phase33_security_audit.json",
    "size": 1216,
    "classification": "CURRENT_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase32_search_performance.json",
+   "file": "docs/current/phase32_search_performance.json",
    "size": 1195,
    "classification": "CURRENT_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase33_error_state_audit.json",
+   "file": "docs/current/phase33_error_state_audit.json",
    "size": 1185,
    "classification": "CURRENT_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase24_security.json",
+   "file": "docs/phase36_performance_baseline.json",
+   "size": 1167,
+   "classification": "HISTORICAL_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/archive/phase24_security.json",
    "size": 1149,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase33_api_reliability.json",
+   "file": "docs/current/phase33_api_reliability.json",
    "size": 1146,
    "classification": "CURRENT_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase27_summary.json",
+   "file": "docs/archive/phase27_summary.json",
    "size": 1144,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase33_seo_ui_audit.json",
+   "file": "docs/current/phase33_seo_ui_audit.json",
    "size": 1110,
    "classification": "CURRENT_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase32_lazy_loading.json",
+   "file": "docs/current/phase32_lazy_loading.json",
    "size": 1109,
    "classification": "CURRENT_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase32_error_states.json",
+   "file": "docs/current/phase32_error_states.json",
    "size": 1105,
    "classification": "CURRENT_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/PHASE24_EXECUTION_REPORT.md",
+   "file": "docs/archive/PHASE24_EXECUTION_REPORT.md",
    "size": 1100,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase32_desktop_performance.json",
+   "file": "docs/phase39_gitattributes_final.json",
+   "size": 1072,
+   "classification": "HISTORICAL_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/current/phase32_desktop_performance.json",
    "size": 1038,
    "classification": "CURRENT_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase31_release_gate.json",
+   "file": "docs/current/phase31_release_gate.json",
    "size": 1027,
    "classification": "CURRENT_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase24_validation.json",
+   "file": "docs/archive/phase24_validation.json",
    "size": 1003,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase19_validation.json",
+   "file": "docs/archive/phase19_validation.json",
    "size": 1001,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase21_dashboard.json",
+   "file": "docs/archive/phase21_dashboard.json",
    "size": 996,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase21_security.json",
+   "file": "docs/archive/phase21_security.json",
    "size": 995,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase31_button_audit.json",
+   "file": "docs/current/phase31_button_audit.json",
    "size": 995,
    "classification": "CURRENT_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase31_ui_consistency.json",
+   "file": "docs/phase26_benchmark.json",
+   "size": 994,
+   "classification": "HISTORICAL_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/current/phase31_ui_consistency.json",
    "size": 993,
    "classification": "CURRENT_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase22_validation.json",
+   "file": "docs/archive/phase22_validation.json",
    "size": 982,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase20_validation.json",
+   "file": "docs/phase39_environment.json",
+   "size": 979,
+   "classification": "HISTORICAL_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/archive/phase20_validation.json",
    "size": 974,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase32_font_optimization.json",
+   "file": "docs/current/phase32_font_optimization.json",
    "size": 963,
    "classification": "CURRENT_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase21_validation.json",
+   "file": "docs/phase34_structure.json",
+   "size": 957,
+   "classification": "CURRENT_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/archive/phase21_validation.json",
    "size": 952,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase26_testing.json",
+   "file": "docs/archive/phase26_testing.json",
    "size": 940,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase26_summary.json",
+   "file": "docs/archive/phase26_summary.json",
    "size": 939,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase22_forms.json",
-   "size": 919,
-   "classification": "HISTORICAL_REPORT",
-   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
-  },
-  {
-   "file": "docs/phase15_sql_migration.sql",
-   "size": 901,
-   "classification": "HISTORICAL_REPORT",
-   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
-  },
-  {
-   "file": "docs/phase25_cache.json",
-   "size": 900,
+   "file": "docs/phase26_testing.json",
+   "size": 939,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
    "file": "docs/phase26_monitoring.json",
+   "size": 932,
+   "classification": "HISTORICAL_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/phase34_documentation.json",
+   "size": 930,
+   "classification": "CURRENT_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/phase34_gitattributes.json",
+   "size": 928,
+   "classification": "CURRENT_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/archive/phase22_forms.json",
+   "size": 919,
+   "classification": "HISTORICAL_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/archive/phase15_sql_migration.sql",
+   "size": 901,
+   "classification": "HISTORICAL_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/archive/phase25_cache.json",
+   "size": 900,
+   "classification": "HISTORICAL_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/archive/phase26_monitoring.json",
    "size": 890,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase21_assets.json",
+   "file": "docs/archive/phase21_assets.json",
    "size": 883,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase31_seo_functional_audit.json",
+   "file": "docs/current/phase31_seo_functional_audit.json",
    "size": 883,
    "classification": "CURRENT_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase30_performance_audit.json",
+   "file": "docs/phase39_dependencies.json",
+   "size": 863,
+   "classification": "HISTORICAL_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/archive/phase30_performance_audit.json",
    "size": 849,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase30_security_audit.json",
+   "file": "docs/archive/phase30_security_audit.json",
    "size": 833,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase31_security_audit.json",
+   "file": "docs/current/phase31_security_audit.json",
    "size": 822,
    "classification": "CURRENT_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase32_video_optimization.json",
+   "file": "docs/current/phase32_video_optimization.json",
    "size": 814,
    "classification": "CURRENT_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase31_a11y_audit.json",
+   "file": "docs/phase39_security_final.json",
+   "size": 813,
+   "classification": "HISTORICAL_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/current/phase31_a11y_audit.json",
    "size": 804,
    "classification": "CURRENT_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase22_responsive.json",
+   "file": "docs/archive/phase22_responsive.json",
    "size": 799,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase26_benchmark.json",
+   "file": "docs/archive/phase26_benchmark.json",
    "size": 789,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase23_export.json",
+   "file": "docs/archive/phase23_export.json",
    "size": 764,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase24_admin.json",
+   "file": "docs/archive/phase24_admin.json",
    "size": 763,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase26_deployment.json",
+   "file": "docs/archive/phase26_deployment.json",
    "size": 760,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase25_install.json",
+   "file": "docs/archive/phase25_install.json",
    "size": 754,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase19_rollback.json",
+   "file": "docs/phase34_github_readiness.json",
+   "size": 741,
+   "classification": "CURRENT_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/archive/phase19_rollback.json",
    "size": 739,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase33_repairs.json",
+   "file": "docs/current/phase33_repairs.json",
    "size": 739,
    "classification": "CURRENT_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase21_uiux.json",
+   "file": "docs/archive/phase21_uiux.json",
    "size": 733,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase25_desktop.json",
+   "file": "docs/archive/phase25_desktop.json",
    "size": 731,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase31_link_audit.json",
+   "file": "docs/phase39_parity_regression.json",
+   "size": 716,
+   "classification": "HISTORICAL_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/current/phase31_link_audit.json",
    "size": 711,
    "classification": "CURRENT_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase26_backup.json",
+   "file": "docs/archive/phase26_backup.json",
    "size": 710,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase22_functions.json",
+   "file": "docs/archive/phase22_functions.json",
    "size": 707,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase31_mcq_audit.json",
+   "file": "docs/current/phase31_mcq_audit.json",
    "size": 706,
    "classification": "CURRENT_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase31_regression_suite.json",
+   "file": "docs/current/phase31_regression_suite.json",
    "size": 700,
    "classification": "CURRENT_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase20_forecast.json",
+   "file": "docs/archive/phase20_forecast.json",
    "size": 698,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase25_android.json",
+   "file": "docs/archive/phase25_android.json",
    "size": 687,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase31_before_after.json",
+   "file": "docs/current/phase31_before_after.json",
    "size": 681,
    "classification": "CURRENT_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase25_performance.json",
+   "file": "docs/archive/phase25_performance.json",
    "size": 675,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase24_statistics.json",
+   "file": "docs/archive/phase24_statistics.json",
    "size": 669,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase31_responsive_audit.json",
+   "file": "docs/current/phase31_responsive_audit.json",
    "size": 667,
    "classification": "CURRENT_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase22_summary.json",
+   "file": "docs/archive/phase22_summary.json",
    "size": 657,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase22_assets.json",
+   "file": "docs/phase36_package_audit.json",
+   "size": 656,
+   "classification": "HISTORICAL_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/archive/phase22_assets.json",
    "size": 652,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase20_kpis.json",
+   "file": "docs/archive/phase20_kpis.json",
    "size": 646,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase27_validation.json",
+   "file": "docs/archive/phase27_validation.json",
    "size": 641,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase25_security.json",
+   "file": "docs/phase35_final_validation.json",
+   "size": 635,
+   "classification": "HISTORICAL_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/phase36_pwa_audit.json",
+   "size": 635,
+   "classification": "HISTORICAL_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/archive/phase25_security.json",
    "size": 630,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase18_statistics.json",
+   "file": "docs/archive/phase18_statistics.json",
    "size": 620,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase21_responsive.json",
+   "file": "docs/archive/phase21_responsive.json",
    "size": 620,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
@@ -1820,301 +2360,319 @@
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase31_integrity.json",
+   "file": "docs/current/phase31_integrity.json",
    "size": 605,
    "classification": "CURRENT_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase31_search_audit.json",
+   "file": "docs/current/phase31_search_audit.json",
    "size": 605,
    "classification": "CURRENT_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase24_seo.json",
+   "file": "docs/archive/phase24_seo.json",
    "size": 597,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/performance-report-2026-08-01-10-21.md",
+   "file": "docs/archive/performance-report-2026-08-01-10-21.md",
    "size": 596,
    "classification": "HISTORICAL_REPORT (superseded by later phases)",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/performance-report-2026-08-02-12-23.md",
+   "file": "docs/archive/performance-report-2026-08-02-12-23.md",
    "size": 596,
    "classification": "HISTORICAL_REPORT (superseded by later phases)",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/performance-report-2026-08-02-12-45.md",
+   "file": "docs/archive/performance-report-2026-08-02-12-45.md",
    "size": 596,
    "classification": "HISTORICAL_REPORT (superseded by later phases)",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/performance-report-2026-08-04-06-41.md",
+   "file": "docs/archive/performance-report-2026-08-04-06-41.md",
    "size": 596,
    "classification": "HISTORICAL_REPORT (superseded by later phases)",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase22_statistics.json",
+   "file": "docs/archive/phase22_statistics.json",
    "size": 593,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase24_ui.json",
+   "file": "docs/archive/phase24_ui.json",
    "size": 590,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase25_notifications.json",
+   "file": "docs/archive/phase25_notifications.json",
    "size": 586,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase23_manifest.json",
+   "file": "docs/archive/phase23_manifest.json",
    "size": 584,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase22_seo.json",
+   "file": "docs/archive/phase22_seo.json",
    "size": 583,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase22_accessibility.json",
+   "file": "docs/archive/phase22_accessibility.json",
    "size": 572,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase19_release.json",
+   "file": "docs/archive/phase19_release.json",
    "size": 565,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase25_offline_search.json",
+   "file": "docs/archive/phase25_offline_search.json",
    "size": 565,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase31_fixes.json",
+   "file": "docs/current/phase31_fixes.json",
    "size": 562,
    "classification": "CURRENT_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase21_summary.json",
+   "file": "docs/archive/phase21_summary.json",
    "size": 558,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase25_deployment.json",
+   "file": "docs/archive/phase25_deployment.json",
    "size": 553,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase24_performance.json",
+   "file": "docs/archive/phase24_performance.json",
    "size": 539,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase31_statistics.json",
+   "file": "docs/current/phase31_statistics.json",
    "size": 532,
    "classification": "CURRENT_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/seo-report-2026-08-01-10-21.md",
+   "file": "docs/archive/seo-report-2026-08-01-10-21.md",
    "size": 518,
    "classification": "HISTORICAL_REPORT (superseded by later phases)",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/seo-report-2026-08-02-12-23.md",
+   "file": "docs/archive/seo-report-2026-08-02-12-23.md",
    "size": 518,
    "classification": "HISTORICAL_REPORT (superseded by later phases)",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/seo-report-2026-08-02-12-45.md",
+   "file": "docs/archive/seo-report-2026-08-02-12-45.md",
    "size": 518,
    "classification": "HISTORICAL_REPORT (superseded by later phases)",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/seo-report-2026-08-04-06-41.md",
+   "file": "docs/archive/seo-report-2026-08-04-06-41.md",
    "size": 518,
    "classification": "HISTORICAL_REPORT (superseded by later phases)",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase30_regression_audit.json",
+   "file": "docs/archive/phase30_regression_audit.json",
    "size": 516,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase25_sync.json",
+   "file": "docs/archive/phase25_sync.json",
    "size": 515,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase20_statistics.json",
+   "file": "docs/archive/phase20_statistics.json",
    "size": 513,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase24_summary.json",
+   "file": "docs/phase35_before_after.json",
+   "size": 509,
+   "classification": "HISTORICAL_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/phase34_reference_validation.json",
+   "size": 500,
+   "classification": "CURRENT_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/archive/phase24_summary.json",
    "size": 495,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase24_ux.json",
+   "file": "docs/archive/phase24_ux.json",
    "size": 486,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase30_mcq_audit.json",
+   "file": "docs/archive/phase30_mcq_audit.json",
    "size": 486,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase24_responsive.json",
+   "file": "docs/archive/phase24_responsive.json",
    "size": 475,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase20_summary.json",
+   "file": "docs/archive/phase20_summary.json",
    "size": 464,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase21_statistics.json",
+   "file": "docs/archive/phase21_statistics.json",
    "size": 454,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase30_link_audit.json",
+   "file": "docs/archive/phase30_link_audit.json",
    "size": 444,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase30_error_handling_audit.json",
+   "file": "docs/archive/phase30_error_handling_audit.json",
    "size": 440,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase30_user_features_audit.json",
+   "file": "docs/archive/phase30_user_features_audit.json",
    "size": 440,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase31_assessment_audit.json",
+   "file": "docs/current/phase31_assessment_audit.json",
    "size": 439,
    "classification": "CURRENT_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase19_statistics.json",
+   "file": "docs/archive/phase19_statistics.json",
    "size": 429,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase30_smoke_test_audit.json",
+   "file": "docs/archive/phase30_smoke_test_audit.json",
    "size": 429,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/health-report-2026-08-02-12-45.md",
+   "file": "docs/archive/health-report-2026-08-02-12-45.md",
    "size": 424,
    "classification": "HISTORICAL_REPORT (superseded by later phases)",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/health-report-2026-08-04-06-41.md",
+   "file": "docs/archive/health-report-2026-08-04-06-41.md",
    "size": 424,
    "classification": "HISTORICAL_REPORT (superseded by later phases)",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/health-report-2026-08-02-12-23.md",
+   "file": "docs/archive/health-report-2026-08-02-12-23.md",
    "size": 423,
    "classification": "HISTORICAL_REPORT (superseded by later phases)",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/validation-report-2026-08-01-10-21.md",
+   "file": "docs/archive/validation-report-2026-08-01-10-21.md",
    "size": 422,
    "classification": "HISTORICAL_REPORT (superseded by later phases)",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/validation-report-2026-08-02-12-23.md",
+   "file": "docs/archive/validation-report-2026-08-02-12-23.md",
    "size": 422,
    "classification": "HISTORICAL_REPORT (superseded by later phases)",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/validation-report-2026-08-02-12-45.md",
+   "file": "docs/archive/validation-report-2026-08-02-12-45.md",
    "size": 422,
    "classification": "HISTORICAL_REPORT (superseded by later phases)",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/validation-report-2026-08-04-06-41.md",
+   "file": "docs/archive/validation-report-2026-08-04-06-41.md",
    "size": 422,
    "classification": "HISTORICAL_REPORT (superseded by later phases)",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/health-report-2026-08-01-10-21.md",
+   "file": "docs/archive/health-report-2026-08-01-10-21.md",
    "size": 420,
    "classification": "HISTORICAL_REPORT (superseded by later phases)",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase25_validation.json",
+   "file": "docs/phase35_database_integrity.json",
+   "size": 420,
+   "classification": "HISTORICAL_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/archive/phase25_validation.json",
    "size": 412,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase24_links.json",
+   "file": "docs/archive/phase24_links.json",
    "size": 411,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase19_summary.json",
+   "file": "docs/archive/phase19_summary.json",
    "size": 407,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
@@ -2126,62 +2684,74 @@
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase24_search.json",
+   "file": "docs/archive/phase24_search.json",
    "size": 400,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase26_validation.json",
+   "file": "docs/archive/phase26_validation.json",
    "size": 397,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase24_accessibility.json",
+   "file": "docs/archive/phase24_accessibility.json",
    "size": 386,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase24_buttons.json",
+   "file": "docs/archive/phase24_buttons.json",
    "size": 382,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase30_search_audit.json",
+   "file": "docs/archive/phase30_search_audit.json",
    "size": 380,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase21_integrity.json",
+   "file": "docs/archive/phase21_integrity.json",
    "size": 377,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase22_integrity.json",
+   "file": "docs/archive/phase22_integrity.json",
    "size": 372,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase19_integrity.json",
+   "file": "docs/phase35_dry_run.json",
+   "size": 365,
+   "classification": "HISTORICAL_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/archive/phase19_integrity.json",
    "size": 353,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase20_adaptive_learning.json",
+   "file": "docs/archive/phase20_adaptive_learning.json",
    "size": 339,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase30_mobile_audit.json",
+   "file": "docs/archive/phase30_mobile_audit.json",
    "size": 332,
+   "classification": "HISTORICAL_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/archive/phase26_security.json",
+   "size": 330,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
@@ -2192,92 +2762,110 @@
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase30_assessment_audit.json",
+   "file": "docs/archive/phase30_assessment_audit.json",
    "size": 320,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase20_integrity.json",
+   "file": "docs/archive/phase20_integrity.json",
    "size": 315,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase25_summary.json",
+   "file": "docs/archive/phase25_summary.json",
    "size": 315,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase17_confusion_report.json",
+   "file": "docs/archive/phase17_confusion_report.json",
    "size": 310,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase30_accessibility_audit.json",
+   "file": "docs/archive/phase30_accessibility_audit.json",
    "size": 300,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase26_release.json",
+   "file": "docs/archive/phase26_release.json",
    "size": 267,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase30_score.json",
+   "file": "docs/archive/phase30_score.json",
    "size": 264,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/duplicates-report-2026-08-01-10-21.md",
+   "file": "docs/archive/duplicates-report-2026-08-01-10-21.md",
    "size": 252,
    "classification": "HISTORICAL_REPORT (superseded by later phases)",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/duplicates-report-2026-08-02-12-23.md",
+   "file": "docs/archive/duplicates-report-2026-08-02-12-23.md",
    "size": 252,
    "classification": "HISTORICAL_REPORT (superseded by later phases)",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/duplicates-report-2026-08-02-12-45.md",
+   "file": "docs/archive/duplicates-report-2026-08-02-12-45.md",
    "size": 252,
    "classification": "HISTORICAL_REPORT (superseded by later phases)",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/duplicates-report-2026-08-04-06-41.md",
+   "file": "docs/archive/duplicates-report-2026-08-04-06-41.md",
    "size": 252,
    "classification": "HISTORICAL_REPORT (superseded by later phases)",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase18_approval_queue.json",
+   "file": "docs/phase34_security_recheck.json",
+   "size": 243,
+   "classification": "CURRENT_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/archive/phase18_approval_queue.json",
    "size": 225,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase23_build.json",
+   "file": "docs/phase35_security.json",
+   "size": 214,
+   "classification": "HISTORICAL_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/archive/phase23_build.json",
    "size": 196,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase15_integrity_report.json",
+   "file": "docs/archive/phase15_integrity_report.json",
    "size": 163,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
   {
-   "file": "docs/phase30_form_audit.json",
+   "file": "docs/archive/phase30_form_audit.json",
    "size": 150,
+   "classification": "HISTORICAL_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/phase35_dead_controls.json",
+   "size": 134,
    "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   },
@@ -2285,6 +2873,24 @@
    "file": "docs/phase34_security_cleanup.json",
    "size": 2,
    "classification": "CURRENT_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/phase35_broken_links.json",
+   "size": 2,
+   "classification": "HISTORICAL_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/phase35_temp_candidates.json",
+   "size": 2,
+   "classification": "HISTORICAL_REPORT",
+   "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
+  },
+  {
+   "file": "docs/phase35_unused_candidates.json",
+   "size": 2,
+   "classification": "HISTORICAL_REPORT",
    "action": "KEEP in repo (evidence preserved); move to docs/current/ or docs/archive/ for structure"
   }
  ]

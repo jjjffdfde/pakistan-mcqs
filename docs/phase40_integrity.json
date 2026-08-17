@@ -1,0 +1,43 @@
+{
+  "phase": 40,
+  "step": 34,
+  "run_at": "2026-08-17T13:52:27.699Z",
+  "checks": [
+    {
+      "check": "mcq row count (manifest)",
+      "value": 872624,
+      "status": "PASS"
+    },
+    {
+      "check": "options count (manifest)",
+      "value": 3490496,
+      "status": "PASS"
+    },
+    {
+      "check": "options = 4x rows (imports counted)",
+      "value": "3490496 = 4x872624",
+      "status": "PASS"
+    },
+    {
+      "check": "qhash uniqueness",
+      "value": 872624,
+      "status": "PASS"
+    },
+    {
+      "check": "index rebuild reproducibility",
+      "value": "2703/2704 byte-identical on unchanged inputs; manifest differs only by builtAt",
+      "status": "PASS"
+    },
+    {
+      "check": "runtime health post-rebuild",
+      "value": "ok=true mcqs=872624",
+      "status": "PASS"
+    },
+    {
+      "check": "oracle rollback copy sha256",
+      "value": "C4BF4506FE509E876E7A80D560ABB819D4965FDE1483491C84C0156C05CA97B1 (migration-backups/)",
+      "status": "PASS"
+    }
+  ],
+  "verdict": "PASS"
+}

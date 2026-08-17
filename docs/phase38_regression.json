@@ -1,0 +1,216 @@
+{
+ "phase": "regression",
+ "run_at": "2026-08-12T07:09:45.839Z",
+ "engine": "ndjson (--max-old-space-size=384)",
+ "checks": [
+  {
+   "name": "health.ok",
+   "ok": true
+  },
+  {
+   "name": "stats.mcqs",
+   "ok": true
+  },
+  {
+   "name": "stats.subjects",
+   "ok": true
+  },
+  {
+   "name": "search.hit.status",
+   "ok": true
+  },
+  {
+   "name": "search.hit.nonempty",
+   "ok": true
+  },
+  {
+   "name": "search.hit.shape",
+   "ok": true
+  },
+  {
+   "name": "search.miss.empty",
+   "ok": true
+  },
+  {
+   "name": "browse.page=1",
+   "ok": true
+  },
+  {
+   "name": "browse.page=2",
+   "ok": true
+  },
+  {
+   "name": "browse.difficulty=easy",
+   "ok": true
+  },
+  {
+   "name": "browse.subject=physics",
+   "ok": true
+  },
+  {
+   "name": "browse.year=2024",
+   "ok": true
+  },
+  {
+   "name": "browse.related=pak-001",
+   "ok": true
+  },
+  {
+   "name": "mcq.single",
+   "ok": true
+  },
+  {
+   "name": "mcq.missing404",
+   "ok": true
+  },
+  {
+   "name": "mcq.batch",
+   "ok": true
+  },
+  {
+   "name": "random.basic",
+   "ok": true
+  },
+  {
+   "name": "random.seeded",
+   "ok": true
+  },
+  {
+   "name": "tax.subjects",
+   "ok": true
+  },
+  {
+   "name": "tax.chapters",
+   "ok": true
+  },
+  {
+   "name": "tax.topics",
+   "ok": true
+  },
+  {
+   "name": "tax.categories",
+   "ok": true
+  },
+  {
+   "name": "tax.quizzes",
+   "ok": true
+  },
+  {
+   "name": "tax.mocktests",
+   "ok": true
+  },
+  {
+   "name": "tax.pastpapers",
+   "ok": true
+  },
+  {
+   "name": "tax.exams",
+   "ok": true
+  },
+  {
+   "name": "kg.stats",
+   "ok": true
+  },
+  {
+   "name": "kg.search",
+   "ok": true
+  },
+  {
+   "name": "kg.detail",
+   "ok": true
+  },
+  {
+   "name": "kg.relations",
+   "ok": true
+  },
+  {
+   "name": "kg.prerequisites",
+   "ok": true
+  },
+  {
+   "name": "kg.objectives",
+   "ok": true
+  },
+  {
+   "name": "kg.micro",
+   "ok": true
+  },
+  {
+   "name": "kg.exams",
+   "ok": true
+  },
+  {
+   "name": "kg.distractors",
+   "ok": true
+  },
+  {
+   "name": "kg.missing404",
+   "ok": true
+  },
+  {
+   "name": "kg.micro",
+   "ok": true
+  },
+  {
+   "name": "kg.objectives",
+   "ok": true
+  },
+  {
+   "name": "kg.paths",
+   "ok": true
+  },
+  {
+   "name": "user.bookmarks.get",
+   "ok": true
+  },
+  {
+   "name": "user.bookmarks.post",
+   "ok": true
+  },
+  {
+   "name": "user.history.get",
+   "ok": true
+  },
+  {
+   "name": "user.history.post",
+   "ok": true
+  },
+  {
+   "name": "user.history.post.wrong",
+   "ok": true
+  },
+  {
+   "name": "user.leaderboard.get",
+   "ok": true
+  },
+  {
+   "name": "notmigrated.ai",
+   "ok": true
+  },
+  {
+   "name": "notmigrated.import",
+   "ok": true
+  },
+  {
+   "name": "notmigrated.backup",
+   "ok": true
+  },
+  {
+   "name": "notmigrated.restore",
+   "ok": true
+  },
+  {
+   "name": "unknown.404",
+   "ok": true
+  },
+  {
+   "name": "final.health",
+   "ok": true
+  }
+ ],
+ "summary": {
+  "passed": 51,
+  "total": 51,
+  "verdict": "PASS"
+ }
+}

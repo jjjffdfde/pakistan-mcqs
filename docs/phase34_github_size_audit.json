@@ -1,89 +1,89 @@
 {
- "total_project_size": 16544371387,
- "total_tracked_candidate_size": 417315807,
- "tracked_candidate_file_count": 2074,
- "total_file_count": 2957,
- "total_directories": 610,
+ "total_project_size": 31216220962,
+ "total_tracked_candidate_size": 2896103959,
+ "tracked_candidate_file_count": 6619,
+ "total_file_count": 7531,
+ "total_directories": 890,
  "largest_files": [
   {
-   "path": ".audit-tmp/p30api/db/pakistan-mcqs.sqlite",
-   "size": 2206887936,
-   "classification": "REMOVE_SAFE"
-  },
-  {
-   "path": "db/pakistan-mcqs.sqlite",
-   "size": 2206887936,
-   "classification": "KEEP_RUNTIME"
-  },
-  {
-   "path": "backup/db-backup-2026-08-04-12-47-20/pakistan-mcqs.sqlite",
-   "size": 2159501312,
+   "path": "backup/db-backup-2026-08-13-08-02-12/pakistan-mcqs.sqlite",
+   "size": 2145034240,
    "classification": "LARGE_FILE"
   },
   {
-   "path": "db/pakistan-mcqs.rebuilt.sqlite",
-   "size": 2145193984,
-   "classification": "REMOVE_SAFE"
-  },
-  {
-   "path": "backup/db-backup-2026-08-04-11-42-07/pakistan-mcqs.sqlite",
-   "size": 2133368832,
+   "path": "backup/db-backup-2026-08-13-08-39-56/pakistan-mcqs.sqlite",
+   "size": 2145034240,
    "classification": "LARGE_FILE"
   },
   {
-   "path": "backup/db-backup-2026-08-02-17-47-12/pakistan-mcqs.sqlite",
-   "size": 1083437056,
+   "path": "backup/db-backup-2026-08-13-08-53-29/pakistan-mcqs.sqlite",
+   "size": 2145034240,
    "classification": "LARGE_FILE"
   },
   {
-   "path": "backup/db-backup-2026-08-02-17-23-10/pakistan-mcqs.sqlite",
-   "size": 996319232,
+   "path": "backup/db-backup-2026-08-17-03-16-52/pakistan-mcqs.sqlite",
+   "size": 2145034240,
    "classification": "LARGE_FILE"
   },
   {
-   "path": "backup/2026-08-02-kb-phase-2026-08-02-0950/pakistan-mcqs.sqlite",
-   "size": 657465344,
+   "path": "backup/db-backup-2026-08-17-03-26-15/pakistan-mcqs.sqlite",
+   "size": 2145034240,
    "classification": "LARGE_FILE"
   },
   {
-   "path": "backup/2026-08-01-final-241551/pakistan-mcqs.sqlite",
-   "size": 354398208,
+   "path": "migration-backups/pakistan-mcqs.sqlite",
+   "size": 2145034240,
+   "classification": "KEEP"
+  },
+  {
+   "path": "backup/db-backup-2026-08-13-05-29-29/pakistan-mcqs.sqlite",
+   "size": 2145030144,
    "classification": "LARGE_FILE"
   },
   {
-   "path": "backup/normalize-pre-phase2-2026-08-01-06-14-06/pakistan-mcqs.sqlite",
-   "size": 283262976,
+   "path": "backup/db-backup-2026-08-13-05-35-01/pakistan-mcqs.sqlite",
+   "size": 2145030144,
    "classification": "LARGE_FILE"
   },
   {
-   "path": "backup/db-backup-2026-08-01-04-06-13/pakistan-mcqs.sqlite",
-   "size": 283254784,
+   "path": "backup/db-backup-2026-08-13-05-36-25/pakistan-mcqs.sqlite",
+   "size": 2145030144,
    "classification": "LARGE_FILE"
   },
   {
-   "path": "backup/db-backup-2026-08-01-05-10-43/pakistan-mcqs.sqlite",
-   "size": 283254784,
+   "path": "backup/db-backup-2026-08-13-05-37-10/pakistan-mcqs.sqlite",
+   "size": 2145030144,
    "classification": "LARGE_FILE"
   },
   {
-   "path": "backup/db-backup-2026-08-01-04-06-13/dump.json",
-   "size": 233134839,
+   "path": "backup/db-backup-2026-08-13-07-50-14/pakistan-mcqs.sqlite",
+   "size": 2145030144,
    "classification": "LARGE_FILE"
   },
   {
-   "path": "backup/db-backup-2026-08-01-05-10-43/dump.json",
-   "size": 233134839,
+   "path": "backup/db-backup-2026-08-13-07-57-34/pakistan-mcqs.sqlite",
+   "size": 2145030144,
    "classification": "LARGE_FILE"
   },
   {
-   "path": "data/export/mcqs.json",
-   "size": 173150191,
-   "classification": "REMOVE_SAFE"
+   "path": "backup/db-backup-2026-08-13-07-59-31/pakistan-mcqs.sqlite",
+   "size": 2145030144,
+   "classification": "LARGE_FILE"
   },
   {
-   "path": "data/export/mcqs-mathematics.json",
-   "size": 81692485,
-   "classification": "REMOVE_SAFE"
+   "path": "backup/db-backup-2026-08-13-07-14-41/pakistan-mcqs.sqlite",
+   "size": 1478651904,
+   "classification": "LARGE_FILE"
+  },
+  {
+   "path": "database/data/mcqs/options.ndjson",
+   "size": 246490952,
+   "classification": "KEEP_SOURCE"
+  },
+  {
+   "path": "runtime-v2/indexes/qhash.idx",
+   "size": 78201489,
+   "classification": "KEEP"
   },
   {
    "path": "database/data/other/mcqs_fts_data-part03.ndjson.gz",
@@ -109,35 +109,35 @@
  "largest_directories": [
   {
    "dir": "backup",
-   "size": 8713588439
+   "size": 27219168899
   },
   {
-   "dir": "db",
-   "size": 4352280760
-  },
-  {
-   "dir": ".audit-tmp",
-   "size": 2208452825
+   "dir": "migration-backups",
+   "size": 2145035189
   },
   {
    "dir": "database",
-   "size": 853385861
+   "size": 1101374020
   },
   {
-   "dir": "data",
-   "size": 348985459
+   "dir": "runtime-v2",
+   "size": 663819403
   },
   {
    "dir": "docs",
-   "size": 56611277
+   "size": 65749248
+  },
+  {
+   "dir": ".git",
+   "size": 10557798
   },
   {
    "dir": "chapters",
    "size": 4433481
   },
   {
-   "dir": "pipeline",
-   "size": 1916102
+   "dir": "data",
+   "size": 2269153
   },
   {
    "dir": "subjects",
@@ -145,23 +145,15 @@
   },
   {
    "dir": "scripts",
-   "size": 1161121
+   "size": 927500
   },
   {
    "dir": "assets",
-   "size": 409952
-  },
-  {
-   "dir": "phase37-production-verification.html",
-   "size": 337411
+   "size": 410038
   },
   {
    "dir": "sitemap.xml",
    "size": 226049
-  },
-  {
-   "dir": "kg",
-   "size": 194917
   },
   {
    "dir": "android",
@@ -169,67 +161,55 @@
   },
   {
    "dir": "release",
-   "size": 147897
+   "size": 115699
   },
   {
-   "dir": "subject-mcq-distribution-report.html",
-   "size": 62934
+   "dir": ".phase40-fixture",
+   "size": 51584
   },
   {
-   "dir": "assistant",
-   "size": 62248
+   "dir": ".audit-tmp",
+   "size": 44586
   },
   {
-   "dir": "ai",
-   "size": 59130
-  },
-  {
-   "dir": "quiz-audit-report.html",
-   "size": 30727
+   "dir": "tests",
+   "size": 34507
   },
   {
    "dir": "CHANGELOG.md",
    "size": 30068
   },
   {
-   "dir": "tests",
-   "size": 27574
-  },
-  {
    "dir": "index.html",
    "size": 26981
   },
   {
-   "dir": "server.js",
-   "size": 20203
+   "dir": "vb.log",
+   "size": 15972
   },
   {
    "dir": "admin.html",
    "size": 14273
   },
   {
+   "dir": "rebuild.log",
+   "size": 14190
+  },
+  {
    "dir": ".github",
-   "size": 12505
+   "size": 11942
   },
   {
-   "dir": "quiz-audit-results.json",
-   "size": 10131
-  },
-  {
-   "dir": "phase-functional-repair.html",
-   "size": 9418
+   "dir": "README.md",
+   "size": 10238
   },
   {
    "dir": "sw.js",
    "size": 7998
   },
   {
-   "dir": "README.md",
-   "size": 7073
-  },
-  {
-   "dir": "phase15_subject_depth_analysis.js",
-   "size": 5002
+   "dir": "testdb.log",
+   "size": 4436
   },
   {
    "dir": "manifest.webmanifest",
@@ -244,36 +224,64 @@
    "size": 2997
   },
   {
+   "dir": "RELEASE_MANIFEST.json",
+   "size": 2581
+  },
+  {
+   "dir": "fixture.log",
+   "size": 2570
+  },
+  {
+   "dir": "RELEASE_NOTES.md",
+   "size": 2541
+  },
+  {
    "dir": "404.html",
    "size": 2261
   },
   {
-   "dir": "verify_report_accuracy.js",
-   "size": 1810
+   "dir": "docker-compose.yml",
+   "size": 1802
   },
   {
-   "dir": "docker-compose.yml",
-   "size": 1701
+   "dir": ".gitignore",
+   "size": 1660
+  },
+  {
+   "dir": "missing-check.log",
+   "size": 1552
   },
   {
    "dir": "nginx.conf",
    "size": 1298
   },
   {
+   "dir": "package.json",
+   "size": 1227
+  },
+  {
    "dir": ".eslintrc.json",
    "size": 1079
   },
   {
+   "dir": ".env.example",
+   "size": 1033
+  },
+  {
+   "dir": ".gitattributes",
+   "size": 1006
+  },
+  {
    "dir": "ecosystem.config.js",
+   "size": 916
+  },
+  {
+   "dir": "probe.log",
    "size": 890
   },
   {
    "dir": "Dockerfile",
    "size": 813
-  },
-  {
-   "dir": "srv-err.log",
-   "size": 777
   },
   {
    "dir": "image-sitemap.xml",
@@ -284,111 +292,123 @@
    "size": 701
   },
   {
+   "dir": "browse-check.log",
+   "size": 664
+  },
+  {
    "dir": ".editorconfig",
    "size": 496
   },
   {
-   "dir": "validation.log",
-   "size": 469
+   "dir": "idx-check.log",
+   "size": 368
   },
   {
-   "dir": "server-err.log",
-   "size": 395
+   "dir": "build-pages.log",
+   "size": 320
   },
   {
    "dir": ".prettierrc",
    "size": 317
   },
   {
+   "dir": "package-lock.json",
+   "size": 310
+  },
+  {
+   "dir": "test-real.log",
+   "size": 292
+  },
+  {
+   "dir": "monitor.log",
+   "size": 250
+  },
+  {
    "dir": "robots.txt",
    "size": 223
+  },
+  {
+   "dir": "bench.log",
+   "size": 202
+  },
+  {
+   "dir": "test-fixture.log",
+   "size": 170
   },
   {
    "dir": ".markdownlint.json",
    "size": 129
   },
   {
-   "dir": ".claude",
-   "size": 81
-  },
-  {
-   "dir": "server-out.log",
-   "size": 46
-  },
-  {
-   "dir": "srv-out.log",
-   "size": 46
-  },
-  {
    "dir": ".nojekyll",
+   "size": 0
+  },
+  {
+   "dir": "userdata.db",
    "size": 0
   }
  ],
- "binary_count": 656,
+ "binary_count": 666,
  "generated_artifact_count": 1123,
  "size_buckets": [
   {
    "threshold_mib": 25,
    "files": [
     {
-     "path": ".audit-tmp/p30api/db/pakistan-mcqs.sqlite",
-     "size": 2206887936
+     "path": "backup/db-backup-2026-08-13-05-29-29/pakistan-mcqs.sqlite",
+     "size": 2145030144
     },
     {
-     "path": "backup/2026-08-01-final-241551/pakistan-mcqs.sqlite",
-     "size": 354398208
+     "path": "backup/db-backup-2026-08-13-05-35-01/pakistan-mcqs.sqlite",
+     "size": 2145030144
     },
     {
-     "path": "backup/2026-08-02-kb-phase-2026-08-02-0950/pakistan-mcqs.sqlite",
-     "size": 657465344
+     "path": "backup/db-backup-2026-08-13-05-36-25/pakistan-mcqs.sqlite",
+     "size": 2145030144
     },
     {
-     "path": "backup/db-backup-2026-08-01-04-06-13/dump.json",
-     "size": 233134839
+     "path": "backup/db-backup-2026-08-13-05-37-10/pakistan-mcqs.sqlite",
+     "size": 2145030144
     },
     {
-     "path": "backup/db-backup-2026-08-01-04-06-13/pakistan-mcqs.sqlite",
-     "size": 283254784
+     "path": "backup/db-backup-2026-08-13-07-14-41/pakistan-mcqs.sqlite",
+     "size": 1478651904
     },
     {
-     "path": "backup/db-backup-2026-08-01-05-10-43/dump.json",
-     "size": 233134839
+     "path": "backup/db-backup-2026-08-13-07-50-14/pakistan-mcqs.sqlite",
+     "size": 2145030144
     },
     {
-     "path": "backup/db-backup-2026-08-01-05-10-43/pakistan-mcqs.sqlite",
-     "size": 283254784
+     "path": "backup/db-backup-2026-08-13-07-57-34/pakistan-mcqs.sqlite",
+     "size": 2145030144
     },
     {
-     "path": "backup/db-backup-2026-08-02-17-23-10/pakistan-mcqs.sqlite",
-     "size": 996319232
+     "path": "backup/db-backup-2026-08-13-07-59-31/pakistan-mcqs.sqlite",
+     "size": 2145030144
     },
     {
-     "path": "backup/db-backup-2026-08-02-17-47-12/pakistan-mcqs.sqlite",
-     "size": 1083437056
+     "path": "backup/db-backup-2026-08-13-08-02-12/pakistan-mcqs.sqlite",
+     "size": 2145034240
     },
     {
-     "path": "backup/db-backup-2026-08-04-11-42-07/pakistan-mcqs.sqlite",
-     "size": 2133368832
+     "path": "backup/db-backup-2026-08-13-08-39-56/pakistan-mcqs.sqlite",
+     "size": 2145034240
     },
     {
-     "path": "backup/db-backup-2026-08-04-12-47-20/pakistan-mcqs.sqlite",
-     "size": 2159501312
+     "path": "backup/db-backup-2026-08-13-08-53-29/pakistan-mcqs.sqlite",
+     "size": 2145034240
     },
     {
-     "path": "backup/normalize-pre-phase2-2026-08-01-06-14-06/pakistan-mcqs.sqlite",
-     "size": 283262976
+     "path": "backup/db-backup-2026-08-17-03-16-52/pakistan-mcqs.sqlite",
+     "size": 2145034240
     },
     {
-     "path": "data/export/mcqs-mathematics.json",
-     "size": 81692485
+     "path": "backup/db-backup-2026-08-17-03-26-15/pakistan-mcqs.sqlite",
+     "size": 2145034240
     },
     {
-     "path": "data/export/mcqs-statistics.json",
-     "size": 30727744
-    },
-    {
-     "path": "data/export/mcqs.json",
-     "size": 173150191
+     "path": "database/data/mcqs/options.ndjson",
+     "size": 246490952
     },
     {
      "path": "database/data/mcqs/options.ndjson.gz",
@@ -439,16 +459,16 @@
      "size": 55112201
     },
     {
-     "path": "db/pakistan-mcqs.rebuilt.sqlite",
-     "size": 2145193984
-    },
-    {
-     "path": "db/pakistan-mcqs.sqlite",
-     "size": 2206887936
-    },
-    {
-     "path": "docs/phase17_search_index.json",
+     "path": "docs/archive/phase17_search_index.json",
      "size": 32876440
+    },
+    {
+     "path": "migration-backups/pakistan-mcqs.sqlite",
+     "size": 2145034240
+    },
+    {
+     "path": "runtime-v2/indexes/qhash.idx",
+     "size": 78201489
     }
    ]
   },
@@ -456,60 +476,60 @@
    "threshold_mib": 50,
    "files": [
     {
-     "path": ".audit-tmp/p30api/db/pakistan-mcqs.sqlite",
-     "size": 2206887936
+     "path": "backup/db-backup-2026-08-13-05-29-29/pakistan-mcqs.sqlite",
+     "size": 2145030144
     },
     {
-     "path": "backup/2026-08-01-final-241551/pakistan-mcqs.sqlite",
-     "size": 354398208
+     "path": "backup/db-backup-2026-08-13-05-35-01/pakistan-mcqs.sqlite",
+     "size": 2145030144
     },
     {
-     "path": "backup/2026-08-02-kb-phase-2026-08-02-0950/pakistan-mcqs.sqlite",
-     "size": 657465344
+     "path": "backup/db-backup-2026-08-13-05-36-25/pakistan-mcqs.sqlite",
+     "size": 2145030144
     },
     {
-     "path": "backup/db-backup-2026-08-01-04-06-13/dump.json",
-     "size": 233134839
+     "path": "backup/db-backup-2026-08-13-05-37-10/pakistan-mcqs.sqlite",
+     "size": 2145030144
     },
     {
-     "path": "backup/db-backup-2026-08-01-04-06-13/pakistan-mcqs.sqlite",
-     "size": 283254784
+     "path": "backup/db-backup-2026-08-13-07-14-41/pakistan-mcqs.sqlite",
+     "size": 1478651904
     },
     {
-     "path": "backup/db-backup-2026-08-01-05-10-43/dump.json",
-     "size": 233134839
+     "path": "backup/db-backup-2026-08-13-07-50-14/pakistan-mcqs.sqlite",
+     "size": 2145030144
     },
     {
-     "path": "backup/db-backup-2026-08-01-05-10-43/pakistan-mcqs.sqlite",
-     "size": 283254784
+     "path": "backup/db-backup-2026-08-13-07-57-34/pakistan-mcqs.sqlite",
+     "size": 2145030144
     },
     {
-     "path": "backup/db-backup-2026-08-02-17-23-10/pakistan-mcqs.sqlite",
-     "size": 996319232
+     "path": "backup/db-backup-2026-08-13-07-59-31/pakistan-mcqs.sqlite",
+     "size": 2145030144
     },
     {
-     "path": "backup/db-backup-2026-08-02-17-47-12/pakistan-mcqs.sqlite",
-     "size": 1083437056
+     "path": "backup/db-backup-2026-08-13-08-02-12/pakistan-mcqs.sqlite",
+     "size": 2145034240
     },
     {
-     "path": "backup/db-backup-2026-08-04-11-42-07/pakistan-mcqs.sqlite",
-     "size": 2133368832
+     "path": "backup/db-backup-2026-08-13-08-39-56/pakistan-mcqs.sqlite",
+     "size": 2145034240
     },
     {
-     "path": "backup/db-backup-2026-08-04-12-47-20/pakistan-mcqs.sqlite",
-     "size": 2159501312
+     "path": "backup/db-backup-2026-08-13-08-53-29/pakistan-mcqs.sqlite",
+     "size": 2145034240
     },
     {
-     "path": "backup/normalize-pre-phase2-2026-08-01-06-14-06/pakistan-mcqs.sqlite",
-     "size": 283262976
+     "path": "backup/db-backup-2026-08-17-03-16-52/pakistan-mcqs.sqlite",
+     "size": 2145034240
     },
     {
-     "path": "data/export/mcqs-mathematics.json",
-     "size": 81692485
+     "path": "backup/db-backup-2026-08-17-03-26-15/pakistan-mcqs.sqlite",
+     "size": 2145034240
     },
     {
-     "path": "data/export/mcqs.json",
-     "size": 173150191
+     "path": "database/data/mcqs/options.ndjson",
+     "size": 246490952
     },
     {
      "path": "database/data/other/mcqs_fts_data-part01.ndjson.gz",
@@ -552,12 +572,12 @@
      "size": 55112201
     },
     {
-     "path": "db/pakistan-mcqs.rebuilt.sqlite",
-     "size": 2145193984
+     "path": "migration-backups/pakistan-mcqs.sqlite",
+     "size": 2145034240
     },
     {
-     "path": "db/pakistan-mcqs.sqlite",
-     "size": 2206887936
+     "path": "runtime-v2/indexes/qhash.idx",
+     "size": 78201489
     }
    ]
   },
@@ -565,68 +585,64 @@
    "threshold_mib": 75,
    "files": [
     {
-     "path": ".audit-tmp/p30api/db/pakistan-mcqs.sqlite",
-     "size": 2206887936
+     "path": "backup/db-backup-2026-08-13-05-29-29/pakistan-mcqs.sqlite",
+     "size": 2145030144
     },
     {
-     "path": "backup/2026-08-01-final-241551/pakistan-mcqs.sqlite",
-     "size": 354398208
+     "path": "backup/db-backup-2026-08-13-05-35-01/pakistan-mcqs.sqlite",
+     "size": 2145030144
     },
     {
-     "path": "backup/2026-08-02-kb-phase-2026-08-02-0950/pakistan-mcqs.sqlite",
-     "size": 657465344
+     "path": "backup/db-backup-2026-08-13-05-36-25/pakistan-mcqs.sqlite",
+     "size": 2145030144
     },
     {
-     "path": "backup/db-backup-2026-08-01-04-06-13/dump.json",
-     "size": 233134839
+     "path": "backup/db-backup-2026-08-13-05-37-10/pakistan-mcqs.sqlite",
+     "size": 2145030144
     },
     {
-     "path": "backup/db-backup-2026-08-01-04-06-13/pakistan-mcqs.sqlite",
-     "size": 283254784
+     "path": "backup/db-backup-2026-08-13-07-14-41/pakistan-mcqs.sqlite",
+     "size": 1478651904
     },
     {
-     "path": "backup/db-backup-2026-08-01-05-10-43/dump.json",
-     "size": 233134839
+     "path": "backup/db-backup-2026-08-13-07-50-14/pakistan-mcqs.sqlite",
+     "size": 2145030144
     },
     {
-     "path": "backup/db-backup-2026-08-01-05-10-43/pakistan-mcqs.sqlite",
-     "size": 283254784
+     "path": "backup/db-backup-2026-08-13-07-57-34/pakistan-mcqs.sqlite",
+     "size": 2145030144
     },
     {
-     "path": "backup/db-backup-2026-08-02-17-23-10/pakistan-mcqs.sqlite",
-     "size": 996319232
+     "path": "backup/db-backup-2026-08-13-07-59-31/pakistan-mcqs.sqlite",
+     "size": 2145030144
     },
     {
-     "path": "backup/db-backup-2026-08-02-17-47-12/pakistan-mcqs.sqlite",
-     "size": 1083437056
+     "path": "backup/db-backup-2026-08-13-08-02-12/pakistan-mcqs.sqlite",
+     "size": 2145034240
     },
     {
-     "path": "backup/db-backup-2026-08-04-11-42-07/pakistan-mcqs.sqlite",
-     "size": 2133368832
+     "path": "backup/db-backup-2026-08-13-08-39-56/pakistan-mcqs.sqlite",
+     "size": 2145034240
     },
     {
-     "path": "backup/db-backup-2026-08-04-12-47-20/pakistan-mcqs.sqlite",
-     "size": 2159501312
+     "path": "backup/db-backup-2026-08-13-08-53-29/pakistan-mcqs.sqlite",
+     "size": 2145034240
     },
     {
-     "path": "backup/normalize-pre-phase2-2026-08-01-06-14-06/pakistan-mcqs.sqlite",
-     "size": 283262976
+     "path": "backup/db-backup-2026-08-17-03-16-52/pakistan-mcqs.sqlite",
+     "size": 2145034240
     },
     {
-     "path": "data/export/mcqs-mathematics.json",
-     "size": 81692485
+     "path": "backup/db-backup-2026-08-17-03-26-15/pakistan-mcqs.sqlite",
+     "size": 2145034240
     },
     {
-     "path": "data/export/mcqs.json",
-     "size": 173150191
+     "path": "database/data/mcqs/options.ndjson",
+     "size": 246490952
     },
     {
-     "path": "db/pakistan-mcqs.rebuilt.sqlite",
-     "size": 2145193984
-    },
-    {
-     "path": "db/pakistan-mcqs.sqlite",
-     "size": 2206887936
+     "path": "migration-backups/pakistan-mcqs.sqlite",
+     "size": 2145034240
     }
    ]
   },
@@ -634,64 +650,64 @@
    "threshold_mib": 90,
    "files": [
     {
-     "path": ".audit-tmp/p30api/db/pakistan-mcqs.sqlite",
-     "size": 2206887936
+     "path": "backup/db-backup-2026-08-13-05-29-29/pakistan-mcqs.sqlite",
+     "size": 2145030144
     },
     {
-     "path": "backup/2026-08-01-final-241551/pakistan-mcqs.sqlite",
-     "size": 354398208
+     "path": "backup/db-backup-2026-08-13-05-35-01/pakistan-mcqs.sqlite",
+     "size": 2145030144
     },
     {
-     "path": "backup/2026-08-02-kb-phase-2026-08-02-0950/pakistan-mcqs.sqlite",
-     "size": 657465344
+     "path": "backup/db-backup-2026-08-13-05-36-25/pakistan-mcqs.sqlite",
+     "size": 2145030144
     },
     {
-     "path": "backup/db-backup-2026-08-01-04-06-13/dump.json",
-     "size": 233134839
+     "path": "backup/db-backup-2026-08-13-05-37-10/pakistan-mcqs.sqlite",
+     "size": 2145030144
     },
     {
-     "path": "backup/db-backup-2026-08-01-04-06-13/pakistan-mcqs.sqlite",
-     "size": 283254784
+     "path": "backup/db-backup-2026-08-13-07-14-41/pakistan-mcqs.sqlite",
+     "size": 1478651904
     },
     {
-     "path": "backup/db-backup-2026-08-01-05-10-43/dump.json",
-     "size": 233134839
+     "path": "backup/db-backup-2026-08-13-07-50-14/pakistan-mcqs.sqlite",
+     "size": 2145030144
     },
     {
-     "path": "backup/db-backup-2026-08-01-05-10-43/pakistan-mcqs.sqlite",
-     "size": 283254784
+     "path": "backup/db-backup-2026-08-13-07-57-34/pakistan-mcqs.sqlite",
+     "size": 2145030144
     },
     {
-     "path": "backup/db-backup-2026-08-02-17-23-10/pakistan-mcqs.sqlite",
-     "size": 996319232
+     "path": "backup/db-backup-2026-08-13-07-59-31/pakistan-mcqs.sqlite",
+     "size": 2145030144
     },
     {
-     "path": "backup/db-backup-2026-08-02-17-47-12/pakistan-mcqs.sqlite",
-     "size": 1083437056
+     "path": "backup/db-backup-2026-08-13-08-02-12/pakistan-mcqs.sqlite",
+     "size": 2145034240
     },
     {
-     "path": "backup/db-backup-2026-08-04-11-42-07/pakistan-mcqs.sqlite",
-     "size": 2133368832
+     "path": "backup/db-backup-2026-08-13-08-39-56/pakistan-mcqs.sqlite",
+     "size": 2145034240
     },
     {
-     "path": "backup/db-backup-2026-08-04-12-47-20/pakistan-mcqs.sqlite",
-     "size": 2159501312
+     "path": "backup/db-backup-2026-08-13-08-53-29/pakistan-mcqs.sqlite",
+     "size": 2145034240
     },
     {
-     "path": "backup/normalize-pre-phase2-2026-08-01-06-14-06/pakistan-mcqs.sqlite",
-     "size": 283262976
+     "path": "backup/db-backup-2026-08-17-03-16-52/pakistan-mcqs.sqlite",
+     "size": 2145034240
     },
     {
-     "path": "data/export/mcqs.json",
-     "size": 173150191
+     "path": "backup/db-backup-2026-08-17-03-26-15/pakistan-mcqs.sqlite",
+     "size": 2145034240
     },
     {
-     "path": "db/pakistan-mcqs.rebuilt.sqlite",
-     "size": 2145193984
+     "path": "database/data/mcqs/options.ndjson",
+     "size": 246490952
     },
     {
-     "path": "db/pakistan-mcqs.sqlite",
-     "size": 2206887936
+     "path": "migration-backups/pakistan-mcqs.sqlite",
+     "size": 2145034240
     }
    ]
   },
@@ -699,64 +715,64 @@
    "threshold_mib": 100,
    "files": [
     {
-     "path": ".audit-tmp/p30api/db/pakistan-mcqs.sqlite",
-     "size": 2206887936
+     "path": "backup/db-backup-2026-08-13-05-29-29/pakistan-mcqs.sqlite",
+     "size": 2145030144
     },
     {
-     "path": "backup/2026-08-01-final-241551/pakistan-mcqs.sqlite",
-     "size": 354398208
+     "path": "backup/db-backup-2026-08-13-05-35-01/pakistan-mcqs.sqlite",
+     "size": 2145030144
     },
     {
-     "path": "backup/2026-08-02-kb-phase-2026-08-02-0950/pakistan-mcqs.sqlite",
-     "size": 657465344
+     "path": "backup/db-backup-2026-08-13-05-36-25/pakistan-mcqs.sqlite",
+     "size": 2145030144
     },
     {
-     "path": "backup/db-backup-2026-08-01-04-06-13/dump.json",
-     "size": 233134839
+     "path": "backup/db-backup-2026-08-13-05-37-10/pakistan-mcqs.sqlite",
+     "size": 2145030144
     },
     {
-     "path": "backup/db-backup-2026-08-01-04-06-13/pakistan-mcqs.sqlite",
-     "size": 283254784
+     "path": "backup/db-backup-2026-08-13-07-14-41/pakistan-mcqs.sqlite",
+     "size": 1478651904
     },
     {
-     "path": "backup/db-backup-2026-08-01-05-10-43/dump.json",
-     "size": 233134839
+     "path": "backup/db-backup-2026-08-13-07-50-14/pakistan-mcqs.sqlite",
+     "size": 2145030144
     },
     {
-     "path": "backup/db-backup-2026-08-01-05-10-43/pakistan-mcqs.sqlite",
-     "size": 283254784
+     "path": "backup/db-backup-2026-08-13-07-57-34/pakistan-mcqs.sqlite",
+     "size": 2145030144
     },
     {
-     "path": "backup/db-backup-2026-08-02-17-23-10/pakistan-mcqs.sqlite",
-     "size": 996319232
+     "path": "backup/db-backup-2026-08-13-07-59-31/pakistan-mcqs.sqlite",
+     "size": 2145030144
     },
     {
-     "path": "backup/db-backup-2026-08-02-17-47-12/pakistan-mcqs.sqlite",
-     "size": 1083437056
+     "path": "backup/db-backup-2026-08-13-08-02-12/pakistan-mcqs.sqlite",
+     "size": 2145034240
     },
     {
-     "path": "backup/db-backup-2026-08-04-11-42-07/pakistan-mcqs.sqlite",
-     "size": 2133368832
+     "path": "backup/db-backup-2026-08-13-08-39-56/pakistan-mcqs.sqlite",
+     "size": 2145034240
     },
     {
-     "path": "backup/db-backup-2026-08-04-12-47-20/pakistan-mcqs.sqlite",
-     "size": 2159501312
+     "path": "backup/db-backup-2026-08-13-08-53-29/pakistan-mcqs.sqlite",
+     "size": 2145034240
     },
     {
-     "path": "backup/normalize-pre-phase2-2026-08-01-06-14-06/pakistan-mcqs.sqlite",
-     "size": 283262976
+     "path": "backup/db-backup-2026-08-17-03-16-52/pakistan-mcqs.sqlite",
+     "size": 2145034240
     },
     {
-     "path": "data/export/mcqs.json",
-     "size": 173150191
+     "path": "backup/db-backup-2026-08-17-03-26-15/pakistan-mcqs.sqlite",
+     "size": 2145034240
     },
     {
-     "path": "db/pakistan-mcqs.rebuilt.sqlite",
-     "size": 2145193984
+     "path": "database/data/mcqs/options.ndjson",
+     "size": 246490952
     },
     {
-     "path": "db/pakistan-mcqs.sqlite",
-     "size": 2206887936
+     "path": "migration-backups/pakistan-mcqs.sqlite",
+     "size": 2145034240
     }
    ]
   }

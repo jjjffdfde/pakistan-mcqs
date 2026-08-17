@@ -20,46 +20,18 @@ jobs:
         with:
           node-version: 22
 
-      - name: Cache SQLite DB dependency
-        uses: actions/cache@v4
-        with:
-          path: .phase26-db-test
-          key: phase26-db-${{ hashFiles('db/pakistan-mcqs.sqlite') }}
-
-      - name: Build DB fixture for tests (small synthetic, no prod data)
+      - name: Build NDJSON fixture for tests (small synthetic, no prod data)
         run: |
-          node -e "
-            const { DatabaseSync } = require('node:sqlite');
-            const fs = require('fs');
-            fs.mkdirSync('.phase26-db-test', { recursive: true });
-            const path = require('path');
-            const src = '.phase26-db-test/db-test.sqlite';
-            const db = new DatabaseSync(src);
-            db.exec('PRAGMA journal_mode=WAL');
-            db.exec('CREATE TABLE subjects (id INTEGER PRIMARY KEY, name TEXT, slug TEXT, status TEXT DEFAULT \"active\")');
-            db.exec('CREATE TABLE chapters (id INTEGER PRIMARY KEY, subject_id INTEGER, name TEXT, slug TEXT)');
-            db.exec('CREATE TABLE topics (id INTEGER PRIMARY KEY, chapter_id INTEGER, name TEXT, slug TEXT)');
-            db.exec('CREATE TABLE mcqs (id INTEGER PRIMARY KEY, question TEXT, correct_answer TEXT, difficulty TEXT, subject_id INTEGER, chapter_id INTEGER, topic_id INTEGER, status TEXT, tags TEXT, explanation TEXT)');
-            db.exec('CREATE TABLE options (mcq_id INTEGER, label TEXT, text TEXT)');
-            for (let i = 1; i <= 3; i++) db.prepare('INSERT INTO subjects (id,name,slug,status) VALUES (?,?,?,?)').run(i, 'Subject '+i, 'subject-'+i, 'active');
-            for (let i = 1; i <= 6; i++) db.prepare('INSERT INTO chapters (id,subject_id,name,slug) VALUES (?,?,?,?)').run(i, (i%3)+1, 'Chapter '+i, 'chapter-'+i);
-            for (let i = 1; i <= 12; i++) db.prepare('INSERT INTO topics (id,chapter_id,name,slug) VALUES (?,?,?,?)').run(i, (i%6)+1, 'Topic '+i, 'topic-'+i);
-            for (let i = 1; i <= 100; i++) db.prepare('INSERT INTO mcqs (id,question,correct_answer,difficulty,subject_id,chapter_id,topic_id,status,tags,explanation) VALUES (?,?,?,?,?,?,?,?,?,?)').run(i, 'Question '+i+'?', 'A', 'medium', (i%3)+1, (i%6)+1, (i%12)+1, 'active', JSON.stringify(['tag']), 'Explanation '+i);
-            for (let i = 1; i <= 100; i++) {
-              const stmt = db.prepare('INSERT INTO options (mcq_id,label,text) VALUES (?,?,?)');
-              stmt.run(i, 'A', 'Option A'); stmt.run(i, 'B', 'Option B'); stmt.run(i, 'C', 'Option C'); stmt.run(i, 'D', 'Option D');
-            }
-            db.close();
-            console.log('synthetic DB created');
-          "
+          node scripts/phase40/make-fixture.cjs --force --root .phase40-fixture
 
       - name: Run automated tests
         run: |
           node scripts/test.cjs
         env:
-          MCQS_TEST_DB: .phase26-db-test/db-test.sqlite
+          MCQS_JSON_DATA_DIR: .phase40-fixture/data
+          MCQS_JSON_INDEX_DIR: .phase40-fixture/indexes
 
-      - name: Run benchmark smoke
+      - name: Run benchmark smoke (file engine, read-only)
         run: |
           node scripts/benchmark.cjs
         continue-on-error: true

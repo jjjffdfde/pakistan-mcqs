@@ -1,0 +1,22 @@
+{
+  "phase": 41,
+  "step": 10,
+  "run_at": "2026-08-17T14:40:00.000Z",
+  "suites": [
+    { "suite": "unit+integration (npm test, scripts/test.cjs)", "result": "40/40 PASS", "command": "npm test" },
+    { "suite": "database integration real data (scripts/test-db-integration.cjs)", "result": "30/30 PASS", "command": "npm run test:db" },
+    { "suite": "phase40 gate (gate.cjs)", "result": "10/10 PASS — PHASE 40 STATUS: COMPLETE", "command": "node scripts/phase40/gate.cjs" },
+    { "suite": "physical smoke (final-smoke.cjs)", "result": "105/105 PASS", "command": "node scripts/phase40/final-smoke.cjs" },
+    { "suite": "backup/restore contract", "result": "7/7 PASS", "command": "node scripts/phase40/backup-test.cjs" },
+    { "suite": "import pipeline", "result": "4/4 PASS", "command": "node scripts/phase40/import-test.cjs" },
+    { "suite": "phase39 security scan", "result": "2086 files, 0 findings", "command": "node scripts/phase39/security-scan.cjs" },
+    { "suite": "phase31 regression", "result": "26+24+3 = 53/53 PASS (recorded phase 39/40)", "command": "tests/phase31/*" },
+    { "suite": "lint", "result": "0 errors, 1596 warnings (pre-existing style warnings)", "command": "npm run lint" }
+  ],
+  "notes": [
+    "All suites executed against the current worktree with real production data (database/data NDJSON payload, 872,624 MCQs).",
+    "No suite requires SQLite; the historical oracle is retired and not used by any test.",
+    "validate-buttons soft warnings (2 pre-existing content gaps) are documented, not silent skips."
+  ],
+  "verdict": "PASS"
+}

@@ -1,24 +1,24 @@
 /* ============================================================
    SEO Static Pages Generator — Pakistan MCQs Hub
-   Reads the local SQLite DB (read-only) and emits crawlable
-   static pages + sitemap for search engines:
+   Reads the JSON/NDJSON runtime data (deterministic indexes +
+   NDJSON parts, same as runtime-v2) and emits crawlable static
+   pages + sitemap for search engines:
      subjects/index.html          (subject index)
      subjects/<slug>.html         (per-subject, chapter links)
      chapters/<slug>.html         (per-chapter, topic links)
      subjects/topics/<slug>.html  (per-topic, sample MCQs) [on subjects page]
    404.html, sitemap.xml
    Usage: node scripts/gen-seo-pages.cjs
+   Phase 40: SQLite-free — data via runtime-v2/query-engine + data-loader.
    ============================================================ */
 "use strict";
-const { DatabaseSync } = require("node:sqlite");
 const fs = require("fs");
 const path = require("path");
+const L = require("../runtime-v2/data-loader.cjs");
+const Q = require("../runtime-v2/query-engine.cjs");
 
 const ROOT = path.join(__dirname, "..");
-const DB_PATH = path.join(ROOT, "db", "pakistan-mcqs.sqlite");
 const SITE = "https://pakistanmcqshub.github.io";
-
-const db = new DatabaseSync(DB_PATH, { readOnly: true });
 
 const esc = (s) => String(s ?? "")
   .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
@@ -96,21 +96,43 @@ function addUrl(loc, priority, changefreq) {
   sitemapUrls.push(`  <url>\n    <loc>${loc}</loc>\n    <lastmod>2026-08-01</lastmod>\n    <changefreq>${changefreq}</changefreq>\n    <priority>${priority}</priority>\n  </url>`);
 }
 
-function sampleMcqs(subjectId, chapterId, topicId, n) {
-  const where = [];
-  const params = [];
-  if (subjectId) { where.push("subject_id=?"); params.push(subjectId); }
-  if (chapterId) { where.push("chapter_id=?"); params.push(chapterId); }
-  if (topicId) { where.push("topic_id=?"); params.push(topicId); }
-  const w = where.length ? "WHERE " + where.join(" AND ") : "";
-  const total = db.prepare(`SELECT COUNT(*) n FROM mcqs ${w}`).get(...params).n;
+/* SQLite SELECT id,question ... ORDER BY rowid LIMIT n OFFSET h: walk the
+   canonical rowid order (index ids), filter by subject/chapter/topic sets. */
+const subjectNamesOf = () => Object.keys(L.manifest().sourceFiles);
+
+async function sampleMcqs(subjectId, chapterId, topicId, n) {
+  const subjects = subjectNamesOf();
+  const meta = L.metaById();
+  const chSet = chapterId ? new Set(L.readKeyIndex("chapter", chapterId)) : null;
+  const toSet = topicId ? new Set(L.readKeyIndex("topic", topicId)) : null;
+  const ids = [];
+  for (const id of L.rowidOrder()) {
+    const mi = meta[id];
+    if (mi == null) continue;
+    if (subjectId && subjects[mi] !== subjectId) continue;
+    if (chSet && !chSet.has(id)) continue;
+    if (toSet && !toSet.has(id)) continue;
+    ids.push(id);
+  }
+  const total = ids.length;
   if (!total) return [];
-  const offset = Math.abs(subjectId ? subjectId.split("").reduce((a, c) => a + c.charCodeAt(0), 0) : 0) % Math.max(1, total - n);
-  const rows = db.prepare(`SELECT id,question FROM mcqs ${w} ORDER BY rowid LIMIT ? OFFSET ?`).all(...params, n, offset);
-  return rows.map((m) => {
-    const opts = db.prepare("SELECT label, text FROM options WHERE mcq_id=? ORDER BY label").all(m.id);
-    return { id: m.id, question: m.question, opts };
-  });
+  const offset = Math.abs(String(subjectId || "").split("").reduce((a, c) => a + c.charCodeAt(0), 0)) % Math.max(1, total - n);
+  const pick = ids.slice(offset, offset + n);
+  const { byId } = await Q.fetchRows(pick);
+  const optCache = new Map();
+  const out = [];
+  for (const id of pick) {
+    const m = byId.get(id);
+    if (!m) continue;
+    const sub = subjects[meta[id]];
+    if (!optCache.has(sub)) optCache.set(sub, await L.loadSubjectOptions(sub));
+    const o = optCache.get(sub)[id] || {};
+    out.push({
+      id: m.id, question: m.question,
+      opts: ["A", "B", "C", "D"].filter((l) => o[l] != null).map((l) => ({ label: l, text: o[l] }))
+    });
+  }
+  return out;
 }
 
 function mcqHtml(m) {
@@ -128,20 +150,36 @@ function write(p, content) {
   fs.writeFileSync(p, content, "utf8");
 }
 
+/* active mcq count per chapter (stream each subject part once) */
+async function chapterCounts() {
+  const out = new Map();
+  for (const sub of subjectNamesOf()) {
+    await L.streamSubject(sub, (row) => {
+      if (row && row.status === "active" && row.chapter_id != null && row.chapter_id !== "") {
+        out.set(row.chapter_id, (out.get(row.chapter_id) || 0) + 1);
+      }
+    });
+  }
+  return out;
+}
+
 async function main() {
+  await Q.init();
+  const bySubject = L.bySubjectActive();
   const stats = {
-    mcqs: db.prepare("SELECT COUNT(*) n FROM mcqs WHERE status='active'").get().n,
-    subjects: db.prepare("SELECT COUNT(*) n FROM subjects WHERE status='active'").get().n,
-    chapters: db.prepare("SELECT COUNT(*) n FROM chapters").get().n,
-    topics: db.prepare("SELECT COUNT(*) n FROM topics").get().n
+    mcqs: Object.values(bySubject).reduce((a, b) => a + b, 0),
+    subjects: (await Q.subjects()).length,
+    chapters: Q.chapters().length,
+    topics: Q.topics().length
   };
-  const subs = db.prepare("SELECT id,name,slug,category_id,description,exam_ids FROM subjects WHERE status='active' ORDER BY sort_order, id").all();
-  const chapters = db.prepare("SELECT id,subject_id,name,slug FROM chapters ORDER BY subject_id, sort_order, id").all();
-  const topics = db.prepare("SELECT id,chapter_id,name,slug FROM topics ORDER BY chapter_id, sort_order, id").all();
-  const cats = db.prepare("SELECT id,name FROM categories ORDER BY sort_order, id").all();
-  const bySubject = (sid) => chapters.filter((c) => c.subject_id === sid);
+  const subs = await Q.subjects();
+  const chapters = Q.chapters();
+  const topics = Q.topics();
+  const cats = Q.categories();
+  const chapCount = await chapterCounts();
+  const bySubjectOf = (sid) => chapters.filter((c) => c.subject_id === sid);
   const byChapter = (cid) => topics.filter((t) => t.chapter_id === cid);
-  const countOf = (sql, ...p) => db.prepare(sql).get(...p).n;
+  const countOf = (sid) => bySubject[sid] || 0;
   const catOf = (cid) => cats.find((c) => c.id === cid);
 
   /* ---------- subjects/index.html ---------- */
@@ -153,7 +191,7 @@ async function main() {
     if (!inCat.length) continue;
     indexBody += `<h2 id="cat-${esc(c.id)}">${esc(c.name)}</h2>\n<ul class="seo-list">\n`;
     for (const s of inCat) {
-      const n = countOf("SELECT COUNT(*) n FROM mcqs WHERE subject_id=? AND status='active'", s.id);
+      const n = countOf(s.id);
       indexBody += `  <li><a href="${esc(s.slug)}.html">${esc(s.name)}</a> <span class="muted">(${n} MCQs)</span></li>\n`;
     }
     indexBody += "</ul>\n";
@@ -165,8 +203,8 @@ async function main() {
 
   /* ---------- subjects/<slug>.html ---------- */
   for (const s of subs) {
-    const chs = bySubject(s.id);
-    const n = countOf("SELECT COUNT(*) n FROM mcqs WHERE subject_id=? AND status='active'", s.id);
+    const chs = bySubjectOf(s.id);
+    const n = countOf(s.id);
     const title = `${s.name} MCQs - Practice Questions & Answers`;
     const desc = `Practice ${n.toLocaleString()} free original ${s.name} MCQs with explanations${s.exam_ids ? ` - ideal for ${s.exam_ids.split(",").slice(0, 5).join(", ").toUpperCase()} and more` : ""}.`;
     let body = `<h1>${esc(s.name)} MCQs</h1>
@@ -183,7 +221,7 @@ async function main() {
         body += "</ul>\n";
       }
     }
-    body += `<h2>Sample Questions</h2>\n` + sampleMcqs(s.id, null, null, 3).map(mcqHtml).join("\n");
+    body += `<h2>Sample Questions</h2>\n` + (await sampleMcqs(s.id, null, null, 3)).map(mcqHtml).join("\n");
     write(path.join(ROOT, "subjects", s.slug + ".html"), HEAD(title, desc, `${SITE}/subjects/${s.slug}.html`,
       pageJsonLd([{ name: "Home", item: SITE + "/" }, { name: "All Subjects", item: SITE + "/subjects/index.html" }, { name: s.name, item: `${SITE}/subjects/${s.slug}.html` }], chs.map((c) => ({ name: c.name, url: `${SITE}/chapters/${c.slug}.html` }))), "../assets/css/style.css") + body + FOOT);
     addUrl(`${SITE}/subjects/${s.slug}.html`, "0.8", "weekly");
@@ -193,7 +231,7 @@ async function main() {
   for (const c of chapters) {
     const s = subs.find((x) => x.id === c.subject_id);
     const ts = byChapter(c.id);
-    const n = countOf("SELECT COUNT(*) n FROM mcqs WHERE chapter_id=? AND status='active'", c.id);
+    const n = chapCount.get(c.id) || 0;
     const title = `${c.name} - ${s ? s.name : ""} MCQs`;
     const desc = `Practice ${n.toLocaleString()} free original MCQs on ${c.name}${s ? ` (${s.name})` : ""} with explanations for PPSC, FPSC, NTS, CSS and more.`;
     let body = `<h1>${esc(c.name)} MCQs</h1>
@@ -202,7 +240,7 @@ async function main() {
 <p><a class="btn btn-primary" href="${SITE}/#browse?subject=${encodeURIComponent(c.subject_id)}&chapter=${encodeURIComponent(c.id)}">Practice this chapter online →</a></p>
 <h2>Topics</h2>\n<ul class="seo-list">\n`;
     for (const t of ts) body += `  <li><a href="${SITE}/#browse?subject=${encodeURIComponent(c.subject_id)}&chapter=${encodeURIComponent(c.id)}&topic=${encodeURIComponent(t.id)}">${esc(t.name)}</a></li>\n`;
-    body += "</ul>\n<h2>Sample Questions</h2>\n" + sampleMcqs(c.subject_id, c.id, null, 3).map(mcqHtml).join("\n");
+    body += "</ul>\n<h2>Sample Questions</h2>\n" + (await sampleMcqs(c.subject_id, c.id, null, 3)).map(mcqHtml).join("\n");
     write(path.join(ROOT, "chapters", c.slug + ".html"), HEAD(title, desc, `${SITE}/chapters/${c.slug}.html`,
       pageJsonLd([{ name: "Home", item: SITE + "/" }, { name: "All Subjects", item: SITE + "/subjects/index.html" }, { name: s ? s.name : "", item: `${SITE}/subjects/${s ? s.slug : ""}.html` }, { name: c.name, item: `${SITE}/chapters/${c.slug}.html` }], ts.map((t) => ({ name: t.name, url: `${SITE}/#browse?subject=${c.subject_id}&chapter=${c.id}&topic=${t.id}` }))), "../../assets/css/style.css") + body + FOOT);
     addUrl(`${SITE}/chapters/${c.slug}.html`, "0.7", "monthly");
@@ -226,7 +264,6 @@ ${sitemapUrls.join("\n")}
   write(path.join(ROOT, "sitemap.xml"), xml);
 
   console.log(`Generated ${subs.length} subject pages, ${chapters.length} chapter pages, index, 404, sitemap (${sitemapUrls.length} URLs).`);
-  db.close();
 }
 
 main().catch((e) => { console.error(e); process.exit(1); });

@@ -1,0 +1,536 @@
+{
+  "phase": 40,
+  "step": "20+22",
+  "run_at": "2026-08-17T14:37:39.992Z",
+  "port": 8799,
+  "features": [
+    {
+      "name": "surface file index.html",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "surface file sw.js",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "surface file manifest.webmanifest",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "surface file offline.html",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "surface file 404.html",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "surface file assets/js/app.js",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "surface file assets/js/ai.js",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "sw syntax check",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "health",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "stats",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "subjects",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "browse (all)",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "browse subject filter",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "browse chapter filter",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "topics",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "browse topic filter",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "mcq by id",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "mcq 404",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "mcqs batch",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "search",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "search no match (real empty result, no fallback)",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "random subject",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "random large count",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "quizzes",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "mock tests",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "past papers",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "categories",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "exams",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "bookmarks POST",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "bookmarks GET",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "history POST",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "history GET",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "leaderboard",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "analytics",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "kg stats",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "kg concept search",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "kg concept by id",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "kg concept relations",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "kg concept prerequisites",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "kg concept objectives",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "kg concept micro",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "kg concept exams",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "kg concept distractors",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "kg micro-concepts",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "kg learning-objectives",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "kg learning-paths",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "import rejects non-array",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "backup",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "restore rejects no dir",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "restore rejects invalid dir",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "restore rejects missing",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "export rejects bad format",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "export json (streamed, all rows)",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "export csv (streamed, header)",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "AI POST /api/ai/profile {} handled (2xx/4xx, no crash)",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "AI POST /api/ai/profile missing body handled",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "AI POST /api/ai/profile empty body",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "AI POST /api/ai/profile malformed json -> 400",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "AI POST /api/ai/profile valid payload",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "AI POST /api/ai/spaced/review {} handled (2xx/4xx, no crash)",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "AI POST /api/ai/spaced/review missing body handled",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "AI POST /api/ai/spaced/review empty body",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "AI POST /api/ai/spaced/review malformed json -> 400",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "AI POST /api/ai/spaced/review valid payload",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "AI POST /api/ai/adaptive/start {} handled (2xx/4xx, no crash)",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "AI POST /api/ai/adaptive/start missing body handled",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "AI POST /api/ai/adaptive/start empty body",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "AI POST /api/ai/adaptive/start malformed json -> 400",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "AI POST /api/ai/adaptive/start valid payload",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "AI POST /api/ai/mock/predict {} handled (2xx/4xx, no crash)",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "AI POST /api/ai/mock/predict missing body handled",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "AI POST /api/ai/mock/predict empty body",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "AI POST /api/ai/mock/predict malformed json -> 400",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "AI POST /api/ai/mock/predict valid payload",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "AI POST /api/ai/recommendations/build {} handled (2xx/4xx, no crash)",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "AI POST /api/ai/recommendations/build missing body handled",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "AI POST /api/ai/recommendations/build empty body",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "AI POST /api/ai/recommendations/build malformed json -> 400",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "AI POST /api/ai/recommendations/build valid payload",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "AI POST /api/ai/flashcards/build {} handled (2xx/4xx, no crash)",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "AI POST /api/ai/flashcards/build missing body handled",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "AI POST /api/ai/flashcards/build empty body",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "AI POST /api/ai/flashcards/build malformed json -> 400",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "AI POST /api/ai/flashcards/build valid payload",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "AI POST /api/ai/flashcards/review {} handled (2xx/4xx, no crash)",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "AI POST /api/ai/flashcards/review missing body handled",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "AI POST /api/ai/flashcards/review empty body",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "AI POST /api/ai/flashcards/review malformed json -> 400",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "AI POST /api/ai/flashcards/review valid payload",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "AI POST /api/ai/planner/complete {} handled (2xx/4xx, no crash)",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "AI POST /api/ai/planner/complete missing body handled",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "AI POST /api/ai/planner/complete empty body",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "AI POST /api/ai/planner/complete malformed json -> 400",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "AI POST /api/ai/planner/complete valid payload",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "AI POST /api/ai/planner/regenerate {} handled (2xx/4xx, no crash)",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "AI POST /api/ai/planner/regenerate missing body handled",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "AI POST /api/ai/planner/regenerate empty body",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "AI POST /api/ai/planner/regenerate malformed json -> 400",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "AI POST /api/ai/planner/regenerate valid payload",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "AI GET profile",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "news / current-affairs",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "unknown route -> 404",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "20x repeated browse",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "8x concurrent search/random",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "RSS <= 512MB (physical measurement)",
+      "status": "PASS",
+      "detail": null
+    }
+  ],
+  "verdict": "PASS",
+  "feature_count": 105,
+  "rss_mb": 403
+}

@@ -1,0 +1,15 @@
+{
+  "phase": 41,
+  "step": 16,
+  "run_at": "2026-08-17T15:05:00.000Z",
+  "proof": [
+    "fresh tree contains 0 files matching *.sqlite / *.sqlite3 / *.db / *.sqlite-wal / *.sqlite-shm (excluding scratch .git)",
+    "application boots from fresh tree: /api/health ok=true mcqs=872621 data_source=ndjson",
+    "/api/stats: 872,621 mcqs, 243 subjects, 3,490,484 options",
+    "/api/search?q=physics: 14,326 totals served",
+    "/api/random?limit=3: 3 rows with options served",
+    "runtime code contains 0 node:sqlite / DatabaseSync / db.prepare references (gate G01 fresh run: PASS)"
+  ],
+  "conclusion": "the fresh repository and the application do NOT require SQLite in any way",
+  "verdict": "PASS"
+}

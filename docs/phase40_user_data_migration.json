@@ -1,0 +1,46 @@
+{
+  "phase": 40,
+  "step": 7,
+  "run_at": "2026-08-17T13:52:26.351Z",
+  "stores": {
+    "bookmarks": {
+      "kind": "SERVER_FILE_DATA",
+      "file": "runtime-v2/userdata/bookmarks.json"
+    },
+    "history": {
+      "kind": "SERVER_FILE_DATA",
+      "file": "runtime-v2/userdata/history.json"
+    },
+    "leaderboard": {
+      "kind": "SERVER_FILE_DATA",
+      "file": "runtime-v2/userdata/leaderboard.json"
+    },
+    "ai_state": {
+      "kind": "SERVER_FILE_DATA",
+      "file": "runtime-v2/userdata/ai/*.json"
+    },
+    "flashcards": {
+      "kind": "SERVER_FILE_DATA",
+      "file": "runtime-v2/userdata/ai/flashcards.json"
+    },
+    "learning_sessions": {
+      "kind": "SERVER_FILE_DATA",
+      "file": "runtime-v2/userdata/ai/learning_sessions.json"
+    },
+    "study_plans": {
+      "kind": "SERVER_FILE_DATA",
+      "file": "runtime-v2/userdata/ai/study_plans.json"
+    },
+    "revision_schedule": {
+      "kind": "SERVER_FILE_DATA",
+      "file": "runtime-v2/userdata/ai/revision_schedule.json"
+    },
+    "user_profiles": {
+      "kind": "SERVER_FILE_DATA",
+      "file": "runtime-v2/userdata/ai/user_profiles.json"
+    }
+  },
+  "properties": "atomic writes (tmp+rename), sha256 sidecars, .bak rotation, schema-versioned records, corruption registry (store.cjs), gitignored, never exported by /api/export (export covers public MCQ rows only)",
+  "exposure_check": "PRIVATE data is not downloadable NDJSON: /api/export emits only public mcq rows; userdata not served by any route except bookmarks/history/leaderboard/analytics projections (device-scoped, no auth payload exposure)",
+  "verdict": "PASS"
+}

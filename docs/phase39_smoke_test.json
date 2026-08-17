@@ -1,0 +1,269 @@
+{
+ "phase": 39,
+ "step": 14,
+ "generated_at": "2026-08-17T11:57:48.548Z",
+ "total": 43,
+ "passed": 43,
+ "failed": 0,
+ "checks": [
+  {
+   "name": "Homepage (index.html) exists + non-empty",
+   "pass": true,
+   "status": "PASS",
+   "detail": "26952 bytes"
+  },
+  {
+   "name": "Homepage has navigation",
+   "pass": true,
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "Homepage is responsive (viewport meta)",
+   "pass": true,
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "Subject index (subjects/index.html)",
+   "pass": true,
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "Subject page sample",
+   "pass": true,
+   "status": "PASS",
+   "detail": "accounting.html"
+  },
+  {
+   "name": "Chapter page sample",
+   "pass": true,
+   "status": "PASS",
+   "detail": "ac-basics.html"
+  },
+  {
+   "name": "Topic page (static)",
+   "pass": false,
+   "status": "FAIL",
+   "detail": "NOT_IMPLEMENTED — topics listed on chapter pages + browsable via /api/topics"
+  },
+  {
+   "name": "Topic API (GET /api/topics sample rows)",
+   "pass": true,
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "Search page surface (index), sitemap + robots",
+   "pass": true,
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "404.html error page",
+   "pass": true,
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "admin.html present (admin surface)",
+   "pass": true,
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "PWA manifest parses",
+   "pass": true,
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "Manifest name/start_url/display/icons",
+   "pass": true,
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "Service worker exists",
+   "pass": true,
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "SW registers fetch handler",
+   "pass": true,
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "Offline fallback (offline.html)",
+   "pass": true,
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "offline.html is a real shell",
+   "pass": true,
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "PWA icons exist",
+   "pass": true,
+   "status": "PASS",
+   "detail": "13 icons"
+  },
+  {
+   "name": "NDJSON server boots",
+   "pass": true,
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "HTTP /api/health",
+   "pass": true,
+   "status": "PASS",
+   "detail": "got 200 want 200"
+  },
+  {
+   "name": "HTTP /api/stats",
+   "pass": true,
+   "status": "PASS",
+   "detail": "got 200 want 200"
+  },
+  {
+   "name": "HTTP /api/search?q=physics&limit=5",
+   "pass": true,
+   "status": "PASS",
+   "detail": "got 200 want 200"
+  },
+  {
+   "name": "HTTP /api/browse?page=1&limit=10",
+   "pass": true,
+   "status": "PASS",
+   "detail": "got 200 want 200"
+  },
+  {
+   "name": "HTTP /api/browse?subject=physics&limit=5",
+   "pass": true,
+   "status": "PASS",
+   "detail": "got 200 want 200"
+  },
+  {
+   "name": "HTTP /api/mcq/pak-001",
+   "pass": true,
+   "status": "PASS",
+   "detail": "got 200 want 200"
+  },
+  {
+   "name": "HTTP /api/random?limit=5",
+   "pass": true,
+   "status": "PASS",
+   "detail": "got 200 want 200"
+  },
+  {
+   "name": "HTTP /api/kg/stats",
+   "pass": true,
+   "status": "PASS",
+   "detail": "got 200 want 200"
+  },
+  {
+   "name": "HTTP /api/kg/concepts?q=gravity",
+   "pass": true,
+   "status": "PASS",
+   "detail": "got 200 want 200"
+  },
+  {
+   "name": "HTTP /api/subjects",
+   "pass": true,
+   "status": "PASS",
+   "detail": "got 200 want 200"
+  },
+  {
+   "name": "HTTP /api/chapters",
+   "pass": true,
+   "status": "PASS",
+   "detail": "got 200 want 200"
+  },
+  {
+   "name": "HTTP /api/topics",
+   "pass": true,
+   "status": "PASS",
+   "detail": "got 200 want 200"
+  },
+  {
+   "name": "HTTP /api/categories",
+   "pass": true,
+   "status": "PASS",
+   "detail": "got 200 want 200"
+  },
+  {
+   "name": "HTTP /api/exams",
+   "pass": true,
+   "status": "PASS",
+   "detail": "got 200 want 200"
+  },
+  {
+   "name": "HTTP /api/quizzes",
+   "pass": true,
+   "status": "PASS",
+   "detail": "got 200 want 200"
+  },
+  {
+   "name": "HTTP /api/mocktests",
+   "pass": true,
+   "status": "PASS",
+   "detail": "got 200 want 200"
+  },
+  {
+   "name": "HTTP /api/pastpapers",
+   "pass": true,
+   "status": "PASS",
+   "detail": "got 200 want 200"
+  },
+  {
+   "name": "HTTP /api/bookmarks",
+   "pass": true,
+   "status": "PASS",
+   "detail": "got 200 want 200"
+  },
+  {
+   "name": "HTTP /api/history",
+   "pass": true,
+   "status": "PASS",
+   "detail": "got 200 want 200"
+  },
+  {
+   "name": "HTTP /api/leaderboard",
+   "pass": true,
+   "status": "PASS",
+   "detail": "got 200 want 200"
+  },
+  {
+   "name": "HTTP /api/analytics",
+   "pass": true,
+   "status": "PASS",
+   "detail": "got 200 want 200"
+  },
+  {
+   "name": "HTTP /api/does-not-exist-xyz",
+   "pass": true,
+   "status": "PASS",
+   "detail": "got 404 want 404"
+  },
+  {
+   "name": "GET import -> 404 (POST-only route)",
+   "pass": true,
+   "status": "PASS",
+   "detail": "got 404"
+  },
+  {
+   "name": "Migrated POST import validates (400 non-array)",
+   "pass": true,
+   "status": "PASS",
+   "detail": "got 400"
+  }
+ ],
+ "verdict": "PASS"
+}

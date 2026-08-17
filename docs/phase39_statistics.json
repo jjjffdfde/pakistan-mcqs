@@ -1,0 +1,48 @@
+{
+  "phase": 39,
+  "step": 22,
+  "generated_at": "2026-08-13T03:57:00.000Z",
+  "source_repository_statistics": {
+    "files_checked": 5365,
+    "total_bytes": 4050978472,
+    "tracked_files": 1895,
+    "untracked_not_ignored": 116,
+    "ignored_files": 3354,
+    "candidate_files": 2011,
+    "candidate_bytes": 79576945,
+    "git_objects": 1929,
+    "git_size": "9.86 MiB loose",
+    "commits": 1,
+    "branches_push_ready": true
+  },
+  "coverage_statistics": {
+    "mcq_count": 1338,
+    "seo_pages_subjects": 243,
+    "seo_pages_chapters": 884,
+    "knowledge_graph_concepts": 820,
+    "runtime_indexes": "search, kg, browse (rebuilt at runtime, not committed)"
+  },
+  "test_statistics": {
+    "unit_api_integration_performance": "34/34 PASS",
+    "database_integration": "30/30 PASS",
+    "parity": "55 PASS + 8 PASS_SET + 7 EXPECTED, 0 FAIL",
+    "ndjson_regression": "51/51 PASS (phase 38)",
+    "sqlite_disabled_gate": "82/82 PASS",
+    "smoke": "43/43 PASS (1 documented NOT_IMPLEMENTED: static topic pages)",
+    "build_determinism": "4/4 byte-identical",
+    "lint": "0 errors, 5879 pre-existing style warnings"
+  },
+  "severity_statistics": {
+    "secrets_found": 0,
+    "credential_classes_scanned": "api keys, passwords, tokens, connection strings, private keys, .env, AWS/GCP/Azure/OpenAI/Stripe/GitHub/GitLab patterns",
+    "map_files": 0,
+    "files_over_100MiB": 0,
+    "production_sqlite_in_candidate": false
+  },
+  "documentation_items": {
+    "phase39_docs": 19,
+    "execution_reports": "docs/PHASE26..PHASE39_EXECUTION_REPORT.md",
+    "release_artifacts": ["RELEASE_MANIFEST.json", "RELEASE_NOTES.md"]
+  },
+  "verdict": "STATISTICS COMPLETE — consistent with release-readiness PASS"
+}

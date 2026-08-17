@@ -1,0 +1,31 @@
+{
+ "generated_at": "2026-08-17T06:08:12.731Z",
+ "manifest": {
+  "start_url": "./",
+  "display": "standalone",
+  "icons": 12
+ },
+ "service_worker": {
+  "file": "sw.js",
+  "caches_api": 14,
+  "has_precache": false,
+  "has_offline_fallback": true
+ },
+ "offline_page": true,
+ "cache_entries": [],
+ "indexedDB_usage": [],
+ "static_cached_json": [
+  "/data/subjects.json",
+  "/data/chapters.json",
+  "/data/topics.json",
+  "/data/mcqs.json",
+  "/data/categories.json",
+  "/data/exams.json",
+  "/data/programs.json",
+  "/data/mock_tests.json",
+  "/data/papers.json",
+  "/data/quizzes.json",
+  "/data/references.json",
+  "/data/mcqs.json"
+ ]
+}

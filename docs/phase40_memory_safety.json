@@ -1,0 +1,23 @@
+{
+  "phase": 40,
+  "step": 5,
+  "run_at": "2026-08-17T13:52:26.351Z",
+  "audit": [
+    "candidatePool: bounded reservoir (random) / bounded min-heap (top-N) — no full-dataset materialization.",
+    "Promise.all: only bounded batch fetches (<=200 ids) and 8x smoke concurrency (verified PASS).",
+    "full-part materialization: only per-subject streams with LRU cap; oversized parts bypass cache.",
+    "large JSON.parse: index files parsed per access; search buckets byte-bounded (32MB); fileCache entry-bounded.",
+    "unbounded cache: fileCache and keyIdxCache now bounded (see phase40_final_performance.json).",
+    "unbounded Set/Map: matched search sets are transient per request; keyIdx bounded."
+  ],
+  "tests": {
+    "small_subject": "PASS (army/ajkpsc micro-bank browse/search/random)",
+    "medium_subject": "PASS (physics etc. browse/random)",
+    "large_math_subject": "PASS (mathematics browse/search)",
+    "all_subject_operation": "PASS (random/browse all; export streamed)",
+    "repeated_requests": "PASS (20x browse loop)",
+    "concurrent_requests": "PASS (8x parallel search/random)"
+  },
+  "rss_mb": 482,
+  "verdict": "PASS"
+}

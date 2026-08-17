@@ -1,0 +1,16 @@
+{
+  "phase": 41,
+  "step": 12,
+  "run_at": "2026-08-17T15:05:00.000Z",
+  "fresh_dir": "C:\\Users\\Admin\\AppData\\Local\\Temp\\opencode\\phase41-fresh",
+  "source": "exact final git candidate source via `git ls-files -co --exclude-standard` (1940 files: tracked + untracked-not-ignored)",
+  "required_env_config": [
+    "database/data/ (NDJSON.GZ payload, 643MB — gitignored required-environment input, regenerated from the archived oracle export; contains zero SQLite files)",
+    ".env.example"
+  ],
+  "excluded": ["node_modules", ".git of origin", "backup/", "migration-backups/", "runtime-v2/userdata/", "runtime-v2/indexes/ (rebuilt fresh)", "old caches/logs"],
+  "install": "npm ci — 1 package, 0 vulnerabilities, 14s",
+  "scratch_git": "git init + snapshot commit so tracked-file audits (gate G07) run in post-commit semantics; database/data correctly excluded by .gitignore",
+  "sqlite_files_in_fresh_tree": 0,
+  "verdict": "PASS"
+}

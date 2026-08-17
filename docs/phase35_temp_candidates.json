@@ -1,0 +1,140 @@
+[
+ {
+  "file": "bench.log",
+  "size": 202,
+  "sha256": "fba28c7cc19fbf4b3168382806f5d6572c87af54842be69996d3a07b0cf71702",
+  "reason": "root log file"
+ },
+ {
+  "file": "browse-check.log",
+  "size": 664,
+  "sha256": "24b906fa007c5fe1dc6b540a96c59fad359fef29d6191ad3ff30a92e0ef1e7d4",
+  "reason": "root log file"
+ },
+ {
+  "file": "build-pages.log",
+  "size": 320,
+  "sha256": "d567efd49a76c67969440f4596dfac5cef7e7982d704ce7f9f4c9e6b8e72ef4a",
+  "reason": "root log file"
+ },
+ {
+  "file": "fixture.log",
+  "size": 2570,
+  "sha256": "0ff759107415f99e3ec4aae4f04b2451ec0fbb18b34221a82ae4d8c42b79b9f0",
+  "reason": "root log file"
+ },
+ {
+  "file": "idx-check.log",
+  "size": 368,
+  "sha256": "15673f9712b8fe2cd41f349be996448cc26a1d1a8b4416f48e8c11b864ce6246",
+  "reason": "root log file"
+ },
+ {
+  "file": "missing-check.log",
+  "size": 1552,
+  "sha256": "9853bbc490e5207a6b66c2cf28577dde6ac3f6a264b6bdf09f121e6f567c6af0",
+  "reason": "root log file"
+ },
+ {
+  "file": "monitor.log",
+  "size": 250,
+  "sha256": "de55c4d6f90f272296ff089a2125d9c6df6d311a9ca42793d2b5f4bd0af2eea3",
+  "reason": "root log file"
+ },
+ {
+  "file": "probe.log",
+  "size": 890,
+  "sha256": "9e038e665cfcfb2111730445ebf1efc62c71e437b4ad89559d40ae9592ac8035",
+  "reason": "root log file"
+ },
+ {
+  "file": "rebuild.log",
+  "size": 14190,
+  "sha256": "1d3b306e995f126c91541f3eaccf809155b58d419990c8d296f06a078c66c72c",
+  "reason": "root log file"
+ },
+ {
+  "file": "runtime-v2/userdata/ai/ai_state.json.bak",
+  "size": 98,
+  "sha256": "a0f06e484d735f67bf0bb46b42a2866c67fe61856f0aea2ee966865f318000e4",
+  "reason": "temp/backup-style file"
+ },
+ {
+  "file": "runtime-v2/userdata/ai/flashcards.json.bak",
+  "size": 68166,
+  "sha256": "47db2484db30c88ea5c621a8dcbf81a7093decb8b0e1969d95ef4b7562846c7a",
+  "reason": "temp/backup-style file"
+ },
+ {
+  "file": "runtime-v2/userdata/ai/learning_sessions.json.bak",
+  "size": 270,
+  "sha256": "c01ee4d26f5b0294c1764e1ccbee3b8cbd9e088043e53f270428263b8b86a3fe",
+  "reason": "temp/backup-style file"
+ },
+ {
+  "file": "runtime-v2/userdata/ai/notifications.json.bak",
+  "size": 2,
+  "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "reason": "temp/backup-style file"
+ },
+ {
+  "file": "runtime-v2/userdata/ai/recommendations.json.bak",
+  "size": 1052,
+  "sha256": "c01867cda338ef504226d2070015ff932e42cb2de0b884af9d603343fad95ee2",
+  "reason": "temp/backup-style file"
+ },
+ {
+  "file": "runtime-v2/userdata/ai/revision_schedule.json.bak",
+  "size": 4507,
+  "sha256": "868a2d6f7398a698f159f31409bbbcc77248b987a88337c77aa623571ae301f5",
+  "reason": "temp/backup-style file"
+ },
+ {
+  "file": "runtime-v2/userdata/ai/strong_topics.json.bak",
+  "size": 2,
+  "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "reason": "temp/backup-style file"
+ },
+ {
+  "file": "runtime-v2/userdata/ai/study_plans.json.bak",
+  "size": 3963,
+  "sha256": "2c821f1b0176113924a4da541ac8816fa457ee7b7f2f1784e336245bea7f4de1",
+  "reason": "temp/backup-style file"
+ },
+ {
+  "file": "runtime-v2/userdata/ai/user_profiles.json.bak",
+  "size": 249,
+  "sha256": "ee2598037255afdb47e39a1364537dafc15058d3ec8e48bd109325e8ff7a7d71",
+  "reason": "temp/backup-style file"
+ },
+ {
+  "file": "runtime-v2/userdata/ai/weak_topics.json.bak",
+  "size": 2,
+  "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "reason": "temp/backup-style file"
+ },
+ {
+  "file": "test-fixture.log",
+  "size": 170,
+  "sha256": "989d139dc0c06e2b85f0d2c925839a1600a5b9c09386447aa5c880b2e09d25f7",
+  "reason": "root log file"
+ },
+ {
+  "file": "test-real.log",
+  "size": 292,
+  "sha256": "88b967f49f1f21929605ad6e51432d917507047ac74fbf656f96ff42f9396de0",
+  "reason": "root log file"
+ },
+ {
+  "file": "testdb.log",
+  "size": 4436,
+  "sha256": "471f5ad4c69c2a2293f25018a3bb14b114b3e1cfc2b1d8ec9c7c3d90cb240a1c",
+  "reason": "root log file"
+ },
+ {
+  "file": "vb.log",
+  "size": 15972,
+  "sha256": "c428ac4ba8f155e9872088e90a414d5384c6d3857a345ab67d315fea285b27d5",
+  "reason": "root log file"
+ }
+]

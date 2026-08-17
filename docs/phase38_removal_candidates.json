@@ -1,0 +1,48 @@
+{
+  "phase": 38,
+  "step": 19,
+  "run_at": "2026-08-12T06:50:00.000Z",
+  "scope": "documentation only — no code removed; lists candidates for a future cleanup",
+  "runtime_v2_dead_code_zero_callers": {
+    "data-loader.cjs": ["clearKeyIdxCache (L184)", "userFile (L185)", "clearCaches (L196)"],
+    "query-engine.cjs": [
+      "streamCandidatesTopN + makeTopNHeap (L128-200, unexported, zero callers)",
+      "needed Set in fetchRows (L95, unused variable)",
+      "opts param of fetchRows (L90, never used)",
+      "keyIdxCache module state (L12, never populated)",
+      "buildMatcher result field total (L348/366, never consumed)"
+    ],
+    "kg-store.cjs": ["reset (L70)", "stats (L71)", "TABLES export (L79)"],
+    "user-store.cjs": ["stats (L131)", "_reset (L142)", "periods/utcNow exported but internal-only"],
+    "server.cjs": ["module.exports = { server } (L199) — every consumer spawns the process"]
+  },
+  "exports_internal_only": {
+    "note": "export clause droppable, functions remain used internally",
+    "data-loader.cjs": ["readJson"],
+    "query-engine.cjs": ["sanitizeFts", "paginate", "attachOptions", "attachNames", "attachRelated", "cacheStats"],
+    "kg-store.cjs": ["TABLES"]
+  },
+  "index_builder_pass5": {
+    "note": "pass5 writes qhash.idx + concept.idx; no runtime reader exists — pass5 and its two outputs are removal candidates (passes 1-4 outputs all consumed)"
+  },
+  "legacy_server_superseded": {
+    "note": "all listed routes have 1:1 NDJSON equivalents in runtime-v2/server.cjs; removable if the NDJSON server fully replaces server.js",
+    "routes": [
+      "health L130", "stats L133-160", "search L163-184", "browse L187-194", "mcq/:id L197-204",
+      "mcqs batch L207-213", "random L216-229", "subjects L232-235", "chapters L236-239", "topics L240-243",
+      "categories L244-247", "exams L250-255", "quizzes L256-259", "mocktests L260-263", "pastpapers L264-267",
+      "bookmarks L270-282", "history L283-298", "leaderboard L299-302", "analytics L303-306",
+      "export L336-347", "kg/stats L383-393", "kg/concepts L394-406", "kg/micro-concepts L407-414",
+      "kg/learning-objectives L415-422", "kg/learning-paths L423-430", "kg/concepts/:id + subroutes L431-483"
+    ],
+    "helpers": ["sanitizeFts L35-40", "paginate L42-47", "buildWhere L49-68", "readJson L70-77", "attachOptions L79-91", "relByTag + attachRelated L94-109"],
+    "kept_not_superseded": ["/api/import L309-333", "/api/backup L350-358", "/api/restore L359-380", "/api/ai/* dispatch L486 (SQLite-only per classification)"]
+  },
+  "dependencies": {
+    "package.json": "zero dependencies; no better-sqlite3 anywhere (node:sqlite DatabaseSync used via db/engine.js)",
+    "direct_db_consumers": ["db/engine.js is the single entry point; 29 files require node:sqlite directly (database/scripts, scripts/phase27/30/36, pipeline, assistant, tests) — none better-sqlite3"]
+  },
+  "scratch_cleanup": {
+    "note": "28 tmp-*.cjs files (697 lines) in scripts/phase38 to be deleted at phase end; hazardous ones that rewrite runtime source in place: tmp-meta.cjs, tmp-meta2.cjs, tmp-replace.cjs, tmp-replace2.cjs"
+  }
+}

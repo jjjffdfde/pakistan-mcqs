@@ -1,0 +1,101 @@
+{
+ "files_before": 2549,
+ "files_deleted": 0,
+ "files_retained": 2549,
+ "files_archived": 0,
+ "size_before_bytes": 3136249698,
+ "size_after_bytes": 3136249698,
+ "space_saved_bytes": 0,
+ "largest_files": [
+  {
+   "path": "db/pakistan-mcqs.sqlite",
+   "size": 2206887936
+  },
+  {
+   "path": "database/data/other/mcqs_fts_data-part03.ndjson.gz",
+   "size": 63452939
+  },
+  {
+   "path": "database/releases/source-v2/data/other/mcqs_fts_data-part03.ndjson.gz",
+   "size": 63452939
+  },
+  {
+   "path": "database/data/other/mcqs_fts_data-part02.ndjson.gz",
+   "size": 63303664
+  },
+  {
+   "path": "database/releases/source-v2/data/other/mcqs_fts_data-part02.ndjson.gz",
+   "size": 63303664
+  },
+  {
+   "path": "database/data/other/mcqs_fts_data-part04.ndjson.gz",
+   "size": 61413343
+  },
+  {
+   "path": "database/releases/source-v2/data/other/mcqs_fts_data-part04.ndjson.gz",
+   "size": 61413343
+  },
+  {
+   "path": "database/data/other/mcqs_fts_data-part01.ndjson.gz",
+   "size": 60666104
+  },
+  {
+   "path": "database/releases/source-v2/data/other/mcqs_fts_data-part01.ndjson.gz",
+   "size": 60666104
+  },
+  {
+   "path": "database/data/other/mcqs_fts_data-part05.ndjson.gz",
+   "size": 55112201
+  },
+  {
+   "path": "database/releases/source-v2/data/other/mcqs_fts_data-part05.ndjson.gz",
+   "size": 55112201
+  },
+  {
+   "path": "docs/archive/phase17_search_index.json",
+   "size": 32876440
+  },
+  {
+   "path": "database/data/mcqs/options.ndjson.gz",
+   "size": 27005865
+  },
+  {
+   "path": "database/releases/source-v2/data/mcqs/options.ndjson.gz",
+   "size": 27005865
+  },
+  {
+   "path": "database/data/other/mcqs_fts.ndjson.gz",
+   "size": 15647162
+  },
+  {
+   "path": "database/releases/source-v2/data/other/mcqs_fts.ndjson.gz",
+   "size": 15647162
+  },
+  {
+   "path": "database/data/mcqs/mathematics/part01.ndjson.gz",
+   "size": 10230062
+  },
+  {
+   "path": "database/releases/source-v2/data/mcqs/mathematics/part01.ndjson.gz",
+   "size": 10230062
+  },
+  {
+   "path": "docs/archive/phase28_link_audit.json",
+   "size": 4823808
+  },
+  {
+   "path": "docs/phase35_dependency_graph.json",
+   "size": 3439476
+  }
+ ],
+ "files_over_50_mib": 11,
+ "files_over_100_mib": 1,
+ "github_candidate_size_mib": 67,
+ "github_candidate_files": 1895,
+ "tracked_over_100_mib": 0,
+ "tracked_over_50_mib": 0,
+ "tracked_over_25_mib": 1,
+ "secrets_found": 0,
+ "database_sha256": "3DF39D335F5F931125168CA26877595B620BD1C9F75701B20AC19A9DFFAFA34E",
+ "database_modified": false
+}

@@ -1,0 +1,29 @@
+{
+  "phase": 38,
+  "step": 10,
+  "run_at": "2026-08-12T07:00:00.000Z",
+  "title": "User data architecture (server-side JSON persistence)",
+  "module": "runtime-v2/user-store.cjs",
+  "location": "runtime-v2/userdata/",
+  "files": {
+    "bookmarks.json": "array of {id, device_id, mcq_id, created_at}; addBookmark dedupes on (mcq_id, device_id)",
+    "history.json": "array of {id, device_id, mcq_id, correct, points, mode, answered_at, time_taken_sec, skipped, session_id}",
+    "leaderboard.json": "keyed by device_id: {id, device_id, name, points, week_key, month_key, correct, total, week_claimed, month_claimed, updated_at}",
+    "periods.json": "array of {device_id, period, period_key, points, correct, total, updated_at} for daily/weekly/monthly/yearly",
+    "analytics.json": "analytics payload store",
+    "_ids.json": "auto-increment counters per file (id sequence)"
+  },
+  "sqlite_semantics_mirrored": {
+    "utc_now": "datetime('now') UTC format (YYYY-MM-DD HH:MM:SS)",
+    "week_key": "strftime('%W','now') Monday-based week, UTC",
+    "month_key": "YYYY-MM UTC",
+    "scoring": "correct -> +10 points; skipped flag; time clamped 0..3600; mode capped 40 chars; session_id int",
+    "leaderboard_sort": "points DESC, correct DESC, device_id ASC, top 100"
+  },
+  "notes": {
+    "write_strategy": "whole-file rewrite on each mutation (JSON.stringify 1-space); single-process assumption — no file locking",
+    "idempotency": "recordAnswer appends unconditionally (mirrors INSERT); bookmarks dedupe (mirrors guarded INSERT)",
+    "spaced_revision": "AI engine schedules stay SQLite (NOT_MIGRATED — 501 under SQLITE_DISABLED)",
+    "verification": "parity: bookmarks get/post, history get/post correct/wrong/bad, leaderboard, analytics + after-write rechecks PASS; regression PASS"
+  }
+}

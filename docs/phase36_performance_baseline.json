@@ -1,0 +1,56 @@
+{
+ "generated_at": "2026-08-11T13:23:36.825Z",
+ "results": {
+  "sqlite_open": {
+   "ms": 2.07
+  },
+  "sqlite_count_mcqs": {
+   "ms": 9.06,
+   "result": 872621
+  },
+  "sqlite_lookup_by_id": {
+   "ms": 0.82,
+   "result": "no-id-found"
+  },
+  "sqlite_sample_ids": [
+   "acc-001",
+   "acc-002",
+   "acc-003",
+   "acc-004",
+   "acc-005"
+  ],
+  "sqlite_row_json_size_bytes": 1592,
+  "sqlite_subject_filter": {
+   "ms": 0.24,
+   "result": 5096
+  },
+  "sqlite_like_search": {
+   "ms": 0.12,
+   "result": 20
+  },
+  "sqlite_random_20": {
+   "ms": 61,
+   "result": 20
+  },
+  "json_static_mcqs": {
+   "file": "data/mcqs.json",
+   "size_bytes": 1063761,
+   "parse_ms": 5.77,
+   "mcq_count": 1338,
+   "rss_delta_mib": 4.7
+  },
+  "ndjson_plain": {
+   "note": "no plain .ndjson <= 96MiB found in database/data/mcqs (all exports are .gz)"
+  },
+  "ndjson_gz": {
+   "file": "database\\data\\other\\mcqs_fts_docsize.ndjson.gz",
+   "compressed_bytes": 2532200,
+   "lines": 50000,
+   "ms": 13.47,
+   "truncated": true
+  },
+  "process_rss_mib": 19.8,
+  "max_ram_limit_mib": 512,
+  "note": "All operations read-only. GZ/NDJSON read via streaming with truncation; no full 2.2GB DB load."
+ }
+}

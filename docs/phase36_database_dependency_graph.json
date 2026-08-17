@@ -1,0 +1,277 @@
+{
+ "generated_at": "2026-08-17T06:08:12.731Z",
+ "routes": [],
+ "frontend_callers": [
+  {
+   "endpoint": "/api/mcq/",
+   "callers": [
+    "assets/js/ai.js",
+    "runtime-v2/server.cjs",
+    "scripts/phase40/parity.cjs"
+   ]
+  },
+  {
+   "endpoint": "/api/ai/profile",
+   "callers": [
+    "assets/js/ai.js"
+   ]
+  },
+  {
+   "endpoint": "/api/ai/mock/predictions",
+   "callers": [
+    "assets/js/ai.js"
+   ]
+  },
+  {
+   "endpoint": "/api/ai/planner",
+   "callers": [
+    "assets/js/ai.js"
+   ]
+  },
+  {
+   "endpoint": "/api/ai/planner/regenerate",
+   "callers": [
+    "assets/js/ai.js"
+   ]
+  },
+  {
+   "endpoint": "/api/ai/planner/complete",
+   "callers": [
+    "assets/js/ai.js"
+   ]
+  },
+  {
+   "endpoint": "/api/ai/adaptive/start",
+   "callers": [
+    "assets/js/ai.js"
+   ]
+  },
+  {
+   "endpoint": "/api/ai/adaptive/next",
+   "callers": [
+    "assets/js/ai.js"
+   ]
+  },
+  {
+   "endpoint": "/api/ai/adaptive/submit",
+   "callers": [
+    "assets/js/ai.js"
+   ]
+  },
+  {
+   "endpoint": "/api/ai/adaptive/finish",
+   "callers": [
+    "assets/js/ai.js"
+   ]
+  },
+  {
+   "endpoint": "/api/ai/spaced/due",
+   "callers": [
+    "assets/js/ai.js"
+   ]
+  },
+  {
+   "endpoint": "/api/ai/spaced/review",
+   "callers": [
+    "assets/js/ai.js"
+   ]
+  },
+  {
+   "endpoint": "/api/ai/flashcards/due",
+   "callers": [
+    "assets/js/ai.js"
+   ]
+  },
+  {
+   "endpoint": "/api/ai/flashcards/build",
+   "callers": [
+    "assets/js/ai.js"
+   ]
+  },
+  {
+   "endpoint": "/api/ai/flashcards/review",
+   "callers": [
+    "assets/js/ai.js"
+   ]
+  },
+  {
+   "endpoint": "/api/mocktests",
+   "callers": [
+    "assets/js/ai.js",
+    "assets/js/app.js",
+    "scripts/validate-buttons.cjs"
+   ]
+  },
+  {
+   "endpoint": "/api/ai/mock/predict",
+   "callers": [
+    "assets/js/ai.js"
+   ]
+  },
+  {
+   "endpoint": "/api/ai/recommendations",
+   "callers": [
+    "assets/js/ai.js"
+   ]
+  },
+  {
+   "endpoint": "/api/ai/current-affairs",
+   "callers": [
+    "assets/js/ai.js"
+   ]
+  },
+  {
+   "endpoint": "/api/ai/analytics",
+   "callers": [
+    "assets/js/ai.js"
+   ]
+  },
+  {
+   "endpoint": "/api/ai/leaderboard",
+   "callers": [
+    "assets/js/ai.js"
+   ]
+  },
+  {
+   "endpoint": "/api/ai/notifications",
+   "callers": [
+    "assets/js/ai.js"
+   ]
+  },
+  {
+   "endpoint": "/api/ai/notifications/read",
+   "callers": [
+    "assets/js/ai.js"
+   ]
+  },
+  {
+   "endpoint": "/api/ai/weak-topics",
+   "callers": [
+    "assets/js/ai.js"
+   ]
+  },
+  {
+   "endpoint": "/api/stats",
+   "callers": [
+    "assets/js/app.js"
+   ]
+  },
+  {
+   "endpoint": "/api/subjects",
+   "callers": [
+    "assets/js/app.js",
+    "scripts/validate-buttons.cjs"
+   ]
+  },
+  {
+   "endpoint": "/api/chapters",
+   "callers": [
+    "assets/js/app.js"
+   ]
+  },
+  {
+   "endpoint": "/api/topics",
+   "callers": [
+    "assets/js/app.js"
+   ]
+  },
+  {
+   "endpoint": "/api/quizzes",
+   "callers": [
+    "assets/js/app.js",
+    "scripts/validate-buttons.cjs"
+   ]
+  },
+  {
+   "endpoint": "/api/pastpapers",
+   "callers": [
+    "assets/js/app.js",
+    "scripts/validate-buttons.cjs"
+   ]
+  },
+  {
+   "endpoint": "/api/exams",
+   "callers": [
+    "assets/js/app.js",
+    "scripts/validate-buttons.cjs"
+   ]
+  },
+  {
+   "endpoint": "/api/categories",
+   "callers": [
+    "assets/js/app.js"
+   ]
+  },
+  {
+   "endpoint": "/api/history",
+   "callers": [
+    "assets/js/app.js"
+   ]
+  },
+  {
+   "endpoint": "/api/bookmarks",
+   "callers": [
+    "assets/js/app.js",
+    "scripts/validate-buttons.cjs"
+   ]
+  },
+  {
+   "endpoint": "/api/mcqs",
+   "callers": [
+    "assets/js/app.js"
+   ]
+  },
+  {
+   "endpoint": "/api/random",
+   "callers": [
+    "assets/js/app.js",
+    "scripts/validate-buttons.cjs"
+   ]
+  },
+  {
+   "endpoint": "/api/search",
+   "callers": [
+    "assets/js/app.js"
+   ]
+  },
+  {
+   "endpoint": "/api/browse",
+   "callers": [
+    "assets/js/app.js",
+    "scripts/validate-buttons.cjs"
+   ]
+  },
+  {
+   "endpoint": "/api/leaderboard",
+   "callers": [
+    "assets/js/app.js",
+    "scripts/validate-buttons.cjs"
+   ]
+  },
+  {
+   "endpoint": "/api/kg/concepts/",
+   "callers": [
+    "runtime-v2/server.cjs"
+   ]
+  },
+  {
+   "endpoint": "/api/ai/",
+   "callers": [
+    "runtime-v2/server.cjs"
+   ]
+  },
+  {
+   "endpoint": "/api",
+   "callers": [
+    "scripts/phase35/analyze.cjs",
+    "scripts/phase36/analyze.cjs"
+   ]
+  },
+  {
+   "endpoint": "/api/health",
+   "callers": [
+    "scripts/validate-buttons.cjs"
+   ]
+  }
+ ]
+}

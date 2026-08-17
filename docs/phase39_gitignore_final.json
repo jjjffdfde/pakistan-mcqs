@@ -1,0 +1,24 @@
+{
+  "phase": 39,
+  "step": 6,
+  "generated_at": "2026-08-13T03:18:00.000Z",
+  "status": "finalized (file updated)",
+  "diff": [
+    "added global database patterns: *.sqlite, *.sqlite3, *.sqlite-wal, *.sqlite-shm, *.db (previously scoped to db/ only)",
+    "added generic local dirs: logs/, cache/, snapshots/",
+    "added checkpoint backup pattern: database/manifests/.export-checkpoint.json.bak-* (local export backup, not source)"
+  ],
+  "protects": {
+    "databases": ["*.sqlite", "*.sqlite3", "*.db", "*.sqlite-wal", "*.sqlite-shm", "db/*.sqlite", "db/*.sqlite-shm", "db/*.sqlite-wal"],
+    "env": [".env", ".env.*", "!.env.example"],
+    "deps": ["node_modules/", "desktop/node_modules/"],
+    "state_and_backups": ["backup/*/", "database/data/", "database/releases/", "database/snapshots/", "database/manifests/.export-checkpoint.json", "database/manifests/.export-checkpoint.json.bak-*", "database/manifests/.build-state.json", "runtime-v2/indexes/ (nested)", "runtime-v2/userdata/ (nested)", "phase34-backup-*/"],
+    "generated_artifacts": ["*.log", "*.tmp", "*.temp", "*.bak", "*.old", "*.swp", "*.orig", "*.part", "*.har", "*.zip", "*.7z", "coverage/", ".cache/", ".tmp/", "temp/", "logs/", "cache/", "snapshots/", ".audit-tmp/", ".claude/", ".phase26-db-test/", "test-results/", "playwright-report/"],
+    "os_and_ide": ["Thumbs.db", "Desktop.ini", ".DS_Store", ".vscode/", ".idea/", "*.code-workspace"]
+  },
+  "not_ignored_required_source": {
+    "verified": true,
+    "samples_checked": ["README.md", "package.json", "package-lock.json", "server.js", "runtime-v2/*.cjs", "database/scripts/export-db.js", "db/schema.sqlite.sql", "tests/**", "assets/**", "manifest.webmanifest", "sw.js", "offline.html", ".github/workflows/**", "subjects|chapters|topics/** (SEO pages)", "docs/**"]
+  },
+  "verdict": "PASS — databases, secrets, caches and generated state are ignored; all required source remains trackable"
+}

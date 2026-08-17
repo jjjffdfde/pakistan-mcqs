@@ -1,0 +1,20 @@
+{
+  "phase": 39,
+  "step": 9,
+  "generated_at": "2026-08-13T03:20:00.000Z",
+  "file": ".env.example",
+  "content_review": {
+    "MCQS_PORT": "8765 — safe default; no secret",
+    "MCQS_API": "http://localhost:8765 — safe local default",
+    "MCQS_TEST_DB": "commented example (./db/pakistan-mcqs.sqlite) — no real value",
+    "P28_PORT": "8799 — audit server port",
+    "CHROME_PATH": "commented local path example — machine-specific, not a secret"
+  },
+  "verdict": "SAFE — contains only documented variable names with safe defaults; zero secret material",
+  "environments": {
+    "development": ["MCQS_PORT (optional)", "MCQS_API (optional)"],
+    "test": ["MCQS_TEST_DB (optional, commented)", "P28_PORT (optional)"],
+    "production": ["no environment variables required — zero-configuration static-first deployment (env vars remain optional)"],
+    "note": "runtime-v2 honors MCQS_PORT/MCQS_JSON_PORT for harnesses; no credentials are ever read from env"
+  }
+}

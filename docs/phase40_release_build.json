@@ -1,0 +1,15 @@
+{
+  "phase": 40,
+  "step": 31,
+  "run_at": "2026-08-17T13:52:27.699Z",
+  "manifest": {
+    "files": 4015,
+    "checksum_file": "release/SHA256SUMS.txt",
+    "version_file": "release/version.json",
+    "sqlite_files": 0
+  },
+  "build": "npm run release -> 4015 files, 0 sqlite entries",
+  "start": "npm start (runtime-v2/server.cjs) boots on 8766 without any sqlite file present (physical test)",
+  "tests": "40/40 fixture, 30/30 db integration, gate 10/10",
+  "verdict": "PASS"
+}

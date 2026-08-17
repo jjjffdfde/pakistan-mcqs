@@ -1,0 +1,42 @@
+{
+  "phase": 40,
+  "step": 4,
+  "run_at": "2026-08-17T13:52:26.351Z",
+  "design": "AI service behavior unchanged; data access is fully file-backed (userdata/*.json atomic stores + NDJSON indexes). No SQLite in the AI stack.",
+  "routes": [
+    "/api/ai/profile",
+    "/api/ai/weak-topics",
+    "/api/ai/planner",
+    "/api/ai/planner/regenerate",
+    "/api/ai/planner/complete",
+    "/api/ai/spaced/due",
+    "/api/ai/spaced/review",
+    "/api/ai/adaptive/start",
+    "/api/ai/adaptive/next",
+    "/api/ai/adaptive/submit",
+    "/api/ai/adaptive/finish",
+    "/api/ai/mock/predictions",
+    "/api/ai/mock/predict",
+    "/api/ai/recommendations",
+    "/api/ai/recommendations/build",
+    "/api/ai/flashcards/due",
+    "/api/ai/flashcards/build",
+    "/api/ai/flashcards/review",
+    "/api/ai/current-affairs",
+    "/api/ai/current-affairs/summary",
+    "/api/ai/analytics",
+    "/api/ai/leaderboard",
+    "/api/ai/achievements",
+    "/api/ai/notifications"
+  ],
+  "validation": {
+    "empty_object": "2xx with defaults (oracle-identical)",
+    "invalid_payload": "400 exact (malformed JSON)",
+    "missing_body": "2xx/4xx handled, no 5xx",
+    "empty_body": "2xx/4xx handled, no 5xx",
+    "large_payload": "handled within caps (adaptive count<=200, flashcards limit<=100)",
+    "statuses": "400/200/201 match oracle (gate G03: 13 POST routes)"
+  },
+  "evidence": "phase40_gate.json G02/G03 + physical smoke 104/104 (AI battery) + ai-smoke 36/36",
+  "verdict": "PASS"
+}

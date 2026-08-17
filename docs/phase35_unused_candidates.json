@@ -1,0 +1,81 @@
+[
+ {
+  "file": "RELEASE_MANIFEST.json",
+  "size": 2581,
+  "reason": "root orphan with zero references",
+  "refs": [
+   {
+    "source": "docs/phase34_dead_files.json",
+    "kind": "path",
+    "count": 1
+   },
+   {
+    "source": "docs/phase34_deletion_plan.json",
+    "kind": "path",
+    "count": 2
+   },
+   {
+    "source": "docs/phase34_file_classification.json",
+    "kind": "path",
+    "count": 1
+   },
+   {
+    "source": "docs/phase34_github_size_audit.json",
+    "kind": "path",
+    "count": 1
+   },
+   {
+    "source": "docs/PHASE39_EXECUTION_REPORT.md",
+    "kind": "path",
+    "count": 1
+   },
+   {
+    "source": "docs/phase39_readiness.json",
+    "kind": "path",
+    "count": 1
+   },
+   {
+    "source": "docs/phase39_source_repository.json",
+    "kind": "path",
+    "count": 1
+   },
+   {
+    "source": "docs/phase39_statistics.json",
+    "kind": "path",
+    "count": 1
+   }
+  ]
+ },
+ {
+  "file": "userdata.db",
+  "size": 0,
+  "reason": "root orphan with zero references",
+  "refs": [
+   {
+    "source": "docs/phase34_dead_files.json",
+    "kind": "path",
+    "count": 2
+   },
+   {
+    "source": "docs/phase34_deletion_plan.json",
+    "kind": "path",
+    "count": 4
+   },
+   {
+    "source": "docs/phase34_duplicates.json",
+    "kind": "path",
+    "count": 2
+   },
+   {
+    "source": "docs/phase34_file_classification.json",
+    "kind": "path",
+    "count": 2
+   },
+   {
+    "source": "docs/phase34_github_size_audit.json",
+    "kind": "path",
+    "count": 2
+   }
+  ]
+ }
+]

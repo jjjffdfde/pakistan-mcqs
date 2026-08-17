@@ -1,0 +1,9 @@
+{
+ "secret_hits": [],
+ "env_files": [],
+ "node_modules": 0,
+ "private_keys": 0,
+ "gitignore_verified": true,
+ "gitattributes_verified": true,
+ "status": "PASS - no secrets, no .env files, no node_modules in tree"
+}

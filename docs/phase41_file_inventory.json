@@ -1,0 +1,132 @@
+{
+  "phase": 41,
+  "step": 5,
+  "run_at": "2026-08-17T14:19:57.761Z",
+  "total_candidate_files": 2011,
+  "tracked": 1720,
+  "added_or_modified": 116,
+  "deleted_in_changeset": 175,
+  "total_bytes": 98924870,
+  "largest_12": [
+    {
+      "path": "docs/archive/phase17_search_index.json",
+      "bytes": 32876440
+    },
+    {
+      "path": "docs/phase40_final_sqlite_inventory.json",
+      "bytes": 10980640
+    },
+    {
+      "path": "docs/phase34_file_inventory.json",
+      "bytes": 6664912
+    },
+    {
+      "path": "docs/phase35_dependency_graph.json",
+      "bytes": 5571442
+    },
+    {
+      "path": "docs/archive/phase28_link_audit.json",
+      "bytes": 4823808
+    },
+    {
+      "path": "docs/phase35_file_inventory.json",
+      "bytes": 4644825
+    },
+    {
+      "path": "docs/archive/phase15_duplicate_report.json",
+      "bytes": 2222161
+    },
+    {
+      "path": "docs/phase34_file_classification.json",
+      "bytes": 1876864
+    },
+    {
+      "path": "docs/archive/phase17_semantic_graph.json",
+      "bytes": 1846747
+    },
+    {
+      "path": "docs/phase34_dead_files.json",
+      "bytes": 1800876
+    },
+    {
+      "path": "docs/archive/phase17_exam_intelligence.json",
+      "bytes": 1642491
+    },
+    {
+      "path": "docs/archive/phase18_generation_candidates.json",
+      "bytes": 1325200
+    }
+  ],
+  "over_25mb": [
+    {
+      "path": "docs/archive/phase17_search_index.json",
+      "bytes": 32876440
+    }
+  ],
+  "over_50mb": [],
+  "over_90mb": [],
+  "over_100mb": [],
+  "extensions": [
+    [
+      ".html",
+      1126
+    ],
+    [
+      ".json",
+      486
+    ],
+    [
+      ".js",
+      157
+    ],
+    [
+      ".md",
+      100
+    ],
+    [
+      ".cjs",
+      84
+    ],
+    [
+      ".png",
+      15
+    ],
+    [
+      "(none)",
+      8
+    ],
+    [
+      ".sql",
+      8
+    ],
+    [
+      ".yml",
+      7
+    ],
+    [
+      ".xml",
+      4
+    ],
+    [
+      ".svg",
+      4
+    ],
+    [
+      ".txt",
+      3
+    ],
+    [
+      ".cmd",
+      3
+    ],
+    [
+      ".example",
+      1
+    ],
+    [
+      ".css",
+      1
+    ]
+  ],
+  "verdict": "PASS"
+}

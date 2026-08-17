@@ -1,0 +1,73 @@
+{
+ "generated_at": "2026-08-11T13:05:01.159Z",
+ "unit_tests": {
+  "suites": 6,
+  "tests": 34,
+  "passed": 34,
+  "failed": 0,
+  "status": "PASS"
+ },
+ "lint": {
+  "files_scanned": "242 js | 403 json | 94 md | 7 yaml | 6 html",
+  "errors": 0,
+  "warnings": 5666,
+  "status": "CLEAN_WITH_WARNINGS (pre-existing warnings; 0 errors)"
+ },
+ "db_integration": {
+  "tests": 30,
+  "passed": 30,
+  "failed": 0,
+  "status": "PASS",
+  "server": "local node server.js on :8765 (started and stopped for the test run)"
+ },
+ "button_validation": {
+  "tests": 21,
+  "passed": 19,
+  "failed": 2,
+  "status": "ADVISORY",
+  "failures": [
+   {
+    "check": "Chapter Quiz — every chapter has questions",
+    "detail": "55 of 884 chapters have no active MCQs (data-completeness, pre-existing)"
+   },
+   {
+    "check": "Topic Quiz — every topic has questions",
+    "detail": "77 of 1597 topics have no active MCQs (data-completeness, pre-existing)"
+   }
+  ],
+  "note": "Not a code regression: database read-only verified by SHA256 (unchanged); quiz/browse flows PASS; empty chapters/topics are schema rows awaiting content from the generation pipeline"
+ },
+ "build": {
+  "command": "node scripts/build-mcqs.js",
+  "output": "data/mcqs.json (1338 MCQs), validation checks passed",
+  "status": "PASS",
+  "db_writes": "none (verified by SHA256)"
+ },
+ "broken_links": {
+  "count": 0,
+  "status": "PASS"
+ },
+ "dead_controls": {
+  "count": 0,
+  "status": "PASS"
+ },
+ "api_endpoints": {
+  "call_sites": 46,
+  "statuses": {
+   "DYNAMIC_BASE": 3,
+   "WORKING": 38,
+   "WORKING_TEST_HARNESS": 4,
+   "TEST_HARNESS_ONLY": 1
+  },
+  "missing": 0,
+  "status": "PASS"
+ },
+ "pwa_assets": {
+  "manifest": "manifest.webmanifest present",
+  "service_worker": "sw.js present",
+  "offline": "offline.html present",
+  "icons": "assets/icons/* present (per inventory)",
+  "status": "PASS"
+ },
+ "overall": "PASS with 2 pre-existing data-completeness advisories (no code-level failures)"
+}

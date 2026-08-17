@@ -1,0 +1,121 @@
+{
+ "generated_at": "2026-08-17T06:08:12.731Z",
+ "pages": [
+  {
+   "file": "404.html",
+   "fetch_calls": 0,
+   "api_calls": 0,
+   "xhr": 0,
+   "static_json": [],
+   "localStorage": 0,
+   "indexedDB": 0,
+   "cache_storage": 0
+  },
+  {
+   "file": "admin.html",
+   "fetch_calls": 0,
+   "api_calls": 0,
+   "xhr": 0,
+   "static_json": [],
+   "localStorage": 2,
+   "indexedDB": 0,
+   "cache_storage": 0
+  },
+  {
+   "file": "assets/css/style.css",
+   "fetch_calls": 0,
+   "api_calls": 0,
+   "xhr": 0,
+   "static_json": [],
+   "localStorage": 0,
+   "indexedDB": 0,
+   "cache_storage": 0
+  },
+  {
+   "file": "assets/js/admin.js",
+   "fetch_calls": 5,
+   "api_calls": 0,
+   "xhr": 0,
+   "static_json": [],
+   "localStorage": 17,
+   "indexedDB": 0,
+   "cache_storage": 0
+  },
+  {
+   "file": "assets/js/ai.js",
+   "fetch_calls": 1,
+   "api_calls": 23,
+   "xhr": 0,
+   "static_json": [],
+   "localStorage": 0,
+   "indexedDB": 0,
+   "cache_storage": 0
+  },
+  {
+   "file": "assets/js/app.js",
+   "fetch_calls": 4,
+   "api_calls": 0,
+   "xhr": 0,
+   "static_json": [],
+   "localStorage": 12,
+   "indexedDB": 0,
+   "cache_storage": 0
+  },
+  {
+   "file": "assets/js/pwa.js",
+   "fetch_calls": 0,
+   "api_calls": 0,
+   "xhr": 0,
+   "static_json": [],
+   "localStorage": 12,
+   "indexedDB": 0,
+   "cache_storage": 0
+  },
+  {
+   "file": "index.html",
+   "fetch_calls": 0,
+   "api_calls": 0,
+   "xhr": 0,
+   "static_json": [],
+   "localStorage": 1,
+   "indexedDB": 0,
+   "cache_storage": 0
+  },
+  {
+   "file": "manifest.webmanifest",
+   "fetch_calls": 0,
+   "api_calls": 0,
+   "xhr": 0,
+   "static_json": [],
+   "localStorage": 0,
+   "indexedDB": 0,
+   "cache_storage": 0
+  },
+  {
+   "file": "offline.html",
+   "fetch_calls": 0,
+   "api_calls": 0,
+   "xhr": 0,
+   "static_json": [],
+   "localStorage": 0,
+   "indexedDB": 0,
+   "cache_storage": 1
+  },
+  {
+   "file": "sw.js",
+   "fetch_calls": 6,
+   "api_calls": 0,
+   "xhr": 0,
+   "static_json": [
+    "/data/subjects.json",
+    "/data/chapters.json",
+    "/data/topics.json",
+    "/data/mcqs.json",
+    "/data/categories.json"
+   ],
+   "localStorage": 0,
+   "indexedDB": 0,
+   "cache_storage": 14
+  }
+ ]
+}

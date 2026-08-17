@@ -1,0 +1,21 @@
+{
+  "phase": 38,
+  "step": 6,
+  "run_at": "2026-08-12T07:00:00.000Z",
+  "title": "MCQ read migration (browse/getById/batch -> NDJSON)",
+  "routes": ["/api/browse", "/api/mcq/:id", "/api/mcqs?ids="],
+  "implementation": {
+    "meta": "mcq_by_id.json id -> subjectIdx int; subject index 0 (accounting) is falsy-safe via `m == null` checks (5 sites fixed in query-engine)",
+    "ordering": "created_at DESC, id ASC — mirrors SQLite ORDER BY; walkRecent iterates recent.json permutation; tie-break matches natural part order (verified: 0 position diffs, tie groups up to 1531 rows)",
+    "fetchRows": "group ids by subject; cached parts used from LRU, uncached parts streamed with Set filter (never materialize oversized parts)",
+    "options": "options/<subject>.json attached as optionA..D (SQLite JOIN options parity); /api/mcq/:id additionally returns options array [{label,text}]",
+    "names": "chapter_name/topic_name via chapters/topics small tables",
+    "related": "relatedQuestions via per-subject stream + tag-overlap scoring (LIMIT 5, score DESC) — relByTag equivalent; active-only rows",
+    "browse_filters": "subject/chapter/topic/difficulty/year/exam/status/related/combo via key indexes or streams"
+  },
+  "verification": {
+    "parity": "browse p1/p3/subject/multi-subject/chapter/topic/difficulty/exam/year/combo/status/related, mcq single x2, mcq missing, mcqs batch + empty: all PASS (55 total, 8 sets)",
+    "regression": "browse pages, difficulty/subject/year/related filters, mcq by id, batch: PASS",
+    "bench": "browse_p1 4269ms cold vs sqlite 1254ms; browse_p3 345ms vs sqlite 3874ms (ndjson faster once recent order cached); mcq_lookup 529ms cold vs 0.7ms sqlite (meta+part load); subject_filter 7.8ms vs 0.6ms"
+  }
+}

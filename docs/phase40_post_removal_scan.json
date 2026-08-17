@@ -1,0 +1,15 @@
+{
+  "phase": 40,
+  "step": 29,
+  "run_at": "2026-08-17T13:52:27.638Z",
+  "sqlite_runtime_code_references": 19,
+  "node_sqlite_imports": 0,
+  "DatabaseSync": 0,
+  "runtime_sql_queries": 0,
+  "sqlite_files_in_tree": 0,
+  "sqlite_paths_in_runtime_code": 0,
+  "sqlite_endpoints": 0,
+  "documentation_only_mentions": 47591,
+  "evidence": "gate G01/G07/G08/G10 + this scan",
+  "verdict": "PASS"
+}
