@@ -1,0 +1,19 @@
+{
+  "phase": 41,
+  "step": 24,
+  "run_at": "2026-08-17T16:15:00.000Z",
+  "repository_url": "https://github.com/jjjffdfde/pakistan-mcqs.git",
+  "branch": "main",
+  "commit_sha": "9c1c6f7a9600d45f3d9f409e8f90a8d6fa16b9e3",
+  "tracked_files": 1946,
+  "repository_size_mb": "~65 (working tree excluding gitignored payload/backups; largest tracked file 10.98 MB)",
+  "largest_file": "docs/archive/phase17_search_index.json (32.9 MB — historical audit artifact, tracked)",
+  "database_files": 0,
+  "secrets": 0,
+  "dependencies": 0 ("npm ci: 1 package — the package itself"),
+  "build_result": "PASS (1338 MCQs validated; lint 0 errors)",
+  "test_result": "PASS (40/40 unit+integration, 30/30 DB, 10/10 gate, 7/7 backup, 4/4 import)",
+  "smoke_result": "PASS (105/105, repo ×2 + fresh ×1)",
+  "remote_state": "PENDING_PUSH — remote reachable and empty; push awaits user GitHub authentication",
+  "verdict": "VERIFIED_LOCALLY; REMOTE_VERIFICATION_PENDING_AUTH"
+}
