@@ -7,10 +7,16 @@ const path = require("path");
 const zlib = require("zlib");
 const { StringDecoder } = require("string_decoder");
 
+/* Centralized env config (config.cjs) — but keep the standalone env-var
+   fallbacks here so the loader works when required directly by tooling. */
+let { config } = (() => {
+  try { return require("./config.cjs"); } catch (e) { return { config: null }; }
+})();
+
 const ROOT = path.join(__dirname, "..");
-const SRC_DIR = process.env.MCQS_JSON_DATA_DIR || path.join(ROOT, "database", "data");
-const IDX_DIR = process.env.MCQS_JSON_INDEX_DIR || path.join(__dirname, "indexes");
-const USER_DIR = path.join(__dirname, "userdata");
+const SRC_DIR = (config && config.dataDir) || process.env.MCQS_JSON_DATA_DIR || path.join(ROOT, "database", "data");
+const IDX_DIR = (config && config.indexDir) || process.env.MCQS_JSON_INDEX_DIR || path.join(__dirname, "indexes");
+const USER_DIR = (config && config.userDir) || process.env.MCQS_JSON_USER_DIR || path.join(__dirname, "userdata");
 const MAX_CACHE_ENTRIES = 12;
 const MAX_CACHE_ROWS = 20000;
 

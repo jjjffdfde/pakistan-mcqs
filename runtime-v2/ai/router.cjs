@@ -3,8 +3,12 @@
    planner, spaced, adaptive, mock, recommendations, flashcards,
    current affairs, analytics, leaderboard, achievements, refresh).
    Every handler is async; responses are JSON; handle() returns true
-   only when a route was served. */
+   only when a route was served.
+   Production-safe: shared CORS/JSON helpers, bounded bodies, sanitized
+   errors, and every async handler is wrapped so a rejected promise can
+   never crash the process (unhandled rejection). */
 "use strict";
+const H = require("../http-util.cjs");
 const S = require("./store.cjs");
 const U = require("./util.cjs");
 const profile = require("./profile.cjs");
@@ -20,18 +24,18 @@ const analytics = require("./analytics.cjs");
 const leaderboard = require("./leaderboard.cjs");
 const achievements = require("./achievements.cjs");
 
-function json(res, status, data) {
-  res.writeHead(status, { "Content-Type": "application/json; charset=utf-8", "Access-Control-Allow-Origin": "*" });
-  res.end(JSON.stringify(data));
-}
-
-function readJson(req, res, cb) {
-  let body = "";
-  req.on("data", (c) => { body += c; });
-  req.on("end", () => {
-    try { cb(JSON.parse(body || "{}")); }
-    catch (e) { json(res, 400, { error: "invalid JSON: " + e.message }); }
-  });
+/* Wrap a handler so rejections become sanitized 500 responses instead of
+   unhandled rejections (which would crash the Node process). Errors that
+   carry an HTTP status (e.g. 413 body too large, 400 invalid JSON) keep it. */
+function safe(fn) {
+  return (req, res, ...args) => {
+    return Promise.resolve()
+      .then(() => fn(req, res, ...args))
+      .catch((e) => {
+        if (e && e.status) return H.json(res, e.status, { error: e.message }, req);
+        H.sendError(req, res, 500, "ai internal error", e);
+      });
+  };
 }
 
 async function upsertProfile(d, body) {
@@ -54,119 +58,130 @@ async function handle(req, res, pathname, query, method) {
 
   /* ----- Profile & readiness ----- */
   if (P === "/api/ai/profile" && method === "GET") {
-    json(res, 200, await profile.get(dev()));
+    H.json(res, 200, await profile.get(dev()), req);
     return true;
   }
   if (P === "/api/ai/profile" && method === "POST") {
-    readJson(req, res, async (body) => {
-      const d = U.did(query, body);
-      await upsertProfile(d, body);
-      await planner.generate(d, 7);
-      await recommend.build(d);
-      json(res, 200, await profile.get(d));
-    });
+    const body = await H.readJson(req);
+    const d = U.did(query, body);
+    await upsertProfile(d, body);
+    await planner.generate(d, 7);
+    await recommend.build(d);
+    H.json(res, 200, await profile.get(d), req);
     return true;
   }
 
   /* ----- Weak / strong topics ----- */
   if (P === "/api/ai/weak-topics" && method === "GET") {
     await weak.rebuild(dev());
-    json(res, 200, { weak: await weak.weakTopics(dev()), strong: await weak.strongTopics(dev()) });
+    H.json(res, 200, { weak: await weak.weakTopics(dev()), strong: await weak.strongTopics(dev()) }, req);
     return true;
   }
 
   /* ----- Study planner ----- */
   if (P === "/api/ai/planner" && method === "GET") {
-    json(res, 200, await planner.get(dev(), query.date || ""));
+    H.json(res, 200, await planner.get(dev(), query.date || ""), req);
     return true;
   }
   if (P === "/api/ai/planner/regenerate" && method === "POST") {
-    readJson(req, res, async (b) => json(res, 200, await planner.generate(U.did(query, b), parseInt(b.days, 10) || 7)));
+    const b = await H.readJson(req);
+    H.json(res, 200, await planner.generate(U.did(query, b), parseInt(b.days, 10) || 7), req);
     return true;
   }
   if (P === "/api/ai/planner/complete" && method === "POST") {
-    readJson(req, res, (b) => {
-      planner.complete(U.did(query, b), b.date || "", b.index).then((out) => json(res, 200, out));
-    });
+    const b = await H.readJson(req);
+    const out = await planner.complete(U.did(query, b), b.date || "", b.index);
+    H.json(res, 200, out, req);
     return true;
   }
 
   /* ----- Spaced repetition ----- */
   if (P === "/api/ai/spaced/due" && method === "GET") {
     const d = dev();
-    const items = spaced.due(d, parseInt(query.limit, 10) || 50);
-    json(res, 200, { due: items, count: items.length, stats: spaced.stats(d) });
+    const items = spaced.due(d, Math.min(200, parseInt(query.limit, 10) || 50));
+    H.json(res, 200, { due: items, count: items.length, stats: spaced.stats(d) }, req);
     return true;
   }
   if (P === "/api/ai/spaced/review" && method === "POST") {
-    readJson(req, res, async (b) => {
-      const d = U.did(query, b);
-      if (!b.mcq_id) { json(res, 400, { error: "mcq_id required" }); return; }
-      const out = await spaced.review(d, b.mcq_id, b.quality);
-      await weak.rebuild(d);
-      json(res, 200, out);
-    });
+    const b = await H.readJson(req);
+    const d = U.did(query, b);
+    if (!b.mcq_id) { H.json(res, 400, { error: "mcq_id required" }, req); return true; }
+    const out = await spaced.review(d, b.mcq_id, b.quality);
+    await weak.rebuild(d);
+    H.json(res, 200, out, req);
     return true;
   }
 
   /* ----- Adaptive quiz ----- */
   if (P === "/api/ai/adaptive/start" && method === "POST") {
-    readJson(req, res, (b) => { adaptive.start(U.did(query, b), b).then((out) => json(res, 201, out)); });
+    const b = await H.readJson(req);
+    const out = await adaptive.start(U.did(query, b), b);
+    H.json(res, 201, out, req);
     return true;
   }
   if (P === "/api/ai/adaptive/next" && method === "GET") {
-    adaptive.nextQ(dev()).then((out) => json(res, 200, out));
+    const out = await adaptive.nextQ(dev());
+    H.json(res, 200, out, req);
     return true;
   }
   if (P === "/api/ai/adaptive/submit" && method === "POST") {
-    readJson(req, res, (b) => { adaptive.submit(U.did(query, b), b).then((out) => json(res, 200, out)); });
+    const b = await H.readJson(req);
+    const out = await adaptive.submit(U.did(query, b), b);
+    H.json(res, 200, out, req);
     return true;
   }
   if (P === "/api/ai/adaptive/finish" && method === "POST") {
-    readJson(req, res, (b) => { adaptive.finish(U.did(query, b)).then((out) => json(res, 200, out)); });
+    const b = await H.readJson(req);
+    const out = await adaptive.finish(U.did(query, b));
+    H.json(res, 200, out, req);
     return true;
   }
 
   /* ----- Mock prediction ----- */
   if (P === "/api/ai/mock/predictions" && method === "GET") {
-    json(res, 200, mock.list(dev()));
+    H.json(res, 200, mock.list(dev()), req);
     return true;
   }
   if (P === "/api/ai/mock/predict" && method === "POST") {
-    readJson(req, res, (b) => {
-      const d = U.did(query, b);
-      if (!b.exam_id) { json(res, 400, { error: "exam_id required" }); return; }
-      mock.predict(d, b.exam_id).then((out) => json(res, 200, out));
-    });
+    const b = await H.readJson(req);
+    const d = U.did(query, b);
+    if (!b.exam_id) { H.json(res, 400, { error: "exam_id required" }, req); return true; }
+    const out = await mock.predict(d, b.exam_id);
+    H.json(res, 200, out, req);
     return true;
   }
 
   /* ----- Recommendations ----- */
   if (P === "/api/ai/recommendations" && method === "GET") {
-    recommend.list(dev(), parseInt(query.limit, 10) || 20).then((out) => json(res, 200, out));
+    const out = await recommend.list(dev(), Math.min(100, parseInt(query.limit, 10) || 20));
+    H.json(res, 200, out, req);
     return true;
   }
   if (P === "/api/ai/recommendations/build" && method === "POST") {
-    readJson(req, res, (b) => { recommend.build(U.did(query, b)).then((out) => json(res, 200, { recommendations: out })); });
+    const b = await H.readJson(req);
+    const out = await recommend.build(U.did(query, b));
+    H.json(res, 200, { recommendations: out }, req);
     return true;
   }
 
   /* ----- Flashcards ----- */
   if (P === "/api/ai/flashcards/due" && method === "GET") {
     const d = dev();
-    json(res, 200, { cards: flashcards.due(d, parseInt(query.limit, 10) || 25), stats: flashcards.stats(d) });
+    H.json(res, 200, { cards: flashcards.due(d, Math.min(200, parseInt(query.limit, 10) || 25)), stats: flashcards.stats(d) }, req);
     return true;
   }
   if (P === "/api/ai/flashcards/build" && method === "POST") {
-    readJson(req, res, (b) => { flashcards.build(U.did(query, b), parseInt(b.limit, 10) || 25).then((out) => json(res, 200, out)); });
+    const b = await H.readJson(req);
+    const out = await flashcards.build(U.did(query, b), Math.min(200, parseInt(b.limit, 10) || 25));
+    H.json(res, 200, out, req);
     return true;
   }
   if (P === "/api/ai/flashcards/review" && method === "POST") {
-    readJson(req, res, (b) => {
-      const d = U.did(query, b);
-      if (b.card_id === undefined) { json(res, 400, { error: "card_id required" }); return; }
-      flashcards.review(d, b.card_id, b.quality).then((out) => json(res, 200, out));
-    });
+    const b = await H.readJson(req);
+    const d = U.did(query, b);
+    if (b.card_id === undefined) { H.json(res, 400, { error: "card_id required" }, req); return true; }
+    const out = await flashcards.review(d, b.card_id, b.quality);
+    H.json(res, 200, out, req);
     return true;
   }
 
@@ -174,28 +189,29 @@ async function handle(req, res, pathname, query, method) {
   if (P === "/api/ai/current-affairs" && method === "GET") {
     const out = await current.list({
       period: query.period || "", date: query.date || "",
-      category: query.category || "", limit: parseInt(query.limit, 10) || 50
+      category: query.category || "", limit: Math.min(200, parseInt(query.limit, 10) || 50)
     });
-    json(res, 200, out);
+    H.json(res, 200, out, req);
     return true;
   }
   if (P === "/api/ai/current-affairs/summary" && method === "GET") {
-    json(res, 200, await current.summary(query.period || "daily"));
+    H.json(res, 200, await current.summary(query.period || "daily"), req);
     return true;
   }
 
   /* ----- Analytics ----- */
   if (P === "/api/ai/analytics" && method === "GET") {
-    analytics.overview(dev()).then((out) => json(res, 200, out));
+    const out = await analytics.overview(dev());
+    H.json(res, 200, out, req);
     return true;
   }
 
   /* ----- Leaderboard periods ----- */
   if (P === "/api/ai/leaderboard" && method === "GET") {
-    json(res, 200, leaderboard.list({
+    H.json(res, 200, leaderboard.list({
       deviceId: dev(), period: query.period || "weekly",
-      region: query.region || "", limit: parseInt(query.limit, 10) || 25
-    }));
+      region: query.region || "", limit: Math.min(100, parseInt(query.limit, 10) || 25)
+    }), req);
     return true;
   }
 
@@ -203,33 +219,34 @@ async function handle(req, res, pathname, query, method) {
   if (P === "/api/ai/achievements" && method === "GET") {
     const d = dev();
     const ck = await achievements.check(d);
-    json(res, 200, { achievements: achievements.list(d), unlocked: ck.unlocked });
+    H.json(res, 200, { achievements: achievements.list(d), unlocked: ck.unlocked }, req);
     return true;
   }
   if (P === "/api/ai/notifications" && method === "GET") {
-    json(res, 200, achievements.notifications(dev(), parseInt(query.limit, 10) || 30));
+    H.json(res, 200, achievements.notifications(dev(), Math.min(100, parseInt(query.limit, 10) || 30)), req);
     return true;
   }
   if (P === "/api/ai/notifications/read" && method === "POST") {
-    readJson(req, res, (b) => { achievements.markRead(U.did(query, b), b.id).then((out) => json(res, 200, out)); });
+    const b = await H.readJson(req);
+    const out = await achievements.markRead(U.did(query, b), b.id);
+    H.json(res, 200, out, req);
     return true;
   }
 
   /* ----- Refresh (rebuild everything for this device) ----- */
   if (P === "/api/ai/refresh" && method === "POST") {
-    readJson(req, res, async (b) => {
-      const d = U.did(query, b);
-      await profile.refresh(d);
-      await weak.rebuild(d);
-      await planner.generate(d, 7);
-      await recommend.build(d);
-      const ck = await achievements.check(d);
-      json(res, 200, { ok: true, profile: await profile.get(d), unlocked: ck.unlocked });
-    });
+    const b = await H.readJson(req);
+    const d = U.did(query, b);
+    await profile.refresh(d);
+    await weak.rebuild(d);
+    await planner.generate(d, 7);
+    await recommend.build(d);
+    const ck = await achievements.check(d);
+    H.json(res, 200, { ok: true, profile: await profile.get(d), unlocked: ck.unlocked }, req);
     return true;
   }
 
   return false;
 }
 
-module.exports = { handle };
+module.exports = { handle: safe(handle) };

@@ -15,21 +15,14 @@ const L = require("../data-loader.cjs");
 const Q = require("../query-engine.cjs");
 const S = require("./store.cjs");
 const U = require("./util.cjs");
+const H = require("../http-util.cjs");
 
 const BACKUP_ROOT = path.join(L.ROOT, "backup");
 const importsOptDir = path.join(L.IMPORTS_DIR, "options");
 
-function json(res, status, data) {
-  res.writeHead(status, { "Content-Type": "application/json; charset=utf-8", "Access-Control-Allow-Origin": "*" });
-  res.end(JSON.stringify(data));
-}
-function readBody(req, res, cb) {
-  let body = "";
-  req.on("data", (c) => { body += c; });
-  req.on("end", () => {
-    try { cb(JSON.parse(body || "{}")); }
-    catch (e) { json(res, 400, { error: "invalid JSON: " + e.message }); }
-  });
+const json = (res, status, data) => H.json(res, status, data);
+function readBody(req) {
+  return H.readJson(req);
 }
 
 function qhashOf(question) {
@@ -66,59 +59,58 @@ function rebuildIndexes() {
 }
 
 async function importMcqs(res, req) {
-  readBody(req, res, async (data) => {
-    try {
-      if (!Array.isArray(data)) return json(res, 400, { error: "expected array" });
-      const known = await knownQhashes();
-      const nowIso = U.utcNow();
-      let inserted = 0, skipped = 0;
-      const bySubject = new Map();
-      const bySubjectOpts = new Map();
-      for (const m of data) {
-        const h = qhashOf(m.question);
-        if (known.has(h)) { skipped++; continue; }
-        known.add(h);
-        const id = `imp-${Date.now()}-${inserted}`;
-        const subject = String(m.subjectId || "").slice(0, 60);
-        const row = {
-          id, question: String(m.question || "").slice(0, 2000),
-          correct_answer: String(m.correctAnswer || "").slice(0, 10),
-          difficulty: String(m.difficulty || "medium").slice(0, 20),
-          subject_id: subject, chapter_id: String(m.chapterId || "").slice(0, 40),
-          topic_id: String(m.topicId || "").slice(0, 40),
-          exam_ids: String(m.examIds || "").slice(0, 200),
-          tags: JSON.stringify(m.tags || []),
-          references_json: "[]", explanation: String(m.explanation || "").slice(0, 4000),
-          source: "imported", status: "active", qhash: h,
-          created_at: nowIso, updated_at: nowIso
-        };
-        const opts = { A: m.optionA, B: m.optionB, C: m.optionC, D: m.optionD };
-        if (!bySubject.has(subject)) bySubject.set(subject, []);
-        bySubject.get(subject).push(row);
-        if (!bySubjectOpts.has(subject)) bySubjectOpts.set(subject, {});
-        bySubjectOpts.get(subject)[id] = opts;
-        inserted++;
+  try {
+    const data = await readBody(req);
+    if (!Array.isArray(data)) return json(res, 400, { error: "expected array" });
+    const known = await knownQhashes();
+    const nowIso = U.utcNow();
+    let inserted = 0, skipped = 0;
+    const bySubject = new Map();
+    const bySubjectOpts = new Map();
+    for (const m of data) {
+      const h = qhashOf(m.question);
+      if (known.has(h)) { skipped++; continue; }
+      known.add(h);
+      const id = `imp-${Date.now()}-${inserted}`;
+      const subject = String(m.subjectId || "").slice(0, 60);
+      const row = {
+        id, question: String(m.question || "").slice(0, 2000),
+        correct_answer: String(m.correctAnswer || "").slice(0, 10),
+        difficulty: String(m.difficulty || "medium").slice(0, 20),
+        subject_id: subject, chapter_id: String(m.chapterId || "").slice(0, 40),
+        topic_id: String(m.topicId || "").slice(0, 40),
+        exam_ids: String(m.examIds || "").slice(0, 200),
+        tags: JSON.stringify(m.tags || []),
+        references_json: "[]", explanation: String(m.explanation || "").slice(0, 4000),
+        source: "imported", status: "active", qhash: h,
+        created_at: nowIso, updated_at: nowIso
+      };
+      const opts = { A: m.optionA, B: m.optionB, C: m.optionC, D: m.optionD };
+      if (!bySubject.has(subject)) bySubject.set(subject, []);
+      bySubject.get(subject).push(row);
+      if (!bySubjectOpts.has(subject)) bySubjectOpts.set(subject, {});
+      bySubjectOpts.get(subject)[id] = opts;
+      inserted++;
+    }
+    for (const [subject, rows] of bySubject) {
+      if (!fs.existsSync(L.partFile(subject))) {
+        /* unknown subject: create the part dir + empty part01 so the subject
+           becomes a first-class (file) subject — superset of the oracle rows */
+        fs.mkdirSync(path.dirname(L.partFile(subject)), { recursive: true });
+        await appendGzLines(L.partFile(subject), []);
       }
-      for (const [subject, rows] of bySubject) {
-        if (!fs.existsSync(L.partFile(subject))) {
-          /* unknown subject: create the part dir + empty part01 so the subject
-             becomes a first-class (file) subject — superset of the oracle rows */
-          fs.mkdirSync(path.dirname(L.partFile(subject)), { recursive: true });
-          await appendGzLines(L.partFile(subject), []);
-        }
-        await appendGzLines(L.importsFile(subject), rows);
-        fs.mkdirSync(importsOptDir, { recursive: true });
-        const file = path.join(importsOptDir, subject + ".json");
-        const prev = fs.existsSync(file) ? JSON.parse(fs.readFileSync(file, "utf8")) : {};
-        fs.writeFileSync(file, JSON.stringify(Object.assign(prev, bySubjectOpts.get(subject))));
-      }
-      if (inserted > 0) {
-        rebuildIndexes();
-        await Q.reload();
-      }
-      return json(res, 200, { inserted, skipped });
-    } catch (e) { return json(res, 400, { error: e.message }); }
-  });
+      await appendGzLines(L.importsFile(subject), rows);
+      fs.mkdirSync(importsOptDir, { recursive: true });
+      const file = path.join(importsOptDir, subject + ".json");
+      const prev = fs.existsSync(file) ? JSON.parse(fs.readFileSync(file, "utf8")) : {};
+      fs.writeFileSync(file, JSON.stringify(Object.assign(prev, bySubjectOpts.get(subject))));
+    }
+    if (inserted > 0) {
+      rebuildIndexes();
+      await Q.reload();
+    }
+    return json(res, 200, { inserted, skipped });
+  } catch (e) { return json(res, 400, { error: e.message }); }
 }
 
 function backup(res) {
@@ -145,7 +137,7 @@ function backup(res) {
 }
 
 function restore(req, res) {
-  readBody(req, res, async (body) => {
+  readBody(req).then(async (body) => {
     try {
       const { dir } = body;
       if (!dir) return json(res, 400, { error: "dir required" });
@@ -179,7 +171,7 @@ function restore(req, res) {
       const n = Object.values(L.bySubjectActive()).reduce((a, b) => a + b, 0);
       return json(res, 200, { ok: true, mcqs: n });
     } catch (e) { console.error("[admin] restore error:", e); return json(res, 500, { error: "restore failed: " + e.message }); }
-  });
+  }).catch((e) => json(res, e && e.status === 413 ? 413 : 400, { error: e && e.status === 413 ? "request body too large" : "invalid JSON" }));
 }
 
 module.exports = { importMcqs, backup, restore, qhashOf, knownQhashes, rebuildIndexes };

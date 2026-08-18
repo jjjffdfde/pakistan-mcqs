@@ -1,6 +1,6 @@
 # DB Integration Verification
 
-Date: 2026-08-17T15:27:45.264Z  ·  API: http://127.0.0.1:8766  ·  Engine: runtime-v2 (NDJSON.GZ + JSON indexes)
+Date: 2026-08-18T08:53:47.614Z  ·  API: http://127.0.0.1:8766  ·  Engine: runtime-v2 (NDJSON.GZ + JSON indexes)
 
 ## Result: ALL PASS (30/30)
 
@@ -21,7 +21,7 @@ Date: 2026-08-17T15:27:45.264Z  ·  API: http://127.0.0.1:8766  ·  Engine: runt
 | dashboard:exams | 55 | 55 | ✅ PASS |
 | dashboard:categories | 17 | 17 | ✅ PASS |
 | dashboard:bookmarks | 50 | 50 | ✅ PASS |
-| dashboard:attempts | 216 | 216 | ✅ PASS |
+| dashboard:attempts | 219 | 219 | ✅ PASS |
 | search | results with options | 200 | ✅ PASS |
 | search no-match | total=0 | 200 | ✅ PASS |
 | browse page1 | 10 rows paginated | 200 | ✅ PASS |

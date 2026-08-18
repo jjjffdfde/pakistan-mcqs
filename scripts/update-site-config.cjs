@@ -19,12 +19,20 @@ const SITE = {
   copyrightYear: new Date().getFullYear()
 };
 
+const RAW_PROD = process.env.SITE_CONFIG_API_PRODUCTION || "";
+/* Only https endpoints may be baked into the site config; an http value
+   would be blocked as mixed content anyway (and would silently disable
+   server-backed features). Anything else keeps production empty. */
+const PROD_OK = /^https:\/\//.test(RAW_PROD);
+
 const API = {
   /* Development base used by the self-hosted runtime-v2 server. */
   development: "http://localhost:8766",
   /* Production API base. Empty string = no public backend deployed;
-     the frontend disables server-backed features cleanly. */
-  production: ""
+     the frontend disables server-backed features cleanly.
+     Deployment-time substitution (no hard-coded URL in the repo):
+       SITE_CONFIG_API_PRODUCTION=https://api.example.com node scripts/update-site-config.cjs */
+  production: PROD_OK ? RAW_PROD.replace(/\/+$/, "") : ""
 };
 
 function countData(name) {

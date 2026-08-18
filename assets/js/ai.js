@@ -47,19 +47,33 @@
     }
   }
 
-  /* ---------- API helper with graceful offline fallback ---------- */
+  /* ---------- API helper with graceful offline fallback ----------
+     Single network retry (max 1 retry, no loops): transient network
+     failures on a local server (port already listening but first packet
+     dropped, etc.) get one more chance; persistent failures surface
+     immediately to the fallback UI. Retried only for GET; mutating
+     POSTs are never retried (would double-record answers). */
   async function api(path, opts) {
-    const ctl = new AbortController();
-    const t = setTimeout(() => ctl.abort(), 15000);
-    try {
-      const res = await fetch(API + path, { signal: ctl.signal, ...(opts || {}) });
-      if (!res.ok) {
-        const e = await res.json().catch(() => ({}));
-        throw new Error(e.error || "HTTP " + res.status);
+    const call = async () => {
+      const ctl = new AbortController();
+      const t = setTimeout(() => ctl.abort(), 15000);
+      try {
+        const res = await fetch(API + path, { signal: ctl.signal, ...(opts || {}) });
+        if (!res.ok) {
+          const e = await res.json().catch(() => ({}));
+          throw new Error(e.error || "HTTP " + res.status);
+        }
+        return await res.json();
+      } finally {
+        clearTimeout(t);
       }
-      return await res.json();
-    } finally {
-      clearTimeout(t);
+    };
+    try {
+      return await call();
+    } catch (err) {
+      const method = (opts && opts.method) || "GET";
+      if (method !== "GET") throw err;
+      return call(); /* single retry for idempotent GETs */
     }
   }
   const post = (path, body) => api(path, {

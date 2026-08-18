@@ -10,6 +10,8 @@
   },
   "scripts": {
     "start": "node --max-old-space-size=384 runtime-v2/server.cjs",
+    "runtime:check": "node scripts/runtime-check.cjs",
+    "test:api": "node scripts/api-smoke-test.cjs",
     "serve": "node scripts/serve-test.js",
     "build": "node scripts/build-mcqs.js",
     "postbuild": "node runtime-v2/index-builder.cjs",

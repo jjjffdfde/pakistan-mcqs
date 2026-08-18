@@ -1,6 +1,6 @@
 {
   "step": "testing",
-  "generated_at": "2026-08-18T07:03:38.164Z",
+  "generated_at": "2026-08-18T08:52:13.326Z",
   "summary": {
     "suites": 6,
     "tests": 40,
@@ -13,37 +13,37 @@
       "file": "tests/api/endpoints.test.cjs",
       "tests": 14,
       "passed": 14,
-      "duration_ms": 12354
+      "duration_ms": 10318
     },
     {
       "file": "tests/database/files.test.cjs",
       "tests": 7,
       "passed": 7,
-      "duration_ms": 4912
+      "duration_ms": 3884
     },
     {
       "file": "tests/integration/pages.test.cjs",
       "tests": 4,
       "passed": 4,
-      "duration_ms": 848
+      "duration_ms": 296
     },
     {
       "file": "tests/performance/bench.test.cjs",
       "tests": 4,
       "passed": 4,
-      "duration_ms": 789
+      "duration_ms": 347
     },
     {
       "file": "tests/ui/assets.test.cjs",
       "tests": 6,
       "passed": 6,
-      "duration_ms": 8
+      "duration_ms": 7
     },
     {
       "file": "tests/unit/utils.test.cjs",
       "tests": 5,
       "passed": 5,
-      "duration_ms": 3
+      "duration_ms": 2
     }
   ],
   "failures": []
