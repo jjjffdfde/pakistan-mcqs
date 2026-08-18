@@ -1,0 +1,20 @@
+{
+  "phase": "FINAL",
+  "step": 11,
+  "run_at": "2026-08-18T03:39:22.545Z",
+  "keep_classes": {
+    "KEEP_CONFIGURATION": 10,
+    "KEEP_DEPLOYMENT": 12,
+    "KEEP_TEST": 61,
+    "KEEP_PRODUCTION": 1149,
+    "KEEP_DOCUMENTATION": 256,
+    "POSSIBLY_USED": 10,
+    "KEEP_REQUIRED_DATA": 45,
+    "KEEP_BUILD": 107,
+    "REMOVE_CANDIDATE_HISTORICAL_ARTIFACT": 278,
+    "KEEP_RUNTIME": 26
+  },
+  "removal_candidates": [],
+  "removed_size_mb": 0,
+  "note": "UNKNOWN and POSSIBLY_USED are KEPT. Only REMOVE_CONFIRMED_* after user review."
+}

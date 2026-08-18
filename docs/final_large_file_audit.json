@@ -1,0 +1,18 @@
+{
+  "phase": "FINAL",
+  "step": 10,
+  "run_at": "2026-08-18T03:39:22.648Z",
+  "over_25mb": [
+    {
+      "path": "docs/archive/phase17_search_index.json",
+      "size": 32876440,
+      "classification": "REMOVE_CANDIDATE_HISTORICAL_ARTIFACT",
+      "required": true,
+      "reproducible": true,
+      "lfs": false,
+      "reason": "historical audit artifact — removal candidate"
+    }
+  ],
+  "over_100mb": 0,
+  "verdict": "PASS"
+}

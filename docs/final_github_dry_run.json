@@ -1,0 +1,20 @@
+{
+  "phase": "FINAL",
+  "step": 12,
+  "run_at": "2026-08-18T03:39:22.545Z",
+  "git_status_short": "?? scripts/final-github/",
+  "tracked_count": 1954,
+  "candidate_size_bytes": 99360044,
+  "largest_file": "docs/archive/phase17_search_index.json",
+  "over_25mb": [
+    {
+      "path": "docs/archive/phase17_search_index.json",
+      "size": 32876440
+    }
+  ],
+  "over_50mb": [],
+  "over_90mb": [],
+  "over_100mb": [],
+  "sqlite_tracked": [],
+  "git_count_objects": "count: 2246\nsize: 13.24 MiB\nin-pack: 0\npacks: 0\nsize-pack: 0 bytes\nprune-packable: 0\ngarbage: 0\nsize-garbage: 0 bytes"
+}
