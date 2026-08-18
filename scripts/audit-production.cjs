@@ -31,7 +31,7 @@ let pass = true;
 const fail = (check, msg) => { pass = false; report.failures.push({ check, msg }); };
 const warn = (check, msg) => report.warnings.push({ check, msg });
 
-const fetchText = async (url, timeout = 30000) => {
+const fetchText = async (url, timeout = 60000) => {
   const ctl = new AbortController();
   const t = setTimeout(() => ctl.abort(), timeout);
   try {
@@ -39,6 +39,12 @@ const fetchText = async (url, timeout = 30000) => {
     const body = await res.text();
     return { status: res.status, finalUrl: res.url, body };
   } finally { clearTimeout(t); }
+};
+
+/* fetchText that never throws: transient CDN/rate-limit failures become status 0 + message */
+const safeFetchText = async (url, timeout) => {
+  try { return await fetchText(url, timeout); }
+  catch (e) { return { status: 0, error: e.message, body: "" }; }
 };
 
 async function pool(items, worker, concurrency = 10) {
@@ -56,7 +62,7 @@ async function pool(items, worker, concurrency = 10) {
 
 (async () => {
   /* ---------- 1. robots.txt ---------- */
-  const robots = await fetchText(new URL("robots.txt", TARGET).href);
+  const robots = await safeFetchText(new URL("robots.txt", TARGET).href);
   report.checks.robots = { status: robots.status };
   if (robots.status !== 200) fail("robots", "robots.txt not reachable");
   else {
@@ -71,7 +77,7 @@ async function pool(items, worker, concurrency = 10) {
   }
 
   /* ---------- 2. sitemap.xml ---------- */
-  const sm = await fetchText(new URL("sitemap.xml", TARGET).href);
+  const sm = await safeFetchText(new URL("sitemap.xml", TARGET).href);
   report.checks.sitemap = { status: sm.status };
   if (sm.status !== 200) fail("sitemap", "sitemap.xml not reachable");
   else {
@@ -86,14 +92,14 @@ async function pool(items, worker, concurrency = 10) {
 
     /* ---------- 3. full crawl of sitemap URLs ---------- */
     const crawlLocs = locs.map((u) => (u.startsWith(PROD) && TARGET !== PROD) ? TARGET + u.slice(PROD.length) : u);
-    const results = await pool(crawlLocs, async (u) => (await fetchText(u)).status, 10);
+    const results = await pool(crawlLocs, async (u) => (await safeFetchText(u)).status, 10);
     const broken = crawlLocs.filter((u, i) => results[i] !== 200);
     report.checks.crawl = { total: locs.length, ok: locs.length - broken.length, broken: broken.length };
     if (broken.length) fail("crawl", broken.length + " broken sitemap URLs, first: " + broken[0]);
   }
 
   /* ---------- 4. homepage metadata ---------- */
-  const home = await fetchText(TARGET);
+  const home = await safeFetchText(TARGET);
   report.checks.home = { status: home.status };
   if (home.status !== 200) fail("home", "homepage not reachable");
   else {
