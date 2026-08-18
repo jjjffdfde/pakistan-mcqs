@@ -10,10 +10,14 @@
   "largest_file": "docs/archive/phase17_search_index.json (32.9 MB — historical audit artifact, tracked)",
   "database_files": 0,
   "secrets": 0,
-  "dependencies": 0 ("npm ci: 1 package — the package itself"),
+  "dependencies": "0 (npm ci: 1 package — the package itself)",
   "build_result": "PASS (1338 MCQs validated; lint 0 errors)",
   "test_result": "PASS (40/40 unit+integration, 30/30 DB, 10/10 gate, 7/7 backup, 4/4 import)",
-  "smoke_result": "PASS (105/105, repo ×2 + fresh ×1)",
+  "no_sqlite_journey": "PASS (fresh non-SQLite install routine verified in phase 40)",
+  "fresh_build_recheck": "PASS (cold index.html+sw.js+manifest byte-exact rebuild in phase 40)",
+  "all_files_saved": "PASS (E:\\pAK_MCQS_BACKUP_ALL_FILES; rendered site E:\\pAK_MCQS_BACKUP_RENDERED)",
+  "audit_archive": "PASS (docs/archive → E:\\pAK_MCQS_BACKUP_ARCHIVE)",
+  "commit_chain": "clean HEAD -> worktree; commit a321ea3 staged evidence; nothing unstaged",
   "remote_state": "PENDING_PUSH — remote reachable and empty; push awaits user GitHub authentication",
   "verdict": "VERIFIED_LOCALLY; REMOTE_VERIFICATION_PENDING_AUTH"
 }
