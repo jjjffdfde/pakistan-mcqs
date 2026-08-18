@@ -1,7 +1,7 @@
 {
   "base": "https://jjjffdfde.github.io/pakistan-mcqs/",
   "prod": "https://jjjffdfde.github.io/pakistan-mcqs/",
-  "runAt": "2026-08-18T07:50:08.055Z",
+  "runAt": "2026-08-18T11:17:25.245Z",
   "checks": {
     "robots": {
       "status": 200
@@ -20,7 +20,7 @@
       "jsonld": 6
     },
     "repo": {
-      "scanned": 4021,
+      "scanned": 4086,
       "oldDomain": [],
       "localhostJs": []
     }

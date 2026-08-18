@@ -42,9 +42,15 @@ const fetchText = async (url, timeout = 60000) => {
 };
 
 /* fetchText that never throws: transient CDN/rate-limit failures become status 0 + message */
-const safeFetchText = async (url, timeout) => {
-  try { return await fetchText(url, timeout); }
-  catch (e) { return { status: 0, error: e.message, body: "" }; }
+const safeFetchText = async (url, timeout, retries = 2) => {
+  for (let attempt = 0; ; attempt++) {
+    try { return await fetchText(url, timeout); }
+    catch (e) {
+      if (attempt >= retries) return { status: 0, error: e.message, body: "" };
+      /* GitHub Pages CDN resets connections intermittently; wait and retry */
+      await new Promise((r) => setTimeout(r, 1500 * (attempt + 1)));
+    }
+  }
 };
 
 async function pool(items, worker, concurrency = 10) {
