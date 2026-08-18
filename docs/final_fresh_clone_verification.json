@@ -1,0 +1,25 @@
+{
+  "phase": "FINAL",
+  "step": 13,
+  "run_at": "2026-08-18T00:00:00.000Z",
+  "clone_url": "https://github.com/jjjffdfde/pakistan-mcqs.git",
+  "clone_sha": "e4519c3",
+  "clone_dir": "verified-clone",
+  "clone_result": "PASS — fresh clone, 99MB working tree",
+  "static_site": {
+    "index.html": "200, 27500 bytes",
+    "sw.js": "200, 8219 bytes",
+    "manifest.webmanifest": "200, 4145 bytes",
+    "data/mcqs.json": "200, 1063761 bytes, 1338 MCQs",
+    "chapters": 876,
+    "subjects": 244,
+    "verdict": "PASS"
+  },
+  "lint": "0 errors (CLEAN_WITH_WARNINGS)",
+  "authoring_only": {
+    "npm run build": "requires gitignored payload database/data/mcqs (313 files, 643MB, by design — exceeds GitHub 100MB per-file hard limit; LFS attributes ready, manifests tracked)",
+    "npm run test": "6 suites require runtime-v2/indexes built from that payload (authoring environment only)",
+    "postbuild": "added: npm run build now auto-builds runtime-v2 indexes (218s) when payload present"
+  },
+  "verdict": "REMOTE_UPLOAD_COMPLETE; static product + docs verified from a fresh clone"
+}
