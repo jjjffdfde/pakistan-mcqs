@@ -5,9 +5,9 @@
    ============================================================ */
 "use strict";
 
-const SW_VERSION = "v1.0.1";
+const SW_VERSION = "v1.0.2";
 const CACHE_PREFIX = "pmh";
-const CACHE_VERSION = "002";
+const CACHE_VERSION = "003";
 
 const CACHES = {
   shell: `${CACHE_PREFIX}-shell-${CACHE_VERSION}`,
@@ -49,7 +49,8 @@ const DATA_ASSETS = [
   "./data/mock_tests.json",
   "./data/papers.json",
   "./data/quizzes.json",
-  "./data/references.json"
+  "./data/references.json",
+  "./data/site-config.json"
 ];
 
 /* ---------- helpers ---------- */

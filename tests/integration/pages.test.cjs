@@ -9,11 +9,12 @@ module.exports = (t) => {
     const src = fs.readFileSync(path.join(ROOT, "sitemap.xml"), "utf8");
     const locs = [...src.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1]);
     assert.ok(locs.length >= 900);
+    const basePath = new URL(JSON.parse(fs.readFileSync(path.join(ROOT, "data", "site-config.json"), "utf8")).site.baseUrl).pathname.replace(/\/+$/, "");
     const step = Math.max(1, Math.floor(locs.length / 250));
     const missing = [];
     for (let i = 0; i < locs.length; i += step) {
       const u = locs[i];
-      const rel = u.replace(/^https?:\/\/[^/]+\//, "");
+      const rel = u.replace(/^https?:\/\/[^/]+/, "").replace(basePath, "").replace(/^\//, "");
       if (rel && !fs.existsSync(path.join(ROOT, rel))) missing.push(rel);
     }
     assert.deepStrictEqual(missing, [], `sitemap missing: ${missing.slice(0, 10)}`);

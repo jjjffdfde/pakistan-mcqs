@@ -411,3 +411,7 @@ a:hover { text-decoration: underline; }
 .ai-panel { margin-top: 6px; }
 .notice { background: #fff4e5; border: 1px solid #f0c36d; color: #7a5200; padding: 10px 14px; border-radius: 8px; margin-bottom: 12px; }
 .ans-key { font-weight: 700; color: #0a7d33; }
+
+.notice-box { border: 1px solid var(--gold, #d4a017); background: rgba(212,160,23,0.08); border-radius: var(--radius); padding: 12px 14px; margin: 12px 0; font-size: 0.95rem; }
+.notice-box p { margin: 0; }
+

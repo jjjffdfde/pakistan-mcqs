@@ -2,12 +2,21 @@
    Phase 12 — AI learning engine: frontend (AI Coach)
    Self-contained: renders the #view-ai section, enhances the
    dashboard (readiness card + smart planner), and talks only to
-   the localhost AI API (/api/ai/*). No dependency on app.js.
+   the AI API (/api/ai/*). No dependency on app.js.
+
+   Production architecture (data/site-config.json is the source
+   of truth):
+     - config.api.production  non-empty → API base for public deploys
+     - config.api.development            → local runtime-v2 server
+     - Public pages WITHOUT a production API base show a clear
+       "AI service unavailable" state and never assume localhost.
    ============================================================ */
 (function () {
   "use strict";
 
-  const API = "http://localhost:8766";
+  let API = "http://localhost:8766";
+  let AVAILABLE = false;
+  let UNAVAILABLE_REASON = "";
   const DEVICE = "default";
   const $ = (id) => document.getElementById(id);
   const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
@@ -17,6 +26,26 @@
     adaptive: null,
     notice: ""
   };
+
+  const isLocalHost = () => ["localhost", "127.0.0.1", "::1"].includes(location.hostname) || location.protocol === "file:";
+
+  async function initApi() {
+    try {
+      const cfg = await fetch("data/site-config.json", { cache: "no-store" }).then((r) => (r.ok ? r.json() : null));
+      const prod = cfg && cfg.api && cfg.api.production;
+      if (prod) { API = prod; AVAILABLE = true; return; }
+      if (isLocalHost()) {
+        API = (cfg && cfg.api && cfg.api.development) || "http://localhost:8766";
+        AVAILABLE = true;
+        return;
+      }
+      AVAILABLE = false;
+      UNAVAILABLE_REASON = "AI Coach is not available on this public site yet — the AI backend has not been deployed. The AI features (readiness, planner, adaptive practice, flashcards, mock predictions) require the self-hosted runtime server (node runtime-v2/server.cjs). See the README for deployment instructions.";
+    } catch (e) {
+      AVAILABLE = isLocalHost();
+      if (!AVAILABLE) UNAVAILABLE_REASON = "AI Coach is not available on this public site yet — the AI backend has not been deployed.";
+    }
+  }
 
   /* ---------- API helper with graceful offline fallback ---------- */
   async function api(path, opts) {
@@ -40,7 +69,11 @@
   });
 
   function serverDown(err) {
-    state.notice = "AI Coach needs the local server. Start it with: node runtime-v2/server.cjs  (port 8766). " + (err ? "(" + err.message + ")" : "");
+    if (!AVAILABLE) {
+      state.notice = UNAVAILABLE_REASON;
+    } else {
+      state.notice = "AI Coach needs the runtime server. Start it with: node runtime-v2/server.cjs  (port 8766). " + (err ? "(" + err.message + ")" : "");
+    }
     const n = $("aiNotice");
     if (n) { n.hidden = false; n.textContent = state.notice; }
   }
@@ -703,6 +736,18 @@
     const panel = $("aiPanel");
     if (!panel) return;
     $("aiNotice").hidden = true;
+    if (!AVAILABLE) {
+      const full = "AI Coach is unavailable on this public deployment. The AI features are powered by the self-hosted runtime server (node runtime-v2/server.cjs, port 8766), which is not deployed for this site. Deploy the server to a public HTTPS endpoint and set the api.production URL in data/site-config.json to enable it.";
+      panel.innerHTML = `<div class="card" style="padding:18px">
+        <h3>🤖 AI Coach — service unavailable</h3>
+        <p class="muted">${esc(full)}</p>
+        <p class="muted small">All practice, quiz, mock test, dashboard and leaderboard features keep working without the AI backend.</p>
+      </div>`;
+      state.notice = UNAVAILABLE_REASON;
+      const n = $("aiNotice");
+      if (n) { n.hidden = false; n.textContent = state.notice; }
+      return;
+    }
     const tab = state.tab;
     if (tab === "dashboard") await renderDashboard();
     else if (tab === "planner") await renderPlanner();
@@ -719,6 +764,7 @@
 
   /* ---------- Dashboard enhancements (existing view) ---------- */
   async function renderDashboardEnhancements() {
+    if (!AVAILABLE) return;
     const card = $("aiReadinessCard");
     const upgrade = $("aiPlannerUpgrade");
     if (!card && !upgrade) return;
@@ -778,6 +824,6 @@
       b.addEventListener("click", () => setTab(b.dataset.aiTab));
     });
     window.addEventListener("hashchange", onHash);
-    onHash();
+    initApi().then(onHash);
   });
 })();

@@ -18,7 +18,11 @@ const L = require("../runtime-v2/data-loader.cjs");
 const Q = require("../runtime-v2/query-engine.cjs");
 
 const ROOT = path.join(__dirname, "..");
-const SITE = "https://pakistanmcqshub.github.io";
+const SITE_CONFIG = JSON.parse(fs.readFileSync(path.join(ROOT, "data", "site-config.json"), "utf8"));
+const SITE = SITE_CONFIG.site.baseUrl.replace(/\/$/, "");
+const STATIC = SITE_CONFIG.dataset.staticBank;
+const FULL = SITE_CONFIG.dataset.fullDatabase;
+const LAST_MOD = new Date().toISOString().slice(0, 10);
 
 const esc = (s) => String(s ?? "")
   .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
@@ -93,7 +97,7 @@ const sitemapSeen = new Set();
 function addUrl(loc, priority, changefreq) {
   if (sitemapSeen.has(loc)) return;
   sitemapSeen.add(loc);
-  sitemapUrls.push(`  <url>\n    <loc>${loc}</loc>\n    <lastmod>2026-08-01</lastmod>\n    <changefreq>${changefreq}</changefreq>\n    <priority>${priority}</priority>\n  </url>`);
+  sitemapUrls.push(`  <url>\n    <loc>${loc}</loc>\n    <lastmod>${LAST_MOD}</lastmod>\n    <changefreq>${changefreq}</changefreq>\n    <priority>${priority}</priority>\n  </url>`);
 }
 
 /* SQLite SELECT id,question ... ORDER BY rowid LIMIT n OFFSET h: walk the
@@ -185,7 +189,8 @@ async function main() {
   /* ---------- subjects/index.html ---------- */
   const indexItems = subs.map((s) => ({ name: s.name, url: `${SITE}/subjects/${s.slug}.html` }));
   let indexBody = `<h1>All Subjects — Free MCQs for Pakistani Exams</h1>
-<p class="muted">${stats.mcqs.toLocaleString()} original MCQs across ${stats.subjects} subjects, ${stats.chapters} chapters and ${stats.topics} topics. Every subject page lists its chapters and topics with practice links.</p>\n`;
+<p class="muted">${FULL.questions.toLocaleString()} original MCQs across ${FULL.subjects} subjects, ${FULL.chapters} chapters and ${FULL.topics} topics in the full database. ${STATIC.mcqs.toLocaleString()} of them (${STATIC.subjects} subjects) are included in the static practice bank that works instantly in the browser; the full database is served by the self-hosted runtime server.</p>
+<div class="notice-box"><p><strong>Two datasets.</strong> The <em>static practice bank</em> (${STATIC.mcqs.toLocaleString()} MCQs, ${STATIC.subjects} subjects) needs no server. The <em>full database</em> (${FULL.questions.toLocaleString()} MCQs, ${FULL.subjects} subjects) is only available when you run the runtime server — see the README. Counts below are from the full database.</p></div>\n`;
   for (const c of cats) {
     const inCat = subs.filter((s) => s.category_id === c.id);
     if (!inCat.length) continue;

@@ -22,6 +22,7 @@
     "lint": "node scripts/lint.cjs",
     "audit": "node scripts/audit.js",
     "audit:repo": "node scripts/phase26-repo-audit.cjs",
+    "audit:production": "node scripts/audit-production.cjs",
     "monitor": "node scripts/monitor.cjs",
     "release": "node scripts/release.cjs"
   },

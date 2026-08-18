@@ -1,0 +1,30 @@
+{
+  "base": "http://localhost:4173/",
+  "prod": "https://jjjffdfde.github.io/pakistan-mcqs/",
+  "runAt": "2026-08-18T07:04:15.508Z",
+  "checks": {
+    "robots": {
+      "status": 200
+    },
+    "sitemap": {
+      "status": 200,
+      "urls": 1121
+    },
+    "crawl": {
+      "total": 1121,
+      "ok": 1121,
+      "broken": 0
+    },
+    "home": {
+      "status": 200,
+      "jsonld": 6
+    },
+    "repo": {
+      "scanned": 4021,
+      "oldDomain": [],
+      "localhostJs": []
+    }
+  },
+  "failures": [],
+  "warnings": []
+}

@@ -1,6 +1,6 @@
 {
   "packageId": "com.pakistanmcqshub.app",
-  "host": "pakistanmcqshub.github.io",
+  "host": "jjjffdfde.github.io",
   "name": "Pakistan MCQs Hub",
   "launcherName": "MCQs Hub",
   "display": "standalone",
@@ -9,9 +9,9 @@
   "navigationColor": "#013710",
   "backgroundColor": "#013710",
   "enableNotifications": true,
-  "startUrl": "/",
-  "iconUrl": "https://pakistanmcqshub.github.io/assets/icons/maskable-512.png",
-  "maskableIconUrl": "https://pakistanmcqshub.github.io/assets/icons/maskable-512.png",
+  "startUrl": "/pakistan-mcqs/",
+  "iconUrl": "https://jjjffdfde.github.io/assets/icons/maskable-512.png",
+  "maskableIconUrl": "https://jjjffdfde.github.io/assets/icons/maskable-512.png",
   "splashScreenFadeOutDuration": 300,
   "signingKey": {
     "path": "./android-key.keystore",
@@ -23,20 +23,20 @@
     {
       "name": "Search MCQs",
       "short_name": "Search",
-      "url": "/?view=search",
-      "chosenIconUrl": "https://pakistanmcqshub.github.io/assets/icons/icon-96.png"
+      "url": "/pakistan-mcqs/?view=search",
+      "chosenIconUrl": "https://jjjffdfde.github.io/assets/icons/icon-96.png"
     },
     {
       "name": "Practice Mode",
       "short_name": "Practice",
-      "url": "/?view=practice",
-      "chosenIconUrl": "https://pakistanmcqshub.github.io/assets/icons/icon-96.png"
+      "url": "/pakistan-mcqs/?view=practice",
+      "chosenIconUrl": "https://jjjffdfde.github.io/assets/icons/icon-96.png"
     },
     {
       "name": "Bookmarks",
       "short_name": "Bookmarks",
-      "url": "/?view=bookmarks",
-      "chosenIconUrl": "https://pakistanmcqshub.github.io/assets/icons/icon-96.png"
+      "url": "/pakistan-mcqs/?view=bookmarks",
+      "chosenIconUrl": "https://jjjffdfde.github.io/assets/icons/icon-96.png"
     }
   ]
 }

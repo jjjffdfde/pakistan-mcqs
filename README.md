@@ -1,12 +1,33 @@
 # Pakistan MCQs Hub 🎓
 
+**Production site:** https://jjjffdfde.github.io/pakistan-mcqs/
+
 A free, open-source MCQ preparation platform for all Pakistani competitive exams — **PPSC, FPSC, NTS, OTS, CTS, PTS, SPSC, KPPSC, AJKPSC, BPSC, CSS, PMS, Educators, Police, PMA, ISSB, FIA, NAB, WAPDA, FBR, SBP, Banking, IB, MOD, ETEA, MDCAT, ECAT, GAT, GRE, SAT, L.A.T.** and more.
 
 All questions are **original, self-written content** with detailed explanations — no copyrighted material is copied from other MCQ websites.
 
+## Verified dataset counts
+
+Single source of truth: **`data/site-config.json`** (regenerate with `node scripts/update-site-config.cjs`).
+
+| | Static practice bank | Full database |
+|---|---|---|
+| Works | instantly, no server (GitHub Pages) | only with the self-hosted runtime server |
+| MCQs | **1,338** | **872,624** |
+| Subjects | **147** | **243** |
+| Chapters | **400** | **884** |
+| Topics | **719** | **1,597** |
+| Exam papers | 40 | — |
+| Quizzes | 21 | — |
+| Mock tests | 6 | — |
+| Exams covered | 55 | — |
+| Categories | 16 | — |
+
+The two datasets are always labeled distinctly in the UI — the static bank is never presented as the full database.
+
 ## Features
 
-- **1300+ original MCQs** across **147 subjects** and **38 exams** (Pakistan Affairs, Current Affairs, Islamic Studies, English, Math, Reasoning, Science, Computer, IT, Programming, Engineering, Medical, Management, Social Sciences, Entry Tests and more)
+- **1338 original MCQs** across **147 subjects** and **55 exams** (Pakistan Affairs, Current Affairs, Islamic Studies, English, Math, Reasoning, Science, Computer, IT, Programming, Engineering, Medical, Management, Social Sciences, Entry Tests and more)
 - **Practice engine** — normal / revision (retry wrong answers) / weak topics / bookmarks / adaptive difficulty, with optional negative marking
 - **Timed quizzes & mock tests** — 21 quizzes + 6 full mocks with countdown timers and negative-marking chips
 - **Exam simulation** — 40 paper patterns (PPSC Assistant, Junior Clerk, Tehsildar, ASI/SI, PMS, CSS PT, NTS GAT, ETEA, etc.) with question palette and auto-grading; any paper also runs as a **15-question quick quiz**
@@ -39,18 +60,22 @@ All questions are **original, self-written content** with detailed explanations 
 │   ├── subjects.json       # 147 subjects
 │   ├── chapters.json       # 400 chapters
 │   ├── topics.json         # 719 topics
-│   ├── exams.json          # 38 exams
+│   ├── exams.json          # 55 exams
 │   ├── programs.json       # 12 programs
 │   ├── mock_tests.json     # 6 mock tests
 │   ├── papers.json         # 40 exam paper patterns
 │   ├── quizzes.json        # 21 featured quizzes
 │   ├── references.json     # 8 cited sources for new MCQs
+│   ├── site-config.json    # AUTHORITATIVE config (counts, base URL, API bases)
 │   ├── mcqs.json           # Master MCQ bank (generated, 1338 MCQs)
 │   └── mcqs/               # MCQ bank by section (34 files)
 ├── scripts/
 │   ├── migrate-phase3.js   # Idempotent taxonomy migration (subjects/chapters/topics/exams/references)
 │   ├── phase3/             # Content generators (gen-helper + data25–34)
 │   ├── build-mcqs.js       # Validates + enriches + merges mcqs/*.json → mcqs.json
+│   ├── gen-seo-pages.cjs   # Regenerates subjects/, chapters/, 404.html, sitemap.xml
+│   ├── update-site-config.cjs  # Regenerates data/site-config.json (verified counts)
+│   ├── audit-production.cjs    # Live production URL/sitemap/link audit
 │   ├── audit.js            # Full audit (data, HTML, JS, SEO, a11y) → docs/audit-report.md
 │   └── make-og.js          # Regenerates assets/img/og-cover.png
 ├── docs/                   # Phase evidence & reports → docs/current/, docs/archive/
@@ -139,9 +164,22 @@ npm start                    # node runtime-v2/server.cjs → http://localhost:8
 node runtime-v2/server.cjs   # same
 ```
 
-The API serves the full question bank from `data/*.ndjson` (240K+ MCQs) with no
-compiled database, no rebuild step and no read-only mount constraints. The static
-site degrades gracefully to the bundled demo bank when the API is unreachable.
+The API serves the full question bank (872,624 MCQs across 243 subjects) from the
+`database/data` NDJSON payload, which is **gitignored** because it exceeds GitHub's
+100 MB per-file limit (largest part is 235 MB). `database/manifests/` tracks the
+payload fingerprint so the payload can be restored from the project backup. Without
+the server, the site runs entirely on the bundled static practice bank (1,338 MCQs).
+
+## AI Coach architecture (production-safe)
+
+- The AI Coach frontend (`assets/js/ai.js`) reads **`data/site-config.json`**:
+  - `api.development` → `http://localhost:8766` (used only when the page is served from `localhost`/`127.0.0.1`)
+  - `api.production` → currently **empty**: no public AI backend is deployed
+- On the public site the AI Coach shows a clear **"service unavailable"** state — it never
+  assumes `localhost` exists and never claims to be online when it cannot reach a backend.
+- To deploy the AI backend publicly: run `node runtime-v2/server.cjs` on a host with HTTPS,
+  set `api.production` in `data/site-config.json` to its public URL, and rebuild. No API keys
+  are embedded in the frontend; the server holds any secrets it needs.
 
 ## Environment Configuration
 
@@ -160,9 +198,11 @@ The project runs with zero configuration. Optional overrides are documented in
 git clone <repo-url>
 cd <repo>
 npm install        # zero dependencies; creates package-lock.json only
-npm run build      # regenerate + validate data/mcqs.json
+npm run build      # regenerate + validate data/mcqs.json (+ runtime-v2 indexes)
 npm run build:pages  # regenerate static SEO pages + sitemap (deterministic)
 npm test
+npm run lint
+npm run audit:production  # live production URL/sitemap/link audit (see below)
 ```
 
 - `.github/workflows/` runs build, lint, tests, security scan and database-integrity
@@ -171,13 +211,38 @@ npm test
   Pages → deploy from branch `main` / root.
 - Releases are cut with `release.yml` (`v*` tags) and publish `release/SHA256SUMS.txt`.
 
+## Production audit
+
+```bash
+npm run audit:production
+```
+
+Checks the live deployment at `data/site-config.json → site.baseUrl` for: wrong/old
+domains, `localhost` references, canonical/`og:url` mismatches, robots.txt sitemap
+entries, sitemap XML validity + duplicates, a full crawl of every sitemap URL,
+internal-link 404s on key pages, JSON-LD validity, and consistency between the
+config counts and the homepage. Writes `docs/audit_production_report.json`;
+exit code 0 = PASS.
+
 ## Deployment (GitHub Pages)
 
 1. Push this repository to GitHub.
 2. Repo settings → Pages → deploy from branch `main` / root.
-3. Site goes live at `https://<username>.github.io/<repo>/`.
+3. Site goes live at `https://jjjffdfde.github.io/pakistan-mcqs/` — all page paths,
+   canonical URLs, the manifest, the service worker and the sitemap already use this
+   base URL, so **no manual path editing is required**.
 
-> If you deploy under a sub-path (not the repo root domain), update the paths in `index.html`, `admin.html`, `sw.js`, `assets/` and `data/` references to match (e.g. add the repo name prefix), and update `sitemap.xml`/`robots.txt` URLs.
+> The production base URL lives in ONE place: `data/site-config.json` (`site.baseUrl`),
+> regenerated by `scripts/update-site-config.cjs`. If you move the repo, update it there
+> and rerun `npm run build:pages` to regenerate all SEO pages and the sitemap.
+
+### Admin panel — development / local-only
+
+`admin.html` is a **client-side editing tool**: no server-side authentication exists and
+nothing it does touches a public server. All edits live in the browser (localStorage) or
+in exported files. It is labelled as development/local-only in the page itself and
+`robots.txt` blocks it — but robots.txt is NOT a security mechanism, so never deploy it
+as a public admin interface.
 
 ### Updating content
 
@@ -194,11 +259,12 @@ npm test
 
 ## Roadmap
 
+- [x] Static per-subject landing pages for SEO (subjects/, chapters/, sitemap)
 - [ ] Grow the bank toward 2000+ MCQs (thin areas: Current Affairs, Agriculture & Forestry, Law)
-- [ ] Static per-subject landing pages for SEO
 - [ ] Print / PDF practice sheets
 - [ ] Bilingual (Urdu/English) interface
 - [ ] Cloud sync for bookmarks & leaderboard
+- [ ] Deploy the public AI Coach backend (see "AI Coach architecture")
 
 ## License
 

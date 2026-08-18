@@ -4,6 +4,22 @@
 
   const DATA_BASE = "data";
   const PAGE_SIZE = 20;
+  /* Authoritative site configuration (data/site-config.json) — single
+     source of truth for counts and API endpoints. Loaded best-effort. */
+  const CONFIG = { site: { name: "Pakistan MCQs Hub", baseUrl: "" }, dataset: { staticBank: {}, fullDatabase: {} }, api: { development: "http://localhost:8766", production: "" } };
+  async function loadConfig() {
+    try { Object.assign(CONFIG, await loadJSON(`${DATA_BASE}/site-config.json`)); } catch (e) { /* config optional at runtime */ }
+    return CONFIG;
+  }
+  const STAT_FALLBACKS = { statMcqs: "mcqs", statSubjects: "subjects", statChapters: "chapters", statTopics: "topics", statPapers: "papers", statMocks: "mockTests", statQuizzes: "quizzes", statExams: "exams" };
+  function applyStatFallbacks() {
+    const st = CONFIG.dataset.staticBank || {};
+    for (const [id, key] of Object.entries(STAT_FALLBACKS)) {
+      const el = $(id);
+      const v = st[key];
+      if (el && v && (el.textContent === "0" || el.textContent === "")) el.textContent = v.toLocaleString();
+    }
+  }
   const state = {
     subjects: [], chapters: [], topics: [], mcqs: [], papers: [], quizzes: [],
     exams: [], programs: [], mockTests: [], categories: [],
@@ -562,11 +578,13 @@
       return;
     }
     el.className = "db-status";
-    const src = DB.enabled ? "SQLite" : "Demo JSON";
+    const src = DB.enabled ? "Full database" : "Static bank";
     const n = DB.enabled ? DB.total : state.mcqs.length;
+    const full = CONFIG.dataset.fullDatabase || {};
+    const fullN = full.questions || 872624;
     el.innerHTML = `
       <div class="db-status-head"><span class="dot dot-off"></span><strong>${src}</strong><span class="muted">${n.toLocaleString()} MCQs</span></div>
-      <p class="muted">Local database <b>offline</b> — showing the demo bank. Start the server with <code>node runtime-v2/server.cjs</code> (port 8766) to unlock all 240,000+ MCQs, then reload.</p>`;
+      <p class="muted">The static practice bank (${n.toLocaleString()} MCQs, ${(CONFIG.dataset.staticBank || {}).subjects || 147} subjects) works instantly. Self-host the runtime server (<code>node runtime-v2/server.cjs</code>, port 8766) to unlock the full database of ${fullN.toLocaleString()} MCQs across ${full.subjects || 243} subjects, then reload.</p>`;
   }
 
   function renderHome() {
@@ -584,7 +602,7 @@
       $("heroTagline").textContent = `Live from the local database: ${st.mcqs.toLocaleString()} original MCQs across ${st.subjects.toLocaleString()} subjects, ${st.chapters.toLocaleString()} chapters and ${st.topics.toLocaleString()} topics — search, practice, quiz and track progress with zero demo data.`;
       $("globalSearch").setAttribute("placeholder", `Instant search ${st.mcqs.toLocaleString()} MCQs - try 'Ohm', 'constitution', 'treaty'...`);
     } else {
-      $("globalSearch").setAttribute("placeholder", "Instant search 1300+ MCQs (240,000+ with local DB) - try 'Ohm', 'constitution', 'treaty'...");
+      $("globalSearch").setAttribute("placeholder", "Instant search 1,338 MCQs (872,624 with full database) - try 'Ohm', 'constitution', 'treaty'...");
     }
 
     const ecg = $("examCatGrid");
@@ -1945,6 +1963,8 @@
     $("darkToggle").textContent = state.theme === "light" ? "🌙" : "☀️";
     $("certModal").hidden = true;
     bindEvents();
+    await loadConfig();
+    applyStatFallbacks();
     try {
       await loadAll();
       if (DB.enabled) {

@@ -2,6 +2,6 @@ User-agent: *
 Allow: /
 Disallow: /admin.html
 
-Sitemap: https://pakistanmcqshub.github.io/sitemap.xml
-Sitemap: https://pakistanmcqshub.github.io/image-sitemap.xml
-Sitemap: https://pakistanmcqshub.github.io/video-sitemap.xml
+Sitemap: https://jjjffdfde.github.io/pakistan-mcqs/sitemap.xml
+Sitemap: https://jjjffdfde.github.io/pakistan-mcqs/image-sitemap.xml
+Sitemap: https://jjjffdfde.github.io/pakistan-mcqs/video-sitemap.xml

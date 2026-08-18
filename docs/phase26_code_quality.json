@@ -1,20 +1,20 @@
 {
   "step": "code_quality",
-  "generated_at": "2026-08-18T03:44:21.312Z",
+  "generated_at": "2026-08-18T07:04:11.190Z",
   "summary": {
-    "js_files": 126,
-    "json_files": 3290,
-    "md_files": 101,
+    "js_files": 128,
+    "json_files": 3293,
+    "md_files": 102,
     "yaml_files": 7,
     "html_files": 6,
     "errors": 0,
-    "warnings": 1606,
+    "warnings": 1618,
     "status": "CLEAN_WITH_WARNINGS"
   },
   "by_rule": [
     {
       "rule": "prettier/printWidth",
-      "count": 1589
+      "count": 1601
     },
     {
       "rule": "eqeqeq",
@@ -295,7 +295,7 @@
     },
     {
       "file": "assets/js/ai.js",
-      "line": 13,
+      "line": 22,
       "rule": "prettier/printWidth",
       "message": "line 142 chars > 120"
     },
@@ -303,325 +303,325 @@
       "file": "assets/js/ai.js",
       "line": 43,
       "rule": "prettier/printWidth",
-      "message": "line 150 chars > 120"
+      "message": "line 318 chars > 120"
     },
     {
       "file": "assets/js/ai.js",
-      "line": 63,
-      "rule": "prettier/printWidth",
-      "message": "line 143 chars > 120"
-    },
-    {
-      "file": "assets/js/ai.js",
-      "line": 129,
-      "rule": "prettier/printWidth",
-      "message": "line 147 chars > 120"
-    },
-    {
-      "file": "assets/js/ai.js",
-      "line": 136,
-      "rule": "prettier/printWidth",
-      "message": "line 158 chars > 120"
-    },
-    {
-      "file": "assets/js/ai.js",
-      "line": 175,
+      "line": 75,
       "rule": "prettier/printWidth",
       "message": "line 154 chars > 120"
     },
     {
       "file": "assets/js/ai.js",
-      "line": 176,
-      "rule": "prettier/printWidth",
-      "message": "line 144 chars > 120"
-    },
-    {
-      "file": "assets/js/ai.js",
-      "line": 177,
-      "rule": "prettier/printWidth",
-      "message": "line 152 chars > 120"
-    },
-    {
-      "file": "assets/js/ai.js",
-      "line": 178,
-      "rule": "prettier/printWidth",
-      "message": "line 184 chars > 120"
-    },
-    {
-      "file": "assets/js/ai.js",
-      "line": 212,
-      "rule": "prettier/printWidth",
-      "message": "line 199 chars > 120"
-    },
-    {
-      "file": "assets/js/ai.js",
-      "line": 233,
-      "rule": "prettier/printWidth",
-      "message": "line 155 chars > 120"
-    },
-    {
-      "file": "assets/js/ai.js",
-      "line": 307,
-      "rule": "prettier/printWidth",
-      "message": "line 159 chars > 120"
-    },
-    {
-      "file": "assets/js/ai.js",
-      "line": 312,
-      "rule": "prettier/printWidth",
-      "message": "line 228 chars > 120"
-    },
-    {
-      "file": "assets/js/ai.js",
-      "line": 357,
-      "rule": "prettier/printWidth",
-      "message": "line 169 chars > 120"
-    },
-    {
-      "file": "assets/js/ai.js",
-      "line": 413,
-      "rule": "prettier/printWidth",
-      "message": "line 144 chars > 120"
-    },
-    {
-      "file": "assets/js/ai.js",
-      "line": 491,
-      "rule": "prettier/printWidth",
-      "message": "line 141 chars > 120"
-    },
-    {
-      "file": "assets/js/ai.js",
-      "line": 503,
-      "rule": "prettier/printWidth",
-      "message": "line 148 chars > 120"
-    },
-    {
-      "file": "assets/js/ai.js",
-      "line": 545,
-      "rule": "prettier/printWidth",
-      "message": "line 156 chars > 120"
-    },
-    {
-      "file": "assets/js/ai.js",
-      "line": 614,
-      "rule": "prettier/printWidth",
-      "message": "line 161 chars > 120"
-    },
-    {
-      "file": "assets/js/ai.js",
-      "line": 621,
-      "rule": "prettier/printWidth",
-      "message": "line 269 chars > 120"
-    },
-    {
-      "file": "assets/js/ai.js",
-      "line": 624,
-      "rule": "prettier/printWidth",
-      "message": "line 394 chars > 120"
-    },
-    {
-      "file": "assets/js/ai.js",
-      "line": 732,
-      "rule": "prettier/printWidth",
-      "message": "line 189 chars > 120"
-    },
-    {
-      "file": "assets/js/ai.js",
-      "line": 735,
-      "rule": "prettier/printWidth",
-      "message": "line 182 chars > 120"
-    },
-    {
-      "file": "assets/js/ai.js",
-      "line": 736,
+      "line": 96,
       "rule": "prettier/printWidth",
       "message": "line 143 chars > 120"
     },
     {
       "file": "assets/js/ai.js",
-      "line": 750,
+      "line": 162,
+      "rule": "prettier/printWidth",
+      "message": "line 147 chars > 120"
+    },
+    {
+      "file": "assets/js/ai.js",
+      "line": 169,
+      "rule": "prettier/printWidth",
+      "message": "line 158 chars > 120"
+    },
+    {
+      "file": "assets/js/ai.js",
+      "line": 208,
+      "rule": "prettier/printWidth",
+      "message": "line 154 chars > 120"
+    },
+    {
+      "file": "assets/js/ai.js",
+      "line": 209,
+      "rule": "prettier/printWidth",
+      "message": "line 144 chars > 120"
+    },
+    {
+      "file": "assets/js/ai.js",
+      "line": 210,
+      "rule": "prettier/printWidth",
+      "message": "line 152 chars > 120"
+    },
+    {
+      "file": "assets/js/ai.js",
+      "line": 211,
+      "rule": "prettier/printWidth",
+      "message": "line 184 chars > 120"
+    },
+    {
+      "file": "assets/js/ai.js",
+      "line": 245,
+      "rule": "prettier/printWidth",
+      "message": "line 199 chars > 120"
+    },
+    {
+      "file": "assets/js/ai.js",
+      "line": 266,
+      "rule": "prettier/printWidth",
+      "message": "line 155 chars > 120"
+    },
+    {
+      "file": "assets/js/ai.js",
+      "line": 340,
+      "rule": "prettier/printWidth",
+      "message": "line 159 chars > 120"
+    },
+    {
+      "file": "assets/js/ai.js",
+      "line": 345,
+      "rule": "prettier/printWidth",
+      "message": "line 228 chars > 120"
+    },
+    {
+      "file": "assets/js/ai.js",
+      "line": 390,
+      "rule": "prettier/printWidth",
+      "message": "line 169 chars > 120"
+    },
+    {
+      "file": "assets/js/ai.js",
+      "line": 446,
+      "rule": "prettier/printWidth",
+      "message": "line 144 chars > 120"
+    },
+    {
+      "file": "assets/js/ai.js",
+      "line": 524,
+      "rule": "prettier/printWidth",
+      "message": "line 141 chars > 120"
+    },
+    {
+      "file": "assets/js/ai.js",
+      "line": 536,
+      "rule": "prettier/printWidth",
+      "message": "line 148 chars > 120"
+    },
+    {
+      "file": "assets/js/ai.js",
+      "line": 578,
+      "rule": "prettier/printWidth",
+      "message": "line 156 chars > 120"
+    },
+    {
+      "file": "assets/js/ai.js",
+      "line": 647,
+      "rule": "prettier/printWidth",
+      "message": "line 161 chars > 120"
+    },
+    {
+      "file": "assets/js/ai.js",
+      "line": 654,
+      "rule": "prettier/printWidth",
+      "message": "line 269 chars > 120"
+    },
+    {
+      "file": "assets/js/ai.js",
+      "line": 657,
+      "rule": "prettier/printWidth",
+      "message": "line 394 chars > 120"
+    },
+    {
+      "file": "assets/js/ai.js",
+      "line": 740,
+      "rule": "prettier/printWidth",
+      "message": "line 327 chars > 120"
+    },
+    {
+      "file": "assets/js/ai.js",
+      "line": 778,
+      "rule": "prettier/printWidth",
+      "message": "line 189 chars > 120"
+    },
+    {
+      "file": "assets/js/ai.js",
+      "line": 781,
+      "rule": "prettier/printWidth",
+      "message": "line 182 chars > 120"
+    },
+    {
+      "file": "assets/js/ai.js",
+      "line": 782,
+      "rule": "prettier/printWidth",
+      "message": "line 143 chars > 120"
+    },
+    {
+      "file": "assets/js/ai.js",
+      "line": 796,
       "rule": "prettier/printWidth",
       "message": "line 148 chars > 120"
     },
     {
       "file": "assets/js/app.js",
-      "line": 15,
+      "line": 9,
+      "rule": "prettier/printWidth",
+      "message": "line 180 chars > 120"
+    },
+    {
+      "file": "assets/js/app.js",
+      "line": 14,
+      "rule": "prettier/printWidth",
+      "message": "line 210 chars > 120"
+    },
+    {
+      "file": "assets/js/app.js",
+      "line": 31,
       "rule": "prettier/printWidth",
       "message": "line 148 chars > 120"
     },
     {
       "file": "assets/js/app.js",
-      "line": 24,
+      "line": 40,
       "rule": "prettier/printWidth",
       "message": "line 184 chars > 120"
     },
     {
       "file": "assets/js/app.js",
-      "line": 26,
+      "line": 42,
       "rule": "prettier/printWidth",
       "message": "line 142 chars > 120"
     },
     {
       "file": "assets/js/app.js",
-      "line": 30,
+      "line": 46,
       "rule": "prettier/printWidth",
       "message": "line 175 chars > 120"
     },
     {
       "file": "assets/js/app.js",
-      "line": 114,
+      "line": 130,
       "rule": "prettier/printWidth",
       "message": "line 276 chars > 120"
     },
     {
       "file": "assets/js/app.js",
-      "line": 117,
+      "line": 133,
       "rule": "prettier/printWidth",
       "message": "line 259 chars > 120"
     },
     {
       "file": "assets/js/app.js",
-      "line": 118,
+      "line": 134,
       "rule": "prettier/printWidth",
       "message": "line 300 chars > 120"
     },
     {
       "file": "assets/js/app.js",
-      "line": 119,
+      "line": 135,
       "rule": "prettier/printWidth",
       "message": "line 330 chars > 120"
     },
     {
       "file": "assets/js/app.js",
-      "line": 120,
+      "line": 136,
       "rule": "prettier/printWidth",
       "message": "line 173 chars > 120"
     },
     {
       "file": "assets/js/app.js",
-      "line": 169,
+      "line": 185,
       "rule": "prettier/printWidth",
       "message": "line 180 chars > 120"
     },
     {
       "file": "assets/js/app.js",
-      "line": 174,
+      "line": 190,
       "rule": "prettier/printWidth",
       "message": "line 150 chars > 120"
     },
     {
       "file": "assets/js/app.js",
-      "line": 224,
+      "line": 240,
       "rule": "prettier/printWidth",
       "message": "line 161 chars > 120"
     },
     {
       "file": "assets/js/app.js",
-      "line": 358,
+      "line": 374,
       "rule": "prettier/printWidth",
       "message": "line 166 chars > 120"
     },
     {
       "file": "assets/js/app.js",
-      "line": 363,
+      "line": 379,
       "rule": "prettier/printWidth",
       "message": "line 188 chars > 120"
     },
     {
       "file": "assets/js/app.js",
-      "line": 393,
+      "line": 409,
       "rule": "prettier/printWidth",
       "message": "line 197 chars > 120"
     },
     {
       "file": "assets/js/app.js",
-      "line": 418,
+      "line": 434,
       "rule": "prettier/printWidth",
       "message": "line 181 chars > 120"
     },
     {
       "file": "assets/js/app.js",
-      "line": 419,
+      "line": 435,
       "rule": "prettier/printWidth",
       "message": "line 151 chars > 120"
     },
     {
       "file": "assets/js/app.js",
-      "line": 446,
+      "line": 462,
       "rule": "prettier/printWidth",
       "message": "line 158 chars > 120"
     },
     {
       "file": "assets/js/app.js",
-      "line": 447,
+      "line": 463,
       "rule": "prettier/printWidth",
       "message": "line 182 chars > 120"
     },
     {
       "file": "assets/js/app.js",
-      "line": 465,
+      "line": 481,
       "rule": "prettier/printWidth",
       "message": "line 160 chars > 120"
     },
     {
       "file": "assets/js/app.js",
-      "line": 548,
+      "line": 564,
       "rule": "prettier/printWidth",
       "message": "line 166 chars > 120"
     },
     {
       "file": "assets/js/app.js",
-      "line": 561,
+      "line": 577,
       "rule": "prettier/printWidth",
       "message": "line 157 chars > 120"
     },
     {
       "file": "assets/js/app.js",
-      "line": 568,
+      "line": 586,
       "rule": "prettier/printWidth",
       "message": "line 149 chars > 120"
     },
     {
       "file": "assets/js/app.js",
-      "line": 569,
+      "line": 587,
       "rule": "prettier/printWidth",
-      "message": "line 199 chars > 120"
+      "message": "line 360 chars > 120"
     },
     {
       "file": "assets/js/app.js",
-      "line": 574,
+      "line": 592,
       "rule": "prettier/printWidth",
       "message": "line 142 chars > 120"
     },
     {
       "file": "assets/js/app.js",
-      "line": 584,
+      "line": 602,
       "rule": "prettier/printWidth",
       "message": "line 307 chars > 120"
-    },
-    {
-      "file": "assets/js/app.js",
-      "line": 585,
-      "rule": "prettier/printWidth",
-      "message": "line 144 chars > 120"
-    },
-    {
-      "file": "assets/js/app.js",
-      "line": 587,
-      "rule": "prettier/printWidth",
-      "message": "line 147 chars > 120"
-    },
-    {
-      "file": "assets/js/app.js",
-      "line": 597,
-      "rule": "prettier/printWidth",
-      "message": "line 180 chars > 120"
-    },
-    {
-      "file": "assets/js/app.js",
-      "line": 599,
-      "rule": "prettier/printWidth",
-      "message": "line 161 chars > 120"
     }
   ],
   "configs_checked": [

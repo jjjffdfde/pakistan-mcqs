@@ -28,7 +28,7 @@
         android:exported="true">
       <meta-data
           android:name="android.support.customtabs.trusted.DEFAULT_URL"
-          android:value="https://pakistanmcqshub.github.io/" />
+          android:value="https://jjjffdfde.github.io/pakistan-mcqs/" />
       <meta-data
           android:name="android.support.customtabs.trusted.STATUS_BAR_COLOR"
           android:value="#01411c" />
@@ -49,7 +49,7 @@
         <action android:name="android.intent.action.VIEW" />
         <category android:name="android.intent.category.DEFAULT" />
         <category android:name="android.intent.category.BROWSABLE" />
-        <data android:scheme="https" android:host="pakistanmcqshub.github.io" />
+        <data android:scheme="https" android:host="jjjffdfde.github.io" />
       </intent-filter>
     </activity>
   </application>
