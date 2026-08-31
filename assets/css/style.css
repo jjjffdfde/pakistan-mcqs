@@ -415,3 +415,13 @@ a:hover { text-decoration: underline; }
 .notice-box { border: 1px solid var(--gold, #d4a017); background: rgba(212,160,23,0.08); border-radius: var(--radius); padding: 12px 14px; margin: 12px 0; font-size: 0.95rem; }
 .notice-box p { margin: 0; }
 
+/* Study content modal */
+.study-detail { max-width: 900px; width: 95%; text-align: left; }
+.study-detail-head { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 12px; }
+.study-detail h2 { font-size: 1.3rem; margin: 16px 0 8px; color: var(--green-800); }
+.study-text { background: var(--green-50); border-radius: 8px; padding: 20px; line-height: 1.7; max-height: 60vh; overflow-y: auto; white-space: pre-wrap; }
+.study-meta { margin-top: 12px; font-size: 0.75rem; color: var(--muted); }
+@media (max-width: 600px) {
+  .study-text { max-height: 50vh; font-size: 0.95rem; }
+}
+

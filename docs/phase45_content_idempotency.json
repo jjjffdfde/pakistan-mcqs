@@ -1,0 +1,17 @@
+{
+  "generated_at": "2026-08-21 08:44:01",
+  "total_staging_blocks": 5831,
+  "idempotent_publish": {
+    "written": 0,
+    "skipped": 5831
+  },
+  "verify_publish": {
+    "written": 0
+  },
+  "idempotent": true,
+  "hash_index": {
+    "subjects": 9,
+    "records": 5831,
+    "location": "E:\\pAK MCQS\\runtime-v2\\indexes\\content/content_hashes.json"
+  }
+}

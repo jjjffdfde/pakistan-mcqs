@@ -26,6 +26,7 @@ const Admin = require("./ai/admin.cjs");
 const AIRecord = require("./ai/record.cjs");
 const ACH = require("./ai/achievements.cjs");
 const AIProvider = require("./providers/ai-provider.cjs");
+const CQ = require("./content-query.cjs");
 
 function parseUrl(req) {
   const parsed = new URL(req.url, `http://${req.headers.host || "localhost"}`);
@@ -46,6 +47,7 @@ const GET_ONLY = new Set([
   "/api/leaderboard", "/api/analytics", "/api/kg/stats", "/api/kg/concepts",
   "/api/kg/micro-concepts", "/api/kg/learning-objectives",
   "/api/kg/learning-paths", "/api/export",
+  "/api/content/search", "/api/content/subjects", "/api/content/types",
   "/health", "/ready", "/api/health"
 ]);
 const POST_ONLY = new Set([
@@ -161,6 +163,22 @@ const server = http.createServer(async (req, res) => {
     if (pathname === "/api/quizzes") return H.json(res, 200, Q.quizzes(), req);
     if (pathname === "/api/mocktests") return H.json(res, 200, Q.mocktests(), req);
     if (pathname === "/api/pastpapers") return H.json(res, 200, Q.pastpapers(), req);
+
+    /* ---------- source-content routes ---------- */
+    if (pathname === "/api/content/stats") return H.json(res, 200, CQ.stats(), req);
+    if (pathname === "/api/content/search" && method === "GET") {
+      return H.json(res, 200, CQ.search(query.q || "", {
+        subject: query.subject, content_type: query.content_type,
+        source: query.source, page: +query.page || 1, limit: +query.limit || 20
+      }), req);
+    }
+    if (pathname === "/api/content/subjects") return H.json(res, 200, CQ.listSubjects(), req);
+    if (pathname === "/api/content/types") return H.json(res, 200, CQ.listTypes(), req);
+    if (pathname.startsWith("/api/content/") && method === "GET") {
+      const id = pathname.slice(13);
+      if (id && !id.includes("/")) { const r = CQ.getById(id); if (r) return H.json(res, 200, r); }
+      return H.json(res, 404, { error: "content not found" }, req);
+    }
 
     if (pathname === "/api/bookmarks" && method === "GET") {
       const bms = U.bookmarks();

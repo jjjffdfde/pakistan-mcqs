@@ -153,15 +153,16 @@
       <span class="brand-badge">PAK</span>
       <span class="brand-text"><strong>MCQs</strong> Hub<small>Pakistan's Free MCQ Bank</small></span>
     </a>
-    <nav class="main-nav" aria-label="Main navigation">
+<nav class="main-nav" aria-label="Main navigation">
       <button class="nav-link" data-view="home">Home</button>
       <button class="nav-link" data-view="browse">Browse MCQs</button>
+      <button class="nav-link" data-view="study">Study</button>
       <button class="nav-link" data-view="practice">Practice</button>
       <button class="nav-link" data-view="quiz">Quizzes</button>
       <button class="nav-link" data-view="papers">Past Papers</button>
-<button class="nav-link" data-view="dashboard">Dashboard</button>
-<button class="nav-link" data-view="ai-coach">AI Coach</button>
-<button class="nav-link" data-view="leaderboard">Leaderboard</button>
+      <button class="nav-link" data-view="dashboard">Dashboard</button>
+      <button class="nav-link" data-view="ai-coach">AI Coach</button>
+      <button class="nav-link" data-view="leaderboard">Leaderboard</button>
       <button class="nav-link" data-view="bookmarks">Bookmarks</button>
       <a class="nav-link" href="subjects/index.html">All Subjects</a>
     </nav>
@@ -457,6 +458,39 @@
     <div id="bookmarkList" class="mcq-list" aria-live="polite"></div>
   </section>
 
+  <section id="view-study" class="view" hidden>
+    <h1 class="page-title">Study Content</h1>
+    <p class="muted">Search and read 5,831+ source content blocks from PDFs across 9 subjects — definitions, facts, paragraphs and structured lists.</p>
+    
+    <!-- Study filters and search -->
+    <div class="filters card">
+      <div class="filter-row">
+        <label>Subject
+          <select id="stSubject">
+            <option value="">All subjects</option>
+          </select>
+        </label>
+        <label>Type
+          <select id="stType">
+            <option value="">All types</option>
+          </select>
+        </label>
+        <label>Search
+          <input type="search" id="stSearch" placeholder="Search content (e.g. 'constitution', 'photosynthesis', 'Mughal')..." aria-label="Search study content">
+        </label>
+        <button id="stSearchBtn" class="btn btn-primary">Search</button>
+        <button id="stReset" class="btn btn-outline btn-sm">Reset</button>
+      </div>
+    </div>
+    
+    <!-- Subject/Type overview cards (shown when no search) -->
+    <div id="stOverview" class="grid grid-subjects" aria-label="Subjects and types"></div>
+    
+    <!-- Search results -->
+    <div id="stResults" class="mcq-list" hidden aria-live="polite"></div>
+    <div id="stPager" class="pager"></div>
+  </section>
+
   <section id="view-ai" class="view" hidden>
     <h1 class="page-title">AI Coach</h1>
     <p class="muted">Personalized learning engine — readiness, adaptive practice, spaced revision, mock predictions and a smart study plan. Requires the self-hosted runtime server.</p>
@@ -488,6 +522,7 @@
     <nav aria-label="Footer">
       <button class="nav-link" data-view="home">Home</button>
       <button class="nav-link" data-view="browse">Browse MCQs</button>
+      <button class="nav-link" data-view="study">Study</button>
       <button class="nav-link" data-view="papers">Past Papers</button>
       <a href="admin.html">Admin</a>
     </nav>

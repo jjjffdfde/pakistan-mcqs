@@ -1,0 +1,30 @@
+{
+  "generated_at": "2026-08-21 08:50:21",
+  "total_records": 5831,
+  "index_location": "E:\\pAK MCQS\\runtime-v2\\indexes\\content",
+  "indexes_created": [
+    "content_by_id.json",
+    "content_by_subject.json",
+    "content_by_type.json",
+    "content_by_source.json",
+    "term/*.json",
+    "manifest.json"
+  ],
+  "subject_counts": {
+    "general-knowledge": 2412,
+    "pakistan-affairs": 1898,
+    "current-affairs": 862,
+    "english": 333,
+    "islamic-studies": 238,
+    "education": 50,
+    "computer-science": 31,
+    "mathematics": 6,
+    "law": 1
+  },
+  "type_counts": {
+    "NON_MCQ": 3304,
+    "PARAGRAPH": 2490,
+    "DEFINITION": 32,
+    "FACT_LIST": 5
+  }
+}

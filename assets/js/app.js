@@ -115,6 +115,23 @@
         year: m.year || null, tags, references: refs, subtopic: m.subtopic_id || "",
         relatedQuestions: m.relatedQuestions || [], source: m.source || "generated"
       };
+    },
+    async contentSearch(q, filters = {}) {
+      if (!this.enabled) return { results: [], total: 0, page: 1, limit: 20, pages: 0 };
+      const params = { q: q || "", ...filters, limit: filters.limit || 20, page: filters.page || 1 };
+      return this.get("/api/content/search" + this.qs(params));
+    },
+    async contentSubjects() {
+      if (!this.enabled) return [];
+      return this.get("/api/content/subjects");
+    },
+    async contentTypes() {
+      if (!this.enabled) return [];
+      return this.get("/api/content/types");
+    },
+    async contentDetail(id) {
+      if (!this.enabled) return null;
+      return this.get("/api/content/" + id);
     }
   };
 
@@ -275,7 +292,7 @@
   }
 
   /* ---------- Routing ---------- */
-  const VIEWS = ["home", "browse", "practice", "quiz", "papers", "dashboard", "leaderboard", "bookmarks"];
+  const VIEWS = ["home", "browse", "study", "practice", "quiz", "papers", "dashboard", "leaderboard", "bookmarks"];
   const BROWSE_KEYS = ["subject", "chapter", "topic", "subtopic", "difficulty", "exam", "year", "type", "page"];
 
   function browseParams() {
@@ -299,6 +316,7 @@
     const qsPart = m[3] || "";
     let view = VIEWS.includes(viewPart) ? viewPart : (viewPart === "ai-coach" ? "ai-coach" : "home");
     if (viewPart === "search") view = "browse";
+    if (viewPart === "study") view = "study";
     const p = new URLSearchParams(qsPart);
     if (view === "ai-coach") {
       const av = document.getElementById("view-ai");
@@ -328,6 +346,7 @@
     window.scrollTo({ top: 0, behavior: "instant" });
     if (view === "home") renderHome();
     if (view === "browse") renderBrowse();
+    if (view === "study") renderStudy();
     if (view === "practice") renderPracticeSetup();
     if (view === "quiz") renderQuizList();
     if (view === "papers") renderPapers();
@@ -869,6 +888,181 @@
     page.forEach((m) => el.appendChild(mcqCard(m, { reveal: false })));
     buildPager($("browsePager"), state.browse.page, pages, (p) => { state.browse.page = p; applyBrowse(); });
     syncUrl();
+  }
+
+  /* ---------- Study (source content) ---------- */
+  const ST_PAGE_SIZE = 20;
+  let stState = { subject: "", content_type: "", search: "", page: 1 };
+
+  async function loadStudyOverview() {
+    const overview = $("stOverview");
+    overview.innerHTML = "";
+    if (DB.enabled) {
+      try {
+        const [subjects, types] = await Promise.all([DB.contentSubjects(), DB.contentTypes()]);
+        subjects.forEach((s) => {
+          const card = document.createElement("a");
+          card.className = "subject-card";
+          card.href = "#study?subject=" + encodeURIComponent(s.subject);
+          card.innerHTML = `<div class="subject-icon">📖</div><div><h3>${esc(s.subject)}</h3><p class="muted">${s.count} blocks</p></div>`;
+          card.addEventListener("click", (ev) => {
+            ev.preventDefault();
+            stState.subject = s.subject;
+            stState.content_type = "";
+            stState.search = "";
+            stState.page = 1;
+            $("stSubject").value = s.subject;
+            $("stType").value = "";
+            $("stSearch").value = "";
+            renderStudyResults();
+          });
+          overview.appendChild(card);
+        });
+        if (types.length) {
+          const typeCard = document.createElement("div");
+          typeCard.className = "subject-card";
+          typeCard.innerHTML = `<div class="subject-icon">🏷️</div><div><h3>By Type</h3><p class="muted">${types.map(t => `${t.type}: ${t.count}`).join(", ")}</p></div>`;
+          overview.appendChild(typeCard);
+        }
+      } catch (e) {
+        overview.innerHTML = `<p class="muted">Failed to load study overview: ${esc(e.message)}</p>`;
+      }
+      return;
+    }
+    overview.innerHTML = `<p class="muted">Study content requires the self-hosted runtime server (node runtime-v2/server.cjs).</p>`;
+  }
+
+  function studyCard(c) {
+    const div = document.createElement("div");
+    div.className = "mcq-card";
+    const subj = c._subject || c.subject || "general";
+    const type = c.content_type || "NON_MCQ";
+    const wordCount = c.word_count || 0;
+    const src = c.pdf || c.source_file || "";
+    const page = c.page ? `p. ${c.page}` : "";
+    div.innerHTML = `
+      <div class="mcq-head">
+        <span class="chip">${esc(subj.replace("-", " ").replace(/\b\w/g, l => l.toUpperCase()))}</span>
+        <span class="chip chip-gray">${esc(type)}</span>
+        <span class="chip chip-gray">${wordCount} words</span>
+        ${page ? `<span class="chip chip-gray">${esc(page)}</span>` : ""}
+      </div>
+      <p class="mcq-question">${esc(c.text ? c.text.slice(0, 300) : "")}${c.text && c.text.length > 300 ? "…" : ""}</p>
+      <div class="mcq-actions">
+        <button class="btn btn-sm btn-primary" data-id="${c.id}">Read Full</button>
+        <span class="muted small">${esc(src)}</span>
+      </div>`;
+    div.querySelector("button[data-id]").addEventListener("click", () => openStudyDetail(c.id));
+    return div;
+  }
+
+  async function renderStudyResults() {
+    const resultsEl = $("stResults");
+    const pagerEl = $("stPager");
+    const overviewEl = $("stOverview");
+    overviewEl.hidden = true;
+    resultsEl.hidden = false;
+
+    if (DB.enabled) {
+      try {
+        const res = await DB.contentSearch(stState.search, {
+          subject: stState.subject, content_type: stState.content_type,
+          page: stState.page, limit: ST_PAGE_SIZE
+        });
+        const list = res.results || [];
+        const total = res.total || 0;
+        const pages = Math.max(1, res.pages || 1);
+        if (stState.page > pages) { stState.page = pages; return renderStudyResults(); }
+
+        resultsEl.innerHTML = `<p class="muted">${total} blocks found${stState.search ? ` for "${esc(stState.search)}"` : ""}${stState.subject ? ` in ${esc(stState.subject)}` : ""}${stState.content_type ? ` (${esc(stState.content_type)})` : ""}</p>`;
+        if (!list.length) { resultsEl.innerHTML += `<p class="muted">No content matches your filters.</p>`; }
+        list.forEach((c) => resultsEl.appendChild(studyCard(c)));
+        buildPager(pagerEl, stState.page, pages, (p) => { stState.page = p; renderStudyResults(); });
+      } catch (e) {
+        resultsEl.innerHTML = `<p class="muted">Search failed: ${esc(e.message)}</p>`;
+      }
+      return;
+    }
+    resultsEl.innerHTML = `<p class="muted">Study search requires the self-hosted runtime server.</p>`;
+  }
+
+  async function openStudyDetail(id) {
+    if (!DB.enabled) { toast("Content detail requires the runtime server"); return; }
+    try {
+      const c = await DB.contentDetail(id);
+      if (!c) { toast("Content not found"); return; }
+      const modal = document.createElement("div");
+      modal.className = "modal";
+      modal.setAttribute("role", "dialog");
+      modal.setAttribute("aria-modal", "true");
+      modal.innerHTML = `
+        <div class="modal-content study-detail">
+          <button class="modal-close" aria-label="Close">&times;</button>
+          <div class="study-detail-head">
+            <span class="chip">${esc(c._subject || c.subject || "general").replace("-", " ").replace(/\b\w/g, l => l.toUpperCase())}</span>
+            <span class="chip chip-gray">${esc(c.content_type || "NON_MCQ")}</span>
+            ${c.word_count ? `<span class="chip chip-gray">${c.word_count} words</span>` : ""}
+            ${c.page ? `<span class="chip chip-gray">p. ${c.page}</span>` : ""}
+          </div>
+          <h2>${esc(c.pdf || c.source_file || "Source")}</h2>
+          <div class="study-text">${esc(c.text || "").replace(/\n/g, "<br>")}</div>
+          <div class="study-meta muted small">
+            ${c.content_hash ? `Hash: ${c.content_hash.slice(0,16)}…` : ""} ${c.indexed_at ? `• Indexed: ${c.indexed_at.slice(0,10)}` : ""}
+          </div>
+        </div>`;
+      document.body.appendChild(modal);
+      modal.querySelector(".modal-close").onclick = () => modal.remove();
+      modal.onclick = (e) => { if (e.target === modal) modal.remove(); };
+      document.addEventListener("keydown", function escHandler(ev) { if (ev.key === "Escape") { modal.remove(); document.removeEventListener("keydown", escHandler); } });
+    } catch (e) { toast("Failed to load content: " + e.message); }
+  }
+
+  function renderStudy() {
+    stState = { subject: "", content_type: "", search: "", page: 1 };
+    const overviewEl = $("stOverview");
+    const resultsEl = $("stResults");
+    const pagerEl = $("stPager");
+    overviewEl.hidden = false;
+    resultsEl.hidden = true;
+    pagerEl.innerHTML = "";
+    loadStudyOverview();
+
+    /* Wire up filters */
+    const subjSel = $("stSubject");
+    const typeSel = $("stType");
+    const searchInp = $("stSearch");
+    const searchBtn = $("stSearchBtn");
+    const resetBtn = $("stReset");
+
+    /* populate subject/type selects from DB if enabled, or from static config */
+    if (DB.enabled) {
+      DB.contentSubjects().then((arr) => {
+        arr.forEach((s) => { const opt = document.createElement("option"); opt.value = s.subject; opt.textContent = `${s.subject} (${s.count})`; subjSel.appendChild(opt); });
+      }).catch(() => {});
+      DB.contentTypes().then((arr) => {
+        arr.forEach((t) => { const opt = document.createElement("option"); opt.value = t.type; opt.textContent = `${t.type} (${t.count})`; typeSel.appendChild(opt); });
+      }).catch(() => {});
+    }
+
+    const doSearch = () => {
+      stState.subject = subjSel.value;
+      stState.content_type = typeSel.value;
+      stState.search = searchInp.value.trim();
+      stState.page = 1;
+      renderStudyResults();
+    };
+    searchBtn.onclick = doSearch;
+    searchInp.addEventListener("keydown", (e) => { if (e.key === "Enter") doSearch(); });
+    subjSel.onchange = doSearch;
+    typeSel.onchange = doSearch;
+    resetBtn.onclick = () => {
+      stState = { subject: "", content_type: "", search: "", page: 1 };
+      subjSel.value = ""; typeSel.value = ""; searchInp.value = "";
+      overviewEl.hidden = false;
+      resultsEl.hidden = true;
+      pagerEl.innerHTML = "";
+      loadStudyOverview();
+    };
   }
 
   /* ---------- Practice ---------- */
