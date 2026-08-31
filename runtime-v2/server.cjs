@@ -27,6 +27,7 @@ const AIRecord = require("./ai/record.cjs");
 const ACH = require("./ai/achievements.cjs");
 const AIProvider = require("./providers/ai-provider.cjs");
 const CQ = require("./content-query.cjs");
+const CML = require("./content-mcq-link.cjs");
 
 function parseUrl(req) {
   const parsed = new URL(req.url, `http://${req.headers.host || "localhost"}`);
@@ -174,6 +175,11 @@ const server = http.createServer(async (req, res) => {
     }
     if (pathname === "/api/content/subjects") return H.json(res, 200, CQ.listSubjects(), req);
     if (pathname === "/api/content/types") return H.json(res, 200, CQ.listTypes(), req);
+    if (pathname.startsWith("/api/content/") && pathname.endsWith("/mcqs") && method === "GET") {
+      const id = pathname.slice(13, -5); /* strip /api/content/ and /mcqs */
+      if (id) { const mcqs = CML.findRelatedMcqsMapped(id, +query.limit || 10); return H.json(res, 200, { content_id: id, mcqs }, req); }
+      return H.json(res, 404, { error: "content not found" }, req);
+    }
     if (pathname.startsWith("/api/content/") && method === "GET") {
       const id = pathname.slice(13);
       if (id && !id.includes("/")) { const r = CQ.getById(id); if (r) return H.json(res, 200, r); }

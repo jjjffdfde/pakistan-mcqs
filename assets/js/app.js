@@ -132,6 +132,10 @@
     async contentDetail(id) {
       if (!this.enabled) return null;
       return this.get("/api/content/" + id);
+    },
+    async contentMcqs(id, limit = 10) {
+      if (!this.enabled) return { content_id: id, mcqs: [] };
+      return this.get("/api/content/" + id + "/mcqs" + this.qs({ limit }));
     }
   };
 
@@ -989,8 +993,12 @@
   async function openStudyDetail(id) {
     if (!DB.enabled) { toast("Content detail requires the runtime server"); return; }
     try {
-      const c = await DB.contentDetail(id);
+      const [c, rel] = await Promise.all([
+        DB.contentDetail(id),
+        DB.contentMcqs(id, 10)
+      ]);
       if (!c) { toast("Content not found"); return; }
+      const relatedMcqs = rel.mcqs || [];
       const modal = document.createElement("div");
       modal.className = "modal";
       modal.setAttribute("role", "dialog");
@@ -1006,15 +1014,75 @@
           </div>
           <h2>${esc(c.pdf || c.source_file || "Source")}</h2>
           <div class="study-text">${esc(c.text || "").replace(/\n/g, "<br>")}</div>
+          ${relatedMcqs.length ? `
+          <div class="study-related">
+            <h3>Related MCQs (${relatedMcqs.length})</h3>
+            <div class="related-mcq-list" id="relatedMcqList"></div>
+            <button class="btn btn-primary btn-sm" id="practiceRelatedBtn" style="margin-top:12px">Practice These ${relatedMcqs.length} MCQs</button>
+          </div>` : `
+          <p class="muted small">No related MCQs found for this content.</p>
+          `}
           <div class="study-meta muted small">
             ${c.content_hash ? `Hash: ${c.content_hash.slice(0,16)}…` : ""} ${c.indexed_at ? `• Indexed: ${c.indexed_at.slice(0,10)}` : ""}
           </div>
         </div>`;
       document.body.appendChild(modal);
+      
+      /* populate related MCQs */
+      const listEl = modal.querySelector("#relatedMcqList");
+      if (listEl && relatedMcqs.length) {
+        relatedMcqs.forEach((m) => {
+          const div = document.createElement("div");
+          div.className = "related-mcq-item";
+          div.innerHTML = `
+            <p class="mcq-question">${esc(m.question)}</p>
+            <div class="mcq-head">
+              <span class="chip">${esc(m.subject)}</span>
+              ${m.difficulty ? `<span class="chip chip-${m.difficulty === "hard" ? "red" : m.difficulty === "medium" ? "gold" : "gray"}">${m.difficulty}</span>` : ""}
+            </div>
+          `;
+          listEl.appendChild(div);
+        });
+      }
+      
+      /* practice button */
+      const practiceBtn = modal.querySelector("#practiceRelatedBtn");
+      if (practiceBtn) {
+        practiceBtn.onclick = () => {
+          modal.remove();
+          startPracticeFromMcqs(relatedMcqs);
+        };
+      }
+      
       modal.querySelector(".modal-close").onclick = () => modal.remove();
       modal.onclick = (e) => { if (e.target === modal) modal.remove(); };
       document.addEventListener("keydown", function escHandler(ev) { if (ev.key === "Escape") { modal.remove(); document.removeEventListener("keydown", escHandler); } });
     } catch (e) { toast("Failed to load content: " + e.message); }
+  }
+  
+  /* start a practice session from a list of MCQs */
+  function startPracticeFromMcqs(mcqs) {
+    if (!mcqs.length) return;
+    state.practice = {
+      list: mcqs,
+      i: 0,
+      correct: 0,
+      answered: 0,
+      wrong: 0,
+      negative: false,
+      mode: "related-content",
+      start: Date.now()
+    };
+    history.replaceState(null, "", "#practice");
+    VIEWS.forEach((v) => { $("view-" + v).hidden = v !== "practice"; });
+    document.querySelectorAll(".nav-link[data-view]").forEach((b) => b.classList.toggle("active", b.dataset.view === "practice"));
+    document.querySelector(".main-nav").classList.remove("open");
+    $("practiceSetup").hidden = true;
+    $("practiceResult").hidden = true;
+    $("practiceArea").hidden = false;
+    hideListChrome("view-practice");
+    renderPracticeQ();
+    scrollToQuizTop();
   }
 
   function renderStudy() {
