@@ -82,6 +82,7 @@ a:hover { text-decoration: underline; }
 }
 .nav-link:hover { background: rgba(255, 255, 255, 0.12); color: #fff; }
 .nav-link.active { background: var(--gold); color: var(--green-900); }
+.nav-divider { width: 1px; background: rgba(255,255,255,0.2); margin: 4px 8px; flex-shrink: 0; }
 .header-actions { display: flex; gap: 8px; }
 .icon-btn {
   background: rgba(255, 255, 255, 0.12); border: none; color: #fff; cursor: pointer;
@@ -159,15 +160,20 @@ a:hover { text-decoration: underline; }
 /* Hero & stats */
 .hero { text-align: center; padding: 46px 0 30px; }
 .hero h1 { font-size: clamp(1.7rem, 4vw, 2.7rem); line-height: 1.2; margin-bottom: 12px; }
-.accent { color: var(--green-600); }
-[data-theme="dark"] .accent { color: #35c17e; }
+.accent { color: var(--gold); }
+[data-theme="dark"] .accent { color: var(--gold); }
 .hero p { color: var(--muted); max-width: 640px; margin: 0 auto 20px; font-size: 1.02rem; }
 .hero-actions { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
 .stats-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 12px; margin-top: 28px; }
-.stat-card { background: var(--card-bg); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px; box-shadow: var(--shadow); }
+.stat-card { background: var(--card-bg); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px; box-shadow: var(--shadow); text-align: center; }
 .stat-card strong { display: block; font-size: 1.7rem; color: var(--green-700); }
 [data-theme="dark"] .stat-card strong { color: #35c17e; }
 .stat-card span { font-size: 0.78rem; color: var(--muted); font-weight: 600; }
+
+/* Home grid layout */
+.home-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 24px; margin-top: 32px; }
+.home-section { background: var(--card-bg); border: 1px solid var(--line); border-radius: var(--radius); padding: 20px; box-shadow: var(--shadow); }
+.home-section .section-title { margin-top: 0; margin-bottom: 16px; padding-bottom: 10px; border-bottom: 1px solid var(--line); }
 
 /* QOTD */
 .qotd-card { max-width: 720px; margin: 8px auto 30px; }
@@ -191,8 +197,14 @@ a:hover { text-decoration: underline; }
   padding: 9px 10px; border-radius: 9px; border: 1px solid var(--line);
   background: var(--card-bg); color: var(--ink); font-family: inherit; font-size: 0.9rem;
 }
+.filter-row label:last-child { flex: 0 0 auto; }
 .setup-panel { margin-bottom: 18px; }
 .setup-panel p { margin-bottom: 12px; color: var(--muted); font-size: 0.9rem; }
+
+/* Study view specific */
+#view-study .filter-row label { flex: 1 1 160px; }
+#stSearch { flex: 2 1 280px; }
+#stSearchBtn, #stReset { flex: 0 0 auto; }
 
 /* MCQ list & cards */
 .mcq-list { display: grid; gap: 14px; margin-top: 14px; }
@@ -279,8 +291,9 @@ a:hover { text-decoration: underline; }
 
 /* Responsive */
 @media (max-width: 860px) {
-  .main-nav { display: none; position: absolute; top: 100%; left: 0; right: 0; background: var(--green-800); flex-direction: column; padding: 10px; }
+  .main-nav { display: none; position: absolute; top: 100%; left: 0; right: 0; background: var(--green-800); flex-direction: column; padding: 10px; gap: 2px; }
   .main-nav.open { display: flex; }
+  .nav-divider { display: none; }
   .menu-btn { display: inline-flex; }
   .header-inner { gap: 10px; }
   .footer-inner { grid-template-columns: 1fr; }
@@ -289,6 +302,7 @@ a:hover { text-decoration: underline; }
 @media (max-width: 560px) {
   .search-bar { flex-direction: column; }
   .hero { padding: 30px 0 20px; }
+  .home-grid { grid-template-columns: 1fr; }
 }
 
 /* Phase 2: search suggestions */
@@ -430,5 +444,39 @@ a:hover { text-decoration: underline; }
 @media (max-width: 600px) {
   .study-text { max-height: 50vh; font-size: 0.95rem; }
   .related-mcq-list { max-height: 25vh; }
+}
+
+/* Study view cards - distinct from MCQ cards */
+.study-card {
+  background: var(--card-bg);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 18px;
+  box-shadow: var(--shadow);
+  border-left: 4px solid var(--gold);
+  transition: transform 0.12s ease, border-color 0.12s ease;
+}
+.study-card:hover {
+  transform: translateY(-2px);
+  border-left-color: var(--green-600);
+}
+.study-card .mcq-head {
+  margin-bottom: 10px;
+}
+.study-card .mcq-question {
+  font-size: 0.98rem;
+  line-height: 1.6;
+  color: var(--ink);
+}
+.study-card .mcq-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid var(--line);
+  align-items: center;
+}
+.study-card .mcq-actions .btn-sm {
+  flex: 1;
 }
 

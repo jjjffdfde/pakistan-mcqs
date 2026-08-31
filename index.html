@@ -153,18 +153,19 @@
       <span class="brand-badge">PAK</span>
       <span class="brand-text"><strong>MCQs</strong> Hub<small>Pakistan's Free MCQ Bank</small></span>
     </a>
-<nav class="main-nav" aria-label="Main navigation">
-      <button class="nav-link" data-view="home">Home</button>
-      <button class="nav-link" data-view="browse">Browse MCQs</button>
-      <button class="nav-link" data-view="study">Study</button>
-      <button class="nav-link" data-view="practice">Practice</button>
-      <button class="nav-link" data-view="quiz">Quizzes</button>
-      <button class="nav-link" data-view="papers">Past Papers</button>
-      <button class="nav-link" data-view="dashboard">Dashboard</button>
-      <button class="nav-link" data-view="ai-coach">AI Coach</button>
-      <button class="nav-link" data-view="leaderboard">Leaderboard</button>
-      <button class="nav-link" data-view="bookmarks">Bookmarks</button>
-      <a class="nav-link" href="subjects/index.html">All Subjects</a>
+    <nav class="main-nav" aria-label="Main navigation" role="menubar">
+      <button class="nav-link" data-view="home" role="menuitem">Home</button>
+      <button class="nav-link" data-view="browse" role="menuitem">Browse MCQs</button>
+      <button class="nav-link" data-view="study" role="menuitem">Study</button>
+      <button class="nav-link" data-view="practice" role="menuitem">Practice</button>
+      <button class="nav-link" data-view="quiz" role="menuitem">Quizzes</button>
+      <button class="nav-link" data-view="papers" role="menuitem">Past Papers</button>
+      <div class="nav-divider" aria-hidden="true"></div>
+      <button class="nav-link" data-view="dashboard" role="menuitem">Dashboard</button>
+      <button class="nav-link" data-view="leaderboard" role="menuitem">Leaderboard</button>
+      <button class="nav-link" data-view="bookmarks" role="menuitem">Bookmarks</button>
+      <button class="nav-link" data-view="ai-coach" role="menuitem">AI Coach</button>
+      <a class="nav-link" href="subjects/index.html" role="menuitem">All Subjects</a>
     </nav>
     <div class="header-actions">
       <span id="dbBadge" class="chip chip-gold" hidden title="Full database connected - searching 872,624 MCQs">DB</span>
@@ -174,8 +175,8 @@
     </div>
   </div>
   <div class="search-bar container">
-    <input type="search" id="globalSearch" placeholder="Instant search 1,338 MCQs (872,624 with full database) - try 'Ohm', 'constitution', 'treaty'..." aria-label="Search MCQs">
-    <button id="searchBtn" class="btn btn-primary">Search</button>
+    <input type="search" id="globalSearch" placeholder="Search 1,338+ MCQs instantly — try 'Ohm', 'constitution', 'treaty'..." aria-label="Search MCQs">
+    <button id="searchBtn" class="btn btn-primary" aria-label="Search">Search</button>
     <div id="searchSuggest" class="search-suggest" role="listbox" hidden></div>
   </div>
   <div id="recentSearches" class="search-bar container" aria-live="polite"></div>
@@ -186,14 +187,14 @@
   <section id="view-home" class="view">
     <div class="hero">
       <h1>Master Every <span class="accent">Pakistani Exam</span> with Free MCQs</h1>
-      <p id="heroTagline">PPSC, FPSC, NTS, OTS, CSS, PMS and more - practice 1,338 original, explanation-based multiple choice questions across 147 subjects instantly, or run the self-hosted server for the full database of 872,624 MCQs across 243 subjects.</p>
+      <p id="heroTagline">PPSC, FPSC, NTS, OTS, CSS, PMS and more — practice 1,338+ original, explanation-based MCQs across 147 subjects instantly. Self-host for 872,000+ MCQs across 243 subjects.</p>
       <div class="hero-actions">
         <button class="btn btn-primary" data-view="practice">Start Practicing</button>
         <button class="btn btn-outline" data-view="quiz">Take a Quiz</button>
-        <button class="btn btn-gold" data-view="dashboard">My Dashboard</button>
+        <button class="btn btn-gold" data-view="study">Study Content</button>
       </div>
       <div id="statsRow" class="stats-row" aria-live="polite">
-        <div class="stat-card"><strong id="statMcqs">1,338</strong><span>MCQs</span></div>
+        <div class="stat-card"><strong id="statMcqs">1,338+</strong><span>MCQs</span></div>
         <div class="stat-card"><strong id="statSubjects">147</strong><span>Subjects</span></div>
         <div class="stat-card"><strong id="statChapters">400</strong><span>Chapters</span></div>
         <div class="stat-card"><strong id="statTopics">719</strong><span>Topics</span></div>
@@ -213,14 +214,20 @@
       <div id="qotdAnswer" class="qotd-answer" hidden></div>
     </div>
 
-    <h2 class="section-title">Exams by Category</h2>
-    <div id="examCatGrid" class="grid grid-exams" aria-label="Exam categories"></div>
-
-    <h2 class="section-title">Browse by Subject</h2>
-    <div id="subjectGrid" class="grid grid-subjects" aria-label="Subjects"></div>
-
-    <h2 class="section-title">Featured Quizzes</h2>
-    <div id="quizGrid" class="grid grid-cards" aria-label="Quizzes"></div>
+    <div class="home-grid">
+      <section class="home-section">
+        <h2 class="section-title">Exams by Category</h2>
+        <div id="examCatGrid" class="grid grid-exams" aria-label="Exam categories"></div>
+      </section>
+      <section class="home-section">
+        <h2 class="section-title">Browse by Subject</h2>
+        <div id="subjectGrid" class="grid grid-subjects" aria-label="Subjects"></div>
+      </section>
+      <section class="home-section">
+        <h2 class="section-title">Featured Quizzes</h2>
+        <div id="quizGrid" class="grid grid-cards" aria-label="Quizzes"></div>
+      </section>
+    </div>
   </section>
 
   <section id="view-browse" class="view" hidden>

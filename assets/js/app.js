@@ -581,10 +581,13 @@
   function renderDbStatus() {
     const el = $("dbStatus");
     const s = DB.enabled && DB.stats;
+    const isLocalhost = location.hostname === "localhost" || location.hostname === "127.0.0.1";
+    
     if (s) {
       el.className = "db-status ok";
+      const apiDisplay = isLocalhost ? esc(DB.api.replace("http://", "")) : "Self-hosted";
       el.innerHTML = `
-        <div class="db-status-head"><span class="dot"></span><strong>SQLite connected</strong><span class="muted">(${esc(DB.api.replace("http://", ""))})</span></div>
+        <div class="db-status-head"><span class="dot"></span><strong>SQLite connected</strong><span class="muted">(${apiDisplay})</span></div>
         <div class="db-status-grid">
           <span><b>${s.mcqs.toLocaleString()}</b> MCQs</span>
           <span><b>${s.subjects.toLocaleString()}</b> subjects</span>
@@ -605,13 +608,18 @@
     const n = DB.enabled ? DB.total : state.mcqs.length;
     const full = CONFIG.dataset.fullDatabase || {};
     const fullN = full.questions || 872624;
+    const fullSubs = full.subjects || 243;
+    const staticSubs = (CONFIG.dataset.staticBank || {}).subjects || 147;
     el.innerHTML = `
       <div class="db-status-head"><span class="dot dot-off"></span><strong>${src}</strong><span class="muted">${n.toLocaleString()} MCQs</span></div>
-      <p class="muted">The static practice bank (${n.toLocaleString()} MCQs, ${(CONFIG.dataset.staticBank || {}).subjects || 147} subjects) works instantly. Self-host the runtime server (<code>node runtime-v2/server.cjs</code>, port 8766) to unlock the full database of ${fullN.toLocaleString()} MCQs across ${full.subjects || 243} subjects, then reload.</p>`;
+      <p class="muted">The static practice bank (${n.toLocaleString()} MCQs, ${staticSubs} subjects) works instantly. Self-host the runtime server to unlock ${fullN.toLocaleString()} MCQs across ${fullSubs} subjects.</p>`;
   }
 
   function renderHome() {
     const st = DB.enabled && DB.stats;
+    const isLocalhost = location.hostname === "localhost" || location.hostname === "127.0.0.1";
+    const dbLabel = isLocalhost ? "local database" : "self-hosted database";
+    
     $("statMcqs").textContent = st ? st.mcqs.toLocaleString() : (DB.enabled ? DB.total.toLocaleString() : state.mcqs.length.toLocaleString());
     $("statSubjects").textContent = st ? st.subjects.toLocaleString() : state.subjects.length.toLocaleString();
     $("statChapters").textContent = st ? st.chapters.toLocaleString() : state.chapters.length.toLocaleString();
@@ -622,10 +630,10 @@
     $("statExams").textContent = st ? st.exams.toLocaleString() : state.exams.length.toLocaleString();
     renderDbStatus();
     if (st) {
-      $("heroTagline").textContent = `Live from the local database: ${st.mcqs.toLocaleString()} original MCQs across ${st.subjects.toLocaleString()} subjects, ${st.chapters.toLocaleString()} chapters and ${st.topics.toLocaleString()} topics — search, practice, quiz and track progress with zero demo data.`;
+      $("heroTagline").textContent = `Live from the ${dbLabel}: ${st.mcqs.toLocaleString()} original MCQs across ${st.subjects.toLocaleString()} subjects, ${st.chapters.toLocaleString()} chapters and ${st.topics.toLocaleString()} topics — search, practice, quiz and track progress with zero demo data.`;
       $("globalSearch").setAttribute("placeholder", `Instant search ${st.mcqs.toLocaleString()} MCQs - try 'Ohm', 'constitution', 'treaty'...`);
     } else {
-      $("globalSearch").setAttribute("placeholder", "Instant search 1,338 MCQs (872,624 with full database) - try 'Ohm', 'constitution', 'treaty'...");
+      $("globalSearch").setAttribute("placeholder", "Search 1,338+ MCQs instantly — try 'Ohm', 'constitution', 'treaty'...");
     }
 
     const ecg = $("examCatGrid");
@@ -938,7 +946,7 @@
 
   function studyCard(c) {
     const div = document.createElement("div");
-    div.className = "mcq-card";
+    div.className = "study-card";
     const subj = c._subject || c.subject || "general";
     const type = c.content_type || "NON_MCQ";
     const wordCount = c.word_count || 0;
@@ -2231,8 +2239,13 @@
       await loadAll();
       if (DB.enabled) {
         const b = $("dbBadge");
+        const isLocalhost = location.hostname === "localhost" || location.hostname === "127.0.0.1";
         b.hidden = false;
-        b.textContent = "SQLite " + (DB.stats ? DB.stats.mcqs.toLocaleString() : (DB.total ? (DB.total / 1000).toFixed(0) + "K" : ""));
+        if (isLocalhost) {
+          b.textContent = "SQLite " + (DB.stats ? DB.stats.mcqs.toLocaleString() : (DB.total ? (DB.total / 1000).toFixed(0) + "K" : ""));
+        } else {
+          b.textContent = "Self-hosted DB";
+        }
       }
       if ($("dbStatus")) renderDbStatus();
     } catch (err) {
