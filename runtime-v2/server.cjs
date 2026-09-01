@@ -28,6 +28,7 @@ const ACH = require("./ai/achievements.cjs");
 const AIProvider = require("./providers/ai-provider.cjs");
 const CQ = require("./content-query.cjs");
 const CML = require("./content-mcq-link.cjs");
+const CE = require("./ai/content-enrichment.cjs");
 
 function parseUrl(req) {
   const parsed = new URL(req.url, `http://${req.headers.host || "localhost"}`);
@@ -179,6 +180,64 @@ const server = http.createServer(async (req, res) => {
       const id = pathname.slice(13, -5); /* strip /api/content/ and /mcqs */
       if (id) { const mcqs = CML.findRelatedMcqsMapped(id, +query.limit || 10); return H.json(res, 200, { content_id: id, mcqs }, req); }
       return H.json(res, 404, { error: "content not found" }, req);
+    }
+    if (pathname.startsWith("/api/content/") && pathname.endsWith("/mcqs") && method === "GET") {
+      const id = pathname.slice(13, -5);
+      const content = CQ.getById(id);
+      if (!content) return H.json(res, 404, { error: "content not found" }, req);
+      try {
+        const mcqs = await CE.generateMCQs(content.text || "", +query.count || 5);
+        return H.json(res, 200, { content_id: id, mcqs }, req);
+      } catch (e) {
+        return H.json(res, 500, { error: e.message }, req);
+      }
+    }
+    if (pathname.startsWith("/api/content/") && pathname.endsWith("/flashcards") && method === "GET") {
+      const id = pathname.slice(13, -11);
+      const content = CQ.getById(id);
+      if (!content) return H.json(res, 404, { error: "content not found" }, req);
+      try {
+        const cards = await CE.generateFlashcards(content.text || "", +query.count || 10);
+        return H.json(res, 200, { content_id: id, flashcards: cards }, req);
+      } catch (e) {
+        return H.json(res, 500, { error: e.message }, req);
+      }
+    }
+    if (pathname.startsWith("/api/content/") && pathname.endsWith("/key-terms") && method === "GET") {
+      const id = pathname.slice(13, -10);
+      const content = CQ.getById(id);
+      if (!content) return H.json(res, 404, { error: "content not found" }, req);
+      try {
+        const terms = await CE.extractKeyTerms(content.text || "", +query.count || 12);
+        return H.json(res, 200, { content_id: id, keyTerms: terms }, req);
+      } catch (e) {
+        return H.json(res, 500, { error: e.message }, req);
+      }
+    }
+    if (pathname.startsWith("/api/content/") && pathname.endsWith("/summary") && method === "GET") {
+      const id = pathname.slice(13, -8);
+      const content = CQ.getById(id);
+      if (!content) return H.json(res, 404, { error: "content not found" }, req);
+      try {
+        const summary = await CE.generateSummary(content.text || "", +query.maxWords || 150);
+        return H.json(res, 200, { content_id: id, summary }, req);
+      } catch (e) {
+        return H.json(res, 500, { error: e.message }, req);
+      }
+    }
+    if (pathname.startsWith("/api/content/") && pathname.endsWith("/enrich") && method === "POST") {
+      const id = pathname.slice(13, -7);
+      if (!id) return H.json(res, 400, { error: "content id required" }, req);
+      const content = CQ.getById(id);
+      if (!content) return H.json(res, 404, { error: "content not found" }, req);
+      try {
+        const body = await H.readJson(req);
+        const types = body.types || ["flashcards", "keyTerms", "summary"];
+        const result = await CE.enrichContent(id, content.text || "", types);
+        return H.json(res, 200, result, req);
+      } catch (e) {
+        return H.json(res, 500, { error: e.message }, req);
+      }
     }
     if (pathname.startsWith("/api/content/") && method === "GET") {
       const id = pathname.slice(13);

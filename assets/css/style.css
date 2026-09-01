@@ -510,3 +510,30 @@ a:hover { text-decoration: underline; }
 .saved-note { background: var(--green-50); border: 1px solid var(--green-100); border-radius: 8px; padding: 12px; margin-top: 12px; font-size: 0.9rem; line-height: 1.6; }
 .progress-stats { margin-top: 12px; display: flex; flex-wrap: wrap; gap: 16px; font-size: 0.75rem; }
 
+/* AI Enrichment Section */
+.study-ai { margin-top: 20px; padding-top: 16px; border-top: 1px solid var(--border); }
+.study-ai h3 { margin: 0 0 12px; font-size: 1.1rem; color: var(--green-700); }
+.ai-controls { display: flex; gap: 8px; margin-bottom: 12px; flex-wrap: wrap; }
+.ai-results { background: var(--green-50); border: 1px solid var(--green-100); border-radius: 8px; padding: 16px; }
+.ai-results h4 { margin: 0 0 12px; font-size: 1rem; color: var(--green-800); }
+.flashcard-list { display: grid; gap: 10px; margin-bottom: 12px; }
+.flashcard-item { background: var(--card-bg); border: 1px solid var(--line); border-radius: 8px; padding: 12px; }
+.flashcard-q { margin-bottom: 8px; font-size: 0.95rem; }
+.flashcard-a { color: var(--green-700); font-size: 0.9rem; padding-top: 8px; border-top: 1px solid var(--line); }
+.key-terms-list { display: grid; gap: 8px; }
+.key-term-item { display: flex; gap: 10px; align-items: flex-start; flex-wrap: wrap; background: var(--card-bg); border: 1px solid var(--line); border-radius: 8px; padding: 10px; }
+.key-term-name { font-weight: 600; color: var(--green-800); min-width: 140px; }
+.key-term-def { flex: 1; font-size: 0.9rem; color: var(--ink); }
+.ai-summary { background: var(--card-bg); border: 1px solid var(--line); border-radius: 8px; padding: 14px; line-height: 1.7; }
+.generated-mcq-list { display: grid; gap: 12px; margin-bottom: 12px; }
+.generated-mcq-item { background: var(--card-bg); border: 1px solid var(--line); border-radius: 8px; padding: 12px; }
+.generated-mcq-item .mcq-question { margin: 0 0 8px; font-size: 0.95rem; }
+.generated-mcq-item .mcq-options { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 8px; }
+.opt-chip { background: var(--body-bg); border: 1px solid var(--line); border-radius: 6px; padding: 4px 10px; font-size: 0.85rem; }
+.opt-chip.correct { background: var(--green-100); border-color: var(--green-600); color: var(--green-700); font-weight: 600; }
+.generated-mcq-item .mcq-explanation { font-size: 0.8rem; padding-top: 8px; border-top: 1px solid var(--line); }
+@media (max-width: 600px) {
+  .ai-controls { flex-direction: column; }
+  .ai-controls .btn { width: 100%; }
+}
+

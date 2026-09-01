@@ -138,6 +138,26 @@
     async contentMcqs(id, limit = 10) {
       if (!this.enabled) return { content_id: id, mcqs: [] };
       return this.get("/api/content/" + id + "/mcqs" + this.qs({ limit }));
+    },
+    async contentEnrich(id, types = ["flashcards", "keyTerms", "summary"]) {
+      if (!this.enabled) return { content_id: id, flashcards: [], keyTerms: [], summary: "" };
+      return this.post("/api/content/" + id + "/enrich", { types });
+    },
+    async contentFlashcards(id, count = 10) {
+      if (!this.enabled) return { content_id: id, flashcards: [] };
+      return this.get("/api/content/" + id + "/flashcards" + this.qs({ count }));
+    },
+    async contentKeyTerms(id, count = 12) {
+      if (!this.enabled) return { content_id: id, keyTerms: [] };
+      return this.get("/api/content/" + id + "/key-terms" + this.qs({ count }));
+    },
+    async contentSummary(id, maxWords = 150) {
+      if (!this.enabled) return { content_id: id, summary: "" };
+      return this.get("/api/content/" + id + "/summary" + this.qs({ maxWords }));
+    },
+    async contentGeneratedMCQs(id, count = 5) {
+      if (!this.enabled) return { content_id: id, mcqs: [] };
+      return this.get("/api/content/" + id + "/mcqs" + this.qs({ count }));
     }
   };
 
@@ -1104,6 +1124,17 @@
               ${progress.timeSpent ? `• Time spent: ${Math.round(progress.timeSpent / 60)} min` : ""}
             </div>
           </div>
+          
+          <div class="study-ai">
+            <h3>AI Enrichment</h3>
+            <div class="ai-controls">
+              <button class="btn btn-sm btn-primary" id="genFlashcardsBtn">🃏 Generate Flashcards</button>
+              <button class="btn btn-sm btn-outline" id="genKeyTermsBtn">🔑 Extract Key Terms</button>
+              <button class="btn btn-sm btn-outline" id="genSummaryBtn">📝 Generate Summary</button>
+              <button class="btn btn-sm btn-outline" id="genMCQsBtn">❓ Generate MCQs</button>
+            </div>
+            <div id="aiResults" class="ai-results" hidden></div>
+          </div>
           <div class="study-meta muted small">
             ${c.content_hash ? `Hash: ${c.content_hash.slice(0,16)}…` : ""} ${c.indexed_at ? `• Indexed: ${c.indexed_at.slice(0,10)}` : ""}
           </div>
@@ -1197,6 +1228,123 @@
         };
       }
 
+      /* AI Enrichment Buttons */
+      const aiResults = modal.querySelector("#aiResults");
+      const showLoading = (btn, text) => { btn.disabled = true; btn.dataset.orig = btn.textContent; btn.textContent = text; };
+      const hideLoading = (btn) => { btn.disabled = false; btn.textContent = btn.dataset.orig || btn.textContent; };
+
+      const flashcardsBtn = modal.querySelector("#genFlashcardsBtn");
+      if (flashcardsBtn) {
+        flashcardsBtn.onclick = async () => {
+          showLoading(flashcardsBtn, "⏳ Generating...");
+          aiResults.hidden = false;
+          aiResults.innerHTML = `<p class="muted">Generating flashcards...</p>`;
+          try {
+            const res = await DB.contentFlashcards(id, 10);
+            const cards = res.flashcards || [];
+            if (!cards.length) { aiResults.innerHTML = `<p class="muted">No flashcards generated.</p>`; return; }
+            aiResults.innerHTML = `
+              <h4>Flashcards (${cards.length})</h4>
+              <div class="flashcard-list">${cards.map((c, i) => `
+                <div class="flashcard-item">
+                  <div class="flashcard-q"><strong>Q${i+1}:</strong> ${esc(c.front)}</div>
+                  <div class="flashcard-a"><strong>A:</strong> ${esc(c.back)}</div>
+                </div>`).join("")}</div>
+              <button class="btn btn-sm btn-primary" id="practiceFlashcardsBtn" style="margin-top:10px">Practice These Flashcards</button>`;
+            modal.querySelector("#practiceFlashcardsBtn")?.addEventListener("click", () => {
+              startPracticeFromFlashcards(cards);
+            });
+          } catch (e) {
+            aiResults.innerHTML = `<p class="muted">Error: ${esc(e.message)}</p>`;
+          } finally {
+            hideLoading(flashcardsBtn);
+          }
+        };
+      }
+
+      const keyTermsBtn = modal.querySelector("#genKeyTermsBtn");
+      if (keyTermsBtn) {
+        keyTermsBtn.onclick = async () => {
+          showLoading(keyTermsBtn, "⏳ Extracting...");
+          aiResults.hidden = false;
+          aiResults.innerHTML = `<p class="muted">Extracting key terms...</p>`;
+          try {
+            const res = await DB.contentKeyTerms(id, 12);
+            const terms = res.keyTerms || [];
+            if (!terms.length) { aiResults.innerHTML = `<p class="muted">No key terms extracted.</p>`; return; }
+            aiResults.innerHTML = `
+              <h4>Key Terms (${terms.length})</h4>
+              <div class="key-terms-list">${terms.map(t => `
+                <div class="key-term-item">
+                  <span class="key-term-name">${esc(t.term)}</span>
+                  <span class="key-term-def">${esc(t.definition)}</span>
+                  <span class="chip chip-${t.importance === "high" ? "red" : t.importance === "medium" ? "gold" : "gray"}">${t.importance}</span>
+                </div>`).join("")}</div>`;
+          } catch (e) {
+            aiResults.innerHTML = `<p class="muted">Error: ${esc(e.message)}</p>`;
+          } finally {
+            hideLoading(keyTermsBtn);
+          }
+        };
+      }
+
+      const summaryBtn = modal.querySelector("#genSummaryBtn");
+      if (summaryBtn) {
+        summaryBtn.onclick = async () => {
+          showLoading(summaryBtn, "⏳ Summarizing...");
+          aiResults.hidden = false;
+          aiResults.innerHTML = `<p class="muted">Generating summary...</p>`;
+          try {
+            const res = await DB.contentSummary(id, 150);
+            const summary = res.summary || "";
+            aiResults.innerHTML = summary ? `
+              <h4>AI Summary</h4>
+              <div class="ai-summary">${esc(summary).replace(/\n/g, "<br>")}</div>
+              <button class="btn btn-sm btn-outline" id="copySummaryBtn" style="margin-top:8px">Copy Summary</button>` : `<p class="muted">No summary generated.</p>`;
+            modal.querySelector("#copySummaryBtn")?.addEventListener("click", () => {
+              navigator.clipboard.writeText(summary);
+              toast("Summary copied to clipboard");
+            });
+          } catch (e) {
+            aiResults.innerHTML = `<p class="muted">Error: ${esc(e.message)}</p>`;
+          } finally {
+            hideLoading(summaryBtn);
+          }
+        };
+      }
+
+      const mcqsBtn = modal.querySelector("#genMCQsBtn");
+      if (mcqsBtn) {
+        mcqsBtn.onclick = async () => {
+          showLoading(mcqsBtn, "⏳ Generating...");
+          aiResults.hidden = false;
+          aiResults.innerHTML = `<p class="muted">Generating MCQs...</p>`;
+          try {
+            const res = await DB.contentGeneratedMCQs(id, 5);
+            const mcqs = res.mcqs || [];
+            if (!mcqs.length) { aiResults.innerHTML = `<p class="muted">No MCQs generated.</p>`; return; }
+            aiResults.innerHTML = `
+              <h4>Generated MCQs (${mcqs.length})</h4>
+              <div class="generated-mcq-list">${mcqs.map((m, i) => `
+                <div class="generated-mcq-item">
+                  <p class="mcq-question"><strong>Q${i+1}:</strong> ${esc(m.question)}</p>
+                  <div class="mcq-options">${["A","B","C","D"].map(k => `
+                    <span class="opt-chip ${k === m.correctAnswer ? "correct" : ""}">${k}. ${esc(m.options[k])}</span>`).join("")}</div>
+                  <div class="mcq-explanation small muted">${esc(m.explanation)}</div>
+                </div>`).join("")}</div>
+              <button class="btn btn-sm btn-primary" id="practiceGeneratedMCQsBtn" style="margin-top:10px">Practice These MCQs</button>`;
+            modal.querySelector("#practiceGeneratedMCQsBtn")?.addEventListener("click", () => {
+              const mapped = mcqs.map(m => ({...m, optionA: m.options.A, optionB: m.options.B, optionC: m.options.C, optionD: m.options.D, correctAnswer: m.correctAnswer, subject: "ai-generated"}));
+              startPracticeFromMcqs(mapped);
+            });
+          } catch (e) {
+            aiResults.innerHTML = `<p class="muted">Error: ${esc(e.message)}</p>`;
+          } finally {
+            hideLoading(mcqsBtn);
+          }
+        };
+      }
+
       modal.querySelector(".modal-close").onclick = () => {
         clearInterval(positionTimer);
         updateStudyTime(id, Math.round((Date.now() - readStart) / 1000));
@@ -1230,6 +1378,29 @@
     hideListChrome("view-practice");
     renderPracticeQ();
     scrollToQuizTop();
+  }
+
+  /* start a practice session from flashcards (convert to MCQ format) */
+  function startPracticeFromFlashcards(cards) {
+    if (!cards.length) return;
+    const mcqs = cards.map((c, i) => ({
+      id: `fc-${i}`,
+      question: c.front,
+      optionA: c.back,
+      optionB: "",
+      optionC: "",
+      optionD: "",
+      correctAnswer: "A",
+      detailedExplanation: c.back,
+      difficulty: "medium",
+      subject: "flashcards",
+      chapter: "",
+      topic: "",
+      year: null,
+      tags: [],
+      source: "ai-flashcard"
+    }));
+    startPracticeFromMcqs(mcqs);
   }
 
   function renderStudy() {
