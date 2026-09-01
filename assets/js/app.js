@@ -158,6 +158,35 @@
     async contentGeneratedMCQs(id, count = 5) {
       if (!this.enabled) return { content_id: id, mcqs: [] };
       return this.get("/api/content/" + id + "/mcqs" + this.qs({ count }));
+    },
+    async flashcardsStats() {
+      if (!this.enabled) return { total: 0, due: 0, newCards: 0, learning: 0, review: 0, avgEasiness: 2.5 };
+      return this.get("/api/flashcards/stats");
+    },
+    async flashcardsList(limit = 50, dueOnly = false) {
+      if (!this.enabled) return { cards: [], total: 0 };
+      return this.get("/api/flashcards" + this.qs({ limit, due: dueOnly }));
+    },
+    async flashcardsDue(limit = 50) {
+      if (!this.enabled) return { cards: [], total: 0 };
+      return this.get("/api/flashcards/due" + this.qs({ limit }));
+    },
+    async flashcardsAdd(cards) {
+      if (!this.enabled) return { added: 0, total: 0 };
+      return this.post("/api/flashcards", { cards });
+    },
+    async flashcardReview(id, quality) {
+      if (!this.enabled) return { error: "not available" };
+      return this.post("/api/flashcards/" + id + "/review", { quality });
+    },
+    async flashcardReset(id) {
+      if (!this.enabled) return { error: "not available" };
+      return this.post("/api/flashcards/" + id + "/reset", {});
+    },
+    async flashcardDelete(id) {
+      if (!this.enabled) return { error: "not available" };
+      const res = await fetch(this.api + "/api/flashcards/" + id, { method: "DELETE", headers: { "Content-Type": "application/json" } });
+      return res.json();
     }
   };
 
@@ -318,7 +347,7 @@
   }
 
   /* ---------- Routing ---------- */
-  const VIEWS = ["home", "browse", "study", "study-library", "practice", "quiz", "papers", "dashboard", "leaderboard", "bookmarks"];
+  const VIEWS = ["home", "browse", "study", "study-library", "flashcards", "practice", "quiz", "papers", "dashboard", "leaderboard", "bookmarks"];
   const BROWSE_KEYS = ["subject", "chapter", "topic", "subtopic", "difficulty", "exam", "year", "type", "page"];
 
   function browseParams() {
@@ -344,6 +373,7 @@
     if (viewPart === "search") view = "browse";
     if (viewPart === "study") view = "study";
     if (viewPart === "study-library") view = "study-library";
+    if (viewPart === "flashcards") view = "flashcards";
     const p = new URLSearchParams(qsPart);
     if (view === "ai-coach") {
       const av = document.getElementById("view-ai");
@@ -375,6 +405,7 @@
     if (view === "browse") renderBrowse();
     if (view === "study") renderStudy();
     if (view === "study-library") renderStudyLibrary();
+    if (view === "flashcards") renderFlashcards();
     if (view === "practice") renderPracticeSetup();
     if (view === "quiz") renderQuizList();
     if (view === "papers") renderPapers();
@@ -1556,6 +1587,252 @@
     filterSel.onchange = renderList;
     sortSel.onchange = renderList;
     renderList();
+  }
+
+  /* ---------- Flashcards (Spaced Repetition) ---------- */
+  async function renderFlashcards() {
+    const listEl = $("fcList");
+    const emptyEl = $("fcEmpty");
+    const statsEl = { total: $("fcTotal"), due: $("fcDue"), new: $("fcNew"), learning: $("fcLearning"), review: $("fcReview") };
+    const viewSel = $("fcView");
+    const addBtn = $("fcAddBtn");
+    const importBtn = $("fcImportBtn");
+
+    /* Load stats */
+    async function loadStats() {
+      if (!DB.enabled) return;
+      try {
+        const s = await DB.flashcardsStats();
+        statsEl.total.textContent = s.total;
+        statsEl.due.textContent = s.due;
+        statsEl.new.textContent = s.newCards;
+        statsEl.learning.textContent = s.learning;
+        statsEl.review.textContent = s.review;
+      } catch (e) { console.error(e); }
+    }
+
+    /* Render card list */
+    async function renderList() {
+      const view = viewSel.value;
+      listEl.innerHTML = "";
+      emptyEl.hidden = true;
+
+      if (!DB.enabled) {
+        emptyEl.textContent = "Flashcards require the self-hosted runtime server.";
+        emptyEl.hidden = false;
+        return;
+      }
+
+      let cards;
+      try {
+        if (view === "due") {
+          const res = await DB.flashcardsDue(100);
+          cards = res.cards || [];
+        } else {
+          const res = await DB.flashcardsList(200, view === "due");
+          let all = res.cards || [];
+          if (view === "new") all = all.filter(c => c.repetitions === 0);
+          else if (view === "learning") all = all.filter(c => c.repetitions > 0 && c.repetitions < 3);
+          else if (view === "review") all = all.filter(c => c.repetitions >= 3);
+          cards = all;
+        }
+      } catch (e) {
+        console.error(e);
+        emptyEl.textContent = "Failed to load flashcards.";
+        emptyEl.hidden = false;
+        return;
+      }
+
+      if (!cards.length) {
+        emptyEl.textContent = view === "due" 
+          ? "No cards due for review. Great job! 🎉"
+          : "No flashcards yet. Add cards manually or import from Study content using AI.";
+        emptyEl.hidden = false;
+        return;
+      }
+
+      cards.forEach(card => {
+        const div = document.createElement("div");
+        div.className = "flashcard-item";
+        div.dataset.id = card.id;
+        const due = card.dueDate <= new Date().toISOString().slice(0, 10);
+        const statusClass = due ? "chip-green" : "chip-gray";
+        const statusText = due ? "Due" : `Due ${card.dueDate}`;
+        div.innerHTML = `
+          <div class="flashcard-front">${esc(card.front)}</div>
+          <div class="flashcard-back" hidden>${esc(card.back)}</div>
+          <div class="flashcard-meta">
+            <span class="chip ${statusClass}">${statusText}</span>
+            <span class="chip chip-gray">Interval: ${card.interval}d</span>
+            <span class="chip chip-gray">Easiness: ${card.easiness}</span>
+            <span class="chip chip-gray">Reps: ${card.repetitions}</span>
+          </div>
+          <div class="flashcard-actions">
+            <button class="btn btn-sm btn-outline fc-flip" aria-label="Flip card">Flip</button>
+            ${due ? `<button class="btn btn-sm btn-primary fc-review" data-quality="3">Good (3)</button>` : ""}
+            ${due ? `<button class="btn btn-sm btn-outline fc-hard" data-quality="2">Hard (2)</button>` : ""}
+            ${due ? `<button class="btn btn-sm btn-outline fc-easy" data-quality="4">Easy (4)</button>` : ""}
+            <button class="btn btn-sm btn-outline fc-delete" aria-label="Delete card">Delete</button>
+          </div>
+        `;
+        listEl.appendChild(div);
+      });
+
+      /* Wire up actions */
+      listEl.querySelectorAll(".fc-flip").forEach(btn => {
+        btn.onclick = () => {
+          const item = btn.closest(".flashcard-item");
+          item.querySelector(".flashcard-front").hidden = !item.querySelector(".flashcard-front").hidden;
+          item.querySelector(".flashcard-back").hidden = !item.querySelector(".flashcard-back").hidden;
+          btn.textContent = item.querySelector(".flashcard-front").hidden ? "Show Front" : "Flip";
+        };
+      });
+      listEl.querySelectorAll(".fc-review, .fc-hard, .fc-easy").forEach(btn => {
+        btn.onclick = async () => {
+          const item = btn.closest(".flashcard-item");
+          const id = item.dataset.id;
+          const quality = +btn.dataset.quality;
+          btn.disabled = true;
+          btn.textContent = "...";
+          try {
+            const res = await DB.flashcardReview(id, quality);
+            if (res.card) {
+              /* Update card in place */
+              item.querySelector(".flashcard-meta").innerHTML = `
+                <span class="chip ${res.card.dueDate <= new Date().toISOString().slice(0, 10) ? "chip-green" : "chip-gray"}">${res.card.dueDate <= new Date().toISOString().slice(0, 10) ? "Due" : `Due ${res.card.dueDate}`}</span>
+                <span class="chip chip-gray">Interval: ${res.card.interval}d</span>
+                <span class="chip chip-gray">Easiness: ${res.card.easiness}</span>
+                <span class="chip chip-gray">Reps: ${res.card.repetitions}</span>
+              `;
+              if (res.card.dueDate > new Date().toISOString().slice(0, 10)) {
+                /* Card no longer due - remove if in due view */
+                if (viewSel.value === "due") {
+                  item.remove();
+                  if (!listEl.querySelector(".flashcard-item")) {
+                    emptyEl.textContent = "No cards due for review. Great job! 🎉";
+                    emptyEl.hidden = false;
+                  }
+                }
+              }
+              await loadStats();
+            }
+          } catch (e) {
+            toast("Error: " + e.message);
+          }
+        };
+      });
+      listEl.querySelectorAll(".fc-delete").forEach(btn => {
+        btn.onclick = async () => {
+          const item = btn.closest(".flashcard-item");
+          const id = item.dataset.id;
+          if (!confirm("Delete this flashcard?")) return;
+          try {
+            await DB.flashcardDelete(id);
+            item.remove();
+            await loadStats();
+            if (!listEl.querySelector(".flashcard-item")) {
+              emptyEl.textContent = "No flashcards found.";
+              emptyEl.hidden = false;
+            }
+          } catch (e) { toast("Error: " + e.message); }
+        };
+      });
+    }
+
+    /* Add card modal */
+    addBtn.onclick = () => openAddCardModal();
+    importBtn.onclick = () => openImportModal();
+
+    /* Initial load */
+    await loadStats();
+    await renderList();
+
+    viewSel.onchange = renderList;
+  }
+
+  function openAddCardModal() {
+    const modal = document.createElement("div");
+    modal.className = "modal";
+    modal.setAttribute("role", "dialog");
+    modal.setAttribute("aria-modal", "true");
+    modal.innerHTML = `
+      <div class="modal-content" style="max-width: 600px;">
+        <button class="modal-close" aria-label="Close">&times;</button>
+        <h2>Add Flashcard</h2>
+        <div class="form-group" style="margin-top:16px;">
+          <label>Front (Question)</label>
+          <textarea id="fcFront" rows="3" style="width:100%;padding:10px;border:1px solid var(--line);border-radius:8px;font-family:inherit;"></textarea>
+        </div>
+        <div class="form-group" style="margin-top:12px;">
+          <label>Back (Answer)</label>
+          <textarea id="fcBack" rows="3" style="width:100%;padding:10px;border:1px solid var(--line);border-radius:8px;font-family:inherit;"></textarea>
+        </div>
+        <div style="margin-top:16px;display:flex;gap:8px;justify-content:flex-end;">
+          <button class="btn btn-outline" id="fcCancelAdd">Cancel</button>
+          <button class="btn btn-primary" id="fcSaveAdd">Save</button>
+        </div>
+      </div>`;
+    document.body.appendChild(modal);
+    const front = modal.querySelector("#fcFront");
+    const back = modal.querySelector("#fcBack");
+    front.focus();
+    modal.querySelector("#fcSaveAdd").onclick = async () => {
+      const f = front.value.trim();
+      const b = back.value.trim();
+      if (!f || !b) { toast("Both sides required"); return; }
+      try {
+        await DB.flashcardsAdd([{ front: f, back: b, source: "manual" }]);
+        modal.remove();
+        toast("Flashcard added");
+        renderFlashcards(); /* refresh */
+      } catch (e) { toast("Error: " + e.message); }
+    };
+    modal.querySelector("#fcCancelAdd").onclick = () => modal.remove();
+    modal.querySelector(".modal-close").onclick = () => modal.remove();
+    modal.onclick = (e) => { if (e.target === modal) modal.remove(); };
+  }
+
+  function openImportModal() {
+    /* Get study content that has AI flashcards */
+    if (!DB.enabled) { toast("Import requires the runtime server"); return; }
+    
+    /* For now, show a simple prompt to enter content ID */
+    const modal = document.createElement("div");
+    modal.className = "modal";
+    modal.setAttribute("role", "dialog");
+    modal.setAttribute("aria-modal", "true");
+    modal.innerHTML = `
+      <div class="modal-content" style="max-width: 600px;">
+        <button class="modal-close" aria-label="Close">&times;</button>
+        <h2>Import Flashcards from Study Content</h2>
+        <p class="muted small">Enter a content ID (e.g., c0000001) to generate and import flashcards.</p>
+        <input type="text" id="fcImportId" placeholder="c0000001" style="width:100%;padding:10px;border:1px solid var(--line);border-radius:8px;margin-top:12px;">
+        <div style="margin-top:16px;display:flex;gap:8px;justify-content:flex-end;">
+          <button class="btn btn-outline" id="fcCancelImport">Cancel</button>
+          <button class="btn btn-primary" id="fcDoImport">Generate & Import</button>
+        </div>
+      </div>`;
+    document.body.appendChild(modal);
+    const input = modal.querySelector("#fcImportId");
+    input.focus();
+    modal.querySelector("#fcDoImport").onclick = async () => {
+      const id = input.value.trim();
+      if (!id) { toast("Enter a content ID"); return; }
+      modal.querySelector("#fcDoImport").disabled = true;
+      modal.querySelector("#fcDoImport").textContent = "Generating...";
+      try {
+        const res = await DB.contentFlashcards(id, 20);
+        const cards = res.flashcards || [];
+        if (!cards.length) { toast("No flashcards generated"); return; }
+        await DB.flashcardsAdd(cards.map(c => ({ ...c, source: "ai", sourceId: id })));
+        modal.remove();
+        toast(`Imported ${cards.length} flashcards`);
+        renderFlashcards();
+      } catch (e) { toast("Error: " + e.message); }
+    };
+    modal.querySelector("#fcCancelImport").onclick = () => modal.remove();
+    modal.querySelector(".modal-close").onclick = () => modal.remove();
+    modal.onclick = (e) => { if (e.target === modal) modal.remove(); };
   }
 
   /* ---------- Practice ---------- */

@@ -537,3 +537,29 @@ a:hover { text-decoration: underline; }
   .ai-controls .btn { width: 100%; }
 }
 
+/* Flashcards View */
+.flashcards-header { margin-bottom: 20px; }
+.flashcards-header .page-title { margin-bottom: 8px; }
+.flashcards-header .muted { margin-bottom: 16px; }
+#fcStatsRow { margin-top: 16px; }
+
+.flashcards-list { display: grid; gap: 14px; margin-top: 16px; }
+.flashcard-item {
+  background: var(--card-bg);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 18px;
+  box-shadow: var(--shadow);
+  transition: transform 0.12s ease, border-color 0.12s ease;
+}
+.flashcard-item:hover { transform: translateY(-2px); border-color: var(--green-500); }
+.flashcard-front { font-weight: 600; font-size: 1.02rem; margin-bottom: 12px; }
+.flashcard-back { background: var(--green-50); border: 1px solid var(--green-100); border-radius: 8px; padding: 14px; line-height: 1.6; font-size: 0.95rem; color: var(--green-800); }
+.flashcard-meta { display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0; }
+.flashcard-actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--line); }
+.flashcard-actions .btn { flex: 1; min-width: 100px; }
+@media (max-width: 600px) {
+  .flashcard-actions .btn { width: 100%; }
+  .flashcard-meta { flex-direction: column; gap: 6px; }
+}
+

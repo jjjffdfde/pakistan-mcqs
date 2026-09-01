@@ -29,6 +29,7 @@ const AIProvider = require("./providers/ai-provider.cjs");
 const CQ = require("./content-query.cjs");
 const CML = require("./content-mcq-link.cjs");
 const CE = require("./ai/content-enrichment.cjs");
+const FC = require("./flashcards.cjs");
 
 function parseUrl(req) {
   const parsed = new URL(req.url, `http://${req.headers.host || "localhost"}`);
@@ -243,6 +244,54 @@ const server = http.createServer(async (req, res) => {
       const id = pathname.slice(13);
       if (id && !id.includes("/")) { const r = CQ.getById(id); if (r) return H.json(res, 200, r); }
       return H.json(res, 404, { error: "content not found" }, req);
+    }
+
+    /* ---------- Flashcards (Spaced Repetition) ---------- */
+    if (pathname === "/api/flashcards/stats" && method === "GET") {
+      return H.json(res, 200, FC.getStats(FC.loadFlashcards()), req);
+    }
+    if (pathname === "/api/flashcards" && method === "GET") {
+      const limit = +query.limit || 50;
+      const dueOnly = query.due === "true";
+      const cards = dueOnly ? FC.getDueCards(FC.loadFlashcards(), limit) : FC.getAllCards(FC.loadFlashcards());
+      return H.json(res, 200, { cards, total: cards.length }, req);
+    }
+    if (pathname === "/api/flashcards/due" && method === "GET") {
+      const limit = +query.limit || 50;
+      const cards = FC.getDueCards(FC.loadFlashcards(), limit);
+      return H.json(res, 200, { cards, total: cards.length }, req);
+    }
+    if (pathname === "/api/flashcards" && method === "POST") {
+      const body = await H.readJson(req);
+      if (body.cards && Array.isArray(body.cards)) {
+        const result = FC.addFlashcards(body.cards);
+        return H.json(res, 201, result, req);
+      }
+      /* single card */
+      if (body.front && body.back) {
+        const result = FC.addFlashcards([{ front: body.front, back: body.back, source: body.source || "manual", sourceId: body.sourceId || null }]);
+        return H.json(res, 201, result, req);
+      }
+      return H.json(res, 400, { error: "front and back required" }, req);
+    }
+    if (pathname.startsWith("/api/flashcards/") && method === "POST") {
+      const id = pathname.slice(16); /* /api/flashcards/ */
+      if (pathname.endsWith("/review")) {
+        const body = await H.readJson(req);
+        const quality = +body.quality;
+        const result = FC.recordAnswer(id, quality);
+        return result.error ? H.json(res, 400, result, req) : H.json(res, 200, result, req);
+      }
+      if (pathname.endsWith("/reset")) {
+        const result = FC.resetCard(id);
+        return result.error ? H.json(res, 404, result, req) : H.json(res, 200, result, req);
+      }
+      return H.json(res, 404, { error: "flashcard sub-action not found" }, req);
+    }
+    if (pathname.startsWith("/api/flashcards/") && method === "DELETE") {
+      const id = pathname.slice(16);
+      const result = FC.deleteCard(id);
+      return result.error ? H.json(res, 404, result, req) : H.json(res, 200, result, req);
     }
 
     if (pathname === "/api/bookmarks" && method === "GET") {

@@ -158,6 +158,7 @@
       <button class="nav-link" data-view="browse" role="menuitem">Browse MCQs</button>
       <button class="nav-link" data-view="study" role="menuitem">Study</button>
       <button class="nav-link" data-view="study-library" role="menuitem">My Library</button>
+      <button class="nav-link" data-view="flashcards" role="menuitem">Flashcards</button>
       <button class="nav-link" data-view="practice" role="menuitem">Practice</button>
       <button class="nav-link" data-view="quiz" role="menuitem">Quizzes</button>
       <button class="nav-link" data-view="papers" role="menuitem">Past Papers</button>
@@ -503,6 +504,39 @@
     <div id="studyLibContainer"></div>
   </section>
 
+  <section id="view-flashcards" class="view" hidden>
+    <div class="flashcards-header">
+      <h1 class="page-title">Flashcards</h1>
+      <p class="muted">Spaced repetition with SM-2 algorithm — review cards at optimal intervals for long-term retention.</p>
+      <div class="stats-row" id="fcStatsRow">
+        <div class="stat-card"><strong id="fcTotal">0</strong><span>Total</span></div>
+        <div class="stat-card"><strong id="fcDue">0</strong><span>Due Now</span></div>
+        <div class="stat-card"><strong id="fcNew">0</strong><span>New</span></div>
+        <div class="stat-card"><strong id="fcLearning">0</strong><span>Learning</span></div>
+        <div class="stat-card"><strong id="fcReview">0</strong><span>Review</span></div>
+      </div>
+    </div>
+    
+    <div class="filters card">
+      <div class="filter-row">
+        <label>View
+          <select id="fcView">
+            <option value="due">Due Cards</option>
+            <option value="all">All Cards</option>
+            <option value="new">New</option>
+            <option value="learning">Learning</option>
+            <option value="review">Review</option>
+          </select>
+        </label>
+        <button id="fcAddBtn" class="btn btn-primary">Add Card</button>
+        <button id="fcImportBtn" class="btn btn-outline">Import from Study</button>
+      </div>
+    </div>
+    
+    <div id="fcList" class="flashcards-list"></div>
+    <div id="fcEmpty" class="muted" hidden>No flashcards yet. Add cards manually or import from Study content using AI.</div>
+  </section>
+
   <section id="view-ai" class="view" hidden>
     <h1 class="page-title">AI Coach</h1>
     <p class="muted">Personalized learning engine — readiness, adaptive practice, spaced revision, mock predictions and a smart study plan. Requires the self-hosted runtime server.</p>
@@ -536,6 +570,7 @@
       <button class="nav-link" data-view="browse">Browse MCQs</button>
       <button class="nav-link" data-view="study">Study</button>
       <button class="nav-link" data-view="study-library">My Library</button>
+      <button class="nav-link" data-view="flashcards">Flashcards</button>
       <button class="nav-link" data-view="papers">Past Papers</button>
       <a href="admin.html">Admin</a>
     </nav>
