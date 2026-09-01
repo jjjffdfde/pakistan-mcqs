@@ -28,6 +28,7 @@
     theme: localStorage.getItem("pmh_theme") || "light",
     user: JSON.parse(localStorage.getItem("pmh_user") || "null") || { name: "Student", createdAt: Date.now() },
     analytics: JSON.parse(localStorage.getItem("pmh_analytics") || "{}"),
+    studyProgress: JSON.parse(localStorage.getItem("pmh_study_progress") || "{}"),
     browse: { subject: "", chapter: "", topic: "", subtopic: "", difficulty: "", exam: "", year: "", type: "", page: 1, search: "", related: null },
     practice: null,
     quiz: null,
@@ -49,6 +50,7 @@
   /* ---------- Persistence ---------- */
   const saveUser = () => localStorage.setItem("pmh_user", JSON.stringify(state.user));
   const saveAnalytics = () => localStorage.setItem("pmh_analytics", JSON.stringify(state.analytics));
+  const saveStudyProgress = () => localStorage.setItem("pmh_study_progress", JSON.stringify(state.studyProgress));
   const saveWeek = () => localStorage.setItem("pmh_week", JSON.stringify(state.week));
   const saveMonth = () => localStorage.setItem("pmh_month", JSON.stringify(state.month));
 
@@ -296,7 +298,7 @@
   }
 
   /* ---------- Routing ---------- */
-  const VIEWS = ["home", "browse", "study", "practice", "quiz", "papers", "dashboard", "leaderboard", "bookmarks"];
+  const VIEWS = ["home", "browse", "study", "study-library", "practice", "quiz", "papers", "dashboard", "leaderboard", "bookmarks"];
   const BROWSE_KEYS = ["subject", "chapter", "topic", "subtopic", "difficulty", "exam", "year", "type", "page"];
 
   function browseParams() {
@@ -321,6 +323,7 @@
     let view = VIEWS.includes(viewPart) ? viewPart : (viewPart === "ai-coach" ? "ai-coach" : "home");
     if (viewPart === "search") view = "browse";
     if (viewPart === "study") view = "study";
+    if (viewPart === "study-library") view = "study-library";
     const p = new URLSearchParams(qsPart);
     if (view === "ai-coach") {
       const av = document.getElementById("view-ai");
@@ -351,6 +354,7 @@
     if (view === "home") renderHome();
     if (view === "browse") renderBrowse();
     if (view === "study") renderStudy();
+    if (view === "study-library") renderStudyLibrary();
     if (view === "practice") renderPracticeSetup();
     if (view === "quiz") renderQuizList();
     if (view === "papers") renderPapers();
@@ -451,6 +455,53 @@
     t.hidden = false;
     clearTimeout(t._tm);
     t._tm = setTimeout(() => { t.hidden = true; }, 2200);
+  }
+
+  /* ---------- Study Progress Tracking ---------- */
+  function getStudyProgress(contentId) {
+    return state.studyProgress[contentId] || { read: false, readAt: null, notes: "", timeSpent: 0, lastPosition: 0 };
+  }
+
+  function updateStudyProgress(contentId, updates) {
+    const existing = state.studyProgress[contentId] || { read: false, readAt: null, notes: "", timeSpent: 0, lastPosition: 0 };
+    state.studyProgress[contentId] = { ...existing, ...updates };
+    if (updates.read && !existing.read) {
+      state.studyProgress[contentId].readAt = new Date().toISOString();
+    }
+    saveStudyProgress();
+    return state.studyProgress[contentId];
+  }
+
+  function markContentRead(contentId, read = true) {
+    return updateStudyProgress(contentId, { read });
+  }
+
+  function addStudyNote(contentId, note) {
+    return updateStudyProgress(contentId, { notes: note.slice(0, 2000) });
+  }
+
+  function updateStudyTime(contentId, additionalSec) {
+    const existing = getStudyProgress(contentId);
+    return updateStudyProgress(contentId, { timeSpent: existing.timeSpent + additionalSec });
+  }
+
+  function updateStudyPosition(contentId, position) {
+    return updateStudyProgress(contentId, { lastPosition: position });
+  }
+
+  function getAllStudyProgress() {
+    return Object.entries(state.studyProgress)
+      .filter(([, v]) => v.read || v.notes)
+      .map(([id, v]) => ({ contentId: id, ...v }))
+      .sort((a, b) => (b.readAt || "").localeCompare(a.readAt || ""));
+  }
+
+  function getStudyStats() {
+    const all = getAllStudyProgress();
+    const read = all.filter((x) => x.read).length;
+    const withNotes = all.filter((x) => x.notes).length;
+    const totalTime = all.reduce((sum, x) => sum + (x.timeSpent || 0), 0);
+    return { totalTracked: all.length, read, withNotes, totalTimeSec: totalTime };
   }
 
   /* ---------- AI: fuzzy search scoring ---------- */
@@ -1007,6 +1058,7 @@
       ]);
       if (!c) { toast("Content not found"); return; }
       const relatedMcqs = rel.mcqs || [];
+      const progress = getStudyProgress(id);
       const modal = document.createElement("div");
       modal.className = "modal";
       modal.setAttribute("role", "dialog");
@@ -1019,9 +1071,10 @@
             <span class="chip chip-gray">${esc(c.content_type || "NON_MCQ")}</span>
             ${c.word_count ? `<span class="chip chip-gray">${c.word_count} words</span>` : ""}
             ${c.page ? `<span class="chip chip-gray">p. ${c.page}</span>` : ""}
+            ${progress.read ? `<span class="chip chip-green">✓ Read</span>` : `<span class="chip chip-gray">Not read</span>`}
           </div>
           <h2>${esc(c.pdf || c.source_file || "Source")}</h2>
-          <div class="study-text">${esc(c.text || "").replace(/\n/g, "<br>")}</div>
+          <div class="study-text" id="studyTextContent">${esc(c.text || "").replace(/\n/g, "<br>")}</div>
           ${relatedMcqs.length ? `
           <div class="study-related">
             <h3>Related MCQs (${relatedMcqs.length})</h3>
@@ -1030,12 +1083,39 @@
           </div>` : `
           <p class="muted small">No related MCQs found for this content.</p>
           `}
+          <div class="study-progress">
+            <h3>Your Progress</h3>
+            <div class="progress-controls">
+              <button class="btn btn-sm ${progress.read ? "btn-gold" : "btn-primary"}" id="markReadBtn">
+                ${progress.read ? "✓ Marked as Read" : "Mark as Read"}
+              </button>
+              <button class="btn btn-sm btn-outline" id="addNoteBtn">Add Note</button>
+            </div>
+            <div id="noteArea" class="note-area" hidden>
+              <textarea id="studyNoteInput" placeholder="Add your personal notes..." rows="3">${esc(progress.notes || "")}</textarea>
+              <div class="note-actions">
+                <button class="btn btn-sm btn-primary" id="saveNoteBtn">Save Note</button>
+                <button class="btn btn-sm btn-outline" id="cancelNoteBtn">Cancel</button>
+              </div>
+            </div>
+            ${progress.notes ? `<div class="saved-note"><strong>Your Note:</strong><br>${esc(progress.notes).replace(/\n/g, "<br>")}</div>` : ""}
+            <div class="progress-stats muted small">
+              ${progress.read ? `• Read on ${new Date(progress.readAt).toLocaleDateString()}` : ""}
+              ${progress.timeSpent ? `• Time spent: ${Math.round(progress.timeSpent / 60)} min` : ""}
+            </div>
+          </div>
           <div class="study-meta muted small">
             ${c.content_hash ? `Hash: ${c.content_hash.slice(0,16)}…` : ""} ${c.indexed_at ? `• Indexed: ${c.indexed_at.slice(0,10)}` : ""}
           </div>
         </div>`;
       document.body.appendChild(modal);
-      
+
+      /* track reading time */
+      let readStart = Date.now();
+      let positionTimer = setInterval(() => {
+        updateStudyPosition(id, window.scrollY);
+      }, 5000);
+
       /* populate related MCQs */
       const listEl = modal.querySelector("#relatedMcqList");
       if (listEl && relatedMcqs.length) {
@@ -1052,19 +1132,78 @@
           listEl.appendChild(div);
         });
       }
-      
+
       /* practice button */
       const practiceBtn = modal.querySelector("#practiceRelatedBtn");
       if (practiceBtn) {
         practiceBtn.onclick = () => {
+          clearInterval(positionTimer);
+          updateStudyTime(id, Math.round((Date.now() - readStart) / 1000));
           modal.remove();
           startPracticeFromMcqs(relatedMcqs);
         };
       }
-      
-      modal.querySelector(".modal-close").onclick = () => modal.remove();
-      modal.onclick = (e) => { if (e.target === modal) modal.remove(); };
-      document.addEventListener("keydown", function escHandler(ev) { if (ev.key === "Escape") { modal.remove(); document.removeEventListener("keydown", escHandler); } });
+
+      /* mark read button */
+      const markReadBtn = modal.querySelector("#markReadBtn");
+      if (markReadBtn) {
+        markReadBtn.onclick = () => {
+          const newProgress = markContentRead(id, !progress.read);
+          markReadBtn.textContent = newProgress.read ? "✓ Marked as Read" : "Mark as Read";
+          markReadBtn.className = `btn btn-sm ${newProgress.read ? "btn-gold" : "btn-primary"}`;
+          modal.querySelector(".study-detail-head .chip:last-child").textContent = newProgress.read ? "✓ Read" : "Not read";
+          modal.querySelector(".study-detail-head .chip:last-child").className = `chip ${newProgress.read ? "chip-green" : "chip-gray"}`;
+          toast(newProgress.read ? "Marked as read" : "Marked as unread");
+        };
+      }
+
+      /* notes */
+      const addNoteBtn = modal.querySelector("#addNoteBtn");
+      const noteArea = modal.querySelector("#noteArea");
+      const saveNoteBtn = modal.querySelector("#saveNoteBtn");
+      const cancelNoteBtn = modal.querySelector("#cancelNoteBtn");
+      const noteInput = modal.querySelector("#studyNoteInput");
+
+      if (addNoteBtn) {
+        addNoteBtn.onclick = () => {
+          noteArea.hidden = false;
+          addNoteBtn.hidden = true;
+          noteInput.focus();
+        };
+      }
+      if (cancelNoteBtn) {
+        cancelNoteBtn.onclick = () => {
+          noteArea.hidden = true;
+          addNoteBtn.hidden = false;
+          noteInput.value = progress.notes || "";
+        };
+      }
+      if (saveNoteBtn) {
+        saveNoteBtn.onclick = () => {
+          const note = noteInput.value.trim();
+          addStudyNote(id, note);
+          noteArea.hidden = true;
+          addNoteBtn.hidden = false;
+          /* refresh saved note display */
+          let savedNoteEl = modal.querySelector(".saved-note");
+          if (savedNoteEl) savedNoteEl.remove();
+          if (note) {
+            const noteDiv = document.createElement("div");
+            noteDiv.className = "saved-note";
+            noteDiv.innerHTML = `<strong>Your Note:</strong><br>${esc(note).replace(/\n/g, "<br>")}`;
+            noteArea.after(noteDiv);
+          }
+          toast("Note saved");
+        };
+      }
+
+      modal.querySelector(".modal-close").onclick = () => {
+        clearInterval(positionTimer);
+        updateStudyTime(id, Math.round((Date.now() - readStart) / 1000));
+        modal.remove();
+      };
+      modal.onclick = (e) => { if (e.target === modal) { clearInterval(positionTimer); updateStudyTime(id, Math.round((Date.now() - readStart) / 1000)); modal.remove(); } };
+      document.addEventListener("keydown", function escHandler(ev) { if (ev.key === "Escape") { clearInterval(positionTimer); updateStudyTime(id, Math.round((Date.now() - readStart) / 1000)); modal.remove(); document.removeEventListener("keydown", escHandler); } });
     } catch (e) { toast("Failed to load content: " + e.message); }
   }
   
@@ -1139,6 +1278,113 @@
       pagerEl.innerHTML = "";
       loadStudyOverview();
     };
+  }
+
+  /* ---------- Study Library (My Progress) ---------- */
+  function renderStudyLibrary() {
+    const container = $("studyLibContainer");
+    if (!container) return;
+    const stats = getStudyStats();
+    const allProgress = getAllStudyProgress();
+
+    container.innerHTML = `
+      <div class="study-lib-header">
+        <h1 class="page-title">My Study Library</h1>
+        <div class="stats-row">
+          <div class="stat-card"><strong>${stats.totalTracked}</strong><span>Tracked</span></div>
+          <div class="stat-card"><strong>${stats.read}</strong><span>Read</span></div>
+          <div class="stat-card"><strong>${stats.withNotes}</strong><span>With Notes</span></div>
+          <div class="stat-card"><strong>${Math.round(stats.totalTimeSec / 60)}</strong><span>Minutes</span></div>
+        </div>
+      </div>
+      <div class="filters card">
+        <div class="filter-row">
+          <label>Filter
+            <select id="slFilter">
+              <option value="all">All tracked</option>
+              <option value="read">Read</option>
+              <option value="unread">Unread</option>
+              <option value="notes">With notes</option>
+            </select>
+          </label>
+          <label>Sort
+            <select id="slSort">
+              <option value="recent">Recently read</option>
+              <option value="time">Time spent</option>
+              <option value="alpha">Title A-Z</option>
+            </select>
+          </label>
+        </div>
+      </div>
+      <div id="studyLibList" class="mcq-list"></div>
+    `;
+
+    const listEl = container.querySelector("#studyLibList");
+    const filterSel = container.querySelector("#slFilter");
+    const sortSel = container.querySelector("#slSort");
+
+    function renderList() {
+      let items = [...allProgress];
+      const filter = filterSel.value;
+      if (filter === "read") items = items.filter((x) => x.read);
+      else if (filter === "unread") items = items.filter((x) => !x.read);
+      else if (filter === "notes") items = items.filter((x) => x.notes);
+
+      const sort = sortSel.value;
+      if (sort === "time") items.sort((a, b) => (b.timeSpent || 0) - (a.timeSpent || 0));
+      else if (sort === "alpha") items.sort((a, b) => (a.contentId || "").localeCompare(b.contentId || ""));
+      else items.sort((a, b) => (b.readAt || "").localeCompare(a.readAt || ""));
+
+      if (!items.length) {
+        listEl.innerHTML = `<p class="muted">No content matches your filter. Start reading content in the <a href="#study">Study</a> section to build your library.</p>`;
+        return;
+      }
+
+      listEl.innerHTML = "";
+      items.forEach((item) => {
+        const div = document.createElement("div");
+        div.className = "study-lib-item";
+        div.innerHTML = `
+          <div class="lib-item-head">
+            <span class="chip ${item.read ? "chip-green" : "chip-gray"}">${item.read ? "✓ Read" : "Unread"}</span>
+            ${item.notes ? `<span class="chip chip-gold">📝 Note</span>` : ""}
+          </div>
+          <p class="lib-item-title" data-id="${item.contentId}">${item.contentId}</p>
+          <div class="lib-item-meta muted small">
+            ${item.read ? `Read: ${new Date(item.readAt).toLocaleDateString()} • ` : ""}
+            ${item.timeSpent ? `Time: ${Math.round(item.timeSpent / 60)} min` : ""}
+          </div>
+          <div class="lib-item-actions">
+            <button class="btn btn-sm btn-outline" data-action="view" data-id="${item.contentId}">View Content</button>
+            ${item.notes ? `<button class="btn btn-sm btn-outline" data-action="note" data-id="${item.contentId}">View Note</button>` : ""}
+          </div>
+        `;
+        listEl.appendChild(div);
+      });
+
+      /* wire up actions */
+      listEl.querySelectorAll("[data-action]").forEach((btn) => {
+        btn.onclick = () => {
+          const action = btn.dataset.action;
+          const cid = btn.dataset.id;
+          if (action === "view") {
+            openStudyDetail(cid);
+          } else if (action === "note") {
+            const prog = getStudyProgress(cid);
+            toast(`Note: ${prog.notes.slice(0, 100)}${prog.notes.length > 100 ? "..." : ""}`);
+          }
+        };
+      });
+      /* click title to view */
+      listEl.querySelectorAll(".lib-item-title").forEach((el) => {
+        el.style.cursor = "pointer";
+        el.onclick = () => openStudyDetail(el.dataset.id);
+      });
+    }
+
+    filterSel.onchange = renderList;
+    sortSel.onchange = renderList;
+    renderList();
   }
 
   /* ---------- Practice ---------- */
