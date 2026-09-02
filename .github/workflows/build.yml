@@ -43,6 +43,93 @@ jobs:
             console.log('robots.txt OK');
           "
 
+      - name: Check for broken internal links
+        run: |
+          node -e "
+            const fs = require('fs');
+            const path = require('path');
+            
+            function collectHtmlFiles(dir, files = []) {
+              if (!fs.existsSync(dir)) return files;
+              for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+                const full = path.join(dir, entry.name);
+                if (entry.isDirectory()) collectHtmlFiles(full, files);
+                else if (entry.name.endsWith('.html')) files.push(full);
+              }
+              return files;
+            }
+            
+            const htmlFiles = collectHtmlFiles('.', []);
+            console.log('Scanning', htmlFiles.length, 'HTML files for links...');
+            
+            let brokenLinks = 0;
+            const allPaths = new Set();
+            
+            // First pass: collect all existing paths
+            for (const file of htmlFiles) {
+              const rel = file.replace(/\\\\/g, '/').replace(/^\.\//, '');
+              allPaths.add(rel);
+              if (file.endsWith('index.html')) {
+                allPaths.add(rel.replace(/index\.html$/, ''));
+              }
+            }
+            
+            // Also add static assets
+            function collectAssets(dir) {
+              if (!fs.existsSync(dir)) return;
+              for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+                const full = path.join(dir, entry.name);
+                if (entry.isDirectory()) collectAssets(full);
+                else if (entry.name.match(/\.(css|js|png|jpg|jpeg|gif|svg|webp|ico|woff|woff2)$/)) {
+                  allPaths.add(full.replace(/\\\\/g, '/').replace(/^\.\//, ''));
+                }
+              }
+            }
+            collectAssets('assets');
+            collectAssets('data');
+            
+            // Second pass: check all links in HTML files
+            const linkRegex = /(?:href|src)\s*=\s*["']([^"']+)["']/g;
+            for (const file of htmlFiles) {
+              const content = fs.readFileSync(file, 'utf8');
+              const relDir = path.dirname(file).replace(/\\\\/g, '/');
+              
+              let match;
+              while ((match = linkRegex.exec(content)) !== null) {
+                const link = match[1];
+                
+                // Skip external links, anchors, and mailto/tel
+                if (link.startsWith('http://') || link.startsWith('https://') || 
+                    link.startsWith('mailto:') || link.startsWith('tel:') ||
+                    link.startsWith('#')) continue;
+                
+                // Resolve relative link
+                let resolved;
+                if (link.startsWith('/')) {
+                  resolved = link.substring(1);
+                } else {
+                  resolved = path.join(relDir, link).replace(/\\\\/g, '/');
+                }
+                
+                // Normalize
+                resolved = resolved.replace(/index\.html$/, '').replace(/\/$/, '');
+                
+                if (!allPaths.has(resolved) && !allPaths.has(resolved + '.html') && 
+                    !allPaths.has(resolved + '/index.html')) {
+                  console.error('Broken link in', file.replace(/\\\\/g, '/'), ':', link, '->', resolved);
+                  brokenLinks++;
+                }
+              }
+            }
+            
+            if (brokenLinks > 0) {
+              console.error('Found', brokenLinks, 'broken internal links');
+              process.exit(1);
+            }
+            console.log('All', brokenLinks, 'internal links OK');
+          "
+        continue-on-error: false
+
       - name: Upload static artifact
         uses: actions/upload-artifact@v4
         with:
