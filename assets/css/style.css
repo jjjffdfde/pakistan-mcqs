@@ -563,3 +563,79 @@ a:hover { text-decoration: underline; }
   .flashcard-meta { flex-direction: column; gap: 6px; }
 }
 
+/* Study Plans */
+.study-plans-header { margin-bottom: 20px; }
+.study-plans-header .page-title { margin-bottom: 8px; }
+.study-plans-header .muted { margin-bottom: 16px; }
+
+.study-plans-list { display: grid; gap: 16px; margin-top: 16px; }
+.study-plan-card {
+  background: var(--card-bg);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 20px;
+  box-shadow: var(--shadow);
+  transition: transform 0.12s ease, border-color 0.12s ease;
+}
+.study-plan-card:hover { transform: translateY(-2px); border-color: var(--green-500); }
+.plan-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 12px; flex-wrap: wrap; gap: 10px; }
+.plan-meta { display: flex; flex-wrap: wrap; gap: 8px; }
+.plan-progress { flex: 1; min-width: 200px; }
+.progress-bar { height: 8px; background: var(--body-bg); border: 1px solid var(--line); border-radius: 999px; overflow: hidden; margin-bottom: 4px; }
+.progress-fill { height: 100%; background: linear-gradient(90deg, var(--green-600), var(--gold)); transition: width 0.4s ease; }
+.plan-days { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 8px; margin: 16px 0; }
+.plan-day {
+  background: var(--body-bg);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+  font-size: 0.85rem;
+}
+.plan-day.completed { background: var(--green-50); border-color: var(--green-200); }
+.day-label { display: block; font-weight: 600; margin-bottom: 4px; }
+.day-slots { font-size: 0.75rem; color: var(--muted); }
+.plan-actions { display: flex; gap: 8px; justify-content: flex-end; margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--line); }
+.plan-actions .btn { flex: 1; min-width: 100px; }
+
+/* Plan Detail Modal */
+.study-plan-detail { max-width: 900px; width: 95%; }
+.plan-detail-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; flex-wrap: wrap; gap: 12px; }
+.plan-stats { display: flex; gap: 8px; flex-wrap: wrap; }
+.plan-days-detail { display: grid; gap: 16px; }
+.plan-day-detail {
+  background: var(--card-bg);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 16px;
+  box-shadow: var(--shadow);
+}
+.plan-day-detail.completed { background: var(--green-50); border-color: var(--green-200); }
+.plan-day-detail.focus { outline: 2px solid var(--gold); outline-offset: -2px; }
+.day-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; flex-wrap: wrap; gap: 8px; }
+.day-header h3 { margin: 0; font-size: 1.1rem; color: var(--green-800); }
+.day-slots-detail { display: grid; gap: 10px; }
+.slot-item {
+  display: flex; gap: 12px; align-items: center; flex-wrap: wrap;
+  background: var(--body-bg);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 12px;
+}
+.slot-item.completed { background: var(--green-50); border-color: var(--green-200); }
+.slot-time { font-weight: 600; color: var(--green-700); min-width: 80px; }
+.slot-info { flex: 1; min-width: 200px; }
+.slot-desc { margin: 4px 0; }
+.slot-meta { font-size: 0.75rem; }
+.slot-item button { flex-shrink: 0; }
+@media (max-width: 600px) {
+  .plan-header { flex-direction: column; }
+  .plan-progress { width: 100%; }
+  .plan-days { grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); }
+  .plan-actions { flex-direction: column; }
+  .plan-actions .btn { width: 100%; }
+  .day-header { flex-direction: column; align-items: flex-start; }
+  .slot-item { flex-direction: column; align-items: flex-start; }
+  .slot-item button { width: 100%; margin-top: 8px; }
+}
+

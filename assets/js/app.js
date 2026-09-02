@@ -187,6 +187,31 @@
       if (!this.enabled) return { error: "not available" };
       const res = await fetch(this.api + "/api/flashcards/" + id, { method: "DELETE", headers: { "Content-Type": "application/json" } });
       return res.json();
+    },
+    async studyPlansList(userId = "default") {
+      if (!this.enabled) return [];
+      return this.get("/api/study-plans" + this.qs({ userId }));
+    },
+    async studyPlanCreate(preferences, userId = "default") {
+      if (!this.enabled) return { error: "not available" };
+      return this.post("/api/study-plans", { userId, preferences });
+    },
+    async studyPlanGet(id) {
+      if (!this.enabled) return null;
+      return this.get("/api/study-plans/" + id);
+    },
+    async studyPlanStats(id) {
+      if (!this.enabled) return null;
+      return this.get("/api/study-plans/" + id + "/stats");
+    },
+    async studyPlanProgress(id, dayIndex, slotIndex, completed) {
+      if (!this.enabled) return { error: "not available" };
+      return this.post("/api/study-plans/" + id + "/progress", { dayIndex, slotIndex, completed });
+    },
+    async studyPlanDelete(id) {
+      if (!this.enabled) return { error: "not available" };
+      const res = await fetch(this.api + "/api/study-plans/" + id, { method: "DELETE", headers: { "Content-Type": "application/json" } });
+      return res.json();
     }
   };
 
@@ -347,7 +372,7 @@
   }
 
   /* ---------- Routing ---------- */
-  const VIEWS = ["home", "browse", "study", "study-library", "flashcards", "practice", "quiz", "papers", "dashboard", "leaderboard", "bookmarks"];
+  const VIEWS = ["home", "browse", "study", "study-library", "flashcards", "study-plans", "practice", "quiz", "papers", "dashboard", "leaderboard", "bookmarks"];
   const BROWSE_KEYS = ["subject", "chapter", "topic", "subtopic", "difficulty", "exam", "year", "type", "page"];
 
   function browseParams() {
@@ -374,6 +399,7 @@
     if (viewPart === "study") view = "study";
     if (viewPart === "study-library") view = "study-library";
     if (viewPart === "flashcards") view = "flashcards";
+    if (viewPart === "study-plans") view = "study-plans";
     const p = new URLSearchParams(qsPart);
     if (view === "ai-coach") {
       const av = document.getElementById("view-ai");
@@ -406,6 +432,7 @@
     if (view === "study") renderStudy();
     if (view === "study-library") renderStudyLibrary();
     if (view === "flashcards") renderFlashcards();
+    if (view === "study-plans") renderStudyPlans();
     if (view === "practice") renderPracticeSetup();
     if (view === "quiz") renderQuizList();
     if (view === "papers") renderPapers();
@@ -1749,6 +1776,151 @@
 
     viewSel.onchange = renderList;
   }
+
+  /* ---------- Study Plans ---------- */
+  
+  async function renderStudyPlans() {
+    const container = $("spPlansList");
+    const emptyEl = $("spEmpty");
+    const durationSel = $("spDuration");
+    const hoursSel = $("spHours");
+    const createBtn = $("spCreateBtn");
+
+    if (!DB.enabled) {
+      emptyEl.textContent = "Study plans require the self-hosted runtime server.";
+      emptyEl.hidden = false;
+      return;
+    }
+
+    async function loadPlans() {
+      container.innerHTML = "";
+      emptyEl.hidden = true;
+      try {
+        const plans = await DB.studyPlansList("default");
+        if (!plans.length) {
+          emptyEl.textContent = "No study plans yet. Click \"Generate Plan\" to create your personalized schedule.";
+          emptyEl.hidden = false;
+          return;
+        }
+        for (const plan of plans) {
+          const stats = plan.stats || { totalDays: 0, completedDays: 0, totalSlots: 0, completedSlots: 0 };
+          const progressPct = stats.totalSlots ? Math.round((stats.completedSlots / stats.totalSlots) * 100) : 0;
+          const isActive = !plan.progress?.every(d => d.completed);
+          const div = document.createElement("div");
+          div.className = "study-plan-card";
+          div.dataset.id = plan.id;
+          let html = '<div class="plan-header"><div class="plan-meta"><span class="chip ' + (isActive ? 'chip-green' : 'chip-gray') + '">' + (isActive ? 'Active' : 'Completed') + '</span><span class="chip chip-gray">' + (plan.preferences?.days || 7) + ' days</span><span class="chip chip-gray">' + (plan.preferences?.hoursPerDay || 2) + 'h/day</span></div><div class="plan-progress"><div class="progress-bar"><div class="progress-fill" style="width: ' + progressPct + '%"></div></div><span class="small muted">' + progressPct + '% complete</span></div></div><div class="plan-days"></div><div class="plan-actions">';
+          if (isActive) {
+            html += '<button class="btn btn-sm btn-primary sp-view" data-action="view">Continue</button>';
+          } else {
+            html += '<button class="btn btn-sm btn-outline sp-view" data-action="view">Review</button>';
+          }
+          html += '<button class="btn btn-sm btn-outline sp-delete" data-action="delete">Delete</button></div>';
+          div.innerHTML = html;
+          container.appendChild(div);
+        }
+        container.querySelectorAll(".sp-view").forEach(function(btn) {
+          btn.onclick = function() { openPlanDetail(btn.closest(".study-plan-card").dataset.id); };
+        });
+        container.querySelectorAll(".sp-delete").forEach(function(btn) {
+          btn.onclick = async function() {
+            const card = btn.closest(".study-plan-card");
+            if (!confirm("Delete this study plan?")) return;
+            try {
+              await DB.studyPlanDelete(card.dataset.id);
+              loadPlans();
+            } catch (e) { toast("Error: " + e.message); }
+          };
+        });
+      } catch (e) {
+        console.error(e);
+        emptyEl.textContent = "Failed to load study plans.";
+        emptyEl.hidden = false;
+      }
+    }
+
+    createBtn.onclick = async function() {
+      createBtn.disabled = true;
+      createBtn.textContent = "Generating...";
+      try {
+        const prefs = { days: +durationSel.value, hoursPerDay: +hoursSel.value };
+        const plan = await DB.studyPlanCreate(prefs, "default");
+        createBtn.disabled = false;
+        createBtn.textContent = "Generate Plan";
+        toast("Created " + prefs.days + "-day study plan");
+        loadPlans();
+        if (plan) openPlanDetail(plan.id);
+      } catch (e) {
+        createBtn.disabled = false;
+        createBtn.textContent = "Generate Plan";
+        toast("Error: " + e.message);
+      }
+    };
+
+    async function openPlanDetail(planId, focusDay) {
+      const plan = await DB.studyPlanGet(planId);
+      if (!plan) { toast("Plan not found"); return; }
+      const stats = await DB.studyPlanStats(planId);
+      const modal = document.createElement("div");
+      modal.className = "modal";
+      modal.setAttribute("role", "dialog");
+      modal.setAttribute("aria-modal", "true");
+      modal.innerHTML = '<div class="modal-content study-plan-detail" style="max-width: 900px; max-height: 90vh; overflow-y: auto;"><button class="modal-close" aria-label="Close">&times;</button><div class="plan-detail-header"><h2>' + (plan.preferences?.days || 7) + '-Day Study Plan</h2><div class="plan-stats"><span class="chip">' + (plan.preferences?.days || 7) + ' days</span><span class="chip">' + (plan.preferences?.hoursPerDay || 2) + 'h/day</span><span class="chip chip-gold">' + (stats?.progressPercent || 0) + '% complete</span></div></div><div class="plan-days-detail" id="planDaysDetail"></div><div class="plan-actions" style="margin-top:16px; display:flex; gap:8px; justify-content:flex-end;"><button class="btn btn-outline" id="spCloseModal">Close</button></div></div>';
+      document.body.appendChild(modal);
+      const daysContainer = modal.querySelector("#planDaysDetail");
+      plan.plan.forEach(function(day, i) {
+        const prog = plan.progress?.[i] || { completed: false, completedSlots: [] };
+        const dayDiv = document.createElement("div");
+        dayDiv.className = 'plan-day-detail ' + (prog.completed ? 'completed' : '') + (i === focusDay ? ' focus' : '');
+        dayDiv.dataset.day = i;
+        let slotsHtml = '';
+        if (day.slots) {
+          for (let si = 0; si < day.slots.length; si++) {
+            const slot = day.slots[si];
+            const done = prog.completedSlots?.includes(si);
+            slotsHtml += '<div class="slot-item ' + (done ? 'completed' : '') + '" data-slot="' + si + '"><div class="slot-time">' + slot.time + '</div><div class="slot-info"><strong>' + slot.title + '</strong><div class="slot-desc muted small">' + slot.description + '</div><div class="slot-meta muted small">' + slot.duration + ' min | ' + slot.type + ' | ' + slot.subject + '</div></div><button class="btn btn-sm ' + (done ? 'btn-gold' : 'btn-primary') + '" data-slot="' + si + '">' + (done ? 'Done' : 'Mark Done') + '</button></div>';
+          }
+        }
+        dayDiv.innerHTML = '<div class="day-header"><h3>Day ' + day.day + ' - ' + day.dayName + ' (' + day.date + ')</h3><span class="chip ' + (prog.completed ? 'chip-green' : 'chip-gray') + '">' + (prog.completed ? 'Completed' : (prog.completedSlots?.length || 0) + '/' + (day.slots?.length || 0) + ' done') + '</span></div><div class="day-slots-detail">' + slotsHtml + '</div>';
+        daysContainer.appendChild(dayDiv);
+      });
+      daysContainer.querySelectorAll(".slot-item button").forEach(function(btn) {
+        btn.onclick = async function() {
+          const slotItem = btn.closest(".slot-item");
+          const dayDiv = btn.closest(".plan-day-detail");
+          const dayIdx = +dayDiv.dataset.day;
+          const slotIdx = +slotItem.dataset.slot;
+          const isDone = btn.classList.contains("btn-gold");
+          btn.disabled = true;
+          btn.textContent = "...";
+          try {
+            const res = await DB.studyPlanProgress(planId, dayIdx, slotIdx, !isDone);
+            if (res.plan) {
+              loadPlans();
+              const newBtn = slotItem.querySelector("button");
+              if (newBtn) {
+                newBtn.classList.toggle("btn-gold", !isDone);
+                newBtn.classList.toggle("btn-primary", isDone);
+                newBtn.textContent = !isDone ? "Done" : "Mark Done";
+                newBtn.disabled = false;
+              }
+              slotItem.classList.toggle("completed", !isDone);
+            }
+          } catch (e) {
+            toast("Error: " + e.message);
+            btn.disabled = false;
+            btn.textContent = isDone ? "Mark Done" : "Done";
+          }
+        };
+      });
+      modal.querySelector("#spCloseModal").onclick = function() { modal.remove(); };
+      modal.querySelector(".modal-close").onclick = function() { modal.remove(); };
+      modal.onclick = function(e) { if (e.target === modal) modal.remove(); };
+    }
+
+    await loadPlans();
+  }
+
 
   function openAddCardModal() {
     const modal = document.createElement("div");

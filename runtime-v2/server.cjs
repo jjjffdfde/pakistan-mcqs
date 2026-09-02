@@ -30,6 +30,7 @@ const CQ = require("./content-query.cjs");
 const CML = require("./content-mcq-link.cjs");
 const CE = require("./ai/content-enrichment.cjs");
 const FC = require("./flashcards.cjs");
+const SP = require("./study-plan.cjs");
 
 function parseUrl(req) {
   const parsed = new URL(req.url, `http://${req.headers.host || "localhost"}`);
@@ -291,6 +292,44 @@ const server = http.createServer(async (req, res) => {
     if (pathname.startsWith("/api/flashcards/") && method === "DELETE") {
       const id = pathname.slice(16);
       const result = FC.deleteCard(id);
+      return result.error ? H.json(res, 404, result, req) : H.json(res, 200, result, req);
+    }
+
+    /* ---------- Study Plans ---------- */
+    if (pathname === "/api/study-plans" && method === "GET") {
+      const userId = query.userId || "default";
+      return H.json(res, 200, SP.getUserPlans(userId), req);
+    }
+    if (pathname === "/api/study-plans" && method === "POST") {
+      const body = await H.readJson(req);
+      const userId = body.userId || "default";
+      const prefs = body.preferences || {};
+      const plan = SP.createPlan(userId, prefs);
+      return H.json(res, 201, plan, req);
+    }
+    if (pathname.startsWith("/api/study-plans/") && method === "GET") {
+      const id = pathname.slice(16); /* /api/study-plans/ */
+      if (pathname.endsWith("/stats")) {
+        const planId = id.slice(0, -6);
+        const stats = SP.getPlanStats(planId);
+        return stats ? H.json(res, 200, stats, req) : H.json(res, 404, { error: "Plan not found" }, req);
+      }
+      const plan = SP.getPlan(id);
+      return plan ? H.json(res, 200, plan, req) : H.json(res, 404, { error: "Plan not found" }, req);
+    }
+    if (pathname.startsWith("/api/study-plans/") && method === "POST") {
+      const id = pathname.slice(16);
+      if (pathname.endsWith("/progress")) {
+        const body = await H.readJson(req);
+        const { dayIndex, slotIndex, completed } = body;
+        const result = SP.updatePlanProgress(id, +dayIndex, +slotIndex, !!completed);
+        return result.error ? H.json(res, 400, result, req) : H.json(res, 200, result, req);
+      }
+      return H.json(res, 404, { error: "study-plan sub-action not found" }, req);
+    }
+    if (pathname.startsWith("/api/study-plans/") && method === "DELETE") {
+      const id = pathname.slice(16);
+      const result = SP.deletePlan(id);
       return result.error ? H.json(res, 404, result, req) : H.json(res, 200, result, req);
     }
 

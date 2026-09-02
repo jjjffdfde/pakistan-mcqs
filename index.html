@@ -159,6 +159,7 @@
       <button class="nav-link" data-view="study" role="menuitem">Study</button>
       <button class="nav-link" data-view="study-library" role="menuitem">My Library</button>
       <button class="nav-link" data-view="flashcards" role="menuitem">Flashcards</button>
+      <button class="nav-link" data-view="study-plans" role="menuitem">Study Plans</button>
       <button class="nav-link" data-view="practice" role="menuitem">Practice</button>
       <button class="nav-link" data-view="quiz" role="menuitem">Quizzes</button>
       <button class="nav-link" data-view="papers" role="menuitem">Past Papers</button>
@@ -537,6 +538,38 @@
     <div id="fcEmpty" class="muted" hidden>No flashcards yet. Add cards manually or import from Study content using AI.</div>
   </section>
 
+  <section id="view-study-plans" class="view" hidden>
+    <div class="study-plans-header">
+      <h1 class="page-title">Study Plans</h1>
+      <p class="muted">AI-generated personalized study schedules based on your weak topics, flashcards, and goals.</p>
+      <div class="filters card">
+        <div class="filter-row">
+          <label>Duration
+            <select id="spDuration">
+              <option value="7">7 Days</option>
+              <option value="14">14 Days</option>
+              <option value="30" selected>30 Days</option>
+            </select>
+          </label>
+          <label>Hours/Day
+            <select id="spHours">
+              <option value="1">1 Hour</option>
+              <option value="2" selected>2 Hours</option>
+              <option value="3">3 Hours</option>
+              <option value="4">4 Hours</option>
+            </select>
+          </label>
+          <button id="spCreateBtn" class="btn btn-primary">Generate Plan</button>
+        </div>
+      </div>
+    </div>
+    
+    <div id="spPlansList" class="study-plans-list"></div>
+    <div id="spEmpty" class="muted" hidden>No study plans yet. Click "Generate Plan" to create your personalized schedule.</div>
+    
+    <!-- Plan Detail Modal will be inserted here -->
+  </section>
+
   <section id="view-ai" class="view" hidden>
     <h1 class="page-title">AI Coach</h1>
     <p class="muted">Personalized learning engine — readiness, adaptive practice, spaced revision, mock predictions and a smart study plan. Requires the self-hosted runtime server.</p>
@@ -571,6 +604,7 @@
       <button class="nav-link" data-view="study">Study</button>
       <button class="nav-link" data-view="study-library">My Library</button>
       <button class="nav-link" data-view="flashcards">Flashcards</button>
+      <button class="nav-link" data-view="study-plans">Study Plans</button>
       <button class="nav-link" data-view="papers">Past Papers</button>
       <a href="admin.html">Admin</a>
     </nav>
