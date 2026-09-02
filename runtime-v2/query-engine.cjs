@@ -50,7 +50,7 @@ async function reload() {
 
 function sanitizeFts(q) {
   if (!q) return "";
-  const words = String(q).replace(/['"^:*?()~{}\[\]\-]/g, " ").trim().split(/\s+/).filter(Boolean);
+  const words = String(q).toLowerCase().replace(/['"^:*?()~{}\[\]\-]/g, " ").trim().split(/\s+/).filter(Boolean);
   return words;
 }
 
