@@ -27,7 +27,11 @@ function handlePreflight(req, res) {
 
 /* ---------- JSON responses ---------- */
 function json(res, status, data, req) {
-  const headers = { "Content-Type": "application/json; charset=utf-8", ...corsHeaders(req || { headers: {} }) };
+  const headers = { 
+    "Content-Type": "application/json; charset=utf-8", 
+    ...corsHeaders(req || { headers: {} }),
+    "Content-Security-Policy": "default-src 'self'; script-src 'self' 'unsafe-inline' https://jjjffdfde.github.io; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://jjjffdfde.github.io; connect-src 'self' http://localhost:8766 http://127.0.0.1:8766; frame-ancestors 'none'; base-uri 'self'; form-action 'self'"
+  };
   res.writeHead(status, headers);
   res.end(JSON.stringify(data));
 }

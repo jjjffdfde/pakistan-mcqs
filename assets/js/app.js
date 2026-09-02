@@ -71,11 +71,11 @@
     total: 0,
     stats: null,
     async probe() {
-      const hosts = ["http://localhost:8766", "http://127.0.0.1:8766", "http://localhost:8765", "http://127.0.0.1:8765"];
+      const hosts = ["http://localhost:8766", "http://127.0.0.1:8766"];
       for (const host of hosts) {
         try {
           const ctl = new AbortController();
-          const t = setTimeout(() => ctl.abort(), 2500);
+          const t = setTimeout(() => ctl.abort(), 500);
           const res = await fetch(host + "/api/health", { signal: ctl.signal });
           clearTimeout(t);
           if (!res.ok) continue;
@@ -407,6 +407,16 @@
       document.querySelectorAll(".nav-link[data-view]").forEach((b) => b.classList.toggle("active", b.dataset.view === "ai-coach"));
       document.querySelector(".main-nav").classList.remove("open");
       window.scrollTo({ top: 0, behavior: "instant" });
+      if (!DB.enabled) {
+        const panel = document.getElementById("aiPanel");
+        if (panel) panel.innerHTML = `
+          <div class="notice">
+            <h3>AI Coach requires self-hosted runtime</h3>
+            <p class="muted">The AI Coach features (readiness, adaptive practice, spaced revision, mock predictions, study planner) require the self-hosted runtime server.</p>
+            <p class="muted">Run <code>node runtime-v2/server.cjs</code> locally, then reload this page to enable AI Coach.</p>
+            <a href="https://github.com/jjjffdfde/pakistan-mcqs#self-hosted-runtime" target="_blank" class="btn btn-outline" style="margin-top:12px">Learn how to self-host</a>
+          </div>`;
+      }
       return;
     }
     if (view === "browse") {
@@ -1469,6 +1479,18 @@
     overviewEl.hidden = false;
     resultsEl.hidden = true;
     pagerEl.innerHTML = "";
+    
+    if (!DB.enabled) {
+      overviewEl.innerHTML = `
+        <div class="study-unavailable">
+          <h3>Study Content Unavailable</h3>
+          <p class="muted">Study content requires the self-hosted runtime server to access 5,831+ content blocks from PDFs across 9 subjects.</p>
+          <p class="muted small">Run <code>node runtime-v2/server.cjs</code> locally, then reload this page to enable Study, Flashcards, Study Plans, and AI Coach features.</p>
+          <a href="https://github.com/jjjffdfde/pakistan-mcqs#self-hosted-runtime" target="_blank" class="btn btn-outline" style="margin-top:12px">Learn how to self-host</a>
+        </div>`;
+      return;
+    }
+    
     loadStudyOverview();
 
     /* Wire up filters */
@@ -1644,11 +1666,11 @@
       listEl.innerHTML = "";
       emptyEl.hidden = true;
 
-      if (!DB.enabled) {
-        emptyEl.textContent = "Flashcards require the self-hosted runtime server.";
-        emptyEl.hidden = false;
-        return;
-      }
+if (!DB.enabled) {
+      emptyEl.textContent = "Flashcards require the self-hosted runtime server. Run <code>node runtime-v2/server.cjs</code> locally to enable spaced repetition (SM-2 algorithm).";
+      emptyEl.hidden = false;
+      return;
+    }
 
       let cards;
       try {
@@ -1786,8 +1808,8 @@
     const hoursSel = $("spHours");
     const createBtn = $("spCreateBtn");
 
-    if (!DB.enabled) {
-      emptyEl.textContent = "Study plans require the self-hosted runtime server.";
+if (!DB.enabled) {
+      emptyEl.textContent = "Study plans require the self-hosted runtime server. Run <code>node runtime-v2/server.cjs</code> locally to generate AI-powered study schedules based on your weak topics and flashcards.";
       emptyEl.hidden = false;
       return;
     }
